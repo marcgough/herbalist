@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "status": "pass",
+  "generatedAt": "2026-06-24T03:44:01.285Z",
+  "safeToRun": "Local production cutover simulation only. No Cloudflare API call, deployment, DNS mutation, upload, paid generation, secret readout, or Wrangler config write is attempted.",
+  "scenario": {
+    "d1DatabaseName": "herbalisti",
+    "d1DatabaseId": "12345678...9abc",
+    "optionalR2Bucket": "herbalisti-media",
+    "pagesProject": "herbalisti",
+    "newsWorker": "herbalisti-news-refresh",
+    "domain": "herbalisti.com"
+  },
+  "simulatedBindings": {
+    "pagesD1BindingActive": true,
+    "newsWorkerD1BindingActive": true,
+    "sharedD1DatabaseId": true,
+    "pagesR2BindingActive": true,
+    "newsWorkerR2BindingActive": false
+  },
+  "sequencedCutover": [
+    "Create Cloudflare D1 database after Marc approval.",
+    "Activate local Wrangler bindings with the returned D1 database ID.",
+    "Apply remote D1 migrations after bindings are active.",
+    "Set required Cloudflare secrets without exposing values in chat, docs, Git, or logs.",
+    "Deploy Pages and the scheduled Worker after migrations and secrets.",
+    "Connect herbalisti.com after the Pages deployment.",
+    "Run strict live completion gates against https://herbalisti.com."
+  ],
+  "checks": [
+    {
+      "id": "no-wrangler-file-writes",
+      "status": "pass",
+      "detail": "The simulation leaves wrangler.toml and wrangler.news.toml unchanged."
+    },
+    {
+      "id": "pages-d1-binding",
+      "status": "pass",
+      "detail": "Simulated Pages config receives HERBALISTI_DB with the supplied D1 database ID."
+    },
+    {
+      "id": "news-worker-d1-binding",
+      "status": "pass",
+      "detail": "Simulated scheduled Worker config receives HERBALISTI_DB with the same D1 database ID."
+    },
+    {
+      "id": "shared-d1-id",
+      "status": "pass",
+      "detail": "Pages Functions and scheduled Worker share one production D1 target."
+    },
+    {
+      "id": "pages-r2-binding",
+      "status": "pass",
+      "detail": "The optional R2 binding is added to the Pages config when a bucket is supplied."
+    },
+    {
+      "id": "news-worker-no-r2-binding",
+      "status": "pass",
+      "detail": "The scheduled Worker does not receive the optional media bucket binding."
+    },
+    {
+      "id": "no-template-placeholders",
+      "status": "pass",
+      "detail": "Generated configs do not retain template placeholders."
+    },
+    {
+      "id": "safe-preflight-gate",
+      "status": "pass",
+      "detail": "The production contract includes the cutover simulation verifier in safe preflight."
+    },
+    {
+      "id": "local-rehearsal-action",
+      "status": "pass",
+      "detail": "The external action checklist exposes the rehearsal as a local allowed action."
+    },
+    {
+      "id": "d1-before-local-activation",
+      "status": "pass",
+      "detail": "Local D1 binding activation is sequenced after Cloudflare creates the D1 database."
+    },
+    {
+      "id": "remote-migrations-after-binding",
+      "status": "pass",
+      "detail": "Remote D1 migrations are sequenced after local Wrangler bindings are activated."
+    },
+    {
+      "id": "pages-deploy-after-migrations-and-secrets",
+      "status": "pass",
+      "detail": "Pages deployment is sequenced after migrations and required secrets."
+    },
+    {
+      "id": "domain-after-pages-deploy",
+      "status": "pass",
+      "detail": "Custom domain work is sequenced after the Pages deployment."
+    },
+    {
+      "id": "live-completion-gates",
+      "status": "pass",
+      "detail": "Live completion remains gated by strict live readiness, production smoke, and strict goal readiness."
+    }
+  ],
+  "blockers": [],
+  "nextActions": [
+    "Keep npm run verify:production-cutover in safe preflight and release verification.",
+    "Use npm run prepare:production-cutover to refresh the human handoff artifact before approved live cutover."
+  ]
+}

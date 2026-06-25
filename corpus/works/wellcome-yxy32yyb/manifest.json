@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-yxy32yyb",
+  "title": "The British herbal and family physician : for the cure of diseases incident to the human frame / by Nicholas Culpeper, student in physic and astrology.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/yxy32yyb",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24974857",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/yxy32yyb",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine;botany",
+  "chunkCount": 873,
+  "paragraphCount": 924,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-yxy32yyb\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-yxy32yyb\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-yxy32yyb.jsonl",
+  "rawSha256": "77aae295e952f661054348f1af8b5f8f8ddc16aa1c75bec18380c21002f5c833",
+  "normalizedSha256": "e963776a74a128a0fbda43e17425cae36671d9d058f49eced8517a8e80676665",
+  "processedAt": "2026-06-16T13:47:03.957Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

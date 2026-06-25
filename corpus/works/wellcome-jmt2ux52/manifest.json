@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-jmt2ux52",
+  "title": "Culpeper's English family physician; or medical herbal enlarged, with several hundred additional plants / principally from Sir John Hill ... And a new dispensatory, from the MS. of Dr. Saunders ... By Joshua Hamilton.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/jmt2ux52",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b28775764",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/jmt2ux52",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1359,
+  "paragraphCount": 1391,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-jmt2ux52\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-jmt2ux52\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-jmt2ux52\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-jmt2ux52.jsonl",
+  "rawSha256": "8c6ad582543345b73b3351e1f1a1db401985241a2b51099c12561eed6c9838fc",
+  "normalizedSha256": "e64b363152784dbaae772cd6cf1e5ed4b6145fb16c9f670f8cb7274ca3e7dcc8",
+  "processedAt": "2026-06-16T22:49:38.542Z"
+}

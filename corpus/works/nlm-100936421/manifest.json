@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-100936421",
+  "title": "Gunn's domestic medicine, or, Poor man's friend, in the hours of affliction, pain and sickness : this book points out, in plain language free from doctor's terms, the diseases of men, women and children, and the latest and most approved means used in their cure,and is expressly written for the benefit of families, in the western and southern states : it also contains descriptions of the medicinal roots and herbs of the western and southern country, and how they are to be used in the cure of diseases, arranged on a new and simple plan, by which the practice of medicine is reduced to principles of common sense",
+  "creator": "Gunn, John C.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100936421-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-100936421-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/100936421",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1592,
+  "paragraphCount": 1992,
+  "sectionCount": 10,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-100936421\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-100936421\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-100936421\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-100936421.jsonl",
+  "rawSha256": "983ae92eb9c7f5465b96d72baafdc013fb4640cf160571736372d522b95a3821",
+  "normalizedSha256": "bcf5f6259a69246bb371a69b8bf91af49d0965162cdf001ae5c692a6e6503ac5",
+  "processedAt": "2026-06-16T23:06:14.763Z"
+}

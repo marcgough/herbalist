@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63570990R",
+  "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+  "creator": "Gunn, John C.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63570990R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63570990R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medicinal-plants",
+  "chunkCount": 3828,
+  "paragraphCount": 4420,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570990R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570990R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63570990R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63570990R.jsonl",
+  "rawSha256": "3fddb158b561c5a83afd0a4a19d35da531f3e961bdbe8f5fffe6ead0124884fd",
+  "normalizedSha256": "a9842c4dc07685944440a78dae63374cee5404b7a96224ac656f2ca38a4e3062",
+  "processedAt": "2026-06-17T17:31:45.448Z"
+}

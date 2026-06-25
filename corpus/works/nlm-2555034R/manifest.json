@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2555034R",
+  "title": "A pocket conspectus of the London and Edinburgh pharmacopoeias : wherein the virtues, uses, and doses, of the several articles and preparations contained in those works, are concisely stated : their pronunciation, as to quantity, is distinctly marked : and a variety of other particulars respecting them given, calculated more especially for the use of junior practitioners",
+  "creator": "Graves, Robert, 1763-1849.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555034R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2555034R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2555034R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 184,
+  "paragraphCount": 258,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2555034R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2555034R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2555034R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2555034R.jsonl",
+  "rawSha256": "aae8270d248aebe0d3a5376e8ace3f2f3fab93e3cf123f1144c3b873ccd8762c",
+  "normalizedSha256": "b8e2230396d7438bc99e947c88532ff53eed916aa1334ee297780e4d07437007",
+  "processedAt": "2026-06-18T02:21:14.318Z"
+}

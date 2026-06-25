@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2574039R",
+  "title": "The family physician : or, Domestic medical friend : containing plain and practical instructions for the prevention and cure of diseases, according to the newest improvements and discoveries : with a series of chapters on collateral subjects : comprising every thing relative to the theory and principles of the medical art, necessary to be known by the private practitioner : the whole adapted to the use of those heads of families who have not had a classical or medical education",
+  "creator": "Thomson, Alexander, M.D.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574039R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2574039R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2574039R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 1595,
+  "paragraphCount": 2240,
+  "sectionCount": 15,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2574039R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2574039R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2574039R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2574039R.jsonl",
+  "rawSha256": "a17d5cb30e907d8b7df645346c4dab8135449da0d3b56b0a92a632c133fe8355",
+  "normalizedSha256": "c069bd2d2654e2e462c4dfe7ac73e54b79ef99b5b8507170839e0c52575a18bb",
+  "processedAt": "2026-06-17T11:30:58.521Z"
+}

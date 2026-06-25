@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-t4np7uvm",
+  "title": "Medical botany, or the herbal guide to health, explaining the natural pathology of disease, with hundreds of herbal recipes / [William Joseph Simmonite].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/t4np7uvm",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b33027213",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/t4np7uvm",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;medical-botany;domestic-medicine;botany",
+  "chunkCount": 422,
+  "paragraphCount": 430,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-t4np7uvm\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-t4np7uvm\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-t4np7uvm.jsonl",
+  "rawSha256": "7a59302ebc128f6f97ad6a7a9ec78ffcba1818c0a0f9a0f8d97cef4177ec86c3",
+  "normalizedSha256": "21d723cdcd36f265d801a1125ec40f48e0bb88191b2086514d48a3aa1b413739",
+  "processedAt": "2026-06-16T13:46:58.512Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

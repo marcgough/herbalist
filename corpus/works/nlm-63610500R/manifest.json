@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63610500R",
+  "title": "Cure of disease simplified : a modern vade mecum for the household",
+  "creator": "Melendy, Mary Ries, 1841-1927.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610500R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63610500R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63610500R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;household-health",
+  "chunkCount": 561,
+  "paragraphCount": 590,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610500R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610500R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63610500R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63610500R.jsonl",
+  "rawSha256": "76efa9959496f8d0cd8583c8d286f8675df33fe8e37b806ae1daa94f7eed7445",
+  "normalizedSha256": "0c669b0e67eb5930ea31c00a756323f26a0674d90948f8a9b2373d06737f0638",
+  "processedAt": "2026-06-17T17:55:51.159Z"
+}

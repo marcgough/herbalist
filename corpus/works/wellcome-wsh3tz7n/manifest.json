@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-wsh3tz7n",
+  "title": "Materia medica: or, a new description of the virtues and effects of all drugs, or simple medicines now in use. Where from their principles, these virtues, both common and specifick, are shewn, with the preparations of each; and prescriptions: as also judicious remarks are every where interspers'd / Done from the Latin original of Dr. Paul Harman [sic] ... To which is prefix'd, a general introduction, containing a mechanical account of the operations of all medicines upon human bodies. Also critical observations are added to each simple thro' the whole, wherever it was found necessary. By Edward Strother.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/wsh3tz7n",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30529074",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/wsh3tz7n",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 499,
+  "paragraphCount": 517,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-wsh3tz7n\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-wsh3tz7n\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-wsh3tz7n\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-wsh3tz7n.jsonl",
+  "rawSha256": "611b87ab5b1a4f3e1d34478b28193baa2b06b1b9211be476dc527ba7fcb0a09c",
+  "normalizedSha256": "fa55136b9f6a17cfb2ef52e6e4fdb3ee580eb6781cb610cc0f8e412a117b4433",
+  "processedAt": "2026-06-16T23:14:05.401Z"
+}

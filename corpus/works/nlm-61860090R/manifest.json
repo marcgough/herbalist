@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61860090R",
+  "title": "Nomenclature and pharmacopoeia of the New York Dispensary",
+  "creator": "New York Dispensary, author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61860090R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61860090R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61860090R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 25,
+  "paragraphCount": 26,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61860090R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61860090R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61860090R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61860090R.jsonl",
+  "rawSha256": "f19110d7042383527dcdefdd467cbe1a20276148b3ab3b7f0476bf7e67a91aee",
+  "normalizedSha256": "46a9e1a4438ddbc0a71fd49edc657487059da535becc7b4c5726023c60bcbee1",
+  "processedAt": "2026-06-18T03:55:52.774Z"
+}

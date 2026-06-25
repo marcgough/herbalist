@@ -1,0 +1,179 @@
+{
+  "name": "Herbalisti discovery metadata",
+  "version": "2026-06-16",
+  "generatedAt": "2026-06-25T11:32:01.778Z",
+  "source": "static-export-discovery-metadata",
+  "policy": "Structured discovery metadata for search engines, crawlers, and public data users. It describes public Herbalisti surfaces without medical advice, diagnosis, treatment claims, copied source text, or personalized recommendations.",
+  "canonicalUrl": "https://herbalisti.com/",
+  "sitemapUrl": "https://herbalisti.com/sitemap.xml",
+  "openSearchUrl": "https://herbalisti.com/opensearch.xml",
+  "apiCatalogUrl": "https://herbalisti.com/data/api-catalog.json",
+  "structuredDataId": "herbalisti-structured-data",
+  "rss": "https://herbalisti.com/api/signals.xml",
+  "searchAction": "https://herbalisti.com/search?q={search_term_string}",
+  "catalogUrl": "https://herbalisti.com/source-policy",
+  "publicSurfaces": [
+    {
+      "type": "page",
+      "url": "https://herbalisti.com/",
+      "changefreq": "daily"
+    },
+    {
+      "type": "page",
+      "url": "https://herbalisti.com/search",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "page",
+      "url": "https://herbalisti.com/library",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "page",
+      "url": "https://herbalisti.com/notes",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "page",
+      "url": "https://herbalisti.com/remedies",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "page",
+      "url": "https://herbalisti.com/map",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "page",
+      "url": "https://herbalisti.com/signals",
+      "changefreq": "daily"
+    },
+    {
+      "type": "page",
+      "url": "https://herbalisti.com/source-policy",
+      "changefreq": "monthly"
+    },
+    {
+      "type": "page",
+      "url": "https://herbalisti.com/governance",
+      "changefreq": "monthly"
+    },
+    {
+      "type": "search",
+      "url": "https://herbalisti.com/opensearch.xml",
+      "changefreq": "monthly"
+    },
+    {
+      "type": "feed",
+      "url": "https://herbalisti.com/api/signals.xml",
+      "changefreq": "daily"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/news.json",
+      "changefreq": "daily"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/feed-status.json",
+      "changefreq": "daily"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/reference-books.json",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/herbal-knowledge.json",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/remedies.json",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/citation-notes.json",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/sources.json",
+      "changefreq": "monthly"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/discovery-metadata.json",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/api-catalog.json",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/governance.json",
+      "changefreq": "monthly"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/media-provenance.json",
+      "changefreq": "monthly"
+    },
+    {
+      "type": "data",
+      "url": "https://herbalisti.com/data/media-manifest.json",
+      "changefreq": "monthly"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "reference-books",
+      "name": "Herbalisti reference book index",
+      "url": "https://herbalisti.com/data/reference-books.json",
+      "recordCount": 1328,
+      "rightsBoundary": "Bibliographic metadata and rights-cleared source-index records only."
+    },
+    {
+      "id": "herbal-commons",
+      "name": "Herbalisti public-domain herbal commons",
+      "url": "https://herbalisti.com/data/herbal-knowledge.json",
+      "recordCount": 124,
+      "sourceCount": 200,
+      "rightsBoundary": "Rights-cleared historical source index for educational retrieval."
+    },
+    {
+      "id": "remedies",
+      "name": "Herbalisti remedy index",
+      "url": "https://herbalisti.com/data/remedies.json",
+      "recordCount": 21,
+      "rightsBoundary": "Safety-led public source index; traditional-use context is not medical advice."
+    },
+    {
+      "id": "citation-notes",
+      "name": "Herbalisti citation notes",
+      "url": "https://herbalisti.com/data/citation-notes.json",
+      "recordCount": 10,
+      "rightsBoundary": "Concise source pointers for auditability; not copied source text."
+    },
+    {
+      "id": "source-registry",
+      "name": "Herbalisti source registry",
+      "url": "https://herbalisti.com/data/sources.json",
+      "recordCount": 6,
+      "rightsBoundary": "Allowlist-first source registry with Big Pharma-related channels excluded by default."
+    }
+  ],
+  "jsonLdGraph": [
+    "https://herbalisti.com/#organization",
+    "https://herbalisti.com/#website",
+    "https://herbalisti.com/#webpage",
+    "https://herbalisti.com/data/#catalog",
+    "https://herbalisti.com/data/reference-books.json#dataset",
+    "https://herbalisti.com/data/herbal-knowledge.json#dataset",
+    "https://herbalisti.com/api/signals.xml#feed"
+  ]
+}

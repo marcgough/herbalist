@@ -1,0 +1,1062 @@
+{
+  "profile_id": "seed-madder",
+  "family_id": "seed-madder",
+  "canonical_name": "Madder",
+  "canonical_key": "madder",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-madder-8572cbd7ee#madder"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 176,
+    "total_chunks": 172,
+    "total_works": 121,
+    "matched_chunk_count": 172,
+    "matched_work_count": 121,
+    "matched_mention_total": 172
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Madder",
+      "Madders"
+    ],
+    "sample_work_ids": [
+      "nlm-0217313",
+      "nlm-0217315",
+      "nlm-0217317"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217313-chunk-1718",
+      "nlm-0217315-chunk-1870",
+      "nlm-0217317-chunk-1911"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 115
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 34
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 23
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 148,
+        "work_count": 108
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 42,
+        "work_count": 37
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 40,
+        "work_count": 37
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 28,
+        "work_count": 27
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 25,
+        "work_count": 23
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 22,
+        "work_count": 22
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 21,
+        "work_count": 19
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 20,
+        "work_count": 19
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "preparations": [
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 80,
+        "work_count": 73
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 57,
+        "work_count": 50
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 28,
+        "work_count": 23
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 25,
+        "work_count": 13
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 22,
+        "work_count": 21
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 12,
+        "work_count": 10
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 12,
+        "work_count": 10
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 11,
+        "work_count": 11
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 33,
+        "work_count": 25
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 4,
+        "work_count": 2
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 23,
+        "work_count": 23
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 23,
+        "work_count": 22
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 23,
+        "work_count": 22
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 14,
+        "work_count": 13
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 3,
+        "work_count": 2
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "pg-49513",
+      "title": "The Complete Herbal",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "herbal",
+      "source_url": "https://www.gutenberg.org/ebooks/49513",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-61730020R",
+      "title": "A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine, their physical and chemical properties, the botanical characters of the medicinal plants, and the formulae for the principal officinal preparations of the American, Parisian, London, Dublin, Edinburgh, &c pharmacopoeiae : with observations on the proper mode of combining and administering remedies",
+      "creator": "Milne-Edwards, H. (Henri), 1800-1885.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;medicinal-plants;botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61730020R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-agdnfevh",
+      "title": "A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.",
+      "creator": "",
+      "publication_year": "1821",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/agdnfevh",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-7704741",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-q59tmjuk",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-2558004RX2",
+      "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volume 3)",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558004RX2-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-9435910",
+      "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-mv32s6ry",
+      "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1856",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-63580340R",
+      "title": "Supplement to Howard's Domestic medicine : being a practical treatise on midwifery and the diseases peculiar to women : giving elaborate instructions in all that pertains to the structure, functions, and health of the organs of generation, and treating fully of conception, development, labor, nursing, diseases of the womb, the best remedies, how to prepare and administer them, etc",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580340R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-32520980R-chunk-1862",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE SPLEEN. 333",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Constipation"
+        ],
+        "excerpt": "Water, twice a day. f Decoction of •j marshmallowroot (^2 or 3 times a day In water. In water, warm. In mint-water. In pills, occasionally. In mint-water. In mint-water, 3 or 4 times a day V -I PROPERTIES OR EFFECTS....",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-0217315-chunk-1870",
+        "work_id": "nlm-0217315",
+        "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with observations on sea-bathing, and the use of the mineral waters, to which is annexed a dispensatory for the use of private practitioners",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "VI",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217315-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Names. Madder powder Mace - - Magnesia - --------, calcined - Manna - Marsh-mallows, root and leaves of .... Mastich, gum - Mercury, crude --------, calcined ,--------, with chalk ———, corrpsive sublimate - --------,...",
+        "score": 37
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0549",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Powder",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The properties of that which is called the English Rhubarb are the same with the former, but much more effectual, and hath all the properties of the true Italian Rhubarbs, except the force in purging, wherein it is bu...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-mqb4h4ks-chunk-1634",
+        "work_id": "wellcome-mqb4h4ks",
+        "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself and a family herbal. To which are added, such useful discoveries ... as have transpired since the demise of the author / by William Buchan.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mqb4h4ks",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Fruit"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Plaster",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [],
+        "excerpt": "Logwood : A wood of a tree growing in the bay of Honduras—sens, prop. Sweetish, astringent—med. virt. Tonic—mode of exhib. Decoc- tion, infusion, extract; employed against diarrhoeas and dysenteries. Mace: A membrane...",
+        "score": 33
+      },
+      {
+        "chunk_id": "nlm-61730020R-chunk-0295",
+        "work_id": "nlm-61730020R",
+        "title": "A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine, their physical and chemical properties, the botanical characters of the medicinal plants, and the formulae for the principal officinal preparations of the American, Parisian, London, Dublin, Edinburgh, &c pharmacopoeiae : with observations on the proper mode of combining and administering remedies",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A CONCISE DESCRIPTION OF THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61730020R-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "D. & M. of Adm. Powder, gr. x. to JJss. Decoction, kino, jj. to gij. to water, ifeij.----Pubis kino compositus, L. (Kino, Jxv.; cinnamon, giv.; opium, £j.) 20 grains of the powder contain 1 grain of opium. Dose, from...",
+        "score": 32
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-32520980R-chunk-1862",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE SPLEEN. 333",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Constipation"
+        ],
+        "excerpt": "Water, twice a day. f Decoction of •j marshmallowroot (^2 or 3 times a day In water. In water, warm. In mint-water. In pills, occasionally. In mint-water. In mint-water, 3 or 4 times a day V -I PROPERTIES OR EFFECTS....",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-0217315-chunk-1870",
+        "work_id": "nlm-0217315",
+        "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with observations on sea-bathing, and the use of the mineral waters, to which is annexed a dispensatory for the use of private practitioners",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "VI",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217315-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Names. Madder powder Mace - - Magnesia - --------, calcined - Manna - Marsh-mallows, root and leaves of .... Mastich, gum - Mercury, crude --------, calcined ,--------, with chalk ———, corrpsive sublimate - --------,...",
+        "score": 37
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0549",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Powder",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The properties of that which is called the English Rhubarb are the same with the former, but much more effectual, and hath all the properties of the true Italian Rhubarbs, except the force in purging, wherein it is bu...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-mqb4h4ks-chunk-1634",
+        "work_id": "wellcome-mqb4h4ks",
+        "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself and a family herbal. To which are added, such useful discoveries ... as have transpired since the demise of the author / by William Buchan.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mqb4h4ks",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Fruit"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Plaster",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [],
+        "excerpt": "Logwood : A wood of a tree growing in the bay of Honduras—sens, prop. Sweetish, astringent—med. virt. Tonic—mode of exhib. Decoc- tion, infusion, extract; employed against diarrhoeas and dysenteries. Mace: A membrane...",
+        "score": 33
+      },
+      {
+        "chunk_id": "nlm-61730020R-chunk-0295",
+        "work_id": "nlm-61730020R",
+        "title": "A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine, their physical and chemical properties, the botanical characters of the medicinal plants, and the formulae for the principal officinal preparations of the American, Parisian, London, Dublin, Edinburgh, &c pharmacopoeiae : with observations on the proper mode of combining and administering remedies",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A CONCISE DESCRIPTION OF THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61730020R-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "D. & M. of Adm. Powder, gr. x. to JJss. Decoction, kino, jj. to gij. to water, ifeij.----Pubis kino compositus, L. (Kino, Jxv.; cinnamon, giv.; opium, £j.) 20 grains of the powder contain 1 grain of opium. Dose, from...",
+        "score": 32
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-32520980R-chunk-1862",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE SPLEEN. 333",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Constipation"
+        ],
+        "excerpt": "Water, twice a day. f Decoction of •j marshmallowroot (^2 or 3 times a day In water. In water, warm. In mint-water. In pills, occasionally. In mint-water. In mint-water, 3 or 4 times a day V -I PROPERTIES OR EFFECTS....",
+        "score": 39
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0549",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Powder",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The properties of that which is called the English Rhubarb are the same with the former, but much more effectual, and hath all the properties of the true Italian Rhubarbs, except the force in purging, wherein it is bu...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-dbeamxym-chunk-0742",
+        "work_id": "wellcome-dbeamxym",
+        "title": "Culpeper's complete herbal : with nearly four hundred medicines made from English herbs ...",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dbeamxym",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "The powder taken with cassia dissolved, and washed Ve- nice turpentine, cleanseth the reins and strengtheneth them afterwards, and is very effectual to stay the running of the reins, or gonorrhoea. It is also given fo...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-b2phuv8w-chunk-0731",
+        "work_id": "wellcome-b2phuv8w",
+        "title": "Culpeper's complete herbal : with nearly four hundred medicines, made from English herbs, physically applied to the cure of all disorders incident to man; with rules for compuounding them: also, directions for making syrups, ointments, &c / by Nicholas Culpeper.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/b2phuv8w",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "The powder taken with cassia dissolved, and washed Ve- nice turpentine, cleanseth the reins and strengtheneth them afterwards, and is very effectual to stay the running of the reins, or gonorrhoea. It is also given fu...",
+        "score": 30
+      },
+      {
+        "chunk_id": "nlm-63570770R-chunk-0496",
+        "work_id": "nlm-63570770R",
+        "title": "Family physician : designed to assist heads of families, travellers and seafaring people in discerning, distinguishing, and curing diseases : with directions for the preparation and use of a numerous collection of the best American remedies, together with a large number of valuable receipts for making plasters, ointments, oils, poultices, decoctions, syrups or waters made of herbs, the time of gathering all herbs, the way of drying and keeping the herbs all the year, also the way of making and keeping all kinds of useful compounds made of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "JOHN FRISBEE,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570770R-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "The poAvder taken Avith cassia dissolved, and Venice tur- pentine, cleanses the reins, and strengthens them afterwards, and is very effectual to stay the running of the reins. It is also given for the pains and swel-...",
+        "score": 30
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-32520980R-chunk-1862",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE SPLEEN. 333",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Constipation"
+        ],
+        "excerpt": "Water, twice a day. f Decoction of •j marshmallowroot (^2 or 3 times a day In water. In water, warm. In mint-water. In pills, occasionally. In mint-water. In mint-water, 3 or 4 times a day V -I PROPERTIES OR EFFECTS....",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-0217315-chunk-1870",
+        "work_id": "nlm-0217315",
+        "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with observations on sea-bathing, and the use of the mineral waters, to which is annexed a dispensatory for the use of private practitioners",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "VI",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217315-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Names. Madder powder Mace - - Magnesia - --------, calcined - Manna - Marsh-mallows, root and leaves of .... Mastich, gum - Mercury, crude --------, calcined ,--------, with chalk ———, corrpsive sublimate - --------,...",
+        "score": 37
+      },
+      {
+        "chunk_id": "nlm-61730020R-chunk-0295",
+        "work_id": "nlm-61730020R",
+        "title": "A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine, their physical and chemical properties, the botanical characters of the medicinal plants, and the formulae for the principal officinal preparations of the American, Parisian, London, Dublin, Edinburgh, &c pharmacopoeiae : with observations on the proper mode of combining and administering remedies",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A CONCISE DESCRIPTION OF THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61730020R-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "D. & M. of Adm. Powder, gr. x. to JJss. Decoction, kino, jj. to gij. to water, ifeij.----Pubis kino compositus, L. (Kino, Jxv.; cinnamon, giv.; opium, £j.) 20 grains of the powder contain 1 grain of opium. Dose, from...",
+        "score": 32
+      },
+      {
+        "chunk_id": "wellcome-cfrchse5-chunk-0286",
+        "work_id": "wellcome-cfrchse5",
+        "title": "A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine; their physical and chemical properties; the botanical characters of the medicinal plants ... with observations on the proper mode of combining and administering remedies / by H. M. Edwards and P. Vavasseur ; translated from the French, with numerous additions and corrections, and adapted to the practice of medicine and art of pharmacy in the United States, by Joseph Togno and E. Durand.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cfrchse5",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "The action and administration of kino, are almost the same as those of catechu and ratanhia; however, it is but seldom used on account of its high price. D. &. M. of Abm. Powder, gr. x. to Jss. Decoction, kino, gj. to...",
+        "score": 32
+      },
+      {
+        "chunk_id": "nlm-0217317-chunk-1911",
+        "work_id": "nlm-0217317",
+        "title": "New and enlarged edition of Dr. Buchan's Domestic medicine : or a treatise on the prevention and cure of diseases by regimen and simple medicines : with the latest corrections and improvements, and full directions in regard to air, exercise, bathing, clothing, sleep, diet, &c. &c. and the general management of the diseases of women and children : to which is annexed a complete family dispensatory, for the use of private practitioners",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF THK",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217317-bk",
+        "matched_herbs": [
+          "Madder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Powder",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [],
+        "excerpt": "20 grs. - 1 dr. 10 drps. - 40 drps. 5 grs. - 10 grs. 1 gr. - 5 grs. 'Should always be begun, with very small doses, as one grain or less, and gradually increased as the constitution will bear. See extract of. 10 grs....",
+        "score": 30
+      }
+    ]
+  },
+  "retrieval_text": "Madder is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 121 works and 172 source-linked chunks. Recorded variants include Madder, Madders. Common plant-part co-mentions include Root, Leaf, Gum, Flower, Seed, Berry. Common preparation co-mentions include Powder, Oil, Decoction, Tea, Juice, Emetic. Common condition co-mentions include Gout, Inflammation, Wounds or ulcers, Cold or catarrh, Diarrhoea or looseness, Dropsy. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Pregnancy caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The Complete Herbal; A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine, their physical and chemical properties, the botanical characters of the medicinal plants, and the formulae for the principal officinal preparations of the American, Parisian, London, Dublin, Edinburgh, &c pharmacopoeiae : with observations on the proper mode of combining and administering remedies; A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.990Z",
+  "builder": "build-herb-profiles.mjs"
+}

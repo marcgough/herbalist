@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101214333",
+  "title": "The University guide to health : explaining the causes, symptoms, and treatment of various diseases, hygiene, and the administration of the University medicines",
+  "creator": "Scott, J. Walter (James Walter) author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101214333-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101214333-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101214333",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 36,
+  "paragraphCount": 36,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101214333\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101214333\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101214333\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101214333.jsonl",
+  "rawSha256": "3bac0505338b2f846e46c885a979a9735b20a6823419ff8e1a34f3b9608eb5e1",
+  "normalizedSha256": "ad602bf2507bab6a32daa918c89b8b3620c6cb4ed854074baac278e9b29c9dd0",
+  "processedAt": "2026-06-17T14:40:12.690Z"
+}

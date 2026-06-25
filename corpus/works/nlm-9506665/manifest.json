@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-9506665",
+  "title": "Gunn's domestic medicine , or, Poor man's friend, in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is expressly written for the benefit of families in the western and southern states : it also contains descriptions of the medicinal roots and herbs of the southern and western country, and how they are to be used in the cure of diseases : arranged on a new and simple plan, by which the practice of medicine is reduced to principles of common sense",
+  "creator": "Gunn, John C.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9506665-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-9506665-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/9506665",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1587,
+  "paragraphCount": 1803,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9506665\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9506665\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-9506665\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-9506665.jsonl",
+  "rawSha256": "642b27069a5cc61ac5e77ab11044afac4812dabd565d65b417294fc44dfbf5c9",
+  "normalizedSha256": "ebe00c1774fb670eb61d9fd11b8356c6917b9ce8bedc955c95e1b1753228f7c8",
+  "processedAt": "2026-06-16T23:05:52.997Z"
+}

@@ -1,0 +1,1130 @@
+{
+  "profile_id": "seed-hyssop",
+  "family_id": "seed-hyssop",
+  "canonical_name": "Hyssop",
+  "canonical_key": "hyssop",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-hyssop-8f945ee60b#hyssop"
+  ],
+  "decision_note": "promote strong historical medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 176,
+    "total_chunks": 168,
+    "total_works": 114,
+    "matched_chunk_count": 168,
+    "matched_work_count": 114,
+    "matched_mention_total": 168
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Hyssop"
+    ],
+    "sample_work_ids": [
+      "nlm-0217315",
+      "nlm-0217316",
+      "nlm-0217317"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217315-chunk-0750",
+      "nlm-0217316-chunk-0624",
+      "nlm-0217317-chunk-0787"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 81
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 73
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 14
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 43,
+        "work_count": 30
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 37,
+        "work_count": 28
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 32,
+        "work_count": 29
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 27,
+        "work_count": 17
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 15,
+        "work_count": 9
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 11,
+        "work_count": 4
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "preparations": [
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 96,
+        "work_count": 72
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 91,
+        "work_count": 73
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 46,
+        "work_count": 34
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 38,
+        "work_count": 19
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 35,
+        "work_count": 35
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 27,
+        "work_count": 22
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 25,
+        "work_count": 25
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 22,
+        "work_count": 18
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 19,
+        "work_count": 13
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 19,
+        "work_count": 12
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 50,
+        "work_count": 33
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 38,
+        "work_count": 36
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 15,
+        "work_count": 12
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 71,
+        "work_count": 65
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 33,
+        "work_count": 30
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 14,
+        "work_count": 13
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 12,
+        "work_count": 11
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 9,
+        "work_count": 8
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 6,
+        "work_count": 4
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "wellcome-fwzua59q",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/fwzua59q",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-ctkumbc4",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+      "creator": "",
+      "publication_year": "1820",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-yyu6fnvg",
+      "title": "Herbal simples : approved for modern uses of cure / by W. T. Fernie.",
+      "creator": "",
+      "publication_year": "1895",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/yyu6fnvg",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-63570620R",
+      "title": "The family physician : being a domestic medical work, written in plain style, and divided into four parts",
+      "creator": "Folger, Alfred M.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570620R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-yfu6989c",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/yfu6989c",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-ms79ffge",
+      "title": "Complete herbal ... To which is now first annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added upwards of 50 choice receipts selected from the author's Last legacy. To his wife ... / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1823",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/ms79ffge",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-fkxp4mmt",
+      "title": "Domestic medicine, or, A treatise on the prevention and cure of diseases by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation, an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself, and a family herbal / by William Buchan, M.D. of the Royal College of Physicians, Edingburgh ; to which are added, such useful discoveries ... as have transpired since the demise of the author.",
+      "creator": "",
+      "publication_year": "1823",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/fkxp4mmt",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-mqb4h4ks",
+      "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself and a family herbal. To which are added, such useful discoveries ... as have transpired since the demise of the author / by William Buchan.",
+      "creator": "",
+      "publication_year": "1813",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/mqb4h4ks",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-64220910R-chunk-0290",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING OR SPITTING OF BLOOD",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "This consists of a number of very small vesicular blis- ters close together, and forming a circle. The eruption is attended with itching and a tingling sensation. Treatment. —Give the compound decoction of sarsapar- i...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-7488",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Inflammation"
+        ],
+        "excerpt": "Opium, one grain. Water, one ounce. Dissolve. —To be taken at one dose ; for an adult. R. Water, Aromatic Liquor, Syrup of Opium, half an ounce. of each, two drams. Tincture of Opium, ten drops. Mix. —Dose, a tea-spoo...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0012",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Good in dys- pepsia, nervousness, sleeplessness, fevers, &amp;c. Horehound Herb (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. Hyssop Herb (Hyssopus officinalis)...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-0092",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Gargle"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "For the sickness at the stomach, give warm spearmint or pepper mint tea with a little saleratus dissolved in it; also, an infusion of Marshmallow root, and peach leaves, and a mustard poultice applied over the abdomen...",
+        "score": 39
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-64220910R-chunk-0290",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING OR SPITTING OF BLOOD",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "This consists of a number of very small vesicular blis- ters close together, and forming a circle. The eruption is attended with itching and a tingling sensation. Treatment. —Give the compound decoction of sarsapar- i...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-7488",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Inflammation"
+        ],
+        "excerpt": "Opium, one grain. Water, one ounce. Dissolve. —To be taken at one dose ; for an adult. R. Water, Aromatic Liquor, Syrup of Opium, half an ounce. of each, two drams. Tincture of Opium, ten drops. Mix. —Dose, a tea-spoo...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-0092",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Gargle"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "For the sickness at the stomach, give warm spearmint or pepper mint tea with a little saleratus dissolved in it; also, an infusion of Marshmallow root, and peach leaves, and a mustard poultice applied over the abdomen...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-0096",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Gargle"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "For the sickness at the stomach, give warm spearmint or pepper mint tea with a little saleratus dissolved in it; also, an infusion of Marshmallow root, and peach leaves, and a mustard poultice applied over the abdomen...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-61721140R-chunk-0635",
+        "work_id": "nlm-61721140R",
+        "title": "A digest of materia medica and pharmacy : forming a complete pharmacopoeia for the use of physicians, druggists, and students",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61721140R-bk",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism"
+        ],
+        "excerpt": "= gm. 0. 06 to 0. 33, or equivalent. Locally, in liniment, ointment, or diluted tincture. HYSSOPTJS OFFICINALIS. Hyssop. The fresh herb in flower. Labiateee, Satureiese. Linne. Gray. 262 MATERIA MEDICA. Constituents....",
+        "score": 38
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-64220910R-chunk-0290",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING OR SPITTING OF BLOOD",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "This consists of a number of very small vesicular blis- ters close together, and forming a circle. The eruption is attended with itching and a tingling sensation. Treatment. —Give the compound decoction of sarsapar- i...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-7488",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Inflammation"
+        ],
+        "excerpt": "Opium, one grain. Water, one ounce. Dissolve. —To be taken at one dose ; for an adult. R. Water, Aromatic Liquor, Syrup of Opium, half an ounce. of each, two drams. Tincture of Opium, ten drops. Mix. —Dose, a tea-spoo...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0012",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Good in dys- pepsia, nervousness, sleeplessness, fevers, &amp;c. Horehound Herb (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. Hyssop Herb (Hyssopus officinalis)...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-0092",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Gargle"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "For the sickness at the stomach, give warm spearmint or pepper mint tea with a little saleratus dissolved in it; also, an infusion of Marshmallow root, and peach leaves, and a mustard poultice applied over the abdomen...",
+        "score": 39
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-64220910R-chunk-0290",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING OR SPITTING OF BLOOD",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "This consists of a number of very small vesicular blis- ters close together, and forming a circle. The eruption is attended with itching and a tingling sensation. Treatment. —Give the compound decoction of sarsapar- i...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-7488",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Inflammation"
+        ],
+        "excerpt": "Opium, one grain. Water, one ounce. Dissolve. —To be taken at one dose ; for an adult. R. Water, Aromatic Liquor, Syrup of Opium, half an ounce. of each, two drams. Tincture of Opium, ten drops. Mix. —Dose, a tea-spoo...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0012",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Good in dys- pepsia, nervousness, sleeplessness, fevers, &amp;c. Horehound Herb (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. Hyssop Herb (Hyssopus officinalis)...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-0092",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Hyssop"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Gargle"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "For the sickness at the stomach, give warm spearmint or pepper mint tea with a little saleratus dissolved in it; also, an infusion of Marshmallow root, and peach leaves, and a mustard poultice applied over the abdomen...",
+        "score": 39
+      }
+    ]
+  },
+  "retrieval_text": "Hyssop is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 114 works and 168 source-linked chunks. Recorded variants include Hyssop. Common plant-part co-mentions include Root, Leaf, Seed, Flower, Tops, Gum. Common preparation co-mentions include Syrup, Tea, Oil, Infusion, Ointment, Juice. Common condition co-mentions include Cough, Cold or catarrh, Asthma, Fever, Inflammation, Consumption. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Bleeding caution, Fatal-risk warning, Toxicity watch. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.; A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.; Herbal simples : approved for modern uses of cure / by W. T. Fernie.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.993Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-cdp74dwa",
+  "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/cdp74dwa",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b2112503x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/cdp74dwa",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1895,
+  "paragraphCount": 1990,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-cdp74dwa\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-cdp74dwa\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-cdp74dwa.jsonl",
+  "rawSha256": "83c4117dddc8bc8d73fffbc7e29a88aa6ea073f4a75f436824d2108fbdb07715",
+  "normalizedSha256": "3003d57c3937b86d847d337a8e03003f8387c1f66fc3533b4bffdbd54ff426db",
+  "processedAt": "2026-06-16T13:46:49.022Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-67020020R",
+  "title": "Woman's complete guide to health",
+  "creator": "Dirix, M. E.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-67020020R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-67020020R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/67020020R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 684,
+  "paragraphCount": 690,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-67020020R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-67020020R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-67020020R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-67020020R.jsonl",
+  "rawSha256": "f4b2582c2ea46da772108efbcbc9fd2bd7a697b0d4c283df5247c2f71d2ed1bb",
+  "normalizedSha256": "0b70f7a612d0014f2fff566a3879a0c826470a87653900e80bc59814f6ed85ca",
+  "processedAt": "2026-06-17T18:51:13.387Z"
+}

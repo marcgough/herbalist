@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-kcjjsxtq",
+  "title": "A new herbal, or historie of plants: wherein is contained the whole discourse and perfect description of all sorts of herbes and plants: their diuers and sundry kinds; their names, natures, operations, and vertues and that not onely of those which are here growing in this our country of Engalnd [!], but of all others also of forraine realmes commonly vsed in physicke / First set forth in the Dutch or Almaigne tongue, by that learned D. Rembert Dodoens ... and now first translated out of French into English, by Henry Lyte.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/kcjjsxtq",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30334962",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/kcjjsxtq",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 2040,
+  "paragraphCount": 2131,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-kcjjsxtq\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-kcjjsxtq\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-kcjjsxtq\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-kcjjsxtq.jsonl",
+  "rawSha256": "db4371ba59c5c1998db86f0a42c0bd5399a8c3afd005f20a884e177c2745e4d9",
+  "normalizedSha256": "0f604e68bf392f0845be9267ad2b55f1183f1d6198f051e28c1fc5394f990858",
+  "processedAt": "2026-06-16T23:52:32.586Z"
+}

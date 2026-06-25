@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61721140R",
+  "title": "A digest of materia medica and pharmacy : forming a complete pharmacopoeia for the use of physicians, druggists, and students",
+  "creator": "Merrell, Albert, author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61721140R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61721140R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61721140R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 1451,
+  "paragraphCount": 1453,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61721140R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61721140R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61721140R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61721140R.jsonl",
+  "rawSha256": "50fd3844d20447a9534ca6ec5856a824a110dbe9ef1868f64d4671d5df089b7c",
+  "normalizedSha256": "bc68b760b077e22cc64592f39b7bb18bbed7387d5c6d436ff482b67583fa6577",
+  "processedAt": "2026-06-18T01:54:49.618Z"
+}

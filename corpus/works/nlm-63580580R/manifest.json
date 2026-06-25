@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63580580R",
+  "title": "The household manual of hygiene , food and diet, common diseases, accidents and emergencies, and useful hints and recipes",
+  "creator": "Kellogg, John Harvey, 1852-1943.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580580R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63580580R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63580580R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;household-health",
+  "chunkCount": 304,
+  "paragraphCount": 350,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580580R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580580R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63580580R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63580580R.jsonl",
+  "rawSha256": "dec86166980534cb0fe379d19888dabdcfb57516c1acea4603f89bf223b3856f",
+  "normalizedSha256": "d94caa305aca09d3050d1afdfa8357bd2e88dd028914de06f863c53cd7554622",
+  "processedAt": "2026-06-17T15:34:35.863Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-m22n7qwt",
+  "title": "Virtues of British herbs : With their history, and figures, and an account of the diseases they will cure ... / By John Hill.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/m22n7qwt",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b3078962x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/m22n7qwt",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 96,
+  "paragraphCount": 99,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-m22n7qwt\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-m22n7qwt\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-m22n7qwt\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-m22n7qwt.jsonl",
+  "rawSha256": "6398057359f3d4529d1c18ce63224ebb3b1c8f32dc9af6962bc799733c428026",
+  "normalizedSha256": "72fab30f9c05ee5fdb4e3a2b8f04cd51c215ee30d53c3e1a47025f1b5af6262f",
+  "processedAt": "2026-06-17T00:34:37.802Z"
+}

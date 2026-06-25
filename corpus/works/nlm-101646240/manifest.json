@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101646240",
+  "title": "A manual of organic materia medica : being a guide to materia medica of the vegetable and animal kingdoms : for the use of students, druggists, pharmacists and physicians",
+  "creator": "Maisch, John M. (John Michael), 1831-1893.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101646240-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101646240-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101646240",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 1014,
+  "paragraphCount": 1038,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101646240\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101646240\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101646240\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101646240.jsonl",
+  "rawSha256": "91d8f96503c4d28b9e0d45c71ce83d7f113ebb86dd6bc3e2cb17065da3a276b7",
+  "normalizedSha256": "cca176c5c35e0ad321f7ea8e578a5694fd759aa53a0abf327d2b4ef1dc140bc5",
+  "processedAt": "2026-06-18T18:40:43.507Z"
+}

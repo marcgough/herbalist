@@ -1,0 +1,13 @@
+name = "herbalisti"
+compatibility_date = "2026-06-15"
+pages_build_output_dir = "dist"
+
+# Add these bindings after the Cloudflare resources exist:
+# [[d1_databases]]
+# binding = "HERBALISTI_DB"
+# database_name = "herbalisti"
+# database_id = "<replace-after-running-wrangler-d1-create>"
+#
+# [[r2_buckets]]
+# binding = "HERBALISTI_MEDIA"
+# bucket_name = "herbalisti-media"

@@ -1,0 +1,1168 @@
+{
+  "profile_id": "seed-sage",
+  "family_id": "seed-sage",
+  "canonical_name": "Sage",
+  "canonical_key": "sage",
+  "catalog_status": "seed-ready",
+  "catalog_class": "culinary-medicinal-plant",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-sage-7e5d4325a4#sage"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 736,
+    "total_chunks": 656,
+    "total_works": 319,
+    "matched_chunk_count": 656,
+    "matched_work_count": 319,
+    "matched_mention_total": 656
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "culinary-herbs",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Sage"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0834",
+      "nlm-0140313-chunk-0972",
+      "nlm-0140313-chunk-1490"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 319
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 230
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 171
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 247,
+        "work_count": 182
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 148,
+        "work_count": 113
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 142,
+        "work_count": 108
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 71,
+        "work_count": 51
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 61,
+        "work_count": 55
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 48,
+        "work_count": 44
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 39,
+        "work_count": 38
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 25,
+        "work_count": 23
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 324,
+        "work_count": 166
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 220,
+        "work_count": 131
+      },
+      {
+        "id": "gargle",
+        "label": "Gargle",
+        "signal_count": 174,
+        "work_count": 130
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 137,
+        "work_count": 115
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 107,
+        "work_count": 83
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 98,
+        "work_count": 83
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 95,
+        "work_count": 80
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 92,
+        "work_count": 77
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 71,
+        "work_count": 62
+      },
+      {
+        "id": "cordial",
+        "label": "Cordial",
+        "signal_count": 50,
+        "work_count": 47
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 159,
+        "work_count": 97
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 119,
+        "work_count": 103
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 36,
+        "work_count": 36
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 24,
+        "work_count": 22
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 20,
+        "work_count": 19
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 119,
+        "work_count": 94
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 113,
+        "work_count": 72
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 96,
+        "work_count": 79
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 93,
+        "work_count": 76
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 54,
+        "work_count": 51
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 53,
+        "work_count": 50
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 37,
+        "work_count": 35
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 19,
+        "work_count": 19
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 19,
+        "work_count": 17
+      },
+      {
+        "id": "headache",
+        "label": "Headache",
+        "signal_count": 17,
+        "work_count": 17
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "nlm-100912803",
+      "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "nlm-63570990R",
+      "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-m43ephex",
+      "title": "The Codicil to \"my will\" for the healthy and the sick : containing chapters on the anatomy and care of the human body, gymnastic exercises, first help in accidents, cooking recipes, medicinal plants and the cure of diseases.",
+      "creator": "",
+      "publication_year": "1897",
+      "collection_id": "wellcome-collection",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://wellcomecollection.org/works/m43ephex",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "nlm-0140313",
+      "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants;domestic-medicine;hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-thwh6g2c",
+      "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+      "creator": "",
+      "publication_year": "1885",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine;nursing",
+      "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-vcp6d7za",
+      "title": "The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.",
+      "creator": "",
+      "publication_year": "1862",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/vcp6d7za",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-61820150R-chunk-0382",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "MOUSE-EAR,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "A pill made of equal parts of sage seed, red pepper and spikenard root and taken, say one or two morning and evening, will help pain in the head and joints, lethargy, and falling sick- ness. It may be used with wormwo...",
+        "score": 51
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1288",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox",
+          "Measles"
+        ],
+        "excerpt": "of infants 433 Restlessness and sleeplessness of in- fants 421 Resin cerate 491 Retention of urine 327 Rheumatism 449 do. headache from 118 Rice water 476 Ring worm 52 Rose water ointment 493 Rollers and bandages 500...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-1106",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Fruit",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the leaves called “sage tea” is a very popu- lar domestic remedy as a diaphoretic and for influenza, cold, worms, etc. A gargle of infusion of Sage with alum or borax is much used for sore throat, sore...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-dwhz86ma-chunk-0265",
+        "work_id": "wellcome-dwhz86ma",
+        "title": "A pocket herbal; containing the medicinal virtues and uses of the most esteemed native plants; with some remarks on bathing, electricity, etc / [John Whiteclay Chambers].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwhz86ma",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "This plant fortifies the stomach, kills Worms, promotes urine, and is good in the . Jaundice, and against the Tertian Fever, It is certainly a powerful de- obstruent, and operates by sweat and urine. The best way of g...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1027",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Wash",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "The following is a good gargle to wash the mouth of the child : take Sage, Hyssop, and Sumach berries, equal parts, and make a strong decoction ; sweeten with honey or sugar, and to half a pint, add half a teaspoonful...",
+        "score": 40
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-61820150R-chunk-0382",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "MOUSE-EAR,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "A pill made of equal parts of sage seed, red pepper and spikenard root and taken, say one or two morning and evening, will help pain in the head and joints, lethargy, and falling sick- ness. It may be used with wormwo...",
+        "score": 51
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1288",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox",
+          "Measles"
+        ],
+        "excerpt": "of infants 433 Restlessness and sleeplessness of in- fants 421 Resin cerate 491 Retention of urine 327 Rheumatism 449 do. headache from 118 Rice water 476 Ring worm 52 Rose water ointment 493 Rollers and bandages 500...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-1106",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Fruit",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the leaves called “sage tea” is a very popu- lar domestic remedy as a diaphoretic and for influenza, cold, worms, etc. A gargle of infusion of Sage with alum or borax is much used for sore throat, sore...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-dwhz86ma-chunk-0265",
+        "work_id": "wellcome-dwhz86ma",
+        "title": "A pocket herbal; containing the medicinal virtues and uses of the most esteemed native plants; with some remarks on bathing, electricity, etc / [John Whiteclay Chambers].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwhz86ma",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "This plant fortifies the stomach, kills Worms, promotes urine, and is good in the . Jaundice, and against the Tertian Fever, It is certainly a powerful de- obstruent, and operates by sweat and urine. The best way of g...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1027",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Wash",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "The following is a good gargle to wash the mouth of the child : take Sage, Hyssop, and Sumach berries, equal parts, and make a strong decoction ; sweeten with honey or sugar, and to half a pint, add half a teaspoonful...",
+        "score": 40
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-61820150R-chunk-0382",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "MOUSE-EAR,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "A pill made of equal parts of sage seed, red pepper and spikenard root and taken, say one or two morning and evening, will help pain in the head and joints, lethargy, and falling sick- ness. It may be used with wormwo...",
+        "score": 51
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1288",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox",
+          "Measles"
+        ],
+        "excerpt": "of infants 433 Restlessness and sleeplessness of in- fants 421 Resin cerate 491 Retention of urine 327 Rheumatism 449 do. headache from 118 Rice water 476 Ring worm 52 Rose water ointment 493 Rollers and bandages 500...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-1106",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Fruit",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the leaves called “sage tea” is a very popu- lar domestic remedy as a diaphoretic and for influenza, cold, worms, etc. A gargle of infusion of Sage with alum or borax is much used for sore throat, sore...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-dwhz86ma-chunk-0265",
+        "work_id": "wellcome-dwhz86ma",
+        "title": "A pocket herbal; containing the medicinal virtues and uses of the most esteemed native plants; with some remarks on bathing, electricity, etc / [John Whiteclay Chambers].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwhz86ma",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "This plant fortifies the stomach, kills Worms, promotes urine, and is good in the . Jaundice, and against the Tertian Fever, It is certainly a powerful de- obstruent, and operates by sweat and urine. The best way of g...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1027",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Wash",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "The following is a good gargle to wash the mouth of the child : take Sage, Hyssop, and Sumach berries, equal parts, and make a strong decoction ; sweeten with honey or sugar, and to half a pint, add half a teaspoonful...",
+        "score": 40
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63620310R-chunk-1288",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox",
+          "Measles"
+        ],
+        "excerpt": "of infants 433 Restlessness and sleeplessness of in- fants 421 Resin cerate 491 Retention of urine 327 Rheumatism 449 do. headache from 118 Rice water 476 Ring worm 52 Rose water ointment 493 Rollers and bandages 500...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-1106",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Fruit",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the leaves called “sage tea” is a very popu- lar domestic remedy as a diaphoretic and for influenza, cold, worms, etc. A gargle of infusion of Sage with alum or borax is much used for sore throat, sore...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-dwhz86ma-chunk-0265",
+        "work_id": "wellcome-dwhz86ma",
+        "title": "A pocket herbal; containing the medicinal virtues and uses of the most esteemed native plants; with some remarks on bathing, electricity, etc / [John Whiteclay Chambers].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwhz86ma",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "This plant fortifies the stomach, kills Worms, promotes urine, and is good in the . Jaundice, and against the Tertian Fever, It is certainly a powerful de- obstruent, and operates by sweat and urine. The best way of g...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1027",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Wash",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "The following is a good gargle to wash the mouth of the child : take Sage, Hyssop, and Sumach berries, equal parts, and make a strong decoction ; sweeten with honey or sugar, and to half a pint, add half a teaspoonful...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63620390R-chunk-1077",
+        "work_id": "nlm-63620390R",
+        "title": "The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "MY PURIFYING SARSAPARILLA SYRUP,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620390R-bk",
+        "matched_herbs": [
+          "Sage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Wash",
+          "Liniment",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Drink a strong tea of sage and sweet fern, and sleep on a bed made of the same until well. Wash often in saleratus, cider, or vinegar. FOR DYSENTERY. Take Wild cherry bark................. Rhubarb root...................",
+        "score": 40
+      }
+    ]
+  },
+  "retrieval_text": "Sage is a culinary medicinal plant profile in the Herbalisti historical corpus. It is represented across 319 works and 656 source-linked chunks. Recorded variants include Sage. Common plant-part co-mentions include Leaf, Flower, Root, Bark, Seed, Gum. Common preparation co-mentions include Tea, Infusion, Gargle, Decoction, Tincture, Juice. Common condition co-mentions include Cold or catarrh, Fever, Vomiting or nausea, Wounds or ulcers, Cough, Inflammation. Caution co-mentions include Dose caution, Child-use caution, Bleeding caution, Narcotic or sedative caution, Allergy or sensitivity caution, Fatal-risk warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants; Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants; The Codicil to \"my will\" for the healthy and the sick : containing chapters on the anatomy and care of the human body, gymnastic exercises, first help in accidents, cooking recipes, medicinal plants and the cure of diseases.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.667Z",
+  "builder": "build-herb-profiles.mjs"
+}

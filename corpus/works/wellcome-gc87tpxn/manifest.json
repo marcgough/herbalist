@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-gc87tpxn",
+  "title": "Alphabet of medical botany, for the use of beginners / by James Rennie.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/gc87tpxn",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21468734",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/gc87tpxn",
+  "rightsStatus": "pdm",
+  "topicFamily": "medical-botany;botany",
+  "chunkCount": 235,
+  "paragraphCount": 239,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-gc87tpxn\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-gc87tpxn\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-gc87tpxn\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-gc87tpxn.jsonl",
+  "rawSha256": "07062f92eb6254cc8908bc56f93b615b0b93bbb1ffe2b713df682326ef103893",
+  "normalizedSha256": "53424968abf596f216e49d7a333f4b51e8540de64eb4c7e3e1c9746bf43352e9",
+  "processedAt": "2026-06-17T00:55:59.469Z"
+}

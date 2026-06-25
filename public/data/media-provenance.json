@@ -1,0 +1,67 @@
+{
+  "name": "Herbalisti media provenance",
+  "version": "2026-06-16",
+  "policy": {
+    "stockMedia": "none",
+    "externalHotlinks": "none",
+    "launchUse": "Only project-owned local assets should be referenced by the public launch UI.",
+    "humanReview": "New generated media must be reviewed for brand fit, medical-claim safety, and absence of watermarks or third-party marks before publication."
+  },
+  "assets": [
+    {
+      "path": "/assets/herbalisti-hero.png",
+      "type": "image/png",
+      "role": "Hero background",
+      "provider": "OpenAI image generation",
+      "generationWorkflow": "OpenAI Image Gen 2 project workflow; generated as a project-bound raster asset during the Herbalisti build.",
+      "promptSummary": "Light, airy future wellness observatory with Japanese Zen restraint, botanical intelligence, translucent glass, DNA/peptide light patterns, and warm white atmosphere.",
+      "usageRightsNote": "Project launch asset for Herbalisti. No stock-photo, third-party brand, readable medical claim, people, pills, syringes, or pharmaceutical packaging intentionally included.",
+      "reviewStatus": "approved_for_local_launch_candidate"
+    },
+    {
+      "path": "/assets/herbalisti-research.png",
+      "type": "image/png",
+      "role": "Research interface background",
+      "provider": "OpenAI image generation",
+      "generationWorkflow": "OpenAI Image Gen 2 project workflow; generated as a project-bound raster asset during the Herbalisti build.",
+      "promptSummary": "Future-facing research reading room with botanical reference cues, glass data interfaces, DNA/CRISPR/peptide signal motifs, and spacious Zen composition.",
+      "usageRightsNote": "Project launch asset for Herbalisti. No stock-photo, third-party brand, readable medical claim, people, pills, syringes, or pharmaceutical packaging intentionally included.",
+      "reviewStatus": "approved_for_local_launch_candidate"
+    },
+    {
+      "path": "/assets/herbalisti-home-background.png",
+      "type": "image/png",
+      "role": "Review reference image",
+      "provider": "User supplied project image",
+      "generationWorkflow": "Supplied by Marc during Herbalisti review and stored as a local project reference asset.",
+      "promptSummary": "Light Herbalisti composition with spacious copy area, soft grid, and botanical intelligence atmosphere.",
+      "usageRightsNote": "User-supplied project reference asset. The active home hero uses the OpenAI-generated hero image; confirm rights before public production if this reference asset is reintroduced.",
+      "reviewStatus": "approved_for_local_launch_candidate"
+    },
+    {
+      "path": "/assets/herbalisti-logo.svg",
+      "type": "image/svg+xml",
+      "role": "Primary wordmark",
+      "provider": "Custom project SVG",
+      "generationWorkflow": "Built as original vector code for Herbalisti.",
+      "promptSummary": "Titanium contemporary monoline botanical wordmark for herbalisti with no separate icon.",
+      "usageRightsNote": "Original Herbalisti brand asset.",
+      "reviewStatus": "approved_for_local_launch_candidate"
+    },
+    {
+      "path": "/assets/herbalisti-mark.svg",
+      "type": "image/svg+xml",
+      "role": "App tile monogram",
+      "provider": "Custom project SVG",
+      "generationWorkflow": "Built as original vector code for Herbalisti.",
+      "promptSummary": "Titanium typographic monogram for favicon, app icon, and small UI surfaces.",
+      "usageRightsNote": "Original Herbalisti brand asset.",
+      "reviewStatus": "approved_for_local_launch_candidate"
+    }
+  ],
+  "futureMedia": {
+    "motionManifest": "/data/media-manifest.json",
+    "seedance": "Seedance 2.0 video loops should be generated through Kie.ai only after KIE_API_KEY, MEDIA_ADMIN_TOKEN, credits, R2 storage, and review workflow are ready.",
+    "openaiServerSide": "OPENAI_API_KEY is only needed if repeatable server-side image generation is added later."
+  }
+}

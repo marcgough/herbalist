@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64310710RX1",
+  "title": "A new and comprehensive system of materia medica and therapeutics: arranged upon a physiologico-pathological basis for the use of practitioners and students of medicine (Volume 1)",
+  "creator": "Hempel, Charles J. (Charles Julius), 1811-1879.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64310710RX1-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64310710RX1-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64310710RX1",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 2953,
+  "paragraphCount": 4172,
+  "sectionCount": 30,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64310710RX1\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64310710RX1\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64310710RX1\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64310710RX1.jsonl",
+  "rawSha256": "59a78741ba0fef2aa2504bd65ba9f45334c317732f5385bc96429d8511a9ae44",
+  "normalizedSha256": "5e74fd80e5cb4ece9bb3fa87ec2f3f09a2a18a15ae4d42dc2b343f3ae993e5f8",
+  "processedAt": "2026-06-17T13:56:10.603Z"
+}

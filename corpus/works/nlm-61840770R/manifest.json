@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61840770R",
+  "title": "Dr. John Williams' last legacy, and useful family guide",
+  "creator": "Williams, John (Physician)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61840770R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61840770R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61840770R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 46,
+  "paragraphCount": 56,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61840770R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61840770R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61840770R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61840770R.jsonl",
+  "rawSha256": "d78bee868f1642c5311c0613cd291e27b3f0f5f5c425fd857c7ec8083c1c4d13",
+  "normalizedSha256": "975d5ecb636ab296740edc86b14b9956f3e463af2c25a4344884d3ab2f9e3d88",
+  "processedAt": "2026-06-19T23:53:24.594Z"
+}

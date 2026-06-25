@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2547006R",
+  "title": "A treatise of domestic medicine , intended for families : in which the treatment of common disorders are alphabetically enumerated ; to which is added, a practical system of domestic cookery, describing the best, most economical, and most wholesome methods of dressing victuals ; intended for the use of families who do not affect magnificence in their style of living",
+  "creator": "Cooper, Thomas, 1759-1839.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2547006R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2547006R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2547006R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 608,
+  "paragraphCount": 756,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2547006R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2547006R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2547006R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2547006R.jsonl",
+  "rawSha256": "8a6e4dc47c4fcf68b9410f74ebdee97170033a0df66c6e722056be0f985f6cd5",
+  "normalizedSha256": "a7821a34eaf9bb6d35a990e4f4a22959882577a27a84b1c6d466ff6c09983c59",
+  "processedAt": "2026-06-17T13:32:50.469Z"
+}

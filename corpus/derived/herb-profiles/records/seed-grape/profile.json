@@ -1,0 +1,1110 @@
+{
+  "profile_id": "seed-grape",
+  "family_id": "seed-grape",
+  "canonical_name": "Grape",
+  "canonical_key": "grape",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-grape-0f78fcc486#grape"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 498,
+    "total_chunks": 476,
+    "total_works": 322,
+    "matched_chunk_count": 476,
+    "matched_work_count": 322,
+    "matched_mention_total": 476
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Grape",
+      "Grapes"
+    ],
+    "sample_work_ids": [
+      "nlm-0217313",
+      "nlm-0217315",
+      "nlm-0217317"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217313-chunk-1830",
+      "nlm-0217315-chunk-1974",
+      "nlm-0217317-chunk-2018"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 418
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 40
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 24
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 112,
+        "work_count": 90
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 53,
+        "work_count": 51
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 49,
+        "work_count": 43
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 38,
+        "work_count": 38
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 26,
+        "work_count": 25
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 20,
+        "work_count": 20
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 9,
+        "work_count": 8
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "preparations": [
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 442,
+        "work_count": 308
+      },
+      {
+        "id": "cordial",
+        "label": "Cordial",
+        "signal_count": 51,
+        "work_count": 51
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 49,
+        "work_count": 47
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 43,
+        "work_count": 42
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 33,
+        "work_count": 21
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 28,
+        "work_count": 27
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 23,
+        "work_count": 18
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 21,
+        "work_count": 20
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 8,
+        "work_count": 8
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 28,
+        "work_count": 27
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 18,
+        "work_count": 18
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 19,
+        "work_count": 13
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 18,
+        "work_count": 17
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 15,
+        "work_count": 13
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 7,
+        "work_count": 6
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-rcd8mm87",
+      "title": "An encyclopaedia of domestic economy comprising such subjects as are most immediately connected with housekeeping : as, the construction of domestic edifices ... duties of servants, the general account of the animal and vegetable substances used as food ... making bread ... preservation of health ; domestic medicine &c. &c. / by Thomas webster ; assisted by the late Mrs. Parkes.",
+      "creator": "",
+      "publication_year": "1844",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/rcd8mm87",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-k63t4gch",
+      "title": "A manual of materia medica and therapeutics : including the preparations of the pharmacopoeias of London, Edinburgh, and Dublin, with other approved medicines / by J. Forbes Royle.",
+      "creator": "",
+      "publication_year": "1856",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/k63t4gch",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-takhmyez",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+      "creator": "",
+      "publication_year": "1747",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/takhmyez",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-axv5sn99",
+      "title": "The family doctor : a dictionary of domestic medicine and surgery; especially adapted for family use.",
+      "creator": "",
+      "publication_year": "1890",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/axv5sn99",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-dgz86pg7",
+      "title": "The family doctor : being a complete encyclopædia of domestic medicine and household surgery comprising a full description of the human frame an account of the nature and treatment of all diseases of the drugs and preparations used as remedial agents and of the readiest means of obtaining, preparing, and administering them the whole arranged so as to facilitate reference clearly and simply written, and especially adapted for popular use / by a dispensary surgeon.",
+      "creator": "",
+      "publication_year": "1860",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/dgz86pg7",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-2566033RX2",
+      "title": "The London medical dictionary: including, under distinct heads, every branch of medicine, viz. anatomy, physiology, and pathology, the practice of physic and surgery, therapeutics, and materia medica ; with whatever relates to medicine in natural philosophy, chemistry, and natural history (Volume 2)",
+      "creator": "Parr, Bartholomew, 1750-1810.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2566033RX2-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-wrd4fj88",
+      "title": "The London medical dictionary: including, under distinct heads, every branch of medicine, viz. anatomy, physiology, and pathology, the practice of physic and surgery, therapeutics, and materia medica ; with whatever relates to medicine in natural philosophy, chemistry, and natural history (Volume 2).",
+      "creator": "",
+      "publication_year": "1819",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/wrd4fj88",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63610340R-chunk-1645",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Salve",
+          "Poultice",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Rum. Saffron. Sage. Salep root. Sea salt. Senna leaves. Spirits of wine. Spunk. Sulphuric acid. Sweet flag. Syrup. 558 HOUSE DISPENSARY. 559 Licorice. Linseed. Linseed oil. Lint. Lycopedium. Magnesia. Mallow flowers....",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-1148",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout"
+        ],
+        "excerpt": "Tamus Communis. P. Black Bryony. The root is aperient, diu- retic, and emmenagogue. (Lobel. ) Externally it is a good application in form of cataplasm to bruises and contusions. (Chomel. ) Tanacetum. E. D. P. Tansy. T...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-1153",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout"
+        ],
+        "excerpt": "Tanacetum vulgare. A common native plant of a strong pungent bitter taste and peculiar smell. Medici7ially, it is tonic, stimulant, deobstruent, and vermifuge, in doses of 5ss to 5j of the powder, but is more commonly...",
+        "score": 35
+      },
+      {
+        "chunk_id": "nlm-61730020R-chunk-0953",
+        "work_id": "nlm-61730020R",
+        "title": "A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine, their physical and chemical properties, the botanical characters of the medicinal plants, and the formulae for the principal officinal preparations of the American, Parisian, London, Dublin, Edinburgh, &c pharmacopoeiae : with observations on the proper mode of combining and administering remedies",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A CONCISE DESCRIPTION OF THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61730020R-bk",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [],
+        "excerpt": "D. & M. of Adm. Pulverized flowers, gr. vi. to x. and even gss. gradually. Decoction and infusion, from giv. to gj. to lbij. of water. ----Extradum arnica;, Pot. , Pr. , A. gr. x. to 9j-----Tinctura arnica;, Pol. (Arn...",
+        "score": 34
+      },
+      {
+        "chunk_id": "wellcome-pjvn9c9z-chunk-1344",
+        "work_id": "wellcome-pjvn9c9z",
+        "title": "The complete herbal, to which is now added, upwards of one hundred additional herbs, with display of their medicinal and occult qualities; physically applied to the cure of all disorders incident to mankind : to which are now first annexed the English physician enlarged and key to physic, with rules for compounding medicine according to the true system of nature. Forming a complete family dispensatory, and a natural system of physic. / by Nicholas Culpeper M. D. to which is also added upwards of fifty choice receipts, selected from the author's last legacy to his wife.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pjvn9c9z",
+        "matched_herbs": [
+          "Grapes"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Berry"
+        ],
+        "preparations": [
+          "Syrup",
+          "Juice",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "'] Take a pound of Clove-gilli- j sorrel, Mulberries, Sorrel, English Currants, flowers, the whites being cut off, infuse them \\ and other sour Juices, a whole night in two pounds of water, then j Culpeper. ] If you l...",
+        "score": 30
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63610340R-chunk-1645",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Salve",
+          "Poultice",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Rum. Saffron. Sage. Salep root. Sea salt. Senna leaves. Spirits of wine. Spunk. Sulphuric acid. Sweet flag. Syrup. 558 HOUSE DISPENSARY. 559 Licorice. Linseed. Linseed oil. Lint. Lycopedium. Magnesia. Mallow flowers....",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-1148",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout"
+        ],
+        "excerpt": "Tamus Communis. P. Black Bryony. The root is aperient, diu- retic, and emmenagogue. (Lobel. ) Externally it is a good application in form of cataplasm to bruises and contusions. (Chomel. ) Tanacetum. E. D. P. Tansy. T...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-1153",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout"
+        ],
+        "excerpt": "Tanacetum vulgare. A common native plant of a strong pungent bitter taste and peculiar smell. Medici7ially, it is tonic, stimulant, deobstruent, and vermifuge, in doses of 5ss to 5j of the powder, but is more commonly...",
+        "score": 35
+      },
+      {
+        "chunk_id": "nlm-61730020R-chunk-0953",
+        "work_id": "nlm-61730020R",
+        "title": "A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine, their physical and chemical properties, the botanical characters of the medicinal plants, and the formulae for the principal officinal preparations of the American, Parisian, London, Dublin, Edinburgh, &c pharmacopoeiae : with observations on the proper mode of combining and administering remedies",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A CONCISE DESCRIPTION OF THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61730020R-bk",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [],
+        "excerpt": "D. & M. of Adm. Pulverized flowers, gr. vi. to x. and even gss. gradually. Decoction and infusion, from giv. to gj. to lbij. of water. ----Extradum arnica;, Pot. , Pr. , A. gr. x. to 9j-----Tinctura arnica;, Pol. (Arn...",
+        "score": 34
+      },
+      {
+        "chunk_id": "wellcome-pjvn9c9z-chunk-1344",
+        "work_id": "wellcome-pjvn9c9z",
+        "title": "The complete herbal, to which is now added, upwards of one hundred additional herbs, with display of their medicinal and occult qualities; physically applied to the cure of all disorders incident to mankind : to which are now first annexed the English physician enlarged and key to physic, with rules for compounding medicine according to the true system of nature. Forming a complete family dispensatory, and a natural system of physic. / by Nicholas Culpeper M. D. to which is also added upwards of fifty choice receipts, selected from the author's last legacy to his wife.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pjvn9c9z",
+        "matched_herbs": [
+          "Grapes"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Berry"
+        ],
+        "preparations": [
+          "Syrup",
+          "Juice",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "'] Take a pound of Clove-gilli- j sorrel, Mulberries, Sorrel, English Currants, flowers, the whites being cut off, infuse them \\ and other sour Juices, a whole night in two pounds of water, then j Culpeper. ] If you l...",
+        "score": 30
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-1148",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout"
+        ],
+        "excerpt": "Tamus Communis. P. Black Bryony. The root is aperient, diu- retic, and emmenagogue. (Lobel. ) Externally it is a good application in form of cataplasm to bruises and contusions. (Chomel. ) Tanacetum. E. D. P. Tansy. T...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-1153",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout"
+        ],
+        "excerpt": "Tanacetum vulgare. A common native plant of a strong pungent bitter taste and peculiar smell. Medici7ially, it is tonic, stimulant, deobstruent, and vermifuge, in doses of 5ss to 5j of the powder, but is more commonly...",
+        "score": 35
+      },
+      {
+        "chunk_id": "wellcome-pjvn9c9z-chunk-1344",
+        "work_id": "wellcome-pjvn9c9z",
+        "title": "The complete herbal, to which is now added, upwards of one hundred additional herbs, with display of their medicinal and occult qualities; physically applied to the cure of all disorders incident to mankind : to which are now first annexed the English physician enlarged and key to physic, with rules for compounding medicine according to the true system of nature. Forming a complete family dispensatory, and a natural system of physic. / by Nicholas Culpeper M. D. to which is also added upwards of fifty choice receipts, selected from the author's last legacy to his wife.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pjvn9c9z",
+        "matched_herbs": [
+          "Grapes"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Berry"
+        ],
+        "preparations": [
+          "Syrup",
+          "Juice",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "'] Take a pound of Clove-gilli- j sorrel, Mulberries, Sorrel, English Currants, flowers, the whites being cut off, infuse them \\ and other sour Juices, a whole night in two pounds of water, then j Culpeper. ] If you l...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-v8p3kcpc-chunk-1165",
+        "work_id": "wellcome-v8p3kcpc",
+        "title": "The Philadelphia medical dictionary : containing a concise explanation of all the terms used in medicine, surgery, pharmacy, botany, natural history, chemistry, and materia medica / compiled from the best authorities by John Redman Coxe.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/v8p3kcpc",
+        "matched_herbs": [
+          "Grapes"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Gout",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Quotidiana intermittens, quotidian ague often subsiding. Quotidiana L^hiadica, quotidian ague with :iatiea. Quoiidiuna legitimay the regular quo- tidian ague. Quotidiana nephralgia, quotidian ague with pain in the kid...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-x76f7xv8-chunk-1170",
+        "work_id": "wellcome-x76f7xv8",
+        "title": "The Philadelphia medical dictionary : containing a concise explanation of all the terms used in medicine, surgery, pharmacy, botany, natural history, chymistry, and materia medica.  Compiled from the best authorities.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/x76f7xv8",
+        "matched_herbs": [
+          "Grapes"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Gout",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "Quotidiana simplex, the regular quotidian fever. Quotidiana sofiorosa, ague with sleepiness. Quotidiana stranguriosa, quotidian ague with strangury. R. JO or %, in prescriptions, is a con- traction of recipe, take. Ra...",
+        "score": 30
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63610340R-chunk-1645",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Salve",
+          "Poultice",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Rum. Saffron. Sage. Salep root. Sea salt. Senna leaves. Spirits of wine. Spunk. Sulphuric acid. Sweet flag. Syrup. 558 HOUSE DISPENSARY. 559 Licorice. Linseed. Linseed oil. Lint. Lycopedium. Magnesia. Mallow flowers....",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-1148",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout"
+        ],
+        "excerpt": "Tamus Communis. P. Black Bryony. The root is aperient, diu- retic, and emmenagogue. (Lobel. ) Externally it is a good application in form of cataplasm to bruises and contusions. (Chomel. ) Tanacetum. E. D. P. Tansy. T...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-1153",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout"
+        ],
+        "excerpt": "Tanacetum vulgare. A common native plant of a strong pungent bitter taste and peculiar smell. Medici7ially, it is tonic, stimulant, deobstruent, and vermifuge, in doses of 5ss to 5j of the powder, but is more commonly...",
+        "score": 35
+      },
+      {
+        "chunk_id": "nlm-61730020R-chunk-0953",
+        "work_id": "nlm-61730020R",
+        "title": "A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine, their physical and chemical properties, the botanical characters of the medicinal plants, and the formulae for the principal officinal preparations of the American, Parisian, London, Dublin, Edinburgh, &c pharmacopoeiae : with observations on the proper mode of combining and administering remedies",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A CONCISE DESCRIPTION OF THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61730020R-bk",
+        "matched_herbs": [
+          "Grape"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [],
+        "excerpt": "D. & M. of Adm. Pulverized flowers, gr. vi. to x. and even gss. gradually. Decoction and infusion, from giv. to gj. to lbij. of water. ----Extradum arnica;, Pot. , Pr. , A. gr. x. to 9j-----Tinctura arnica;, Pol. (Arn...",
+        "score": 34
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0995",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "A CATALOGUE OF SIMPLES",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Grapes"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Syrup",
+          "Juice",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "_Culpeper._] It prevails against all diseases proceeding from choler, or heat of blood, fevers, both pestilential, and not pestilential; it resists poison, cools the blood, quenches thirst, cures the vertigo, or dizzi...",
+        "score": 29
+      }
+    ]
+  },
+  "retrieval_text": "Grape is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 322 works and 476 source-linked chunks. Recorded variants include Grape, Grapes. Common plant-part co-mentions include Fruit, Seed, Berry, Root, Flower, Leaf. Common preparation co-mentions include Juice, Cordial, Oil, Infusion, Syrup, Extract. Common condition co-mentions include Fever, Vomiting or nausea, Cold or catarrh, Gout, Wounds or ulcers, Dropsy. Caution co-mentions include Dose caution, Toxicity watch, Child-use caution, Fatal-risk warning, Narcotic or sedative caution, Abortifacient warning. Representative source works include An encyclopaedia of domestic economy comprising such subjects as are most immediately connected with housekeeping : as, the construction of domestic edifices ... duties of servants, the general account of the animal and vegetable substances used as food ... making bread ... preservation of health ; domestic medicine &c. &c. / by Thomas webster ; assisted by the late Mrs. Parkes.; The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.898Z",
+  "builder": "build-herb-profiles.mjs"
+}

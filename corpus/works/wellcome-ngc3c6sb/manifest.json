@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-ngc3c6sb",
+  "title": "Domestic medicine. Or, a treatise on the prevention and cure of diseases : by regimen and simple medicines: with observations on sea-bathing, and the use of the mineral waters. To which is annexed, a dispensatory for the use of private practitioners / By William Buchan, M.D. From the 22d English ed., with considerable additions, and notes.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/ngc3c6sb",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b2933827x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/ngc3c6sb",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1910,
+  "paragraphCount": 1918,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ngc3c6sb\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-ngc3c6sb\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-ngc3c6sb.jsonl",
+  "rawSha256": "cbed61efbaf3ed9bd69ed064c344d21e4195f0092b3463b785d652249bfe3b97",
+  "normalizedSha256": "ccac48f4951b194f459bbe9354c0b765b52c9f71ada5789df1c5518d7c1199a1",
+  "processedAt": "2026-06-16T13:46:54.386Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

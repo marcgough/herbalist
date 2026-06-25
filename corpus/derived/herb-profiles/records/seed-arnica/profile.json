@@ -1,0 +1,1206 @@
+{
+  "profile_id": "seed-arnica",
+  "family_id": "seed-arnica",
+  "canonical_name": "Arnica",
+  "canonical_key": "arnica",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-arnica-4c5aa08125#arnica"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 508,
+    "total_chunks": 435,
+    "total_works": 180,
+    "matched_chunk_count": 435,
+    "matched_work_count": 180,
+    "matched_mention_total": 435
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Arnica"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0222600",
+      "nlm-100912803"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1369",
+      "nlm-0140313-chunk-1477",
+      "nlm-0140313-chunk-2295"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 230
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 166
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 59
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 179,
+        "work_count": 94
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 140,
+        "work_count": 92
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 70,
+        "work_count": 53
+      },
+      {
+        "id": "rhizome",
+        "label": "Rhizome",
+        "signal_count": 43,
+        "work_count": 31
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 40,
+        "work_count": 34
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 26,
+        "work_count": 21
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 22,
+        "work_count": 21
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 19,
+        "work_count": 17
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 14,
+        "work_count": 9
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 11,
+        "work_count": 11
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 286,
+        "work_count": 139
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 98,
+        "work_count": 67
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 72,
+        "work_count": 43
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 64,
+        "work_count": 40
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 41,
+        "work_count": 29
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 36,
+        "work_count": 20
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 33,
+        "work_count": 32
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 28,
+        "work_count": 17
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 24,
+        "work_count": 18
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 22,
+        "work_count": 14
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 115,
+        "work_count": 82
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 50,
+        "work_count": 38
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 19,
+        "work_count": 17
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 18,
+        "work_count": 18
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 15,
+        "work_count": 14
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 8,
+        "work_count": 7
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 75,
+        "work_count": 51
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 65,
+        "work_count": 42
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 38,
+        "work_count": 31
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 34,
+        "work_count": 31
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 34,
+        "work_count": 27
+      },
+      {
+        "id": "headache",
+        "label": "Headache",
+        "signal_count": 20,
+        "work_count": 19
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 19,
+        "work_count": 19
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "cholera",
+        "label": "Cholera",
+        "signal_count": 13,
+        "work_count": 7
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 11,
+        "work_count": 9
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-61620650R",
+      "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+      "creator": "Fenner, B. (Byron), 1844-1926 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-vqbthhd7",
+      "title": "An introduction to the study of materia medica : being a short account of the more important crude drugs of vegetable and animal origin designed for students of pharmacy and medicine / by Henry G. Greenish.",
+      "creator": "",
+      "publication_year": "1899",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/vqbthhd7",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-101278154",
+      "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+      "creator": "Hartshorne, Henry, 1823-1897.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-61620630R",
+      "title": "Fenner's hand book of the United States Pharmacopoeia , seventh revision, 1890-1893 : a key to all official preparations : comparing the preparations of the present pharmacopoeia with those formerly official and converting the metric weight and measure directed in the pharmacopoeia into proportionate commercial weight and measure, with medicinal uses and doses of new preparations, convenient tables, etc",
+      "creator": "Fenner, B. (Byron), 1844-1926 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620630R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-thwh6g2c",
+      "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+      "creator": "",
+      "publication_year": "1885",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine;nursing",
+      "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-101515274",
+      "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+      "creator": "Dunglison, Robley, 1798-1869.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "hygiene;dietetics",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-101609940-chunk-0574",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "In over-doses, it is an acro-narcotic poison, causing vomiting, purging, vertigo, tetanic twitchings of the muscles, and convulsions. Moderate doses, when long con- tinued, are liable to cause a very troublesome erupt...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0050",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "ANCHUSA ROOT, [Anchusa Tinctoria,]—Principally used for Coloring Tinctures, Oils, Ointments, <fcc. ALOE, FALSE, [Aletris Farinosa,]—Cures Flatulent and Hysteric Cholic, Fevers, and Chronic Rheumatism. ARSE SMART, [Pol...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1645",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Salve",
+          "Poultice",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Rum. Saffron. Sage. Salep root. Sea salt. Senna leaves. Spirits of wine. Spunk. Sulphuric acid. Sweet flag. Syrup. 558 HOUSE DISPENSARY. 559 Licorice. Linseed. Linseed oil. Lint. Lycopedium. Magnesia. Mallow flowers....",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0048",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "ALOE, FALSE, [Aletris Farinosa,]—Cures Flatulent and Hysteric Cholic, Fevers, and Chronic Rheumatism. ARSE SMART, [Polygonum Punctatum,]—The tea stops Vomiting, and in fomentations reduces swellings. ANGELICA TREE, [P...",
+        "score": 48
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-101609940-chunk-0574",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "In over-doses, it is an acro-narcotic poison, causing vomiting, purging, vertigo, tetanic twitchings of the muscles, and convulsions. Moderate doses, when long con- tinued, are liable to cause a very troublesome erupt...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0050",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "ANCHUSA ROOT, [Anchusa Tinctoria,]—Principally used for Coloring Tinctures, Oils, Ointments, <fcc. ALOE, FALSE, [Aletris Farinosa,]—Cures Flatulent and Hysteric Cholic, Fevers, and Chronic Rheumatism. ARSE SMART, [Pol...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1645",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Salve",
+          "Poultice",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Rum. Saffron. Sage. Salep root. Sea salt. Senna leaves. Spirits of wine. Spunk. Sulphuric acid. Sweet flag. Syrup. 558 HOUSE DISPENSARY. 559 Licorice. Linseed. Linseed oil. Lint. Lycopedium. Magnesia. Mallow flowers....",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0048",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "ALOE, FALSE, [Aletris Farinosa,]—Cures Flatulent and Hysteric Cholic, Fevers, and Chronic Rheumatism. ARSE SMART, [Polygonum Punctatum,]—The tea stops Vomiting, and in fomentations reduces swellings. ANGELICA TREE, [P...",
+        "score": 48
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-101609940-chunk-0574",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "In over-doses, it is an acro-narcotic poison, causing vomiting, purging, vertigo, tetanic twitchings of the muscles, and convulsions. Moderate doses, when long con- tinued, are liable to cause a very troublesome erupt...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0050",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "ANCHUSA ROOT, [Anchusa Tinctoria,]—Principally used for Coloring Tinctures, Oils, Ointments, <fcc. ALOE, FALSE, [Aletris Farinosa,]—Cures Flatulent and Hysteric Cholic, Fevers, and Chronic Rheumatism. ARSE SMART, [Pol...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0048",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "ALOE, FALSE, [Aletris Farinosa,]—Cures Flatulent and Hysteric Cholic, Fevers, and Chronic Rheumatism. ARSE SMART, [Polygonum Punctatum,]—The tea stops Vomiting, and in fomentations reduces swellings. ANGELICA TREE, [P...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-101278154-chunk-0138",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Liniment",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "Spiced Syrup of Rhubarb, Spirits of Camphor, Spirits of Hartshorn, Castor Oil, Essence of Ginger, Paregoric, Syrup of Squills, Tincture of Arnica, Laudanum, Essence of Peppermint, Compound Spirits of Laven- der. Chole...",
+        "score": 44
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-101609940-chunk-0574",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "In over-doses, it is an acro-narcotic poison, causing vomiting, purging, vertigo, tetanic twitchings of the muscles, and convulsions. Moderate doses, when long con- tinued, are liable to cause a very troublesome erupt...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0050",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "ANCHUSA ROOT, [Anchusa Tinctoria,]—Principally used for Coloring Tinctures, Oils, Ointments, <fcc. ALOE, FALSE, [Aletris Farinosa,]—Cures Flatulent and Hysteric Cholic, Fevers, and Chronic Rheumatism. ARSE SMART, [Pol...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1645",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Salve",
+          "Poultice",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Rum. Saffron. Sage. Salep root. Sea salt. Senna leaves. Spirits of wine. Spunk. Sulphuric acid. Sweet flag. Syrup. 558 HOUSE DISPENSARY. 559 Licorice. Linseed. Linseed oil. Lint. Lycopedium. Magnesia. Mallow flowers....",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0048",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Arnica"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "ALOE, FALSE, [Aletris Farinosa,]—Cures Flatulent and Hysteric Cholic, Fevers, and Chronic Rheumatism. ARSE SMART, [Polygonum Punctatum,]—The tea stops Vomiting, and in fomentations reduces swellings. ANGELICA TREE, [P...",
+        "score": 48
+      }
+    ]
+  },
+  "retrieval_text": "Arnica is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 180 works and 435 source-linked chunks. Recorded variants include Arnica. Common plant-part co-mentions include Root, Flower, Leaf, Rhizome, Bark, Resin. Common preparation co-mentions include Tincture, Oil, Powder, Extract, Plaster, Liniment. Common condition co-mentions include Cold or catarrh, Wounds or ulcers, Rheumatism, Fever, Inflammation, Headache. Caution co-mentions include Dose caution, Narcotic or sedative caution, Allergy or sensitivity caution, Toxicity watch, Child-use caution, Fatal-risk warning. Representative source works include Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.; The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.; An introduction to the study of materia medica : being a short account of the more important crude drugs of vegetable and animal origin designed for students of pharmacy and medicine / by Henry G. Greenish.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.909Z",
+  "builder": "build-herb-profiles.mjs"
+}

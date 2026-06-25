@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2553034R",
+  "title": "The medical companion : treating, according to the most successful practice, 1. The diseases common to warm climates and on ship board. 2. Common cases in surgery, as fractures, dislocations, etc. 3. The complaints peculiar to women and children ; with a dispensatory and glossary ; to which are added, a brief anatomy of the human body ; an essay on hygieine [sic] or the art of preserving health and prolonging life ; and an American materia medica , instructing country gentlemen in the very important knowledge of the virtues and doses of our medicinal plants",
+  "creator": "Ewell, James, 1773-1832.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2553034R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2553034R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2553034R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;medicinal-plants;hygiene",
+  "chunkCount": 1570,
+  "paragraphCount": 2647,
+  "sectionCount": 32,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2553034R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2553034R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2553034R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2553034R.jsonl",
+  "rawSha256": "5746732cdc907ead04d900c69ffd90f51923840687cc0f628779df5ad9b0e2a2",
+  "normalizedSha256": "d31d4c8f0ba0fb0b3d07d987320c47c9098e0c389e654812995e2ef7cc788903",
+  "processedAt": "2026-06-16T23:50:28.237Z"
+}

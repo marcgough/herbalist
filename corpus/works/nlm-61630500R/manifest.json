@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61630500R",
+  "title": "The medicinal plants of Tennnessee : exhibiting their commercial value, with an analytical key, descriptions in aid of their recognition, and notes relating to their distribution, time and mode of collection, and preparation for the drug market",
+  "creator": "Gattinger, Augustin, 1825-1903 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61630500R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61630500R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61630500R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medicinal-plants",
+  "chunkCount": 334,
+  "paragraphCount": 337,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61630500R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61630500R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61630500R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61630500R.jsonl",
+  "rawSha256": "660797c01d475cac0f4834e85069906e4ed3d7ea596f3fa8d9301421d4c8b229",
+  "normalizedSha256": "7f24416b61706e7c98eca7488d3da2ed03e6b496d11e8f2e27cef99d3bfeff12",
+  "processedAt": "2026-06-17T15:13:46.844Z"
+}

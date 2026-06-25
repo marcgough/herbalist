@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-nsjg9ysw",
+  "title": "Elements of therapeutics, or, A guide to health : being cautions and directions in the treatment of diseases : designed chiefly for the use of students / by the Rev. Joseph Townsend.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/nsjg9ysw",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21159981",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/nsjg9ysw",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 1474,
+  "paragraphCount": 1495,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-nsjg9ysw\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-nsjg9ysw\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-nsjg9ysw\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-nsjg9ysw.jsonl",
+  "rawSha256": "04cacf832e6704b09dd3d75a954d7a855c041188bf6d59346adc38f527867357",
+  "normalizedSha256": "ba4535d0f5e6f0b7b601830e9ac4af105665770e2952ea6369af16edbe94acb4",
+  "processedAt": "2026-06-16T23:29:24.411Z"
+}

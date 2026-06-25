@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64220630R",
+  "title": "The American improved family physician , or home doctor : a practical explanation of pathology, therapeutics, surgery, mid-wifery and pharmacy, on reformed principles",
+  "creator": "Landis, Simon M. (Simon Mohler)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220630R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64220630R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64220630R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 124,
+  "paragraphCount": 161,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220630R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220630R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64220630R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64220630R.jsonl",
+  "rawSha256": "b0f01ec97cd440916477ee8168fbd557e42f3e200adb959e50caca0b0c4c3457",
+  "normalizedSha256": "4912366531b7d8e51295a1ebabc4d962e2d1e6eb6a1d71cc7939951ecdf8ce43",
+  "processedAt": "2026-06-19T23:02:13.629Z"
+}

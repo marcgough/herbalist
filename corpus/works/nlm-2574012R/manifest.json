@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2574012R",
+  "title": "An essay on the theory and treatment of fever and inflammation : according to the botanical or reformed system of physic and surgery, taught at the reformed medical institutions of New York City, and Worthington, Ohio : also, an examination and exposition of the effects of blood-letting, mercury and antimony, upon the human system, and of the impropriety of using them in the treatment of diseases : to which is added, a few observations on cholera",
+  "creator": "Terry, D. L.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574012R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2574012R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2574012R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 354,
+  "paragraphCount": 400,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2574012R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2574012R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2574012R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2574012R.jsonl",
+  "rawSha256": "a972d076be961e957e06160c75c3ab7009370be987bdc76a9bb0bb094fd809f6",
+  "normalizedSha256": "33808cdbcacbbed5f529b7b4ed074bff50e430e4cc494cca5c7f008d072250f5",
+  "processedAt": "2026-06-20T01:00:14.811Z"
+}

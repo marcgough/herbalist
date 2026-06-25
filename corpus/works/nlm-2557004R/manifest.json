@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2557004R",
+  "title": "A compendious medical dictionary : containing an explanation of the terms in anatomy, physiology, surgery, materia medica , chemistry, and practice of physic",
+  "creator": "Hooper, Robert, 1773-1835.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2557004R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2557004R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2557004R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 668,
+  "paragraphCount": 1619,
+  "sectionCount": 10,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2557004R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2557004R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2557004R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2557004R.jsonl",
+  "rawSha256": "ca79909778132f910888be5b75aa7a26cebadc516685b1fc90a1748a4b8212ce",
+  "normalizedSha256": "c1f44511cc29970c2735e9016427689d4c9f55a2e0fb68414fbabeb9bbe60a5d",
+  "processedAt": "2026-06-17T14:40:26.240Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-mjfy95cw",
+  "title": "Chinese materia medica : vegetable kingdom / extensively revised from F. Porter Smith's work by G.A. Stuart.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/mjfy95cw",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b31350033",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/mjfy95cw",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 1396,
+  "paragraphCount": 1451,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-mjfy95cw\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-mjfy95cw\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-mjfy95cw\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-mjfy95cw.jsonl",
+  "rawSha256": "993e77af845e7a94bda498cd93e20cad693d2f0e7fc8f58fc0a19967ff4cefd0",
+  "normalizedSha256": "45e0b1e8d33cd41034bd93c7380a097f9949bf4fb37a0f4df54dfc451f648ae2",
+  "processedAt": "2026-06-16T23:09:30.708Z"
+}

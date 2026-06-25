@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101310154",
+  "title": "A clinical materia medica : being a course of lectures delivered at the Hahnemann medical college of Philadelphia",
+  "creator": "Farrington, E. A. (Ernest Albert), 1847-1885.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101310154-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101310154-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101310154",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 49,
+  "paragraphCount": 73,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101310154\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101310154\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101310154\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101310154.jsonl",
+  "rawSha256": "a485e1e5e9423324357ffdfb0b75c571d5d72e3964b81faabdd2f4b3b4256dcb",
+  "normalizedSha256": "1b352d0c2abacc83216d1cee2d38bca1590485e36baa1c1ffd2d56a1514b5bf3",
+  "processedAt": "2026-06-17T15:42:51.534Z"
+}

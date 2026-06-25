@@ -1,0 +1,30 @@
+{
+  "profileId": "diverse-broadening-2026-06-18",
+  "description": "Bias the next Herbalisti frontier slices toward broader botany, materia medica, hygiene, nursing, dietetics, and household-health coverage while avoiding the most saturated family-physician repeats and weaker Wellcome outliers.",
+  "stage": "uncovered_family",
+  "selectionStrategy": "diverse",
+  "diversityScanWindow": 120,
+  "nlmLimit": 8,
+  "wellcomeLimit": 12,
+  "excludeWorkIds": [
+    "nlm-63580350R",
+    "nlm-8004761",
+    "nlm-64220630R",
+    "wellcome-ng7fpuv2",
+    "wellcome-y76d856v",
+    "wellcome-e2g2n9vv",
+    "wellcome-wv3pdutk",
+    "wellcome-x6myqt3f",
+    "wellcome-ep6yntuz",
+    "wellcome-fcbcmdda",
+    "wellcome-vfukwnz4",
+    "wellcome-sub5mjjp"
+  ],
+  "excludeSeriesKeys": [],
+  "excludeCreatorSeriesKeys": [],
+  "notes": [
+    "This profile captures the curated exclusion list used after the registry-first Wellcome improvement.",
+    "It is intended for broadening slices, not maximum-throughput top-score batches.",
+    "The exclusion set also trims one more polemical Wellcome witness that surfaced during the first profile dry run."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101306881",
+  "title": "Homoeopathic domestic physician : containing the treatment of diseases, popular explanations of physiology, hygiene, hydropathy, anatomy, and surgery, with illustrations and an abridged materia medica : with full explanations as to the use of new remedies",
+  "creator": "Pulte, J. H. (Joseph Hippolyt), 1811-1884.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101306881-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101306881-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101306881",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;hygiene",
+  "chunkCount": 1711,
+  "paragraphCount": 2164,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101306881\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101306881\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101306881\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101306881.jsonl",
+  "rawSha256": "312a079722ffb87176a113d35364ec9899665da06f96f190d072b105200a54b9",
+  "normalizedSha256": "45555dc00389edbb552a3fdfc3218a6a19c3885135d64de17023b1f3cdd12f17",
+  "processedAt": "2026-06-20T03:30:25.068Z"
+}

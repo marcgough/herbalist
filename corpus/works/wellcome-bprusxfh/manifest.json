@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-bprusxfh",
+  "title": "The Assyrian herbal / by R. Campbell Thompson ... a monograph on the Assyrian vegetable drugs, the subject matter of which was communicated in a paper to the Royal society, March 20, 1924.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/bprusxfh",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b31357337",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/bprusxfh",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 620,
+  "paragraphCount": 621,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-bprusxfh\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-bprusxfh\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-bprusxfh\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-bprusxfh.jsonl",
+  "rawSha256": "33ab021834e428d2bc3151ea0c84e7ab54934af299ee0add4cb746cd0c2037a9",
+  "normalizedSha256": "40a9fda2d407177562bc3a429b0efc26e924a3987ae5ecf77ef7ffb394f81a1d",
+  "processedAt": "2026-06-16T23:53:07.877Z"
+}

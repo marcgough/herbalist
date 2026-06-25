@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-0061627",
+  "title": "New guide to health , or, Botanic family physician : containing a complete system of practice, upon a plan entirely new ; with a description of the vegetables made use of, and directions for preparing and administering them to cure disease ; to which is prefixed A narrative of the life and medical discoveries of the author",
+  "creator": "Thomson, Samuel, 1769-1843.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0061627-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-0061627-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/0061627",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 52,
+  "paragraphCount": 69,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0061627\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0061627\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-0061627\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-0061627.jsonl",
+  "rawSha256": "a05b5313a83fb1598deef7a1da1b053d34bb0c7123a323db4aa976a4b38d7e42",
+  "normalizedSha256": "2b8710338ffe9ddc5f0d263e116b8ed998a7a9a7c3169d82e6cbd012aa5e2295",
+  "processedAt": "2026-06-23T12:45:27.664Z"
+}

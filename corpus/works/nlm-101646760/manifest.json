@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101646760",
+  "title": "A manual of organic materia medica and pharmacognosy : an introduction to the study of the vegetable kingdom and the vegetable and animal drugs : comprising the botanical and physical characteristics, source, constituents, and pharmacopoeial preparations : with chapters on synthetic organic remedies, insects injurious to drugs, and pharmacal botany",
+  "creator": "Sayre, Lucius E. (Lucius Elmer), 1847-1925 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101646760-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101646760-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101646760",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;botany",
+  "chunkCount": 47,
+  "paragraphCount": 47,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101646760\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101646760\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101646760\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101646760.jsonl",
+  "rawSha256": "5d8a3e4256cbf148563a00e3bad6585945d3b3b58047c80be76461475213f5d5",
+  "normalizedSha256": "3130922557182f21610f4a3b095bbbd10136d2e00e058c70e62926bbce7ac839",
+  "processedAt": "2026-06-18T15:13:36.050Z"
+}

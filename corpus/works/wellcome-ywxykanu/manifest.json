@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-ywxykanu",
+  "title": "Culpeper's English physician and British herbal : to which is added, The Family Physician; containing the safest and cheapest remedies for the various disorders incidental to the human body. With a copious index. Also, a dissertation on the advantages of vegetable over animal diet, and a plain anlysis of botany / by Dr. Dickenson.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/ywxykanu",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21297307",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/ywxykanu",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;domestic-medicine;botany",
+  "chunkCount": 911,
+  "paragraphCount": 941,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ywxykanu\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-ywxykanu\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-ywxykanu.jsonl",
+  "rawSha256": "1d182599e6b0a20e95d7d2d64822b7bf6e9cc8e8cf1531c9e969066d05fd2342",
+  "normalizedSha256": "53c547064fd36196a46ad59502dbf486211fee364b8c75bb29c58df8de92af75",
+  "processedAt": "2026-06-16T13:47:03.846Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

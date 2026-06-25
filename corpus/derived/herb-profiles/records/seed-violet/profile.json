@@ -1,0 +1,1159 @@
+{
+  "profile_id": "seed-violet",
+  "family_id": "seed-violet",
+  "canonical_name": "Violet",
+  "canonical_key": "violet",
+  "catalog_status": "seed-ready",
+  "catalog_class": "culinary-medicinal-plant",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-violet-22d2084f01#violet"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1306,
+    "total_chunks": 1211,
+    "total_works": 318,
+    "matched_chunk_count": 1211,
+    "matched_work_count": 318,
+    "matched_mention_total": 1230
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "culinary-herbs",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Violet",
+      "Violets",
+      "Violet Flowers",
+      "Violet Flower"
+    ],
+    "sample_work_ids": [
+      "nlm-0217313",
+      "nlm-0217315",
+      "nlm-0217316"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217313-chunk-0532",
+      "nlm-0217315-chunk-0753",
+      "nlm-0217315-chunk-1545"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 930
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 244
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 63
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 408,
+        "work_count": 168
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 238,
+        "work_count": 112
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 193,
+        "work_count": 98
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 170,
+        "work_count": 74
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 129,
+        "work_count": 86
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 57,
+        "work_count": 31
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 44,
+        "work_count": 40
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 34,
+        "work_count": 29
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 26,
+        "work_count": 26
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 21,
+        "work_count": 19
+      }
+    ],
+    "preparations": [
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 850,
+        "work_count": 262
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 315,
+        "work_count": 167
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 217,
+        "work_count": 110
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 201,
+        "work_count": 101
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 159,
+        "work_count": 91
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 135,
+        "work_count": 73
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 96,
+        "work_count": 55
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 66,
+        "work_count": 58
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 58,
+        "work_count": 47
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 47,
+        "work_count": 38
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 167,
+        "work_count": 106
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 115,
+        "work_count": 95
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 69,
+        "work_count": 49
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 32,
+        "work_count": 30
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 16,
+        "work_count": 14
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 11,
+        "work_count": 10
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 158,
+        "work_count": 90
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 103,
+        "work_count": 74
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 80,
+        "work_count": 48
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 70,
+        "work_count": 50
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 58,
+        "work_count": 45
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 42,
+        "work_count": 34
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 26,
+        "work_count": 21
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 17,
+        "work_count": 17
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 13,
+        "work_count": 9
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 12,
+        "work_count": 11
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 66,
+      "matched_mention_count": 67
+    },
+    {
+      "work_id": "nlm-2751057R",
+      "title": "Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops",
+      "creator": "Culpeper, Nicholas, 1616-1654 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2751057R-bk",
+      "signal_chunk_count": 54,
+      "matched_mention_count": 54
+    },
+    {
+      "work_id": "wellcome-kxejz6hv",
+      "title": "A medicinal dictionary; including physic, surgery, anatomy, chymistry, and botany, in all their branches relative to medicine. Together with a history of drugs ... and an introductory preface, tracing the progress of physic, and explaining the theories which have ... prevail'd in all ages / By R. James.",
+      "creator": "",
+      "publication_year": "1743",
+      "collection_id": "wellcome-collection",
+      "topic_family": "botany",
+      "source_url": "https://wellcomecollection.org/works/kxejz6hv",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "pg-49513",
+      "title": "The Complete Herbal",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "herbal",
+      "source_url": "https://www.gutenberg.org/ebooks/49513",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "wellcome-c4ncu7qz",
+      "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / Nicholas Culpeper.",
+      "creator": "",
+      "publication_year": "1814",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica",
+      "source_url": "https://wellcomecollection.org/works/c4ncu7qz",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "wellcome-pjvn9c9z",
+      "title": "The complete herbal, to which is now added, upwards of one hundred additional herbs, with display of their medicinal and occult qualities; physically applied to the cure of all disorders incident to mankind : to which are now first annexed the English physician enlarged and key to physic, with rules for compounding medicine according to the true system of nature. Forming a complete family dispensatory, and a natural system of physic. / by Nicholas Culpeper M. D. to which is also added upwards of fifty choice receipts, selected from the author's last legacy to his wife.",
+      "creator": "",
+      "publication_year": "1842",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;botany",
+      "source_url": "https://wellcomecollection.org/works/pjvn9c9z",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "wellcome-v2hnvyj6",
+      "title": "Complete herbal, to which is now added, upwards of one hundred additional herbs, with a display of their medicinal and occult qualities : physically applied to the cure of all disorders incident to mankind [etc.].",
+      "creator": "",
+      "publication_year": "1816",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/v2hnvyj6",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-e8fn752s",
+      "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1818",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/e8fn752s",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "nlm-2548018R",
+      "title": "Pharmacopoeia Londinensis, or, the London dispensatory : further adorned by the studies and collections of the fellows now living, of the said college",
+      "creator": "Culpeper, Nicholas, 1616-1654.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2548018R-bk",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-c2fdp9wa",
+      "title": "The complete herbal ... / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1840",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/c2fdp9wa",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 19
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-1256",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Violet",
+          "Violets"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout"
+        ],
+        "excerpt": "The new formida is : Take gviij of hellebore root, sliced, Oj of proof spirit, and Oiss of distilled water. Dose 5ss to $ij, for gout, &c. See Veratrine. ViOLiE Flores. E. D. P. Violet Flowers. Viola odorata. The flow...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-smznda7d-chunk-0669",
+        "work_id": "wellcome-smznda7d",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, The botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c. / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/smznda7d",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Plaster",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "A drachm weight of the dried leaves or flowers of Violets, purge the body of choleric hu- mours, and heat, being taken in wine, or any other drink; the powder of the flowers dried, and drank in water is said to re- li...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0587",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "LoHOeH DE Thonchin is very similar to the Lolioch Album, with the adilition of manna, cassia pulp, and syrup of maiden-hair. LoHOCH ViBiDB. P. or Loh, cum croco et pistaciis. Take 3] of syrup of violets, I1\\xx of tinc...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0587",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Lohoch de Tronchin is very similar to the Lohoeh Album, with the addition of manna, cassia pulp, and syrup of maiden-hair. Lohoch Viride. P. or Loh. cum croco et pistaciis. Take of syrup of violets, Tqxx of tincture o...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jtzqa4xp-chunk-1607",
+        "work_id": "wellcome-jtzqa4xp",
+        "title": "A family herbal: or, Familiar account of the medical properties of British and foreign plants, also their uses in dying, and the various arts, arranged according to the Linnaean system / [Robert John Thornton].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jtzqa4xp",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "Take of ipecacuan, in powder - - - grains 12, -■ compound powder of tragacantb, grains 12, - opiate confection, as much as is sufficient: To form twelve pills; one is to be taken night and morning for an asthma, or fo...",
+        "score": 42
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-1256",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Violet",
+          "Violets"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout"
+        ],
+        "excerpt": "The new formida is : Take gviij of hellebore root, sliced, Oj of proof spirit, and Oiss of distilled water. Dose 5ss to $ij, for gout, &c. See Veratrine. ViOLiE Flores. E. D. P. Violet Flowers. Viola odorata. The flow...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-smznda7d-chunk-0669",
+        "work_id": "wellcome-smznda7d",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, The botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c. / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/smznda7d",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Plaster",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "A drachm weight of the dried leaves or flowers of Violets, purge the body of choleric hu- mours, and heat, being taken in wine, or any other drink; the powder of the flowers dried, and drank in water is said to re- li...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0587",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "LoHOeH DE Thonchin is very similar to the Lolioch Album, with the adilition of manna, cassia pulp, and syrup of maiden-hair. LoHOCH ViBiDB. P. or Loh, cum croco et pistaciis. Take 3] of syrup of violets, I1\\xx of tinc...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0587",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Lohoch de Tronchin is very similar to the Lohoeh Album, with the addition of manna, cassia pulp, and syrup of maiden-hair. Lohoch Viride. P. or Loh. cum croco et pistaciis. Take of syrup of violets, Tqxx of tincture o...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jtzqa4xp-chunk-1607",
+        "work_id": "wellcome-jtzqa4xp",
+        "title": "A family herbal: or, Familiar account of the medical properties of British and foreign plants, also their uses in dying, and the various arts, arranged according to the Linnaean system / [Robert John Thornton].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jtzqa4xp",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "Take of ipecacuan, in powder - - - grains 12, -■ compound powder of tragacantb, grains 12, - opiate confection, as much as is sufficient: To form twelve pills; one is to be taken night and morning for an asthma, or fo...",
+        "score": 42
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-1256",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Violet",
+          "Violets"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout"
+        ],
+        "excerpt": "The new formida is : Take gviij of hellebore root, sliced, Oj of proof spirit, and Oiss of distilled water. Dose 5ss to $ij, for gout, &c. See Veratrine. ViOLiE Flores. E. D. P. Violet Flowers. Viola odorata. The flow...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-smznda7d-chunk-0669",
+        "work_id": "wellcome-smznda7d",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, The botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c. / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/smznda7d",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Plaster",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "A drachm weight of the dried leaves or flowers of Violets, purge the body of choleric hu- mours, and heat, being taken in wine, or any other drink; the powder of the flowers dried, and drank in water is said to re- li...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0587",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "LoHOeH DE Thonchin is very similar to the Lolioch Album, with the adilition of manna, cassia pulp, and syrup of maiden-hair. LoHOCH ViBiDB. P. or Loh, cum croco et pistaciis. Take 3] of syrup of violets, I1\\xx of tinc...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0587",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Lohoch de Tronchin is very similar to the Lohoeh Album, with the addition of manna, cassia pulp, and syrup of maiden-hair. Lohoch Viride. P. or Loh. cum croco et pistaciis. Take of syrup of violets, Tqxx of tincture o...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jtzqa4xp-chunk-1607",
+        "work_id": "wellcome-jtzqa4xp",
+        "title": "A family herbal: or, Familiar account of the medical properties of British and foreign plants, also their uses in dying, and the various arts, arranged according to the Linnaean system / [Robert John Thornton].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jtzqa4xp",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "Take of ipecacuan, in powder - - - grains 12, -■ compound powder of tragacantb, grains 12, - opiate confection, as much as is sufficient: To form twelve pills; one is to be taken night and morning for an asthma, or fo...",
+        "score": 42
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-1256",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Violet",
+          "Violets"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout"
+        ],
+        "excerpt": "The new formida is : Take gviij of hellebore root, sliced, Oj of proof spirit, and Oiss of distilled water. Dose 5ss to $ij, for gout, &c. See Veratrine. ViOLiE Flores. E. D. P. Violet Flowers. Viola odorata. The flow...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-smznda7d-chunk-0669",
+        "work_id": "wellcome-smznda7d",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, The botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c. / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/smznda7d",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Plaster",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "A drachm weight of the dried leaves or flowers of Violets, purge the body of choleric hu- mours, and heat, being taken in wine, or any other drink; the powder of the flowers dried, and drank in water is said to re- li...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0587",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "LoHOeH DE Thonchin is very similar to the Lolioch Album, with the adilition of manna, cassia pulp, and syrup of maiden-hair. LoHOCH ViBiDB. P. or Loh, cum croco et pistaciis. Take 3] of syrup of violets, I1\\xx of tinc...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0587",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Lohoch de Tronchin is very similar to the Lohoeh Album, with the addition of manna, cassia pulp, and syrup of maiden-hair. Lohoch Viride. P. or Loh. cum croco et pistaciis. Take of syrup of violets, Tqxx of tincture o...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jtzqa4xp-chunk-1607",
+        "work_id": "wellcome-jtzqa4xp",
+        "title": "A family herbal: or, Familiar account of the medical properties of British and foreign plants, also their uses in dying, and the various arts, arranged according to the Linnaean system / [Robert John Thornton].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jtzqa4xp",
+        "matched_herbs": [
+          "Violets"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "Take of ipecacuan, in powder - - - grains 12, -■ compound powder of tragacantb, grains 12, - opiate confection, as much as is sufficient: To form twelve pills; one is to be taken night and morning for an asthma, or fo...",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Violet is a culinary medicinal plant profile in the Herbalisti historical corpus. It is represented across 318 works and 1211 source-linked chunks. Recorded variants include Violet, Violets, Violet Flowers, Violet Flower. Common plant-part co-mentions include Flower, Leaf, Root, Seed, Gum, Berry. Common preparation co-mentions include Syrup, Oil, Juice, Powder, Tincture, Infusion. Common condition co-mentions include Cold or catarrh, Cough, Wounds or ulcers, Fever, Vomiting or nausea, Inflammation. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Toxicity watch, Bleeding caution, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops; A medicinal dictionary; including physic, surgery, anatomy, chymistry, and botany, in all their branches relative to medicine. Together with a history of drugs ... and an introductory preface, tracing the progress of physic, and explaining the theories which have ... prevail'd in all ages / By R. James.; The Complete Herbal. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.643Z",
+  "builder": "build-herb-profiles.mjs"
+}

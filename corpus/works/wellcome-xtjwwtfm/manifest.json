@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-xtjwwtfm",
+  "title": "Medical sketches / by George Kerr.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/xtjwwtfm",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b2129186x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/xtjwwtfm",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 34,
+  "paragraphCount": 36,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-xtjwwtfm\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-xtjwwtfm\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-xtjwwtfm\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-xtjwwtfm.jsonl",
+  "rawSha256": "e5e3474dc184a782f97dd21816b237ea889913fbb46665a72ca097506ba54dca",
+  "normalizedSha256": "18f7f3b9da0188c26cfeef0532245b310b29f184ca2e2c43661744d229739972",
+  "processedAt": "2026-06-16T23:14:18.025Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-pmkzhzfc",
+  "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal, wherein is displayed the true properties and medical virtues of all the roots, herbs, &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/pmkzhzfc",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21166237",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/pmkzhzfc",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 408,
+  "paragraphCount": 423,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-pmkzhzfc\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-pmkzhzfc\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-pmkzhzfc.jsonl",
+  "rawSha256": "f2bf3a98b7da207990b97834ba977902b20b335dd7b2ca2ebfbb6ff96e4ada62",
+  "normalizedSha256": "0c6ca065503c8f89fb5a439e38411084fa1a19086a51ff87a84c7ef56ceb1de5",
+  "processedAt": "2026-06-16T13:46:55.240Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

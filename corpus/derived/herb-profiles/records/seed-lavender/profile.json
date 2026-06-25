@@ -1,0 +1,1191 @@
+{
+  "profile_id": "seed-lavender",
+  "family_id": "seed-lavender",
+  "canonical_name": "Lavender",
+  "canonical_key": "lavender",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-lavender-fef8cec0ff#lavender"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1666,
+    "total_chunks": 1495,
+    "total_works": 394,
+    "matched_chunk_count": 1495,
+    "matched_work_count": 394,
+    "matched_mention_total": 1504
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Lavender",
+      "Lavender Flowers",
+      "Lavender Tops"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-05710300R",
+      "nlm-100912803"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-2601",
+      "nlm-05710300R-chunk-0515",
+      "nlm-100912803-chunk-2959"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1187
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 288
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 47
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 515,
+        "work_count": 223
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 278,
+        "work_count": 166
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 224,
+        "work_count": 138
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 150,
+        "work_count": 97
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 133,
+        "work_count": 108
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 113,
+        "work_count": 96
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 95,
+        "work_count": 62
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 90,
+        "work_count": 77
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 77,
+        "work_count": 69
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 63,
+        "work_count": 54
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 1137,
+        "work_count": 347
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 452,
+        "work_count": 219
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 244,
+        "work_count": 138
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 119,
+        "work_count": 54
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 117,
+        "work_count": 85
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 90,
+        "work_count": 69
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 79,
+        "work_count": 69
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 68,
+        "work_count": 46
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 67,
+        "work_count": 50
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 64,
+        "work_count": 46
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 382,
+        "work_count": 188
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 124,
+        "work_count": 83
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 38,
+        "work_count": 37
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 37,
+        "work_count": 29
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 15,
+        "work_count": 15
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 167,
+        "work_count": 113
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 73,
+        "work_count": 62
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 65,
+        "work_count": 55
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 56,
+        "work_count": 47
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 47,
+        "work_count": 37
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 46,
+        "work_count": 43
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 38,
+        "work_count": 30
+      },
+      {
+        "id": "headache",
+        "label": "Headache",
+        "signal_count": 33,
+        "work_count": 30
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 31,
+        "work_count": 29
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 27,
+        "work_count": 26
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 78,
+      "matched_mention_count": 78
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 43,
+      "matched_mention_count": 43
+    },
+    {
+      "work_id": "wellcome-dwk6bbmw",
+      "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "wellcome-nhx2ne6y",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "wellcome-ka454p8x",
+      "title": "Gray's supplement to the pharmacopoeia: being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / Entirely re-written, re-arranged, and considerably enlarged by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ka454p8x",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "wellcome-fwzua59q",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/fwzua59q",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-ctkumbc4",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+      "creator": "",
+      "publication_year": "1820",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-hnx4jyzh",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae for the chemist and druggist and medical practioner / E. Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/hnx4jyzh",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-vcp6d7za",
+      "title": "The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.",
+      "creator": "",
+      "publication_year": "1862",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/vcp6d7za",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0099",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "LAVENDER FLOWERS, [Lavendula spica,]—Adminis- tered in Flatulence, Fainting and Nervous affections. LINDEN FLOWERS, [Tilia glabra,]—A tea is useful in Head-ache, Epilepsy, and Spasmodic Cough. LARKSPUR SEED, [Delphini...",
+        "score": 56
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0097",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "LAMB-KILL LEAVES, [Kalmia latifolia,]-Usef«l in Scald Head, Syphilis, and certain stages of Fever LEOPARD'S BANE FLOWERS, [Arnica montana,]-Re- commended in Low Fevers, Inter mitten ts, Gout, Drop- sy, and Rheumatism...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0196",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The following is a good recipe :—Take of Lard and Cocoanut Oil of each 8 ounces. Melt and add J ounce best Oil of Lavender. Lemon—Antiseptic, alterative, tonic, diaplioretic, &c. For scurvy, scrofula, dyspepsia, drops...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-yyu6fnvg-chunk-0424",
+        "work_id": "wellcome-yyu6fnvg",
+        "title": "Herbal simples : approved for modern uses of cure / by W. T. Fernie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yyu6fnvg",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "” In this country the sweet-smelling herb is often made use of for scenting newly washed linen when it is put by ; from which custom has arisen the expression, “To be laid up in Lavender. ” A tea brewed from the flowe...",
+        "score": 46
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0099",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "LAVENDER FLOWERS, [Lavendula spica,]—Adminis- tered in Flatulence, Fainting and Nervous affections. LINDEN FLOWERS, [Tilia glabra,]—A tea is useful in Head-ache, Epilepsy, and Spasmodic Cough. LARKSPUR SEED, [Delphini...",
+        "score": 56
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0097",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "LAMB-KILL LEAVES, [Kalmia latifolia,]-Usef«l in Scald Head, Syphilis, and certain stages of Fever LEOPARD'S BANE FLOWERS, [Arnica montana,]-Re- commended in Low Fevers, Inter mitten ts, Gout, Drop- sy, and Rheumatism...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0196",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The following is a good recipe :—Take of Lard and Cocoanut Oil of each 8 ounces. Melt and add J ounce best Oil of Lavender. Lemon—Antiseptic, alterative, tonic, diaplioretic, &c. For scurvy, scrofula, dyspepsia, drops...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-yyu6fnvg-chunk-0424",
+        "work_id": "wellcome-yyu6fnvg",
+        "title": "Herbal simples : approved for modern uses of cure / by W. T. Fernie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yyu6fnvg",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "” In this country the sweet-smelling herb is often made use of for scenting newly washed linen when it is put by ; from which custom has arisen the expression, “To be laid up in Lavender. ” A tea brewed from the flowe...",
+        "score": 46
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0099",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "LAVENDER FLOWERS, [Lavendula spica,]—Adminis- tered in Flatulence, Fainting and Nervous affections. LINDEN FLOWERS, [Tilia glabra,]—A tea is useful in Head-ache, Epilepsy, and Spasmodic Cough. LARKSPUR SEED, [Delphini...",
+        "score": 56
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0097",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "LAMB-KILL LEAVES, [Kalmia latifolia,]-Usef«l in Scald Head, Syphilis, and certain stages of Fever LEOPARD'S BANE FLOWERS, [Arnica montana,]-Re- commended in Low Fevers, Inter mitten ts, Gout, Drop- sy, and Rheumatism...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0196",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The following is a good recipe :—Take of Lard and Cocoanut Oil of each 8 ounces. Melt and add J ounce best Oil of Lavender. Lemon—Antiseptic, alterative, tonic, diaplioretic, &c. For scurvy, scrofula, dyspepsia, drops...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-yyu6fnvg-chunk-0424",
+        "work_id": "wellcome-yyu6fnvg",
+        "title": "Herbal simples : approved for modern uses of cure / by W. T. Fernie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yyu6fnvg",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "” In this country the sweet-smelling herb is often made use of for scenting newly washed linen when it is put by ; from which custom has arisen the expression, “To be laid up in Lavender. ” A tea brewed from the flowe...",
+        "score": 46
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-yyu6fnvg-chunk-0424",
+        "work_id": "wellcome-yyu6fnvg",
+        "title": "Herbal simples : approved for modern uses of cure / by W. T. Fernie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yyu6fnvg",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "” In this country the sweet-smelling herb is often made use of for scenting newly washed linen when it is put by ; from which custom has arisen the expression, “To be laid up in Lavender. ” A tea brewed from the flowe...",
+        "score": 46
+      },
+      {
+        "chunk_id": "pg-19352-chunk-0526",
+        "work_id": "pg-19352",
+        "title": "Herbal Simples Approved for Modern Uses of Cure",
+        "collection_id": "project-gutenberg",
+        "section_heading": "HERBAL SIMPLES APPROVED FOR MODERN USES OF CURE",
+        "source_url": "https://www.gutenberg.org/ebooks/19352",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "A tea brewed from the flowers is an excellent remedy for headache from fatigue, or weakness. But Lavender oil is, in too large a dose, a narcotic poison, and causes death by convulsions. The tincture of red Lavender i...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-jd7wwg5w-chunk-1280",
+        "work_id": "wellcome-jd7wwg5w",
+        "title": "Materia medica and therapeutics : vegetable kingdom / by Charles D.F. Phillips.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jd7wwg5w",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Tincture",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is fragrant, of a pungent and aromatic taste, soluble in rectified spirit, and in two parts of proof spirit. 3. Physiological Action. —Lavender oil is, in large doses, a narcotic poison, causing death preceded by c...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-v6vrvfxq-chunk-1267",
+        "work_id": "wellcome-v6vrvfxq",
+        "title": "Materia medica and therapeutics : vegetable kingdom / by Charles D.F. Phillips.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/v6vrvfxq",
+        "matched_herbs": [
+          "Lavender"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Tincture",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Lavender oil is, in large doses, a narcotic poison, causing death preceded by convulsions. Doses of one drachm are sufficient to produce these effects in rabbits. It is also a very effective poison to skin parasites....",
+        "score": 46
+      }
+    ]
+  },
+  "retrieval_text": "Lavender is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 394 works and 1495 source-linked chunks. Recorded variants include Lavender, Lavender Flowers, Lavender Tops. Common plant-part co-mentions include Flower, Leaf, Root, Seed, Bark, Tops. Common preparation co-mentions include Oil, Tincture, Powder, Essence, Ointment, Liniment. Common condition co-mentions include Cold or catarrh, Wounds or ulcers, Rheumatism, Fever, Vomiting or nausea, Colic. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Toxicity watch, Fatal-risk warning, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.; Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.770Z",
+  "builder": "build-herb-profiles.mjs"
+}

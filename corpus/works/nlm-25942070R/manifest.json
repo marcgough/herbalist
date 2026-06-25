@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-25942070R",
+  "title": "A plain treatise on cholera : being a chapter extracted from Dr. Ralph's guide to domestic medicine , intended for the use of private individuals : showing its nature, causes and symptoms, with directions for its treatment, &c",
+  "creator": "Ralph, Joseph.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-25942070R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-25942070R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/25942070R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 42,
+  "paragraphCount": 57,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-25942070R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-25942070R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-25942070R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-25942070R.jsonl",
+  "rawSha256": "0e54b389100a1e3c5d8e9f35af6f16b29ce43715e1c1ce7096252fc5a439472e",
+  "normalizedSha256": "70bd5a4e7a0d1c8ae69211393f4ebae9cb9ef8f0ba5f959e8cd849774ad385e6",
+  "processedAt": "2026-06-17T15:34:38.535Z"
+}

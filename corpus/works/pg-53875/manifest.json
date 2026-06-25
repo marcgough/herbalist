@@ -1,0 +1,20 @@
+{
+  "workId": "pg-53875",
+  "title": "Madame Young's Guide to Health",
+  "creator": "",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/53875",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/53875/pg53875.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/53875.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 329,
+  "paragraphCount": 1254,
+  "sectionCount": 21,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-53875\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-53875\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-53875.jsonl",
+  "rawSha256": "41a53855f1c0aeccbb0e57cd94002feb1ac6057d36713f27bb2a1888620806d0",
+  "normalizedSha256": "47abf68be2991648eabb0419e6a6beb6678b8a076669422f228adb9536c4f74d",
+  "processedAt": "2026-06-16T13:39:10.381Z"
+}

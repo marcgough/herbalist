@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-aybb7599",
+  "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/aybb7599",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b20396879",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/aybb7599",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1153,
+  "paragraphCount": 1164,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-aybb7599\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-aybb7599\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-aybb7599\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-aybb7599.jsonl",
+  "rawSha256": "3f1ce0e97147ddfc0f574e25b34652bada002740216d90741ee0930ee89156ea",
+  "normalizedSha256": "68166f7c165d9514132d5e161edb98504b19b9ee6a3191959edf7affea49b38d",
+  "processedAt": "2026-06-16T13:59:51.667Z"
+}

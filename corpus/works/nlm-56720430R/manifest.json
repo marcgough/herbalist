@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-56720430R",
+  "title": "Guide to health , with remarks on the cholera",
+  "creator": "Faust, Bernhard Christoph, 1755-1842.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-56720430R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-56720430R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/56720430R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 41,
+  "paragraphCount": 362,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-56720430R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-56720430R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-56720430R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-56720430R.jsonl",
+  "rawSha256": "e1a60f9e2d88ff0d20f2a556b4d3f02493a65ac68eb5b22f60838c3420798f06",
+  "normalizedSha256": "d888929b0017ff04119fbb5c0b377a5b4267aa5b979024a4b8dff72c2323ba53",
+  "processedAt": "2026-06-17T14:19:43.837Z"
+}

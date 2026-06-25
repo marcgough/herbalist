@@ -1,0 +1,250 @@
+{
+  "generatedAt": "2026-06-23T13:12:04.238Z",
+  "totalFamiliesConsidered": 1866,
+  "frontierFamilyCount": 899,
+  "uncoveredFamilyCount": 839,
+  "depthFamilyCount": 170,
+  "failedOnlyFamilyCount": 4,
+  "discoveredInUncoveredFamilies": 973,
+  "discoveredInDepthFamilies": 411,
+  "failedOnlyWorkCount": 4,
+  "worklistLimit": 200,
+  "includeDepthFamilies": true,
+  "includeFailedOnlyFamilies": true,
+  "collectionWorklists": {
+    "nlm-digital-collections": {
+      "total": 112,
+      "uncovered": 87,
+      "depth": 23,
+      "failedOnly": 2,
+      "topFilePath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\acquisition-frontier\\worklists\\nlm-digital-collections-top.txt",
+      "stageFilePaths": {
+        "uncovered_family": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\acquisition-frontier\\worklists\\nlm-digital-collections-uncovered_family.txt",
+        "depth_family": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\acquisition-frontier\\worklists\\nlm-digital-collections-depth_family.txt",
+        "failed_only_family": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\acquisition-frontier\\worklists\\nlm-digital-collections-failed_only_family.txt"
+      },
+      "sampleWorkIds": [
+        "nlm-2541058R",
+        "nlm-101199051",
+        "nlm-101179368",
+        "nlm-25940930R",
+        "nlm-07420170R",
+        "nlm-101135080",
+        "nlm-2541055R",
+        "nlm-8206648",
+        "nlm-2437030R",
+        "nlm-100961073",
+        "nlm-2546065R",
+        "nlm-54530510R"
+      ]
+    },
+    "wellcome-collection": {
+      "total": 787,
+      "uncovered": 645,
+      "depth": 140,
+      "failedOnly": 2,
+      "topFilePath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\acquisition-frontier\\worklists\\wellcome-collection-top.txt",
+      "stageFilePaths": {
+        "uncovered_family": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\acquisition-frontier\\worklists\\wellcome-collection-uncovered_family.txt",
+        "depth_family": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\acquisition-frontier\\worklists\\wellcome-collection-depth_family.txt",
+        "failed_only_family": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\acquisition-frontier\\worklists\\wellcome-collection-failed_only_family.txt"
+      },
+      "sampleWorkIds": [
+        "wellcome-wv3pdutk",
+        "wellcome-uxg2mt59",
+        "wellcome-vfukwnz4",
+        "wellcome-hespn2p5",
+        "wellcome-cejc9grv",
+        "wellcome-bu2r7u5r",
+        "wellcome-tnax9c5r",
+        "wellcome-sp7busns",
+        "wellcome-artpxj3j",
+        "wellcome-ts6fnbu8",
+        "wellcome-f3rza2ap",
+        "wellcome-jeubygxe"
+      ]
+    }
+  },
+  "topRecommendations": [
+    {
+      "rank": 1,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1505,
+      "family_label": "Aristotle's complete master-piece, in two parts",
+      "candidate_work_id": "nlm-2541058R",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "domestic-medicine"
+    },
+    {
+      "rank": 2,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1501,
+      "family_label": "Aristotle's complete master-piece, in two parts, displaying the secrets of nature in the generation of man. Regularly digested into chapters, rendering it far more useful and easy than any yet extant. To which is added A treasure of health, or the family physician , being choice and approved remedies for all the several distempers incident to the human body",
+      "candidate_work_id": "nlm-101199051",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "domestic-medicine"
+    },
+    {
+      "rank": 3,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1494,
+      "family_label": "Improved phreno-chart and compass of life",
+      "candidate_work_id": "nlm-101179368",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "domestic-medicine"
+    },
+    {
+      "rank": 4,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1494,
+      "family_label": "The physiologist, or, Sexual physiology revealed",
+      "candidate_work_id": "nlm-25940930R",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "domestic-medicine"
+    },
+    {
+      "rank": 5,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1488,
+      "family_label": "Ladies' home calisthenics",
+      "candidate_work_id": "nlm-07420170R",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "domestic-medicine"
+    },
+    {
+      "rank": 6,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1487,
+      "family_label": "Aristotle's compleat master-piece",
+      "candidate_work_id": "nlm-101135080",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "domestic-medicine"
+    },
+    {
+      "rank": 7,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1487,
+      "family_label": "Aristotle's complete master-piece",
+      "candidate_work_id": "nlm-2541055R",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "domestic-medicine"
+    },
+    {
+      "rank": 8,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1487,
+      "family_label": "Aristotle's master-piece, or, The secrets of nature displayed in the generation of man",
+      "candidate_work_id": "nlm-8206648",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "domestic-medicine"
+    },
+    {
+      "rank": 9,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1487,
+      "family_label": "The whole of Aristotle's compleat master-piece",
+      "candidate_work_id": "nlm-2437030R",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "domestic-medicine"
+    },
+    {
+      "rank": 10,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1485,
+      "family_label": "Vivilore",
+      "candidate_work_id": "wellcome-wv3pdutk",
+      "candidate_collection_id": "wellcome-collection",
+      "family_topic_family": "hygiene;materia-medica"
+    },
+    {
+      "rank": 11,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1482,
+      "family_label": "Draft of a metropolitan sanitary code",
+      "candidate_work_id": "nlm-100961073",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "hygiene;public-health"
+    },
+    {
+      "rank": 12,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1477,
+      "family_label": "A course of examinations on anatomy and physiology, surgery, chemistry, materia medica , midwifery, and the practice of medicine",
+      "candidate_work_id": "nlm-2546065R",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "materia-medica"
+    },
+    {
+      "rank": 13,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1477,
+      "family_label": "Diseases of children for nurses",
+      "candidate_work_id": "nlm-54530510R",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "hygiene;nursing"
+    },
+    {
+      "rank": 14,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1476,
+      "family_label": "Catalogue of medical books",
+      "candidate_work_id": "nlm-101220398",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "materia-medica"
+    },
+    {
+      "rank": 15,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1476,
+      "family_label": "A report on the medical management of the native jails throughout the territories subject to the governments of Fort William and Agra",
+      "candidate_work_id": "wellcome-uxg2mt59",
+      "candidate_collection_id": "wellcome-collection",
+      "family_topic_family": "hygiene;public-health"
+    },
+    {
+      "rank": 16,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1475,
+      "family_label": "Pharmacopoeia extemporanea, sive praescriptorum chilias, in qua remediorum ... paradigmata",
+      "candidate_work_id": "wellcome-vfukwnz4",
+      "candidate_collection_id": "wellcome-collection",
+      "family_topic_family": "pharmacopoeia"
+    },
+    {
+      "rank": 17,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1475,
+      "family_label": "Botany at the Rochester meeting of the American Association for the Advancement of Science",
+      "candidate_work_id": "nlm-101731070",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "botany;pharmacopoeia"
+    },
+    {
+      "rank": 18,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1475,
+      "family_label": "Macis",
+      "candidate_work_id": "nlm-101722799",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "botany;pharmacopoeia"
+    },
+    {
+      "rank": 19,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1473,
+      "family_label": "Report on the U. S. Pharmacopoeia",
+      "candidate_work_id": "nlm-61820500R",
+      "candidate_collection_id": "nlm-digital-collections",
+      "family_topic_family": "pharmacopoeia"
+    },
+    {
+      "rank": 20,
+      "frontier_stage": "uncovered_family",
+      "frontier_score": 1473,
+      "family_label": "Hortus suburbanus calcuttensis. A catalogue of the plants which have been cultivated in the Hon. East India company’s botanical garden, Calcutta, and in the Serampore botanical garden ... from the beginning of both establishments (1786 and 1800) to the end of August 1841 ...",
+      "candidate_work_id": "wellcome-hespn2p5",
+      "candidate_collection_id": "wellcome-collection",
+      "family_topic_family": "botany"
+    }
+  ]
+}

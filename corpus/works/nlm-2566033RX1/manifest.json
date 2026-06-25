@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2566033RX1",
+  "title": "The London medical dictionary: including, under distinct heads, every branch of medicine, viz. anatomy, physiology, and pathology, the practice of physic and surgery, therapeutics, and materia medica ; with whatever relates to medicine in natural philosophy, chemistry, and natural history (Volume 1)",
+  "creator": "Parr, Bartholomew, 1750-1810.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2566033RX1-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2566033RX1-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2566033RX1",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 8066,
+  "paragraphCount": 8430,
+  "sectionCount": 12,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2566033RX1\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2566033RX1\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2566033RX1\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2566033RX1.jsonl",
+  "rawSha256": "bea3ec01b722e008b1a6bfc5a9d8612dabd7f03aa0b0d7a6eb91e7705a7ffff1",
+  "normalizedSha256": "ef86291e1268b68455e5c97aa5c9e28c13fdd3a2cee0adcb540a67231aa08795",
+  "processedAt": "2026-06-17T18:32:58.997Z"
+}

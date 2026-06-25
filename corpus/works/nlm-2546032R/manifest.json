@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2546032R",
+  "title": "The family adviser, calculated to teach the principles of botany : compiled with a strict regard to logick ; containing directions for preserving health, and curing diseases for the use of families and private individuals",
+  "creator": "Cobb, Daniel J.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2546032R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2546032R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2546032R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 215,
+  "paragraphCount": 361,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2546032R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2546032R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2546032R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2546032R.jsonl",
+  "rawSha256": "64e60ddd85cb03da3dc64642124448b9ba72a59e5452d0386c7b8c93174f84c7",
+  "normalizedSha256": "ee1141c38e9c2c72ffdaba97f318300b3720ced6e65655bcbd0db0664f62d022",
+  "processedAt": "2026-06-18T16:16:41.794Z"
+}

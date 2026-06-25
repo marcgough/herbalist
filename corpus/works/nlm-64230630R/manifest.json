@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64230630R",
+  "title": "The first edition of Steward's healing art : corrected and improved by the original hand : to which he has added all his late improvements and new discoveries, both in physick and surgery, from the year 1812 to the year 1826, including his whole system upon physick and surgery : to which he has added, A concise herbal , containing a full description of herbs , roots, barks, and plants, both in their simple and compound use, with a description of their soils and the countries where they are generally found",
+  "creator": "Steward, William, 1765-1845.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230630R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64230630R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64230630R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal",
+  "chunkCount": 461,
+  "paragraphCount": 565,
+  "sectionCount": 16,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64230630R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64230630R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64230630R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64230630R.jsonl",
+  "rawSha256": "97a982bd637c0f962dcba3f60fa1b35207ddf8fff972f9bea00578aed82ac3ba",
+  "normalizedSha256": "1e776b3fdc029d958594fda15fa0243f69f4b70f0bd2220cbafdaa890dc0b9d1",
+  "processedAt": "2026-06-17T13:02:53.413Z"
+}

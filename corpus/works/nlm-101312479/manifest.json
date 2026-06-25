@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101312479",
+  "title": "Domestic medicine : a treatise on the prevention and cure of diseases, by regimen and simple medicines : with directions for the management of common cases in surgery, as fractures, dislocations and wounds : the treatment peculiar to the diseases of women and children : with observations on the art of preserving health, without the aid of medicine : and a treatise on animal, vegetable, mineral and aerial poisons, pointing out the symptoms, antidotes and means of cure, in cases of poisoning ; to which is annexed, a dispensatory, for the use of private practitioners, and a glossary, explaining technical terms",
+  "creator": "Buchan, William, 1729-1805.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101312479-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101312479-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101312479",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;materia-medica;domestic-medicine;pharmacopoeia",
+  "chunkCount": 32,
+  "paragraphCount": 44,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101312479\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101312479\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101312479\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101312479.jsonl",
+  "rawSha256": "b9d7908c3fa28bcc8dae4ecd2e1e429b5ee8a7af6ef33d715e11489d79fc8af3",
+  "normalizedSha256": "c93375af114771197c420d3d5aa2a8ac66fca52b45e9db2906965f19f1618bcd",
+  "processedAt": "2026-06-16T14:22:46.744Z"
+}

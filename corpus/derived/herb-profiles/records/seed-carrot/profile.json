@@ -1,0 +1,1204 @@
+{
+  "profile_id": "seed-carrot",
+  "family_id": "seed-carrot",
+  "canonical_name": "Carrot",
+  "canonical_key": "carrot",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-carrot-b96482290a#carrot"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 464,
+    "total_chunks": 439,
+    "total_works": 281,
+    "matched_chunk_count": 439,
+    "matched_work_count": 281,
+    "matched_mention_total": 439
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Carrot",
+      "Carrots"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1582",
+      "nlm-0140313-chunk-2281",
+      "nlm-0217313-chunk-1272"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 233
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 126
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 83
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 133,
+        "work_count": 109
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 128,
+        "work_count": 88
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 108,
+        "work_count": 104
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 85,
+        "work_count": 72
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 43,
+        "work_count": 34
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 27,
+        "work_count": 23
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 21,
+        "work_count": 18
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 19,
+        "work_count": 18
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 16,
+        "work_count": 15
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "preparations": [
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 253,
+        "work_count": 184
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 100,
+        "work_count": 99
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 89,
+        "work_count": 83
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 72,
+        "work_count": 64
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 59,
+        "work_count": 42
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 47,
+        "work_count": 46
+      },
+      {
+        "id": "wash",
+        "label": "Wash",
+        "signal_count": 30,
+        "work_count": 29
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 30,
+        "work_count": 28
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 24,
+        "work_count": 24
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 22,
+        "work_count": 19
+      }
+    ],
+    "cautions": [
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 45,
+        "work_count": 39
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 38,
+        "work_count": 31
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 27,
+        "work_count": 26
+      },
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 25,
+        "work_count": 24
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 19,
+        "work_count": 18
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "conditions": [
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 192,
+        "work_count": 152
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 67,
+        "work_count": 65
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 42,
+        "work_count": 40
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 39,
+        "work_count": 38
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 14,
+        "work_count": 13
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 14,
+        "work_count": 12
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 11,
+        "work_count": 11
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-rk2ty6mu",
+      "title": "Lexicon medicum; or medical dictionary; containing an explanation and comparative, botany, chemistry, materia medica, midwifery, pharmacy, physiology, practice of physic, surgery, and the various branches of natural philosopy, connected with medicine / Selected, arranged and compiled, from the best authors, by Robert Hooper.",
+      "creator": "",
+      "publication_year": "1839",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/rk2ty6mu",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-agdnfevh",
+      "title": "A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.",
+      "creator": "",
+      "publication_year": "1821",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/agdnfevh",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "nlm-63620390R",
+      "title": "The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses",
+      "creator": "Teter, H. (Henry)",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620390R-bk",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "wellcome-z367wx5k",
+      "title": "Lexicon medicum, or, Medical dictionary : containing an explanation of the terms in anatomy, botany, chemistry, materia medica, midwifery, mineralogy, pharmacy, physiology, practice of physic, surgery, and the various branches of natural philosophy connected with medicine / selected, arranged, and compiled from the best authors ... by Robert Hooper.",
+      "creator": "",
+      "publication_year": "1831",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/z367wx5k",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "pg-53875",
+      "title": "Madame Young's Guide to Health",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://www.gutenberg.org/ebooks/53875",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-32610690R",
+      "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal , wherein is displayed the true properties and medical virtues of all the roots, herbs , &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex",
+      "creator": "Young, Madame (Amelia)",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32610690R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-pmkzhzfc",
+      "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal, wherein is displayed the true properties and medical virtues of all the roots, herbs, &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex.",
+      "creator": "",
+      "publication_year": "1858",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/pmkzhzfc",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-2566033RX1",
+      "title": "The London medical dictionary: including, under distinct heads, every branch of medicine, viz. anatomy, physiology, and pathology, the practice of physic and surgery, therapeutics, and materia medica ; with whatever relates to medicine in natural philosophy, chemistry, and natural history (Volume 1)",
+      "creator": "Parr, Bartholomew, 1750-1810.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2566033RX1-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-t8tt3j2c",
+      "title": "The London medical dictionary: including, under distinct heads, every branch of medicine, viz. anatomy, physiology, and pathology, the practice of physic and surgery, therapeutics, and materia medica ; with whatever relates to medicine in natural philosophy, chemistry, and natural history (Volume 1).",
+      "creator": "",
+      "publication_year": "1819",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/t8tt3j2c",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0006",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Bowels, complaints of the, 20, 90 Do Inflammation of, 47 Do Pains in the, 22, 41 Do the, 161 Do to regulate, 63 Do weak, 19, 35 Breast, Cancer in the, 36 Do Pain in the, 85 Do Sore, 23, 76, 82 Bronchites, 30 Bruises,...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64210990R-chunk-0013",
+        "work_id": "nlm-64210990R",
+        "title": "The vegetable family physician : containing a description of the roots and herbs common to this country, with their medicinal properties and uses : also, directions for the treatment of the diseases incident to human nature by vegetables alone, embracing many valuable Indian recipes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "VEGETABLE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210990R-bk",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Salve",
+          "Poultice"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "For the Ague, 113 Bleeding at the Nose,U3 For Dysentery, 114 Carrot Poultice, 114 Freckles, Lip Salve, 114 Eve Water for Weak \"Eves, 115 Volatile Salts, 115 Coughs, Influenza, 115 Discharge of Joint Water, 116 Piles,...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-pmkzhzfc-chunk-0003",
+        "work_id": "wellcome-pmkzhzfc",
+        "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal, wherein is displayed the true properties and medical virtues of all the roots, herbs, &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pmkzhzfc",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Do to warm the 81, 93 j Do Vomiting of 48 I Bloody Flux, 27, 53, 89 I P«? e Blue Flag, 13 Boils, 56, 57, 68 Bones, broken 78 Bone Ointment, 95 Bowels, complaints of the 20, 99 Do Inflammation of 47 Do Pains in the 22,...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0072",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Ointment"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "CANKER WEED, [Prenanthes alba,]—Used in Diarrhoea, Dysentery, and Derangement of the Bowels. CARROT SEEDS, WILD, [Daucus carota,]—Given in Strangury, Calculus, Lumbrici, <fec. CARDINAL FLOWER, RED, [Lobelia cardinalis...",
+        "score": 49
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0006",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Bowels, complaints of the, 20, 90 Do Inflammation of, 47 Do Pains in the, 22, 41 Do the, 161 Do to regulate, 63 Do weak, 19, 35 Breast, Cancer in the, 36 Do Pain in the, 85 Do Sore, 23, 76, 82 Bronchites, 30 Bruises,...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64210990R-chunk-0013",
+        "work_id": "nlm-64210990R",
+        "title": "The vegetable family physician : containing a description of the roots and herbs common to this country, with their medicinal properties and uses : also, directions for the treatment of the diseases incident to human nature by vegetables alone, embracing many valuable Indian recipes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "VEGETABLE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210990R-bk",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Salve",
+          "Poultice"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "For the Ague, 113 Bleeding at the Nose,U3 For Dysentery, 114 Carrot Poultice, 114 Freckles, Lip Salve, 114 Eve Water for Weak \"Eves, 115 Volatile Salts, 115 Coughs, Influenza, 115 Discharge of Joint Water, 116 Piles,...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-pmkzhzfc-chunk-0003",
+        "work_id": "wellcome-pmkzhzfc",
+        "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal, wherein is displayed the true properties and medical virtues of all the roots, herbs, &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pmkzhzfc",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Do to warm the 81, 93 j Do Vomiting of 48 I Bloody Flux, 27, 53, 89 I P«? e Blue Flag, 13 Boils, 56, 57, 68 Bones, broken 78 Bone Ointment, 95 Bowels, complaints of the 20, 99 Do Inflammation of 47 Do Pains in the 22,...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0072",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Ointment"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "CANKER WEED, [Prenanthes alba,]—Used in Diarrhoea, Dysentery, and Derangement of the Bowels. CARROT SEEDS, WILD, [Daucus carota,]—Given in Strangury, Calculus, Lumbrici, <fec. CARDINAL FLOWER, RED, [Lobelia cardinalis...",
+        "score": 49
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0006",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Bowels, complaints of the, 20, 90 Do Inflammation of, 47 Do Pains in the, 22, 41 Do the, 161 Do to regulate, 63 Do weak, 19, 35 Breast, Cancer in the, 36 Do Pain in the, 85 Do Sore, 23, 76, 82 Bronchites, 30 Bruises,...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64210990R-chunk-0013",
+        "work_id": "nlm-64210990R",
+        "title": "The vegetable family physician : containing a description of the roots and herbs common to this country, with their medicinal properties and uses : also, directions for the treatment of the diseases incident to human nature by vegetables alone, embracing many valuable Indian recipes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "VEGETABLE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210990R-bk",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Salve",
+          "Poultice"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "For the Ague, 113 Bleeding at the Nose,U3 For Dysentery, 114 Carrot Poultice, 114 Freckles, Lip Salve, 114 Eve Water for Weak \"Eves, 115 Volatile Salts, 115 Coughs, Influenza, 115 Discharge of Joint Water, 116 Piles,...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-pmkzhzfc-chunk-0003",
+        "work_id": "wellcome-pmkzhzfc",
+        "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal, wherein is displayed the true properties and medical virtues of all the roots, herbs, &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pmkzhzfc",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Do to warm the 81, 93 j Do Vomiting of 48 I Bloody Flux, 27, 53, 89 I P«? e Blue Flag, 13 Boils, 56, 57, 68 Bones, broken 78 Bone Ointment, 95 Bowels, complaints of the 20, 99 Do Inflammation of 47 Do Pains in the 22,...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0072",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Ointment"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "CANKER WEED, [Prenanthes alba,]—Used in Diarrhoea, Dysentery, and Derangement of the Bowels. CARROT SEEDS, WILD, [Daucus carota,]—Given in Strangury, Calculus, Lumbrici, <fec. CARDINAL FLOWER, RED, [Lobelia cardinalis...",
+        "score": 49
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0006",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Bowels, complaints of the, 20, 90 Do Inflammation of, 47 Do Pains in the, 22, 41 Do the, 161 Do to regulate, 63 Do weak, 19, 35 Breast, Cancer in the, 36 Do Pain in the, 85 Do Sore, 23, 76, 82 Bronchites, 30 Bruises,...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64210990R-chunk-0013",
+        "work_id": "nlm-64210990R",
+        "title": "The vegetable family physician : containing a description of the roots and herbs common to this country, with their medicinal properties and uses : also, directions for the treatment of the diseases incident to human nature by vegetables alone, embracing many valuable Indian recipes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "VEGETABLE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210990R-bk",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Salve",
+          "Poultice"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "For the Ague, 113 Bleeding at the Nose,U3 For Dysentery, 114 Carrot Poultice, 114 Freckles, Lip Salve, 114 Eve Water for Weak \"Eves, 115 Volatile Salts, 115 Coughs, Influenza, 115 Discharge of Joint Water, 116 Piles,...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-pmkzhzfc-chunk-0003",
+        "work_id": "wellcome-pmkzhzfc",
+        "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal, wherein is displayed the true properties and medical virtues of all the roots, herbs, &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pmkzhzfc",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Do to warm the 81, 93 j Do Vomiting of 48 I Bloody Flux, 27, 53, 89 I P«? e Blue Flag, 13 Boils, 56, 57, 68 Bones, broken 78 Bone Ointment, 95 Bowels, complaints of the 20, 99 Do Inflammation of 47 Do Pains in the 22,...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0072",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Carrot"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Ointment"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "CANKER WEED, [Prenanthes alba,]—Used in Diarrhoea, Dysentery, and Derangement of the Bowels. CARROT SEEDS, WILD, [Daucus carota,]—Given in Strangury, Calculus, Lumbrici, <fec. CARDINAL FLOWER, RED, [Lobelia cardinalis...",
+        "score": 49
+      }
+    ]
+  },
+  "retrieval_text": "Carrot is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 281 works and 439 source-linked chunks. Recorded variants include Carrot, Carrots. Common plant-part co-mentions include Root, Seed, Bark, Leaf, Flower, Berry. Common preparation co-mentions include Poultice, Powder, Oil, Decoction, Juice, Infusion. Common condition co-mentions include Wounds or ulcers, Cold or catarrh, Inflammation, Fever, Epilepsy or convulsions, Cough. Caution co-mentions include Fatal-risk warning, Narcotic or sedative caution, Child-use caution, Dose caution, Toxicity watch, Bleeding caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Lexicon medicum; or medical dictionary; containing an explanation and comparative, botany, chemistry, materia medica, midwifery, pharmacy, physiology, practice of physic, surgery, and the various branches of natural philosopy, connected with medicine / Selected, arranged and compiled, from the best authors, by Robert Hooper.; A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.; The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.907Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-c37ryv7c",
+  "title": "Adam in Eden, or nature's paradise. The history of plants, fruits, herbs, and flowers. With their several names, whether Greek, Latin or English ... as also their several signatures, anatomical appropriations, and particular physical vertues ... / By William Coles, herbarist.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/c37ryv7c",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30330427",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/c37ryv7c",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 2303,
+  "paragraphCount": 2573,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-c37ryv7c\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-c37ryv7c\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-c37ryv7c\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-c37ryv7c.jsonl",
+  "rawSha256": "14fec2417ca341c5abe7e78d0a5db73fb30c526368c8b2231c53a0bad2b9930a",
+  "normalizedSha256": "92567fb6b6932a83cb584e390e2e1ea4daa6251452fc8671d217e31629cb3ff1",
+  "processedAt": "2026-06-16T23:54:14.798Z"
+}

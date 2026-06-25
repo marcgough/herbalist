@@ -1,0 +1,1197 @@
+{
+  "profile_id": "seed-anise",
+  "family_id": "seed-anise",
+  "canonical_name": "Anise",
+  "canonical_key": "anise",
+  "catalog_status": "seed-ready",
+  "catalog_class": "culinary-medicinal-plant",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-anise-a56fc8aaf1#anise"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1268,
+    "total_chunks": 1135,
+    "total_works": 347,
+    "matched_chunk_count": 1135,
+    "matched_work_count": 347,
+    "matched_mention_total": 1135
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "culinary-herbs",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Anise"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-05710300R"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0729",
+      "nlm-0140313-chunk-1303",
+      "nlm-0140313-chunk-1563"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 819
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 283
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 61
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 427,
+        "work_count": 220
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 338,
+        "work_count": 151
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 149,
+        "work_count": 86
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 138,
+        "work_count": 79
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 121,
+        "work_count": 83
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 120,
+        "work_count": 97
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 114,
+        "work_count": 76
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 53,
+        "work_count": 47
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 39,
+        "work_count": 33
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 22,
+        "work_count": 18
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 869,
+        "work_count": 294
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 298,
+        "work_count": 155
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 249,
+        "work_count": 126
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 192,
+        "work_count": 80
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 170,
+        "work_count": 71
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 149,
+        "work_count": 71
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 143,
+        "work_count": 82
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 88,
+        "work_count": 61
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 74,
+        "work_count": 47
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 56,
+        "work_count": 39
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 513,
+        "work_count": 197
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 258,
+        "work_count": 141
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 177,
+        "work_count": 131
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 29,
+        "work_count": 24
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 24,
+        "work_count": 24
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 129,
+        "work_count": 78
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 113,
+        "work_count": 78
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 93,
+        "work_count": 72
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 49,
+        "work_count": 45
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 49,
+        "work_count": 33
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 48,
+        "work_count": 43
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 46,
+        "work_count": 39
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 40,
+        "work_count": 32
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 39,
+        "work_count": 27
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 38,
+        "work_count": 32
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 99,
+      "matched_mention_count": 99
+    },
+    {
+      "work_id": "wellcome-dvdzaqep",
+      "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "nlm-61820150R",
+      "title": "The reformed botanic and Indian physician : a complete guide to health",
+      "creator": "Smith, Daniel, 1790-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-fwzua59q",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/fwzua59q",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "nlm-0140313",
+      "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants;domestic-medicine;hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-ctkumbc4",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+      "creator": "",
+      "publication_year": "1820",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "wellcome-mv32s6ry",
+      "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1856",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-xed7wwta-chunk-0970",
+        "work_id": "wellcome-xed7wwta",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xed7wwta",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Plaster",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "This is used as a sticking plaster; and also, in rheumatism. Xt is likewise useful in cuts, ulcers, &c. —[American Practice. ^} 3 Ibsv 4 oz. 4 oz. 4 oz. 3 oz. - i 2 oz. 1 gill. 1 3 oz. ANODYNE DROPS. Take of, Compound...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-mv32s6ry-chunk-2066",
+        "work_id": "wellcome-mv32s6ry",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Plaster",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "In some seasons, and climates, a little more rosin, or a little more sweet oil, is required, to make it of the right consistence. This is used as a sticking plaster; and also, in rheumatism. It is likewise useful in c...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-xed7wwta-chunk-0970",
+        "work_id": "wellcome-xed7wwta",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xed7wwta",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Plaster",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "This is used as a sticking plaster; and also, in rheumatism. Xt is likewise useful in cuts, ulcers, &c. —[American Practice. ^} 3 Ibsv 4 oz. 4 oz. 4 oz. 3 oz. - i 2 oz. 1 gill. 1 3 oz. ANODYNE DROPS. Take of, Compound...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-mv32s6ry-chunk-2066",
+        "work_id": "wellcome-mv32s6ry",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Plaster",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "In some seasons, and climates, a little more rosin, or a little more sweet oil, is required, to make it of the right consistence. This is used as a sticking plaster; and also, in rheumatism. It is likewise useful in c...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-xed7wwta-chunk-0970",
+        "work_id": "wellcome-xed7wwta",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xed7wwta",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Plaster",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "This is used as a sticking plaster; and also, in rheumatism. Xt is likewise useful in cuts, ulcers, &c. —[American Practice. ^} 3 Ibsv 4 oz. 4 oz. 4 oz. 3 oz. - i 2 oz. 1 gill. 1 3 oz. ANODYNE DROPS. Take of, Compound...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-mv32s6ry-chunk-2066",
+        "work_id": "wellcome-mv32s6ry",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Plaster",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "In some seasons, and climates, a little more rosin, or a little more sweet oil, is required, to make it of the right consistence. This is used as a sticking plaster; and also, in rheumatism. It is likewise useful in c...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-xed7wwta-chunk-0970",
+        "work_id": "wellcome-xed7wwta",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xed7wwta",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Plaster",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "This is used as a sticking plaster; and also, in rheumatism. Xt is likewise useful in cuts, ulcers, &c. —[American Practice. ^} 3 Ibsv 4 oz. 4 oz. 4 oz. 3 oz. - i 2 oz. 1 gill. 1 3 oz. ANODYNE DROPS. Take of, Compound...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-mv32s6ry-chunk-2066",
+        "work_id": "wellcome-mv32s6ry",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Plaster",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "In some seasons, and climates, a little more rosin, or a little more sweet oil, is required, to make it of the right consistence. This is used as a sticking plaster; and also, in rheumatism. It is likewise useful in c...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Anise"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      }
+    ]
+  },
+  "retrieval_text": "Anise is a culinary medicinal plant profile in the Herbalisti historical corpus. It is represented across 347 works and 1135 source-linked chunks. Recorded variants include Anise. Common plant-part co-mentions include Seed, Root, Bark, Gum, Leaf, Flower. Common preparation co-mentions include Oil, Tincture, Powder, Tea, Essence, Syrup. Common condition co-mentions include Cough, Cold or catarrh, Colic, Vomiting or nausea, Fever, Diarrhoea or looseness. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Toxicity watch, Fatal-risk warning, Bleeding caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.; The reformed botanic and Indian physician : a complete guide to health; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.647Z",
+  "builder": "build-herb-profiles.mjs"
+}

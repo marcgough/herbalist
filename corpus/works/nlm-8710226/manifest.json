@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-8710226",
+  "title": "A Boke of the propreties of herbes called an herball : wherunto is added the time ye herbes, floures and sedes shold be gathered to be kept the whole yere, wyth the vertue of ye herbes when they are stilled ; also a generall rule of all maner of herbes drawen out of an auncyent booke of phisyck",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8710226-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-8710226-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/8710226",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 135,
+  "paragraphCount": 141,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-8710226\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-8710226\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-8710226\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-8710226.jsonl",
+  "rawSha256": "d32dbaae26e25ea3690720a12a694141096d848cf46cd0802c9d9275ff735079",
+  "normalizedSha256": "579f510422183c89745ec461937abd9c408b0ffea1b4429baf8b85192ce85d28",
+  "processedAt": "2026-06-16T23:06:49.274Z"
+}

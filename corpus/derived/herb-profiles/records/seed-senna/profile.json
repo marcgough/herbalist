@@ -1,0 +1,1214 @@
+{
+  "profile_id": "seed-senna",
+  "family_id": "seed-senna",
+  "canonical_name": "Senna",
+  "canonical_key": "senna",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-senna-4a2a663f1b#senna"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 3644,
+    "total_chunks": 3232,
+    "total_works": 510,
+    "matched_chunk_count": 3232,
+    "matched_work_count": 510,
+    "matched_mention_total": 3232
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Senna"
+    ],
+    "sample_work_ids": [
+      "nlm-0027427",
+      "nlm-0140313",
+      "nlm-0217313"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0027427-chunk-0033",
+      "nlm-0140313-chunk-0688",
+      "nlm-0140313-chunk-0799"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 2784
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 363
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 167
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 741,
+        "work_count": 278
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 590,
+        "work_count": 284
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 523,
+        "work_count": 274
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 337,
+        "work_count": 218
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 208,
+        "work_count": 148
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 138,
+        "work_count": 103
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 120,
+        "work_count": 88
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 72,
+        "work_count": 66
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 49,
+        "work_count": 43
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 19,
+        "work_count": 18
+      }
+    ],
+    "preparations": [
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 1828,
+        "work_count": 395
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 1111,
+        "work_count": 357
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 715,
+        "work_count": 287
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 678,
+        "work_count": 327
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 677,
+        "work_count": 298
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 532,
+        "work_count": 211
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 522,
+        "work_count": 230
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 458,
+        "work_count": 223
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 373,
+        "work_count": 159
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 329,
+        "work_count": 194
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 1420,
+        "work_count": 371
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 420,
+        "work_count": 236
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 335,
+        "work_count": 194
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 177,
+        "work_count": 105
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 114,
+        "work_count": 103
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 78,
+        "work_count": 72
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 58,
+        "work_count": 52
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 36,
+        "work_count": 30
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 390,
+        "work_count": 223
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 312,
+        "work_count": 169
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 294,
+        "work_count": 182
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 237,
+        "work_count": 155
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 175,
+        "work_count": 110
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 168,
+        "work_count": 133
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 137,
+        "work_count": 105
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 82,
+        "work_count": 64
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 75,
+        "work_count": 65
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 70,
+        "work_count": 63
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 50,
+      "matched_mention_count": 50
+    },
+    {
+      "work_id": "wellcome-cs5n98hu",
+      "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+      "signal_chunk_count": 32,
+      "matched_mention_count": 32
+    },
+    {
+      "work_id": "wellcome-jmh3m2rt",
+      "title": "A cyclopedia of domestic medicine and surgery: being an alphabetical account of the various diseases incident to the human frame ... also, instructions for administering the various substances used in medicine; for the regulation of diet and regimen / by Thomas Andrew, with contributions by several members of the Royal College of Surgeons, Edinburgh.",
+      "creator": "",
+      "publication_year": "1844",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jmh3m2rt",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "wellcome-kxa3abey",
+      "title": "The book of health : a compendium of domestic medicine, deduced from the experience of the most eminent modern practitioners, entirely divested of technicalities and rendered familiar to the general reader : including the mode of treatment for diseases in general ; a plan for the management of infants and children.",
+      "creator": "",
+      "publication_year": "1830",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/kxa3abey",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "nlm-0217317",
+      "title": "New and enlarged edition of Dr. Buchan's Domestic medicine : or a treatise on the prevention and cure of diseases by regimen and simple medicines : with the latest corrections and improvements, and full directions in regard to air, exercise, bathing, clothing, sleep, diet, &c. &c. and the general management of the diseases of women and children : to which is annexed a complete family dispensatory, for the use of private practitioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217317-bk",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "nlm-8212771",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with observations on sea-bathing, and the use of mineral waters, to which is annexed a dispensary for the use of private practitioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8212771-bk",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "wellcome-fye8pzgm",
+      "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines; with observations on sea-bathing, and the use of the mineral waters to which is annexed, a dispensatory for the use of private practitioners / From the 22d English ed., with considerable additions and notes.",
+      "creator": "",
+      "publication_year": "1828",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/fye8pzgm",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "wellcome-vcp6d7za",
+      "title": "The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.",
+      "creator": "",
+      "publication_year": "1862",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/vcp6d7za",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "nlm-0217315",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with observations on sea-bathing, and the use of the mineral waters, to which is annexed a dispensatory for the use of private practitioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217315-bk",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "nlm-0217404",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with observations on sea-bathing, and the use of the mineral waters, to which is annexed a dispensatory for the use of private practitioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217404-bk",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-8004287-chunk-0248",
+        "work_id": "nlm-8004287",
+        "title": "The household guide, or, Domestic cyclopedia : a practical family physician, home remedies and home treatment on all diseases, an instructor on nursing, housekeeping, and home adornments",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\" ONLY A SPRAIN.\"",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8004287-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Tea",
+          "Gargle",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "122 Home Remedies, and How to Use Them. PEPPERMINT. Externally applied it is an efficient remedy in neuralgia. It is good for sickness of the stomach, colic and cholera of children. Dose. Essence of peppermint may be...",
+        "score": 68
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0180",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "Has been much used in this country as a powerful diuretic and expectorant, in doses of ten to thirty or forty grains in powder; and in larger doses it is said to produce vomiting and purging. Two or three tablespoonfu...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0509",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Bath",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "31, 78 , Decoction of, 31 Salad Oil, 63 Sand-rock Water, 112 Sassafras Chips, 78 Scald Head, 19, 64, 169 Scalds and Burns, 94, 126 Scarlet Fever, 8, 170 ScammonyGum, 41 Scrofula, 47 Sciatica, 171 Scurvy, 172 Sea Bathi...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-twr2cuqc-chunk-0188",
+        "work_id": "wellcome-twr2cuqc",
+        "title": "Butler's Medicine-chest directory, and family catalogue of drugs, chemicals, etc., with the properties and doses of such as are more generally used in domestic medicine; to which is appended a concise description of diseases, with directions for ... treatment, etc / [Charles Butler].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/twr2cuqc",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Dropsy"
+        ],
+        "excerpt": "An article of diet for infants ; it is boiled in milk or water, as may be most desirable under the circumstances for which it is given. SENEKA ROOT. Expectorant; also diuretic and ca- thartic. A large wine-glassful of...",
+        "score": 49
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-8004287-chunk-0248",
+        "work_id": "nlm-8004287",
+        "title": "The household guide, or, Domestic cyclopedia : a practical family physician, home remedies and home treatment on all diseases, an instructor on nursing, housekeeping, and home adornments",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\" ONLY A SPRAIN.\"",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8004287-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Tea",
+          "Gargle",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "122 Home Remedies, and How to Use Them. PEPPERMINT. Externally applied it is an efficient remedy in neuralgia. It is good for sickness of the stomach, colic and cholera of children. Dose. Essence of peppermint may be...",
+        "score": 68
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0180",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "Has been much used in this country as a powerful diuretic and expectorant, in doses of ten to thirty or forty grains in powder; and in larger doses it is said to produce vomiting and purging. Two or three tablespoonfu...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0509",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Bath",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "31, 78 , Decoction of, 31 Salad Oil, 63 Sand-rock Water, 112 Sassafras Chips, 78 Scald Head, 19, 64, 169 Scalds and Burns, 94, 126 Scarlet Fever, 8, 170 ScammonyGum, 41 Scrofula, 47 Sciatica, 171 Scurvy, 172 Sea Bathi...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-twr2cuqc-chunk-0188",
+        "work_id": "wellcome-twr2cuqc",
+        "title": "Butler's Medicine-chest directory, and family catalogue of drugs, chemicals, etc., with the properties and doses of such as are more generally used in domestic medicine; to which is appended a concise description of diseases, with directions for ... treatment, etc / [Charles Butler].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/twr2cuqc",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Dropsy"
+        ],
+        "excerpt": "An article of diet for infants ; it is boiled in milk or water, as may be most desirable under the circumstances for which it is given. SENEKA ROOT. Expectorant; also diuretic and ca- thartic. A large wine-glassful of...",
+        "score": 49
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-8004287-chunk-0248",
+        "work_id": "nlm-8004287",
+        "title": "The household guide, or, Domestic cyclopedia : a practical family physician, home remedies and home treatment on all diseases, an instructor on nursing, housekeeping, and home adornments",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\" ONLY A SPRAIN.\"",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8004287-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Tea",
+          "Gargle",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "122 Home Remedies, and How to Use Them. PEPPERMINT. Externally applied it is an efficient remedy in neuralgia. It is good for sickness of the stomach, colic and cholera of children. Dose. Essence of peppermint may be...",
+        "score": 68
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0180",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "Has been much used in this country as a powerful diuretic and expectorant, in doses of ten to thirty or forty grains in powder; and in larger doses it is said to produce vomiting and purging. Two or three tablespoonfu...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0509",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Bath",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "31, 78 , Decoction of, 31 Salad Oil, 63 Sand-rock Water, 112 Sassafras Chips, 78 Scald Head, 19, 64, 169 Scalds and Burns, 94, 126 Scarlet Fever, 8, 170 ScammonyGum, 41 Scrofula, 47 Sciatica, 171 Scurvy, 172 Sea Bathi...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-twr2cuqc-chunk-0188",
+        "work_id": "wellcome-twr2cuqc",
+        "title": "Butler's Medicine-chest directory, and family catalogue of drugs, chemicals, etc., with the properties and doses of such as are more generally used in domestic medicine; to which is appended a concise description of diseases, with directions for ... treatment, etc / [Charles Butler].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/twr2cuqc",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Dropsy"
+        ],
+        "excerpt": "An article of diet for infants ; it is boiled in milk or water, as may be most desirable under the circumstances for which it is given. SENEKA ROOT. Expectorant; also diuretic and ca- thartic. A large wine-glassful of...",
+        "score": 49
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-8004287-chunk-0248",
+        "work_id": "nlm-8004287",
+        "title": "The household guide, or, Domestic cyclopedia : a practical family physician, home remedies and home treatment on all diseases, an instructor on nursing, housekeeping, and home adornments",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\" ONLY A SPRAIN.\"",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8004287-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Tea",
+          "Gargle",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "122 Home Remedies, and How to Use Them. PEPPERMINT. Externally applied it is an efficient remedy in neuralgia. It is good for sickness of the stomach, colic and cholera of children. Dose. Essence of peppermint may be...",
+        "score": 68
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0180",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "Has been much used in this country as a powerful diuretic and expectorant, in doses of ten to thirty or forty grains in powder; and in larger doses it is said to produce vomiting and purging. Two or three tablespoonfu...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0509",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Bath",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "31, 78 , Decoction of, 31 Salad Oil, 63 Sand-rock Water, 112 Sassafras Chips, 78 Scald Head, 19, 64, 169 Scalds and Burns, 94, 126 Scarlet Fever, 8, 170 ScammonyGum, 41 Scrofula, 47 Sciatica, 171 Scurvy, 172 Sea Bathi...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-twr2cuqc-chunk-0188",
+        "work_id": "wellcome-twr2cuqc",
+        "title": "Butler's Medicine-chest directory, and family catalogue of drugs, chemicals, etc., with the properties and doses of such as are more generally used in domestic medicine; to which is appended a concise description of diseases, with directions for ... treatment, etc / [Charles Butler].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/twr2cuqc",
+        "matched_herbs": [
+          "Senna"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Dropsy"
+        ],
+        "excerpt": "An article of diet for infants ; it is boiled in milk or water, as may be most desirable under the circumstances for which it is given. SENEKA ROOT. Expectorant; also diuretic and ca- thartic. A large wine-glassful of...",
+        "score": 49
+      }
+    ]
+  },
+  "retrieval_text": "Senna is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 510 works and 3232 source-linked chunks. Recorded variants include Senna. Common plant-part co-mentions include Leaf, Root, Seed, Bark, Gum, Flower. Common preparation co-mentions include Infusion, Tincture, Syrup, Powder, Oil, Tea. Common condition co-mentions include Cold or catarrh, Fever, Vomiting or nausea, Diarrhoea or looseness, Inflammation, Constipation. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Bleeding caution, Toxicity watch, Fatal-risk warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.; A cyclopedia of domestic medicine and surgery: being an alphabetical account of the various diseases incident to the human frame ... also, instructions for administering the various substances used in medicine; for the regulation of diet and regimen / by Thomas Andrew, with contributions by several members of the Royal College of Surgeons, Edinburgh.; The book of health : a compendium of domestic medicine, deduced from the experience of the most eminent modern practitioners, entirely divested of technicalities and rendered familiar to the general reader : including the mode of treatment for diseases in general ; a plan for the management of infants and children.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.702Z",
+  "builder": "build-herb-profiles.mjs"
+}

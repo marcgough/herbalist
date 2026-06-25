@@ -1,0 +1,20 @@
+{
+  "workId": "pg-38757",
+  "title": "New, Old, and Forgotten Remedies: Papers by Many Writers",
+  "creator": "Anshutz, Edward Pollock, 1846-1918 [Editor]",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/38757",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/38757/pg38757.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/38757.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "materia-medica",
+  "chunkCount": 706,
+  "paragraphCount": 2861,
+  "sectionCount": 14,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-38757\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-38757\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-38757.jsonl",
+  "rawSha256": "fc1ab3ee47e2fa8868585dc1aaa4228ad35a42506ea53f883aeaa932c2d02f0a",
+  "normalizedSha256": "d53229831f3bcc438f2f2ff8784bf99246a7bbeae5a6a4433a5d38cf1e1f0cc0",
+  "processedAt": "2026-06-16T13:39:06.594Z"
+}

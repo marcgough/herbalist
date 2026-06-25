@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101250105",
+  "title": "Catalogue of medicinal plants , barks, roots, seeds, flowers, and select powders, with their therapeutic qualities and botanical names : also, pure vegetable extracts, prepared in vacuo, ointments, inspissated juices, essential oils, double distilled and fragrant waters, &c, &c., raised, prepared, and put up in the most careful manner by the United Society of Shakers, at New Lebanon, N.Y",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250105-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101250105-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101250105",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;medicinal-plants;botany",
+  "chunkCount": 84,
+  "paragraphCount": 114,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101250105\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101250105\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101250105\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101250105.jsonl",
+  "rawSha256": "6b15e5d382b3361fcf0949e41d9e299e48d261ccc02f9c3b1f7ca00667a42f63",
+  "normalizedSha256": "f626f841a5249b341ee3c6d7c2a5d90d5ac94f2bec690a17de79407eaebdc03a",
+  "processedAt": "2026-06-16T23:06:55.070Z"
+}

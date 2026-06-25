@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2561027R",
+  "title": "The Edinburgh new dispensatory : containing, I. The elements of pharmaceutical chemistry : II. The materia medica ... : III. The pharmaceutical preparations and compositions : including complete and accurate translations of the octavo editionof the London pharmacopoeia, published in 1791 : Dublin pharmacopoeia, published in 1794 : and of the new edition of the Edinburgh pharmacopoeia, published in 1803 : illustrated and explained in the language and according to the priciples of modern chemistry : with many new and useful tables, and seveal copperplates, explaining the new system of chemical characters, and representing the most useful pharmaceutical apparatus",
+  "creator": "Lewis, William, 1708-1781.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2561027R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2561027R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2561027R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 1730,
+  "paragraphCount": 3126,
+  "sectionCount": 14,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2561027R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2561027R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2561027R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2561027R.jsonl",
+  "rawSha256": "2df604575c83c799e098ace0456e10383e2c641eeb7f2f1ca61c84b80486f9b1",
+  "normalizedSha256": "ed52274b3edaf3d7161a35db52e85aab51ac5c084955421dcd26738cab32e659",
+  "processedAt": "2026-06-19T09:34:46.194Z"
+}

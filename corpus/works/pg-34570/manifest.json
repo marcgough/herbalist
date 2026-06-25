@@ -1,0 +1,20 @@
+{
+  "workId": "pg-34570",
+  "title": "Ginseng and Other Medicinal Plants",
+  "creator": "",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/34570",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/34570/pg34570.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/34570.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "medicinal-plants",
+  "chunkCount": 460,
+  "paragraphCount": 1373,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-34570\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-34570\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-34570.jsonl",
+  "rawSha256": "ffc0e28f64fc56c5ca6f524df5ec11ee4d0e55348773ac828fcb2965a91ea698",
+  "normalizedSha256": "eef1fbedcbc0794f012033029a68b5f1de8eb936732787b6c883309259f8ab64",
+  "processedAt": "2026-06-16T13:39:05.831Z"
+}

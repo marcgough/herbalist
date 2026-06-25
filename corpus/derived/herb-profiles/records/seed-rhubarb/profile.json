@@ -1,0 +1,1202 @@
+{
+  "profile_id": "seed-rhubarb",
+  "family_id": "seed-rhubarb",
+  "canonical_name": "Rhubarb",
+  "canonical_key": "rhubarb",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-rhubarb-b3f487fbc1#rhubarb"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 2617,
+    "total_chunks": 2226,
+    "total_works": 552,
+    "matched_chunk_count": 2226,
+    "matched_work_count": 552,
+    "matched_mention_total": 2226
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Rhubarb"
+    ],
+    "sample_work_ids": [
+      "nlm-0027427",
+      "nlm-0140313",
+      "nlm-0217313"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0027427-chunk-0033",
+      "nlm-0140313-chunk-0693",
+      "nlm-0140313-chunk-2146"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1944
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 188
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 115
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 760,
+        "work_count": 360
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 422,
+        "work_count": 249
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 365,
+        "work_count": 224
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 160,
+        "work_count": 104
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 144,
+        "work_count": 109
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 135,
+        "work_count": 110
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 63,
+        "work_count": 47
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 58,
+        "work_count": 44
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 51,
+        "work_count": 40
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 10,
+        "work_count": 10
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 1135,
+        "work_count": 397
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 687,
+        "work_count": 282
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 645,
+        "work_count": 258
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 538,
+        "work_count": 282
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 480,
+        "work_count": 265
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 447,
+        "work_count": 229
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 335,
+        "work_count": 184
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 258,
+        "work_count": 172
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 163,
+        "work_count": 113
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 120,
+        "work_count": 91
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 1047,
+        "work_count": 354
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 354,
+        "work_count": 216
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 334,
+        "work_count": 203
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 43,
+        "work_count": 36
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 37,
+        "work_count": 33
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 25,
+        "work_count": 17
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 24,
+        "work_count": 23
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 18,
+        "work_count": 17
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 237,
+        "work_count": 168
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 209,
+        "work_count": 134
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 141,
+        "work_count": 103
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 110,
+        "work_count": 84
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 104,
+        "work_count": 80
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 103,
+        "work_count": 93
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 95,
+        "work_count": 86
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 90,
+        "work_count": 81
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 83,
+        "work_count": 61
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 69,
+        "work_count": 54
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 109,
+      "matched_mention_count": 109
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 67,
+      "matched_mention_count": 67
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 26,
+      "matched_mention_count": 26
+    },
+    {
+      "work_id": "wellcome-cs5n98hu",
+      "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "wellcome-thwh6g2c",
+      "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+      "creator": "",
+      "publication_year": "1885",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine;nursing",
+      "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "nlm-63580140R",
+      "title": "The practical household physician : a cyclopedia of family medicine, surgery, nursing and hygiene, for daily use in the preservation of health and care of the sick and injured : containing a plain description of the parts of the human body and their uses, chapters on \"our homes\", climate, food, and drink, use of intoxicants and narcotics : special chapters giving important information for every woman, with clear and full information for assisting the skillful efforts of the doctor, and for the treatment of accidents and diseases : arranged for ready reference to enable one to do instantly what can and ought to be done in emergencies to relieve suffering or save life",
+      "creator": "Hartshorne, Henry, 1823-1897.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580140R-bk",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "nlm-63580420R",
+      "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+      "creator": "Imray, Keith.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 18
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1268",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Smallpox"
+        ],
+        "excerpt": "5 Caries ig] Calculus 331 Calves' feet jelly 479 Cerate, calamine 491 do. resin 491 de. simple 491 Charcoal poultice 498 Chicken Pox 4fi do. and Small Pox, difference between 41 Chilblains 50 Chest, dropsy of the 243...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-1028",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Gargle"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Inflammation",
+          "Measles"
+        ],
+        "excerpt": "Sometimes it occurs in certain eruptive diseases, as measles, scarlet fever, &c. It may also be occasioned in those more advanced in years, by dental operations, or by the accumulation of tartar around the teeth. Trea...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1275",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Smallpox"
+        ],
+        "excerpt": "compound 492 Cancer 163 Canker of the Mouth 180 Cantharides tincture 495 Caries 181 Calculus 831 Calves' feet jelly 479 Cerate, calamine 491 do. resin 491 do. simple 491 Charcoal poultice 498 Chicken Pox 40 do. and Sm...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1268",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Smallpox"
+        ],
+        "excerpt": "5 Caries ig] Calculus 331 Calves' feet jelly 479 Cerate, calamine 491 do. resin 491 de. simple 491 Charcoal poultice 498 Chicken Pox 4fi do. and Small Pox, difference between 41 Chilblains 50 Chest, dropsy of the 243...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-1028",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Gargle"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Inflammation",
+          "Measles"
+        ],
+        "excerpt": "Sometimes it occurs in certain eruptive diseases, as measles, scarlet fever, &c. It may also be occasioned in those more advanced in years, by dental operations, or by the accumulation of tartar around the teeth. Trea...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1275",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Smallpox"
+        ],
+        "excerpt": "compound 492 Cancer 163 Canker of the Mouth 180 Cantharides tincture 495 Caries 181 Calculus 831 Calves' feet jelly 479 Cerate, calamine 491 do. resin 491 do. simple 491 Charcoal poultice 498 Chicken Pox 40 do. and Sm...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1268",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Smallpox"
+        ],
+        "excerpt": "5 Caries ig] Calculus 331 Calves' feet jelly 479 Cerate, calamine 491 do. resin 491 de. simple 491 Charcoal poultice 498 Chicken Pox 4fi do. and Small Pox, difference between 41 Chilblains 50 Chest, dropsy of the 243...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-1028",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Gargle"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Inflammation",
+          "Measles"
+        ],
+        "excerpt": "Sometimes it occurs in certain eruptive diseases, as measles, scarlet fever, &c. It may also be occasioned in those more advanced in years, by dental operations, or by the accumulation of tartar around the teeth. Trea...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1275",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Smallpox"
+        ],
+        "excerpt": "compound 492 Cancer 163 Canker of the Mouth 180 Cantharides tincture 495 Caries 181 Calculus 831 Calves' feet jelly 479 Cerate, calamine 491 do. resin 491 do. simple 491 Charcoal poultice 498 Chicken Pox 40 do. and Sm...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1268",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Smallpox"
+        ],
+        "excerpt": "5 Caries ig] Calculus 331 Calves' feet jelly 479 Cerate, calamine 491 do. resin 491 de. simple 491 Charcoal poultice 498 Chicken Pox 4fi do. and Small Pox, difference between 41 Chilblains 50 Chest, dropsy of the 243...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-1028",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Gargle"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Inflammation",
+          "Measles"
+        ],
+        "excerpt": "Sometimes it occurs in certain eruptive diseases, as measles, scarlet fever, &c. It may also be occasioned in those more advanced in years, by dental operations, or by the accumulation of tartar around the teeth. Trea...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1275",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Smallpox"
+        ],
+        "excerpt": "compound 492 Cancer 163 Canker of the Mouth 180 Cantharides tincture 495 Caries 181 Calculus 831 Calves' feet jelly 479 Cerate, calamine 491 do. resin 491 do. simple 491 Charcoal poultice 498 Chicken Pox 40 do. and Sm...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-2114",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE OPIUM HABIT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Rhubarb"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is more aromatic but much less cathartic than the syrup, and in doses of half a teaspoonful or more is good for children with griping diarrhea. Syrup of Rhubarb and Senna. —Mix one ounce fluid extract rhubarb and f...",
+        "score": 50
+      }
+    ]
+  },
+  "retrieval_text": "Rhubarb is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 552 works and 2226 source-linked chunks. Recorded variants include Rhubarb. Common plant-part co-mentions include Root, Seed, Bark, Gum, Leaf, Flower. Common preparation co-mentions include Tincture, Powder, Syrup, Infusion, Oil, Extract. Common condition co-mentions include Cold or catarrh, Diarrhoea or looseness, Vomiting or nausea, Fever, Constipation, Gout. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Allergy or sensitivity caution, Pregnancy caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; The American eclectic dispensatory; A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.726Z",
+  "builder": "build-herb-profiles.mjs"
+}

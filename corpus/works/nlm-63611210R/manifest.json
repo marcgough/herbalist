@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63611210R",
+  "title": "The modern family physician and hygienic guide : in four parts, carefully prepared by eminent specialists, for family and individual use",
+  "creator": "Richardson, Joseph Gibbons, 1836-1886.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611210R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63611210R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63611210R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 4113,
+  "paragraphCount": 4201,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63611210R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63611210R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63611210R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63611210R.jsonl",
+  "rawSha256": "1e54f7ffb5a532148242de2a2e31956d897a5527c00177c17c5dc10ff47d4c28",
+  "normalizedSha256": "7e853a2c3d8186ac0a0989fdc3e716b225e4699a00466272255ad91a1673137b",
+  "processedAt": "2026-06-17T14:40:23.101Z"
+}

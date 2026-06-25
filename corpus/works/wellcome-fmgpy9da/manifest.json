@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-fmgpy9da",
+  "title": "Domestic medicine : or, a treatise for the prevention and cure of diseases, by regimen and simple medicines : With an appendix, containing a dispensatory for private practitioners. ... containing new treatises on sea-bathing, mineral waters, vaccine, inoculation, &c., &c. / by W. Buchan.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/fmgpy9da",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21721932",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/fmgpy9da",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 977,
+  "paragraphCount": 985,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-fmgpy9da\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-fmgpy9da\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-fmgpy9da.jsonl",
+  "rawSha256": "a184514bc3a297d30d3218f1eae5ee0b6f3ea0ddcadd7394608e2f4bbf8d9807",
+  "normalizedSha256": "a10799deeb684205c58a9ce7b7762a60116ca8aa20369ac09512c3db17305da9",
+  "processedAt": "2026-06-16T13:46:50.994Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

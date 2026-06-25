@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-u9gcdgde",
+  "title": "The Universal family physician and surgeon containing a familiar and accurate description of the symptoms of every disorder incident to mankind, together with their gradual progress, and method of cure ... Also, a system of family surgery ... With an universal herbal and a complete dispensatory / The whole compiled from Smythson, Tissot, Buchan, Cornwell, etc.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/u9gcdgde",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b28775697",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/u9gcdgde",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1750,
+  "paragraphCount": 1807,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-u9gcdgde\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-u9gcdgde\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-u9gcdgde\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-u9gcdgde.jsonl",
+  "rawSha256": "9418d6d0cf6dc22b06516deb71364db115419c22dcb3fc038ee33d0b8fddcb69",
+  "normalizedSha256": "63d5cf78f8d37d9d9e7426c0df4825030b9a440c9123a4e00fdabf073a50e769",
+  "processedAt": "2026-06-16T13:59:57.940Z"
+}

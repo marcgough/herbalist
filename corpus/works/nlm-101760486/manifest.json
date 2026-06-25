@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101760486",
+  "title": "Medical botany and chemistry",
+  "creator": "Band, Charles, -1900 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101760486-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101760486-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101760486",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medical-botany;botany",
+  "chunkCount": 35,
+  "paragraphCount": 36,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101760486\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101760486\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101760486\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101760486.jsonl",
+  "rawSha256": "e3cd8835488fa923406c5a41f71d92659fbcdf5b112aa6e8a96b367bf04975be",
+  "normalizedSha256": "a2ffb83972bb5db25febb6a7b2c4620e9e315e83788abf9334e2da8b926feb00",
+  "processedAt": "2026-06-17T11:30:54.090Z"
+}

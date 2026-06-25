@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101232588",
+  "title": "[Medical recipe book]",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101232588-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101232588-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101232588",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 47,
+  "paragraphCount": 67,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101232588\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101232588\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101232588\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101232588.jsonl",
+  "rawSha256": "a4e06b2631907cce002b320fb3a1d328ad228c509212cca6c5b5de8dae088b8f",
+  "normalizedSha256": "41ead7457d02713b687554afa6ae57c0916ebf02dd76ef8d0915806bd7cd8817",
+  "processedAt": "2026-06-19T12:09:20.622Z"
+}

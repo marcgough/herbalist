@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-a8zbmpf3",
+  "title": "Drugs and medicines of North America : a publication devoted to the historical and scientific discussion of botany, pharmacy, chemistry and therapeutics of the medical plants of North America, their constituents, products and sophistications ... v. 1-2; [Apr. 1884-June 1887].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/a8zbmpf3",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b29000452",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/a8zbmpf3",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;botany",
+  "chunkCount": 1026,
+  "paragraphCount": 1029,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-a8zbmpf3\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-a8zbmpf3\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-a8zbmpf3\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-a8zbmpf3.jsonl",
+  "rawSha256": "6da25421c38ed362552742d1e1c5c5babcd00d1469a59c3bd82b84547f7234e5",
+  "normalizedSha256": "66d8dba01ba7ee73811497be24feee133445773aa8b12d581c0db991b156727c",
+  "processedAt": "2026-06-16T22:50:49.759Z"
+}

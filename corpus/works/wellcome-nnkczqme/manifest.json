@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-nnkczqme",
+  "title": "Vegetable materia medica of the United States, or, Medical botany : containing a botanical, general, and medical history of medicinal plants indigenous to the United States / Illustrated by coloured engravings ... done by the author. By William P.C. Barton.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/nnkczqme",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24923503",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/nnkczqme",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;medicinal-plants;medical-botany;botany",
+  "chunkCount": 818,
+  "paragraphCount": 827,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-nnkczqme\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-nnkczqme\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-nnkczqme\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-nnkczqme.jsonl",
+  "rawSha256": "41b0282c0152e1e68db6fdbf5068d18805a2cb037073e99d9ebb7418bf301335",
+  "normalizedSha256": "10ed4707cd55a3c56d7305d81b4cb6d874d2e9a5b35c16e07c5f59069ef57010",
+  "processedAt": "2026-06-16T22:49:30.503Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63560990R",
+  "title": "The physiological family physician : designed for families and individuals",
+  "creator": "Cutter, Calvin, 1807-1873?",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560990R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63560990R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63560990R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 428,
+  "paragraphCount": 795,
+  "sectionCount": 14,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560990R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560990R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63560990R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63560990R.jsonl",
+  "rawSha256": "511b5870d0c5a22327e624f0e487ff81428ec6469447963e8181c5991e393826",
+  "normalizedSha256": "d8afe857ff7c47ac318831d8822c0fcbd6d303a59e71a6e529c0a5fe79576bec",
+  "processedAt": "2026-06-19T23:02:21.734Z"
+}

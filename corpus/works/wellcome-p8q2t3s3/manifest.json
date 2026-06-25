@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-p8q2t3s3",
+  "title": "The experienced botanist or Indian physician : being a new system of practice, founded on botany; containing: 1. A description of medicinal plants ... 2. A treatise on the causes, symptoms and cure of disease incident to the human frame; with a safe and sovereign mode of treatment. For the use of families and practitioners / By J. W. Cooper.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/p8q2t3s3",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b33030479",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/p8q2t3s3",
+  "rightsStatus": "pdm",
+  "topicFamily": "medicinal-plants;botany",
+  "chunkCount": 272,
+  "paragraphCount": 273,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-p8q2t3s3\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-p8q2t3s3\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-p8q2t3s3\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-p8q2t3s3.jsonl",
+  "rawSha256": "d7086cec994aa0bbf1878fd10a064694a90022abde0981b8ed47120479ac4b70",
+  "normalizedSha256": "a94f2e5838809b8827811d34aa03c2639587d0670e1a1b2b6b225c0aac28e8db",
+  "processedAt": "2026-06-17T00:34:28.980Z"
+}

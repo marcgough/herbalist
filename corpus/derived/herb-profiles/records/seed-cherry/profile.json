@@ -1,0 +1,1187 @@
+{
+  "profile_id": "seed-cherry",
+  "family_id": "seed-cherry",
+  "canonical_name": "Cherry",
+  "canonical_key": "cherry",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-cherry-2daf0e6c79#cherry"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 200,
+    "total_chunks": 196,
+    "total_works": 119,
+    "matched_chunk_count": 196,
+    "matched_work_count": 119,
+    "matched_mention_total": 196
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Cherry",
+      "Cherries"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-100912803",
+      "nlm-101230724"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0814",
+      "nlm-100912803-chunk-2959",
+      "nlm-101230724-chunk-1660"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 119
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 44
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 36
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 124,
+        "work_count": 81
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 92,
+        "work_count": 63
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 40,
+        "work_count": 34
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 29,
+        "work_count": 27
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 25,
+        "work_count": 22
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 22,
+        "work_count": 20
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 8,
+        "work_count": 7
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "rhizome",
+        "label": "Rhizome",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "preparations": [
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 59,
+        "work_count": 34
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 41,
+        "work_count": 37
+      },
+      {
+        "id": "cordial",
+        "label": "Cordial",
+        "signal_count": 35,
+        "work_count": 15
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 34,
+        "work_count": 26
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 32,
+        "work_count": 24
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 30,
+        "work_count": 24
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 29,
+        "work_count": 25
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 27,
+        "work_count": 18
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 24,
+        "work_count": 23
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 21,
+        "work_count": 18
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 44,
+        "work_count": 33
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 32,
+        "work_count": 28
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 2,
+        "work_count": 1
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 54,
+        "work_count": 39
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 49,
+        "work_count": 38
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 22,
+        "work_count": 12
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 17,
+        "work_count": 14
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 16,
+        "work_count": 8
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 15,
+        "work_count": 14
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 14,
+        "work_count": 13
+      },
+      {
+        "id": "cholera",
+        "label": "Cholera",
+        "signal_count": 13,
+        "work_count": 10
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 8,
+        "work_count": 7
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-63560880R",
+      "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+      "creator": "Cook, Wm. H. (William Henry), 1832-1899.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "hygiene;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-gfchkr25",
+      "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+      "creator": "",
+      "publication_year": "1892",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/gfchkr25",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "nlm-9435910",
+      "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-mv32s6ry",
+      "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1856",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-dzvjdvyh",
+      "title": "Shelton's American medicine, or improvement in uniting his new steam system, and the old practice of medicine : in which doctors' terms are explained, and the complaints of men, women and children, are treated of in a satisfactory manner ; and remedies suited to all climates, constitutions and circumstances of the American people ; the valuable practice and preparations of Dr. Isaac Wright, of Tennessee, are fully developed in this work ; it also contains a plain description of the whole human frame : with general rules for preserving health without the use of medicines ; and a choice collection of roots and plants, not explained in any other book ; and the practice is made perfectly safe, simple and convenient to alll capacities, with but little expense.",
+      "creator": "",
+      "publication_year": "1834",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/dzvjdvyh",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-101515274",
+      "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+      "creator": "Dunglison, Robley, 1798-1869.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "hygiene;dietetics",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-7704741",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-61650830R",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61650830R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-xed7wwta",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://wellcomecollection.org/works/xed7wwta",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63560880R-chunk-0817",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FORMULAS, DIETARY FOR THE SICK,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Wash",
+          "Liniment",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Measles"
+        ],
+        "excerpt": "If the eruption turn very dark, give the composition tea rapidly ; and an enema of the powder in starch water every two hours, and retain. Wash sore eyes with a weak tea of golden seal or raspberry leaves. For diarrhe...",
+        "score": 60
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0069",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "COLEWORT ROOT, [Geum rivale,]—Valuable in Debility, Dyspepsia, Bleeding at the Lungs, Colic, <fec. CONSUMPTION BRAKE, [Botrychium fumarioides,]— Useful in Consumption, Diarrhoea, Cholera Infantum, &c. CANCER-ROOT PLAN...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-1271",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OBSTRUCTION OF THE BOWELS. «",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Bath",
+          "Liniment",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "In recovery, the cough and lung secretions gradually lessen, appe- tite returns, but strength is regained very slowly; and during con- valescence there may be short returns of labored breathing and sharp rheumatic pai...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0188",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "Good for sore and weak eyes, jaundice, scurvy, liver, ringworm, itch, piles, &c. Centuary—Tonic, mildly aperient, deobstruent, emmena- gogue and vermifuge. For intermittent fevers, worms, liver, spleen, jaundice, drop...",
+        "score": 48
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63560880R-chunk-0817",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FORMULAS, DIETARY FOR THE SICK,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Wash",
+          "Liniment",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Measles"
+        ],
+        "excerpt": "If the eruption turn very dark, give the composition tea rapidly ; and an enema of the powder in starch water every two hours, and retain. Wash sore eyes with a weak tea of golden seal or raspberry leaves. For diarrhe...",
+        "score": 60
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-1271",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OBSTRUCTION OF THE BOWELS. «",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Bath",
+          "Liniment",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "In recovery, the cough and lung secretions gradually lessen, appe- tite returns, but strength is regained very slowly; and during con- valescence there may be short returns of labored breathing and sharp rheumatic pai...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-0816",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FORMULAS, DIETARY FOR THE SICK,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Bath"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Flaxseed with ginger is very proper for cough and fever, a tablespoonful or two every hour or so. Allow no cold drinks; bathe the feet in warm water, and use only warm water for cleanliness; give light and nourishing...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0167",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Juice",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Inflammation"
+        ],
+        "excerpt": "; Lobelia Herb, 4 drs. ; mix with Gum mucilage, and make into four-grain pills. Dose : one three times a day. For Liver complaints, jaundice, &c. Aperient Pills—Socotrine Aloes, J oz. ; Gamboge, I oz. ; Mandrake, | oz...",
+        "score": 46
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63560880R-chunk-0817",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FORMULAS, DIETARY FOR THE SICK,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Wash",
+          "Liniment",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Measles"
+        ],
+        "excerpt": "If the eruption turn very dark, give the composition tea rapidly ; and an enema of the powder in starch water every two hours, and retain. Wash sore eyes with a weak tea of golden seal or raspberry leaves. For diarrhe...",
+        "score": 60
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0069",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "COLEWORT ROOT, [Geum rivale,]—Valuable in Debility, Dyspepsia, Bleeding at the Lungs, Colic, <fec. CONSUMPTION BRAKE, [Botrychium fumarioides,]— Useful in Consumption, Diarrhoea, Cholera Infantum, &c. CANCER-ROOT PLAN...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-1271",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OBSTRUCTION OF THE BOWELS. «",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Bath",
+          "Liniment",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "In recovery, the cough and lung secretions gradually lessen, appe- tite returns, but strength is regained very slowly; and during con- valescence there may be short returns of labored breathing and sharp rheumatic pai...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0188",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "Good for sore and weak eyes, jaundice, scurvy, liver, ringworm, itch, piles, &c. Centuary—Tonic, mildly aperient, deobstruent, emmena- gogue and vermifuge. For intermittent fevers, worms, liver, spleen, jaundice, drop...",
+        "score": 48
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63560880R-chunk-0817",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FORMULAS, DIETARY FOR THE SICK,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Wash",
+          "Liniment",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Measles"
+        ],
+        "excerpt": "If the eruption turn very dark, give the composition tea rapidly ; and an enema of the powder in starch water every two hours, and retain. Wash sore eyes with a weak tea of golden seal or raspberry leaves. For diarrhe...",
+        "score": 60
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0069",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "COLEWORT ROOT, [Geum rivale,]—Valuable in Debility, Dyspepsia, Bleeding at the Lungs, Colic, <fec. CONSUMPTION BRAKE, [Botrychium fumarioides,]— Useful in Consumption, Diarrhoea, Cholera Infantum, &c. CANCER-ROOT PLAN...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560880R-chunk-0816",
+        "work_id": "nlm-63560880R",
+        "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FORMULAS, DIETARY FOR THE SICK,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Bath"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Flaxseed with ginger is very proper for cough and fever, a tablespoonful or two every hour or so. Allow no cold drinks; bathe the feet in warm water, and use only warm water for cleanliness; give light and nourishing...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0167",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Juice",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Inflammation"
+        ],
+        "excerpt": "; Lobelia Herb, 4 drs. ; mix with Gum mucilage, and make into four-grain pills. Dose : one three times a day. For Liver complaints, jaundice, &c. Aperient Pills—Socotrine Aloes, J oz. ; Gamboge, I oz. ; Mandrake, | oz...",
+        "score": 46
+      }
+    ]
+  },
+  "retrieval_text": "Cherry is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 119 works and 196 source-linked chunks. Recorded variants include Cherry, Cherries. Common plant-part co-mentions include Bark, Root, Leaf, Flower, Gum, Seed. Common preparation co-mentions include Syrup, Oil, Cordial, Tea, Powder, Juice. Common condition co-mentions include Fever, Cold or catarrh, Cough, Diarrhoea or looseness, Wounds or ulcers, Consumption. Caution co-mentions include Dose caution, Child-use caution, Bleeding caution, Narcotic or sedative caution, Toxicity watch, Fatal-risk warning. Representative source works include A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc; The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.; An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.979Z",
+  "builder": "build-herb-profiles.mjs"
+}

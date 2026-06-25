@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2702091R",
+  "title": "A guide to health through the various stages of life : ... the whole illustrated with useful annotations",
+  "creator": "Lynch, Bernard, -1745.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2702091R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2702091R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2702091R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 4580,
+  "paragraphCount": 5705,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2702091R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2702091R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2702091R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2702091R.jsonl",
+  "rawSha256": "a9d183ca7326e72bbaa3869be8ec497703c938fbdfaeb9653cd737be5e3f3143",
+  "normalizedSha256": "628aec1f2a96bb6e14f2f2d749c606c15fafb584c684e8e90c2318cf437b6839",
+  "processedAt": "2026-06-20T03:30:32.438Z"
+}

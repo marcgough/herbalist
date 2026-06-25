@@ -1,0 +1,1046 @@
+{
+  "profile_id": "seed-wild-valerian",
+  "family_id": "seed-wild-valerian",
+  "canonical_name": "Wild Valerian",
+  "canonical_key": "wild valerian",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-wild-valerian-c88f44ade4#wild valerian"
+  ],
+  "decision_note": "promote strong medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 123,
+    "total_chunks": 118,
+    "total_works": 83,
+    "matched_chunk_count": 118,
+    "matched_work_count": 83,
+    "matched_mention_total": 118
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "domestic-medicine",
+      "herbal",
+      "materia-medica",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Wild Valerian"
+    ],
+    "sample_work_ids": [
+      "nlm-0116421",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0116421-chunk-0109",
+      "nlm-0217313-chunk-1169",
+      "nlm-0217315-chunk-1133"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 116
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 2
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 116,
+        "work_count": 81
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 53,
+        "work_count": 46
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 33,
+        "work_count": 30
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 26,
+        "work_count": 24
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 18,
+        "work_count": 16
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 13,
+        "work_count": 8
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 12,
+        "work_count": 9
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "preparations": [
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 47,
+        "work_count": 41
+      },
+      {
+        "id": "gargle",
+        "label": "Gargle",
+        "signal_count": 37,
+        "work_count": 37
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 25,
+        "work_count": 18
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 21,
+        "work_count": 21
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 19,
+        "work_count": 19
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 17,
+        "work_count": 15
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 7,
+        "work_count": 7
+      }
+    ],
+    "cautions": [
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 16,
+        "work_count": 12
+      },
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 9,
+        "work_count": 8
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 9,
+        "work_count": 7
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-tbt9dxgq",
+      "title": "The new dispensatory: containing, I. The elements of pharmacy. II. The materia medica, or an account of the substances employed in medicine with the virtues and uses of each article, so far as they are warranted by experience and observation. III. The preparations and compositions of the London and Edinburgh pharmacopoeias / By William Lewis, M.B., F.R.S.",
+      "creator": "",
+      "publication_year": "1768",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/tbt9dxgq",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-m7ynte5e",
+      "title": "The new dispensatory : containing, I. the elements of pharmacy : II. the materia medica, or, An account of the substances employed in medicine; with the virtues and uses of each srticle, so far as they are warranted by experience and observation : III. the preparations and compositions of the new London and Edinburgh pharmacopoeias; with such of the old ones as are kept in the shops; the most celebrated foreign medicines; the most useful of those directed in the hospitals; sundry elegant extemporaneous forms, &c. digested in such a method as to compose a regular system of pharmacy; with remarks on their preparation and uses; the means of distinguishing adulterations; of performing the more difficult and dangerous processes with ease and safety, &c. : the whole interspersed with practical cautions and observations / by W. Lewis, M.B.F.R.S.",
+      "creator": "",
+      "publication_year": "1782",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/m7ynte5e",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-hqjgqauu",
+      "title": "The new dispensatory : containing, I. The elements of pharmacy. II. The materia medica, or an account of the substances employed in medicine; with the virtues and uses of each article, so far as they are warranted by experience and observation. III. The preparations and compositions of the new London and Edinburgh pharmacopoeas; with such of the old ones as are kept in the shops; the most celebrated foreign medicines; the most useful of those directed in the hospitals; sundry elegant extemporaneous forms, &c. digested in such a method as to compose a regular system of pharmacy; with remarks on their preparation and uses; the means of distinguishing adulterations; of performing the more difficult and dangerous processes with ease and safety, &c. : the whole interspersed with practical cautions and observations / by W. Lewis, M. B. F. R. S.",
+      "creator": "",
+      "publication_year": "1781",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/hqjgqauu",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-b4n9x8yx",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory. Containing, I. An account of all the natural and artificial implements and instruments of pharmacy, together with the processes and operations, whereby changes are induced in natural bodies for medicinal purposes ... With two copious indexes to the whole / [R. James].",
+      "creator": "",
+      "publication_year": "1764",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/b4n9x8yx",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "wellcome-hhhxg64u",
+      "title": "The new dispensatory : containing, I. The elements of pharmacy. II. The materia medica, or an account of the substances employed in medicine; with the virtues and uses of each article, so far as they are warranted by experience and observation. III. The preparations and compositions of the new London and Edinburgh pharmacopoeas; with some of the most celebrated foreign medicines; the most useful of those directed in the hospitals; sundry elegant extemporaneous forms, &c. digested in such a method as to compose a regular system of pharmacy; with remarks on their preparation and uses; the means of distinguishing adulterations; of performing the more difficult and dangerous processes with ease and safety, &c. : the whole interspersed with practical cautions and observations / by W. Lewis, M. B. F. R. S.",
+      "creator": "",
+      "publication_year": "1799",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/hhhxg64u",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-2701678R",
+      "title": "The new dispensatory ... : the whole interspersed with practical cautions and observations",
+      "creator": "Lewis, William, 1708-1781.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2701678R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-vbg4yw6u",
+      "title": "A new medical dictionary; or general repository of physic : containing an explanation of the terms, and a description of the various particulars relating to anatomy, physiology, physic, surgery, materia medica, chemistry, &c. &c. &c. Each article, according to its importance, being considered in every relation to which its usefulness extends in the healing art / by G. Motherby.",
+      "creator": "",
+      "publication_year": "1785",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/vbg4yw6u",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-dgu7rvn6",
+      "title": "A new medical dictionary; or, general repository of physic. Containing an explanation of the terms, and a description of the various particulars relating to anatomy, physiology, physic, surgery, materia medica, chemistry, &c. &c. &c. ... / by G. Motherby.",
+      "creator": "",
+      "publication_year": "1791",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/dgu7rvn6",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-bgpqksyy",
+      "title": "Complete domestic medicine : A treatise on the prevention and cure of diseases, by regimen and simple medicines, with the latest corrections and improvements / [William Buchan].",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/bgpqksyy",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "nlm-2544041R",
+      "title": "Domestic medicine , or, The family physician : being an attempt to render the medical art more generally useful, by shewing people what is in their own power both with respect to the prevention and cure of diseases ; chiefly calculated to recommend a proper attention to regimen and simple medicines",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544041R-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-101602774-chunk-0781",
+        "work_id": "nlm-101602774",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians, and of the United States pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101602774-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "North of Europe. \"> . ) Prop. Nearly inodorous; taste styptic, bitterish; color of the powder brownish, yellowish-green ; yields its virtues to alcohol. Comp. Tannic, gallic acid 1 mucilage, resin extractive, traces o...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-2932043R-chunk-0042",
+        "work_id": "nlm-2932043R",
+        "title": "Medical recipes and prescriptions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2932043R-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "complaints and some kind of Epilepsies it is directed to be taken from 10 Drops to 100 in Canary or other Rich Wine 86 Simple Tincture of Valerian ꝶ Wild Valerian Root ℥iv Proof Spirits 2 Pints after due digestion Str...",
+        "score": 34
+      },
+      {
+        "chunk_id": "nlm-0217313-chunk-1169",
+        "work_id": "nlm-0217313",
+        "title": "Domestic medicine, or, A treatise on the prevention and cure of diseases by regimen and simple medicines : containing a dispensatory for the use of private practitioners, to which is added a family herbal",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF THE PHRENITIS, OR INFLAMMATION OF THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217313-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Gargle"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "If the tongue be affected, the patient may gargle his mouth frequently with brandy and mustard ; or he may hold a bit of sugar in his mouth, wet with the palsy drops, or compound spirit of lavender. The wild valerian...",
+        "score": 33
+      },
+      {
+        "chunk_id": "nlm-101588460-chunk-0785",
+        "work_id": "nlm-101588460",
+        "title": "A conspectus of the pharmacopoeias of The London, Edinburgh and Dublin Colleges of Physicians, and of The United States Pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PREFACE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101588460-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "to f 3 ss. Incomp. Salts of iron, tartar emetic, nitrate of silver, salts of lead, infusion of yellow cinchona bark. VALERIANA. U. S. —L. E. Valerians Officinalis Radix, D. Wild Valerian Root. (Triand. Monogyn. N. O....",
+        "score": 32
+      },
+      {
+        "chunk_id": "nlm-2932043R-chunk-0205",
+        "work_id": "nlm-2932043R",
+        "title": "Medical recipes and prescriptions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2932043R-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "No 403 Diuretic Pills ꝶ Squils ʒij Aromatic Species ʒiss Balsam of Peru ʒi and with a Sufficient Quantity of the Syrup of Orange Peel of every Dram make 10 Pills These are Effectual detergents and nevertheless a very...",
+        "score": 29
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-101602774-chunk-0781",
+        "work_id": "nlm-101602774",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians, and of the United States pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101602774-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "North of Europe. \"> . ) Prop. Nearly inodorous; taste styptic, bitterish; color of the powder brownish, yellowish-green ; yields its virtues to alcohol. Comp. Tannic, gallic acid 1 mucilage, resin extractive, traces o...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-2932043R-chunk-0042",
+        "work_id": "nlm-2932043R",
+        "title": "Medical recipes and prescriptions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2932043R-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "complaints and some kind of Epilepsies it is directed to be taken from 10 Drops to 100 in Canary or other Rich Wine 86 Simple Tincture of Valerian ꝶ Wild Valerian Root ℥iv Proof Spirits 2 Pints after due digestion Str...",
+        "score": 34
+      },
+      {
+        "chunk_id": "nlm-0217313-chunk-1169",
+        "work_id": "nlm-0217313",
+        "title": "Domestic medicine, or, A treatise on the prevention and cure of diseases by regimen and simple medicines : containing a dispensatory for the use of private practitioners, to which is added a family herbal",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF THE PHRENITIS, OR INFLAMMATION OF THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217313-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Gargle"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "If the tongue be affected, the patient may gargle his mouth frequently with brandy and mustard ; or he may hold a bit of sugar in his mouth, wet with the palsy drops, or compound spirit of lavender. The wild valerian...",
+        "score": 33
+      },
+      {
+        "chunk_id": "nlm-101588460-chunk-0785",
+        "work_id": "nlm-101588460",
+        "title": "A conspectus of the pharmacopoeias of The London, Edinburgh and Dublin Colleges of Physicians, and of The United States Pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PREFACE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101588460-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "to f 3 ss. Incomp. Salts of iron, tartar emetic, nitrate of silver, salts of lead, infusion of yellow cinchona bark. VALERIANA. U. S. —L. E. Valerians Officinalis Radix, D. Wild Valerian Root. (Triand. Monogyn. N. O....",
+        "score": 32
+      },
+      {
+        "chunk_id": "nlm-2932043R-chunk-0205",
+        "work_id": "nlm-2932043R",
+        "title": "Medical recipes and prescriptions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2932043R-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "No 403 Diuretic Pills ꝶ Squils ʒij Aromatic Species ʒiss Balsam of Peru ʒi and with a Sufficient Quantity of the Syrup of Orange Peel of every Dram make 10 Pills These are Effectual detergents and nevertheless a very...",
+        "score": 29
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-101602774-chunk-0781",
+        "work_id": "nlm-101602774",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians, and of the United States pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101602774-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "North of Europe. \"> . ) Prop. Nearly inodorous; taste styptic, bitterish; color of the powder brownish, yellowish-green ; yields its virtues to alcohol. Comp. Tannic, gallic acid 1 mucilage, resin extractive, traces o...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-2932043R-chunk-0042",
+        "work_id": "nlm-2932043R",
+        "title": "Medical recipes and prescriptions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2932043R-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "complaints and some kind of Epilepsies it is directed to be taken from 10 Drops to 100 in Canary or other Rich Wine 86 Simple Tincture of Valerian ꝶ Wild Valerian Root ℥iv Proof Spirits 2 Pints after due digestion Str...",
+        "score": 34
+      },
+      {
+        "chunk_id": "nlm-0217313-chunk-1169",
+        "work_id": "nlm-0217313",
+        "title": "Domestic medicine, or, A treatise on the prevention and cure of diseases by regimen and simple medicines : containing a dispensatory for the use of private practitioners, to which is added a family herbal",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF THE PHRENITIS, OR INFLAMMATION OF THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217313-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Gargle"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "If the tongue be affected, the patient may gargle his mouth frequently with brandy and mustard ; or he may hold a bit of sugar in his mouth, wet with the palsy drops, or compound spirit of lavender. The wild valerian...",
+        "score": 33
+      },
+      {
+        "chunk_id": "nlm-101588460-chunk-0785",
+        "work_id": "nlm-101588460",
+        "title": "A conspectus of the pharmacopoeias of The London, Edinburgh and Dublin Colleges of Physicians, and of The United States Pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PREFACE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101588460-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "to f 3 ss. Incomp. Salts of iron, tartar emetic, nitrate of silver, salts of lead, infusion of yellow cinchona bark. VALERIANA. U. S. —L. E. Valerians Officinalis Radix, D. Wild Valerian Root. (Triand. Monogyn. N. O....",
+        "score": 32
+      },
+      {
+        "chunk_id": "nlm-2932043R-chunk-0205",
+        "work_id": "nlm-2932043R",
+        "title": "Medical recipes and prescriptions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2932043R-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "No 403 Diuretic Pills ꝶ Squils ʒij Aromatic Species ʒiss Balsam of Peru ʒi and with a Sufficient Quantity of the Syrup of Orange Peel of every Dram make 10 Pills These are Effectual detergents and nevertheless a very...",
+        "score": 29
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-101602774-chunk-0781",
+        "work_id": "nlm-101602774",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians, and of the United States pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101602774-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "North of Europe. \"> . ) Prop. Nearly inodorous; taste styptic, bitterish; color of the powder brownish, yellowish-green ; yields its virtues to alcohol. Comp. Tannic, gallic acid 1 mucilage, resin extractive, traces o...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-2932043R-chunk-0042",
+        "work_id": "nlm-2932043R",
+        "title": "Medical recipes and prescriptions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2932043R-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "complaints and some kind of Epilepsies it is directed to be taken from 10 Drops to 100 in Canary or other Rich Wine 86 Simple Tincture of Valerian ꝶ Wild Valerian Root ℥iv Proof Spirits 2 Pints after due digestion Str...",
+        "score": 34
+      },
+      {
+        "chunk_id": "nlm-101588460-chunk-0785",
+        "work_id": "nlm-101588460",
+        "title": "A conspectus of the pharmacopoeias of The London, Edinburgh and Dublin Colleges of Physicians, and of The United States Pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PREFACE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101588460-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "to f 3 ss. Incomp. Salts of iron, tartar emetic, nitrate of silver, salts of lead, infusion of yellow cinchona bark. VALERIANA. U. S. —L. E. Valerians Officinalis Radix, D. Wild Valerian Root. (Triand. Monogyn. N. O....",
+        "score": 32
+      },
+      {
+        "chunk_id": "nlm-2932043R-chunk-0205",
+        "work_id": "nlm-2932043R",
+        "title": "Medical recipes and prescriptions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2932043R-bk",
+        "matched_herbs": [
+          "Wild Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "No 403 Diuretic Pills ꝶ Squils ʒij Aromatic Species ʒiss Balsam of Peru ʒi and with a Sufficient Quantity of the Syrup of Orange Peel of every Dram make 10 Pills These are Effectual detergents and nevertheless a very...",
+        "score": 29
+      },
+      {
+        "chunk_id": "wellcome-u9gcdgde-chunk-0897",
+        "work_id": "wellcome-u9gcdgde",
+        "title": "The Universal family physician and surgeon containing a familiar and accurate description of the symptoms of every disorder incident to mankind, together with their gradual progress, and method of cure ... Also, a system of family surgery ... With an universal herbal and a complete dispensatory / The whole compiled from Smythson, Tissot, Buchan, Cornwell, etc.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/u9gcdgde",
+        "matched_herbs": [
+          "Wild Valerian-"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The wild valerian- root is very proper: it may either be taken in an infu- fion with fage-ieaves, or half a dram of it in powder may be given in a glafs of wine three or four times a- ilay. A table-fpoonful of aiultar...",
+        "score": 27
+      }
+    ]
+  },
+  "retrieval_text": "Wild Valerian is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 83 works and 118 source-linked chunks. Recorded variants include Wild Valerian. Common plant-part co-mentions include Root, Leaf, Seed, Bark, Gum, Tops. Common preparation co-mentions include Powder, Gargle, Oil, Tincture, Infusion, Syrup. Common condition co-mentions include Cold or catarrh, Epilepsy or convulsions, Diarrhoea or looseness, Vomiting or nausea, Dysentery, Fever. Caution co-mentions include Narcotic or sedative caution, Dose caution, Bleeding caution, Child-use caution, Pregnancy caution. Representative source works include The new dispensatory: containing, I. The elements of pharmacy. II. The materia medica, or an account of the substances employed in medicine with the virtues and uses of each article, so far as they are warranted by experience and observation. III. The preparations and compositions of the London and Edinburgh pharmacopoeias / By William Lewis, M.B., F.R.S.; The new dispensatory : containing, I. the elements of pharmacy : II. the materia medica, or, An account of the substances employed in medicine; with the virtues and uses of each srticle, so far as they are warranted by experience and observation : III. the preparations and compositions of the new London and Edinburgh pharmacopoeias; with such of the old ones as are kept in the shops; the most celebrated foreign medicines; the most useful of those directed in the hospitals; sundry elegant extemporaneous forms, &c. digested in such a method as to compose a regular system of pharmacy; with remarks on their preparation and uses; the means of distinguishing adulterations; of performing the more difficult and dangerous processes with ease and safety, &c. : the whole interspersed with practical cautions and observations / by W. Lewis, M.B.F.R.S.; The new dispensatory : containing, I. The elements of pharmacy. II. The materia medica, or an account of the substances employed in medicine; with the virtues and uses of each article, so far as they are warranted by experience and observation. III. The preparations and compositions of the new London and Edinburgh pharmacopoeas; with such of the old ones as are kept in the shops; the most celebrated foreign medicines; the most useful of those directed in the hospitals; sundry elegant extemporaneous forms, &c. digested in such a method as to compose a regular system of pharmacy; with remarks on their preparation and uses; the means of distinguishing adulterations; of performing the more difficult and dangerous processes with ease and safety, &c. : the whole interspersed with practical cautions and observations / by W. Lewis, M. B. F. R. S.; Pharmacopoeia universalis: or, a new universal English dispensatory. Containing, I. An account of all the natural and artificial implements and instruments of pharmacy, together with the processes and operations, whereby changes are induced in natural bodies for medicinal purposes ... With two copious indexes to the whole / [R. James].. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:49.011Z",
+  "builder": "build-herb-profiles.mjs"
+}

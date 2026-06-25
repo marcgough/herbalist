@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-jv7rsa2c",
+  "title": "Dr. Buchans Domestic medicine; or a treatise on the prevention and cure of diseases, by regimen and simple medicines. To which is added, characteristic symptoms of diseases, from the nosology of the late celebrated Dr. Cullen of Edinburgh. With an appendix, containing a list of medicines usually employed, and the doses for all ages.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/jv7rsa2c",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21722225",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/jv7rsa2c",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1649,
+  "paragraphCount": 1666,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-jv7rsa2c\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-jv7rsa2c\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-jv7rsa2c.jsonl",
+  "rawSha256": "b99e32e920b07c2f5609ccd3493959cb1aa552928d71847bfe0afa69ec52a166",
+  "normalizedSha256": "93d48fbafb05e01c56519311ce887f5550c68b7235869c241a54ec68c3eac1e8",
+  "processedAt": "2026-06-16T13:46:53.128Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

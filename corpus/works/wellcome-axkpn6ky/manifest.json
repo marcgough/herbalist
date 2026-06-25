@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-axkpn6ky",
+  "title": "Medical botany : containing systematic and general descriptions, with plates, of all the medicinal plants, indigenous and exotic, comprehended in the catalogues of the Materia Medica, as published by the Royal Colleges of Physicians of London and Edinburgh : accompanied with a circumstantial detail of their medicinal effects, and of the diseases in which they have been most successfully employed / by William Woodville, M.D. of the Royal College of Physicians, London. In three volumes.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/axkpn6ky",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21438894",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/axkpn6ky",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;medicinal-plants;medical-botany;botany",
+  "chunkCount": 1590,
+  "paragraphCount": 1762,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-axkpn6ky\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-axkpn6ky\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-axkpn6ky\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-axkpn6ky.jsonl",
+  "rawSha256": "fe8c4288e5f77a07e67b20f82e754e976505ebdb90c9fcf869f65aeb227f66ca",
+  "normalizedSha256": "ad1f9cc9ecc665ded20cc3537a82ecd124049e070309549e1648deb25209e8de",
+  "processedAt": "2026-06-16T22:49:14.438Z"
+}

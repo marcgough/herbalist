@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-b483zydr",
+  "title": "Modern domestic medicine ... to which is added a domestic materia medica / [Thomas J. Graham].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/b483zydr",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b29292177",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/b483zydr",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 2140,
+  "paragraphCount": 2186,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-b483zydr\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-b483zydr\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-b483zydr\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-b483zydr.jsonl",
+  "rawSha256": "669b0b14c01578fe814003364d321861c8e5885dc582101eef2028c39b6d9abb",
+  "normalizedSha256": "65c77ec9b0580fa2e58a45b4543f58d1b50590d67248f507fa5f36a014181755",
+  "processedAt": "2026-06-16T23:29:39.001Z"
+}

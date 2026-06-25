@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2661459RX2",
+  "title": "Flora Londinensis, or, Plates and descriptions of such plants as grow wild in the environs of London: with their places of growth and times of flowering, their several names according to Linnaeus and other authors : with a particular description of each plant in Latin and English : to which are added, their several uses in medicine, agriculture, rural oeconomy, and other arts (Volume 1, Part 2)",
+  "creator": "Curtis, William, 1746-1799 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2661459RX2-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2661459RX2-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2661459RX2",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 456,
+  "paragraphCount": 468,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2661459RX2\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2661459RX2\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2661459RX2\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2661459RX2.jsonl",
+  "rawSha256": "71614ef6dcc583b167043066e85714771ba9304a74947c3c8b23961128d50f5e",
+  "normalizedSha256": "312270f4f4a481beacf1315d457ac62e6a186fda50c2935e364b0a48a82b73fd",
+  "processedAt": "2026-06-18T16:17:17.467Z"
+}

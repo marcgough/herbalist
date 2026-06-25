@@ -1,0 +1,20 @@
+{
+  "workId": "pg-74245",
+  "title": "A Hausa botanical vocabulary",
+  "creator": "Dalziel, J. M. (John McEwen), 1872-1948",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/74245",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/74245/pg74245.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/74245.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "botany",
+  "chunkCount": 230,
+  "paragraphCount": 2127,
+  "sectionCount": 66,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-74245\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-74245\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-74245.jsonl",
+  "rawSha256": "381cae5eff25fb20e7096e84bcb2ae2a276182d1ccb8abdc48b2e0c368a3c9f5",
+  "normalizedSha256": "5774ea2743437653f64f20079bfef9402382016a9d6525b723acbc57c3ac3cdc",
+  "processedAt": "2026-06-16T13:39:16.868Z"
+}

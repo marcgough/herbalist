@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-tysjmz42",
+  "title": "Materia medica; or, A description of simple medicines generally us'd in physick; ... : with an appendix, shewing the nature and use of mineral waters. / Written originally by the learned Monsieur Tournefort, ... ; faithfully translated into English.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/tysjmz42",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30550701",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/tysjmz42",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;botany",
+  "chunkCount": 818,
+  "paragraphCount": 892,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-tysjmz42\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-tysjmz42\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-tysjmz42\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-tysjmz42.jsonl",
+  "rawSha256": "7ba7db7f995472b8490918a9fc7fd56509893f95949584c8ee54ac713a2cce8a",
+  "normalizedSha256": "35de0ba4c0089fc3ee40c9629d7f48194d35ae2179ead721d417cf06a076920e",
+  "processedAt": "2026-06-16T23:08:26.791Z"
+}

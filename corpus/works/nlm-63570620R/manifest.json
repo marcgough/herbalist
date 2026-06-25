@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63570620R",
+  "title": "The family physician : being a domestic medical work, written in plain style, and divided into four parts",
+  "creator": "Folger, Alfred M.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570620R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63570620R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63570620R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 623,
+  "paragraphCount": 716,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570620R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570620R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63570620R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63570620R.jsonl",
+  "rawSha256": "6e6260bd0e80c8c82bc4f787cf28d06436dd20859392d6b20a774848bbb63c33",
+  "normalizedSha256": "75fe603c0e3e36176cc6355d278299daeb3d8821a8d6ee42f6019e8d1fab6101",
+  "processedAt": "2026-06-17T13:56:33.335Z"
+}

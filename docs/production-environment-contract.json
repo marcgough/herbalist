@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "name": "Herbalisti production environment contract",
+  "project": {
+    "domain": "herbalisti.com",
+    "pagesProject": "herbalisti",
+    "newsWorker": "herbalisti-news-refresh",
+    "d1Database": "herbalisti",
+    "optionalR2Bucket": "herbalisti-media"
+  },
+  "resources": [
+    {
+      "id": "cloudflare-pages",
+      "provider": "Cloudflare Pages",
+      "name": "herbalisti",
+      "required": true,
+      "configFile": "wrangler.toml",
+      "verify": [
+        "GET /",
+        "GET /opensearch.xml",
+        "GET /api/health",
+        "GET /api/signals.xml",
+        "GET /data/discovery-metadata.json",
+        "GET /data/api-catalog.json",
+        "GET /data/herbal-knowledge.json",
+        "GET /data/remedies.json",
+        "npm run verify:production -- https://herbalisti.com"
+      ]
+    },
+    {
+      "id": "cloudflare-d1",
+      "provider": "Cloudflare D1",
+      "name": "herbalisti",
+      "required": true,
+      "binding": "HERBALISTI_DB",
+      "configFiles": ["wrangler.toml", "wrangler.news.toml"],
+      "migrationsPath": "migrations",
+      "verify": ["npm run verify:d1", "npm run verify:launch -- --soft", "npm run verify:production-cutover"]
+    },
+    {
+      "id": "scheduled-news-worker",
+      "provider": "Cloudflare Workers",
+      "name": "herbalisti-news-refresh",
+      "required": true,
+      "configFile": "wrangler.news.toml",
+      "cron": "17 */6 * * *",
+      "verify": ["npm run verify:news-worker"]
+    },
+    {
+      "id": "media-r2",
+      "provider": "Cloudflare R2",
+      "name": "herbalisti-media",
+      "required": false,
+      "binding": "HERBALISTI_MEDIA",
+      "configFile": "wrangler.toml",
+      "purpose": "Owned storage for reviewed Seedance video outputs before public enablement."
+    }
+  ],
+  "secrets": [
+    {
+      "name": "CLOUDFLARE_API_TOKEN",
+      "requiredForLaunch": false,
+      "scope": "local-deploy-automation",
+      "setCommand": null,
+      "notes": "Required only for scripted Wrangler deployment when not using an authenticated local Wrangler session."
+    },
+    {
+      "name": "CLOUDFLARE_ACCOUNT_ID",
+      "requiredForLaunch": false,
+      "scope": "local-deploy-automation",
+      "setCommand": null,
+      "notes": "Required only for scripted Wrangler deployment when not using an authenticated local Wrangler session."
+    },
+    {
+      "name": "FEED_ADMIN_TOKEN",
+      "requiredForLaunch": true,
+      "scope": "scheduled-news-worker",
+      "setCommand": "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
+      "notes": "Protects manual news refresh triggers."
+    },
+    {
+      "name": "KIE_API_KEY",
+      "requiredForLaunch": true,
+      "scope": "cloudflare-pages",
+      "setCommand": "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",
+      "notes": "Enables protected Seedance 2.0 media job creation after approval."
+    },
+    {
+      "name": "MEDIA_ADMIN_TOKEN",
+      "requiredForLaunch": true,
+      "scope": "cloudflare-pages",
+      "setCommand": "npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti",
+      "notes": "Protects Seedance media job create/status endpoints."
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "requiredForLaunch": false,
+      "scope": "cloudflare-pages",
+      "setCommand": "npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti",
+      "notes": "Optional unless hosted herbal chat synthesis or repeatable server-side OpenAI image generation is added."
+    }
+  ],
+  "commands": {
+    "localRelease": ["npm run verify:release"],
+    "safePreflight": [
+      "npm run verify:launch -- --soft",
+      "npm run verify:production-cutover",
+      "npm run verify:static-news-refresh",
+      "npm run verify:signal-coverage",
+      "npm run verify:signal-intelligence",
+      "npm run verify:signals-rss",
+      "npm run verify:source-governance",
+      "npm run verify:knowledge-graph",
+      "npm run verify:citation-notes",
+      "npm run verify:source-health",
+      "npm run verify:corpus-rights",
+      "npm run verify:data-exports",
+      "npm run verify:discovery-metadata",
+      "npm run verify:api-catalog",
+      "npm run verify:search-discovery",
+      "npm run verify:australia-lane",
+      "npm run verify:external-actions",
+      "npm run prepare:completion-audit",
+      "npm run verify:completion-audit",
+      "npm run verify:visual-smoke",
+      "npm run verify:accessibility-smoke",
+      "npm run verify:live-readiness",
+      "npm run prepare:launch"
+    ],
+    "createResources": [
+      "npx wrangler d1 create herbalisti",
+      "npx wrangler r2 bucket create herbalisti-media"
+    ],
+    "activateBindings": [
+      "npm run configure:cloudflare -- --d1 <database_id> --apply",
+      "npm run configure:cloudflare -- --d1 <database_id> --r2 herbalisti-media --apply"
+    ],
+    "remoteMigrations": ["npx wrangler d1 migrations apply herbalisti --remote"],
+    "setSecrets": [
+      "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
+      "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",
+      "npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti",
+      "npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti"
+    ],
+    "deploy": ["npm run deploy:cloudflare", "npm run deploy:news-worker"],
+    "liveCompletionGates": [
+      "npm run verify:live-readiness -- --strict",
+      "npm run verify:production -- https://herbalisti.com",
+      "npm run verify:goal-readiness -- --strict"
+    ]
+  },
+  "guardrails": {
+    "noAutomaticDeploymentWithoutApproval": true,
+    "noDnsMutationWithoutApproval": true,
+    "noPaidGenerationWithoutApproval": true,
+    "noSecretValuesInLogs": true,
+    "medicalAdvice": "disabled",
+    "publicAccounts": "disabled",
+    "sourceMode": "allowlist_first"
+  }
+}

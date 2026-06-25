@@ -1,0 +1,20 @@
+{
+  "workId": "pg-74359",
+  "title": "Domestic medicine",
+  "creator": "Buchan, William, 1729-1805",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/74359",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/74359/pg74359.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/74359.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 1477,
+  "paragraphCount": 4374,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-74359\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-74359\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-74359.jsonl",
+  "rawSha256": "931f31ea5d568e09b69be4630bb634837e3cccdce0eb73a4fe5ef34acb7e3895",
+  "normalizedSha256": "f354657a71892e87bbf1245509d93257ec406b9c84dd0fbbcb737f1f9a7f2cf0",
+  "processedAt": "2026-06-16T13:39:18.457Z"
+}

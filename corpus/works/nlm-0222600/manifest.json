@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-0222600",
+  "title": "A dictionary of domestic medicine and household surgery",
+  "creator": "Thomson, Spencer, 1817-1886.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0222600-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-0222600-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/0222600",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;household-health",
+  "chunkCount": 3555,
+  "paragraphCount": 3700,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0222600\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0222600\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-0222600\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-0222600.jsonl",
+  "rawSha256": "f0d0a72074538dde1efb7ee95f83431871f420063358727a1785bdd06b330bbd",
+  "normalizedSha256": "60d03c4b8e564380c15ef90fe17bcd61345a398514a7afb7c5ddbdebb690f69c",
+  "processedAt": "2026-06-17T09:26:47.210Z"
+}

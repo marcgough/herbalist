@@ -1,0 +1,31 @@
+{
+  "workId": "wellcome-takhmyez",
+  "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/takhmyez",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30513984",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/takhmyez",
+  "rightsStatus": "pdm",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 7307,
+  "paragraphCount": 7571,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-takhmyez\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-takhmyez\\source-manifest.json",
+  "selectedManifestFile": null,
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-takhmyez\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-takhmyez.jsonl",
+  "rawSha256": "41eac8432522158cccb3a80ef60ed767e8a49f9d956c88bcfdd07586c2d467a1",
+  "normalizedSha256": "e786179693e0d1be1c30d36b5363df5a9f95d6aa80fb8964be8df4fe5836c98f",
+  "sourceMode": "wellcome_text_zip_fallback",
+  "selectedManifestUrl": "https://iiif.wellcomecollection.org/presentation/v2/b30513984",
+  "selectedManifestId": "b30513984",
+  "pdfFile": null,
+  "pdfTextFile": null,
+  "extractorSummary": {
+    "reusedLocalArtifact": true,
+    "artifact": "source-text-b30513984.zip"
+  },
+  "processedAt": "2026-06-23T05:18:21.169Z"
+}

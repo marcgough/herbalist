@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-utn98dcn",
+  "title": "Medical botany : a course of lectures delivered at Sussex Hall, during 1850 / by A.I. Coffin.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/utn98dcn",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b2040640x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/utn98dcn",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;medical-botany;botany",
+  "chunkCount": 393,
+  "paragraphCount": 401,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-utn98dcn\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-utn98dcn\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-utn98dcn.jsonl",
+  "rawSha256": "bb242947ad0552a1c87ab4a75570007e336c85e0bed45ef3c522638571e32f28",
+  "normalizedSha256": "eb3d3e730b129110d515668088754bd37ac78277aac20a921f20abe4b9908934",
+  "processedAt": "2026-06-16T13:46:59.692Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

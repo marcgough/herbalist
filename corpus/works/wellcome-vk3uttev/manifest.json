@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-vk3uttev",
+  "title": "Price list of herbs, roots, barks, seeds, flowers, and botanic medicines : with their English and botanical names, properties and uses explained / Dale's Botanic Medical Hall Limited.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/vk3uttev",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b33419152",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/vk3uttev",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 53,
+  "paragraphCount": 54,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-vk3uttev\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-vk3uttev\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-vk3uttev\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-vk3uttev.jsonl",
+  "rawSha256": "248365d401deb7a5f3be0af9188bc0771f6292df6b0450ca6da3f7e015a233ff",
+  "normalizedSha256": "985f556b80542d0d1f177ce827eb142388a2cef3395d4182212f9a89584f67e6",
+  "processedAt": "2026-06-17T00:34:09.302Z"
+}

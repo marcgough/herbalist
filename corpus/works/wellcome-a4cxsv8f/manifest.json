@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-a4cxsv8f",
+  "title": "The British flora medica, or, History of the medicinal plants of Great Britain / by Benjamin H. Barton and Thomas Castle.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/a4cxsv8f",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24923394",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/a4cxsv8f",
+  "rightsStatus": "pdm",
+  "topicFamily": "medicinal-plants;botany",
+  "chunkCount": 2197,
+  "paragraphCount": 2209,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-a4cxsv8f\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-a4cxsv8f\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-a4cxsv8f\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-a4cxsv8f.jsonl",
+  "rawSha256": "6df1e045febcf6dd0c8cdbc7c2272a74640e3eaf73f387477addfdfb40c477eb",
+  "normalizedSha256": "b603c77e3830714dd7d77085b6ea137989c9173db484ffc91439293de8f8f1a3",
+  "processedAt": "2026-06-17T00:34:21.220Z"
+}

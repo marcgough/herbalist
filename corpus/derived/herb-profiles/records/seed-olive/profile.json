@@ -1,0 +1,1197 @@
+{
+  "profile_id": "seed-olive",
+  "family_id": "seed-olive",
+  "canonical_name": "Olive",
+  "canonical_key": "olive",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-olive-fa65983171#olive"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 5996,
+    "total_chunks": 5239,
+    "total_works": 754,
+    "matched_chunk_count": 5239,
+    "matched_work_count": 754,
+    "matched_mention_total": 5250
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Olive",
+      "Olives"
+    ],
+    "sample_work_ids": [
+      "nlm-0127160",
+      "nlm-0140313",
+      "nlm-0217313"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0127160-chunk-0003",
+      "nlm-0140313-chunk-0688",
+      "nlm-0140313-chunk-0779"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 4505
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 707
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 53
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 711,
+        "work_count": 216
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 487,
+        "work_count": 280
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 446,
+        "work_count": 269
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 432,
+        "work_count": 225
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 431,
+        "work_count": 249
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 369,
+        "work_count": 246
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 303,
+        "work_count": 227
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 211,
+        "work_count": 157
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 106,
+        "work_count": 84
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 70,
+        "work_count": 50
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 5206,
+        "work_count": 750
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 1311,
+        "work_count": 430
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 830,
+        "work_count": 318
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 811,
+        "work_count": 235
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 772,
+        "work_count": 320
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 311,
+        "work_count": 144
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 297,
+        "work_count": 160
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 282,
+        "work_count": 203
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 244,
+        "work_count": 158
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 228,
+        "work_count": 123
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 653,
+        "work_count": 287
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 517,
+        "work_count": 245
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 219,
+        "work_count": 163
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 152,
+        "work_count": 107
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 129,
+        "work_count": 103
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 76,
+        "work_count": 61
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 66,
+        "work_count": 59
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 11,
+        "work_count": 10
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 10,
+        "work_count": 10
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 1012,
+        "work_count": 440
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 684,
+        "work_count": 328
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 270,
+        "work_count": 178
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 261,
+        "work_count": 219
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 255,
+        "work_count": 145
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 136,
+        "work_count": 44
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 125,
+        "work_count": 101
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 122,
+        "work_count": 104
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 92,
+        "work_count": 80
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 67,
+        "work_count": 52
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 418,
+      "matched_mention_count": 418
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 106,
+      "matched_mention_count": 106
+    },
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 55,
+      "matched_mention_count": 55
+    },
+    {
+      "work_id": "wellcome-dwk6bbmw",
+      "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+      "signal_chunk_count": 53,
+      "matched_mention_count": 53
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 52,
+      "matched_mention_count": 52
+    },
+    {
+      "work_id": "wellcome-nhx2ne6y",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+      "signal_chunk_count": 48,
+      "matched_mention_count": 48
+    },
+    {
+      "work_id": "wellcome-hnx4jyzh",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae for the chemist and druggist and medical practioner / E. Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/hnx4jyzh",
+      "signal_chunk_count": 43,
+      "matched_mention_count": 43
+    },
+    {
+      "work_id": "wellcome-a9mav4xd",
+      "title": "The elements of materia medica : comprehending the natural history, preparation, properties, composition, effects and uses of medicines / by Jonathan Pereira, F.R.S. & L.S.",
+      "creator": "",
+      "publication_year": "1839",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/a9mav4xd",
+      "signal_chunk_count": 37,
+      "matched_mention_count": 37
+    },
+    {
+      "work_id": "wellcome-drujra89",
+      "title": "Medicines : their uses and mode of administration including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and an appendix of formulae / by J. Moore Neligan.",
+      "creator": "",
+      "publication_year": "1854",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/drujra89",
+      "signal_chunk_count": 36,
+      "matched_mention_count": 36
+    },
+    {
+      "work_id": "wellcome-x5urdxkm",
+      "title": "Medicines : their uses and mode of administration, including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and an appendix of formulae / by J. Moore Neligan.",
+      "creator": "",
+      "publication_year": "1854",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/x5urdxkm",
+      "signal_chunk_count": 34,
+      "matched_mention_count": 34
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-101609940-chunk-0612",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Olive"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "In large, but not over-doses, it allays pain and spasm, and induces sleep. In over-doses, it excites narcotic symptoms, with those of an irritant poison, and has proved fatal. It acts chiefly on the nervous system. Th...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-r2gwfd8z-chunk-4590",
+        "work_id": "wellcome-r2gwfd8z",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary / [Thomas Green].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r2gwfd8z",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the plant in boiling water, is esteemed useful in the gout, rheumatism, and sciatica. The leaves and branches dried, and reduced to powder, are sometimes taken internally for spitting of blood, and othe...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-n9cbm5vq-chunk-5284",
+        "work_id": "wellcome-n9cbm5vq",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary. Containing an account of all the known plants in the world, arranged according to the Linnean system ... With the best methods of propagation, and the most recent agricultural improvements / By Thomas Green.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/n9cbm5vq",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the plant in boiling water, is esteemed useful in the gout, rheumatism, and sciatica. The leaves and branches dried, and reduced to powder, are sometimes taken internally for spitting of blood, and othe...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-n9cbm5vq-chunk-20371",
+        "work_id": "wellcome-n9cbm5vq",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary. Containing an account of all the known plants in the world, arranged according to the Linnean system ... With the best methods of propagation, and the most recent agricultural improvements / By Thomas Green.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/n9cbm5vq",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Both flowers and leaves are sensibly acid to the taste, and the flowering-tops, committed to the still as soon as gathered, afford, says Lewis, a pretty strong acid liquor, in a moderate heat. Hence it appears, that t...",
+        "score": 50
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0178",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "SWEET FERN,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Olive"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Bathe the head with tepid vinegar and water; if the throat is sore, gargle with sage and hyssop, sweetened with honey; when excessive restlessness prevents the rising and filling of the pox, give a teaspoonful of the...",
+        "score": 49
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-101609940-chunk-0612",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Olive"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "In large, but not over-doses, it allays pain and spasm, and induces sleep. In over-doses, it excites narcotic symptoms, with those of an irritant poison, and has proved fatal. It acts chiefly on the nervous system. Th...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-r2gwfd8z-chunk-4590",
+        "work_id": "wellcome-r2gwfd8z",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary / [Thomas Green].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r2gwfd8z",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the plant in boiling water, is esteemed useful in the gout, rheumatism, and sciatica. The leaves and branches dried, and reduced to powder, are sometimes taken internally for spitting of blood, and othe...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-n9cbm5vq-chunk-5284",
+        "work_id": "wellcome-n9cbm5vq",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary. Containing an account of all the known plants in the world, arranged according to the Linnean system ... With the best methods of propagation, and the most recent agricultural improvements / By Thomas Green.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/n9cbm5vq",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the plant in boiling water, is esteemed useful in the gout, rheumatism, and sciatica. The leaves and branches dried, and reduced to powder, are sometimes taken internally for spitting of blood, and othe...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-n9cbm5vq-chunk-20371",
+        "work_id": "wellcome-n9cbm5vq",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary. Containing an account of all the known plants in the world, arranged according to the Linnean system ... With the best methods of propagation, and the most recent agricultural improvements / By Thomas Green.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/n9cbm5vq",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Both flowers and leaves are sensibly acid to the taste, and the flowering-tops, committed to the still as soon as gathered, afford, says Lewis, a pretty strong acid liquor, in a moderate heat. Hence it appears, that t...",
+        "score": 50
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0178",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "SWEET FERN,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Olive"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Bathe the head with tepid vinegar and water; if the throat is sore, gargle with sage and hyssop, sweetened with honey; when excessive restlessness prevents the rising and filling of the pox, give a teaspoonful of the...",
+        "score": 49
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-101609940-chunk-0612",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Olive"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "In large, but not over-doses, it allays pain and spasm, and induces sleep. In over-doses, it excites narcotic symptoms, with those of an irritant poison, and has proved fatal. It acts chiefly on the nervous system. Th...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-r2gwfd8z-chunk-4590",
+        "work_id": "wellcome-r2gwfd8z",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary / [Thomas Green].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r2gwfd8z",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the plant in boiling water, is esteemed useful in the gout, rheumatism, and sciatica. The leaves and branches dried, and reduced to powder, are sometimes taken internally for spitting of blood, and othe...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-n9cbm5vq-chunk-5284",
+        "work_id": "wellcome-n9cbm5vq",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary. Containing an account of all the known plants in the world, arranged according to the Linnean system ... With the best methods of propagation, and the most recent agricultural improvements / By Thomas Green.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/n9cbm5vq",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the plant in boiling water, is esteemed useful in the gout, rheumatism, and sciatica. The leaves and branches dried, and reduced to powder, are sometimes taken internally for spitting of blood, and othe...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-n9cbm5vq-chunk-20371",
+        "work_id": "wellcome-n9cbm5vq",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary. Containing an account of all the known plants in the world, arranged according to the Linnean system ... With the best methods of propagation, and the most recent agricultural improvements / By Thomas Green.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/n9cbm5vq",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Both flowers and leaves are sensibly acid to the taste, and the flowering-tops, committed to the still as soon as gathered, afford, says Lewis, a pretty strong acid liquor, in a moderate heat. Hence it appears, that t...",
+        "score": 50
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0178",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "SWEET FERN,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Olive"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Bathe the head with tepid vinegar and water; if the throat is sore, gargle with sage and hyssop, sweetened with honey; when excessive restlessness prevents the rising and filling of the pox, give a teaspoonful of the...",
+        "score": 49
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-101609940-chunk-0612",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Olive"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "In large, but not over-doses, it allays pain and spasm, and induces sleep. In over-doses, it excites narcotic symptoms, with those of an irritant poison, and has proved fatal. It acts chiefly on the nervous system. Th...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-r2gwfd8z-chunk-4590",
+        "work_id": "wellcome-r2gwfd8z",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary / [Thomas Green].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r2gwfd8z",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the plant in boiling water, is esteemed useful in the gout, rheumatism, and sciatica. The leaves and branches dried, and reduced to powder, are sometimes taken internally for spitting of blood, and othe...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-n9cbm5vq-chunk-5284",
+        "work_id": "wellcome-n9cbm5vq",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary. Containing an account of all the known plants in the world, arranged according to the Linnean system ... With the best methods of propagation, and the most recent agricultural improvements / By Thomas Green.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/n9cbm5vq",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "An infusion of the plant in boiling water, is esteemed useful in the gout, rheumatism, and sciatica. The leaves and branches dried, and reduced to powder, are sometimes taken internally for spitting of blood, and othe...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-n9cbm5vq-chunk-20371",
+        "work_id": "wellcome-n9cbm5vq",
+        "title": "The universal herbal; or, botanical, medical, and agricultural dictionary. Containing an account of all the known plants in the world, arranged according to the Linnean system ... With the best methods of propagation, and the most recent agricultural improvements / By Thomas Green.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/n9cbm5vq",
+        "matched_herbs": [
+          "Olives"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Both flowers and leaves are sensibly acid to the taste, and the flowering-tops, committed to the still as soon as gathered, afford, says Lewis, a pretty strong acid liquor, in a moderate heat. Hence it appears, that t...",
+        "score": 50
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0178",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "SWEET FERN,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Olive"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Bathe the head with tepid vinegar and water; if the throat is sore, gargle with sage and hyssop, sweetened with honey; when excessive restlessness prevents the rising and filling of the pox, give a teaspoonful of the...",
+        "score": 49
+      }
+    ]
+  },
+  "retrieval_text": "Olive is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 754 works and 5239 source-linked chunks. Recorded variants include Olive, Olives. Common plant-part co-mentions include Resin, Seed, Root, Leaf, Flower, Gum. Common preparation co-mentions include Oil, Ointment, Powder, Plaster, Liniment, Bath. Common condition co-mentions include Cold or catarrh, Wounds or ulcers, Inflammation, Cough, Rheumatism, Consumption. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Allergy or sensitivity caution, Toxicity watch, Fatal-risk warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; The elements of materia medica and therapeutics / by Jonathan Pereira.; Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.686Z",
+  "builder": "build-herb-profiles.mjs"
+}

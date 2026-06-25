@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63610710R",
+  "title": "The third edition of Dr. Nash's practice : containing all the practical matter of the two former editions of the \"Southern family physician \"",
+  "creator": "Nash, Dr. (James Addison)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610710R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63610710R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63610710R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 488,
+  "paragraphCount": 494,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610710R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610710R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63610710R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63610710R.jsonl",
+  "rawSha256": "a8a39a57bf23ac50d580080cbb7d61b7f704e592ae47f05eaf9083af1aca2817",
+  "normalizedSha256": "6d3fe0331d364b675d57e9821e03419972d209b24bbd9eb6e3980e9c75b4fad8",
+  "processedAt": "2026-06-20T01:43:01.955Z"
+}

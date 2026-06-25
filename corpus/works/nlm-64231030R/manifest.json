@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64231030R",
+  "title": "The home physician, or, A treatise upon the cure of diseases by the botanical system of medicine : improved by modern practice and the author's experience : designed as a guide to young practitioners and private families",
+  "creator": "Willcox, Samuel, 1783-",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64231030R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64231030R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64231030R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;botany",
+  "chunkCount": 1054,
+  "paragraphCount": 1309,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64231030R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64231030R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64231030R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64231030R.jsonl",
+  "rawSha256": "4545e826d57276955e6e0c58439d347c12e9e4d91c646b2e573168ff853b1051",
+  "normalizedSha256": "c754dae8562d5252a097c2dd166124bb1ff47b9f877b3e323073defa5ca9f41e",
+  "processedAt": "2026-06-17T14:19:52.394Z"
+}

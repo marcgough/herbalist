@@ -1,0 +1,1175 @@
+{
+  "profile_id": "seed-lime",
+  "family_id": "seed-lime",
+  "canonical_name": "Lime",
+  "canonical_key": "lime",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-lime-efbaa8cbff#lime"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 572,
+    "total_chunks": 522,
+    "total_works": 283,
+    "matched_chunk_count": 522,
+    "matched_work_count": 283,
+    "matched_mention_total": 524
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Lime",
+      "Lime Flowers"
+    ],
+    "sample_work_ids": [
+      "nlm-100898140",
+      "nlm-100912803",
+      "nlm-100936421"
+    ],
+    "sample_chunk_ids": [
+      "nlm-100898140-chunk-0395",
+      "nlm-100912803-chunk-0689",
+      "nlm-100936421-chunk-0412"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 362
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 128
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 48
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 76,
+        "work_count": 50
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 57,
+        "work_count": 52
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 53,
+        "work_count": 48
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 49,
+        "work_count": 37
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 42,
+        "work_count": 41
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 40,
+        "work_count": 32
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 38,
+        "work_count": 29
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 19,
+        "work_count": 16
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "rhizome",
+        "label": "Rhizome",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "preparations": [
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 276,
+        "work_count": 168
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 207,
+        "work_count": 149
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 92,
+        "work_count": 79
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 66,
+        "work_count": 52
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 58,
+        "work_count": 43
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 55,
+        "work_count": 40
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 49,
+        "work_count": 33
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 35,
+        "work_count": 31
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 29,
+        "work_count": 29
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 26,
+        "work_count": 25
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 119,
+        "work_count": 96
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 49,
+        "work_count": 39
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 29,
+        "work_count": 28
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 27,
+        "work_count": 25
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 13,
+        "work_count": 10
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 67,
+        "work_count": 63
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 65,
+        "work_count": 60
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 57,
+        "work_count": 54
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 55,
+        "work_count": 53
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 22,
+        "work_count": 22
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 21,
+        "work_count": 20
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 21,
+        "work_count": 20
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 16,
+        "work_count": 15
+      },
+      {
+        "id": "headache",
+        "label": "Headache",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 7,
+        "work_count": 7
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-ppwszffb",
+      "title": "Remarks on the uses of some of the bazaar medicines and common medical plants of India : with a full index of diseases, indicating their treatment by these and other agents procurable throughout India to which are added directions for treatment in cases of drowning, snake bites, &c / by Edward John Waring.",
+      "creator": "",
+      "publication_year": "1874",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/ppwszffb",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-pujcgk4k",
+      "title": "The Family physician : a manual of domestic medicine to which is added, the ladies' physician / by physicians and surgeons of the principal London hospitals.",
+      "creator": "",
+      "publication_year": "1865",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/pujcgk4k",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-aw2c3dda",
+      "title": "The family physician : a manual of domestic medicine / by physicians and surgeons of the principal London hospitals.",
+      "creator": "",
+      "publication_year": "1890",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/aw2c3dda",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-uwjg9pz9",
+      "title": "The family physician : a manual of domestic medicine / by physicians and surgeons of the principal London hospitals.",
+      "creator": "",
+      "publication_year": "1882",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/uwjg9pz9",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-vap2a7m4",
+      "title": "A manual of practical hygiene / by Edmund A. Parkes ... Ed. by F. S. B. François de Chaumont.",
+      "creator": "",
+      "publication_year": "1884",
+      "collection_id": "wellcome-collection",
+      "topic_family": "hygiene;public-health",
+      "source_url": "https://wellcomecollection.org/works/vap2a7m4",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-agdnfevh",
+      "title": "A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.",
+      "creator": "",
+      "publication_year": "1821",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/agdnfevh",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-41697-chunk-0449",
+        "work_id": "pg-41697",
+        "title": "Merck's 1899 Manual of the Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PART II--THERAPEUTIC INDICATIONS",
+        "source_url": "https://www.gutenberg.org/ebooks/41697",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "Hyoscyamus in mild cases. Iron: in anemia. Morphine. Opium. Poultices. Quinine: when much sickness. Stramonium: when delirium furious but intermittent, or suicidal, or when impulse to destroy child. Tartar Emetic: fre...",
+        "score": 56
+      },
+      {
+        "chunk_id": "wellcome-bsnmkdkc-chunk-0294",
+        "work_id": "wellcome-bsnmkdkc",
+        "title": "The book of prescriptions : containing upwards of 3000 prescriptions collected from the practice of the most eminent physicians and surgeons, English and foreign comprising also a compendious history of the materia medica, lists of the doses of all official or established preparations and an index of diseases and remedies / by Henry Beasley.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/bsnmkdkc",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Constipation",
+          "Headache",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "It is exhilarant, narcotic, anodyne, antispasmodic. It is useful in insomnia, spinal irritation, painful neuralgic and rheumatic affections. dysmenorrhcea, hay fever. Au over-dose produces a pecu- liar kind of deliriu...",
+        "score": 53
+      },
+      {
+        "chunk_id": "pg-53755-chunk-0235",
+        "work_id": "pg-53755",
+        "title": "The Taleef Shereef; Or, Indian Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PUBLISHED BY",
+        "source_url": "https://www.gutenberg.org/ebooks/53755",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "With Kutkuleja leaves, in Vomiting, Cholera, &c. ,, Cow's urine, in the cure of Diarrhoea. ,, Toolsi leaves, Internal heat. ,, Lime juice, and applied to the eyes, Evil spirits depart. ,, Kusskuss water, in the cure o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-pespjnwk-chunk-0343",
+        "work_id": "wellcome-pespjnwk",
+        "title": "A new family herbal, or, a description of all the British and foreign plants, which are useful to man ... compiled from the works of Hill ... and other botanists. Fourth edition ... To which is now added an entire new supplement ... [etc.].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pespjnwk",
+        "matched_herbs": [
+          "Lime Flowers"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The flowers of the lime are useful in Epilepsy, and nervous fevers, made into a decoctinn, or infusion they will be found serviceable in asthma, or irritating coughs ; as the whole tree, but more particularly the inne...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0196",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The following is a good recipe :—Take of Lard and Cocoanut Oil of each 8 ounces. Melt and add J ounce best Oil of Lavender. Lemon—Antiseptic, alterative, tonic, diaplioretic, &c. For scurvy, scrofula, dyspepsia, drops...",
+        "score": 47
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-41697-chunk-0449",
+        "work_id": "pg-41697",
+        "title": "Merck's 1899 Manual of the Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PART II--THERAPEUTIC INDICATIONS",
+        "source_url": "https://www.gutenberg.org/ebooks/41697",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "Hyoscyamus in mild cases. Iron: in anemia. Morphine. Opium. Poultices. Quinine: when much sickness. Stramonium: when delirium furious but intermittent, or suicidal, or when impulse to destroy child. Tartar Emetic: fre...",
+        "score": 56
+      },
+      {
+        "chunk_id": "wellcome-bsnmkdkc-chunk-0294",
+        "work_id": "wellcome-bsnmkdkc",
+        "title": "The book of prescriptions : containing upwards of 3000 prescriptions collected from the practice of the most eminent physicians and surgeons, English and foreign comprising also a compendious history of the materia medica, lists of the doses of all official or established preparations and an index of diseases and remedies / by Henry Beasley.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/bsnmkdkc",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Constipation",
+          "Headache",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "It is exhilarant, narcotic, anodyne, antispasmodic. It is useful in insomnia, spinal irritation, painful neuralgic and rheumatic affections. dysmenorrhcea, hay fever. Au over-dose produces a pecu- liar kind of deliriu...",
+        "score": 53
+      },
+      {
+        "chunk_id": "pg-53755-chunk-0235",
+        "work_id": "pg-53755",
+        "title": "The Taleef Shereef; Or, Indian Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PUBLISHED BY",
+        "source_url": "https://www.gutenberg.org/ebooks/53755",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "With Kutkuleja leaves, in Vomiting, Cholera, &c. ,, Cow's urine, in the cure of Diarrhoea. ,, Toolsi leaves, Internal heat. ,, Lime juice, and applied to the eyes, Evil spirits depart. ,, Kusskuss water, in the cure o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-pespjnwk-chunk-0343",
+        "work_id": "wellcome-pespjnwk",
+        "title": "A new family herbal, or, a description of all the British and foreign plants, which are useful to man ... compiled from the works of Hill ... and other botanists. Fourth edition ... To which is now added an entire new supplement ... [etc.].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pespjnwk",
+        "matched_herbs": [
+          "Lime Flowers"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The flowers of the lime are useful in Epilepsy, and nervous fevers, made into a decoctinn, or infusion they will be found serviceable in asthma, or irritating coughs ; as the whole tree, but more particularly the inne...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0196",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The following is a good recipe :—Take of Lard and Cocoanut Oil of each 8 ounces. Melt and add J ounce best Oil of Lavender. Lemon—Antiseptic, alterative, tonic, diaplioretic, &c. For scurvy, scrofula, dyspepsia, drops...",
+        "score": 47
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-41697-chunk-0449",
+        "work_id": "pg-41697",
+        "title": "Merck's 1899 Manual of the Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PART II--THERAPEUTIC INDICATIONS",
+        "source_url": "https://www.gutenberg.org/ebooks/41697",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "Hyoscyamus in mild cases. Iron: in anemia. Morphine. Opium. Poultices. Quinine: when much sickness. Stramonium: when delirium furious but intermittent, or suicidal, or when impulse to destroy child. Tartar Emetic: fre...",
+        "score": 56
+      },
+      {
+        "chunk_id": "wellcome-bsnmkdkc-chunk-0294",
+        "work_id": "wellcome-bsnmkdkc",
+        "title": "The book of prescriptions : containing upwards of 3000 prescriptions collected from the practice of the most eminent physicians and surgeons, English and foreign comprising also a compendious history of the materia medica, lists of the doses of all official or established preparations and an index of diseases and remedies / by Henry Beasley.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/bsnmkdkc",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Constipation",
+          "Headache",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "It is exhilarant, narcotic, anodyne, antispasmodic. It is useful in insomnia, spinal irritation, painful neuralgic and rheumatic affections. dysmenorrhcea, hay fever. Au over-dose produces a pecu- liar kind of deliriu...",
+        "score": 53
+      },
+      {
+        "chunk_id": "pg-53755-chunk-0235",
+        "work_id": "pg-53755",
+        "title": "The Taleef Shereef; Or, Indian Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PUBLISHED BY",
+        "source_url": "https://www.gutenberg.org/ebooks/53755",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "With Kutkuleja leaves, in Vomiting, Cholera, &c. ,, Cow's urine, in the cure of Diarrhoea. ,, Toolsi leaves, Internal heat. ,, Lime juice, and applied to the eyes, Evil spirits depart. ,, Kusskuss water, in the cure o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-pespjnwk-chunk-0343",
+        "work_id": "wellcome-pespjnwk",
+        "title": "A new family herbal, or, a description of all the British and foreign plants, which are useful to man ... compiled from the works of Hill ... and other botanists. Fourth edition ... To which is now added an entire new supplement ... [etc.].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pespjnwk",
+        "matched_herbs": [
+          "Lime Flowers"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The flowers of the lime are useful in Epilepsy, and nervous fevers, made into a decoctinn, or infusion they will be found serviceable in asthma, or irritating coughs ; as the whole tree, but more particularly the inne...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0196",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The following is a good recipe :—Take of Lard and Cocoanut Oil of each 8 ounces. Melt and add J ounce best Oil of Lavender. Lemon—Antiseptic, alterative, tonic, diaplioretic, &c. For scurvy, scrofula, dyspepsia, drops...",
+        "score": 47
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-41697-chunk-0449",
+        "work_id": "pg-41697",
+        "title": "Merck's 1899 Manual of the Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PART II--THERAPEUTIC INDICATIONS",
+        "source_url": "https://www.gutenberg.org/ebooks/41697",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "Hyoscyamus in mild cases. Iron: in anemia. Morphine. Opium. Poultices. Quinine: when much sickness. Stramonium: when delirium furious but intermittent, or suicidal, or when impulse to destroy child. Tartar Emetic: fre...",
+        "score": 56
+      },
+      {
+        "chunk_id": "wellcome-bsnmkdkc-chunk-0294",
+        "work_id": "wellcome-bsnmkdkc",
+        "title": "The book of prescriptions : containing upwards of 3000 prescriptions collected from the practice of the most eminent physicians and surgeons, English and foreign comprising also a compendious history of the materia medica, lists of the doses of all official or established preparations and an index of diseases and remedies / by Henry Beasley.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/bsnmkdkc",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Constipation",
+          "Headache",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "It is exhilarant, narcotic, anodyne, antispasmodic. It is useful in insomnia, spinal irritation, painful neuralgic and rheumatic affections. dysmenorrhcea, hay fever. Au over-dose produces a pecu- liar kind of deliriu...",
+        "score": 53
+      },
+      {
+        "chunk_id": "pg-53755-chunk-0235",
+        "work_id": "pg-53755",
+        "title": "The Taleef Shereef; Or, Indian Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PUBLISHED BY",
+        "source_url": "https://www.gutenberg.org/ebooks/53755",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "With Kutkuleja leaves, in Vomiting, Cholera, &c. ,, Cow's urine, in the cure of Diarrhoea. ,, Toolsi leaves, Internal heat. ,, Lime juice, and applied to the eyes, Evil spirits depart. ,, Kusskuss water, in the cure o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-pespjnwk-chunk-0343",
+        "work_id": "wellcome-pespjnwk",
+        "title": "A new family herbal, or, a description of all the British and foreign plants, which are useful to man ... compiled from the works of Hill ... and other botanists. Fourth edition ... To which is now added an entire new supplement ... [etc.].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pespjnwk",
+        "matched_herbs": [
+          "Lime Flowers"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The flowers of the lime are useful in Epilepsy, and nervous fevers, made into a decoctinn, or infusion they will be found serviceable in asthma, or irritating coughs ; as the whole tree, but more particularly the inne...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-v4g7fk8k-chunk-1290",
+        "work_id": "wellcome-v4g7fk8k",
+        "title": "Indian medicinal plants / by Lietenant-Colonel K.R. Kirtikar ... Major B.D. Basu ... and I.C.S. (retired).",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/v4g7fk8k",
+        "matched_herbs": [
+          "Lime"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Bath",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "A poultice of the leaves is applied to ulcers infested with worms (Dutt). The juice of the roots is used for cleaning foul ulcers and closing fistulous sores (Ainslie). The fresh bark is used internally in bleeding pi...",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Lime is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 283 works and 522 source-linked chunks. Recorded variants include Lime, Lime Flowers. Common plant-part co-mentions include Flower, Fruit, Leaf, Root, Bark, Seed. Common preparation co-mentions include Juice, Oil, Liniment, Powder, Syrup, Tea. Common condition co-mentions include Fever, Vomiting or nausea, Cold or catarrh, Wounds or ulcers, Inflammation, Diarrhoea or looseness. Caution co-mentions include Dose caution, Narcotic or sedative caution, Toxicity watch, Child-use caution, Bleeding caution, Fatal-risk warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; Remarks on the uses of some of the bazaar medicines and common medical plants of India : with a full index of diseases, indicating their treatment by these and other agents procurable throughout India to which are added directions for treatment in cases of drowning, snake bites, &c / by Edward John Waring.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.888Z",
+  "builder": "build-herb-profiles.mjs"
+}

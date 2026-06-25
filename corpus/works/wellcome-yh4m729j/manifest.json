@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-yh4m729j",
+  "title": "Nature the best physician; or, a complete domestic herbal: being a brief, but valuable description of the physical properties of the most generally known herbs and plants ... : By Joseph Taylor / [Joseph Taylor].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/yh4m729j",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b22021991",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/yh4m729j",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 94,
+  "paragraphCount": 96,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-yh4m729j\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-yh4m729j\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-yh4m729j\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-yh4m729j.jsonl",
+  "rawSha256": "f8ae4ad8bef30a944d855787eb8d8656f2a2e6a970cac8a48a71ea60b1427c82",
+  "normalizedSha256": "927a4828528ff33538f1cba43469e68b21766ab7bb5936cca3317a6bfc265f03",
+  "processedAt": "2026-06-16T23:09:05.227Z"
+}

@@ -1,0 +1,1170 @@
+{
+  "profile_id": "seed-nettle",
+  "family_id": "seed-nettle",
+  "canonical_name": "Nettle",
+  "canonical_key": "nettle",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-nettle-58f71bec3c#nettle"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 180,
+    "total_chunks": 177,
+    "total_works": 108,
+    "matched_chunk_count": 177,
+    "matched_work_count": 108,
+    "matched_mention_total": 177
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medicinal-plants",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Nettle",
+      "Nettles"
+    ],
+    "sample_work_ids": [
+      "nlm-101136237",
+      "nlm-101250105",
+      "nlm-10720620R"
+    ],
+    "sample_chunk_ids": [
+      "nlm-101136237-chunk-0008",
+      "nlm-101136237-chunk-0093",
+      "nlm-101250105-chunk-0021"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 91
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 64
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 22
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 98,
+        "work_count": 64
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 78,
+        "work_count": 47
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 70,
+        "work_count": 49
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 34,
+        "work_count": 27
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 33,
+        "work_count": 19
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 24,
+        "work_count": 18
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 11,
+        "work_count": 10
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "preparations": [
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 81,
+        "work_count": 59
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 47,
+        "work_count": 34
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 43,
+        "work_count": 37
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 30,
+        "work_count": 26
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 19,
+        "work_count": 17
+      },
+      {
+        "id": "gargle",
+        "label": "Gargle",
+        "signal_count": 17,
+        "work_count": 15
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 17,
+        "work_count": 13
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 15,
+        "work_count": 10
+      },
+      {
+        "id": "wash",
+        "label": "Wash",
+        "signal_count": 12,
+        "work_count": 8
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 10,
+        "work_count": 6
+      }
+    ],
+    "cautions": [
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 29,
+        "work_count": 29
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 10,
+        "work_count": 8
+      },
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 8,
+        "work_count": 3
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 7,
+        "work_count": 6
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "conditions": [
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 27,
+        "work_count": 27
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 24,
+        "work_count": 19
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 22,
+        "work_count": 16
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 18,
+        "work_count": 16
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 16,
+        "work_count": 13
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 11,
+        "work_count": 10
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 10,
+        "work_count": 7
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 9,
+        "work_count": 8
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 8,
+        "work_count": 7
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-61820150R",
+      "title": "The reformed botanic and Indian physician : a complete guide to health",
+      "creator": "Smith, Daniel, 1790-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-dvdzaqep",
+      "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-agdnfevh",
+      "title": "A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.",
+      "creator": "",
+      "publication_year": "1821",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/agdnfevh",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-2751057R",
+      "title": "Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops",
+      "creator": "Culpeper, Nicholas, 1616-1654 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2751057R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-ms79ffge",
+      "title": "Complete herbal ... To which is now first annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added upwards of 50 choice receipts selected from the author's Last legacy. To his wife ... / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1823",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/ms79ffge",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-v2hnvyj6",
+      "title": "Complete herbal, to which is now added, upwards of one hundred additional herbs, with a display of their medicinal and occult qualities : physically applied to the cure of all disorders incident to mankind [etc.].",
+      "creator": "",
+      "publication_year": "1816",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/v2hnvyj6",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-e8fn752s",
+      "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1818",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/e8fn752s",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-c4ncu7qz",
+      "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / Nicholas Culpeper.",
+      "creator": "",
+      "publication_year": "1814",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica",
+      "source_url": "https://wellcomecollection.org/works/c4ncu7qz",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-x58me7h2",
+      "title": "Herbal simples : approved for modern uses of cure / by W.T. Fernie.",
+      "creator": "",
+      "publication_year": "1897",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/x58me7h2",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0111",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Ointment",
+          "Gargle"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Colic"
+        ],
+        "excerpt": "NETTLE ROOT, [Urt:ca dioica,]—Useful in incipient stages of Consumption, and Bloody Urine. G 7i UKRB8, kVD rLOWMBS. NECKLACE BEADS, [Oofc lachryma,]—The seed steeped in water is a good Diuretic and . 1 Solvent for Sto...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0112",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Rheumatism",
+          "Constipation"
+        ],
+        "excerpt": "NANNY-BUSH, BARK, [Viburnum lentago,]—A com- plete substitute for Peruvian Bark, and said to be supe- rior. NETTLE FLOWERS, [Urtica dioica,]—Efficacious in Febrile and Ague complaints. NIGHTSHADE, FOETID, [Hyosciamus...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0266",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Nettles"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dropsy"
+        ],
+        "excerpt": "FOR A SWELLED THROAT. Gargle with the decoction of nettles, or of prim-rose. TO' CLEAN TEETH. Rub the teeth with ashes of burnt bread. RICKETS—TO CURE OR PREVENT. Wash the child every morning in cold water. RECIPES. v...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0269",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Nettles"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dropsy"
+        ],
+        "excerpt": "FOR A SWELLED THROAT. Gargle with the decoction of nettles, or of prim-rose. TO' CLEAN TEETH. Rub the teeth with ashes of burnt bread. RICKETS—TO CURE OR PREVENT. Wash the child every morning in cold water. THE VERTIG...",
+        "score": 42
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0111",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Ointment",
+          "Gargle"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Colic"
+        ],
+        "excerpt": "NETTLE ROOT, [Urt:ca dioica,]—Useful in incipient stages of Consumption, and Bloody Urine. G 7i UKRB8, kVD rLOWMBS. NECKLACE BEADS, [Oofc lachryma,]—The seed steeped in water is a good Diuretic and . 1 Solvent for Sto...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0266",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Nettles"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dropsy"
+        ],
+        "excerpt": "FOR A SWELLED THROAT. Gargle with the decoction of nettles, or of prim-rose. TO' CLEAN TEETH. Rub the teeth with ashes of burnt bread. RICKETS—TO CURE OR PREVENT. Wash the child every morning in cold water. RECIPES. v...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0269",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Nettles"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dropsy"
+        ],
+        "excerpt": "FOR A SWELLED THROAT. Gargle with the decoction of nettles, or of prim-rose. TO' CLEAN TEETH. Rub the teeth with ashes of burnt bread. RICKETS—TO CURE OR PREVENT. Wash the child every morning in cold water. THE VERTIG...",
+        "score": 42
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0342",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "THE",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Gout",
+          "Headache",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] I wonder how astrologers could take on them to make this an herb of Jupiter; and yet Mizaldus, a man of a penetrating brain, was of that opinion as well as the rest; the herb is indeed under...",
+        "score": 37
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0111",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Ointment",
+          "Gargle"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Colic"
+        ],
+        "excerpt": "NETTLE ROOT, [Urt:ca dioica,]—Useful in incipient stages of Consumption, and Bloody Urine. G 7i UKRB8, kVD rLOWMBS. NECKLACE BEADS, [Oofc lachryma,]—The seed steeped in water is a good Diuretic and . 1 Solvent for Sto...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0112",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Rheumatism",
+          "Constipation"
+        ],
+        "excerpt": "NANNY-BUSH, BARK, [Viburnum lentago,]—A com- plete substitute for Peruvian Bark, and said to be supe- rior. NETTLE FLOWERS, [Urtica dioica,]—Efficacious in Febrile and Ague complaints. NIGHTSHADE, FOETID, [Hyosciamus...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0266",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Nettles"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dropsy"
+        ],
+        "excerpt": "FOR A SWELLED THROAT. Gargle with the decoction of nettles, or of prim-rose. TO' CLEAN TEETH. Rub the teeth with ashes of burnt bread. RICKETS—TO CURE OR PREVENT. Wash the child every morning in cold water. RECIPES. v...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0269",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Nettles"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dropsy"
+        ],
+        "excerpt": "FOR A SWELLED THROAT. Gargle with the decoction of nettles, or of prim-rose. TO' CLEAN TEETH. Rub the teeth with ashes of burnt bread. RICKETS—TO CURE OR PREVENT. Wash the child every morning in cold water. THE VERTIG...",
+        "score": 42
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0111",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Ointment",
+          "Gargle"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Colic"
+        ],
+        "excerpt": "NETTLE ROOT, [Urt:ca dioica,]—Useful in incipient stages of Consumption, and Bloody Urine. G 7i UKRB8, kVD rLOWMBS. NECKLACE BEADS, [Oofc lachryma,]—The seed steeped in water is a good Diuretic and . 1 Solvent for Sto...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0112",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Nettle"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Rheumatism",
+          "Constipation"
+        ],
+        "excerpt": "NANNY-BUSH, BARK, [Viburnum lentago,]—A com- plete substitute for Peruvian Bark, and said to be supe- rior. NETTLE FLOWERS, [Urtica dioica,]—Efficacious in Febrile and Ague complaints. NIGHTSHADE, FOETID, [Hyosciamus...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0266",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Nettles"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dropsy"
+        ],
+        "excerpt": "FOR A SWELLED THROAT. Gargle with the decoction of nettles, or of prim-rose. TO' CLEAN TEETH. Rub the teeth with ashes of burnt bread. RICKETS—TO CURE OR PREVENT. Wash the child every morning in cold water. RECIPES. v...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0269",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Nettles"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dropsy"
+        ],
+        "excerpt": "FOR A SWELLED THROAT. Gargle with the decoction of nettles, or of prim-rose. TO' CLEAN TEETH. Rub the teeth with ashes of burnt bread. RICKETS—TO CURE OR PREVENT. Wash the child every morning in cold water. THE VERTIG...",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Nettle is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 108 works and 177 source-linked chunks. Recorded variants include Nettle, Nettles. Common plant-part co-mentions include Root, Seed, Leaf, Flower, Bark, Berry. Common preparation co-mentions include Juice, Tea, Decoction, Oil, Powder, Gargle. Common condition co-mentions include Inflammation, Cold or catarrh, Vomiting or nausea, Wounds or ulcers, Fever, Rheumatism. Caution co-mentions include Bleeding caution, Child-use caution, Dose caution, Toxicity watch, Narcotic or sedative caution, Pregnancy caution. Representative source works include The reformed botanic and Indian physician : a complete guide to health; The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.; A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.984Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63611140R",
+  "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+  "creator": "Reed, I. N. (Isaac N.)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63611140R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63611140R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 3357,
+  "paragraphCount": 3381,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63611140R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63611140R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63611140R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63611140R.jsonl",
+  "rawSha256": "bbf4151943ce079eef0f54770cb48b030e7104cca7420a72595fd2b84f0efb00",
+  "normalizedSha256": "de73bcb265b98fc7ee079ff27a5f8bf6df248e6380ed1d9c1bd9812d90a07bb5",
+  "processedAt": "2026-06-17T15:34:54.637Z"
+}

@@ -1,0 +1,4 @@
+collection_id,collection_name,country_lane,access_mode,requires_api_key,rights_model,status,notes
+project-gutenberg,Project Gutenberg,US,direct_download,no,public_domain_us,active,Primary no-key corpus lane
+nlm-digital-collections,National Library of Medicine Digital Collections,US,public_web_service,no,mostly_public_domain_or_clear_label,active,Use item-level rights review before ingest
+wellcome-collection,Wellcome Collection,UK,public_catalogue_api_and_iiif,no,per_item_public_domain_or_permissive_cc,active,Use only items with clear reuse status

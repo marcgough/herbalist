@@ -1,0 +1,288 @@
+{
+  "generatedAt": "2026-06-23T13:19:49.037Z",
+  "thresholds": {
+    "thinChunkLimit": 120,
+    "thinParagraphLimit": 160,
+    "severeChunkLimit": 40,
+    "severeParagraphLimit": 50,
+    "microChunkLimit": 12,
+    "microParagraphLimit": 16
+  },
+  "totalChunkedWorks": 1328,
+  "manifestBackedWorks": 1328,
+  "flaggedCount": 167,
+  "severeThinCount": 92,
+  "fragmentFlagCount": 23,
+  "referenceFlagCount": 105,
+  "multiWorkFamilyFlagCount": 84,
+  "collectionCounts": {
+    "wellcome-collection": 77,
+    "nlm-digital-collections": 89,
+    "project-gutenberg": 1
+  },
+  "classCounts": {
+    "thin-general": 57,
+    "micro-fragment": 3,
+    "severe-thin-reference": 54,
+    "severe-thin-fragment": 9,
+    "thin-fragment": 11,
+    "thin-reference": 33
+  },
+  "topCandidates": [
+    {
+      "work_id": "wellcome-rsy9fb9q",
+      "title": "E.S.H. Leonard--druggist, no. 11, South-Main Street, Providence, R.I. has constantly for sale, on the most liberal terms, an extensive assortment of genuine drugs, medicines, dye-stuffs, surgeons' instruments, chemical glass ware, English fancy soap, perfumery, &c. comprising nearly every article usually called for in the medicinal or drug line.",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 2,
+      "paragraph_count": 2,
+      "review_class": "thin-general",
+      "recommended_action": "review-for-quarantine-or-lower-weight",
+      "heuristic_score": 210
+    },
+    {
+      "work_id": "nlm-101678181",
+      "title": "Preliminary note on a new medicinal plant and its alkaloid",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 6,
+      "paragraph_count": 6,
+      "review_class": "micro-fragment",
+      "recommended_action": "keep-but-review-retrieval-weight",
+      "heuristic_score": 210
+    },
+    {
+      "work_id": "nlm-63620020R",
+      "title": "The American practice of domestic medicine",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 9,
+      "paragraph_count": 13,
+      "review_class": "thin-general",
+      "recommended_action": "review-for-quarantine-or-lower-weight",
+      "heuristic_score": 210
+    },
+    {
+      "work_id": "nlm-2544059R",
+      "title": "Domestic medicine : or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practitioners",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 10,
+      "paragraph_count": 20,
+      "review_class": "micro-fragment",
+      "recommended_action": "review-family-supplement-weight",
+      "heuristic_score": 204
+    },
+    {
+      "work_id": "wellcome-yh34dveb",
+      "title": "The pharmacopoeia universalis; or, complete encyclopedia of the materia medica. Contained in the pharmacopoeias of London, Edinburgh, and Dublin, as well as of all those of Europe and America, dispensatories, formularies, and chemical works of Ainslie [et al.]; giving the officinal [sic] and other synonimes [sic] and scientific characters of simple substances, the preparations of the compounds, according to the various formulae, and the usual doses prescribed. With an appendix. Containing the charters, laws, and regulations, affecting the medical profession; and an outline of medical chemistry, and manipulations in the manufacture of drugs and medicinal waters; including the most recent discoveries in pharmacy / Edited by J. Rennie.",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 1,
+      "paragraph_count": 2,
+      "review_class": "micro-fragment",
+      "recommended_action": "keep-but-review-retrieval-weight",
+      "heuristic_score": 202
+    },
+    {
+      "work_id": "wellcome-brgqaymd",
+      "title": "On the distinctive characters of the roots of aconitum napellus (monkshood) and cochlearia armoracia (horse-radish) / by Robert Bentley.",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 10,
+      "paragraph_count": 11,
+      "review_class": "thin-general",
+      "recommended_action": "review-for-quarantine-or-lower-weight",
+      "heuristic_score": 198
+    },
+    {
+      "work_id": "nlm-101719212",
+      "title": "The practice of medicine by the Chinese in America",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 12,
+      "paragraph_count": 13,
+      "review_class": "thin-general",
+      "recommended_action": "review-for-quarantine-or-lower-weight",
+      "heuristic_score": 198
+    },
+    {
+      "work_id": "wellcome-adrgcmv2",
+      "title": "7 valuable plants / illustrated and described by Charles Adams, medical specialist ; with advice on indigestion.",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 14,
+      "paragraph_count": 15,
+      "review_class": "thin-general",
+      "recommended_action": "review-for-quarantine-or-lower-weight",
+      "heuristic_score": 198
+    },
+    {
+      "work_id": "wellcome-cek32jpp",
+      "title": "Compendium pharmaceuticum : militaribus gallorum nosocomiis, in orbo novo boreali adscriptum.",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 15,
+      "paragraph_count": 16,
+      "review_class": "thin-general",
+      "recommended_action": "review-for-quarantine-or-lower-weight",
+      "heuristic_score": 198
+    },
+    {
+      "work_id": "nlm-2561024R",
+      "title": "The Edinburgh new dispensatory ... : with explanatory, critical, and practical observations on each : together with the addition of those formulae, from the best foreign pharmacopoeias, which are held in highest esteem in other parts of Europe ; the whole interspersed with practical cautions and observations, and enriched by the latest discoveries in natural history, chemistry, and medicine ; with new tables of elective attractions, of antimony, of mercury, &c. ; and copperplates of the most convenient furnaces, and principal pharmaceutical instruments ; being an improvement upon the New dispensatory of Dr. Lewis",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 8,
+      "paragraph_count": 18,
+      "review_class": "severe-thin-reference",
+      "recommended_action": "keep-but-review-retrieval-weight",
+      "heuristic_score": 196
+    },
+    {
+      "work_id": "nlm-64220540R",
+      "title": "Domestic medicine : a treatise on the practice of medicine, adapted to the reformed system, comprising a materia medica",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 10,
+      "paragraph_count": 13,
+      "review_class": "severe-thin-reference",
+      "recommended_action": "keep-but-review-retrieval-weight",
+      "heuristic_score": 196
+    },
+    {
+      "work_id": "wellcome-vguexnkc",
+      "title": "The universal herbal; or, botanical, medical, and agricultural dictionary / [Thomas Green].",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 12,
+      "paragraph_count": 12,
+      "review_class": "severe-thin-reference",
+      "recommended_action": "keep-but-review-retrieval-weight",
+      "heuristic_score": 188
+    },
+    {
+      "work_id": "nlm-101727470",
+      "title": "Pharmacopoeia of St. Luke's Hospital, New York",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 8,
+      "paragraph_count": 8,
+      "review_class": "severe-thin-reference",
+      "recommended_action": "keep-but-review-retrieval-weight",
+      "heuristic_score": 184
+    },
+    {
+      "work_id": "wellcome-ccpqt4fy",
+      "title": "Solanum dulcamara as a medicinal plant / by John Harley.",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 9,
+      "paragraph_count": 9,
+      "review_class": "severe-thin-reference",
+      "recommended_action": "keep-but-review-retrieval-weight",
+      "heuristic_score": 184
+    },
+    {
+      "work_id": "wellcome-xf5rzj2x",
+      "title": "Cure yourself with herbal remedies / [Potter & Clarke, Ltd].",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 10,
+      "paragraph_count": 11,
+      "review_class": "severe-thin-reference",
+      "recommended_action": "keep-but-review-retrieval-weight",
+      "heuristic_score": 184
+    },
+    {
+      "work_id": "nlm-101626004",
+      "title": "Address of the faculty, with the annual report, and catalogue for 1846-'7 and programme of the ensuing sessions, of 1847-'48",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 34,
+      "paragraph_count": 34,
+      "review_class": "severe-thin-fragment",
+      "recommended_action": "review-for-quarantine-or-lower-weight",
+      "heuristic_score": 180
+    },
+    {
+      "work_id": "nlm-64210830R",
+      "title": "The new system of medical treatment : an independent, eclectic, restorative and cleansing guide to health : the people's pocket companion",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 8,
+      "paragraph_count": 25,
+      "review_class": "severe-thin-reference",
+      "recommended_action": "keep-but-review-retrieval-weight",
+      "heuristic_score": 178
+    },
+    {
+      "work_id": "wellcome-w7w4mv4e",
+      "title": "An address, introductory to opening the Southern Botanico Medical College : for the session of 1842-3 / by A.M. Spalding.",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 26,
+      "paragraph_count": 29,
+      "review_class": "severe-thin-fragment",
+      "recommended_action": "review-family-supplement-weight",
+      "heuristic_score": 166
+    },
+    {
+      "work_id": "wellcome-qcmagumn",
+      "title": "Additions to the British pharmacopœia of 1867 : published under the direction of the General Council of Medical Education and Registration of the United Kingdom.",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 30,
+      "paragraph_count": 30,
+      "review_class": "severe-thin-fragment",
+      "recommended_action": "review-for-quarantine-or-lower-weight",
+      "heuristic_score": 154
+    },
+    {
+      "work_id": "nlm-63570320R",
+      "title": "American family physician : detailing important means of preserving health, from infancy to old age : the offices women should perform to each other at births, and the diseases peculiar to the sex, also those of children and adults : with an appendix containing hints respecting the treatment of domestic animals, and the best means of preserving fish and meat",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 17,
+      "paragraph_count": 35,
+      "review_class": "severe-thin-fragment",
+      "recommended_action": "review-family-supplement-weight",
+      "heuristic_score": 148
+    },
+    {
+      "work_id": "nlm-101174956",
+      "title": "A comprehensive medical dictionary : containing the pronunciation, etymology, and signification of the terms made use of in medicine and the kindred sciences : with an appendix, comprising a complete list of all the more important articles of the materia medica , arranged according to their medicinal properties : also an explanation of the Latin terms and phrases occurring in anatomy, pharmacy, etc. together with the necessary directions for writing Latin prescriptions, etc. etc",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 46,
+      "paragraph_count": 48,
+      "review_class": "severe-thin-fragment",
+      "recommended_action": "review-family-supplement-weight",
+      "heuristic_score": 148
+    },
+    {
+      "work_id": "wellcome-xtjwwtfm",
+      "title": "Medical sketches / by George Kerr.",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 34,
+      "paragraph_count": 36,
+      "review_class": "thin-general",
+      "recommended_action": "review-for-quarantine-or-lower-weight",
+      "heuristic_score": 140
+    },
+    {
+      "work_id": "wellcome-wkjphuw8",
+      "title": "Address to the public, on the principles of medical botany : with an enumeration of the herbs; and retail price list of herbs, roots, barks, and compounds, used in the botanic practice, as introduced into England by Dr. Coffin / issued by J. Nadin, medical botanist ... [etc.].",
+      "collection_id": "wellcome-collection",
+      "chunk_count": 38,
+      "paragraph_count": 42,
+      "review_class": "severe-thin-fragment",
+      "recommended_action": "keep-but-review-retrieval-weight",
+      "heuristic_score": 140
+    },
+    {
+      "work_id": "nlm-101707627",
+      "title": "School hygiene",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 48,
+      "paragraph_count": 49,
+      "review_class": "thin-general",
+      "recommended_action": "review-for-quarantine-or-lower-weight",
+      "heuristic_score": 140
+    },
+    {
+      "work_id": "nlm-61560590R",
+      "title": "Essays on some of the most important articles of the materia medica : comprising a full account of all the new proximate principles, and the popular medicines lately introduced in practice, detailing the formulas for their preparation, their habitudes and peculiarities, doses and modes of administration, with remarks on the most eligible form of their exhibition : to which is added a catalogue of medicines, surgical instruments, &c, &c : adapted for a physician at the outset of his practice, with the doses and effects attached to each medicine, &c, &c",
+      "collection_id": "nlm-digital-collections",
+      "chunk_count": 14,
+      "paragraph_count": 33,
+      "review_class": "severe-thin-fragment",
+      "recommended_action": "review-family-supplement-weight",
+      "heuristic_score": 134
+    }
+  ],
+  "outputPaths": {
+    "candidatesCsvPath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\review\\thin-work-review\\candidates.csv",
+    "summaryPath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\exports\\thin-work-review-summary.json",
+    "readmePath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\review\\thin-work-review\\README.md"
+  }
+}

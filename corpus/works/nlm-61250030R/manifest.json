@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61250030R",
+  "title": "Health lessons for beginners : a primer of physiology and hygiene , and simple treatise on the effects of stimulants and narcotics upon the human system",
+  "creator": "Brands, Orestes M., 1843- author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61250030R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61250030R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61250030R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;hygiene",
+  "chunkCount": 197,
+  "paragraphCount": 197,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61250030R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61250030R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61250030R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61250030R.jsonl",
+  "rawSha256": "5350d0faaa06d588ca779f5b0304b92f186d26d38bacce786482a79906a6e23a",
+  "normalizedSha256": "3594de7e3b26d584355b8b2195fe351e7e60cbeb2f76aec539d093e8e1ae5c56",
+  "processedAt": "2026-06-17T13:03:23.319Z"
+}

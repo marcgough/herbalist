@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-hm3urzn3",
+  "title": "Medical botany : containing systematic and general descriptions, with [310] plates of all the medicinal plants, indigenous and exotic ... / [By Sir William Jackson Hooker and ... G. Spratt, Esq. ...].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/hm3urzn3",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24927922",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/hm3urzn3",
+  "rightsStatus": "pdm",
+  "topicFamily": "medicinal-plants;medical-botany;botany",
+  "chunkCount": 2384,
+  "paragraphCount": 2594,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-hm3urzn3\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-hm3urzn3\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-hm3urzn3\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-hm3urzn3.jsonl",
+  "rawSha256": "284f1242583156235db9bd1d834d18c973b8dca479e86dcb4ea04752cb6ea580",
+  "normalizedSha256": "5e91c5a2e2c1870582fed03daac95e07db68dcb58f163b845fc7fc2c4c78ebbc",
+  "processedAt": "2026-06-16T22:49:52.338Z"
+}

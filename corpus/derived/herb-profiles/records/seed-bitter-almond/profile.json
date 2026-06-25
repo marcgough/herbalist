@@ -1,0 +1,1095 @@
+{
+  "profile_id": "seed-bitter-almond",
+  "family_id": "seed-bitter-almond",
+  "canonical_name": "Bitter Almond",
+  "canonical_key": "bitter almond",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-bitter-almond-2e9360bf94#bitter almond"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 674,
+    "total_chunks": 614,
+    "total_works": 214,
+    "matched_chunk_count": 614,
+    "matched_work_count": 214,
+    "matched_mention_total": 621
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Bitter Almond",
+      "Bitter Almonds"
+    ],
+    "sample_work_ids": [
+      "nlm-0222600",
+      "nlm-09431320R",
+      "nlm-101136237"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0222600-chunk-0797",
+      "nlm-09431320R-chunk-0043",
+      "nlm-101136237-chunk-0152"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 593
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 28
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 1
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 69,
+        "work_count": 49
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 66,
+        "work_count": 61
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 51,
+        "work_count": 43
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 40,
+        "work_count": 34
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 38,
+        "work_count": 32
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 33,
+        "work_count": 21
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 28,
+        "work_count": 26
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 22,
+        "work_count": 21
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 595,
+        "work_count": 213
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 66,
+        "work_count": 48
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 41,
+        "work_count": 33
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 36,
+        "work_count": 32
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 31,
+        "work_count": 28
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 23,
+        "work_count": 23
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 22,
+        "work_count": 20
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 21,
+        "work_count": 14
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 20,
+        "work_count": 18
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 17,
+        "work_count": 17
+      }
+    ],
+    "cautions": [
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 121,
+        "work_count": 74
+      },
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 95,
+        "work_count": 64
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 67,
+        "work_count": 52
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 55,
+        "work_count": 49
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 28,
+        "work_count": 23
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 6,
+        "work_count": 6
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 50,
+        "work_count": 47
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 23,
+        "work_count": 23
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 23,
+        "work_count": 20
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 22,
+        "work_count": 21
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 16,
+        "work_count": 15
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 16,
+        "work_count": 15
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 11,
+        "work_count": 10
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 10,
+        "work_count": 8
+      },
+      {
+        "id": "headache",
+        "label": "Headache",
+        "signal_count": 7,
+        "work_count": 7
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "wellcome-skdfu5qa",
+      "title": "The elements of materia medica. Comprehending the natural history, preparation, properties, composition, effects and uses of medicines / [Jonathan Pereira].",
+      "creator": "",
+      "publication_year": "1839",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/skdfu5qa",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "wellcome-a9mav4xd",
+      "title": "The elements of materia medica : comprehending the natural history, preparation, properties, composition, effects and uses of medicines / by Jonathan Pereira, F.R.S. & L.S.",
+      "creator": "",
+      "publication_year": "1839",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/a9mav4xd",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 15
+    },
+    {
+      "work_id": "wellcome-c5zgvvdt",
+      "title": "Chemistry : general, medical and pharmaceutical :including the chemistry of the British Pharmacopoeia : a manual on the general principles of the science, and their applications in medicine and pharmacy / by John Attfield.",
+      "creator": "",
+      "publication_year": "1893",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/c5zgvvdt",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "nlm-101619228",
+      "title": "Chemistry, general, medical, and pharmaceutical : including the chemistry of the U.S. pharmacopoeia : a manual on the science of chemistry, and its applications in medicine and pharmacy",
+      "creator": "Attfield, John, 1835-1911 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101619228-bk",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-ng7fpuv2",
+      "title": "Dr Pereira's elements of materia medica and therapeutics : abridged and adapted for the use of medical and pharmaceutical practitioners and students, and comprising all the medicines of the British pharmacopoeia, with such others as are frequently ordered in prescriptions or required by the physicians / edited by Robert Bentley and Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1872",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ng7fpuv2",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-zjkfqhnm",
+      "title": "Dr. Pereira's Elements of materia medica and therapeutics : abridged and adapted for the use of medical and pharmaceutical practitioners and students and comprising all the medicines of the British Pharmacopœia, with such others as are frequently ordered in prescriptions or required by the physician / edited by Robert Bentley and Theophilus Redwood ; with an appendix.",
+      "creator": "",
+      "publication_year": "1874",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/zjkfqhnm",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-zhg3ff4c",
+      "title": "Dr. Pereira's Elements of materia medica and therapeutics : abridged and adapted for the use of medicine and pharmaceutical practitioners and students and comprising all of the medicines of the British Pharmacopœia, with such others as are frequently ordered in prescriptions or required by the physician / edited by Robert Bently and Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1872",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/zhg3ff4c",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-fd94cd3h",
+      "title": "Chemistry : general, medical, and pharmaceutical including the chemistry of the U.S. pharmacopoeia ; a manual on the general principles of the science, and their applications in medicine and pharmacy / by John Attfield.",
+      "creator": "",
+      "publication_year": "1879",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/fd94cd3h",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-61761120R-chunk-0961",
+        "work_id": "nlm-61761120R",
+        "title": "Modern materia medica : with therapeutic notes : for the use of practitioners and students of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61761120R-bk",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Headache",
+          "Vomiting or nausea",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—It acts locally as a caustic when concen- trated, causing constriction in the throat, vomiting, some- times bloody, and colic; and narcotic on the brain and spinal cord, producing stupor, trembling of the extremities...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0500",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "29, 35, 40, 86, 139 Digestion, 22, 31 Dill-seed, Essence of, 31 Discharges from the Ear, 12 Distilled Vinegar, 3 Dover’s Powder, 29 Dropsy, 28, 29, 63, 86 Dyspepsia, 3, 8, 14, 15, 20, 25, 37, 44, 58, 90 Dysentery, 14,...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-bxdn87b9-chunk-0462",
+        "work_id": "wellcome-bxdn87b9",
+        "title": "Elements of botany, structural, physiological, systematical, and medical. Being a fourth edition of the Outline of the first principles of botany / By John Lindley.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/bxdn87b9",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "—Astringent, anthelmintic. Rubus. 461. Villosus. —Bark of the root astringent. Useful in cholera, diarrhoea, &c. Rosa. 462. Canina. —Laxative. 463. Centifolia. —Laxative. 464. Gallica. —Petals astringent and tonic. Gi...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-zhg3ff4c-chunk-2489",
+        "work_id": "wellcome-zhg3ff4c",
+        "title": "Dr. Pereira's Elements of materia medica and therapeutics : abridged and adapted for the use of medicine and pharmaceutical practitioners and students and comprising all of the medicines of the British Pharmacopœia, with such others as are frequently ordered in prescriptions or required by the physician / edited by Robert Bently and Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zhg3ff4c",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It appears, therefore, to be a weaker poison than the oil of bitter almonds, with which, according to Robiquet, it agrees in all its chemical properties. Physiological Effects. —Most parts of the plant, but more espec...",
+        "score": 37
+      },
+      {
+        "chunk_id": "nlm-101515274-chunk-7645",
+        "work_id": "nlm-101515274",
+        "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Sedative poison; nausea, giddiness, debil- ity, hurried pulse, weight and pain in the Thorough stimulation; atropine hypoder- mically; ammonia inhaled or swallowed, - head, dyspncea, and prolonged expiration; eructati...",
+        "score": 36
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-61761120R-chunk-0961",
+        "work_id": "nlm-61761120R",
+        "title": "Modern materia medica : with therapeutic notes : for the use of practitioners and students of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61761120R-bk",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Headache",
+          "Vomiting or nausea",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—It acts locally as a caustic when concen- trated, causing constriction in the throat, vomiting, some- times bloody, and colic; and narcotic on the brain and spinal cord, producing stupor, trembling of the extremities...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0500",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "29, 35, 40, 86, 139 Digestion, 22, 31 Dill-seed, Essence of, 31 Discharges from the Ear, 12 Distilled Vinegar, 3 Dover’s Powder, 29 Dropsy, 28, 29, 63, 86 Dyspepsia, 3, 8, 14, 15, 20, 25, 37, 44, 58, 90 Dysentery, 14,...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-bxdn87b9-chunk-0462",
+        "work_id": "wellcome-bxdn87b9",
+        "title": "Elements of botany, structural, physiological, systematical, and medical. Being a fourth edition of the Outline of the first principles of botany / By John Lindley.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/bxdn87b9",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "—Astringent, anthelmintic. Rubus. 461. Villosus. —Bark of the root astringent. Useful in cholera, diarrhoea, &c. Rosa. 462. Canina. —Laxative. 463. Centifolia. —Laxative. 464. Gallica. —Petals astringent and tonic. Gi...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-zhg3ff4c-chunk-2489",
+        "work_id": "wellcome-zhg3ff4c",
+        "title": "Dr. Pereira's Elements of materia medica and therapeutics : abridged and adapted for the use of medicine and pharmaceutical practitioners and students and comprising all of the medicines of the British Pharmacopœia, with such others as are frequently ordered in prescriptions or required by the physician / edited by Robert Bently and Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zhg3ff4c",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It appears, therefore, to be a weaker poison than the oil of bitter almonds, with which, according to Robiquet, it agrees in all its chemical properties. Physiological Effects. —Most parts of the plant, but more espec...",
+        "score": 37
+      },
+      {
+        "chunk_id": "nlm-101515274-chunk-7645",
+        "work_id": "nlm-101515274",
+        "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Sedative poison; nausea, giddiness, debil- ity, hurried pulse, weight and pain in the Thorough stimulation; atropine hypoder- mically; ammonia inhaled or swallowed, - head, dyspncea, and prolonged expiration; eructati...",
+        "score": 36
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-61761120R-chunk-0961",
+        "work_id": "nlm-61761120R",
+        "title": "Modern materia medica : with therapeutic notes : for the use of practitioners and students of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61761120R-bk",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Headache",
+          "Vomiting or nausea",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—It acts locally as a caustic when concen- trated, causing constriction in the throat, vomiting, some- times bloody, and colic; and narcotic on the brain and spinal cord, producing stupor, trembling of the extremities...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0500",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "29, 35, 40, 86, 139 Digestion, 22, 31 Dill-seed, Essence of, 31 Discharges from the Ear, 12 Distilled Vinegar, 3 Dover’s Powder, 29 Dropsy, 28, 29, 63, 86 Dyspepsia, 3, 8, 14, 15, 20, 25, 37, 44, 58, 90 Dysentery, 14,...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-bxdn87b9-chunk-0462",
+        "work_id": "wellcome-bxdn87b9",
+        "title": "Elements of botany, structural, physiological, systematical, and medical. Being a fourth edition of the Outline of the first principles of botany / By John Lindley.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/bxdn87b9",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "—Astringent, anthelmintic. Rubus. 461. Villosus. —Bark of the root astringent. Useful in cholera, diarrhoea, &c. Rosa. 462. Canina. —Laxative. 463. Centifolia. —Laxative. 464. Gallica. —Petals astringent and tonic. Gi...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-zhg3ff4c-chunk-2489",
+        "work_id": "wellcome-zhg3ff4c",
+        "title": "Dr. Pereira's Elements of materia medica and therapeutics : abridged and adapted for the use of medicine and pharmaceutical practitioners and students and comprising all of the medicines of the British Pharmacopœia, with such others as are frequently ordered in prescriptions or required by the physician / edited by Robert Bently and Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zhg3ff4c",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It appears, therefore, to be a weaker poison than the oil of bitter almonds, with which, according to Robiquet, it agrees in all its chemical properties. Physiological Effects. —Most parts of the plant, but more espec...",
+        "score": 37
+      },
+      {
+        "chunk_id": "nlm-101515274-chunk-7645",
+        "work_id": "nlm-101515274",
+        "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Sedative poison; nausea, giddiness, debil- ity, hurried pulse, weight and pain in the Thorough stimulation; atropine hypoder- mically; ammonia inhaled or swallowed, - head, dyspncea, and prolonged expiration; eructati...",
+        "score": 36
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-61761120R-chunk-0961",
+        "work_id": "nlm-61761120R",
+        "title": "Modern materia medica : with therapeutic notes : for the use of practitioners and students of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61761120R-bk",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Headache",
+          "Vomiting or nausea",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—It acts locally as a caustic when concen- trated, causing constriction in the throat, vomiting, some- times bloody, and colic; and narcotic on the brain and spinal cord, producing stupor, trembling of the extremities...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-bxdn87b9-chunk-0462",
+        "work_id": "wellcome-bxdn87b9",
+        "title": "Elements of botany, structural, physiological, systematical, and medical. Being a fourth edition of the Outline of the first principles of botany / By John Lindley.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/bxdn87b9",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "—Astringent, anthelmintic. Rubus. 461. Villosus. —Bark of the root astringent. Useful in cholera, diarrhoea, &c. Rosa. 462. Canina. —Laxative. 463. Centifolia. —Laxative. 464. Gallica. —Petals astringent and tonic. Gi...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-zhg3ff4c-chunk-2489",
+        "work_id": "wellcome-zhg3ff4c",
+        "title": "Dr. Pereira's Elements of materia medica and therapeutics : abridged and adapted for the use of medicine and pharmaceutical practitioners and students and comprising all of the medicines of the British Pharmacopœia, with such others as are frequently ordered in prescriptions or required by the physician / edited by Robert Bently and Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zhg3ff4c",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It appears, therefore, to be a weaker poison than the oil of bitter almonds, with which, according to Robiquet, it agrees in all its chemical properties. Physiological Effects. —Most parts of the plant, but more espec...",
+        "score": 37
+      },
+      {
+        "chunk_id": "nlm-101515274-chunk-7645",
+        "work_id": "nlm-101515274",
+        "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Sedative poison; nausea, giddiness, debil- ity, hurried pulse, weight and pain in the Thorough stimulation; atropine hypoder- mically; ammonia inhaled or swallowed, - head, dyspncea, and prolonged expiration; eructati...",
+        "score": 36
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0027",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Bitter Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Headache",
+          "Inflammation"
+        ],
+        "excerpt": "Nocraral emissions 248 Nose, anatomy of 127 Noises in the head 124 Noxious vapors, apparent death from 403 Nursing 364 Nurses, employment of 365 Nutritive clysters 575 Nutriciousness of different articles of food.. 46...",
+        "score": 35
+      }
+    ]
+  },
+  "retrieval_text": "Bitter Almond is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 214 works and 614 source-linked chunks. Recorded variants include Bitter Almond, Bitter Almonds. Common plant-part co-mentions include Leaf, Seed, Bark, Fruit, Resin, Flower. Common preparation co-mentions include Oil, Essence, Powder, Syrup, Emetic, Ointment. Common condition co-mentions include Cold or catarrh, Epilepsy or convulsions, Vomiting or nausea, Cough, Fever, Wounds or ulcers. Caution co-mentions include Toxicity watch, Dose caution, Narcotic or sedative caution, Fatal-risk warning, Child-use caution, Allergy or sensitivity caution. Representative source works include The elements of materia medica and therapeutics / by Jonathan Pereira.; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.; The elements of materia medica. Comprehending the natural history, preparation, properties, composition, effects and uses of medicines / [Jonathan Pereira].; The elements of materia medica : comprehending the natural history, preparation, properties, composition, effects and uses of medicines / by Jonathan Pereira, F.R.S. & L.S.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.873Z",
+  "builder": "build-herb-profiles.mjs"
+}

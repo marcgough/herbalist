@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-56710670R",
+  "title": "Culpepper's [sic] family physician : the English physician enlarged, containing 300 medicines, made of American herbs",
+  "creator": "Culpeper, Nicholas, 1616-1654.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-56710670R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-56710670R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/56710670R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 926,
+  "paragraphCount": 1569,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-56710670R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-56710670R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-56710670R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-56710670R.jsonl",
+  "rawSha256": "49add5cfdcb11138b92e5b43c988faedfd9e39a52470dbf1791bf6068e8716c9",
+  "normalizedSha256": "b3cba9aa2b567623c418b5ddad4ca6888157a9a1b5f1766dcbb8f8afa642e913",
+  "processedAt": "2026-06-16T22:57:45.008Z"
+}

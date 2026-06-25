@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-0027427",
+  "title": "Report on the new or fifth decennial revision of the United States Pharmacopoeia to the Medical Society of the State of New York",
+  "creator": "Squibb, Edward Robinson, 1819-1900 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0027427-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-0027427-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/0027427",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 64,
+  "paragraphCount": 65,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0027427\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0027427\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-0027427\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-0027427.jsonl",
+  "rawSha256": "555011b6bc0d2a589acc2dce3ceaaa82e9c7c01e0b5c69caf62416e78904ef9b",
+  "normalizedSha256": "8429b4409aea8b620b2e384d650c6db154ccb7b71334f52bf16f65181be156ab",
+  "processedAt": "2026-06-18T04:50:43.867Z"
+}

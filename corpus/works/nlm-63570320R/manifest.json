@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63570320R",
+  "title": "American family physician : detailing important means of preserving health, from infancy to old age : the offices women should perform to each other at births, and the diseases peculiar to the sex, also those of children and adults : with an appendix containing hints respecting the treatment of domestic animals, and the best means of preserving fish and meat",
+  "creator": "Ewell, Thomas, 1785-1826.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570320R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63570320R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63570320R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 17,
+  "paragraphCount": 35,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570320R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570320R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63570320R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63570320R.jsonl",
+  "rawSha256": "0f91a4b84ed1927db538ca35af6a4a62f4815dcce3e7966d374f0b3596464953",
+  "normalizedSha256": "6f44c63d4418299a481b8e1a76c582922691f2d3175ec5c7ae16e8010e46cf03",
+  "processedAt": "2026-06-17T11:54:05.242Z"
+}

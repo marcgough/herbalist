@@ -1,0 +1,1204 @@
+{
+  "profile_id": "seed-castor",
+  "family_id": "seed-castor",
+  "canonical_name": "Castor",
+  "canonical_key": "castor",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-castor-59ade5a471#castor"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 3947,
+    "total_chunks": 3608,
+    "total_works": 625,
+    "matched_chunk_count": 3608,
+    "matched_work_count": 625,
+    "matched_mention_total": 3608
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Castor"
+    ],
+    "sample_work_ids": [
+      "nlm-0116421",
+      "nlm-0140313",
+      "nlm-0215565"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0116421-chunk-0064",
+      "nlm-0116421-chunk-0087",
+      "nlm-0116421-chunk-0102"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 2911
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 705
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 35
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 711,
+        "work_count": 361
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 488,
+        "work_count": 312
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 416,
+        "work_count": 281
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 304,
+        "work_count": 218
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 294,
+        "work_count": 219
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 221,
+        "work_count": 156
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 133,
+        "work_count": 108
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 107,
+        "work_count": 100
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 104,
+        "work_count": 97
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 41,
+        "work_count": 35
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 3036,
+        "work_count": 591
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 965,
+        "work_count": 365
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 559,
+        "work_count": 318
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 555,
+        "work_count": 243
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 359,
+        "work_count": 233
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 310,
+        "work_count": 182
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 309,
+        "work_count": 174
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 308,
+        "work_count": 180
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 280,
+        "work_count": 182
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 233,
+        "work_count": 160
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 1369,
+        "work_count": 426
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 589,
+        "work_count": 285
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 495,
+        "work_count": 279
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 197,
+        "work_count": 139
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 159,
+        "work_count": 130
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 127,
+        "work_count": 99
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 120,
+        "work_count": 103
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 83,
+        "work_count": 68
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 12,
+        "work_count": 11
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 495,
+        "work_count": 252
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 413,
+        "work_count": 244
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 321,
+        "work_count": 229
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 308,
+        "work_count": 191
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 251,
+        "work_count": 163
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 197,
+        "work_count": 149
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 196,
+        "work_count": 155
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 178,
+        "work_count": 134
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 163,
+        "work_count": 126
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 126,
+        "work_count": 105
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 65,
+      "matched_mention_count": 65
+    },
+    {
+      "work_id": "wellcome-a7hj5sbp",
+      "title": "A dictionary of domestic medicine and household surgery / by Spencer Thomson.",
+      "creator": "",
+      "publication_year": "1898",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/a7hj5sbp",
+      "signal_chunk_count": 34,
+      "matched_mention_count": 34
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "nlm-63580420R",
+      "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+      "creator": "Imray, Keith.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "nlm-100912803",
+      "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "wellcome-thwh6g2c",
+      "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+      "creator": "",
+      "publication_year": "1885",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine;nursing",
+      "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "nlm-63570990R",
+      "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "nlm-0140313",
+      "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants;domestic-medicine;hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63560930R-chunk-0718",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Wash",
+          "Gargle",
+          "Oil",
+          "Essence",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Balsam copaiva, 30. Turlington's, 30. Bark, Peruvian, 30. and snake-root tea, 31. Huxharn's tincture, 31. Basilicon, 31. Bathing, 129. J3eef essence, 31. tea, 32. Bismuth oxide, 32. Blackberry root, 32. Black wash, 32...",
+        "score": 65
+      },
+      {
+        "chunk_id": "wellcome-rnpdxpd2-chunk-0509",
+        "work_id": "wellcome-rnpdxpd2",
+        "title": "The American medical guide for the use of families : in two parts : part 1st ; a materia medica ; being a treaties [i.e., treatise] on all the most useful articles used as medicine, including those which are the produce of our own country : part 2d therapeutics, or, the art of curing the various diseases of the human body : to which is added a short description of the constituent parts of the human body / by Thomas W. Ruble. M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rnpdxpd2",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Vomiting or nausea",
+          "Dropsy",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "BORTION, 163 Aloes, 6 Alder bark, 15 A'um, 20 ANATOMY, ao3 Apoplexy, 144 Alimentary canal, 215 Ammoniac, salt, 46 Animal poisons, 158 Arsnic, 49 Astringents, 19 Assafoetida, 42 Ascites, 116 Asthma, 150 Arteries & vein...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-101278154-chunk-0122",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "tea, 90. how made, 94. Biliousness, 28. Bleeding, how stopped, 46. Blistering Fluid, 60, 62. Bloody discharges, 22. Blood, spitting of, 49. Bones, broken, 43. Borax, 61. Bowels, regulation of, 16. Blue Pill, 60. Bread...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-0013",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Beer for consumption Blackberry, common Bloodroot - Bloodletting - Bone-set - Burns - Butterfly weed - Buchu leaves - CATARRH OR COLDS - Catheter, use of - Cancer - Cancer root - Camomile - Castor oil - Camphorated po...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-2555054R-chunk-0003",
+        "work_id": "nlm-2555054R",
+        "title": "Gunn's Domestic medicine , or, Poor man's friend : in the hours of affliction, pain and sickness ; this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families in the western and southern states ; it also contains descriptions of the medicinal roots and herbs of the western and southern country, and how they are to be used in the cure of diseases : arranged on a new and simple plan, by which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "NINTH EDITION^",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555054R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "• *\" Consumption, - 274 Catarrh or Cold, - „„„ Cow pox, or Vaccination, - Clap, _ 380 Cancer, - _ 385 Corns, _ _ 423_486 Colic, - _ 426 Cramp, - 407 Constant desire to make water, - ' Chills, - 463 Child bed Fever, -...",
+        "score": 51
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63560930R-chunk-0718",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Wash",
+          "Gargle",
+          "Oil",
+          "Essence",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Balsam copaiva, 30. Turlington's, 30. Bark, Peruvian, 30. and snake-root tea, 31. Huxharn's tincture, 31. Basilicon, 31. Bathing, 129. J3eef essence, 31. tea, 32. Bismuth oxide, 32. Blackberry root, 32. Black wash, 32...",
+        "score": 65
+      },
+      {
+        "chunk_id": "wellcome-rnpdxpd2-chunk-0509",
+        "work_id": "wellcome-rnpdxpd2",
+        "title": "The American medical guide for the use of families : in two parts : part 1st ; a materia medica ; being a treaties [i.e., treatise] on all the most useful articles used as medicine, including those which are the produce of our own country : part 2d therapeutics, or, the art of curing the various diseases of the human body : to which is added a short description of the constituent parts of the human body / by Thomas W. Ruble. M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rnpdxpd2",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Vomiting or nausea",
+          "Dropsy",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "BORTION, 163 Aloes, 6 Alder bark, 15 A'um, 20 ANATOMY, ao3 Apoplexy, 144 Alimentary canal, 215 Ammoniac, salt, 46 Animal poisons, 158 Arsnic, 49 Astringents, 19 Assafoetida, 42 Ascites, 116 Asthma, 150 Arteries & vein...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-101278154-chunk-0122",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "tea, 90. how made, 94. Biliousness, 28. Bleeding, how stopped, 46. Blistering Fluid, 60, 62. Bloody discharges, 22. Blood, spitting of, 49. Bones, broken, 43. Borax, 61. Bowels, regulation of, 16. Blue Pill, 60. Bread...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-0013",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Beer for consumption Blackberry, common Bloodroot - Bloodletting - Bone-set - Burns - Butterfly weed - Buchu leaves - CATARRH OR COLDS - Catheter, use of - Cancer - Cancer root - Camomile - Castor oil - Camphorated po...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-2555054R-chunk-0003",
+        "work_id": "nlm-2555054R",
+        "title": "Gunn's Domestic medicine , or, Poor man's friend : in the hours of affliction, pain and sickness ; this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families in the western and southern states ; it also contains descriptions of the medicinal roots and herbs of the western and southern country, and how they are to be used in the cure of diseases : arranged on a new and simple plan, by which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "NINTH EDITION^",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555054R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "• *\" Consumption, - 274 Catarrh or Cold, - „„„ Cow pox, or Vaccination, - Clap, _ 380 Cancer, - _ 385 Corns, _ _ 423_486 Colic, - _ 426 Cramp, - 407 Constant desire to make water, - ' Chills, - 463 Child bed Fever, -...",
+        "score": 51
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63560930R-chunk-0718",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Wash",
+          "Gargle",
+          "Oil",
+          "Essence",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Balsam copaiva, 30. Turlington's, 30. Bark, Peruvian, 30. and snake-root tea, 31. Huxharn's tincture, 31. Basilicon, 31. Bathing, 129. J3eef essence, 31. tea, 32. Bismuth oxide, 32. Blackberry root, 32. Black wash, 32...",
+        "score": 65
+      },
+      {
+        "chunk_id": "wellcome-rnpdxpd2-chunk-0509",
+        "work_id": "wellcome-rnpdxpd2",
+        "title": "The American medical guide for the use of families : in two parts : part 1st ; a materia medica ; being a treaties [i.e., treatise] on all the most useful articles used as medicine, including those which are the produce of our own country : part 2d therapeutics, or, the art of curing the various diseases of the human body : to which is added a short description of the constituent parts of the human body / by Thomas W. Ruble. M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rnpdxpd2",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Vomiting or nausea",
+          "Dropsy",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "BORTION, 163 Aloes, 6 Alder bark, 15 A'um, 20 ANATOMY, ao3 Apoplexy, 144 Alimentary canal, 215 Ammoniac, salt, 46 Animal poisons, 158 Arsnic, 49 Astringents, 19 Assafoetida, 42 Ascites, 116 Asthma, 150 Arteries & vein...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-101278154-chunk-0122",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "tea, 90. how made, 94. Biliousness, 28. Bleeding, how stopped, 46. Blistering Fluid, 60, 62. Bloody discharges, 22. Blood, spitting of, 49. Bones, broken, 43. Borax, 61. Bowels, regulation of, 16. Blue Pill, 60. Bread...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-0013",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Beer for consumption Blackberry, common Bloodroot - Bloodletting - Bone-set - Burns - Butterfly weed - Buchu leaves - CATARRH OR COLDS - Catheter, use of - Cancer - Cancer root - Camomile - Castor oil - Camphorated po...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-2555054R-chunk-0003",
+        "work_id": "nlm-2555054R",
+        "title": "Gunn's Domestic medicine , or, Poor man's friend : in the hours of affliction, pain and sickness ; this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families in the western and southern states ; it also contains descriptions of the medicinal roots and herbs of the western and southern country, and how they are to be used in the cure of diseases : arranged on a new and simple plan, by which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "NINTH EDITION^",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555054R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "• *\" Consumption, - 274 Catarrh or Cold, - „„„ Cow pox, or Vaccination, - Clap, _ 380 Cancer, - _ 385 Corns, _ _ 423_486 Colic, - _ 426 Cramp, - 407 Constant desire to make water, - ' Chills, - 463 Child bed Fever, -...",
+        "score": 51
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63560930R-chunk-0718",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Wash",
+          "Gargle",
+          "Oil",
+          "Essence",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Balsam copaiva, 30. Turlington's, 30. Bark, Peruvian, 30. and snake-root tea, 31. Huxharn's tincture, 31. Basilicon, 31. Bathing, 129. J3eef essence, 31. tea, 32. Bismuth oxide, 32. Blackberry root, 32. Black wash, 32...",
+        "score": 65
+      },
+      {
+        "chunk_id": "wellcome-rnpdxpd2-chunk-0509",
+        "work_id": "wellcome-rnpdxpd2",
+        "title": "The American medical guide for the use of families : in two parts : part 1st ; a materia medica ; being a treaties [i.e., treatise] on all the most useful articles used as medicine, including those which are the produce of our own country : part 2d therapeutics, or, the art of curing the various diseases of the human body : to which is added a short description of the constituent parts of the human body / by Thomas W. Ruble. M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rnpdxpd2",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Vomiting or nausea",
+          "Dropsy",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "BORTION, 163 Aloes, 6 Alder bark, 15 A'um, 20 ANATOMY, ao3 Apoplexy, 144 Alimentary canal, 215 Ammoniac, salt, 46 Animal poisons, 158 Arsnic, 49 Astringents, 19 Assafoetida, 42 Ascites, 116 Asthma, 150 Arteries & vein...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-101278154-chunk-0122",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "tea, 90. how made, 94. Biliousness, 28. Bleeding, how stopped, 46. Blistering Fluid, 60, 62. Bloody discharges, 22. Blood, spitting of, 49. Bones, broken, 43. Borax, 61. Bowels, regulation of, 16. Blue Pill, 60. Bread...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-0013",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Beer for consumption Blackberry, common Bloodroot - Bloodletting - Bone-set - Burns - Butterfly weed - Buchu leaves - CATARRH OR COLDS - Catheter, use of - Cancer - Cancer root - Camomile - Castor oil - Camphorated po...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-2555054R-chunk-0003",
+        "work_id": "nlm-2555054R",
+        "title": "Gunn's Domestic medicine , or, Poor man's friend : in the hours of affliction, pain and sickness ; this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families in the western and southern states ; it also contains descriptions of the medicinal roots and herbs of the western and southern country, and how they are to be used in the cure of diseases : arranged on a new and simple plan, by which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "NINTH EDITION^",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555054R-bk",
+        "matched_herbs": [
+          "Castor"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "• *\" Consumption, - 274 Catarrh or Cold, - „„„ Cow pox, or Vaccination, - Clap, _ 380 Cancer, - _ 385 Corns, _ _ 423_486 Colic, - _ 426 Cramp, - 407 Constant desire to make water, - ' Chills, - 463 Child bed Fever, -...",
+        "score": 51
+      }
+    ]
+  },
+  "retrieval_text": "Castor is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 625 works and 3608 source-linked chunks. Recorded variants include Castor. Common plant-part co-mentions include Seed, Root, Bark, Leaf, Gum, Flower. Common preparation co-mentions include Oil, Tincture, Powder, Tea, Pill, Emetic. Common condition co-mentions include Cold or catarrh, Vomiting or nausea, Diarrhoea or looseness, Fever, Constipation, Colic. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Allergy or sensitivity caution, Fatal-risk warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; A dictionary of domestic medicine and household surgery / by Spencer Thomson.; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.; A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.698Z",
+  "builder": "build-herb-profiles.mjs"
+}

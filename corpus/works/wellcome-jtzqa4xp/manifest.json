@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-jtzqa4xp",
+  "title": "A family herbal: or, Familiar account of the medical properties of British and foreign plants, also their uses in dying, and the various arts, arranged according to the Linnaean system / [Robert John Thornton].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/jtzqa4xp",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b29288642",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/jtzqa4xp",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 1927,
+  "paragraphCount": 1965,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-jtzqa4xp\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-jtzqa4xp\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-jtzqa4xp\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-jtzqa4xp.jsonl",
+  "rawSha256": "a07c4b2fefbe08739fe4386a84ce214ed9971c70857bfd90949262bda28cbfe5",
+  "normalizedSha256": "1129b10500b064badc52f7a3a420fb822db00d8691de9ba365a0cbd27cb3f6e2",
+  "processedAt": "2026-06-16T23:08:53.582Z"
+}

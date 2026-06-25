@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-0257710",
+  "title": "Flora cestrica : an attempt to enumerate and describe the flowering and filicoid plants of Chester County in the state of Pennsylvania : with brief notices of their properties and uses, in medicine, domestic and rural economy, and the arts",
+  "creator": "Darlington, William, 1782-1863.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0257710-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-0257710-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/0257710",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 2467,
+  "paragraphCount": 4388,
+  "sectionCount": 20,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0257710\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0257710\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-0257710\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-0257710.jsonl",
+  "rawSha256": "836aeabc29813bdff968cd20dbd466db0a3a5668dd31196a381e8ab329fa8fcd",
+  "normalizedSha256": "b02bb839d094ab617cb5de2c2a1440c7ebf6ef988b8440ccf02603eed4edee0c",
+  "processedAt": "2026-06-18T03:09:31.136Z"
+}

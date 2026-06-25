@@ -1,0 +1,20 @@
+{
+  "workId": "pg-70350",
+  "title": "Dr. B. Mure's materia medica",
+  "creator": "Mure, Benoît, 1809-1858; Hempel, Charles J. (Charles Julius), 1811-1879 [Translator]",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/70350",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/70350/pg70350.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/70350.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "materia-medica",
+  "chunkCount": 386,
+  "paragraphCount": 994,
+  "sectionCount": 20,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-70350\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-70350\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-70350.jsonl",
+  "rawSha256": "2f0f31198d7242bbf43cf1d733f034ae446af738e5dfd116f3632780fe2ab69d",
+  "normalizedSha256": "724a85888bc99d7f3e85bddcf5cec04ff6b4a6647b84695ad6583057e770a943",
+  "processedAt": "2026-06-16T13:39:15.113Z"
+}

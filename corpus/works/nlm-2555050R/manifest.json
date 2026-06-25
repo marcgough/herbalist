@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2555050R",
+  "title": "Domestic medicine, or Poor man's friend : in the hours of affliction, pain and sickness",
+  "creator": "Gunn, John C.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555050R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2555050R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2555050R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 259,
+  "paragraphCount": 281,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2555050R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2555050R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2555050R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2555050R.jsonl",
+  "rawSha256": "c9f3b7aa4549fc4e7a265cd0c7825a7bd944563b6a8a501d531960e7b66290de",
+  "normalizedSha256": "422be6f669efa9f00f50b90f48958dae9c18d72f406d420ff7c3077d578df71e",
+  "processedAt": "2026-06-20T02:47:16.553Z"
+}

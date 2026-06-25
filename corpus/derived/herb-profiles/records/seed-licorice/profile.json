@@ -1,0 +1,1205 @@
+{
+  "profile_id": "seed-licorice",
+  "family_id": "seed-licorice",
+  "canonical_name": "Licorice",
+  "canonical_key": "licorice",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-licorice-8a60896fe1#licorice"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 4124,
+    "total_chunks": 3727,
+    "total_works": 628,
+    "matched_chunk_count": 3727,
+    "matched_work_count": 628,
+    "matched_mention_total": 3731
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Licorice",
+      "Liquorice"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0823",
+      "nlm-0140313-chunk-0918",
+      "nlm-0140313-chunk-2535"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1942
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 1612
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 284
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 2088,
+        "work_count": 545
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 689,
+        "work_count": 280
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 639,
+        "work_count": 242
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 474,
+        "work_count": 262
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 468,
+        "work_count": 305
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 288,
+        "work_count": 182
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 168,
+        "work_count": 99
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 109,
+        "work_count": 80
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 89,
+        "work_count": 68
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 61,
+        "work_count": 55
+      }
+    ],
+    "preparations": [
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 1547,
+        "work_count": 395
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 1321,
+        "work_count": 351
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 1002,
+        "work_count": 333
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 761,
+        "work_count": 291
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 712,
+        "work_count": 272
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 687,
+        "work_count": 331
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 647,
+        "work_count": 263
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 632,
+        "work_count": 286
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 436,
+        "work_count": 234
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 270,
+        "work_count": 182
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 1250,
+        "work_count": 336
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 524,
+        "work_count": 227
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 160,
+        "work_count": 117
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 81,
+        "work_count": 75
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 69,
+        "work_count": 58
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 39,
+        "work_count": 36
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 37,
+        "work_count": 37
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 22,
+        "work_count": 19
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 548,
+        "work_count": 304
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 467,
+        "work_count": 303
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 187,
+        "work_count": 123
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 148,
+        "work_count": 118
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 147,
+        "work_count": 112
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 138,
+        "work_count": 109
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 118,
+        "work_count": 89
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 101,
+        "work_count": 83
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 96,
+        "work_count": 88
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 71,
+        "work_count": 55
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 246,
+      "matched_mention_count": 246
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 58,
+      "matched_mention_count": 58
+    },
+    {
+      "work_id": "wellcome-nhx2ne6y",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+      "signal_chunk_count": 33,
+      "matched_mention_count": 33
+    },
+    {
+      "work_id": "wellcome-x5urdxkm",
+      "title": "Medicines : their uses and mode of administration, including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and an appendix of formulae / by J. Moore Neligan.",
+      "creator": "",
+      "publication_year": "1854",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/x5urdxkm",
+      "signal_chunk_count": 30,
+      "matched_mention_count": 30
+    },
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 30,
+      "matched_mention_count": 30
+    },
+    {
+      "work_id": "wellcome-drujra89",
+      "title": "Medicines : their uses and mode of administration including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and an appendix of formulae / by J. Moore Neligan.",
+      "creator": "",
+      "publication_year": "1854",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/drujra89",
+      "signal_chunk_count": 29,
+      "matched_mention_count": 29
+    },
+    {
+      "work_id": "wellcome-suhcrhe9",
+      "title": "Neligan's Medicines : their uses and mode of administration / by Rawdon Macnamara.",
+      "creator": "",
+      "publication_year": "1867",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/suhcrhe9",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "nlm-2561028R",
+      "title": "The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry. II. The materia medica , or the natural pharmacuetical and medical history, of the substances employed in medicine. III. The pharmaceutical preparations and compositions : including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ; illustrated and explained in the language, and according to the principles of modern chemistry ; with numerous tables and plates of pharmaceutical apparatus",
+      "creator": "Duncan, Andrew, Jun., 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2561028R-bk",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "wellcome-wg4y3uv4",
+      "title": "The London dispensatory : a practical synopsis of materia medica, pharmacy, and therapeutics : illustrated with many useful tables, and woodcuts of the pharmaceutical apparatus / by the late Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/wg4y3uv4",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0090",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "jlava — pallida — rubra. ) Strongly and permanently tonic and antiperiodic, slightly astringent, stomachic, and febrifuge. Use. In intermittents, after evacuating the stomach and bowels ; in continued fevers; keejDing...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-101609940-chunk-0654",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "pulse. As quinine accumulates in the brain, a sense of fullness in the head, a tightness and constriction about the forehead, a ringing in the ears {tinnitus aurium), giddiness and vertigo are experienced. Deafness al...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0090",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "jlava — pallida — rubra. ) Strongly and permanently tonic and antiperiodic, slightly astringent, stomachic, and febrifuge. Use. In intermittents, after evacuating the stomach and bowels ; in continued fevers; keejDing...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-101609940-chunk-0654",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "pulse. As quinine accumulates in the brain, a sense of fullness in the head, a tightness and constriction about the forehead, a ringing in the ears {tinnitus aurium), giddiness and vertigo are experienced. Deafness al...",
+        "score": 53
+      },
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0769",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Deafness also occurs, as the effect of consider- able doses, and, if continued, permanent injury may result. Poisonous doses cause intense headache, dilated pupils, de- lirium, conia and convulsions. Peruvian bark and...",
+        "score": 50
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0090",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "jlava — pallida — rubra. ) Strongly and permanently tonic and antiperiodic, slightly astringent, stomachic, and febrifuge. Use. In intermittents, after evacuating the stomach and bowels ; in continued fevers; keejDing...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-101609940-chunk-0654",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "pulse. As quinine accumulates in the brain, a sense of fullness in the head, a tightness and constriction about the forehead, a ringing in the ears {tinnitus aurium), giddiness and vertigo are experienced. Deafness al...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0090",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "jlava — pallida — rubra. ) Strongly and permanently tonic and antiperiodic, slightly astringent, stomachic, and febrifuge. Use. In intermittents, after evacuating the stomach and bowels ; in continued fevers; keejDing...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-101609940-chunk-0654",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "pulse. As quinine accumulates in the brain, a sense of fullness in the head, a tightness and constriction about the forehead, a ringing in the ears {tinnitus aurium), giddiness and vertigo are experienced. Deafness al...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Liquorice"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      }
+    ]
+  },
+  "retrieval_text": "Licorice is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 628 works and 3727 source-linked chunks. Recorded variants include Licorice, Liquorice. Common plant-part co-mentions include Root, Gum, Seed, Bark, Leaf, Flower. Common preparation co-mentions include Extract, Powder, Decoction, Pill, Syrup, Oil. Common condition co-mentions include Cold or catarrh, Cough, Fever, Wounds or ulcers, Rheumatism, Diarrhoea or looseness. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Allergy or sensitivity caution, Toxicity watch. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.; Medicines : their uses and mode of administration, including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and an appendix of formulae / by J. Moore Neligan.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.693Z",
+  "builder": "build-herb-profiles.mjs"
+}

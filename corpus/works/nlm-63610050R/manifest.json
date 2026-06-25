@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63610050R",
+  "title": "The family medical guide : a complete popular dictionary of medicine and hygiene : comprising all possible self-aids in the treatment of diseases, accidents, emergencies, etc., with articles on general physiology, on diet and food, on the different drugs, plants, and medical preparations used in general practice, definitions of technical terms used in medicine, recipes for the preparation of everything useful in the domestic treatment of disease, etc., etc., etc",
+  "creator": "Lankester, Edwin, 1814-1874.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610050R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63610050R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63610050R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene",
+  "chunkCount": 3390,
+  "paragraphCount": 3523,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610050R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610050R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63610050R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63610050R.jsonl",
+  "rawSha256": "f487b52ac4424617b936b66b2dae7796ca1903d1be738d1a937d5f15a18582d0",
+  "normalizedSha256": "dbe374794ce166868aa1d6bef78660fc6fd8a568d45db70bce17d2988b1d8697",
+  "processedAt": "2026-06-18T09:17:56.799Z"
+}

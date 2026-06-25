@@ -1,0 +1,20 @@
+{
+  "workId": "pg-61719",
+  "title": "Food and Flavor: A Gastronomic Guide to Health and Good Living",
+  "creator": "Finck, Henry T., 1854-1926; Chapman, Charles Shepard, 1879-1962 [Illustrator]",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/61719",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/61719/pg61719.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/61719.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 899,
+  "paragraphCount": 2620,
+  "sectionCount": 84,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-61719\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-61719\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-61719.jsonl",
+  "rawSha256": "1526709d4cc83e0190c260b2f41a51c23be3253daedeefcf4760f2ee6ca9ce1b",
+  "normalizedSha256": "7debea21d5f0b54943362788468fb612280575a3ee097a2cc00bdf97f60f52e1",
+  "processedAt": "2026-06-16T13:39:11.984Z"
+}

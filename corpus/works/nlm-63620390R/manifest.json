@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63620390R",
+  "title": "The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses",
+  "creator": "Teter, H. (Henry)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620390R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63620390R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63620390R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 1466,
+  "paragraphCount": 2364,
+  "sectionCount": 21,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620390R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620390R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63620390R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63620390R.jsonl",
+  "rawSha256": "f3520402d99553a918c60cea0c4dc450298f0e1ab184397cc6c2485c2d39a2d8",
+  "normalizedSha256": "44049e877a331a3323bfcc7eb817b559589fc0f7c8ab0ef140d3b6ea251a8e1a",
+  "processedAt": "2026-06-17T15:34:12.886Z"
+}

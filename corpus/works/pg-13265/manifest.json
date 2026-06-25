@@ -1,0 +1,20 @@
+{
+  "workId": "pg-13265",
+  "title": "A Book of Fruits and Flowers",
+  "creator": "Anonymous",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/13265",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/13265/pg13265.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/13265.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "materia-medica",
+  "chunkCount": 90,
+  "paragraphCount": 368,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-13265\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-13265\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-13265.jsonl",
+  "rawSha256": "136cc4417fe4d7e6638b863de7713012823d04ae0e7f8bafb45097814e90cd9d",
+  "normalizedSha256": "fcf20c29b58b49080ee23931c934cb04baacd9c647746840a6f5dfa684e29a2d",
+  "processedAt": "2026-06-16T13:39:00.464Z"
+}

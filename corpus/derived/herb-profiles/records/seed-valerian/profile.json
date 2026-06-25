@@ -1,0 +1,1167 @@
+{
+  "profile_id": "seed-valerian",
+  "family_id": "seed-valerian",
+  "canonical_name": "Valerian",
+  "canonical_key": "valerian",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-valerian-f108f41431#valerian"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1609,
+    "total_chunks": 1382,
+    "total_works": 492,
+    "matched_chunk_count": 1382,
+    "matched_work_count": 492,
+    "matched_mention_total": 1382
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Valerian"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1093",
+      "nlm-0140313-chunk-1371",
+      "nlm-0140313-chunk-1835"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 852
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 335
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 242
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 624,
+        "work_count": 307
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 176,
+        "work_count": 129
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 136,
+        "work_count": 102
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 114,
+        "work_count": 84
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 98,
+        "work_count": 78
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 87,
+        "work_count": 60
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 62,
+        "work_count": 56
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 45,
+        "work_count": 33
+      },
+      {
+        "id": "rhizome",
+        "label": "Rhizome",
+        "signal_count": 34,
+        "work_count": 25
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 23,
+        "work_count": 22
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 673,
+        "work_count": 303
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 425,
+        "work_count": 230
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 376,
+        "work_count": 192
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 346,
+        "work_count": 217
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 239,
+        "work_count": 132
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 222,
+        "work_count": 130
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 143,
+        "work_count": 88
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 139,
+        "work_count": 84
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 108,
+        "work_count": 85
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 96,
+        "work_count": 79
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 620,
+        "work_count": 269
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 267,
+        "work_count": 187
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 112,
+        "work_count": 95
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 60,
+        "work_count": 59
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 46,
+        "work_count": 42
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 35,
+        "work_count": 34
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 14,
+        "work_count": 12
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 147,
+        "work_count": 118
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 134,
+        "work_count": 111
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 96,
+        "work_count": 96
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 88,
+        "work_count": 86
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 81,
+        "work_count": 74
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 60,
+        "work_count": 53
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 52,
+        "work_count": 46
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 44,
+        "work_count": 37
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 44,
+        "work_count": 35
+      },
+      {
+        "id": "headache",
+        "label": "Headache",
+        "signal_count": 31,
+        "work_count": 29
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 70,
+      "matched_mention_count": 70
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "nlm-63580420R",
+      "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+      "creator": "Imray, Keith.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-mv32s6ry",
+      "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1856",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-wg4y3uv4",
+      "title": "The London dispensatory : a practical synopsis of materia medica, pharmacy, and therapeutics : illustrated with many useful tables, and woodcuts of the pharmaceutical apparatus / by the late Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/wg4y3uv4",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-63620420R",
+      "title": "A treatise on domestic medicine : pointing out, in plain language, and as free from professional terms as possible, the nature, symptoms, causes, probable terminations, and treatment of all diseases incident to men, women, and children, in both cold and warm climates : as also, appropriate prescriptions in English, and the doses of medicine which are suitable to different ages : including likewise effectual means for preventing the extension of all infectious diseases, and annihilating the power of every kind of contagion, and rules for enabling Europeans who visit a warm climate to escape the yellow fever, and long enjoy a good state of health",
+      "creator": "Thomas, Robert, 1753-1835.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620420R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-xed7wwta-chunk-0970",
+        "work_id": "wellcome-xed7wwta",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xed7wwta",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Plaster",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "This is used as a sticking plaster; and also, in rheumatism. Xt is likewise useful in cuts, ulcers, &c. —[American Practice. ^} 3 Ibsv 4 oz. 4 oz. 4 oz. 3 oz. - i 2 oz. 1 gill. 1 3 oz. ANODYNE DROPS. Take of, Compound...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-mv32s6ry-chunk-2066",
+        "work_id": "wellcome-mv32s6ry",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Plaster",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "In some seasons, and climates, a little more rosin, or a little more sweet oil, is required, to make it of the right consistence. This is used as a sticking plaster; and also, in rheumatism. It is likewise useful in c...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0611",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Medicinally it is a bitter tonic, which has been prescribed in doses of %\\] or less, in diarrhoea and dysentery, along with opiates and ixo- 1. 0. matics. In larger doses it is emetic. Mr. Brande . says it is astrin g...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1351",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The malady is sometimes inherited, and at other times acquired by sexual impulses, limited exercise, idleness, or the reading of exciting books, exhaust- ing hemorrhages, difficult delivery, too long nursing of the ch...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-nt8uhgmn-chunk-0028",
+        "work_id": "wellcome-nt8uhgmn",
+        "title": "Golden recipes  for the use of all ages, the sale of this useful book known over the kingdom as golden recipe, has reached over three hundred thousand. A book that gives universal satisfaction for its invaluable information in a concise form, which saves endless expenses in every home / [By] F. Fray, copyright owner.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/nt8uhgmn",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Bath"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Headache",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Hyssop, used as a bath, acts as a speedy cure, c Epilepsy. —Take 1 ounce each of mistletoe, valerian root, pellitory, and black horehound, boil in 3 pints of »vater, clear off, and when cold, add 1 ounce of tincture...",
+        "score": 50
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-xed7wwta-chunk-0970",
+        "work_id": "wellcome-xed7wwta",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xed7wwta",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Plaster",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "This is used as a sticking plaster; and also, in rheumatism. Xt is likewise useful in cuts, ulcers, &c. —[American Practice. ^} 3 Ibsv 4 oz. 4 oz. 4 oz. 3 oz. - i 2 oz. 1 gill. 1 3 oz. ANODYNE DROPS. Take of, Compound...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-mv32s6ry-chunk-2066",
+        "work_id": "wellcome-mv32s6ry",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Plaster",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "In some seasons, and climates, a little more rosin, or a little more sweet oil, is required, to make it of the right consistence. This is used as a sticking plaster; and also, in rheumatism. It is likewise useful in c...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0611",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Medicinally it is a bitter tonic, which has been prescribed in doses of %\\] or less, in diarrhoea and dysentery, along with opiates and ixo- 1. 0. matics. In larger doses it is emetic. Mr. Brande . says it is astrin g...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1351",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The malady is sometimes inherited, and at other times acquired by sexual impulses, limited exercise, idleness, or the reading of exciting books, exhaust- ing hemorrhages, difficult delivery, too long nursing of the ch...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-nt8uhgmn-chunk-0028",
+        "work_id": "wellcome-nt8uhgmn",
+        "title": "Golden recipes  for the use of all ages, the sale of this useful book known over the kingdom as golden recipe, has reached over three hundred thousand. A book that gives universal satisfaction for its invaluable information in a concise form, which saves endless expenses in every home / [By] F. Fray, copyright owner.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/nt8uhgmn",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Bath"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Headache",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Hyssop, used as a bath, acts as a speedy cure, c Epilepsy. —Take 1 ounce each of mistletoe, valerian root, pellitory, and black horehound, boil in 3 pints of »vater, clear off, and when cold, add 1 ounce of tincture...",
+        "score": 50
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-xed7wwta-chunk-0970",
+        "work_id": "wellcome-xed7wwta",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xed7wwta",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Plaster",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "This is used as a sticking plaster; and also, in rheumatism. Xt is likewise useful in cuts, ulcers, &c. —[American Practice. ^} 3 Ibsv 4 oz. 4 oz. 4 oz. 3 oz. - i 2 oz. 1 gill. 1 3 oz. ANODYNE DROPS. Take of, Compound...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-mv32s6ry-chunk-2066",
+        "work_id": "wellcome-mv32s6ry",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Plaster",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "In some seasons, and climates, a little more rosin, or a little more sweet oil, is required, to make it of the right consistence. This is used as a sticking plaster; and also, in rheumatism. It is likewise useful in c...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0611",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Medicinally it is a bitter tonic, which has been prescribed in doses of %\\] or less, in diarrhoea and dysentery, along with opiates and ixo- 1. 0. matics. In larger doses it is emetic. Mr. Brande . says it is astrin g...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1351",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The malady is sometimes inherited, and at other times acquired by sexual impulses, limited exercise, idleness, or the reading of exciting books, exhaust- ing hemorrhages, difficult delivery, too long nursing of the ch...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-nt8uhgmn-chunk-0028",
+        "work_id": "wellcome-nt8uhgmn",
+        "title": "Golden recipes  for the use of all ages, the sale of this useful book known over the kingdom as golden recipe, has reached over three hundred thousand. A book that gives universal satisfaction for its invaluable information in a concise form, which saves endless expenses in every home / [By] F. Fray, copyright owner.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/nt8uhgmn",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Bath"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Headache",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Hyssop, used as a bath, acts as a speedy cure, c Epilepsy. —Take 1 ounce each of mistletoe, valerian root, pellitory, and black horehound, boil in 3 pints of »vater, clear off, and when cold, add 1 ounce of tincture...",
+        "score": 50
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-xed7wwta-chunk-0970",
+        "work_id": "wellcome-xed7wwta",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xed7wwta",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Plaster",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "This is used as a sticking plaster; and also, in rheumatism. Xt is likewise useful in cuts, ulcers, &c. —[American Practice. ^} 3 Ibsv 4 oz. 4 oz. 4 oz. 3 oz. - i 2 oz. 1 gill. 1 3 oz. ANODYNE DROPS. Take of, Compound...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-mv32s6ry-chunk-2066",
+        "work_id": "wellcome-mv32s6ry",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Plaster",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "In some seasons, and climates, a little more rosin, or a little more sweet oil, is required, to make it of the right consistence. This is used as a sticking plaster; and also, in rheumatism. It is likewise useful in c...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0611",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Medicinally it is a bitter tonic, which has been prescribed in doses of %\\] or less, in diarrhoea and dysentery, along with opiates and ixo- 1. 0. matics. In larger doses it is emetic. Mr. Brande . says it is astrin g...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1351",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The malady is sometimes inherited, and at other times acquired by sexual impulses, limited exercise, idleness, or the reading of exciting books, exhaust- ing hemorrhages, difficult delivery, too long nursing of the ch...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-nt8uhgmn-chunk-0028",
+        "work_id": "wellcome-nt8uhgmn",
+        "title": "Golden recipes  for the use of all ages, the sale of this useful book known over the kingdom as golden recipe, has reached over three hundred thousand. A book that gives universal satisfaction for its invaluable information in a concise form, which saves endless expenses in every home / [By] F. Fray, copyright owner.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/nt8uhgmn",
+        "matched_herbs": [
+          "Valerian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Bath"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Headache",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Hyssop, used as a bath, acts as a speedy cure, c Epilepsy. —Take 1 ounce each of mistletoe, valerian root, pellitory, and black horehound, boil in 3 pints of »vater, clear off, and when cold, add 1 ounce of tincture...",
+        "score": 50
+      }
+    ]
+  },
+  "retrieval_text": "Valerian is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 492 works and 1382 source-linked chunks. Recorded variants include Valerian. Common plant-part co-mentions include Root, Bark, Leaf, Seed, Gum, Flower. Common preparation co-mentions include Tincture, Tea, Powder, Oil, Infusion, Extract. Common condition co-mentions include Cold or catarrh, Epilepsy or convulsions, Diarrhoea or looseness, Vomiting or nausea, Fever, Cough. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Toxicity watch, Bleeding caution, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.773Z",
+  "builder": "build-herb-profiles.mjs"
+}

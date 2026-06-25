@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101278154",
+  "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+  "creator": "Hartshorne, Henry, 1823-1897.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101278154-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101278154",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 175,
+  "paragraphCount": 176,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101278154\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101278154\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101278154\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101278154.jsonl",
+  "rawSha256": "e14089d394e5473c98c00bf4e818943e327449865952d405cafac603d6ec01cd",
+  "normalizedSha256": "b0094a2e15c54385e3f523ddf4a433bd34d3d15423aa48142529426358a76318",
+  "processedAt": "2026-06-17T12:28:35.994Z"
+}

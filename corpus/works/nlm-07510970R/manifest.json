@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-07510970R",
+  "title": "The human body and its enemies : a textbook of hygiene , sanitation, and physiology",
+  "creator": "Hartman, Carl G. (Carl Gottfried), 1879-1968.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-07510970R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-07510970R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/07510970R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;public-health",
+  "chunkCount": 692,
+  "paragraphCount": 695,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-07510970R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-07510970R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-07510970R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-07510970R.jsonl",
+  "rawSha256": "2b25a6a96099c8db9856352b86e837e3cc07ce5c169b050b1500e364e49b542d",
+  "normalizedSha256": "b57fb9351ac9b292cbdc43ac0ec0234751a9f26b82b4a54169daaf89d1345bed",
+  "processedAt": "2026-06-18T14:58:29.563Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-mw22m4hg",
+  "title": "Traité pratique de la détermination des drogues simples d'origine végétale / par G. Planchon.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/mw22m4hg",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21297459",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/mw22m4hg",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 2502,
+  "paragraphCount": 2515,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-mw22m4hg\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-mw22m4hg\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-mw22m4hg\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-mw22m4hg.jsonl",
+  "rawSha256": "72ba436fe7656c3c35ad680138beb7cd4a8805e0edd985ab24bc5f217d89de39",
+  "normalizedSha256": "19f4870ab63b498646a98e45d413d8c9e7206c62c8637c96593735551ac2f39e",
+  "processedAt": "2026-06-17T00:34:34.677Z"
+}

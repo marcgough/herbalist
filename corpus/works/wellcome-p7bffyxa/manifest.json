@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-p7bffyxa",
+  "title": "Dictionarium medicum universale: or, a new medicinal dictionary. Containing an explanation of all the terms used in physic, anatomy, surgery, chymistry, pharmacy, botany, &c. Including those found both in ancient and modern writers. In which the etymology of the words and their various senses are properly ascertained; the various parts of the human body accurately described; the principal virtues of the officinal simples particularly specified; and full directions given to distinguish the genuine from the spurious. The whole collected from the original authors / by J. Barrow.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/p7bffyxa",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b3051728x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/p7bffyxa",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 1899,
+  "paragraphCount": 1910,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-p7bffyxa\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-p7bffyxa\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-p7bffyxa\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-p7bffyxa.jsonl",
+  "rawSha256": "1b70f9922ea119c89657a7bfef7c66858745e4fc3fcea91d00d59430eb7d7278",
+  "normalizedSha256": "f8768a650db5605e89ddd3d14dfdb41e225f6bec3859756cb5ead523f6cb30ad",
+  "processedAt": "2026-06-16T23:53:05.029Z"
+}

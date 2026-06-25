@@ -1,0 +1,150 @@
+[
+  {
+    "id": "trove-nla",
+    "name": "Trove / National Library of Australia",
+    "jurisdictionLane": "Australia",
+    "sourceType": "national-discovery-metadata",
+    "status": "metadata-review-only",
+    "corpusReadiness": "metadata-review-only",
+    "url": "https://trove.nla.gov.au/",
+    "apiUrl": "https://trove.nla.gov.au/about/create-something/using-api",
+    "termsUrl": "https://trove.nla.gov.au/about/create-something/using-api/trove-api-terms-use",
+    "requiresApiKey": true,
+    "permittedUseAtThisStage": "Manual discovery notes and item-level rights review only.",
+    "rightsBoundary": "Trove API terms cover metadata access. Digital objects and full text require item-level open licence, public-domain certainty, or content-owner permission.",
+    "noIngestReason": "API use requires an active key, and harvesting full text or using records for AI modelling can require higher review. This lane does not depend on a Trove key.",
+    "acceptedWorkTypes": [
+      "public-domain books",
+      "historical herbal manuals",
+      "domestic medicine books",
+      "materia medica",
+      "pharmacopoeias",
+      "botanical guides with medicinal plant coverage"
+    ],
+    "excludedWorkTypes": [
+      "newspapers",
+      "blogs",
+      "serial feeds",
+      "uncertain-rights items",
+      "platform-only viewing records",
+      "image-only records without a practical rights-cleared text path"
+    ],
+    "nextAction": "Use manual catalogue search now; consider an API key later only for metadata review, not full-text ingestion."
+  },
+  {
+    "id": "state-library-victoria",
+    "name": "State Library Victoria catalogue and digitised books",
+    "jurisdictionLane": "Australia",
+    "sourceType": "state-library-catalogue",
+    "status": "manual-rights-review-only",
+    "corpusReadiness": "manual-rights-review-only",
+    "url": "https://www.slv.vic.gov.au/",
+    "apiUrl": "",
+    "termsUrl": "https://www.slv.vic.gov.au/copyright",
+    "requiresApiKey": false,
+    "permittedUseAtThisStage": "Manual candidate discovery and catalogue note taking only.",
+    "rightsBoundary": "Only item-level public-domain, CC0, CC BY, or similarly permissive text can move into the corpus.",
+    "noIngestReason": "State-library discovery pages can mix public-domain metadata, digitised objects, and third-party rights. Each book needs its own rights review.",
+    "acceptedWorkTypes": [
+      "public-domain books",
+      "Victorian domestic medicine books",
+      "botanical guides",
+      "pharmacopoeias",
+      "public health manuals"
+    ],
+    "excludedWorkTypes": [
+      "newspapers",
+      "exhibition pages",
+      "blogs",
+      "uncertain-rights scans",
+      "rights-restricted images"
+    ],
+    "nextAction": "Manually identify book-level candidates and record item-level copyright/licence evidence."
+  },
+  {
+    "id": "state-library-nsw",
+    "name": "State Library of New South Wales catalogue and digital collections",
+    "jurisdictionLane": "Australia",
+    "sourceType": "state-library-catalogue",
+    "status": "manual-rights-review-only",
+    "corpusReadiness": "manual-rights-review-only",
+    "url": "https://www.sl.nsw.gov.au/",
+    "apiUrl": "",
+    "termsUrl": "https://www.sl.nsw.gov.au/about-library/policies/copyright",
+    "requiresApiKey": false,
+    "permittedUseAtThisStage": "Manual candidate discovery and catalogue note taking only.",
+    "rightsBoundary": "Only item-level public-domain, CC0, CC BY, or similarly permissive text can move into the corpus.",
+    "noIngestReason": "Catalogue records and digital objects can carry different reuse terms. This lane requires a separate rights proof before acquisition.",
+    "acceptedWorkTypes": [
+      "public-domain books",
+      "domestic medicine guides",
+      "botanical reference manuals",
+      "materia medica",
+      "public health handbooks"
+    ],
+    "excludedWorkTypes": [
+      "newspapers",
+      "manuscript fragments without text reuse rights",
+      "blogs",
+      "uncertain-rights scans"
+    ],
+    "nextAction": "Manually screen book-level results and preserve source-page rights evidence with each candidate."
+  },
+  {
+    "id": "state-library-queensland",
+    "name": "State Library of Queensland catalogue and digital collections",
+    "jurisdictionLane": "Australia",
+    "sourceType": "state-library-catalogue",
+    "status": "manual-rights-review-only",
+    "corpusReadiness": "manual-rights-review-only",
+    "url": "https://www.slq.qld.gov.au/",
+    "apiUrl": "",
+    "termsUrl": "https://www.slq.qld.gov.au/using-library/copyright",
+    "requiresApiKey": false,
+    "permittedUseAtThisStage": "Manual candidate discovery and catalogue note taking only.",
+    "rightsBoundary": "Only item-level public-domain, CC0, CC BY, or similarly permissive text can move into the corpus.",
+    "noIngestReason": "Digital collection entries need item-level copyright checks before any local text acquisition.",
+    "acceptedWorkTypes": [
+      "public-domain books",
+      "domestic medicine books",
+      "botanical guides",
+      "Queensland public health manuals",
+      "plant-reference manuals"
+    ],
+    "excludedWorkTypes": [
+      "newspapers",
+      "oral histories",
+      "blogs",
+      "uncertain-rights images",
+      "restricted collection objects"
+    ],
+    "nextAction": "Manually screen catalogue records for book-like, rights-clear, full-text candidates."
+  },
+  {
+    "id": "bhl-australia",
+    "name": "Biodiversity Heritage Library Australia-linked holdings",
+    "jurisdictionLane": "Australia",
+    "sourceType": "biodiversity-book-library",
+    "status": "manual-rights-review-only",
+    "corpusReadiness": "manual-rights-review-only",
+    "url": "https://www.biodiversitylibrary.org/",
+    "apiUrl": "",
+    "termsUrl": "https://about.biodiversitylibrary.org/about/copyright-and-reuse/",
+    "requiresApiKey": false,
+    "permittedUseAtThisStage": "Manual candidate discovery for botanical books with medicinal-plant relevance.",
+    "rightsBoundary": "BHL items can carry title-level rights statements. Only public-domain or permissively licensed full text can move into the corpus.",
+    "noIngestReason": "Many botanical works are taxonomic rather than practical medicine; candidates need both relevance and rights review.",
+    "acceptedWorkTypes": [
+      "public-domain botanical books",
+      "medical botany",
+      "flora with medicinal plant references",
+      "materia medica with plant monographs"
+    ],
+    "excludedWorkTypes": [
+      "pure taxonomy without practical medicinal relevance",
+      "uncertain-rights items",
+      "image-only records"
+    ],
+    "nextAction": "Use this as a botanical backfill lane only after practical health relevance is confirmed."
+  }
+]

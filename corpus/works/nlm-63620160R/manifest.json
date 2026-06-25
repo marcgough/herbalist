@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63620160R",
+  "title": "The ready adviser and family guide : a new compilation of valuable recipes and guide to health with directions what to do in cases of emergency : comprising over one thousand valuable rules and recipes useful to every body, and divided into four parts with a full index for each part",
+  "creator": "Shinn, Isaac.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620160R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63620160R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63620160R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 516,
+  "paragraphCount": 734,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620160R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620160R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63620160R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63620160R.jsonl",
+  "rawSha256": "a9805a28c29dab9e88aa6373baaf7ae4afc0eeb9ad072b2463395eee4368257e",
+  "normalizedSha256": "b06d7307ebb7dfe35ce237a3e467996fcdb812ccebcf81d59da5c4a6c7c41878",
+  "processedAt": "2026-06-17T15:42:54.674Z"
+}

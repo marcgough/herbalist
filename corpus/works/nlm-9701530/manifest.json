@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-9701530",
+  "title": "The ethical relations existing between medicine and pharmacy : with illustrations of an improved method for the collective and scientific investigation of new drugs",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9701530-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-9701530-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/9701530",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 41,
+  "paragraphCount": 43,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9701530\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9701530\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-9701530\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-9701530.jsonl",
+  "rawSha256": "d11171f3e6403818655898e13ea5541d1e6cd5f9bba50c79b56de50dcd31ed1f",
+  "normalizedSha256": "bb00734737fc85701f75de788e5d928d71e397347b7983efb14b84af0c927cbb",
+  "processedAt": "2026-06-19T11:38:58.769Z"
+}

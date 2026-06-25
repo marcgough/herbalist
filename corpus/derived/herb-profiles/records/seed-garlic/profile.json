@@ -1,0 +1,1150 @@
+{
+  "profile_id": "seed-garlic",
+  "family_id": "seed-garlic",
+  "canonical_name": "Garlic",
+  "canonical_key": "garlic",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-garlic-41024084d2#garlic"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 460,
+    "total_chunks": 441,
+    "total_works": 261,
+    "matched_chunk_count": 441,
+    "matched_work_count": 261,
+    "matched_mention_total": 441
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Garlic",
+      "Garlics"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217316"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-2822",
+      "nlm-0140313-chunk-2823",
+      "nlm-0140313-chunk-3966"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 238
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 180
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 34
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 99,
+        "work_count": 85
+      },
+      {
+        "id": "bulb",
+        "label": "Bulb",
+        "signal_count": 44,
+        "work_count": 39
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 42,
+        "work_count": 41
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 36,
+        "work_count": 35
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 30,
+        "work_count": 27
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 25,
+        "work_count": 25
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 20,
+        "work_count": 17
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 18,
+        "work_count": 18
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "preparations": [
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 199,
+        "work_count": 103
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 189,
+        "work_count": 146
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 96,
+        "work_count": 89
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 95,
+        "work_count": 76
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 82,
+        "work_count": 70
+      },
+      {
+        "id": "gargle",
+        "label": "Gargle",
+        "signal_count": 54,
+        "work_count": 54
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 54,
+        "work_count": 39
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 45,
+        "work_count": 38
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 40,
+        "work_count": 32
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 38,
+        "work_count": 34
+      }
+    ],
+    "cautions": [
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 171,
+        "work_count": 115
+      },
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 69,
+        "work_count": 63
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 221,
+        "work_count": 126
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 43,
+        "work_count": 42
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 40,
+        "work_count": 32
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 24,
+        "work_count": 23
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 23,
+        "work_count": 23
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 12,
+        "work_count": 7
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 11,
+        "work_count": 11
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-63560930R",
+      "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+      "creator": "Coxe, Edward Jenner, 1801-1882.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;convalescence",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "wellcome-mq8ebxvb",
+      "title": "Buchan's Domestic medicine modernized; or, a treatise on the prevention and cure of diseases by regimen and simple medicine : containing, ... observations on the comparative advantages of vaccine inoculation, ... an essay, enabling ruptured persons to manage themselves ... a family herbal: and such useful discoveries in medicine and surgery as have transpired since the demise of the late William Buchan.",
+      "creator": "",
+      "publication_year": "1809",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/mq8ebxvb",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-mqb4h4ks",
+      "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself and a family herbal. To which are added, such useful discoveries ... as have transpired since the demise of the author / by William Buchan.",
+      "creator": "",
+      "publication_year": "1813",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/mqb4h4ks",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-2545046R",
+      "title": "The botanic physician, or, Family medical adviser : being an improved system, found on correct physiological principles : comprising a brief view of anatomy, physiology, pathology, hygieine [sic], or art of preserving health : a materia medica , exclusively botanical, containing a description of more than two hundred and thiry of the most valuable vegetable remedies : to which is added a dispensatory, embracing more than two hundred recipes for preparing and administering medicine : the diseases of the United States, with their symptoms, causes, cures, and means of prevention : likewise, a treatise on the diseases peculiar to women and children",
+      "creator": "Carter, J. E., active 1837.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2545046R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-64211070R",
+      "title": "The Cherokee physician, or, Indian guide to health : comprising a brief view of anatomy, with general rules for preserving health without the use of medicines : the diseases of the United States, with their symptoms, causes, and means of prevention are explained in simple terms : it also contains a description of a variety of herbs and roots, many of which are not explained in any other book, the medicinal virtues of which have hitherto been unknown to the whites",
+      "creator": "Foreman, Richard, active 1849-1857.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64211070R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-sswtagvt",
+      "title": "The Cherokee physician, or, Indian guide to health : comprising a brief view of anatomy, with general rules for preserving health without the use of medicines : the diseases of the United States, with their symptoms, causes, and means of prevention are explained in simple terms : it also contains a description of a variety of herbs and roots, many of which are not explained in any other book, the medicinal virtues of which have hitherto been unknown to the whites / as given by Richard Foreman ; to which is added a short dispensatory by Jas. W. Mahoney.",
+      "creator": "",
+      "publication_year": "1857",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/sswtagvt",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63570990R-chunk-2580",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung fever, it is good applied over the chest and spine; in disorders of the head, inflammation of the brain or brain-fever of children, it has been applied to the feet and stomach, and proved benefici...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0131",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WORM LOZENGES,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "Take the express juice of elder bark, burdock roots and leaves, prickly ash bark, and green leaves cucumber tree or the hark—pulverize or pound equal parts of each, press out tls juice by means of a press or screw, su...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0270",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Renew it several times a day. Ap- plied as a poultice to the pubis, it has promoted the flow ot urine. Svdenham regarded Garlic as a powerful means ot causing a'derivation or revulsion from the head, applied to the so...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2300",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung-fever, it is good applied over the chest and spine; in inflammation of the brain or brain- fever of children, it has been applied to the feet and stomach with effect; in retention of the urine, ap...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0554",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung-fever, it is good applied over the chest and spine; in inflammation of the brain or brain- fever of children, it has been applied to the feet and stomach with effect; in retention of the urine, ap...",
+        "score": 42
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63570990R-chunk-2580",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung fever, it is good applied over the chest and spine; in disorders of the head, inflammation of the brain or brain-fever of children, it has been applied to the feet and stomach, and proved benefici...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0131",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WORM LOZENGES,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "Take the express juice of elder bark, burdock roots and leaves, prickly ash bark, and green leaves cucumber tree or the hark—pulverize or pound equal parts of each, press out tls juice by means of a press or screw, su...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0270",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Renew it several times a day. Ap- plied as a poultice to the pubis, it has promoted the flow ot urine. Svdenham regarded Garlic as a powerful means ot causing a'derivation or revulsion from the head, applied to the so...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2300",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung-fever, it is good applied over the chest and spine; in inflammation of the brain or brain- fever of children, it has been applied to the feet and stomach with effect; in retention of the urine, ap...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0554",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung-fever, it is good applied over the chest and spine; in inflammation of the brain or brain- fever of children, it has been applied to the feet and stomach with effect; in retention of the urine, ap...",
+        "score": 42
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63570990R-chunk-2580",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung fever, it is good applied over the chest and spine; in disorders of the head, inflammation of the brain or brain-fever of children, it has been applied to the feet and stomach, and proved benefici...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0131",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WORM LOZENGES,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "Take the express juice of elder bark, burdock roots and leaves, prickly ash bark, and green leaves cucumber tree or the hark—pulverize or pound equal parts of each, press out tls juice by means of a press or screw, su...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0270",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Renew it several times a day. Ap- plied as a poultice to the pubis, it has promoted the flow ot urine. Svdenham regarded Garlic as a powerful means ot causing a'derivation or revulsion from the head, applied to the so...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2300",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung-fever, it is good applied over the chest and spine; in inflammation of the brain or brain- fever of children, it has been applied to the feet and stomach with effect; in retention of the urine, ap...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0554",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung-fever, it is good applied over the chest and spine; in inflammation of the brain or brain- fever of children, it has been applied to the feet and stomach with effect; in retention of the urine, ap...",
+        "score": 42
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63570990R-chunk-2580",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung fever, it is good applied over the chest and spine; in disorders of the head, inflammation of the brain or brain-fever of children, it has been applied to the feet and stomach, and proved benefici...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0131",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WORM LOZENGES,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "Take the express juice of elder bark, burdock roots and leaves, prickly ash bark, and green leaves cucumber tree or the hark—pulverize or pound equal parts of each, press out tls juice by means of a press or screw, su...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0270",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Renew it several times a day. Ap- plied as a poultice to the pubis, it has promoted the flow ot urine. Svdenham regarded Garlic as a powerful means ot causing a'derivation or revulsion from the head, applied to the so...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2300",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung-fever, it is good applied over the chest and spine; in inflammation of the brain or brain- fever of children, it has been applied to the feet and stomach with effect; in retention of the urine, ap...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0554",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Garlic"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "In pneumonia or lung-fever, it is good applied over the chest and spine; in inflammation of the brain or brain- fever of children, it has been applied to the feet and stomach with effect; in retention of the urine, ap...",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Garlic is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 261 works and 441 source-linked chunks. Recorded variants include Garlic, Garlics. Common plant-part co-mentions include Root, Bulb, Bark, Leaf, Flower, Fruit. Common preparation co-mentions include Ointment, Syrup, Tea, Oil, Juice, Gargle. Common condition co-mentions include Cough, Fever, Cold or catarrh, Epilepsy or convulsions, Inflammation, Asthma. Caution co-mentions include Child-use caution, Dose caution, Narcotic or sedative caution, Toxicity watch, Allergy or sensitivity caution, Fatal-risk warning. Representative source works include Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; Buchan's Domestic medicine modernized; or, a treatise on the prevention and cure of diseases by regimen and simple medicine : containing, ... observations on the comparative advantages of vaccine inoculation, ... an essay, enabling ruptured persons to manage themselves ... a family herbal: and such useful discoveries in medicine and surgery as have transpired since the demise of the late William Buchan.; Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself and a family herbal. To which are added, such useful discoveries ... as have transpired since the demise of the author / by William Buchan.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.904Z",
+  "builder": "build-herb-profiles.mjs"
+}

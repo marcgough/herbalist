@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-fecuhm4a",
+  "title": "Catalogue of the Bombay drugs : including a list of the medicinal plants of Bombay used in the fresh state / compiled by Sakharam Arjun.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/fecuhm4a",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b20415540",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/fecuhm4a",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;medicinal-plants",
+  "chunkCount": 272,
+  "paragraphCount": 273,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-fecuhm4a\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-fecuhm4a\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-fecuhm4a\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-fecuhm4a.jsonl",
+  "rawSha256": "76aee302fb60e7b3e2491c616509218684603c8b7fbd33538f5b4c7a5ca6866d",
+  "normalizedSha256": "4c6c306ca11de49aba107783142f1c20fed73c164fe2184a44ff4aa6a2470bf1",
+  "processedAt": "2026-06-16T23:09:27.767Z"
+}

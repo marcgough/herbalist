@@ -1,0 +1,1086 @@
+{
+  "profile_id": "seed-blue-cohosh",
+  "family_id": "seed-blue-cohosh",
+  "canonical_name": "Blue Cohosh",
+  "canonical_key": "blue cohosh",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-blue-cohosh-eb9d962529#blue cohosh"
+  ],
+  "decision_note": "promote strong medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 76,
+    "total_chunks": 69,
+    "total_works": 28,
+    "matched_chunk_count": 69,
+    "matched_work_count": 28,
+    "matched_mention_total": 69
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Blue Cohosh"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-100912803",
+      "nlm-101250104"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1835",
+      "nlm-100912803-chunk-1429",
+      "nlm-101250104-chunk-0099"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 38
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 37
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 1
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 50,
+        "work_count": 23
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 26,
+        "work_count": 18
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 17,
+        "work_count": 14
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 12,
+        "work_count": 11
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 27,
+        "work_count": 17
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 24,
+        "work_count": 18
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 19,
+        "work_count": 9
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 17,
+        "work_count": 9
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 11,
+        "work_count": 9
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 9,
+        "work_count": 7
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 6,
+        "work_count": 4
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "wash",
+        "label": "Wash",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 5,
+        "work_count": 4
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 30,
+        "work_count": 16
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 5,
+        "work_count": 3
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 13,
+        "work_count": 7
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 7,
+        "work_count": 6
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 6,
+        "work_count": 5
+      },
+      {
+        "id": "cholera",
+        "label": "Cholera",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-aw843fyz",
+      "title": "The practice of medicine, according to the plan most approved by the Reformed or Botanic Colleges of the U. S : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings ; designed principally for families / by J. Kost.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/aw843fyz",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-101250104",
+      "title": "The practice of medicine, according to the plan most approved by the reformed or botanic colleges of the U.S. : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings : designed principally for families",
+      "creator": "Kost, J., 1819-1904.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250104-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-9422695",
+      "title": "A new and improved system of medical botanical practice : also, a concise view of anatomy and surgery, containing a medical classification of the best vegetable productions, with the better mode of compounding and administering in the treatment of disease : to which is added a short treatise on obstetricks, and a medical glossary",
+      "creator": "Miles, Charles, medical botanist",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9422695-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-ynxdmrk9",
+      "title": "A new and improved system of medical botanical practice : also, a concise view of anatomy and surgery, containing a medical classification of the best vegetable productions, with the better mode of compounding and administering in the treatment of disease : to which is added a short treatise on obstetricks, and a medical glossary / by Charles Miles.",
+      "creator": "",
+      "publication_year": "1829",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/ynxdmrk9",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "nlm-7704741",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-q59tmjuk",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-2558003RX2-chunk-0713",
+        "work_id": "nlm-2558003RX2",
+        "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "—G©©—",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558003RX2-bk",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Tops"
+        ],
+        "preparations": [
+          "Decoction"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Root perennial, yellow inside, brown outside, hard, irregu- lar, knobby, with many fibers. Stem upright, straight, smooth, divided at the top into two or three branches, each branch supporting three leaves, in the cen...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-63620390R-chunk-0420",
+        "work_id": "nlm-63620390R",
+        "title": "The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ENVY, MALICE AND HATRED. 117",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620390R-bk",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Liniment",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "In treating inflammatory sore throat, I always give a cathartic or emetic. As soon as the physic or emetic has operated, produce upon the patient a moisture of the skin by gentle sweating, and gurgle the throat with a...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0443",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Liniment"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Treatment—In the treatment of this disease our first effort should be to relieve the suffering of the patient; to do this first give a dose of the diaphoretic or fever powders, and fever drops, one hour and a half apa...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0563",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Poultice",
+          "Liniment",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Colic"
+        ],
+        "excerpt": "Fluid Extract Dioscorea 1 oz. Tincture of Camphor 1 oz. Tincture of Opium » oz. Essence of Peppermint 1 oz. Essence of Anise 1 oz. Mix. Dose for an adult 40 to 60 drops in a little water every half hour or hour until...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0573",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "If called when the child is in convulsions with high fever, the first thing to be done is to check the convulsions by first applying a mustard poultice to the spinal column two or three inches wide, and let it irritat...",
+        "score": 37
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-2558003RX2-chunk-0713",
+        "work_id": "nlm-2558003RX2",
+        "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "—G©©—",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558003RX2-bk",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Tops"
+        ],
+        "preparations": [
+          "Decoction"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Root perennial, yellow inside, brown outside, hard, irregu- lar, knobby, with many fibers. Stem upright, straight, smooth, divided at the top into two or three branches, each branch supporting three leaves, in the cen...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-63620390R-chunk-0420",
+        "work_id": "nlm-63620390R",
+        "title": "The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ENVY, MALICE AND HATRED. 117",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620390R-bk",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Liniment",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "In treating inflammatory sore throat, I always give a cathartic or emetic. As soon as the physic or emetic has operated, produce upon the patient a moisture of the skin by gentle sweating, and gurgle the throat with a...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0443",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Liniment"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Treatment—In the treatment of this disease our first effort should be to relieve the suffering of the patient; to do this first give a dose of the diaphoretic or fever powders, and fever drops, one hour and a half apa...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0563",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Poultice",
+          "Liniment",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Colic"
+        ],
+        "excerpt": "Fluid Extract Dioscorea 1 oz. Tincture of Camphor 1 oz. Tincture of Opium » oz. Essence of Peppermint 1 oz. Essence of Anise 1 oz. Mix. Dose for an adult 40 to 60 drops in a little water every half hour or hour until...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0573",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "If called when the child is in convulsions with high fever, the first thing to be done is to check the convulsions by first applying a mustard poultice to the spinal column two or three inches wide, and let it irritat...",
+        "score": 37
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-2558003RX2-chunk-0713",
+        "work_id": "nlm-2558003RX2",
+        "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "—G©©—",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558003RX2-bk",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Tops"
+        ],
+        "preparations": [
+          "Decoction"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Root perennial, yellow inside, brown outside, hard, irregu- lar, knobby, with many fibers. Stem upright, straight, smooth, divided at the top into two or three branches, each branch supporting three leaves, in the cen...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-63620390R-chunk-0420",
+        "work_id": "nlm-63620390R",
+        "title": "The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ENVY, MALICE AND HATRED. 117",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620390R-bk",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Liniment",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "In treating inflammatory sore throat, I always give a cathartic or emetic. As soon as the physic or emetic has operated, produce upon the patient a moisture of the skin by gentle sweating, and gurgle the throat with a...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0443",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Liniment"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Treatment—In the treatment of this disease our first effort should be to relieve the suffering of the patient; to do this first give a dose of the diaphoretic or fever powders, and fever drops, one hour and a half apa...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0563",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Poultice",
+          "Liniment",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Colic"
+        ],
+        "excerpt": "Fluid Extract Dioscorea 1 oz. Tincture of Camphor 1 oz. Tincture of Opium » oz. Essence of Peppermint 1 oz. Essence of Anise 1 oz. Mix. Dose for an adult 40 to 60 drops in a little water every half hour or hour until...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0573",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "If called when the child is in convulsions with high fever, the first thing to be done is to check the convulsions by first applying a mustard poultice to the spinal column two or three inches wide, and let it irritat...",
+        "score": 37
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0443",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Liniment"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Treatment—In the treatment of this disease our first effort should be to relieve the suffering of the patient; to do this first give a dose of the diaphoretic or fever powders, and fever drops, one hour and a half apa...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0563",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Poultice",
+          "Liniment",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Colic"
+        ],
+        "excerpt": "Fluid Extract Dioscorea 1 oz. Tincture of Camphor 1 oz. Tincture of Opium » oz. Essence of Peppermint 1 oz. Essence of Anise 1 oz. Mix. Dose for an adult 40 to 60 drops in a little water every half hour or hour until...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0573",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "If called when the child is in convulsions with high fever, the first thing to be done is to check the convulsions by first applying a mustard poultice to the spinal column two or three inches wide, and let it irritat...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0665",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism"
+        ],
+        "excerpt": "Tincture of Prickly Ash Berries 1 oz. Tincture of Virginia Snake Root i oz. Tincture of Poke Root i oz. Mix. Dose for an adult i teaspoonful every three hours, to be al- ternated with the following alterative and anti...",
+        "score": 35
+      },
+      {
+        "chunk_id": "nlm-63610710R-chunk-0348",
+        "work_id": "nlm-63610710R",
+        "title": "The third edition of Dr. Nash's practice : containing all the practical matter of the two former editions of the \"Southern family physician \"",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610710R-bk",
+        "matched_herbs": [
+          "Blue Cohosh"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Headache"
+        ],
+        "excerpt": "I or after-pains give the blue cohosh tincture in 20 drop doses two or three hours apart. Should this not be at hand, use our anodyne drops, and for excessive flooding after delivery use the Uterine Styptic or Female...",
+        "score": 33
+      }
+    ]
+  },
+  "retrieval_text": "Blue Cohosh is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 28 works and 69 source-linked chunks. Recorded variants include Blue Cohosh. Common plant-part co-mentions include Root, Bark, Berry, Flower, Leaf, Tops. Common preparation co-mentions include Tincture, Tea, Powder, Extract, Decoction, Bath. Common condition co-mentions include Fever, Cold or catarrh, Colic, Epilepsy or convulsions, Rheumatism, Cholera. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Pregnancy caution, Abortifacient warning, Allergy or sensitivity caution. Representative source works include The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.; The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; The American eclectic dispensatory; The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:49.023Z",
+  "builder": "build-herb-profiles.mjs"
+}

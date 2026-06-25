@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63570770R",
+  "title": "Family physician : designed to assist heads of families, travellers and seafaring people in discerning, distinguishing, and curing diseases : with directions for the preparation and use of a numerous collection of the best American remedies, together with a large number of valuable receipts for making plasters, ointments, oils, poultices, decoctions, syrups or waters made of herbs, the time of gathering all herbs, the way of drying and keeping the herbs all the year, also the way of making and keeping all kinds of useful compounds made of herbs",
+  "creator": "Frisbee, John.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570770R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63570770R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63570770R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 593,
+  "paragraphCount": 679,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570770R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570770R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63570770R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63570770R.jsonl",
+  "rawSha256": "462e75bb2c5cf7702c6f257a3fd48b75f10ded9354ffc7cdfc5352bfbc0a7350",
+  "normalizedSha256": "31947a576cae3352384f524d32ecac62c8c5ec29faf5a4900a9afe973fe51905",
+  "processedAt": "2026-06-16T23:05:38.571Z"
+}

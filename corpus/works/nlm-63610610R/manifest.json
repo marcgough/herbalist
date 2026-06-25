@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63610610R",
+  "title": "The American botanist, and family physician : in which the medical virtues of the mineral, animal and vegetable productions of North America are exhibited, together with their uses in the practice of physic and surgery : some of which are selected from Dr. Stearns, and other authors, but mostly original : comprehending a treatise upon the principal disorders of the climate, together with directions for preparing, compounding, and applying proper medicines for their cure : likewise, a large number of Indian discoveries in the medical art, never before published",
+  "creator": "Monroe, John, active 19th century author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610610R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63610610R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63610610R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 26,
+  "paragraphCount": 28,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610610R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610610R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63610610R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63610610R.jsonl",
+  "rawSha256": "0289afd57f4c6f49c931f27f8530e2256799af4c258b6e667dc30ed45ce261c5",
+  "normalizedSha256": "2e5d7b2f85055076d4494b4f64fca14ad6c48eef2d85b84c9f22d8ac6642900f",
+  "processedAt": "2026-06-18T01:36:35.417Z"
+}

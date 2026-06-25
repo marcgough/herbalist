@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-gqf4b733",
+  "title": "Medical botany; or, history of plants in the materia medica of the London, Edinburgh and Dublin pharmacopoeias. Arranged according to the Linnaean system.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/gqf4b733",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b29341279",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/gqf4b733",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;medical-botany;botany",
+  "chunkCount": 332,
+  "paragraphCount": 340,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-gqf4b733\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-gqf4b733\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-gqf4b733\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-gqf4b733.jsonl",
+  "rawSha256": "152c78d214d9c9c5c1df569c9ba8e0eac8da2e1dbd65b8b984db6062b3f3be63",
+  "normalizedSha256": "e84a3c8bd398628efbed4552f62d4567f3444aa6619338d887bcd5cd3c28b48e",
+  "processedAt": "2026-06-16T23:14:13.429Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101245732",
+  "title": "A grammar of botany : containing an explanation of the system of Linnaeus, and the terms of botany, with botanical exercises, for the use of schools and students : illustrated by forty-five engravings : multum in parvo",
+  "creator": "Thornton, Robert John, 1768?-1837.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101245732-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101245732-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101245732",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 389,
+  "paragraphCount": 1134,
+  "sectionCount": 14,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101245732\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101245732\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101245732\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101245732.jsonl",
+  "rawSha256": "c259e58d80654851529dd1392eae36399af3b1520c5c74abcf621cd7e77528aa",
+  "normalizedSha256": "ddaf71c4bd8c00d72d7cc330127eb11dc9303f12328cf8528736bb415e084192",
+  "processedAt": "2026-06-18T01:36:41.944Z"
+}

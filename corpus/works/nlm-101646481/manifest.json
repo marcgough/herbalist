@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101646481",
+  "title": "A compend of materia medica , therapeutics, and prescription writing : with especial reference to the physiological actions of drugs : based on the last revision of the U.S. Pharmacopoeia, including also many unofficial remedies",
+  "creator": "Potter, Samuel O. L. (Samuel Otway Lewis), 1846-1914 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101646481-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101646481-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101646481",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 473,
+  "paragraphCount": 479,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101646481\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101646481\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101646481\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101646481.jsonl",
+  "rawSha256": "649c10549c545367b935630ea662d6279e09c45ab9ad2b4a1b4aff63e578e8e1",
+  "normalizedSha256": "c92b4826964bc6d19390217c2f2d71d17332947a377c9ab7770d63d85f0a39ee",
+  "processedAt": "2026-06-18T00:44:37.423Z"
+}

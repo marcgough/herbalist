@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-9604420",
+  "title": "A philosophical theory of an \"empiric,\" proved practically : compared with doubtful science and known quackery, as practiced by the regular physicians during the prevalence of the cholera in this city : to which is added, the opinions of the committees appointed by the Assembly of this state, in 1828, '29, and '30, to examine the author's practice",
+  "creator": "Thomson, John, Dr.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9604420-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-9604420-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/9604420",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal",
+  "chunkCount": 163,
+  "paragraphCount": 589,
+  "sectionCount": 25,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9604420\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9604420\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-9604420\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-9604420.jsonl",
+  "rawSha256": "e8d6bd1d89d5ae7355990558892f1ab846ca0c4eaf1176c11ccda666a912807d",
+  "normalizedSha256": "ec87254e29404232386cf3b33cbfc3b1d0ce3a0d8d430b977dd7cdbe6610e6de",
+  "processedAt": "2026-06-19T12:38:44.614Z"
+}

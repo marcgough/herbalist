@@ -1,0 +1,1231 @@
+{
+  "profile_id": "seed-elder",
+  "family_id": "seed-elder",
+  "canonical_name": "Elder",
+  "canonical_key": "elder",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-elder-4bad2eaec5#elder"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1744,
+    "total_chunks": 1581,
+    "total_works": 533,
+    "matched_chunk_count": 1581,
+    "matched_work_count": 533,
+    "matched_mention_total": 1631
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Elder",
+      "Elder Flowers",
+      "Elder Flower",
+      "Elder Berries",
+      "Elder Berry"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1509",
+      "nlm-0140313-chunk-1925",
+      "nlm-0140313-chunk-2284"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 1011
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 465
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 202
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 1180,
+        "work_count": 465
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 392,
+        "work_count": 241
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 296,
+        "work_count": 179
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 280,
+        "work_count": 186
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 273,
+        "work_count": 168
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 189,
+        "work_count": 136
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 104,
+        "work_count": 79
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 87,
+        "work_count": 81
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 56,
+        "work_count": 52
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 50,
+        "work_count": 46
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 397,
+        "work_count": 266
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 375,
+        "work_count": 281
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 236,
+        "work_count": 126
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 213,
+        "work_count": 157
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 209,
+        "work_count": 156
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 204,
+        "work_count": 140
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 197,
+        "work_count": 164
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 141,
+        "work_count": 95
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 108,
+        "work_count": 92
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 94,
+        "work_count": 83
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 236,
+        "work_count": 162
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 185,
+        "work_count": 141
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 64,
+        "work_count": 54
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 46,
+        "work_count": 40
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 35,
+        "work_count": 32
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 21,
+        "work_count": 21
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 17,
+        "work_count": 17
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "conditions": [
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 193,
+        "work_count": 161
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 175,
+        "work_count": 143
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 118,
+        "work_count": 104
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 114,
+        "work_count": 84
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 93,
+        "work_count": 82
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 82,
+        "work_count": 77
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 41,
+        "work_count": 32
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 38,
+        "work_count": 32
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 28,
+        "work_count": 25
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 27,
+        "work_count": 24
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 68,
+      "matched_mention_count": 80
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-agdnfevh",
+      "title": "A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.",
+      "creator": "",
+      "publication_year": "1821",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/agdnfevh",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-takhmyez",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+      "creator": "",
+      "publication_year": "1747",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/takhmyez",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-uvsm4p93",
+      "title": "Domestic medicine. Or, a treatise on the cure and prevention of diseases by regimen and simple medicines. Containing a dispensatory for the use of private practitioners / by William Buchan ; With considerable additions and various notes by A.P. Buchan ... To which is added, a family herbal.",
+      "creator": "",
+      "publication_year": "1825",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/uvsm4p93",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "nlm-0217313",
+      "title": "Domestic medicine, or, A treatise on the prevention and cure of diseases by regimen and simple medicines : containing a dispensatory for the use of private practitioners, to which is added a family herbal",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217313-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-b4n9x8yx",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory. Containing, I. An account of all the natural and artificial implements and instruments of pharmacy, together with the processes and operations, whereby changes are induced in natural bodies for medicinal purposes ... With two copious indexes to the whole / [R. James].",
+      "creator": "",
+      "publication_year": "1764",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/b4n9x8yx",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0050",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Elder",
+          "Elder Flower"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Extract",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Elder Flower Water is unexcelled as a local antiseptic in skin affections. Elder Flower Ointment is highly esteemed as an application for rectal ulcers. Dose—Fluid Extract, $ to 1 dram. EUCALYPTUS LEAVES. (Eucalyptus...",
+        "score": 59
+      },
+      {
+        "chunk_id": "nlm-101554865-chunk-0282",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Essence",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Headache",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "248 INDEX. Essence of Peppermint, . Elder Ointment, Extract from John Wesley, Emetic powders, Fever, Intermittent, \" Remittent, \" Scarlet, \" Childbed, \" Hectic, \" Lung, \" Inflammatory, \" Typhus, \" Spotted, Fomentation...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0014",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Elder",
+          "Elder Flower"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "573 \" flatulency and indigestion 57 . \" influenza 576 \" stimulating 578 \" for palpitation of the heart 572 \" hysterics and windy colic 572 Dropsy of the heart 187 Dress of new born infants 363 Dress and exercise durin...",
+        "score": 56
+      },
+      {
+        "chunk_id": "nlm-64210710R-chunk-0254",
+        "work_id": "nlm-64210710R",
+        "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ANTI SPASMODIC TINCTURE :",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Salve",
+          "Poultice",
+          "Liniment",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Gout",
+          "Headache",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "the guide to health. 143 Dropsy, 121 Dyspepsia 122 Dandelion 82 Directions for gathering and Expectorants, 84 Effects of the remedies used by the medical faculty, 20 Elder salve, 95 Elm poultice, 102 Felons, 123 Femal...",
+        "score": 55
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0050",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Elder",
+          "Elder Flower"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Extract",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Elder Flower Water is unexcelled as a local antiseptic in skin affections. Elder Flower Ointment is highly esteemed as an application for rectal ulcers. Dose—Fluid Extract, $ to 1 dram. EUCALYPTUS LEAVES. (Eucalyptus...",
+        "score": 59
+      },
+      {
+        "chunk_id": "nlm-101554865-chunk-0282",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Essence",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Headache",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "248 INDEX. Essence of Peppermint, . Elder Ointment, Extract from John Wesley, Emetic powders, Fever, Intermittent, \" Remittent, \" Scarlet, \" Childbed, \" Hectic, \" Lung, \" Inflammatory, \" Typhus, \" Spotted, Fomentation...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0014",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Elder",
+          "Elder Flower"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "573 \" flatulency and indigestion 57 . \" influenza 576 \" stimulating 578 \" for palpitation of the heart 572 \" hysterics and windy colic 572 Dropsy of the heart 187 Dress of new born infants 363 Dress and exercise durin...",
+        "score": 56
+      },
+      {
+        "chunk_id": "nlm-64210710R-chunk-0254",
+        "work_id": "nlm-64210710R",
+        "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ANTI SPASMODIC TINCTURE :",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Salve",
+          "Poultice",
+          "Liniment",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Gout",
+          "Headache",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "the guide to health. 143 Dropsy, 121 Dyspepsia 122 Dandelion 82 Directions for gathering and Expectorants, 84 Effects of the remedies used by the medical faculty, 20 Elder salve, 95 Elm poultice, 102 Felons, 123 Femal...",
+        "score": 55
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0050",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Elder",
+          "Elder Flower"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Extract",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Elder Flower Water is unexcelled as a local antiseptic in skin affections. Elder Flower Ointment is highly esteemed as an application for rectal ulcers. Dose—Fluid Extract, $ to 1 dram. EUCALYPTUS LEAVES. (Eucalyptus...",
+        "score": 59
+      },
+      {
+        "chunk_id": "nlm-101554865-chunk-0282",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Essence",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Headache",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "248 INDEX. Essence of Peppermint, . Elder Ointment, Extract from John Wesley, Emetic powders, Fever, Intermittent, \" Remittent, \" Scarlet, \" Childbed, \" Hectic, \" Lung, \" Inflammatory, \" Typhus, \" Spotted, Fomentation...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0014",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Elder",
+          "Elder Flower"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "573 \" flatulency and indigestion 57 . \" influenza 576 \" stimulating 578 \" for palpitation of the heart 572 \" hysterics and windy colic 572 Dropsy of the heart 187 Dress of new born infants 363 Dress and exercise durin...",
+        "score": 56
+      },
+      {
+        "chunk_id": "nlm-64210710R-chunk-0254",
+        "work_id": "nlm-64210710R",
+        "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ANTI SPASMODIC TINCTURE :",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Salve",
+          "Poultice",
+          "Liniment",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Gout",
+          "Headache",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "the guide to health. 143 Dropsy, 121 Dyspepsia 122 Dandelion 82 Directions for gathering and Expectorants, 84 Effects of the remedies used by the medical faculty, 20 Elder salve, 95 Elm poultice, 102 Felons, 123 Femal...",
+        "score": 55
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0050",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Elder",
+          "Elder Flower"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Extract",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Elder Flower Water is unexcelled as a local antiseptic in skin affections. Elder Flower Ointment is highly esteemed as an application for rectal ulcers. Dose—Fluid Extract, $ to 1 dram. EUCALYPTUS LEAVES. (Eucalyptus...",
+        "score": 59
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0014",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Elder",
+          "Elder Flower"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "573 \" flatulency and indigestion 57 . \" influenza 576 \" stimulating 578 \" for palpitation of the heart 572 \" hysterics and windy colic 572 Dropsy of the heart 187 Dress of new born infants 363 Dress and exercise durin...",
+        "score": 56
+      },
+      {
+        "chunk_id": "wellcome-eseh7yfu-chunk-0090",
+        "work_id": "wellcome-eseh7yfu",
+        "title": "A catalogue of the medicinal plants, indigenous and exotic, growing in the state of New-York : with a brief account of their composition and medical properties / by Charles A. Lee.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/eseh7yfu",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Ointment",
+          "Juice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "of the root produces 2 lbs. of extract. Leaves are dia- phoretic. The hard seeds have been used as a substitute for coffee. This plant deserves further trials. (See Wood and Bache, p. 721. ) Sambccus Nigra, Linn. , (C...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-101509190-chunk-3779",
+        "work_id": "nlm-101509190",
+        "title": "General therapeutics and materia medica : adapted for a medical textbook",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "11. CHONDRUS.—IRISH MOSS,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101509190-bk",
+        "matched_herbs": [
+          "Elder"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Emetic"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "Eau hemastatique de Bonjean, ii. 210. medicinale d'Husson, ii. 205. Efforts of nature, i. 37, ii. 375. Elaterium, i. 232. Elder flowers, i. 362. Elecampane, i. 269. Electricity, i. 461, 463, 549, ii. 269, 373. galvani...",
+        "score": 47
+      }
+    ]
+  },
+  "retrieval_text": "Elder is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 533 works and 1581 source-linked chunks. Recorded variants include Elder, Elder Flowers, Elder Flower, Elder Berries, Elder Berry. Common plant-part co-mentions include Flower, Root, Leaf, Berry, Bark, Seed. Common preparation co-mentions include Oil, Ointment, Infusion, Tea, Powder, Juice. Common condition co-mentions include Wounds or ulcers, Cold or catarrh, Cough, Fever, Inflammation, Vomiting or nausea. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Toxicity watch, Bleeding caution, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.; A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.758Z",
+  "builder": "build-herb-profiles.mjs"
+}

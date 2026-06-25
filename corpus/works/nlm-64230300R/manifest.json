@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64230300R",
+  "title": "The sick man's friend : being a plain, practical medical work designed for the use of families and individuals on vegetable, or botanical principles : in four parts",
+  "creator": "Sanborn, P. E. (Peter Elkins), 1796-1845.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230300R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64230300R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64230300R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 25,
+  "paragraphCount": 71,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64230300R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64230300R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64230300R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64230300R.jsonl",
+  "rawSha256": "334bafc3f378972285b969388fb56cc1117c8241bc3dc90d01d0c47fa32e6aaa",
+  "normalizedSha256": "988353ecdbafb5b5c4133a9df778a2eadd6a58f4bcc6b6584d26e3aab3e348aa",
+  "processedAt": "2026-06-20T00:25:04.369Z"
+}

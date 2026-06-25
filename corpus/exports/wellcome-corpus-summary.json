@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-06-23T13:05:48.996Z",
+  "sourceCollectionId": "wellcome-collection",
+  "scannedResults": 0,
+  "discoveredCount": 0,
+  "requestedWorkIdsCount": 3,
+  "processedCount": 3,
+  "failureCount": 0,
+  "retryFailed": false,
+  "processed": [
+    {
+      "work_id": "wellcome-aw2c3dda",
+      "title": "The family physician : a manual of domestic medicine / by physicians and surgeons of the principal London hospitals.",
+      "chunkCount": 4279,
+      "paragraphCount": 4304,
+      "topicFamily": "domestic-medicine"
+    },
+    {
+      "work_id": "wellcome-g5yuddfe",
+      "title": "New guide to health, or, Botanic family physician : containing a complete system of practice, upon a plan entirely new ; with a description of the vegetables made use of, and directions for preparing and administering them to cure disease ; to which is prefixed A narrative of the life and medical discoveries of the author / by Samuel Thomson.",
+      "chunkCount": 798,
+      "paragraphCount": 819,
+      "topicFamily": "domestic-medicine"
+    },
+    {
+      "work_id": "wellcome-wmnzs2cr",
+      "title": "New guide to health, or, Botanic family physician : containing a complete system of practice, upon a plan entirely new : with a description of the vegetables made use of, and directions for preparing and administering them to cure disease : to which is prefixed, A narrative of the life and medical discoveries of the author / by Samuel Thomson.",
+      "chunkCount": 860,
+      "paragraphCount": 894,
+      "topicFamily": "domestic-medicine"
+    }
+  ],
+  "failures": [],
+  "sampleTitles": [
+    {
+      "work_id": "wellcome-aw2c3dda",
+      "title": "The family physician : a manual of domestic medicine / by physicians and surgeons of the principal London hospitals.",
+      "topic_family": "domestic-medicine",
+      "notes": "Loaded from the local Wellcome registry because explicit work IDs were supplied."
+    },
+    {
+      "work_id": "wellcome-g5yuddfe",
+      "title": "New guide to health, or, Botanic family physician : containing a complete system of practice, upon a plan entirely new ; with a description of the vegetables made use of, and directions for preparing and administering them to cure disease ; to which is prefixed A narrative of the life and medical discoveries of the author / by Samuel Thomson.",
+      "topic_family": "domestic-medicine",
+      "notes": "Loaded from the local Wellcome registry because explicit work IDs were supplied."
+    },
+    {
+      "work_id": "wellcome-wmnzs2cr",
+      "title": "New guide to health, or, Botanic family physician : containing a complete system of practice, upon a plan entirely new : with a description of the vegetables made use of, and directions for preparing and administering them to cure disease : to which is prefixed, A narrative of the life and medical discoveries of the author / by Samuel Thomson.",
+      "topic_family": "domestic-medicine",
+      "notes": "Loaded from the local Wellcome registry because explicit work IDs were supplied."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-qpeum4va",
+  "title": "Memorial de varios simplices : que da India oriental, da America, e de outras partes do mundo vem ao nosso reino para remedio de muitas doenças.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/qpeum4va",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30412183",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/qpeum4va",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 154,
+  "paragraphCount": 188,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-qpeum4va\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-qpeum4va\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-qpeum4va\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-qpeum4va.jsonl",
+  "rawSha256": "db86e22c8d8ad26b1dab3b12a016d554c6b37788922ab4d3b4fd4a503faf9533",
+  "normalizedSha256": "ef807b6998639cf9ce7237468618c8bf25263f646ae8ddf8cefcbc76047b1e93",
+  "processedAt": "2026-06-16T23:14:21.764Z"
+}

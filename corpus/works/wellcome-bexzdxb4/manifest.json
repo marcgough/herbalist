@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-bexzdxb4",
+  "title": "The new British domestic herbal; or, a correct description of British medicinal plants: intended for the use of families, and for every purpose of domestic medicine ... / by John Augustine Waller.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/bexzdxb4",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b29303485",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/bexzdxb4",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;medicinal-plants;domestic-medicine;botany",
+  "chunkCount": 817,
+  "paragraphCount": 830,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-bexzdxb4\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-bexzdxb4\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-bexzdxb4.jsonl",
+  "rawSha256": "36fb98d0395a5dff85df1183307abae5c590f59d297544374b22c895c4986d54",
+  "normalizedSha256": "d095ade3788313ddaaa5e099740328c1748fc8969a53c8c0fbeed0d573bef033",
+  "processedAt": "2026-06-16T13:46:47.883Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

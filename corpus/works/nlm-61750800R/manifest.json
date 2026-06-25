@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61750800R",
+  "title": "Resources of the southern fields and forests, medical, economical, and agricultural : being also a medical botany of the Confederate States, with practical information on the properties of the trees, plants, and shrubs",
+  "creator": "Porcher, Francis Peyre, 1824-1895.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61750800R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61750800R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61750800R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medical-botany;botany",
+  "chunkCount": 1525,
+  "paragraphCount": 2003,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61750800R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61750800R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61750800R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61750800R.jsonl",
+  "rawSha256": "81d04cb1bb5a8bc7471962f2bd0e2a7ca56e2483613d88c131cbbc09d1c9276a",
+  "normalizedSha256": "65d85290d10f627bde1ec7f51a4441cee47a4ce1411fb4bf48d3f6cb144fea07",
+  "processedAt": "2026-06-17T00:58:33.542Z"
+}

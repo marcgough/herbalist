@@ -1,0 +1,401 @@
+{
+  "generatedAt": "2026-06-25T11:31:42.156Z",
+  "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names filtered from source/title metadata.",
+  "sourceHealthPolicy": "Source health checks report allowlisted public or independent sources only; warnings do not add fallback pharma channels.",
+  "warnings": [],
+  "sourceHealth": [
+    {
+      "id": "pubmed",
+      "name": "PubMed / NCBI",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "sourceType": "public-research-index",
+      "role": "Public biomedical metadata for frontier-biology terms.",
+      "status": "empty",
+      "checkedAt": "2026-06-25T11:31:38.602Z",
+      "itemCount": 10,
+      "usableItemCount": 0,
+      "newestItemAt": "",
+      "warning": "",
+      "isAllowlisted": true,
+      "isBigPharmaRelated": false
+    },
+    {
+      "id": "arxiv",
+      "name": "arXiv",
+      "url": "https://arxiv.org/",
+      "sourceType": "public-research-index",
+      "role": "Open preprint metadata for computational biology and frontier science.",
+      "status": "ok",
+      "checkedAt": "2026-06-25T11:31:36.512Z",
+      "itemCount": 8,
+      "usableItemCount": 4,
+      "newestItemAt": "2026-06-23T17:25:04.000Z",
+      "warning": "",
+      "isAllowlisted": true,
+      "isBigPharmaRelated": false
+    },
+    {
+      "id": "biorxiv",
+      "name": "bioRxiv",
+      "url": "https://www.biorxiv.org/",
+      "sourceType": "preprint-server",
+      "role": "Public biology preprint metadata for longevity and biotechnology topics.",
+      "status": "ok",
+      "checkedAt": "2026-06-25T11:31:39.255Z",
+      "itemCount": 1,
+      "usableItemCount": 1,
+      "newestItemAt": "2026-05-26T00:00:00.000Z",
+      "warning": "",
+      "isAllowlisted": true,
+      "isBigPharmaRelated": false
+    },
+    {
+      "id": "crossref",
+      "name": "Crossref",
+      "url": "https://www.crossref.org/",
+      "sourceType": "public-research-index",
+      "role": "Public scholarly metadata expansion for longevity and frontier biology.",
+      "status": "ok",
+      "checkedAt": "2026-06-25T11:31:42.155Z",
+      "itemCount": 10,
+      "usableItemCount": 10,
+      "newestItemAt": "2026-05-01T00:00:00.000Z",
+      "warning": "",
+      "isAllowlisted": true,
+      "isBigPharmaRelated": false
+    },
+    {
+      "id": "lifespan",
+      "name": "Lifespan.io",
+      "url": "https://www.lifespan.io/news/",
+      "sourceType": "independent-longevity",
+      "role": "Independent longevity coverage from the Herbalisti source allowlist.",
+      "status": "ok",
+      "checkedAt": "2026-06-25T11:31:37.232Z",
+      "itemCount": 8,
+      "usableItemCount": 5,
+      "newestItemAt": "2026-06-23T16:18:19.000Z",
+      "warning": "",
+      "isAllowlisted": true,
+      "isBigPharmaRelated": false
+    },
+    {
+      "id": "fightaging",
+      "name": "Fight Aging!",
+      "url": "https://www.fightaging.org/",
+      "sourceType": "independent-longevity",
+      "role": "Independent longevity commentary from the Herbalisti source allowlist.",
+      "status": "ok",
+      "checkedAt": "2026-06-25T11:31:37.396Z",
+      "itemCount": 8,
+      "usableItemCount": 6,
+      "newestItemAt": "2026-06-25T10:22:59.000Z",
+      "warning": "",
+      "isAllowlisted": true,
+      "isBigPharmaRelated": false
+    }
+  ],
+  "items": [
+    {
+      "id": "fightaging-158lldq",
+      "title": "Fundamental Research into Centenarian Biochemistry Continues",
+      "sourceName": "Fight Aging!",
+      "url": "https://www.fightaging.org/archives/2026/06/fundamental-research-into-centenarian-biochemistry-continues/",
+      "publishedAt": "2026-06-25T10:22:59.000Z",
+      "summary": "Independent longevity commentary from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
+      "id": "fightaging-15o56q6",
+      "title": "The \"Telomere Rivers\" Approach Aiming at an Initial Academic Phase 1 Trial",
+      "sourceName": "Fight Aging!",
+      "url": "https://www.fightaging.org/archives/2026/06/the-telomere-rivers-approach-aiming-at-an-initial-academic-phase-1-trial/",
+      "publishedAt": "2026-06-25T10:11:36.000Z",
+      "summary": "Independent longevity commentary from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
+      "id": "fightaging-1xnvg8i",
+      "title": "DNA R-Loops in the Cytoplasm Drive Senescent Cell Inflammatory Signaling",
+      "sourceName": "Fight Aging!",
+      "url": "https://www.fightaging.org/archives/2026/06/dna-r-loops-in-the-cytoplasm-drive-senescent-cell-inflammatory-signaling/",
+      "publishedAt": "2026-06-24T10:11:58.000Z",
+      "summary": "Independent longevity commentary from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
+      "id": "fightaging-qlsqwz",
+      "title": "Mapping the Burden of Cellular Senescence in Aged Humans in Detail",
+      "sourceName": "Fight Aging!",
+      "url": "https://www.fightaging.org/archives/2026/06/mapping-the-burden-of-cellular-senescence-in-aged-humans-in-detail/",
+      "publishedAt": "2026-06-23T18:03:33.000Z",
+      "summary": "Independent longevity commentary from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
+      "id": "arxiv-2606.25006v1",
+      "title": "Scalable Peptide Design via Memory-Efficient Equivariant Transformer",
+      "sourceName": "arXiv",
+      "url": "http://arxiv.org/abs/2606.25006v1",
+      "publishedAt": "2026-06-23T17:25:04.000Z",
+      "summary": "Open preprint metadata matching Herbalisti frontier-biology topics.",
+      "topics": [
+        "Peptides"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "lifespan-jotp7f",
+      "title": "Biological Aging May Be Driving Increased Early-Onset Cancer",
+      "sourceName": "Lifespan.io",
+      "url": "https://lifespan.io/biological-aging-may-be-driving-increased-early-onset-cancer/",
+      "publishedAt": "2026-06-23T16:18:19.000Z",
+      "summary": "Independent longevity coverage from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
+      "id": "arxiv-2606.24487v1",
+      "title": "CABS-flex standalone 3: an open command-line platform for protein flexibility simulation, peptide structure modeling, and protein-peptide docking",
+      "sourceName": "arXiv",
+      "url": "http://arxiv.org/abs/2606.24487v1",
+      "publishedAt": "2026-06-23T12:20:09.000Z",
+      "summary": "Open preprint metadata matching Herbalisti frontier-biology topics.",
+      "topics": [
+        "Peptides"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "fightaging-r12n4u",
+      "title": "Why Does the Presence of Neovascular Macular Degeneration Correlate with Increased Cancer Risk?",
+      "sourceName": "Fight Aging!",
+      "url": "https://www.fightaging.org/archives/2026/06/why-does-the-presence-of-neovascular-macular-degeneration-correlate-with-increased-cancer-risk/",
+      "publishedAt": "2026-06-23T10:22:30.000Z",
+      "summary": "Independent longevity commentary from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
+      "id": "fightaging-1j72op8",
+      "title": "FGF21 Gene Therapy Improves Health in Aged Mice",
+      "sourceName": "Fight Aging!",
+      "url": "https://www.fightaging.org/archives/2026/06/fgf21-gene-therapy-improves-health-in-aged-mice/",
+      "publishedAt": "2026-06-23T10:11:57.000Z",
+      "summary": "Independent longevity commentary from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity",
+        "Gene therapy"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
+      "id": "arxiv-2606.23253v1",
+      "title": "Reduced-Alphabet QUBO/Ising Formulation for Constraint-Driven Cyclic Peptide Sequence Design",
+      "sourceName": "arXiv",
+      "url": "http://arxiv.org/abs/2606.23253v1",
+      "publishedAt": "2026-06-22T12:34:39.000Z",
+      "summary": "Open preprint metadata matching Herbalisti frontier-biology topics.",
+      "topics": [
+        "Peptides"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "arxiv-2606.22037v1",
+      "title": "Automation and Aging in General Equilibrium: AI Capital, Fertility, and the Return to Capital",
+      "sourceName": "arXiv",
+      "url": "http://arxiv.org/abs/2606.22037v1",
+      "publishedAt": "2026-06-20T13:24:50.000Z",
+      "summary": "Open preprint metadata matching Herbalisti frontier-biology topics.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "lifespan-1kavqvf",
+      "title": "Epigenetic Drug Targets Fat, Improving Blood Vessel Health",
+      "sourceName": "Lifespan.io",
+      "url": "https://lifespan.io/epigenetic-drug-targets-fat-improving-blood-vessel-health/",
+      "publishedAt": "2026-06-19T17:04:10.000Z",
+      "summary": "Independent longevity coverage from the Herbalisti source allowlist.",
+      "topics": [
+        "DNA modification"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
+      "id": "lifespan-bio06b",
+      "title": "How Antioxidants Can Selectively Remove Some Senescent Cells",
+      "sourceName": "Lifespan.io",
+      "url": "https://lifespan.io/how-antioxidants-can-selectively-remove-some-senescent-cells/",
+      "publishedAt": "2026-06-18T18:15:22.000Z",
+      "summary": "Independent longevity coverage from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
+      "id": "lifespan-eoqy81",
+      "title": "Late-Life Gene Therapy Boosts Lifespan in Mice by 20%",
+      "sourceName": "Lifespan.io",
+      "url": "https://lifespan.io/late-life-gene-therapy-boosts-lifespan-in-mice-by-20/",
+      "publishedAt": "2026-06-16T16:24:07.000Z",
+      "summary": "Independent longevity coverage from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity",
+        "Gene therapy"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
+      "id": "lifespan-5mv6pi",
+      "title": "How Senescent Cells Grow the Homes of Cancerous Tumors",
+      "sourceName": "Lifespan.io",
+      "url": "https://lifespan.io/how-senescent-cells-grow-the-homes-of-cancerous-tumors/",
+      "publishedAt": "2026-06-15T19:57:28.000Z",
+      "summary": "Independent longevity coverage from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
+      "id": "biorxiv-10.64898/2026.05.24.727526",
+      "title": "HAX1 drives assembly and activation of the mitochondrial intermembrane space chaperone CLPB",
+      "sourceName": "bioRxiv",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.24.727526v1",
+      "publishedAt": "2026-05-26T00:00:00.000Z",
+      "summary": "Public preprint metadata in biochemistry.",
+      "topics": [
+        "Peptides"
+      ],
+      "sourceType": "preprint-server"
+    },
+    {
+      "id": "crossref-1vdipj2",
+      "title": "CRISPR Genome Editing and the Future of Leukaemia Immunotherapy",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.1002/hsr2.72497",
+      "publishedAt": "2026-05-01T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Health Science Reports.",
+      "topics": [
+        "Gene editing",
+        "CRISPR"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "crossref-193po1j",
+      "title": "CRISPR-Cas9 Genome Editing of Cotton JAZ genes for Helicoverpa zea and H. armigera herbivory resistance",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.1094/grow-cot-12-25-522",
+      "publishedAt": "2025-12-29T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Grow: Plant Health Exchange.",
+      "topics": [
+        "Gene editing",
+        "CRISPR"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "crossref-925bek",
+      "title": "Therapeutic applications of CRISPR-Cas9 gene editing",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.3389/fgeed.2025.1724291",
+      "publishedAt": "2025-12-16T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Frontiers in Genome Editing.",
+      "topics": [
+        "Gene editing",
+        "CRISPR"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "crossref-15fszgf",
+      "title": "Current Applications and Future Perspective of CRISPR/Cas9 Gene Editing in Cancer Therapy",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.62051/ijphmr.v5n1.06",
+      "publishedAt": "2025-10-22T00:00:00.000Z",
+      "summary": "Public Crossref metadata from International Journal of Public Health and Medical Research.",
+      "topics": [
+        "Gene editing",
+        "CRISPR"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "crossref-mucr5n",
+      "title": "Gene, Base, and Prime Editing",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.1142/9781800617537_0009",
+      "publishedAt": "2025-09-22T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Gene Transfer, Genome Editing and Gene Therapy.",
+      "topics": [
+        "Gene therapy",
+        "Gene editing"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "crossref-16l21t7",
+      "title": "Progress and Criteria in Public Health Applications of Gene Therapy and Gene Editing: Beyond the White Paper",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.1159/000546850",
+      "publishedAt": "2025-06-18T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Public Health Genomics.",
+      "topics": [
+        "Gene therapy",
+        "Gene editing",
+        "CRISPR"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "crossref-10a10w8",
+      "title": "Advances and Applications of CRISPR Gene Editing in Tumor Therapy",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.31058/j.hr.2025.94015",
+      "publishedAt": "2025-01-01T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Health Research.",
+      "topics": [
+        "Gene editing",
+        "CRISPR"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "crossref-1pmasy0",
+      "title": "CRISPR and Gene Editing: A New Frontier in Healthcare",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.55938/wlp.v1i1.85",
+      "publishedAt": "2024-10-28T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Emerging Trends in Biotechnology Transforming Health Services.",
+      "topics": [
+        "Gene therapy",
+        "Gene editing",
+        "CRISPR",
+        "Health as a service"
+      ],
+      "sourceType": "public-research-index"
+    }
+  ]
+}

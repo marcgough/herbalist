@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64240830R",
+  "title": "A pocket manual, or repertory of homoeopathic medicine : alphabetically and nosologically arranged, which may be used as the physician's vade-mecum, the traveller's medical companion, or the family physician : containing the principal remedies for the most important diseases, symptoms, sensations, characteristics of diseases, etc. : with the principal pathogenetic effects of the medicines on the most important organs and functions of the body : together with diagnosis, explanation of technical terms, directions for the selection and exhibition of remedies, rules of diet, etc., etc. compiled from the best homoeopathic authorities",
+  "creator": "Bryant, J. (Joel), 1813-1868.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64240830R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64240830R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64240830R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 874,
+  "paragraphCount": 1035,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64240830R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64240830R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64240830R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64240830R.jsonl",
+  "rawSha256": "3050daac2053d79051220d4ac22de20c8b20155685c96a155b8dac3c886712cc",
+  "normalizedSha256": "a16ee2c80306533989fb201fa96af0716c364885168c53489fb5c5bea687c166",
+  "processedAt": "2026-06-16T23:51:03.943Z"
+}

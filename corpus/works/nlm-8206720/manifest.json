@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-8206720",
+  "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practioners",
+  "creator": "Buchan, William, 1729-1805.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8206720-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-8206720-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/8206720",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1707,
+  "paragraphCount": 1916,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-8206720\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-8206720\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-8206720\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-8206720.jsonl",
+  "rawSha256": "870a8a007cbda555e98d6b77911ce486a2e0d5668b5e3a56d83603d16bb81c0c",
+  "normalizedSha256": "f1002711b9ab604e81e8c844fcfaa65ab90c9792c4a514889af83c3881d520bf",
+  "processedAt": "2026-06-16T23:27:41.475Z"
+}

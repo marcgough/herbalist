@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-byeakhqd",
+  "title": "The pharmacopoeia of the Royal College of Physicians of Edinburgh. Faithfully translated from the fourth edition. With useful notes on the materia medica and practical observations on the preparations both simple and compound ; To which are added, the prescriptions as well extemporaneous and officinal, in the use at the Royal Hospital / By W. Lewis.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/byeakhqd",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30539833",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/byeakhqd",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;pharmacopoeia",
+  "chunkCount": 834,
+  "paragraphCount": 849,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-byeakhqd\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-byeakhqd\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-byeakhqd\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-byeakhqd.jsonl",
+  "rawSha256": "627013cb022baefc682abe12eb3ed24dacdcd759b6b3c016968fe5fe8d77c523",
+  "normalizedSha256": "a0c393292294f13dc834229ab3bbf589b30af7d9a4580ed9012a4a702854e576",
+  "processedAt": "2026-06-16T23:09:17.620Z"
+}

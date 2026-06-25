@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-tbf695rc",
+  "title": "Theatrum botanicum: the theater of plants. Or, an herball of large extent: containing therein a more ample and exact history and declaration of the physicall herbs and plants that are in other authours, encreased by the access of many hundred new ... plants from all parts of the world, with sundry gummes, and other physicall material ... and a most large demonstration of their natures and vertues. Distributed into sundry classes or tribes, for the more easie knowledge of the many herbes of one nature and property ... collected ... / by John Parkinson Apothecary of London, and the Kings herbarist.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/tbf695rc",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30329255",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/tbf695rc",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 17831,
+  "paragraphCount": 21586,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-tbf695rc\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-tbf695rc\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-tbf695rc\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-tbf695rc.jsonl",
+  "rawSha256": "7468dcb78c73db6b6a14b675bdccafe3bb66db6b464d8271631b1d3846e84cd3",
+  "normalizedSha256": "75faa8f64a2e777719dfe734d63831d7dfdcba69e2d32e3470ee44bce1127cbe",
+  "processedAt": "2026-06-16T23:54:05.197Z"
+}

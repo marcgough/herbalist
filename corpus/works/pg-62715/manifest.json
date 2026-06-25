@@ -1,0 +1,20 @@
+{
+  "workId": "pg-62715",
+  "title": "Drug Plants Under Cultivation",
+  "creator": "Stockberger, W. W. (Warner Webster), 1872-1944",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/62715",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/62715/pg62715.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/62715.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "medicinal-plants;cultivation;botany",
+  "chunkCount": 173,
+  "paragraphCount": 407,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-62715\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-62715\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-62715.jsonl",
+  "rawSha256": "7cd13eb2f8c2ae704fa5984f7e0306ecab02a648a35a12db7a4f78e0a2dfffd8",
+  "normalizedSha256": "f37ca6d8c20fbc66f09aff1472b6cfb4f4165a456fdf385c1e0d1cd957deece6",
+  "processedAt": "2026-06-16T13:39:12.736Z"
+}

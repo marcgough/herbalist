@@ -1,0 +1,1148 @@
+{
+  "profile_id": "seed-foxglove",
+  "family_id": "seed-foxglove",
+  "canonical_name": "Foxglove",
+  "canonical_key": "foxglove",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-digitalis-94bca81b02#digitalis",
+    "term-foxglove-23df009e7f#foxglove"
+  ],
+  "decision_note": "merge digitalis naming into the main foxglove family",
+  "metrics": {
+    "total_mentions": 1038,
+    "total_chunks": 919,
+    "total_works": 299,
+    "matched_chunk_count": 919,
+    "matched_work_count": 299,
+    "matched_mention_total": 951
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Foxglove",
+      "Digitalis"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217315",
+      "nlm-0217317"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1036",
+      "nlm-0140313-chunk-1215",
+      "nlm-0217315-chunk-1061"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 808
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 129
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 25
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 348,
+        "work_count": 166
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 118,
+        "work_count": 97
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 116,
+        "work_count": 86
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 96,
+        "work_count": 67
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 64,
+        "work_count": 55
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 52,
+        "work_count": 43
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 28,
+        "work_count": 25
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 21,
+        "work_count": 18
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 16,
+        "work_count": 14
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 15,
+        "work_count": 13
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 551,
+        "work_count": 238
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 260,
+        "work_count": 157
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 198,
+        "work_count": 140
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 125,
+        "work_count": 90
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 117,
+        "work_count": 97
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 114,
+        "work_count": 83
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 95,
+        "work_count": 72
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 94,
+        "work_count": 68
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 77,
+        "work_count": 55
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 48,
+        "work_count": 35
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 453,
+        "work_count": 205
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 169,
+        "work_count": 121
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 52,
+        "work_count": 35
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 36,
+        "work_count": 31
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 34,
+        "work_count": 25
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 26,
+        "work_count": 23
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 25,
+        "work_count": 24
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 77,
+        "work_count": 64
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 72,
+        "work_count": 64
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 62,
+        "work_count": 54
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 61,
+        "work_count": 52
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 46,
+        "work_count": 41
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 40,
+        "work_count": 38
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 37,
+        "work_count": 35
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 34,
+        "work_count": 33
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 34,
+        "work_count": 27
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 30,
+        "work_count": 23
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 35,
+      "matched_mention_count": 35
+    },
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "nlm-63570290R",
+      "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide",
+      "creator": "Ewell, James, 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;medicinal-plants;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570290R-bk",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-jfx4av9y",
+      "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plants : also, the nurse's guide / by James Ewell.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;medicinal-plants;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jfx4av9y",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-skdfu5qa",
+      "title": "The elements of materia medica. Comprehending the natural history, preparation, properties, composition, effects and uses of medicines / [Jonathan Pereira].",
+      "creator": "",
+      "publication_year": "1839",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/skdfu5qa",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "nlm-63570280R",
+      "title": "The medical companion, or, Family physician: treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide",
+      "creator": "Ewell, James, 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;medicinal-plants;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570280R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-jmh3m2rt",
+      "title": "A cyclopedia of domestic medicine and surgery: being an alphabetical account of the various diseases incident to the human frame ... also, instructions for administering the various substances used in medicine; for the regulation of diet and regimen / by Thomas Andrew, with contributions by several members of the Royal College of Surgeons, Edinburgh.",
+      "creator": "",
+      "publication_year": "1844",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jmh3m2rt",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-ggfm35sx",
+      "title": "Domestic medicine and surgery : with a glossary of the terms used therein / by J.H. Walsh.",
+      "creator": "",
+      "publication_year": "1875",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/ggfm35sx",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-hrsc7hbu-chunk-0315",
+        "work_id": "wellcome-hrsc7hbu",
+        "title": "Medical botany; or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias : Comprising a poular and scientific account of poisonous vegetables indigenous to Great Britain / By John Stephenson and James Morss Churchill.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/hrsc7hbu",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Orfila also made an extensive series of experiments upon ani- mals, with the powder, extract, and tincture of the leaves of fox- glove, and from these it appears to cause, in moderate doses, vomiting, giddiness, langu...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63560500R-chunk-1699",
+        "work_id": "nlm-63560500R",
+        "title": "Booth's manual of domestic medicine and guide to health and long life : a book for every family, describing in plain practical language the laws and rules of health and how to regain and maintain it : a treatise on anatomy, physiology and hygiene, including the treatment and cure of diseases of all kinds, plain directions for preparing and administering medicines, special attention given to the treatment of diseases of women and children, careful instructions for the nursing and care of the sick, a copious materia medica , etc. etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "DISEASES OF THE INTESTINES",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560500R-bk",
+        "matched_herbs": [
+          "Digitalis"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The least draft of air will always cause a slight chill, which is often the precursor of serious resulting diseases. The presence of urea—a constituent of the urine remaining in the blood—is the most dreaded condition...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1587",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Colic"
+        ],
+        "excerpt": "Strain and take a tablespoonful every two hours. Tincture of opium 6 drops. Ipecauanha wine 1 drachm. Simple syrup 3 drachms. Carbonate of soda 24 grains. Water 1 ounce. This mixture may be given in whooping cough, th...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-t7nph439-chunk-0346",
+        "work_id": "wellcome-t7nph439",
+        "title": "Medical botany; or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias. Comprising a popular and scientific account of poisonous vegetables indigenous to Great Britain / By John Stephenson and James Morss Churchill.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t7nph439",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Wash",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "—The effects of Digitalis must be combated by . cordials ; as, for example, brandy, punch, aromatic confection, and ammonia. As the infusion of yellow bark, (Cinchona cordifolia) forms an insoluble precipitate with bo...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0314",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Dropsy"
+        ],
+        "excerpt": "Spirit of nitre, half an ounce. Syrup of poppies, one ounce. Mix, and take three table-spoonfuls three times a day. TINCTURE OF GUAIACUM, VOLATILE. TINCTURE OF FOXGLOVE. French. Teinture de Digitale. Is frequently adm...",
+        "score": 42
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-hrsc7hbu-chunk-0315",
+        "work_id": "wellcome-hrsc7hbu",
+        "title": "Medical botany; or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias : Comprising a poular and scientific account of poisonous vegetables indigenous to Great Britain / By John Stephenson and James Morss Churchill.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/hrsc7hbu",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Orfila also made an extensive series of experiments upon ani- mals, with the powder, extract, and tincture of the leaves of fox- glove, and from these it appears to cause, in moderate doses, vomiting, giddiness, langu...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63560500R-chunk-1699",
+        "work_id": "nlm-63560500R",
+        "title": "Booth's manual of domestic medicine and guide to health and long life : a book for every family, describing in plain practical language the laws and rules of health and how to regain and maintain it : a treatise on anatomy, physiology and hygiene, including the treatment and cure of diseases of all kinds, plain directions for preparing and administering medicines, special attention given to the treatment of diseases of women and children, careful instructions for the nursing and care of the sick, a copious materia medica , etc. etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "DISEASES OF THE INTESTINES",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560500R-bk",
+        "matched_herbs": [
+          "Digitalis"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The least draft of air will always cause a slight chill, which is often the precursor of serious resulting diseases. The presence of urea—a constituent of the urine remaining in the blood—is the most dreaded condition...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1587",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Colic"
+        ],
+        "excerpt": "Strain and take a tablespoonful every two hours. Tincture of opium 6 drops. Ipecauanha wine 1 drachm. Simple syrup 3 drachms. Carbonate of soda 24 grains. Water 1 ounce. This mixture may be given in whooping cough, th...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-t7nph439-chunk-0346",
+        "work_id": "wellcome-t7nph439",
+        "title": "Medical botany; or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias. Comprising a popular and scientific account of poisonous vegetables indigenous to Great Britain / By John Stephenson and James Morss Churchill.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t7nph439",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Wash",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "—The effects of Digitalis must be combated by . cordials ; as, for example, brandy, punch, aromatic confection, and ammonia. As the infusion of yellow bark, (Cinchona cordifolia) forms an insoluble precipitate with bo...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0314",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Dropsy"
+        ],
+        "excerpt": "Spirit of nitre, half an ounce. Syrup of poppies, one ounce. Mix, and take three table-spoonfuls three times a day. TINCTURE OF GUAIACUM, VOLATILE. TINCTURE OF FOXGLOVE. French. Teinture de Digitale. Is frequently adm...",
+        "score": 42
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-hrsc7hbu-chunk-0315",
+        "work_id": "wellcome-hrsc7hbu",
+        "title": "Medical botany; or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias : Comprising a poular and scientific account of poisonous vegetables indigenous to Great Britain / By John Stephenson and James Morss Churchill.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/hrsc7hbu",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Orfila also made an extensive series of experiments upon ani- mals, with the powder, extract, and tincture of the leaves of fox- glove, and from these it appears to cause, in moderate doses, vomiting, giddiness, langu...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63560500R-chunk-1699",
+        "work_id": "nlm-63560500R",
+        "title": "Booth's manual of domestic medicine and guide to health and long life : a book for every family, describing in plain practical language the laws and rules of health and how to regain and maintain it : a treatise on anatomy, physiology and hygiene, including the treatment and cure of diseases of all kinds, plain directions for preparing and administering medicines, special attention given to the treatment of diseases of women and children, careful instructions for the nursing and care of the sick, a copious materia medica , etc. etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "DISEASES OF THE INTESTINES",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560500R-bk",
+        "matched_herbs": [
+          "Digitalis"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The least draft of air will always cause a slight chill, which is often the precursor of serious resulting diseases. The presence of urea—a constituent of the urine remaining in the blood—is the most dreaded condition...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1587",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Colic"
+        ],
+        "excerpt": "Strain and take a tablespoonful every two hours. Tincture of opium 6 drops. Ipecauanha wine 1 drachm. Simple syrup 3 drachms. Carbonate of soda 24 grains. Water 1 ounce. This mixture may be given in whooping cough, th...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-t7nph439-chunk-0346",
+        "work_id": "wellcome-t7nph439",
+        "title": "Medical botany; or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias. Comprising a popular and scientific account of poisonous vegetables indigenous to Great Britain / By John Stephenson and James Morss Churchill.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t7nph439",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Wash",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "—The effects of Digitalis must be combated by . cordials ; as, for example, brandy, punch, aromatic confection, and ammonia. As the infusion of yellow bark, (Cinchona cordifolia) forms an insoluble precipitate with bo...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0314",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Dropsy"
+        ],
+        "excerpt": "Spirit of nitre, half an ounce. Syrup of poppies, one ounce. Mix, and take three table-spoonfuls three times a day. TINCTURE OF GUAIACUM, VOLATILE. TINCTURE OF FOXGLOVE. French. Teinture de Digitale. Is frequently adm...",
+        "score": 42
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-hrsc7hbu-chunk-0315",
+        "work_id": "wellcome-hrsc7hbu",
+        "title": "Medical botany; or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias : Comprising a poular and scientific account of poisonous vegetables indigenous to Great Britain / By John Stephenson and James Morss Churchill.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/hrsc7hbu",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Orfila also made an extensive series of experiments upon ani- mals, with the powder, extract, and tincture of the leaves of fox- glove, and from these it appears to cause, in moderate doses, vomiting, giddiness, langu...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63560500R-chunk-1699",
+        "work_id": "nlm-63560500R",
+        "title": "Booth's manual of domestic medicine and guide to health and long life : a book for every family, describing in plain practical language the laws and rules of health and how to regain and maintain it : a treatise on anatomy, physiology and hygiene, including the treatment and cure of diseases of all kinds, plain directions for preparing and administering medicines, special attention given to the treatment of diseases of women and children, careful instructions for the nursing and care of the sick, a copious materia medica , etc. etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "DISEASES OF THE INTESTINES",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560500R-bk",
+        "matched_herbs": [
+          "Digitalis"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The least draft of air will always cause a slight chill, which is often the precursor of serious resulting diseases. The presence of urea—a constituent of the urine remaining in the blood—is the most dreaded condition...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1587",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Colic"
+        ],
+        "excerpt": "Strain and take a tablespoonful every two hours. Tincture of opium 6 drops. Ipecauanha wine 1 drachm. Simple syrup 3 drachms. Carbonate of soda 24 grains. Water 1 ounce. This mixture may be given in whooping cough, th...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-t7nph439-chunk-0346",
+        "work_id": "wellcome-t7nph439",
+        "title": "Medical botany; or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias. Comprising a popular and scientific account of poisonous vegetables indigenous to Great Britain / By John Stephenson and James Morss Churchill.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t7nph439",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Wash",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "—The effects of Digitalis must be combated by . cordials ; as, for example, brandy, punch, aromatic confection, and ammonia. As the infusion of yellow bark, (Cinchona cordifolia) forms an insoluble precipitate with bo...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0314",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Foxglove"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Dropsy"
+        ],
+        "excerpt": "Spirit of nitre, half an ounce. Syrup of poppies, one ounce. Mix, and take three table-spoonfuls three times a day. TINCTURE OF GUAIACUM, VOLATILE. TINCTURE OF FOXGLOVE. French. Teinture de Digitale. Is frequently adm...",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Foxglove is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 299 works and 919 source-linked chunks. Recorded variants include Foxglove, Digitalis. Common plant-part co-mentions include Leaf, Bark, Root, Seed, Flower, Gum. Common preparation co-mentions include Tincture, Infusion, Powder, Oil, Decoction, Extract. Common condition co-mentions include Cold or catarrh, Dropsy, Fever, Vomiting or nausea, Cough, Inflammation. Caution co-mentions include Dose caution, Narcotic or sedative caution, Bleeding caution, Child-use caution, Toxicity watch, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The elements of materia medica and therapeutics / by Jonathan Pereira.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.807Z",
+  "builder": "build-herb-profiles.mjs"
+}

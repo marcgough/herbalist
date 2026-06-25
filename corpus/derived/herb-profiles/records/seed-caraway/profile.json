@@ -1,0 +1,1193 @@
+{
+  "profile_id": "seed-caraway",
+  "family_id": "seed-caraway",
+  "canonical_name": "Caraway",
+  "canonical_key": "caraway",
+  "catalog_status": "seed-ready",
+  "catalog_class": "culinary-medicinal-plant",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-caraway-8d92bcadd1#caraway"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1205,
+    "total_chunks": 1092,
+    "total_works": 313,
+    "matched_chunk_count": 1092,
+    "matched_work_count": 313,
+    "matched_mention_total": 1093
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "culinary-herbs",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Caraway",
+      "Caraways"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217315",
+      "nlm-0217317"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-2722",
+      "nlm-0140313-chunk-2723",
+      "nlm-0140313-chunk-3279"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 587
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 500
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 32
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 664,
+        "work_count": 237
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 261,
+        "work_count": 141
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 191,
+        "work_count": 120
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 157,
+        "work_count": 90
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 146,
+        "work_count": 99
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 125,
+        "work_count": 91
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 92,
+        "work_count": 70
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 84,
+        "work_count": 71
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 65,
+        "work_count": 57
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 39,
+        "work_count": 37
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 656,
+        "work_count": 248
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 417,
+        "work_count": 161
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 259,
+        "work_count": 133
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 186,
+        "work_count": 128
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 157,
+        "work_count": 92
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 151,
+        "work_count": 102
+      },
+      {
+        "id": "cordial",
+        "label": "Cordial",
+        "signal_count": 90,
+        "work_count": 69
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 76,
+        "work_count": 50
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 68,
+        "work_count": 58
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 64,
+        "work_count": 56
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 364,
+        "work_count": 160
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 113,
+        "work_count": 74
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 89,
+        "work_count": 69
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 20,
+        "work_count": 20
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 73,
+        "work_count": 62
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 69,
+        "work_count": 59
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 39,
+        "work_count": 34
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 39,
+        "work_count": 29
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 38,
+        "work_count": 33
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 36,
+        "work_count": 32
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 34,
+        "work_count": 33
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 19,
+        "work_count": 19
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 19,
+        "work_count": 17
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 18,
+        "work_count": 18
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "wellcome-dwk6bbmw",
+      "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "wellcome-c3u76kss",
+      "title": "The Edinburgh new dispensatory : Containing I. The elements of pharmaceutical chemistry. II. The materia medica; or, The natural, pharmaceutical and medical history, of the substances employed in medicine. III. The pharmaceutical preparations and compositions. Including translations of the latest editions of the London, Edinburgh, and Dublin pharmacopoeias / by Andrew Duncan.",
+      "creator": "",
+      "publication_year": "1813",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/c3u76kss",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 15
+    },
+    {
+      "work_id": "wellcome-nhx2ne6y",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-yydaj72m",
+      "title": "The Edinburgh new dispensatory : containing 1. The elements of pharmaceutical chemistry. 2. The materia medica ... 3. The pharmaceutical preparations and compositions ; including translations of the London pharmacopoeia of 1825 ... / By Andrew Duncan.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/yydaj72m",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-z9zb342q",
+      "title": "The Edinburgh new dispensatory : containing, I. The elements of pharmaceutical chemistry: II. The materia medica, or, The natural, pharmaceutical, and medical history, of the substances employed in medicine: III. The pharmaceutical preparations and compositions including translations of the Edinburgh Pharmacopoeia published in 1817, of the Dublin Pharmacopoeia in 1807, and of the London Pharmacopoeia in 1815. Illustrated and explained in the languages, and according to the principles, of modern chemistry. With numerous tables / by Andrew Duncan, Jun.",
+      "creator": "",
+      "publication_year": "1822",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/z9zb342q",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-vpb463s2",
+      "title": "The Edinburgh new dispensatory containing 1. The elements of pharmaceutical chemistry. 2. The materia medica ... 3. The pharmaceutical preparations and compositions. Including translations of the London pharmacopoeia of 1825 ... Edinburgh pharmacopoeia ... 1817; Dublin pharmacopoeia ... 1807 / By Andrew Duncan.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/vpb463s2",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-rdpvqpcm",
+      "title": "A manual of pharmacy / by William Thomas Brande.",
+      "creator": "",
+      "publication_year": "1825",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/rdpvqpcm",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0623",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Ammoniacal Syrup for Croup. Carbonate of ammonia, one drachm. Syrup of squills, eight ounces. Mix. One table-spoonful may be taken every three hours. Anti-Croup Mixture of the Parieian HotpitaU. Decoction of seneka ro...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-1556",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Bitter root, 8 oz. Barberry bark, 2 oz. Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2097",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Dysentery",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two ounces of brown sugar, into a quart of...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0082",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "In putrid eructations of dyspepsia, obstinate constipation; to relieve the nausea of pregnancy, and as a cataplasm with linseed meal to fetid ulcers; the best tooth-powder. Dose. Gr. x to 9j united with rhubarb. CAEDA...",
+        "score": 46
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0623",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Ammoniacal Syrup for Croup. Carbonate of ammonia, one drachm. Syrup of squills, eight ounces. Mix. One table-spoonful may be taken every three hours. Anti-Croup Mixture of the Parieian HotpitaU. Decoction of seneka ro...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-1556",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Bitter root, 8 oz. Barberry bark, 2 oz. Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2097",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Dysentery",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two ounces of brown sugar, into a quart of...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0082",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "In putrid eructations of dyspepsia, obstinate constipation; to relieve the nausea of pregnancy, and as a cataplasm with linseed meal to fetid ulcers; the best tooth-powder. Dose. Gr. x to 9j united with rhubarb. CAEDA...",
+        "score": 46
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0623",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Ammoniacal Syrup for Croup. Carbonate of ammonia, one drachm. Syrup of squills, eight ounces. Mix. One table-spoonful may be taken every three hours. Anti-Croup Mixture of the Parieian HotpitaU. Decoction of seneka ro...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-1556",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Bitter root, 8 oz. Barberry bark, 2 oz. Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2097",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Dysentery",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two ounces of brown sugar, into a quart of...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0082",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "In putrid eructations of dyspepsia, obstinate constipation; to relieve the nausea of pregnancy, and as a cataplasm with linseed meal to fetid ulcers; the best tooth-powder. Dose. Gr. x to 9j united with rhubarb. CAEDA...",
+        "score": 46
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0623",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Ammoniacal Syrup for Croup. Carbonate of ammonia, one drachm. Syrup of squills, eight ounces. Mix. One table-spoonful may be taken every three hours. Anti-Croup Mixture of the Parieian HotpitaU. Decoction of seneka ro...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-1556",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Bitter root, 8 oz. Barberry bark, 2 oz. Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2097",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Dysentery",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two ounces of brown sugar, into a quart of...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0082",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Caraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "In putrid eructations of dyspepsia, obstinate constipation; to relieve the nausea of pregnancy, and as a cataplasm with linseed meal to fetid ulcers; the best tooth-powder. Dose. Gr. x to 9j united with rhubarb. CAEDA...",
+        "score": 46
+      }
+    ]
+  },
+  "retrieval_text": "Caraway is a culinary medicinal plant profile in the Herbalisti historical corpus. It is represented across 313 works and 1092 source-linked chunks. Recorded variants include Caraway, Caraways. Common plant-part co-mentions include Seed, Root, Leaf, Berry, Flower, Bark. Common preparation co-mentions include Oil, Powder, Syrup, Pill, Tincture, Extract. Common condition co-mentions include Cold or catarrh, Colic, Diarrhoea or looseness, Cough, Wounds or ulcers, Fever. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Toxicity watch, Allergy or sensitivity caution, Bleeding caution. Representative source works include Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.; The Edinburgh new dispensatory : Containing I. The elements of pharmaceutical chemistry. II. The materia medica; or, The natural, pharmaceutical and medical history, of the substances employed in medicine. III. The pharmaceutical preparations and compositions. Including translations of the latest editions of the London, Edinburgh, and Dublin pharmacopoeias / by Andrew Duncan.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.651Z",
+  "builder": "build-herb-profiles.mjs"
+}

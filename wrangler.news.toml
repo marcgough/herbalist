@@ -1,0 +1,12 @@
+name = "herbalisti-news-refresh"
+main = "workers/news-refresh.js"
+compatibility_date = "2026-06-15"
+
+[triggers]
+crons = ["17 */6 * * *"]
+
+# Uncomment after creating the D1 database:
+# [[d1_databases]]
+# binding = "HERBALISTI_DB"
+# database_name = "herbalisti"
+# database_id = "<replace-after-running-wrangler-d1-create>"

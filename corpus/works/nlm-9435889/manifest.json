@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-9435889",
+  "title": "The family physician and the farmer's companion",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435889-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-9435889-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/9435889",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 70,
+  "paragraphCount": 103,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9435889\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9435889\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-9435889\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-9435889.jsonl",
+  "rawSha256": "56f8e367fc7e54a32289280f34f4c5ec298cf7851bdf1eccc03bd2ff94d5bf2d",
+  "normalizedSha256": "103952835c76bfe1dfb9f9af7271a3d8ff01bcb9497d7339d4545910a3b7534c",
+  "processedAt": "2026-06-17T16:52:54.130Z"
+}

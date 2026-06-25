@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-0312624",
+  "title": "The compendium of health : pertaining to the physical life of man and the animals which serve him, including the horse, ox, sheep, hog, dog, cat, poultry, and birds : embracing anatomy, physiology, and hygiene, the cure and prevention of disease, the peculiar functions and disorders of the maid, wife, mother, and babe, the nursing of children and the sick, medicinal recipes, accidents, injuries, and poisons, the care and improvement of the domestic animals, etc., etc",
+  "creator": "Hale, Edwin M. (Edwin Moses), 1829-1899.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0312624-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-0312624-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/0312624",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;nursing",
+  "chunkCount": 239,
+  "paragraphCount": 239,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0312624\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0312624\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-0312624\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-0312624.jsonl",
+  "rawSha256": "85baf6d1141e3186362f49a1e4f9eb2f6ce15b408a5a34d678912bdda9bf4189",
+  "normalizedSha256": "04bbb9b97422e2c205458b9c08a9405a2017557dfa6b2dc1ecbfb80f7329443e",
+  "processedAt": "2026-06-18T14:58:20.794Z"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Herbalisti launch governance",
+  "version": "2026-06-16",
+  "medicalBoundary": {
+    "status": "educational_research_interface",
+    "summary": "Herbalisti is an educational research interface only. It does not diagnose, treat, prescribe, or replace professional care.",
+    "requiresProfessionalCare": true
+  },
+  "sourcePolicy": {
+    "mode": "allowlist_first",
+    "bigPharmaDefault": "excluded_unless_explicitly_approved",
+    "traceability": "Every public signal should retain source name, URL, date, source type, and topic tags.",
+    "reviewCadence": "quarterly_or_before_source_expansion",
+    "conflictHandling": "Independent commentary sources with disclosed commercial or biotech conflicts may be labeled and used as commentary, not as primary research evidence."
+  },
+  "privacy": {
+    "publicLaunchDefault": "No user accounts, personal health records, payment forms, or private medical intake are collected in the first public launch.",
+    "futureDataCollection": "If personal data features are added later, publish a reviewed privacy notice before enabling them."
+  },
+  "editorialReview": {
+    "automatedAdvice": "disabled",
+    "humanReview": "Required before publishing generated videos, medical commentary, protocol-style recommendations, or treatment claims."
+  }
+}

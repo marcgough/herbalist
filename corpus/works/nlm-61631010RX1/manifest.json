@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61631010RX1",
+  "title": "The family flora and materia medica botanica: containing the botanical analysis, natural history and chemical and medical properties and uses of plants (Volume 1)",
+  "creator": "Good, Peter P. (Peter Peyto), 1789?-1875.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631010RX1-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61631010RX1-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61631010RX1",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;botany",
+  "chunkCount": 728,
+  "paragraphCount": 1846,
+  "sectionCount": 16,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61631010RX1\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61631010RX1\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61631010RX1\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61631010RX1.jsonl",
+  "rawSha256": "5edc0bc62418b0435dbdf33b34d60efcd0aaf237d32234f73677745f82b7502e",
+  "normalizedSha256": "da40e94b882459e46e643b75689d49d0364940985243954ad4be746856ce6458",
+  "processedAt": "2026-06-18T03:55:30.755Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-n7jvnwj6",
+  "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame, embracing the modern improvements in medicine, to which are added, a domestic materia medica, a copious collection of approved prescriptions, &c. &c,  The whole intended as a comprehensive medical guide for the use of clergymen, heads of families, emigrants etc. / by Thomas J. Graham.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/n7jvnwj6",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b28040314",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/n7jvnwj6",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 2613,
+  "paragraphCount": 2645,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-n7jvnwj6\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-n7jvnwj6\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-n7jvnwj6\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-n7jvnwj6.jsonl",
+  "rawSha256": "b9511c2ea50a669b3d9896ff3660f518eb784a3a4434beccb4f33f6a0af4addc",
+  "normalizedSha256": "0201e2d87775564f344cc56ee2938b08acd7ab1cbb3c9a785119192ed645b4b0",
+  "processedAt": "2026-06-16T23:29:36.550Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61820150R",
+  "title": "The reformed botanic and Indian physician : a complete guide to health",
+  "creator": "Smith, Daniel, 1790-",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61820150R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61820150R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 662,
+  "paragraphCount": 1211,
+  "sectionCount": 10,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61820150R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61820150R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61820150R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61820150R.jsonl",
+  "rawSha256": "492f2c49bec59e590402b199a5e2cec6ef886e0dcf0dfe7f5a72926bb31fe3b2",
+  "normalizedSha256": "7041b71733009c86aa5ddec20bea1dfd57b669b6197a7248bd1965a3b33e04dc",
+  "processedAt": "2026-06-20T02:03:53.456Z"
+}

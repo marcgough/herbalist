@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-cesbv5bm",
+  "title": "Culpeper's Complete English physician enlarged and improved, or, An universal medical herbal, and botanical and astrological practice of physic ... : in three parts ... / By Nicholas Culpeper ; with valuable additions and improvements, by Geo. Alex. Gordon.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/cesbv5bm",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b22040675",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/cesbv5bm",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 2086,
+  "paragraphCount": 2123,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-cesbv5bm\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-cesbv5bm\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-cesbv5bm\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-cesbv5bm.jsonl",
+  "rawSha256": "b29bbba5b387d0eb4503cd0ccee351115e175d5702032a0a27a5852c3bff13b3",
+  "normalizedSha256": "2a5fa81d0e4c45a0930ec5b54ffe2adba8384c3ea5cce2e58cba6ddcef9eb512",
+  "processedAt": "2026-06-16T23:53:00.017Z"
+}

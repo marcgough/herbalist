@@ -1,0 +1,1218 @@
+{
+  "profile_id": "seed-lemon",
+  "family_id": "seed-lemon",
+  "canonical_name": "Lemon",
+  "canonical_key": "lemon",
+  "catalog_status": "seed-ready",
+  "catalog_class": "culinary-medicinal-plant",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-lemon-f464d7d71c#lemon"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 7210,
+    "total_chunks": 6659,
+    "total_works": 757,
+    "matched_chunk_count": 6659,
+    "matched_work_count": 757,
+    "matched_mention_total": 6771
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "culinary-herbs",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Lemon",
+      "Lemons"
+    ],
+    "sample_work_ids": [
+      "nlm-0116421",
+      "nlm-0127160",
+      "nlm-0140313"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0116421-chunk-0100",
+      "nlm-0116421-chunk-0115",
+      "nlm-0127160-chunk-0003"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 4888
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 1944
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 10
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 787,
+        "work_count": 385
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 764,
+        "work_count": 283
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 667,
+        "work_count": 364
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 506,
+        "work_count": 295
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 409,
+        "work_count": 243
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 327,
+        "work_count": 200
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 296,
+        "work_count": 181
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 98,
+        "work_count": 78
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 75,
+        "work_count": 54
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 72,
+        "work_count": 53
+      }
+    ],
+    "preparations": [
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 5165,
+        "work_count": 711
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 1555,
+        "work_count": 509
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 1110,
+        "work_count": 368
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 832,
+        "work_count": 359
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 815,
+        "work_count": 319
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 629,
+        "work_count": 239
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 537,
+        "work_count": 227
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 390,
+        "work_count": 259
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 379,
+        "work_count": 223
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 378,
+        "work_count": 243
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 1054,
+        "work_count": 383
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 533,
+        "work_count": 198
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 380,
+        "work_count": 255
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 338,
+        "work_count": 259
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 331,
+        "work_count": 185
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 141,
+        "work_count": 117
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 97,
+        "work_count": 88
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 79,
+        "work_count": 79
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 59,
+        "work_count": 58
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 1212,
+        "work_count": 387
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 1017,
+        "work_count": 401
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 653,
+        "work_count": 338
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 326,
+        "work_count": 206
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 261,
+        "work_count": 189
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 258,
+        "work_count": 199
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 223,
+        "work_count": 172
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 151,
+        "work_count": 110
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 110,
+        "work_count": 81
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 107,
+        "work_count": 85
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 198,
+      "matched_mention_count": 200
+    },
+    {
+      "work_id": "wellcome-vcp6d7za",
+      "title": "The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.",
+      "creator": "",
+      "publication_year": "1862",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/vcp6d7za",
+      "signal_chunk_count": 148,
+      "matched_mention_count": 148
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 89,
+      "matched_mention_count": 90
+    },
+    {
+      "work_id": "wellcome-m8qd4bew",
+      "title": "The domestic oracle, or, a complete system of modern cookery and family economy ... To the whole are added ... monitions for the preservation of health and ... receipts / [Alexander Murray].",
+      "creator": "",
+      "publication_year": "1850",
+      "collection_id": "wellcome-collection",
+      "topic_family": "dietetics;household-health",
+      "source_url": "https://wellcomecollection.org/works/m8qd4bew",
+      "signal_chunk_count": 59,
+      "matched_mention_count": 59
+    },
+    {
+      "work_id": "nlm-2702091R",
+      "title": "A guide to health through the various stages of life : ... the whole illustrated with useful annotations",
+      "creator": "Lynch, Bernard, -1745.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2702091R-bk",
+      "signal_chunk_count": 45,
+      "matched_mention_count": 45
+    },
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 35,
+      "matched_mention_count": 36
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 35,
+      "matched_mention_count": 35
+    },
+    {
+      "work_id": "wellcome-dwk6bbmw",
+      "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+      "signal_chunk_count": 31,
+      "matched_mention_count": 32
+    },
+    {
+      "work_id": "nlm-2544048R",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544048R-bk",
+      "signal_chunk_count": 30,
+      "matched_mention_count": 30
+    },
+    {
+      "work_id": "nlm-2544050R",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544050R-bk",
+      "signal_chunk_count": 30,
+      "matched_mention_count": 30
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0313",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Mistakes often occur, in collecting other plants for hemlock; which may always be known by purplish spots on the stem and branches. Medicinally the leaves, herb, and seeds are narcotic, sedative, alterative, diuretic,...",
+        "score": 62
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0231",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "By drying the herb loses its acrid principle, and is therefore improved. The dried powder ought to be a fine green. Dose of the dried leaves, gr. iij to 9j twice or thrice a day, in form of pill, and gradually augment...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0230",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "By drying the herb loses its acrid principle, and is therefore improved. The dried powder ought to be a fine green. Dose of the dried leaves, gr. iij to 3j twice or thrice a day, in form of pill, and gradually augment...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-rvdd3tx3-chunk-1575",
+        "work_id": "wellcome-rvdd3tx3",
+        "title": "The medical companion, or family physician treating of the diseases of the United States, with their symptoms, causes, cure and means of prevention ... ; a dispensatory for preparing family medicines, and glossary explaining technical terms To which are added a brief anatomy and physiology of the human body ... an essay on hygiene, or the art of preserving health, without the aid of medicine an American materia medica, pointing out the virtues and doses of our medicinal plants also, the nurse's guide. Embracing a treatise on epidemic ... cholera / By James Ewell.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rvdd3tx3",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "able aromatic smell, and in a decoction sweetened with honey, or in the form of sirup, or a tea-spoonful of the powdered root in mo-, Jasses, is recommended for promoting expectoration in asthma and coughs, The fresh...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-xhd3rjtk-chunk-0370",
+        "work_id": "wellcome-xhd3rjtk",
+        "title": "Elements of dental materia medica and therapeutics, with pharmacopoeia / by James Stocken.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xhd3rjtk",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Liniment",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Liniment—Oil—Seeds. Symptoms. —Burning pain along ali- mentary tract, severe purging, inflam- mation of bowels. A ntidotes, 6,-c. —Emetic (if seen early), demulcent drinks, opium. DIGITALIS. Forms. — Powder—Succus (j...",
+        "score": 50
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0313",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Mistakes often occur, in collecting other plants for hemlock; which may always be known by purplish spots on the stem and branches. Medicinally the leaves, herb, and seeds are narcotic, sedative, alterative, diuretic,...",
+        "score": 62
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0231",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "By drying the herb loses its acrid principle, and is therefore improved. The dried powder ought to be a fine green. Dose of the dried leaves, gr. iij to 9j twice or thrice a day, in form of pill, and gradually augment...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0230",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "By drying the herb loses its acrid principle, and is therefore improved. The dried powder ought to be a fine green. Dose of the dried leaves, gr. iij to 3j twice or thrice a day, in form of pill, and gradually augment...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-rvdd3tx3-chunk-1575",
+        "work_id": "wellcome-rvdd3tx3",
+        "title": "The medical companion, or family physician treating of the diseases of the United States, with their symptoms, causes, cure and means of prevention ... ; a dispensatory for preparing family medicines, and glossary explaining technical terms To which are added a brief anatomy and physiology of the human body ... an essay on hygiene, or the art of preserving health, without the aid of medicine an American materia medica, pointing out the virtues and doses of our medicinal plants also, the nurse's guide. Embracing a treatise on epidemic ... cholera / By James Ewell.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rvdd3tx3",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "able aromatic smell, and in a decoction sweetened with honey, or in the form of sirup, or a tea-spoonful of the powdered root in mo-, Jasses, is recommended for promoting expectoration in asthma and coughs, The fresh...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-xhd3rjtk-chunk-0370",
+        "work_id": "wellcome-xhd3rjtk",
+        "title": "Elements of dental materia medica and therapeutics, with pharmacopoeia / by James Stocken.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xhd3rjtk",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Liniment",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Liniment—Oil—Seeds. Symptoms. —Burning pain along ali- mentary tract, severe purging, inflam- mation of bowels. A ntidotes, 6,-c. —Emetic (if seen early), demulcent drinks, opium. DIGITALIS. Forms. — Powder—Succus (j...",
+        "score": 50
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0313",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Mistakes often occur, in collecting other plants for hemlock; which may always be known by purplish spots on the stem and branches. Medicinally the leaves, herb, and seeds are narcotic, sedative, alterative, diuretic,...",
+        "score": 62
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0231",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "By drying the herb loses its acrid principle, and is therefore improved. The dried powder ought to be a fine green. Dose of the dried leaves, gr. iij to 9j twice or thrice a day, in form of pill, and gradually augment...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0230",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "By drying the herb loses its acrid principle, and is therefore improved. The dried powder ought to be a fine green. Dose of the dried leaves, gr. iij to 3j twice or thrice a day, in form of pill, and gradually augment...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-rvdd3tx3-chunk-1575",
+        "work_id": "wellcome-rvdd3tx3",
+        "title": "The medical companion, or family physician treating of the diseases of the United States, with their symptoms, causes, cure and means of prevention ... ; a dispensatory for preparing family medicines, and glossary explaining technical terms To which are added a brief anatomy and physiology of the human body ... an essay on hygiene, or the art of preserving health, without the aid of medicine an American materia medica, pointing out the virtues and doses of our medicinal plants also, the nurse's guide. Embracing a treatise on epidemic ... cholera / By James Ewell.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rvdd3tx3",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "able aromatic smell, and in a decoction sweetened with honey, or in the form of sirup, or a tea-spoonful of the powdered root in mo-, Jasses, is recommended for promoting expectoration in asthma and coughs, The fresh...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-xhd3rjtk-chunk-0370",
+        "work_id": "wellcome-xhd3rjtk",
+        "title": "Elements of dental materia medica and therapeutics, with pharmacopoeia / by James Stocken.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xhd3rjtk",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Liniment",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Liniment—Oil—Seeds. Symptoms. —Burning pain along ali- mentary tract, severe purging, inflam- mation of bowels. A ntidotes, 6,-c. —Emetic (if seen early), demulcent drinks, opium. DIGITALIS. Forms. — Powder—Succus (j...",
+        "score": 50
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0313",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Mistakes often occur, in collecting other plants for hemlock; which may always be known by purplish spots on the stem and branches. Medicinally the leaves, herb, and seeds are narcotic, sedative, alterative, diuretic,...",
+        "score": 62
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0231",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "By drying the herb loses its acrid principle, and is therefore improved. The dried powder ought to be a fine green. Dose of the dried leaves, gr. iij to 9j twice or thrice a day, in form of pill, and gradually augment...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0230",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "By drying the herb loses its acrid principle, and is therefore improved. The dried powder ought to be a fine green. Dose of the dried leaves, gr. iij to 3j twice or thrice a day, in form of pill, and gradually augment...",
+        "score": 59
+      },
+      {
+        "chunk_id": "wellcome-rvdd3tx3-chunk-1575",
+        "work_id": "wellcome-rvdd3tx3",
+        "title": "The medical companion, or family physician treating of the diseases of the United States, with their symptoms, causes, cure and means of prevention ... ; a dispensatory for preparing family medicines, and glossary explaining technical terms To which are added a brief anatomy and physiology of the human body ... an essay on hygiene, or the art of preserving health, without the aid of medicine an American materia medica, pointing out the virtues and doses of our medicinal plants also, the nurse's guide. Embracing a treatise on epidemic ... cholera / By James Ewell.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rvdd3tx3",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "able aromatic smell, and in a decoction sweetened with honey, or in the form of sirup, or a tea-spoonful of the powdered root in mo-, Jasses, is recommended for promoting expectoration in asthma and coughs, The fresh...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-xhd3rjtk-chunk-0370",
+        "work_id": "wellcome-xhd3rjtk",
+        "title": "Elements of dental materia medica and therapeutics, with pharmacopoeia / by James Stocken.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xhd3rjtk",
+        "matched_herbs": [
+          "Lemon"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Liniment",
+          "Juice",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Liniment—Oil—Seeds. Symptoms. —Burning pain along ali- mentary tract, severe purging, inflam- mation of bowels. A ntidotes, 6,-c. —Emetic (if seen early), demulcent drinks, opium. DIGITALIS. Forms. — Powder—Succus (j...",
+        "score": 50
+      }
+    ]
+  },
+  "retrieval_text": "Lemon is a culinary medicinal plant profile in the Herbalisti historical corpus. It is represented across 757 works and 6659 source-linked chunks. Recorded variants include Lemon, Lemons. Common plant-part co-mentions include Fruit, Bark, Root, Flower, Leaf, Gum. Common preparation co-mentions include Juice, Oil, Syrup, Powder, Tea, Decoction. Common condition co-mentions include Fever, Cold or catarrh, Vomiting or nausea, Diarrhoea or looseness, Inflammation, Wounds or ulcers. Caution co-mentions include Dose caution, Bleeding caution, Narcotic or sedative caution, Child-use caution, Fatal-risk warning, Toxicity watch. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; The domestic oracle, or, a complete system of modern cookery and family economy ... To the whole are added ... monitions for the preservation of health and ... receipts / [Alexander Murray].. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.630Z",
+  "builder": "build-herb-profiles.mjs"
+}

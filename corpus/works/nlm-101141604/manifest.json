@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101141604",
+  "title": "Illustrated domestic medical counsellor. [Pt. 1], Laws of life and health. [Pt. 5], Domestic materia medica : laws and science of life, health and self-preservation",
+  "creator": "Wickes, Edward Z. (Edward Zeus)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101141604-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101141604-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101141604",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;hygiene",
+  "chunkCount": 272,
+  "paragraphCount": 275,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101141604\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101141604\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101141604\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101141604.jsonl",
+  "rawSha256": "8054258231a62e264e82019ce6d5da12ce9af570fedf55c454aff9f2f692b26a",
+  "normalizedSha256": "c1f976ff96a278226b919297968198ec640142ca9772224274d9c496edc1efc8",
+  "processedAt": "2026-06-18T01:37:04.631Z"
+}

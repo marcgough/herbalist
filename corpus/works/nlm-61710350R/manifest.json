@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61710350R",
+  "title": "A catalogue of the medicinal plants , indigenous and exotic, growing in the state of New-York : with a brief account of their composition and medical properties",
+  "creator": "Lee, Charles A. (Charles Alfred), 1801-1872.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61710350R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61710350R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61710350R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medicinal-plants",
+  "chunkCount": 199,
+  "paragraphCount": 245,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61710350R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61710350R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61710350R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61710350R.jsonl",
+  "rawSha256": "1539b6413706b02570c66c4178da9c03ad58d18828c82631b849a293382ea1ea",
+  "normalizedSha256": "51f8ae591e8ba146caab5c2be085bd4d8def2f846c3aa544b0cbaee021094602",
+  "processedAt": "2026-06-17T11:54:30.159Z"
+}

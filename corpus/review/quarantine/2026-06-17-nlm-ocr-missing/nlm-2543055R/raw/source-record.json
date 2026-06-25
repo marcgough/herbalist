@@ -1,0 +1,43 @@
+{
+  "resourceId": "2543055R",
+  "identifier": "http://resource.nlm.nih.gov/2543055R",
+  "title": "American medical botany : being a collection of the native medicinal plants of the United States, containing their botanical history and chemical analysis, and properties and uses in medicine, diet and the arts, with coloured engravings",
+  "creator": "Bigelow, Jacob, 1786-1879.",
+  "publication": "Boston : Published by Cummings and Hilliard, at the Boston Bookstore, no. 1, Cornhill, 1817[-1820]",
+  "publicationYear": "",
+  "formats": [
+    "Text",
+    "Illustrations",
+    "Plates",
+    "3 v. (xi, [2], 18-197, [1]; xvi, [1], 16-199, [1]; x, [1], 12-193, [5] p., LX leaves of plates)"
+  ],
+  "subjects": [
+    "Plants, Medicinal",
+    "Phytotherapy"
+  ],
+  "types": [],
+  "languages": [
+    "English",
+    "english"
+  ],
+  "rights": "The National Library of Medicine believes this item to be in the public domain : https://creativecommons.org/publicdomain/mark/1.0/",
+  "snippet": "... medical botany : being a collection of the native medicinal plants of the United States, containing their botanical history ... medical botany : being a collection of the native medicinal plants of the United States, containing their botanical history ...",
+  "contentByName": {},
+  "documentUrl": "http://resource.nlm.nih.gov/2543055R",
+  "classification": {
+    "score": 56,
+    "topicFamily": "medicinal-plants;medical-botany;botany",
+    "reasons": [
+      "medicinal-plants",
+      "medical-botany",
+      "botany"
+    ]
+  },
+  "matchedQueries": [
+    "\"medical botany\"",
+    "\"medicinal plants\""
+  ],
+  "catalogUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2543055R-bk",
+  "ocrUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2543055R-bk",
+  "pdfUrl": "https://collections.nlm.nih.gov/pdf/nlm:nlmuid-2543055R-bk"
+}

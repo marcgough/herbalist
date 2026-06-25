@@ -1,0 +1,92 @@
+[
+  {
+    "id": "australian-herbal",
+    "query": "\"Australian herbal\"",
+    "jurisdictionLane": "Australia",
+    "priority": "high",
+    "workTypeFocus": "book, manual, guide",
+    "relevance": "Direct Australian herbal-practice phrase likely to surface candidate manuals.",
+    "culturalSafety": "standard",
+    "noIngestWithout": "item-level rights proof and full-text availability"
+  },
+  {
+    "id": "australian-medicinal-plants",
+    "query": "\"Australian medicinal plants\"",
+    "jurisdictionLane": "Australia",
+    "priority": "high",
+    "workTypeFocus": "botanical guide, materia medica",
+    "relevance": "Core phrase for plant monographs and regional materia medica.",
+    "culturalSafety": "standard",
+    "noIngestWithout": "item-level rights proof and practical medicinal relevance"
+  },
+  {
+    "id": "medical-botany-australia",
+    "query": "\"medical botany\" Australia",
+    "jurisdictionLane": "Australia",
+    "priority": "high",
+    "workTypeFocus": "medical botany, materia medica",
+    "relevance": "Likely to surface older book-like medical botany records.",
+    "culturalSafety": "standard",
+    "noIngestWithout": "item-level rights proof and full-text availability"
+  },
+  {
+    "id": "australian-flora-medicinal",
+    "query": "\"Australian flora\" medicinal",
+    "jurisdictionLane": "Australia",
+    "priority": "medium",
+    "workTypeFocus": "flora, botanical guide",
+    "relevance": "Useful for botanical works that include medicinal notes without being full herbal manuals.",
+    "culturalSafety": "standard",
+    "noIngestWithout": "item-level rights proof and enough medicinal-practice content"
+  },
+  {
+    "id": "domestic-medicine-australia",
+    "query": "\"domestic medicine\" Australia",
+    "jurisdictionLane": "Australia",
+    "priority": "medium",
+    "workTypeFocus": "domestic medicine book, household guide",
+    "relevance": "Matches the Pears-style practical health knowledge pattern.",
+    "culturalSafety": "standard",
+    "noIngestWithout": "item-level rights proof and book-like source structure"
+  },
+  {
+    "id": "materia-medica-australia",
+    "query": "\"materia medica\" Australia",
+    "jurisdictionLane": "Australia",
+    "priority": "medium",
+    "workTypeFocus": "materia medica, pharmacopoeia",
+    "relevance": "Finds formal medicine and pharmacy references with plant/drug entries.",
+    "culturalSafety": "standard",
+    "noIngestWithout": "item-level rights proof and full-text availability"
+  },
+  {
+    "id": "australian-pharmacopoeia",
+    "query": "\"Australian pharmacopoeia\"",
+    "jurisdictionLane": "Australia",
+    "priority": "medium",
+    "workTypeFocus": "pharmacopoeia, formulary",
+    "relevance": "Can surface formal drug and preparation references with public-domain potential.",
+    "culturalSafety": "standard",
+    "noIngestWithout": "item-level rights proof and edition-date review"
+  },
+  {
+    "id": "botanical-guide-australia",
+    "query": "\"botanical guide\" Australia",
+    "jurisdictionLane": "Australia",
+    "priority": "medium",
+    "workTypeFocus": "botanical guide",
+    "relevance": "Broad practical plant-identification route; medicinal relevance must be checked.",
+    "culturalSafety": "standard",
+    "noIngestWithout": "item-level rights proof and practical medicinal relevance"
+  },
+  {
+    "id": "bush-medicine-book",
+    "query": "\"bush medicine\" book Australia",
+    "jurisdictionLane": "Australia",
+    "priority": "restricted",
+    "workTypeFocus": "metadata leads only",
+    "relevance": "May surface culturally sensitive knowledge and should not be treated as open material by default.",
+    "culturalSafety": "restricted. First Australian and Indigenous knowledge must not be extracted, reframed, or indexed unless rights, authority, and culturally safe review are explicit.",
+    "noIngestWithout": "explicit reuse rights, cultural authority, and separate approval"
+  }
+]

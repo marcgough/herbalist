@@ -1,0 +1,20 @@
+{
+  "workId": "pg-29555",
+  "title": "Rural Hygiene",
+  "creator": "Ogden, Henry N. (Henry Neely), 1868-",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/29555",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/29555/pg29555.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/29555.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "hygiene;public-health;household-health",
+  "chunkCount": 733,
+  "paragraphCount": 1818,
+  "sectionCount": 79,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-29555\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-29555\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-29555.jsonl",
+  "rawSha256": "ed99d089134a5c90cacf92d3d15d244601742650fdd07350e6a54c2ae4d6e733",
+  "normalizedSha256": "2521568cffafb31e232138a7a1aab8d65d2334d75f06322a3c94f9ae9312238a",
+  "processedAt": "2026-06-16T13:39:04.046Z"
+}

@@ -1,0 +1,1164 @@
+{
+  "profile_id": "seed-marsh-mallow",
+  "family_id": "seed-marsh-mallow",
+  "canonical_name": "Marsh-Mallow",
+  "canonical_key": "marsh mallow",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-marsh-mallow-9597a11a95#marsh-mallow"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 816,
+    "total_chunks": 786,
+    "total_works": 283,
+    "matched_chunk_count": 786,
+    "matched_work_count": 283,
+    "matched_mention_total": 796
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Marsh-Mallow",
+      "Marsh-mallows",
+      "Marsh-mallow"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217315",
+      "nlm-0217316"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0938",
+      "nlm-0140313-chunk-1897",
+      "nlm-0140313-chunk-3289"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 498
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 263
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 46
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 388,
+        "work_count": 204
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 150,
+        "work_count": 84
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 130,
+        "work_count": 90
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 109,
+        "work_count": 81
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 87,
+        "work_count": 67
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 58,
+        "work_count": 49
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 56,
+        "work_count": 36
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 18,
+        "work_count": 10
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 14,
+        "work_count": 13
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 12,
+        "work_count": 10
+      }
+    ],
+    "preparations": [
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 361,
+        "work_count": 192
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 285,
+        "work_count": 157
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 251,
+        "work_count": 130
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 244,
+        "work_count": 146
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 111,
+        "work_count": 86
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 104,
+        "work_count": 71
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 75,
+        "work_count": 54
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 72,
+        "work_count": 63
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 62,
+        "work_count": 51
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 50,
+        "work_count": 37
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 147,
+        "work_count": 108
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 63,
+        "work_count": 47
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 45,
+        "work_count": 41
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 40,
+        "work_count": 34
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 33,
+        "work_count": 32
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 18,
+        "work_count": 18
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 154,
+        "work_count": 121
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 108,
+        "work_count": 75
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 87,
+        "work_count": 68
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 82,
+        "work_count": 74
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 69,
+        "work_count": 60
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 63,
+        "work_count": 50
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 48,
+        "work_count": 48
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 27,
+        "work_count": 24
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 18,
+        "work_count": 18
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 14,
+        "work_count": 9
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-2751057R",
+      "title": "Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops",
+      "creator": "Culpeper, Nicholas, 1616-1654 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2751057R-bk",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "nlm-63620420R",
+      "title": "A treatise on domestic medicine : pointing out, in plain language, and as free from professional terms as possible, the nature, symptoms, causes, probable terminations, and treatment of all diseases incident to men, women, and children, in both cold and warm climates : as also, appropriate prescriptions in English, and the doses of medicine which are suitable to different ages : including likewise effectual means for preventing the extension of all infectious diseases, and annihilating the power of every kind of contagion, and rules for enabling Europeans who visit a warm climate to escape the yellow fever, and long enjoy a good state of health",
+      "creator": "Thomas, Robert, 1753-1835.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620420R-bk",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "nlm-63620400R",
+      "title": "Modern domestic medicine : being a treatise divested of professional terms on the nature, causes, symptoms, and treatment of the diseases of men, women, and children, in both cold and warm climates : with appropriate prescriptions in English : the whole preceded by practical rules for the preservation of health, the best means for invigorating the human body and prolonging life, and the mode of preventing the extension of infectious disorders, as also of annihilating contagion",
+      "creator": "Thomas, Robert, 1753-1835.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620400R-bk",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "nlm-63560150R",
+      "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+      "creator": "Ayers, J. Hamilton.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;botany;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-fkxp4mmt",
+      "title": "Domestic medicine, or, A treatise on the prevention and cure of diseases by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation, an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself, and a family herbal / by William Buchan, M.D. of the Royal College of Physicians, Edingburgh ; to which are added, such useful discoveries ... as have transpired since the demise of the author.",
+      "creator": "",
+      "publication_year": "1823",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/fkxp4mmt",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-ms79ffge",
+      "title": "Complete herbal ... To which is now first annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added upwards of 50 choice receipts selected from the author's Last legacy. To his wife ... / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1823",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/ms79ffge",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "pg-74359",
+      "title": "Domestic medicine",
+      "creator": "Buchan, William, 1729-1805",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://www.gutenberg.org/ebooks/74359",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-mqb4h4ks",
+      "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself and a family herbal. To which are added, such useful discoveries ... as have transpired since the demise of the author / by William Buchan.",
+      "creator": "",
+      "publication_year": "1813",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/mqb4h4ks",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "pg-49513",
+      "title": "The Complete Herbal",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "herbal",
+      "source_url": "https://www.gutenberg.org/ebooks/49513",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-63620400R-chunk-0805",
+        "work_id": "nlm-63620400R",
+        "title": "Modern domestic medicine : being a treatise divested of professional terms on the nature, causes, symptoms, and treatment of the diseases of men, women, and children, in both cold and warm climates : with appropriate prescriptions in English : the whole preceded by practical rules for the preservation of health, the best means for invigorating the human body and prolonging life, and the mode of preventing the extension of infectious disorders, as also of annihilating contagion",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE HEART",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620400R-bk",
+        "matched_herbs": [
+          "Marsh-mallows"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Smallpox"
+        ],
+        "excerpt": "such as a solution of gum acacia in barley water, linseed tea, or ? i decoction of marsh-mallows, sweetened with a little honey. His diet must at the same time be light and cooling, and he should be kept as quiet as p...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0169",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Draught",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Should the stomach become irritable and attended with nausea or vomiting, then the following course of treatment should be adopted to relieve the irritation: Marsh Mallow root, ground U oz. Peach leaves, ground i oz....",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0513",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "In the first place give a dose of the antibilious physic so as to move the bowels thoroughly, then treat it as directed for inflammation of the bowels, with fever drops and powders, and composition and nerve tea betwe...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0175",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Marsh-mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Steep the powder in the spirits eight or ten days, and shake it up every day; then let it settle, and strain oS\" the clear liquor. For spasms, fits^ lock-jaw, tic, neuralgia, &c. SYRUPS. Soothing Syrup—Rhubarb, 2 oz....",
+        "score": 42
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-63620400R-chunk-0805",
+        "work_id": "nlm-63620400R",
+        "title": "Modern domestic medicine : being a treatise divested of professional terms on the nature, causes, symptoms, and treatment of the diseases of men, women, and children, in both cold and warm climates : with appropriate prescriptions in English : the whole preceded by practical rules for the preservation of health, the best means for invigorating the human body and prolonging life, and the mode of preventing the extension of infectious disorders, as also of annihilating contagion",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE HEART",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620400R-bk",
+        "matched_herbs": [
+          "Marsh-mallows"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Smallpox"
+        ],
+        "excerpt": "such as a solution of gum acacia in barley water, linseed tea, or ? i decoction of marsh-mallows, sweetened with a little honey. His diet must at the same time be light and cooling, and he should be kept as quiet as p...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0169",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Draught",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Should the stomach become irritable and attended with nausea or vomiting, then the following course of treatment should be adopted to relieve the irritation: Marsh Mallow root, ground U oz. Peach leaves, ground i oz....",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0513",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "In the first place give a dose of the antibilious physic so as to move the bowels thoroughly, then treat it as directed for inflammation of the bowels, with fever drops and powders, and composition and nerve tea betwe...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0175",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Marsh-mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Steep the powder in the spirits eight or ten days, and shake it up every day; then let it settle, and strain oS\" the clear liquor. For spasms, fits^ lock-jaw, tic, neuralgia, &c. SYRUPS. Soothing Syrup—Rhubarb, 2 oz....",
+        "score": 42
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-63620400R-chunk-0805",
+        "work_id": "nlm-63620400R",
+        "title": "Modern domestic medicine : being a treatise divested of professional terms on the nature, causes, symptoms, and treatment of the diseases of men, women, and children, in both cold and warm climates : with appropriate prescriptions in English : the whole preceded by practical rules for the preservation of health, the best means for invigorating the human body and prolonging life, and the mode of preventing the extension of infectious disorders, as also of annihilating contagion",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE HEART",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620400R-bk",
+        "matched_herbs": [
+          "Marsh-mallows"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Smallpox"
+        ],
+        "excerpt": "such as a solution of gum acacia in barley water, linseed tea, or ? i decoction of marsh-mallows, sweetened with a little honey. His diet must at the same time be light and cooling, and he should be kept as quiet as p...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0169",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Draught",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Should the stomach become irritable and attended with nausea or vomiting, then the following course of treatment should be adopted to relieve the irritation: Marsh Mallow root, ground U oz. Peach leaves, ground i oz....",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0513",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "In the first place give a dose of the antibilious physic so as to move the bowels thoroughly, then treat it as directed for inflammation of the bowels, with fever drops and powders, and composition and nerve tea betwe...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0175",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Marsh-mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Steep the powder in the spirits eight or ten days, and shake it up every day; then let it settle, and strain oS\" the clear liquor. For spasms, fits^ lock-jaw, tic, neuralgia, &c. SYRUPS. Soothing Syrup—Rhubarb, 2 oz....",
+        "score": 42
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-63620400R-chunk-0805",
+        "work_id": "nlm-63620400R",
+        "title": "Modern domestic medicine : being a treatise divested of professional terms on the nature, causes, symptoms, and treatment of the diseases of men, women, and children, in both cold and warm climates : with appropriate prescriptions in English : the whole preceded by practical rules for the preservation of health, the best means for invigorating the human body and prolonging life, and the mode of preventing the extension of infectious disorders, as also of annihilating contagion",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE HEART",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620400R-bk",
+        "matched_herbs": [
+          "Marsh-mallows"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Tea",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Smallpox"
+        ],
+        "excerpt": "such as a solution of gum acacia in barley water, linseed tea, or ? i decoction of marsh-mallows, sweetened with a little honey. His diet must at the same time be light and cooling, and he should be kept as quiet as p...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0169",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Draught",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Should the stomach become irritable and attended with nausea or vomiting, then the following course of treatment should be adopted to relieve the irritation: Marsh Mallow root, ground U oz. Peach leaves, ground i oz....",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jamxx58n-chunk-0513",
+        "work_id": "wellcome-jamxx58n",
+        "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jamxx58n",
+        "matched_herbs": [
+          "Marsh Mallow"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "In the first place give a dose of the antibilious physic so as to move the bowels thoroughly, then treat it as directed for inflammation of the bowels, with fever drops and powders, and composition and nerve tea betwe...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0175",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Marsh-mallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Steep the powder in the spirits eight or ten days, and shake it up every day; then let it settle, and strain oS\" the clear liquor. For spasms, fits^ lock-jaw, tic, neuralgia, &c. SYRUPS. Soothing Syrup—Rhubarb, 2 oz....",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Marsh-Mallow is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 283 works and 786 source-linked chunks. Recorded variants include Marsh-Mallow, Marsh-mallows, Marsh-mallow. Common plant-part co-mentions include Root, Seed, Gum, Flower, Leaf, Tops. Common preparation co-mentions include Decoction, Syrup, Tea, Oil, Infusion, Powder. Common condition co-mentions include Cold or catarrh, Inflammation, Vomiting or nausea, Cough, Fever, Wounds or ulcers. Caution co-mentions include Dose caution, Bleeding caution, Child-use caution, Narcotic or sedative caution, Allergy or sensitivity caution, Fatal-risk warning. Representative source works include Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops; A treatise on domestic medicine : pointing out, in plain language, and as free from professional terms as possible, the nature, symptoms, causes, probable terminations, and treatment of all diseases incident to men, women, and children, in both cold and warm climates : as also, appropriate prescriptions in English, and the doses of medicine which are suitable to different ages : including likewise effectual means for preventing the extension of all infectious diseases, and annihilating the power of every kind of contagion, and rules for enabling Europeans who visit a warm climate to escape the yellow fever, and long enjoy a good state of health; Modern domestic medicine : being a treatise divested of professional terms on the nature, causes, symptoms, and treatment of the diseases of men, women, and children, in both cold and warm climates : with appropriate prescriptions in English : the whole preceded by practical rules for the preservation of health, the best means for invigorating the human body and prolonging life, and the mode of preventing the extension of infectious disorders, as also of annihilating contagion; Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.840Z",
+  "builder": "build-herb-profiles.mjs"
+}

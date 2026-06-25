@@ -1,0 +1,1223 @@
+{
+  "profile_id": "seed-lobelia",
+  "family_id": "seed-lobelia",
+  "canonical_name": "Lobelia",
+  "canonical_key": "lobelia",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-lobelia-d4b4ae22fc#lobelia"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1849,
+    "total_chunks": 1669,
+    "total_works": 235,
+    "matched_chunk_count": 1669,
+    "matched_work_count": 235,
+    "matched_mention_total": 1670
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Lobelia",
+      "Lobelia Herb"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-100898140",
+      "nlm-100912803"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0687",
+      "nlm-0140313-chunk-0831",
+      "nlm-0140313-chunk-0858"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1309
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 337
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 93
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 508,
+        "work_count": 136
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 350,
+        "work_count": 119
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 248,
+        "work_count": 103
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 207,
+        "work_count": 80
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 129,
+        "work_count": 68
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 55,
+        "work_count": 39
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 51,
+        "work_count": 35
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 33,
+        "work_count": 30
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 16,
+        "work_count": 12
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 10,
+        "work_count": 10
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 1258,
+        "work_count": 198
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 687,
+        "work_count": 108
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 483,
+        "work_count": 126
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 390,
+        "work_count": 128
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 283,
+        "work_count": 117
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 201,
+        "work_count": 94
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 183,
+        "work_count": 78
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 170,
+        "work_count": 66
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 169,
+        "work_count": 70
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 154,
+        "work_count": 74
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 769,
+        "work_count": 174
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 235,
+        "work_count": 88
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 130,
+        "work_count": 80
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 81,
+        "work_count": 55
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 65,
+        "work_count": 43
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 38,
+        "work_count": 26
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 27,
+        "work_count": 22
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 16,
+        "work_count": 13
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 7,
+        "work_count": 7
+      }
+    ],
+    "conditions": [
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 271,
+        "work_count": 108
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 268,
+        "work_count": 101
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 232,
+        "work_count": 95
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 210,
+        "work_count": 73
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 161,
+        "work_count": 74
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 144,
+        "work_count": 62
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 128,
+        "work_count": 95
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 111,
+        "work_count": 50
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 93,
+        "work_count": 63
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 63,
+        "work_count": 40
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 76,
+      "matched_mention_count": 76
+    },
+    {
+      "work_id": "nlm-9435910",
+      "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+      "signal_chunk_count": 50,
+      "matched_mention_count": 50
+    },
+    {
+      "work_id": "wellcome-mv32s6ry",
+      "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1856",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+      "signal_chunk_count": 49,
+      "matched_mention_count": 49
+    },
+    {
+      "work_id": "nlm-7704741",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+      "signal_chunk_count": 47,
+      "matched_mention_count": 47
+    },
+    {
+      "work_id": "wellcome-q59tmjuk",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+      "signal_chunk_count": 46,
+      "matched_mention_count": 46
+    },
+    {
+      "work_id": "nlm-63340900R",
+      "title": "The practice of medicine on Thomsonian principles : adapted as well to the use of families as to that of the practitioner : containing propositions illustrative of the philosophy of Thomsonism : a brief history of the symptoms, peculiarities, and general course of disease in its different forms and varieties : with practical directions for administering a Thomsonian course of medicine, including the various methods of administering vapour baths and emetics, and a materia medica , adapted to the work",
+      "creator": "Comfort, J. W. (John W.)",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63340900R-bk",
+      "signal_chunk_count": 45,
+      "matched_mention_count": 45
+    },
+    {
+      "work_id": "wellcome-bkhg7djn",
+      "title": "The practice of medicine on Thomsonian principles : and a materia medica, adapted to the work / by J. W. Comfort, M.D.",
+      "creator": "",
+      "publication_year": "1845",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/bkhg7djn",
+      "signal_chunk_count": 45,
+      "matched_mention_count": 45
+    },
+    {
+      "work_id": "nlm-61650830R",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61650830R-bk",
+      "signal_chunk_count": 42,
+      "matched_mention_count": 42
+    },
+    {
+      "work_id": "wellcome-xed7wwta",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://wellcomecollection.org/works/xed7wwta",
+      "signal_chunk_count": 41,
+      "matched_mention_count": 41
+    },
+    {
+      "work_id": "nlm-2558004RX1",
+      "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volumes 1-2)",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558004RX1-bk",
+      "signal_chunk_count": 41,
+      "matched_mention_count": 41
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-101554865-chunk-0022",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "JUNIPER BERRIES. This is diuretic, and is used in dropsy, gravel, and for inflammation of the kidneys. Dose. One ounce of the berries,-one pint of boiling water, the whole of which may be taken in twenty-four hours. ■...",
+        "score": 63
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0230",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Boil in one and half gallons of water down to one gallon, strain and add— Gum myrrh Cayenne Rhubarb Carbonate of soda Loaf sugar Fourth proof brandy 1 oz. ioz. 4 oz. A oz. 1 lb. lpt. rinsn- H'llf a wine Mass once in t...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0098",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "LAMB-KILL LEAVES, [Kalmia latifolia,]_Usef«l in Scald Head, Syphilis, and certain stages of Fever LEOPARD'S BANE FLOWERS, [Arnica montana,]-Re- commended in Low Fevers, Intermittens, Gout, Drop- sy, and Rheumatism ; T...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0097",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "LAMB-KILL LEAVES, [Kalmia latifolia,]-Usef«l in Scald Head, Syphilis, and certain stages of Fever LEOPARD'S BANE FLOWERS, [Arnica montana,]-Re- commended in Low Fevers, Inter mitten ts, Gout, Drop- sy, and Rheumatism...",
+        "score": 54
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-101554865-chunk-0022",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "JUNIPER BERRIES. This is diuretic, and is used in dropsy, gravel, and for inflammation of the kidneys. Dose. One ounce of the berries,-one pint of boiling water, the whole of which may be taken in twenty-four hours. ■...",
+        "score": 63
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0230",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Boil in one and half gallons of water down to one gallon, strain and add— Gum myrrh Cayenne Rhubarb Carbonate of soda Loaf sugar Fourth proof brandy 1 oz. ioz. 4 oz. A oz. 1 lb. lpt. rinsn- H'llf a wine Mass once in t...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0098",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "LAMB-KILL LEAVES, [Kalmia latifolia,]_Usef«l in Scald Head, Syphilis, and certain stages of Fever LEOPARD'S BANE FLOWERS, [Arnica montana,]-Re- commended in Low Fevers, Intermittens, Gout, Drop- sy, and Rheumatism ; T...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0097",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "LAMB-KILL LEAVES, [Kalmia latifolia,]-Usef«l in Scald Head, Syphilis, and certain stages of Fever LEOPARD'S BANE FLOWERS, [Arnica montana,]-Re- commended in Low Fevers, Inter mitten ts, Gout, Drop- sy, and Rheumatism...",
+        "score": 54
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-101554865-chunk-0022",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "JUNIPER BERRIES. This is diuretic, and is used in dropsy, gravel, and for inflammation of the kidneys. Dose. One ounce of the berries,-one pint of boiling water, the whole of which may be taken in twenty-four hours. ■...",
+        "score": 63
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0230",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Boil in one and half gallons of water down to one gallon, strain and add— Gum myrrh Cayenne Rhubarb Carbonate of soda Loaf sugar Fourth proof brandy 1 oz. ioz. 4 oz. A oz. 1 lb. lpt. rinsn- H'llf a wine Mass once in t...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0098",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "LAMB-KILL LEAVES, [Kalmia latifolia,]_Usef«l in Scald Head, Syphilis, and certain stages of Fever LEOPARD'S BANE FLOWERS, [Arnica montana,]-Re- commended in Low Fevers, Intermittens, Gout, Drop- sy, and Rheumatism ; T...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0097",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "LAMB-KILL LEAVES, [Kalmia latifolia,]-Usef«l in Scald Head, Syphilis, and certain stages of Fever LEOPARD'S BANE FLOWERS, [Arnica montana,]-Re- commended in Low Fevers, Inter mitten ts, Gout, Drop- sy, and Rheumatism...",
+        "score": 54
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-101554865-chunk-0022",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "JUNIPER BERRIES. This is diuretic, and is used in dropsy, gravel, and for inflammation of the kidneys. Dose. One ounce of the berries,-one pint of boiling water, the whole of which may be taken in twenty-four hours. ■...",
+        "score": 63
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0230",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Boil in one and half gallons of water down to one gallon, strain and add— Gum myrrh Cayenne Rhubarb Carbonate of soda Loaf sugar Fourth proof brandy 1 oz. ioz. 4 oz. A oz. 1 lb. lpt. rinsn- H'llf a wine Mass once in t...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1178",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Juice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Useful in inflamitiatory rheumatism, gout, and milk leg of lying-in women. Dose, from ten drops to a teaspoonful or more every two, three, or four hours. Ten or fifteen grains of the iodide of potas- sium added to eac...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-3215",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Lobelia"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "COMPOUND TINCTURE OF LOBELIA. Dr. J. King's Expecto-' rant Tincture. Take of Lobelia, Bloodroot, Skunk Cabbage, Wild Ginger, and Pleurisy root, each, coarsely powdered, one ounce. Place them in a vessel, cover with bo...",
+        "score": 48
+      }
+    ]
+  },
+  "retrieval_text": "Lobelia is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 235 works and 1669 source-linked chunks. Recorded variants include Lobelia, Lobelia Herb. Common plant-part co-mentions include Root, Seed, Leaf, Bark, Gum, Flower. Common preparation co-mentions include Tincture, Tea, Powder, Emetic, Oil, Syrup. Common condition co-mentions include Vomiting or nausea, Cold or catarrh, Cough, Wounds or ulcers, Fever, Inflammation. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Toxicity watch, Fatal-risk warning, Allergy or sensitivity caution. Representative source works include The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use; An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.; An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.741Z",
+  "builder": "build-herb-profiles.mjs"
+}

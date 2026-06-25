@@ -1,0 +1,1130 @@
+{
+  "profile_id": "seed-tansy",
+  "family_id": "seed-tansy",
+  "canonical_name": "Tansy",
+  "canonical_key": "tansy",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-tansy-be5930d788#tansy"
+  ],
+  "decision_note": "promote strong historical medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 232,
+    "total_chunks": 229,
+    "total_works": 169,
+    "matched_chunk_count": 229,
+    "matched_work_count": 169,
+    "matched_mention_total": 229
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Tansy"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1843",
+      "nlm-0140313-chunk-2211",
+      "nlm-0140313-chunk-2571"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 159
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 50
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 21
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 93,
+        "work_count": 81
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 61,
+        "work_count": 58
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 58,
+        "work_count": 57
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 51,
+        "work_count": 46
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 48,
+        "work_count": 47
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 38,
+        "work_count": 38
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 5,
+        "work_count": 4
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "preparations": [
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 91,
+        "work_count": 80
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 86,
+        "work_count": 76
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 82,
+        "work_count": 48
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 81,
+        "work_count": 77
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 76,
+        "work_count": 66
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 47,
+        "work_count": 46
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 28,
+        "work_count": 25
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 26,
+        "work_count": 23
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 22,
+        "work_count": 21
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 19,
+        "work_count": 17
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 129,
+        "work_count": 106
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 68,
+        "work_count": 62
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 9,
+        "work_count": 8
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 9,
+        "work_count": 8
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 60,
+        "work_count": 59
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 25,
+        "work_count": 25
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 19,
+        "work_count": 17
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "headache",
+        "label": "Headache",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "nlm-8004761",
+      "title": "Popular medicine, or, The American family physician : a work in which the principles and practice of medicine are familiarly explained : comprising a complete and comprehensive description of diseases, with full and definite directions for their treatment : the properties of many new and important medicines, with their doses and mode of administration, are accurately described : designed for general use and adapted to all climates",
+      "creator": "Capron, George, 1802-1882.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8004761-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "nlm-63570990R",
+      "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "nlm-100912803",
+      "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-0140313",
+      "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants;domestic-medicine;hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-thwh6g2c",
+      "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+      "creator": "",
+      "publication_year": "1885",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine;nursing",
+      "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-67040120R",
+      "title": "Woman's medical guide : being a complete review of the peculiarities of the female constitution and the derangements to which it is subject, with a description of simple yet certain means for their cure : also, a treatise on the management and diseases of children, with a description of a number of valuable medicinal plants and compounds for domestic use, and a glossary",
+      "creator": "Hard, M. K. (Moses Knapp), 1818-1890.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-67040120R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-kk48uqt2",
+      "title": "Woman's medical guide : being a complete review of the peculiarities of the female constitution and the derangements to which it is subject, with a description of simple yet certain means for their cure : also, a treatise on the management and diseases of children, with a description of a number of valuable medicinal plants and compounds for domestic use, and a glossary / by M.K. Hard.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;medicinal-plants",
+      "source_url": "https://wellcomecollection.org/works/kk48uqt2",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63610890R-chunk-1450",
+        "work_id": "nlm-63610890R",
+        "title": "A friend in need : a household guide in health and in disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610890R-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Ergot has a peculiar influence on the muscular coat of the womb, and for this reason it is fre- quently used to procure abortion. The symptoms induced by a poisonous dose of this agent are uneasiness in the head, oppr...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2487",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "A cold infusion of tansy is tonic, and has been used in some forms of dyspepsia. Dose, from two tablespoonfuls to two wineglassfuls, two or three times a day. Oil of Tansy—This oil is a very active emmenagogue, and he...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0741",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "A cold infusion of tansy is tonic, and has been used in some forms of dyspepsia. Dose, from two tablespoonfuls to two wineglassfuls, two or three times a day. Oil of Tansy—This oil is a very active emmenagogue, and he...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-wghdhhgb-chunk-6484",
+        "work_id": "wellcome-wghdhhgb",
+        "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Gout",
+          "Inflammation"
+        ],
+        "excerpt": "Frecpient and violent clonic spasms were experienced, with much disturbance of respiration; and the action of the heart gradually became weaker till death took place from its entire suspension. No inflammation of the...",
+        "score": 38
+      },
+      {
+        "chunk_id": "nlm-0217316-chunk-0787",
+        "work_id": "nlm-0217316",
+        "title": "Buchan's domestic medicine , or, The family physician : designed to render the medical art more generally useful, by showing people what is in their own power, both with respect to the prevention and cure of diseases : chiefly calculated to recommend a proper attention to regimen, and simple medicines",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING AND BLIND PILES",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217316-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "Half a dram of bark in powder may be taken in a glass of red port wine, three or four times a day, after the above medicines have been used. Lime-water is likewise good for this purpose, or a table-spoon- ful of the c...",
+        "score": 36
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63610890R-chunk-1450",
+        "work_id": "nlm-63610890R",
+        "title": "A friend in need : a household guide in health and in disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610890R-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Ergot has a peculiar influence on the muscular coat of the womb, and for this reason it is fre- quently used to procure abortion. The symptoms induced by a poisonous dose of this agent are uneasiness in the head, oppr...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2487",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "A cold infusion of tansy is tonic, and has been used in some forms of dyspepsia. Dose, from two tablespoonfuls to two wineglassfuls, two or three times a day. Oil of Tansy—This oil is a very active emmenagogue, and he...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0741",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "A cold infusion of tansy is tonic, and has been used in some forms of dyspepsia. Dose, from two tablespoonfuls to two wineglassfuls, two or three times a day. Oil of Tansy—This oil is a very active emmenagogue, and he...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-wghdhhgb-chunk-6484",
+        "work_id": "wellcome-wghdhhgb",
+        "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Gout",
+          "Inflammation"
+        ],
+        "excerpt": "Frecpient and violent clonic spasms were experienced, with much disturbance of respiration; and the action of the heart gradually became weaker till death took place from its entire suspension. No inflammation of the...",
+        "score": 38
+      },
+      {
+        "chunk_id": "nlm-0217316-chunk-0787",
+        "work_id": "nlm-0217316",
+        "title": "Buchan's domestic medicine , or, The family physician : designed to render the medical art more generally useful, by showing people what is in their own power, both with respect to the prevention and cure of diseases : chiefly calculated to recommend a proper attention to regimen, and simple medicines",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING AND BLIND PILES",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217316-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "Half a dram of bark in powder may be taken in a glass of red port wine, three or four times a day, after the above medicines have been used. Lime-water is likewise good for this purpose, or a table-spoon- ful of the c...",
+        "score": 36
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63610890R-chunk-1450",
+        "work_id": "nlm-63610890R",
+        "title": "A friend in need : a household guide in health and in disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610890R-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Ergot has a peculiar influence on the muscular coat of the womb, and for this reason it is fre- quently used to procure abortion. The symptoms induced by a poisonous dose of this agent are uneasiness in the head, oppr...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2487",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "A cold infusion of tansy is tonic, and has been used in some forms of dyspepsia. Dose, from two tablespoonfuls to two wineglassfuls, two or three times a day. Oil of Tansy—This oil is a very active emmenagogue, and he...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0741",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "A cold infusion of tansy is tonic, and has been used in some forms of dyspepsia. Dose, from two tablespoonfuls to two wineglassfuls, two or three times a day. Oil of Tansy—This oil is a very active emmenagogue, and he...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-wghdhhgb-chunk-6484",
+        "work_id": "wellcome-wghdhhgb",
+        "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Gout",
+          "Inflammation"
+        ],
+        "excerpt": "Frecpient and violent clonic spasms were experienced, with much disturbance of respiration; and the action of the heart gradually became weaker till death took place from its entire suspension. No inflammation of the...",
+        "score": 38
+      },
+      {
+        "chunk_id": "nlm-0217316-chunk-0787",
+        "work_id": "nlm-0217316",
+        "title": "Buchan's domestic medicine , or, The family physician : designed to render the medical art more generally useful, by showing people what is in their own power, both with respect to the prevention and cure of diseases : chiefly calculated to recommend a proper attention to regimen, and simple medicines",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING AND BLIND PILES",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217316-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "Half a dram of bark in powder may be taken in a glass of red port wine, three or four times a day, after the above medicines have been used. Lime-water is likewise good for this purpose, or a table-spoon- ful of the c...",
+        "score": 36
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63610890R-chunk-1450",
+        "work_id": "nlm-63610890R",
+        "title": "A friend in need : a household guide in health and in disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610890R-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Ergot has a peculiar influence on the muscular coat of the womb, and for this reason it is fre- quently used to procure abortion. The symptoms induced by a poisonous dose of this agent are uneasiness in the head, oppr...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2487",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "A cold infusion of tansy is tonic, and has been used in some forms of dyspepsia. Dose, from two tablespoonfuls to two wineglassfuls, two or three times a day. Oil of Tansy—This oil is a very active emmenagogue, and he...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0741",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "A cold infusion of tansy is tonic, and has been used in some forms of dyspepsia. Dose, from two tablespoonfuls to two wineglassfuls, two or three times a day. Oil of Tansy—This oil is a very active emmenagogue, and he...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-wghdhhgb-chunk-6484",
+        "work_id": "wellcome-wghdhhgb",
+        "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Gout",
+          "Inflammation"
+        ],
+        "excerpt": "Frecpient and violent clonic spasms were experienced, with much disturbance of respiration; and the action of the heart gradually became weaker till death took place from its entire suspension. No inflammation of the...",
+        "score": 38
+      },
+      {
+        "chunk_id": "nlm-0217316-chunk-0787",
+        "work_id": "nlm-0217316",
+        "title": "Buchan's domestic medicine , or, The family physician : designed to render the medical art more generally useful, by showing people what is in their own power, both with respect to the prevention and cure of diseases : chiefly calculated to recommend a proper attention to regimen, and simple medicines",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING AND BLIND PILES",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217316-bk",
+        "matched_herbs": [
+          "Tansy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "Half a dram of bark in powder may be taken in a glass of red port wine, three or four times a day, after the above medicines have been used. Lime-water is likewise good for this purpose, or a table-spoon- ful of the c...",
+        "score": 36
+      }
+    ]
+  },
+  "retrieval_text": "Tansy is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 169 works and 229 source-linked chunks. Recorded variants include Tansy. Common plant-part co-mentions include Flower, Root, Tops, Leaf, Seed, Bark. Common preparation co-mentions include Infusion, Tea, Oil, Powder, Decoction, Syrup. Common condition co-mentions include Cold or catarrh, Gout, Vomiting or nausea, Diarrhoea or looseness, Fever, Colic. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Fatal-risk warning, Abortifacient warning, Toxicity watch. Representative source works include Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; Popular medicine, or, The American family physician : a work in which the principles and practice of medicine are familiarly explained : comprising a complete and comprehensive description of diseases, with full and definite directions for their treatment : the properties of many new and important medicines, with their doses and mode of administration, are accurately described : designed for general use and adapted to all climates; Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants; Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.964Z",
+  "builder": "build-herb-profiles.mjs"
+}

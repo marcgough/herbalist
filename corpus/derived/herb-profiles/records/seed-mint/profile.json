@@ -1,0 +1,1134 @@
+{
+  "profile_id": "seed-mint",
+  "family_id": "seed-mint",
+  "canonical_name": "Mint",
+  "canonical_key": "mint",
+  "catalog_status": "seed-ready",
+  "catalog_class": "culinary-medicinal-plant",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-mint-dc6f17bbec#mint"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 911,
+    "total_chunks": 845,
+    "total_works": 370,
+    "matched_chunk_count": 845,
+    "matched_work_count": 370,
+    "matched_mention_total": 845
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "culinary-herbs",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Mint",
+      "Mints"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-2247",
+      "nlm-0217313-chunk-0894",
+      "nlm-0217313-chunk-1792"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 619
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 203
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 28
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 246,
+        "work_count": 152
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 107,
+        "work_count": 84
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 87,
+        "work_count": 79
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 84,
+        "work_count": 70
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 73,
+        "work_count": 70
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 58,
+        "work_count": 39
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 39,
+        "work_count": 33
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 36,
+        "work_count": 35
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 21,
+        "work_count": 20
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 8,
+        "work_count": 8
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 514,
+        "work_count": 253
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 258,
+        "work_count": 176
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 244,
+        "work_count": 163
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 157,
+        "work_count": 109
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 155,
+        "work_count": 117
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 151,
+        "work_count": 135
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 106,
+        "work_count": 81
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 103,
+        "work_count": 77
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 96,
+        "work_count": 95
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 91,
+        "work_count": 83
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 146,
+        "work_count": 96
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 96,
+        "work_count": 82
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 36,
+        "work_count": 33
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 207,
+        "work_count": 153
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 147,
+        "work_count": 110
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 62,
+        "work_count": 61
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 52,
+        "work_count": 39
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 28,
+        "work_count": 27
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 22,
+        "work_count": 14
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 20,
+        "work_count": 19
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 18,
+        "work_count": 18
+      },
+      {
+        "id": "cholera",
+        "label": "Cholera",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 13,
+        "work_count": 13
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 61,
+      "matched_mention_count": 61
+    },
+    {
+      "work_id": "wellcome-a264n73x",
+      "title": "Pharmacopoeia extemporanea: or, a body of medicines / Done into English out of Latin by the author ... with large additions.",
+      "creator": "",
+      "publication_year": "1740",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/a264n73x",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-takhmyez",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+      "creator": "",
+      "publication_year": "1747",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/takhmyez",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-vcp6d7za",
+      "title": "The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.",
+      "creator": "",
+      "publication_year": "1862",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/vcp6d7za",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-64210130R",
+      "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-q3jme7ef",
+      "title": "Pharmacopoeia officinalis et extemporanea: or, a complete English dispensatory, in four parts. Containing I. The theory of pharmacy ... II. A description of the officinal simples ... III. The officinal compositions; being such of the London and Bates's [sic] dispensatory as are now in use ... IV. Extemporaneous prescriptions ... To which is added, an account of the common adulterations both of simples and compounds; with some marks to detect them by / By John Quincy.",
+      "creator": "",
+      "publication_year": "1739",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/q3jme7ef",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-101485225",
+      "title": "The American practice abridged, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485225-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-101485229",
+      "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485229-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-101485230",
+      "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485230-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-101743940",
+      "title": "The family physician ; or, The reformed practice of medicine : on vegetable or botanical principles : being a compendium of the \"American practice\"",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine;botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101743940-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63580420R-chunk-2510",
+        "work_id": "nlm-63580420R",
+        "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Mixture of Catechu, fyc. Take of infusion of mint, one ounce, Cinnamon water, one ounce, Tincture of catechu, two drachms, Aromatic spirit of ammonia, one drachm, Laudanum, twelve drops, Orange syrup, two drachms. Mix...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1635",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "Dose: two teaspoonfuls every hour, in asthma, croup, consumption, etc. 2. Hoarhound, hyssop, polypoddy root, coltsfoot, linseed, elecampane, and liquor- ice, of each one ounce; aniseed, half an ounce; water, three pin...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-2568014R-chunk-0146",
+        "work_id": "nlm-2568014R",
+        "title": "The medical guide, for the use of families and young practitioners in medicine and surgery : being a complete system of modern domestic medicine : exhibiting a comprehensive view of the latest and most important discoveries in medicine, pharmacy, &c",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FAMILY PRESCRIPTIONS;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2568014R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Inflammation"
+        ],
+        "excerpt": "Take of magnesia, No. 1, one drachm, Rhubarb powder, No. 26, ten grains, Laudanum, No. 31, six drops, Pure water, two ounces, Essence of mint, No. 32, four drops. Mix. A tea-spoonful to be given in case^| »\"ipes, and...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0611",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Diluted sulphuric acid. Syrup of mulberries, of each two drachms. MLx. Dose—One or two table-spoon- fuls. Astringent Mixture for Diarrhoea of Infants. Carbonate of magnesia, one drachm. Toasted rhubarb, thirty grains....",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-f6v52btj-chunk-0832",
+        "work_id": "wellcome-f6v52btj",
+        "title": "The general dispensatory, containing a translation of the pharmacopoeias of the Royal Colleges of Physicians of London and Edinburgh: : together with that of the Royal Hospital of Edinburgh, from the last edition. To which are added, the doses, virtues, and uses of the simples as well as compounds. And in what cases they are attended with danger. With a design to render, the practice of physic more safe, easy, and successful. / By R. Brookes, M.D. Author of The general practice of physic.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/f6v52btj",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Ointment",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea"
+        ],
+        "excerpt": "See Diaphoretics, Thrufh. See Aphthe. Traumatics. See Vulneraries. Vermifuges See Anthelmintics. Vertigo. See Cephalics. Vomits. See Emetics. . Vomiting to cure. Mint. Water, ‘Tincture of Mint, Sa- line Draught, Salin...",
+        "score": 38
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63580420R-chunk-2510",
+        "work_id": "nlm-63580420R",
+        "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Mixture of Catechu, fyc. Take of infusion of mint, one ounce, Cinnamon water, one ounce, Tincture of catechu, two drachms, Aromatic spirit of ammonia, one drachm, Laudanum, twelve drops, Orange syrup, two drachms. Mix...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1635",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "Dose: two teaspoonfuls every hour, in asthma, croup, consumption, etc. 2. Hoarhound, hyssop, polypoddy root, coltsfoot, linseed, elecampane, and liquor- ice, of each one ounce; aniseed, half an ounce; water, three pin...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-2568014R-chunk-0146",
+        "work_id": "nlm-2568014R",
+        "title": "The medical guide, for the use of families and young practitioners in medicine and surgery : being a complete system of modern domestic medicine : exhibiting a comprehensive view of the latest and most important discoveries in medicine, pharmacy, &c",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FAMILY PRESCRIPTIONS;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2568014R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Inflammation"
+        ],
+        "excerpt": "Take of magnesia, No. 1, one drachm, Rhubarb powder, No. 26, ten grains, Laudanum, No. 31, six drops, Pure water, two ounces, Essence of mint, No. 32, four drops. Mix. A tea-spoonful to be given in case^| »\"ipes, and...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0611",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Diluted sulphuric acid. Syrup of mulberries, of each two drachms. MLx. Dose—One or two table-spoon- fuls. Astringent Mixture for Diarrhoea of Infants. Carbonate of magnesia, one drachm. Toasted rhubarb, thirty grains....",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-f6v52btj-chunk-0832",
+        "work_id": "wellcome-f6v52btj",
+        "title": "The general dispensatory, containing a translation of the pharmacopoeias of the Royal Colleges of Physicians of London and Edinburgh: : together with that of the Royal Hospital of Edinburgh, from the last edition. To which are added, the doses, virtues, and uses of the simples as well as compounds. And in what cases they are attended with danger. With a design to render, the practice of physic more safe, easy, and successful. / By R. Brookes, M.D. Author of The general practice of physic.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/f6v52btj",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Ointment",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea"
+        ],
+        "excerpt": "See Diaphoretics, Thrufh. See Aphthe. Traumatics. See Vulneraries. Vermifuges See Anthelmintics. Vertigo. See Cephalics. Vomits. See Emetics. . Vomiting to cure. Mint. Water, ‘Tincture of Mint, Sa- line Draught, Salin...",
+        "score": 38
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63580420R-chunk-2510",
+        "work_id": "nlm-63580420R",
+        "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Mixture of Catechu, fyc. Take of infusion of mint, one ounce, Cinnamon water, one ounce, Tincture of catechu, two drachms, Aromatic spirit of ammonia, one drachm, Laudanum, twelve drops, Orange syrup, two drachms. Mix...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1635",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "Dose: two teaspoonfuls every hour, in asthma, croup, consumption, etc. 2. Hoarhound, hyssop, polypoddy root, coltsfoot, linseed, elecampane, and liquor- ice, of each one ounce; aniseed, half an ounce; water, three pin...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-2568014R-chunk-0146",
+        "work_id": "nlm-2568014R",
+        "title": "The medical guide, for the use of families and young practitioners in medicine and surgery : being a complete system of modern domestic medicine : exhibiting a comprehensive view of the latest and most important discoveries in medicine, pharmacy, &c",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FAMILY PRESCRIPTIONS;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2568014R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Inflammation"
+        ],
+        "excerpt": "Take of magnesia, No. 1, one drachm, Rhubarb powder, No. 26, ten grains, Laudanum, No. 31, six drops, Pure water, two ounces, Essence of mint, No. 32, four drops. Mix. A tea-spoonful to be given in case^| »\"ipes, and...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0611",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Diluted sulphuric acid. Syrup of mulberries, of each two drachms. MLx. Dose—One or two table-spoon- fuls. Astringent Mixture for Diarrhoea of Infants. Carbonate of magnesia, one drachm. Toasted rhubarb, thirty grains....",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-f6v52btj-chunk-0832",
+        "work_id": "wellcome-f6v52btj",
+        "title": "The general dispensatory, containing a translation of the pharmacopoeias of the Royal Colleges of Physicians of London and Edinburgh: : together with that of the Royal Hospital of Edinburgh, from the last edition. To which are added, the doses, virtues, and uses of the simples as well as compounds. And in what cases they are attended with danger. With a design to render, the practice of physic more safe, easy, and successful. / By R. Brookes, M.D. Author of The general practice of physic.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/f6v52btj",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Ointment",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea"
+        ],
+        "excerpt": "See Diaphoretics, Thrufh. See Aphthe. Traumatics. See Vulneraries. Vermifuges See Anthelmintics. Vertigo. See Cephalics. Vomits. See Emetics. . Vomiting to cure. Mint. Water, ‘Tincture of Mint, Sa- line Draught, Salin...",
+        "score": 38
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63580420R-chunk-2510",
+        "work_id": "nlm-63580420R",
+        "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Mixture of Catechu, fyc. Take of infusion of mint, one ounce, Cinnamon water, one ounce, Tincture of catechu, two drachms, Aromatic spirit of ammonia, one drachm, Laudanum, twelve drops, Orange syrup, two drachms. Mix...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1635",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "Dose: two teaspoonfuls every hour, in asthma, croup, consumption, etc. 2. Hoarhound, hyssop, polypoddy root, coltsfoot, linseed, elecampane, and liquor- ice, of each one ounce; aniseed, half an ounce; water, three pin...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-2568014R-chunk-0146",
+        "work_id": "nlm-2568014R",
+        "title": "The medical guide, for the use of families and young practitioners in medicine and surgery : being a complete system of modern domestic medicine : exhibiting a comprehensive view of the latest and most important discoveries in medicine, pharmacy, &c",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FAMILY PRESCRIPTIONS;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2568014R-bk",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Inflammation"
+        ],
+        "excerpt": "Take of magnesia, No. 1, one drachm, Rhubarb powder, No. 26, ten grains, Laudanum, No. 31, six drops, Pure water, two ounces, Essence of mint, No. 32, four drops. Mix. A tea-spoonful to be given in case^| »\"ipes, and...",
+        "score": 40
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0611",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Diluted sulphuric acid. Syrup of mulberries, of each two drachms. MLx. Dose—One or two table-spoon- fuls. Astringent Mixture for Diarrhoea of Infants. Carbonate of magnesia, one drachm. Toasted rhubarb, thirty grains....",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-f6v52btj-chunk-0832",
+        "work_id": "wellcome-f6v52btj",
+        "title": "The general dispensatory, containing a translation of the pharmacopoeias of the Royal Colleges of Physicians of London and Edinburgh: : together with that of the Royal Hospital of Edinburgh, from the last edition. To which are added, the doses, virtues, and uses of the simples as well as compounds. And in what cases they are attended with danger. With a design to render, the practice of physic more safe, easy, and successful. / By R. Brookes, M.D. Author of The general practice of physic.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/f6v52btj",
+        "matched_herbs": [
+          "Mint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Ointment",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Vomiting or nausea"
+        ],
+        "excerpt": "See Diaphoretics, Thrufh. See Aphthe. Traumatics. See Vulneraries. Vermifuges See Anthelmintics. Vertigo. See Cephalics. Vomits. See Emetics. . Vomiting to cure. Mint. Water, ‘Tincture of Mint, Sa- line Draught, Salin...",
+        "score": 38
+      }
+    ]
+  },
+  "retrieval_text": "Mint is a culinary medicinal plant profile in the Herbalisti historical corpus. It is represented across 370 works and 845 source-linked chunks. Recorded variants include Mint, Mints. Common plant-part co-mentions include Gum, Leaf, Root, Bark, Seed, Flower. Common preparation co-mentions include Oil, Powder, Tea, Syrup, Plaster, Pill. Common condition co-mentions include Vomiting or nausea, Cold or catarrh, Rheumatism, Fever, Diarrhoea or looseness, Inflammation. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Allergy or sensitivity caution, Bleeding caution, Pregnancy caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Pharmacopoeia extemporanea: or, a body of medicines / Done into English out of Latin by the author ... with large additions.; Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].; The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.663Z",
+  "builder": "build-herb-profiles.mjs"
+}

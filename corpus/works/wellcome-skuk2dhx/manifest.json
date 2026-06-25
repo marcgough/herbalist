@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-skuk2dhx",
+  "title": "The botanist & physician : containing a description of the principal active medicinal plants found in the middle and northern states of America, with directions relative to their preparation, administration & use in the cure of diseases : to which is prefixed, an outline of the Linnaean system of botany, intended as an introduction and glossary to the work : all designed for the use of families and the young student in botany.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/skuk2dhx",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21126707",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/skuk2dhx",
+  "rightsStatus": "pdm",
+  "topicFamily": "medicinal-plants;botany",
+  "chunkCount": 215,
+  "paragraphCount": 216,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-skuk2dhx\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-skuk2dhx\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-skuk2dhx\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-skuk2dhx.jsonl",
+  "rawSha256": "8498572b21c1e5758d1ebbc624bfe1f3d50c420e6aa767740df6634c898a3b99",
+  "normalizedSha256": "5aadfff2a55174a46a1ddc6d552bd3f886be2805cdbc008d1e2d597600de1ac7",
+  "processedAt": "2026-06-17T00:34:17.254Z"
+}

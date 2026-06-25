@@ -1,0 +1,1153 @@
+{
+  "profile_id": "seed-cinnamon",
+  "family_id": "seed-cinnamon",
+  "canonical_name": "Cinnamon",
+  "canonical_key": "cinnamon",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-cinnamon-6011d7a8f3#cinnamon"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 2926,
+    "total_chunks": 2615,
+    "total_works": 521,
+    "matched_chunk_count": 2615,
+    "matched_work_count": 521,
+    "matched_mention_total": 2615
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Cinnamon",
+      "Cinnamon Flower"
+    ],
+    "sample_work_ids": [
+      "nlm-0116421",
+      "nlm-0140313",
+      "nlm-0217313"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0116421-chunk-0100",
+      "nlm-0140313-chunk-0927",
+      "nlm-0140313-chunk-1555"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1860
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 649
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 150
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 1015,
+        "work_count": 295
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 468,
+        "work_count": 202
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 369,
+        "work_count": 198
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 333,
+        "work_count": 201
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 225,
+        "work_count": 155
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 182,
+        "work_count": 115
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 139,
+        "work_count": 93
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 74,
+        "work_count": 65
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 52,
+        "work_count": 45
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 14,
+        "work_count": 13
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 1381,
+        "work_count": 407
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 1022,
+        "work_count": 302
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 699,
+        "work_count": 257
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 433,
+        "work_count": 192
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 362,
+        "work_count": 159
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 278,
+        "work_count": 177
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 254,
+        "work_count": 133
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 241,
+        "work_count": 157
+      },
+      {
+        "id": "cordial",
+        "label": "Cordial",
+        "signal_count": 222,
+        "work_count": 144
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 211,
+        "work_count": 119
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 1036,
+        "work_count": 273
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 362,
+        "work_count": 172
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 136,
+        "work_count": 99
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 69,
+        "work_count": 48
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 26,
+        "work_count": 25
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 24,
+        "work_count": 22
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 22,
+        "work_count": 20
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 17,
+        "work_count": 17
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 10,
+        "work_count": 10
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 221,
+        "work_count": 137
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 201,
+        "work_count": 138
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 176,
+        "work_count": 147
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 147,
+        "work_count": 115
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 67,
+        "work_count": 56
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 61,
+        "work_count": 51
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 59,
+        "work_count": 44
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 59,
+        "work_count": 44
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 57,
+        "work_count": 52
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 57,
+        "work_count": 50
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 169,
+      "matched_mention_count": 169
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 29,
+      "matched_mention_count": 29
+    },
+    {
+      "work_id": "wellcome-nhx2ne6y",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "wellcome-dwk6bbmw",
+      "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "wellcome-a264n73x",
+      "title": "Pharmacopoeia extemporanea: or, a body of medicines / Done into English out of Latin by the author ... with large additions.",
+      "creator": "",
+      "publication_year": "1740",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/a264n73x",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-an2hygfn",
+      "title": "The London dispensatory / By Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1811",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/an2hygfn",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63611140R-chunk-2470",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Headache"
+        ],
+        "excerpt": "The tincture of the seeds is used in neuralgia and headache. The dose is from five to ten drops. Description and where found—Stramonium grows usually in great abundance around farms, in vacant lots and along roadsides...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0724",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Headache"
+        ],
+        "excerpt": "The tincture of the seeds is used in neuralgia and headache. The dose is from five to ten drops. Description and where found—Stramonium grows usually in great abundance around farms, in vacant lots and along roadsides...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0500",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "29, 35, 40, 86, 139 Digestion, 22, 31 Dill-seed, Essence of, 31 Discharges from the Ear, 12 Distilled Vinegar, 3 Dover’s Powder, 29 Dropsy, 28, 29, 63, 86 Dyspepsia, 3, 8, 14, 15, 20, 25, 37, 44, 58, 90 Dysentery, 14,...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jmh3m2rt-chunk-0811",
+        "work_id": "wellcome-jmh3m2rt",
+        "title": "A cyclopedia of domestic medicine and surgery: being an alphabetical account of the various diseases incident to the human frame ... also, instructions for administering the various substances used in medicine; for the regulation of diet and regimen / by Thomas Andrew, with contributions by several members of the Royal College of Surgeons, Edinburgh.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jmh3m2rt",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Gargle"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Smallpox"
+        ],
+        "excerpt": "Accordingly, it is much praised in typhus, confluent small pox, yellow fever, scarlatina maligna, putrid sore throat, gangrene or mortification, in acute rheu- matism, certain forms of dysentery, scrofula, ill- condit...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-dz6e4qvv-chunk-0389",
+        "work_id": "wellcome-dz6e4qvv",
+        "title": "Cox's companion to the family medicine chest and compendium of domestic medicine : particularly adapted for heads of families, ship-captains, missionaries, and colonists, with plain rules for taking the medicines, to which are added a plain description of the treatment of fractures and dislocations, and a concise account of Asiatic or spasmodic cholera.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dz6e4qvv",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Mode of making a Mustard Poultice:— Mix together equal parts of mustard and linseed meal, then add a sufficient quantity of vinegar to it to make it a proper consistence, and spread it on linen to the depth of half an...",
+        "score": 43
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63611140R-chunk-2470",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Headache"
+        ],
+        "excerpt": "The tincture of the seeds is used in neuralgia and headache. The dose is from five to ten drops. Description and where found—Stramonium grows usually in great abundance around farms, in vacant lots and along roadsides...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0724",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Headache"
+        ],
+        "excerpt": "The tincture of the seeds is used in neuralgia and headache. The dose is from five to ten drops. Description and where found—Stramonium grows usually in great abundance around farms, in vacant lots and along roadsides...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0500",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "29, 35, 40, 86, 139 Digestion, 22, 31 Dill-seed, Essence of, 31 Discharges from the Ear, 12 Distilled Vinegar, 3 Dover’s Powder, 29 Dropsy, 28, 29, 63, 86 Dyspepsia, 3, 8, 14, 15, 20, 25, 37, 44, 58, 90 Dysentery, 14,...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jmh3m2rt-chunk-0811",
+        "work_id": "wellcome-jmh3m2rt",
+        "title": "A cyclopedia of domestic medicine and surgery: being an alphabetical account of the various diseases incident to the human frame ... also, instructions for administering the various substances used in medicine; for the regulation of diet and regimen / by Thomas Andrew, with contributions by several members of the Royal College of Surgeons, Edinburgh.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jmh3m2rt",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Gargle"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Smallpox"
+        ],
+        "excerpt": "Accordingly, it is much praised in typhus, confluent small pox, yellow fever, scarlatina maligna, putrid sore throat, gangrene or mortification, in acute rheu- matism, certain forms of dysentery, scrofula, ill- condit...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-dz6e4qvv-chunk-0389",
+        "work_id": "wellcome-dz6e4qvv",
+        "title": "Cox's companion to the family medicine chest and compendium of domestic medicine : particularly adapted for heads of families, ship-captains, missionaries, and colonists, with plain rules for taking the medicines, to which are added a plain description of the treatment of fractures and dislocations, and a concise account of Asiatic or spasmodic cholera.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dz6e4qvv",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Mode of making a Mustard Poultice:— Mix together equal parts of mustard and linseed meal, then add a sufficient quantity of vinegar to it to make it a proper consistence, and spread it on linen to the depth of half an...",
+        "score": 43
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63611140R-chunk-2470",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Headache"
+        ],
+        "excerpt": "The tincture of the seeds is used in neuralgia and headache. The dose is from five to ten drops. Description and where found—Stramonium grows usually in great abundance around farms, in vacant lots and along roadsides...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0724",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Headache"
+        ],
+        "excerpt": "The tincture of the seeds is used in neuralgia and headache. The dose is from five to ten drops. Description and where found—Stramonium grows usually in great abundance around farms, in vacant lots and along roadsides...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0500",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "29, 35, 40, 86, 139 Digestion, 22, 31 Dill-seed, Essence of, 31 Discharges from the Ear, 12 Distilled Vinegar, 3 Dover’s Powder, 29 Dropsy, 28, 29, 63, 86 Dyspepsia, 3, 8, 14, 15, 20, 25, 37, 44, 58, 90 Dysentery, 14,...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-jmh3m2rt-chunk-0811",
+        "work_id": "wellcome-jmh3m2rt",
+        "title": "A cyclopedia of domestic medicine and surgery: being an alphabetical account of the various diseases incident to the human frame ... also, instructions for administering the various substances used in medicine; for the regulation of diet and regimen / by Thomas Andrew, with contributions by several members of the Royal College of Surgeons, Edinburgh.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jmh3m2rt",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Gargle"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Smallpox"
+        ],
+        "excerpt": "Accordingly, it is much praised in typhus, confluent small pox, yellow fever, scarlatina maligna, putrid sore throat, gangrene or mortification, in acute rheu- matism, certain forms of dysentery, scrofula, ill- condit...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-dz6e4qvv-chunk-0389",
+        "work_id": "wellcome-dz6e4qvv",
+        "title": "Cox's companion to the family medicine chest and compendium of domestic medicine : particularly adapted for heads of families, ship-captains, missionaries, and colonists, with plain rules for taking the medicines, to which are added a plain description of the treatment of fractures and dislocations, and a concise account of Asiatic or spasmodic cholera.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dz6e4qvv",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Mode of making a Mustard Poultice:— Mix together equal parts of mustard and linseed meal, then add a sufficient quantity of vinegar to it to make it a proper consistence, and spread it on linen to the depth of half an...",
+        "score": 43
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63611140R-chunk-2470",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Headache"
+        ],
+        "excerpt": "The tincture of the seeds is used in neuralgia and headache. The dose is from five to ten drops. Description and where found—Stramonium grows usually in great abundance around farms, in vacant lots and along roadsides...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0724",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Headache"
+        ],
+        "excerpt": "The tincture of the seeds is used in neuralgia and headache. The dose is from five to ten drops. Description and where found—Stramonium grows usually in great abundance around farms, in vacant lots and along roadsides...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-dz6e4qvv-chunk-0389",
+        "work_id": "wellcome-dz6e4qvv",
+        "title": "Cox's companion to the family medicine chest and compendium of domestic medicine : particularly adapted for heads of families, ship-captains, missionaries, and colonists, with plain rules for taking the medicines, to which are added a plain description of the treatment of fractures and dislocations, and a concise account of Asiatic or spasmodic cholera.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dz6e4qvv",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Mode of making a Mustard Poultice:— Mix together equal parts of mustard and linseed meal, then add a sufficient quantity of vinegar to it to make it a proper consistence, and spread it on linen to the depth of half an...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-3138",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Inflammation"
+        ],
+        "excerpt": "COMMON LINIMENT. Take of solution of Ammonia, (Aqua Am monia,) two fluidounces, Olive Oil four fluidounces; mix together. This is a rubefacient, useful in inflammations of the glands, or part* around the throat, and i...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-4138",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WITH",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Cinnamon"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Liniment",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": ") Four ounces of Compound Syrup of Rhubarb and Potassa, or Neutralizing Cordial, for Diarrhea, Cholera Morbus, Sour Stomach, nd Summer Complaint of children. (See Division I, page 740. ) Two ounces of Compound Tinctur...",
+        "score": 43
+      }
+    ]
+  },
+  "retrieval_text": "Cinnamon is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 521 works and 2615 source-linked chunks. Recorded variants include Cinnamon, Cinnamon Flower. Common plant-part co-mentions include Bark, Root, Seed, Gum, Leaf, Flower. Common preparation co-mentions include Oil, Powder, Tincture, Syrup, Extract, Pill. Common condition co-mentions include Cold or catarrh, Diarrhoea or looseness, Vomiting or nausea, Fever, Dysentery, Cough. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Allergy or sensitivity caution, Toxicity watch. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.; Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.; Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.715Z",
+  "builder": "build-herb-profiles.mjs"
+}

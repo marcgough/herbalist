@@ -1,0 +1,1168 @@
+{
+  "profile_id": "seed-saffron",
+  "family_id": "seed-saffron",
+  "canonical_name": "Saffron",
+  "canonical_key": "saffron",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-saffron-822f39a2cb#saffron"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 822,
+    "total_chunks": 794,
+    "total_works": 342,
+    "matched_chunk_count": 794,
+    "matched_work_count": 342,
+    "matched_mention_total": 794
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Saffron",
+      "Saffron Flowers"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0973",
+      "nlm-0140313-chunk-2232",
+      "nlm-0140313-chunk-2734"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 688
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 68
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 40
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 212,
+        "work_count": 154
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 121,
+        "work_count": 88
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 110,
+        "work_count": 93
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 73,
+        "work_count": 65
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 62,
+        "work_count": 52
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 61,
+        "work_count": 58
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 28,
+        "work_count": 25
+      },
+      {
+        "id": "bulb",
+        "label": "Bulb",
+        "signal_count": 15,
+        "work_count": 15
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 11,
+        "work_count": 8
+      }
+    ],
+    "preparations": [
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 425,
+        "work_count": 223
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 274,
+        "work_count": 175
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 225,
+        "work_count": 151
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 179,
+        "work_count": 117
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 140,
+        "work_count": 106
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 98,
+        "work_count": 67
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 95,
+        "work_count": 65
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 91,
+        "work_count": 69
+      },
+      {
+        "id": "cordial",
+        "label": "Cordial",
+        "signal_count": 90,
+        "work_count": 80
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 72,
+        "work_count": 55
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 231,
+        "work_count": 172
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 93,
+        "work_count": 72
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 68,
+        "work_count": 56
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 44,
+        "work_count": 42
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 24,
+        "work_count": 22
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 19,
+        "work_count": 19
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 133,
+        "work_count": 95
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 57,
+        "work_count": 44
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 47,
+        "work_count": 43
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 46,
+        "work_count": 44
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 42,
+        "work_count": 37
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 31,
+        "work_count": 26
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 24,
+        "work_count": 23
+      },
+      {
+        "id": "measles",
+        "label": "Measles",
+        "signal_count": 21,
+        "work_count": 18
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 18,
+        "work_count": 18
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 15,
+        "work_count": 15
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 31,
+      "matched_mention_count": 31
+    },
+    {
+      "work_id": "wellcome-vcp6d7za",
+      "title": "The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.",
+      "creator": "",
+      "publication_year": "1862",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/vcp6d7za",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "nlm-2701678R",
+      "title": "The new dispensatory ... : the whole interspersed with practical cautions and observations",
+      "creator": "Lewis, William, 1708-1781.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2701678R-bk",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "wellcome-nhx2ne6y",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-dwk6bbmw",
+      "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-2932043R",
+      "title": "Medical recipes and prescriptions",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2932043R-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-b4n9x8yx",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory. Containing, I. An account of all the natural and artificial implements and instruments of pharmacy, together with the processes and operations, whereby changes are induced in natural bodies for medicinal purposes ... With two copious indexes to the whole / [R. James].",
+      "creator": "",
+      "publication_year": "1764",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/b4n9x8yx",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-gtpbv42a",
+      "title": "Pharmacopoeia officinalis et extemporanea: or, a compleat English dispensatory, in four parts. Containing I. The theory of pharmacy. And the feveral proceffes therein. II. A description of the officinal simples, with their virtues and preparations, Galenical and chymical. III. The officinal compositions; being such of the London and Bates's dispensatory as are now in use; together with fome others of uncommon efficacy, taken from the moft celebrated authors. IV. Extemporaneous prescriptions. Diftributed into claffes fuitable to their intentions in cure / By John Quincy, M. D.",
+      "creator": "",
+      "publication_year": "1726",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/gtpbv42a",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-p3zwehda",
+      "title": "An introduction to physic and surgery: containing. I. Medicinal institutions, or physiology, hygieine, pathology, semeiotice, and therapeutice. II. A compendious system of anatomy III. A general account of woods, ulcers, tumours, operations, and dressings; as also, the medicines used in surgery. IV. Botany and the materia medica. V. Pharmacy, as well chemical as Galenical. VI. A dispensatory, containing a great variety of the most efficacious officinal compositions, and extemporaneous prescriptions. VII. A syllabus of the symptoms of all the diseases incident to the human body. VIII. An index of diseases and their remedies. IX. A posologic table, containing the doses of all the simples and compounds. X. An explanation of the terms of art, accented as they are to be pronounced. / By R. Brookes, M.D.",
+      "creator": "",
+      "publication_year": "1754",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/p3zwehda",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0622",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Cordial",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Measles"
+        ],
+        "excerpt": "Powdered bark, one drachm. Tincture of bark, two drachms. Decoction of bark, eight ounces. Mix. Dose—A wine-glassful twice a day In rheumatism. Cordial and Diaphoretic Mixture. Camphor julep, six ounces. Hoifraan’s et...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-101196252-chunk-0268",
+        "work_id": "nlm-101196252",
+        "title": "The family doctor : a counsellor in sickness, pain and distress, for childhood, manhood and old age, containing in plain language, free from medical terms, the causes, symptoms, and cure of disease in every form ... illustrated with numerous engravings of medicinal plants and herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "JOHN E. POTTER,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101196252-bk",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Bath",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "In its milder form, the scarlatina needs but very little medical treatment; the child, however, should be kept within doors, and a little saffron or snake-root tea may be given. When vomiting comes on in connection wi...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0587",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "LoHOeH DE Thonchin is very similar to the Lolioch Album, with the adilition of manna, cassia pulp, and syrup of maiden-hair. LoHOCH ViBiDB. P. or Loh, cum croco et pistaciis. Take 3] of syrup of violets, I1\\xx of tinc...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0587",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Lohoch de Tronchin is very similar to the Lohoeh Album, with the addition of manna, cassia pulp, and syrup of maiden-hair. Lohoch Viride. P. or Loh. cum croco et pistaciis. Take of syrup of violets, Tqxx of tincture o...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0724",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption"
+        ],
+        "excerpt": "Take §j of syrup of violets, 1)\\ xx of tincture of saffron, Sjiv of water; mix, and add 5yj of dried pistachio-seeds, and make an emulsion. Then take gr. xvj of gum tragacanth in powder, %ss of oil of almonds; mix, br...",
+        "score": 42
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0622",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Cordial",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Measles"
+        ],
+        "excerpt": "Powdered bark, one drachm. Tincture of bark, two drachms. Decoction of bark, eight ounces. Mix. Dose—A wine-glassful twice a day In rheumatism. Cordial and Diaphoretic Mixture. Camphor julep, six ounces. Hoifraan’s et...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-101196252-chunk-0268",
+        "work_id": "nlm-101196252",
+        "title": "The family doctor : a counsellor in sickness, pain and distress, for childhood, manhood and old age, containing in plain language, free from medical terms, the causes, symptoms, and cure of disease in every form ... illustrated with numerous engravings of medicinal plants and herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "JOHN E. POTTER,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101196252-bk",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Bath",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "In its milder form, the scarlatina needs but very little medical treatment; the child, however, should be kept within doors, and a little saffron or snake-root tea may be given. When vomiting comes on in connection wi...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0587",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "LoHOeH DE Thonchin is very similar to the Lolioch Album, with the adilition of manna, cassia pulp, and syrup of maiden-hair. LoHOCH ViBiDB. P. or Loh, cum croco et pistaciis. Take 3] of syrup of violets, I1\\xx of tinc...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0587",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Lohoch de Tronchin is very similar to the Lohoeh Album, with the addition of manna, cassia pulp, and syrup of maiden-hair. Lohoch Viride. P. or Loh. cum croco et pistaciis. Take of syrup of violets, Tqxx of tincture o...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0724",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption"
+        ],
+        "excerpt": "Take §j of syrup of violets, 1)\\ xx of tincture of saffron, Sjiv of water; mix, and add 5yj of dried pistachio-seeds, and make an emulsion. Then take gr. xvj of gum tragacanth in powder, %ss of oil of almonds; mix, br...",
+        "score": 42
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0622",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Cordial",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Measles"
+        ],
+        "excerpt": "Powdered bark, one drachm. Tincture of bark, two drachms. Decoction of bark, eight ounces. Mix. Dose—A wine-glassful twice a day In rheumatism. Cordial and Diaphoretic Mixture. Camphor julep, six ounces. Hoifraan’s et...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-101196252-chunk-0268",
+        "work_id": "nlm-101196252",
+        "title": "The family doctor : a counsellor in sickness, pain and distress, for childhood, manhood and old age, containing in plain language, free from medical terms, the causes, symptoms, and cure of disease in every form ... illustrated with numerous engravings of medicinal plants and herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "JOHN E. POTTER,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101196252-bk",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Bath",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "In its milder form, the scarlatina needs but very little medical treatment; the child, however, should be kept within doors, and a little saffron or snake-root tea may be given. When vomiting comes on in connection wi...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0587",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "LoHOeH DE Thonchin is very similar to the Lolioch Album, with the adilition of manna, cassia pulp, and syrup of maiden-hair. LoHOCH ViBiDB. P. or Loh, cum croco et pistaciis. Take 3] of syrup of violets, I1\\xx of tinc...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0587",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Lohoch de Tronchin is very similar to the Lohoeh Album, with the addition of manna, cassia pulp, and syrup of maiden-hair. Lohoch Viride. P. or Loh. cum croco et pistaciis. Take of syrup of violets, Tqxx of tincture o...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0724",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption"
+        ],
+        "excerpt": "Take §j of syrup of violets, 1)\\ xx of tincture of saffron, Sjiv of water; mix, and add 5yj of dried pistachio-seeds, and make an emulsion. Then take gr. xvj of gum tragacanth in powder, %ss of oil of almonds; mix, br...",
+        "score": 42
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0622",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Cordial",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Measles"
+        ],
+        "excerpt": "Powdered bark, one drachm. Tincture of bark, two drachms. Decoction of bark, eight ounces. Mix. Dose—A wine-glassful twice a day In rheumatism. Cordial and Diaphoretic Mixture. Camphor julep, six ounces. Hoifraan’s et...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-101196252-chunk-0268",
+        "work_id": "nlm-101196252",
+        "title": "The family doctor : a counsellor in sickness, pain and distress, for childhood, manhood and old age, containing in plain language, free from medical terms, the causes, symptoms, and cure of disease in every form ... illustrated with numerous engravings of medicinal plants and herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "JOHN E. POTTER,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101196252-bk",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Bath",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "In its milder form, the scarlatina needs but very little medical treatment; the child, however, should be kept within doors, and a little saffron or snake-root tea may be given. When vomiting comes on in connection wi...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0587",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "LoHOeH DE Thonchin is very similar to the Lolioch Album, with the adilition of manna, cassia pulp, and syrup of maiden-hair. LoHOCH ViBiDB. P. or Loh, cum croco et pistaciis. Take 3] of syrup of violets, I1\\xx of tinc...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0587",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Lohoch de Tronchin is very similar to the Lohoeh Album, with the addition of manna, cassia pulp, and syrup of maiden-hair. Lohoch Viride. P. or Loh. cum croco et pistaciis. Take of syrup of violets, Tqxx of tincture o...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0724",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Saffron"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption"
+        ],
+        "excerpt": "Take §j of syrup of violets, 1)\\ xx of tincture of saffron, Sjiv of water; mix, and add 5yj of dried pistachio-seeds, and make an emulsion. Then take gr. xvj of gum tragacanth in powder, %ss of oil of almonds; mix, br...",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Saffron is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 342 works and 794 source-linked chunks. Recorded variants include Saffron, Saffron Flowers. Common plant-part co-mentions include Root, Flower, Gum, Bark, Seed, Leaf. Common preparation co-mentions include Syrup, Tincture, Powder, Oil, Tea, Extract. Common condition co-mentions include Fever, Cold or catarrh, Vomiting or nausea, Wounds or ulcers, Cough, Inflammation. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Fatal-risk warning, Bleeding caution, Toxicity watch. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; The new dispensatory ... : the whole interspersed with practical cautions and observations. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.834Z",
+  "builder": "build-herb-profiles.mjs"
+}

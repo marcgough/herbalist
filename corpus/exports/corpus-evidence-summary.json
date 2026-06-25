@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-06-23T13:19:38.812Z",
+  "totalChunkedWorks": 1328,
+  "chunkSignalCount": 1325583,
+  "herbCandidateCount": 85330,
+  "highConfidenceHerbCount": 5561,
+  "mediumConfidenceHerbCount": 25086,
+  "lowConfidenceHerbCount": 54683,
+  "plantPartCount": 14,
+  "preparationCount": 25,
+  "cautionCount": 9,
+  "conditionCount": 20,
+  "graphNodeCount": 85398,
+  "graphEdgeCount": 491220,
+  "topHerbs": [
+    {
+      "herb_id": "lemon",
+      "name": "Lemon",
+      "confidence": "high",
+      "chunk_count": 5105,
+      "work_count": 680,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "turpentine",
+      "name": "Turpentine",
+      "confidence": "high",
+      "chunk_count": 4844,
+      "work_count": 695,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "olive",
+      "name": "Olive",
+      "confidence": "high",
+      "chunk_count": 4639,
+      "work_count": 691,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "opium",
+      "name": "Opium",
+      "confidence": "high",
+      "chunk_count": 3914,
+      "work_count": 500,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "castor",
+      "name": "Castor",
+      "confidence": "high",
+      "chunk_count": 3608,
+      "work_count": 625,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "liquorice",
+      "name": "Liquorice",
+      "confidence": "high",
+      "chunk_count": 3593,
+      "work_count": 599,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "senna",
+      "name": "Senna",
+      "confidence": "high",
+      "chunk_count": 3232,
+      "work_count": 510,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "fixed",
+      "name": "Fixed",
+      "confidence": "high",
+      "chunk_count": 2973,
+      "work_count": 308,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "gentian",
+      "name": "Gentian",
+      "confidence": "high",
+      "chunk_count": 2752,
+      "work_count": 616,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "myrrh",
+      "name": "Myrrh",
+      "confidence": "high",
+      "chunk_count": 2629,
+      "work_count": 546,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "cinnamon",
+      "name": "Cinnamon",
+      "confidence": "high",
+      "chunk_count": 2614,
+      "work_count": 520,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "vitriol",
+      "name": "Vitriol",
+      "confidence": "high",
+      "chunk_count": 2293,
+      "work_count": 523,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "fluid",
+      "name": "Fluid",
+      "confidence": "high",
+      "chunk_count": 2285,
+      "work_count": 223,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "ginger",
+      "name": "Ginger",
+      "confidence": "high",
+      "chunk_count": 2276,
+      "work_count": 502,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "roses",
+      "name": "Roses",
+      "confidence": "high",
+      "chunk_count": 2250,
+      "work_count": 415,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "mustard",
+      "name": "Mustard",
+      "confidence": "high",
+      "chunk_count": 2238,
+      "work_count": 582,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "rhubarb",
+      "name": "Rhubarb",
+      "confidence": "high",
+      "chunk_count": 2226,
+      "work_count": 552,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "orange",
+      "name": "Orange",
+      "confidence": "high",
+      "chunk_count": 2170,
+      "work_count": 523,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "watery",
+      "name": "Watery",
+      "confidence": "high",
+      "chunk_count": 1944,
+      "work_count": 332,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    },
+    {
+      "herb_id": "cloves",
+      "name": "Cloves",
+      "confidence": "high",
+      "chunk_count": 1919,
+      "work_count": 489,
+      "basis": "part_phrase;preparation_of;preparation_suffix"
+    }
+  ]
+}

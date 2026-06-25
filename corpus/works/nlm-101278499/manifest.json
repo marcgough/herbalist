@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101278499",
+  "title": "Manual of naval hygiene and sanitation",
+  "creator": "United States. Navy Department. Bureau of Medicine and Surgery.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278499-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101278499-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101278499",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;public-health",
+  "chunkCount": 913,
+  "paragraphCount": 915,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101278499\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101278499\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101278499\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101278499.jsonl",
+  "rawSha256": "ce17ff1fb878274a281fad5dc9562f7f63e13d10a696e9adfda5e491426829d5",
+  "normalizedSha256": "925c7d76987bb1277219accadfc4211eea50e8960c795433b48b45f4c7bea5e1",
+  "processedAt": "2026-06-18T05:22:03.438Z"
+}

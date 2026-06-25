@@ -1,0 +1,1176 @@
+{
+  "profile_id": "seed-peppermint",
+  "family_id": "seed-peppermint",
+  "canonical_name": "Peppermint",
+  "canonical_key": "peppermint",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-peppermint-fe05d9917b#peppermint"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1829,
+    "total_chunks": 1662,
+    "total_works": 450,
+    "matched_chunk_count": 1662,
+    "matched_work_count": 450,
+    "matched_mention_total": 1662
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Peppermint",
+      "Peppermint Herb"
+    ],
+    "sample_work_ids": [
+      "nlm-0116421",
+      "nlm-0140313",
+      "nlm-0215565"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0116421-chunk-0100",
+      "nlm-0140313-chunk-0667",
+      "nlm-0140313-chunk-0694"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1445
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 191
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 43
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 253,
+        "work_count": 162
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 185,
+        "work_count": 133
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 132,
+        "work_count": 97
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 127,
+        "work_count": 95
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 118,
+        "work_count": 89
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 109,
+        "work_count": 83
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 39,
+        "work_count": 35
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 39,
+        "work_count": 34
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 26,
+        "work_count": 21
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 21,
+        "work_count": 19
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 1173,
+        "work_count": 396
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 630,
+        "work_count": 262
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 409,
+        "work_count": 211
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 377,
+        "work_count": 179
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 351,
+        "work_count": 188
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 314,
+        "work_count": 199
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 265,
+        "work_count": 145
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 200,
+        "work_count": 129
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 133,
+        "work_count": 85
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 111,
+        "work_count": 84
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 734,
+        "work_count": 282
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 240,
+        "work_count": 167
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 152,
+        "work_count": 99
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 49,
+        "work_count": 45
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 44,
+        "work_count": 42
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 31,
+        "work_count": 30
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 20,
+        "work_count": 20
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 18,
+        "work_count": 18
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "conditions": [
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 218,
+        "work_count": 128
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 207,
+        "work_count": 141
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 177,
+        "work_count": 128
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 109,
+        "work_count": 67
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 94,
+        "work_count": 68
+      },
+      {
+        "id": "cholera",
+        "label": "Cholera",
+        "signal_count": 78,
+        "work_count": 57
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 69,
+        "work_count": 59
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 67,
+        "work_count": 56
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 63,
+        "work_count": 57
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 62,
+        "work_count": 51
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 48,
+      "matched_mention_count": 48
+    },
+    {
+      "work_id": "wellcome-xjgggnw8",
+      "title": "Merck's 1901 manual of the materia medica : aready-reference pocket book for the practicing physician and surgeon.",
+      "creator": "",
+      "publication_year": "1901",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/xjgggnw8",
+      "signal_chunk_count": 26,
+      "matched_mention_count": 26
+    },
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "nlm-101485225",
+      "title": "The American practice abridged, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485225-bk",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "nlm-101485229",
+      "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485229-bk",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "nlm-101485230",
+      "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485230-bk",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 15
+    },
+    {
+      "work_id": "nlm-101743940",
+      "title": "The family physician ; or, The reformed practice of medicine : on vegetable or botanical principles : being a compendium of the \"American practice\"",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine;botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101743940-bk",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 15
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63580630R-chunk-2960",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Wash",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "PEPPP^RMINT. Mentha Piperita. This well-known perennial plant is i stimulant, antispasmodic, carminative, and stomachic; it is much used in the form of essence of peppermint, in flatulent colic, hysterics, spasms or c...",
+        "score": 60
+      },
+      {
+        "chunk_id": "nlm-101554865-chunk-0282",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Essence",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Headache",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "248 INDEX. Essence of Peppermint, . Elder Ointment, Extract from John Wesley, Emetic powders, Fever, Intermittent, \" Remittent, \" Scarlet, \" Childbed, \" Hectic, \" Lung, \" Inflammatory, \" Typhus, \" Spotted, Fomentation...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-63570290R-chunk-1369",
+        "work_id": "nlm-63570290R",
+        "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OBSTRUCTION OF URINE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570290R-bk",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Liniment",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "After this the back and abdomen should be well rubbed with the camphorated, or volatile anodyne liniment, and if the pain continue, the anodyne clysters should be administered. If, notwith- standing these means, the p...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0222",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Rheumatism"
+        ],
+        "excerpt": "Cayenne Dose • One pill three times a day, in all cases of cough asthma, consumption and all diseases of the lungs, in rheumatism, diopsy, Indigestion, &c, &c. No. 22. CAYENNE PILLS. „ .. 1 oz. Cayenne .. •• x Am^cd •...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-jfx4av9y-chunk-1373",
+        "work_id": "wellcome-jfx4av9y",
+        "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plants : also, the nurse's guide / by James Ewell.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jfx4av9y",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "If, notwith- standing these means, the pain become violent, it will be proper to give a tea-spoonful of the diaphoretic drops, or four or five grains of Dover's powders, or one of the camphorated powders, (see Dispen-...",
+        "score": 46
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63580630R-chunk-2960",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Wash",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "PEPPP^RMINT. Mentha Piperita. This well-known perennial plant is i stimulant, antispasmodic, carminative, and stomachic; it is much used in the form of essence of peppermint, in flatulent colic, hysterics, spasms or c...",
+        "score": 60
+      },
+      {
+        "chunk_id": "nlm-101554865-chunk-0282",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Essence",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Headache",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "248 INDEX. Essence of Peppermint, . Elder Ointment, Extract from John Wesley, Emetic powders, Fever, Intermittent, \" Remittent, \" Scarlet, \" Childbed, \" Hectic, \" Lung, \" Inflammatory, \" Typhus, \" Spotted, Fomentation...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-63570290R-chunk-1369",
+        "work_id": "nlm-63570290R",
+        "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OBSTRUCTION OF URINE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570290R-bk",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Liniment",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "After this the back and abdomen should be well rubbed with the camphorated, or volatile anodyne liniment, and if the pain continue, the anodyne clysters should be administered. If, notwith- standing these means, the p...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0222",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Rheumatism"
+        ],
+        "excerpt": "Cayenne Dose • One pill three times a day, in all cases of cough asthma, consumption and all diseases of the lungs, in rheumatism, diopsy, Indigestion, &c, &c. No. 22. CAYENNE PILLS. „ .. 1 oz. Cayenne .. •• x Am^cd •...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-jfx4av9y-chunk-1373",
+        "work_id": "wellcome-jfx4av9y",
+        "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plants : also, the nurse's guide / by James Ewell.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jfx4av9y",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "If, notwith- standing these means, the pain become violent, it will be proper to give a tea-spoonful of the diaphoretic drops, or four or five grains of Dover's powders, or one of the camphorated powders, (see Dispen-...",
+        "score": 46
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63580630R-chunk-2960",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Wash",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "PEPPP^RMINT. Mentha Piperita. This well-known perennial plant is i stimulant, antispasmodic, carminative, and stomachic; it is much used in the form of essence of peppermint, in flatulent colic, hysterics, spasms or c...",
+        "score": 60
+      },
+      {
+        "chunk_id": "nlm-101554865-chunk-0282",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Essence",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Headache",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "248 INDEX. Essence of Peppermint, . Elder Ointment, Extract from John Wesley, Emetic powders, Fever, Intermittent, \" Remittent, \" Scarlet, \" Childbed, \" Hectic, \" Lung, \" Inflammatory, \" Typhus, \" Spotted, Fomentation...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-63570290R-chunk-1369",
+        "work_id": "nlm-63570290R",
+        "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OBSTRUCTION OF URINE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570290R-bk",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Liniment",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "After this the back and abdomen should be well rubbed with the camphorated, or volatile anodyne liniment, and if the pain continue, the anodyne clysters should be administered. If, notwith- standing these means, the p...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0222",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Rheumatism"
+        ],
+        "excerpt": "Cayenne Dose • One pill three times a day, in all cases of cough asthma, consumption and all diseases of the lungs, in rheumatism, diopsy, Indigestion, &c, &c. No. 22. CAYENNE PILLS. „ .. 1 oz. Cayenne .. •• x Am^cd •...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-jfx4av9y-chunk-1373",
+        "work_id": "wellcome-jfx4av9y",
+        "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plants : also, the nurse's guide / by James Ewell.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jfx4av9y",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "If, notwith- standing these means, the pain become violent, it will be proper to give a tea-spoonful of the diaphoretic drops, or four or five grains of Dover's powders, or one of the camphorated powders, (see Dispen-...",
+        "score": 46
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63580630R-chunk-2960",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Wash",
+          "Gargle",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "PEPPP^RMINT. Mentha Piperita. This well-known perennial plant is i stimulant, antispasmodic, carminative, and stomachic; it is much used in the form of essence of peppermint, in flatulent colic, hysterics, spasms or c...",
+        "score": 60
+      },
+      {
+        "chunk_id": "nlm-63570290R-chunk-1369",
+        "work_id": "nlm-63570290R",
+        "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OBSTRUCTION OF URINE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570290R-bk",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Liniment",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "After this the back and abdomen should be well rubbed with the camphorated, or volatile anodyne liniment, and if the pain continue, the anodyne clysters should be administered. If, notwith- standing these means, the p...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0222",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Rheumatism"
+        ],
+        "excerpt": "Cayenne Dose • One pill three times a day, in all cases of cough asthma, consumption and all diseases of the lungs, in rheumatism, diopsy, Indigestion, &c, &c. No. 22. CAYENNE PILLS. „ .. 1 oz. Cayenne .. •• x Am^cd •...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-jfx4av9y-chunk-1373",
+        "work_id": "wellcome-jfx4av9y",
+        "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plants : also, the nurse's guide / by James Ewell.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jfx4av9y",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "If, notwith- standing these means, the pain become violent, it will be proper to give a tea-spoonful of the diaphoretic drops, or four or five grains of Dover's powders, or one of the camphorated powders, (see Dispen-...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-zk8kqddq-chunk-1294",
+        "work_id": "wellcome-zk8kqddq",
+        "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plants : also, the nurse's guide / by James Ewell.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zk8kqddq",
+        "matched_herbs": [
+          "Peppermint"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "If, not* withstanding these means, the pain become violent, it will be pro- per to give a tea-spoonful of the diaphoretic drops, or four or five grains of Dover's powders, or one of the camphorated powders, («ce Dispe...",
+        "score": 46
+      }
+    ]
+  },
+  "retrieval_text": "Peppermint is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 450 works and 1662 source-linked chunks. Recorded variants include Peppermint, Peppermint Herb. Common plant-part co-mentions include Root, Leaf, Bark, Gum, Flower, Seed. Common preparation co-mentions include Oil, Essence, Powder, Tea, Tincture, Pill. Common condition co-mentions include Vomiting or nausea, Cold or catarrh, Colic, Fever, Diarrhoea or looseness, Cholera. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Allergy or sensitivity caution, Bleeding caution, Fatal-risk warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Merck's 1901 manual of the materia medica : aready-reference pocket book for the practicing physician and surgeon.; The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.745Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-fc69rtpx",
+  "title": "Medical botany; or, descriptions of the more important plants used in medicine, with their history, properties, and mode of administration / By R. Eglesfeld Griffith ... With upwards of three hundred illustrations.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/fc69rtpx",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b3328989x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/fc69rtpx",
+  "rightsStatus": "pdm",
+  "topicFamily": "medical-botany;botany",
+  "chunkCount": 2735,
+  "paragraphCount": 2776,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-fc69rtpx\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-fc69rtpx\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-fc69rtpx\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-fc69rtpx.jsonl",
+  "rawSha256": "5b0d6a49210fcb798721ae553692e38c66a7a16f8bffbf9f3e4a542b55d94b6c",
+  "normalizedSha256": "ff9eb8d8aa592aa0926c1ccbf341d9215d771dbcd2449a9a62b17e558d40bb0f",
+  "processedAt": "2026-06-17T00:56:05.668Z"
+}

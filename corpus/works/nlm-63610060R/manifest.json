@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63610060R",
+  "title": "A dictionary of popular medicine and hygiene : American domestic medicine and household physician : a companion for the traveler, emigrant, clergyman, and miner, as well as for the heads of all families and institutions",
+  "creator": "Lankester, Edwin, 1814-1874.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610060R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63610060R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63610060R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene;household-health",
+  "chunkCount": 40,
+  "paragraphCount": 49,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610060R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610060R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63610060R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63610060R.jsonl",
+  "rawSha256": "90a4b37e8ef686bdcb5021f38dff780ca9c2a3ba56f5b23b3bde467039cf538c",
+  "normalizedSha256": "9edcd424a48f285c55c76ce5ff47ff599a658a2673440baebc61567f75afd583",
+  "processedAt": "2026-06-17T13:02:50.038Z"
+}

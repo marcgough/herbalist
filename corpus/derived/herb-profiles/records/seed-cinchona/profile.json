@@ -1,0 +1,1191 @@
+{
+  "profile_id": "seed-cinchona",
+  "family_id": "seed-cinchona",
+  "canonical_name": "Cinchona",
+  "canonical_key": "cinchona",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-cinchona-e6b023fb08#cinchona"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1830,
+    "total_chunks": 1577,
+    "total_works": 295,
+    "matched_chunk_count": 1577,
+    "matched_work_count": 295,
+    "matched_mention_total": 1577
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Cinchona"
+    ],
+    "sample_work_ids": [
+      "nlm-0027427",
+      "nlm-0140313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0027427-chunk-0033",
+      "nlm-0140313-chunk-2992",
+      "nlm-0217315-chunk-0394"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1062
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 522
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 18
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 931,
+        "work_count": 253
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 278,
+        "work_count": 129
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 111,
+        "work_count": 72
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 108,
+        "work_count": 71
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 102,
+        "work_count": 62
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 92,
+        "work_count": 57
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 64,
+        "work_count": 45
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 21,
+        "work_count": 18
+      },
+      {
+        "id": "bulb",
+        "label": "Bulb",
+        "signal_count": 21,
+        "work_count": 16
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 19,
+        "work_count": 19
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 570,
+        "work_count": 193
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 514,
+        "work_count": 150
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 476,
+        "work_count": 161
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 475,
+        "work_count": 165
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 377,
+        "work_count": 143
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 152,
+        "work_count": 94
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 152,
+        "work_count": 51
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 120,
+        "work_count": 69
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 65,
+        "work_count": 46
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 64,
+        "work_count": 49
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 581,
+        "work_count": 182
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 143,
+        "work_count": 79
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 40,
+        "work_count": 35
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 40,
+        "work_count": 31
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 30,
+        "work_count": 28
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 179,
+        "work_count": 110
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 159,
+        "work_count": 97
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 76,
+        "work_count": 57
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 51,
+        "work_count": 37
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 32,
+        "work_count": 29
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 30,
+        "work_count": 28
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 27,
+        "work_count": 22
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 24,
+        "work_count": 21
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 24,
+        "work_count": 19
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 23,
+        "work_count": 19
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 147,
+      "matched_mention_count": 147
+    },
+    {
+      "work_id": "wellcome-wg4y3uv4",
+      "title": "The London dispensatory : a practical synopsis of materia medica, pharmacy, and therapeutics : illustrated with many useful tables, and woodcuts of the pharmaceutical apparatus / by the late Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/wg4y3uv4",
+      "signal_chunk_count": 31,
+      "matched_mention_count": 31
+    },
+    {
+      "work_id": "wellcome-skdfu5qa",
+      "title": "The elements of materia medica. Comprehending the natural history, preparation, properties, composition, effects and uses of medicines / [Jonathan Pereira].",
+      "creator": "",
+      "publication_year": "1839",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/skdfu5qa",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "wellcome-t4wudf9r",
+      "title": "The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry.  II. The materia medica ...  III. The pharmaceutical preparations and compositions / Including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ...  By Andrew Duncan, Jun. ...  From the 8th and last Edinburgh ed.  With large additions, relating principally to the vegetable production of the United States.  By Jacob Dyckman.",
+      "creator": "",
+      "publication_year": "1818",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/t4wudf9r",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "wellcome-v6b53ujp",
+      "title": "The Edinburgh new dispensatory : containing 1. The elements of pharmaceutical chemistry. 2. The materia medica ... 3. The pharmaceutical preparations and compositions ; including translations of the Edinburgh pharmacopoeia published in 1817 ... / By Andrew Duncan.",
+      "creator": "",
+      "publication_year": "1819",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/v6b53ujp",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "nlm-2561028R",
+      "title": "The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry. II. The materia medica , or the natural pharmacuetical and medical history, of the substances employed in medicine. III. The pharmaceutical preparations and compositions : including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ; illustrated and explained in the language, and according to the principles of modern chemistry ; with numerous tables and plates of pharmaceutical apparatus",
+      "creator": "Duncan, Andrew, Jun., 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2561028R-bk",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 18
+    },
+    {
+      "work_id": "wellcome-z9zb342q",
+      "title": "The Edinburgh new dispensatory : containing, I. The elements of pharmaceutical chemistry: II. The materia medica, or, The natural, pharmaceutical, and medical history, of the substances employed in medicine: III. The pharmaceutical preparations and compositions including translations of the Edinburgh Pharmacopoeia published in 1817, of the Dublin Pharmacopoeia in 1807, and of the London Pharmacopoeia in 1815. Illustrated and explained in the languages, and according to the principles, of modern chemistry. With numerous tables / by Andrew Duncan, Jun.",
+      "creator": "",
+      "publication_year": "1822",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/z9zb342q",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 18
+    },
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 18
+    },
+    {
+      "work_id": "wellcome-kpw6zk49",
+      "title": "Medicines : their uses and mode of administration including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and appendix of formulae / by J. Moore Neligan ; with notes and additions, conforming it to the Pharmacopoeia of the United States, and including all that is new or important in recent improvements, by David Meredith Reese.",
+      "creator": "",
+      "publication_year": "1851",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/kpw6zk49",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-101609940-chunk-0654",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "pulse. As quinine accumulates in the brain, a sense of fullness in the head, a tightness and constriction about the forehead, a ringing in the ears {tinnitus aurium), giddiness and vertigo are experienced. Deafness al...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-t4wudf9r-chunk-0799",
+        "work_id": "wellcome-t4wudf9r",
+        "title": "The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry.  II. The materia medica ...  III. The pharmaceutical preparations and compositions / Including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ...  By Andrew Duncan, Jun. ...  From the 8th and last Edinburgh ed.  With large additions, relating principally to the vegetable production of the United States.  By Jacob Dyckman.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t4wudf9r",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved. Externally, cinchona bark is used in substance, as...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-z9zb342q-chunk-0759",
+        "work_id": "wellcome-z9zb342q",
+        "title": "The Edinburgh new dispensatory : containing, I. The elements of pharmaceutical chemistry: II. The materia medica, or, The natural, pharmaceutical, and medical history, of the substances employed in medicine: III. The pharmaceutical preparations and compositions including translations of the Edinburgh Pharmacopoeia published in 1817, of the Dublin Pharmacopoeia in 1807, and of the London Pharmacopoeia in 1815. Illustrated and explained in the languages, and according to the principles, of modern chemistry. With numerous tables / by Andrew Duncan, Jun.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/z9zb342q",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved- Externally, cinchona bark is used in substance, as...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-w7ezdgkv-chunk-0653",
+        "work_id": "wellcome-w7ezdgkv",
+        "title": "The Edinburgh new dispensatory. Containing I. The elements of pharmaceutical chemistry. II. The materia medica ... III. The pharmaceutical preparations and compositions. Including complete and accurate translations of the London pharmacopoeia, published in 1791; of the Edinburgh pharmacopoeia, in 1805; and of the Dublin pharmacopoeia, in 1807, etc / By Andrew Duncam, Jun. M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/w7ezdgkv",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved, ^ Externally, cinchona bark is used in substance, a...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0769",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Deafness also occurs, as the effect of consider- able doses, and, if continued, permanent injury may result. Poisonous doses cause intense headache, dilated pupils, de- lirium, conia and convulsions. Peruvian bark and...",
+        "score": 50
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-101609940-chunk-0654",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "pulse. As quinine accumulates in the brain, a sense of fullness in the head, a tightness and constriction about the forehead, a ringing in the ears {tinnitus aurium), giddiness and vertigo are experienced. Deafness al...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-t4wudf9r-chunk-0799",
+        "work_id": "wellcome-t4wudf9r",
+        "title": "The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry.  II. The materia medica ...  III. The pharmaceutical preparations and compositions / Including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ...  By Andrew Duncan, Jun. ...  From the 8th and last Edinburgh ed.  With large additions, relating principally to the vegetable production of the United States.  By Jacob Dyckman.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t4wudf9r",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved. Externally, cinchona bark is used in substance, as...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-z9zb342q-chunk-0759",
+        "work_id": "wellcome-z9zb342q",
+        "title": "The Edinburgh new dispensatory : containing, I. The elements of pharmaceutical chemistry: II. The materia medica, or, The natural, pharmaceutical, and medical history, of the substances employed in medicine: III. The pharmaceutical preparations and compositions including translations of the Edinburgh Pharmacopoeia published in 1817, of the Dublin Pharmacopoeia in 1807, and of the London Pharmacopoeia in 1815. Illustrated and explained in the languages, and according to the principles, of modern chemistry. With numerous tables / by Andrew Duncan, Jun.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/z9zb342q",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved- Externally, cinchona bark is used in substance, as...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-w7ezdgkv-chunk-0653",
+        "work_id": "wellcome-w7ezdgkv",
+        "title": "The Edinburgh new dispensatory. Containing I. The elements of pharmaceutical chemistry. II. The materia medica ... III. The pharmaceutical preparations and compositions. Including complete and accurate translations of the London pharmacopoeia, published in 1791; of the Edinburgh pharmacopoeia, in 1805; and of the Dublin pharmacopoeia, in 1807, etc / By Andrew Duncam, Jun. M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/w7ezdgkv",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved, ^ Externally, cinchona bark is used in substance, a...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0769",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Deafness also occurs, as the effect of consider- able doses, and, if continued, permanent injury may result. Poisonous doses cause intense headache, dilated pupils, de- lirium, conia and convulsions. Peruvian bark and...",
+        "score": 50
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-101609940-chunk-0654",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "pulse. As quinine accumulates in the brain, a sense of fullness in the head, a tightness and constriction about the forehead, a ringing in the ears {tinnitus aurium), giddiness and vertigo are experienced. Deafness al...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-t4wudf9r-chunk-0799",
+        "work_id": "wellcome-t4wudf9r",
+        "title": "The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry.  II. The materia medica ...  III. The pharmaceutical preparations and compositions / Including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ...  By Andrew Duncan, Jun. ...  From the 8th and last Edinburgh ed.  With large additions, relating principally to the vegetable production of the United States.  By Jacob Dyckman.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t4wudf9r",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved. Externally, cinchona bark is used in substance, as...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-z9zb342q-chunk-0759",
+        "work_id": "wellcome-z9zb342q",
+        "title": "The Edinburgh new dispensatory : containing, I. The elements of pharmaceutical chemistry: II. The materia medica, or, The natural, pharmaceutical, and medical history, of the substances employed in medicine: III. The pharmaceutical preparations and compositions including translations of the Edinburgh Pharmacopoeia published in 1817, of the Dublin Pharmacopoeia in 1807, and of the London Pharmacopoeia in 1815. Illustrated and explained in the languages, and according to the principles, of modern chemistry. With numerous tables / by Andrew Duncan, Jun.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/z9zb342q",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved- Externally, cinchona bark is used in substance, as...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-w7ezdgkv-chunk-0653",
+        "work_id": "wellcome-w7ezdgkv",
+        "title": "The Edinburgh new dispensatory. Containing I. The elements of pharmaceutical chemistry. II. The materia medica ... III. The pharmaceutical preparations and compositions. Including complete and accurate translations of the London pharmacopoeia, published in 1791; of the Edinburgh pharmacopoeia, in 1805; and of the Dublin pharmacopoeia, in 1807, etc / By Andrew Duncam, Jun. M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/w7ezdgkv",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved, ^ Externally, cinchona bark is used in substance, a...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0769",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Deafness also occurs, as the effect of consider- able doses, and, if continued, permanent injury may result. Poisonous doses cause intense headache, dilated pupils, de- lirium, conia and convulsions. Peruvian bark and...",
+        "score": 50
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-101609940-chunk-0654",
+        "work_id": "nlm-101609940",
+        "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "P. BLAKISTON, SON & CO.,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "pulse. As quinine accumulates in the brain, a sense of fullness in the head, a tightness and constriction about the forehead, a ringing in the ears {tinnitus aurium), giddiness and vertigo are experienced. Deafness al...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-t4wudf9r-chunk-0799",
+        "work_id": "wellcome-t4wudf9r",
+        "title": "The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry.  II. The materia medica ...  III. The pharmaceutical preparations and compositions / Including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ...  By Andrew Duncan, Jun. ...  From the 8th and last Edinburgh ed.  With large additions, relating principally to the vegetable production of the United States.  By Jacob Dyckman.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t4wudf9r",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved. Externally, cinchona bark is used in substance, as...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-z9zb342q-chunk-0759",
+        "work_id": "wellcome-z9zb342q",
+        "title": "The Edinburgh new dispensatory : containing, I. The elements of pharmaceutical chemistry: II. The materia medica, or, The natural, pharmaceutical, and medical history, of the substances employed in medicine: III. The pharmaceutical preparations and compositions including translations of the Edinburgh Pharmacopoeia published in 1817, of the Dublin Pharmacopoeia in 1807, and of the London Pharmacopoeia in 1815. Illustrated and explained in the languages, and according to the principles, of modern chemistry. With numerous tables / by Andrew Duncan, Jun.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/z9zb342q",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved- Externally, cinchona bark is used in substance, as...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-w7ezdgkv-chunk-0653",
+        "work_id": "wellcome-w7ezdgkv",
+        "title": "The Edinburgh new dispensatory. Containing I. The elements of pharmaceutical chemistry. II. The materia medica ... III. The pharmaceutical preparations and compositions. Including complete and accurate translations of the London pharmacopoeia, published in 1791; of the Edinburgh pharmacopoeia, in 1805; and of the Dublin pharmacopoeia, in 1807, etc / By Andrew Duncam, Jun. M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/w7ezdgkv",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is convenient for the formation of pills and boluses, but we would always prefer a fresh infusion or decoction to any mixture in which the extract is redissolved, ^ Externally, cinchona bark is used in substance, a...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0769",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Cinchona"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Deafness also occurs, as the effect of consider- able doses, and, if continued, permanent injury may result. Poisonous doses cause intense headache, dilated pupils, de- lirium, conia and convulsions. Peruvian bark and...",
+        "score": 50
+      }
+    ]
+  },
+  "retrieval_text": "Cinchona is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 295 works and 1577 source-linked chunks. Recorded variants include Cinchona. Common plant-part co-mentions include Bark, Root, Leaf, Gum, Seed, Flower. Common preparation co-mentions include Tincture, Powder, Infusion, Decoction, Extract, Oil. Common condition co-mentions include Fever, Cold or catarrh, Wounds or ulcers, Diarrhoea or looseness, Vomiting or nausea, Epilepsy or convulsions. Caution co-mentions include Dose caution, Narcotic or sedative caution, Bleeding caution, Child-use caution, Toxicity watch, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The London dispensatory : a practical synopsis of materia medica, pharmacy, and therapeutics : illustrated with many useful tables, and woodcuts of the pharmaceutical apparatus / by the late Anthony Todd Thomson.; The elements of materia medica. Comprehending the natural history, preparation, properties, composition, effects and uses of medicines / [Jonathan Pereira].; The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry.  II. The materia medica ...  III. The pharmaceutical preparations and compositions / Including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ...  By Andrew Duncan, Jun. ...  From the 8th and last Edinburgh ed.  With large additions, relating principally to the vegetable production of the United States.  By Jacob Dyckman.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.761Z",
+  "builder": "build-herb-profiles.mjs"
+}

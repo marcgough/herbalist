@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2561028R",
+  "title": "The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry. II. The materia medica , or the natural pharmacuetical and medical history, of the substances employed in medicine. III. The pharmaceutical preparations and compositions : including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ; illustrated and explained in the language, and according to the principles of modern chemistry ; with numerous tables and plates of pharmaceutical apparatus",
+  "creator": "Duncan, Andrew, Jun., 1773-1832.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2561028R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2561028R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2561028R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 2453,
+  "paragraphCount": 4454,
+  "sectionCount": 17,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2561028R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2561028R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2561028R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2561028R.jsonl",
+  "rawSha256": "ea1ed6c9103fcd30772c2f06251dc06422b45cc2c168e55ab6541e4590e94f18",
+  "normalizedSha256": "0f81b0cbb7b0c21fd042394a928213afc2e7397d0789d473f44597ae0ee4f1d3",
+  "processedAt": "2026-06-18T04:50:30.319Z"
+}

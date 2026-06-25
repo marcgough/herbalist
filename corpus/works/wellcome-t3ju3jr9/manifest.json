@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-t3ju3jr9",
+  "title": "The family physician, or Poor man's friend, and married lady's companion : containing a great variety of valuable medical recipes, designed to assist heads of families, travellers and sea-faring people, in curing diseases ; with concise directions for the preparation, and use of a numerous collection of vegetables made use of ; and directions for preparing and administering them to cure diseases ; together with many of the most approved from the shop of the apothecary ; all in plain English / by A. Weyer.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/t3ju3jr9",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21163558",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/t3ju3jr9",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 452,
+  "paragraphCount": 460,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-t3ju3jr9\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-t3ju3jr9\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-t3ju3jr9\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-t3ju3jr9.jsonl",
+  "rawSha256": "7f2450e4b83807a25fb00b6708b72274eba3af4c22acd04b8786ccf88c21b84f",
+  "normalizedSha256": "6f953a3e1f64d8a0b4558078f5e3fbbad0027947a44e5ec142cfc6f790fbede6",
+  "processedAt": "2026-06-16T23:29:59.817Z"
+}

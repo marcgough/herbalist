@@ -1,0 +1,1218 @@
+{
+  "profile_id": "seed-juniper",
+  "family_id": "seed-juniper",
+  "canonical_name": "Juniper",
+  "canonical_key": "juniper",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-juniper-17840323ea#juniper"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 2152,
+    "total_chunks": 1968,
+    "total_works": 584,
+    "matched_chunk_count": 1968,
+    "matched_work_count": 584,
+    "matched_mention_total": 1978
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Juniper",
+      "Juniper Berries",
+      "Juniper Tops"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0878",
+      "nlm-0140313-chunk-0930",
+      "nlm-0140313-chunk-0945"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 1029
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 948
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 46
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 1225,
+        "work_count": 469
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 432,
+        "work_count": 226
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 398,
+        "work_count": 246
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 329,
+        "work_count": 223
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 272,
+        "work_count": 164
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 251,
+        "work_count": 178
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 245,
+        "work_count": 173
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 202,
+        "work_count": 155
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 201,
+        "work_count": 142
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 145,
+        "work_count": 104
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 1100,
+        "work_count": 442
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 334,
+        "work_count": 188
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 314,
+        "work_count": 183
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 274,
+        "work_count": 166
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 226,
+        "work_count": 152
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 204,
+        "work_count": 135
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 202,
+        "work_count": 134
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 202,
+        "work_count": 118
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 168,
+        "work_count": 124
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 141,
+        "work_count": 110
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 545,
+        "work_count": 256
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 161,
+        "work_count": 121
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 63,
+        "work_count": 50
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 36,
+        "work_count": 30
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 31,
+        "work_count": 28
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 28,
+        "work_count": 23
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 23,
+        "work_count": 23
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 7,
+        "work_count": 6
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 203,
+        "work_count": 132
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 182,
+        "work_count": 137
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 96,
+        "work_count": 76
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 94,
+        "work_count": 69
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 73,
+        "work_count": 57
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 69,
+        "work_count": 61
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 69,
+        "work_count": 58
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 65,
+        "work_count": 56
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 47,
+        "work_count": 38
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 31,
+        "work_count": 27
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 110,
+      "matched_mention_count": 110
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "nlm-2751057R",
+      "title": "Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops",
+      "creator": "Culpeper, Nicholas, 1616-1654 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2751057R-bk",
+      "signal_chunk_count": 26,
+      "matched_mention_count": 26
+    },
+    {
+      "work_id": "wellcome-takhmyez",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+      "creator": "",
+      "publication_year": "1747",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/takhmyez",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "wellcome-b4n9x8yx",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory. Containing, I. An account of all the natural and artificial implements and instruments of pharmacy, together with the processes and operations, whereby changes are induced in natural bodies for medicinal purposes ... With two copious indexes to the whole / [R. James].",
+      "creator": "",
+      "publication_year": "1764",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/b4n9x8yx",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-a264n73x",
+      "title": "Pharmacopoeia extemporanea: or, a body of medicines / Done into English out of Latin by the author ... with large additions.",
+      "creator": "",
+      "publication_year": "1740",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/a264n73x",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "wellcome-gtpbv42a",
+      "title": "Pharmacopoeia officinalis et extemporanea: or, a compleat English dispensatory, in four parts. Containing I. The theory of pharmacy. And the feveral proceffes therein. II. A description of the officinal simples, with their virtues and preparations, Galenical and chymical. III. The officinal compositions; being such of the London and Bates's dispensatory as are now in use; together with fome others of uncommon efficacy, taken from the moft celebrated authors. IV. Extemporaneous prescriptions. Diftributed into claffes fuitable to their intentions in cure / By John Quincy, M. D.",
+      "creator": "",
+      "publication_year": "1726",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/gtpbv42a",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-x58me7h2",
+      "title": "Herbal simples : approved for modern uses of cure / by W.T. Fernie.",
+      "creator": "",
+      "publication_year": "1897",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/x58me7h2",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-101554865-chunk-0022",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "JUNIPER BERRIES. This is diuretic, and is used in dropsy, gravel, and for inflammation of the kidneys. Dose. One ounce of the berries,-one pint of boiling water, the whole of which may be taken in twenty-four hours. ■...",
+        "score": 63
+      },
+      {
+        "chunk_id": "wellcome-y753zzup-chunk-1328",
+        "work_id": "wellcome-y753zzup",
+        "title": "Culpeper's complete herbal, and English physician wherein several hundred herbs, with a display of their medicinal and occult properties ... To which are added, rules ... receipts, selected from the author's Last legacies ... To which is annexed, The British florist. Or Flower garden displayed .... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y753zzup",
+        "matched_herbs": [
+          "Juniper Berries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "196 Wrillow-herb, 197 Creeping, 197 Great-Flowered, 197 Hairy, 197 Marsh, 197 Money, 198 — — Purple Money, 19S Rose Bay, 198 — Smooth Mountain, 19s Spurge, 198 ,• Tufty, 198 Yellow, 199 Willow Tree, 199 Winter Green,...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-64210710R-chunk-0181",
+        "work_id": "nlm-64210710R",
+        "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ANTI SPASMODIC TINCTURE :",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Take of Fir Balsam, 1 oz. Alcohol, 1 pt. Shake them well together. To be applied to fresh wounds, burns, and ulcers. A teaspoonful taken two or three times a day is beneficial in coughs, soreness of the bowels, &c. ES...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-mhttg3tq-chunk-1488",
+        "work_id": "wellcome-mhttg3tq",
+        "title": "The complete herbalist, or, The people their own physicians by the use of nature's remedies : describing the great curative properties found in the herbal kingdom a new and plain system of hygienic principles together with comprehensive essays on sexual philosophy, marriage, divorce, &c / by O. Phelps Brown.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mhttg3tq",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Ointment",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Pulverized opi;;m, one drachm ; benzoic acid, one diachm ; oil of aniseed, ona di-achm ; sugar, two ounces; camphor, two scruples ; diluted alcohol, two pints. Macer- ate for fourteen days. Half a drachm contains les...",
+        "score": 49
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-101554865-chunk-0022",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "JUNIPER BERRIES. This is diuretic, and is used in dropsy, gravel, and for inflammation of the kidneys. Dose. One ounce of the berries,-one pint of boiling water, the whole of which may be taken in twenty-four hours. ■...",
+        "score": 63
+      },
+      {
+        "chunk_id": "wellcome-y753zzup-chunk-1328",
+        "work_id": "wellcome-y753zzup",
+        "title": "Culpeper's complete herbal, and English physician wherein several hundred herbs, with a display of their medicinal and occult properties ... To which are added, rules ... receipts, selected from the author's Last legacies ... To which is annexed, The British florist. Or Flower garden displayed .... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y753zzup",
+        "matched_herbs": [
+          "Juniper Berries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "196 Wrillow-herb, 197 Creeping, 197 Great-Flowered, 197 Hairy, 197 Marsh, 197 Money, 198 — — Purple Money, 19S Rose Bay, 198 — Smooth Mountain, 19s Spurge, 198 ,• Tufty, 198 Yellow, 199 Willow Tree, 199 Winter Green,...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-64210710R-chunk-0181",
+        "work_id": "nlm-64210710R",
+        "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ANTI SPASMODIC TINCTURE :",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Take of Fir Balsam, 1 oz. Alcohol, 1 pt. Shake them well together. To be applied to fresh wounds, burns, and ulcers. A teaspoonful taken two or three times a day is beneficial in coughs, soreness of the bowels, &c. ES...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-mhttg3tq-chunk-1488",
+        "work_id": "wellcome-mhttg3tq",
+        "title": "The complete herbalist, or, The people their own physicians by the use of nature's remedies : describing the great curative properties found in the herbal kingdom a new and plain system of hygienic principles together with comprehensive essays on sexual philosophy, marriage, divorce, &c / by O. Phelps Brown.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mhttg3tq",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Ointment",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Pulverized opi;;m, one drachm ; benzoic acid, one diachm ; oil of aniseed, ona di-achm ; sugar, two ounces; camphor, two scruples ; diluted alcohol, two pints. Macer- ate for fourteen days. Half a drachm contains les...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0195",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "For coughs, colds, fever, asthma, spitting blood, and biliousness. Jalap—Cathartic. May be used to expel worms, and where a strong cathartic is required. Juniper Berries—Stimulant, carminative, diuretic, and diaphoret...",
+        "score": 48
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-101554865-chunk-0022",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "JUNIPER BERRIES. This is diuretic, and is used in dropsy, gravel, and for inflammation of the kidneys. Dose. One ounce of the berries,-one pint of boiling water, the whole of which may be taken in twenty-four hours. ■...",
+        "score": 63
+      },
+      {
+        "chunk_id": "wellcome-y753zzup-chunk-1328",
+        "work_id": "wellcome-y753zzup",
+        "title": "Culpeper's complete herbal, and English physician wherein several hundred herbs, with a display of their medicinal and occult properties ... To which are added, rules ... receipts, selected from the author's Last legacies ... To which is annexed, The British florist. Or Flower garden displayed .... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y753zzup",
+        "matched_herbs": [
+          "Juniper Berries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "196 Wrillow-herb, 197 Creeping, 197 Great-Flowered, 197 Hairy, 197 Marsh, 197 Money, 198 — — Purple Money, 19S Rose Bay, 198 — Smooth Mountain, 19s Spurge, 198 ,• Tufty, 198 Yellow, 199 Willow Tree, 199 Winter Green,...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-64210710R-chunk-0181",
+        "work_id": "nlm-64210710R",
+        "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ANTI SPASMODIC TINCTURE :",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Take of Fir Balsam, 1 oz. Alcohol, 1 pt. Shake them well together. To be applied to fresh wounds, burns, and ulcers. A teaspoonful taken two or three times a day is beneficial in coughs, soreness of the bowels, &c. ES...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-mhttg3tq-chunk-1488",
+        "work_id": "wellcome-mhttg3tq",
+        "title": "The complete herbalist, or, The people their own physicians by the use of nature's remedies : describing the great curative properties found in the herbal kingdom a new and plain system of hygienic principles together with comprehensive essays on sexual philosophy, marriage, divorce, &c / by O. Phelps Brown.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mhttg3tq",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Ointment",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Pulverized opi;;m, one drachm ; benzoic acid, one diachm ; oil of aniseed, ona di-achm ; sugar, two ounces; camphor, two scruples ; diluted alcohol, two pints. Macer- ate for fourteen days. Half a drachm contains les...",
+        "score": 49
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-101554865-chunk-0022",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "JUNIPER BERRIES. This is diuretic, and is used in dropsy, gravel, and for inflammation of the kidneys. Dose. One ounce of the berries,-one pint of boiling water, the whole of which may be taken in twenty-four hours. ■...",
+        "score": 63
+      },
+      {
+        "chunk_id": "nlm-64210710R-chunk-0181",
+        "work_id": "nlm-64210710R",
+        "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ANTI SPASMODIC TINCTURE :",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Take of Fir Balsam, 1 oz. Alcohol, 1 pt. Shake them well together. To be applied to fresh wounds, burns, and ulcers. A teaspoonful taken two or three times a day is beneficial in coughs, soreness of the bowels, &c. ES...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-mhttg3tq-chunk-1488",
+        "work_id": "wellcome-mhttg3tq",
+        "title": "The complete herbalist, or, The people their own physicians by the use of nature's remedies : describing the great curative properties found in the herbal kingdom a new and plain system of hygienic principles together with comprehensive essays on sexual philosophy, marriage, divorce, &c / by O. Phelps Brown.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mhttg3tq",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Ointment",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—Pulverized opi;;m, one drachm ; benzoic acid, one diachm ; oil of aniseed, ona di-achm ; sugar, two ounces; camphor, two scruples ; diluted alcohol, two pints. Macer- ate for fourteen days. Half a drachm contains les...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0503",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Juniper"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "of Buchu, 16 Cloves, 47 Cascarilla, 47 Chamomile, 47 Calumbo, 47 Linseed, 55 Juniper Berries, 51 Orange Peel, 47 1 Quassia, 47 Rhubarb, 47 Roses, 47 Senna, 31, 70 Snake Root, 80 Valerian Root, 95 Uva Ursi, 95 Indigest...",
+        "score": 47
+      }
+    ]
+  },
+  "retrieval_text": "Juniper is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 584 works and 1968 source-linked chunks. Recorded variants include Juniper, Juniper Berries, Juniper Tops. Common plant-part co-mentions include Berry, Root, Seed, Gum, Leaf, Flower. Common preparation co-mentions include Oil, Powder, Pill, Extract, Infusion, Tincture. Common condition co-mentions include Cold or catarrh, Dropsy, Wounds or ulcers, Fever, Cough, Vomiting or nausea. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Toxicity watch, Bleeding caution, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops; Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.739Z",
+  "builder": "build-herb-profiles.mjs"
+}

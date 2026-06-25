@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-32620180R",
+  "title": "The home physician and guide to health : a treatise on the prevention and cure of disease, not intended to take the place of the family physician, but to aid the reader in cooperating with him intelligently",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32620180R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-32620180R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/32620180R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 18,
+  "paragraphCount": 19,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-32620180R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-32620180R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-32620180R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-32620180R.jsonl",
+  "rawSha256": "b747555a5f077d8b363a69f36c3cd52b42fed2e64d2b281bdfd8ba3e59d51e45",
+  "normalizedSha256": "8ae9cb02b618f7aa04f210041ced9cec9906793e5004791cb2ce17805919921a",
+  "processedAt": "2026-06-17T14:47:29.787Z"
+}

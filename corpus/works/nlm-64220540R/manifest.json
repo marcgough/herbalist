@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64220540R",
+  "title": "Domestic medicine : a treatise on the practice of medicine, adapted to the reformed system, comprising a materia medica",
+  "creator": "Kost, J., 1819-1904.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220540R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64220540R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64220540R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 10,
+  "paragraphCount": 13,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220540R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220540R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64220540R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64220540R.jsonl",
+  "rawSha256": "07600421f24abc99bb292efbfb98bf46f8a4d7539fff99252b2d2a6398353ddd",
+  "normalizedSha256": "c72f8ec5be508f3c5e1e46ab0b9997957b6599abe77b17c3e81b49bd209044df",
+  "processedAt": "2026-06-17T00:37:56.344Z"
+}

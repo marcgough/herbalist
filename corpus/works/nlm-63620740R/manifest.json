@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63620740R",
+  "title": "The family physician, or, Every man his own doctor : in three parts : together with the history, causes, symptoms and treatment of Asiatic cholera, a glossary, explaining the most difficult words that occur in medical science, and a copious index and appendix",
+  "creator": "Whitney, Daniel H.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620740R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63620740R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63620740R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 1498,
+  "paragraphCount": 2151,
+  "sectionCount": 43,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620740R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620740R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63620740R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63620740R.jsonl",
+  "rawSha256": "a54a1de2bbe6efd575a144d2122b304e63e1d889d11b253b30993f9e03fb05dc",
+  "normalizedSha256": "b0a71e0a0e2ca117111aba1841a310ec36bab89b4f47223afc7d5c0f2badd654",
+  "processedAt": "2026-06-20T03:12:45.631Z"
+}

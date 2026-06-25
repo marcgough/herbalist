@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-u9tdqmmt",
+  "title": "An essay on the antiquity of Hindoo medicine, including an introductory lecture to the course of materia medica and therapeutics delivered at King's College / By J.F. Royle.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/u9tdqmmt",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b33095346",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/u9tdqmmt",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 1016,
+  "paragraphCount": 1041,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-u9tdqmmt\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-u9tdqmmt\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-u9tdqmmt\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-u9tdqmmt.jsonl",
+  "rawSha256": "b45cf8f8522928418064a38df7b2dd2cce70ed76e147d2d43bbfe74a8123c66f",
+  "normalizedSha256": "1d625a39a598a3f62ef41a6af6c4e295ff2114a4f324904e72527f0f0686d24c",
+  "processedAt": "2026-06-16T23:09:26.141Z"
+}

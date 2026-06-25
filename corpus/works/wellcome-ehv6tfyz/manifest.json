@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-ehv6tfyz",
+  "title": "The family doctor : a counsellor in sickness, pain and distress, for childhood, manhood and old age, containing in plain language, free from medical terms, the causes, symptoms, and cure of disease in every form ... illustrated with numerous engravings of medicinal plants and herbs.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/ehv6tfyz",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21158198",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/ehv6tfyz",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;medicinal-plants",
+  "chunkCount": 472,
+  "paragraphCount": 486,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ehv6tfyz\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-ehv6tfyz\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-ehv6tfyz.jsonl",
+  "rawSha256": "f8e8194c3c4f1f19eb710f1ed722e67225a90ca5ff2569278f27c04bbcada414",
+  "normalizedSha256": "ca60c944c9da9f37ee1d2cdfdb922ecde58679ba69d49f22c3619b52f86a2832",
+  "processedAt": "2026-06-16T13:46:50.238Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

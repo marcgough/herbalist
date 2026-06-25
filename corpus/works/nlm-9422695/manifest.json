@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-9422695",
+  "title": "A new and improved system of medical botanical practice : also, a concise view of anatomy and surgery, containing a medical classification of the best vegetable productions, with the better mode of compounding and administering in the treatment of disease : to which is added a short treatise on obstetricks, and a medical glossary",
+  "creator": "Miles, Charles, medical botanist",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9422695-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-9422695-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/9422695",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;materia-medica;botany",
+  "chunkCount": 555,
+  "paragraphCount": 1144,
+  "sectionCount": 12,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9422695\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9422695\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-9422695\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-9422695.jsonl",
+  "rawSha256": "779a0272bedbe6655766068b1106149ca9e95db4b86807a5f98d0518e001d228",
+  "normalizedSha256": "8c2a81d1f8cc12832c9d9be23e85a01b7c4f36e0c38a9e58d44ff811795219b4",
+  "processedAt": "2026-06-16T22:54:20.841Z"
+}

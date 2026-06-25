@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61731090R",
+  "title": "Beauties of flora, and outlines of botany : with a language of flowers : a perennial offering",
+  "creator": "Newman, John B.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61731090R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61731090R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61731090R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 729,
+  "paragraphCount": 1035,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61731090R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61731090R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61731090R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61731090R.jsonl",
+  "rawSha256": "daf923ddb1f3c896e33fcf37d46a295e1496391d4dc50e2a9d5f6c95ae9dd9cb",
+  "normalizedSha256": "4bafbae1b39edff8bddde95d18969d694189304431459d72a7b9eadb622bef1a",
+  "processedAt": "2026-06-18T01:54:40.625Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2573006R",
+  "title": "The American herbal , or materia medica : wherein the virtues of the mineral, vegetable, and animal productions of North and South America are laid open, so far as they are known ; and their uses in the practice of physic and surgery exhibited ; comprehending an account of a large number of new medical discoveries and improvements, which are compiled from the best authorities",
+  "creator": "Stearns, Samuel, 1741-1809.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2573006R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2573006R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2573006R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;materia-medica;pharmacopoeia",
+  "chunkCount": 597,
+  "paragraphCount": 2187,
+  "sectionCount": 55,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2573006R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2573006R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2573006R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2573006R.jsonl",
+  "rawSha256": "4b92811a91e19fce9f16450d2817c3ae2903bd3e38e27b80ffc01bb1045cbeef",
+  "normalizedSha256": "5420c357adb00e115237566017bef050e9c76b119543aee3c664381e88e964c6",
+  "processedAt": "2026-06-16T14:22:52.606Z"
+}

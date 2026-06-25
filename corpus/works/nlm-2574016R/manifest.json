@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2574016R",
+  "title": "The American new dispensatory : containing general principles of pharmaceutic chemistry ; chemical analysis of the articles of materia medica ; pharmaceutic operations; materia medica , including several new and valuable articles, the production of the United States ; preparations and compositions ; with an appendix, containing an account of mineral waters ; medical prescriptions ; the nature and medical uses of the gases ; medical electricity ; galvanism ; an abridgment of Dr. Currie's reports on the use of water ; the cultivation of the poppy plant, and the method of preparing opium ; and several useful tables ; the whole compiled from the most approved authors, both European and American",
+  "creator": "Thacher, James, 1754-1844.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574016R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2574016R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2574016R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia;cultivation",
+  "chunkCount": 1748,
+  "paragraphCount": 3115,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2574016R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2574016R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2574016R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2574016R.jsonl",
+  "rawSha256": "3d5908ace44b48a1241dd622c72ffac74470574002facc948b1b39bedba30a8a",
+  "normalizedSha256": "0da75957fd66c46a6e846dfc2c4cc9167b8d4a2abe3c2ebe34b0bdbe2b6b02e8",
+  "processedAt": "2026-06-18T16:45:14.006Z"
+}

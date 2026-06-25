@@ -1,0 +1,20 @@
+{
+  "workId": "pg-26393",
+  "title": "The Medicinal Plants of the Philippines",
+  "creator": "Pardo de Tavera, T. H. (Trinidad Hermenegildo), 1857-1925; Thomas, Jerome Beers, 1867- [Translator]",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/26393",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/26393/pg26393.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/26393.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "medicinal-plants;botany",
+  "chunkCount": 496,
+  "paragraphCount": 2940,
+  "sectionCount": 34,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-26393\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-26393\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-26393.jsonl",
+  "rawSha256": "1ce6e47c2a5e66416cc823923b7c7067cbde6fbf14fd0256fa26042b931699f7",
+  "normalizedSha256": "add7462226a85c0643921803a5ebd47bd1d2cbd46920c2795147e35f7d072f92",
+  "processedAt": "2026-06-16T13:39:02.787Z"
+}

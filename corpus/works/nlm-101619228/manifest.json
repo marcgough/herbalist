@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101619228",
+  "title": "Chemistry, general, medical, and pharmaceutical : including the chemistry of the U.S. pharmacopoeia : a manual on the science of chemistry, and its applications in medicine and pharmacy",
+  "creator": "Attfield, John, 1835-1911 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101619228-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101619228-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101619228",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 2633,
+  "paragraphCount": 2726,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101619228\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101619228\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101619228\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101619228.jsonl",
+  "rawSha256": "3b5decb75fdc910939775961c4c514b06b1e43be89bc7f0a4609c5686cf6ef4f",
+  "normalizedSha256": "f8dffd822d60c46e10384e9de4d335b778928d9534004d90aeed952261d260a1",
+  "processedAt": "2026-06-17T19:01:40.585Z"
+}

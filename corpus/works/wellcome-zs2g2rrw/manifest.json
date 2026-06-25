@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-zs2g2rrw",
+  "title": "Flora medica : containing coloured delineations of the various medicinal plants admitted into the London, Edinburgh and Dublin pharmacopoeias, with their natural history, botanical descriptions, medical and chemical properties, etc.; together with a concise introduction to botany, a copious glossary of botanical terms and a list of poisonous plants, etc. / edited by a member of the Royal College of Physicians, with the assistance of several eminent botanists.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/zs2g2rrw",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24923400",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/zs2g2rrw",
+  "rightsStatus": "pdm",
+  "topicFamily": "medicinal-plants;botany",
+  "chunkCount": 1677,
+  "paragraphCount": 1829,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-zs2g2rrw\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-zs2g2rrw\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-zs2g2rrw\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-zs2g2rrw.jsonl",
+  "rawSha256": "b46f83102bfac338fecebdbefe833f64fd1517a62e5a9ad6b29a79a6a06d4450",
+  "normalizedSha256": "6165082403a1f15d3525ecc7df390e9dd033b65ed4753846cedaac60331f6087",
+  "processedAt": "2026-06-16T23:54:32.655Z"
+}

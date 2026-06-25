@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64210840R",
+  "title": "The improved American family physician, or, Sick man's guide to health : containing a complete theory of the botanic practice of medicine, on the Thomsonian and hygeian system, with alterations and improvements : to which is appended a concise formula for compounding medicines for the cure of every complaint incident to human nature : also, a complete digest of midwifery, so that the old proverb may be verified, that every man may be his own physician",
+  "creator": "Day, L. Meeker.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210840R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64210840R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64210840R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 308,
+  "paragraphCount": 376,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210840R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210840R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64210840R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64210840R.jsonl",
+  "rawSha256": "e9832be8cb1632c026edb4d65b83ac73b691d556175b259d617a9c702cc77682",
+  "normalizedSha256": "b26449616df16ff663eef48758cc5656f778a9e21f747187b2ac51d3913f7141",
+  "processedAt": "2026-06-17T12:28:49.601Z"
+}

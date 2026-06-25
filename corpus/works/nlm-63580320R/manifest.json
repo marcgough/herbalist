@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63580320R",
+  "title": "How to get well, keep well, and live long : the every-day doctor : a household book of practical medicine, containing a full account of the diseases of the human system, with appropriate remedies and a collection of valuable receipts",
+  "creator": "Hosmer, George H.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580320R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63580320R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63580320R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;household-health",
+  "chunkCount": 1556,
+  "paragraphCount": 1608,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580320R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580320R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63580320R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63580320R.jsonl",
+  "rawSha256": "66168952ee1d49cf6e0007488684dfbd0074f9c967f57b1421e50f47c7b99679",
+  "normalizedSha256": "0378da2c2d058e0126bc7b57679f3b4d2133933b1aa92a84de7e3d3b55aeab28",
+  "processedAt": "2026-06-18T03:09:51.582Z"
+}

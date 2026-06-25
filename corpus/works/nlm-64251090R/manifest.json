@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64251090R",
+  "title": "Homoeopathic domestic practice : containing also chapters on physiology, hygiene, anatomy, and an abridged materia medica",
+  "creator": "Guernsey, Egbert, 1823-1903.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64251090R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64251090R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64251090R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;hygiene",
+  "chunkCount": 1412,
+  "paragraphCount": 1717,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64251090R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64251090R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64251090R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64251090R.jsonl",
+  "rawSha256": "c6701aba33bf6e2e457623f3ff5b13cca95a5d0ef41a45255c6a60db15019592",
+  "normalizedSha256": "99d3b55cef6c266bd8b7dde6315da943a89c61762d038c6247c53c3e40d50792",
+  "processedAt": "2026-06-18T01:54:34.881Z"
+}

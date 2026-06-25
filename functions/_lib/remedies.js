@@ -1,0 +1,490 @@
+export const fallbackRemedies = [
+  {
+    id: 'aloe-vera',
+    name: 'Aloe vera',
+    botanicalName: 'Aloe barbadensis miller',
+    commonNames: ['Aloe'],
+    plantParts: ['Leaf gel', 'Latex'],
+    overview: 'Succulent plant indexed for topical skin-soothing traditions and safety-first source review.',
+    traditionalUses: ['Topical skin comfort', 'After-sun care traditions', 'Digestive laxative tradition for latex'],
+    preparations: ['Topical gel', 'Juice', 'Latex safety watch'],
+    safetySummary: 'Topical gel is the lower-risk public-source context; oral latex requires strong safety review.',
+    interactionFlags: ['Pregnancy caution', 'Kidney and electrolyte caution', 'Oral latex safety watch'],
+    related: ['Calendula', 'Chamomile', 'Lavender'],
+    tags: ['topical', 'skin', 'safety watch'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/aloe-vera',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'ashwagandha',
+    name: 'Ashwagandha',
+    botanicalName: 'Withania somnifera',
+    commonNames: ['Indian ginseng', 'Winter cherry'],
+    plantParts: ['Root'],
+    overview: 'Adaptogen-associated root record for resilience, restoration, and modern safety review.',
+    traditionalUses: ['Stress resilience traditions', 'Restorative sleep context', 'Vitality traditions'],
+    preparations: ['Capsule', 'Powder', 'Tincture'],
+    safetySummary: 'Needs careful screening for pregnancy, thyroid conditions, autoimmune conditions, and liver-safety reports.',
+    interactionFlags: ['Pregnancy caution', 'Thyroid medication caution', 'Liver safety watch', 'Sedative caution'],
+    related: ['Asian ginseng', 'Valerian', 'Kava'],
+    tags: ['adaptogen', 'nervous system', 'safety watch'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/ashwagandha',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'asian-ginseng',
+    name: 'Asian ginseng',
+    botanicalName: 'Panax ginseng',
+    commonNames: ['Ginseng', 'Korean ginseng'],
+    plantParts: ['Root'],
+    overview: 'Root remedy associated with vitality and performance traditions, indexed with interaction review.',
+    traditionalUses: ['Energy traditions', 'Resilience traditions', 'Cognitive performance context'],
+    preparations: ['Capsule', 'Tea', 'Extract'],
+    safetySummary: 'Interaction review is important for diabetes medicines, anticoagulants, stimulants, and sleep sensitivity.',
+    interactionFlags: ['Blood sugar medication caution', 'Anticoagulant caution', 'Stimulant sensitivity'],
+    related: ['Ashwagandha', 'Green tea', 'Ginkgo'],
+    tags: ['adaptogen', 'energy', 'root'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/asian-ginseng',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'chamomile',
+    name: 'Chamomile',
+    botanicalName: 'Matricaria recutita / Chamaemelum nobile',
+    commonNames: ['German chamomile', 'Roman chamomile'],
+    plantParts: ['Flower'],
+    overview: 'Flower remedy indexed for sleep, relaxation, and digestive-comfort traditions.',
+    traditionalUses: ['Relaxation traditions', 'Sleep ritual context', 'Digestive comfort traditions'],
+    preparations: ['Infusion', 'Tincture', 'Topical wash'],
+    safetySummary: 'Asteraceae allergy review matters, especially for people sensitive to ragweed-family plants.',
+    interactionFlags: ['Asteraceae allergy caution', 'Sedative caution', 'Pregnancy review'],
+    related: ['Lavender', 'Valerian', 'Peppermint oil'],
+    tags: ['relaxation', 'digestive', 'flower'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/chamomile',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'cranberry',
+    name: 'Cranberry',
+    botanicalName: 'Vaccinium macrocarpon',
+    commonNames: ['American cranberry'],
+    plantParts: ['Fruit'],
+    overview: 'Berry record associated with urinary-tract wellness traditions and supplement safety review.',
+    traditionalUses: ['Urinary wellness context', 'Food-as-remedy traditions', 'Antioxidant food context'],
+    preparations: ['Juice', 'Capsule', 'Extract'],
+    safetySummary: 'Review sugar content, kidney-stone history, and anticoagulant concerns before public recommendations.',
+    interactionFlags: ['Warfarin caution', 'Kidney stone history review', 'Sugar content watch'],
+    related: ['Dandelion', 'Green tea', 'Garlic'],
+    tags: ['urinary', 'berry', 'food'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/cranberry',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'echinacea',
+    name: 'Echinacea',
+    botanicalName: 'Echinacea purpurea / Echinacea angustifolia',
+    commonNames: ['Purple coneflower'],
+    plantParts: ['Root', 'Aerial parts', 'Flower'],
+    overview: 'Flowering herb indexed for seasonal immune traditions and allergy/autoimmune screening.',
+    traditionalUses: ['Seasonal immune traditions', 'Upper-respiratory wellness context', 'Short-course tincture traditions'],
+    preparations: ['Tincture', 'Capsule', 'Tea'],
+    safetySummary: 'Allergy and autoimmune-medication review should happen before any public herb guidance.',
+    interactionFlags: ['Asteraceae allergy caution', 'Autoimmune condition review', 'Immunosuppressant caution'],
+    related: ['Elderberry', 'Goldenseal', 'Garlic'],
+    tags: ['immune', 'seasonal', 'flower'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/echinacea',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'elderberry',
+    name: 'Elderberry',
+    botanicalName: 'Sambucus nigra',
+    commonNames: ['Black elder', 'Elder'],
+    plantParts: ['Berry', 'Flower'],
+    overview: 'Berry and flower record associated with seasonal wellness traditions.',
+    traditionalUses: ['Seasonal immune traditions', 'Syrup traditions', 'Flower infusion traditions'],
+    preparations: ['Syrup', 'Lozenge', 'Infusion'],
+    safetySummary: 'Raw or improperly prepared plant parts require safety review; product quality matters.',
+    interactionFlags: ['Raw plant safety watch', 'Autoimmune medication review', 'Pregnancy review'],
+    related: ['Echinacea', 'Ginger', 'Green tea'],
+    tags: ['immune', 'seasonal', 'berry'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/elderberry',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'garlic',
+    name: 'Garlic',
+    botanicalName: 'Allium sativum',
+    commonNames: ['Garlic bulb'],
+    plantParts: ['Bulb'],
+    overview: 'Culinary bulb indexed for cardiovascular and immune traditions with bleeding-risk screening.',
+    traditionalUses: ['Cardiovascular food traditions', 'Immune food traditions', 'Culinary wellness context'],
+    preparations: ['Food', 'Capsule', 'Aged extract'],
+    safetySummary: 'High-dose supplements require anticoagulant, surgery, and gastrointestinal review.',
+    interactionFlags: ['Anticoagulant caution', 'Surgery caution', 'Digestive irritation watch'],
+    related: ['Ginger', 'Green tea', 'Cranberry'],
+    tags: ['culinary', 'circulation', 'immune'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/garlic',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'ginger',
+    name: 'Ginger',
+    botanicalName: 'Zingiber officinale',
+    commonNames: ['Ginger root'],
+    plantParts: ['Rhizome'],
+    overview: 'Rhizome record associated with digestive, nausea, and warming traditions.',
+    traditionalUses: ['Digestive comfort traditions', 'Nausea context', 'Warming tea traditions'],
+    preparations: ['Tea', 'Capsule', 'Food', 'Tincture'],
+    safetySummary: 'Review anticoagulant use, gallbladder concerns, pregnancy context, and high-dose supplement use.',
+    interactionFlags: ['Anticoagulant caution', 'Gallbladder review', 'Pregnancy review at high doses'],
+    related: ['Turmeric', 'Peppermint oil', 'Garlic'],
+    tags: ['digestive', 'rhizome', 'culinary'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/ginger',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'ginkgo',
+    name: 'Ginkgo',
+    botanicalName: 'Ginkgo biloba',
+    commonNames: ['Ginkgo leaf'],
+    plantParts: ['Leaf'],
+    overview: 'Leaf extract record associated with cognition and circulation traditions.',
+    traditionalUses: ['Cognitive wellness context', 'Circulation traditions', 'Aging research interest'],
+    preparations: ['Extract', 'Capsule', 'Tea safety watch'],
+    safetySummary: 'Bleeding-risk and seizure-risk screening are important before public-use guidance.',
+    interactionFlags: ['Anticoagulant caution', 'Seizure medication caution', 'Surgery caution'],
+    related: ['Asian ginseng', 'Green tea', 'Garlic'],
+    tags: ['cognition', 'circulation', 'leaf'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/ginkgo',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'goldenseal',
+    name: 'Goldenseal',
+    botanicalName: 'Hydrastis canadensis',
+    commonNames: ['Orange root'],
+    plantParts: ['Root', 'Rhizome'],
+    overview: 'Root remedy indexed for mucous-membrane and digestive traditions with strong interaction review.',
+    traditionalUses: ['Mucous membrane traditions', 'Digestive bitter traditions', 'Seasonal wellness formulas'],
+    preparations: ['Tincture', 'Capsule', 'Topical wash'],
+    safetySummary: 'Drug interaction and pregnancy screening are central; conservation and sourcing should also be reviewed.',
+    interactionFlags: ['Pregnancy caution', 'Drug interaction watch', 'Infant safety caution'],
+    related: ['Echinacea', 'Garlic', 'Licorice root'],
+    tags: ['root', 'immune', 'safety watch'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/goldenseal',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'green-tea',
+    name: 'Green tea',
+    botanicalName: 'Camellia sinensis',
+    commonNames: ['Tea leaf'],
+    plantParts: ['Leaf'],
+    overview: 'Tea leaf record associated with antioxidant, alertness, and longevity-adjacent research interest.',
+    traditionalUses: ['Daily tea traditions', 'Alertness context', 'Polyphenol research context'],
+    preparations: ['Infusion', 'Powder', 'Extract safety watch'],
+    safetySummary: 'Caffeine sensitivity and concentrated extract liver-safety reports need clear review.',
+    interactionFlags: ['Caffeine sensitivity', 'Liver safety watch for extracts', 'Stimulant caution'],
+    related: ['Turmeric', 'Ginkgo', 'Asian ginseng'],
+    tags: ['longevity', 'tea', 'polyphenols'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/green-tea',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'kava',
+    name: 'Kava',
+    botanicalName: 'Piper methysticum',
+    commonNames: ['Kava kava'],
+    plantParts: ['Root'],
+    overview: 'Root beverage record associated with relaxation traditions and high-priority safety review.',
+    traditionalUses: ['Relaxation traditions', 'Ceremonial beverage context', 'Settling formulas'],
+    preparations: ['Traditional beverage', 'Capsule', 'Extract'],
+    safetySummary: 'Liver-safety concerns, sedatives, alcohol, pregnancy, and driving impairment require prominent review.',
+    interactionFlags: ['Liver safety watch', 'Sedative caution', 'Alcohol caution', 'Pregnancy caution'],
+    related: ['Valerian', 'Lavender', 'Ashwagandha'],
+    tags: ['relaxation', 'root', 'high safety watch'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/kava',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'lavender',
+    name: 'Lavender',
+    botanicalName: 'Lavandula angustifolia',
+    commonNames: ['English lavender'],
+    plantParts: ['Flower'],
+    overview: 'Aromatic flower record associated with relaxation, sleep ritual, and topical traditions.',
+    traditionalUses: ['Aromatherapy traditions', 'Sleep ritual context', 'Topical comfort traditions'],
+    preparations: ['Essential oil', 'Infusion', 'Topical preparation'],
+    safetySummary: 'Essential oils need dilution, ingestion caution, and allergy review before public guidance.',
+    interactionFlags: ['Topical allergy watch', 'Essential oil ingestion caution', 'Sedative caution'],
+    related: ['Chamomile', 'Valerian', 'Kava'],
+    tags: ['aromatic', 'relaxation', 'flower'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/lavender',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'licorice-root',
+    name: 'Licorice root',
+    botanicalName: 'Glycyrrhiza glabra',
+    commonNames: ['Licorice'],
+    plantParts: ['Root'],
+    overview: 'Root record associated with throat, digestive, and formula-harmonizing traditions.',
+    traditionalUses: ['Throat comfort traditions', 'Digestive traditions', 'Formula support traditions'],
+    preparations: ['Tea', 'Tincture', 'Capsule', 'DGL product'],
+    safetySummary: 'Blood pressure, potassium, kidney, heart, pregnancy, and medication interactions require strong screening.',
+    interactionFlags: ['Blood pressure caution', 'Potassium depletion watch', 'Heart and kidney condition review', 'Pregnancy caution'],
+    related: ['Goldenseal', 'Ginger', 'Milk thistle'],
+    tags: ['root', 'digestive', 'high safety watch'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/licorice-root',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'milk-thistle',
+    name: 'Milk thistle',
+    botanicalName: 'Silybum marianum',
+    commonNames: ['Silymarin'],
+    plantParts: ['Seed'],
+    overview: 'Seed extract record associated with liver-support traditions and supplement research.',
+    traditionalUses: ['Liver-support traditions', 'Digestive bitter context', 'Supplement research context'],
+    preparations: ['Capsule', 'Extract', 'Tincture'],
+    safetySummary: 'Review diabetes medicines, allergy sensitivity, and product-quality variability.',
+    interactionFlags: ['Diabetes medication caution', 'Asteraceae allergy caution', 'Product quality watch'],
+    related: ['Turmeric', 'Dandelion', 'Licorice root'],
+    tags: ['liver', 'seed', 'extract'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/milk-thistle',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'peppermint-oil',
+    name: 'Peppermint oil',
+    botanicalName: 'Mentha x piperita',
+    commonNames: ['Peppermint'],
+    plantParts: ['Leaf', 'Essential oil'],
+    overview: 'Aromatic leaf oil record associated with digestive-comfort traditions and formulation safety.',
+    traditionalUses: ['Digestive comfort traditions', 'Aromatic cooling context', 'Topical comfort traditions'],
+    preparations: ['Enteric-coated capsule', 'Infusion', 'Diluted topical oil'],
+    safetySummary: 'Reflux, gallbladder conditions, children, and essential-oil dilution need careful review.',
+    interactionFlags: ['Reflux caution', 'Gallbladder review', 'Child safety watch', 'Essential oil dilution'],
+    related: ['Ginger', 'Chamomile', 'Lavender'],
+    tags: ['digestive', 'aromatic', 'leaf'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/peppermint-oil',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'saw-palmetto',
+    name: 'Saw palmetto',
+    botanicalName: 'Serenoa repens',
+    commonNames: ['Serenoa'],
+    plantParts: ['Berry'],
+    overview: 'Berry extract record associated with urinary and prostate-wellness research contexts.',
+    traditionalUses: ['Urinary wellness context', 'Prostate wellness research context', 'Berry extract traditions'],
+    preparations: ['Capsule', 'Extract', 'Softgel'],
+    safetySummary: 'Review anticoagulants, surgery, hormone-sensitive contexts, and reproductive-health claims.',
+    interactionFlags: ['Anticoagulant caution', 'Surgery caution', 'Hormone medication review'],
+    related: ['Cranberry', 'Green tea', 'Ginkgo'],
+    tags: ['urinary', 'berry', 'safety review'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/saw-palmetto',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'st-johns-wort',
+    name: "St. John's wort",
+    botanicalName: 'Hypericum perforatum',
+    commonNames: ['Hypericum'],
+    plantParts: ['Flowering tops'],
+    overview: 'Flowering herb indexed as a high-interaction record for mood-related traditional use.',
+    traditionalUses: ['Mood traditions', 'Nerve-support traditions', 'Topical infused-oil traditions'],
+    preparations: ['Capsule', 'Tea', 'Tincture', 'Infused oil'],
+    safetySummary: 'Major drug-interaction screening is mandatory; this record should stay safety-led in public UI.',
+    interactionFlags: ['Antidepressant interaction', 'Contraceptive interaction', 'Transplant medication interaction', 'HIV medication interaction', 'Photosensitivity watch'],
+    related: ['Kava', 'Valerian', 'Lavender'],
+    tags: ['mood', 'high interaction watch', 'flower'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/st-johns-wort',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'turmeric',
+    name: 'Turmeric',
+    botanicalName: 'Curcuma longa',
+    commonNames: ['Curcumin'],
+    plantParts: ['Rhizome'],
+    overview: 'Rhizome record associated with culinary wellness, inflammatory-pathway research, and supplement safety.',
+    traditionalUses: ['Culinary wellness traditions', 'Joint comfort context', 'Inflammation research context'],
+    preparations: ['Food', 'Powder', 'Capsule', 'Extract'],
+    safetySummary: 'High-dose extracts need review for anticoagulants, gallbladder conditions, pregnancy context, and liver reports.',
+    interactionFlags: ['Anticoagulant caution', 'Gallbladder review', 'Liver safety watch for high-dose extracts', 'Pregnancy review'],
+    related: ['Ginger', 'Green tea', 'Milk thistle'],
+    tags: ['culinary', 'rhizome', 'longevity'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/turmeric',
+    sourceStatus: 'public_source_indexed',
+  },
+  {
+    id: 'valerian',
+    name: 'Valerian',
+    botanicalName: 'Valeriana officinalis',
+    commonNames: ['Valerian root'],
+    plantParts: ['Root'],
+    overview: 'Root remedy associated with sleep and evening relaxation traditions.',
+    traditionalUses: ['Sleep traditions', 'Settling traditions', 'Evening tea or capsule context'],
+    preparations: ['Capsule', 'Tincture', 'Infusion'],
+    safetySummary: 'Sedatives, alcohol, driving, pregnancy, and next-day drowsiness should be reviewed.',
+    interactionFlags: ['Sedative caution', 'Alcohol caution', 'Driving caution', 'Pregnancy review'],
+    related: ['Chamomile', 'Lavender', 'Kava'],
+    tags: ['sleep', 'relaxation', 'root'],
+    sourceName: 'NCCIH herb fact sheet',
+    sourceUrl: 'https://www.nccih.nih.gov/health/valerian',
+    sourceStatus: 'public_source_indexed',
+  },
+]
+
+const parseJsonList = (value) => {
+  try {
+    const parsed = JSON.parse(value)
+    return Array.isArray(parsed) ? parsed : []
+  } catch {
+    return []
+  }
+}
+
+const normalizeQuery = (value) => String(value ?? '').trim().slice(0, 120)
+const normalizePreparation = (value) => String(value ?? 'All preparations').trim().slice(0, 80) || 'All preparations'
+const escapeLike = (value) => value.replace(/[\\%_]/g, (match) => `\\${match}`)
+
+const includesQuery = (parts, query) => {
+  const lowerQuery = query.toLowerCase()
+  const text = parts
+    .flatMap((part) => (Array.isArray(part) ? part : [part]))
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase()
+
+  return text.includes(lowerQuery)
+}
+
+export const fromD1RemedyRecord = (record) => ({
+  id: record.id,
+  name: record.name,
+  botanicalName: record.botanical_name,
+  commonNames: parseJsonList(record.common_names_json),
+  plantParts: parseJsonList(record.plant_parts_json),
+  overview: record.overview,
+  traditionalUses: parseJsonList(record.traditional_uses_json),
+  preparations: parseJsonList(record.preparations_json),
+  safetySummary: record.safety_summary,
+  interactionFlags: parseJsonList(record.interaction_flags_json),
+  related: parseJsonList(record.related_json),
+  tags: parseJsonList(record.tags_json),
+  sourceName: record.source_name,
+  sourceUrl: record.source_url,
+  sourceStatus: record.source_status,
+})
+
+export const filterRemedies = (remedies, { query = '', preparation = 'All preparations' } = {}) => {
+  const normalizedQuery = normalizeQuery(query)
+  const normalizedPreparation = normalizePreparation(preparation)
+
+  return remedies.filter((remedy) => {
+    const preparationMatch =
+      normalizedPreparation === 'All preparations' ||
+      remedy.preparations.some((item) => item.toLowerCase().includes(normalizedPreparation.toLowerCase()))
+    const queryMatch =
+      normalizedQuery === '' ||
+      includesQuery(
+        [
+          remedy.name,
+          remedy.botanicalName,
+          remedy.commonNames,
+          remedy.plantParts,
+          remedy.overview,
+          remedy.traditionalUses,
+          remedy.preparations,
+          remedy.safetySummary,
+          remedy.interactionFlags,
+          remedy.related,
+          remedy.tags,
+          remedy.sourceName,
+          remedy.sourceStatus,
+        ],
+        normalizedQuery,
+      )
+
+    return preparationMatch && queryMatch
+  })
+}
+
+export const readRemediesFromD1 = async (db, { query = '', preparation = 'All preparations' } = {}) => {
+  const normalizedQuery = normalizeQuery(query)
+  const normalizedPreparation = normalizePreparation(preparation)
+  const clauses = []
+  const bindings = []
+
+  if (normalizedPreparation !== 'All preparations') {
+    clauses.push('preparations_json LIKE ? ESCAPE \'\\\'')
+    bindings.push(`%${escapeLike(normalizedPreparation)}%`)
+  }
+
+  if (normalizedQuery) {
+    const like = `%${escapeLike(normalizedQuery)}%`
+    clauses.push(
+      `(name LIKE ? ESCAPE '\\' OR botanical_name LIKE ? ESCAPE '\\' OR common_names_json LIKE ? ESCAPE '\\' OR plant_parts_json LIKE ? ESCAPE '\\' OR overview LIKE ? ESCAPE '\\' OR traditional_uses_json LIKE ? ESCAPE '\\' OR preparations_json LIKE ? ESCAPE '\\' OR safety_summary LIKE ? ESCAPE '\\' OR interaction_flags_json LIKE ? ESCAPE '\\' OR related_json LIKE ? ESCAPE '\\' OR tags_json LIKE ? ESCAPE '\\' OR source_name LIKE ? ESCAPE '\\' OR source_status LIKE ? ESCAPE '\\')`,
+    )
+    bindings.push(like, like, like, like, like, like, like, like, like, like, like, like, like)
+  }
+
+  const where = clauses.length ? `WHERE ${clauses.join(' AND ')}` : ''
+  const result = await db
+    .prepare(
+      `SELECT id, name, botanical_name, common_names_json, plant_parts_json, overview, traditional_uses_json, preparations_json, safety_summary, interaction_flags_json, related_json, tags_json, source_name, source_url, source_status
+       FROM remedies
+       ${where}
+       ORDER BY name COLLATE NOCASE`,
+    )
+    .bind(...bindings)
+    .all()
+
+  return (result.results ?? []).map(fromD1RemedyRecord)
+}
+
+export const getRemediesPayload = async (env, filters = {}) => {
+  const normalizedFilters = {
+    query: normalizeQuery(filters.query),
+    preparation: normalizePreparation(filters.preparation),
+  }
+  let remedies = filterRemedies(fallbackRemedies, normalizedFilters)
+  let source = 'static-fallback'
+
+  if (env.HERBALISTI_DB) {
+    const d1Remedies = await readRemediesFromD1(env.HERBALISTI_DB, normalizedFilters)
+    source = 'd1'
+    remedies = d1Remedies.length ? d1Remedies : remedies
+  }
+
+  return {
+    generatedAt: new Date().toISOString(),
+    source,
+    filters: normalizedFilters,
+    total: remedies.length,
+    remedies,
+  }
+}

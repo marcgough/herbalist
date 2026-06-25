@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61830190R",
+  "title": "The American botanic medical family instructor : founded upon the theory and practice of vegetable medicines, with remarks on the different practices of medicine, and natural laws : anatomy and physiology, and the preservation of health, a description of medical plants, and the art of compounding medicines, and a general treatment of diseases, compiled from various sources, particularly designed for family use",
+  "creator": "Taylor, Jeremy.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61830190R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61830190R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61830190R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;hygiene",
+  "chunkCount": 617,
+  "paragraphCount": 968,
+  "sectionCount": 11,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61830190R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61830190R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61830190R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61830190R.jsonl",
+  "rawSha256": "7a3de07ea191403ead5889f4c45d589a22f6bfbf3387e4c0af05632454dbcf50",
+  "normalizedSha256": "1068b2bf2cb616692eac435d3f300a99a1ec73507c2c1a045bd927dc076ab201",
+  "processedAt": "2026-06-18T03:09:37.205Z"
+}

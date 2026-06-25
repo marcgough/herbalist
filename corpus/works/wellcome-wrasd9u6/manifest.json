@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-wrasd9u6",
+  "title": "The new family herbal; or, Domestic physician : enumerating, with accurate descriptions, all the known vegetables which are any way remarkable for medical efficacy; with an account of their virtues in the several diseases incident to the human frame ... / by William Meyrick.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/wrasd9u6",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21529425",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/wrasd9u6",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 1209,
+  "paragraphCount": 1231,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-wrasd9u6\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-wrasd9u6\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-wrasd9u6\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-wrasd9u6.jsonl",
+  "rawSha256": "dfac684d37ebb9130d077347d387283a96d0f16740680359269aa14355dd9ab3",
+  "normalizedSha256": "95b1b911f0ace7c5b7e6fa7a8a9c9e64354321ee57ad2bac6947b83b16c6b3a0",
+  "processedAt": "2026-06-16T23:53:28.344Z"
+}

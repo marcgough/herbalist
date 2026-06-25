@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2556052R",
+  "title": "A new and complete American medical family herbal : wherein, is displayed the true properties and medical virtues of the plants, indigenous to the United States of America : together with Lewis' secret remedy, newly discovered, which has been found infallible in the cure of that dreadful disease hydrophobia, produced by the bite of a mad dog",
+  "creator": "Henry, Samuel.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2556052R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2556052R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2556052R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal",
+  "chunkCount": 412,
+  "paragraphCount": 493,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2556052R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2556052R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2556052R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2556052R.jsonl",
+  "rawSha256": "0ef6cbaa10cd2c44977fbb77ad3211dabe715f3d15a72ef821ce1221b7605f38",
+  "normalizedSha256": "dc2c5d06efb7a62b8a4a642dce586fd0513f1dba279ee5eab0bced65201abd51",
+  "processedAt": "2026-06-18T16:17:21.042Z"
+}

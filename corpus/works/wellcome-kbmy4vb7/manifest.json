@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-kbmy4vb7",
+  "title": "The names of the herbs / by William Turner, A.D. 1548 ; edited (with an introduction, an index of English names, and an identification of hte plants enumerated by Turner) by J. Britten.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/kbmy4vb7",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24976362",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/kbmy4vb7",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 239,
+  "paragraphCount": 240,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-kbmy4vb7\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-kbmy4vb7\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-kbmy4vb7\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-kbmy4vb7.jsonl",
+  "rawSha256": "382895ed1d5be0904200dd17cb165b5f41d8b45e2e19634fd6b6a9ad531a84bd",
+  "normalizedSha256": "a83734f4a952a0e09d02668df3c20e33f1c4ff561b9a16f58d1070ed8fbebde9",
+  "processedAt": "2026-06-17T00:34:30.365Z"
+}

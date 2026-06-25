@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64210710R",
+  "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+  "creator": "Colby, Benjamin.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64210710R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64210710R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 258,
+  "paragraphCount": 462,
+  "sectionCount": 10,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210710R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210710R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64210710R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64210710R.jsonl",
+  "rawSha256": "cb5c7af4235ef9c503a08dc6728b7c986281b696ab68a277b1a3585f98606686",
+  "normalizedSha256": "f89e21ce182c18110811af53af3cd407f10203147a4a17babcce5874d7eefbe4",
+  "processedAt": "2026-06-20T01:22:42.036Z"
+}

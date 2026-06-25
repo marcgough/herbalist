@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-ke7ceqru",
+  "title": "A new medicinal, economical, and domestic herbal: containing a familiar and accurate description of upwards of six hundred British herbs, shrubs, trees, etc. together with some of themost esteemed ... exotic plants ... / The whole compiled and selected from the works of Linnaeus, Bechstein, Withering, Dambourney, Barthollet, etc.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/ke7ceqru",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b22023689",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/ke7ceqru",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 872,
+  "paragraphCount": 878,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ke7ceqru\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ke7ceqru\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-ke7ceqru\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-ke7ceqru.jsonl",
+  "rawSha256": "5a8745163096676adfebc0b1b98d0edf30102cdea20f9e342c0292d591ddd4a2",
+  "normalizedSha256": "2caf664a22d7ffdda66bb6fad44bb50f645c1038001f3eb21a48bab76b5e83a4",
+  "processedAt": "2026-06-16T23:08:54.838Z"
+}

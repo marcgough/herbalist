@@ -1,0 +1,860 @@
+{
+  "profile_id": "seed-prune",
+  "family_id": "seed-prune",
+  "canonical_name": "Prune",
+  "canonical_key": "prune",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-prune-207a08ebc5#prune"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 9,
+    "total_chunks": 9,
+    "total_works": 8,
+    "matched_chunk_count": 9,
+    "matched_work_count": 8,
+    "matched_mention_total": 9
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "hygiene",
+      "materia-medica",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Prune",
+      "Prune-"
+    ],
+    "sample_work_ids": [
+      "nlm-101515274",
+      "nlm-63580630R",
+      "wellcome-jt4unq8f"
+    ],
+    "sample_chunk_ids": [
+      "nlm-101515274-chunk-8903",
+      "nlm-63580630R-chunk-0763",
+      "nlm-63580630R-chunk-0874"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 8
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "preparations": [
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 2,
+        "work_count": 1
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "cautions": [
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 2,
+        "work_count": 1
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 4,
+        "work_count": 3
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "nlm-101515274",
+      "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+      "creator": "Dunglison, Robley, 1798-1869.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "hygiene;dietetics",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    },
+    {
+      "work_id": "wellcome-vap2a7m4",
+      "title": "A manual of practical hygiene / by Edmund A. Parkes ... Ed. by F. S. B. François de Chaumont.",
+      "creator": "",
+      "publication_year": "1884",
+      "collection_id": "wellcome-collection",
+      "topic_family": "hygiene;public-health",
+      "source_url": "https://wellcomecollection.org/works/vap2a7m4",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    },
+    {
+      "work_id": "wellcome-zeubyvsm",
+      "title": "A manual of practical hygiene for students, physicians, and medical officers / by Charles Harrington.",
+      "creator": "",
+      "publication_year": "1905",
+      "collection_id": "wellcome-collection",
+      "topic_family": "hygiene;public-health",
+      "source_url": "https://wellcomecollection.org/works/zeubyvsm",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    },
+    {
+      "work_id": "wellcome-jt4unq8f",
+      "title": "American materia medica, therapeutics and pharmacognosy : developing the latest acquired knowledge of drugs, and especially of the direct action of single drugs upon exact conditions of disease, with especial reference to the therapeutics of the plant drugs of the Americas / by Finley Ellingwood ; with a practical consideration of the principles of pharmacy and pharmacognosy, by John Uri Lloyd.",
+      "creator": "",
+      "publication_year": "1919",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/jt4unq8f",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    },
+    {
+      "work_id": "wellcome-tfeaggu9",
+      "title": "Domestic medicine : or, the family physician. A treatise on the prevention and cure of diseases, by regimen and simple medicines: With an appendix, containing a dispensatory for the use of private practitioners / by William Buchan.",
+      "creator": "",
+      "publication_year": "1817",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/tfeaggu9",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    },
+    {
+      "work_id": "wellcome-wsy88uka",
+      "title": "Vitalogy : an encyclopedia of health and home, adapted for home, the layman, the family / E.H. Ruddock.",
+      "creator": "",
+      "publication_year": "1910",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/wsy88uka",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-101515274-chunk-8903",
+        "work_id": "nlm-101515274",
+        "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+        "matched_herbs": [
+          "Prune-"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Gum"
+        ],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "Presence of symptoms re- sembling pregnancy. Spur-pep'per. Fruit of Capsicum frutescens. Spu'ta (pl. of Sputum). See Sputum. S. , prune- juice, see Prune-juice. Sputa'men (spuo, to spit). Saliva; sputum. Sputamen'tum....",
+        "score": 29
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0763",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Mix all together and let them stand for several days befor using. The dose is from a table-spoonful to half a wineglassful thre times a day, previous to each meal. In \"sunpain,\" \"masked ague,\" o \"dumb ague,\" a similar...",
+        "score": 22
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0874",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "During the fever, the diet should consist of barley-water, toast-water, rice-water, prune tea, and apple-water; but during convalescence, it may be improved by the addition of arrowroot, sago, milk, or light vegetable...",
+        "score": 22
+      },
+      {
+        "chunk_id": "wellcome-zeubyvsm-chunk-0677",
+        "work_id": "wellcome-zeubyvsm",
+        "title": "A manual of practical hygiene for students, physicians, and medical officers / by Charles Harrington.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zeubyvsm",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Extract",
+          "Juice",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [],
+        "conditions": [],
+        "excerpt": "Over and under proof mean that a spirit is stronger or weaker than proof spirit, and the excess or deficiency is expressed as so many degrees over or under proof. The expres- sion, for example, 25 under proof, means t...",
+        "score": 18
+      },
+      {
+        "chunk_id": "wellcome-jt4unq8f-chunk-1508",
+        "work_id": "wellcome-jt4unq8f",
+        "title": "American materia medica, therapeutics and pharmacognosy : developing the latest acquired knowledge of drugs, and especially of the direct action of single drugs upon exact conditions of disease, with especial reference to the therapeutics of the plant drugs of the Americas / by Finley Ellingwood ; with a practical consideration of the principles of pharmacy and pharmacognosy, by John Uri Lloyd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jt4unq8f",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh"
+        ],
+        "excerpt": "Specific Symptomatology—It is especially indicated where, with suppressed secretion and marked evidence of sepsis, there is ulceration of the mucous membranes of the mouth, or intestinal ulceration. In low fevers with...",
+        "score": 17
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-101515274-chunk-8903",
+        "work_id": "nlm-101515274",
+        "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+        "matched_herbs": [
+          "Prune-"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Gum"
+        ],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "Presence of symptoms re- sembling pregnancy. Spur-pep'per. Fruit of Capsicum frutescens. Spu'ta (pl. of Sputum). See Sputum. S. , prune- juice, see Prune-juice. Sputa'men (spuo, to spit). Saliva; sputum. Sputamen'tum....",
+        "score": 29
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0763",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Mix all together and let them stand for several days befor using. The dose is from a table-spoonful to half a wineglassful thre times a day, previous to each meal. In \"sunpain,\" \"masked ague,\" o \"dumb ague,\" a similar...",
+        "score": 22
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0874",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "During the fever, the diet should consist of barley-water, toast-water, rice-water, prune tea, and apple-water; but during convalescence, it may be improved by the addition of arrowroot, sago, milk, or light vegetable...",
+        "score": 22
+      },
+      {
+        "chunk_id": "wellcome-zeubyvsm-chunk-0677",
+        "work_id": "wellcome-zeubyvsm",
+        "title": "A manual of practical hygiene for students, physicians, and medical officers / by Charles Harrington.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zeubyvsm",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Extract",
+          "Juice",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [],
+        "conditions": [],
+        "excerpt": "Over and under proof mean that a spirit is stronger or weaker than proof spirit, and the excess or deficiency is expressed as so many degrees over or under proof. The expres- sion, for example, 25 under proof, means t...",
+        "score": 18
+      },
+      {
+        "chunk_id": "wellcome-jt4unq8f-chunk-1508",
+        "work_id": "wellcome-jt4unq8f",
+        "title": "American materia medica, therapeutics and pharmacognosy : developing the latest acquired knowledge of drugs, and especially of the direct action of single drugs upon exact conditions of disease, with especial reference to the therapeutics of the plant drugs of the Americas / by Finley Ellingwood ; with a practical consideration of the principles of pharmacy and pharmacognosy, by John Uri Lloyd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jt4unq8f",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh"
+        ],
+        "excerpt": "Specific Symptomatology—It is especially indicated where, with suppressed secretion and marked evidence of sepsis, there is ulceration of the mucous membranes of the mouth, or intestinal ulceration. In low fevers with...",
+        "score": 17
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-101515274-chunk-8903",
+        "work_id": "nlm-101515274",
+        "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+        "matched_herbs": [
+          "Prune-"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Gum"
+        ],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "Presence of symptoms re- sembling pregnancy. Spur-pep'per. Fruit of Capsicum frutescens. Spu'ta (pl. of Sputum). See Sputum. S. , prune- juice, see Prune-juice. Sputa'men (spuo, to spit). Saliva; sputum. Sputamen'tum....",
+        "score": 29
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0763",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Mix all together and let them stand for several days befor using. The dose is from a table-spoonful to half a wineglassful thre times a day, previous to each meal. In \"sunpain,\" \"masked ague,\" o \"dumb ague,\" a similar...",
+        "score": 22
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0874",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "During the fever, the diet should consist of barley-water, toast-water, rice-water, prune tea, and apple-water; but during convalescence, it may be improved by the addition of arrowroot, sago, milk, or light vegetable...",
+        "score": 22
+      },
+      {
+        "chunk_id": "wellcome-jt4unq8f-chunk-1508",
+        "work_id": "wellcome-jt4unq8f",
+        "title": "American materia medica, therapeutics and pharmacognosy : developing the latest acquired knowledge of drugs, and especially of the direct action of single drugs upon exact conditions of disease, with especial reference to the therapeutics of the plant drugs of the Americas / by Finley Ellingwood ; with a practical consideration of the principles of pharmacy and pharmacognosy, by John Uri Lloyd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jt4unq8f",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh"
+        ],
+        "excerpt": "Specific Symptomatology—It is especially indicated where, with suppressed secretion and marked evidence of sepsis, there is ulceration of the mucous membranes of the mouth, or intestinal ulceration. In low fevers with...",
+        "score": 17
+      },
+      {
+        "chunk_id": "wellcome-q648cs3p-chunk-2878",
+        "work_id": "wellcome-q648cs3p",
+        "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q648cs3p",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "In some cases of croupal pneumonia pain and other symptoms 1 ‘Handbook of the Theory and Practice of Medicine,’ by F. J. . Roberts, M. D. , &c. ‘Lewis, 1873. are sometimes very slight or absent, and the expectoration...",
+        "score": 17
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-101515274-chunk-8903",
+        "work_id": "nlm-101515274",
+        "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+        "matched_herbs": [
+          "Prune-"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Gum"
+        ],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "Presence of symptoms re- sembling pregnancy. Spur-pep'per. Fruit of Capsicum frutescens. Spu'ta (pl. of Sputum). See Sputum. S. , prune- juice, see Prune-juice. Sputa'men (spuo, to spit). Saliva; sputum. Sputamen'tum....",
+        "score": 29
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0763",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Mix all together and let them stand for several days befor using. The dose is from a table-spoonful to half a wineglassful thre times a day, previous to each meal. In \"sunpain,\" \"masked ague,\" o \"dumb ague,\" a similar...",
+        "score": 22
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0874",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "During the fever, the diet should consist of barley-water, toast-water, rice-water, prune tea, and apple-water; but during convalescence, it may be improved by the addition of arrowroot, sago, milk, or light vegetable...",
+        "score": 22
+      },
+      {
+        "chunk_id": "wellcome-q648cs3p-chunk-2878",
+        "work_id": "wellcome-q648cs3p",
+        "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q648cs3p",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "In some cases of croupal pneumonia pain and other symptoms 1 ‘Handbook of the Theory and Practice of Medicine,’ by F. J. . Roberts, M. D. , &c. ‘Lewis, 1873. are sometimes very slight or absent, and the expectoration...",
+        "score": 17
+      },
+      {
+        "chunk_id": "wellcome-tfeaggu9-chunk-0573",
+        "work_id": "wellcome-tfeaggu9",
+        "title": "Domestic medicine : or, the family physician. A treatise on the prevention and cure of diseases, by regimen and simple medicines: With an appendix, containing a dispensatory for the use of private practitioners / by William Buchan.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/tfeaggu9",
+        "matched_herbs": [
+          "Prune"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "Acrid 1 matter, by lodging long in the pustules, cannoi fail to corrode the tender skin ; by which many a handsome face becomes so deformed as hardly to bear a resemblance to the hu- man figure*. It is generally neces...",
+        "score": 17
+      }
+    ]
+  },
+  "retrieval_text": "Prune is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 8 works and 9 source-linked chunks. Recorded variants include Prune, Prune-. Common plant-part co-mentions include Fruit, Berry, Flower, Gum, Root. Common preparation co-mentions include Juice, Infusion, Tea, Essence, Extract, Oil. Common condition co-mentions include Fever, Cold or catarrh, Asthma, Consumption, Diarrhoea or looseness. Caution co-mentions include Child-use caution, Dose caution, Fatal-risk warning, Pregnancy caution. Representative source works include The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc; A manual of practical hygiene / by Edmund A. Parkes ... Ed. by F. S. B. François de Chaumont.; A manual of practical hygiene for students, physicians, and medical officers / by Charles Harrington.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:49.026Z",
+  "builder": "build-herb-profiles.mjs"
+}

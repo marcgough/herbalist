@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-ndsrqw82",
+  "title": "A new and complete American medical family herbal : wherein, is displayed the true properties and medical virtues of the plants, indigenous to the United States of America : together with Lewis' secret remedy, newly discovered, which has been found infallible in the cure of that dreadful disease hydrophobia, produced by the bite of a mad dog ... / by Samuel Henry ... ; with an appendix, of many choice medical secrets, never made known to the world before.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/ndsrqw82",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21128133",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/ndsrqw82",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal",
+  "chunkCount": 408,
+  "paragraphCount": 424,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ndsrqw82\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ndsrqw82\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-ndsrqw82\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-ndsrqw82.jsonl",
+  "rawSha256": "d3c5f784a418fe07c7ce6404e5effe587c950dad05fa1324890047813ead8d37",
+  "normalizedSha256": "66437cf8bcfb3fdbfa1d44710dc36a4c1989cd142bc822e8583b3141151fa7cd",
+  "processedAt": "2026-06-17T00:34:42.605Z"
+}

@@ -1,0 +1,4 @@
+https://www.herbalisti.com/* https://herbalisti.com/:splat 301
+http://herbalisti.com/* https://herbalisti.com/:splat 301
+http://www.herbalisti.com/* https://herbalisti.com/:splat 301
+/* /index.html 200

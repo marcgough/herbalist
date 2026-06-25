@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-yhga6fhn",
+  "title": "Lexicon Pharmacopoelium, or a Pharmacopoeial Dictionary; : containing the London Pharmacopoeia of MDCCCXXIV, in Latin and English; the chemical decompositions; a description of the simples and compounds of the pharmacopoeias of London, Edinburgh, and Dublin, with their properties, use, and doses; and in which all former names are referred to the present pharmaceutical nomenclature. To the whole is annexed an English index of technical and domestic terms relative to medicines; ... Designed expressly for the use of students. / By Thomas Castle, member of the Physical Society, Guy's Hospital.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/yhga6fhn",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b29348742",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/yhga6fhn",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;pharmacopoeia",
+  "chunkCount": 1264,
+  "paragraphCount": 1274,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-yhga6fhn\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-yhga6fhn\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-yhga6fhn\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-yhga6fhn.jsonl",
+  "rawSha256": "2973d484ca0ac1b6d82035eac75c6fd73f2360f24511e5bfbb44f722b431783f",
+  "normalizedSha256": "eddccd8c55b466f97fa466a4982ad14a431223681eb0a060724b50be470a4145",
+  "processedAt": "2026-06-16T23:08:24.573Z"
+}

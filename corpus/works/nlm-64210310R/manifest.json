@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64210310R",
+  "title": "The complete herbalist, or, The people their own physicians, by the use of nature's remedies : showing the great curative properties of all herbs , gums, balsams, barks, flowers, and roots, how they should be prepared, when and under what influences selected, at what time gathered, and for what diseases administered : also separate treatises on food and drinks, clothing, exercise, the regulation of the passions, life, health and disease, longevity, medication, air and sunshine, bathing, sleep, etc. : also symptoms of prevalent diseases, special treatment in special cases, and a new and plain system of hygienic principles",
+  "creator": "Brown, O. Phelps (Oliver Phelps)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210310R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64210310R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64210310R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal",
+  "chunkCount": 1152,
+  "paragraphCount": 1161,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210310R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210310R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64210310R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64210310R.jsonl",
+  "rawSha256": "ba7772f1234f45333f5991726a0b871e5a09e97a0b1a865320896fa864667fa9",
+  "normalizedSha256": "1b3f2474dda4131ab5a689301f7d3f1076a4c97654417656ced45892909c57f3",
+  "processedAt": "2026-06-18T16:44:51.998Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64310730R",
+  "title": "New homoeopathic pharmacopoeia & posology : or the mode of preparing homoeopathic medicines, and the administration of doses",
+  "creator": "Hempel, Charles J. (Charles Julius), 1811-1879.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64310730R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64310730R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64310730R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 783,
+  "paragraphCount": 1233,
+  "sectionCount": 10,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64310730R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64310730R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64310730R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64310730R.jsonl",
+  "rawSha256": "91088207584f2fab6b3345142ce55193077c108620d9e956a2d472f0c5d7e8b2",
+  "normalizedSha256": "806b71e00a969bf10527d9a23c50f3c71b904f57acb292e062a1a05623d5ae26",
+  "processedAt": "2026-06-18T03:09:45.167Z"
+}

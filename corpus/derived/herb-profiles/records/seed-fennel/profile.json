@@ -1,0 +1,1246 @@
+{
+  "profile_id": "seed-fennel",
+  "family_id": "seed-fennel",
+  "canonical_name": "Fennel",
+  "canonical_key": "fennel",
+  "catalog_status": "seed-ready",
+  "catalog_class": "culinary-medicinal-plant",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-fennel-1e36798f67#fennel"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1059,
+    "total_chunks": 1012,
+    "total_works": 391,
+    "matched_chunk_count": 1012,
+    "matched_work_count": 391,
+    "matched_mention_total": 1012
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "culinary-herbs",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Fennel"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-2578",
+      "nlm-0140313-chunk-2687",
+      "nlm-0140313-chunk-3284"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 768
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 230
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 29
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 690,
+        "work_count": 315
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 337,
+        "work_count": 199
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 312,
+        "work_count": 197
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 283,
+        "work_count": 179
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 132,
+        "work_count": 110
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 98,
+        "work_count": 87
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 92,
+        "work_count": 73
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 88,
+        "work_count": 69
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 37,
+        "work_count": 31
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 27,
+        "work_count": 23
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 309,
+        "work_count": 186
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 191,
+        "work_count": 132
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 158,
+        "work_count": 95
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 130,
+        "work_count": 92
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 124,
+        "work_count": 68
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 110,
+        "work_count": 77
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 109,
+        "work_count": 88
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 73,
+        "work_count": 70
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 69,
+        "work_count": 59
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 58,
+        "work_count": 47
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 275,
+        "work_count": 149
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 134,
+        "work_count": 102
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 85,
+        "work_count": 70
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 34,
+        "work_count": 32
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 5,
+        "work_count": 4
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 83,
+        "work_count": 59
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 81,
+        "work_count": 74
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 76,
+        "work_count": 63
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 46,
+        "work_count": 45
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 40,
+        "work_count": 36
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 40,
+        "work_count": 31
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 37,
+        "work_count": 35
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 32,
+        "work_count": 32
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 29,
+        "work_count": 26
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 27,
+        "work_count": 26
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 33,
+      "matched_mention_count": 33
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-takhmyez",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+      "creator": "",
+      "publication_year": "1747",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/takhmyez",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-cfrchse5",
+      "title": "A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine; their physical and chemical properties; the botanical characters of the medicinal plants ... with observations on the proper mode of combining and administering remedies / by H. M. Edwards and P. Vavasseur ; translated from the French, with numerous additions and corrections, and adapted to the practice of medicine and art of pharmacy in the United States, by Joseph Togno and E. Durand.",
+      "creator": "",
+      "publication_year": "1829",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;medicinal-plants;botany",
+      "source_url": "https://wellcomecollection.org/works/cfrchse5",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "nlm-61730020R",
+      "title": "A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine, their physical and chemical properties, the botanical characters of the medicinal plants, and the formulae for the principal officinal preparations of the American, Parisian, London, Dublin, Edinburgh, &c pharmacopoeiae : with observations on the proper mode of combining and administering remedies",
+      "creator": "Milne-Edwards, H. (Henri), 1800-1885.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;medicinal-plants;botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61730020R-bk",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-nhx2ne6y",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "pg-41778",
+      "title": "Epitome of the Pharmacopeia of the United States and the National Formulary",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://www.gutenberg.org/ebooks/41778",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-v2hnvyj6",
+      "title": "Complete herbal, to which is now added, upwards of one hundred additional herbs, with a display of their medicinal and occult qualities : physically applied to the cure of all disorders incident to mankind [etc.].",
+      "creator": "",
+      "publication_year": "1816",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/v2hnvyj6",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-49513-chunk-0552",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Juice",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Gout",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of the Sun, and under Leo. It provokes urine and women’s courses, being taken either in meat or drink. The seed thereof taken in wine, is an antidote against all dangerous medi...",
+        "score": 65
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0081",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "FEVER ROOT, [Triosteum perfoliatum,]—Useful in Fevers,' Agues, Pleuritis, <fec. FEATHERFEW, [Crysanthemum parthenium,]—Serviceable in Hysteric complaints, and to \"strengthen the Stomach. FIT-ROOT, [Monarda uniflora,]—...",
+        "score": 60
+      },
+      {
+        "chunk_id": "nlm-101554865-chunk-0282",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Essence",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Headache",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "248 INDEX. Essence of Peppermint, . Elder Ointment, Extract from John Wesley, Emetic powders, Fever, Intermittent, \" Remittent, \" Scarlet, \" Childbed, \" Hectic, \" Lung, \" Inflammatory, \" Typhus, \" Spotted, Fomentation...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63620160R-chunk-0313",
+        "work_id": "nlm-63620160R",
+        "title": "The ready adviser and family guide : a new compilation of valuable recipes and guide to health with directions what to do in cases of emergency : comprising over one thousand valuable rules and recipes useful to every body, and divided into four parts with a full index for each part",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "SURGEON GENERAL'S OFFICE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620160R-bk",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Wash"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "The leaves strewn among grain, when put into the bin, will pro- tect it from the ravages of the weevil; and if placed in the branches of the plum and other fruit trees, or scattered over plants, will protect them from...",
+        "score": 57
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-49513-chunk-0552",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Juice",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Gout",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of the Sun, and under Leo. It provokes urine and women’s courses, being taken either in meat or drink. The seed thereof taken in wine, is an antidote against all dangerous medi...",
+        "score": 65
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0081",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "FEVER ROOT, [Triosteum perfoliatum,]—Useful in Fevers,' Agues, Pleuritis, <fec. FEATHERFEW, [Crysanthemum parthenium,]—Serviceable in Hysteric complaints, and to \"strengthen the Stomach. FIT-ROOT, [Monarda uniflora,]—...",
+        "score": 60
+      },
+      {
+        "chunk_id": "nlm-101554865-chunk-0282",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Essence",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Headache",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "248 INDEX. Essence of Peppermint, . Elder Ointment, Extract from John Wesley, Emetic powders, Fever, Intermittent, \" Remittent, \" Scarlet, \" Childbed, \" Hectic, \" Lung, \" Inflammatory, \" Typhus, \" Spotted, Fomentation...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63620160R-chunk-0313",
+        "work_id": "nlm-63620160R",
+        "title": "The ready adviser and family guide : a new compilation of valuable recipes and guide to health with directions what to do in cases of emergency : comprising over one thousand valuable rules and recipes useful to every body, and divided into four parts with a full index for each part",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "SURGEON GENERAL'S OFFICE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620160R-bk",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Wash"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "The leaves strewn among grain, when put into the bin, will pro- tect it from the ravages of the weevil; and if placed in the branches of the plum and other fruit trees, or scattered over plants, will protect them from...",
+        "score": 57
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-49513-chunk-0552",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Juice",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Gout",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of the Sun, and under Leo. It provokes urine and women’s courses, being taken either in meat or drink. The seed thereof taken in wine, is an antidote against all dangerous medi...",
+        "score": 65
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0081",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "FEVER ROOT, [Triosteum perfoliatum,]—Useful in Fevers,' Agues, Pleuritis, <fec. FEATHERFEW, [Crysanthemum parthenium,]—Serviceable in Hysteric complaints, and to \"strengthen the Stomach. FIT-ROOT, [Monarda uniflora,]—...",
+        "score": 60
+      },
+      {
+        "chunk_id": "nlm-101554865-chunk-0282",
+        "work_id": "nlm-101554865",
+        "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE ECLECTIC . FAMILY PHYSICIAN, A SCIENTIFIC SYSTEM OF MEDICINE, ON",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Essence",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Headache",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "248 INDEX. Essence of Peppermint, . Elder Ointment, Extract from John Wesley, Emetic powders, Fever, Intermittent, \" Remittent, \" Scarlet, \" Childbed, \" Hectic, \" Lung, \" Inflammatory, \" Typhus, \" Spotted, Fomentation...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63620160R-chunk-0313",
+        "work_id": "nlm-63620160R",
+        "title": "The ready adviser and family guide : a new compilation of valuable recipes and guide to health with directions what to do in cases of emergency : comprising over one thousand valuable rules and recipes useful to every body, and divided into four parts with a full index for each part",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "SURGEON GENERAL'S OFFICE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620160R-bk",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Wash"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "The leaves strewn among grain, when put into the bin, will pro- tect it from the ravages of the weevil; and if placed in the branches of the plum and other fruit trees, or scattered over plants, will protect them from...",
+        "score": 57
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-49513-chunk-0552",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Juice",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Gout",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of the Sun, and under Leo. It provokes urine and women’s courses, being taken either in meat or drink. The seed thereof taken in wine, is an antidote against all dangerous medi...",
+        "score": 65
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0081",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "FEVER ROOT, [Triosteum perfoliatum,]—Useful in Fevers,' Agues, Pleuritis, <fec. FEATHERFEW, [Crysanthemum parthenium,]—Serviceable in Hysteric complaints, and to \"strengthen the Stomach. FIT-ROOT, [Monarda uniflora,]—...",
+        "score": 60
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63620160R-chunk-0313",
+        "work_id": "nlm-63620160R",
+        "title": "The ready adviser and family guide : a new compilation of valuable recipes and guide to health with directions what to do in cases of emergency : comprising over one thousand valuable rules and recipes useful to every body, and divided into four parts with a full index for each part",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "SURGEON GENERAL'S OFFICE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620160R-bk",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Wash"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "The leaves strewn among grain, when put into the bin, will pro- tect it from the ravages of the weevil; and if placed in the branches of the plum and other fruit trees, or scattered over plants, will protect them from...",
+        "score": 57
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0408",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "GOLDEN MAIDEN HAIR",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Fennel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Poultice",
+          "Wash",
+          "Gargle",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] Venus owns them both. The leaves of either of the sorts, both specified, and the roots also boiled in wine or water, or in broth with Parsley or Fennel roots, do help to open the body, and a...",
+        "score": 51
+      }
+    ]
+  },
+  "retrieval_text": "Fennel is a culinary medicinal plant profile in the Herbalisti historical corpus. It is represented across 391 works and 1012 source-linked chunks. Recorded variants include Fennel. Common plant-part co-mentions include Seed, Root, Leaf, Flower, Berry, Bark. Common preparation co-mentions include Oil, Powder, Juice, Syrup, Tea, Infusion. Common condition co-mentions include Cold or catarrh, Wounds or ulcers, Fever, Colic, Dropsy, Inflammation. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Toxicity watch, Allergy or sensitivity caution, Bleeding caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.655Z",
+  "builder": "build-herb-profiles.mjs"
+}

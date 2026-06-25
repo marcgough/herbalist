@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61840800R",
+  "title": "Botanic materia medica , or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties",
+  "creator": "Wilson, B. O.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61840800R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61840800R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61840800R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 196,
+  "paragraphCount": 385,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61840800R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61840800R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61840800R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61840800R.jsonl",
+  "rawSha256": "20f87027724fac56e3e18932eb829b146da26a056a22a0b5236c45e380431c15",
+  "normalizedSha256": "051590255085fc3df4a4a734b794109012d9b72a25701c665028599fd0a3a80d",
+  "processedAt": "2026-06-17T19:01:35.622Z"
+}

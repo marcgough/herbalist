@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2932043R",
+  "title": "Medical recipes and prescriptions",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2932043R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2932043R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2932043R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 317,
+  "paragraphCount": 483,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2932043R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2932043R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2932043R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2932043R.jsonl",
+  "rawSha256": "1466936b5889c4c84866bee3d5c10079bcd4104f83b809a3f40e2c3242911209",
+  "normalizedSha256": "db2548cd7c8dda698709e710859edb4bfb5871d9e57a643fab60db2d8249f516",
+  "processedAt": "2026-06-18T16:16:45.309Z"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Herbalisti",
+  "short_name": "Herbalisti",
+  "description": "Self-sovereign health intelligence for natural medicine and longevity research.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbfaf6",
+  "theme_color": "#cfe8e7",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/herbalisti-mark.svg",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

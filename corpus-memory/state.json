@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-06-23T13:24:51.507Z",
+  "serviceName": "Corpus Memory",
+  "baseUrl": "http://127.0.0.1:8766",
+  "databasePath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus-memory\\store\\corpus-memory.sqlite3",
+  "databaseBytes": 66740224,
+  "boundary": {
+    "dedicatedTo": "Herbalisti corpus retrieval only",
+    "excludes": [
+      "shared working-memory notes",
+      "operator checkpoints",
+      "general Agent Memory documents"
+    ]
+  },
+  "totals": {
+    "totalDocuments": 3318,
+    "byKind": [
+      {
+        "kind": "edition-family",
+        "count": 1866
+      },
+      {
+        "kind": "work-summary",
+        "count": 1328
+      },
+      {
+        "kind": "herb-profile",
+        "count": 124
+      }
+    ]
+  }
+}

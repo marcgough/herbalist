@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-gdm28rb9",
+  "title": "Baldwin's herbal guide to health : descriptive catalogue of herbal remedies : laboratory: 77, Walworth Road, London, S.E. / G. Baldwin.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/gdm28rb9",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30478662",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/gdm28rb9",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 128,
+  "paragraphCount": 131,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-gdm28rb9\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-gdm28rb9\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-gdm28rb9.jsonl",
+  "rawSha256": "13aa4865d505b5b0cd48ecb533df61b49a4266688c03930f64abd0d5b77e3902",
+  "normalizedSha256": "5344646f3412a76c9ff08629448b0989abdfb9d878960ab9a5917f5aa23f66df",
+  "processedAt": "2026-06-16T13:46:51.746Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

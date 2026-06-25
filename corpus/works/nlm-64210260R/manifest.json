@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64210260R",
+  "title": "How to get well and how to keep well : a family physician and guide to health",
+  "creator": "Bland, T. A. (Thomas Augustus), 1830-1908.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210260R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64210260R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64210260R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 247,
+  "paragraphCount": 407,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210260R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210260R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64210260R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64210260R.jsonl",
+  "rawSha256": "b59c8aa52bf245c90dc76ba43b1a9dbd47a92d9a1b6f472a84bd5071b9403670",
+  "normalizedSha256": "924607321ccb8bdb62fb1370801ae2471b0332a3c2237488865ffa9ab9fe66b1",
+  "processedAt": "2026-06-18T01:54:37.468Z"
+}

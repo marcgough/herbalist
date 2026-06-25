@@ -1,0 +1,1210 @@
+{
+  "profile_id": "seed-bayberry",
+  "family_id": "seed-bayberry",
+  "canonical_name": "Bayberry",
+  "canonical_key": "bayberry",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-bay-berry-159f9103e5#bay-berry",
+    "term-bayberry-b346a23c9f#bayberry"
+  ],
+  "decision_note": "merge hyphenated bay-berry witness into the main bayberry family | promote strong medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 800,
+    "total_chunks": 765,
+    "total_works": 188,
+    "matched_chunk_count": 765,
+    "matched_work_count": 188,
+    "matched_mention_total": 766
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Bayberry",
+      "Bay-berries",
+      "Bay- Berry",
+      "Bayberries",
+      "Bay-berrys"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-100912803",
+      "nlm-101141604"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0939",
+      "nlm-0140313-chunk-2184",
+      "nlm-0140313-chunk-2687"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 323
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 287
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 170
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 335,
+        "work_count": 132
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 296,
+        "work_count": 102
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 164,
+        "work_count": 102
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 125,
+        "work_count": 74
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 61,
+        "work_count": 52
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 59,
+        "work_count": 40
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 39,
+        "work_count": 34
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 22,
+        "work_count": 20
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 16,
+        "work_count": 13
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 9,
+        "work_count": 9
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 434,
+        "work_count": 89
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 240,
+        "work_count": 85
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 194,
+        "work_count": 62
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 148,
+        "work_count": 96
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 144,
+        "work_count": 47
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 105,
+        "work_count": 52
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 86,
+        "work_count": 58
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 83,
+        "work_count": 46
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 78,
+        "work_count": 24
+      },
+      {
+        "id": "wash",
+        "label": "Wash",
+        "signal_count": 73,
+        "work_count": 31
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 266,
+        "work_count": 81
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 64,
+        "work_count": 46
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 33,
+        "work_count": 23
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 26,
+        "work_count": 15
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 13,
+        "work_count": 11
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 13,
+        "work_count": 9
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 11,
+        "work_count": 8
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 157,
+        "work_count": 73
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 98,
+        "work_count": 53
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 79,
+        "work_count": 33
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 62,
+        "work_count": 52
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 61,
+        "work_count": 40
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 55,
+        "work_count": 28
+      },
+      {
+        "id": "cholera",
+        "label": "Cholera",
+        "signal_count": 46,
+        "work_count": 28
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 43,
+        "work_count": 14
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 42,
+        "work_count": 24
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 37,
+        "work_count": 29
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-63340900R",
+      "title": "The practice of medicine on Thomsonian principles : adapted as well to the use of families as to that of the practitioner : containing propositions illustrative of the philosophy of Thomsonism : a brief history of the symptoms, peculiarities, and general course of disease in its different forms and varieties : with practical directions for administering a Thomsonian course of medicine, including the various methods of administering vapour baths and emetics, and a materia medica , adapted to the work",
+      "creator": "Comfort, J. W. (John W.)",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63340900R-bk",
+      "signal_chunk_count": 60,
+      "matched_mention_count": 61
+    },
+    {
+      "work_id": "wellcome-bkhg7djn",
+      "title": "The practice of medicine on Thomsonian principles : and a materia medica, adapted to the work / by J. W. Comfort, M.D.",
+      "creator": "",
+      "publication_year": "1845",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/bkhg7djn",
+      "signal_chunk_count": 56,
+      "matched_mention_count": 56
+    },
+    {
+      "work_id": "wellcome-rt52bskh",
+      "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families ... / By Morris Mattson.",
+      "creator": "",
+      "publication_year": "1841",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/rt52bskh",
+      "signal_chunk_count": 36,
+      "matched_mention_count": 36
+    },
+    {
+      "work_id": "nlm-64220920R",
+      "title": "The American vegetable practice : or a new and improved guide to health, designed for the use of families : in six parts",
+      "creator": "Mattson, M. (Morris), 1809?-1885.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220920R-bk",
+      "signal_chunk_count": 35,
+      "matched_mention_count": 35
+    },
+    {
+      "work_id": "wellcome-yvn7kra7",
+      "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.",
+      "creator": "",
+      "publication_year": "1841",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/yvn7kra7",
+      "signal_chunk_count": 35,
+      "matched_mention_count": 35
+    },
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "nlm-7704741",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-q59tmjuk",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 18
+    },
+    {
+      "work_id": "nlm-61650830R",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61650830R-bk",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "nlm-2558004RX1",
+      "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volumes 1-2)",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558004RX1-bk",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-yvn7kra7-chunk-1372",
+        "work_id": "wellcome-yvn7kra7",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yvn7kra7",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "wellcome-rt52bskh-chunk-1375",
+        "work_id": "wellcome-rt52bskh",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families ... / By Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rt52bskh",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0060",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "BEECH DROPS, [Epiphegus Virginiana,]—A remedy for Sore Mouth, Dysentery, and Cancerous Affections. BASIL, SWEET, [Ocymum Basilicum,]—A remedy for Ex- cessive Vomiting. BED-STRAW, [Galium Aparine,]—Good in Gravel, Drop...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0052",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable as a Cathartic, in violent Bilious and Typus Fevers. BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SE...",
+        "score": 52
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-yvn7kra7-chunk-1372",
+        "work_id": "wellcome-yvn7kra7",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yvn7kra7",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "wellcome-rt52bskh-chunk-1375",
+        "work_id": "wellcome-rt52bskh",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families ... / By Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rt52bskh",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0060",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "BEECH DROPS, [Epiphegus Virginiana,]—A remedy for Sore Mouth, Dysentery, and Cancerous Affections. BASIL, SWEET, [Ocymum Basilicum,]—A remedy for Ex- cessive Vomiting. BED-STRAW, [Galium Aparine,]—Good in Gravel, Drop...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0052",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable as a Cathartic, in violent Bilious and Typus Fevers. BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SE...",
+        "score": 52
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-yvn7kra7-chunk-1372",
+        "work_id": "wellcome-yvn7kra7",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yvn7kra7",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "wellcome-rt52bskh-chunk-1375",
+        "work_id": "wellcome-rt52bskh",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families ... / By Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rt52bskh",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0060",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Dysentery",
+          "Headache",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "BEECH DROPS, [Epiphegus Virginiana,]—A remedy for Sore Mouth, Dysentery, and Cancerous Affections. BASIL, SWEET, [Ocymum Basilicum,]—A remedy for Ex- cessive Vomiting. BED-STRAW, [Galium Aparine,]—Good in Gravel, Drop...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0052",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable as a Cathartic, in violent Bilious and Typus Fevers. BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SE...",
+        "score": 52
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0052",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable as a Cathartic, in violent Bilious and Typus Fevers. BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SE...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0004",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Wash"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Colic"
+        ],
+        "excerpt": "Stimulant, carminative, diaphoretic, expectorant. A good remedy for colds, coughs, pleurisy, wind, colic, gout rheumatics, and diseases of the urinary organs. Is generally combined with other herbs. 8. ARRACH HERB (Ch...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1651",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Salve",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Headache",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "-Extract of dandelion, parsley root, buchu leaves, and wild carrot, of each half an ounce ; oil of juniper, one drachm ; balsam of fir, Q. S. , mix, divide into five grain pills. Dose: two three times a day, with the...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101636340-chunk-1433",
+        "work_id": "nlm-101636340",
+        "title": "Medicinal plants : an illustrated and descriptive guide to plants indigenous to and naturalized in the United States which are used in medicine : their description, origin, history, preparation, chemistry and physiological effects fully described together with the properties of the most important medicinal plants of other countries thus giving information upon over one thousand medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101636340-bk",
+        "matched_herbs": [
+          "Bayberry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Gargle"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Both the wax and root-bark have been used in medicine, the action of each being quite different, though both are astringent and stimulant to weakened mucous membranes. The Bark. -Dr. Charles A. Lee* sums up the uses o...",
+        "score": 45
+      }
+    ]
+  },
+  "retrieval_text": "Bayberry is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 188 works and 765 source-linked chunks. Recorded variants include Bayberry, Bay-berries, Bay- Berry, Bayberries, Bay-berrys. Common plant-part co-mentions include Bark, Root, Berry, Leaf, Seed, Gum. Common preparation co-mentions include Tea, Powder, Tincture, Oil, Emetic, Decoction. Common condition co-mentions include Cold or catarrh, Wounds or ulcers, Vomiting or nausea, Dysentery, Diarrhoea or looseness, Fever. Caution co-mentions include Dose caution, Child-use caution, Bleeding caution, Narcotic or sedative caution, Allergy or sensitivity caution, Toxicity watch. Representative source works include The practice of medicine on Thomsonian principles : adapted as well to the use of families as to that of the practitioner : containing propositions illustrative of the philosophy of Thomsonism : a brief history of the symptoms, peculiarities, and general course of disease in its different forms and varieties : with practical directions for administering a Thomsonian course of medicine, including the various methods of administering vapour baths and emetics, and a materia medica , adapted to the work; The practice of medicine on Thomsonian principles : and a materia medica, adapted to the work / by J. W. Comfort, M.D.; The American vegetable practice, or a new and improved guide to health, designed for the use of families ... / By Morris Mattson.; The American vegetable practice : or a new and improved guide to health, designed for the use of families : in six parts. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.843Z",
+  "builder": "build-herb-profiles.mjs"
+}

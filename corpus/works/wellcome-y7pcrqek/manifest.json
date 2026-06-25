@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-y7pcrqek",
+  "title": "Botanicon Sinicum: notes on Chinese botany from native and Western sources. Part 3, Botanical investigations into the materia medica of the ancient Chinese / [E. Bretschneider].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/y7pcrqek",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24877104",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/y7pcrqek",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;botany",
+  "chunkCount": 1139,
+  "paragraphCount": 1139,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-y7pcrqek\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-y7pcrqek\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-y7pcrqek\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-y7pcrqek.jsonl",
+  "rawSha256": "ac921aa7581ffff9956f54131e0456c2a55db7fc17a62e92b15a9bdc8dac4705",
+  "normalizedSha256": "3a8ce794a94b46327a2ca0f390aafe402efa3c59b718badae4550a11a27631af",
+  "processedAt": "2026-06-16T22:50:42.216Z"
+}

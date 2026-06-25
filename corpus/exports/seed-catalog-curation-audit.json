@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-06-18T02:47:02.978Z",
+  "decisionRowCount": 39,
+  "seedReadyFamilyCount": 125,
+  "supportingFamilyCount": 111,
+  "manualSeedReadyDecisionCount": 22,
+  "manualSupportingDecisionCount": 7,
+  "aliasMergeDecisionCount": 10,
+  "seedReadyReasonCounts": {
+    "curated-high-confidence-seed-term": 103,
+    "manual-curator-promoted-specific-family": 22
+  },
+  "highConfidenceSeedTermCount": 103,
+  "automaticSeedReadyCount": 103,
+  "missingHighConfidenceSeedTerms": [],
+  "manualSeedReadyDecisionsPresent": 22,
+  "manualSupportingDecisionsPresent": 7,
+  "missingManualSeedReadyDecisions": [],
+  "missingManualSupportingDecisions": [],
+  "unresolvedAliasTargets": [],
+  "summaryPath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\exports\\seed-catalog-curation-audit.json"
+}

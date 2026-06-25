@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2557005R",
+  "title": "Examinations in anatomy, physiology, practice of physic, surgery, materia medica , chemistry, and pharmacy : for the use of students, who are about to pass the College of Surgeons, or the medical or transport board",
+  "creator": "Hooper, Robert, 1773-1835.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2557005R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2557005R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2557005R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 221,
+  "paragraphCount": 242,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2557005R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2557005R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2557005R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2557005R.jsonl",
+  "rawSha256": "a6925617e0afb419b4906903ec1cb3535db9de83748ae41d43352ba783b09336",
+  "normalizedSha256": "3b76d4887304eb5c2815df93d3c1b24faf393e83020692141b60e25dc694409c",
+  "processedAt": "2026-06-17T14:47:42.850Z"
+}

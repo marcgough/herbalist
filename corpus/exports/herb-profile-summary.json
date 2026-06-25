@@ -1,0 +1,441 @@
+{
+  "generatedAt": "2026-06-23T13:20:49.170Z",
+  "profileCount": 124,
+  "buildScope": "seed-ready",
+  "sampleLimit": 5,
+  "profilesWithPreparationSignals": 124,
+  "profilesWithConditionSignals": 124,
+  "profilesWithCautionSignals": 124,
+  "profilesWithPlantPartSignals": 124,
+  "totalMatchedChunks": 121899,
+  "topProfilesByChunks": [
+    {
+      "profile_id": "seed-lemon",
+      "canonical_name": "Lemon",
+      "total_chunks": 6659,
+      "total_works": 757,
+      "top_preparations": [
+        "Juice",
+        "Oil",
+        "Syrup"
+      ],
+      "top_conditions": [
+        "Fever",
+        "Cold or catarrh",
+        "Vomiting or nausea"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Bleeding caution",
+        "Narcotic or sedative caution"
+      ]
+    },
+    {
+      "profile_id": "seed-olive",
+      "canonical_name": "Olive",
+      "total_chunks": 5239,
+      "total_works": 754,
+      "top_preparations": [
+        "Oil",
+        "Ointment",
+        "Powder"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Wounds or ulcers",
+        "Inflammation"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-chamomile",
+      "canonical_name": "Chamomile",
+      "total_chunks": 3740,
+      "total_works": 671,
+      "top_preparations": [
+        "Oil",
+        "Infusion",
+        "Decoction"
+      ],
+      "top_conditions": [
+        "Vomiting or nausea",
+        "Cold or catarrh",
+        "Fever"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Bleeding caution"
+      ]
+    },
+    {
+      "profile_id": "seed-licorice",
+      "canonical_name": "Licorice",
+      "total_chunks": 3727,
+      "total_works": 628,
+      "top_preparations": [
+        "Extract",
+        "Powder",
+        "Decoction"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Cough",
+        "Fever"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-castor",
+      "canonical_name": "Castor",
+      "total_chunks": 3608,
+      "total_works": 625,
+      "top_preparations": [
+        "Oil",
+        "Tincture",
+        "Powder"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Vomiting or nausea",
+        "Diarrhoea or looseness"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-senna",
+      "canonical_name": "Senna",
+      "total_chunks": 3232,
+      "total_works": 510,
+      "top_preparations": [
+        "Infusion",
+        "Tincture",
+        "Syrup"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Fever",
+        "Vomiting or nausea"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Child-use caution",
+        "Narcotic or sedative caution"
+      ]
+    },
+    {
+      "profile_id": "seed-rose",
+      "canonical_name": "Rose",
+      "total_chunks": 2860,
+      "total_works": 495,
+      "top_preparations": [
+        "Oil",
+        "Infusion",
+        "Tincture"
+      ],
+      "top_conditions": [
+        "Wounds or ulcers",
+        "Cold or catarrh",
+        "Fever"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Bleeding caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-gentian",
+      "canonical_name": "Gentian",
+      "total_chunks": 2752,
+      "total_works": 616,
+      "top_preparations": [
+        "Extract",
+        "Pill",
+        "Infusion"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Fever",
+        "Vomiting or nausea"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-linseed",
+      "canonical_name": "Linseed",
+      "total_chunks": 2617,
+      "total_works": 592,
+      "top_preparations": [
+        "Oil",
+        "Tea",
+        "Infusion"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Wounds or ulcers",
+        "Cough"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-cinnamon",
+      "canonical_name": "Cinnamon",
+      "total_chunks": 2615,
+      "total_works": 521,
+      "top_preparations": [
+        "Oil",
+        "Powder",
+        "Tincture"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Diarrhoea or looseness",
+        "Vomiting or nausea"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-orange",
+      "canonical_name": "Orange",
+      "total_chunks": 2614,
+      "total_works": 564,
+      "top_preparations": [
+        "Juice",
+        "Syrup",
+        "Oil"
+      ],
+      "top_conditions": [
+        "Fever",
+        "Cold or catarrh",
+        "Vomiting or nausea"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-ginger",
+      "canonical_name": "Ginger",
+      "total_chunks": 2276,
+      "total_works": 502,
+      "top_preparations": [
+        "Syrup",
+        "Powder",
+        "Tincture"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Fever",
+        "Vomiting or nausea"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-mustard",
+      "canonical_name": "Mustard",
+      "total_chunks": 2238,
+      "total_works": 582,
+      "top_preparations": [
+        "Poultice",
+        "Oil",
+        "Plaster"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Fever",
+        "Vomiting or nausea"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-rhubarb",
+      "canonical_name": "Rhubarb",
+      "total_chunks": 2226,
+      "total_works": 552,
+      "top_preparations": [
+        "Tincture",
+        "Powder",
+        "Syrup"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Diarrhoea or looseness",
+        "Vomiting or nausea"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-almond",
+      "canonical_name": "Almond",
+      "total_chunks": 2186,
+      "total_works": 595,
+      "top_preparations": [
+        "Oil",
+        "Powder",
+        "Ointment"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Cough",
+        "Wounds or ulcers"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-poppy",
+      "canonical_name": "Poppy",
+      "total_chunks": 2164,
+      "total_works": 509,
+      "top_preparations": [
+        "Syrup",
+        "Juice",
+        "Oil"
+      ],
+      "top_conditions": [
+        "Cough",
+        "Cold or catarrh",
+        "Vomiting or nausea"
+      ],
+      "top_cautions": [
+        "Narcotic or sedative caution",
+        "Dose caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-clove",
+      "canonical_name": "Clove",
+      "total_chunks": 2097,
+      "total_works": 522,
+      "top_preparations": [
+        "Oil",
+        "Powder",
+        "Pill"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Cough",
+        "Vomiting or nausea"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-juniper",
+      "canonical_name": "Juniper",
+      "total_chunks": 1968,
+      "total_works": 584,
+      "top_preparations": [
+        "Oil",
+        "Powder",
+        "Pill"
+      ],
+      "top_conditions": [
+        "Cold or catarrh",
+        "Dropsy",
+        "Wounds or ulcers"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    },
+    {
+      "profile_id": "seed-lobelia",
+      "canonical_name": "Lobelia",
+      "total_chunks": 1669,
+      "total_works": 235,
+      "top_preparations": [
+        "Tincture",
+        "Tea",
+        "Powder"
+      ],
+      "top_conditions": [
+        "Vomiting or nausea",
+        "Cold or catarrh",
+        "Cough"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Child-use caution",
+        "Narcotic or sedative caution"
+      ]
+    },
+    {
+      "profile_id": "seed-peppermint",
+      "canonical_name": "Peppermint",
+      "total_chunks": 1662,
+      "total_works": 450,
+      "top_preparations": [
+        "Oil",
+        "Essence",
+        "Powder"
+      ],
+      "top_conditions": [
+        "Vomiting or nausea",
+        "Cold or catarrh",
+        "Colic"
+      ],
+      "top_cautions": [
+        "Dose caution",
+        "Narcotic or sedative caution",
+        "Child-use caution"
+      ]
+    }
+  ],
+  "outputPaths": {
+    "herbProfilesDir": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\herb-profiles",
+    "indexCsvPath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\herb-profiles\\index.csv",
+    "profilesJsonPath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\herb-profiles\\profiles.json",
+    "profilesJsonlPath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\herb-profiles\\profiles.jsonl",
+    "profileDocumentsJsonlPath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\derived\\herb-profiles\\profile-documents.jsonl",
+    "summaryPath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\exports\\herb-profile-summary.json"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63560170R",
+  "title": "The family instructor, or Guide to health : containing the names and description of the most useful herbs and plants that are now in use, with their medicinal qualities annexed : also, a treatise on many of the lingering diseases to which mankind are subject, with new and plain directions respecting the management of the same : with a large list of recipes, which have been carefully selected from Indian prescriptions, and from those who were cured by the same after every other remedy had failed",
+  "creator": "Bagley, George K.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560170R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63560170R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63560170R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 152,
+  "paragraphCount": 153,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560170R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560170R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63560170R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63560170R.jsonl",
+  "rawSha256": "1e98a6622bb6e93a88f049897cc55b5805d4952c918c2e26fd4b30f0df158c4a",
+  "normalizedSha256": "a9ad767ff30c954017f5c39112e25dd96bdf92596dd4fed65fab01526c1706f3",
+  "processedAt": "2026-06-16T23:06:30.534Z"
+}

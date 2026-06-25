@@ -1,0 +1,1156 @@
+{
+  "profile_id": "seed-henbane",
+  "family_id": "seed-henbane",
+  "canonical_name": "Henbane",
+  "canonical_key": "henbane",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-henbane-b2c19b8166#henbane"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1204,
+    "total_chunks": 1101,
+    "total_works": 303,
+    "matched_chunk_count": 1101,
+    "matched_work_count": 303,
+    "matched_mention_total": 1101
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Henbane"
+    ],
+    "sample_work_ids": [
+      "nlm-0217315",
+      "nlm-0217317",
+      "nlm-0222600"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217315-chunk-1251",
+      "nlm-0217317-chunk-1295",
+      "nlm-0222600-chunk-0450"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 967
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 113
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 29
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 262,
+        "work_count": 132
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 133,
+        "work_count": 74
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 120,
+        "work_count": 74
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 108,
+        "work_count": 73
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 91,
+        "work_count": 69
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 55,
+        "work_count": 47
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 49,
+        "work_count": 36
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 30,
+        "work_count": 17
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 29,
+        "work_count": 25
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 16,
+        "work_count": 13
+      }
+    ],
+    "preparations": [
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 656,
+        "work_count": 207
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 395,
+        "work_count": 169
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 357,
+        "work_count": 115
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 286,
+        "work_count": 124
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 225,
+        "work_count": 109
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 168,
+        "work_count": 126
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 157,
+        "work_count": 64
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 92,
+        "work_count": 31
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 89,
+        "work_count": 59
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 87,
+        "work_count": 49
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 431,
+        "work_count": 166
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 415,
+        "work_count": 183
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 88,
+        "work_count": 54
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 54,
+        "work_count": 38
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 42,
+        "work_count": 32
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 34,
+        "work_count": 32
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 21,
+        "work_count": 20
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 12,
+        "work_count": 10
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 7,
+        "work_count": 7
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 97,
+        "work_count": 57
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 88,
+        "work_count": 51
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 77,
+        "work_count": 37
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 72,
+        "work_count": 65
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 55,
+        "work_count": 41
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 51,
+        "work_count": 34
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 51,
+        "work_count": 31
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 49,
+        "work_count": 34
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 40,
+        "work_count": 27
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 37,
+        "work_count": 21
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 69,
+      "matched_mention_count": 69
+    },
+    {
+      "work_id": "nlm-63580420R",
+      "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+      "creator": "Imray, Keith.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+      "signal_chunk_count": 42,
+      "matched_mention_count": 42
+    },
+    {
+      "work_id": "wellcome-ggfm35sx",
+      "title": "Domestic medicine and surgery : with a glossary of the terms used therein / by J.H. Walsh.",
+      "creator": "",
+      "publication_year": "1875",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/ggfm35sx",
+      "signal_chunk_count": 35,
+      "matched_mention_count": 35
+    },
+    {
+      "work_id": "wellcome-n7jvnwj6",
+      "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame, embracing the modern improvements in medicine, to which are added, a domestic materia medica, a copious collection of approved prescriptions, &c. &c,  The whole intended as a comprehensive medical guide for the use of clergymen, heads of families, emigrants etc. / by Thomas J. Graham.",
+      "creator": "",
+      "publication_year": "1872",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/n7jvnwj6",
+      "signal_chunk_count": 34,
+      "matched_mention_count": 34
+    },
+    {
+      "work_id": "wellcome-g8fcur54",
+      "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.",
+      "creator": "",
+      "publication_year": "1853",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/g8fcur54",
+      "signal_chunk_count": 30,
+      "matched_mention_count": 30
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "wellcome-ump8j3f6",
+      "title": "Modern domestic medicine: : a popular treatise, illustrating the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame; embracing the modern improvements in medicine. To which are added, a domestic materia medica; a copious collection of approved prescriptions, &c. &c. The whole intended as a comprehensive medical guide for the use of clergymen heads, [sic] of families, and invalids. / By Thomas J. Graham, M.D. &c.",
+      "creator": "",
+      "publication_year": "1835",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/ump8j3f6",
+      "signal_chunk_count": 26,
+      "matched_mention_count": 26
+    },
+    {
+      "work_id": "wellcome-jmh3m2rt",
+      "title": "A cyclopedia of domestic medicine and surgery: being an alphabetical account of the various diseases incident to the human frame ... also, instructions for administering the various substances used in medicine; for the regulation of diet and regimen / by Thomas Andrew, with contributions by several members of the Royal College of Surgeons, Edinburgh.",
+      "creator": "",
+      "publication_year": "1844",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jmh3m2rt",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "wellcome-z5ek83nf",
+      "title": "A hand-book of domestic medicine : popularly arranged / by an eminent physician.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/z5ek83nf",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 20
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-19352-chunk-0446",
+        "work_id": "pg-19352",
+        "title": "Herbal Simples Approved for Modern Uses of Cure",
+        "collection_id": "project-gutenberg",
+        "section_heading": "HERBAL SIMPLES APPROVED FOR MODERN USES OF CURE",
+        "source_url": "https://www.gutenberg.org/ebooks/19352",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "\"To wash the feet,\" said Gerard, \"in a decoction of Henbane, as also the often smelling to the flowers, causeth sleep.\" Similarly famous anodyne necklaces were made from the root, and were hung about the necks of chil...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0104",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "When given in sufficient doses, henbane operates as a decided narcotic, and in its general effects, much resembles opium; but it does not constipate, or affect the head; on the contrary, its ten- dency is rather to re...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-rcu4ndf7-chunk-0255",
+        "work_id": "wellcome-rcu4ndf7",
+        "title": "Thomson's conspectus : adapted to the British pharmacopoeia / edited by Edmund Lloyd Birkett.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rcu4ndf7",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation"
+        ],
+        "excerpt": "-Almost inodorous; taste sweet, austere; colour a deep reddish purple ; soon hardens and becomes brittle. Oper. —Astringent. Use. —In diarrhoeas ; the protracted stage of dysentery; and internal haemorrhages. It may b...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0628",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Rheumatism"
+        ],
+        "excerpt": "Cinnamon water, half an ounce. Laudanum, fifteen minims. Antimonial wine, twenty-five minims. Syrup of poppies, two drachms. Mix, and make a draught for rheumatism. Narcotic Pills. Extract of henbane, half a scruple....",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-q648cs3p-chunk-2292",
+        "work_id": "wellcome-q648cs3p",
+        "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q648cs3p",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Gout",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The heat of the body gradually volatilises the acetic acid, and the escape of the vapour being prevented by the oil skin, a strongly counter-irritant action is set up. Derbyshire’s Embrocation. From opium and mottled...",
+        "score": 44
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-19352-chunk-0446",
+        "work_id": "pg-19352",
+        "title": "Herbal Simples Approved for Modern Uses of Cure",
+        "collection_id": "project-gutenberg",
+        "section_heading": "HERBAL SIMPLES APPROVED FOR MODERN USES OF CURE",
+        "source_url": "https://www.gutenberg.org/ebooks/19352",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "\"To wash the feet,\" said Gerard, \"in a decoction of Henbane, as also the often smelling to the flowers, causeth sleep.\" Similarly famous anodyne necklaces were made from the root, and were hung about the necks of chil...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0104",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "When given in sufficient doses, henbane operates as a decided narcotic, and in its general effects, much resembles opium; but it does not constipate, or affect the head; on the contrary, its ten- dency is rather to re...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-rcu4ndf7-chunk-0255",
+        "work_id": "wellcome-rcu4ndf7",
+        "title": "Thomson's conspectus : adapted to the British pharmacopoeia / edited by Edmund Lloyd Birkett.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rcu4ndf7",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation"
+        ],
+        "excerpt": "-Almost inodorous; taste sweet, austere; colour a deep reddish purple ; soon hardens and becomes brittle. Oper. —Astringent. Use. —In diarrhoeas ; the protracted stage of dysentery; and internal haemorrhages. It may b...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0628",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Rheumatism"
+        ],
+        "excerpt": "Cinnamon water, half an ounce. Laudanum, fifteen minims. Antimonial wine, twenty-five minims. Syrup of poppies, two drachms. Mix, and make a draught for rheumatism. Narcotic Pills. Extract of henbane, half a scruple....",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-q648cs3p-chunk-2292",
+        "work_id": "wellcome-q648cs3p",
+        "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q648cs3p",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Gout",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The heat of the body gradually volatilises the acetic acid, and the escape of the vapour being prevented by the oil skin, a strongly counter-irritant action is set up. Derbyshire’s Embrocation. From opium and mottled...",
+        "score": 44
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-19352-chunk-0446",
+        "work_id": "pg-19352",
+        "title": "Herbal Simples Approved for Modern Uses of Cure",
+        "collection_id": "project-gutenberg",
+        "section_heading": "HERBAL SIMPLES APPROVED FOR MODERN USES OF CURE",
+        "source_url": "https://www.gutenberg.org/ebooks/19352",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "\"To wash the feet,\" said Gerard, \"in a decoction of Henbane, as also the often smelling to the flowers, causeth sleep.\" Similarly famous anodyne necklaces were made from the root, and were hung about the necks of chil...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0104",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "When given in sufficient doses, henbane operates as a decided narcotic, and in its general effects, much resembles opium; but it does not constipate, or affect the head; on the contrary, its ten- dency is rather to re...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-rcu4ndf7-chunk-0255",
+        "work_id": "wellcome-rcu4ndf7",
+        "title": "Thomson's conspectus : adapted to the British pharmacopoeia / edited by Edmund Lloyd Birkett.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rcu4ndf7",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation"
+        ],
+        "excerpt": "-Almost inodorous; taste sweet, austere; colour a deep reddish purple ; soon hardens and becomes brittle. Oper. —Astringent. Use. —In diarrhoeas ; the protracted stage of dysentery; and internal haemorrhages. It may b...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0628",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Rheumatism"
+        ],
+        "excerpt": "Cinnamon water, half an ounce. Laudanum, fifteen minims. Antimonial wine, twenty-five minims. Syrup of poppies, two drachms. Mix, and make a draught for rheumatism. Narcotic Pills. Extract of henbane, half a scruple....",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-q648cs3p-chunk-2292",
+        "work_id": "wellcome-q648cs3p",
+        "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q648cs3p",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Gout",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The heat of the body gradually volatilises the acetic acid, and the escape of the vapour being prevented by the oil skin, a strongly counter-irritant action is set up. Derbyshire’s Embrocation. From opium and mottled...",
+        "score": 44
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-19352-chunk-0446",
+        "work_id": "pg-19352",
+        "title": "Herbal Simples Approved for Modern Uses of Cure",
+        "collection_id": "project-gutenberg",
+        "section_heading": "HERBAL SIMPLES APPROVED FOR MODERN USES OF CURE",
+        "source_url": "https://www.gutenberg.org/ebooks/19352",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "\"To wash the feet,\" said Gerard, \"in a decoction of Henbane, as also the often smelling to the flowers, causeth sleep.\" Similarly famous anodyne necklaces were made from the root, and were hung about the necks of chil...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0104",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "When given in sufficient doses, henbane operates as a decided narcotic, and in its general effects, much resembles opium; but it does not constipate, or affect the head; on the contrary, its ten- dency is rather to re...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-rcu4ndf7-chunk-0255",
+        "work_id": "wellcome-rcu4ndf7",
+        "title": "Thomson's conspectus : adapted to the British pharmacopoeia / edited by Edmund Lloyd Birkett.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rcu4ndf7",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation"
+        ],
+        "excerpt": "-Almost inodorous; taste sweet, austere; colour a deep reddish purple ; soon hardens and becomes brittle. Oper. —Astringent. Use. —In diarrhoeas ; the protracted stage of dysentery; and internal haemorrhages. It may b...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0628",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Rheumatism"
+        ],
+        "excerpt": "Cinnamon water, half an ounce. Laudanum, fifteen minims. Antimonial wine, twenty-five minims. Syrup of poppies, two drachms. Mix, and make a draught for rheumatism. Narcotic Pills. Extract of henbane, half a scruple....",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-q648cs3p-chunk-2292",
+        "work_id": "wellcome-q648cs3p",
+        "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q648cs3p",
+        "matched_herbs": [
+          "Henbane"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Gout",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The heat of the body gradually volatilises the acetic acid, and the escape of the vapour being prevented by the oil skin, a strongly counter-irritant action is set up. Derbyshire’s Embrocation. From opium and mottled...",
+        "score": 44
+      }
+    ]
+  },
+  "retrieval_text": "Henbane is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 303 works and 1101 source-linked chunks. Recorded variants include Henbane. Common plant-part co-mentions include Leaf, Seed, Gum, Root, Flower, Bark. Common preparation co-mentions include Extract, Tincture, Pill, Powder, Oil, Juice. Common condition co-mentions include Cough, Cold or catarrh, Inflammation, Wounds or ulcers, Constipation, Rheumatism. Caution co-mentions include Dose caution, Narcotic or sedative caution, Allergy or sensitivity caution, Child-use caution, Bleeding caution, Toxicity watch. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use; Domestic medicine and surgery : with a glossary of the terms used therein / by J.H. Walsh.; Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame, embracing the modern improvements in medicine, to which are added, a domestic materia medica, a copious collection of approved prescriptions, &c. &c,  The whole intended as a comprehensive medical guide for the use of clergymen, heads of families, emigrants etc. / by Thomas J. Graham.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.782Z",
+  "builder": "build-herb-profiles.mjs"
+}

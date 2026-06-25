@@ -1,0 +1,1227 @@
+{
+  "profile_id": "seed-hemlock",
+  "family_id": "seed-hemlock",
+  "canonical_name": "Hemlock",
+  "canonical_key": "hemlock",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-hemlock-b0252dc49a#hemlock"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1832,
+    "total_chunks": 1632,
+    "total_works": 464,
+    "matched_chunk_count": 1632,
+    "matched_work_count": 464,
+    "matched_mention_total": 1633
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Hemlock",
+      "Hemlock Gum"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1193",
+      "nlm-0140313-chunk-2498",
+      "nlm-0140313-chunk-2548"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1146
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 399
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 160
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 562,
+        "work_count": 303
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 343,
+        "work_count": 148
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 271,
+        "work_count": 121
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 266,
+        "work_count": 132
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 175,
+        "work_count": 114
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 87,
+        "work_count": 62
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 84,
+        "work_count": 52
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 80,
+        "work_count": 52
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 74,
+        "work_count": 62
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 15,
+        "work_count": 15
+      }
+    ],
+    "preparations": [
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 825,
+        "work_count": 290
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 456,
+        "work_count": 226
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 445,
+        "work_count": 189
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 412,
+        "work_count": 188
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 304,
+        "work_count": 174
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 293,
+        "work_count": 176
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 234,
+        "work_count": 91
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 224,
+        "work_count": 186
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 190,
+        "work_count": 116
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 179,
+        "work_count": 136
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 531,
+        "work_count": 239
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 358,
+        "work_count": 174
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 99,
+        "work_count": 95
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 84,
+        "work_count": 64
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 80,
+        "work_count": 38
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 36,
+        "work_count": 30
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 22,
+        "work_count": 21
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "conditions": [
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 203,
+        "work_count": 134
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 169,
+        "work_count": 112
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 151,
+        "work_count": 87
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 137,
+        "work_count": 77
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 107,
+        "work_count": 69
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 76,
+        "work_count": 56
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 67,
+        "work_count": 57
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 65,
+        "work_count": 58
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 64,
+        "work_count": 43
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 44,
+        "work_count": 39
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 79,
+      "matched_mention_count": 79
+    },
+    {
+      "work_id": "wellcome-n7jvnwj6",
+      "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame, embracing the modern improvements in medicine, to which are added, a domestic materia medica, a copious collection of approved prescriptions, &c. &c,  The whole intended as a comprehensive medical guide for the use of clergymen, heads of families, emigrants etc. / by Thomas J. Graham.",
+      "creator": "",
+      "publication_year": "1872",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/n7jvnwj6",
+      "signal_chunk_count": 32,
+      "matched_mention_count": 32
+    },
+    {
+      "work_id": "wellcome-g8fcur54",
+      "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.",
+      "creator": "",
+      "publication_year": "1853",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/g8fcur54",
+      "signal_chunk_count": 30,
+      "matched_mention_count": 30
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "wellcome-b483zydr",
+      "title": "Modern domestic medicine ... to which is added a domestic materia medica / [Thomas J. Graham].",
+      "creator": "",
+      "publication_year": "1832",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/b483zydr",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "wellcome-ump8j3f6",
+      "title": "Modern domestic medicine: : a popular treatise, illustrating the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame; embracing the modern improvements in medicine. To which are added, a domestic materia medica; a copious collection of approved prescriptions, &c. &c. The whole intended as a comprehensive medical guide for the use of clergymen heads, [sic] of families, and invalids. / By Thomas J. Graham, M.D. &c.",
+      "creator": "",
+      "publication_year": "1835",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/ump8j3f6",
+      "signal_chunk_count": 26,
+      "matched_mention_count": 26
+    },
+    {
+      "work_id": "wellcome-j284bqe4",
+      "title": "Modern domestic medicine ... to which is added a domestic materia medica / [Thomas J. Graham].",
+      "creator": "",
+      "publication_year": "1827",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/j284bqe4",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-zjp42x2j",
+      "title": "Modern domestic medicine, or, A popular treatise illustrating the character, symptoms, causes, distinction, and correct treatment, of all diseases incident to the human frame ... : to which is added, a domestic materia medica ... / by Thomas John Graham.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/zjp42x2j",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 18
+    },
+    {
+      "work_id": "nlm-7704741",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-64230790R-chunk-0324",
+        "work_id": "nlm-64230790R",
+        "title": "New guide to health , or, Botanic family physician : containing a complete system of practice upon a plan entirely new : with a description of the vegetables made use of, and directions for preparing and administering them to cure disease : to which is added a description of several cases of disease attended by the author, with the mode of treatment and cure",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FOR PREPARING AND USING",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230790R-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Powder",
+          "Plaster",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Gout",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Measles",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "4,) Dysentery, 120 Bilious Cholic, 118 Burdock, 66 Elecampane, 61 Butternut, 701 Elm Bark, 67 Burns, 91'Emetic Herb, 34- -74 Bones, how set, 106 Evan Root, 67 Bad wound in the eye cured, 98 Featherfew, Felons, 67 90 C...",
+        "score": 59
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2324",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Wash",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The essence of hemlock, in doses of live to eight drops, has proved effectual in checking vomiting of cholera-morbus. A strong decoc- tion of the bark is good in the whites, falling of the womb, and as an external app...",
+        "score": 56
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0578",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Wash",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The essence of hemlock, in doses of live to eight drops, has proved effectual in checking vomiting of cholera-morbus. A strong decoc- tion of the bark is good in the whites, falling of the womb, and as an external app...",
+        "score": 56
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-64230790R-chunk-0324",
+        "work_id": "nlm-64230790R",
+        "title": "New guide to health , or, Botanic family physician : containing a complete system of practice upon a plan entirely new : with a description of the vegetables made use of, and directions for preparing and administering them to cure disease : to which is added a description of several cases of disease attended by the author, with the mode of treatment and cure",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FOR PREPARING AND USING",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230790R-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Powder",
+          "Plaster",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Gout",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Measles",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "4,) Dysentery, 120 Bilious Cholic, 118 Burdock, 66 Elecampane, 61 Butternut, 701 Elm Bark, 67 Burns, 91'Emetic Herb, 34- -74 Bones, how set, 106 Evan Root, 67 Bad wound in the eye cured, 98 Featherfew, Felons, 67 90 C...",
+        "score": 59
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2324",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Wash",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The essence of hemlock, in doses of live to eight drops, has proved effectual in checking vomiting of cholera-morbus. A strong decoc- tion of the bark is good in the whites, falling of the womb, and as an external app...",
+        "score": 56
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0578",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Wash",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The essence of hemlock, in doses of live to eight drops, has proved effectual in checking vomiting of cholera-morbus. A strong decoc- tion of the bark is good in the whites, falling of the womb, and as an external app...",
+        "score": 56
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-64230790R-chunk-0324",
+        "work_id": "nlm-64230790R",
+        "title": "New guide to health , or, Botanic family physician : containing a complete system of practice upon a plan entirely new : with a description of the vegetables made use of, and directions for preparing and administering them to cure disease : to which is added a description of several cases of disease attended by the author, with the mode of treatment and cure",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FOR PREPARING AND USING",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230790R-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Powder",
+          "Plaster",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Gout",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Measles",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "4,) Dysentery, 120 Bilious Cholic, 118 Burdock, 66 Elecampane, 61 Butternut, 701 Elm Bark, 67 Burns, 91'Emetic Herb, 34- -74 Bones, how set, 106 Evan Root, 67 Bad wound in the eye cured, 98 Featherfew, Felons, 67 90 C...",
+        "score": 59
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2324",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Wash",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The essence of hemlock, in doses of live to eight drops, has proved effectual in checking vomiting of cholera-morbus. A strong decoc- tion of the bark is good in the whites, falling of the womb, and as an external app...",
+        "score": 56
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0578",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Wash",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The essence of hemlock, in doses of live to eight drops, has proved effectual in checking vomiting of cholera-morbus. A strong decoc- tion of the bark is good in the whites, falling of the womb, and as an external app...",
+        "score": 56
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-64230790R-chunk-0324",
+        "work_id": "nlm-64230790R",
+        "title": "New guide to health , or, Botanic family physician : containing a complete system of practice upon a plan entirely new : with a description of the vegetables made use of, and directions for preparing and administering them to cure disease : to which is added a description of several cases of disease attended by the author, with the mode of treatment and cure",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FOR PREPARING AND USING",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230790R-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Powder",
+          "Plaster",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Gout",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Measles",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "4,) Dysentery, 120 Bilious Cholic, 118 Burdock, 66 Elecampane, 61 Butternut, 701 Elm Bark, 67 Burns, 91'Emetic Herb, 34- -74 Bones, how set, 106 Evan Root, 67 Bad wound in the eye cured, 98 Featherfew, Felons, 67 90 C...",
+        "score": 59
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63611140R-chunk-2324",
+        "work_id": "nlm-63611140R",
+        "title": "Encyclopedia of health and home : a domestic guide to health , wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140R-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Wash",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The essence of hemlock, in doses of live to eight drops, has proved effectual in checking vomiting of cholera-morbus. A strong decoc- tion of the bark is good in the whites, falling of the womb, and as an external app...",
+        "score": 56
+      },
+      {
+        "chunk_id": "nlm-63611140RX2-chunk-0578",
+        "work_id": "nlm-63611140RX2",
+        "title": "Encyclopedia of health and home: a domestic guide to health, wealth and happiness : thorough and exhaustive, and adapted to the easy apprehension of all classes (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611140RX2-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Extract",
+          "Wash",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The essence of hemlock, in doses of live to eight drops, has proved effectual in checking vomiting of cholera-morbus. A strong decoc- tion of the bark is good in the whites, falling of the womb, and as an external app...",
+        "score": 56
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Hemlock"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      }
+    ]
+  },
+  "retrieval_text": "Hemlock is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 464 works and 1632 source-linked chunks. Recorded variants include Hemlock, Hemlock Gum. Common plant-part co-mentions include Leaf, Bark, Root, Gum, Seed, Flower. Common preparation co-mentions include Extract, Powder, Pill, Oil, Tincture, Juice. Common condition co-mentions include Wounds or ulcers, Cold or catarrh, Rheumatism, Cough, Inflammation, Fever. Caution co-mentions include Dose caution, Narcotic or sedative caution, Toxicity watch, Child-use caution, Allergy or sensitivity caution, Bleeding caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame, embracing the modern improvements in medicine, to which are added, a domestic materia medica, a copious collection of approved prescriptions, &c. &c,  The whole intended as a comprehensive medical guide for the use of clergymen, heads of families, emigrants etc. / by Thomas J. Graham.; Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.752Z",
+  "builder": "build-herb-profiles.mjs"
+}

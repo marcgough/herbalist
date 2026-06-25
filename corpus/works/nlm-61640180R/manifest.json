@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61640180R",
+  "title": "Medical botany, or, Descriptions of the more important plants used in medicine : with their history, properties, and mode of administration",
+  "creator": "Griffith, R. Eglesfeld (Robert Eglesfeld), 1798-1850.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61640180R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61640180R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61640180R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medical-botany;botany",
+  "chunkCount": 2585,
+  "paragraphCount": 3993,
+  "sectionCount": 10,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61640180R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61640180R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61640180R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61640180R.jsonl",
+  "rawSha256": "399d7a7ebf0eddb89fd3e5cea66ab2f5542b3a896941a60a17f4ff0751ebc4d1",
+  "normalizedSha256": "36594b541e4d2d9d17ad4bf4c4831f70255a4a7e5bb8e23ff5a88c1da97326ac",
+  "processedAt": "2026-06-17T09:28:42.816Z"
+}

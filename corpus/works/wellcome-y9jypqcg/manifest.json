@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-y9jypqcg",
+  "title": "Dr. Caldwell's guide to health home cook book / [W.B.Caldwell].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/y9jypqcg",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b3346117x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/y9jypqcg",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 71,
+  "paragraphCount": 71,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-y9jypqcg\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-y9jypqcg\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-y9jypqcg.jsonl",
+  "rawSha256": "d1b304b5aa1c40657392e966840d1f4a403aeac1600d51e553e93a7c8425c1a8",
+  "normalizedSha256": "8a7215ef97906eb86c1d67f412ffb662d188ba89fd6e3aaf362cb7906874aa76",
+  "processedAt": "2026-06-16T13:47:03.149Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

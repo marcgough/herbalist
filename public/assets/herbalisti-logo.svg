@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 118" role="img" aria-label="herbalisti">
+  <title>herbalisti</title>
+  <desc>A strong contemporary Titanium wordmark with a subtle flowing botanical baseline.</desc>
+  <text
+    x="18"
+    y="76"
+    fill="#667b82"
+    font-family="Avenir Next, Aptos Display, Segoe UI, Inter, system-ui, sans-serif"
+    font-size="70"
+    font-weight="820"
+    letter-spacing="0"
+  >herbalisti</text>
+  <path
+    d="M34 91c55-10 103-10 144 0 38 9 78 9 119-1 50-12 100-10 154 8"
+    fill="none"
+    stroke="#667b82"
+    stroke-linecap="round"
+    stroke-width="3.2"
+    opacity=".72"
+  />
+  <path
+    d="M220 91c22-14 48-17 79-9"
+    fill="none"
+    stroke="#667b82"
+    stroke-linecap="round"
+    stroke-width="1.9"
+    opacity=".42"
+  />
+</svg>

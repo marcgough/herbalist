@@ -1,0 +1,20 @@
+{
+  "workId": "pg-70951",
+  "title": "A text-book on hygiene and pediatrics from a chiropractic standpoint",
+  "creator": "Craven, J. H. (John Henry), 1880-1940",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/70951",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/70951/pg70951.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/70951.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "hygiene;public-health",
+  "chunkCount": 767,
+  "paragraphCount": 2892,
+  "sectionCount": 268,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-70951\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-70951\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-70951.jsonl",
+  "rawSha256": "baaf85147690aca01e64b86029a5242e621fa62ac83b20888773f8ed665961ef",
+  "normalizedSha256": "4ba9b0dd196eb9f1805d42bba43d28d92f02cc7e7b7c32190bf522db85e5087a",
+  "processedAt": "2026-06-16T13:39:16.164Z"
+}

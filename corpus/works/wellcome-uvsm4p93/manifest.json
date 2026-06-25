@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-uvsm4p93",
+  "title": "Domestic medicine. Or, a treatise on the cure and prevention of diseases by regimen and simple medicines. Containing a dispensatory for the use of private practitioners / by William Buchan ; With considerable additions and various notes by A.P. Buchan ... To which is added, a family herbal.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/uvsm4p93",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b29295920",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/uvsm4p93",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 2112,
+  "paragraphCount": 2121,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-uvsm4p93\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-uvsm4p93\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-uvsm4p93.jsonl",
+  "rawSha256": "414ea68b4ba505665344b022c08787ba25d6392d37d87ba16d7bae8e7f108e29",
+  "normalizedSha256": "8586c6e403a654ee6dbce5492cd06536fa3490c2690bb97f3af25b26918dc47e",
+  "processedAt": "2026-06-16T13:46:59.920Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

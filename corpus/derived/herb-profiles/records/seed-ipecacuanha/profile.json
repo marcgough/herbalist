@@ -1,0 +1,1138 @@
+{
+  "profile_id": "seed-ipecacuanha",
+  "family_id": "seed-ipecacuanha",
+  "canonical_name": "Ipecacuanha",
+  "canonical_key": "ipecacuanha",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-ipecacuanha-5621bb9475#ipecacuanha"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 940,
+    "total_chunks": 881,
+    "total_works": 320,
+    "matched_chunk_count": 881,
+    "matched_work_count": 320,
+    "matched_mention_total": 881
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Ipecacuanha"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-2146",
+      "nlm-0140313-chunk-2148",
+      "nlm-0217313-chunk-0785"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 751
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 81
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 54
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 184,
+        "work_count": 127
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 113,
+        "work_count": 98
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 101,
+        "work_count": 72
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 99,
+        "work_count": 73
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 71,
+        "work_count": 69
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 27,
+        "work_count": 26
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 26,
+        "work_count": 23
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 6,
+        "work_count": 5
+      }
+    ],
+    "preparations": [
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 716,
+        "work_count": 291
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 197,
+        "work_count": 97
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 173,
+        "work_count": 95
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 173,
+        "work_count": 92
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 168,
+        "work_count": 104
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 154,
+        "work_count": 129
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 147,
+        "work_count": 97
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 108,
+        "work_count": 62
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 100,
+        "work_count": 60
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 85,
+        "work_count": 44
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 326,
+        "work_count": 155
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 304,
+        "work_count": 154
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 116,
+        "work_count": 82
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 68,
+        "work_count": 64
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 37,
+        "work_count": 25
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 20,
+        "work_count": 18
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 188,
+        "work_count": 148
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 114,
+        "work_count": 63
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 100,
+        "work_count": 59
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 92,
+        "work_count": 78
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 79,
+        "work_count": 52
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 61,
+        "work_count": 48
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 55,
+        "work_count": 40
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 29,
+        "work_count": 21
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 28,
+        "work_count": 25
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 23,
+        "work_count": 20
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 41,
+      "matched_mention_count": 41
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 35,
+      "matched_mention_count": 35
+    },
+    {
+      "work_id": "wellcome-g8fcur54",
+      "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.",
+      "creator": "",
+      "publication_year": "1853",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/g8fcur54",
+      "signal_chunk_count": 29,
+      "matched_mention_count": 29
+    },
+    {
+      "work_id": "wellcome-n7jvnwj6",
+      "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame, embracing the modern improvements in medicine, to which are added, a domestic materia medica, a copious collection of approved prescriptions, &c. &c,  The whole intended as a comprehensive medical guide for the use of clergymen, heads of families, emigrants etc. / by Thomas J. Graham.",
+      "creator": "",
+      "publication_year": "1872",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/n7jvnwj6",
+      "signal_chunk_count": 26,
+      "matched_mention_count": 26
+    },
+    {
+      "work_id": "wellcome-ump8j3f6",
+      "title": "Modern domestic medicine: : a popular treatise, illustrating the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame; embracing the modern improvements in medicine. To which are added, a domestic materia medica; a copious collection of approved prescriptions, &c. &c. The whole intended as a comprehensive medical guide for the use of clergymen heads, [sic] of families, and invalids. / By Thomas J. Graham, M.D. &c.",
+      "creator": "",
+      "publication_year": "1835",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/ump8j3f6",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "nlm-63620420R",
+      "title": "A treatise on domestic medicine : pointing out, in plain language, and as free from professional terms as possible, the nature, symptoms, causes, probable terminations, and treatment of all diseases incident to men, women, and children, in both cold and warm climates : as also, appropriate prescriptions in English, and the doses of medicine which are suitable to different ages : including likewise effectual means for preventing the extension of all infectious diseases, and annihilating the power of every kind of contagion, and rules for enabling Europeans who visit a warm climate to escape the yellow fever, and long enjoy a good state of health",
+      "creator": "Thomas, Robert, 1753-1835.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620420R-bk",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-fye8pzgm",
+      "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines; with observations on sea-bathing, and the use of the mineral waters to which is annexed, a dispensatory for the use of private practitioners / From the 22d English ed., with considerable additions and notes.",
+      "creator": "",
+      "publication_year": "1828",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/fye8pzgm",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "nlm-63620400R",
+      "title": "Modern domestic medicine : being a treatise divested of professional terms on the nature, causes, symptoms, and treatment of the diseases of men, women, and children, in both cold and warm climates : with appropriate prescriptions in English : the whole preceded by practical rules for the preservation of health, the best means for invigorating the human body and prolonging life, and the mode of preventing the extension of infectious disorders, as also of annihilating contagion",
+      "creator": "Thomas, Robert, 1753-1835.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620400R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-vwptxnam",
+      "title": "The compleat family physician, or, universal medical repository. Containing the Causes, Symptoms, Preventions, And Cures, Of all the various Maladies to which Human Nature is subject, from the Birth to the Grave. Including The Diseases peculiar to Seamen, as well as those of particular Climates; such as the East and West Indies, Coast of Guinea, Greenland, Newfoundland, &c. with the proper Methods of treating Lunaticks, and Persons who are subject to Fits of any Kind. - And the best and most approved Preservatives against Epidemick and Contagious Diseases; such as the Plague, Putrid Fevers, Gaol Distemper, and other Infections. Together with An Account of all the celebrated Spas-Not only of this Country, but such others also, as are of great Repute in other Parts of the World, and the Waters of which are usually imported into these Kingdoms; with some Observations on the Virtues and Efficacy of Sea Water and Bathing. Likewise, Strictures on Quackery in general; and a candid Examination of the respective Merits of James's Powder, Norton's Drops, Ormskirk Powder, Ward's Drops, And Other Popular Medicines. With a full Account of the various Kinds of Poisons, both Animal, Vegetable, and Mineral; and the best Methods of counteracting their respective Effects. - Also, the Means to be made use of for restoring Drowned or Strangled Persons, as published by the Humane Society; and the Plan of Dr. Hawes, Secretary to that benevolent Institution, for preventing Persons being buried Alive. To which is added, The family surgery. Containing Directions for treating Green and Old Wounds; proper Stypticks for immediately stopping the Blood in all Cases; and infallible Applications for the Cure of the Bite of Mad Animals, as well as the Bite or Sting of venomous Animals and Insects. With some approved Receipts for the Cure of Ringworms, Warts, Corns, Bruises, Carbuncles, &c. and Directions for managing the Eyes, Ears, Teeth, Nails, &c. so as to prevent Blindness, Deasness, and Lameness in the Feet. Also, The proper Methods of making and using Salves, Ointments, Pills, Cataplasms, Poultices, Fomentations, Embrocations, &c. &c. Together with The compleat British herbal. And A List of all such Drugs, Chymicals, &c. as are directed to be used in the different Preparations, with their Prices at Apothecaries Hall, London. The Whole Forming A Compleat Body Of AtDomestick Medicine, Calculated As well to assist Gentlemen of the Faculty, as for the Use of private Families; and in which the utmost Care is taken to recommend such Remedies as are most plain and simple, and of Course the least expensive, and readiest to be procured. By Hugh Smythson, M.D. Late Student at the University of Leyden. When, on the Bed of loath'd Disease, With streaming Eyes, Affection sees A Child, a Husband, Wife, or Friend, And fears the much-lov'd Victim's End; How sighs the sympathetick Heart, For Knowledge in the Healing Art! How fears, lest Want of Skill prevent The kind Assistance fondly meant! No more, by anxious Dread possess'd, Shall Terror fill the friendly Breast; Whilst in our Labours are combin'd The healing Arts of all Mankind.",
+      "creator": "",
+      "publication_year": "1781",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/vwptxnam",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-v6gx8wjf-chunk-0401",
+        "work_id": "wellcome-v6gx8wjf",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin, Colleges of Physicians : being a practical compendium of materia medica and pharmacy / By Anthony Todd Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/v6gx8wjf",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "In costiveness, particularly of children willi a tumid belly; in worm cases ; and in dropsy- Dose. 3j-to 3ij. for adults; gr. vij. togr. xij. for children. PL'LVIS IPECACUANHA=i COMPOSITUS. L. J>. Pulvis Ipeca- cuanha...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-rcu4ndf7-chunk-0512",
+        "work_id": "wellcome-rcu4ndf7",
+        "title": "Thomson's conspectus : adapted to the British pharmacopoeia / edited by Edmund Lloyd Birkett.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rcu4ndf7",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "I PULYIS IPECACUANHAS COMPOSITUS. Compound Powder of Ipecacuanha. Pulvis Ipecacuanha: cum Opio (1864). (Ipecacuanhas cont. , Opii duri coni. , sing, unc. ss. ; Potasscc Sutphatis cont. unc. iv. Mix. ) Pulvis Doveri co...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-1799",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OR,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "Stimulant. Stimulant. C Stimulant & I Sudorific. C Stimulant & £ £ Sudorific. 5 Stimulant. Astringent. Sedative. C Sedative and\") /Expectorant. 3 Sedative. Sedative. C Purgative & ? I Stomachic. > Indigestion. C Gout,...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-cbkqb95g-chunk-0595",
+        "work_id": "wellcome-cbkqb95g",
+        "title": "Home doctoring : a guide to domestic medicine and surgery / by W.B. Kesteven.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cbkqb95g",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Draught",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "tract of Indian Hemp grains (see Cannabis Indica) Iodide of po- Absorbent 1 grain 2 grains 5 to 10 In chronic rheumatism and tass and tonic grains glandular disease. Dis- solved in water. Iodine, tincture Absorbent —...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63750550R-chunk-1784",
+        "work_id": "nlm-63750550R",
+        "title": "Materia medica and therapeutics : with ample illustrations of practice in all the departments of medical science and very copious notes of toxicology : suited to the wants of medical students, practitioners, and teachers",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INTRODUCTION TO THE FIRST EDITION,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63750550R-bk",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Evaporate the tincture so obtained to twelve ounces, with which mix eight ounces of white sugar, and rub the whole in a mortar until quite dry. The product is of a brownish-yellow color, and quite solu- ble in almost...",
+        "score": 45
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-v6gx8wjf-chunk-0401",
+        "work_id": "wellcome-v6gx8wjf",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin, Colleges of Physicians : being a practical compendium of materia medica and pharmacy / By Anthony Todd Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/v6gx8wjf",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "In costiveness, particularly of children willi a tumid belly; in worm cases ; and in dropsy- Dose. 3j-to 3ij. for adults; gr. vij. togr. xij. for children. PL'LVIS IPECACUANHA=i COMPOSITUS. L. J>. Pulvis Ipeca- cuanha...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-rcu4ndf7-chunk-0512",
+        "work_id": "wellcome-rcu4ndf7",
+        "title": "Thomson's conspectus : adapted to the British pharmacopoeia / edited by Edmund Lloyd Birkett.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rcu4ndf7",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "I PULYIS IPECACUANHAS COMPOSITUS. Compound Powder of Ipecacuanha. Pulvis Ipecacuanha: cum Opio (1864). (Ipecacuanhas cont. , Opii duri coni. , sing, unc. ss. ; Potasscc Sutphatis cont. unc. iv. Mix. ) Pulvis Doveri co...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-1799",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OR,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "Stimulant. Stimulant. C Stimulant & I Sudorific. C Stimulant & £ £ Sudorific. 5 Stimulant. Astringent. Sedative. C Sedative and\") /Expectorant. 3 Sedative. Sedative. C Purgative & ? I Stomachic. > Indigestion. C Gout,...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-cbkqb95g-chunk-0595",
+        "work_id": "wellcome-cbkqb95g",
+        "title": "Home doctoring : a guide to domestic medicine and surgery / by W.B. Kesteven.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cbkqb95g",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Draught",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "tract of Indian Hemp grains (see Cannabis Indica) Iodide of po- Absorbent 1 grain 2 grains 5 to 10 In chronic rheumatism and tass and tonic grains glandular disease. Dis- solved in water. Iodine, tincture Absorbent —...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63750550R-chunk-1784",
+        "work_id": "nlm-63750550R",
+        "title": "Materia medica and therapeutics : with ample illustrations of practice in all the departments of medical science and very copious notes of toxicology : suited to the wants of medical students, practitioners, and teachers",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INTRODUCTION TO THE FIRST EDITION,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63750550R-bk",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Evaporate the tincture so obtained to twelve ounces, with which mix eight ounces of white sugar, and rub the whole in a mortar until quite dry. The product is of a brownish-yellow color, and quite solu- ble in almost...",
+        "score": 45
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-v6gx8wjf-chunk-0401",
+        "work_id": "wellcome-v6gx8wjf",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin, Colleges of Physicians : being a practical compendium of materia medica and pharmacy / By Anthony Todd Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/v6gx8wjf",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "In costiveness, particularly of children willi a tumid belly; in worm cases ; and in dropsy- Dose. 3j-to 3ij. for adults; gr. vij. togr. xij. for children. PL'LVIS IPECACUANHA=i COMPOSITUS. L. J>. Pulvis Ipeca- cuanha...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-rcu4ndf7-chunk-0512",
+        "work_id": "wellcome-rcu4ndf7",
+        "title": "Thomson's conspectus : adapted to the British pharmacopoeia / edited by Edmund Lloyd Birkett.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rcu4ndf7",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "I PULYIS IPECACUANHAS COMPOSITUS. Compound Powder of Ipecacuanha. Pulvis Ipecacuanha: cum Opio (1864). (Ipecacuanhas cont. , Opii duri coni. , sing, unc. ss. ; Potasscc Sutphatis cont. unc. iv. Mix. ) Pulvis Doveri co...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-1799",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OR,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "Stimulant. Stimulant. C Stimulant & I Sudorific. C Stimulant & £ £ Sudorific. 5 Stimulant. Astringent. Sedative. C Sedative and\") /Expectorant. 3 Sedative. Sedative. C Purgative & ? I Stomachic. > Indigestion. C Gout,...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-cbkqb95g-chunk-0595",
+        "work_id": "wellcome-cbkqb95g",
+        "title": "Home doctoring : a guide to domestic medicine and surgery / by W.B. Kesteven.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cbkqb95g",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Draught",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "tract of Indian Hemp grains (see Cannabis Indica) Iodide of po- Absorbent 1 grain 2 grains 5 to 10 In chronic rheumatism and tass and tonic grains glandular disease. Dis- solved in water. Iodine, tincture Absorbent —...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63750550R-chunk-1784",
+        "work_id": "nlm-63750550R",
+        "title": "Materia medica and therapeutics : with ample illustrations of practice in all the departments of medical science and very copious notes of toxicology : suited to the wants of medical students, practitioners, and teachers",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INTRODUCTION TO THE FIRST EDITION,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63750550R-bk",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Evaporate the tincture so obtained to twelve ounces, with which mix eight ounces of white sugar, and rub the whole in a mortar until quite dry. The product is of a brownish-yellow color, and quite solu- ble in almost...",
+        "score": 45
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-v6gx8wjf-chunk-0401",
+        "work_id": "wellcome-v6gx8wjf",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin, Colleges of Physicians : being a practical compendium of materia medica and pharmacy / By Anthony Todd Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/v6gx8wjf",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "In costiveness, particularly of children willi a tumid belly; in worm cases ; and in dropsy- Dose. 3j-to 3ij. for adults; gr. vij. togr. xij. for children. PL'LVIS IPECACUANHA=i COMPOSITUS. L. J>. Pulvis Ipeca- cuanha...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-rcu4ndf7-chunk-0512",
+        "work_id": "wellcome-rcu4ndf7",
+        "title": "Thomson's conspectus : adapted to the British pharmacopoeia / edited by Edmund Lloyd Birkett.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rcu4ndf7",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "I PULYIS IPECACUANHAS COMPOSITUS. Compound Powder of Ipecacuanha. Pulvis Ipecacuanha: cum Opio (1864). (Ipecacuanhas cont. , Opii duri coni. , sing, unc. ss. ; Potasscc Sutphatis cont. unc. iv. Mix. ) Pulvis Doveri co...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-1799",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OR,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "Stimulant. Stimulant. C Stimulant & I Sudorific. C Stimulant & £ £ Sudorific. 5 Stimulant. Astringent. Sedative. C Sedative and\") /Expectorant. 3 Sedative. Sedative. C Purgative & ? I Stomachic. > Indigestion. C Gout,...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-cbkqb95g-chunk-0595",
+        "work_id": "wellcome-cbkqb95g",
+        "title": "Home doctoring : a guide to domestic medicine and surgery / by W.B. Kesteven.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cbkqb95g",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Draught",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "tract of Indian Hemp grains (see Cannabis Indica) Iodide of po- Absorbent 1 grain 2 grains 5 to 10 In chronic rheumatism and tass and tonic grains glandular disease. Dis- solved in water. Iodine, tincture Absorbent —...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63750550R-chunk-1784",
+        "work_id": "nlm-63750550R",
+        "title": "Materia medica and therapeutics : with ample illustrations of practice in all the departments of medical science and very copious notes of toxicology : suited to the wants of medical students, practitioners, and teachers",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INTRODUCTION TO THE FIRST EDITION,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63750550R-bk",
+        "matched_herbs": [
+          "Ipecacuanha"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Evaporate the tincture so obtained to twelve ounces, with which mix eight ounces of white sugar, and rub the whole in a mortar until quite dry. The product is of a brownish-yellow color, and quite solu- ble in almost...",
+        "score": 45
+      }
+    ]
+  },
+  "retrieval_text": "Ipecacuanha is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 320 works and 881 source-linked chunks. Recorded variants include Ipecacuanha. Common plant-part co-mentions include Root, Flower, Gum, Bark, Leaf, Resin. Common preparation co-mentions include Powder, Syrup, Tincture, Pill, Emetic, Tea. Common condition co-mentions include Vomiting or nausea, Fever, Cold or catarrh, Diarrhoea or looseness, Cough, Rheumatism. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Allergy or sensitivity caution, Fatal-risk warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.; Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame, embracing the modern improvements in medicine, to which are added, a domestic materia medica, a copious collection of approved prescriptions, &c. &c,  The whole intended as a comprehensive medical guide for the use of clergymen, heads of families, emigrants etc. / by Thomas J. Graham.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.822Z",
+  "builder": "build-herb-profiles.mjs"
+}

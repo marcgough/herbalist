@@ -1,0 +1,1138 @@
+{
+  "profile_id": "seed-boneset",
+  "family_id": "seed-boneset",
+  "canonical_name": "Boneset",
+  "canonical_key": "boneset",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-boneset-7df02669e9#boneset"
+  ],
+  "decision_note": "promote strong historical medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 247,
+    "total_chunks": 239,
+    "total_works": 83,
+    "matched_chunk_count": 239,
+    "matched_work_count": 83,
+    "matched_mention_total": 239
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing"
+    ],
+    "variants": [
+      "Boneset"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0215565",
+      "nlm-100912803"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0858",
+      "nlm-0140313-chunk-0867",
+      "nlm-0140313-chunk-2517"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 160
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 52
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 31
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 88,
+        "work_count": 41
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 50,
+        "work_count": 35
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 40,
+        "work_count": 30
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 27,
+        "work_count": 21
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 18,
+        "work_count": 16
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 14,
+        "work_count": 10
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 139,
+        "work_count": 66
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 89,
+        "work_count": 39
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 63,
+        "work_count": 36
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 62,
+        "work_count": 35
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 54,
+        "work_count": 33
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 47,
+        "work_count": 27
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 44,
+        "work_count": 25
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 43,
+        "work_count": 34
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 34,
+        "work_count": 20
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 32,
+        "work_count": 17
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 139,
+        "work_count": 67
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 22,
+        "work_count": 19
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 101,
+        "work_count": 61
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 101,
+        "work_count": 56
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 47,
+        "work_count": 33
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 36,
+        "work_count": 28
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 18,
+        "work_count": 16
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 12,
+        "work_count": 11
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 12,
+        "work_count": 10
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 8,
+        "work_count": 8
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "nlm-64210120RX1",
+      "title": "The American practice of medicine: being a treatise on the character, causes, symptoms, morbid appearances, and treatment of the diseases of men, women, and children of all climates (Volume 1)",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210120RX1-bk",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "wellcome-thwh6g2c",
+      "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+      "creator": "",
+      "publication_year": "1885",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine;nursing",
+      "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-63560880R",
+      "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+      "creator": "Cook, Wm. H. (William Henry), 1832-1899.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "hygiene;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-64210130R",
+      "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-101485229",
+      "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485229-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-zfyn3t5e",
+      "title": "A medical manual and medicine chest companion : for popular use in families and on ship board, for the treatment of the ordinary diseases of the human system / by Thomas Ritter.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/zfyn3t5e",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-0140313",
+      "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants;domestic-medicine;hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63560930R-chunk-0283",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "A common and excellent remedy at the com- mencement of a cold, is a full dose of laudanum, one grain of opium, or ten to fifteen of Dover's powder, on going to bed, and in an hour to drink a tumblerful of hot lemonade...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-3215",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "COMPOUND TINCTURE OF LOBELIA. Dr. J. King's Expecto-' rant Tincture. Take of Lobelia, Bloodroot, Skunk Cabbage, Wild Ginger, and Pleurisy root, each, coarsely powdered, one ounce. Place them in a vessel, cover with bo...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2105",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Gamboge, 4 oa. Blood root, 4 oz. Lobelia seeds, 2 oz All finely pulverized, sifted, and well mixed; the powder moistened with molasses to a proper consistence for making into pills. In other respects managed as the fo...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101743940-chunk-3099",
+        "work_id": "nlm-101743940",
+        "title": "The family physician ; or, The reformed practice of medicine : on vegetable or botanical principles : being a compendium of the \"American practice\"",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101743940-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "A sure remedy for chills and fever ; and excellent where the wine tincture cannot be taken. Take best Turkey opium, and suspend it in a bag in the chimney till hard or dry : pulverize, and sift. Take of this opium, |...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-32531770R-chunk-0193",
+        "work_id": "nlm-32531770R",
+        "title": "The Silent friend and medical adviser : a complete guide to health , happiness and wealth",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32531770R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Bath",
+          "Gargle"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Inflammation"
+        ],
+        "excerpt": "The vapor bath will usually remove this complaint, but if not, bathe the feet in warm water, and 79 80 HEALTH, HAPPINESS AND WEALTH upon going to bed, drink hot teas of boneset, or hoar- hound. Coughs and Colds-are fa...",
+        "score": 43
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63560930R-chunk-0283",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "A common and excellent remedy at the com- mencement of a cold, is a full dose of laudanum, one grain of opium, or ten to fifteen of Dover's powder, on going to bed, and in an hour to drink a tumblerful of hot lemonade...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-3215",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "COMPOUND TINCTURE OF LOBELIA. Dr. J. King's Expecto-' rant Tincture. Take of Lobelia, Bloodroot, Skunk Cabbage, Wild Ginger, and Pleurisy root, each, coarsely powdered, one ounce. Place them in a vessel, cover with bo...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2105",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Gamboge, 4 oa. Blood root, 4 oz. Lobelia seeds, 2 oz All finely pulverized, sifted, and well mixed; the powder moistened with molasses to a proper consistence for making into pills. In other respects managed as the fo...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101743940-chunk-3099",
+        "work_id": "nlm-101743940",
+        "title": "The family physician ; or, The reformed practice of medicine : on vegetable or botanical principles : being a compendium of the \"American practice\"",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101743940-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "A sure remedy for chills and fever ; and excellent where the wine tincture cannot be taken. Take best Turkey opium, and suspend it in a bag in the chimney till hard or dry : pulverize, and sift. Take of this opium, |...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-32531770R-chunk-0193",
+        "work_id": "nlm-32531770R",
+        "title": "The Silent friend and medical adviser : a complete guide to health , happiness and wealth",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32531770R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Bath",
+          "Gargle"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Inflammation"
+        ],
+        "excerpt": "The vapor bath will usually remove this complaint, but if not, bathe the feet in warm water, and 79 80 HEALTH, HAPPINESS AND WEALTH upon going to bed, drink hot teas of boneset, or hoar- hound. Coughs and Colds-are fa...",
+        "score": 43
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63560930R-chunk-0283",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "A common and excellent remedy at the com- mencement of a cold, is a full dose of laudanum, one grain of opium, or ten to fifteen of Dover's powder, on going to bed, and in an hour to drink a tumblerful of hot lemonade...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-3215",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "COMPOUND TINCTURE OF LOBELIA. Dr. J. King's Expecto-' rant Tincture. Take of Lobelia, Bloodroot, Skunk Cabbage, Wild Ginger, and Pleurisy root, each, coarsely powdered, one ounce. Place them in a vessel, cover with bo...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2105",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Gamboge, 4 oa. Blood root, 4 oz. Lobelia seeds, 2 oz All finely pulverized, sifted, and well mixed; the powder moistened with molasses to a proper consistence for making into pills. In other respects managed as the fo...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101743940-chunk-3099",
+        "work_id": "nlm-101743940",
+        "title": "The family physician ; or, The reformed practice of medicine : on vegetable or botanical principles : being a compendium of the \"American practice\"",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101743940-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "A sure remedy for chills and fever ; and excellent where the wine tincture cannot be taken. Take best Turkey opium, and suspend it in a bag in the chimney till hard or dry : pulverize, and sift. Take of this opium, |...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-32531770R-chunk-0193",
+        "work_id": "nlm-32531770R",
+        "title": "The Silent friend and medical adviser : a complete guide to health , happiness and wealth",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32531770R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Bath",
+          "Gargle"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Inflammation"
+        ],
+        "excerpt": "The vapor bath will usually remove this complaint, but if not, bathe the feet in warm water, and 79 80 HEALTH, HAPPINESS AND WEALTH upon going to bed, drink hot teas of boneset, or hoar- hound. Coughs and Colds-are fa...",
+        "score": 43
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63560930R-chunk-0283",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "A common and excellent remedy at the com- mencement of a cold, is a full dose of laudanum, one grain of opium, or ten to fifteen of Dover's powder, on going to bed, and in an hour to drink a tumblerful of hot lemonade...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-3215",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "COMPOUND TINCTURE OF LOBELIA. Dr. J. King's Expecto-' rant Tincture. Take of Lobelia, Bloodroot, Skunk Cabbage, Wild Ginger, and Pleurisy root, each, coarsely powdered, one ounce. Place them in a vessel, cover with bo...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2105",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Gamboge, 4 oa. Blood root, 4 oz. Lobelia seeds, 2 oz All finely pulverized, sifted, and well mixed; the powder moistened with molasses to a proper consistence for making into pills. In other respects managed as the fo...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101743940-chunk-3099",
+        "work_id": "nlm-101743940",
+        "title": "The family physician ; or, The reformed practice of medicine : on vegetable or botanical principles : being a compendium of the \"American practice\"",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101743940-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "A sure remedy for chills and fever ; and excellent where the wine tincture cannot be taken. Take best Turkey opium, and suspend it in a bag in the chimney till hard or dry : pulverize, and sift. Take of this opium, |...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-0733",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Boneset"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Peppermint or Cinnamon water, . 3 ounces. Mix. Dose, a tablespoonful every four hours. If there is much griping pain, use the following injection: Castor Oil, 2 ounces. Tincture of Prickly Ash Bark, - - - £ ounce. Com...",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Boneset is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 83 works and 239 source-linked chunks. Recorded variants include Boneset. Common plant-part co-mentions include Root, Leaf, Bark, Flower, Seed, Gum. Common preparation co-mentions include Tea, Infusion, Powder, Emetic, Tincture, Pill. Common condition co-mentions include Cold or catarrh, Fever, Vomiting or nausea, Cough, Inflammation, Asthma. Caution co-mentions include Dose caution, Narcotic or sedative caution, Allergy or sensitivity caution, Bleeding caution, Child-use caution, Toxicity watch. Representative source works include The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.; Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc; The American practice of medicine: being a treatise on the character, causes, symptoms, morbid appearances, and treatment of the diseases of men, women, and children of all climates (Volume 1); Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.957Z",
+  "builder": "build-herb-profiles.mjs"
+}

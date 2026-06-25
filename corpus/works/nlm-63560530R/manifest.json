@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63560530R",
+  "title": "Family medical adviser : giving such information on the practice of physic and the diseases of women and children as may prove useful in families when regular physicians cannot readily be procured : selected, arranged, and compiled from the best medical authors, together with his own observations in the treatment of diseases, generally : to which is annexed anatomy, surgery, materia medica , and many valuable prescriptions, being a useful guide for intelligent heads of families, overseers of plantations and manufactories, masters of vessels, and travelers",
+  "creator": "Boyd, J.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560530R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63560530R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63560530R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 651,
+  "paragraphCount": 917,
+  "sectionCount": 27,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560530R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560530R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63560530R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63560530R.jsonl",
+  "rawSha256": "57e429088267c167e7254c5f8386cd736ebde3163b1c93acfa16ad5c190aa72b",
+  "normalizedSha256": "d46d2832d587e6d8ca8363a65031601c438f21135e2b14b31ffce733272a0015",
+  "processedAt": "2026-06-18T16:16:49.127Z"
+}

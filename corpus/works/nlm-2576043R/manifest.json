@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2576043R",
+  "title": "The botanist : being the botanical part of a course of lectures on natural history, delivered in the University at Cambridge : together with a discourse on the principle of vitality",
+  "creator": "Waterhouse, Benjamin, 1754-1846.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2576043R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2576043R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2576043R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 476,
+  "paragraphCount": 668,
+  "sectionCount": 18,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2576043R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2576043R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2576043R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2576043R.jsonl",
+  "rawSha256": "7187b6d14d6b760ea46a19904fc4de4e9465cec88a5c0eaa8cbf0424ea550f5f",
+  "normalizedSha256": "198917aa45da1bf6db53a20532f71fb0bc47f0885af63e9dbffcf2723e724d61",
+  "processedAt": "2026-06-18T14:38:26.845Z"
+}

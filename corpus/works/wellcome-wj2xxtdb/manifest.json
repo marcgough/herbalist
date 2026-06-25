@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-wj2xxtdb",
+  "title": "The British herbal and family physician to which is added a dispensatory for the use of private families / By Nich. Culpepper.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/wj2xxtdb",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b29339510",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/wj2xxtdb",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1821,
+  "paragraphCount": 1907,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-wj2xxtdb\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-wj2xxtdb\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-wj2xxtdb.jsonl",
+  "rawSha256": "1f05c1a79fea0db918c05fa3b3dd723fef4bc44a822d8ac7bc71960af3af5b54",
+  "normalizedSha256": "d7535ca7c235b472216ea40f13620be9067c0c4bef554ab2d3e42cd7a6ac4098",
+  "processedAt": "2026-06-16T13:47:02.006Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

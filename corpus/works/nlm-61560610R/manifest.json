@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61560610R",
+  "title": "Carpenter's family medicine chest dispensatory : containing a select catalogue of drugs, chemicals, and family medicines, with the properties and doses of each article most approved of in domestic medicine : to which is appended a concise description of diseases, with directions for the treatment of such as are unattended with serious consequences, showing also the best immediate measures to be adopted, in those disorders and accidents which are destructive to life, when the physician is not at hand, or until his assistance can be procured",
+  "creator": "Carpenter, George W. (George Washington), 1802-1860.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61560610R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61560610R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61560610R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 677,
+  "paragraphCount": 1326,
+  "sectionCount": 9,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61560610R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61560610R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61560610R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61560610R.jsonl",
+  "rawSha256": "4187dc7b6d4f43473f666581722ee5df221d8ae115f62508cf7cb952c794ea7b",
+  "normalizedSha256": "0bd21c90056f781caaa6903c4e3f0c7a08eb7cae7e149dc3fa1678f0b95f404b",
+  "processedAt": "2026-06-16T23:51:40.040Z"
+}

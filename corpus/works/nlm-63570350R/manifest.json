@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63570350R",
+  "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63570350R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63570350R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 1191,
+  "paragraphCount": 1901,
+  "sectionCount": 40,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570350R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570350R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63570350R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63570350R.jsonl",
+  "rawSha256": "b77b2533258c8e0b015732ab3fbcebdc73fee56601ade3faef815794cc6d5701",
+  "normalizedSha256": "1b4f8d0c4fb5c5e08d0bb070f78f541619caae06ca3ff8d26ec77f78f5cd9af9",
+  "processedAt": "2026-06-17T00:38:28.580Z"
+}

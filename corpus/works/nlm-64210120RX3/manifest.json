@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64210120RX3",
+  "title": "The American practice of medicine: being a treatise on the character, causes, symptoms, morbid appearances, and treatment of the diseases of men, women, and children of all climates (Volume 3)",
+  "creator": "Beach, W. (Wooster), 1794-1868.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210120RX3-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64210120RX3-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64210120RX3",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 724,
+  "paragraphCount": 1637,
+  "sectionCount": 37,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210120RX3\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210120RX3\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64210120RX3\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64210120RX3.jsonl",
+  "rawSha256": "be2bdd3b177e023376447311c853f0fae826415a4c9ffbb299f6bbd1220019a6",
+  "normalizedSha256": "880b677ab42b95ccf8388ee34dcd669a4476efe6b062e40e33af92c151e0e36b",
+  "processedAt": "2026-06-19T12:09:48.790Z"
+}

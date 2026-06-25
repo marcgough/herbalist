@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101208706",
+  "title": "Reagents and volumetric solutions proposed for the U.S. Pharmacopoeia , together with some specimens of the text proposed",
+  "creator": "Committee of Revision and Publication of the Pharmacopœia of the United States of America (1890-1900) author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101208706-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101208706-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101208706",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 120,
+  "paragraphCount": 120,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101208706\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101208706\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101208706\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101208706.jsonl",
+  "rawSha256": "05ec7c18ef3a13b8e62ab937ba16eb68f2ba999f91a6cb3d45e4a6a8c1812deb",
+  "normalizedSha256": "badf405128ec93c9afe96d24f411f88cdb9cbeb511c4db19585599ee719925b3",
+  "processedAt": "2026-06-18T04:50:32.860Z"
+}

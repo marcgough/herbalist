@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64220700R",
+  "title": "The Indian household medicine guide",
+  "creator": "Lighthall, J. I., 1856-1886.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220700R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64220700R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64220700R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;household-health",
+  "chunkCount": 246,
+  "paragraphCount": 247,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220700R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220700R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64220700R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64220700R.jsonl",
+  "rawSha256": "b7a80b6f414f24940f963b4635caf784bef813b6e6b6018dce818586543d484c",
+  "normalizedSha256": "7d33805e4ac6e3c15191ff35ab2c5c0ec2b8d310c61b8e42192632302a7aee11",
+  "processedAt": "2026-06-18T03:55:50.163Z"
+}

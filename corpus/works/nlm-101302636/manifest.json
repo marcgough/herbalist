@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101302636",
+  "title": "Materia medica of American provings",
+  "creator": "American Institute of Homeopathy.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101302636-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101302636-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101302636",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 649,
+  "paragraphCount": 758,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101302636\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101302636\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101302636\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101302636.jsonl",
+  "rawSha256": "73e8203adc295190cf545713d99edbfd4b30d7c48209d90e4f0cd8a920517952",
+  "normalizedSha256": "b2997ed8117481ae06de6aeb9ed83a82de287c1f6835f87742d467542bbfcc2b",
+  "processedAt": "2026-06-18T02:21:05.520Z"
+}

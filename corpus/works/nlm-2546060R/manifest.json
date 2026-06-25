@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2546060R",
+  "title": "The universal guide to health : by a rational course of food and diet",
+  "creator": "Combe, Andrew, 1797-1847.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2546060R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2546060R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2546060R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;dietetics",
+  "chunkCount": 35,
+  "paragraphCount": 78,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2546060R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2546060R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2546060R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2546060R.jsonl",
+  "rawSha256": "828d579fe5dea07bb4353a242ba3479baa7723b4cac2a60b597e3fe72d800a70",
+  "normalizedSha256": "a4c9b47502c295ccf4bfe2cee2ae9963cc761c09d1b5944756b7b959e90744f1",
+  "processedAt": "2026-06-17T13:32:02.743Z"
+}

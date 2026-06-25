@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-nr9dehnu",
+  "title": "The magnetic and botanic family physician, and domestic practice of natural medicine : with illustrations showing various phases of mesmeric treatment, including full and concise instruction in mesmerism, curative magnetism, massage, and medical botany / by D. Younger.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/nr9dehnu",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21778449",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/nr9dehnu",
+  "rightsStatus": "pdm",
+  "topicFamily": "medical-botany;domestic-medicine;botany",
+  "chunkCount": 941,
+  "paragraphCount": 966,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-nr9dehnu\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-nr9dehnu\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-nr9dehnu\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-nr9dehnu.jsonl",
+  "rawSha256": "e456e46572a6a3053b8f54a067d84627c7403904f0c67b1f725208b904b3316a",
+  "normalizedSha256": "0673eb49836133dd64954f03f861f9536a0a6f19836d0faf3584ff4e0021fd74",
+  "processedAt": "2026-06-16T23:08:14.295Z"
+}

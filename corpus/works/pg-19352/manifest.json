@@ -1,0 +1,20 @@
+{
+  "workId": "pg-19352",
+  "title": "Herbal Simples Approved for Modern Uses of Cure",
+  "creator": "Fernie, William Thomas, 1830-",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/19352",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/19352/pg19352.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/19352.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 1133,
+  "paragraphCount": 2807,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-19352\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-19352\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-19352.jsonl",
+  "rawSha256": "e1d6e17316414e2e65eca83aa6b2122a021a1daa61b535b95aa6a555769d9779",
+  "normalizedSha256": "f2e57def430650b2f3c5f209d7e85d43efc75d7201901aea678bf1d59afc17ff",
+  "processedAt": "2026-06-16T13:39:01.796Z"
+}

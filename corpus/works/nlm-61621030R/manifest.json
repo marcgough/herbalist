@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61621030R",
+  "title": "The practitioner's pharmacopoeia and universal formulary : containing 2000 classified prescriptions, selected from the practice of the most eminent British and foreign medical authorities : with an abstract of the three British pharmacopoeias, and much other useful information for practitioner and student",
+  "creator": "Foote, John, F.R.C.S.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61621030R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61621030R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61621030R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 630,
+  "paragraphCount": 1712,
+  "sectionCount": 12,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61621030R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61621030R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61621030R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61621030R.jsonl",
+  "rawSha256": "f9523348cc96c960225aa95c8e3e9a5d8265497ff429789deba67e6b562166a7",
+  "normalizedSha256": "99d3f60e0e7c3055d48d9590db00d609a05f9587170998b09a84670707ce6aa4",
+  "processedAt": "2026-06-18T02:21:11.493Z"
+}

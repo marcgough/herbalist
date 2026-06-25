@@ -1,0 +1,30 @@
+# A translation of the new Pharmacopoeia of the Royal College of Physicians / with notes and criticisms by G. F. Collier.
+
+- Work ID: `wellcome-rmfy658w`
+- Creator: Unknown
+- Publication year: 1837
+- Collection: wellcome-collection
+- Topic family: materia-medica;pharmacopoeia
+- Rights status: pdm
+- Reuse license: Public Domain Mark
+- Source URL: https://wellcomecollection.org/works/rmfy658w
+- Download URL: https://api.wellcomecollection.org/text/v1/b2840662x
+- Metadata URL: https://api.wellcomecollection.org/catalogue/v2/works/rmfy658w
+- Ingest status: discovered
+- Review status: item_license_verified
+
+## Notes
+
+Wellcome query terms: materia medica, pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm. | Wellcome query terms: pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b2840662x; license pdm.
+
+## Local Files
+
+- Raw source: `C:\Users\Superuser\Documents\Codex\2026-06-15\files-mentioned-by-the-user-natural\outputs\herbalisti-site\corpus\raw\wellcome-rmfy658w\source.txt`
+- Normalized text: `C:\Users\Superuser\Documents\Codex\2026-06-15\files-mentioned-by-the-user-natural\outputs\herbalisti-site\corpus\normalized\wellcome-rmfy658w\text.md`
+- Chunk file: `C:\Users\Superuser\Documents\Codex\2026-06-15\files-mentioned-by-the-user-natural\outputs\herbalisti-site\corpus\chunks\wellcome-rmfy658w.jsonl`
+
+## Checksums
+
+- Raw SHA-256: `0226ca84003c2baf188dde24ee4976290bc3c144b9f9074a518fdd994f530903`
+- Normalized SHA-256: `581c5fffca7e91d1c248a414987095cb43a81130c42da08f5605673d0ba5b8a9`
+

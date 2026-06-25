@@ -1,0 +1,1155 @@
+{
+  "profile_id": "seed-wild-cherry",
+  "family_id": "seed-wild-cherry",
+  "canonical_name": "Wild Cherry",
+  "canonical_key": "wild cherry",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-wild-cherry-33ac0a5b0b#wild cherry",
+    "term-wild-cherry-tree-31e26410e7#wild cherry tree"
+  ],
+  "decision_note": "merge tree-form naming into the core medicinal wild cherry family",
+  "metrics": {
+    "total_mentions": 577,
+    "total_chunks": 528,
+    "total_works": 202,
+    "matched_chunk_count": 528,
+    "matched_work_count": 202,
+    "matched_mention_total": 528
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Wild Cherry",
+      "Wild Cherry Tree"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-100912803",
+      "nlm-101141604"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0911",
+      "nlm-0140313-chunk-0913",
+      "nlm-0140313-chunk-2945"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 468
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 74
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 4
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 470,
+        "work_count": 196
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 245,
+        "work_count": 106
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 70,
+        "work_count": 49
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 64,
+        "work_count": 56
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 45,
+        "work_count": 41
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 41,
+        "work_count": 31
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 29,
+        "work_count": 25
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 26,
+        "work_count": 24
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 6,
+        "work_count": 6
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 159,
+        "work_count": 87
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 111,
+        "work_count": 62
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 92,
+        "work_count": 66
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 90,
+        "work_count": 68
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 84,
+        "work_count": 57
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 79,
+        "work_count": 69
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 73,
+        "work_count": 55
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 72,
+        "work_count": 60
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 39,
+        "work_count": 34
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 25,
+        "work_count": 25
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 237,
+        "work_count": 131
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 43,
+        "work_count": 39
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 43,
+        "work_count": 39
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 137,
+        "work_count": 77
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 89,
+        "work_count": 65
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 63,
+        "work_count": 47
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 40,
+        "work_count": 36
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 38,
+        "work_count": 30
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 37,
+        "work_count": 34
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 34,
+        "work_count": 30
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 31,
+        "work_count": 27
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 26,
+        "work_count": 22
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 16,
+        "work_count": 16
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "nlm-0140313",
+      "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants;domestic-medicine;hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "nlm-2556052R",
+      "title": "A new and complete American medical family herbal : wherein, is displayed the true properties and medical virtues of the plants, indigenous to the United States of America : together with Lewis' secret remedy, newly discovered, which has been found infallible in the cure of that dreadful disease hydrophobia, produced by the bite of a mad dog",
+      "creator": "Henry, Samuel.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2556052R-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-ndsrqw82",
+      "title": "A new and complete American medical family herbal : wherein, is displayed the true properties and medical virtues of the plants, indigenous to the United States of America : together with Lewis' secret remedy, newly discovered, which has been found infallible in the cure of that dreadful disease hydrophobia, produced by the bite of a mad dog ... / by Samuel Henry ... ; with an appendix, of many choice medical secrets, never made known to the world before.",
+      "creator": "",
+      "publication_year": "1814",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/ndsrqw82",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-63570990R",
+      "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-thwh6g2c",
+      "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+      "creator": "",
+      "publication_year": "1885",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine;nursing",
+      "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-64210120RX1",
+      "title": "The American practice of medicine: being a treatise on the character, causes, symptoms, morbid appearances, and treatment of the diseases of men, women, and children of all climates (Volume 1)",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210120RX1-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-101304953",
+      "title": "Gunn's domestic medicine , or Poor man's friend : shewing the diseases of men, women and children, and expressly intended for the benefit of families : containing a description of the medicinal roots and herbs, and how they are to be used in the cure of diseases : arranged on a new and simple plan",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101304953-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63570990R-chunk-2692",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "IVettle—(Urtica Dioica). —This is the common stinging Nettle, generally considered as a useless and troublesome weed. Yet it is a useful herb, as a medicine, and its properties ought to be better known. Medical Proper...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101250104-chunk-1065",
+        "work_id": "nlm-101250104",
+        "title": "The practice of medicine, according to the plan most approved by the reformed or botanic colleges of the U.S. : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings : designed principally for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OIL OF LOBELIA. '",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250104-bk",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Asthma",
+          "Dysentery"
+        ],
+        "excerpt": "Take four ounces of flax seed, well- pulverized, and twoi ounces of fine liquorice root; pour upon the ingredients one quart of boiling water, and place it over a quick fire; let it boil for 20 minutes; strain off: pr...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0146",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "[WILD CHERRY BARK Unites tonic with sedative powers,—is much used in scro- fula and consumption, and as a vehicle for cod liver oil. It is best prepared with cold water, half an ounce to a pint— of this a wine-glassfu...",
+        "score": 42
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0085",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "SWEET FERN,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Wild Cherry Tree"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark",
+          "Gum",
+          "Tops"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Plaster",
+          "Oil",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "INCONTINENCE OF URINE.--Hemlock, wild cherry tree bark, bayberry bark, pulverize, add water sufficient to make a strong tea. Take twenty drops of balsam copaiva in a tumbler of beth root tea. Peach leaves are good for...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0449",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Testicle, swelled Things in eye \" nose Thigh bone, fracture of Thoroushwort Thrush\" . Tincture aloes and myrrh \" bark \" stomachic Toast water page Tolu, balsam of . Toothache 32 Tooth powder 179 Tobacco, Indian . 51 T...",
+        "score": 41
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63570990R-chunk-2692",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "IVettle—(Urtica Dioica). —This is the common stinging Nettle, generally considered as a useless and troublesome weed. Yet it is a useful herb, as a medicine, and its properties ought to be better known. Medical Proper...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101250104-chunk-1065",
+        "work_id": "nlm-101250104",
+        "title": "The practice of medicine, according to the plan most approved by the reformed or botanic colleges of the U.S. : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings : designed principally for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OIL OF LOBELIA. '",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250104-bk",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Asthma",
+          "Dysentery"
+        ],
+        "excerpt": "Take four ounces of flax seed, well- pulverized, and twoi ounces of fine liquorice root; pour upon the ingredients one quart of boiling water, and place it over a quick fire; let it boil for 20 minutes; strain off: pr...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0146",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "[WILD CHERRY BARK Unites tonic with sedative powers,—is much used in scro- fula and consumption, and as a vehicle for cod liver oil. It is best prepared with cold water, half an ounce to a pint— of this a wine-glassfu...",
+        "score": 42
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0085",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "SWEET FERN,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Wild Cherry Tree"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark",
+          "Gum",
+          "Tops"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Plaster",
+          "Oil",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "INCONTINENCE OF URINE.--Hemlock, wild cherry tree bark, bayberry bark, pulverize, add water sufficient to make a strong tea. Take twenty drops of balsam copaiva in a tumbler of beth root tea. Peach leaves are good for...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0449",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Testicle, swelled Things in eye \" nose Thigh bone, fracture of Thoroushwort Thrush\" . Tincture aloes and myrrh \" bark \" stomachic Toast water page Tolu, balsam of . Toothache 32 Tooth powder 179 Tobacco, Indian . 51 T...",
+        "score": 41
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63570990R-chunk-2692",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "IVettle—(Urtica Dioica). —This is the common stinging Nettle, generally considered as a useless and troublesome weed. Yet it is a useful herb, as a medicine, and its properties ought to be better known. Medical Proper...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101250104-chunk-1065",
+        "work_id": "nlm-101250104",
+        "title": "The practice of medicine, according to the plan most approved by the reformed or botanic colleges of the U.S. : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings : designed principally for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OIL OF LOBELIA. '",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250104-bk",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Asthma",
+          "Dysentery"
+        ],
+        "excerpt": "Take four ounces of flax seed, well- pulverized, and twoi ounces of fine liquorice root; pour upon the ingredients one quart of boiling water, and place it over a quick fire; let it boil for 20 minutes; strain off: pr...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0146",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "[WILD CHERRY BARK Unites tonic with sedative powers,—is much used in scro- fula and consumption, and as a vehicle for cod liver oil. It is best prepared with cold water, half an ounce to a pint— of this a wine-glassfu...",
+        "score": 42
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0085",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "SWEET FERN,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Wild Cherry Tree"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark",
+          "Gum",
+          "Tops"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Plaster",
+          "Oil",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "INCONTINENCE OF URINE.--Hemlock, wild cherry tree bark, bayberry bark, pulverize, add water sufficient to make a strong tea. Take twenty drops of balsam copaiva in a tumbler of beth root tea. Peach leaves are good for...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0449",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Testicle, swelled Things in eye \" nose Thigh bone, fracture of Thoroushwort Thrush\" . Tincture aloes and myrrh \" bark \" stomachic Toast water page Tolu, balsam of . Toothache 32 Tooth powder 179 Tobacco, Indian . 51 T...",
+        "score": 41
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63570990R-chunk-2692",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "IVettle—(Urtica Dioica). —This is the common stinging Nettle, generally considered as a useless and troublesome weed. Yet it is a useful herb, as a medicine, and its properties ought to be better known. Medical Proper...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101250104-chunk-1065",
+        "work_id": "nlm-101250104",
+        "title": "The practice of medicine, according to the plan most approved by the reformed or botanic colleges of the U.S. : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings : designed principally for families",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OIL OF LOBELIA. '",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250104-bk",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Asthma",
+          "Dysentery"
+        ],
+        "excerpt": "Take four ounces of flax seed, well- pulverized, and twoi ounces of fine liquorice root; pour upon the ingredients one quart of boiling water, and place it over a quick fire; let it boil for 20 minutes; strain off: pr...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0146",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "[WILD CHERRY BARK Unites tonic with sedative powers,—is much used in scro- fula and consumption, and as a vehicle for cod liver oil. It is best prepared with cold water, half an ounce to a pint— of this a wine-glassfu...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0449",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Testicle, swelled Things in eye \" nose Thigh bone, fracture of Thoroushwort Thrush\" . Tincture aloes and myrrh \" bark \" stomachic Toast water page Tolu, balsam of . Toothache 32 Tooth powder 179 Tobacco, Indian . 51 T...",
+        "score": 41
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-0743",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Wild Cherry"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Infusion of Golden Seal, ... 1 ounce. Laudanum, ■ - - - - 10 to 20 drops. Use at one injection. The following is recommended to be given internally : Guaiacum (finely powdered,) 5 drachms. Mucilage of Gum Arabic, - -...",
+        "score": 41
+      }
+    ]
+  },
+  "retrieval_text": "Wild Cherry is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 202 works and 528 source-linked chunks. Recorded variants include Wild Cherry, Wild Cherry Tree. Common plant-part co-mentions include Bark, Root, Leaf, Seed, Gum, Berry. Common preparation co-mentions include Tea, Decoction, Syrup, Tincture, Powder, Oil. Common condition co-mentions include Cold or catarrh, Fever, Cough, Vomiting or nausea, Diarrhoea or looseness, Rheumatism. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Allergy or sensitivity caution, Toxicity watch, Bleeding caution. Representative source works include The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development; Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc; A new and complete American medical family herbal : wherein, is displayed the true properties and medical virtues of the plants, indigenous to the United States of America : together with Lewis' secret remedy, newly discovered, which has been found infallible in the cure of that dreadful disease hydrophobia, produced by the bite of a mad dog. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.881Z",
+  "builder": "build-herb-profiles.mjs"
+}

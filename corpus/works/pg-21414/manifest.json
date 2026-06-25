@@ -1,0 +1,20 @@
+{
+  "workId": "pg-21414",
+  "title": "Culinary Herbs: Their Cultivation Harvesting Curing and Uses",
+  "creator": "Kains, M. G. (Maurice Grenville), 1868-1946",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/21414",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/21414/pg21414.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/21414.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "herbal;culinary-herbs;cultivation",
+  "chunkCount": 229,
+  "paragraphCount": 571,
+  "sectionCount": 34,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-21414\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-21414\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-21414.jsonl",
+  "rawSha256": "f931b09ddd9da181e7fc234bf990181fa4ce136ee34fc2839496f72d9c738a28",
+  "normalizedSha256": "0a1547c354d1b65671f7c01b2deb2d85a24f25631077901dee11806709f2c3c9",
+  "processedAt": "2026-06-16T13:39:02.259Z"
+}

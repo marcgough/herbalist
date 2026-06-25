@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-u7395ava",
+  "title": "Botanicus universalis et hortulanus: exhibens descriptiones specierum et varietatum ... per totum orbem ... secundum systema sexuali magni Linnaeum digestorum. Cum nominibus Anglice redditis ... The universal botanist and nurseryman: containing descriptions of the species and varieties of all the trees, shrubs, herbs, flowers, and fruits, natives and exotics, at present cultivated in the European nurseries, green-houses, and stoves, or described by modern botanists; arranged according to the Linnæan system, with their names in English ... / By Richard Weston.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/u7395ava",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30527818",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/u7395ava",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 1185,
+  "paragraphCount": 1220,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-u7395ava\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-u7395ava\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-u7395ava\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-u7395ava.jsonl",
+  "rawSha256": "6a2d2152ef9dc6943055a631cbfd03ec8574c7b3d8920800fe37f8affe339697",
+  "normalizedSha256": "0b58baf334c6f80611c17a0526a5a8499519baf085203a7d9c9e10f468bea394",
+  "processedAt": "2026-06-16T23:54:20.251Z"
+}

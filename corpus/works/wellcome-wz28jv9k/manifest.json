@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-wz28jv9k",
+  "title": "A cheap, sure, and ready guide to health, or, A cure for a disease call'd the doctor : instructing, how to prevent being cheated and destroyed by the exactions and unmerciful usage of ignorant and oppressive physicians and apothecaries : and to prepare at home the proper medicines for usual distempers : with the prices, to save ninteen shillings in twenty, and expend little more than a penny a dose : likewise a new account of the connection of distempers, key to all physic, and to know any disease / set forth by the benefaction of a very worthy private gentleman, to contain more than any book of the kind, at the lowest rate, as necessary for all families, and all persons.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/wz28jv9k",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30544981",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/wz28jv9k",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 99,
+  "paragraphCount": 107,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-wz28jv9k\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-wz28jv9k\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-wz28jv9k\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-wz28jv9k.jsonl",
+  "rawSha256": "4fb5ef7035305a9b545f6da8f4eff72c8d7acf4727150878616bd88bd3c3d462",
+  "normalizedSha256": "97c65e87fb1b1cb60fb0dd2bc629747a88b8768a7a3c6acd60c7934c5ef69a7e",
+  "processedAt": "2026-06-16T23:29:14.872Z"
+}

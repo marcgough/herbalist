@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101609940",
+  "title": "Dental medicine : a manual of dental materia medica and therapeutics",
+  "creator": "Gorgas, Ferdinand J. S. (Ferdinand James Samuel), 1835-1914 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101609940-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101609940-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101609940",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 1267,
+  "paragraphCount": 1610,
+  "sectionCount": 12,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101609940\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101609940\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101609940\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101609940.jsonl",
+  "rawSha256": "c5c816f1207a93c1240593b10f719bab90b61aa568c52d45787a5f4d0147b8aa",
+  "normalizedSha256": "de8faea9ab534095c3876d8050f97a594e0eb763a94e964d73f48fd2383f5444",
+  "processedAt": "2026-06-17T13:03:26.559Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2561024R",
+  "title": "The Edinburgh new dispensatory ... : with explanatory, critical, and practical observations on each : together with the addition of those formulae, from the best foreign pharmacopoeias, which are held in highest esteem in other parts of Europe ; the whole interspersed with practical cautions and observations, and enriched by the latest discoveries in natural history, chemistry, and medicine ; with new tables of elective attractions, of antimony, of mercury, &c. ; and copperplates of the most convenient furnaces, and principal pharmaceutical instruments ; being an improvement upon the New dispensatory of Dr. Lewis",
+  "creator": "Lewis, William, 1708-1781.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2561024R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2561024R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2561024R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 8,
+  "paragraphCount": 18,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2561024R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2561024R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2561024R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2561024R.jsonl",
+  "rawSha256": "1727dd29fcb2287e749479c5562ae8c53cbb64fe7f8d2f7ec413a20932462cac",
+  "normalizedSha256": "c4327ae38c2f9cdfb8db00a62983602d499c267b60c7b59aebab964e46cc27f8",
+  "processedAt": "2026-06-20T00:44:19.264Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-mbub9rt3",
+  "title": "A supplement to Medical botany, or, part the second : containing plates with descriptions of most of the principal medicinal plants not included in the Materia Medica of the collegiate pharmacopoeias of London and Edinburgh : accompanied with a circumstantial detail of their medicinal effects, and of the diseases in which they have been successfully employed / by William Woodville, M.D. F.L.S. physician to the small pox and inoculation hospitals.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/mbub9rt3",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21438900",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/mbub9rt3",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;medicinal-plants;medical-botany;botany",
+  "chunkCount": 402,
+  "paragraphCount": 409,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-mbub9rt3\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-mbub9rt3\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-mbub9rt3.jsonl",
+  "rawSha256": "6cc8528b53a2fde52c45e3aa03de0e5295f03b8622f99bb92148a2fc3346ce16",
+  "normalizedSha256": "2e555af3a4fdc25e35a8c939c08ad0168be402d830b53223ef8077f1f2cc3c06",
+  "processedAt": "2026-06-16T13:46:53.302Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

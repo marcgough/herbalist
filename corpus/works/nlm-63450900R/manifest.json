@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63450900R",
+  "title": "The medical student's vade mecum : a compendium of anatomy, physiology, chemistry, poisons, materia medica , pharmacy, surgery, obstetrics, practice of medicine, diseases of the skin, etc. etc",
+  "creator": "Mendenhall, George, 1814-1874.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63450900R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63450900R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63450900R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 89,
+  "paragraphCount": 130,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63450900R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63450900R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63450900R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63450900R.jsonl",
+  "rawSha256": "f644341c5e23e82421adad0cc6762c7a3cccb8e214478ba220381e58716e029e",
+  "normalizedSha256": "95b9dbd1fa7b84e0e441018b6c23cbedfad8f9e0a34b6a64b47c957ad7bb1844",
+  "processedAt": "2026-06-17T15:05:05.481Z"
+}

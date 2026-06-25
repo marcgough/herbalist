@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101485225",
+  "title": "The American practice abridged, or The family physician : being the scientific system of medicine",
+  "creator": "Beach, W. (Wooster), 1794-1868.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485225-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101485225-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101485225",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 3291,
+  "paragraphCount": 3743,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101485225\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101485225\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101485225\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101485225.jsonl",
+  "rawSha256": "f763c92ceb3bc550b9c20dcff5e0c7435a8a9b0ce71990e2d2de7c4884818474",
+  "normalizedSha256": "94baf908b63766e9b9372c31f3e26cb7bf5e4288128b9599d115e91ca4c2d790",
+  "processedAt": "2026-06-17T00:38:16.366Z"
+}

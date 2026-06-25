@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101719212",
+  "title": "The practice of medicine by the Chinese in America",
+  "creator": "Culin, Stewart, 1858-1929 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101719212-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101719212-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101719212",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal",
+  "chunkCount": 12,
+  "paragraphCount": 13,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101719212\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101719212\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101719212\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101719212.jsonl",
+  "rawSha256": "b529ecce419b3b2af62617a0098f9d25fd2586eafdecbfb4850c5082a2151c55",
+  "normalizedSha256": "2212ba95eeacc638dc3ca97136d1c2bbbbcdb81e1b32bea22ca5104dfa3683d0",
+  "processedAt": "2026-06-17T17:55:45.165Z"
+}

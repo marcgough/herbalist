@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63580340R",
+  "title": "Supplement to Howard's Domestic medicine : being a practical treatise on midwifery and the diseases peculiar to women : giving elaborate instructions in all that pertains to the structure, functions, and health of the organs of generation, and treating fully of conception, development, labor, nursing, diseases of the womb, the best remedies, how to prepare and administer them, etc",
+  "creator": "Howard, Horton, 1770-1833.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580340R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63580340R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63580340R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;nursing",
+  "chunkCount": 485,
+  "paragraphCount": 646,
+  "sectionCount": 9,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580340R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580340R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63580340R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63580340R.jsonl",
+  "rawSha256": "2d45a407616a8b065e84da792317c2a3bef80ef49f90b8bbd0aae421df10cb1e",
+  "normalizedSha256": "d2a2c9cb2206f732f095cc2d708b205aa9b4753549784b394543b198afd6ccd5",
+  "processedAt": "2026-06-17T12:11:00.449Z"
+}

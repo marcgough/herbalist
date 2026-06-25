@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101743940",
+  "title": "The family physician ; or, The reformed practice of medicine : on vegetable or botanical principles : being a compendium of the \"American practice\"",
+  "creator": "Beach, W. (Wooster), 1794-1868.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101743940-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101743940-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101743940",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine;botany",
+  "chunkCount": 3292,
+  "paragraphCount": 3343,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101743940\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101743940\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101743940\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101743940.jsonl",
+  "rawSha256": "d1df349c421da02bb7a59bafecbf346d71bf51e9b7e0c217dcbf70c8dad024c9",
+  "normalizedSha256": "bdf17c9924c5b16f6c1863a638ff719bda6da2aefc515b4a95a80b31c0b2f828",
+  "processedAt": "2026-06-16T23:50:22.736Z"
+}

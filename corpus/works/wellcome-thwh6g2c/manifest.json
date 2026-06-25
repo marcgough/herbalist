@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-thwh6g2c",
+  "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/thwh6g2c",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21197738",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/thwh6g2c",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine;nursing",
+  "chunkCount": 1285,
+  "paragraphCount": 1296,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-thwh6g2c\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-thwh6g2c\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-thwh6g2c.jsonl",
+  "rawSha256": "39d1ea927523bfbaa2e990c7d5e7b9fc4eb121458fb7118db515d394f616ee98",
+  "normalizedSha256": "f6492b006395ea4147f1acea140f4fcb4991bd44f66789f5781d38293f7ad133",
+  "processedAt": "2026-06-16T13:46:59.311Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

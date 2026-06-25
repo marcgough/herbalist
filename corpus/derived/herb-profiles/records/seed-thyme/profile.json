@@ -1,0 +1,1111 @@
+{
+  "profile_id": "seed-thyme",
+  "family_id": "seed-thyme",
+  "canonical_name": "Thyme",
+  "canonical_key": "thyme",
+  "catalog_status": "seed-ready",
+  "catalog_class": "culinary-medicinal-plant",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-thyme-965b46f5fa#thyme"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 268,
+    "total_chunks": 249,
+    "total_works": 147,
+    "matched_chunk_count": 249,
+    "matched_work_count": 147,
+    "matched_mention_total": 249
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "culinary-herbs",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Thyme"
+    ],
+    "sample_work_ids": [
+      "nlm-0217313",
+      "nlm-0217315",
+      "nlm-0217317"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217313-chunk-1781",
+      "nlm-0217315-chunk-1928",
+      "nlm-0217317-chunk-1971"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 240
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 8
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 2
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 54,
+        "work_count": 47
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 44,
+        "work_count": 38
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 23,
+        "work_count": 20
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 15,
+        "work_count": 15
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 13,
+        "work_count": 11
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 11,
+        "work_count": 9
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 8,
+        "work_count": 7
+      },
+      {
+        "id": "flowering-top",
+        "label": "Flowering tops",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 238,
+        "work_count": 142
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 50,
+        "work_count": 45
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 47,
+        "work_count": 44
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 33,
+        "work_count": 32
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 30,
+        "work_count": 24
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 19,
+        "work_count": 16
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 18,
+        "work_count": 14
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 16,
+        "work_count": 12
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 13,
+        "work_count": 11
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 13,
+        "work_count": 10
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 40,
+        "work_count": 32
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 19,
+        "work_count": 19
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 36,
+        "work_count": 29
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 19,
+        "work_count": 17
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-pybf3nye",
+      "title": "Science papers : chiefly pharmacological and botanical / by Daniel Hanbury; edited, with a memoir, by Joseph Ince.",
+      "creator": "",
+      "publication_year": "1876",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/pybf3nye",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-usxe87yv",
+      "title": "Science papers, chiefly pharmacological and botanical / by Daniel Hanbury ... Edited, with memoir by Joseph Ince.",
+      "creator": "",
+      "publication_year": "1876",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/usxe87yv",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-zvb4nnsd",
+      "title": "Science papers : chiefly pharmacological and botanical / by Daniel Hanbury ; edited, with memoir, by Joseph Ince.",
+      "creator": "",
+      "publication_year": "1876",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/zvb4nnsd",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "pg-41778",
+      "title": "Epitome of the Pharmacopeia of the United States and the National Formulary",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://www.gutenberg.org/ebooks/41778",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "wellcome-dwk6bbmw",
+      "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "wellcome-vcp6d7za",
+      "title": "The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.",
+      "creator": "",
+      "publication_year": "1862",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/vcp6d7za",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "nlm-61841080R",
+      "title": "A guide to the organic drugs of the United States pharmacopoeia 1890 : containing in addition to the brief accounts of organic drugs, a conspectus of the natural orders of plants mentioned, a glossary of the botanical and therapeutical terms used, and an index of botanical synonyms",
+      "creator": "Wright, John S. (John Shepard), 1870- compiler.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "pharmacopoeia;botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61841080R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-61620650R-chunk-1136",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "—The fresh twigs and tops of Thuja occiden- talis. Stimulant. Used in fevers, rheumatism, catarrhal conditions, etc. Dose of powder, 30 to 60 grains; of fluid extract, 30 to 60 minims; of green plant fluid extract, 20...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-4131",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WITH",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Ointment",
+          "Wash",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Headache",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "Stimulants—(Externally. ) Burgundy Pitch. Mustard. Garlic. Onion. Camphor. Red Pepper. Oil of Cinnamon. Oil of Cloves. Oil of Sassafras. Oil of Thyme. Oil of Origanum. Gum Benzoin. Horseradish. Gum Ammonwc. Rosin. Pit...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-64210330R-chunk-1130",
+        "work_id": "nlm-64210330R",
+        "title": "The complete herbalist, or, The people their own physicians, by the use of nature's remedies : describing the great curative properties found in the herbal kingdom : a new and plain system of hygienic principles, together with comprehensive essays on sexual philosophy, marriage, divorce, &c",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210330R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Bath",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Constipation",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It may cease by degrees, as in con- sumptive and scrofulous patients, or occurs as the result of cold, which induces inflammation of the uterus or ovaries. It may also be induced by excessive venery, wet feet, ice wat...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1603",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Poultice",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "Mix the vinegar and water, dissolve the camphor in the spirit of wine, and then put them all together. FOB SPRAINS, BRUISES AND OTHER INJURIES, When the skin is not broken. Carbonate of ammonia 2 ounces. Vinegar 2 pin...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-hnx4jyzh-chunk-2021",
+        "work_id": "wellcome-hnx4jyzh",
+        "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae for the chemist and druggist and medical practioner / E. Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/hnx4jyzh",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh"
+        ],
+        "excerpt": ") Sill's essence of lardona. R Guaiacum . . , . 5j. Spirit . 5iij. (Paris. ) / Herrenschwand's specific. R, Gamboge . . . grs. x. Carbonate of potash . grs. xx. (Paris. ) Hill's lalsam, of honey. if' Balsam of Tolu ....",
+        "score": 35
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-61620650R-chunk-1136",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "—The fresh twigs and tops of Thuja occiden- talis. Stimulant. Used in fevers, rheumatism, catarrhal conditions, etc. Dose of powder, 30 to 60 grains; of fluid extract, 30 to 60 minims; of green plant fluid extract, 20...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-4131",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WITH",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Ointment",
+          "Wash",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Headache",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "Stimulants—(Externally. ) Burgundy Pitch. Mustard. Garlic. Onion. Camphor. Red Pepper. Oil of Cinnamon. Oil of Cloves. Oil of Sassafras. Oil of Thyme. Oil of Origanum. Gum Benzoin. Horseradish. Gum Ammonwc. Rosin. Pit...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-64210330R-chunk-1130",
+        "work_id": "nlm-64210330R",
+        "title": "The complete herbalist, or, The people their own physicians, by the use of nature's remedies : describing the great curative properties found in the herbal kingdom : a new and plain system of hygienic principles, together with comprehensive essays on sexual philosophy, marriage, divorce, &c",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210330R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Bath",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Constipation",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It may cease by degrees, as in con- sumptive and scrofulous patients, or occurs as the result of cold, which induces inflammation of the uterus or ovaries. It may also be induced by excessive venery, wet feet, ice wat...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1603",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Poultice",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "Mix the vinegar and water, dissolve the camphor in the spirit of wine, and then put them all together. FOB SPRAINS, BRUISES AND OTHER INJURIES, When the skin is not broken. Carbonate of ammonia 2 ounces. Vinegar 2 pin...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-hnx4jyzh-chunk-2021",
+        "work_id": "wellcome-hnx4jyzh",
+        "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae for the chemist and druggist and medical practioner / E. Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/hnx4jyzh",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh"
+        ],
+        "excerpt": ") Sill's essence of lardona. R Guaiacum . . , . 5j. Spirit . 5iij. (Paris. ) / Herrenschwand's specific. R, Gamboge . . . grs. x. Carbonate of potash . grs. xx. (Paris. ) Hill's lalsam, of honey. if' Balsam of Tolu ....",
+        "score": 35
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-61620650R-chunk-1136",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "—The fresh twigs and tops of Thuja occiden- talis. Stimulant. Used in fevers, rheumatism, catarrhal conditions, etc. Dose of powder, 30 to 60 grains; of fluid extract, 30 to 60 minims; of green plant fluid extract, 20...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-4131",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WITH",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Ointment",
+          "Wash",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Headache",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "Stimulants—(Externally. ) Burgundy Pitch. Mustard. Garlic. Onion. Camphor. Red Pepper. Oil of Cinnamon. Oil of Cloves. Oil of Sassafras. Oil of Thyme. Oil of Origanum. Gum Benzoin. Horseradish. Gum Ammonwc. Rosin. Pit...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-64210330R-chunk-1130",
+        "work_id": "nlm-64210330R",
+        "title": "The complete herbalist, or, The people their own physicians, by the use of nature's remedies : describing the great curative properties found in the herbal kingdom : a new and plain system of hygienic principles, together with comprehensive essays on sexual philosophy, marriage, divorce, &c",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210330R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Bath",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Constipation",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It may cease by degrees, as in con- sumptive and scrofulous patients, or occurs as the result of cold, which induces inflammation of the uterus or ovaries. It may also be induced by excessive venery, wet feet, ice wat...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1603",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Poultice",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "Mix the vinegar and water, dissolve the camphor in the spirit of wine, and then put them all together. FOB SPRAINS, BRUISES AND OTHER INJURIES, When the skin is not broken. Carbonate of ammonia 2 ounces. Vinegar 2 pin...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-hnx4jyzh-chunk-2021",
+        "work_id": "wellcome-hnx4jyzh",
+        "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae for the chemist and druggist and medical practioner / E. Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/hnx4jyzh",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh"
+        ],
+        "excerpt": ") Sill's essence of lardona. R Guaiacum . . , . 5j. Spirit . 5iij. (Paris. ) / Herrenschwand's specific. R, Gamboge . . . grs. x. Carbonate of potash . grs. xx. (Paris. ) Hill's lalsam, of honey. if' Balsam of Tolu ....",
+        "score": 35
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-61620650R-chunk-1136",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Tops"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "—The fresh twigs and tops of Thuja occiden- talis. Stimulant. Used in fevers, rheumatism, catarrhal conditions, etc. Dose of powder, 30 to 60 grains; of fluid extract, 30 to 60 minims; of green plant fluid extract, 20...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1603",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Poultice",
+          "Liniment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "Mix the vinegar and water, dissolve the camphor in the spirit of wine, and then put them all together. FOB SPRAINS, BRUISES AND OTHER INJURIES, When the skin is not broken. Carbonate of ammonia 2 ounces. Vinegar 2 pin...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-hnx4jyzh-chunk-2021",
+        "work_id": "wellcome-hnx4jyzh",
+        "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae for the chemist and druggist and medical practioner / E. Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/hnx4jyzh",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh"
+        ],
+        "excerpt": ") Sill's essence of lardona. R Guaiacum . . , . 5j. Spirit . 5iij. (Paris. ) / Herrenschwand's specific. R, Gamboge . . . grs. x. Carbonate of potash . grs. xx. (Paris. ) Hill's lalsam, of honey. if' Balsam of Tolu ....",
+        "score": 35
+      },
+      {
+        "chunk_id": "wellcome-nhx2ne6y-chunk-2445",
+        "work_id": "wellcome-nhx2ne6y",
+        "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh"
+        ],
+        "excerpt": "Honey Ibj. Eectified spirit .... cong. j. No. 2. R Balsam of Tolu .... gij. Stpax 5ij. Opium gss. Honey gviij. Eectified spirit Oij. Pectoral,—used in coughs and colds. Hill's essence of bardona. R Guaiacum 5j. Spirit...",
+        "score": 35
+      },
+      {
+        "chunk_id": "wellcome-dwk6bbmw-chunk-2432",
+        "work_id": "wellcome-dwk6bbmw",
+        "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+        "matched_herbs": [
+          "Thyme"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh"
+        ],
+        "excerpt": "Carbonate of potash . . gi's. xx. (Paris. ) HiWs balsam of honey. No. 1. II Balsam of Tolu .... ffij. Honey Ibj. Eectified spirit .... cong. j. No. 2. 1^ Balsam of Tolu .... gij. Styrax 3ij. Opium §ss. Honey S'^iy- Ee...",
+        "score": 35
+      }
+    ]
+  },
+  "retrieval_text": "Thyme is a culinary medicinal plant profile in the Herbalisti historical corpus. It is represented across 147 works and 249 source-linked chunks. Recorded variants include Thyme. Common plant-part co-mentions include Flower, Leaf, Resin, Root, Gum, Seed. Common preparation co-mentions include Oil, Powder, Ointment, Essence, Liniment, Tincture. Common condition co-mentions include Cold or catarrh, Rheumatism, Cough, Wounds or ulcers, Colic, Vomiting or nausea. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Toxicity watch, Allergy or sensitivity caution, Bleeding caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Science papers : chiefly pharmacological and botanical / by Daniel Hanbury; edited, with a memoir, by Joseph Ince.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; Science papers, chiefly pharmacological and botanical / by Daniel Hanbury ... Edited, with memoir by Joseph Ince.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.676Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,145 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif.wellcomecollection.org/presentation/v2/b33489828",
+  "@type": "sc:Collection",
+  "label": "A complete dictionary of the whole materia medica. Containing an experimental history of every natural and artificial substance made use of in medicine, with a compendious view of their natural history, an account of their pharmaceutic properties ..., and an estimate of their medicinal powers ... / by William Lewis.",
+  "metadata": [
+    {
+      "label": "Publication/creation",
+      "value": "London : Printed for Mr. Johnson ..., 1810."
+    },
+    {
+      "label": "Physical description",
+      "value": "2 volumes (xxxv, 504; illustrations 2 unnumbered pages, 495 pages, 35 unnumbered pages), 6 unnumbered leaves of plates ; (8vo)"
+    },
+    {
+      "label": "Contributors",
+      "value": "Lewis, William, 1708-1781; Aikin, John, 1747-1822"
+    },
+    {
+      "label": "Notes",
+      "value": "Plates with captions, \"Of Animals,\" \"Of Roots. Bk. 2,\" and \"Of Seeds,\" comprising illustrations numbered 4-9, 12-15, 19-22, and 24- -26, may have been added to this copy from a different work; Earlier eds. published under title: An experimental history of the materia medica."
+    }
+  ],
+  "license": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "logo": "https://iiif.wellcomecollection.org/logos/wellcome-collection-black.png",
+  "related": {
+    "@id": "https://wellcomecollection.org/works/qc9bzfnh",
+    "format": "text/html",
+    "label": "A complete dictionary of the whole materia medica. Containing an experimental history of every natural and artificial substance made use of in medicine, with a compendious view of their natural history, an account of their pharmaceutic properties ..., and an estimate of their medicinal powers ... / by William Lewis."
+  },
+  "seeAlso": {
+    "@id": "https://api.wellcomecollection.org/catalogue/v2/works/qc9bzfnh",
+    "profile": "https://api.wellcomecollection.org/catalogue/v2/context.json",
+    "format": "application/json",
+    "label": "Wellcome Collection Catalogue API"
+  },
+  "viewingHint": "multi-part",
+  "within": "https://iiif.wellcomecollection.org/presentation/v2/collections/contributors/n3q2ejhz",
+  "manifests": [
+    {
+      "@id": "https://iiif.wellcomecollection.org/presentation/v2/b33489828_0001",
+      "@type": "sc:Manifest",
+      "label": "Volume 1",
+      "thumbnail": {
+        "@id": "https://iiif.wellcomecollection.org/thumbs/b33489828_0001_0007.jp2/full/58,100/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://iiif.wellcomecollection.org/thumbs/b33489828_0001_0007.jp2",
+          "profile": "http://iiif.io/api/image/2/level0.json",
+          "protocol": "http://iiif.io/api/image",
+          "width": 1338,
+          "height": 2315,
+          "sizes": [
+            {
+              "width": 58,
+              "height": 100
+            },
+            {
+              "width": 116,
+              "height": 200
+            },
+            {
+              "width": 231,
+              "height": 400
+            },
+            {
+              "width": 282,
+              "height": 489
+            },
+            {
+              "width": 420,
+              "height": 726
+            },
+            {
+              "width": 592,
+              "height": 1024
+            },
+            {
+              "width": 880,
+              "height": 1523
+            },
+            {
+              "width": 1338,
+              "height": 2315
+            }
+          ]
+        }
+      },
+      "within": ""
+    },
+    {
+      "@id": "https://iiif.wellcomecollection.org/presentation/v2/b33489828_0002",
+      "@type": "sc:Manifest",
+      "label": "Volume 2",
+      "thumbnail": {
+        "@id": "https://iiif.wellcomecollection.org/thumbs/b33489828_0002_0001.jp2/full/60,100/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://iiif.wellcomecollection.org/thumbs/b33489828_0002_0001.jp2",
+          "profile": "http://iiif.io/api/image/2/level0.json",
+          "protocol": "http://iiif.io/api/image",
+          "width": 1338,
+          "height": 2254,
+          "sizes": [
+            {
+              "width": 60,
+              "height": 100
+            },
+            {
+              "width": 119,
+              "height": 200
+            },
+            {
+              "width": 238,
+              "height": 400
+            },
+            {
+              "width": 282,
+              "height": 474
+            },
+            {
+              "width": 420,
+              "height": 707
+            },
+            {
+              "width": 608,
+              "height": 1024
+            },
+            {
+              "width": 880,
+              "height": 1482
+            },
+            {
+              "width": 1338,
+              "height": 2254
+            }
+          ]
+        }
+      },
+      "within": ""
+    }
+  ]
+}

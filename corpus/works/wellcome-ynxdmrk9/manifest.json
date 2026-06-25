@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-ynxdmrk9",
+  "title": "A new and improved system of medical botanical practice : also, a concise view of anatomy and surgery, containing a medical classification of the best vegetable productions, with the better mode of compounding and administering in the treatment of disease : to which is added a short treatise on obstetricks, and a medical glossary / by Charles Miles.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/ynxdmrk9",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21140996",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/ynxdmrk9",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;botany",
+  "chunkCount": 565,
+  "paragraphCount": 575,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ynxdmrk9\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ynxdmrk9\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-ynxdmrk9\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-ynxdmrk9.jsonl",
+  "rawSha256": "aeeb36ecd7318320ed4a0b15bfa5cec3a086348b22afafa2f3e4b2111eb651b8",
+  "normalizedSha256": "2a1d497d67ea811e4b11c4c012f82e547955493a18ec643b3e8da7731dfe6c00",
+  "processedAt": "2026-06-16T23:08:18.709Z"
+}

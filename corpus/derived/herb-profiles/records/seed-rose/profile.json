@@ -1,0 +1,1225 @@
+{
+  "profile_id": "seed-rose",
+  "family_id": "seed-rose",
+  "canonical_name": "Rose",
+  "canonical_key": "rose",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-rose-618d663af0#rose"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 3126,
+    "total_chunks": 2860,
+    "total_works": 495,
+    "matched_chunk_count": 2860,
+    "matched_work_count": 495,
+    "matched_mention_total": 2881
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Rose",
+      "Roses"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-2855",
+      "nlm-0217313-chunk-0786",
+      "nlm-0217313-chunk-0788"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 2428
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 380
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 133
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 608,
+        "work_count": 278
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 546,
+        "work_count": 259
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 417,
+        "work_count": 223
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 396,
+        "work_count": 214
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 295,
+        "work_count": 150
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 231,
+        "work_count": 152
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 171,
+        "work_count": 92
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 63,
+        "work_count": 46
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 63,
+        "work_count": 39
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 53,
+        "work_count": 46
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 1099,
+        "work_count": 339
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 1023,
+        "work_count": 323
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 766,
+        "work_count": 238
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 658,
+        "work_count": 261
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 603,
+        "work_count": 166
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 578,
+        "work_count": 269
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 378,
+        "work_count": 155
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 377,
+        "work_count": 193
+      },
+      {
+        "id": "gargle",
+        "label": "Gargle",
+        "signal_count": 330,
+        "work_count": 193
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 231,
+        "work_count": 103
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 729,
+        "work_count": 281
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 297,
+        "work_count": 162
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 295,
+        "work_count": 203
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 255,
+        "work_count": 127
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 67,
+        "work_count": 49
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 43,
+        "work_count": 39
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 24,
+        "work_count": 24
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 14,
+        "work_count": 13
+      }
+    ],
+    "conditions": [
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 400,
+        "work_count": 167
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 378,
+        "work_count": 213
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 265,
+        "work_count": 165
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 233,
+        "work_count": 114
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 155,
+        "work_count": 105
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 142,
+        "work_count": 101
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 89,
+        "work_count": 46
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 88,
+        "work_count": 68
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 83,
+        "work_count": 48
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 51,
+        "work_count": 42
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 153,
+      "matched_mention_count": 156
+    },
+    {
+      "work_id": "pg-49513",
+      "title": "The Complete Herbal",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "herbal",
+      "source_url": "https://www.gutenberg.org/ebooks/49513",
+      "signal_chunk_count": 36,
+      "matched_mention_count": 37
+    },
+    {
+      "work_id": "wellcome-vcp6d7za",
+      "title": "The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.",
+      "creator": "",
+      "publication_year": "1862",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/vcp6d7za",
+      "signal_chunk_count": 34,
+      "matched_mention_count": 35
+    },
+    {
+      "work_id": "wellcome-pjvn9c9z",
+      "title": "The complete herbal, to which is now added, upwards of one hundred additional herbs, with display of their medicinal and occult qualities; physically applied to the cure of all disorders incident to mankind : to which are now first annexed the English physician enlarged and key to physic, with rules for compounding medicine according to the true system of nature. Forming a complete family dispensatory, and a natural system of physic. / by Nicholas Culpeper M. D. to which is also added upwards of fifty choice receipts, selected from the author's last legacy to his wife.",
+      "creator": "",
+      "publication_year": "1842",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;botany",
+      "source_url": "https://wellcomecollection.org/works/pjvn9c9z",
+      "signal_chunk_count": 31,
+      "matched_mention_count": 31
+    },
+    {
+      "work_id": "wellcome-e58dfqw4",
+      "title": "The complete herbal to which is now added upwards of one hundred additional herbs with a display of their medicinal and occult qualities physically applied to the cure of all disorders incident to mankind. To which are now first annexed the English physician enlarged, and Key to [Galen's Method of] physic with rules for compounding medicine according to the true system of nature forming a complete family dispensatory and natural system of physic / by Nicholas Culpeper ; to which is also added upwards of fifty choice receipts selected from the author's Last legacy. To his wife.",
+      "creator": "",
+      "publication_year": "1835",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica",
+      "source_url": "https://wellcomecollection.org/works/e58dfqw4",
+      "signal_chunk_count": 29,
+      "matched_mention_count": 29
+    },
+    {
+      "work_id": "wellcome-dn7yrsvs",
+      "title": "The complete herbal to which is now added, upwards of one hundred additional herbs ... To which are now first annexed, the English physician enlarged, and Key to [Galen's Method of] physic ... forming a complete family dispensatory and natural system of physic ... to which is also added ... receipts selected from the author's Last legacy. To his wife / by Nicholas Culpeper.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/dn7yrsvs",
+      "signal_chunk_count": 29,
+      "matched_mention_count": 29
+    },
+    {
+      "work_id": "wellcome-ms79ffge",
+      "title": "Complete herbal ... To which is now first annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added upwards of 50 choice receipts selected from the author's Last legacy. To his wife ... / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1823",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/ms79ffge",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "wellcome-v2hnvyj6",
+      "title": "Complete herbal, to which is now added, upwards of one hundred additional herbs, with a display of their medicinal and occult qualities : physically applied to the cure of all disorders incident to mankind [etc.].",
+      "creator": "",
+      "publication_year": "1816",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/v2hnvyj6",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "wellcome-c4ncu7qz",
+      "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / Nicholas Culpeper.",
+      "creator": "",
+      "publication_year": "1814",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica",
+      "source_url": "https://wellcomecollection.org/works/c4ncu7qz",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "wellcome-e8fn752s",
+      "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1818",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/e8fn752s",
+      "signal_chunk_count": 26,
+      "matched_mention_count": 26
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-49513-chunk-0537",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Rose",
+          "Roses"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Wash",
+          "Gargle",
+          "Juice",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] What a pother have authors made with Roses! What a racket have they kept? I shall add, red Roses are under Jupiter, Damask under Venus, White under the Moon, and Provence under the King of F...",
+        "score": 72
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0552",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Juice",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Gout",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of the Sun, and under Leo. It provokes urine and women’s courses, being taken either in meat or drink. The seed thereof taken in wine, is an antidote against all dangerous medi...",
+        "score": 65
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0090",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "jlava — pallida — rubra. ) Strongly and permanently tonic and antiperiodic, slightly astringent, stomachic, and febrifuge. Use. In intermittents, after evacuating the stomach and bowels ; in continued fevers; keejDing...",
+        "score": 55
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0500",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The juice of Plantain clarified and drank for divers days together, either of itself, or in other drink, prevails wonderfully against all torments or excoriations in the intestines or bowels, helps the distillations o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0291",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "THE",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] The herb is cold, and dry, and saturnine. I suppose it obtained the name of Flea-wort, because the seeds are so like Fleas. The seeds fried, and taken, stays the flux or lask of the belly, a...",
+        "score": 50
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-49513-chunk-0537",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Rose",
+          "Roses"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Wash",
+          "Gargle",
+          "Juice",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] What a pother have authors made with Roses! What a racket have they kept? I shall add, red Roses are under Jupiter, Damask under Venus, White under the Moon, and Provence under the King of F...",
+        "score": 72
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0552",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Juice",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Gout",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of the Sun, and under Leo. It provokes urine and women’s courses, being taken either in meat or drink. The seed thereof taken in wine, is an antidote against all dangerous medi...",
+        "score": 65
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0090",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "jlava — pallida — rubra. ) Strongly and permanently tonic and antiperiodic, slightly astringent, stomachic, and febrifuge. Use. In intermittents, after evacuating the stomach and bowels ; in continued fevers; keejDing...",
+        "score": 55
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0500",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The juice of Plantain clarified and drank for divers days together, either of itself, or in other drink, prevails wonderfully against all torments or excoriations in the intestines or bowels, helps the distillations o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0291",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "THE",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] The herb is cold, and dry, and saturnine. I suppose it obtained the name of Flea-wort, because the seeds are so like Fleas. The seeds fried, and taken, stays the flux or lask of the belly, a...",
+        "score": 50
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-49513-chunk-0537",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Rose",
+          "Roses"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Wash",
+          "Gargle",
+          "Juice",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] What a pother have authors made with Roses! What a racket have they kept? I shall add, red Roses are under Jupiter, Damask under Venus, White under the Moon, and Provence under the King of F...",
+        "score": 72
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0552",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Juice",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Gout",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of the Sun, and under Leo. It provokes urine and women’s courses, being taken either in meat or drink. The seed thereof taken in wine, is an antidote against all dangerous medi...",
+        "score": 65
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0090",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "jlava — pallida — rubra. ) Strongly and permanently tonic and antiperiodic, slightly astringent, stomachic, and febrifuge. Use. In intermittents, after evacuating the stomach and bowels ; in continued fevers; keejDing...",
+        "score": 55
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0500",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The juice of Plantain clarified and drank for divers days together, either of itself, or in other drink, prevails wonderfully against all torments or excoriations in the intestines or bowels, helps the distillations o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0291",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "THE",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] The herb is cold, and dry, and saturnine. I suppose it obtained the name of Flea-wort, because the seeds are so like Fleas. The seeds fried, and taken, stays the flux or lask of the belly, a...",
+        "score": 50
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-49513-chunk-0552",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Juice",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Gout",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of the Sun, and under Leo. It provokes urine and women’s courses, being taken either in meat or drink. The seed thereof taken in wine, is an antidote against all dangerous medi...",
+        "score": 65
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0090",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "jlava — pallida — rubra. ) Strongly and permanently tonic and antiperiodic, slightly astringent, stomachic, and febrifuge. Use. In intermittents, after evacuating the stomach and bowels ; in continued fevers; keejDing...",
+        "score": 55
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0500",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "The juice of Plantain clarified and drank for divers days together, either of itself, or in other drink, prevails wonderfully against all torments or excoriations in the intestines or bowels, helps the distillations o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0291",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "THE",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] The herb is cold, and dry, and saturnine. I suppose it obtained the name of Flea-wort, because the seeds are so like Fleas. The seeds fried, and taken, stays the flux or lask of the belly, a...",
+        "score": 50
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0647",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Roses"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Juice",
+          "Oil",
+          "Cordial",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] They are a fine pleasing plant of Venus, of a mild nature, no way harmful. All the Violets are cold and moist while they are fresh and green, and are used to cool any heat, or distemperature...",
+        "score": 50
+      }
+    ]
+  },
+  "retrieval_text": "Rose is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 495 works and 2860 source-linked chunks. Recorded variants include Rose, Roses. Common plant-part co-mentions include Leaf, Root, Bark, Flower, Seed, Gum. Common preparation co-mentions include Oil, Infusion, Tincture, Syrup, Juice, Powder. Common condition co-mentions include Wounds or ulcers, Cold or catarrh, Fever, Inflammation, Vomiting or nausea, Cough. Caution co-mentions include Dose caution, Bleeding caution, Child-use caution, Narcotic or sedative caution, Toxicity watch, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The Complete Herbal; The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.; The complete herbal, to which is now added, upwards of one hundred additional herbs, with display of their medicinal and occult qualities; physically applied to the cure of all disorders incident to mankind : to which are now first annexed the English physician enlarged and key to physic, with rules for compounding medicine according to the true system of nature. Forming a complete family dispensatory, and a natural system of physic. / by Nicholas Culpeper M. D. to which is also added upwards of fifty choice receipts, selected from the author's last legacy to his wife.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.705Z",
+  "builder": "build-herb-profiles.mjs"
+}

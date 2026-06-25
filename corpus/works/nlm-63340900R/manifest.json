@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63340900R",
+  "title": "The practice of medicine on Thomsonian principles : adapted as well to the use of families as to that of the practitioner : containing propositions illustrative of the philosophy of Thomsonism : a brief history of the symptoms, peculiarities, and general course of disease in its different forms and varieties : with practical directions for administering a Thomsonian course of medicine, including the various methods of administering vapour baths and emetics, and a materia medica , adapted to the work",
+  "creator": "Comfort, J. W. (John W.)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63340900R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63340900R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63340900R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 1471,
+  "paragraphCount": 2350,
+  "sectionCount": 15,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63340900R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63340900R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63340900R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63340900R.jsonl",
+  "rawSha256": "0e759d84f64a7665fa912238a57f3dcd4164600156a4531054e33d7dd17181ea",
+  "normalizedSha256": "93e2e73b4233c204df995797a7dd302529e78529e2d531424a3049b572de7b45",
+  "processedAt": "2026-06-18T03:09:24.856Z"
+}

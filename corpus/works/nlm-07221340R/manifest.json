@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-07221340R",
+  "title": "Optimistic medicine : or the early treatment of simple problems rather than the late treatment of serious problems",
+  "creator": "Crandall, Arthur G. (Arthur George), 1858-1935.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-07221340R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-07221340R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/07221340R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;hygiene",
+  "chunkCount": 49,
+  "paragraphCount": 53,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-07221340R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-07221340R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-07221340R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-07221340R.jsonl",
+  "rawSha256": "daa64331c785fdd6171fe3c8ba7d0c6161d0b4fca132b7fb83153cab4bfa8a19",
+  "normalizedSha256": "2162696d4e5176d0a1c69de3de97354089dcb65f20b85aeae39850a869b69163",
+  "processedAt": "2026-06-17T12:28:32.436Z"
+}

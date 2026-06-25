@@ -1,0 +1,562 @@
+{
+  "generatedAt": "2026-06-18T01:52:51.795Z",
+  "options": {
+    "cycles": 1,
+    "nlmLimit": 6,
+    "wellcomeLimit": 8,
+    "stageFilter": "uncovered_family",
+    "profileRef": "diverse-broadening-2026-06-18",
+    "dryRun": true,
+    "rebuildDerived": false,
+    "runStatus": false,
+    "selectionStrategy": "diverse",
+    "diversityScanWindow": 60,
+    "stopOnEmpty": true,
+    "haltOnFailure": true,
+    "avoidRepeatSeries": true
+  },
+  "initialSnapshot": {
+    "totalWorks": 2720,
+    "chunkedCount": 808,
+    "discoveredCount": 1911,
+    "failedCount": 1,
+    "totalChunkRecords": 1056498,
+    "totalParagraphRecords": 1218941,
+    "manifestWorkCount": 808,
+    "byCollection": {
+      "nlm-digital-collections": {
+        "total": 696,
+        "chunked": 268,
+        "discovered": 427,
+        "failed": 1,
+        "chunkRecords": 312645,
+        "paragraphRecords": 397022
+      },
+      "project-gutenberg": {
+        "total": 27,
+        "chunked": 27,
+        "discovered": 0,
+        "failed": 0,
+        "chunkRecords": 14221,
+        "paragraphRecords": 67454
+      },
+      "wellcome-collection": {
+        "total": 1997,
+        "chunked": 513,
+        "discovered": 1484,
+        "failed": 0,
+        "chunkRecords": 729632,
+        "paragraphRecords": 754465
+      }
+    }
+  },
+  "cycles": [
+    {
+      "cycle": 1,
+      "batchArgs": [
+        "--nlm-limit=6",
+        "--wellcome-limit=8",
+        "--stage=uncovered_family",
+        "--dry-run=true",
+        "--rebuild-derived=false",
+        "--run-status=false",
+        "--selection-strategy=diverse",
+        "--diversity-scan-window=60",
+        "--profile=diverse-broadening-2026-06-18"
+      ],
+      "batchExclusions": {
+        "workIds": [],
+        "seriesKeys": [],
+        "creatorSeriesKeys": []
+      },
+      "batchOutput": {
+        "selected": {
+          "nlm-digital-collections": [
+            {
+              "work_id": "nlm-63560570R",
+              "title": "The family physician, and domestic practice of medicine",
+              "creator": "Buchanan, John, M.D.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1507,
+              "topic_family": "domestic-medicine",
+              "title_cluster": "family-physician",
+              "series_title_key": "family physician and domestic practice of medicine",
+              "creator_title_key": "buchanan john m d::family physician and domestic practice of medicine"
+            },
+            {
+              "work_id": "nlm-101313403",
+              "title": "G. H. G. Jahr's Manual of homoeopathic medicine",
+              "creator": "Jahr, G. H. G. (Gottlieb Heinrich Georg), 1800-1875.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1502,
+              "topic_family": "materia-medica",
+              "title_cluster": "general",
+              "series_title_key": "g h g jahrs manual of homoeopathic medicine",
+              "creator_title_key": "jahr g h g 1800 1875::g h g jahrs manual of homoeopathic medicine"
+            },
+            {
+              "work_id": "nlm-101250106",
+              "title": "The Indian doctor's dispensatory, or Every man his own physician",
+              "creator": "Smith, A. F.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1499,
+              "topic_family": "materia-medica",
+              "title_cluster": "pharmacopoeia",
+              "series_title_key": "indian doctors dispensatory",
+              "creator_title_key": "smith a f::indian doctors dispensatory"
+            },
+            {
+              "work_id": "nlm-64251090R",
+              "title": "Homoeopathic domestic practice : containing also chapters on physiology, hygiene, anatomy, and an abridged materia medica",
+              "creator": "Guernsey, Egbert, 1823-1903.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1488,
+              "topic_family": "materia-medica;hygiene",
+              "title_cluster": "materia-medica",
+              "series_title_key": "homoeopathic domestic practice",
+              "creator_title_key": "guernsey egbert 1823 1903::homoeopathic domestic practice"
+            },
+            {
+              "work_id": "nlm-64210260R",
+              "title": "How to get well and how to keep well : a family physician and guide to health",
+              "creator": "Bland, T. A. (Thomas Augustus), 1830-1908.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1498,
+              "topic_family": "domestic-medicine",
+              "title_cluster": "guide-to-health",
+              "series_title_key": "how to get well and how to keep well",
+              "creator_title_key": "bland t a 1830 1908::how to get well and how to keep well"
+            },
+            {
+              "work_id": "nlm-61731090R",
+              "title": "Beauties of flora, and outlines of botany : with a language of flowers : a perennial offering",
+              "creator": "Newman, John B.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1494,
+              "topic_family": "botany",
+              "title_cluster": "general",
+              "series_title_key": "beauties of flora and outlines of botany",
+              "creator_title_key": "newman john b::beauties of flora and outlines of botany"
+            }
+          ],
+          "wellcome-collection": [
+            {
+              "work_id": "wellcome-drujra89",
+              "title": "Medicines : their uses and mode of administration including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and an appendix of formulae / by J. Moore Neligan.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1490,
+              "topic_family": "materia-medica;pharmacopoeia",
+              "title_cluster": "general",
+              "series_title_key": "medicines",
+              "creator_title_key": "unknown::medicines"
+            },
+            {
+              "work_id": "wellcome-pajnntpg",
+              "title": "The soldier's manual of sanitation : and of first help in sickness and when wounded ... / by Charles Alexander Gordon.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1488,
+              "topic_family": "hygiene;public-health",
+              "title_cluster": "general",
+              "series_title_key": "soldiers manual of sanitation",
+              "creator_title_key": "unknown::soldiers manual of sanitation"
+            },
+            {
+              "work_id": "wellcome-vnj3rt3s",
+              "title": "Pharmacopoeia chirurgica, or, Formulae for the use of surgeons : including among a variety of remedies employed in the private practice of the most eminent of the profession, all of the principal formulae of the different hospitals.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1489,
+              "topic_family": "materia-medica;pharmacopoeia",
+              "title_cluster": "pharmacopoeia",
+              "series_title_key": "pharmacopoeia chirurgica",
+              "creator_title_key": "unknown::pharmacopoeia chirurgica"
+            },
+            {
+              "work_id": "wellcome-cgrk72dp",
+              "title": "Merck's manual of the materia medica : a ready reference pocket book for the physician and surgeon: containing names of the chemicals and drugs ... / compiled from the most recent authoritative sources and published by Merck & Co.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1477,
+              "topic_family": "materia-medica",
+              "title_cluster": "materia-medica",
+              "series_title_key": "mercks manual of the materia medica",
+              "creator_title_key": "unknown::mercks manual of the materia medica"
+            },
+            {
+              "work_id": "wellcome-smdqt535",
+              "title": "Food for the invalid, the convalescent, the dyspeptic and the gouty / by J. Milner Fothergill.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1480,
+              "topic_family": "dietetics;convalescence",
+              "title_cluster": "general",
+              "series_title_key": "food for the invalid the convalescent the dyspeptic and the gouty",
+              "creator_title_key": "unknown::food for the invalid the convalescent the dyspeptic and the gouty"
+            },
+            {
+              "work_id": "wellcome-c3k5zxys",
+              "title": "Pharmaco-botanologia: or, An alphabetical and classical dissertation on all the British indigenous and garden plants of the New London dispensatory : In which their genera, species, characteristick and distinctive notes are methodically described; the botanical terms of art explained; their virtues, uses, and shop-preparations declared ... / By Patrick Blair.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1473,
+              "topic_family": "botany",
+              "title_cluster": "pharmacopoeia",
+              "series_title_key": "pharmaco botanologia or an alphabetical and classical dissertation on all the british indigenous and garden plants of the new london dispensatory",
+              "creator_title_key": "unknown::pharmaco botanologia or an alphabetical and classical dissertation on all the british indigenous and garden plants of the new london dispensatory"
+            },
+            {
+              "work_id": "wellcome-ud2an3c7",
+              "title": "The clinical guide, or, A concise view of the leading facts, on the history, nature, and cure of diseases : to which is subjoined, a practical pharmacopoeia, in three parts: viz. materia medica, classification and extemporaneous prescription. Intended as a memorandum-book for young practitioners ... / by William Nisbet.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1484,
+              "topic_family": "materia-medica;pharmacopoeia",
+              "title_cluster": "materia-medica",
+              "series_title_key": "clinical guide",
+              "creator_title_key": "unknown::clinical guide"
+            },
+            {
+              "work_id": "wellcome-udrftdvz",
+              "title": "Medical and miscellaneous recipes : from the best recipes to be had / compiled and to be had only from D. Slater.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1479,
+              "topic_family": "materia-medica;household-health",
+              "title_cluster": "general",
+              "series_title_key": "medical and miscellaneous recipes",
+              "creator_title_key": "unknown::medical and miscellaneous recipes"
+            }
+          ]
+        },
+        "dryRun": true,
+        "rebuildDerived": false,
+        "runStatus": false,
+        "commandCount": 0,
+        "summaryPath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\exports\\frontier-batch-summary.json"
+      },
+      "batchSummaryPath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\exports\\frontier-batch-summary.json",
+      "batchSummary": {
+        "generatedAt": "2026-06-18T01:52:56.918Z",
+        "stageFilter": "uncovered_family",
+        "dryRun": true,
+        "rebuildDerived": false,
+        "runStatus": false,
+        "selectionStrategy": "diverse",
+        "diversityScanWindow": 60,
+        "selected": {
+          "nlm-digital-collections": [
+            {
+              "work_id": "nlm-63560570R",
+              "title": "The family physician, and domestic practice of medicine",
+              "creator": "Buchanan, John, M.D.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1507,
+              "topic_family": "domestic-medicine",
+              "title_cluster": "family-physician",
+              "series_title_key": "family physician and domestic practice of medicine",
+              "creator_title_key": "buchanan john m d::family physician and domestic practice of medicine"
+            },
+            {
+              "work_id": "nlm-101313403",
+              "title": "G. H. G. Jahr's Manual of homoeopathic medicine",
+              "creator": "Jahr, G. H. G. (Gottlieb Heinrich Georg), 1800-1875.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1502,
+              "topic_family": "materia-medica",
+              "title_cluster": "general",
+              "series_title_key": "g h g jahrs manual of homoeopathic medicine",
+              "creator_title_key": "jahr g h g 1800 1875::g h g jahrs manual of homoeopathic medicine"
+            },
+            {
+              "work_id": "nlm-101250106",
+              "title": "The Indian doctor's dispensatory, or Every man his own physician",
+              "creator": "Smith, A. F.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1499,
+              "topic_family": "materia-medica",
+              "title_cluster": "pharmacopoeia",
+              "series_title_key": "indian doctors dispensatory",
+              "creator_title_key": "smith a f::indian doctors dispensatory"
+            },
+            {
+              "work_id": "nlm-64251090R",
+              "title": "Homoeopathic domestic practice : containing also chapters on physiology, hygiene, anatomy, and an abridged materia medica",
+              "creator": "Guernsey, Egbert, 1823-1903.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1488,
+              "topic_family": "materia-medica;hygiene",
+              "title_cluster": "materia-medica",
+              "series_title_key": "homoeopathic domestic practice",
+              "creator_title_key": "guernsey egbert 1823 1903::homoeopathic domestic practice"
+            },
+            {
+              "work_id": "nlm-64210260R",
+              "title": "How to get well and how to keep well : a family physician and guide to health",
+              "creator": "Bland, T. A. (Thomas Augustus), 1830-1908.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1498,
+              "topic_family": "domestic-medicine",
+              "title_cluster": "guide-to-health",
+              "series_title_key": "how to get well and how to keep well",
+              "creator_title_key": "bland t a 1830 1908::how to get well and how to keep well"
+            },
+            {
+              "work_id": "nlm-61731090R",
+              "title": "Beauties of flora, and outlines of botany : with a language of flowers : a perennial offering",
+              "creator": "Newman, John B.",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1494,
+              "topic_family": "botany",
+              "title_cluster": "general",
+              "series_title_key": "beauties of flora and outlines of botany",
+              "creator_title_key": "newman john b::beauties of flora and outlines of botany"
+            }
+          ],
+          "wellcome-collection": [
+            {
+              "work_id": "wellcome-drujra89",
+              "title": "Medicines : their uses and mode of administration including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and an appendix of formulae / by J. Moore Neligan.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1490,
+              "topic_family": "materia-medica;pharmacopoeia",
+              "title_cluster": "general",
+              "series_title_key": "medicines",
+              "creator_title_key": "unknown::medicines"
+            },
+            {
+              "work_id": "wellcome-pajnntpg",
+              "title": "The soldier's manual of sanitation : and of first help in sickness and when wounded ... / by Charles Alexander Gordon.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1488,
+              "topic_family": "hygiene;public-health",
+              "title_cluster": "general",
+              "series_title_key": "soldiers manual of sanitation",
+              "creator_title_key": "unknown::soldiers manual of sanitation"
+            },
+            {
+              "work_id": "wellcome-vnj3rt3s",
+              "title": "Pharmacopoeia chirurgica, or, Formulae for the use of surgeons : including among a variety of remedies employed in the private practice of the most eminent of the profession, all of the principal formulae of the different hospitals.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1489,
+              "topic_family": "materia-medica;pharmacopoeia",
+              "title_cluster": "pharmacopoeia",
+              "series_title_key": "pharmacopoeia chirurgica",
+              "creator_title_key": "unknown::pharmacopoeia chirurgica"
+            },
+            {
+              "work_id": "wellcome-cgrk72dp",
+              "title": "Merck's manual of the materia medica : a ready reference pocket book for the physician and surgeon: containing names of the chemicals and drugs ... / compiled from the most recent authoritative sources and published by Merck & Co.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1477,
+              "topic_family": "materia-medica",
+              "title_cluster": "materia-medica",
+              "series_title_key": "mercks manual of the materia medica",
+              "creator_title_key": "unknown::mercks manual of the materia medica"
+            },
+            {
+              "work_id": "wellcome-smdqt535",
+              "title": "Food for the invalid, the convalescent, the dyspeptic and the gouty / by J. Milner Fothergill.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1480,
+              "topic_family": "dietetics;convalescence",
+              "title_cluster": "general",
+              "series_title_key": "food for the invalid the convalescent the dyspeptic and the gouty",
+              "creator_title_key": "unknown::food for the invalid the convalescent the dyspeptic and the gouty"
+            },
+            {
+              "work_id": "wellcome-c3k5zxys",
+              "title": "Pharmaco-botanologia: or, An alphabetical and classical dissertation on all the British indigenous and garden plants of the New London dispensatory : In which their genera, species, characteristick and distinctive notes are methodically described; the botanical terms of art explained; their virtues, uses, and shop-preparations declared ... / By Patrick Blair.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1473,
+              "topic_family": "botany",
+              "title_cluster": "pharmacopoeia",
+              "series_title_key": "pharmaco botanologia or an alphabetical and classical dissertation on all the british indigenous and garden plants of the new london dispensatory",
+              "creator_title_key": "unknown::pharmaco botanologia or an alphabetical and classical dissertation on all the british indigenous and garden plants of the new london dispensatory"
+            },
+            {
+              "work_id": "wellcome-ud2an3c7",
+              "title": "The clinical guide, or, A concise view of the leading facts, on the history, nature, and cure of diseases : to which is subjoined, a practical pharmacopoeia, in three parts: viz. materia medica, classification and extemporaneous prescription. Intended as a memorandum-book for young practitioners ... / by William Nisbet.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1484,
+              "topic_family": "materia-medica;pharmacopoeia",
+              "title_cluster": "materia-medica",
+              "series_title_key": "clinical guide",
+              "creator_title_key": "unknown::clinical guide"
+            },
+            {
+              "work_id": "wellcome-udrftdvz",
+              "title": "Medical and miscellaneous recipes : from the best recipes to be had / compiled and to be had only from D. Slater.",
+              "creator": "",
+              "frontier_stage": "uncovered_family",
+              "frontier_score": 1479,
+              "topic_family": "materia-medica;household-health",
+              "title_cluster": "general",
+              "series_title_key": "medical and miscellaneous recipes",
+              "creator_title_key": "unknown::medical and miscellaneous recipes"
+            }
+          ]
+        },
+        "selectedCount": 14,
+        "selectedByCollection": {
+          "nlm-digital-collections": 6,
+          "wellcome-collection": 8
+        },
+        "commands": [],
+        "failedCommand": null
+      },
+      "selectedCount": 14,
+      "preSnapshot": {
+        "totalWorks": 2720,
+        "chunkedCount": 808,
+        "discoveredCount": 1911,
+        "failedCount": 1,
+        "totalChunkRecords": 1056498,
+        "totalParagraphRecords": 1218941,
+        "manifestWorkCount": 808,
+        "byCollection": {
+          "nlm-digital-collections": {
+            "total": 696,
+            "chunked": 268,
+            "discovered": 427,
+            "failed": 1,
+            "chunkRecords": 312645,
+            "paragraphRecords": 397022
+          },
+          "project-gutenberg": {
+            "total": 27,
+            "chunked": 27,
+            "discovered": 0,
+            "failed": 0,
+            "chunkRecords": 14221,
+            "paragraphRecords": 67454
+          },
+          "wellcome-collection": {
+            "total": 1997,
+            "chunked": 513,
+            "discovered": 1484,
+            "failed": 0,
+            "chunkRecords": 729632,
+            "paragraphRecords": 754465
+          }
+        }
+      },
+      "postSnapshot": {
+        "totalWorks": 2720,
+        "chunkedCount": 808,
+        "discoveredCount": 1911,
+        "failedCount": 1,
+        "totalChunkRecords": 1056498,
+        "totalParagraphRecords": 1218941,
+        "manifestWorkCount": 808,
+        "byCollection": {
+          "nlm-digital-collections": {
+            "total": 696,
+            "chunked": 268,
+            "discovered": 427,
+            "failed": 1,
+            "chunkRecords": 312645,
+            "paragraphRecords": 397022
+          },
+          "project-gutenberg": {
+            "total": 27,
+            "chunked": 27,
+            "discovered": 0,
+            "failed": 0,
+            "chunkRecords": 14221,
+            "paragraphRecords": 67454
+          },
+          "wellcome-collection": {
+            "total": 1997,
+            "chunked": 513,
+            "discovered": 1484,
+            "failed": 0,
+            "chunkRecords": 729632,
+            "paragraphRecords": 754465
+          }
+        }
+      },
+      "delta": {
+        "totalWorks": 0,
+        "chunkedCount": 0,
+        "discoveredCount": 0,
+        "failedCount": 0,
+        "totalChunkRecords": 0,
+        "totalParagraphRecords": 0,
+        "byCollection": {
+          "nlm-digital-collections": {
+            "total": 0,
+            "chunked": 0,
+            "discovered": 0,
+            "failed": 0,
+            "chunkRecords": 0,
+            "paragraphRecords": 0
+          },
+          "project-gutenberg": {
+            "total": 0,
+            "chunked": 0,
+            "discovered": 0,
+            "failed": 0,
+            "chunkRecords": 0,
+            "paragraphRecords": 0
+          },
+          "wellcome-collection": {
+            "total": 0,
+            "chunked": 0,
+            "discovered": 0,
+            "failed": 0,
+            "chunkRecords": 0,
+            "paragraphRecords": 0
+          }
+        }
+      },
+      "error": null
+    }
+  ],
+  "stoppedReason": "dry_run_completed",
+  "failedCycle": null,
+  "summaryPath": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\exports\\frontier-campaign-summary.json",
+  "finalSnapshot": {
+    "totalWorks": 2720,
+    "chunkedCount": 808,
+    "discoveredCount": 1911,
+    "failedCount": 1,
+    "totalChunkRecords": 1056498,
+    "totalParagraphRecords": 1218941,
+    "manifestWorkCount": 808,
+    "byCollection": {
+      "nlm-digital-collections": {
+        "total": 696,
+        "chunked": 268,
+        "discovered": 427,
+        "failed": 1,
+        "chunkRecords": 312645,
+        "paragraphRecords": 397022
+      },
+      "project-gutenberg": {
+        "total": 27,
+        "chunked": 27,
+        "discovered": 0,
+        "failed": 0,
+        "chunkRecords": 14221,
+        "paragraphRecords": 67454
+      },
+      "wellcome-collection": {
+        "total": 1997,
+        "chunked": 513,
+        "discovered": 1484,
+        "failed": 0,
+        "chunkRecords": 729632,
+        "paragraphRecords": 754465
+      }
+    }
+  }
+}

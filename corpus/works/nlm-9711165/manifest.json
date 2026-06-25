@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-9711165",
+  "title": "The gentleman's medical adviser, and sure guide to health and long life : designed to illustrate the author's new system of botanical practice in the cure of all diseases incident to exposure, early indiscretions, etc",
+  "creator": "Morrill, Frederic.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9711165-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-9711165-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/9711165",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;botany",
+  "chunkCount": 116,
+  "paragraphCount": 162,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9711165\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9711165\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-9711165\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-9711165.jsonl",
+  "rawSha256": "1817acd8a3d583ab39907eba22aa664f07b721886dc48c82faff498f1e377283",
+  "normalizedSha256": "10321292e1fcf164fce85a2758d3a0d482fc3a05ad75ce068e689f8824f00c8a",
+  "processedAt": "2026-06-17T11:30:44.456Z"
+}

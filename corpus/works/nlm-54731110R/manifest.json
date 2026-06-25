@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-54731110R",
+  "title": "Personal hygiene and home nursing : a practical text for girls and women for home and school use",
+  "creator": "Lippitt, Louisa C. (Louisa Christiana) author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-54731110R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-54731110R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/54731110R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;nursing",
+  "chunkCount": 580,
+  "paragraphCount": 684,
+  "sectionCount": 16,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-54731110R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-54731110R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-54731110R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-54731110R.jsonl",
+  "rawSha256": "246cfa0a71a786e93f8e2fcd439690f2717e467189409bc803af0ba91085cf01",
+  "normalizedSha256": "1ec2341e50f7620593800e23ababb289a2be988c948894733d92f8073ff1df58",
+  "processedAt": "2026-06-18T05:50:33.834Z"
+}

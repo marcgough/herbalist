@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101306675",
+  "title": "Homoeopathic domestic medicine",
+  "creator": "Laurie, Joseph, -1865.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101306675-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101306675-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101306675",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 43,
+  "paragraphCount": 68,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101306675\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101306675\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101306675\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101306675.jsonl",
+  "rawSha256": "aa139b2151935af6cee534241a261039dc517ac7cb9c769070c017cf625cfd64",
+  "normalizedSha256": "85f1b538db90ac9b731dbe28b85f0a87ffda6dd8caf3ab3a67500a1b8fa8de6d",
+  "processedAt": "2026-06-17T09:26:42.751Z"
+}

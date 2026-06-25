@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-05710300R",
+  "title": "Applied and economic botany : especially adapted for the use of students in technical schools, agricultural, pharmaceutical and medical colleges, and also as a book of reference for chemists, food analysts and students engaged in the morphological and physiological study of plants",
+  "creator": "Kraemer, Henry, 1868-1924 author, publisher.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-05710300R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-05710300R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/05710300R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 1700,
+  "paragraphCount": 1764,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-05710300R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-05710300R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-05710300R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-05710300R.jsonl",
+  "rawSha256": "f4a2e6995a3216cfa64280be5ccdf91ee7511d34a5a683c5df358f59f3719b5f",
+  "normalizedSha256": "6290efa39660c4b63344809f9bdb2b62d1281305057f91631b82c5cbfa6aeec5",
+  "processedAt": "2026-06-18T05:50:28.217Z"
+}

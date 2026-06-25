@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-67040120R",
+  "title": "Woman's medical guide : being a complete review of the peculiarities of the female constitution and the derangements to which it is subject, with a description of simple yet certain means for their cure : also, a treatise on the management and diseases of children, with a description of a number of valuable medicinal plants and compounds for domestic use, and a glossary",
+  "creator": "Hard, M. K. (Moses Knapp), 1818-1890.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-67040120R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-67040120R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/67040120R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;medicinal-plants",
+  "chunkCount": 541,
+  "paragraphCount": 812,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-67040120R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-67040120R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-67040120R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-67040120R.jsonl",
+  "rawSha256": "6ee63f089627a44e960589343f05d10e87d3cf978fb375c51ab76e1d4456b66d",
+  "normalizedSha256": "8f2c234bf1781eda3b905b4d964d8833c0dec9bcb675df138705508ef2d857cd",
+  "processedAt": "2026-06-16T14:26:52.516Z"
+}

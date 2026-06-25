@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64231020R",
+  "title": "Wilkinson's botanico-medical practice : in six parts",
+  "creator": "Wilkinson, G. E.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64231020R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64231020R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64231020R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 971,
+  "paragraphCount": 1599,
+  "sectionCount": 19,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64231020R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64231020R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64231020R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64231020R.jsonl",
+  "rawSha256": "31d87d4c844aac5dd492091e633e5516743ddc01f2d8a55168e32812858e23a9",
+  "normalizedSha256": "b48366bf67d9babab15c81f6a1b67d9328f21aef3a081515f04199dbae75ec41",
+  "processedAt": "2026-06-18T16:44:48.424Z"
+}

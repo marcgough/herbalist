@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101707627",
+  "title": "School hygiene",
+  "creator": "Formento, Felix, Jr., 1837-1907 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101707627-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101707627-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101707627",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;public-health",
+  "chunkCount": 48,
+  "paragraphCount": 49,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101707627\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101707627\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101707627\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101707627.jsonl",
+  "rawSha256": "68437f3b6b47eb41e4a6bb45c0866b525d8ffe260c1480d55573560952d63cc9",
+  "normalizedSha256": "c444180148dcf2bb13c06345d70ee02ec441a8d72854bbd8918e224e8de88666",
+  "processedAt": "2026-06-17T18:51:09.581Z"
+}

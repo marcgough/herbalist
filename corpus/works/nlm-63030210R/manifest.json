@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63030210R",
+  "title": "The elements of health : an introduction to the study of hygiene",
+  "creator": "Parkes, Louis Coltman, 1857-1942.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63030210R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63030210R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63030210R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;public-health",
+  "chunkCount": 26,
+  "paragraphCount": 36,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63030210R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63030210R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63030210R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63030210R.jsonl",
+  "rawSha256": "18d7ad0cd22cf5af938e0e684606f70be2acf8ec9f354b5db00ad6d05f615f56",
+  "normalizedSha256": "26518be833618f74680e9c809369aaff7635678578eaec6e476f95048e136fdd",
+  "processedAt": "2026-06-17T19:01:27.182Z"
+}

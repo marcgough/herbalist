@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2559008R",
+  "title": "Jewett's Family physician : the iatroleptic practice or medicine, or the curing of diseases principally by external application and friction",
+  "creator": "Jewett, Moses, 1777-1847.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2559008R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2559008R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2559008R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 35,
+  "paragraphCount": 74,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2559008R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2559008R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2559008R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2559008R.jsonl",
+  "rawSha256": "d735a10be1708263e52e43ee881aca31afacb1d8a4bfd9a615d6699fd3933ef5",
+  "normalizedSha256": "cb250d92a96378b5878e9733de8e8207370087319b8098f07044665b1ef35833",
+  "processedAt": "2026-06-18T00:44:24.845Z"
+}

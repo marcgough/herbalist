@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2543048R",
+  "title": "The family physician : comprising rules for the prevention and cure of diseases : calculated particularly for the inhabitants of the western country, and for those who navigate its waters : with a dispensatory and appendix : this work affords, in simple language, a concentration of all the practical matter which can be derived from the best authorities : with original remarks",
+  "creator": "Benezet, Anthony A.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2543048R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2543048R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2543048R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1376,
+  "paragraphCount": 1797,
+  "sectionCount": 20,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2543048R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2543048R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2543048R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2543048R.jsonl",
+  "rawSha256": "5ba04abc2c7de5a78ec1fd99580f70d6004d33c16d0493b988644fdfc9c656a3",
+  "normalizedSha256": "c2ba4d969efeb641b23237158c95e6b4d87561b5c5c1eacba9bcac4a31760d0f",
+  "processedAt": "2026-06-16T23:06:33.896Z"
+}

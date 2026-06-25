@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-s63mg57z",
+  "title": "The domestic pharmacopoeia, or, complete medical guide for families. Containing an alphabetical arrangement, in the form of a dictionary, of all the diseases to which the human frame is liable, with the symptoms attendant on each, and the most simple and rational modes of treatment, drawn from high and approved Authorities. The whole preceded by Directions for preserving health, and attaining long life, together with Rules for nursing sick persons, and terminated by an appendix ... of favorite and domestic remedies, medicaments, &c.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/s63mg57z",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b22018074",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/s63mg57z",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;pharmacopoeia;nursing",
+  "chunkCount": 341,
+  "paragraphCount": 346,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-s63mg57z\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-s63mg57z\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-s63mg57z\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-s63mg57z.jsonl",
+  "rawSha256": "380170ea945b7dcfda48f33ace01dc353a1d7957d20b9d346c251568257bff35",
+  "normalizedSha256": "25ad12060957c7631ecfb9275c0acc5a3b70936a5b3950e63feef00c47d96c20",
+  "processedAt": "2026-06-17T00:34:27.063Z"
+}

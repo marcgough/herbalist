@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-n9cbm5vq",
+  "title": "The universal herbal; or, botanical, medical, and agricultural dictionary. Containing an account of all the known plants in the world, arranged according to the Linnean system ... With the best methods of propagation, and the most recent agricultural improvements / By Thomas Green.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/n9cbm5vq",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b22006783",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/n9cbm5vq",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 30055,
+  "paragraphCount": 31332,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-n9cbm5vq\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-n9cbm5vq\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-n9cbm5vq\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-n9cbm5vq.jsonl",
+  "rawSha256": "f8f30f3652fd1414906391d3a38ce28d19526c2024e0212574a494effd879fe8",
+  "normalizedSha256": "5b0422700bb64707326b31566f3592b4ae8fb8d860d3af5512320c7d7245aa97",
+  "processedAt": "2026-06-16T23:53:52.558Z"
+}

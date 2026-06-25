@@ -1,0 +1,1152 @@
+{
+  "profile_id": "seed-belladonna",
+  "family_id": "seed-belladonna",
+  "canonical_name": "Belladonna",
+  "canonical_key": "belladonna",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-belladonna-bdf51af573#belladonna"
+  ],
+  "decision_note": "promote strong medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 1270,
+    "total_chunks": 1077,
+    "total_works": 263,
+    "matched_chunk_count": 1077,
+    "matched_work_count": 263,
+    "matched_mention_total": 1077
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Belladonna"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-05710300R",
+      "nlm-100912803"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0849",
+      "nlm-0140313-chunk-1068",
+      "nlm-0140313-chunk-1474"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 699
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 247
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 186
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 327,
+        "work_count": 165
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 218,
+        "work_count": 112
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 85,
+        "work_count": 64
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 68,
+        "work_count": 47
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 62,
+        "work_count": 46
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 61,
+        "work_count": 52
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 57,
+        "work_count": 43
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 52,
+        "work_count": 46
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 24,
+        "work_count": 23
+      },
+      {
+        "id": "rhizome",
+        "label": "Rhizome",
+        "signal_count": 6,
+        "work_count": 4
+      }
+    ],
+    "preparations": [
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 604,
+        "work_count": 194
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 274,
+        "work_count": 124
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 232,
+        "work_count": 133
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 206,
+        "work_count": 99
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 196,
+        "work_count": 92
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 181,
+        "work_count": 103
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 139,
+        "work_count": 75
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 138,
+        "work_count": 93
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 137,
+        "work_count": 63
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 126,
+        "work_count": 89
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 352,
+        "work_count": 157
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 274,
+        "work_count": 123
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 70,
+        "work_count": 43
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 41,
+        "work_count": 38
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 41,
+        "work_count": 37
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 22,
+        "work_count": 22
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 15,
+        "work_count": 14
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 115,
+        "work_count": 70
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 77,
+        "work_count": 55
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 74,
+        "work_count": 50
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 68,
+        "work_count": 47
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 58,
+        "work_count": 41
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 50,
+        "work_count": 37
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 44,
+        "work_count": 35
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 34,
+        "work_count": 32
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 32,
+        "work_count": 23
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 28,
+        "work_count": 26
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 33,
+      "matched_mention_count": 33
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 26,
+      "matched_mention_count": 26
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "wellcome-aw2c3dda",
+      "title": "The family physician : a manual of domestic medicine / by physicians and surgeons of the principal London hospitals.",
+      "creator": "",
+      "publication_year": "1890",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/aw2c3dda",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "wellcome-uwjg9pz9",
+      "title": "The family physician : a manual of domestic medicine / by physicians and surgeons of the principal London hospitals.",
+      "creator": "",
+      "publication_year": "1882",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/uwjg9pz9",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "wellcome-pujcgk4k",
+      "title": "The Family physician : a manual of domestic medicine to which is added, the ladies' physician / by physicians and surgeons of the principal London hospitals.",
+      "creator": "",
+      "publication_year": "1865",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/pujcgk4k",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "wellcome-bm5reutn",
+      "title": "A manual of medical treatment or clinical therapeutics / by I. Burney Yeo.",
+      "creator": "",
+      "publication_year": "1893",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/bm5reutn",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "wellcome-xjgggnw8",
+      "title": "Merck's 1901 manual of the materia medica : aready-reference pocket book for the practicing physician and surgeon.",
+      "creator": "",
+      "publication_year": "1901",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/xjgggnw8",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0296",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": ", reduce the power of the spinal system, and cause general relaxation of muscles, but they may destroy life by arresting respiration ; useful, however, in small doses in slighter irritations, as vomiting, nervous pal-...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-0922",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Narcotic poison, increasing the action of the heart, stimulating the respiratory organs, and acting as a sedative and laxative on the peri- pheral nerves. Dose of powdered leaves, 1 to 10 grains; of powdered root, 1 t...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-f9769f9b-chunk-0192",
+        "work_id": "wellcome-f9769f9b",
+        "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/f9769f9b",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The fresh and dried leaves of Atropia Belladonna ox deadly night- shade, gathered when the fruit has begun to form. BELLADONNA RADIX. BELLADONNA ROOT. The root of Airopia Belladonna from plants more than two years old...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-cbkqb95g-chunk-0603",
+        "work_id": "wellcome-cbkqb95g",
+        "title": "Home doctoring : a guide to domestic medicine and surgery / by W.B. Kesteven.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cbkqb95g",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Bath",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "INDEX, Abdomen, wounds of, 109 Abortion, 83 Abrasion, 20 Abscess, 71 Acne, 98 Aconite poisoning, 116 Ague, 6 Alcoholic stimulants, 144 Ammonia poisoning, 122 Animal poisons, 115 Antimony poisoning, 120 Apoplexy, 8 Ars...",
+        "score": 42
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0296",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": ", reduce the power of the spinal system, and cause general relaxation of muscles, but they may destroy life by arresting respiration ; useful, however, in small doses in slighter irritations, as vomiting, nervous pal-...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-0922",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Narcotic poison, increasing the action of the heart, stimulating the respiratory organs, and acting as a sedative and laxative on the peri- pheral nerves. Dose of powdered leaves, 1 to 10 grains; of powdered root, 1 t...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-cbkqb95g-chunk-0603",
+        "work_id": "wellcome-cbkqb95g",
+        "title": "Home doctoring : a guide to domestic medicine and surgery / by W.B. Kesteven.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cbkqb95g",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Bath",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "INDEX, Abdomen, wounds of, 109 Abortion, 83 Abrasion, 20 Abscess, 71 Acne, 98 Aconite poisoning, 116 Ague, 6 Alcoholic stimulants, 144 Ammonia poisoning, 122 Animal poisons, 115 Antimony poisoning, 120 Apoplexy, 8 Ars...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1176",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Ointment"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": ") - Syrup of Ipe- cac, Syrup of Squills, Tincture of Bloodroot, Paregoric, each, one ounce. Mix. Useful for coughs. Dose, from half a teaspoonful to a teaspoonful whenever the cough is severe. Ointments. Ointment of A...",
+        "score": 42
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0296",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": ", reduce the power of the spinal system, and cause general relaxation of muscles, but they may destroy life by arresting respiration ; useful, however, in small doses in slighter irritations, as vomiting, nervous pal-...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-f9769f9b-chunk-0192",
+        "work_id": "wellcome-f9769f9b",
+        "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/f9769f9b",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The fresh and dried leaves of Atropia Belladonna ox deadly night- shade, gathered when the fruit has begun to form. BELLADONNA RADIX. BELLADONNA ROOT. The root of Airopia Belladonna from plants more than two years old...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-cbkqb95g-chunk-0603",
+        "work_id": "wellcome-cbkqb95g",
+        "title": "Home doctoring : a guide to domestic medicine and surgery / by W.B. Kesteven.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cbkqb95g",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Bath",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "INDEX, Abdomen, wounds of, 109 Abortion, 83 Abrasion, 20 Abscess, 71 Acne, 98 Aconite poisoning, 116 Ague, 6 Alcoholic stimulants, 144 Ammonia poisoning, 122 Animal poisons, 115 Antimony poisoning, 120 Apoplexy, 8 Ars...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1176",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Ointment"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": ") - Syrup of Ipe- cac, Syrup of Squills, Tincture of Bloodroot, Paregoric, each, one ounce. Mix. Useful for coughs. Dose, from half a teaspoonful to a teaspoonful whenever the cough is severe. Ointments. Ointment of A...",
+        "score": 42
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0296",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": ", reduce the power of the spinal system, and cause general relaxation of muscles, but they may destroy life by arresting respiration ; useful, however, in small doses in slighter irritations, as vomiting, nervous pal-...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-0922",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Narcotic poison, increasing the action of the heart, stimulating the respiratory organs, and acting as a sedative and laxative on the peri- pheral nerves. Dose of powdered leaves, 1 to 10 grains; of powdered root, 1 t...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-f9769f9b-chunk-0192",
+        "work_id": "wellcome-f9769f9b",
+        "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/f9769f9b",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The fresh and dried leaves of Atropia Belladonna ox deadly night- shade, gathered when the fruit has begun to form. BELLADONNA RADIX. BELLADONNA ROOT. The root of Airopia Belladonna from plants more than two years old...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-cbkqb95g-chunk-0603",
+        "work_id": "wellcome-cbkqb95g",
+        "title": "Home doctoring : a guide to domestic medicine and surgery / by W.B. Kesteven.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cbkqb95g",
+        "matched_herbs": [
+          "Belladonna"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Bath",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "INDEX, Abdomen, wounds of, 109 Abortion, 83 Abrasion, 20 Abscess, 71 Acne, 98 Aconite poisoning, 116 Ague, 6 Alcoholic stimulants, 144 Ammonia poisoning, 122 Animal poisons, 115 Antimony poisoning, 120 Apoplexy, 8 Ars...",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Belladonna is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 263 works and 1077 source-linked chunks. Recorded variants include Belladonna. Common plant-part co-mentions include Leaf, Root, Resin, Bark, Seed, Flower. Common preparation co-mentions include Extract, Tincture, Plaster, Oil, Powder, Ointment. Common condition co-mentions include Cold or catarrh, Rheumatism, Inflammation, Wounds or ulcers, Fever, Cough. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Allergy or sensitivity caution, Toxicity watch, Fatal-risk warning. Representative source works include Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.; The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.785Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,1099 @@
+{
+  "profile_id": "seed-carraway",
+  "family_id": "seed-carraway",
+  "canonical_name": "Carraway",
+  "canonical_key": "carraway",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-carraway-629c945971#carraway"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 468,
+    "total_chunks": 434,
+    "total_works": 146,
+    "matched_chunk_count": 434,
+    "matched_work_count": 146,
+    "matched_mention_total": 434
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Carraway",
+      "Carraway-"
+    ],
+    "sample_work_ids": [
+      "nlm-101141604",
+      "nlm-2544046R",
+      "nlm-2557010R"
+    ],
+    "sample_chunk_ids": [
+      "nlm-101141604-chunk-0210",
+      "nlm-2544046R-chunk-1432",
+      "nlm-2557010R-chunk-1399"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 254
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 182
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 287,
+        "work_count": 115
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 115,
+        "work_count": 77
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 112,
+        "work_count": 56
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 91,
+        "work_count": 62
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 87,
+        "work_count": 44
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 46,
+        "work_count": 36
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 38,
+        "work_count": 33
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 34,
+        "work_count": 29
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 11,
+        "work_count": 10
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 233,
+        "work_count": 99
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 197,
+        "work_count": 84
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 136,
+        "work_count": 64
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 77,
+        "work_count": 49
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 75,
+        "work_count": 46
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 74,
+        "work_count": 53
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 34,
+        "work_count": 21
+      },
+      {
+        "id": "cordial",
+        "label": "Cordial",
+        "signal_count": 24,
+        "work_count": 21
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 22,
+        "work_count": 22
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 20,
+        "work_count": 18
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 157,
+        "work_count": 70
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 43,
+        "work_count": 31
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 38,
+        "work_count": 31
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 59,
+        "work_count": 45
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 33,
+        "work_count": 26
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 18,
+        "work_count": 14
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 10,
+        "work_count": 10
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-dw4f7fkd",
+      "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description ... and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians / By Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1830",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/dw4f7fkd",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "wellcome-xhc5sgpw",
+      "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description, natural history, chemical analysis, and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, the Edinburgh, and the Dublin Colleges of Physicians. The whole forming a practical synopsis of materia medica, pharmacy, and therapeutics: / by Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/xhc5sgpw",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "wellcome-b7ehehck",
+      "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description ... and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians / By Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1836",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/b7ehehck",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 15
+    },
+    {
+      "work_id": "wellcome-v96wd5b4",
+      "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description ... and medicinal properties, of the substnaces of the materia medica; III, the pharmaceutical preparations and compositions of the London, Edinburgh, and Dublin Colleges of Physicians ... a practical synopsis of materia medica, pharmacy, and therapeutics : illustrated with many useful tables and copper-plates of pharmaceutical apparatus / by Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1818",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/v96wd5b4",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 15
+    },
+    {
+      "work_id": "wellcome-s7k57fgp",
+      "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description, natural history, chemical analysis, and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, the Edinburgh, and the Dublin Colleges of Physicians. The whole forming a practical synopsis of materia medica, pharmacy, and therapeutics: illustrated with many useful tables and copper-plates of pharmaceutical apparatus / By Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1822",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/s7k57fgp",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 15
+    },
+    {
+      "work_id": "wellcome-px4aqpth",
+      "title": "The London dispensatory : containing I. The elements of pharmacy, II. The botanical description, natural history ... of the materia medica, III. The pharmaceutical preparations and compositions of the Pharmacopoeias of London, Edinburgh and Dublin the whole forming a practical synopsis of materia medica, pharmacy and therapeutics / by Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/px4aqpth",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-rwdsba99",
+      "title": "The Eclectic and general dispensatory : comprehending a system of pharmacy, materia medica, the formulae of the London, Edinburgh, and Dublin pharmacopoeias, prescriptions of many eminent physicians, and receipts for the most common empirical medicines / collated from the best authorities, by an American physician.",
+      "creator": "",
+      "publication_year": "1827",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/rwdsba99",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "wellcome-djt5drpy",
+      "title": "The London dispensatory : containing, I. The elements of pharmacy; II. The botanical description, natural history,chemical analysis, and medicinal properties, of the substances of the materia medica; III. The pharmaceutical preparations and compositions of the pharmacopoeiasof the London, the Edinburgh, and the Dublin colleges of physicians : the whole forming a practical synopsis of materia medica, pharmacy, and therapeutics, illustrated with many useful tables and copper-plates of pharmaceutical apparatus / by Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1822",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/djt5drpy",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "wellcome-wg4y3uv4",
+      "title": "The London dispensatory : a practical synopsis of materia medica, pharmacy, and therapeutics : illustrated with many useful tables, and woodcuts of the pharmaceutical apparatus / by the late Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/wg4y3uv4",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-ctkumbc4",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+      "creator": "",
+      "publication_year": "1820",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-y4dht4p3-chunk-0213",
+        "work_id": "wellcome-y4dht4p3",
+        "title": "The new domestic medical manual : being a practical and familiar guide to the treatment of diseases generally; on a simplified and condensed plan: containing opinions of the most eminent practitioners; with a variety of approved and popular prescriptions; translated into English for family purposes. Also containing brief expositions of domestic surgery, with an adapted pharmacopoeia; for the use of clergymen, heads of families, captains of ships, travellers, &c. &c. With a variety of other useful information / By J. S. Forsyth.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y4dht4p3",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation"
+        ],
+        "excerpt": "To increase, how- ever, this latter effect, it has been found advan-* tageous to unite with the mercury a small propor- tion of antimonial powder, as well as of opium, to protect the bowels from irritation. To keepi u...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-64210310R-chunk-0484",
+        "work_id": "nlm-64210310R",
+        "title": "The complete herbalist, or, The people their own physicians, by the use of nature's remedies : showing the great curative properties of all herbs , gums, balsams, barks, flowers, and roots, how they should be prepared, when and under what influences selected, at what time gathered, and for what diseases administered : also separate treatises on food and drinks, clothing, exercise, the regulation of the passions, life, health and disease, longevity, medication, air and sunshine, bathing, sleep, etc. : also symptoms of prevalent diseases, special treatment in special cases, and a new and plain system of hygienic principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210310R-bk",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Ointment",
+          "Liniment",
+          "Oil",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "camphor, tincture of myrrh, and tincture of cayenne, each two drachms. Mix. Dose. -From half a teaspoonful to a teaspoonful in Diarrhoea. INJECTION. No. 54. Castor oil, oae gill; pulv. cayenne, ten grains , table salt...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-2574009R-chunk-0592",
+        "work_id": "nlm-2574009R",
+        "title": "The vegetable materia medica and practice of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FOR SALT RHEUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574009R-bk",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Colic"
+        ],
+        "excerpt": "Bateman's pectoral drops.—Castor,'two ounces; opium and oil of annis, each one ounce; camphor,'8 ounces; proof spirits, ten pints, and pulverized valerian and cochiniel, one ounce: digest for ten days and strain, and...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0537",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Rhuharb, 4 drachms; Aloes in powder 3 drachms; Myrrh in powder, 2 drachms ; Hard soap, scraped, \\ a drachm ; Oil of carraway, £ a drachm. Make up with treacle or mucilage. The Tincture of Rhubarb is one of the best st...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-rk2ty6mu-chunk-3212",
+        "work_id": "wellcome-rk2ty6mu",
+        "title": "Lexicon medicum; or medical dictionary; containing an explanation and comparative, botany, chemistry, materia medica, midwifery, pharmacy, physiology, practice of physic, surgery, and the various branches of natural philosopy, connected with medicine / Selected, arranged and compiled, from the best authors, by Robert Hooper.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rk2ty6mu",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Colic"
+        ],
+        "excerpt": "Take of hard opium powdered, six drachms; long pepper, an ounce; ginger root, two ounces ; carraway seeds, three ounces : tragacanth, powdered, two drachms ; syrup, a pint. Hub together the opium and the syrup previou...",
+        "score": 36
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-y4dht4p3-chunk-0213",
+        "work_id": "wellcome-y4dht4p3",
+        "title": "The new domestic medical manual : being a practical and familiar guide to the treatment of diseases generally; on a simplified and condensed plan: containing opinions of the most eminent practitioners; with a variety of approved and popular prescriptions; translated into English for family purposes. Also containing brief expositions of domestic surgery, with an adapted pharmacopoeia; for the use of clergymen, heads of families, captains of ships, travellers, &c. &c. With a variety of other useful information / By J. S. Forsyth.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y4dht4p3",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation"
+        ],
+        "excerpt": "To increase, how- ever, this latter effect, it has been found advan-* tageous to unite with the mercury a small propor- tion of antimonial powder, as well as of opium, to protect the bowels from irritation. To keepi u...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-64210310R-chunk-0484",
+        "work_id": "nlm-64210310R",
+        "title": "The complete herbalist, or, The people their own physicians, by the use of nature's remedies : showing the great curative properties of all herbs , gums, balsams, barks, flowers, and roots, how they should be prepared, when and under what influences selected, at what time gathered, and for what diseases administered : also separate treatises on food and drinks, clothing, exercise, the regulation of the passions, life, health and disease, longevity, medication, air and sunshine, bathing, sleep, etc. : also symptoms of prevalent diseases, special treatment in special cases, and a new and plain system of hygienic principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210310R-bk",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Ointment",
+          "Liniment",
+          "Oil",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "camphor, tincture of myrrh, and tincture of cayenne, each two drachms. Mix. Dose. -From half a teaspoonful to a teaspoonful in Diarrhoea. INJECTION. No. 54. Castor oil, oae gill; pulv. cayenne, ten grains , table salt...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-2574009R-chunk-0592",
+        "work_id": "nlm-2574009R",
+        "title": "The vegetable materia medica and practice of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FOR SALT RHEUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574009R-bk",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Colic"
+        ],
+        "excerpt": "Bateman's pectoral drops.—Castor,'two ounces; opium and oil of annis, each one ounce; camphor,'8 ounces; proof spirits, ten pints, and pulverized valerian and cochiniel, one ounce: digest for ten days and strain, and...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0537",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Rhuharb, 4 drachms; Aloes in powder 3 drachms; Myrrh in powder, 2 drachms ; Hard soap, scraped, \\ a drachm ; Oil of carraway, £ a drachm. Make up with treacle or mucilage. The Tincture of Rhubarb is one of the best st...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-rk2ty6mu-chunk-3212",
+        "work_id": "wellcome-rk2ty6mu",
+        "title": "Lexicon medicum; or medical dictionary; containing an explanation and comparative, botany, chemistry, materia medica, midwifery, pharmacy, physiology, practice of physic, surgery, and the various branches of natural philosopy, connected with medicine / Selected, arranged and compiled, from the best authors, by Robert Hooper.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rk2ty6mu",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Colic"
+        ],
+        "excerpt": "Take of hard opium powdered, six drachms; long pepper, an ounce; ginger root, two ounces ; carraway seeds, three ounces : tragacanth, powdered, two drachms ; syrup, a pint. Hub together the opium and the syrup previou...",
+        "score": 36
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-y4dht4p3-chunk-0213",
+        "work_id": "wellcome-y4dht4p3",
+        "title": "The new domestic medical manual : being a practical and familiar guide to the treatment of diseases generally; on a simplified and condensed plan: containing opinions of the most eminent practitioners; with a variety of approved and popular prescriptions; translated into English for family purposes. Also containing brief expositions of domestic surgery, with an adapted pharmacopoeia; for the use of clergymen, heads of families, captains of ships, travellers, &c. &c. With a variety of other useful information / By J. S. Forsyth.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y4dht4p3",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation"
+        ],
+        "excerpt": "To increase, how- ever, this latter effect, it has been found advan-* tageous to unite with the mercury a small propor- tion of antimonial powder, as well as of opium, to protect the bowels from irritation. To keepi u...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-64210310R-chunk-0484",
+        "work_id": "nlm-64210310R",
+        "title": "The complete herbalist, or, The people their own physicians, by the use of nature's remedies : showing the great curative properties of all herbs , gums, balsams, barks, flowers, and roots, how they should be prepared, when and under what influences selected, at what time gathered, and for what diseases administered : also separate treatises on food and drinks, clothing, exercise, the regulation of the passions, life, health and disease, longevity, medication, air and sunshine, bathing, sleep, etc. : also symptoms of prevalent diseases, special treatment in special cases, and a new and plain system of hygienic principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210310R-bk",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Ointment",
+          "Liniment",
+          "Oil",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "camphor, tincture of myrrh, and tincture of cayenne, each two drachms. Mix. Dose. -From half a teaspoonful to a teaspoonful in Diarrhoea. INJECTION. No. 54. Castor oil, oae gill; pulv. cayenne, ten grains , table salt...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-2574009R-chunk-0592",
+        "work_id": "nlm-2574009R",
+        "title": "The vegetable materia medica and practice of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FOR SALT RHEUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574009R-bk",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Colic"
+        ],
+        "excerpt": "Bateman's pectoral drops.—Castor,'two ounces; opium and oil of annis, each one ounce; camphor,'8 ounces; proof spirits, ten pints, and pulverized valerian and cochiniel, one ounce: digest for ten days and strain, and...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0537",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Rhuharb, 4 drachms; Aloes in powder 3 drachms; Myrrh in powder, 2 drachms ; Hard soap, scraped, \\ a drachm ; Oil of carraway, £ a drachm. Make up with treacle or mucilage. The Tincture of Rhubarb is one of the best st...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-rk2ty6mu-chunk-3212",
+        "work_id": "wellcome-rk2ty6mu",
+        "title": "Lexicon medicum; or medical dictionary; containing an explanation and comparative, botany, chemistry, materia medica, midwifery, pharmacy, physiology, practice of physic, surgery, and the various branches of natural philosopy, connected with medicine / Selected, arranged and compiled, from the best authors, by Robert Hooper.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rk2ty6mu",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Colic"
+        ],
+        "excerpt": "Take of hard opium powdered, six drachms; long pepper, an ounce; ginger root, two ounces ; carraway seeds, three ounces : tragacanth, powdered, two drachms ; syrup, a pint. Hub together the opium and the syrup previou...",
+        "score": 36
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-y4dht4p3-chunk-0213",
+        "work_id": "wellcome-y4dht4p3",
+        "title": "The new domestic medical manual : being a practical and familiar guide to the treatment of diseases generally; on a simplified and condensed plan: containing opinions of the most eminent practitioners; with a variety of approved and popular prescriptions; translated into English for family purposes. Also containing brief expositions of domestic surgery, with an adapted pharmacopoeia; for the use of clergymen, heads of families, captains of ships, travellers, &c. &c. With a variety of other useful information / By J. S. Forsyth.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y4dht4p3",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation"
+        ],
+        "excerpt": "To increase, how- ever, this latter effect, it has been found advan-* tageous to unite with the mercury a small propor- tion of antimonial powder, as well as of opium, to protect the bowels from irritation. To keepi u...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-64210310R-chunk-0484",
+        "work_id": "nlm-64210310R",
+        "title": "The complete herbalist, or, The people their own physicians, by the use of nature's remedies : showing the great curative properties of all herbs , gums, balsams, barks, flowers, and roots, how they should be prepared, when and under what influences selected, at what time gathered, and for what diseases administered : also separate treatises on food and drinks, clothing, exercise, the regulation of the passions, life, health and disease, longevity, medication, air and sunshine, bathing, sleep, etc. : also symptoms of prevalent diseases, special treatment in special cases, and a new and plain system of hygienic principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210310R-bk",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Ointment",
+          "Liniment",
+          "Oil",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "camphor, tincture of myrrh, and tincture of cayenne, each two drachms. Mix. Dose. -From half a teaspoonful to a teaspoonful in Diarrhoea. INJECTION. No. 54. Castor oil, oae gill; pulv. cayenne, ten grains , table salt...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-2574009R-chunk-0592",
+        "work_id": "nlm-2574009R",
+        "title": "The vegetable materia medica and practice of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "FOR SALT RHEUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574009R-bk",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Colic"
+        ],
+        "excerpt": "Bateman's pectoral drops.—Castor,'two ounces; opium and oil of annis, each one ounce; camphor,'8 ounces; proof spirits, ten pints, and pulverized valerian and cochiniel, one ounce: digest for ten days and strain, and...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0537",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Rhuharb, 4 drachms; Aloes in powder 3 drachms; Myrrh in powder, 2 drachms ; Hard soap, scraped, \\ a drachm ; Oil of carraway, £ a drachm. Make up with treacle or mucilage. The Tincture of Rhubarb is one of the best st...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-rk2ty6mu-chunk-3212",
+        "work_id": "wellcome-rk2ty6mu",
+        "title": "Lexicon medicum; or medical dictionary; containing an explanation and comparative, botany, chemistry, materia medica, midwifery, pharmacy, physiology, practice of physic, surgery, and the various branches of natural philosopy, connected with medicine / Selected, arranged and compiled, from the best authors, by Robert Hooper.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rk2ty6mu",
+        "matched_herbs": [
+          "Carraway"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Colic"
+        ],
+        "excerpt": "Take of hard opium powdered, six drachms; long pepper, an ounce; ginger root, two ounces ; carraway seeds, three ounces : tragacanth, powdered, two drachms ; syrup, a pint. Hub together the opium and the syrup previou...",
+        "score": 36
+      }
+    ]
+  },
+  "retrieval_text": "Carraway is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 146 works and 434 source-linked chunks. Recorded variants include Carraway, Carraway-. Common plant-part co-mentions include Seed, Root, Leaf, Flower, Berry, Bark. Common preparation co-mentions include Oil, Powder, Syrup, Pill, Extract, Tincture. Common condition co-mentions include Cold or catarrh, Colic, Constipation, Gout, Cough, Dropsy. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Pregnancy caution, Allergy or sensitivity caution, Bleeding caution. Representative source works include The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description ... and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians / By Anthony Todd Thomson.; The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description, natural history, chemical analysis, and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, the Edinburgh, and the Dublin Colleges of Physicians. The whole forming a practical synopsis of materia medica, pharmacy, and therapeutics: / by Anthony Todd Thomson.; The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description ... and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians / By Anthony Todd Thomson.; The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description ... and medicinal properties, of the substnaces of the materia medica; III, the pharmaceutical preparations and compositions of the London, Edinburgh, and Dublin Colleges of Physicians ... a practical synopsis of materia medica, pharmacy, and therapeutics : illustrated with many useful tables and copper-plates of pharmaceutical apparatus / by Anthony Todd Thomson.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.912Z",
+  "builder": "build-herb-profiles.mjs"
+}

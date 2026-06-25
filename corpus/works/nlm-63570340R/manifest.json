@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63570340R",
+  "title": "The families' new guide to health : giving a description of the diseases to which families are subject, and their treatment : also instructions how to prepare their medicines, and administer them with safety : with a history of the origin and progress of spasmodic cholera, and the most successful plan of treatment : together with an exposition of the Thomsonian preparations of medicine, as given in the New York medical and physical journal (vol.1, new series), taken from the original specification at the Patent Office",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570340R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63570340R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63570340R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 275,
+  "paragraphCount": 382,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570340R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570340R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63570340R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63570340R.jsonl",
+  "rawSha256": "0bcf8c73d66728b069245290c30cab19824daf9b9cd09d2e23be103383cb7fd6",
+  "normalizedSha256": "ac1418bb3e6e89dbc2a680e6535e5624145ecdac11b8eca750b26205e4d58400",
+  "processedAt": "2026-06-20T02:47:23.705Z"
+}

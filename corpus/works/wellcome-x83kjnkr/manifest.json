@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-x83kjnkr",
+  "title": "Histoire abrégée des drogues simples / par N.-J.-B.-G. Guibourt.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/x83kjnkr",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21297447",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/x83kjnkr",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;botany",
+  "chunkCount": 3110,
+  "paragraphCount": 3173,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-x83kjnkr\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-x83kjnkr\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-x83kjnkr\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-x83kjnkr.jsonl",
+  "rawSha256": "a18564202607d5313fb713adc4ca85d7c14a7f7a718c4cd63ff8a47e7dc03f8c",
+  "normalizedSha256": "99c28886b2228be2bc1449dc5b580158c523d84ef792a59c340c2f39611dbed1",
+  "processedAt": "2026-06-16T23:08:23.163Z"
+}

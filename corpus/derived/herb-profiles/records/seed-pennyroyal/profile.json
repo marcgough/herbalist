@@ -1,0 +1,1162 @@
+{
+  "profile_id": "seed-pennyroyal",
+  "family_id": "seed-pennyroyal",
+  "canonical_name": "Pennyroyal",
+  "canonical_key": "pennyroyal",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-pennyroyal-e710e82113#pennyroyal"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 925,
+    "total_chunks": 905,
+    "total_works": 382,
+    "matched_chunk_count": 905,
+    "matched_work_count": 382,
+    "matched_mention_total": 905
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Pennyroyal",
+      "Penny-royal"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0834",
+      "nlm-0140313-chunk-0858",
+      "nlm-0140313-chunk-1835"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 499
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 378
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 38
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 182,
+        "work_count": 149
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 98,
+        "work_count": 95
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 73,
+        "work_count": 61
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 56,
+        "work_count": 50
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 54,
+        "work_count": 51
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 42,
+        "work_count": 36
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 40,
+        "work_count": 35
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 21,
+        "work_count": 21
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 631,
+        "work_count": 248
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 345,
+        "work_count": 230
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 196,
+        "work_count": 127
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 126,
+        "work_count": 85
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 118,
+        "work_count": 58
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 98,
+        "work_count": 87
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 90,
+        "work_count": 89
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 87,
+        "work_count": 76
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 71,
+        "work_count": 55
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 53,
+        "work_count": 48
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 220,
+        "work_count": 156
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 135,
+        "work_count": 106
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 99,
+        "work_count": 84
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 49,
+        "work_count": 48
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 32,
+        "work_count": 32
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 28,
+        "work_count": 28
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 18,
+        "work_count": 18
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 147,
+        "work_count": 137
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 137,
+        "work_count": 100
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 112,
+        "work_count": 95
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 84,
+        "work_count": 84
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 76,
+        "work_count": 76
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 65,
+        "work_count": 56
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 50,
+        "work_count": 47
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 38,
+        "work_count": 32
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 31,
+        "work_count": 31
+      },
+      {
+        "id": "headache",
+        "label": "Headache",
+        "signal_count": 25,
+        "work_count": 23
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-100912803",
+      "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-9435910",
+      "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-mv32s6ry",
+      "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1856",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/mv32s6ry",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-63570990R",
+      "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-0140313",
+      "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants;domestic-medicine;hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-61830190R",
+      "title": "The American botanic medical family instructor : founded upon the theory and practice of vegetable medicines, with remarks on the different practices of medicine, and natural laws : anatomy and physiology, and the preservation of health, a description of medical plants, and the art of compounding medicines, and a general treatment of diseases, compiled from various sources, particularly designed for family use",
+      "creator": "Taylor, Jeremy.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61830190R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-63620390R",
+      "title": "The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses",
+      "creator": "Teter, H. (Henry)",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620390R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-7704741",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-64220910R-chunk-0290",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING OR SPITTING OF BLOOD",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "This consists of a number of very small vesicular blis- ters close together, and forming a circle. The eruption is attended with itching and a tingling sensation. Treatment. —Give the compound decoction of sarsapar- i...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-61830190R-chunk-0615",
+        "work_id": "nlm-61830190R",
+        "title": "The American botanic medical family instructor : founded upon the theory and practice of vegetable medicines, with remarks on the different practices of medicine, and natural laws : anatomy and physiology, and the preservation of health, a description of medical plants, and the art of compounding medicines, and a general treatment of diseases, compiled from various sources, particularly designed for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "COSTIVENESS,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61830190R-bk",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Plaster",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Colic",
+          "Smallpox",
+          "Measles"
+        ],
+        "excerpt": "Meadow fern ointment, 145 Sleep, 113 Mode of administering Sumach, 121 medicine, 161 Suppression of the mens es, 254 Mumps, 190 Scurvy, 240 Measles, 174 Scullcap, 124 Mandrake, 127 Slipperykm, Skunk Cabbage, 127 Meado...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0016",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Gargle",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "Astringent, tonic, antiseptic. Makes a good cleansing gargle in sore and putrid throat. Useful in diarrhoea. 57. PARSLEY PIERT or BREAKSTONE (Alcheniilla arvensis). Diuretic. Dargely prescribed for gravel, stone, and...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-2959",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "PENNYROYAL. Hedeoma Pulegioides. ThisweH-known annual plant is stimulant, diaphoretic, emmenagogue, and carminative. It is generally employed in warm Infusion to promote perspiration, restore suppressed lochia, and su...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-vdz5naq9-chunk-0193",
+        "work_id": "wellcome-vdz5naq9",
+        "title": "The botanic pharmacopœia : comprising the materia medica, doses and preparations of the medicines employed in the botanic practice / by J.G. Hatfield.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/vdz5naq9",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Measles"
+        ],
+        "excerpt": "It is given in small doses in coughs, colds, and catarrhal affections, asthma, bronchitis, in haemorrhage from the lungs, uterus, and other organs, and in diarrhoea and dysentery; in still smaller doses it is valuable...",
+        "score": 48
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-64220910R-chunk-0290",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING OR SPITTING OF BLOOD",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "This consists of a number of very small vesicular blis- ters close together, and forming a circle. The eruption is attended with itching and a tingling sensation. Treatment. —Give the compound decoction of sarsapar- i...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-61830190R-chunk-0615",
+        "work_id": "nlm-61830190R",
+        "title": "The American botanic medical family instructor : founded upon the theory and practice of vegetable medicines, with remarks on the different practices of medicine, and natural laws : anatomy and physiology, and the preservation of health, a description of medical plants, and the art of compounding medicines, and a general treatment of diseases, compiled from various sources, particularly designed for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "COSTIVENESS,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61830190R-bk",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Plaster",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Colic",
+          "Smallpox",
+          "Measles"
+        ],
+        "excerpt": "Meadow fern ointment, 145 Sleep, 113 Mode of administering Sumach, 121 medicine, 161 Suppression of the mens es, 254 Mumps, 190 Scurvy, 240 Measles, 174 Scullcap, 124 Mandrake, 127 Slipperykm, Skunk Cabbage, 127 Meado...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0016",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Gargle",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "Astringent, tonic, antiseptic. Makes a good cleansing gargle in sore and putrid throat. Useful in diarrhoea. 57. PARSLEY PIERT or BREAKSTONE (Alcheniilla arvensis). Diuretic. Dargely prescribed for gravel, stone, and...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-2959",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "PENNYROYAL. Hedeoma Pulegioides. ThisweH-known annual plant is stimulant, diaphoretic, emmenagogue, and carminative. It is generally employed in warm Infusion to promote perspiration, restore suppressed lochia, and su...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-vdz5naq9-chunk-0193",
+        "work_id": "wellcome-vdz5naq9",
+        "title": "The botanic pharmacopœia : comprising the materia medica, doses and preparations of the medicines employed in the botanic practice / by J.G. Hatfield.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/vdz5naq9",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Measles"
+        ],
+        "excerpt": "It is given in small doses in coughs, colds, and catarrhal affections, asthma, bronchitis, in haemorrhage from the lungs, uterus, and other organs, and in diarrhoea and dysentery; in still smaller doses it is valuable...",
+        "score": 48
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-64220910R-chunk-0290",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING OR SPITTING OF BLOOD",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "This consists of a number of very small vesicular blis- ters close together, and forming a circle. The eruption is attended with itching and a tingling sensation. Treatment. —Give the compound decoction of sarsapar- i...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-61830190R-chunk-0615",
+        "work_id": "nlm-61830190R",
+        "title": "The American botanic medical family instructor : founded upon the theory and practice of vegetable medicines, with remarks on the different practices of medicine, and natural laws : anatomy and physiology, and the preservation of health, a description of medical plants, and the art of compounding medicines, and a general treatment of diseases, compiled from various sources, particularly designed for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "COSTIVENESS,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61830190R-bk",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Plaster",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Colic",
+          "Smallpox",
+          "Measles"
+        ],
+        "excerpt": "Meadow fern ointment, 145 Sleep, 113 Mode of administering Sumach, 121 medicine, 161 Suppression of the mens es, 254 Mumps, 190 Scurvy, 240 Measles, 174 Scullcap, 124 Mandrake, 127 Slipperykm, Skunk Cabbage, 127 Meado...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0016",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Gargle",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "Astringent, tonic, antiseptic. Makes a good cleansing gargle in sore and putrid throat. Useful in diarrhoea. 57. PARSLEY PIERT or BREAKSTONE (Alcheniilla arvensis). Diuretic. Dargely prescribed for gravel, stone, and...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-2959",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "PENNYROYAL. Hedeoma Pulegioides. ThisweH-known annual plant is stimulant, diaphoretic, emmenagogue, and carminative. It is generally employed in warm Infusion to promote perspiration, restore suppressed lochia, and su...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-vdz5naq9-chunk-0193",
+        "work_id": "wellcome-vdz5naq9",
+        "title": "The botanic pharmacopœia : comprising the materia medica, doses and preparations of the medicines employed in the botanic practice / by J.G. Hatfield.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/vdz5naq9",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Measles"
+        ],
+        "excerpt": "It is given in small doses in coughs, colds, and catarrhal affections, asthma, bronchitis, in haemorrhage from the lungs, uterus, and other organs, and in diarrhoea and dysentery; in still smaller doses it is valuable...",
+        "score": 48
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-64220910R-chunk-0290",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLEEDING OR SPITTING OF BLOOD",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "This consists of a number of very small vesicular blis- ters close together, and forming a circle. The eruption is attended with itching and a tingling sensation. Treatment. —Give the compound decoction of sarsapar- i...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0016",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Gargle",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Colic",
+          "Measles"
+        ],
+        "excerpt": "Astringent, tonic, antiseptic. Makes a good cleansing gargle in sore and putrid throat. Useful in diarrhoea. 57. PARSLEY PIERT or BREAKSTONE (Alcheniilla arvensis). Diuretic. Dargely prescribed for gravel, stone, and...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-2959",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "PENNYROYAL. Hedeoma Pulegioides. ThisweH-known annual plant is stimulant, diaphoretic, emmenagogue, and carminative. It is generally employed in warm Infusion to promote perspiration, restore suppressed lochia, and su...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-vdz5naq9-chunk-0193",
+        "work_id": "wellcome-vdz5naq9",
+        "title": "The botanic pharmacopœia : comprising the materia medica, doses and preparations of the medicines employed in the botanic practice / by J.G. Hatfield.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/vdz5naq9",
+        "matched_herbs": [
+          "Pennyroyal"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Measles"
+        ],
+        "excerpt": "It is given in small doses in coughs, colds, and catarrhal affections, asthma, bronchitis, in haemorrhage from the lungs, uterus, and other organs, and in diarrhoea and dysentery; in still smaller doses it is valuable...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-zk8kqddq-chunk-1294",
+        "work_id": "wellcome-zk8kqddq",
+        "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plants : also, the nurse's guide / by James Ewell.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zk8kqddq",
+        "matched_herbs": [
+          "Penny-royal"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "If, not* withstanding these means, the pain become violent, it will be pro- per to give a tea-spoonful of the diaphoretic drops, or four or five grains of Dover's powders, or one of the camphorated powders, («ce Dispe...",
+        "score": 46
+      }
+    ]
+  },
+  "retrieval_text": "Pennyroyal is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 382 works and 905 source-linked chunks. Recorded variants include Pennyroyal, Penny-royal. Common plant-part co-mentions include Root, Gum, Leaf, Bark, Seed, Berry. Common preparation co-mentions include Tea, Oil, Tincture, Powder, Emetic, Syrup. Common condition co-mentions include Cough, Cold or catarrh, Vomiting or nausea, Diarrhoea or looseness, Rheumatism, Fever. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Bleeding caution, Allergy or sensitivity caution, Toxicity watch. Representative source works include Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants; Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc; The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.; An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.813Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Herbalisti is a high-technology natural medicine and longevity knowledge space for self-sovereign wellbeing."
+    />
+    <meta name="application-name" content="Herbalisti" />
+    <meta name="apple-mobile-web-app-title" content="Herbalisti" />
+    <meta name="theme-color" content="#cfe8e7" />
+    <meta property="og:site_name" content="Herbalisti" />
+    <meta property="og:title" content="Herbalisti | Self-sovereign health intelligence" />
+    <meta
+      property="og:description"
+      content="A high-technology natural medicine and longevity knowledge space for self-sovereign wellbeing."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://herbalisti.com/" />
+    <meta property="og:image" content="https://herbalisti.com/assets/herbalisti-hero.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Herbalisti | Self-sovereign health intelligence" />
+    <meta
+      name="twitter:description"
+      content="A high-technology natural medicine and longevity knowledge space for self-sovereign wellbeing."
+    />
+    <meta name="twitter:image" content="https://herbalisti.com/assets/herbalisti-hero.png" />
+    <link rel="canonical" href="https://herbalisti.com/" />
+    <link rel="alternate" type="application/rss+xml" title="Herbalisti Signals" href="https://herbalisti.com/api/signals.xml" />
+    <link
+      rel="search"
+      type="application/opensearchdescription+xml"
+      title="Herbalisti Search"
+      href="https://herbalisti.com/opensearch.xml"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <script id="herbalisti-structured-data" type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://herbalisti.com/#organization",
+            "name": "Herbalisti",
+            "url": "https://herbalisti.com/",
+            "logo": "https://herbalisti.com/assets/herbalisti-logo.svg",
+            "image": "https://herbalisti.com/assets/herbalisti-hero.png",
+            "description": "Self-sovereign health intelligence for natural medicine, longevity science, and independent research signals."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://herbalisti.com/#website",
+            "name": "Herbalisti",
+            "url": "https://herbalisti.com/",
+            "publisher": { "@id": "https://herbalisti.com/#organization" },
+            "inLanguage": "en",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://herbalisti.com/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://herbalisti.com/#webpage",
+            "url": "https://herbalisti.com/",
+            "name": "Herbalisti | Self-sovereign health intelligence",
+            "isPartOf": { "@id": "https://herbalisti.com/#website" },
+            "primaryImageOfPage": "https://herbalisti.com/assets/herbalisti-hero.png",
+            "about": [
+              "natural medicine",
+              "longevity science",
+              "public-domain herbal references",
+              "independent research signals"
+            ],
+            "description": "A high-technology natural medicine and longevity knowledge space for self-sovereign wellbeing."
+          },
+          {
+            "@type": "DataCatalog",
+            "@id": "https://herbalisti.com/data/#catalog",
+            "name": "Herbalisti public research data catalog",
+            "url": "https://herbalisti.com/source-policy",
+            "isAccessibleForFree": true,
+            "publisher": { "@id": "https://herbalisti.com/#organization" },
+            "dataset": [
+              { "@id": "https://herbalisti.com/data/reference-books.json#dataset" },
+              { "@id": "https://herbalisti.com/data/herbal-knowledge.json#dataset" },
+              { "@id": "https://herbalisti.com/data/remedies.json#dataset" },
+              { "@id": "https://herbalisti.com/data/citation-notes.json#dataset" },
+              { "@id": "https://herbalisti.com/data/sources.json#dataset" }
+            ]
+          },
+          {
+            "@type": "Dataset",
+            "@id": "https://herbalisti.com/data/reference-books.json#dataset",
+            "name": "Herbalisti reference book index",
+            "url": "https://herbalisti.com/data/reference-books.json",
+            "isAccessibleForFree": true,
+            "creator": { "@id": "https://herbalisti.com/#organization" },
+            "usageInfo": "Bibliographic metadata and rights-cleared source-index records only; no copied book text or personalized advice."
+          },
+          {
+            "@type": "Dataset",
+            "@id": "https://herbalisti.com/data/herbal-knowledge.json#dataset",
+            "name": "Herbalisti public-domain herbal commons",
+            "url": "https://herbalisti.com/data/herbal-knowledge.json",
+            "isAccessibleForFree": true,
+            "creator": { "@id": "https://herbalisti.com/#organization" },
+            "usageInfo": "Rights-cleared historical source index for educational retrieval; not medical advice, diagnosis, treatment, or prescription."
+          },
+          {
+            "@type": "DataFeed",
+            "@id": "https://herbalisti.com/api/signals.xml#feed",
+            "name": "Herbalisti Signals",
+            "url": "https://herbalisti.com/api/signals.xml",
+            "isAccessibleForFree": true,
+            "description": "Allowlisted public-source signals for longevity and frontier biology topics with Big Pharma-related channels excluded by default."
+          }
+        ]
+      }
+    </script>
+    <title>Herbalisti | Self-sovereign health intelligence</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

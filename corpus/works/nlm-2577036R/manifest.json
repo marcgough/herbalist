@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2577036R",
+  "title": "Pharmacopoeia chirurgica, or, A manual of chirurgical pharmacy : comprising all the valuable formulae of the new London pharmacopoeia , and of the several pharmacopoeiae appertaining to this branch of science, with notes and observations, as well on the method of compounding, as likewise on the properties and use of each",
+  "creator": "Wilson, James, 1765-1821.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2577036R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2577036R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2577036R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 381,
+  "paragraphCount": 659,
+  "sectionCount": 9,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2577036R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2577036R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2577036R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2577036R.jsonl",
+  "rawSha256": "52259bff02bd22ad010c47909550d1efbe60e6ad2789b47b95168919c1f7b070",
+  "normalizedSha256": "c0dd4374bacbb9d39f8f9ecca1e4a3c4672a2252d39ec2b0c9c34d8637bbcfcf",
+  "processedAt": "2026-06-18T01:54:43.869Z"
+}

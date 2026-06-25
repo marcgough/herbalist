@@ -1,0 +1,1061 @@
+{
+  "profile_id": "seed-cucumber",
+  "family_id": "seed-cucumber",
+  "canonical_name": "Cucumber",
+  "canonical_key": "cucumber",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-cucumber-dd832404e8#cucumber"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 179,
+    "total_chunks": 176,
+    "total_works": 146,
+    "matched_chunk_count": 176,
+    "matched_work_count": 146,
+    "matched_mention_total": 177
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Cucumber",
+      "Cucumbers"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0937",
+      "nlm-0217313-chunk-1007",
+      "nlm-0217315-chunk-0947"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 130
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 34
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 14
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 102,
+        "work_count": 95
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 49,
+        "work_count": 42
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 31,
+        "work_count": 29
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 25,
+        "work_count": 24
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 8,
+        "work_count": 7
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "preparations": [
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 31,
+        "work_count": 26
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 31,
+        "work_count": 20
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 12,
+        "work_count": 10
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 12,
+        "work_count": 5
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "gargle",
+        "label": "Gargle",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 6,
+        "work_count": 6
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 24,
+        "work_count": 21
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 36,
+        "work_count": 35
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 26,
+        "work_count": 26
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 20,
+        "work_count": 20
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 19,
+        "work_count": 19
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 16,
+        "work_count": 15
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 6,
+        "work_count": 5
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 4,
+        "work_count": 3
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-101646220",
+      "title": "A manual of organic materia medica : being a guide to materia medica of the vegetable and animal kingdoms, for the use of students, druggists, pharmacists, and physicians",
+      "creator": "Maisch, John M. (John Michael), 1831-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101646220-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-101646240",
+      "title": "A manual of organic materia medica : being a guide to materia medica of the vegetable and animal kingdoms : for the use of students, druggists, pharmacists and physicians",
+      "creator": "Maisch, John M. (John Michael), 1831-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101646240-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "nlm-101646219",
+      "title": "A manual of organic materia medica : being a guide to materia medica of the vegetable and animal kingdoms : for the use of students, druggists, pharmacists, and physicians",
+      "creator": "Maisch, John M. (John Michael), 1831-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101646219-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "nlm-2571053R",
+      "title": "Flora Carolinaeensis : or, A historical, medical, and economical display of the vegetable kingdom : according to the Linnaean, or sexual system of botany : being a collection or compilation of various plants hitherto discovered and made known by the several authors on botany, &c. : in two volumes",
+      "creator": "Shecut, John L. E. W. (John Linnaeus Edward Whitridge), 1770-1836.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2571053R-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-2553033R-chunk-1530",
+        "work_id": "nlm-2553033R",
+        "title": "The medical companion : treating, according to the most successful practice, I. The diseases common to warm climates and on ship board. II. Common cases in surgery, as fractures, dislocations, &c. III. The complaints peculiar to women and children. With a dispensatory and glossary. To which are added, a brief anatomy of the human body; an essay on hygieine [sic] or the art of preserving health and prolonging life; an American materia medica , instructing country gentlemen in the very important knowledge of the virtues and doses of our medicinal plants; also, a concise and impartial history of the capture of Washington and the diseases which sprung from that most deplorable disaster",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "B",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2553033R-bk",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "Cucumber root - - 516 Cullen, Dr. cured of a can- cer by nightshade 564 ___celebrates horse-radish in hoarseness - 546 Cure-all - - 517 Currants, properties of ib. Currie, Dr. recommends the affusion of cold water in...",
+        "score": 31
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-4026",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dysentery"
+        ],
+        "excerpt": "(AUGUSTIN ; NIEMANN) R. Extract of Nux Vomica, - Mucilage of Gum Arabic, one ounce. Spring Water, six ounces. Mix. —It is extolled by HurELAND, in dysentery. —Dose, two spoonfuls every two hours. —One ounce of syrup m...",
+        "score": 31
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-7385",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dysentery"
+        ],
+        "excerpt": "—Dose, one every morning, fasting ; encreasing one every week. NIEMANN has successfully employed, in spasmodic cardialgia, [a very rare disease, Eprr. ] pills of one grain, made with one part of extract and five parts...",
+        "score": 31
+      },
+      {
+        "chunk_id": "nlm-61760120R-chunk-1091",
+        "work_id": "nlm-61760120R",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61760120R-bk",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Dysentery"
+        ],
+        "excerpt": "Very good thatch. Green corn de- MAYZEA. 241 MENTHA. 242 licate food, but heavy and breeding worms in children. A black acid oil is distilled by descension from the cobs in Kentucky, used to cure ringworms. The meal e...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-jemf85pr-chunk-1064",
+        "work_id": "wellcome-jemf85pr",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America : containing a selection of above 100 figures and descriptions of medical plants, with their names, qualities, properties, history, &c.: and notes or remarks on nearly 500 equivalent substitutes / by C. S. Rafinesque.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jemf85pr",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Dysentery"
+        ],
+        "excerpt": "Very good thatch. Green corn de- licate food, but heavy and breeding worms in children. A black acid oil is distilled by descension from the cobs in Kentucky, used to cure ringworms. The meal eaten in cakes, bread, pu...",
+        "score": 30
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-2553033R-chunk-1530",
+        "work_id": "nlm-2553033R",
+        "title": "The medical companion : treating, according to the most successful practice, I. The diseases common to warm climates and on ship board. II. Common cases in surgery, as fractures, dislocations, &c. III. The complaints peculiar to women and children. With a dispensatory and glossary. To which are added, a brief anatomy of the human body; an essay on hygieine [sic] or the art of preserving health and prolonging life; an American materia medica , instructing country gentlemen in the very important knowledge of the virtues and doses of our medicinal plants; also, a concise and impartial history of the capture of Washington and the diseases which sprung from that most deplorable disaster",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "B",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2553033R-bk",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "Cucumber root - - 516 Cullen, Dr. cured of a can- cer by nightshade 564 ___celebrates horse-radish in hoarseness - 546 Cure-all - - 517 Currants, properties of ib. Currie, Dr. recommends the affusion of cold water in...",
+        "score": 31
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-4026",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dysentery"
+        ],
+        "excerpt": "(AUGUSTIN ; NIEMANN) R. Extract of Nux Vomica, - Mucilage of Gum Arabic, one ounce. Spring Water, six ounces. Mix. —It is extolled by HurELAND, in dysentery. —Dose, two spoonfuls every two hours. —One ounce of syrup m...",
+        "score": 31
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-7385",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dysentery"
+        ],
+        "excerpt": "—Dose, one every morning, fasting ; encreasing one every week. NIEMANN has successfully employed, in spasmodic cardialgia, [a very rare disease, Eprr. ] pills of one grain, made with one part of extract and five parts...",
+        "score": 31
+      },
+      {
+        "chunk_id": "nlm-61760120R-chunk-1091",
+        "work_id": "nlm-61760120R",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61760120R-bk",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Dysentery"
+        ],
+        "excerpt": "Very good thatch. Green corn de- MAYZEA. 241 MENTHA. 242 licate food, but heavy and breeding worms in children. A black acid oil is distilled by descension from the cobs in Kentucky, used to cure ringworms. The meal e...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-jemf85pr-chunk-1064",
+        "work_id": "wellcome-jemf85pr",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America : containing a selection of above 100 figures and descriptions of medical plants, with their names, qualities, properties, history, &c.: and notes or remarks on nearly 500 equivalent substitutes / by C. S. Rafinesque.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jemf85pr",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Dysentery"
+        ],
+        "excerpt": "Very good thatch. Green corn de- licate food, but heavy and breeding worms in children. A black acid oil is distilled by descension from the cobs in Kentucky, used to cure ringworms. The meal eaten in cakes, bread, pu...",
+        "score": 30
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-2553033R-chunk-1530",
+        "work_id": "nlm-2553033R",
+        "title": "The medical companion : treating, according to the most successful practice, I. The diseases common to warm climates and on ship board. II. Common cases in surgery, as fractures, dislocations, &c. III. The complaints peculiar to women and children. With a dispensatory and glossary. To which are added, a brief anatomy of the human body; an essay on hygieine [sic] or the art of preserving health and prolonging life; an American materia medica , instructing country gentlemen in the very important knowledge of the virtues and doses of our medicinal plants; also, a concise and impartial history of the capture of Washington and the diseases which sprung from that most deplorable disaster",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "B",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2553033R-bk",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "Cucumber root - - 516 Cullen, Dr. cured of a can- cer by nightshade 564 ___celebrates horse-radish in hoarseness - 546 Cure-all - - 517 Currants, properties of ib. Currie, Dr. recommends the affusion of cold water in...",
+        "score": 31
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-4026",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dysentery"
+        ],
+        "excerpt": "(AUGUSTIN ; NIEMANN) R. Extract of Nux Vomica, - Mucilage of Gum Arabic, one ounce. Spring Water, six ounces. Mix. —It is extolled by HurELAND, in dysentery. —Dose, two spoonfuls every two hours. —One ounce of syrup m...",
+        "score": 31
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-7385",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dysentery"
+        ],
+        "excerpt": "—Dose, one every morning, fasting ; encreasing one every week. NIEMANN has successfully employed, in spasmodic cardialgia, [a very rare disease, Eprr. ] pills of one grain, made with one part of extract and five parts...",
+        "score": 31
+      },
+      {
+        "chunk_id": "nlm-61760120R-chunk-1091",
+        "work_id": "nlm-61760120R",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61760120R-bk",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Dysentery"
+        ],
+        "excerpt": "Very good thatch. Green corn de- MAYZEA. 241 MENTHA. 242 licate food, but heavy and breeding worms in children. A black acid oil is distilled by descension from the cobs in Kentucky, used to cure ringworms. The meal e...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-jemf85pr-chunk-1064",
+        "work_id": "wellcome-jemf85pr",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America : containing a selection of above 100 figures and descriptions of medical plants, with their names, qualities, properties, history, &c.: and notes or remarks on nearly 500 equivalent substitutes / by C. S. Rafinesque.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jemf85pr",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Dysentery"
+        ],
+        "excerpt": "Very good thatch. Green corn de- licate food, but heavy and breeding worms in children. A black acid oil is distilled by descension from the cobs in Kentucky, used to cure ringworms. The meal eaten in cakes, bread, pu...",
+        "score": 30
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-4026",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dysentery"
+        ],
+        "excerpt": "(AUGUSTIN ; NIEMANN) R. Extract of Nux Vomica, - Mucilage of Gum Arabic, one ounce. Spring Water, six ounces. Mix. —It is extolled by HurELAND, in dysentery. —Dose, two spoonfuls every two hours. —One ounce of syrup m...",
+        "score": 31
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-7385",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dysentery"
+        ],
+        "excerpt": "—Dose, one every morning, fasting ; encreasing one every week. NIEMANN has successfully employed, in spasmodic cardialgia, [a very rare disease, Eprr. ] pills of one grain, made with one part of extract and five parts...",
+        "score": 31
+      },
+      {
+        "chunk_id": "nlm-61760120R-chunk-1091",
+        "work_id": "nlm-61760120R",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61760120R-bk",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Dysentery"
+        ],
+        "excerpt": "Very good thatch. Green corn de- MAYZEA. 241 MENTHA. 242 licate food, but heavy and breeding worms in children. A black acid oil is distilled by descension from the cobs in Kentucky, used to cure ringworms. The meal e...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-jemf85pr-chunk-1064",
+        "work_id": "wellcome-jemf85pr",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America : containing a selection of above 100 figures and descriptions of medical plants, with their names, qualities, properties, history, &c.: and notes or remarks on nearly 500 equivalent substitutes / by C. S. Rafinesque.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jemf85pr",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum",
+          "Resin"
+        ],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Dysentery"
+        ],
+        "excerpt": "Very good thatch. Green corn de- licate food, but heavy and breeding worms in children. A black acid oil is distilled by descension from the cobs in Kentucky, used to cure ringworms. The meal eaten in cakes, bread, pu...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-aseuuvn7-chunk-0346",
+        "work_id": "wellcome-aseuuvn7",
+        "title": "Extra pharmacopoeia : with the additions introduced into the British Pharmacopoeia 1885 / by William Martindale ; medical references and a therapeutic index of diseases and symptoms by W. Wynn Westcott.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aseuuvn7",
+        "matched_herbs": [
+          "Cucumber"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Extract",
+          "Ointment",
+          "Juice"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "Cucumber Juice ... 1200 Lard ... ... 1000 Veal Suet ... 600 Balsam of Tolu in S. V. R. q. s. 2 Rose Water ... 10 F. s. a. Is a cooling ointment, used like cold cream. Cupreinse Sulphas. —See p. 131. CURARA. Curare. ^...",
+        "score": 29
+      }
+    ]
+  },
+  "retrieval_text": "Cucumber is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 146 works and 176 source-linked chunks. Recorded variants include Cucumber, Cucumbers. Common plant-part co-mentions include Seed, Root, Leaf, Bark, Fruit, Flower. Common preparation co-mentions include Juice, Oil, Decoction, Ointment, Infusion, Gargle. Common condition co-mentions include Cold or catarrh, Wounds or ulcers, Epilepsy or convulsions, Cough, Colic, Fever. Caution co-mentions include Dose caution, Child-use caution, Fatal-risk warning, Pregnancy caution, Allergy or sensitivity caution, Narcotic or sedative caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse; A manual of organic materia medica : being a guide to materia medica of the vegetable and animal kingdoms, for the use of students, druggists, pharmacists, and physicians; A manual of organic materia medica : being a guide to materia medica of the vegetable and animal kingdoms : for the use of students, druggists, pharmacists and physicians. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.987Z",
+  "builder": "build-herb-profiles.mjs"
+}

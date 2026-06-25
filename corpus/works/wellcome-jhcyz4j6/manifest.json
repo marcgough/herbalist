@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-jhcyz4j6",
+  "title": "A discourse on medical botany / by Earl Stanhope.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/jhcyz4j6",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b22283687",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/jhcyz4j6",
+  "rightsStatus": "pdm",
+  "topicFamily": "medical-botany;botany",
+  "chunkCount": 116,
+  "paragraphCount": 122,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-jhcyz4j6\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-jhcyz4j6\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-jhcyz4j6\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-jhcyz4j6.jsonl",
+  "rawSha256": "a63397aeef45950016eb99e6fdc28d72cb2a8fb48dcea82ff79ca6bee5d6441e",
+  "normalizedSha256": "23d4e83372d9cb7021f9426bd2fca8d0e472fa3d1ddd78493fe519bd11671f6c",
+  "processedAt": "2026-06-17T09:29:37.884Z"
+}

@@ -1,0 +1,20 @@
+{
+  "workId": "pg-32250",
+  "title": "American Red Cross Text-Book on Home Hygiene and Care of the Sick",
+  "creator": "American National Red Cross; Delano, Jane A., 1862-1919; McIsaac, Isabel; Strong, Anne Hervey, 1876-1925",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/32250",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/32250/pg32250.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/32250.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "hygiene;nursing",
+  "chunkCount": 531,
+  "paragraphCount": 1674,
+  "sectionCount": 161,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-32250\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-32250\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-32250.jsonl",
+  "rawSha256": "763c1547d598fd0c22628da7553e62150a23be2ef7af34dc4e49883ad1db6b88",
+  "normalizedSha256": "13812e5a95c5047d893e7069e1dd76d12f1738ffb509cc5157c7393ebb5349d5",
+  "processedAt": "2026-06-16T13:39:04.619Z"
+}

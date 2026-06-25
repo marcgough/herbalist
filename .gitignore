@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+work-pages-dev*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+__pycache__/
+*.pyc
+
+node_modules
+dist
+dist-ssr
+output/
+tmp/
+.tmp/
+.tools/
+.codex/
+*.local
+.env
+.env.*
+!.env.example
+.wrangler/
+.wrangler-*/
+.wrangler-herbalisti-*
+corpus-memory/store/
+corpus-memory/*.log
+
+# Local corpus archive and heavyweight intermediate layers.
+# Keep corpus manifests, exports, source-work summaries, and derived profile
+# records in Git; keep multi-GB raw/acquisition layers local.
+corpus/raw/
+corpus/chunks/
+corpus/normalized/
+corpus/derived/evidence/
+corpus/derived/seed-catalog/
+corpus/derived/term-families/
+corpus/review/seed-catalog-priority/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

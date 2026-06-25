@@ -1,0 +1,1198 @@
+{
+  "profile_id": "seed-plantain",
+  "family_id": "seed-plantain",
+  "canonical_name": "Plantain (Plantago)",
+  "canonical_key": "plantain",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-plantain-de0cb49945#plantain"
+  ],
+  "decision_note": "promote the medicinal plantain family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 299,
+    "total_chunks": 291,
+    "total_works": 157,
+    "matched_chunk_count": 291,
+    "matched_work_count": 157,
+    "matched_mention_total": 291
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Plantain (Plantago)",
+      "Plantain"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-100912803",
+      "nlm-101092118"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-2973",
+      "nlm-100912803-chunk-2727",
+      "nlm-101092118-chunk-0832"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 198
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 85
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 14
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 141,
+        "work_count": 95
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 131,
+        "work_count": 97
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 74,
+        "work_count": 38
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 52,
+        "work_count": 37
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 46,
+        "work_count": 32
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 36,
+        "work_count": 23
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "bulb",
+        "label": "Bulb",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "preparations": [
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 216,
+        "work_count": 127
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 94,
+        "work_count": 60
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 54,
+        "work_count": 39
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 52,
+        "work_count": 46
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 44,
+        "work_count": 28
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 28,
+        "work_count": 25
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 26,
+        "work_count": 23
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 25,
+        "work_count": 22
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 20,
+        "work_count": 16
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 19,
+        "work_count": 14
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 56,
+        "work_count": 45
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 51,
+        "work_count": 44
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 28,
+        "work_count": 28
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 28,
+        "work_count": 15
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 22,
+        "work_count": 22
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 15,
+        "work_count": 15
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 89,
+        "work_count": 83
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 30,
+        "work_count": 25
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 23,
+        "work_count": 19
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 19,
+        "work_count": 17
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 11,
+        "work_count": 9
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 11,
+        "work_count": 7
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 7,
+        "work_count": 7
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "nlm-61820150R",
+      "title": "The reformed botanic and Indian physician : a complete guide to health",
+      "creator": "Smith, Daniel, 1790-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-dvdzaqep",
+      "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-c4ncu7qz",
+      "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / Nicholas Culpeper.",
+      "creator": "",
+      "publication_year": "1814",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica",
+      "source_url": "https://wellcomecollection.org/works/c4ncu7qz",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "pg-49513",
+      "title": "The Complete Herbal",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "herbal",
+      "source_url": "https://www.gutenberg.org/ebooks/49513",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-ms79ffge",
+      "title": "Complete herbal ... To which is now first annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added upwards of 50 choice receipts selected from the author's Last legacy. To his wife ... / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1823",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/ms79ffge",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-v2hnvyj6",
+      "title": "Complete herbal, to which is now added, upwards of one hundred additional herbs, with a display of their medicinal and occult qualities : physically applied to the cure of all disorders incident to mankind [etc.].",
+      "creator": "",
+      "publication_year": "1816",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/v2hnvyj6",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-e8fn752s",
+      "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1818",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/e8fn752s",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-e58dfqw4",
+      "title": "The complete herbal to which is now added upwards of one hundred additional herbs with a display of their medicinal and occult qualities physically applied to the cure of all disorders incident to mankind. To which are now first annexed the English physician enlarged, and Key to [Galen's Method of] physic with rules for compounding medicine according to the true system of nature forming a complete family dispensatory and natural system of physic / by Nicholas Culpeper ; to which is also added upwards of fifty choice receipts selected from the author's Last legacy. To his wife.",
+      "creator": "",
+      "publication_year": "1835",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica",
+      "source_url": "https://wellcomecollection.org/works/e58dfqw4",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-ttetz6t2",
+      "title": "The complete herbal, to which is now added, upwards of one hundred additional herbs, with a display of their medicinal and occult qualities; physically applied to the cure of all disorders incident to mankind, To which is now annexed, the English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added, upwards of fifty choice receipts selected form the author's Last legacy / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1850",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/ttetz6t2",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0633",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Plaster",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Measles"
+        ],
+        "excerpt": "_Government and virtues._] This is a gallant herb of the Sun. Tormentil is most excellent to stay all kind of fluxes of blood or humours in man or woman, whether at nose, mouth, or belly. The juice of the herb and roo...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-100912803-chunk-2727",
+        "work_id": "nlm-100912803",
+        "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "GANGRENE AND MORTIFICATION",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Medical Properties and Uses. —Plantain is a cooling alterative diuret- ic, somewhat astringent and mucilaginous—tho seeds particularly so. Tho green seeds and seed-stems, bruised and boiled in milk is an excel- lent r...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63570990R-chunk-2707",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Medical Properties and Uses. —Plantain is a cooling alterative diuret- ic, somewhat astringent and mucilaginous—the seeds particularly so. The green seeds and seed-stems, bruised and boiled in milk is an excel- lent r...",
+        "score": 47
+      },
+      {
+        "chunk_id": "pg-26393-chunk-0143",
+        "work_id": "pg-26393",
+        "title": "The Medicinal Plants of the Philippines",
+        "collection_id": "project-gutenberg",
+        "section_heading": "MAGNOLIACEÆ",
+        "source_url": "https://www.gutenberg.org/ebooks/26393",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Fruit",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "The fruit is one of the most highly prized in the Philippines, and resident Europeans are able to eat large quantities of it without ill effects unless the fruit is over-ripe, in which case it often causes transient d...",
+        "score": 47
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0633",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Plaster",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Measles"
+        ],
+        "excerpt": "_Government and virtues._] This is a gallant herb of the Sun. Tormentil is most excellent to stay all kind of fluxes of blood or humours in man or woman, whether at nose, mouth, or belly. The juice of the herb and roo...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-100912803-chunk-2727",
+        "work_id": "nlm-100912803",
+        "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "GANGRENE AND MORTIFICATION",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Medical Properties and Uses. —Plantain is a cooling alterative diuret- ic, somewhat astringent and mucilaginous—tho seeds particularly so. Tho green seeds and seed-stems, bruised and boiled in milk is an excel- lent r...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63570990R-chunk-2707",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Medical Properties and Uses. —Plantain is a cooling alterative diuret- ic, somewhat astringent and mucilaginous—the seeds particularly so. The green seeds and seed-stems, bruised and boiled in milk is an excel- lent r...",
+        "score": 47
+      },
+      {
+        "chunk_id": "pg-26393-chunk-0143",
+        "work_id": "pg-26393",
+        "title": "The Medicinal Plants of the Philippines",
+        "collection_id": "project-gutenberg",
+        "section_heading": "MAGNOLIACEÆ",
+        "source_url": "https://www.gutenberg.org/ebooks/26393",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Fruit",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "The fruit is one of the most highly prized in the Philippines, and resident Europeans are able to eat large quantities of it without ill effects unless the fruit is over-ripe, in which case it often causes transient d...",
+        "score": 47
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0633",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Plaster",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Measles"
+        ],
+        "excerpt": "_Government and virtues._] This is a gallant herb of the Sun. Tormentil is most excellent to stay all kind of fluxes of blood or humours in man or woman, whether at nose, mouth, or belly. The juice of the herb and roo...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-100912803-chunk-2727",
+        "work_id": "nlm-100912803",
+        "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "GANGRENE AND MORTIFICATION",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Medical Properties and Uses. —Plantain is a cooling alterative diuret- ic, somewhat astringent and mucilaginous—tho seeds particularly so. Tho green seeds and seed-stems, bruised and boiled in milk is an excel- lent r...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63570990R-chunk-2707",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Medical Properties and Uses. —Plantain is a cooling alterative diuret- ic, somewhat astringent and mucilaginous—the seeds particularly so. The green seeds and seed-stems, bruised and boiled in milk is an excel- lent r...",
+        "score": 47
+      },
+      {
+        "chunk_id": "pg-26393-chunk-0143",
+        "work_id": "pg-26393",
+        "title": "The Medicinal Plants of the Philippines",
+        "collection_id": "project-gutenberg",
+        "section_heading": "MAGNOLIACEÆ",
+        "source_url": "https://www.gutenberg.org/ebooks/26393",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Fruit",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "The fruit is one of the most highly prized in the Philippines, and resident Europeans are able to eat large quantities of it without ill effects unless the fruit is over-ripe, in which case it often causes transient d...",
+        "score": 47
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0633",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "OATS,",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Plaster",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Measles"
+        ],
+        "excerpt": "_Government and virtues._] This is a gallant herb of the Sun. Tormentil is most excellent to stay all kind of fluxes of blood or humours in man or woman, whether at nose, mouth, or belly. The juice of the herb and roo...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-100912803-chunk-2727",
+        "work_id": "nlm-100912803",
+        "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "GANGRENE AND MORTIFICATION",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Medical Properties and Uses. —Plantain is a cooling alterative diuret- ic, somewhat astringent and mucilaginous—tho seeds particularly so. Tho green seeds and seed-stems, bruised and boiled in milk is an excel- lent r...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63570990R-chunk-2707",
+        "work_id": "nlm-63570990R",
+        "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "\\. .# WBA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Medical Properties and Uses. —Plantain is a cooling alterative diuret- ic, somewhat astringent and mucilaginous—the seeds particularly so. The green seeds and seed-stems, bruised and boiled in milk is an excel- lent r...",
+        "score": 47
+      },
+      {
+        "chunk_id": "pg-26393-chunk-0143",
+        "work_id": "pg-26393",
+        "title": "The Medicinal Plants of the Philippines",
+        "collection_id": "project-gutenberg",
+        "section_heading": "MAGNOLIACEÆ",
+        "source_url": "https://www.gutenberg.org/ebooks/26393",
+        "matched_herbs": [
+          "Plantain"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Fruit",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "The fruit is one of the most highly prized in the Philippines, and resident Europeans are able to eat large quantities of it without ill effects unless the fruit is over-ripe, in which case it often causes transient d...",
+        "score": 47
+      }
+    ]
+  },
+  "retrieval_text": "Plantain (Plantago) is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 157 works and 291 source-linked chunks. Recorded variants include Plantain (Plantago), Plantain. Common plant-part co-mentions include Root, Leaf, Seed, Flower, Bark, Gum. Common preparation co-mentions include Juice, Powder, Oil, Decoction, Tea, Poultice. Common condition co-mentions include Wounds or ulcers, Fever, Cold or catarrh, Cough, Consumption, Vomiting or nausea. Caution co-mentions include Dose caution, Toxicity watch, Child-use caution, Narcotic or sedative caution, Abortifacient warning, Bleeding caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The reformed botanic and Indian physician : a complete guide to health; The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.; Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / Nicholas Culpeper.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.940Z",
+  "builder": "build-herb-profiles.mjs"
+}

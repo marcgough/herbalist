@@ -1,0 +1,1265 @@
+{
+  "profile_id": "seed-poppy",
+  "family_id": "seed-poppy",
+  "canonical_name": "Poppy",
+  "canonical_key": "poppy",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-poppy-76c32abc03#poppy"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 2273,
+    "total_chunks": 2164,
+    "total_works": 509,
+    "matched_chunk_count": 2164,
+    "matched_work_count": 509,
+    "matched_mention_total": 2173
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Poppy",
+      "Poppies",
+      "Poppy Flower"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1749",
+      "nlm-0140313-chunk-2277",
+      "nlm-0217313-chunk-0563"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1873
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 223
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 105
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 426,
+        "work_count": 231
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 263,
+        "work_count": 196
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 260,
+        "work_count": 129
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 218,
+        "work_count": 147
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 209,
+        "work_count": 133
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 110,
+        "work_count": 99
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 54,
+        "work_count": 48
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 35,
+        "work_count": 26
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 26,
+        "work_count": 22
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 10,
+        "work_count": 9
+      }
+    ],
+    "preparations": [
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 1387,
+        "work_count": 344
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 466,
+        "work_count": 265
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 461,
+        "work_count": 238
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 370,
+        "work_count": 225
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 370,
+        "work_count": 191
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 319,
+        "work_count": 161
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 319,
+        "work_count": 145
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 318,
+        "work_count": 139
+      },
+      {
+        "id": "capsule",
+        "label": "Capsule",
+        "signal_count": 230,
+        "work_count": 136
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 204,
+        "work_count": 101
+      }
+    ],
+    "cautions": [
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 771,
+        "work_count": 327
+      },
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 575,
+        "work_count": 243
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 299,
+        "work_count": 174
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 140,
+        "work_count": 82
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 68,
+        "work_count": 41
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 26,
+        "work_count": 25
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 25,
+        "work_count": 25
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 421,
+        "work_count": 207
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 308,
+        "work_count": 180
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 230,
+        "work_count": 127
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 184,
+        "work_count": 139
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 141,
+        "work_count": 119
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 123,
+        "work_count": 95
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 106,
+        "work_count": 84
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 89,
+        "work_count": 84
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 74,
+        "work_count": 70
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 40,
+        "work_count": 35
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 153,
+      "matched_mention_count": 156
+    },
+    {
+      "work_id": "wellcome-z5ek83nf",
+      "title": "A hand-book of domestic medicine : popularly arranged / by an eminent physician.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/z5ek83nf",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "wellcome-cs5n98hu",
+      "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "nlm-63620420R",
+      "title": "A treatise on domestic medicine : pointing out, in plain language, and as free from professional terms as possible, the nature, symptoms, causes, probable terminations, and treatment of all diseases incident to men, women, and children, in both cold and warm climates : as also, appropriate prescriptions in English, and the doses of medicine which are suitable to different ages : including likewise effectual means for preventing the extension of all infectious diseases, and annihilating the power of every kind of contagion, and rules for enabling Europeans who visit a warm climate to escape the yellow fever, and long enjoy a good state of health",
+      "creator": "Thomas, Robert, 1753-1835.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620420R-bk",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 18
+    },
+    {
+      "work_id": "nlm-63620400R",
+      "title": "Modern domestic medicine : being a treatise divested of professional terms on the nature, causes, symptoms, and treatment of the diseases of men, women, and children, in both cold and warm climates : with appropriate prescriptions in English : the whole preceded by practical rules for the preservation of health, the best means for invigorating the human body and prolonging life, and the mode of preventing the extension of infectious disorders, as also of annihilating contagion",
+      "creator": "Thomas, Robert, 1753-1835.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620400R-bk",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "wellcome-fwzua59q",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/fwzua59q",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "wellcome-ctkumbc4",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+      "creator": "",
+      "publication_year": "1820",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "wellcome-wckrxdvh",
+      "title": "The way to preserve good health, invigorate a delicate constitution, and attain an advanced age : together with a treatise on domestic medicine, pointing out, in plain language, and as free from professional terms as possible, the nature, symptoms, causes, probable terminations, and treatment of all diseases incident to men, women, and children, in both cold and warm climates; as also appropriate prescriptions in English, and the doses of medicine which are suitable to different ages / the whole has been composed and arranged by Robert Thomas.",
+      "creator": "",
+      "publication_year": "1822",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/wckrxdvh",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 15
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-61631000R-chunk-0864",
+        "work_id": "nlm-61631000R",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history and chemical and medical properties of plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "X° 54",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631000R-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy except the seeds (which are alimentary and not narcotic) contain a white opaque narcotic juice, which, how- ever, abounds more in the capsules, and hence these are the only officinal parts of th...",
+        "score": 69
+      },
+      {
+        "chunk_id": "nlm-61631000RX2-chunk-0236",
+        "work_id": "nlm-61631000RX2",
+        "title": "The family flora and materia medica botanica: containing the botanical analysis, natural history and chemical and medical properties of plants (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "X° 54",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631000RX2-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy except the seeds (which are alimentary and not narcotic) contain a white opaque narcotic juice, which, how- ever, abounds more in the capsules, and hence these are the only officinal parts of th...",
+        "score": 69
+      },
+      {
+        "chunk_id": "nlm-61631010R-chunk-0981",
+        "work_id": "nlm-61631010R",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history and chemical and medical properties and uses of plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TRIOSTEUM PERFOLIATUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631010R-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy, except the seeds (which are alimen- tary, and not narcotic), contain a white, opaque narcotic juice, which, however, abounds more in the capsules, and hence these are the only officinal parts o...",
+        "score": 66
+      },
+      {
+        "chunk_id": "nlm-61631010RX2-chunk-0253",
+        "work_id": "nlm-61631010RX2",
+        "title": "The family flora and materia medica botanica: containing the botanical analysis, natural history and chemical and medical properties and uses of plants (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TRIOSTEUM PERFOLIATUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631010RX2-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy, except the seeds (which are alimen- tary, and not narcotic), contain a white, opaque narcotic juice, which, however, abounds more in the capsules, and hence these are the only officinal parts o...",
+        "score": 66
+      },
+      {
+        "chunk_id": "wellcome-uruma76e-chunk-0843",
+        "work_id": "wellcome-uruma76e",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history, and chemical and medicinal properties of plants: illustrated by colored engravings of original drawings, copied from nature / By Peter P. Good.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "PART 2",
+        "source_url": "https://wellcomecollection.org/works/uruma76e",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves, stalks and heads are all possessed of the narcotic principle. Poultices made with a decoction of this plant are excellent applications to . assuage pain and allay anguish in cases of cancer, ulcers and chr...",
+        "score": 60
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-61631000R-chunk-0864",
+        "work_id": "nlm-61631000R",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history and chemical and medical properties of plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "X° 54",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631000R-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy except the seeds (which are alimentary and not narcotic) contain a white opaque narcotic juice, which, how- ever, abounds more in the capsules, and hence these are the only officinal parts of th...",
+        "score": 69
+      },
+      {
+        "chunk_id": "nlm-61631000RX2-chunk-0236",
+        "work_id": "nlm-61631000RX2",
+        "title": "The family flora and materia medica botanica: containing the botanical analysis, natural history and chemical and medical properties of plants (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "X° 54",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631000RX2-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy except the seeds (which are alimentary and not narcotic) contain a white opaque narcotic juice, which, how- ever, abounds more in the capsules, and hence these are the only officinal parts of th...",
+        "score": 69
+      },
+      {
+        "chunk_id": "nlm-61631010R-chunk-0981",
+        "work_id": "nlm-61631010R",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history and chemical and medical properties and uses of plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TRIOSTEUM PERFOLIATUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631010R-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy, except the seeds (which are alimen- tary, and not narcotic), contain a white, opaque narcotic juice, which, however, abounds more in the capsules, and hence these are the only officinal parts o...",
+        "score": 66
+      },
+      {
+        "chunk_id": "nlm-61631010RX2-chunk-0253",
+        "work_id": "nlm-61631010RX2",
+        "title": "The family flora and materia medica botanica: containing the botanical analysis, natural history and chemical and medical properties and uses of plants (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TRIOSTEUM PERFOLIATUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631010RX2-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy, except the seeds (which are alimen- tary, and not narcotic), contain a white, opaque narcotic juice, which, however, abounds more in the capsules, and hence these are the only officinal parts o...",
+        "score": 66
+      },
+      {
+        "chunk_id": "wellcome-uruma76e-chunk-0843",
+        "work_id": "wellcome-uruma76e",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history, and chemical and medicinal properties of plants: illustrated by colored engravings of original drawings, copied from nature / By Peter P. Good.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "PART 2",
+        "source_url": "https://wellcomecollection.org/works/uruma76e",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves, stalks and heads are all possessed of the narcotic principle. Poultices made with a decoction of this plant are excellent applications to . assuage pain and allay anguish in cases of cancer, ulcers and chr...",
+        "score": 60
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-61631000R-chunk-0864",
+        "work_id": "nlm-61631000R",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history and chemical and medical properties of plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "X° 54",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631000R-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy except the seeds (which are alimentary and not narcotic) contain a white opaque narcotic juice, which, how- ever, abounds more in the capsules, and hence these are the only officinal parts of th...",
+        "score": 69
+      },
+      {
+        "chunk_id": "nlm-61631000RX2-chunk-0236",
+        "work_id": "nlm-61631000RX2",
+        "title": "The family flora and materia medica botanica: containing the botanical analysis, natural history and chemical and medical properties of plants (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "X° 54",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631000RX2-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy except the seeds (which are alimentary and not narcotic) contain a white opaque narcotic juice, which, how- ever, abounds more in the capsules, and hence these are the only officinal parts of th...",
+        "score": 69
+      },
+      {
+        "chunk_id": "nlm-61631010R-chunk-0981",
+        "work_id": "nlm-61631010R",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history and chemical and medical properties and uses of plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TRIOSTEUM PERFOLIATUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631010R-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy, except the seeds (which are alimen- tary, and not narcotic), contain a white, opaque narcotic juice, which, however, abounds more in the capsules, and hence these are the only officinal parts o...",
+        "score": 66
+      },
+      {
+        "chunk_id": "nlm-61631010RX2-chunk-0253",
+        "work_id": "nlm-61631010RX2",
+        "title": "The family flora and materia medica botanica: containing the botanical analysis, natural history and chemical and medical properties and uses of plants (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TRIOSTEUM PERFOLIATUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631010RX2-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy, except the seeds (which are alimen- tary, and not narcotic), contain a white, opaque narcotic juice, which, however, abounds more in the capsules, and hence these are the only officinal parts o...",
+        "score": 66
+      },
+      {
+        "chunk_id": "wellcome-uruma76e-chunk-0843",
+        "work_id": "wellcome-uruma76e",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history, and chemical and medicinal properties of plants: illustrated by colored engravings of original drawings, copied from nature / By Peter P. Good.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "PART 2",
+        "source_url": "https://wellcomecollection.org/works/uruma76e",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves, stalks and heads are all possessed of the narcotic principle. Poultices made with a decoction of this plant are excellent applications to . assuage pain and allay anguish in cases of cancer, ulcers and chr...",
+        "score": 60
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-61631000R-chunk-0864",
+        "work_id": "nlm-61631000R",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history and chemical and medical properties of plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "X° 54",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631000R-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy except the seeds (which are alimentary and not narcotic) contain a white opaque narcotic juice, which, how- ever, abounds more in the capsules, and hence these are the only officinal parts of th...",
+        "score": 69
+      },
+      {
+        "chunk_id": "nlm-61631000RX2-chunk-0236",
+        "work_id": "nlm-61631000RX2",
+        "title": "The family flora and materia medica botanica: containing the botanical analysis, natural history and chemical and medical properties of plants (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "X° 54",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631000RX2-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy except the seeds (which are alimentary and not narcotic) contain a white opaque narcotic juice, which, how- ever, abounds more in the capsules, and hence these are the only officinal parts of th...",
+        "score": 69
+      },
+      {
+        "chunk_id": "nlm-61631010R-chunk-0981",
+        "work_id": "nlm-61631010R",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history and chemical and medical properties and uses of plants",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TRIOSTEUM PERFOLIATUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631010R-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy, except the seeds (which are alimen- tary, and not narcotic), contain a white, opaque narcotic juice, which, however, abounds more in the capsules, and hence these are the only officinal parts o...",
+        "score": 66
+      },
+      {
+        "chunk_id": "nlm-61631010RX2-chunk-0253",
+        "work_id": "nlm-61631010RX2",
+        "title": "The family flora and materia medica botanica: containing the botanical analysis, natural history and chemical and medical properties and uses of plants (Volume 2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TRIOSTEUM PERFOLIATUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61631010RX2-bk",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "All parts of the Poppy, except the seeds (which are alimen- tary, and not narcotic), contain a white, opaque narcotic juice, which, however, abounds more in the capsules, and hence these are the only officinal parts o...",
+        "score": 66
+      },
+      {
+        "chunk_id": "wellcome-uruma76e-chunk-0843",
+        "work_id": "wellcome-uruma76e",
+        "title": "The family flora and materia medica botanica : containing the botanical analysis, natural history, and chemical and medicinal properties of plants: illustrated by colored engravings of original drawings, copied from nature / By Peter P. Good.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "PART 2",
+        "source_url": "https://wellcomecollection.org/works/uruma76e",
+        "matched_herbs": [
+          "Poppy"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Poultice",
+          "Juice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves, stalks and heads are all possessed of the narcotic principle. Poultices made with a decoction of this plant are excellent applications to . assuage pain and allay anguish in cases of cancer, ulcers and chr...",
+        "score": 60
+      }
+    ]
+  },
+  "retrieval_text": "Poppy is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 509 works and 2164 source-linked chunks. Recorded variants include Poppy, Poppies, Poppy Flower. Common plant-part co-mentions include Seed, Leaf, Gum, Root, Flower, Bark. Common preparation co-mentions include Syrup, Juice, Oil, Decoction, Powder, Extract. Common condition co-mentions include Cough, Cold or catarrh, Vomiting or nausea, Inflammation, Fever, Diarrhoea or looseness. Caution co-mentions include Narcotic or sedative caution, Dose caution, Child-use caution, Bleeding caution, Allergy or sensitivity caution, Fatal-risk warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; A hand-book of domestic medicine : popularly arranged / by an eminent physician.; A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.; A treatise on domestic medicine : pointing out, in plain language, and as free from professional terms as possible, the nature, symptoms, causes, probable terminations, and treatment of all diseases incident to men, women, and children, in both cold and warm climates : as also, appropriate prescriptions in English, and the doses of medicine which are suitable to different ages : including likewise effectual means for preventing the extension of all infectious diseases, and annihilating the power of every kind of contagion, and rules for enabling Europeans who visit a warm climate to escape the yellow fever, and long enjoy a good state of health. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.732Z",
+  "builder": "build-herb-profiles.mjs"
+}

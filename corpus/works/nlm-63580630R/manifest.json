@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63580630R",
+  "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+  "creator": "King, John, 1813-1893.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63580630R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63580630R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 4432,
+  "paragraphCount": 5266,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580630R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580630R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63580630R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63580630R.jsonl",
+  "rawSha256": "d989c29dc4de0cef2cdc454b517bd6e45872a6774a7cdd176434fe9b9ca77815",
+  "normalizedSha256": "075dd4eba80d33c1933a0e26dc268aa6e46e00e3425d1f312920634639b536a9",
+  "processedAt": "2026-06-17T12:10:51.850Z"
+}

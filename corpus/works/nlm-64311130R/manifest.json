@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64311130R",
+  "title": "Repertory to Hering's Condensed materia medica",
+  "creator": "Homœopathic Medical Society of the State of Pennsylvania.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64311130R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64311130R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64311130R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 824,
+  "paragraphCount": 995,
+  "sectionCount": 11,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64311130R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64311130R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64311130R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64311130R.jsonl",
+  "rawSha256": "1a0485378df57a71c3e1b9dfb67986354329959dc1fc95937b0325d7c42bd5e6",
+  "normalizedSha256": "85d68120b13c291a6f5800c07ffbdefac4442f02a514e4c60bc1f9ea0f4a6434",
+  "processedAt": "2026-06-19T10:45:32.653Z"
+}

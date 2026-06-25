@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-7703236",
+  "title": "The Indian vegetable family instructer : containing the names and descriptions of all the most useful herbs and plants that grow in this country, with their medicinal qualities annexed : also, a treatise on many of the lingering diseases to which mankind are subject, with new and plain arguments respecting the management of the same : with a large list of recipes which have been carefully selected from Indian prescriptions and from those very persons who were cured by the same after every other remedy had failed : designed for the use of families in the United States",
+  "creator": "Bowker, Pierpont F.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7703236-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-7703236-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/7703236",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal",
+  "chunkCount": 297,
+  "paragraphCount": 301,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-7703236\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-7703236\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-7703236\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-7703236.jsonl",
+  "rawSha256": "803944f22de16021c2577b305b7fcde7b21da0e1781af92620d0fee9352ba4b4",
+  "normalizedSha256": "a4aaa826524b728d5e6cb4cb1b577e09328c7ad6a12f3d792c401bbf2dfa9ef1",
+  "processedAt": "2026-06-19T12:09:28.722Z"
+}

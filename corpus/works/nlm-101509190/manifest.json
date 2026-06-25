@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101509190",
+  "title": "General therapeutics and materia medica : adapted for a medical textbook",
+  "creator": "Dunglison, Robley, 1798-1869.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101509190-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101509190-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101509190",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 3924,
+  "paragraphCount": 5618,
+  "sectionCount": 17,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101509190\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101509190\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101509190\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101509190.jsonl",
+  "rawSha256": "553e965c5a25523dfe7076b1694b356b851d8f588249d51a46fa218c1589de6d",
+  "normalizedSha256": "9c6135ddb5e7c23f3021ecb1c541289d968bad6b59c8d3dc7125a986026d92aa",
+  "processedAt": "2026-06-17T15:34:33.100Z"
+}

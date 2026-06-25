@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-32531770R",
+  "title": "The Silent friend and medical adviser : a complete guide to health , happiness and wealth",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32531770R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-32531770R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/32531770R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 849,
+  "paragraphCount": 877,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-32531770R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-32531770R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-32531770R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-32531770R.jsonl",
+  "rawSha256": "857ad33bbc1e0a1e9cd14dc768a4e8070c9761cecf7f9c47165d0f051344bcbd",
+  "normalizedSha256": "a6d2f27a63777fb0e44a0c790bef3579f8e2b5eb967e122f8bb1c880b2382753",
+  "processedAt": "2026-06-17T15:43:08.033Z"
+}

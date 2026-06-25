@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63620210R",
+  "title": "The family physician : a description of disease and its treatment, with sixteen medical prescriptions made plain for general use",
+  "creator": "Slay, J. Clark (John Clark), 1846-",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620210R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63620210R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63620210R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 292,
+  "paragraphCount": 296,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620210R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620210R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63620210R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63620210R.jsonl",
+  "rawSha256": "cc1cf43dbcd6e0205085aef6944c46843a3766690ead58000b907602d20e1a34",
+  "normalizedSha256": "0300cfc7e14addf8361ae362113976b1d4fc9feb0b3681816d850278f56f77c1",
+  "processedAt": "2026-06-20T02:21:44.633Z"
+}

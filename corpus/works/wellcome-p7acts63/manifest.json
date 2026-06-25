@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-p7acts63",
+  "title": "A catalogue of Indian medicinal plants and drugs : with their names in the Hindustani and Sanscrit languages / by John Fleming.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/p7acts63",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21052219",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/p7acts63",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;medicinal-plants",
+  "chunkCount": 118,
+  "paragraphCount": 118,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-p7acts63\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-p7acts63\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-p7acts63\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-p7acts63.jsonl",
+  "rawSha256": "e6168b1e0f8b25d0b5a9601ae8c40caca070cddae306222c94245044fbc1f510",
+  "normalizedSha256": "29b2fdbf88dea465541deef9828ba2fec0dc223aeddfd6bf6b1a0a1734225bcd",
+  "processedAt": "2026-06-16T23:09:18.622Z"
+}

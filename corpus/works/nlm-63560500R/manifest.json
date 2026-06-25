@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63560500R",
+  "title": "Booth's manual of domestic medicine and guide to health and long life : a book for every family, describing in plain practical language the laws and rules of health and how to regain and maintain it : a treatise on anatomy, physiology and hygiene, including the treatment and cure of diseases of all kinds, plain directions for preparing and administering medicines, special attention given to the treatment of diseases of women and children, careful instructions for the nursing and care of the sick, a copious materia medica , etc. etc",
+  "creator": "Booth, John T. (John Thomas), 1840-1922.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560500R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63560500R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63560500R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine;hygiene;nursing",
+  "chunkCount": 2305,
+  "paragraphCount": 3529,
+  "sectionCount": 20,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560500R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560500R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63560500R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63560500R.jsonl",
+  "rawSha256": "f4693bb611ff04422af51cf042ac0653fd73633a7a47650193b8d33c5010df77",
+  "normalizedSha256": "53cd4c996249d3cb3635e13a6d50f51d431675654ead7acf5139526697791e9d",
+  "processedAt": "2026-06-16T23:51:36.985Z"
+}

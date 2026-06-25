@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-24T03:43:54.040Z",
+  "status": "needs-approval-and-production-setup",
+  "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
+  "project": {
+    "domain": "herbalisti.com",
+    "pagesProject": "herbalisti",
+    "newsWorker": "herbalisti-news-refresh",
+    "d1Database": "herbalisti",
+    "optionalR2Bucket": "herbalisti-media"
+  },
+  "localState": {
+    "pagesD1BindingActive": false,
+    "newsWorkerD1BindingActive": false,
+    "r2MediaBindingActive": false,
+    "visibleSecretNames": []
+  },
+  "guardrails": {
+    "localWorkPreApproved": true,
+    "externalActionsRequireFreshApproval": true,
+    "neverPasteSecretsIntoChatOrDocs": true,
+    "noPaidGenerationWithoutSeparateApproval": true,
+    "noDeploymentOrDnsMutationWithoutApproval": true
+  },
+  "localAllowedActions": [
+    {
+      "id": "run-release-proof",
+      "title": "Run full local release proof",
+      "approvalRequired": false,
+      "command": "npm run verify:release",
+      "purpose": "Reprove build, data exports, governance, local D1, Worker, API, and production-shaped smoke before any public action.",
+      "writesLocalFiles": false,
+      "after": [],
+      "notes": []
+    },
+    {
+      "id": "generate-launch-packet",
+      "title": "Generate local launch packet",
+      "approvalRequired": false,
+      "command": "npm run prepare:launch -- --markdown",
+      "purpose": "Print the current cutover state without deploying, uploading, creating resources, or printing secret values.",
+      "writesLocalFiles": false,
+      "after": [],
+      "notes": []
+    },
+    {
+      "id": "run-production-cutover-simulation",
+      "title": "Run local production cutover simulation",
+      "approvalRequired": false,
+      "command": "npm run simulate:production-cutover",
+      "purpose": "Rehearse the D1/R2 binding activation and launch sequencing locally with fake resource IDs, without writing Wrangler config files or touching Cloudflare.",
+      "writesLocalFiles": false,
+      "after": [],
+      "notes": [
+        "Use npm run prepare:production-cutover to refresh the human-readable simulation artifact."
+      ]
+    },
+    {
+      "id": "generate-external-actions",
+      "title": "Regenerate this external action checklist",
+      "approvalRequired": false,
+      "command": "npm run prepare:external-actions",
+      "purpose": "Refresh the machine-readable and Markdown handoff artifacts from the production contract.",
+      "writesLocalFiles": true,
+      "after": [],
+      "notes": []
+    },
+    {
+      "id": "activate-d1-bindings-local",
+      "title": "Activate local Wrangler D1 bindings after Cloudflare returns the database ID",
+      "approvalRequired": false,
+      "command": "npm run configure:cloudflare -- --d1 <database_id> --apply",
+      "purpose": "Write the returned D1 database ID into local Wrangler config after the external D1 resource exists.",
+      "writesLocalFiles": true,
+      "after": [
+        "create-d1-database"
+      ],
+      "notes": []
+    },
+    {
+      "id": "activate-r2-binding-local",
+      "title": "Optionally activate local R2 media binding after the bucket exists",
+      "approvalRequired": false,
+      "command": "npm run configure:cloudflare -- --d1 <database_id> --r2 herbalisti-media --apply",
+      "purpose": "Write the optional media bucket binding into local Wrangler config when approved Seedance assets need owned storage.",
+      "writesLocalFiles": true,
+      "after": [
+        "create-r2-bucket-optional"
+      ],
+      "notes": [
+        "R2 is optional until reviewed Seedance video outputs exist."
+      ]
+    }
+  ],
+  "approvalRequiredActions": [
+    {
+      "id": "create-d1-database",
+      "phase": "cloudflare-resources",
+      "title": "Create Cloudflare D1 database",
+      "requiredForLaunch": true,
+      "approvalRequired": true,
+      "command": "npx wrangler d1 create herbalisti",
+      "externalEffect": "Creates a Cloudflare D1 database named herbalisti.",
+      "approvalReason": "Creates a production cloud resource in the Cloudflare account.",
+      "after": [],
+      "verification": [
+        "npm run configure:cloudflare -- --d1 <database_id> --apply",
+        "npm run verify:launch -- --soft"
+      ],
+      "secretNames": [],
+      "notes": []
+    },
+    {
+      "id": "create-r2-bucket-optional",
+      "phase": "cloudflare-resources",
+      "title": "Optionally create Cloudflare R2 media bucket",
+      "requiredForLaunch": false,
+      "approvalRequired": true,
+      "command": "npx wrangler r2 bucket create herbalisti-media",
+      "externalEffect": "Creates a Cloudflare R2 bucket for reviewed owned Seedance video assets.",
+      "approvalReason": "Creates an optional production cloud storage resource.",
+      "after": [],
+      "verification": [
+        "npm run configure:cloudflare -- --d1 <database_id> --r2 herbalisti-media --apply"
+      ],
+      "secretNames": [],
+      "notes": [
+        "Skip until approved generated video assets need durable owned storage."
+      ]
+    },
+    {
+      "id": "apply-remote-d1-migrations",
+      "phase": "remote-migrations",
+      "title": "Apply production D1 migrations",
+      "requiredForLaunch": true,
+      "approvalRequired": true,
+      "command": "npx wrangler d1 migrations apply herbalisti --remote",
+      "externalEffect": "Writes production database schema and seed data to Cloudflare D1.",
+      "approvalReason": "Mutates the production data store.",
+      "after": [
+        "create-d1-database",
+        "activate-d1-bindings-local"
+      ],
+      "verification": [
+        "npm run verify:launch -- --soft"
+      ],
+      "secretNames": [],
+      "notes": []
+    },
+    {
+      "id": "set-feed-admin-token",
+      "phase": "secrets",
+      "title": "Set Feed Admin Token secret",
+      "requiredForLaunch": true,
+      "approvalRequired": true,
+      "command": "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
+      "externalEffect": "Stores a secret in Cloudflare for protected feed-refresh controls.",
+      "approvalReason": "Writes a secret to Cloudflare. The value must be supplied outside chat/logs.",
+      "after": [],
+      "verification": [],
+      "secretNames": [
+        "FEED_ADMIN_TOKEN"
+      ],
+      "notes": [
+        "Do not paste secret values into chat, docs, Git, or command logs."
+      ]
+    },
+    {
+      "id": "set-kie-api-key",
+      "phase": "secrets",
+      "title": "Set Kie.ai API key secret",
+      "requiredForLaunch": true,
+      "approvalRequired": true,
+      "command": "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",
+      "externalEffect": "Stores the Kie.ai API key in Cloudflare Pages for protected Seedance jobs.",
+      "approvalReason": "Writes a secret and can later enable paid media generation if separately approved.",
+      "after": [],
+      "verification": [],
+      "secretNames": [
+        "KIE_API_KEY"
+      ],
+      "notes": [
+        "Setting the secret does not generate video. Paid generation remains a separate approval step."
+      ]
+    },
+    {
+      "id": "set-media-admin-token",
+      "phase": "secrets",
+      "title": "Set Media Admin Token secret",
+      "requiredForLaunch": true,
+      "approvalRequired": true,
+      "command": "npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti",
+      "externalEffect": "Stores a secret in Cloudflare Pages for protected media job create/status endpoints.",
+      "approvalReason": "Writes a secret to Cloudflare. The value must be supplied outside chat/logs.",
+      "after": [],
+      "verification": [],
+      "secretNames": [
+        "MEDIA_ADMIN_TOKEN"
+      ],
+      "notes": []
+    },
+    {
+      "id": "set-openai-api-key-optional",
+      "phase": "secrets",
+      "title": "Optionally set OpenAI API key secret",
+      "requiredForLaunch": false,
+      "approvalRequired": true,
+      "command": "npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti",
+      "externalEffect": "Stores an OpenAI API key in Cloudflare Pages for optional hosted synthesis or repeatable server-side image generation.",
+      "approvalReason": "Writes a secret and can enable paid API usage if a later feature calls it.",
+      "after": [],
+      "verification": [],
+      "secretNames": [
+        "OPENAI_API_KEY"
+      ],
+      "notes": [
+        "Not required for launch while retrieval fallback is active."
+      ]
+    },
+    {
+      "id": "deploy-cloudflare-pages",
+      "phase": "deploy",
+      "title": "Deploy Cloudflare Pages site",
+      "requiredForLaunch": true,
+      "approvalRequired": true,
+      "command": "npm run deploy:cloudflare",
+      "externalEffect": "Publishes the Herbalisti website bundle to Cloudflare Pages.",
+      "approvalReason": "Public deployment of the website.",
+      "after": [
+        "apply-remote-d1-migrations",
+        "set-feed-admin-token",
+        "set-kie-api-key",
+        "set-media-admin-token"
+      ],
+      "verification": [
+        "npm run verify:live-readiness -- --strict",
+        "npm run verify:production -- https://herbalisti.com"
+      ],
+      "secretNames": [],
+      "notes": []
+    },
+    {
+      "id": "deploy-news-worker",
+      "phase": "deploy",
+      "title": "Deploy scheduled news Worker",
+      "requiredForLaunch": true,
+      "approvalRequired": true,
+      "command": "npm run deploy:news-worker",
+      "externalEffect": "Publishes the scheduled feed-refresh Worker to Cloudflare.",
+      "approvalReason": "Public deployment of scheduled automation.",
+      "after": [
+        "apply-remote-d1-migrations",
+        "set-feed-admin-token"
+      ],
+      "verification": [
+        "npm run verify:source-health",
+        "npm run verify:production -- https://herbalisti.com"
+      ],
+      "secretNames": [],
+      "notes": []
+    },
+    {
+      "id": "connect-domain",
+      "phase": "domain",
+      "title": "Connect herbalisti.com custom domain and DNS",
+      "requiredForLaunch": true,
+      "approvalRequired": true,
+      "command": "Cloudflare dashboard: connect herbalisti.com to the herbalisti Pages project",
+      "externalEffect": "Changes public DNS/custom-domain routing for herbalisti.com.",
+      "approvalReason": "Mutates public DNS or Cloudflare custom-domain configuration.",
+      "after": [
+        "deploy-cloudflare-pages"
+      ],
+      "verification": [
+        "npm run verify:live-readiness -- --strict",
+        "npm run verify:production -- https://herbalisti.com",
+        "npm run verify:goal-readiness -- --strict"
+      ],
+      "secretNames": [],
+      "notes": []
+    },
+    {
+      "id": "generate-seedance-video-optional",
+      "phase": "media",
+      "title": "Optionally generate Seedance 2.0 video through Kie.ai",
+      "requiredForLaunch": false,
+      "approvalRequired": true,
+      "command": "POST /api/media/seedance with approved prompt and MEDIA_ADMIN_TOKEN",
+      "externalEffect": "Calls a paid third-party media-generation provider.",
+      "approvalReason": "Can spend credits and create external media-generation jobs.",
+      "after": [
+        "set-kie-api-key",
+        "set-media-admin-token"
+      ],
+      "verification": [
+        "Review generated video manually.",
+        "Store approved output as an owned asset before enabling manifest slots."
+      ],
+      "secretNames": [],
+      "notes": []
+    }
+  ],
+  "requiredInputsFromMarc": [
+    "Approval to create Cloudflare resources.",
+    "Authenticated Cloudflare/Wrangler session or deployment operator access.",
+    "Returned D1 database ID from Cloudflare.",
+    "Confirmation that required secrets are available to set directly in Cloudflare without exposing values in chat.",
+    "Approval to deploy Pages and the scheduled Worker.",
+    "Approval to connect herbalisti.com DNS/custom domain."
+  ],
+  "productionBlockers": [
+    "Pages D1 binding is not active in wrangler.toml.",
+    "News Worker D1 binding is not active in wrangler.news.toml.",
+    "FEED_ADMIN_TOKEN is not locally visible; confirm it is set in Cloudflare before using the related feature.",
+    "KIE_API_KEY is not locally visible; confirm it is set in Cloudflare before using the related feature.",
+    "MEDIA_ADMIN_TOKEN is not locally visible; confirm it is set in Cloudflare before using the related feature."
+  ],
+  "completionGates": [
+    "npm run verify:live-readiness -- --strict",
+    "npm run verify:production -- https://herbalisti.com",
+    "npm run verify:goal-readiness -- --strict"
+  ]
+}

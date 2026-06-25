@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-s5jfg928",
+  "title": "Domestic medicine and hygiene : being a short account of the more common diseases, their causes and treatment, written in plain language / by William J. Russell.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/s5jfg928",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24764073",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/s5jfg928",
+  "rightsStatus": "pdm",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 903,
+  "paragraphCount": 913,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-s5jfg928\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-s5jfg928\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-s5jfg928\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-s5jfg928.jsonl",
+  "rawSha256": "d6ae6311bdba9a276982f25277e538a6f65acaf550279688b47f3561f4faa37f",
+  "normalizedSha256": "d61bc8a0b4e60a6d5fd4d402fc904786bf585ca1591007335a31a3d403915694",
+  "processedAt": "2026-06-17T09:29:45.081Z"
+}

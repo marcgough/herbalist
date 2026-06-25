@@ -1,0 +1,1217 @@
+{
+  "profile_id": "seed-ginger",
+  "family_id": "seed-ginger",
+  "canonical_name": "Ginger",
+  "canonical_key": "ginger",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-ginger-08ddff4ebe#ginger"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 2509,
+    "total_chunks": 2276,
+    "total_works": 502,
+    "matched_chunk_count": 2276,
+    "matched_work_count": 502,
+    "matched_mention_total": 2276
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Ginger"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0215565",
+      "nlm-0217313"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0693",
+      "nlm-0140313-chunk-1033",
+      "nlm-0140313-chunk-2247"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1432
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 540
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 337
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 822,
+        "work_count": 239
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 377,
+        "work_count": 202
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 345,
+        "work_count": 182
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 263,
+        "work_count": 172
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 253,
+        "work_count": 136
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 165,
+        "work_count": 132
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 124,
+        "work_count": 88
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 90,
+        "work_count": 63
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 42,
+        "work_count": 40
+      },
+      {
+        "id": "rhizome",
+        "label": "Rhizome",
+        "signal_count": 22,
+        "work_count": 21
+      }
+    ],
+    "preparations": [
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 1115,
+        "work_count": 342
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 899,
+        "work_count": 331
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 740,
+        "work_count": 277
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 546,
+        "work_count": 254
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 463,
+        "work_count": 242
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 387,
+        "work_count": 216
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 380,
+        "work_count": 192
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 316,
+        "work_count": 165
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 200,
+        "work_count": 123
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 177,
+        "work_count": 98
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 950,
+        "work_count": 348
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 326,
+        "work_count": 183
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 220,
+        "work_count": 141
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 35,
+        "work_count": 31
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 34,
+        "work_count": 32
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 30,
+        "work_count": 26
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 27,
+        "work_count": 25
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 26,
+        "work_count": 25
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 277,
+        "work_count": 193
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 198,
+        "work_count": 131
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 129,
+        "work_count": 109
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 124,
+        "work_count": 107
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 111,
+        "work_count": 82
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 104,
+        "work_count": 66
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 101,
+        "work_count": 88
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 100,
+        "work_count": 87
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 84,
+        "work_count": 77
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 83,
+        "work_count": 65
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 36,
+      "matched_mention_count": 36
+    },
+    {
+      "work_id": "wellcome-cs5n98hu",
+      "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+      "signal_chunk_count": 30,
+      "matched_mention_count": 30
+    },
+    {
+      "work_id": "wellcome-jmh3m2rt",
+      "title": "A cyclopedia of domestic medicine and surgery: being an alphabetical account of the various diseases incident to the human frame ... also, instructions for administering the various substances used in medicine; for the regulation of diet and regimen / by Thomas Andrew, with contributions by several members of the Royal College of Surgeons, Edinburgh.",
+      "creator": "",
+      "publication_year": "1844",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jmh3m2rt",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "nlm-63560150R",
+      "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+      "creator": "Ayers, J. Hamilton.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;botany;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "wellcome-b7ehehck",
+      "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description ... and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians / By Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1836",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/b7ehehck",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "nlm-63750550R",
+      "title": "Materia medica and therapeutics : with ample illustrations of practice in all the departments of medical science and very copious notes of toxicology : suited to the wants of medical students, practitioners, and teachers",
+      "creator": "Mitchell, Thomas D. (Thomas Duché), 1791-1865.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63750550R-bk",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-px4aqpth",
+      "title": "The London dispensatory : containing I. The elements of pharmacy, II. The botanical description, natural history ... of the materia medica, III. The pharmaceutical preparations and compositions of the Pharmacopoeias of London, Edinburgh and Dublin the whole forming a practical synopsis of materia medica, pharmacy and therapeutics / by Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/px4aqpth",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "nlm-2568014R",
+      "title": "The medical guide, for the use of families and young practitioners in medicine and surgery : being a complete system of modern domestic medicine : exhibiting a comprehensive view of the latest and most important discoveries in medicine, pharmacy, &c",
+      "creator": "Reece, Richard, 1775-1831.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2568014R-bk",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-jtzqa4xp",
+      "title": "A family herbal: or, Familiar account of the medical properties of British and foreign plants, also their uses in dying, and the various arts, arranged according to the Linnaean system / [Robert John Thornton].",
+      "creator": "",
+      "publication_year": "1814",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica",
+      "source_url": "https://wellcomecollection.org/works/jtzqa4xp",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 18
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-yvn7kra7-chunk-1372",
+        "work_id": "wellcome-yvn7kra7",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yvn7kra7",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "wellcome-rt52bskh-chunk-1375",
+        "work_id": "wellcome-rt52bskh",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families ... / By Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rt52bskh",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1628",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Constipation",
+          "Headache",
+          "Dropsy"
+        ],
+        "excerpt": "This is to be taken in about six doses, in twenty-four hours, for dropsy. Butternut, or White Walnut. -The inner bark, or the root is used. It is a mild, efficacious, tonic purge, and is recommended for derangement of...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0180",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "Has been much used in this country as a powerful diuretic and expectorant, in doses of ten to thirty or forty grains in powder; and in larger doses it is said to produce vomiting and purging. Two or three tablespoonfu...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0230",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Boil in one and half gallons of water down to one gallon, strain and add— Gum myrrh Cayenne Rhubarb Carbonate of soda Loaf sugar Fourth proof brandy 1 oz. ioz. 4 oz. A oz. 1 lb. lpt. rinsn- H'llf a wine Mass once in t...",
+        "score": 55
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-yvn7kra7-chunk-1372",
+        "work_id": "wellcome-yvn7kra7",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yvn7kra7",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "wellcome-rt52bskh-chunk-1375",
+        "work_id": "wellcome-rt52bskh",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families ... / By Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rt52bskh",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1628",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Constipation",
+          "Headache",
+          "Dropsy"
+        ],
+        "excerpt": "This is to be taken in about six doses, in twenty-four hours, for dropsy. Butternut, or White Walnut. -The inner bark, or the root is used. It is a mild, efficacious, tonic purge, and is recommended for derangement of...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0180",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "Has been much used in this country as a powerful diuretic and expectorant, in doses of ten to thirty or forty grains in powder; and in larger doses it is said to produce vomiting and purging. Two or three tablespoonfu...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0230",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Boil in one and half gallons of water down to one gallon, strain and add— Gum myrrh Cayenne Rhubarb Carbonate of soda Loaf sugar Fourth proof brandy 1 oz. ioz. 4 oz. A oz. 1 lb. lpt. rinsn- H'llf a wine Mass once in t...",
+        "score": 55
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-yvn7kra7-chunk-1372",
+        "work_id": "wellcome-yvn7kra7",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yvn7kra7",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "wellcome-rt52bskh-chunk-1375",
+        "work_id": "wellcome-rt52bskh",
+        "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families ... / By Morris Mattson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/rt52bskh",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Liniment",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "When chilblains first appear, they should be bathed with rheumatic drops, or some other stimulating wash, followed by an application of fern ointment, healing salve, the stimulating liniment, or a mixture of fir balsa...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1628",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Constipation",
+          "Headache",
+          "Dropsy"
+        ],
+        "excerpt": "This is to be taken in about six doses, in twenty-four hours, for dropsy. Butternut, or White Walnut. -The inner bark, or the root is used. It is a mild, efficacious, tonic purge, and is recommended for derangement of...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0180",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "Has been much used in this country as a powerful diuretic and expectorant, in doses of ten to thirty or forty grains in powder; and in larger doses it is said to produce vomiting and purging. Two or three tablespoonfu...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0230",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Boil in one and half gallons of water down to one gallon, strain and add— Gum myrrh Cayenne Rhubarb Carbonate of soda Loaf sugar Fourth proof brandy 1 oz. ioz. 4 oz. A oz. 1 lb. lpt. rinsn- H'llf a wine Mass once in t...",
+        "score": 55
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63560150R-chunk-1628",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Constipation",
+          "Headache",
+          "Dropsy"
+        ],
+        "excerpt": "This is to be taken in about six doses, in twenty-four hours, for dropsy. Butternut, or White Walnut. -The inner bark, or the root is used. It is a mild, efficacious, tonic purge, and is recommended for derangement of...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63570350R-chunk-0180",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Draught"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "Has been much used in this country as a powerful diuretic and expectorant, in doses of ten to thirty or forty grains in powder; and in larger doses it is said to produce vomiting and purging. Two or three tablespoonfu...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0230",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Boil in one and half gallons of water down to one gallon, strain and add— Gum myrrh Cayenne Rhubarb Carbonate of soda Loaf sugar Fourth proof brandy 1 oz. ioz. 4 oz. A oz. 1 lb. lpt. rinsn- H'llf a wine Mass once in t...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1178",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Juice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Useful in inflamitiatory rheumatism, gout, and milk leg of lying-in women. Dose, from ten drops to a teaspoonful or more every two, three, or four hours. Ten or fifteen grains of the iodide of potas- sium added to eac...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63570290R-chunk-1369",
+        "work_id": "nlm-63570290R",
+        "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OBSTRUCTION OF URINE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570290R-bk",
+        "matched_herbs": [
+          "Ginger"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Liniment",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Constipation"
+        ],
+        "excerpt": "After this the back and abdomen should be well rubbed with the camphorated, or volatile anodyne liniment, and if the pain continue, the anodyne clysters should be administered. If, notwith- standing these means, the p...",
+        "score": 49
+      }
+    ]
+  },
+  "retrieval_text": "Ginger is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 502 works and 2276 source-linked chunks. Recorded variants include Ginger. Common plant-part co-mentions include Root, Seed, Bark, Gum, Leaf, Flower. Common preparation co-mentions include Syrup, Powder, Tincture, Tea, Oil, Pill. Common condition co-mentions include Cold or catarrh, Fever, Vomiting or nausea, Diarrhoea or looseness, Colic, Wounds or ulcers. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Allergy or sensitivity caution, Pregnancy caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.; A cyclopedia of domestic medicine and surgery: being an alphabetical account of the various diseases incident to the human frame ... also, instructions for administering the various substances used in medicine; for the regulation of diet and regimen / by Thomas Andrew, with contributions by several members of the Royal College of Surgeons, Edinburgh.; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.719Z",
+  "builder": "build-herb-profiles.mjs"
+}

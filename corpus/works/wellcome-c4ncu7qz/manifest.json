@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-c4ncu7qz",
+  "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / Nicholas Culpeper.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/c4ncu7qz",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b22011778",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/c4ncu7qz",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 1802,
+  "paragraphCount": 1881,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-c4ncu7qz\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-c4ncu7qz\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-c4ncu7qz\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-c4ncu7qz.jsonl",
+  "rawSha256": "fb4e6838e2b2c3e1a72b96cd54f9e69cfbdb69a520eb8009104d2e932fcbe2b7",
+  "normalizedSha256": "ca67b10aaebc92f82dadfe4b047e9ed903dda08eb3ee5bc6e0395479f39cbf2a",
+  "processedAt": "2026-06-16T23:08:58.167Z"
+}

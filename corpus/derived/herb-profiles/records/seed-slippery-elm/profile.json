@@ -1,0 +1,1155 @@
+{
+  "profile_id": "seed-slippery-elm",
+  "family_id": "seed-slippery-elm",
+  "canonical_name": "Slippery Elm",
+  "canonical_key": "slippery elm",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-slippery-elm-7ea4286ce1#slippery elm"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 474,
+    "total_chunks": 447,
+    "total_works": 133,
+    "matched_chunk_count": 447,
+    "matched_work_count": 133,
+    "matched_mention_total": 447
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Slippery Elm"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0215565",
+      "nlm-100898140"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0634",
+      "nlm-0140313-chunk-0697",
+      "nlm-0140313-chunk-1941"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 238
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 133
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 89
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 269,
+        "work_count": 97
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 116,
+        "work_count": 65
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 68,
+        "work_count": 42
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 51,
+        "work_count": 36
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 40,
+        "work_count": 34
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "preparations": [
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 229,
+        "work_count": 79
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 175,
+        "work_count": 86
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 88,
+        "work_count": 62
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 76,
+        "work_count": 59
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 55,
+        "work_count": 35
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 51,
+        "work_count": 36
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 50,
+        "work_count": 33
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 48,
+        "work_count": 26
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 47,
+        "work_count": 27
+      },
+      {
+        "id": "salve",
+        "label": "Salve",
+        "signal_count": 47,
+        "work_count": 24
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 114,
+        "work_count": 65
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 45,
+        "work_count": 38
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 37,
+        "work_count": 22
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 33,
+        "work_count": 31
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 23,
+        "work_count": 16
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 14,
+        "work_count": 13
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "conditions": [
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 157,
+        "work_count": 70
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 115,
+        "work_count": 61
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 89,
+        "work_count": 56
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 51,
+        "work_count": 47
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 42,
+        "work_count": 38
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 23,
+        "work_count": 23
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 23,
+        "work_count": 20
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 19,
+        "work_count": 18
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 19,
+        "work_count": 17
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 11,
+        "work_count": 11
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-101485225",
+      "title": "The American practice abridged, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485225-bk",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "nlm-101485229",
+      "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485229-bk",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "nlm-101485230",
+      "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485230-bk",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "nlm-101743940",
+      "title": "The family physician ; or, The reformed practice of medicine : on vegetable or botanical principles : being a compendium of the \"American practice\"",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine;botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101743940-bk",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "nlm-64210130R",
+      "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-nr9dehnu",
+      "title": "The magnetic and botanic family physician, and domestic practice of natural medicine : with illustrations showing various phases of mesmeric treatment, including full and concise instruction in mesmerism, curative magnetism, massage, and medical botany / by D. Younger.",
+      "creator": "",
+      "publication_year": "1887",
+      "collection_id": "wellcome-collection",
+      "topic_family": "medical-botany;domestic-medicine;botany",
+      "source_url": "https://wellcomecollection.org/works/nr9dehnu",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "nlm-64211070R",
+      "title": "The Cherokee physician, or, Indian guide to health : comprising a brief view of anatomy, with general rules for preserving health without the use of medicines : the diseases of the United States, with their symptoms, causes, and means of prevention are explained in simple terms : it also contains a description of a variety of herbs and roots, many of which are not explained in any other book, the medicinal virtues of which have hitherto been unknown to the whites",
+      "creator": "Foreman, Richard, active 1849-1857.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64211070R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-64220920R",
+      "title": "The American vegetable practice : or a new and improved guide to health, designed for the use of families : in six parts",
+      "creator": "Mattson, M. (Morris), 1809?-1885.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220920R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-yvn7kra7",
+      "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.",
+      "creator": "",
+      "publication_year": "1841",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/yvn7kra7",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63620310R-chunk-1288",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox",
+          "Measles"
+        ],
+        "excerpt": "of infants 433 Restlessness and sleeplessness of in- fants 421 Resin cerate 491 Retention of urine 327 Rheumatism 449 do. headache from 118 Rice water 476 Ring worm 52 Rose water ointment 493 Rollers and bandages 500...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-64210130R-chunk-2933",
+        "work_id": "nlm-64210130R",
+        "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CO P",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Applied externally, in the form of poultice and fomentation, it is useful in all ce<^ of painful and obstinate inflammations, such as fistulas, biles, and swellings of the breast. Given in the form of tincture, it wil...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63751730R-chunk-0253",
+        "work_id": "nlm-63751730R",
+        "title": "Medical companion, treating according to the most successful practice, of the diseases to which man is subject : with a description of vegetable medicines, and the manner of preparing and using them : also, a description of roots and herbs : to which is added an essay on hygia, or the art of preserving health and prolonging life",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63751730R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Slippery elm bark taken constantly, in decoction, has been found very effectual in the cure of coughs, erup- tions, whites, gleets, ulcers, &c. and is one of the best poultices for fresh wound,s burns, scalds, bruises...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-2575009R-chunk-0329",
+        "work_id": "nlm-2575009R",
+        "title": "New guide to health , or, Botanic family physician : containing a complete system of practice, upon a plan entirely new ; with a description of the vegetables made use of, and directions for preparing and administering them to cure disease ; to which is added, a description of several cases of disease attended by the author, with the mode of treatment and cure",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "64 79 106 47 54 110 C7",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2575009R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Salve",
+          "Plaster",
+          "Emetic",
+          "Steam"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Rheumatism",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Smallpox"
+        ],
+        "excerpt": "110 49 65 65 77 5 67—74 101 58 40 49 99 50 60 INDEX. Milk porridge M>. rrh Mullen Mustard Meadow fern Mortification of limbs -Muscles, bow relaxed M&ddog, (see No. 1.) Midwifery Page 83 56: 61 Relax Reel peppers Red r...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-101485225-chunk-2941",
+        "work_id": "nlm-101485225",
+        "title": "The American practice abridged, or The family physician : being the scientific system of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PHOTOCOPY",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485225-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Applied externally, in the form of poultice and fomentation, it is useful in all cases of painful and obstinate inflammations, such as fistulas, biles, and swellings of the breast. Given in the form of tincture, it wi...",
+        "score": 45
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63620310R-chunk-1288",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox",
+          "Measles"
+        ],
+        "excerpt": "of infants 433 Restlessness and sleeplessness of in- fants 421 Resin cerate 491 Retention of urine 327 Rheumatism 449 do. headache from 118 Rice water 476 Ring worm 52 Rose water ointment 493 Rollers and bandages 500...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-64210130R-chunk-2933",
+        "work_id": "nlm-64210130R",
+        "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CO P",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Applied externally, in the form of poultice and fomentation, it is useful in all ce<^ of painful and obstinate inflammations, such as fistulas, biles, and swellings of the breast. Given in the form of tincture, it wil...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63751730R-chunk-0253",
+        "work_id": "nlm-63751730R",
+        "title": "Medical companion, treating according to the most successful practice, of the diseases to which man is subject : with a description of vegetable medicines, and the manner of preparing and using them : also, a description of roots and herbs : to which is added an essay on hygia, or the art of preserving health and prolonging life",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63751730R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Slippery elm bark taken constantly, in decoction, has been found very effectual in the cure of coughs, erup- tions, whites, gleets, ulcers, &c. and is one of the best poultices for fresh wound,s burns, scalds, bruises...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-2575009R-chunk-0329",
+        "work_id": "nlm-2575009R",
+        "title": "New guide to health , or, Botanic family physician : containing a complete system of practice, upon a plan entirely new ; with a description of the vegetables made use of, and directions for preparing and administering them to cure disease ; to which is added, a description of several cases of disease attended by the author, with the mode of treatment and cure",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "64 79 106 47 54 110 C7",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2575009R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Salve",
+          "Plaster",
+          "Emetic",
+          "Steam"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Rheumatism",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Smallpox"
+        ],
+        "excerpt": "110 49 65 65 77 5 67—74 101 58 40 49 99 50 60 INDEX. Milk porridge M>. rrh Mullen Mustard Meadow fern Mortification of limbs -Muscles, bow relaxed M&ddog, (see No. 1.) Midwifery Page 83 56: 61 Relax Reel peppers Red r...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-101485225-chunk-2941",
+        "work_id": "nlm-101485225",
+        "title": "The American practice abridged, or The family physician : being the scientific system of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PHOTOCOPY",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485225-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Applied externally, in the form of poultice and fomentation, it is useful in all cases of painful and obstinate inflammations, such as fistulas, biles, and swellings of the breast. Given in the form of tincture, it wi...",
+        "score": 45
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63620310R-chunk-1288",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox",
+          "Measles"
+        ],
+        "excerpt": "of infants 433 Restlessness and sleeplessness of in- fants 421 Resin cerate 491 Retention of urine 327 Rheumatism 449 do. headache from 118 Rice water 476 Ring worm 52 Rose water ointment 493 Rollers and bandages 500...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-64210130R-chunk-2933",
+        "work_id": "nlm-64210130R",
+        "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CO P",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Applied externally, in the form of poultice and fomentation, it is useful in all ce<^ of painful and obstinate inflammations, such as fistulas, biles, and swellings of the breast. Given in the form of tincture, it wil...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63751730R-chunk-0253",
+        "work_id": "nlm-63751730R",
+        "title": "Medical companion, treating according to the most successful practice, of the diseases to which man is subject : with a description of vegetable medicines, and the manner of preparing and using them : also, a description of roots and herbs : to which is added an essay on hygia, or the art of preserving health and prolonging life",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63751730R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Slippery elm bark taken constantly, in decoction, has been found very effectual in the cure of coughs, erup- tions, whites, gleets, ulcers, &c. and is one of the best poultices for fresh wound,s burns, scalds, bruises...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-2575009R-chunk-0329",
+        "work_id": "nlm-2575009R",
+        "title": "New guide to health , or, Botanic family physician : containing a complete system of practice, upon a plan entirely new ; with a description of the vegetables made use of, and directions for preparing and administering them to cure disease ; to which is added, a description of several cases of disease attended by the author, with the mode of treatment and cure",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "64 79 106 47 54 110 C7",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2575009R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Salve",
+          "Plaster",
+          "Emetic",
+          "Steam"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Rheumatism",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Smallpox"
+        ],
+        "excerpt": "110 49 65 65 77 5 67—74 101 58 40 49 99 50 60 INDEX. Milk porridge M>. rrh Mullen Mustard Meadow fern Mortification of limbs -Muscles, bow relaxed M&ddog, (see No. 1.) Midwifery Page 83 56: 61 Relax Reel peppers Red r...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-101485225-chunk-2941",
+        "work_id": "nlm-101485225",
+        "title": "The American practice abridged, or The family physician : being the scientific system of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PHOTOCOPY",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485225-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Applied externally, in the form of poultice and fomentation, it is useful in all cases of painful and obstinate inflammations, such as fistulas, biles, and swellings of the breast. Given in the form of tincture, it wi...",
+        "score": 45
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63620310R-chunk-1288",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox",
+          "Measles"
+        ],
+        "excerpt": "of infants 433 Restlessness and sleeplessness of in- fants 421 Resin cerate 491 Retention of urine 327 Rheumatism 449 do. headache from 118 Rice water 476 Ring worm 52 Rose water ointment 493 Rollers and bandages 500...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-64210130R-chunk-2933",
+        "work_id": "nlm-64210130R",
+        "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CO P",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Applied externally, in the form of poultice and fomentation, it is useful in all ce<^ of painful and obstinate inflammations, such as fistulas, biles, and swellings of the breast. Given in the form of tincture, it wil...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-63751730R-chunk-0253",
+        "work_id": "nlm-63751730R",
+        "title": "Medical companion, treating according to the most successful practice, of the diseases to which man is subject : with a description of vegetable medicines, and the manner of preparing and using them : also, a description of roots and herbs : to which is added an essay on hygia, or the art of preserving health and prolonging life",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63751730R-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Poultice"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Slippery elm bark taken constantly, in decoction, has been found very effectual in the cure of coughs, erup- tions, whites, gleets, ulcers, &c. and is one of the best poultices for fresh wound,s burns, scalds, bruises...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-101485225-chunk-2941",
+        "work_id": "nlm-101485225",
+        "title": "The American practice abridged, or The family physician : being the scientific system of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PHOTOCOPY",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485225-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Applied externally, in the form of poultice and fomentation, it is useful in all cases of painful and obstinate inflammations, such as fistulas, biles, and swellings of the breast. Given in the form of tincture, it wi...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-101485229-chunk-2947",
+        "work_id": "nlm-101485229",
+        "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "THE REFORMED PRACTICE OF MIDWIFERY- 632",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485229-bk",
+        "matched_herbs": [
+          "Slippery Elm"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Poultice",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Applied externally, in the form of poultice and fomentation, it is useful in all cases of painful and obstinate inflammations, such as fistulas, biles, and swellings of the breast. Given in the form of tincture, it wi...",
+        "score": 45
+      }
+    ]
+  },
+  "retrieval_text": "Slippery Elm is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 133 works and 447 source-linked chunks. Recorded variants include Slippery Elm. Common plant-part co-mentions include Bark, Root, Leaf, Seed, Gum, Flower. Common preparation co-mentions include Poultice, Tea, Powder, Oil, Infusion, Decoction. Common condition co-mentions include Inflammation, Wounds or ulcers, Cold or catarrh, Fever, Cough, Consumption. Caution co-mentions include Dose caution, Allergy or sensitivity caution, Toxicity watch, Narcotic or sedative caution, Child-use caution, Fatal-risk warning. Representative source works include The American practice abridged, or The family physician : being the scientific system of medicine; The American practice condensed, or The family physician : being the scientific system of medicine; The American practice condensed, or The family physician : being the scientific system of medicine; The family physician ; or, The reformed practice of medicine : on vegetable or botanical principles : being a compendium of the \"American practice\". This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-18T04:13:19.344Z",
+  "builder": "build-herb-profiles.mjs"
+}

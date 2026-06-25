@@ -1,0 +1,1195 @@
+{
+  "profile_id": "seed-gentian",
+  "family_id": "seed-gentian",
+  "canonical_name": "Gentian",
+  "canonical_key": "gentian",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-gentian-b061a5f0c5#gentian"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 2966,
+    "total_chunks": 2752,
+    "total_works": 616,
+    "matched_chunk_count": 2752,
+    "matched_work_count": 616,
+    "matched_mention_total": 2752
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Gentian"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0672",
+      "nlm-0140313-chunk-1239",
+      "nlm-0140313-chunk-1829"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1941
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 843
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 22
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 1268,
+        "work_count": 498
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 633,
+        "work_count": 298
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 379,
+        "work_count": 221
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 373,
+        "work_count": 219
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 292,
+        "work_count": 225
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 235,
+        "work_count": 171
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 89,
+        "work_count": 70
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 86,
+        "work_count": 70
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 82,
+        "work_count": 72
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 78,
+        "work_count": 67
+      }
+    ],
+    "preparations": [
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 1302,
+        "work_count": 395
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 953,
+        "work_count": 334
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 806,
+        "work_count": 314
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 769,
+        "work_count": 329
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 758,
+        "work_count": 301
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 474,
+        "work_count": 297
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 416,
+        "work_count": 226
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 255,
+        "work_count": 184
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 248,
+        "work_count": 169
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 142,
+        "work_count": 112
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 1081,
+        "work_count": 340
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 320,
+        "work_count": 188
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 86,
+        "work_count": 53
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 60,
+        "work_count": 47
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 34,
+        "work_count": 31
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 30,
+        "work_count": 27
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 271,
+        "work_count": 200
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 254,
+        "work_count": 178
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 172,
+        "work_count": 143
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 159,
+        "work_count": 135
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 146,
+        "work_count": 109
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 122,
+        "work_count": 94
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 99,
+        "work_count": 80
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 92,
+        "work_count": 88
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 77,
+        "work_count": 57
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 65,
+        "work_count": 54
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 78,
+      "matched_mention_count": 78
+    },
+    {
+      "work_id": "wellcome-g8fcur54",
+      "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.",
+      "creator": "",
+      "publication_year": "1853",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/g8fcur54",
+      "signal_chunk_count": 46,
+      "matched_mention_count": 46
+    },
+    {
+      "work_id": "wellcome-n7jvnwj6",
+      "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame, embracing the modern improvements in medicine, to which are added, a domestic materia medica, a copious collection of approved prescriptions, &c. &c,  The whole intended as a comprehensive medical guide for the use of clergymen, heads of families, emigrants etc. / by Thomas J. Graham.",
+      "creator": "",
+      "publication_year": "1872",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/n7jvnwj6",
+      "signal_chunk_count": 45,
+      "matched_mention_count": 45
+    },
+    {
+      "work_id": "wellcome-ump8j3f6",
+      "title": "Modern domestic medicine: : a popular treatise, illustrating the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame; embracing the modern improvements in medicine. To which are added, a domestic materia medica; a copious collection of approved prescriptions, &c. &c. The whole intended as a comprehensive medical guide for the use of clergymen heads, [sic] of families, and invalids. / By Thomas J. Graham, M.D. &c.",
+      "creator": "",
+      "publication_year": "1835",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/ump8j3f6",
+      "signal_chunk_count": 41,
+      "matched_mention_count": 41
+    },
+    {
+      "work_id": "wellcome-j284bqe4",
+      "title": "Modern domestic medicine ... to which is added a domestic materia medica / [Thomas J. Graham].",
+      "creator": "",
+      "publication_year": "1827",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/j284bqe4",
+      "signal_chunk_count": 40,
+      "matched_mention_count": 40
+    },
+    {
+      "work_id": "wellcome-b483zydr",
+      "title": "Modern domestic medicine ... to which is added a domestic materia medica / [Thomas J. Graham].",
+      "creator": "",
+      "publication_year": "1832",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/b483zydr",
+      "signal_chunk_count": 38,
+      "matched_mention_count": 38
+    },
+    {
+      "work_id": "wellcome-zjp42x2j",
+      "title": "Modern domestic medicine, or, A popular treatise illustrating the character, symptoms, causes, distinction, and correct treatment, of all diseases incident to the human frame ... : to which is added, a domestic materia medica ... / by Thomas John Graham.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/zjp42x2j",
+      "signal_chunk_count": 38,
+      "matched_mention_count": 38
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 30,
+      "matched_mention_count": 30
+    },
+    {
+      "work_id": "wellcome-jmh3m2rt",
+      "title": "A cyclopedia of domestic medicine and surgery: being an alphabetical account of the various diseases incident to the human frame ... also, instructions for administering the various substances used in medicine; for the regulation of diet and regimen / by Thomas Andrew, with contributions by several members of the Royal College of Surgeons, Edinburgh.",
+      "creator": "",
+      "publication_year": "1844",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jmh3m2rt",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-cs5n98hu",
+      "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0117",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Cordial",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Drastic cathartic, emetic, hydragogue, anthelmin- tic. Use. In visceral obstructions and dropsy. In tapeworm, with carbonate of potassa. Dose. Gr. ij to gr. x in powder, with calomel, pills, etc. 6 GAULTHEEIA. Partrid...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1628",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Constipation",
+          "Headache",
+          "Dropsy"
+        ],
+        "excerpt": "This is to be taken in about six doses, in twenty-four hours, for dropsy. Butternut, or White Walnut. -The inner bark, or the root is used. It is a mild, efficacious, tonic purge, and is recommended for derangement of...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0192",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Gout",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Good for female obstructions, inflammations of the womb, coughs, colds, fevers, &c. FiGWORT (Water Betony)—Diuretic, anodyne, and alterative. One of the best remedies for scrofula, wounds, bruises and cutaneous diseas...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-g8fcur54-chunk-0307",
+        "work_id": "wellcome-g8fcur54",
+        "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/g8fcur54",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "In indigestion, it may be advantageously combined with some bitter extract, as extract of gentian, &c. ; in whites, chronic cough, asthma, and pulmonary consumption, with gum myrrh, or hemlock; and in hooping-cough, w...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-a7hj5sbp-chunk-0037",
+        "work_id": "wellcome-a7hj5sbp",
+        "title": "A dictionary of domestic medicine and household surgery / by Spencer Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/a7hj5sbp",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Fruit"
+        ],
+        "preparations": [
+          "Poultice",
+          "Bath",
+          "Gargle",
+          "Liniment",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "[digestion. Flatulence. Child—Enema—In- Flesh. Beef—Fibrine—Food. Flooding. Abortion — Child-Bed —Menstruation. Fluctuation. Abscess. Fluor Albus. Menstruation. Fcetus. [Poultice. Fomentation. Bran — Heat — Food. Diet...",
+        "score": 45
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0117",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Cordial",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Drastic cathartic, emetic, hydragogue, anthelmin- tic. Use. In visceral obstructions and dropsy. In tapeworm, with carbonate of potassa. Dose. Gr. ij to gr. x in powder, with calomel, pills, etc. 6 GAULTHEEIA. Partrid...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1628",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Constipation",
+          "Headache",
+          "Dropsy"
+        ],
+        "excerpt": "This is to be taken in about six doses, in twenty-four hours, for dropsy. Butternut, or White Walnut. -The inner bark, or the root is used. It is a mild, efficacious, tonic purge, and is recommended for derangement of...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0192",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Gout",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Good for female obstructions, inflammations of the womb, coughs, colds, fevers, &c. FiGWORT (Water Betony)—Diuretic, anodyne, and alterative. One of the best remedies for scrofula, wounds, bruises and cutaneous diseas...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-g8fcur54-chunk-0307",
+        "work_id": "wellcome-g8fcur54",
+        "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/g8fcur54",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "In indigestion, it may be advantageously combined with some bitter extract, as extract of gentian, &c. ; in whites, chronic cough, asthma, and pulmonary consumption, with gum myrrh, or hemlock; and in hooping-cough, w...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-a7hj5sbp-chunk-0037",
+        "work_id": "wellcome-a7hj5sbp",
+        "title": "A dictionary of domestic medicine and household surgery / by Spencer Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/a7hj5sbp",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Fruit"
+        ],
+        "preparations": [
+          "Poultice",
+          "Bath",
+          "Gargle",
+          "Liniment",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "[digestion. Flatulence. Child—Enema—In- Flesh. Beef—Fibrine—Food. Flooding. Abortion — Child-Bed —Menstruation. Fluctuation. Abscess. Fluor Albus. Menstruation. Fcetus. [Poultice. Fomentation. Bran — Heat — Food. Diet...",
+        "score": 45
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0117",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Cordial",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Drastic cathartic, emetic, hydragogue, anthelmin- tic. Use. In visceral obstructions and dropsy. In tapeworm, with carbonate of potassa. Dose. Gr. ij to gr. x in powder, with calomel, pills, etc. 6 GAULTHEEIA. Partrid...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1628",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Constipation",
+          "Headache",
+          "Dropsy"
+        ],
+        "excerpt": "This is to be taken in about six doses, in twenty-four hours, for dropsy. Butternut, or White Walnut. -The inner bark, or the root is used. It is a mild, efficacious, tonic purge, and is recommended for derangement of...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0192",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Gout",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Good for female obstructions, inflammations of the womb, coughs, colds, fevers, &c. FiGWORT (Water Betony)—Diuretic, anodyne, and alterative. One of the best remedies for scrofula, wounds, bruises and cutaneous diseas...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-g8fcur54-chunk-0307",
+        "work_id": "wellcome-g8fcur54",
+        "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/g8fcur54",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "In indigestion, it may be advantageously combined with some bitter extract, as extract of gentian, &c. ; in whites, chronic cough, asthma, and pulmonary consumption, with gum myrrh, or hemlock; and in hooping-cough, w...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-a7hj5sbp-chunk-0037",
+        "work_id": "wellcome-a7hj5sbp",
+        "title": "A dictionary of domestic medicine and household surgery / by Spencer Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/a7hj5sbp",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Fruit"
+        ],
+        "preparations": [
+          "Poultice",
+          "Bath",
+          "Gargle",
+          "Liniment",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "[digestion. Flatulence. Child—Enema—In- Flesh. Beef—Fibrine—Food. Flooding. Abortion — Child-Bed —Menstruation. Fluctuation. Abscess. Fluor Albus. Menstruation. Fcetus. [Poultice. Fomentation. Bran — Heat — Food. Diet...",
+        "score": 45
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0117",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Cordial",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Drastic cathartic, emetic, hydragogue, anthelmin- tic. Use. In visceral obstructions and dropsy. In tapeworm, with carbonate of potassa. Dose. Gr. ij to gr. x in powder, with calomel, pills, etc. 6 GAULTHEEIA. Partrid...",
+        "score": 58
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1628",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Constipation",
+          "Headache",
+          "Dropsy"
+        ],
+        "excerpt": "This is to be taken in about six doses, in twenty-four hours, for dropsy. Butternut, or White Walnut. -The inner bark, or the root is used. It is a mild, efficacious, tonic purge, and is recommended for derangement of...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-gfchkr25-chunk-0192",
+        "work_id": "wellcome-gfchkr25",
+        "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/gfchkr25",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Gout",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Good for female obstructions, inflammations of the womb, coughs, colds, fevers, &c. FiGWORT (Water Betony)—Diuretic, anodyne, and alterative. One of the best remedies for scrofula, wounds, bruises and cutaneous diseas...",
+        "score": 51
+      },
+      {
+        "chunk_id": "wellcome-g8fcur54-chunk-0307",
+        "work_id": "wellcome-g8fcur54",
+        "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/g8fcur54",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "In indigestion, it may be advantageously combined with some bitter extract, as extract of gentian, &c. ; in whites, chronic cough, asthma, and pulmonary consumption, with gum myrrh, or hemlock; and in hooping-cough, w...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-a7hj5sbp-chunk-0037",
+        "work_id": "wellcome-a7hj5sbp",
+        "title": "A dictionary of domestic medicine and household surgery / by Spencer Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/a7hj5sbp",
+        "matched_herbs": [
+          "Gentian"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Fruit"
+        ],
+        "preparations": [
+          "Poultice",
+          "Bath",
+          "Gargle",
+          "Liniment",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Wounds or ulcers",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "[digestion. Flatulence. Child—Enema—In- Flesh. Beef—Fibrine—Food. Flooding. Abortion — Child-Bed —Menstruation. Fluctuation. Abscess. Fluor Albus. Menstruation. Fcetus. [Poultice. Fomentation. Bran — Heat — Food. Diet...",
+        "score": 45
+      }
+    ]
+  },
+  "retrieval_text": "Gentian is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 616 works and 2752 source-linked chunks. Recorded variants include Gentian. Common plant-part co-mentions include Root, Bark, Seed, Gum, Flower, Leaf. Common preparation co-mentions include Extract, Pill, Infusion, Powder, Tincture, Oil. Common condition co-mentions include Cold or catarrh, Fever, Vomiting or nausea, Gout, Cough, Constipation. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Toxicity watch, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.; Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame, embracing the modern improvements in medicine, to which are added, a domestic materia medica, a copious collection of approved prescriptions, &c. &c,  The whole intended as a comprehensive medical guide for the use of clergymen, heads of families, emigrants etc. / by Thomas J. Graham.; Modern domestic medicine: : a popular treatise, illustrating the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame; embracing the modern improvements in medicine. To which are added, a domestic materia medica; a copious collection of approved prescriptions, &c. &c. The whole intended as a comprehensive medical guide for the use of clergymen heads, [sic] of families, and invalids. / By Thomas J. Graham, M.D. &c.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.708Z",
+  "builder": "build-herb-profiles.mjs"
+}

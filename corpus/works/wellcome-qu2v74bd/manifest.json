@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-qu2v74bd",
+  "title": "Pharmacographia; a history of the principal drugs of vegetable origin, met with in Great Britain and British India / by Friedrich A. Flückiger and Daniel Hanbury.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/qu2v74bd",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21024613",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/qu2v74bd",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 3079,
+  "paragraphCount": 3084,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-qu2v74bd\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-qu2v74bd\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-qu2v74bd\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-qu2v74bd.jsonl",
+  "rawSha256": "08f71ea33a13b5db71de374b6049313334bbaa51e9e76db91b9380a784e0f098",
+  "normalizedSha256": "8da7ddf7f4b128a16891145ea9b5b2e86691a1af672f30308e3438c49755f32d",
+  "processedAt": "2026-06-17T00:34:04.087Z"
+}

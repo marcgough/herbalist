@@ -1,0 +1,1184 @@
+{
+  "profile_id": "seed-burdock",
+  "family_id": "seed-burdock",
+  "canonical_name": "Burdock",
+  "canonical_key": "burdock",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-burdock-da08d22562#burdock"
+  ],
+  "decision_note": "promote strong medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 478,
+    "total_chunks": 433,
+    "total_works": 200,
+    "matched_chunk_count": 433,
+    "matched_work_count": 200,
+    "matched_mention_total": 433
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Burdock"
+    ],
+    "sample_work_ids": [
+      "nlm-0116421",
+      "nlm-0140313",
+      "nlm-100912803"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0116421-chunk-0095",
+      "nlm-0140313-chunk-0932",
+      "nlm-0140313-chunk-1046"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 375
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 62
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 5
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 360,
+        "work_count": 180
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 199,
+        "work_count": 121
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 197,
+        "work_count": 99
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 176,
+        "work_count": 126
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 65,
+        "work_count": 54
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 44,
+        "work_count": 38
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 37,
+        "work_count": 29
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 23,
+        "work_count": 21
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 6,
+        "work_count": 6
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 121,
+        "work_count": 75
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 108,
+        "work_count": 76
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 74,
+        "work_count": 51
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 63,
+        "work_count": 44
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 58,
+        "work_count": 41
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 56,
+        "work_count": 41
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 44,
+        "work_count": 34
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 41,
+        "work_count": 33
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 36,
+        "work_count": 34
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 32,
+        "work_count": 26
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 149,
+        "work_count": 89
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 58,
+        "work_count": 52
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 17,
+        "work_count": 15
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "conditions": [
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 96,
+        "work_count": 82
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 72,
+        "work_count": 53
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 70,
+        "work_count": 47
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 60,
+        "work_count": 45
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 44,
+        "work_count": 43
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 36,
+        "work_count": 29
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 34,
+        "work_count": 30
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 25,
+        "work_count": 20
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 23,
+        "work_count": 16
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 17,
+        "work_count": 16
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-nr9dehnu",
+      "title": "The magnetic and botanic family physician, and domestic practice of natural medicine : with illustrations showing various phases of mesmeric treatment, including full and concise instruction in mesmerism, curative magnetism, massage, and medical botany / by D. Younger.",
+      "creator": "",
+      "publication_year": "1887",
+      "collection_id": "wellcome-collection",
+      "topic_family": "medical-botany;domestic-medicine;botany",
+      "source_url": "https://wellcomecollection.org/works/nr9dehnu",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-64220910R",
+      "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+      "creator": "Matteson, Antonette, 1847-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-dvdzaqep",
+      "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-100912803",
+      "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-63570990R",
+      "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-63330560R",
+      "title": "The physician's assistant : consisting of a short and comprehensive materia medica , together with a summary view of the whole practice of physic, surgery and midwifery",
+      "creator": "Brooks, Dr.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63330560R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-61820150R",
+      "title": "The reformed botanic and Indian physician : a complete guide to health",
+      "creator": "Smith, Daniel, 1790-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0006",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Bowels, complaints of the, 20, 90 Do Inflammation of, 47 Do Pains in the, 22, 41 Do the, 161 Do to regulate, 63 Do weak, 19, 35 Breast, Cancer in the, 36 Do Pain in the, 85 Do Sore, 23, 76, 82 Bronchites, 30 Bruises,...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-pmkzhzfc-chunk-0003",
+        "work_id": "wellcome-pmkzhzfc",
+        "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal, wherein is displayed the true properties and medical virtues of all the roots, herbs, &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pmkzhzfc",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Do to warm the 81, 93 j Do Vomiting of 48 I Bloody Flux, 27, 53, 89 I P«? e Blue Flag, 13 Boils, 56, 57, 68 Bones, broken 78 Bone Ointment, 95 Bowels, complaints of the 20, 99 Do Inflammation of 47 Do Pains in the 22,...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0057",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "BELL WORT, [Uvularia PerfoHata,]—Useful in Wounds and Sores, and for Inflamed Larynx and Gums. BALMONY, [Chelone Glabra,]—Given in Fevers and Jaundice, and is a good Vermifuge. BITTER-SWEET, Bark of the Root, [Celastr...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1682",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Extract",
+          "Salve",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "with great advantage in mucous obstruction of the lungs and catarrhal cough. The extract may be found in the apothecary shop, and may be taken several times a day, in doses from ten to twenty grains, dis- solved in ar...",
+        "score": 46
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0006",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Bowels, complaints of the, 20, 90 Do Inflammation of, 47 Do Pains in the, 22, 41 Do the, 161 Do to regulate, 63 Do weak, 19, 35 Breast, Cancer in the, 36 Do Pain in the, 85 Do Sore, 23, 76, 82 Bronchites, 30 Bruises,...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-pmkzhzfc-chunk-0003",
+        "work_id": "wellcome-pmkzhzfc",
+        "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal, wherein is displayed the true properties and medical virtues of all the roots, herbs, &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pmkzhzfc",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Do to warm the 81, 93 j Do Vomiting of 48 I Bloody Flux, 27, 53, 89 I P«? e Blue Flag, 13 Boils, 56, 57, 68 Bones, broken 78 Bone Ointment, 95 Bowels, complaints of the 20, 99 Do Inflammation of 47 Do Pains in the 22,...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0057",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "BELL WORT, [Uvularia PerfoHata,]—Useful in Wounds and Sores, and for Inflamed Larynx and Gums. BALMONY, [Chelone Glabra,]—Given in Fevers and Jaundice, and is a good Vermifuge. BITTER-SWEET, Bark of the Root, [Celastr...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1682",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Extract",
+          "Salve",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "with great advantage in mucous obstruction of the lungs and catarrhal cough. The extract may be found in the apothecary shop, and may be taken several times a day, in doses from ten to twenty grains, dis- solved in ar...",
+        "score": 46
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0006",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Bowels, complaints of the, 20, 90 Do Inflammation of, 47 Do Pains in the, 22, 41 Do the, 161 Do to regulate, 63 Do weak, 19, 35 Breast, Cancer in the, 36 Do Pain in the, 85 Do Sore, 23, 76, 82 Bronchites, 30 Bruises,...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-pmkzhzfc-chunk-0003",
+        "work_id": "wellcome-pmkzhzfc",
+        "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal, wherein is displayed the true properties and medical virtues of all the roots, herbs, &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pmkzhzfc",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Do to warm the 81, 93 j Do Vomiting of 48 I Bloody Flux, 27, 53, 89 I P«? e Blue Flag, 13 Boils, 56, 57, 68 Bones, broken 78 Bone Ointment, 95 Bowels, complaints of the 20, 99 Do Inflammation of 47 Do Pains in the 22,...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0057",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Decoction"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "BELL WORT, [Uvularia PerfoHata,]—Useful in Wounds and Sores, and for Inflamed Larynx and Gums. BALMONY, [Chelone Glabra,]—Given in Fevers and Jaundice, and is a good Vermifuge. BITTER-SWEET, Bark of the Root, [Celastr...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1682",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Extract",
+          "Salve",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "with great advantage in mucous obstruction of the lungs and catarrhal cough. The extract may be found in the apothecary shop, and may be taken several times a day, in doses from ten to twenty grains, dis- solved in ar...",
+        "score": 46
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0006",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Poultice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Bowels, complaints of the, 20, 90 Do Inflammation of, 47 Do Pains in the, 22, 41 Do the, 161 Do to regulate, 63 Do weak, 19, 35 Breast, Cancer in the, 36 Do Pain in the, 85 Do Sore, 23, 76, 82 Bronchites, 30 Bruises,...",
+        "score": 58
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-pmkzhzfc-chunk-0003",
+        "work_id": "wellcome-pmkzhzfc",
+        "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal, wherein is displayed the true properties and medical virtues of all the roots, herbs, &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/pmkzhzfc",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Ointment",
+          "Poultice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Do to warm the 81, 93 j Do Vomiting of 48 I Bloody Flux, 27, 53, 89 I P«? e Blue Flag, 13 Boils, 56, 57, 68 Bones, broken 78 Bone Ointment, 95 Bowels, complaints of the 20, 99 Do Inflammation of 47 Do Pains in the 22,...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1682",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Extract",
+          "Salve",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "with great advantage in mucous obstruction of the lungs and catarrhal cough. The extract may be found in the apothecary shop, and may be taken several times a day, in doses from ten to twenty grains, dis- solved in ar...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-7704741-chunk-1620",
+        "work_id": "nlm-7704741",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ESSENCES",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+        "matched_herbs": [
+          "Burdock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Poultice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "Take of, Virginia snake root, 1 oz. White pine bark, 2 oz. Burdock seeds, 2 oz. Prickly ash bark, 2 oz. Pulverize all together, and add half a gallon of water; boil o three pints. Dose—Half a pint, two or three times...",
+        "score": 45
+      }
+    ]
+  },
+  "retrieval_text": "Burdock is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 200 works and 433 source-linked chunks. Recorded variants include Burdock. Common plant-part co-mentions include Root, Seed, Bark, Leaf, Flower, Berry. Common preparation co-mentions include Tea, Decoction, Syrup, Powder, Oil, Tincture. Common condition co-mentions include Wounds or ulcers, Cold or catarrh, Rheumatism, Fever, Epilepsy or convulsions, Inflammation. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Bleeding caution, Allergy or sensitivity caution, Fatal-risk warning. Representative source works include Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse; The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; The magnetic and botanic family physician, and domestic practice of natural medicine : with illustrations showing various phases of mesmeric treatment, including full and concise instruction in mesmerism, curative magnetism, massage, and medical botany / by D. Younger.; The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.918Z",
+  "builder": "build-herb-profiles.mjs"
+}

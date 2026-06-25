@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64210130R",
+  "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+  "creator": "Beach, W. (Wooster), 1794-1868.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64210130R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64210130R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 3719,
+  "paragraphCount": 5372,
+  "sectionCount": 50,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210130R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210130R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64210130R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64210130R.jsonl",
+  "rawSha256": "54e331623a7bb04527b1f91aaf5f03c09e886b7f7ad5052b984943fb72d02350",
+  "normalizedSha256": "a49bada2aaa6b0f8e5c39499dfa9fdb1b118c097fd54489e813b5b8d7615077f",
+  "processedAt": "2026-06-16T23:51:33.248Z"
+}

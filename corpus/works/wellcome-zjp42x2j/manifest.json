@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-zjp42x2j",
+  "title": "Modern domestic medicine, or, A popular treatise illustrating the character, symptoms, causes, distinction, and correct treatment, of all diseases incident to the human frame ... : to which is added, a domestic materia medica ... / by Thomas John Graham.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/zjp42x2j",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b28708271",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/zjp42x2j",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 1787,
+  "paragraphCount": 1815,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-zjp42x2j\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-zjp42x2j\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-zjp42x2j\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-zjp42x2j.jsonl",
+  "rawSha256": "f13bafee2515366ab22162a5c9fe5bb603ccf6e3281d76da564c6ed34265bea1",
+  "normalizedSha256": "3786bc80481d8eafe542c83534118ffeab111d1ec432837a5871819ebd39516e",
+  "processedAt": "2026-06-16T23:29:44.032Z"
+}

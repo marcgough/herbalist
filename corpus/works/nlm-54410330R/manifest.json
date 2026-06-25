@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-54410330R",
+  "title": "Primary studies for nurses : a text-book for first year pupil nurses, containing courses of studies in anatomy, physiology, hygiene, bacteriology, therapeutics and materia medica , dietetics and invalid cookery",
+  "creator": "Aikens, Charlotte A. (Charlotte Albina), 1868- author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-54410330R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-54410330R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/54410330R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;hygiene;nursing;convalescence;dietetics",
+  "chunkCount": 916,
+  "paragraphCount": 1425,
+  "sectionCount": 49,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-54410330R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-54410330R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-54410330R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-54410330R.jsonl",
+  "rawSha256": "f33ffb0f975ce5b755df32e1fc38a9bb1bacef541a4869c9252438e125ed7988",
+  "normalizedSha256": "29c03df1c1de53c7e5de87491924b1cb75083e8e16092bb5f43e5e20f6da3943",
+  "processedAt": "2026-06-17T11:19:30.496Z"
+}

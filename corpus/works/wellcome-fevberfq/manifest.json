@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-fevberfq",
+  "title": "The universal herbal, or botanical, medical and agricultural dictionary : containing an account of all known plants in the world, arranged according to the Linnean system. Specifying the uses to which they are or may be applied.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/fevberfq",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24923515",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/fevberfq",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 15028,
+  "paragraphCount": 15771,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-fevberfq\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-fevberfq\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-fevberfq\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-fevberfq.jsonl",
+  "rawSha256": "cf741bd8871fca5b8a7592531400f9379746f4819c4c099d3389f3ce96cd4e61",
+  "normalizedSha256": "6d4b835cc878e37de941f6275f4e52703d4679c67eba66042b68f25c05eb930f",
+  "processedAt": "2026-06-16T23:53:35.209Z"
+}

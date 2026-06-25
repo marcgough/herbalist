@@ -1,0 +1,57 @@
+{
+  "status": "archived",
+  "archivedAt": "2026-06-23T06:00:00Z",
+  "reason": "Legacy snapshot from before the Herbalisti corpus workflow was fully separated from shared Agent Memory.",
+  "serviceName": "Agent Memory",
+  "baseUrl": "http://127.0.0.1:8765",
+  "lastSuccessfulSyncAt": "2026-06-21T11:02:17Z",
+  "serviceUnavailableAt": "2026-06-22T18:46:33Z",
+  "documents": [
+    {
+      "path": "outputs/herbalisti-site/docs/knowledge-corpus-first-plan.md",
+      "title": "Herbalisti Knowledge Corpus First Plan",
+      "documentId": "cc8cebdab64e1c97abb2d7427cab8eed182b33953021fec6f14d023060d7bff2",
+      "sourceId": "f30f110f65f7fad5"
+    },
+    {
+      "path": "outputs/herbalisti-site/docs/corpus-build-summary-2026-06-19-post-separation-pass.md",
+      "title": "Herbalisti Corpus Summary - 2026-06-21",
+      "documentId": "154162e1f4ebd5453cf50e744cdd38e555136d00525fac2f507daa71a5315619",
+      "sourceId": "5caa02f3d30b55a2"
+    },
+    {
+      "path": "outputs/herbalisti-site/docs/corpus-build-checkpoint-2026-06-21-tightened-profile-homoeopathic-domestic-physician-and-wellcome-materia-medica-three.md",
+      "title": "Herbalisti Corpus Build Checkpoint - 2026-06-21 tightened profile homoeopathic domestic physician and Wellcome materia medica three",
+      "documentId": "9043d1fb75970b6bad48227066ca9056f2e196017f79f16ba724f8ed8cf04b09",
+      "sourceId": "ac8c275d4f8176c1"
+    },
+    {
+      "path": "outputs/herbalisti-site/corpus/review/curated-reference-selector/botanical-forward-shortlist-2026-06-21-after-tightened-profile-homoeopathic-domestic-physician-and-wellcome-materia-medica-three.md",
+      "title": "Herbalisti Botanical Forward Shortlist - 2026-06-21 after tightened profile homoeopathic domestic physician and Wellcome materia medica three",
+      "documentId": "42d9844dbde60a80d2a0323d8589ccaba77773fc47e519551dede49de268c6b2",
+      "sourceId": "e911022ed369fc83"
+    }
+  ],
+  "pendingDocuments": [
+    {
+      "path": "outputs/herbalisti-site/docs/knowledge-corpus-first-plan.md",
+      "title": "Herbalisti Knowledge Corpus First Plan",
+      "reason": "updated to 2026-06-22 corpus state but not synced because Agent Memory was unavailable"
+    },
+    {
+      "path": "outputs/herbalisti-site/docs/corpus-build-summary-2026-06-19-post-separation-pass.md",
+      "title": "Herbalisti Corpus Summary - 2026-06-22",
+      "reason": "updated to 2026-06-22 corpus state but not synced because Agent Memory was unavailable"
+    },
+    {
+      "path": "outputs/herbalisti-site/docs/corpus-build-checkpoint-2026-06-22-wellcome-health-restord-and-practical-medicine-two.md",
+      "title": "Herbalisti Corpus Build Checkpoint - 2026-06-22 wellcome health restord and practical medicine two",
+      "reason": "new checkpoint doc awaiting first sync because Agent Memory was unavailable"
+    },
+    {
+      "path": "outputs/herbalisti-site/corpus/review/curated-reference-selector/botanical-forward-shortlist-2026-06-22-after-wellcome-health-restord-and-practical-medicine-two.md",
+      "title": "Herbalisti Botanical Forward Shortlist - 2026-06-22 after wellcome health restord and practical medicine two",
+      "reason": "new shortlist doc awaiting first sync because Agent Memory was unavailable"
+    }
+  ]
+}

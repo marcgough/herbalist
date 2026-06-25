@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101217227",
+  "title": "On the relations of the medical profession to the trade interests of the materia medica ; and, A note on pepsin",
+  "creator": "Squibb, Edward Robinson, 1819-1900 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101217227-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101217227-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101217227",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 55,
+  "paragraphCount": 58,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101217227\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101217227\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101217227\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101217227.jsonl",
+  "rawSha256": "be35fa22c49576b9fd220e94a26fcd372827ffab4e659adbb326b2bd43f728ee",
+  "normalizedSha256": "199ad3f64a45d8f26f303f6a3499d534ed764f56ac6a16b24c5f3ea9479a72af",
+  "processedAt": "2026-06-18T04:50:38.575Z"
+}

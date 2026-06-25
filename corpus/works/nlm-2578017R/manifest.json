@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2578017R",
+  "title": "Wright's Family medicine, or system of domestic practice : containing the improvements suggested by an experience of forty years",
+  "creator": "Wright, Isaac, of Tennessee",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2578017R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2578017R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2578017R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 609,
+  "paragraphCount": 947,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2578017R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2578017R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2578017R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2578017R.jsonl",
+  "rawSha256": "ac3641e77ca0f076fd8dede224704d3a6d92406bdedc8f11c48600f070ac2506",
+  "normalizedSha256": "2c228620144b8c2d70067d3739c58cc823fa4114afc1bd5705a80dd9fe9008e1",
+  "processedAt": "2026-06-20T00:25:10.355Z"
+}

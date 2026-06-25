@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-32610690R",
+  "title": "Madame Young's guide to health : her experience and practice for nearly forty years : a true family herbal , wherein is displayed the true properties and medical virtues of all the roots, herbs , &c, indigenous to the United States, and their combination in all the diseases the human body is heir to : also, an explanation of the human body, its liability to injuries through ignorance of its structure : dedicated excusively to her sex",
+  "creator": "Young, Madame (Amelia)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32610690R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-32610690R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/32610690R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 413,
+  "paragraphCount": 673,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-32610690R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-32610690R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-32610690R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-32610690R.jsonl",
+  "rawSha256": "0570e25e0eb446e16688abae008e8303a8f1083968b87d486091331a78c25190",
+  "normalizedSha256": "56c736cb68a0ed52a6bec9efd8a9acf49ed35df4c6bc10857772b9ed546df7a4",
+  "processedAt": "2026-06-16T23:06:21.034Z"
+}

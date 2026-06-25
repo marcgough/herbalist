@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-e4ydzncj",
+  "title": "Every man's doctor, or, Family guide to health : containing a condensed description of the various causes and symptoms of diseases : with an appendix showing the medical properties of the most valuable roots and herbs : to which is added 150 recipes.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/e4ydzncj",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21118504",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/e4ydzncj",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 121,
+  "paragraphCount": 121,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-e4ydzncj\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-e4ydzncj\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-e4ydzncj.jsonl",
+  "rawSha256": "d10395607e24329edfb010793593781d30730ce9cf973c5f0c31e3a126a40992",
+  "normalizedSha256": "0bcf33be85c2512a03def368ba9fc66e677a0a77138e8b270f6ed8d3b5cd1710",
+  "processedAt": "2026-06-16T13:46:49.696Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

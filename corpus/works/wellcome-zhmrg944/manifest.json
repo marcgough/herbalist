@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-zhmrg944",
+  "title": "Opobalsami veteribus cogniti vindiciae / [Johann Vesling].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/zhmrg944",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30762479",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/zhmrg944",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 436,
+  "paragraphCount": 440,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-zhmrg944\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-zhmrg944\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-zhmrg944\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-zhmrg944.jsonl",
+  "rawSha256": "46f0a152e35dd9b70d113466f5e6f2de34a6ec12f3051e58242150e2ae0fba9f",
+  "normalizedSha256": "2ef6ad6b2dadf552e27cf16247b0ea9c2a89a3795548e7a6ce81516a7f2f1821",
+  "processedAt": "2026-06-16T23:14:23.769Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101302431",
+  "title": "Homoeopathic materia medica of the new remedies : their botanical description, medical history, pathogenetic effects and therapeutical application in homoeopathic practice",
+  "creator": "Hale, Edwin M. (Edwin Moses), 1829-1899.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101302431-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101302431-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101302431",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;botany",
+  "chunkCount": 45,
+  "paragraphCount": 61,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101302431\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101302431\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101302431\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101302431.jsonl",
+  "rawSha256": "0f0dcf40f17cb55ccd6376f65f9c08eba3399391c55c66d45d7285d6bd6346e7",
+  "normalizedSha256": "5ec3a7097837fe2060f5dcfd61763d853e1fe45f3b5bf021f5ee1431d32ed7ee",
+  "processedAt": "2026-06-17T17:55:42.460Z"
+}

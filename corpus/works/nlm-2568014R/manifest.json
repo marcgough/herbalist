@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2568014R",
+  "title": "The medical guide, for the use of families and young practitioners in medicine and surgery : being a complete system of modern domestic medicine : exhibiting a comprehensive view of the latest and most important discoveries in medicine, pharmacy, &c",
+  "creator": "Reece, Richard, 1775-1831.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2568014R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2568014R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2568014R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 1091,
+  "paragraphCount": 1774,
+  "sectionCount": 29,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2568014R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2568014R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2568014R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2568014R.jsonl",
+  "rawSha256": "84ca861e1d86fae0724fa897393337209436bca9f5f469fa25ce019d4b89c642",
+  "normalizedSha256": "e7e0d10931be05a37d288695a8ff50da660a92aa6860ac9df25224784097f299",
+  "processedAt": "2026-06-17T12:28:39.426Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-r9hpke8k",
+  "title": "The English physician enlarged with three hundred and sixty nine medicines, made of English herbs, that were not in any impression until this : being an astrologo-physical discourse of the vulgar herbs of this nation, containing a complete method of physic, whereby a man may preserve his body in health, or cure himself, being sick, for three-pence charge, with such things only as grow in England, they being most fit for English bodies ... / by Nich. Culpepper.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/r9hpke8k",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21526370",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/r9hpke8k",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 996,
+  "paragraphCount": 1058,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-r9hpke8k\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-r9hpke8k\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-r9hpke8k\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-r9hpke8k.jsonl",
+  "rawSha256": "8fdb86494771bbe941e2d4347ae8eebf04265cfd3425c11ad4e98755cb734f4b",
+  "normalizedSha256": "edb9642a7a8d277897fa5a811129ec3c2ecf9677bba2ae05a2fe86244237fb4d",
+  "processedAt": "2026-06-16T23:53:22.161Z"
+}

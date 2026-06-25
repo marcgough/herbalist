@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2562053R",
+  "title": "The pharmacopoeia of the Massachusetts Medical Society",
+  "creator": "Massachusetts Medical Society.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2562053R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2562053R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2562053R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 213,
+  "paragraphCount": 724,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2562053R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2562053R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2562053R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2562053R.jsonl",
+  "rawSha256": "dbbf26b0828303f7a3fab297a20d0cec59083e4b1146ccbb1930748eca05e47e",
+  "normalizedSha256": "218b1f163342ee8d4798727a12ea74434e2f0260f3fb5a5fd567f5dac5091f72",
+  "processedAt": "2026-06-18T02:21:00.858Z"
+}

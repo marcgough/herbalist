@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2544062R",
+  "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practitioners ; to which are added, observations on diet ; recommending a method of living less expensive, and more conducive to health, than the present",
+  "creator": "Buchan, William, 1729-1805.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544062R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2544062R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2544062R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1917,
+  "paragraphCount": 2163,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2544062R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2544062R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2544062R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2544062R.jsonl",
+  "rawSha256": "d43d8af2efecd99f33df58c0c2e56e89df8a3fca5e17f790e72080ec42b6d946",
+  "normalizedSha256": "ace80323a46e1909e94388634aa3cd0d7ef46941ddb54ebf8e69535dc6a15e6f",
+  "processedAt": "2026-06-16T22:57:52.735Z"
+}

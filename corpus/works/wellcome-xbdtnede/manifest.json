@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-xbdtnede",
+  "title": "Medical botany : or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias; comprising a popular and scientific account of all those poisonous vegetables that are indigenous to Great Britain / by John Stephenson and James Morss Churchill.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/xbdtnede",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21934691",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/xbdtnede",
+  "rightsStatus": "pdm",
+  "topicFamily": "medicinal-plants;medical-botany;botany",
+  "chunkCount": 1918,
+  "paragraphCount": 1947,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-xbdtnede\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-xbdtnede\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-xbdtnede\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-xbdtnede.jsonl",
+  "rawSha256": "1fca162e736464e97c99cbed039db1d816a1084569717897a315f2101edf7e14",
+  "normalizedSha256": "522a49624fc56b1f63adf5e0e50794cf3e3d29b84c7b39ed018099d6e5571d06",
+  "processedAt": "2026-06-16T22:49:57.314Z"
+}

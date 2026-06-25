@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63330560R",
+  "title": "The physician's assistant : consisting of a short and comprehensive materia medica , together with a summary view of the whole practice of physic, surgery and midwifery",
+  "creator": "Brooks, Dr.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63330560R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63330560R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63330560R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 475,
+  "paragraphCount": 531,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63330560R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63330560R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63330560R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63330560R.jsonl",
+  "rawSha256": "ca3239384d483fe7790c615cebb07e5a259930f4911f99ac12866a28c27acbf3",
+  "normalizedSha256": "003126e6f71529fac9a00889d63fdc8d5f2cced71c68ab85401380b8c4fca971",
+  "processedAt": "2026-06-18T16:16:52.793Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2449056R",
+  "title": "A curious herbal : containing five hundred cuts, of the most useful plants, which are now used in the practice of physick : engraved on folio copper plates, after drawings taken from life",
+  "creator": "Blackwell, Elizabeth, active 1737 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2449056R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2449056R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2449056R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal",
+  "chunkCount": 513,
+  "paragraphCount": 516,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2449056R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2449056R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2449056R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2449056R.jsonl",
+  "rawSha256": "0c851a861e73b133bca886f572c6a87e38022b87861c4d9c6302da96620839ff",
+  "normalizedSha256": "e265c56b56443a0370a78dc86e28f3c4ec42b2633958ea5e8a65051aabb0ba55",
+  "processedAt": "2026-06-17T09:27:03.381Z"
+}

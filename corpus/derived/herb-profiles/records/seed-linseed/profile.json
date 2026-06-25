@@ -1,0 +1,1229 @@
+{
+  "profile_id": "seed-linseed",
+  "family_id": "seed-linseed",
+  "canonical_name": "Linseed",
+  "canonical_key": "linseed",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-flax-seed-f9d3db5710#flax-seed",
+    "term-flaxseed-15cbc763bf#flaxseed",
+    "term-linseed-49423df732#linseed"
+  ],
+  "decision_note": "merge flaxseed naming into the main linseed family | merge hyphenated flax-seed naming into the main linseed family",
+  "metrics": {
+    "total_mentions": 2811,
+    "total_chunks": 2617,
+    "total_works": 592,
+    "matched_chunk_count": 2617,
+    "matched_work_count": 592,
+    "matched_mention_total": 2651
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Linseed",
+      "Flaxseed",
+      "Flax-seed",
+      "Linseeds"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0215565",
+      "nlm-0217313"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1477",
+      "nlm-0140313-chunk-2498",
+      "nlm-0140313-chunk-2549"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 1952
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 713
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 39
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 702,
+        "work_count": 345
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 497,
+        "work_count": 308
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 406,
+        "work_count": 200
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 256,
+        "work_count": 170
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 198,
+        "work_count": 169
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 197,
+        "work_count": 150
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 96,
+        "work_count": 94
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 85,
+        "work_count": 62
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 30,
+        "work_count": 30
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 26,
+        "work_count": 24
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 1392,
+        "work_count": 495
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 1067,
+        "work_count": 346
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 619,
+        "work_count": 307
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 481,
+        "work_count": 225
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 419,
+        "work_count": 231
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 321,
+        "work_count": 199
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 237,
+        "work_count": 143
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 195,
+        "work_count": 139
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 186,
+        "work_count": 123
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 175,
+        "work_count": 134
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 569,
+        "work_count": 281
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 291,
+        "work_count": 170
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 175,
+        "work_count": 136
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 137,
+        "work_count": 107
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 119,
+        "work_count": 96
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 102,
+        "work_count": 90
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 88,
+        "work_count": 71
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 14,
+        "work_count": 11
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 573,
+        "work_count": 306
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 264,
+        "work_count": 183
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 260,
+        "work_count": 181
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 260,
+        "work_count": 170
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 214,
+        "work_count": 134
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 188,
+        "work_count": 124
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 153,
+        "work_count": 128
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 96,
+        "work_count": 82
+      },
+      {
+        "id": "measles",
+        "label": "Measles",
+        "signal_count": 66,
+        "work_count": 66
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 66,
+        "work_count": 56
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 92,
+      "matched_mention_count": 92
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 26
+    },
+    {
+      "work_id": "nlm-63580420R",
+      "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+      "creator": "Imray, Keith.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "nlm-63570290R",
+      "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide",
+      "creator": "Ewell, James, 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;medicinal-plants;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570290R-bk",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "wellcome-jfx4av9y",
+      "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plants : also, the nurse's guide / by James Ewell.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;medicinal-plants;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jfx4av9y",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "nlm-8004761",
+      "title": "Popular medicine, or, The American family physician : a work in which the principles and practice of medicine are familiarly explained : comprising a complete and comprehensive description of diseases, with full and definite directions for their treatment : the properties of many new and important medicines, with their doses and mode of administration, are accurately described : designed for general use and adapted to all climates",
+      "creator": "Capron, George, 1802-1882.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8004761-bk",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "nlm-101230724",
+      "title": "The medical companion, or family physician : treating of the diseases of the United states, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added, a brief anatomy and physiology of the human body, shewing, on rational principles, the cause and cure of diseases : an essay on hygiene, or the art of preserving health, without the aid of medicine : and an American materia medica , pointing out the virtures and doses of our medicinal plants : also, the nurse's guide",
+      "creator": "Ewell, James, 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;medicinal-plants;domestic-medicine;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101230724-bk",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-w9ajj4k7",
+      "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children, a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body, shewing, on rational principles, the cause and cure of disease :  an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plats ; also, the nurse's guide / by James Ewell.",
+      "creator": "",
+      "publication_year": "1822",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/w9ajj4k7",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 20
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-101278154-chunk-0123",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Flaxseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Essence",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Croup, how treated, 23. symptoms of, 53. Currant-jelly Water, 96. Diarrhoea, in children, 21,65. in adults, 21, 62, 73,82. in cholera seasons, 21. remedies for, 21. Diphtheria, 64. Disinfectants, 104. Disinfection, 10...",
+        "score": 68
+      },
+      {
+        "chunk_id": "wellcome-jemf85pr-chunk-1057",
+        "work_id": "wellcome-jemf85pr",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America : containing a selection of above 100 figures and descriptions of medical plants, with their names, qualities, properties, history, &c.: and notes or remarks on nearly 500 equivalent substitutes / by C. S. Rafinesque.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jemf85pr",
+        "matched_herbs": [
+          "Flaxseed",
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Wild Flax, Wech- kenah of the Missouri tribes, Avhole plant laxative, pec- toral and sudorific, used for cough and asthma. Common Flax or L. usitatissimum is become spontaneous, pro- ducing tow, flax and linen. Seeds...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63360800R-chunk-1554",
+        "work_id": "nlm-63360800R",
+        "title": "The American cyclopaedia of domestic medicine and household surgery : a reliable guide for every family, containing full descriptions of the various parts of the human body, accounts of the numerous diseases to which man is subject, their causes, symptoms, treatment, and prevention, with plain directions how to act in case of accidents and emergencies of every kind : also, full descriptions of the different articles used in medicine and explanations of medical and scientific terms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63360800R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "In improper doses colchicum acts as a narcotico-acrid poison. The symptoms produced by an overdose of colchicum are, vomiting, purging, colic, heat in the throat and abdomen, general depression, headache, and stupor o...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-101278154-chunk-0123",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Flaxseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Essence",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Croup, how treated, 23. symptoms of, 53. Currant-jelly Water, 96. Diarrhoea, in children, 21,65. in adults, 21, 62, 73,82. in cholera seasons, 21. remedies for, 21. Diphtheria, 64. Disinfectants, 104. Disinfection, 10...",
+        "score": 68
+      },
+      {
+        "chunk_id": "wellcome-jemf85pr-chunk-1057",
+        "work_id": "wellcome-jemf85pr",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America : containing a selection of above 100 figures and descriptions of medical plants, with their names, qualities, properties, history, &c.: and notes or remarks on nearly 500 equivalent substitutes / by C. S. Rafinesque.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jemf85pr",
+        "matched_herbs": [
+          "Flaxseed",
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Wild Flax, Wech- kenah of the Missouri tribes, Avhole plant laxative, pec- toral and sudorific, used for cough and asthma. Common Flax or L. usitatissimum is become spontaneous, pro- ducing tow, flax and linen. Seeds...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63360800R-chunk-1554",
+        "work_id": "nlm-63360800R",
+        "title": "The American cyclopaedia of domestic medicine and household surgery : a reliable guide for every family, containing full descriptions of the various parts of the human body, accounts of the numerous diseases to which man is subject, their causes, symptoms, treatment, and prevention, with plain directions how to act in case of accidents and emergencies of every kind : also, full descriptions of the different articles used in medicine and explanations of medical and scientific terms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63360800R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "In improper doses colchicum acts as a narcotico-acrid poison. The symptoms produced by an overdose of colchicum are, vomiting, purging, colic, heat in the throat and abdomen, general depression, headache, and stupor o...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-101278154-chunk-0123",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Flaxseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Essence",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Croup, how treated, 23. symptoms of, 53. Currant-jelly Water, 96. Diarrhoea, in children, 21,65. in adults, 21, 62, 73,82. in cholera seasons, 21. remedies for, 21. Diphtheria, 64. Disinfectants, 104. Disinfection, 10...",
+        "score": 68
+      },
+      {
+        "chunk_id": "wellcome-jemf85pr-chunk-1057",
+        "work_id": "wellcome-jemf85pr",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America : containing a selection of above 100 figures and descriptions of medical plants, with their names, qualities, properties, history, &c.: and notes or remarks on nearly 500 equivalent substitutes / by C. S. Rafinesque.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jemf85pr",
+        "matched_herbs": [
+          "Flaxseed",
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Wild Flax, Wech- kenah of the Missouri tribes, Avhole plant laxative, pec- toral and sudorific, used for cough and asthma. Common Flax or L. usitatissimum is become spontaneous, pro- ducing tow, flax and linen. Seeds...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63360800R-chunk-1554",
+        "work_id": "nlm-63360800R",
+        "title": "The American cyclopaedia of domestic medicine and household surgery : a reliable guide for every family, containing full descriptions of the various parts of the human body, accounts of the numerous diseases to which man is subject, their causes, symptoms, treatment, and prevention, with plain directions how to act in case of accidents and emergencies of every kind : also, full descriptions of the different articles used in medicine and explanations of medical and scientific terms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63360800R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "In improper doses colchicum acts as a narcotico-acrid poison. The symptoms produced by an overdose of colchicum are, vomiting, purging, colic, heat in the throat and abdomen, general depression, headache, and stupor o...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-101278154-chunk-0123",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Flaxseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Essence",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Croup, how treated, 23. symptoms of, 53. Currant-jelly Water, 96. Diarrhoea, in children, 21,65. in adults, 21, 62, 73,82. in cholera seasons, 21. remedies for, 21. Diphtheria, 64. Disinfectants, 104. Disinfection, 10...",
+        "score": 68
+      },
+      {
+        "chunk_id": "wellcome-jemf85pr-chunk-1057",
+        "work_id": "wellcome-jemf85pr",
+        "title": "Medical flora, or, Manual of the medical botany of the United States of North America : containing a selection of above 100 figures and descriptions of medical plants, with their names, qualities, properties, history, &c.: and notes or remarks on nearly 500 equivalent substitutes / by C. S. Rafinesque.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jemf85pr",
+        "matched_herbs": [
+          "Flaxseed",
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Wild Flax, Wech- kenah of the Missouri tribes, Avhole plant laxative, pec- toral and sudorific, used for cough and asthma. Common Flax or L. usitatissimum is become spontaneous, pro- ducing tow, flax and linen. Seeds...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-63360800R-chunk-1554",
+        "work_id": "nlm-63360800R",
+        "title": "The American cyclopaedia of domestic medicine and household surgery : a reliable guide for every family, containing full descriptions of the various parts of the human body, accounts of the numerous diseases to which man is subject, their causes, symptoms, treatment, and prevention, with plain directions how to act in case of accidents and emergencies of every kind : also, full descriptions of the different articles used in medicine and explanations of medical and scientific terms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63360800R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Headache",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "In improper doses colchicum acts as a narcotico-acrid poison. The symptoms produced by an overdose of colchicum are, vomiting, purging, colic, heat in the throat and abdomen, general depression, headache, and stupor o...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-64220910R-chunk-0354",
+        "work_id": "nlm-64220910R",
+        "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "A VALUABLE FAMILY SALVE;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+        "matched_herbs": [
+          "Linseed"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Honey........................... 8 ounces. Beeswax.....................___ 8 \" Spirits turpentine................. 1 \" Oil of wintergreen.............__ 1 \" Tincture opium................... 2 \" Fluid extract lobelia....",
+        "score": 52
+      }
+    ]
+  },
+  "retrieval_text": "Linseed is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 592 works and 2617 source-linked chunks. Recorded variants include Linseed, Flaxseed, Flax-seed, Linseeds. Common plant-part co-mentions include Seed, Root, Gum, Bark, Leaf, Flower. Common preparation co-mentions include Oil, Tea, Infusion, Decoction, Poultice, Powder. Common condition co-mentions include Cold or catarrh, Wounds or ulcers, Cough, Inflammation, Fever, Vomiting or nausea. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Allergy or sensitivity caution, Bleeding caution, Toxicity watch. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.; A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use; Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.712Z",
+  "builder": "build-herb-profiles.mjs"
+}

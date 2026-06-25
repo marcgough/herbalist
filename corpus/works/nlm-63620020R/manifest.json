@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63620020R",
+  "title": "The American practice of domestic medicine",
+  "creator": "Salter, S. F. (Seaborn Freeman)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620020R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63620020R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63620020R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 9,
+  "paragraphCount": 13,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620020R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620020R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63620020R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63620020R.jsonl",
+  "rawSha256": "ca767f2e987953aca1e86eb2c420fa0f3ced781fde61746bd95034d51ee3183e",
+  "normalizedSha256": "21c114c68ce901c2d445649f10f7e457c7374895ebd3b9d1f9e2abdf069d8992",
+  "processedAt": "2026-06-17T13:55:51.414Z"
+}

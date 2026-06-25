@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-krzwfrsp",
+  "title": "Stirpium icones et sciagraphia. Cum scriptorum circa eas consensu et dissensu, ac caeteris plaerisque omnibus quae de plantarum natura ... usu & virtutibus, scitu necessaria / authore Dominico Chabraeo.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/krzwfrsp",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b11028269",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/krzwfrsp",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 3148,
+  "paragraphCount": 3173,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-krzwfrsp\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-krzwfrsp\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-krzwfrsp\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-krzwfrsp.jsonl",
+  "rawSha256": "974e6608c23e9b586bb5ed230440327497fe0a5d23ca64ca9144aed932784832",
+  "normalizedSha256": "4a66563cabfbfe5abacc872d680f31781ef8187de190298df4bd7519e4472f99",
+  "processedAt": "2026-06-17T00:34:13.488Z"
+}

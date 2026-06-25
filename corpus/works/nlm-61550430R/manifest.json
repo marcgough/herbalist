@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61550430R",
+  "title": "A treatise on the materia medica : intended as a sequel to the pharmacopoeia of the United States : being an account of the origin, qualities and medical uses of the articles and compounds, which constitute that work, with their modes of prescription and administration",
+  "creator": "Bigelow, Jacob, 1786-1879.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61550430R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61550430R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61550430R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 29,
+  "paragraphCount": 38,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61550430R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61550430R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61550430R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61550430R.jsonl",
+  "rawSha256": "3de739a277e97ae80e6e923501ce07c0bcb1a32da6bc6f997bc6cd0faa08c645",
+  "normalizedSha256": "e5333e3ad2fa1ec8fe62eec0c86c7c077d733241d803d7837aea2244a04afbe3",
+  "processedAt": "2026-06-18T02:20:50.362Z"
+}

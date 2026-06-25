@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-05710400R",
+  "title": "First lessons in botany and vegetable physiology : to which is added a copious glossary, or dictionary of botanical terms",
+  "creator": "Gray, Asa, 1810-1888 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-05710400R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-05710400R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/05710400R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 643,
+  "paragraphCount": 646,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-05710400R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-05710400R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-05710400R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-05710400R.jsonl",
+  "rawSha256": "3d77ab0afbe5d52a62c0c493e4659934684e2abe5d459d209c8b907f3077e57c",
+  "normalizedSha256": "77ab8c77a1398321e3d5c14a824a014dbd79912833d94c542b5e443b6b2cb07c",
+  "processedAt": "2026-06-18T14:58:26.374Z"
+}

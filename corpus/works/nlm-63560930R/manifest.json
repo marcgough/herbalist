@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63560930R",
+  "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+  "creator": "Coxe, Edward Jenner, 1801-1882.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63560930R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63560930R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;convalescence",
+  "chunkCount": 723,
+  "paragraphCount": 908,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560930R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560930R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63560930R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63560930R.jsonl",
+  "rawSha256": "dc074eea7e92367f00f8e136b58e5cbf44c5d90f3858798d848a803347b080d2",
+  "normalizedSha256": "b6982e21a28d26460e73dde1b593bf1c12a04cd19809a514e393d10ceb55732c",
+  "processedAt": "2026-06-17T12:10:54.747Z"
+}

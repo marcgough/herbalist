@@ -1,0 +1,1166 @@
+{
+  "profile_id": "seed-rosemary",
+  "family_id": "seed-rosemary",
+  "canonical_name": "Rosemary",
+  "canonical_key": "rosemary",
+  "catalog_status": "seed-ready",
+  "catalog_class": "culinary-medicinal-plant",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-rosemary-f5b1f644f7#rosemary"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 984,
+    "total_chunks": 886,
+    "total_works": 315,
+    "matched_chunk_count": 886,
+    "matched_work_count": 315,
+    "matched_mention_total": 886
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "culinary-herbs",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Rosemary",
+      "Rosemary Flowers"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-100912803"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-2571",
+      "nlm-0217313-chunk-1743",
+      "nlm-0217313-chunk-2099"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 727
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 135
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 30
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 225,
+        "work_count": 122
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 138,
+        "work_count": 102
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 134,
+        "work_count": 108
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 113,
+        "work_count": 82
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 91,
+        "work_count": 73
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 79,
+        "work_count": 72
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 55,
+        "work_count": 44
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 54,
+        "work_count": 40
+      },
+      {
+        "id": "flowering-top",
+        "label": "Flowering tops",
+        "signal_count": 33,
+        "work_count": 27
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 27,
+        "work_count": 24
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 734,
+        "work_count": 265
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 210,
+        "work_count": 111
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 162,
+        "work_count": 109
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 109,
+        "work_count": 80
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 69,
+        "work_count": 47
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 63,
+        "work_count": 44
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 58,
+        "work_count": 48
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 57,
+        "work_count": 41
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 52,
+        "work_count": 48
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 50,
+        "work_count": 28
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 162,
+        "work_count": 109
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 115,
+        "work_count": 70
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 20,
+        "work_count": 19
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 17,
+        "work_count": 16
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 86,
+        "work_count": 59
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 65,
+        "work_count": 58
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 44,
+        "work_count": 37
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 34,
+        "work_count": 30
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 25,
+        "work_count": 24
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 19,
+        "work_count": 17
+      },
+      {
+        "id": "headache",
+        "label": "Headache",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 16,
+        "work_count": 14
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 15,
+        "work_count": 15
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 15,
+        "work_count": 12
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 59,
+      "matched_mention_count": 59
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 29,
+      "matched_mention_count": 29
+    },
+    {
+      "work_id": "wellcome-yfu6989c",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/yfu6989c",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "wellcome-fwzua59q",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/fwzua59q",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "wellcome-ctkumbc4",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+      "creator": "",
+      "publication_year": "1820",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "nlm-2751057R",
+      "title": "Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops",
+      "creator": "Culpeper, Nicholas, 1616-1654 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2751057R-bk",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "wellcome-dwk6bbmw",
+      "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-nhx2ne6y",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-wg4y3uv4",
+      "title": "The London dispensatory : a practical synopsis of materia medica, pharmacy, and therapeutics : illustrated with many useful tables, and woodcuts of the pharmaceutical apparatus / by the late Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/wg4y3uv4",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-tux8ukdg-chunk-1201",
+        "work_id": "wellcome-tux8ukdg",
+        "title": "Culpeper's complete herbal, and English physician; wherein several hundred herbs, with a display of their medicinal and occult properties, are physically applied to the cure of all disorders incident to mankind ... To which is annexed the British florist. Or Flower garden displayed; in which the most ornamental plants will be accurately represented in their natural colours; with their names, class, order, characters, plans of growth, and times of flowering; together with the most approved methods of culture ... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/tux8ukdg",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Salve",
+          "Oil",
+          "Essence",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Headache",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "| 219 to make salve for all wounds 219 The essential uses ef the Oil of Carra- ways. a esee 919 oil of Juniper Berries. 219 oil of Rosemary. - etre ty? WB2I9 A remedy for a loading and stufling at the stomach, causing...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0704",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "It acts chiefly on the nervous system. Therapeutic Uses. —Camphor is administered in fevers of an asthenic type, acute inflammations, inflammation of the brain, delirium tremens, asthma, rheumatic and nervous headache...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-0039",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Salve",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Rheumatism",
+          "Headache",
+          "Inflammation"
+        ],
+        "excerpt": "ir - 715 \" \" Consumption - 705 \" \" Diphtheria - - 708 \" \" Freckles - - 719 \" \" Hoarseness - - 705 \" \" Lumbago - - 711 \" \" Obstinate Coughs and Colds - - 703 \" \" Palpitation of Heart 709 \" \" Proud Flesh - - 673 \" \" Sca...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-vnjsyq64-chunk-1196",
+        "work_id": "wellcome-vnjsyq64",
+        "title": "Culpeper's complete herbal, and English physician ... To which is annexed the British florist / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/vnjsyq64",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "2 4212 — Syrups. eee apt 5 — Juleps. eee oi cee anepkeh — Decoctions, Wises 213 —' Oils. °F foath gbaewidw Ql — Electuaries. wig fe aE, gf (ENS — Conserves. ~~ sa. '. 1) 215 — Preserves. sohate , oold — Lohocks. RD ca...",
+        "score": 46
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-tux8ukdg-chunk-1201",
+        "work_id": "wellcome-tux8ukdg",
+        "title": "Culpeper's complete herbal, and English physician; wherein several hundred herbs, with a display of their medicinal and occult properties, are physically applied to the cure of all disorders incident to mankind ... To which is annexed the British florist. Or Flower garden displayed; in which the most ornamental plants will be accurately represented in their natural colours; with their names, class, order, characters, plans of growth, and times of flowering; together with the most approved methods of culture ... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/tux8ukdg",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Salve",
+          "Oil",
+          "Essence",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Headache",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "| 219 to make salve for all wounds 219 The essential uses ef the Oil of Carra- ways. a esee 919 oil of Juniper Berries. 219 oil of Rosemary. - etre ty? WB2I9 A remedy for a loading and stufling at the stomach, causing...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0704",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "It acts chiefly on the nervous system. Therapeutic Uses. —Camphor is administered in fevers of an asthenic type, acute inflammations, inflammation of the brain, delirium tremens, asthma, rheumatic and nervous headache...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-0039",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Salve",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Rheumatism",
+          "Headache",
+          "Inflammation"
+        ],
+        "excerpt": "ir - 715 \" \" Consumption - 705 \" \" Diphtheria - - 708 \" \" Freckles - - 719 \" \" Hoarseness - - 705 \" \" Lumbago - - 711 \" \" Obstinate Coughs and Colds - - 703 \" \" Palpitation of Heart 709 \" \" Proud Flesh - - 673 \" \" Sca...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-vnjsyq64-chunk-1196",
+        "work_id": "wellcome-vnjsyq64",
+        "title": "Culpeper's complete herbal, and English physician ... To which is annexed the British florist / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/vnjsyq64",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "2 4212 — Syrups. eee apt 5 — Juleps. eee oi cee anepkeh — Decoctions, Wises 213 —' Oils. °F foath gbaewidw Ql — Electuaries. wig fe aE, gf (ENS — Conserves. ~~ sa. '. 1) 215 — Preserves. sohate , oold — Lohocks. RD ca...",
+        "score": 46
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-tux8ukdg-chunk-1201",
+        "work_id": "wellcome-tux8ukdg",
+        "title": "Culpeper's complete herbal, and English physician; wherein several hundred herbs, with a display of their medicinal and occult properties, are physically applied to the cure of all disorders incident to mankind ... To which is annexed the British florist. Or Flower garden displayed; in which the most ornamental plants will be accurately represented in their natural colours; with their names, class, order, characters, plans of growth, and times of flowering; together with the most approved methods of culture ... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/tux8ukdg",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Salve",
+          "Oil",
+          "Essence",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Headache",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "| 219 to make salve for all wounds 219 The essential uses ef the Oil of Carra- ways. a esee 919 oil of Juniper Berries. 219 oil of Rosemary. - etre ty? WB2I9 A remedy for a loading and stufling at the stomach, causing...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0704",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "It acts chiefly on the nervous system. Therapeutic Uses. —Camphor is administered in fevers of an asthenic type, acute inflammations, inflammation of the brain, delirium tremens, asthma, rheumatic and nervous headache...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-0039",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Salve",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Rheumatism",
+          "Headache",
+          "Inflammation"
+        ],
+        "excerpt": "ir - 715 \" \" Consumption - 705 \" \" Diphtheria - - 708 \" \" Freckles - - 719 \" \" Hoarseness - - 705 \" \" Lumbago - - 711 \" \" Obstinate Coughs and Colds - - 703 \" \" Palpitation of Heart 709 \" \" Proud Flesh - - 673 \" \" Sca...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-vnjsyq64-chunk-1196",
+        "work_id": "wellcome-vnjsyq64",
+        "title": "Culpeper's complete herbal, and English physician ... To which is annexed the British florist / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/vnjsyq64",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "2 4212 — Syrups. eee apt 5 — Juleps. eee oi cee anepkeh — Decoctions, Wises 213 —' Oils. °F foath gbaewidw Ql — Electuaries. wig fe aE, gf (ENS — Conserves. ~~ sa. '. 1) 215 — Preserves. sohate , oold — Lohocks. RD ca...",
+        "score": 46
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0704",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "It acts chiefly on the nervous system. Therapeutic Uses. —Camphor is administered in fevers of an asthenic type, acute inflammations, inflammation of the brain, delirium tremens, asthma, rheumatic and nervous headache...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-yyu6fnvg-chunk-0424",
+        "work_id": "wellcome-yyu6fnvg",
+        "title": "Herbal simples : approved for modern uses of cure / by W. T. Fernie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yyu6fnvg",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "” In this country the sweet-smelling herb is often made use of for scenting newly washed linen when it is put by ; from which custom has arisen the expression, “To be laid up in Lavender. ” A tea brewed from the flowe...",
+        "score": 46
+      },
+      {
+        "chunk_id": "pg-19352-chunk-0526",
+        "work_id": "pg-19352",
+        "title": "Herbal Simples Approved for Modern Uses of Cure",
+        "collection_id": "project-gutenberg",
+        "section_heading": "HERBAL SIMPLES APPROVED FOR MODERN USES OF CURE",
+        "source_url": "https://www.gutenberg.org/ebooks/19352",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Headache",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "A tea brewed from the flowers is an excellent remedy for headache from fatigue, or weakness. But Lavender oil is, in too large a dose, a narcotic poison, and causes death by convulsions. The tincture of red Lavender i...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0596",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Rosemary"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Powder",
+          "Oil",
+          "Essence",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Dysentery"
+        ],
+        "excerpt": "Magendie has given formulae for powders, pills, syrup, and tincture of lupuline. See Conspectus of Prescriptions. Lycoperdon Boyista. P. A fungus which forms a good astringent in hemorrhages. Lycopodium Clavatum. P. C...",
+        "score": 41
+      }
+    ]
+  },
+  "retrieval_text": "Rosemary is a culinary medicinal plant profile in the Herbalisti historical corpus. It is represented across 315 works and 886 source-linked chunks. Recorded variants include Rosemary, Rosemary Flowers. Common plant-part co-mentions include Flower, Root, Leaf, Seed, Tops, Bark. Common preparation co-mentions include Oil, Tincture, Liniment, Powder, Bath, Extract. Common condition co-mentions include Cold or catarrh, Rheumatism, Wounds or ulcers, Cough, Colic, Vomiting or nausea. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Toxicity watch, Fatal-risk warning, Pregnancy caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.; A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.659Z",
+  "builder": "build-herb-profiles.mjs"
+}

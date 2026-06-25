@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2557010R",
+  "title": "Quincy's Lexicon-medicum : a new medical dictionary, containing an explanation of the terms in anatomy, physiology, practice of physic, materia medica , chymistry, pharmacy, surgery, midwifery, and the various branches of natural philosophy connected with medicine",
+  "creator": "Hooper, Robert, 1773-1835.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2557010R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2557010R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2557010R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 5308,
+  "paragraphCount": 5590,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2557010R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2557010R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2557010R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2557010R.jsonl",
+  "rawSha256": "a0efc285e880a57ae16844c21e315af3c71afff9592461fbd3c5527fdf950f43",
+  "normalizedSha256": "d17fd7834fd73a6635d65c5638a08eb5171e50266648dbeb0a66c65c394b3a86",
+  "processedAt": "2026-06-20T00:25:19.711Z"
+}

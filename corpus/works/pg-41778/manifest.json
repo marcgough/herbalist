@@ -1,0 +1,20 @@
+{
+  "workId": "pg-41778",
+  "title": "Epitome of the Pharmacopeia of the United States and the National Formulary",
+  "creator": "",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/41778",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/41778/pg41778.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/41778.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 537,
+  "paragraphCount": 5347,
+  "sectionCount": 18,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-41778\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-41778\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-41778.jsonl",
+  "rawSha256": "389b283b952730c63fe08107e61a9e7656888c1aa2d7dbd362fc5466a857acfe",
+  "normalizedSha256": "e2eb5f6635ba355279b3cdc7f399a943b5fbbd1dc313dbe49f5e16ce57017ebf",
+  "processedAt": "2026-06-16T13:39:08.542Z"
+}

@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-06-23T12:45:30.817Z",
+  "sourceCollectionId": "nlm-digital-collections",
+  "scannedResults": 0,
+  "discoveredCount": 0,
+  "requestedWorkIdsCount": 1,
+  "processedCount": 1,
+  "failureCount": 0,
+  "browserAssisted": true,
+  "browserExecutablePath": "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+  "retryFailed": true,
+  "sampleTitles": [
+    {
+      "work_id": "nlm-0061627",
+      "title": "New guide to health , or, Botanic family physician : containing a complete system of practice, upon a plan entirely new ; with a description of the vegetables made use of, and directions for preparing and administering them to cure disease ; to which is prefixed A narrative of the life and medical discoveries of the author",
+      "topic_family": "domestic-medicine",
+      "notes": "Loaded from the local NLM registry because explicit work IDs were supplied."
+    }
+  ],
+  "processed": [
+    {
+      "work_id": "nlm-0061627",
+      "title": "New guide to health , or, Botanic family physician : containing a complete system of practice, upon a plan entirely new ; with a description of the vegetables made use of, and directions for preparing and administering them to cure disease ; to which is prefixed A narrative of the life and medical discoveries of the author",
+      "chunkCount": 52,
+      "paragraphCount": 69,
+      "topicFamily": "domestic-medicine"
+    }
+  ],
+  "failures": []
+}

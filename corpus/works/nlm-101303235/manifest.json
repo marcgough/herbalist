@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101303235",
+  "title": "A pocket manual, or, Repertory of homeopathic medicine : alphabetically and nosologically arranged, which may be used as the physician's vade-mecum, the traveller's medical companion, or the family physician : containing the principal remedies for the most important diseases, symptoms, sensations, characteristics of diseases, etc., with the principal pathogenetic effects of the medicines on the most important organs and functions of the body : together with diagnosis, explanation of technical terms, directions for the selection and exhibition of remedies, rules of diet, etc, etc. compiled from the best homoeopathic authorities",
+  "creator": "Bryant, J. (Joel), 1813-1868.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101303235-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101303235-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101303235",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 82,
+  "paragraphCount": 109,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101303235\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101303235\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101303235\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101303235.jsonl",
+  "rawSha256": "2f477c15eaf082eb1fe65a9733c5f79b58cbc9ca451296ce2b695fd58b37f924",
+  "normalizedSha256": "e3fb475409ed4a2fd5b75233f6ccc2daccc4f9b44bd29d60c921e11a447b73f6",
+  "processedAt": "2026-06-20T01:42:50.918Z"
+}

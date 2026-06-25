@@ -1,0 +1,1150 @@
+{
+  "profile_id": "seed-clove",
+  "family_id": "seed-clove",
+  "canonical_name": "Clove",
+  "canonical_key": "clove",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-clove-9e8c973146#clove"
+  ],
+  "decision_note": "merge trailing-punctuation variant into the main clove family",
+  "metrics": {
+    "total_mentions": 2346,
+    "total_chunks": 2097,
+    "total_works": 522,
+    "matched_chunk_count": 2097,
+    "matched_work_count": 522,
+    "matched_mention_total": 2109
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Clove",
+      "Cloves"
+    ],
+    "sample_work_ids": [
+      "nlm-0116421",
+      "nlm-0140313",
+      "nlm-0215565"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0116421-chunk-0106",
+      "nlm-0140313-chunk-1112",
+      "nlm-0140313-chunk-1295"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1943
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 115
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 78
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 326,
+        "work_count": 194
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 313,
+        "work_count": 200
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 255,
+        "work_count": 167
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 240,
+        "work_count": 157
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 205,
+        "work_count": 143
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 182,
+        "work_count": 124
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 140,
+        "work_count": 98
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 128,
+        "work_count": 99
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 120,
+        "work_count": 98
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 29,
+        "work_count": 26
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 1811,
+        "work_count": 487
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 500,
+        "work_count": 215
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 390,
+        "work_count": 226
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 373,
+        "work_count": 169
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 290,
+        "work_count": 177
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 256,
+        "work_count": 151
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 214,
+        "work_count": 136
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 119,
+        "work_count": 50
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 108,
+        "work_count": 87
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 94,
+        "work_count": 55
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 514,
+        "work_count": 224
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 211,
+        "work_count": 136
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 85,
+        "work_count": 71
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 39,
+        "work_count": 31
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 23,
+        "work_count": 23
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 20,
+        "work_count": 18
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 13,
+        "work_count": 11
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 5,
+        "work_count": 4
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 155,
+        "work_count": 113
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 97,
+        "work_count": 74
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 80,
+        "work_count": 65
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 75,
+        "work_count": 59
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 70,
+        "work_count": 66
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 69,
+        "work_count": 53
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 62,
+        "work_count": 53
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 62,
+        "work_count": 50
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 57,
+        "work_count": 47
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 51,
+        "work_count": 42
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 94,
+      "matched_mention_count": 94
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 75,
+      "matched_mention_count": 75
+    },
+    {
+      "work_id": "wellcome-a264n73x",
+      "title": "Pharmacopoeia extemporanea: or, a body of medicines / Done into English out of Latin by the author ... with large additions.",
+      "creator": "",
+      "publication_year": "1740",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/a264n73x",
+      "signal_chunk_count": 35,
+      "matched_mention_count": 35
+    },
+    {
+      "work_id": "wellcome-takhmyez",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+      "creator": "",
+      "publication_year": "1747",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/takhmyez",
+      "signal_chunk_count": 31,
+      "matched_mention_count": 31
+    },
+    {
+      "work_id": "wellcome-fbvqhy9j",
+      "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+      "creator": "",
+      "publication_year": "1895",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "wellcome-q3jme7ef",
+      "title": "Pharmacopoeia officinalis et extemporanea: or, a complete English dispensatory, in four parts. Containing I. The theory of pharmacy ... II. A description of the officinal simples ... III. The officinal compositions; being such of the London and Bates's [sic] dispensatory as are now in use ... IV. Extemporaneous prescriptions ... To which is added, an account of the common adulterations both of simples and compounds; with some marks to detect them by / By John Quincy.",
+      "creator": "",
+      "publication_year": "1739",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/q3jme7ef",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "wellcome-nhx2ne6y",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-fwzua59q",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/fwzua59q",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 21
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63620390R-chunk-1375",
+        "work_id": "nlm-63620390R",
+        "title": "The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "VIOLET RATTLESNAKE,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620390R-bk",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "This plant is found growing abundantly throughout the United States, and is indigenous to this country; found growing along swamps and fences. The bark of the root or the berries, formed into a syrup, is exceed- ingly...",
+        "score": 45
+      },
+      {
+        "chunk_id": "pg-19352-chunk-0097",
+        "work_id": "pg-19352",
+        "title": "Herbal Simples Approved for Modern Uses of Cure",
+        "collection_id": "project-gutenberg",
+        "section_heading": "HERBAL SIMPLES APPROVED FOR MODERN USES OF CURE",
+        "source_url": "https://www.gutenberg.org/ebooks/19352",
+        "matched_herbs": [
+          "Clove"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "This, the _Herba Benedicta_, or Blessed Herb, or Avens (_Geum Urbanum_) is a very common plant of the Rose tribe, in our woods, hedges, and shady places. It has an erect hairy stem, red at the base, with terminal brig...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-4131",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WITH",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Ointment",
+          "Wash",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Headache",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "Stimulants—(Externally. ) Burgundy Pitch. Mustard. Garlic. Onion. Camphor. Red Pepper. Oil of Cinnamon. Oil of Cloves. Oil of Sassafras. Oil of Thyme. Oil of Origanum. Gum Benzoin. Horseradish. Gum Ammonwc. Rosin. Pit...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0049",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Clove"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "[CLOVES Are used to relieve nausea and vomiting, to correct flatu- lence, and excite languid digestion. Clove tea is made by infusing 20 cloves in a pint of hot water. ] [CHENOPODIUM ? (wormseed) Is much used against...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-kadwx9mj-chunk-1652",
+        "work_id": "wellcome-kadwx9mj",
+        "title": "The botanic physician : being a compendium of the practice of medicine upon botanic principles : containing all the principal branches necessary to the study of medicine as causes, symptoms, and cure of diseases : midwifery, materia medica, pharmacy and botany, surgery, physiology &c. : together with a great variety of useful recipes / by Elisha Smith ;  revised, corrected, and improved by Isaac S. Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kadwx9mj",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Chew the xanthoxylum, or tooth-ache bark; a piece the size of the finger nail is enough at a time. Repeat till the pain ceases. This is as effectual as any thing of the stimulating kind. In obstinate tic douloureux, p...",
+        "score": 42
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63620390R-chunk-1375",
+        "work_id": "nlm-63620390R",
+        "title": "The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "VIOLET RATTLESNAKE,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620390R-bk",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "This plant is found growing abundantly throughout the United States, and is indigenous to this country; found growing along swamps and fences. The bark of the root or the berries, formed into a syrup, is exceed- ingly...",
+        "score": 45
+      },
+      {
+        "chunk_id": "pg-19352-chunk-0097",
+        "work_id": "pg-19352",
+        "title": "Herbal Simples Approved for Modern Uses of Cure",
+        "collection_id": "project-gutenberg",
+        "section_heading": "HERBAL SIMPLES APPROVED FOR MODERN USES OF CURE",
+        "source_url": "https://www.gutenberg.org/ebooks/19352",
+        "matched_herbs": [
+          "Clove"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "This, the _Herba Benedicta_, or Blessed Herb, or Avens (_Geum Urbanum_) is a very common plant of the Rose tribe, in our woods, hedges, and shady places. It has an erect hairy stem, red at the base, with terminal brig...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-4131",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WITH",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Ointment",
+          "Wash",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Headache",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "Stimulants—(Externally. ) Burgundy Pitch. Mustard. Garlic. Onion. Camphor. Red Pepper. Oil of Cinnamon. Oil of Cloves. Oil of Sassafras. Oil of Thyme. Oil of Origanum. Gum Benzoin. Horseradish. Gum Ammonwc. Rosin. Pit...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0049",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Clove"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "[CLOVES Are used to relieve nausea and vomiting, to correct flatu- lence, and excite languid digestion. Clove tea is made by infusing 20 cloves in a pint of hot water. ] [CHENOPODIUM ? (wormseed) Is much used against...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-kadwx9mj-chunk-1652",
+        "work_id": "wellcome-kadwx9mj",
+        "title": "The botanic physician : being a compendium of the practice of medicine upon botanic principles : containing all the principal branches necessary to the study of medicine as causes, symptoms, and cure of diseases : midwifery, materia medica, pharmacy and botany, surgery, physiology &c. : together with a great variety of useful recipes / by Elisha Smith ;  revised, corrected, and improved by Isaac S. Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kadwx9mj",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Chew the xanthoxylum, or tooth-ache bark; a piece the size of the finger nail is enough at a time. Repeat till the pain ceases. This is as effectual as any thing of the stimulating kind. In obstinate tic douloureux, p...",
+        "score": 42
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63620390R-chunk-1375",
+        "work_id": "nlm-63620390R",
+        "title": "The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "VIOLET RATTLESNAKE,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620390R-bk",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "This plant is found growing abundantly throughout the United States, and is indigenous to this country; found growing along swamps and fences. The bark of the root or the berries, formed into a syrup, is exceed- ingly...",
+        "score": 45
+      },
+      {
+        "chunk_id": "pg-19352-chunk-0097",
+        "work_id": "pg-19352",
+        "title": "Herbal Simples Approved for Modern Uses of Cure",
+        "collection_id": "project-gutenberg",
+        "section_heading": "HERBAL SIMPLES APPROVED FOR MODERN USES OF CURE",
+        "source_url": "https://www.gutenberg.org/ebooks/19352",
+        "matched_herbs": [
+          "Clove"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "This, the _Herba Benedicta_, or Blessed Herb, or Avens (_Geum Urbanum_) is a very common plant of the Rose tribe, in our woods, hedges, and shady places. It has an erect hairy stem, red at the base, with terminal brig...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-4131",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WITH",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Ointment",
+          "Wash",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Headache",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "Stimulants—(Externally. ) Burgundy Pitch. Mustard. Garlic. Onion. Camphor. Red Pepper. Oil of Cinnamon. Oil of Cloves. Oil of Sassafras. Oil of Thyme. Oil of Origanum. Gum Benzoin. Horseradish. Gum Ammonwc. Rosin. Pit...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0049",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Clove"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "[CLOVES Are used to relieve nausea and vomiting, to correct flatu- lence, and excite languid digestion. Clove tea is made by infusing 20 cloves in a pint of hot water. ] [CHENOPODIUM ? (wormseed) Is much used against...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-kadwx9mj-chunk-1652",
+        "work_id": "wellcome-kadwx9mj",
+        "title": "The botanic physician : being a compendium of the practice of medicine upon botanic principles : containing all the principal branches necessary to the study of medicine as causes, symptoms, and cure of diseases : midwifery, materia medica, pharmacy and botany, surgery, physiology &c. : together with a great variety of useful recipes / by Elisha Smith ;  revised, corrected, and improved by Isaac S. Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kadwx9mj",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Chew the xanthoxylum, or tooth-ache bark; a piece the size of the finger nail is enough at a time. Repeat till the pain ceases. This is as effectual as any thing of the stimulating kind. In obstinate tic douloureux, p...",
+        "score": 42
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63620390R-chunk-1375",
+        "work_id": "nlm-63620390R",
+        "title": "The guide to health and married woman's companion : a plain, practical and comprehensive treatise upon the practice of medicine : in the treatment of the most common forms of disease to which the human family is subject, with a concise direction for the preparation and use of a numerous collection of the vegetables made use of, and directions for preparing and adminstering them to cure diseases, and an appendix devoted to the treatment of diseases in horses",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "VIOLET RATTLESNAKE,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620390R-bk",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "This plant is found growing abundantly throughout the United States, and is indigenous to this country; found growing along swamps and fences. The bark of the root or the berries, formed into a syrup, is exceed- ingly...",
+        "score": 45
+      },
+      {
+        "chunk_id": "pg-19352-chunk-0097",
+        "work_id": "pg-19352",
+        "title": "Herbal Simples Approved for Modern Uses of Cure",
+        "collection_id": "project-gutenberg",
+        "section_heading": "HERBAL SIMPLES APPROVED FOR MODERN USES OF CURE",
+        "source_url": "https://www.gutenberg.org/ebooks/19352",
+        "matched_herbs": [
+          "Clove"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Resin"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "This, the _Herba Benedicta_, or Blessed Herb, or Avens (_Geum Urbanum_) is a very common plant of the Rose tribe, in our woods, hedges, and shady places. It has an erect hairy stem, red at the base, with terminal brig...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-mwmefdqs-chunk-0049",
+        "work_id": "wellcome-mwmefdqs",
+        "title": "Cox's companion to the sea medicine chest, and compendium of domestic medicine : particularly adapted for captains of merchant vessels, missionaries, and colonists, with plain rules for taking the medicines ; to which are added directions for restoring suspended animation, the method of obviating the effects of poisons, a plain description of the treatment of fractures and dislocations, and a concise account of asiatic or spasmodic cholera / revised and considerably enlarged by R. Davis.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mwmefdqs",
+        "matched_herbs": [
+          "Clove"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "[CLOVES Are used to relieve nausea and vomiting, to correct flatu- lence, and excite languid digestion. Clove tea is made by infusing 20 cloves in a pint of hot water. ] [CHENOPODIUM ? (wormseed) Is much used against...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-kadwx9mj-chunk-1652",
+        "work_id": "wellcome-kadwx9mj",
+        "title": "The botanic physician : being a compendium of the practice of medicine upon botanic principles : containing all the principal branches necessary to the study of medicine as causes, symptoms, and cure of diseases : midwifery, materia medica, pharmacy and botany, surgery, physiology &c. : together with a great variety of useful recipes / by Elisha Smith ;  revised, corrected, and improved by Isaac S. Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kadwx9mj",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Chew the xanthoxylum, or tooth-ache bark; a piece the size of the finger nail is enough at a time. Repeat till the pain ceases. This is as effectual as any thing of the stimulating kind. In obstinate tic douloureux, p...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0487",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Cloves"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Gargle",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "For ulcerated sore throats. Gargle for Scorbutic affections of the gums. Infusion of Roses, six ounces ; Powdered Borax, one ounce ; Honey of Roses, two ounces. Mix. Mixture for Diarrhoea in Children. Magnesia, one dr...",
+        "score": 41
+      }
+    ]
+  },
+  "retrieval_text": "Clove is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 522 works and 2097 source-linked chunks. Recorded variants include Clove, Cloves. Common plant-part co-mentions include Root, Bark, Gum, Flower, Leaf, Seed. Common preparation co-mentions include Oil, Powder, Pill, Syrup, Extract, Tincture. Common condition co-mentions include Cold or catarrh, Cough, Vomiting or nausea, Diarrhoea or looseness, Constipation, Fever. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Allergy or sensitivity caution, Pregnancy caution, Bleeding caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; Pharmacopoeia extemporanea: or, a body of medicines / Done into English out of Latin by the author ... with large additions.; Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.735Z",
+  "builder": "build-herb-profiles.mjs"
+}

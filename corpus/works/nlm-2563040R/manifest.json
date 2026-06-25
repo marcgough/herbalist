@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2563040R",
+  "title": "The farmer's materia medica : containing a list of the most useful medicinal vegetables indigenous to the United States, with their qualities : with an appendix, containing some observations on fevers, and symptoms of various diseases, together with many other remarks and observations",
+  "creator": "Merwin, John C.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2563040R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2563040R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2563040R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 101,
+  "paragraphCount": 119,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2563040R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2563040R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2563040R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2563040R.jsonl",
+  "rawSha256": "bc4c3382bb3bf76254adb935f05fa0cfbe2688537380a4b354dba739a3dad318",
+  "normalizedSha256": "6e80241325c114d2039731d61ac3826d93ed059061a9aaaf1b474c1e588bf33e",
+  "processedAt": "2026-06-18T00:44:29.923Z"
+}

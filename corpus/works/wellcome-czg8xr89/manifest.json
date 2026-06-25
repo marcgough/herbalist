@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-czg8xr89",
+  "title": "A retail price list of herbs, roots, barks, and botanic medicines ... to be had at Dale's Botanic Medical Hall ... Glasgow.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/czg8xr89",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24920368",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/czg8xr89",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 39,
+  "paragraphCount": 39,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-czg8xr89\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-czg8xr89\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-czg8xr89\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-czg8xr89.jsonl",
+  "rawSha256": "2c992730a47b72458cf95da25c291f9c8194aa585f5e788a8c1a446d26e5161c",
+  "normalizedSha256": "543234272ff9afc43e58feb3e0a445d6a211b4ee27870c8111d576f79d650111",
+  "processedAt": "2026-06-16T23:54:11.142Z"
+}

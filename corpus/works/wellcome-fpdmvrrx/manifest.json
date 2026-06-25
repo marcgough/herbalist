@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-fpdmvrrx",
+  "title": "Culpepper's [sic] family physician : the English physician enlarged, containing 300 medicines, made of American herbs / revised, corrected, and enlarged by James Scammon.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/fpdmvrrx",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21112423",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/fpdmvrrx",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 969,
+  "paragraphCount": 1027,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-fpdmvrrx\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-fpdmvrrx\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-fpdmvrrx.jsonl",
+  "rawSha256": "ad7d499bd16ea695e43c3c2bd181d95b189db1bfcc79e8a933ad8942b9902c2a",
+  "normalizedSha256": "1493081ed2b94f0491ad8bf413a48ae1b52088ea4f741ad6eeb33979c0589a37",
+  "processedAt": "2026-06-16T13:46:51.116Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

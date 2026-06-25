@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-0217315",
+  "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with observations on sea-bathing, and the use of the mineral waters, to which is annexed a dispensatory for the use of private practitioners",
+  "creator": "Buchan, William, 1729-1805.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217315-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-0217315-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/0217315",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 2016,
+  "paragraphCount": 3075,
+  "sectionCount": 11,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0217315\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0217315\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-0217315\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-0217315.jsonl",
+  "rawSha256": "004607c2934e91672ff03e4038c869a4e9f142928b826baf44e502eae5c605a0",
+  "normalizedSha256": "02e08b29ea7cb32db2bdd6afe3e33fea98699f44e6a09436ec9ca6b070d41fb7",
+  "processedAt": "2026-06-16T23:27:19.255Z"
+}

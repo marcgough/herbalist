@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2232003R",
+  "title": "A nievve herball, or Historie of plantes : wherein is contayned the whole discourse and perfect description of all sortes of herbes and plantes : their divers & sundry kindes ... and that not onely of those whiche are here growyng in this our countrie of Englande, but of all others also of forrayne realmes commonly used in physicke ; first set foorth in the Doutche or Almaigne tongue",
+  "creator": "Dodoens, Rembert, 1517-1585.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2232003R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2232003R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2232003R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 2393,
+  "paragraphCount": 3511,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2232003R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2232003R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2232003R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2232003R.jsonl",
+  "rawSha256": "c3e62edd47d61ee0921250187ce49ac1ddecd4a9c8c6cc9885b15600fd69767a",
+  "normalizedSha256": "7b79a87b3c0bfdab35e5a36edb317bff105e04e46ac6662cb5093b20dcdfeef8",
+  "processedAt": "2026-06-16T23:50:56.218Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-t2xfjmry",
+  "title": "An introduction to medical botany : illustrated with coloured figures / by Thomas Castle, F.L.S.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/t2xfjmry",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21483619",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/t2xfjmry",
+  "rightsStatus": "pdm",
+  "topicFamily": "medical-botany;botany",
+  "chunkCount": 182,
+  "paragraphCount": 186,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-t2xfjmry\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-t2xfjmry\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-t2xfjmry\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-t2xfjmry.jsonl",
+  "rawSha256": "3554919f274783ca9cd479d51622f1a8f726f8732b3049aa58c2960c56369882",
+  "normalizedSha256": "312432e79957a4dd5153061526ac4f776872713ca1f42aa2c4eae60132425de9",
+  "processedAt": "2026-06-17T00:56:01.655Z"
+}

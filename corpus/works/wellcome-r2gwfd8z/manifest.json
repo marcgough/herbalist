@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-r2gwfd8z",
+  "title": "The universal herbal; or, botanical, medical, and agricultural dictionary / [Thomas Green].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/r2gwfd8z",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b22012990",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/r2gwfd8z",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 6340,
+  "paragraphCount": 6678,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-r2gwfd8z\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-r2gwfd8z\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-r2gwfd8z\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-r2gwfd8z.jsonl",
+  "rawSha256": "9a164cd0879462861f2806836f34975910606e23f57da65da2e2451eb468ccdd",
+  "normalizedSha256": "2acfea3b6701bd67cb7f25475d4098953839b03463fd2f5cf5b1def15f90b8e1",
+  "processedAt": "2026-06-16T23:53:40.948Z"
+}

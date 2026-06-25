@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101515929",
+  "title": "King's American dispensatory",
+  "creator": "King, John, 1813-1893.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515929-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101515929-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101515929",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 48,
+  "paragraphCount": 48,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101515929\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101515929\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101515929\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101515929.jsonl",
+  "rawSha256": "92336242de4cc6097d02367145d15b78316bfbf0fb9090f1bf0fce2c323ef003",
+  "normalizedSha256": "125e30681fab1169800ddc8adccf854d1b3d8cecf3e84cde402f84bfc61c9add",
+  "processedAt": "2026-06-18T05:50:24.483Z"
+}

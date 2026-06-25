@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61560720R",
+  "title": "A synopsis of the medical botany of the United States",
+  "creator": "Carter, J. M. G. (James Madison Gore), 1843-1919 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61560720R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61560720R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61560720R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medical-botany;botany",
+  "chunkCount": 249,
+  "paragraphCount": 249,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61560720R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61560720R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61560720R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61560720R.jsonl",
+  "rawSha256": "c9f1b8209a97a0f6291a011cc75bbd6d6cd380e623c693a661200b7a7395c081",
+  "normalizedSha256": "d645c9221531ddfc72e1225c3188a04d540ed4877589c29e295c0f5bd58cf452",
+  "processedAt": "2026-06-17T09:28:37.708Z"
+}

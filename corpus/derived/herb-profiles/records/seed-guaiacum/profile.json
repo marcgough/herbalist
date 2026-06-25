@@ -1,0 +1,1130 @@
+{
+  "profile_id": "seed-guaiacum",
+  "family_id": "seed-guaiacum",
+  "canonical_name": "Guaiacum",
+  "canonical_key": "guaiacum",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-guaiacum-a2010c767d#guaiacum"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 974,
+    "total_chunks": 843,
+    "total_works": 327,
+    "matched_chunk_count": 843,
+    "matched_work_count": 327,
+    "matched_mention_total": 845
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Guaiacum",
+      "Guaiacum Gum"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0991",
+      "nlm-0140313-chunk-3285",
+      "nlm-0140313-chunk-3980"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 608
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 260
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 8
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 312,
+        "work_count": 115
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 202,
+        "work_count": 148
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 150,
+        "work_count": 108
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 136,
+        "work_count": 98
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 65,
+        "work_count": 60
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 54,
+        "work_count": 48
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 17,
+        "work_count": 17
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "rhizome",
+        "label": "Rhizome",
+        "signal_count": 5,
+        "work_count": 5
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 458,
+        "work_count": 236
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 262,
+        "work_count": 164
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 189,
+        "work_count": 148
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 155,
+        "work_count": 125
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 151,
+        "work_count": 123
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 92,
+        "work_count": 70
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 90,
+        "work_count": 76
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 50,
+        "work_count": 44
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 49,
+        "work_count": 44
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 47,
+        "work_count": 30
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 329,
+        "work_count": 174
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 118,
+        "work_count": 95
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 29,
+        "work_count": 28
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 19,
+        "work_count": 19
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 128,
+        "work_count": 97
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 66,
+        "work_count": 59
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 64,
+        "work_count": 58
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 62,
+        "work_count": 53
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 38,
+        "work_count": 33
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 35,
+        "work_count": 33
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 32,
+        "work_count": 26
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 18,
+        "work_count": 17
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 17,
+        "work_count": 17
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 16,
+        "work_count": 13
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "wellcome-zhg3ff4c",
+      "title": "Dr. Pereira's Elements of materia medica and therapeutics : abridged and adapted for the use of medicine and pharmaceutical practitioners and students and comprising all of the medicines of the British Pharmacopœia, with such others as are frequently ordered in prescriptions or required by the physician / edited by Robert Bently and Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1872",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/zhg3ff4c",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-zjkfqhnm",
+      "title": "Dr. Pereira's Elements of materia medica and therapeutics : abridged and adapted for the use of medical and pharmaceutical practitioners and students and comprising all the medicines of the British Pharmacopœia, with such others as are frequently ordered in prescriptions or required by the physician / edited by Robert Bentley and Theophilus Redwood ; with an appendix.",
+      "creator": "",
+      "publication_year": "1874",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/zjkfqhnm",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-ng7fpuv2",
+      "title": "Dr Pereira's elements of materia medica and therapeutics : abridged and adapted for the use of medical and pharmaceutical practitioners and students, and comprising all the medicines of the British pharmacopoeia, with such others as are frequently ordered in prescriptions or required by the physicians / edited by Robert Bentley and Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1872",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ng7fpuv2",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-drujra89",
+      "title": "Medicines : their uses and mode of administration including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and an appendix of formulae / by J. Moore Neligan.",
+      "creator": "",
+      "publication_year": "1854",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/drujra89",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-kpw6zk49",
+      "title": "Medicines : their uses and mode of administration including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and appendix of formulae / by J. Moore Neligan ; with notes and additions, conforming it to the Pharmacopoeia of the United States, and including all that is new or important in recent improvements, by David Meredith Reese.",
+      "creator": "",
+      "publication_year": "1851",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/kpw6zk49",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-x5urdxkm",
+      "title": "Medicines : their uses and mode of administration, including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and an appendix of formulae / by J. Moore Neligan.",
+      "creator": "",
+      "publication_year": "1854",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/x5urdxkm",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-ump8j3f6",
+      "title": "Modern domestic medicine: : a popular treatise, illustrating the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame; embracing the modern improvements in medicine. To which are added, a domestic materia medica; a copious collection of approved prescriptions, &c. &c. The whole intended as a comprehensive medical guide for the use of clergymen heads, [sic] of families, and invalids. / By Thomas J. Graham, M.D. &c.",
+      "creator": "",
+      "publication_year": "1835",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/ump8j3f6",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-suhcrhe9",
+      "title": "Neligan's Medicines : their uses and mode of administration / by Rawdon Macnamara.",
+      "creator": "",
+      "publication_year": "1867",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/suhcrhe9",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-xhc5sgpw-chunk-2738",
+        "work_id": "wellcome-xhc5sgpw",
+        "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description, natural history, chemical analysis, and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, the Edinburgh, and the Dublin Colleges of Physicians. The whole forming a practical synopsis of materia medica, pharmacy, and therapeutics: / by Anthony Todd Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xhc5sgpw",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "— It is possessed of diuretic and narcotic properties; and has been found useful in humoral asthma, dropsy, lepra vulgaris and alphos, and ptyriasis. The dose is from fjiv. to f^j. combinedwith any aromatic tincture,...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0121",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery"
+        ],
+        "excerpt": "In chronic and colliquative diarrhoeas, and the protracted stage of dysentery; for taj)eworm ; externally, as an injection in leucorrhoea, and gargles in angina. Dose. In substance, ^ss. ; of a decoction f^ss. , every...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-3205",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "AROMATIC TINCTURE OF GUAIACUM. Greenhow's Cholera Mix- ture. Take of Guaiacum, Cloves, and Cinnamon, in powder, each, half an ounce ; Brandy one pint; macerate for fourteen days, and filter. This is an excellent aroma...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0314",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Dropsy"
+        ],
+        "excerpt": "Spirit of nitre, half an ounce. Syrup of poppies, one ounce. Mix, and take three table-spoonfuls three times a day. TINCTURE OF GUAIACUM, VOLATILE. TINCTURE OF FOXGLOVE. French. Teinture de Digitale. Is frequently adm...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63560930R-chunk-0719",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Dandelion, 46. Demulcents, 47. Diaphoretics, 47. Diarrhoea, 178. Dietetics, 48. Disinfectants, 49. Dislocations, 265. Diuretics, 49. Dover's powder, 50. Drinks, 50. Drowning, 268. Dysentery, 179. Earache, 183. Ecchymo...",
+        "score": 42
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-xhc5sgpw-chunk-2738",
+        "work_id": "wellcome-xhc5sgpw",
+        "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description, natural history, chemical analysis, and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, the Edinburgh, and the Dublin Colleges of Physicians. The whole forming a practical synopsis of materia medica, pharmacy, and therapeutics: / by Anthony Todd Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xhc5sgpw",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "— It is possessed of diuretic and narcotic properties; and has been found useful in humoral asthma, dropsy, lepra vulgaris and alphos, and ptyriasis. The dose is from fjiv. to f^j. combinedwith any aromatic tincture,...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0121",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery"
+        ],
+        "excerpt": "In chronic and colliquative diarrhoeas, and the protracted stage of dysentery; for taj)eworm ; externally, as an injection in leucorrhoea, and gargles in angina. Dose. In substance, ^ss. ; of a decoction f^ss. , every...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-3205",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "AROMATIC TINCTURE OF GUAIACUM. Greenhow's Cholera Mix- ture. Take of Guaiacum, Cloves, and Cinnamon, in powder, each, half an ounce ; Brandy one pint; macerate for fourteen days, and filter. This is an excellent aroma...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0314",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Dropsy"
+        ],
+        "excerpt": "Spirit of nitre, half an ounce. Syrup of poppies, one ounce. Mix, and take three table-spoonfuls three times a day. TINCTURE OF GUAIACUM, VOLATILE. TINCTURE OF FOXGLOVE. French. Teinture de Digitale. Is frequently adm...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63560930R-chunk-0719",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Dandelion, 46. Demulcents, 47. Diaphoretics, 47. Diarrhoea, 178. Dietetics, 48. Disinfectants, 49. Dislocations, 265. Diuretics, 49. Dover's powder, 50. Drinks, 50. Drowning, 268. Dysentery, 179. Earache, 183. Ecchymo...",
+        "score": 42
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-xhc5sgpw-chunk-2738",
+        "work_id": "wellcome-xhc5sgpw",
+        "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description, natural history, chemical analysis, and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, the Edinburgh, and the Dublin Colleges of Physicians. The whole forming a practical synopsis of materia medica, pharmacy, and therapeutics: / by Anthony Todd Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xhc5sgpw",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "— It is possessed of diuretic and narcotic properties; and has been found useful in humoral asthma, dropsy, lepra vulgaris and alphos, and ptyriasis. The dose is from fjiv. to f^j. combinedwith any aromatic tincture,...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0121",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery"
+        ],
+        "excerpt": "In chronic and colliquative diarrhoeas, and the protracted stage of dysentery; for taj)eworm ; externally, as an injection in leucorrhoea, and gargles in angina. Dose. In substance, ^ss. ; of a decoction f^ss. , every...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-3205",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "AROMATIC TINCTURE OF GUAIACUM. Greenhow's Cholera Mix- ture. Take of Guaiacum, Cloves, and Cinnamon, in powder, each, half an ounce ; Brandy one pint; macerate for fourteen days, and filter. This is an excellent aroma...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0314",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Dropsy"
+        ],
+        "excerpt": "Spirit of nitre, half an ounce. Syrup of poppies, one ounce. Mix, and take three table-spoonfuls three times a day. TINCTURE OF GUAIACUM, VOLATILE. TINCTURE OF FOXGLOVE. French. Teinture de Digitale. Is frequently adm...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63560930R-chunk-0719",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Dandelion, 46. Demulcents, 47. Diaphoretics, 47. Diarrhoea, 178. Dietetics, 48. Disinfectants, 49. Dislocations, 265. Diuretics, 49. Dover's powder, 50. Drinks, 50. Drowning, 268. Dysentery, 179. Earache, 183. Ecchymo...",
+        "score": 42
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-xhc5sgpw-chunk-2738",
+        "work_id": "wellcome-xhc5sgpw",
+        "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description, natural history, chemical analysis, and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, the Edinburgh, and the Dublin Colleges of Physicians. The whole forming a practical synopsis of materia medica, pharmacy, and therapeutics: / by Anthony Todd Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xhc5sgpw",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "— It is possessed of diuretic and narcotic properties; and has been found useful in humoral asthma, dropsy, lepra vulgaris and alphos, and ptyriasis. The dose is from fjiv. to f^j. combinedwith any aromatic tincture,...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0121",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery"
+        ],
+        "excerpt": "In chronic and colliquative diarrhoeas, and the protracted stage of dysentery; for taj)eworm ; externally, as an injection in leucorrhoea, and gargles in angina. Dose. In substance, ^ss. ; of a decoction f^ss. , every...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-3205",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "AROMATIC TINCTURE OF GUAIACUM. Greenhow's Cholera Mix- ture. Take of Guaiacum, Cloves, and Cinnamon, in powder, each, half an ounce ; Brandy one pint; macerate for fourteen days, and filter. This is an excellent aroma...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0314",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Dropsy"
+        ],
+        "excerpt": "Spirit of nitre, half an ounce. Syrup of poppies, one ounce. Mix, and take three table-spoonfuls three times a day. TINCTURE OF GUAIACUM, VOLATILE. TINCTURE OF FOXGLOVE. French. Teinture de Digitale. Is frequently adm...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-v96wd5b4-chunk-2350",
+        "work_id": "wellcome-v96wd5b4",
+        "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description ... and medicinal properties, of the substnaces of the materia medica; III, the pharmaceutical preparations and compositions of the London, Edinburgh, and Dublin Colleges of Physicians ... a practical synopsis of materia medica, pharmacy, and therapeutics : illustrated with many useful tables and copper-plates of pharmaceutical apparatus / by Anthony Todd Thomson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/v96wd5b4",
+        "matched_herbs": [
+          "Guaiacum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "The dose is from f5iv. to f^j. combined with any aromatic tincture, given three times a day. DECOCTUM GEOFFRCEJE INERMIS. Edin. Decoction of Cabbage-tree Bark. 44 Take of cabbage-tree bark in powder, one ounce; water,...",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Guaiacum is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 327 works and 843 source-linked chunks. Recorded variants include Guaiacum, Guaiacum Gum. Common plant-part co-mentions include Resin, Gum, Root, Bark, Seed, Leaf. Common preparation co-mentions include Tincture, Powder, Decoction, Pill, Oil, Tea. Common condition co-mentions include Rheumatism, Cold or catarrh, Wounds or ulcers, Gout, Fever, Vomiting or nausea. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Allergy or sensitivity caution, Toxicity watch. Representative source works include The elements of materia medica and therapeutics / by Jonathan Pereira.; Dr. Pereira's Elements of materia medica and therapeutics : abridged and adapted for the use of medicine and pharmaceutical practitioners and students and comprising all of the medicines of the British Pharmacopœia, with such others as are frequently ordered in prescriptions or required by the physician / edited by Robert Bently and Theophilus Redwood.; Dr. Pereira's Elements of materia medica and therapeutics : abridged and adapted for the use of medical and pharmaceutical practitioners and students and comprising all the medicines of the British Pharmacopœia, with such others as are frequently ordered in prescriptions or required by the physician / edited by Robert Bentley and Theophilus Redwood ; with an appendix.; The American eclectic dispensatory. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.828Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61730020R",
+  "title": "A manual of materia medica and pharmacy : comprising a concise description of the articles used in medicine, their physical and chemical properties, the botanical characters of the medicinal plants, and the formulae for the principal officinal preparations of the American, Parisian, London, Dublin, Edinburgh, &c pharmacopoeiae : with observations on the proper mode of combining and administering remedies",
+  "creator": "Milne-Edwards, H. (Henri), 1800-1885.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61730020R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61730020R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61730020R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;medicinal-plants;botany",
+  "chunkCount": 1691,
+  "paragraphCount": 2638,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61730020R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61730020R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61730020R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61730020R.jsonl",
+  "rawSha256": "ed9c2bf27588dab7859e565a53b26644f552f49566444491690a630794b47e37",
+  "normalizedSha256": "6439f6b938c8bb553863fbdca52e1999e7e87a40fd0b901a1f53176e832e199f",
+  "processedAt": "2026-06-16T23:06:52.406Z"
+}

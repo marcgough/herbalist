@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-hhgv7dcr",
+  "title": "Knowles' catalogue of reduced prices & guide to health / Knowles' Drug Co.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/hhgv7dcr",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b33463037",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/hhgv7dcr",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 137,
+  "paragraphCount": 139,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-hhgv7dcr\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-hhgv7dcr\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-hhgv7dcr\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-hhgv7dcr.jsonl",
+  "rawSha256": "a3ed888483bbdf20e69c4e26dc22621020182d1b243a19507373d6226b5b3af8",
+  "normalizedSha256": "900767819b629dfcce5ae44c6690b291072c726d1721dd50b9e58bfd43145424",
+  "processedAt": "2026-06-16T23:29:31.240Z"
+}

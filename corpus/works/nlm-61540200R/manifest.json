@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61540200R",
+  "title": "A synopsis of pharmacology : in which the remedial agents, obtained from the three kingdoms of nature, are arranged according to Cleaveland on mineralogy, to Jussieu on botany, and to Cuvier on zoology : designed for the use of the members of the Vermont Academy of Medicine, and also as a manual for the practitioner of medicine",
+  "creator": "Allen, J. A. (Jonathan Adams), 1787-1848.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61540200R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61540200R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61540200R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;botany",
+  "chunkCount": 74,
+  "paragraphCount": 358,
+  "sectionCount": 15,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61540200R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61540200R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61540200R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61540200R.jsonl",
+  "rawSha256": "bf46a73889f26107a4e8301907d58bd72560ee8d146346fda5c3ed89789dcf7c",
+  "normalizedSha256": "72dd8729f3e2c48811b73796592d9722b12aca31117f20889b823b9904fc4c20",
+  "processedAt": "2026-06-17T19:13:57.654Z"
+}

@@ -1,0 +1,1177 @@
+{
+  "profile_id": "seed-witch-hazel",
+  "family_id": "seed-witch-hazel",
+  "canonical_name": "Witch Hazel",
+  "canonical_key": "witch hazel",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-witch-hazel-6e73368466#witch-hazel"
+  ],
+  "decision_note": "promote strong medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 194,
+    "total_chunks": 188,
+    "total_works": 85,
+    "matched_chunk_count": 188,
+    "matched_work_count": 85,
+    "matched_mention_total": 188
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Witch Hazel",
+      "Witch-hazel"
+    ],
+    "sample_work_ids": [
+      "nlm-101196252",
+      "nlm-101250099",
+      "nlm-101250103"
+    ],
+    "sample_chunk_ids": [
+      "nlm-101196252-chunk-0362",
+      "nlm-101250099-chunk-0024",
+      "nlm-101250103-chunk-0230"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 128
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 55
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 6
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 113,
+        "work_count": 53
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 112,
+        "work_count": 63
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 96,
+        "work_count": 50
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 34,
+        "work_count": 24
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 27,
+        "work_count": 17
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 4,
+        "work_count": 3
+      },
+      {
+        "id": "rhizome",
+        "label": "Rhizome",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 75,
+        "work_count": 41
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 57,
+        "work_count": 29
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 41,
+        "work_count": 23
+      },
+      {
+        "id": "wash",
+        "label": "Wash",
+        "signal_count": 33,
+        "work_count": 25
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 26,
+        "work_count": 16
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 22,
+        "work_count": 16
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 21,
+        "work_count": 20
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 21,
+        "work_count": 12
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 18,
+        "work_count": 12
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 17,
+        "work_count": 16
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 66,
+        "work_count": 36
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 20,
+        "work_count": 16
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 19,
+        "work_count": 16
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 15,
+        "work_count": 15
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 8,
+        "work_count": 7
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "conditions": [
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 41,
+        "work_count": 25
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 29,
+        "work_count": 23
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 21,
+        "work_count": 17
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 14,
+        "work_count": 13
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 13,
+        "work_count": 4
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "wellcome-vqbthhd7",
+      "title": "An introduction to the study of materia medica : being a short account of the more important crude drugs of vegetable and animal origin designed for students of pharmacy and medicine / by Henry G. Greenish.",
+      "creator": "",
+      "publication_year": "1899",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/vqbthhd7",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-64220920R",
+      "title": "The American vegetable practice : or a new and improved guide to health, designed for the use of families : in six parts",
+      "creator": "Mattson, M. (Morris), 1809?-1885.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220920R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-yvn7kra7",
+      "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.",
+      "creator": "",
+      "publication_year": "1841",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/yvn7kra7",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-rt52bskh",
+      "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families ... / By Morris Mattson.",
+      "creator": "",
+      "publication_year": "1841",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/rt52bskh",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "pg-65569",
+      "title": "Histology of medicinal plants",
+      "creator": "Mansfield, William James, 1878-",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "medicinal-plants;botany",
+      "source_url": "https://www.gutenberg.org/ebooks/65569",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "nlm-2545046R",
+      "title": "The botanic physician, or, Family medical adviser : being an improved system, found on correct physiological principles : comprising a brief view of anatomy, physiology, pathology, hygieine [sic], or art of preserving health : a materia medica , exclusively botanical, containing a description of more than two hundred and thiry of the most valuable vegetable remedies : to which is added a dispensatory, embracing more than two hundred recipes for preparing and administering medicine : the diseases of the United States, with their symptoms, causes, cures, and means of prevention : likewise, a treatise on the diseases peculiar to women and children",
+      "creator": "Carter, J. E., active 1837.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2545046R-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "nlm-2555010R",
+      "title": "The domestic physician, and family assistant : in four parts: part I. A short system of anatomy. II. On materia medica , or a description of medicinal vegetables. III. On pharmacy, or the preparation of medicines. IV. On physiology, or the description and treatment of diseases",
+      "creator": "Gardner, Marlin.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555010R-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-q59tmjuk",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64220250R-chunk-0395",
+        "work_id": "nlm-64220250R",
+        "title": "The American eclectic materia medica : containing one hundred and twenty-five illustrations of trees and plants of the American continent",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220250R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Poultice",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "A belief in this vain practice is as yet widely spread. Prop. , &c. �Sedative, astringent, tonic, discutient. The Indians value this shrub highly, and it is much used in the north by herbalists. The bark affords an ex...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-2555010R-chunk-0137",
+        "work_id": "nlm-2555010R",
+        "title": "The domestic physician, and family assistant : in four parts: part I. A short system of anatomy. II. On materia medica , or a description of medicinal vegetables. III. On pharmacy, or the preparation of medicines. IV. On physiology, or the description and treatment of diseases",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "POWDERS*",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555010R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Bath",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "92. Emetic Pill. Take of lobelia seed, pulverized, one ounce, cayenne pepper one ounce, extract of butternut two ounces; roll them in flour. These pills are valuable in chronic diseases, such as affections of the live...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-2545046R-chunk-0701",
+        "work_id": "nlm-2545046R",
+        "title": "The botanic physician, or, Family medical adviser : being an improved system, found on correct physiological principles : comprising a brief view of anatomy, physiology, pathology, hygieine [sic], or art of preserving health : a materia medica , exclusively botanical, containing a description of more than two hundred and thiry of the most valuable vegetable remedies : to which is added a dispensatory, embracing more than two hundred recipes for preparing and administering medicine : the diseases of the United States, with their symptoms, causes, cures, and means of prevention : likewise, a treatise on the diseases peculiar to women and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLACKBERRY SIRUP;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2545046R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Add water enough to boil them until the strength is extracted; strain off the decoction, and when cool add honey enough to make a good sirup. Dose, a spoonful several times a day. Useful for coughs, consumptions, &e.—...",
+        "score": 41
+      },
+      {
+        "chunk_id": "nlm-64220920R-chunk-1771",
+        "work_id": "nlm-64220920R",
+        "title": "The American vegetable practice : or a new and improved guide to health, designed for the use of families : in six parts",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "SYPHILIS. *",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220920R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is a very good practice to bandage the limb, commencing at the foot, pre- viously laying a plaster of the stimulating liniment on the diseased surface. 2432. In the event of proud flesh, as it is termed, which is n...",
+        "score": 40
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64220250R-chunk-0395",
+        "work_id": "nlm-64220250R",
+        "title": "The American eclectic materia medica : containing one hundred and twenty-five illustrations of trees and plants of the American continent",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220250R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Poultice",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "A belief in this vain practice is as yet widely spread. Prop. , &c. �Sedative, astringent, tonic, discutient. The Indians value this shrub highly, and it is much used in the north by herbalists. The bark affords an ex...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-2555010R-chunk-0137",
+        "work_id": "nlm-2555010R",
+        "title": "The domestic physician, and family assistant : in four parts: part I. A short system of anatomy. II. On materia medica , or a description of medicinal vegetables. III. On pharmacy, or the preparation of medicines. IV. On physiology, or the description and treatment of diseases",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "POWDERS*",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555010R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Bath",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "92. Emetic Pill. Take of lobelia seed, pulverized, one ounce, cayenne pepper one ounce, extract of butternut two ounces; roll them in flour. These pills are valuable in chronic diseases, such as affections of the live...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-2545046R-chunk-0701",
+        "work_id": "nlm-2545046R",
+        "title": "The botanic physician, or, Family medical adviser : being an improved system, found on correct physiological principles : comprising a brief view of anatomy, physiology, pathology, hygieine [sic], or art of preserving health : a materia medica , exclusively botanical, containing a description of more than two hundred and thiry of the most valuable vegetable remedies : to which is added a dispensatory, embracing more than two hundred recipes for preparing and administering medicine : the diseases of the United States, with their symptoms, causes, cures, and means of prevention : likewise, a treatise on the diseases peculiar to women and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLACKBERRY SIRUP;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2545046R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Add water enough to boil them until the strength is extracted; strain off the decoction, and when cool add honey enough to make a good sirup. Dose, a spoonful several times a day. Useful for coughs, consumptions, &e.—...",
+        "score": 41
+      },
+      {
+        "chunk_id": "nlm-64220920R-chunk-1771",
+        "work_id": "nlm-64220920R",
+        "title": "The American vegetable practice : or a new and improved guide to health, designed for the use of families : in six parts",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "SYPHILIS. *",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220920R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is a very good practice to bandage the limb, commencing at the foot, pre- viously laying a plaster of the stimulating liniment on the diseased surface. 2432. In the event of proud flesh, as it is termed, which is n...",
+        "score": 40
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64220250R-chunk-0395",
+        "work_id": "nlm-64220250R",
+        "title": "The American eclectic materia medica : containing one hundred and twenty-five illustrations of trees and plants of the American continent",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220250R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Poultice",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "A belief in this vain practice is as yet widely spread. Prop. , &c. �Sedative, astringent, tonic, discutient. The Indians value this shrub highly, and it is much used in the north by herbalists. The bark affords an ex...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-2555010R-chunk-0137",
+        "work_id": "nlm-2555010R",
+        "title": "The domestic physician, and family assistant : in four parts: part I. A short system of anatomy. II. On materia medica , or a description of medicinal vegetables. III. On pharmacy, or the preparation of medicines. IV. On physiology, or the description and treatment of diseases",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "POWDERS*",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555010R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Bath",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "92. Emetic Pill. Take of lobelia seed, pulverized, one ounce, cayenne pepper one ounce, extract of butternut two ounces; roll them in flour. These pills are valuable in chronic diseases, such as affections of the live...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-2545046R-chunk-0701",
+        "work_id": "nlm-2545046R",
+        "title": "The botanic physician, or, Family medical adviser : being an improved system, found on correct physiological principles : comprising a brief view of anatomy, physiology, pathology, hygieine [sic], or art of preserving health : a materia medica , exclusively botanical, containing a description of more than two hundred and thiry of the most valuable vegetable remedies : to which is added a dispensatory, embracing more than two hundred recipes for preparing and administering medicine : the diseases of the United States, with their symptoms, causes, cures, and means of prevention : likewise, a treatise on the diseases peculiar to women and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLACKBERRY SIRUP;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2545046R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Add water enough to boil them until the strength is extracted; strain off the decoction, and when cool add honey enough to make a good sirup. Dose, a spoonful several times a day. Useful for coughs, consumptions, &e.—...",
+        "score": 41
+      },
+      {
+        "chunk_id": "nlm-64220920R-chunk-1771",
+        "work_id": "nlm-64220920R",
+        "title": "The American vegetable practice : or a new and improved guide to health, designed for the use of families : in six parts",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "SYPHILIS. *",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220920R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Rheumatism",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "It is a very good practice to bandage the limb, commencing at the foot, pre- viously laying a plaster of the stimulating liniment on the diseased surface. 2432. In the event of proud flesh, as it is termed, which is n...",
+        "score": 40
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64220250R-chunk-0395",
+        "work_id": "nlm-64220250R",
+        "title": "The American eclectic materia medica : containing one hundred and twenty-five illustrations of trees and plants of the American continent",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220250R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Poultice",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "A belief in this vain practice is as yet widely spread. Prop. , &c. �Sedative, astringent, tonic, discutient. The Indians value this shrub highly, and it is much used in the north by herbalists. The bark affords an ex...",
+        "score": 48
+      },
+      {
+        "chunk_id": "nlm-2555010R-chunk-0137",
+        "work_id": "nlm-2555010R",
+        "title": "The domestic physician, and family assistant : in four parts: part I. A short system of anatomy. II. On materia medica , or a description of medicinal vegetables. III. On pharmacy, or the preparation of medicines. IV. On physiology, or the description and treatment of diseases",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "POWDERS*",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555010R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Bath",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "92. Emetic Pill. Take of lobelia seed, pulverized, one ounce, cayenne pepper one ounce, extract of butternut two ounces; roll them in flour. These pills are valuable in chronic diseases, such as affections of the live...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-2545046R-chunk-0701",
+        "work_id": "nlm-2545046R",
+        "title": "The botanic physician, or, Family medical adviser : being an improved system, found on correct physiological principles : comprising a brief view of anatomy, physiology, pathology, hygieine [sic], or art of preserving health : a materia medica , exclusively botanical, containing a description of more than two hundred and thiry of the most valuable vegetable remedies : to which is added a dispensatory, embracing more than two hundred recipes for preparing and administering medicine : the diseases of the United States, with their symptoms, causes, cures, and means of prevention : likewise, a treatise on the diseases peculiar to women and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "BLACKBERRY SIRUP;",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2545046R-bk",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Add water enough to boil them until the strength is extracted; strain off the decoction, and when cool add honey enough to make a good sirup. Dose, a spoonful several times a day. Useful for coughs, consumptions, &e.—...",
+        "score": 41
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0123",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Witch Hazel"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Wash",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Successfully employed in intermittent fever, and used as a tonic in other diseases. WINTERGREEN, Gaultheria procvmbens. Diu. Sto. Emm. Used in diarrhoea and bowel complaints, and also as an emmenagogue. The oil is mor...",
+        "score": 39
+      }
+    ]
+  },
+  "retrieval_text": "Witch Hazel is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 85 works and 188 source-linked chunks. Recorded variants include Witch Hazel, Witch-hazel. Common plant-part co-mentions include Leaf, Bark, Root, Berry, Seed, Gum. Common preparation co-mentions include Tea, Powder, Extract, Wash, Tincture, Ointment. Common condition co-mentions include Wounds or ulcers, Cold or catarrh, Inflammation, Fever, Dysentery, Rheumatism. Caution co-mentions include Dose caution, Bleeding caution, Narcotic or sedative caution, Child-use caution, Allergy or sensitivity caution, Pregnancy caution. Representative source works include The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.; An introduction to the study of materia medica : being a short account of the more important crude drugs of vegetable and animal origin designed for students of pharmacy and medicine / by Henry G. Greenish.; The American vegetable practice : or a new and improved guide to health, designed for the use of families : in six parts; The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.982Z",
+  "builder": "build-herb-profiles.mjs"
+}

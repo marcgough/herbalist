@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63580140R",
+  "title": "The practical household physician : a cyclopedia of family medicine, surgery, nursing and hygiene, for daily use in the preservation of health and care of the sick and injured : containing a plain description of the parts of the human body and their uses, chapters on \"our homes\", climate, food, and drink, use of intoxicants and narcotics : special chapters giving important information for every woman, with clear and full information for assisting the skillful efforts of the doctor, and for the treatment of accidents and diseases : arranged for ready reference to enable one to do instantly what can and ought to be done in emergencies to relieve suffering or save life",
+  "creator": "Hartshorne, Henry, 1823-1897.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580140R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63580140R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63580140R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;nursing;household-health",
+  "chunkCount": 2568,
+  "paragraphCount": 3055,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580140R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580140R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63580140R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63580140R.jsonl",
+  "rawSha256": "bb61166c0d44136feff9615dcbfef91115402b3ca7f25554966e0817567f9bb5",
+  "normalizedSha256": "cc03f9584650e823e19b6df8bd5207fa51c80ad57dbf86e3817cee611e4214b4",
+  "processedAt": "2026-06-18T00:44:34.557Z"
+}

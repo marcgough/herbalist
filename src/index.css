@@ -1,0 +1,55 @@
+:root {
+  --paper: #fbfaf6;
+  --ink: #0f1e21;
+  --charcoal: #23383b;
+  --muted: #667b82;
+  --titanium: #526b71;
+  --glass-blue: #cfe8e7;
+  --sage: #a9cbb7;
+  --chlorophyll: #78a43a;
+  --chlorophyll-deep: #557a2c;
+  --amber: #c59b55;
+  --line: rgba(102, 123, 130, 0.16);
+  --display: Avenir Next, Aptos Display, Segoe UI, system-ui, sans-serif;
+  --body: Aptos, Inter, Segoe UI, system-ui, sans-serif;
+  font-family: var(--body);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: var(--paper);
+}
+
+button,
+input {
+  letter-spacing: 0;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  background: rgba(185, 216, 75, 0.38);
+}

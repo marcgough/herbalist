@@ -1,0 +1,377 @@
+{
+  "generatedAt": "2026-06-23T13:20:07.349Z",
+  "totalFamilies": 83967,
+  "acceptedFamilies": 79920,
+  "acceptedPlantFamilies": 79395,
+  "acceptedMateriaMedicaFamilies": 525,
+  "reviewFamilies": 36,
+  "rejectedFamilies": 4011,
+  "totalMembers": 85330,
+  "acceptedMembers": 81187,
+  "reviewMembers": 65,
+  "rejectedMembers": 4078,
+  "topAcceptedFamilies": [
+    {
+      "family_id": "term-lemon-f464d7d71c",
+      "canonical_name": "Lemon",
+      "total_chunks": 6659,
+      "total_works": 757,
+      "variant_names": "Lemon;Lemons"
+    },
+    {
+      "family_id": "term-olive-fa65983171",
+      "canonical_name": "Olive",
+      "total_chunks": 5239,
+      "total_works": 754,
+      "variant_names": "Olive;Olives"
+    },
+    {
+      "family_id": "term-turpentine-07c71c0045",
+      "canonical_name": "Turpentine",
+      "total_chunks": 4844,
+      "total_works": 695,
+      "variant_names": "Turpentine"
+    },
+    {
+      "family_id": "term-opium-27a45e0e86",
+      "canonical_name": "Opium",
+      "total_chunks": 3915,
+      "total_works": 500,
+      "variant_names": "Opium;Opiums"
+    },
+    {
+      "family_id": "term-chamomile-2c74f1d403",
+      "canonical_name": "Chamomile",
+      "total_chunks": 3740,
+      "total_works": 671,
+      "variant_names": "Chamomile;Camomile;Camomile Flowers;Chamomile Flowers;Camo- Mile;Camo- Mile Flowers;Camomile Flower"
+    },
+    {
+      "family_id": "term-licorice-8a60896fe1",
+      "canonical_name": "Licorice",
+      "total_chunks": 3727,
+      "total_works": 628,
+      "variant_names": "Liquorice;Licorice"
+    },
+    {
+      "family_id": "term-castor-59ade5a471",
+      "canonical_name": "Castor",
+      "total_chunks": 3608,
+      "total_works": 625,
+      "variant_names": "Castor"
+    },
+    {
+      "family_id": "term-senna-4a2a663f1b",
+      "canonical_name": "Senna",
+      "total_chunks": 3232,
+      "total_works": 510,
+      "variant_names": "Senna"
+    },
+    {
+      "family_id": "term-fixed-992a93455c",
+      "canonical_name": "Fixed",
+      "total_chunks": 2973,
+      "total_works": 308,
+      "variant_names": "Fixed"
+    },
+    {
+      "family_id": "term-rose-618d663af0",
+      "canonical_name": "Rose",
+      "total_chunks": 2860,
+      "total_works": 495,
+      "variant_names": "Roses;Rose"
+    },
+    {
+      "family_id": "term-gentian-b061a5f0c5",
+      "canonical_name": "Gentian",
+      "total_chunks": 2752,
+      "total_works": 616,
+      "variant_names": "Gentian"
+    },
+    {
+      "family_id": "term-myrrh-d11c5a3977",
+      "canonical_name": "Myrrh",
+      "total_chunks": 2629,
+      "total_works": 546,
+      "variant_names": "Myrrh"
+    },
+    {
+      "family_id": "term-cinnamon-6011d7a8f3",
+      "canonical_name": "Cinnamon",
+      "total_chunks": 2615,
+      "total_works": 521,
+      "variant_names": "Cinnamon;Cinnamon Flower"
+    },
+    {
+      "family_id": "term-orange-1b4c9133da",
+      "canonical_name": "Orange",
+      "total_chunks": 2614,
+      "total_works": 564,
+      "variant_names": "Orange;Oranges;Orange Flowers;Orange Flower;Orange Berries;Orange Berry"
+    },
+    {
+      "family_id": "term-vitriol-e50cdedcd9",
+      "canonical_name": "Vitriol",
+      "total_chunks": 2293,
+      "total_works": 523,
+      "variant_names": "Vitriol"
+    },
+    {
+      "family_id": "term-fluid-5e0502adfb",
+      "canonical_name": "Fluid",
+      "total_chunks": 2288,
+      "total_works": 226,
+      "variant_names": "Fluid;Fluids"
+    },
+    {
+      "family_id": "term-ginger-08ddff4ebe",
+      "canonical_name": "Ginger",
+      "total_chunks": 2276,
+      "total_works": 502,
+      "variant_names": "Ginger"
+    },
+    {
+      "family_id": "term-mustard-352b5b6699",
+      "canonical_name": "Mustard",
+      "total_chunks": 2238,
+      "total_works": 582,
+      "variant_names": "Mustard"
+    },
+    {
+      "family_id": "term-rhubarb-b3f487fbc1",
+      "canonical_name": "Rhubarb",
+      "total_chunks": 2226,
+      "total_works": 552,
+      "variant_names": "Rhubarb"
+    },
+    {
+      "family_id": "term-almond-90e62b92a9",
+      "canonical_name": "Almond",
+      "total_chunks": 2186,
+      "total_works": 595,
+      "variant_names": "Almonds;Almond"
+    }
+  ],
+  "topReviewFamilies": [
+    {
+      "family_id": "term-green-ba4788b226",
+      "canonical_name": "Green",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 9,
+      "variant_names": "Green;Green Herb;Green Berry;Green Flower;Green Herbs;Green Rhizome;Green Berries;Greens;Green Tops",
+      "sample_work_ids": "nlm-0140313;nlm-0215565;nlm-0217404",
+      "sample_chunk_ids": "nlm-0140313-chunk-0783;nlm-0140313-chunk-1161;nlm-0140313-chunk-1273"
+    },
+    {
+      "family_id": "term-watery-5b82f78c5f",
+      "canonical_name": "Watery",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 1,
+      "variant_names": "Watery",
+      "sample_work_ids": "nlm-0217313;nlm-0217315;nlm-0217316",
+      "sample_chunk_ids": "nlm-0217313-chunk-0456;nlm-0217313-chunk-0494;nlm-0217315-chunk-0351"
+    },
+    {
+      "family_id": "term-see-aa9e9b5c90",
+      "canonical_name": "See",
+      "status": "rejected",
+      "domain_guess": "noise",
+      "reason_flags": "grammar-fragment",
+      "member_count": 1,
+      "variant_names": "See",
+      "sample_work_ids": "nlm-0140313;nlm-0217313;nlm-0217315",
+      "sample_chunk_ids": "nlm-0140313-chunk-4000;nlm-0217313-chunk-1717;nlm-0217313-chunk-2015"
+    },
+    {
+      "family_id": "term-radical-909c272051",
+      "canonical_name": "Radical",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 1,
+      "variant_names": "Radical",
+      "sample_work_ids": "nlm-0257710;nlm-05710390R;nlm-101250104",
+      "sample_chunk_ids": "nlm-0257710-chunk-0171;nlm-0257710-chunk-0210;nlm-0257710-chunk-0262"
+    },
+    {
+      "family_id": "term-bitter-bbe8e9531e",
+      "canonical_name": "Bitter",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 4,
+      "variant_names": "Bitter;Bitter Herbs;Bitters;Bitter Gums",
+      "sample_work_ids": "nlm-0140313;nlm-0217313;nlm-0217315",
+      "sample_chunk_ids": "nlm-0140313-chunk-0956;nlm-0140313-chunk-1004;nlm-0140313-chunk-1008"
+    },
+    {
+      "family_id": "term-other-d9298a10d1",
+      "canonical_name": "Other",
+      "status": "rejected",
+      "domain_guess": "noise",
+      "reason_flags": "grammar-fragment",
+      "member_count": 3,
+      "variant_names": "Other;Others;Other Herbs",
+      "sample_work_ids": "nlm-0140313;nlm-0217313;nlm-0217315",
+      "sample_chunk_ids": "nlm-0140313-chunk-0830;nlm-0140313-chunk-0910;nlm-0140313-chunk-1193"
+    },
+    {
+      "family_id": "term-herb-25852c87d6",
+      "canonical_name": "Herb",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "generic-plant-part",
+      "member_count": 3,
+      "variant_names": "Herb;Herbs;Herb Herb",
+      "sample_work_ids": "nlm-0140313;nlm-100912803;nlm-101136237",
+      "sample_chunk_ids": "nlm-0140313-chunk-1834;nlm-0140313-chunk-2884;nlm-100912803-chunk-1428"
+    },
+    {
+      "family_id": "term-whole-5d5766cf2d",
+      "canonical_name": "Whole",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 3,
+      "variant_names": "Whole;Whole Herb;Wholes",
+      "sample_work_ids": "nlm-0140313;nlm-0215565;nlm-0217313",
+      "sample_chunk_ids": "nlm-0140313-chunk-2753;nlm-0215565-chunk-0042;nlm-0217313-chunk-1855"
+    },
+    {
+      "family_id": "term-astringent-d1b2cefc1c",
+      "canonical_name": "Astringent",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 3,
+      "variant_names": "Astringent;Astringents;Astringent Gum",
+      "sample_work_ids": "nlm-0140313;nlm-0217313;nlm-0217315",
+      "sample_chunk_ids": "nlm-0140313-chunk-0767;nlm-0140313-chunk-0778;nlm-0140313-chunk-1907"
+    },
+    {
+      "family_id": "term-gum-3e46c8846e",
+      "canonical_name": "Gum",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "generic-plant-part",
+      "member_count": 3,
+      "variant_names": "Gum;Gums;Gum Resins",
+      "sample_work_ids": "nlm-0217313;nlm-0217317;nlm-0217404",
+      "sample_chunk_ids": "nlm-0217313-chunk-1796;nlm-0217313-chunk-1910;nlm-0217313-chunk-2064"
+    },
+    {
+      "family_id": "term-milky-3b10795fbe",
+      "canonical_name": "Milky",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 1,
+      "variant_names": "Milky",
+      "sample_work_ids": "nlm-0140313;nlm-0217313;nlm-0257710",
+      "sample_chunk_ids": "nlm-0140313-chunk-2786;nlm-0140313-chunk-2899;nlm-0217313-chunk-1923"
+    },
+    {
+      "family_id": "term-long-fc66f021c6",
+      "canonical_name": "Long",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 1,
+      "variant_names": "Long",
+      "sample_work_ids": "nlm-0257710;nlm-05710300R;nlm-05710390R",
+      "sample_chunk_ids": "nlm-0257710-chunk-0168;nlm-0257710-chunk-0866;nlm-0257710-chunk-1659"
+    },
+    {
+      "family_id": "term-young-dbba921ce2",
+      "canonical_name": "Young",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 2,
+      "variant_names": "Young;Young Tops",
+      "sample_work_ids": "nlm-0140313;nlm-0222600;nlm-0257710",
+      "sample_chunk_ids": "nlm-0140313-chunk-2786;nlm-0222600-chunk-1490;nlm-0257710-chunk-1016"
+    },
+    {
+      "family_id": "term-upper-aee6105582",
+      "canonical_name": "Upper",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 1,
+      "variant_names": "Upper",
+      "sample_work_ids": "nlm-0140313;nlm-0257710;nlm-05710300R",
+      "sample_chunk_ids": "nlm-0140313-chunk-2768;nlm-0257710-chunk-0094;nlm-0257710-chunk-0109"
+    },
+    {
+      "family_id": "term-which-77bc06c55d",
+      "canonical_name": "Which",
+      "status": "rejected",
+      "domain_guess": "noise",
+      "reason_flags": "grammar-fragment",
+      "member_count": 1,
+      "variant_names": "Which",
+      "sample_work_ids": "nlm-0140313;nlm-0222600;nlm-05710300R",
+      "sample_chunk_ids": "nlm-0140313-chunk-0757;nlm-0140313-chunk-3374;nlm-0222600-chunk-2160"
+    },
+    {
+      "family_id": "term-four-04efaf080f",
+      "canonical_name": "Four",
+      "status": "rejected",
+      "domain_guess": "noise",
+      "reason_flags": "grammar-fragment",
+      "member_count": 2,
+      "variant_names": "Four;Foures",
+      "sample_work_ids": "nlm-0140313;nlm-0215565;nlm-0217315",
+      "sample_chunk_ids": "nlm-0140313-chunk-0714;nlm-0140313-chunk-2588;nlm-0140313-chunk-2849"
+    },
+    {
+      "family_id": "term-bruised-e5e795be9d",
+      "canonical_name": "Bruised",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 3,
+      "variant_names": "Bruised;Bruised Herb;Bruised Berries",
+      "sample_work_ids": "nlm-0140313;nlm-0215565;nlm-0217313",
+      "sample_chunk_ids": "nlm-0140313-chunk-1715;nlm-0140313-chunk-2960;nlm-0215565-chunk-0054"
+    },
+    {
+      "family_id": "term-stem-919a11f948",
+      "canonical_name": "Stem",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "generic-plant-part",
+      "member_count": 2,
+      "variant_names": "Stem;Stems",
+      "sample_work_ids": "nlm-0257710;nlm-05710300R;nlm-05710390R",
+      "sample_chunk_ids": "nlm-0257710-chunk-0171;nlm-0257710-chunk-0449;nlm-0257710-chunk-0455"
+    },
+    {
+      "family_id": "term-thefe-d79bea668f",
+      "canonical_name": "Thefe",
+      "status": "rejected",
+      "domain_guess": "noise",
+      "reason_flags": "grammar-fragment;ocr-fragment",
+      "member_count": 2,
+      "variant_names": "Thefe;Thefe Flowers",
+      "sample_work_ids": "nlm-0220417;nlm-0220420;nlm-2544063R",
+      "sample_chunk_ids": "nlm-0220417-chunk-0837;nlm-0220417-chunk-1242;nlm-0220417-chunk-1469"
+    },
+    {
+      "family_id": "term-narrow-5eda958e9d",
+      "canonical_name": "Narrow",
+      "status": "review",
+      "domain_guess": "generic-or-ambiguous",
+      "reason_flags": "descriptor-fragment",
+      "member_count": 1,
+      "variant_names": "Narrow",
+      "sample_work_ids": "nlm-0257710;nlm-05710390R;nlm-101136237",
+      "sample_chunk_ids": "nlm-0257710-chunk-0170;nlm-0257710-chunk-0210;nlm-0257710-chunk-1659"
+    }
+  ]
+}

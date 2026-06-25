@@ -1,0 +1,30 @@
+# The new dispensatory : containing, I. the elements of pharmacy : II. the materia medica, or, An account of the substances employed in medicine; with the virtues and uses of each srticle, so far as they are warranted by experience and observation : III. the preparations and compositions of the new London and Edinburgh pharmacopoeias; with such of the old ones as are kept in the shops; the most celebrated foreign medicines; the most useful of those directed in the hospitals; sundry elegant extemporaneous forms, &c. digested in such a method as to compose a regular system of pharmacy; with remarks on their preparation and uses; the means of distinguishing adulterations; of performing the more difficult and dangerous processes with ease and safety, &c. : the whole interspersed with practical cautions and observations / by W. Lewis, M.B.F.R.S.
+
+- Work ID: `wellcome-m7ynte5e`
+- Creator: Unknown
+- Publication year: 1782
+- Collection: wellcome-collection
+- Topic family: materia-medica;pharmacopoeia
+- Rights status: pdm
+- Reuse license: Public Domain Mark
+- Source URL: https://wellcomecollection.org/works/m7ynte5e
+- Download URL: https://api.wellcomecollection.org/text/v1/b21172134
+- Metadata URL: https://api.wellcomecollection.org/catalogue/v2/works/m7ynte5e
+- Ingest status: chunked
+- Review status: downloaded_and_normalized
+
+## Notes
+
+Wellcome query terms: materia medica, pharmacopoeia; matched materia-medica, pharmacopoeia; manifest https://iiif.wellcomecollection.org/presentation/v2/b21172134; license pdm.
+
+## Local Files
+
+- Raw source: `C:\Users\Superuser\Documents\Codex\2026-06-15\files-mentioned-by-the-user-natural\outputs\herbalisti-site\corpus\raw\wellcome-m7ynte5e\source.txt`
+- Normalized text: `C:\Users\Superuser\Documents\Codex\2026-06-15\files-mentioned-by-the-user-natural\outputs\herbalisti-site\corpus\normalized\wellcome-m7ynte5e\text.md`
+- Chunk file: `C:\Users\Superuser\Documents\Codex\2026-06-15\files-mentioned-by-the-user-natural\outputs\herbalisti-site\corpus\chunks\wellcome-m7ynte5e.jsonl`
+
+## Checksums
+
+- Raw SHA-256: `1c943a3294348ec0420435082f13ed8e549fd9c20fd8e05a1b4b8e99aaddc688`
+- Normalized SHA-256: `56244b3d43da80e909679e2a0265a01db04e63482c8a29a0bf3a28b47c6a9062`
+

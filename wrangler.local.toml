@@ -1,0 +1,9 @@
+name = "herbalisti-local"
+compatibility_date = "2026-06-15"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "HERBALISTI_DB"
+database_name = "herbalisti"
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"

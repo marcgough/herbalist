@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101587615",
+  "title": "The mystery of medicine explained : a family physician and household companion prepared for the use of families, plantations, ships, travelers, &c",
+  "creator": "Byrn, M. Lafayette (Marcus Lafayette), 1826-1903.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101587615-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101587615-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101587615",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;household-health",
+  "chunkCount": 1549,
+  "paragraphCount": 1926,
+  "sectionCount": 10,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101587615\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101587615\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101587615\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101587615.jsonl",
+  "rawSha256": "873dd4d32dc855522228e9caa212eb2af7d5e34a82384b1145d199563200cb41",
+  "normalizedSha256": "cd740e59576b146acd13f602519beccd8d954340e59c2556839e74bc8a4a6ceb",
+  "processedAt": "2026-06-17T13:03:12.519Z"
+}

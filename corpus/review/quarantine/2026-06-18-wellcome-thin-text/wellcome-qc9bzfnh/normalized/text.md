@@ -1,0 +1,9 @@
+# A complete dictionary of the whole materia medica. Containing an experimental history of every natural and artificial substance made use of in medicine, with a compendious view of their natural history, an account of their pharmaceutic properties ..., and an estimate of their medicinal powers ... / by William Lewis.
+
+## Opening
+
+
+
+PART 1 - A complete dictionary of the whole materia medica. Containing an experimental history of every natural and artificial substance made use of in medicine, with a compendious view of their natural history, an account of their pharmaceutic properties ..., and an estimate of their medicinal powers ... / by William Lewis. Volume 1
+
+PART 2 - A complete dictionary of the whole materia medica. Containing an experimental history of every natural and artificial substance made use of in medicine, with a compendious view of their natural history, an account of their pharmaceutic properties ..., and an estimate of their medicinal powers ... / by William Lewis. Volume 2

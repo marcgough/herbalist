@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61541080R",
+  "title": "Prodrome of a work to aid the teaching of the vegetable materia medica : by the natural families of plants, in the Therapeutic Institute of Philadelphia",
+  "creator": "Barton, William P. C. (William Paul Crillon), 1786-1856.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61541080R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61541080R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61541080R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 49,
+  "paragraphCount": 111,
+  "sectionCount": 11,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61541080R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61541080R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61541080R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61541080R.jsonl",
+  "rawSha256": "29ed5fed14a7e4e8634c87ab1d8c75a64403a841bce951cb179d1f3d3079c59f",
+  "normalizedSha256": "e1cc700e5b94dc8a3fcd6bc192a3ca6d53658d8054f9fd8b1d1bd1a033055590",
+  "processedAt": "2026-06-18T09:28:54.816Z"
+}

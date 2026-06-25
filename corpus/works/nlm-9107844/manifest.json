@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-9107844",
+  "title": "The Indian guide to health , or, Valuable vegetable medical prescriptions : for the use of families, or young practitioners",
+  "creator": "Selman, S. H. (Squire H.), -1873.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9107844-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-9107844-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/9107844",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 552,
+  "paragraphCount": 785,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9107844\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9107844\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-9107844\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-9107844.jsonl",
+  "rawSha256": "45d72048833509c58e930b9ec426c7fe351329bf15f19856b60b8390fe8c3ae3",
+  "normalizedSha256": "30af0a8b497cd09484dd04ce03cf2f90125951f069e6d0c2188cd2b1af796459",
+  "processedAt": "2026-06-17T13:32:39.439Z"
+}

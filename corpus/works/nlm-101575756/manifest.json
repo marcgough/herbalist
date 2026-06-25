@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101575756",
+  "title": "Hortus, botanicus americanus, or, Coloured figures, with concise descriptions of several plants of the East & West Indies, & the continents of North and South America shewing their medical virtues & general uses : to which are annexed a glossary of botanical terms and a nosological table of diseases, &c",
+  "creator": "Titford, William Jowett, 1784-1823 or 1827.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101575756-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101575756-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101575756",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 184,
+  "paragraphCount": 192,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101575756\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101575756\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101575756\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101575756.jsonl",
+  "rawSha256": "848a72eec8c795ed591871f30fad29af3eea13f33b16ee604d6b93b367414d9b",
+  "normalizedSha256": "068543e9a601c99dc9f8e6ee82e5c134fc31dbf22846497411147d2f6c33ea10",
+  "processedAt": "2026-06-17T00:38:08.996Z"
+}

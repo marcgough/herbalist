@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61810220R",
+  "title": "Conspectus of organic materia medica and pharmacal botany : comprising the vegetable and animal drugs, their physical character, geographical origin, classification, constituents, doses, adulterations, &c. : table of the tests and solubilities of the alkaloids appended",
+  "creator": "Sayre, Lucius E. (Lucius Elmer), 1847-1925 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61810220R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61810220R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61810220R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;botany",
+  "chunkCount": 502,
+  "paragraphCount": 506,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61810220R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61810220R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61810220R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61810220R.jsonl",
+  "rawSha256": "e13fb33ab25518bbb5c2c1b582949b1a1d0c487a277ac7c6bcd5ffff4abbadf4",
+  "normalizedSha256": "37967006077c8f42715ecc2cc4a66c934f3a662fc9c6fd6879d45fe6dfc0d767",
+  "processedAt": "2026-06-17T17:08:34.489Z"
+}

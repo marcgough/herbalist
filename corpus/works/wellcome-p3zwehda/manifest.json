@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-p3zwehda",
+  "title": "An introduction to physic and surgery: containing. I. Medicinal institutions, or physiology, hygieine, pathology, semeiotice, and therapeutice. II. A compendious system of anatomy III. A general account of woods, ulcers, tumours, operations, and dressings; as also, the medicines used in surgery. IV. Botany and the materia medica. V. Pharmacy, as well chemical as Galenical. VI. A dispensatory, containing a great variety of the most efficacious officinal compositions, and extemporaneous prescriptions. VII. A syllabus of the symptoms of all the diseases incident to the human body. VIII. An index of diseases and their remedies. IX. A posologic table, containing the doses of all the simples and compounds. X. An explanation of the terms of art, accented as they are to be pronounced. / By R. Brookes, M.D.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/p3zwehda",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30551134",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/p3zwehda",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;botany",
+  "chunkCount": 1994,
+  "paragraphCount": 2026,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-p3zwehda\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-p3zwehda\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-p3zwehda\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-p3zwehda.jsonl",
+  "rawSha256": "96decf7f958310e5e65a7c18b973fda536e48c7954edd7f77ac2bae3f60666f9",
+  "normalizedSha256": "2c13808cc5b435dca3c8e984e2cfcb4b12487d6d415e1e64ed75e6755ea239ce",
+  "processedAt": "2026-06-16T14:00:00.406Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64220910R",
+  "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+  "creator": "Matteson, Antonette, 1847-",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64220910R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64220910R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 605,
+  "paragraphCount": 1151,
+  "sectionCount": 17,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220910R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220910R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64220910R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64220910R.jsonl",
+  "rawSha256": "34740debdc76c982a2ce09867b61e351cd0fa71d47f7b9ca042f15ae29adfd2b",
+  "normalizedSha256": "26e58a4ea8d70dc867b8d383f263b1df118f7d9f43ff397c8a188ee7b0a0f9a8",
+  "processedAt": "2026-06-17T11:54:32.964Z"
+}

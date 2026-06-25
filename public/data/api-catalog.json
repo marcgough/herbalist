@@ -1,0 +1,300 @@
+{
+  "name": "Herbalisti public API catalog",
+  "version": "2026-06-16",
+  "generatedAt": "2026-06-25T11:32:01.778Z",
+  "source": "static-export-api-catalog",
+  "policy": "Machine-readable endpoint catalog for public discovery and launch verification. Public endpoints return metadata, source indexes, and educational retrieval context only; protected media endpoints require admin authorization and do not expose secret values.",
+  "canonicalUrl": "https://herbalisti.com/data/api-catalog.json",
+  "apiBaseUrl": "https://herbalisti.com",
+  "endpointCount": 16,
+  "publicEndpointCount": 14,
+  "protectedEndpointCount": 2,
+  "boundaries": {
+    "medicalAdvice": "disabled",
+    "publicAccounts": "disabled",
+    "sourceMode": "allowlist_first",
+    "secretValues": "never_returned"
+  },
+  "endpoints": [
+    {
+      "id": "health",
+      "method": "GET",
+      "path": "/api/health",
+      "access": "public",
+      "purpose": "Public launch health contract without secret values.",
+      "parameters": [],
+      "responseShape": [
+        "status",
+        "surfaces",
+        "bindings",
+        "protectedFeatures",
+        "feed",
+        "launchBoundary"
+      ]
+    },
+    {
+      "id": "books",
+      "method": "GET",
+      "path": "/api/books",
+      "access": "public",
+      "purpose": "Search rights-cleared reference-book and source-index records.",
+      "parameters": [
+        "query",
+        "mode",
+        "region"
+      ],
+      "responseShape": [
+        "generatedAt",
+        "source",
+        "filters",
+        "total",
+        "books"
+      ]
+    },
+    {
+      "id": "herbal-knowledge",
+      "method": "GET",
+      "path": "/api/herbal-knowledge",
+      "access": "public",
+      "purpose": "Search the public-domain herbal commons and source-linked herb profiles.",
+      "parameters": [
+        "query"
+      ],
+      "responseShape": [
+        "generatedAt",
+        "source",
+        "total",
+        "sources",
+        "records"
+      ]
+    },
+    {
+      "id": "herbal-chat",
+      "method": "GET",
+      "path": "/api/herbal-chat",
+      "access": "public",
+      "purpose": "Return retrieval-first herbal context with source citations and an educational boundary.",
+      "parameters": [
+        "query"
+      ],
+      "responseShape": [
+        "model",
+        "source",
+        "answer",
+        "citations",
+        "policy"
+      ]
+    },
+    {
+      "id": "citation-notes",
+      "method": "GET",
+      "path": "/api/citation-notes",
+      "access": "public",
+      "purpose": "Search source-led citation notes across references, remedies, signals, and governance.",
+      "parameters": [
+        "query",
+        "type"
+      ],
+      "responseShape": [
+        "generatedAt",
+        "source",
+        "filters",
+        "total",
+        "notes"
+      ]
+    },
+    {
+      "id": "remedies",
+      "method": "GET",
+      "path": "/api/remedies",
+      "access": "public",
+      "purpose": "Search safety-led remedy records, plant parts, preparations, and source links.",
+      "parameters": [
+        "query",
+        "preparation"
+      ],
+      "responseShape": [
+        "generatedAt",
+        "source",
+        "filters",
+        "total",
+        "remedies"
+      ]
+    },
+    {
+      "id": "graph",
+      "method": "GET",
+      "path": "/api/graph",
+      "access": "public",
+      "purpose": "Explore source-led remedy, plant-part, preparation, context, and safety relationships.",
+      "parameters": [
+        "query",
+        "relation"
+      ],
+      "responseShape": [
+        "generatedAt",
+        "source",
+        "filters",
+        "nodes",
+        "edges",
+        "policy"
+      ]
+    },
+    {
+      "id": "search",
+      "method": "GET",
+      "path": "/api/search",
+      "access": "public",
+      "purpose": "Unified public research search across references, herbs, remedies, notes, signals, and sources.",
+      "parameters": [
+        "query",
+        "region"
+      ],
+      "responseShape": [
+        "generatedAt",
+        "source",
+        "filters",
+        "total",
+        "groups"
+      ]
+    },
+    {
+      "id": "sources",
+      "method": "GET",
+      "path": "/api/sources",
+      "access": "public",
+      "purpose": "Search the allowlist-first non-Big-Pharma source registry and review metadata.",
+      "parameters": [
+        "query"
+      ],
+      "responseShape": [
+        "generatedAt",
+        "source",
+        "filters",
+        "total",
+        "sources"
+      ]
+    },
+    {
+      "id": "source-health",
+      "method": "GET",
+      "path": "/api/source-health",
+      "access": "public",
+      "purpose": "Expose source-by-source feed health for allowlisted public sources.",
+      "parameters": [],
+      "responseShape": [
+        "generatedAt",
+        "source",
+        "healthyCount",
+        "emptyCount",
+        "warningCount",
+        "sources"
+      ]
+    },
+    {
+      "id": "signal-intelligence",
+      "method": "GET",
+      "path": "/api/signal-intelligence",
+      "access": "public",
+      "purpose": "Summarize metadata-only topic, recency, and source coverage for public Signals.",
+      "parameters": [],
+      "responseShape": [
+        "generatedAt",
+        "source",
+        "totalSignals",
+        "topicCoverage",
+        "sourceMix",
+        "policy"
+      ]
+    },
+    {
+      "id": "feed-status",
+      "method": "GET",
+      "path": "/api/feed-status",
+      "access": "public",
+      "purpose": "Expose the latest public feed refresh heartbeat and source policy.",
+      "parameters": [],
+      "responseShape": [
+        "generatedAt",
+        "source",
+        "sourcePolicy",
+        "latestRefresh"
+      ]
+    },
+    {
+      "id": "news",
+      "method": "GET",
+      "path": "/api/news",
+      "access": "public",
+      "purpose": "Search and filter independent public-source Signals feed items.",
+      "parameters": [
+        "query",
+        "topic",
+        "source",
+        "live"
+      ],
+      "responseShape": [
+        "generatedAt",
+        "source",
+        "filters",
+        "total",
+        "items",
+        "warnings"
+      ]
+    },
+    {
+      "id": "signals-rss",
+      "method": "GET",
+      "path": "/api/signals.xml",
+      "access": "public",
+      "purpose": "RSS version of the public Signals feed with source-policy and medical-boundary text.",
+      "parameters": [
+        "query",
+        "topic",
+        "source",
+        "live"
+      ],
+      "responseShape": [
+        "rss"
+      ]
+    },
+    {
+      "id": "seedance-create",
+      "method": "POST",
+      "path": "/api/media/seedance",
+      "access": "protected-admin",
+      "purpose": "Create a Kie.ai Seedance 2.0 media job after admin authorization.",
+      "parameters": [
+        "Authorization",
+        "prompt",
+        "model",
+        "resolution",
+        "duration",
+        "aspectRatio",
+        "reference urls"
+      ],
+      "responseShape": [
+        "ok",
+        "taskId",
+        "status"
+      ]
+    },
+    {
+      "id": "seedance-status",
+      "method": "GET",
+      "path": "/api/media/seedance-status",
+      "access": "protected-admin",
+      "purpose": "Check a protected Seedance media job and persist reviewed provider status.",
+      "parameters": [
+        "Authorization",
+        "taskId"
+      ],
+      "responseShape": [
+        "ok",
+        "taskId",
+        "status",
+        "resultUrl"
+      ]
+    }
+  ]
+}

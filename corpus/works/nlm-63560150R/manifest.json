@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63560150R",
+  "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+  "creator": "Ayers, J. Hamilton.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63560150R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63560150R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;botany;household-health",
+  "chunkCount": 1681,
+  "paragraphCount": 1716,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560150R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560150R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63560150R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63560150R.jsonl",
+  "rawSha256": "36b785d766aad2e4baf3f84b2dab77159f9256544becf0237c6c1972d4418fc3",
+  "normalizedSha256": "b98c8de52fec9d3d3e53390e034aba35036a1cc3c6a701194046f1fac5d01b0b",
+  "processedAt": "2026-06-16T23:51:00.840Z"
+}

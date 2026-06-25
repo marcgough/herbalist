@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63751730R",
+  "title": "Medical companion, treating according to the most successful practice, of the diseases to which man is subject : with a description of vegetable medicines, and the manner of preparing and using them : also, a description of roots and herbs : to which is added an essay on hygia, or the art of preserving health and prolonging life",
+  "creator": "Priest, Michael L.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63751730R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63751730R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63751730R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 390,
+  "paragraphCount": 631,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63751730R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63751730R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63751730R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63751730R.jsonl",
+  "rawSha256": "57c121a9efefbb2962dc0ac550b21fc327baf5a074895d0deb1bd0f419336706",
+  "normalizedSha256": "a12f22684567c73faa35f440ef9e89c841df009c87838043af7971de93020134",
+  "processedAt": "2026-06-16T23:07:00.736Z"
+}

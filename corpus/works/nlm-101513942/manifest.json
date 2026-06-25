@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101513942",
+  "title": "The family physician , or Poor man's friend, and married lady's companion : containing a great variety of valuable medical recipes, designed to assist heads of families, travellers and sea-faring people, in curing diseases ; with concise directions for the preparation, and use of a numerous collection of vegetables made use of ; and directions for preparing and administering them to cure diseases ; together with many of the most approved from the shop of the apothecary ; all in plain English",
+  "creator": "Weyer, A. (Anthony), 1784-1845.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101513942-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101513942-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101513942",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 104,
+  "paragraphCount": 123,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101513942\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101513942\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101513942\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101513942.jsonl",
+  "rawSha256": "41ba0ed262a707a88f06aa09097e2d01f3063d95ee751ed0f756c3d77639fefc",
+  "normalizedSha256": "698ced1fd70e35e41754f5f6fd6f0a38c96aec390e8f3f0872fdb928a636eed2",
+  "processedAt": "2026-06-20T02:03:41.283Z"
+}

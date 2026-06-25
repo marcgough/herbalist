@@ -1,0 +1,1155 @@
+{
+  "profile_id": "seed-columbo",
+  "family_id": "seed-columbo",
+  "canonical_name": "Columbo",
+  "canonical_key": "columbo",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-columbo-3095f68e40#columbo"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 514,
+    "total_chunks": 503,
+    "total_works": 156,
+    "matched_chunk_count": 503,
+    "matched_work_count": 156,
+    "matched_mention_total": 503
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Columbo"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0220417",
+      "nlm-0222600"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1239",
+      "nlm-0140313-chunk-1321",
+      "nlm-0220417-chunk-0821"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 263
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 231
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 11
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 334,
+        "work_count": 132
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 180,
+        "work_count": 99
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 66,
+        "work_count": 48
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 59,
+        "work_count": 52
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 49,
+        "work_count": 37
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 31,
+        "work_count": 28
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 23,
+        "work_count": 23
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "bulb",
+        "label": "Bulb",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "preparations": [
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 212,
+        "work_count": 72
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 170,
+        "work_count": 78
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 140,
+        "work_count": 78
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 129,
+        "work_count": 83
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 91,
+        "work_count": 42
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 79,
+        "work_count": 61
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 59,
+        "work_count": 41
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 33,
+        "work_count": 27
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 31,
+        "work_count": 29
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 28,
+        "work_count": 25
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 198,
+        "work_count": 88
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 55,
+        "work_count": 41
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 37,
+        "work_count": 26
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 29,
+        "work_count": 25
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 26,
+        "work_count": 25
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 137,
+        "work_count": 62
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 106,
+        "work_count": 72
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 90,
+        "work_count": 63
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 45,
+        "work_count": 43
+      },
+      {
+        "id": "cholera",
+        "label": "Cholera",
+        "signal_count": 25,
+        "work_count": 24
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 24,
+        "work_count": 21
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 22,
+        "work_count": 21
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 19,
+        "work_count": 18
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 14,
+        "work_count": 14
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-63570290R",
+      "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide",
+      "creator": "Ewell, James, 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;medicinal-plants;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570290R-bk",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 15
+    },
+    {
+      "work_id": "nlm-63570280R",
+      "title": "The medical companion, or, Family physician: treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide",
+      "creator": "Ewell, James, 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;medicinal-plants;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570280R-bk",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-jfx4av9y",
+      "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plants : also, the nurse's guide / by James Ewell.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;medicinal-plants;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jfx4av9y",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "nlm-101230724",
+      "title": "The medical companion, or family physician : treating of the diseases of the United states, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added, a brief anatomy and physiology of the human body, shewing, on rational principles, the cause and cure of diseases : an essay on hygiene, or the art of preserving health, without the aid of medicine : and an American materia medica , pointing out the virtures and doses of our medicinal plants : also, the nurse's guide",
+      "creator": "Ewell, James, 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;medicinal-plants;domestic-medicine;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101230724-bk",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-zk8kqddq",
+      "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plants : also, the nurse's guide / by James Ewell.",
+      "creator": "",
+      "publication_year": "1836",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;medicinal-plants;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/zk8kqddq",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-w9ajj4k7",
+      "title": "The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children, a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body, shewing, on rational principles, the cause and cure of disease :  an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plats ; also, the nurse's guide / by James Ewell.",
+      "creator": "",
+      "publication_year": "1822",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/w9ajj4k7",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "nlm-2566033RX1",
+      "title": "The London medical dictionary: including, under distinct heads, every branch of medicine, viz. anatomy, physiology, and pathology, the practice of physic and surgery, therapeutics, and materia medica ; with whatever relates to medicine in natural philosophy, chemistry, and natural history (Volume 1)",
+      "creator": "Parr, Bartholomew, 1750-1810.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2566033RX1-bk",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-t8tt3j2c",
+      "title": "The London medical dictionary: including, under distinct heads, every branch of medicine, viz. anatomy, physiology, and pathology, the practice of physic and surgery, therapeutics, and materia medica ; with whatever relates to medicine in natural philosophy, chemistry, and natural history (Volume 1).",
+      "creator": "",
+      "publication_year": "1819",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/t8tt3j2c",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "nlm-2553034R",
+      "title": "The medical companion : treating, according to the most successful practice, 1. The diseases common to warm climates and on ship board. 2. Common cases in surgery, as fractures, dislocations, etc. 3. The complaints peculiar to women and children ; with a dispensatory and glossary ; to which are added, a brief anatomy of the human body ; an essay on hygieine [sic] or the art of preserving health and prolonging life ; and an American materia medica , instructing country gentlemen in the very important knowledge of the virtues and doses of our medicinal plants",
+      "creator": "Ewell, James, 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;medicinal-plants;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2553034R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "nlm-2553033R",
+      "title": "The medical companion : treating, according to the most successful practice, I. The diseases common to warm climates and on ship board. II. Common cases in surgery, as fractures, dislocations, &c. III. The complaints peculiar to women and children. With a dispensatory and glossary. To which are added, a brief anatomy of the human body; an essay on hygieine [sic] or the art of preserving health and prolonging life; an American materia medica , instructing country gentlemen in the very important knowledge of the virtues and doses of our medicinal plants; also, a concise and impartial history of the capture of Washington and the diseases which sprung from that most deplorable disaster",
+      "creator": "Ewell, James, 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;medicinal-plants;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2553033R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61840800R-chunk-0032",
+        "work_id": "nlm-61840800R",
+        "title": "Botanic materia medica , or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61840800R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "No preparation is better suited to cases of habitual constipation, as it operates effectually, but at the same time mildly. Colocyntli and its compounds or preparations, may be employed to fulfil every indica- tion fo...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0033",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Colocynth and its compounds or preparations, may be employed to fulfil every indica- tion for which purgatives are administered. It should seldom be administered alone, it being too drastic. COLUMBO ROOT, Frasera caro...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-32520980R-chunk-1855",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE SPLEEN. 333",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "C Convulsive Fits, & \\ Nervous Irritability. {Convulsive Fits, and all Nervous Irritability. {Cholic, Costiveness, or to assist other me- dicines to operate. {Cholic, Costiveness, or to assist other me- dicines to ope...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-1813",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OR,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "C Bilious Diseases, Si X to produce sweating. For Worms. and Costiveness Worms. Green Sickness and Weakness. Hysterics, Asthma, Whooping Cough. Indigestion, Weak- ness, Sic. ft o n G ft O ft 2 ft Weak- >?< C Indigesti...",
+        "score": 45
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61840800R-chunk-0032",
+        "work_id": "nlm-61840800R",
+        "title": "Botanic materia medica , or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61840800R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "No preparation is better suited to cases of habitual constipation, as it operates effectually, but at the same time mildly. Colocyntli and its compounds or preparations, may be employed to fulfil every indica- tion fo...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0033",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Colocynth and its compounds or preparations, may be employed to fulfil every indica- tion for which purgatives are administered. It should seldom be administered alone, it being too drastic. COLUMBO ROOT, Frasera caro...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-32520980R-chunk-1855",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE SPLEEN. 333",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "C Convulsive Fits, & \\ Nervous Irritability. {Convulsive Fits, and all Nervous Irritability. {Cholic, Costiveness, or to assist other me- dicines to operate. {Cholic, Costiveness, or to assist other me- dicines to ope...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-1813",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OR,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "C Bilious Diseases, Si X to produce sweating. For Worms. and Costiveness Worms. Green Sickness and Weakness. Hysterics, Asthma, Whooping Cough. Indigestion, Weak- ness, Sic. ft o n G ft O ft 2 ft Weak- >?< C Indigesti...",
+        "score": 45
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61840800R-chunk-0032",
+        "work_id": "nlm-61840800R",
+        "title": "Botanic materia medica , or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61840800R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "No preparation is better suited to cases of habitual constipation, as it operates effectually, but at the same time mildly. Colocyntli and its compounds or preparations, may be employed to fulfil every indica- tion fo...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0033",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Colocynth and its compounds or preparations, may be employed to fulfil every indica- tion for which purgatives are administered. It should seldom be administered alone, it being too drastic. COLUMBO ROOT, Frasera caro...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-32520980R-chunk-1855",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE SPLEEN. 333",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "C Convulsive Fits, & \\ Nervous Irritability. {Convulsive Fits, and all Nervous Irritability. {Cholic, Costiveness, or to assist other me- dicines to operate. {Cholic, Costiveness, or to assist other me- dicines to ope...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-1813",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OR,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "C Bilious Diseases, Si X to produce sweating. For Worms. and Costiveness Worms. Green Sickness and Weakness. Hysterics, Asthma, Whooping Cough. Indigestion, Weak- ness, Sic. ft o n G ft O ft 2 ft Weak- >?< C Indigesti...",
+        "score": 45
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61840800R-chunk-0032",
+        "work_id": "nlm-61840800R",
+        "title": "Botanic materia medica , or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61840800R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "No preparation is better suited to cases of habitual constipation, as it operates effectually, but at the same time mildly. Colocyntli and its compounds or preparations, may be employed to fulfil every indica- tion fo...",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0033",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Pregnancy caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Colocynth and its compounds or preparations, may be employed to fulfil every indica- tion for which purgatives are administered. It should seldom be administered alone, it being too drastic. COLUMBO ROOT, Frasera caro...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-32520980R-chunk-1855",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "INFLAMMATION OF THE SPLEEN. 333",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Gout",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "C Convulsive Fits, & \\ Nervous Irritability. {Convulsive Fits, and all Nervous Irritability. {Cholic, Costiveness, or to assist other me- dicines to operate. {Cholic, Costiveness, or to assist other me- dicines to ope...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-1813",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OR,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Columbo"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "C Bilious Diseases, Si X to produce sweating. For Worms. and Costiveness Worms. Green Sickness and Weakness. Hysterics, Asthma, Whooping Cough. Indigestion, Weak- ness, Sic. ft o n G ft O ft 2 ft Weak- >?< C Indigesti...",
+        "score": 45
+      }
+    ]
+  },
+  "retrieval_text": "Columbo is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 156 works and 503 source-linked chunks. Recorded variants include Columbo. Common plant-part co-mentions include Root, Bark, Leaf, Flower, Seed, Gum. Common preparation co-mentions include Infusion, Tea, Powder, Tincture, Oil, Emetic. Common condition co-mentions include Fever, Vomiting or nausea, Cold or catarrh, Diarrhoea or looseness, Cholera, Colic. Caution co-mentions include Dose caution, Narcotic or sedative caution, Bleeding caution, Child-use caution, Pregnancy caution, Toxicity watch. Representative source works include The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide; The medical companion, or, Family physician: treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica , pointing out the virtues and doses of our medicinal plants : also, the nurse's guide; The medical companion, or, Family physician : treating of the diseases of the United States, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added a brief anatomy and physiology of the human body showing, on rational principles, the cause and cure of diseases : an essay on hygieine [sic], or the art of preserving health without the aid of medicine : an American materia medica, pointing out the virtues and doses of our medicinal plants : also, the nurse's guide / by James Ewell.; The medical companion, or family physician : treating of the diseases of the United states, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added, a brief anatomy and physiology of the human body, shewing, on rational principles, the cause and cure of diseases : an essay on hygiene, or the art of preserving health, without the aid of medicine : and an American materia medica , pointing out the virtures and doses of our medicinal plants : also, the nurse's guide. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.892Z",
+  "builder": "build-herb-profiles.mjs"
+}

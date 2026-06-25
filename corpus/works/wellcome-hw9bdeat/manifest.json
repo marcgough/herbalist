@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-hw9bdeat",
+  "title": "An account of the diseases, natural history, and medicines of the East Indies / Translated from the Latin of James Bontius ... To which are added annotations by a physician.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/hw9bdeat",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30539249",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/hw9bdeat",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 277,
+  "paragraphCount": 282,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-hw9bdeat\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-hw9bdeat\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-hw9bdeat\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-hw9bdeat.jsonl",
+  "rawSha256": "302eeedb31709a22ad4b4bd43463bc4ae9e1d0c181e9acef8e958b738d18b083",
+  "normalizedSha256": "b7e13ac43937acbc8231b45225931f24f5dd63250a37663fb61f7df3adbf37f7",
+  "processedAt": "2026-06-16T23:09:22.734Z"
+}

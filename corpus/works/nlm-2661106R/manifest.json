@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2661106R",
+  "title": "Dr. Colbatch's legacy, or The family physician : containing an account of all the diseases incident to the human body : alphabetically digested",
+  "creator": "Colbatch, John, Sir, 1670-1729.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2661106R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2661106R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2661106R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 73,
+  "paragraphCount": 92,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2661106R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2661106R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2661106R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2661106R.jsonl",
+  "rawSha256": "1c449154e62635b2cf2b12f6c023523a3d40551fd3555c41aee999c233b927c9",
+  "normalizedSha256": "e9a650c956a01a992c9f3acc6131391d69ebe821f5b7b3f9910e3943e8ec8b69",
+  "processedAt": "2026-06-17T00:37:59.141Z"
+}

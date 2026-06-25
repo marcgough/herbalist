@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-9804174",
+  "title": "The Era key to the U.S.P. : a complete list of the drugs and preparations of the United States Pharmacopoeia , revision of 1890-3 : giving official titles, common names and synonyms of the drugs, chemicals and preparations of the Pharmacopoeia , with doses in apothecaries weights and measures with equivalents in metric terms",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9804174-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-9804174-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/9804174",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 149,
+  "paragraphCount": 150,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9804174\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9804174\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-9804174\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-9804174.jsonl",
+  "rawSha256": "b8854857839d70d4683d25cc1aa5f9e1745e26fa7bc16717a16c355d84b66319",
+  "normalizedSha256": "bbd92584ff4283b6e7f364454fa6900d327699c9d33a5235a688f7245a61c8a1",
+  "processedAt": "2026-06-19T11:10:46.884Z"
+}

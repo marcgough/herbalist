@@ -1,0 +1,20 @@
+{
+  "workId": "pg-76922",
+  "title": "Weeds used in medicine",
+  "creator": "Henkel, Alice, 1869-1916; Galloway, B. T. (Beverly Thomas), 1863-1938 [Author of introduction, etc.]",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/76922",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/76922/pg76922.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/76922.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "medicinal-plants",
+  "chunkCount": 69,
+  "paragraphCount": 356,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-76922\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-76922\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-76922.jsonl",
+  "rawSha256": "84ef7ee367a785dfcdd13bb4c52033808027a7ef8222b2c684cf324dfba5b90d",
+  "normalizedSha256": "b14d3c74d547002feb42919c300fbc12d71f3fa1ac107fbc48587ec366242708",
+  "processedAt": "2026-06-16T13:39:18.902Z"
+}

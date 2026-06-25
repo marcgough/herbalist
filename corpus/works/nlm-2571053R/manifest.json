@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2571053R",
+  "title": "Flora Carolinaeensis : or, A historical, medical, and economical display of the vegetable kingdom : according to the Linnaean, or sexual system of botany : being a collection or compilation of various plants hitherto discovered and made known by the several authors on botany, &c. : in two volumes",
+  "creator": "Shecut, John L. E. W. (John Linnaeus Edward Whitridge), 1770-1836.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2571053R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2571053R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2571053R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 2247,
+  "paragraphCount": 2489,
+  "sectionCount": 9,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2571053R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2571053R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2571053R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2571053R.jsonl",
+  "rawSha256": "6e9a8d26fc2d4c6eb07b19dd907a153354fe75c0ce53f64da1d66349e6894867",
+  "normalizedSha256": "d9193b4b2527803ae9611feea60937e6fc647cceb083084104d3ebdb39f99124",
+  "processedAt": "2026-06-18T15:14:16.161Z"
+}

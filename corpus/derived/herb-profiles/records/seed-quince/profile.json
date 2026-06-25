@@ -1,0 +1,1121 @@
+{
+  "profile_id": "seed-quince",
+  "family_id": "seed-quince",
+  "canonical_name": "Quince",
+  "canonical_key": "quince",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-quince-4f67642c07#quince"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 760,
+    "total_chunks": 689,
+    "total_works": 297,
+    "matched_chunk_count": 689,
+    "matched_work_count": 297,
+    "matched_mention_total": 692
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Quince",
+      "Quinces"
+    ],
+    "sample_work_ids": [
+      "nlm-0217313",
+      "nlm-0217315",
+      "nlm-0217317"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217313-chunk-0565",
+      "nlm-0217313-chunk-1720",
+      "nlm-0217315-chunk-1872"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 341
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 335
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 16
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 399,
+        "work_count": 226
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 158,
+        "work_count": 103
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 102,
+        "work_count": 78
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 97,
+        "work_count": 66
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 91,
+        "work_count": 58
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 75,
+        "work_count": 66
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 74,
+        "work_count": 63
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 29,
+        "work_count": 26
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 28,
+        "work_count": 22
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 9,
+        "work_count": 9
+      }
+    ],
+    "preparations": [
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 277,
+        "work_count": 127
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 195,
+        "work_count": 75
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 164,
+        "work_count": 113
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 159,
+        "work_count": 114
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 102,
+        "work_count": 69
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 70,
+        "work_count": 61
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 39,
+        "work_count": 25
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 38,
+        "work_count": 28
+      },
+      {
+        "id": "cordial",
+        "label": "Cordial",
+        "signal_count": 27,
+        "work_count": 22
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 21,
+        "work_count": 18
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 106,
+        "work_count": 74
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 64,
+        "work_count": 50
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 42,
+        "work_count": 42
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 18,
+        "work_count": 17
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 56,
+        "work_count": 47
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 53,
+        "work_count": 48
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 52,
+        "work_count": 42
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 51,
+        "work_count": 41
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 44,
+        "work_count": 36
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 24,
+        "work_count": 18
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 23,
+        "work_count": 22
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 14,
+        "work_count": 13
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 13,
+        "work_count": 10
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 9,
+        "work_count": 8
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 48,
+      "matched_mention_count": 50
+    },
+    {
+      "work_id": "nlm-2751057R",
+      "title": "Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops",
+      "creator": "Culpeper, Nicholas, 1616-1654 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2751057R-bk",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-c4ncu7qz",
+      "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / Nicholas Culpeper.",
+      "creator": "",
+      "publication_year": "1814",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica",
+      "source_url": "https://wellcomecollection.org/works/c4ncu7qz",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-dn7yrsvs",
+      "title": "The complete herbal to which is now added, upwards of one hundred additional herbs ... To which are now first annexed, the English physician enlarged, and Key to [Galen's Method of] physic ... forming a complete family dispensatory and natural system of physic ... to which is also added ... receipts selected from the author's Last legacy. To his wife / by Nicholas Culpeper.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/dn7yrsvs",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "nlm-2702091R",
+      "title": "A guide to health through the various stages of life : ... the whole illustrated with useful annotations",
+      "creator": "Lynch, Bernard, -1745.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2702091R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-e8fn752s",
+      "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1818",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/e8fn752s",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-h56bk3ec",
+      "title": "Pharmacopœia officinalis et extemporanea: or, a compleat English dispensatory, in four parts. Containing I. The theory of pharmacy, and the several processes therein. II. A description of the officinal simples, with their virtues and preparations, Galenical and chymical. III. The officinal compositions; being such of the London and Bates's [sic] dispensatory as are now in use; together with some others of uncommon efficacy, taken from the most celebrated authors. IV. Extemporaneous prescriptions, distributed into classes, suitable to their intentions in cure / By John Quincy, M. D.",
+      "creator": "",
+      "publication_year": "1718",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/h56bk3ec",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-gtpbv42a",
+      "title": "Pharmacopoeia officinalis et extemporanea: or, a compleat English dispensatory, in four parts. Containing I. The theory of pharmacy. And the feveral proceffes therein. II. A description of the officinal simples, with their virtues and preparations, Galenical and chymical. III. The officinal compositions; being such of the London and Bates's dispensatory as are now in use; together with fome others of uncommon efficacy, taken from the moft celebrated authors. IV. Extemporaneous prescriptions. Diftributed into claffes fuitable to their intentions in cure / By John Quincy, M. D.",
+      "creator": "",
+      "publication_year": "1726",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/gtpbv42a",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "pg-49513",
+      "title": "The Complete Herbal",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "herbal",
+      "source_url": "https://www.gutenberg.org/ebooks/49513",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-c2fdp9wa",
+      "title": "The complete herbal ... / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1840",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/c2fdp9wa",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-4220",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Colic"
+        ],
+        "excerpt": "It is prin- cipally prescribed in diarrhoea and dysentery, in the dose of one, two, or three drams. Its activity depends more upon the astringent substances which it contains than upon the opium. ql ASTRINGENT ELECTUA...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0102",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "From gss of the powder to ^ij, three table- spoonfuls, three times a day, of an infusion made with ^iij of the root in Oj of water. CYCLAMEN EUEOPGEUM. Sow-bread. Drastic cathartic. Dose. 20-40 grs. CYDONIUM. Quince S...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-0971",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "It is one of the chief ingredients of the favorite condiment Curry Powder. It is rarely given as medicine. CUNDERANGO—Conderango. —The bark of Pseumagenne/us equatoriensis. Alterative, tonic. Used in syphilis, scroful...",
+        "score": 38
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-4124",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WITH",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh"
+        ],
+        "excerpt": "Quince seed. Slippery Elm. Low Mallows. Bellwort. Mullen. Blue Violet. Mucilages and demulcents are used in coughs, colds, and inflamma- tions to soothe inflamed parts, to increase the discharge of urine, and to facil...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-awbgqprm-chunk-1747",
+        "work_id": "wellcome-awbgqprm",
+        "title": "The American eclectic materia medica and therapeutics / John M. Scudder.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/awbgqprm",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves of the Benne Plant afford a gummy substance Avliich is readily extracted by water, forming a bland mucilage which is much employed in the Southern States, in various diseases of the mucous membranes in whic...",
+        "score": 37
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-4220",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Colic"
+        ],
+        "excerpt": "It is prin- cipally prescribed in diarrhoea and dysentery, in the dose of one, two, or three drams. Its activity depends more upon the astringent substances which it contains than upon the opium. ql ASTRINGENT ELECTUA...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0102",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "From gss of the powder to ^ij, three table- spoonfuls, three times a day, of an infusion made with ^iij of the root in Oj of water. CYCLAMEN EUEOPGEUM. Sow-bread. Drastic cathartic. Dose. 20-40 grs. CYDONIUM. Quince S...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-0971",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "It is one of the chief ingredients of the favorite condiment Curry Powder. It is rarely given as medicine. CUNDERANGO—Conderango. —The bark of Pseumagenne/us equatoriensis. Alterative, tonic. Used in syphilis, scroful...",
+        "score": 38
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-4124",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WITH",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh"
+        ],
+        "excerpt": "Quince seed. Slippery Elm. Low Mallows. Bellwort. Mullen. Blue Violet. Mucilages and demulcents are used in coughs, colds, and inflamma- tions to soothe inflamed parts, to increase the discharge of urine, and to facil...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-awbgqprm-chunk-1747",
+        "work_id": "wellcome-awbgqprm",
+        "title": "The American eclectic materia medica and therapeutics / John M. Scudder.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/awbgqprm",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves of the Benne Plant afford a gummy substance Avliich is readily extracted by water, forming a bland mucilage which is much employed in the Southern States, in various diseases of the mucous membranes in whic...",
+        "score": 37
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-4220",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Colic"
+        ],
+        "excerpt": "It is prin- cipally prescribed in diarrhoea and dysentery, in the dose of one, two, or three drams. Its activity depends more upon the astringent substances which it contains than upon the opium. ql ASTRINGENT ELECTUA...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-0971",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "It is one of the chief ingredients of the favorite condiment Curry Powder. It is rarely given as medicine. CUNDERANGO—Conderango. —The bark of Pseumagenne/us equatoriensis. Alterative, tonic. Used in syphilis, scroful...",
+        "score": 38
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-4124",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WITH",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh"
+        ],
+        "excerpt": "Quince seed. Slippery Elm. Low Mallows. Bellwort. Mullen. Blue Violet. Mucilages and demulcents are used in coughs, colds, and inflamma- tions to soothe inflamed parts, to increase the discharge of urine, and to facil...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-awbgqprm-chunk-1747",
+        "work_id": "wellcome-awbgqprm",
+        "title": "The American eclectic materia medica and therapeutics / John M. Scudder.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/awbgqprm",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves of the Benne Plant afford a gummy substance Avliich is readily extracted by water, forming a bland mucilage which is much employed in the Southern States, in various diseases of the mucous membranes in whic...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0346",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Fruit",
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "Common Cyclamen, the fresh root of which is aromatic, acrid, bitter, and drastico-cathartic in doses of $ss to 3 j: of the powder, as a vermifuge, and in schirrous tumours, gan- glions, &c. Cydonle Semina. L. P. Quinc...",
+        "score": 36
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-4220",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Colic"
+        ],
+        "excerpt": "It is prin- cipally prescribed in diarrhoea and dysentery, in the dose of one, two, or three drams. Its activity depends more upon the astringent substances which it contains than upon the opium. ql ASTRINGENT ELECTUA...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-sg5gwzz7-chunk-0102",
+        "work_id": "wellcome-sg5gwzz7",
+        "title": "The physician's dose and symptom book : containing the doses and uses of all the principal articles of the materia medica and chief officinal preparations : also, table of weights and measures, rules to proportion the doses of medicines, common abbreviations used in writing prescriptions, table of poisons and antidotes, index of diseases and treatments, pharmaceutical preparations, table of symptomatology, outlines of general pathology and therapeutics / by Joseph H. Wythes.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/sg5gwzz7",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Poultice",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "From gss of the powder to ^ij, three table- spoonfuls, three times a day, of an infusion made with ^iij of the root in Oj of water. CYCLAMEN EUEOPGEUM. Sow-bread. Drastic cathartic. Dose. 20-40 grs. CYDONIUM. Quince S...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-0971",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "It is one of the chief ingredients of the favorite condiment Curry Powder. It is rarely given as medicine. CUNDERANGO—Conderango. —The bark of Pseumagenne/us equatoriensis. Alterative, tonic. Used in syphilis, scroful...",
+        "score": 38
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-4124",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WITH",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh"
+        ],
+        "excerpt": "Quince seed. Slippery Elm. Low Mallows. Bellwort. Mullen. Blue Violet. Mucilages and demulcents are used in coughs, colds, and inflamma- tions to soothe inflamed parts, to increase the discharge of urine, and to facil...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-awbgqprm-chunk-1747",
+        "work_id": "wellcome-awbgqprm",
+        "title": "The American eclectic materia medica and therapeutics / John M. Scudder.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/awbgqprm",
+        "matched_herbs": [
+          "Quince"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Juice"
+        ],
+        "cautions": [
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves of the Benne Plant afford a gummy substance Avliich is readily extracted by water, forming a bland mucilage which is much employed in the Southern States, in various diseases of the mucous membranes in whic...",
+        "score": 37
+      }
+    ]
+  },
+  "retrieval_text": "Quince is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 297 works and 689 source-linked chunks. Recorded variants include Quince, Quinces. Common plant-part co-mentions include Seed, Root, Bark, Gum, Flower, Fruit. Common preparation co-mentions include Juice, Syrup, Oil, Decoction, Powder, Infusion. Common condition co-mentions include Cold or catarrh, Diarrhoea or looseness, Wounds or ulcers, Vomiting or nausea, Fever, Inflammation. Caution co-mentions include Dose caution, Narcotic or sedative caution, Toxicity watch, Child-use caution, Bleeding caution, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops; Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / Nicholas Culpeper.; The complete herbal to which is now added, upwards of one hundred additional herbs ... To which are now first annexed, the English physician enlarged, and Key to [Galen's Method of] physic ... forming a complete family dispensatory and natural system of physic ... to which is also added ... receipts selected from the author's Last legacy. To his wife / by Nicholas Culpeper.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.863Z",
+  "builder": "build-herb-profiles.mjs"
+}

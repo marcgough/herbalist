@@ -1,0 +1,1148 @@
+{
+  "profile_id": "seed-tobacco",
+  "family_id": "seed-tobacco",
+  "canonical_name": "Tobacco",
+  "canonical_key": "tobacco",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-tobacco-da43f06caa#tobacco"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 878,
+    "total_chunks": 804,
+    "total_works": 344,
+    "matched_chunk_count": 804,
+    "matched_work_count": 344,
+    "matched_mention_total": 804
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Tobacco"
+    ],
+    "sample_work_ids": [
+      "nlm-05710300R",
+      "nlm-100898140",
+      "nlm-100936421"
+    ],
+    "sample_chunk_ids": [
+      "nlm-05710300R-chunk-1358",
+      "nlm-100898140-chunk-0642",
+      "nlm-100898140-chunk-1086"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 532
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 223
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 89
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 424,
+        "work_count": 236
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 111,
+        "work_count": 106
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 70,
+        "work_count": 61
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 48,
+        "work_count": 44
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 41,
+        "work_count": 38
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 26,
+        "work_count": 19
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 20,
+        "work_count": 14
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 14,
+        "work_count": 13
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 12,
+        "work_count": 11
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 11,
+        "work_count": 10
+      }
+    ],
+    "preparations": [
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 262,
+        "work_count": 181
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 254,
+        "work_count": 162
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 162,
+        "work_count": 146
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 146,
+        "work_count": 107
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 119,
+        "work_count": 97
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 85,
+        "work_count": 70
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 84,
+        "work_count": 72
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 67,
+        "work_count": 54
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 57,
+        "work_count": 49
+      },
+      {
+        "id": "wash",
+        "label": "Wash",
+        "signal_count": 51,
+        "work_count": 48
+      }
+    ],
+    "cautions": [
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 169,
+        "work_count": 123
+      },
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 141,
+        "work_count": 98
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 95,
+        "work_count": 78
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 89,
+        "work_count": 63
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 61,
+        "work_count": 56
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 7,
+        "work_count": 7
+      }
+    ],
+    "conditions": [
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 150,
+        "work_count": 104
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 77,
+        "work_count": 70
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 74,
+        "work_count": 58
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 46,
+        "work_count": 41
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 31,
+        "work_count": 23
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 29,
+        "work_count": 27
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 27,
+        "work_count": 27
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 27,
+        "work_count": 24
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 23,
+        "work_count": 22
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 20,
+        "work_count": 18
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 35,
+      "matched_mention_count": 35
+    },
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-101515274",
+      "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+      "creator": "Dunglison, Robley, 1798-1869.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "hygiene;dietetics",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-101509190",
+      "title": "General therapeutics and materia medica : adapted for a medical textbook",
+      "creator": "Dunglison, Robley, 1798-1869.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101509190-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-63750550R",
+      "title": "Materia medica and therapeutics : with ample illustrations of practice in all the departments of medical science and very copious notes of toxicology : suited to the wants of medical students, practitioners, and teachers",
+      "creator": "Mitchell, Thomas D. (Thomas Duché), 1791-1865.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63750550R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-x8kyz2kk",
+      "title": "American family physician ... With an appendix, containing hints respecting the treatment of domestic animals ... / By Th. Ewell.",
+      "creator": "",
+      "publication_year": "1824",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/x8kyz2kk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-hnx4jyzh",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae for the chemist and druggist and medical practioner / E. Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/hnx4jyzh",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-takhmyez",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+      "creator": "",
+      "publication_year": "1747",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/takhmyez",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-rwdsba99",
+      "title": "The Eclectic and general dispensatory : comprehending a system of pharmacy, materia medica, the formulae of the London, Edinburgh, and Dublin pharmacopoeias, prescriptions of many eminent physicians, and receipts for the most common empirical medicines / collated from the best authorities, by an American physician.",
+      "creator": "",
+      "publication_year": "1827",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/rwdsba99",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-xhc5sgpw",
+      "title": "The London dispensatory, containing: I, the elements of pharmacy; II, the botanical description, natural history, chemical analysis, and medicinal properties, of the substances of the materia medica; III, the pharmaceutical preparations and compositions of the pharmacopoeias of the London, the Edinburgh, and the Dublin Colleges of Physicians. The whole forming a practical synopsis of materia medica, pharmacy, and therapeutics: / by Anthony Todd Thomson.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/xhc5sgpw",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0489",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is a bitter tonic, which has been prescribed in doses of ^ij, or less, in diarrhoea and dysentery, along with opiates and aromatics. In larger doses it is emetic. Mr. Brande says it is astringent, but this must be...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0489",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is a bitter tonic, which has been prescribed in doses of ^ij> or less, in diarrhoea and dysentery, along with opiates and aromatics. In larger doses it is emetic. Mr. Brande says it is astringent, but this must be...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0611",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Medicinally it is a bitter tonic, which has been prescribed in doses of %\\] or less, in diarrhoea and dysentery, along with opiates and ixo- 1. 0. matics. In larger doses it is emetic. Mr. Brande . says it is astrin g...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-nhx2ne6y-chunk-1186",
+        "work_id": "wellcome-nhx2ne6y",
+        "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Dropsy",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Oil of tobacco, Avhich is inhaled and swallowed in the process of smoking, is one of the most violent of known poisons; the Hottentots are said to kill snakes by putting a drop of it on their tongues, and the death of...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-dwk6bbmw-chunk-1191",
+        "work_id": "wellcome-dwk6bbmw",
+        "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Dropsy",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Oil of tobacco, which is inhaled and swallowed in the process of smoking, is one of the most violent of known poisons; the Hottentots are said to kill snakes by putting a drop of it on their tongues, and the death of...",
+        "score": 43
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0489",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is a bitter tonic, which has been prescribed in doses of ^ij, or less, in diarrhoea and dysentery, along with opiates and aromatics. In larger doses it is emetic. Mr. Brande says it is astringent, but this must be...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0489",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is a bitter tonic, which has been prescribed in doses of ^ij> or less, in diarrhoea and dysentery, along with opiates and aromatics. In larger doses it is emetic. Mr. Brande says it is astringent, but this must be...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0611",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Medicinally it is a bitter tonic, which has been prescribed in doses of %\\] or less, in diarrhoea and dysentery, along with opiates and ixo- 1. 0. matics. In larger doses it is emetic. Mr. Brande . says it is astrin g...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-nhx2ne6y-chunk-1186",
+        "work_id": "wellcome-nhx2ne6y",
+        "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Dropsy",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Oil of tobacco, Avhich is inhaled and swallowed in the process of smoking, is one of the most violent of known poisons; the Hottentots are said to kill snakes by putting a drop of it on their tongues, and the death of...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-dwk6bbmw-chunk-1191",
+        "work_id": "wellcome-dwk6bbmw",
+        "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Dropsy",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Oil of tobacco, which is inhaled and swallowed in the process of smoking, is one of the most violent of known poisons; the Hottentots are said to kill snakes by putting a drop of it on their tongues, and the death of...",
+        "score": 43
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0489",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is a bitter tonic, which has been prescribed in doses of ^ij, or less, in diarrhoea and dysentery, along with opiates and aromatics. In larger doses it is emetic. Mr. Brande says it is astringent, but this must be...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0489",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is a bitter tonic, which has been prescribed in doses of ^ij> or less, in diarrhoea and dysentery, along with opiates and aromatics. In larger doses it is emetic. Mr. Brande says it is astringent, but this must be...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0611",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Medicinally it is a bitter tonic, which has been prescribed in doses of %\\] or less, in diarrhoea and dysentery, along with opiates and ixo- 1. 0. matics. In larger doses it is emetic. Mr. Brande . says it is astrin g...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-nhx2ne6y-chunk-1186",
+        "work_id": "wellcome-nhx2ne6y",
+        "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Dropsy",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Oil of tobacco, Avhich is inhaled and swallowed in the process of smoking, is one of the most violent of known poisons; the Hottentots are said to kill snakes by putting a drop of it on their tongues, and the death of...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-dwk6bbmw-chunk-1191",
+        "work_id": "wellcome-dwk6bbmw",
+        "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Dropsy",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Oil of tobacco, which is inhaled and swallowed in the process of smoking, is one of the most violent of known poisons; the Hottentots are said to kill snakes by putting a drop of it on their tongues, and the death of...",
+        "score": 43
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-yfu6989c-chunk-0489",
+        "work_id": "wellcome-yfu6989c",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yfu6989c",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is a bitter tonic, which has been prescribed in doses of ^ij, or less, in diarrhoea and dysentery, along with opiates and aromatics. In larger doses it is emetic. Mr. Brande says it is astringent, but this must be...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0489",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is a bitter tonic, which has been prescribed in doses of ^ij> or less, in diarrhoea and dysentery, along with opiates and aromatics. In larger doses it is emetic. Mr. Brande says it is astringent, but this must be...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0611",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Medicinally it is a bitter tonic, which has been prescribed in doses of %\\] or less, in diarrhoea and dysentery, along with opiates and ixo- 1. 0. matics. In larger doses it is emetic. Mr. Brande . says it is astrin g...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-nhx2ne6y-chunk-1186",
+        "work_id": "wellcome-nhx2ne6y",
+        "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Dropsy",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Oil of tobacco, Avhich is inhaled and swallowed in the process of smoking, is one of the most violent of known poisons; the Hottentots are said to kill snakes by putting a drop of it on their tongues, and the death of...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-dwk6bbmw-chunk-1191",
+        "work_id": "wellcome-dwk6bbmw",
+        "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+        "matched_herbs": [
+          "Tobacco"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Gout",
+          "Constipation",
+          "Dropsy",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Oil of tobacco, which is inhaled and swallowed in the process of smoking, is one of the most violent of known poisons; the Hottentots are said to kill snakes by putting a drop of it on their tongues, and the death of...",
+        "score": 43
+      }
+    ]
+  },
+  "retrieval_text": "Tobacco is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 344 works and 804 source-linked chunks. Recorded variants include Tobacco. Common plant-part co-mentions include Leaf, Root, Bark, Flower, Seed, Gum. Common preparation co-mentions include Infusion, Oil, Juice, Ointment, Decoction, Powder. Common condition co-mentions include Wounds or ulcers, Cold or catarrh, Vomiting or nausea, Dropsy, Consumption, Constipation. Caution co-mentions include Narcotic or sedative caution, Dose caution, Toxicity watch, Fatal-risk warning, Child-use caution, Pregnancy caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The elements of materia medica and therapeutics / by Jonathan Pereira.; A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc; General therapeutics and materia medica : adapted for a medical textbook. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.831Z",
+  "builder": "build-herb-profiles.mjs"
+}

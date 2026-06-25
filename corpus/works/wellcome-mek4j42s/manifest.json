@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-mek4j42s",
+  "title": "Catalogue of the medicinal plants in the museum of the Pharmaceutical Society of Great Britain / Compiled by E.M. Holmes.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/mek4j42s",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21468722",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/mek4j42s",
+  "rightsStatus": "pdm",
+  "topicFamily": "medicinal-plants;botany",
+  "chunkCount": 343,
+  "paragraphCount": 343,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-mek4j42s\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-mek4j42s\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-mek4j42s\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-mek4j42s.jsonl",
+  "rawSha256": "acefdb2bdf96be21b08f92841400c8a20033ab7c4a994dfd0d7943e20a1c7c3a",
+  "normalizedSha256": "1ea5f2707326c8058420769db9cbf94f2fb4287152170e7a5220a20c3dbfc0a9",
+  "processedAt": "2026-06-16T23:54:22.511Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2555010R",
+  "title": "The domestic physician, and family assistant : in four parts: part I. A short system of anatomy. II. On materia medica , or a description of medicinal vegetables. III. On pharmacy, or the preparation of medicines. IV. On physiology, or the description and treatment of diseases",
+  "creator": "Gardner, Marlin.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555010R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2555010R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2555010R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 283,
+  "paragraphCount": 607,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2555010R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2555010R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2555010R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2555010R.jsonl",
+  "rawSha256": "ba406fb181f8d74e60dc0817b69ede0a7364d8530d9e007c1b71ab8a393962e9",
+  "normalizedSha256": "b4958cc4e449fe7e39a55d501031d52246e01ad24411a588cf80fd8e9422bda1",
+  "processedAt": "2026-06-19T10:45:16.849Z"
+}

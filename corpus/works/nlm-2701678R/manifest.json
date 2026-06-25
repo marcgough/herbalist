@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2701678R",
+  "title": "The new dispensatory ... : the whole interspersed with practical cautions and observations",
+  "creator": "Lewis, William, 1708-1781.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2701678R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2701678R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2701678R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 2315,
+  "paragraphCount": 2664,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2701678R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2701678R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2701678R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2701678R.jsonl",
+  "rawSha256": "4917964d7b44fca62f843dff8c581cc5fceb7c8a4ef67e08cb8eaeef5ec226c7",
+  "normalizedSha256": "67f0f572c3bdbd4c40ae45358c5a472d7e70dac2b862868dad5c20f3161b67e3",
+  "processedAt": "2026-06-17T13:03:20.412Z"
+}

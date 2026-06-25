@@ -1,0 +1,1013 @@
+{
+  "profile_id": "seed-borage",
+  "family_id": "seed-borage",
+  "canonical_name": "Borage",
+  "canonical_key": "borage",
+  "catalog_status": "seed-ready",
+  "catalog_class": "culinary-medicinal-plant",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-borage-2421092ed9#borage"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 67,
+    "total_chunks": 63,
+    "total_works": 32,
+    "matched_chunk_count": 63,
+    "matched_work_count": 32,
+    "matched_mention_total": 63
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "culinary-herbs",
+      "cultivation",
+      "domestic-medicine",
+      "herbal",
+      "hygiene",
+      "materia-medica",
+      "medicinal-plants",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Borage"
+    ],
+    "sample_work_ids": [
+      "nlm-100898140",
+      "nlm-100936421",
+      "nlm-101092118"
+    ],
+    "sample_chunk_ids": [
+      "nlm-100898140-chunk-1307",
+      "nlm-100936421-chunk-1414",
+      "nlm-101092118-chunk-1408"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 38
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 25
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 30,
+        "work_count": 24
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 29,
+        "work_count": 26
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 16,
+        "work_count": 9
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 9,
+        "work_count": 5
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 6,
+        "work_count": 5
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 5,
+        "work_count": 4
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 5,
+        "work_count": 4
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "bulb",
+        "label": "Bulb",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "preparations": [
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 29,
+        "work_count": 11
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 19,
+        "work_count": 9
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 13,
+        "work_count": 4
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 12,
+        "work_count": 3
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 9,
+        "work_count": 5
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 7,
+        "work_count": 3
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 5,
+        "work_count": 4
+      },
+      {
+        "id": "cordial",
+        "label": "Cordial",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 4,
+        "work_count": 3
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 12,
+        "work_count": 4
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 5,
+        "work_count": 1
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 4,
+        "work_count": 3
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 4,
+        "work_count": 3
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "cholera",
+        "label": "Cholera",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "wellcome-agdnfevh",
+      "title": "A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.",
+      "creator": "",
+      "publication_year": "1821",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/agdnfevh",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-takhmyez",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+      "creator": "",
+      "publication_year": "1747",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/takhmyez",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-n9cbm5vq",
+      "title": "The universal herbal; or, botanical, medical, and agricultural dictionary. Containing an account of all the known plants in the world, arranged according to the Linnean system ... With the best methods of propagation, and the most recent agricultural improvements / By Thomas Green.",
+      "creator": "",
+      "publication_year": "1824",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;botany",
+      "source_url": "https://wellcomecollection.org/works/n9cbm5vq",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-fwzua59q",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/fwzua59q",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    },
+    {
+      "work_id": "wellcome-ctkumbc4",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+      "creator": "",
+      "publication_year": "1820",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    },
+    {
+      "work_id": "wellcome-c37ryv7c",
+      "title": "Adam in Eden, or nature's paradise. The history of plants, fruits, herbs, and flowers. With their several names, whether Greek, Latin or English ... as also their several signatures, anatomical appropriations, and particular physical vertues ... / By William Coles, herbarist.",
+      "creator": "",
+      "publication_year": "1657",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;botany",
+      "source_url": "https://wellcomecollection.org/works/c37ryv7c",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    },
+    {
+      "work_id": "pg-21414",
+      "title": "Culinary Herbs: Their Cultivation Harvesting Curing and Uses",
+      "creator": "Kains, M. G. (Maurice Grenville), 1868-1946",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "herbal;culinary-herbs;cultivation",
+      "source_url": "https://www.gutenberg.org/ebooks/21414",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    },
+    {
+      "work_id": "wellcome-cesbv5bm",
+      "title": "Culpeper's Complete English physician enlarged and improved, or, An universal medical herbal, and botanical and astrological practice of physic ... : in three parts ... / By Nicholas Culpeper ; with valuable additions and improvements, by Geo. Alex. Gordon.",
+      "creator": "",
+      "publication_year": "1802",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;botany",
+      "source_url": "https://wellcomecollection.org/works/cesbv5bm",
+      "signal_chunk_count": 1,
+      "matched_mention_count": 1
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-k6eqs6f9-chunk-0588",
+        "work_id": "wellcome-k6eqs6f9",
+        "title": "Culpeper's English family physician : or medical herbal enlarged, with several hundred additional plants principally from Sir John Hill medicinally and astrologically arranged, after the manner of Culpeper : and, a new dispensatory from the ms. of the late Dr. Saunders / by Joshua Hamilton.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/k6eqs6f9",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Tops"
+        ],
+        "preparations": [
+          "Tea",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "—It grows in gardens, but is found wild in many places near houfes, and upon walls. Time. —It flowers in June. Government and Virtues. —It is an herb of Jupiter, and un- der Leo. The leaves are accounted cordial, good...",
+        "score": 34
+      },
+      {
+        "chunk_id": "wellcome-agdnfevh-chunk-1185",
+        "work_id": "wellcome-agdnfevh",
+        "title": "A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/agdnfevh",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bulb"
+        ],
+        "preparations": [
+          "Juice",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Colic"
+        ],
+        "excerpt": "Hound's tongue. Red archangel. Mouse ear. Flix weed. Lime-tree seeds. Cholera morlus. Whortle berries. Colic. Holly berries. Holly leaves. Chervil. Camomile. Carrot seed. Heath flowers. Drop wort. Cranes bill. Burnet...",
+        "score": 32
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-6855",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "(CaDer DE GassicourrT) Sainte-Marie prescribes from half a dram to one dram of ipecacuanha, two drams of orange-peel, two drams of super- tartrate, twelve ounces of water, to be re- duced to eight, and two ounces of o...",
+        "score": 32
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0456",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Juice"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [],
+        "excerpt": "Medicinally it may be given in doses of gr. 4- to gr. iv in haemorrhages: exteriorly it is employed as a styptic. Extract of Anemone. Boil down the fresh juice of the Anemone jiratensis, and evaporate to a proper cons...",
+        "score": 31
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-3374",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Bath",
+          "Juice"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Petals of Red Roses, Senna, half an ounce. two ounces. Anise Seeds, two drams. Boiling Water, one pound and a half. Depurated Juice of Borage, half a pound. Infuse in a covered vessel placed in a water-bath, for twelv...",
+        "score": 30
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-k6eqs6f9-chunk-0588",
+        "work_id": "wellcome-k6eqs6f9",
+        "title": "Culpeper's English family physician : or medical herbal enlarged, with several hundred additional plants principally from Sir John Hill medicinally and astrologically arranged, after the manner of Culpeper : and, a new dispensatory from the ms. of the late Dr. Saunders / by Joshua Hamilton.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/k6eqs6f9",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Tops"
+        ],
+        "preparations": [
+          "Tea",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "—It grows in gardens, but is found wild in many places near houfes, and upon walls. Time. —It flowers in June. Government and Virtues. —It is an herb of Jupiter, and un- der Leo. The leaves are accounted cordial, good...",
+        "score": 34
+      },
+      {
+        "chunk_id": "wellcome-agdnfevh-chunk-1185",
+        "work_id": "wellcome-agdnfevh",
+        "title": "A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/agdnfevh",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bulb"
+        ],
+        "preparations": [
+          "Juice",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Colic"
+        ],
+        "excerpt": "Hound's tongue. Red archangel. Mouse ear. Flix weed. Lime-tree seeds. Cholera morlus. Whortle berries. Colic. Holly berries. Holly leaves. Chervil. Camomile. Carrot seed. Heath flowers. Drop wort. Cranes bill. Burnet...",
+        "score": 32
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-6855",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "(CaDer DE GassicourrT) Sainte-Marie prescribes from half a dram to one dram of ipecacuanha, two drams of orange-peel, two drams of super- tartrate, twelve ounces of water, to be re- duced to eight, and two ounces of o...",
+        "score": 32
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0456",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Juice"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [],
+        "excerpt": "Medicinally it may be given in doses of gr. 4- to gr. iv in haemorrhages: exteriorly it is employed as a styptic. Extract of Anemone. Boil down the fresh juice of the Anemone jiratensis, and evaporate to a proper cons...",
+        "score": 31
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-3374",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Bath",
+          "Juice"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Petals of Red Roses, Senna, half an ounce. two ounces. Anise Seeds, two drams. Boiling Water, one pound and a half. Depurated Juice of Borage, half a pound. Infuse in a covered vessel placed in a water-bath, for twelv...",
+        "score": 30
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-k6eqs6f9-chunk-0588",
+        "work_id": "wellcome-k6eqs6f9",
+        "title": "Culpeper's English family physician : or medical herbal enlarged, with several hundred additional plants principally from Sir John Hill medicinally and astrologically arranged, after the manner of Culpeper : and, a new dispensatory from the ms. of the late Dr. Saunders / by Joshua Hamilton.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/k6eqs6f9",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Tops"
+        ],
+        "preparations": [
+          "Tea",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "—It grows in gardens, but is found wild in many places near houfes, and upon walls. Time. —It flowers in June. Government and Virtues. —It is an herb of Jupiter, and un- der Leo. The leaves are accounted cordial, good...",
+        "score": 34
+      },
+      {
+        "chunk_id": "wellcome-agdnfevh-chunk-1185",
+        "work_id": "wellcome-agdnfevh",
+        "title": "A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/agdnfevh",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bulb"
+        ],
+        "preparations": [
+          "Juice",
+          "Cordial"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cholera",
+          "Colic"
+        ],
+        "excerpt": "Hound's tongue. Red archangel. Mouse ear. Flix weed. Lime-tree seeds. Cholera morlus. Whortle berries. Colic. Holly berries. Holly leaves. Chervil. Camomile. Carrot seed. Heath flowers. Drop wort. Cranes bill. Burnet...",
+        "score": 32
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-6855",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "(CaDer DE GassicourrT) Sainte-Marie prescribes from half a dram to one dram of ipecacuanha, two drams of orange-peel, two drams of super- tartrate, twelve ounces of water, to be re- duced to eight, and two ounces of o...",
+        "score": 32
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-7405",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Bath",
+          "Juice"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "Root of Asparagus, f — Liquorice, ok Raisins, Fes Leavesof PellitoryoftheWall, | , #0 Mann: rams. Make a syrup. Then of each, R. Juice of Borage, ———— Bugloss, Bruised Wood-lice, one ounce and a half. Mix, filter, and...",
+        "score": 26
+      },
+      {
+        "chunk_id": "wellcome-cesbv5bm-chunk-0234",
+        "work_id": "wellcome-cesbv5bm",
+        "title": "Culpeper's Complete English physician enlarged and improved, or, An universal medical herbal, and botanical and astrological practice of physic ... : in three parts ... / By Nicholas Culpeper ; with valuable additions and improvements, by Geo. Alex. Gordon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cesbv5bm",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Tea"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation"
+        ],
+        "excerpt": "A) conferve of the flowers, with. the flowers of buglofs, is good in white wine to bring down the menfes. Some make a fyrup of the flowers, which is very good for coughs, fhort breaths, or to fweeten herb-teas, for fe...",
+        "score": 23
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-6855",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Tea"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "(CaDer DE GassicourrT) Sainte-Marie prescribes from half a dram to one dram of ipecacuanha, two drams of orange-peel, two drams of super- tartrate, twelve ounces of water, to be re- duced to eight, and two ounces of o...",
+        "score": 32
+      },
+      {
+        "chunk_id": "wellcome-fwzua59q-chunk-0456",
+        "work_id": "wellcome-fwzua59q",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fwzua59q",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Juice"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [],
+        "excerpt": "Medicinally it may be given in doses of gr. 4- to gr. iv in haemorrhages: exteriorly it is employed as a styptic. Extract of Anemone. Boil down the fresh juice of the Anemone jiratensis, and evaporate to a proper cons...",
+        "score": 31
+      },
+      {
+        "chunk_id": "wellcome-ujbsp48n-chunk-3374",
+        "work_id": "wellcome-ujbsp48n",
+        "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Extract",
+          "Bath",
+          "Juice"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Petals of Red Roses, Senna, half an ounce. two ounces. Anise Seeds, two drams. Boiling Water, one pound and a half. Depurated Juice of Borage, half a pound. Infuse in a covered vessel placed in a water-bath, for twelv...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0355",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Juice"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [],
+        "excerpt": "iv in hemor- rhages ; exteriorly as a styptic. Extract of Anemone. Boil down the fresh juice of the Anemone pratensis, and evaporate to a proper consistence. It is acrid and stimulant. Extract of Black Pepper. Extract...",
+        "score": 27
+      },
+      {
+        "chunk_id": "wellcome-fevberfq-chunk-12907",
+        "work_id": "wellcome-fevberfq",
+        "title": "The universal herbal, or botanical, medical and agricultural dictionary : containing an account of all known plants in the world, arranged according to the Linnean system. Specifying the uses to which they are or may be applied.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fevberfq",
+        "matched_herbs": [
+          "Borage"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [],
+        "excerpt": "a laxative, it may be of advantage to join with it manna or purgatives of a sweet kind, by which its use is rendered safer and more effectual. Three drachms of the pulp are usually sufficient to open the body; but to...",
+        "score": 26
+      }
+    ]
+  },
+  "retrieval_text": "Borage is a culinary medicinal plant profile in the Herbalisti historical corpus. It is represented across 32 works and 63 source-linked chunks. Recorded variants include Borage. Common plant-part co-mentions include Leaf, Flower, Root, Seed, Berry, Bark. Common preparation co-mentions include Syrup, Juice, Extract, Infusion, Decoction, Bath. Common condition co-mentions include Cold or catarrh, Cough, Fever, Inflammation, Cholera, Colic. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Toxicity watch, Bleeding caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; A supplement to the pharmacopoeia : being a treatise on pharmacology in general; including not only the drugs and compounds which are used by practitioners of medicine, but also those which are sold by chemists, druggists, and herbalists, for other purposes; together with a collection of the most useful medical formulæ ; an explanation of the contractions used by physicians and druggists; the medical arrangement of the articles of the London pharmacopeia, with their doses, at one view; a similar list of the indigenous plants of the British islands, which are capable of being used in medicine, &c. ; and also a very copious index, English and Latin, of the various names by which the articles have been known at different periods. / by Samuel Frederick Gray.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.679Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-vnh5zekf",
+  "title": "The compleat herbal: or, the botanical institutions of Mr. Tournefort ... / translated from the original Latin [by J. Martyn] With large additions from Ray, Gerarde, Parkinson, and others ... With a short account of the life and writings of the author.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/vnh5zekf",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30527399",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/vnh5zekf",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 8660,
+  "paragraphCount": 9093,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-vnh5zekf\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-vnh5zekf\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-vnh5zekf\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-vnh5zekf.jsonl",
+  "rawSha256": "6de341b433cbe96d4140dd368b76085047e5c214fc0565d472b072475d0aa1dd",
+  "normalizedSha256": "cf1f90afa446bbd753b7dc218c544dfb49b8b31f628bdc7e40bc46202a5652b9",
+  "processedAt": "2026-06-16T23:53:13.064Z"
+}

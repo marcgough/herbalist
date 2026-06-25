@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-wghdhhgb",
+  "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/wghdhhgb",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21307945",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/wghdhhgb",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;botany",
+  "chunkCount": 9478,
+  "paragraphCount": 9551,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-wghdhhgb\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-wghdhhgb\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-wghdhhgb\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-wghdhhgb.jsonl",
+  "rawSha256": "3451be24d751b15f61da9c8e0b8c482d0af9a37b26dd1cafe00c43337de255da",
+  "normalizedSha256": "c02bbe9ff0fb54e5eaaf1b8ecd40913bc9c7488549daf32a703168d99b12c0fd",
+  "processedAt": "2026-06-16T23:08:41.871Z"
+}

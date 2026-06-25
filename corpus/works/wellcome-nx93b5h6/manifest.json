@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-nx93b5h6",
+  "title": "A brief treatise on the prevention and cure of diseases, as well surgical as physical; by an entirely new method of promoting and assisting, by simple means, the efforts of nature in the performance of the various functions essential to health, without using any preparation to be found in the present Pharmacopoeia / [H. Salemi].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/nx93b5h6",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30357718",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/nx93b5h6",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;pharmacopoeia",
+  "chunkCount": 109,
+  "paragraphCount": 119,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-nx93b5h6\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-nx93b5h6\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-nx93b5h6\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-nx93b5h6.jsonl",
+  "rawSha256": "8775f9ba23b4733fa276cd74b246e04d84b368f7a545fafd6edf2c975ca8d4d4",
+  "normalizedSha256": "f50caf480e8eef582c28cad62c2b706b00baeade5580bba9d0687b099caadfc5",
+  "processedAt": "2026-06-16T23:54:07.137Z"
+}

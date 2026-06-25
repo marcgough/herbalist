@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-xn88ddz7",
+  "title": "The medical assistant : a large and valuable family work, containing in plain and simple language the nature and treatment of diseases : much of which has been taken from the most approved family works now in use, while the treatises on the diseases peculiar to this climate have been prepared expressly for this work : it also contains a materia medica, a dispensatory, nurse's guide and diet for sick : a glossary is attached to explain the medical terms used in the book / by D.G.M. Horr.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/xn88ddz7",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21130164",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/xn88ddz7",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 2314,
+  "paragraphCount": 2349,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-xn88ddz7\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-xn88ddz7\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-xn88ddz7\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-xn88ddz7.jsonl",
+  "rawSha256": "226cea91dfdb82f17d55842a80ef4f0f09a17cb9f9d5d9fe6ec30f9336118c5f",
+  "normalizedSha256": "1fae5008277f4797b713b98e22803c07f8b2b2d226dbfcf09e37309c711ac8d8",
+  "processedAt": "2026-06-16T23:09:11.758Z"
+}

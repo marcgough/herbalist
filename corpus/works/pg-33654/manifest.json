@@ -1,0 +1,20 @@
+{
+  "workId": "pg-33654",
+  "title": "The Old English Herbals",
+  "creator": "Rohde, Eleanour Sinclair",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/33654",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/33654/pg33654.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/33654.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 452,
+  "paragraphCount": 2163,
+  "sectionCount": 46,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-33654\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-33654\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-33654.jsonl",
+  "rawSha256": "09ab9e16ff49da5bdd0ef9255489f9021d30f886b07f70aa75018b9c25e15dc1",
+  "normalizedSha256": "88d0ca93488cd3c184b5cf749a1473cbdd5185d309995353f2f818dcdc5404fa",
+  "processedAt": "2026-06-16T13:39:05.348Z"
+}

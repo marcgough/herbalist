@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2548018R",
+  "title": "Pharmacopoeia Londinensis, or, the London dispensatory : further adorned by the studies and collections of the fellows now living, of the said college",
+  "creator": "Culpeper, Nicholas, 1616-1654.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2548018R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2548018R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2548018R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 1180,
+  "paragraphCount": 1410,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2548018R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2548018R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2548018R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2548018R.jsonl",
+  "rawSha256": "7619222bd80c4d249cf1ca31fe3975c77f43405e2bec1b103abb5e48a96eb4c1",
+  "normalizedSha256": "ce15c9d1efd05a0813b255caeb1ff2bd53d2bf7d9ffc58e06788b4f24d65c9be",
+  "processedAt": "2026-06-17T13:56:30.020Z"
+}

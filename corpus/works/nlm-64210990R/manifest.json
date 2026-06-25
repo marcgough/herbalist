@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64210990R",
+  "title": "The vegetable family physician : containing a description of the roots and herbs common to this country, with their medicinal properties and uses : also, directions for the treatment of the diseases incident to human nature by vegetables alone, embracing many valuable Indian recipes",
+  "creator": "Emmons, Samuel B. (Samuel Bulfinch)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210990R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64210990R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64210990R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 272,
+  "paragraphCount": 458,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210990R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210990R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64210990R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64210990R.jsonl",
+  "rawSha256": "d9f7f6a8ff7b50af242f26d9a7973285bc76abd9aa8f004152575bdc3cb82709",
+  "normalizedSha256": "83079f676ae9a9fef8f600721625a71aee0d74035a7bede927643892bef97325",
+  "processedAt": "2026-06-16T23:06:43.531Z"
+}

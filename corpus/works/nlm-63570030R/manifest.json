@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63570030R",
+  "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+  "creator": "Daily, William.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63570030R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63570030R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 464,
+  "paragraphCount": 800,
+  "sectionCount": 23,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570030R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570030R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63570030R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63570030R.jsonl",
+  "rawSha256": "7141de17405b02e5b2e3c3052ee3f3c771fc7860eef2a928b8b97ce33ebc4ee9",
+  "normalizedSha256": "23bca3823d21a9c75841be76a549a971dfae9ea2b7acc769d6c9b31a297aaa8e",
+  "processedAt": "2026-06-20T01:22:47.800Z"
+}

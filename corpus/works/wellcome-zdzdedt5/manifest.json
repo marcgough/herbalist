@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-zdzdedt5",
+  "title": "The English physician enlarged. With three hundred and sixty-nine medicines made of English herbs, not in any former impression of Culpeper's British herbal ... Crosby's improved edition ... To which is added the Family physician, and a present for the ladies, containing the best remedies ... / By Dr. Parkins.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/zdzdedt5",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b29339625",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/zdzdedt5",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1055,
+  "paragraphCount": 1117,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-zdzdedt5\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-zdzdedt5\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-zdzdedt5.jsonl",
+  "rawSha256": "9965970bd8ded7e002c812c1f3ea6325f954f363df74cd779d9be9a8eba87689",
+  "normalizedSha256": "dd3fa8c5e5d51420d4fc0740079138120a6848711a65e3e0db22fc72751699a0",
+  "processedAt": "2026-06-16T13:47:04.128Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

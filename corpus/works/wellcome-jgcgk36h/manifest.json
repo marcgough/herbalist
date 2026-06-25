@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-jgcgk36h",
+  "title": "The medical companion : treating, according to the most successful practice, I. The diseases common to warm climates and on ship board. II. Common cases in surgery, as fractures, dislocations, &c. III. The complaints peculiar to women and children.  With a dispensatory and glossary.  To which are added, a brief anatomy of the human body; an essay on hygeine [sic] or the art of preserving health and prolonging life; an American materia medica, instructing country gentlemen in the very important knowledge of the virtues and doses of our medicinal plants; also, a concise and impartial history of the capture of Washington, and the diseases which sprung from that most deplorable disaster.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/jgcgk36h",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21118516",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/jgcgk36h",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;medicinal-plants;hygiene",
+  "chunkCount": 1639,
+  "paragraphCount": 1678,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-jgcgk36h\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-jgcgk36h\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-jgcgk36h\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-jgcgk36h.jsonl",
+  "rawSha256": "ae539e782773cbf2153d15d79d1f297ef41d5adb20ca049817679005b2c4d155",
+  "normalizedSha256": "8e4a55b67718da68fd1902135ecc57e0c5f2ffe515abd2755acdb1fc21d449a0",
+  "processedAt": "2026-06-16T23:29:11.808Z"
+}

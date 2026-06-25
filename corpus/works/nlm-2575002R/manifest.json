@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2575002R",
+  "title": "A vindication of the Thomsonian system of the practice of medicine on botanical principles : as originated by Samuel Thomson, and continued by his coadjutors",
+  "creator": "Thomson, John, Dr.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2575002R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2575002R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2575002R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 51,
+  "paragraphCount": 71,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2575002R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2575002R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2575002R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2575002R.jsonl",
+  "rawSha256": "272cbcee3b700e2cbd504203c6fe8e57cc8f2248a1aa6490b868331882cd8970",
+  "normalizedSha256": "8f4d862c97f97d4f1cafc97b694ce9493221da866024e766c6c66f236104d002",
+  "processedAt": "2026-06-18T09:29:15.191Z"
+}

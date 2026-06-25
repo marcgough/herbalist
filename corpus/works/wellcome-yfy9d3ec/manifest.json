@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-yfy9d3ec",
+  "title": "The new domestic medicine. Or, a treatise on the prevention and cure of diseases, by regimen and simple medicines : With an appendix containing a dispensatory for the use of private practitioners / by William Buchan ... ; To which is now first added, memoirs of the life of Dr. Buchan: and important extracts from other works, praticularly his 'Advice to mothers' ... by William Nisbet. Including also new treatises on sea-bathing, etc.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/yfy9d3ec",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b22040870",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/yfy9d3ec",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1817,
+  "paragraphCount": 1824,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-yfy9d3ec\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-yfy9d3ec\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-yfy9d3ec\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-yfy9d3ec.jsonl",
+  "rawSha256": "af4c312e300d16007cdad1a737ca519d6eeee4e1e79d731100382fab3f9b0b6f",
+  "normalizedSha256": "9df0843b446d1281edd84d861806a4fdefeed32180d5f0330cda4de5765adad5",
+  "processedAt": "2026-06-16T13:59:47.085Z"
+}

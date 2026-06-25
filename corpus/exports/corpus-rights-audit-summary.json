@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-24T04:15:56.273Z",
+  "status": "pass",
+  "safeToRun": "Reads local corpus registry, manifests, chunk files, normalized text, and public data exports only. It does not fetch, scrape, deploy, mutate DNS, call paid APIs, or print secrets.",
+  "inclusionStandard": {
+    "fullText": "Only rights-cleared public-domain or permissively licensed book-like works from approved no-key public archive lanes can be chunked into the corpus.",
+    "approvedCollections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "approvedRightsStatuses": [
+      "cc-by",
+      "cc-by-sa",
+      "cc0",
+      "pdm",
+      "public_domain_mark",
+      "public_domain_us",
+      "public_domain_usa"
+    ],
+    "approvedJurisdictionLanes": [
+      "Australia",
+      "UK",
+      "US"
+    ],
+    "approvedAcquisitionModes": [
+      "api_plus_iiif",
+      "api_plus_iiif_pdf_ocr",
+      "direct_download",
+      "official_search_plus_browser_ocr"
+    ]
+  },
+  "counts": {
+    "totalWorks": 2720,
+    "chunkedWorks": 1328,
+    "discoveredWorks": 1384,
+    "downloadFailedWorks": 8,
+    "totalManifestChunks": 1746349,
+    "totalManifestParagraphs": 1968510,
+    "publicReferenceRecords": 1328,
+    "herbalCommonsRecords": 124,
+    "herbalCommonsSources": 200
+  },
+  "byCollection": {
+    "nlm-digital-collections": 696,
+    "project-gutenberg": 27,
+    "wellcome-collection": 1997
+  },
+  "byRightsStatus": {
+    "public_domain_mark": 696,
+    "public_domain_us": 27,
+    "pdm": 1985,
+    "cc-by": 12
+  },
+  "byJurisdictionLane": {
+    "US": 723,
+    "UK": 1997
+  },
+  "failures": [],
+  "chunkArtifactFailures": [],
+  "referenceExportFailures": [],
+  "herbalSourceFailures": []
+}

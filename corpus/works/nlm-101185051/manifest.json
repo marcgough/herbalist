@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101185051",
+  "title": "The principles of hydropathy, or the invalid's guide to health and happiness : being a plain familiar exposition of the principles of the water-cure system",
+  "creator": "Harsha, David A.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101185051-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101185051-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101185051",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 88,
+  "paragraphCount": 107,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101185051\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101185051\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101185051\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101185051.jsonl",
+  "rawSha256": "0fe6ee9ee6cc0250525fe5a31a981c264f3785629e5d8a40585f7169e1cd66b6",
+  "normalizedSha256": "ee13ea5237e310153944137e8921174c28b17ba644204d5e4522a2c8a4708ced",
+  "processedAt": "2026-06-17T13:32:42.265Z"
+}

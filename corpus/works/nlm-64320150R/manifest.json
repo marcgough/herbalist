@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64320150R",
+  "title": "New homoeopathic pharmacopoeia and posology : or the preparation of homoeopathic medicines and the administration of doses",
+  "creator": "Jahr, G. H. G. (Gottlieb Heinrich Georg), 1800-1875.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64320150R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64320150R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64320150R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 843,
+  "paragraphCount": 1397,
+  "sectionCount": 9,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64320150R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64320150R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64320150R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64320150R.jsonl",
+  "rawSha256": "29340ceb5d68481a5389e65f5d98dee0d9dc77c9068d0f19b25f5f6b44d8eece",
+  "normalizedSha256": "2ee1a88983a22245a0fc6aee05f0819f830eb8b176f948d2fbbc35ab37944b26",
+  "processedAt": "2026-06-18T03:55:44.165Z"
+}

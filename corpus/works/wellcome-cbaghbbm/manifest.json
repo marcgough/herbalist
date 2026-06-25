@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-cbaghbbm",
+  "title": "Outlines of medical botany, comprising vegetable anatomy and physiology, the characters and properties of the natural orders of plants, an explanation of the Linnaean system of classification, and tables of medicinal plants. Arranged in their Linnaean and natural orders / [Hugo Reid].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/cbaghbbm",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b33093933",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/cbaghbbm",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;medicinal-plants;medical-botany;botany",
+  "chunkCount": 652,
+  "paragraphCount": 674,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-cbaghbbm\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-cbaghbbm\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-cbaghbbm\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-cbaghbbm.jsonl",
+  "rawSha256": "0352129671d69f67edcae61316e797ae327b77ed14d34cd0319880da571371bf",
+  "normalizedSha256": "92cf1f07457f5a7c30d93ba42a632e2756b7ab800c6c178a6f0b8f93d3a53688",
+  "processedAt": "2026-06-16T22:47:58.740Z"
+}

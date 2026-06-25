@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-8004287",
+  "title": "The household guide, or, Domestic cyclopedia : a practical family physician, home remedies and home treatment on all diseases, an instructor on nursing, housekeeping, and home adornments",
+  "creator": "Jefferis, B. G. (Benjamin Grant), 1851-",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8004287-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-8004287-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/8004287",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;nursing;household-health",
+  "chunkCount": 1070,
+  "paragraphCount": 1740,
+  "sectionCount": 11,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-8004287\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-8004287\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-8004287\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-8004287.jsonl",
+  "rawSha256": "bab5efbb9f0d227d9612b9bd9922381885e7a71199f998fa25e5a4ffb0a197a4",
+  "normalizedSha256": "648c48ec6166de65439248d3f9e72baee997ce55a218ca13def89d50892bfee9",
+  "processedAt": "2026-06-17T12:28:42.946Z"
+}

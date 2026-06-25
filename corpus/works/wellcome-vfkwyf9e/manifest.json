@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-vfkwyf9e",
+  "title": "Materia medica e regno vegetabili, sistens simplicia officinalia, pariter atque culinaria. Secundum systema sexuale, ex autopsia & experientia, fideliter digessit ... / Petrus Jonas Bergius.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/vfkwyf9e",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b28773950",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/vfkwyf9e",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 1669,
+  "paragraphCount": 1674,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-vfkwyf9e\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-vfkwyf9e\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-vfkwyf9e\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-vfkwyf9e.jsonl",
+  "rawSha256": "64586db9274e3a9d202f6062d4098c6d79bc2e8e5828d072512a3b297dc47598",
+  "normalizedSha256": "40faa7f04772505868b1db92fb06fc8ad273bb266e5fa72f4b381d15286208a5",
+  "processedAt": "2026-06-16T23:09:46.128Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101554865",
+  "title": "The eclectic family physician : a scientific system of medicine on vegetable principles : designed for families",
+  "creator": "Dyer, D.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101554865-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101554865-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101554865",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 286,
+  "paragraphCount": 439,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101554865\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101554865\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101554865\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101554865.jsonl",
+  "rawSha256": "9635248e0e6f7f3a3fc15ceb718e5a77ddd811408f6b3e51e0877b74daaecb9b",
+  "normalizedSha256": "f29b599b431bda88bff6e1caffe8848225b29ff74a373502681041b872327c20",
+  "processedAt": "2026-06-18T01:37:01.494Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2561025R",
+  "title": "The Edinburgh new dispensatory ... : with the additions of the most approved formulae, from the best foreign pharmacopoeias ; the whole interspersed with practical cautions and observations ; and enriched with the latest discoveries in natural history, chemistry, and medicine ; with new tables of elective attractions of antimonial and mercurial preparations, &c. ; and several copperplates of the most convenient furnaces, and principal pharmaceutical instruments ; being an improvement of the New dispensatory by Dr. Lewis",
+  "creator": "Lewis, William, 1708-1781.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2561025R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2561025R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2561025R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 1899,
+  "paragraphCount": 3903,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2561025R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2561025R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2561025R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2561025R.jsonl",
+  "rawSha256": "26fd9ca0dcf123dfa8b5d7d625ab42969d6427bb1633161aa86d3e258fb2bc32",
+  "normalizedSha256": "f468b173d16f43c0cf15afff037102abfc1c9e1efcf51dae6b6ab131722f02cc",
+  "processedAt": "2026-06-17T11:30:48.100Z"
+}

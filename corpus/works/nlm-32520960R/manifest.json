@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-32520960R",
+  "title": "Gunn's domestic medicine , or, Poor man's friend : describing, in plain language, the diseases of men, women, and children, and the latest and most approved means used in their cure, designed especially for the use of families : it also contains descriptions of the medical roots and herbs of the United States, and how they are to be used in the cure of diseases : arranged on a new and simple plan, by which the practice of medicine is reduced to principles of common sense",
+  "creator": "Gunn, John C.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520960R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-32520960R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/32520960R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1663,
+  "paragraphCount": 1790,
+  "sectionCount": 13,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-32520960R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-32520960R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-32520960R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-32520960R.jsonl",
+  "rawSha256": "e60cbaa3d8f7908bd69e7fbc336d8d97b1902c8c2d458bcc4c0ded91c7072d70",
+  "normalizedSha256": "fc159bf69c1a2b7865fa8ccebe7b06a63c167733eae285391c84c92cb7a33297",
+  "processedAt": "2026-06-16T23:49:57.981Z"
+}

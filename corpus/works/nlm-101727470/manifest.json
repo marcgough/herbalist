@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101727470",
+  "title": "Pharmacopoeia of St. Luke's Hospital, New York",
+  "creator": "St. Luke's Hospital (New York, N.Y.) author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101727470-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101727470-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101727470",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 8,
+  "paragraphCount": 8,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101727470\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101727470\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101727470\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101727470.jsonl",
+  "rawSha256": "a7151413b1953ffe092d53fb3cf853057ac1d2388ea35976eded0e8163ecd518",
+  "normalizedSha256": "098af41538455e8768d3c137b134ae1ee37b6364b31e34d0179e109b0b2d4c93",
+  "processedAt": "2026-06-18T04:50:26.392Z"
+}

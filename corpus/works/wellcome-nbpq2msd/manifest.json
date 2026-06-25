@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-nbpq2msd",
+  "title": "A niewe herball or historie of plantes: wherein is contayned the whole discourse and perfect description of all sortes of herbes and plantes: their diuers & sundry kindes: their straunge figures, fashions, and shapes: their names, natures, operations, and vertues: and that not onely of those which are here growing in this our countrie of Englande, but of all others also of forrayne realmes, commonly vsed in Physicke / First set foorth in the Doutche or Almaigne tongue, by that learned D. Rembert Dodoens ... and nowe first translated out of French into English by Henry Lyte.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/nbpq2msd",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30334779",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/nbpq2msd",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 2165,
+  "paragraphCount": 2210,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-nbpq2msd\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-nbpq2msd\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-nbpq2msd\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-nbpq2msd.jsonl",
+  "rawSha256": "d249d60292b465ce8afeec71774fbbddd91dbf368717d71024705b07fb1cddf8",
+  "normalizedSha256": "146b8ab2d36619f868453324aff34ebf15343d1c1cdd130be98b07f85f8baac0",
+  "processedAt": "2026-06-16T23:52:36.915Z"
+}

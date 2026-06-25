@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-07410880R",
+  "title": "The new hygiene : for schools of nursing, normal schools, and colleges",
+  "creator": "Hill, Hibbert Winslow, 1871-1947.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-07410880R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-07410880R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/07410880R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;nursing",
+  "chunkCount": 785,
+  "paragraphCount": 799,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-07410880R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-07410880R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-07410880R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-07410880R.jsonl",
+  "rawSha256": "c4e491686b08d165b2674c84bb3711d75b5b8377498e19adfcead89ce521510f",
+  "normalizedSha256": "8fb6cb2549458048d997056a397de13b0635506943ef36140aca4a2090efd373",
+  "processedAt": "2026-06-18T05:50:31.027Z"
+}

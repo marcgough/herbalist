@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-hcvynkbk",
+  "title": "The Ladies new dispensatory, and family physician.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/hcvynkbk",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30788717",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/hcvynkbk",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 106,
+  "paragraphCount": 108,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-hcvynkbk\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-hcvynkbk\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-hcvynkbk.jsonl",
+  "rawSha256": "38695608091bbc0e29aac4d73489c6420494ba1e3cecc8a67593eaa3f9293f84",
+  "normalizedSha256": "1ebb0104cd5c8adfa50d7dd98609db08d60d58d4a1dd7de24d828204ac53eed4",
+  "processedAt": "2026-06-16T13:46:51.784Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

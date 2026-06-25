@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-0220420",
+  "title": "Domestic medicine : or, A valuable treatise on the prevention and cure of diseases by regimen and simple medicines : with an appendix, containing a new dispensatory : for the use of private practitioners : to which are added, observations on the diet of the common people : recommending a method of living less expensive, and more conducive to health, than the present",
+  "creator": "Buchan, William, 1729-1805.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0220420-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-0220420-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/0220420",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1794,
+  "paragraphCount": 2136,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0220420\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0220420\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-0220420\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-0220420.jsonl",
+  "rawSha256": "965c6994237980d7e79104887121df75e8012d6a837e6aeaef0f2404ed83fdcc",
+  "normalizedSha256": "959d68c3eb61e2c1b94c03b2d467dff096077e53e34d211d8655a16dd3bdb7c9",
+  "processedAt": "2026-06-16T22:58:11.252Z"
+}

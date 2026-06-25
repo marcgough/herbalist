@@ -1,0 +1,1077 @@
+{
+  "profile_id": "seed-fig",
+  "family_id": "seed-fig",
+  "canonical_name": "Fig",
+  "canonical_key": "fig",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-fig-8c39c63488#fig"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 236,
+    "total_chunks": 235,
+    "total_works": 143,
+    "matched_chunk_count": 235,
+    "matched_work_count": 143,
+    "matched_mention_total": 235
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Fig",
+      "Figs"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-3976",
+      "nlm-0217313-chunk-0775",
+      "nlm-0217313-chunk-0780"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 177
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 40
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 18
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 36,
+        "work_count": 29
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 33,
+        "work_count": 26
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 32,
+        "work_count": 25
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 8,
+        "work_count": 7
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "rhizome",
+        "label": "Rhizome",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "preparations": [
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 174,
+        "work_count": 95
+      },
+      {
+        "id": "gargle",
+        "label": "Gargle",
+        "signal_count": 78,
+        "work_count": 62
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 34,
+        "work_count": 28
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 29,
+        "work_count": 22
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 27,
+        "work_count": 26
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 21,
+        "work_count": 21
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 17,
+        "work_count": 15
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 10,
+        "work_count": 10
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 51,
+        "work_count": 50
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 29,
+        "work_count": 29
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 26,
+        "work_count": 26
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 72,
+        "work_count": 60
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 47,
+        "work_count": 42
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 35,
+        "work_count": 35
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 4,
+        "work_count": 3
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-kxejz6hv",
+      "title": "A medicinal dictionary; including physic, surgery, anatomy, chymistry, and botany, in all their branches relative to medicine. Together with a history of drugs ... and an introductory preface, tracing the progress of physic, and explaining the theories which have ... prevail'd in all ages / By R. James.",
+      "creator": "",
+      "publication_year": "1743",
+      "collection_id": "wellcome-collection",
+      "topic_family": "botany",
+      "source_url": "https://wellcomecollection.org/works/kxejz6hv",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-huy37jgb",
+      "title": "Buchan enlarged. Domestic medicine; or, The family physician, a treatise on the prevention and cure of diseases, by regimen and simple medicines: With an appendix containing a dispensatory. For the use of private practitioners. To which is added ... rules and regulations to be observed ... in the management of infants, etc / [William Buchan].",
+      "creator": "",
+      "publication_year": "1818",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/huy37jgb",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-1310561",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practitioners to which are added, observations on diet, recommending a method of living less expensive and more conductive to health than the present",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-1310561-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-8212770",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with an appendix, containing an dispensatory for the use of private practitioners : to which are added, observations on diet : recommending a method of living less expensive and more conducive to helath than the present",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8212770-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-2544050R",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544050R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-2544051R",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544051R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-8206720",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8206720-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-2544047R",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practitioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544047R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-2544053R",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practitioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544053R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-2544057R",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practitioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544057R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-41778-chunk-0445",
+        "work_id": "pg-41778",
+        "title": "Epitome of the Pharmacopeia of the United States and the National Formulary",
+        "collection_id": "project-gutenberg",
+        "section_heading": "INDEX",
+        "source_url": "https://www.gutenberg.org/ebooks/41778",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Liniment",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Compound acetanilid powder, 6 anise powder (Pulvis rhei et magnesiae anisatus), 184 cathartic elixir, 97 cathartic pills, 71 chalk powder, 76 chloral and bromide (Mistura chloralis et potassii bromidi composita), 61 c...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-0140313-chunk-3976",
+        "work_id": "nlm-0140313",
+        "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+        "matched_herbs": [
+          "Fig"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Poultice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dysentery",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Fig Poultice 783 Fire Weed 847 Fishberries 782 Fistula in Ano 232 Fits of Children 655 Fits, Epileptic 875 Hysteric 381 Ice Plant in 861 Five-finger 847 Flannel for Children 618 Flatulence, Caraway Seeds for 612 Flax-...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0221",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Poultice",
+          "Wash",
+          "Bath",
+          "Plaster"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Dropsy"
+        ],
+        "excerpt": "Rub with salt and onions when powdered together ; or a poultice of hot roasted onions kept on two or three days— change often ; or roasted turnip pearings, hot—change them twice a day ; or wash them with brake root te...",
+        "score": 36
+      },
+      {
+        "chunk_id": "wellcome-uqm6c9bg-chunk-0243",
+        "work_id": "wellcome-uqm6c9bg",
+        "title": "The famous book of herbal aids to health and fitness : remedies, preventives, restoratives, tonics, toilet accessories, etc.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/uqm6c9bg",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Wash",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "69 Smokers’ Toothpaste 65 Smoking Mixtures 15 Snuff (Herbal) 24 Soaps (Shaving) 70 Soaps (Toilet) 64 Solidified Cologne 32 %*Sphagnum Moss 53 * Spices (Culinary) 62 Sponges (Rubber) 64 Stomach and Liver Herbs and . Pi...",
+        "score": 35
+      },
+      {
+        "chunk_id": "wellcome-wjycte3p-chunk-0319",
+        "work_id": "wellcome-wjycte3p",
+        "title": "A practical synopsis of the materia alimentaria and materia medica / by Richard Pearson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/wjycte3p",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [],
+        "excerpt": "(formerly called Electuarium Leniti- vum) which consists of senna-leaves eight ounces, figs one pound, pulp of tamarinds, cassia, and French prunes, each half a pound, . coriander-seeds four ounces, liquorice root thr...",
+        "score": 30
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-41778-chunk-0445",
+        "work_id": "pg-41778",
+        "title": "Epitome of the Pharmacopeia of the United States and the National Formulary",
+        "collection_id": "project-gutenberg",
+        "section_heading": "INDEX",
+        "source_url": "https://www.gutenberg.org/ebooks/41778",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Liniment",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Compound acetanilid powder, 6 anise powder (Pulvis rhei et magnesiae anisatus), 184 cathartic elixir, 97 cathartic pills, 71 chalk powder, 76 chloral and bromide (Mistura chloralis et potassii bromidi composita), 61 c...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-0140313-chunk-3976",
+        "work_id": "nlm-0140313",
+        "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+        "matched_herbs": [
+          "Fig"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Poultice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dysentery",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Fig Poultice 783 Fire Weed 847 Fishberries 782 Fistula in Ano 232 Fits of Children 655 Fits, Epileptic 875 Hysteric 381 Ice Plant in 861 Five-finger 847 Flannel for Children 618 Flatulence, Caraway Seeds for 612 Flax-...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0221",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Poultice",
+          "Wash",
+          "Bath",
+          "Plaster"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Dropsy"
+        ],
+        "excerpt": "Rub with salt and onions when powdered together ; or a poultice of hot roasted onions kept on two or three days— change often ; or roasted turnip pearings, hot—change them twice a day ; or wash them with brake root te...",
+        "score": 36
+      },
+      {
+        "chunk_id": "wellcome-uqm6c9bg-chunk-0243",
+        "work_id": "wellcome-uqm6c9bg",
+        "title": "The famous book of herbal aids to health and fitness : remedies, preventives, restoratives, tonics, toilet accessories, etc.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/uqm6c9bg",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Wash",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "69 Smokers’ Toothpaste 65 Smoking Mixtures 15 Snuff (Herbal) 24 Soaps (Shaving) 70 Soaps (Toilet) 64 Solidified Cologne 32 %*Sphagnum Moss 53 * Spices (Culinary) 62 Sponges (Rubber) 64 Stomach and Liver Herbs and . Pi...",
+        "score": 35
+      },
+      {
+        "chunk_id": "wellcome-wjycte3p-chunk-0319",
+        "work_id": "wellcome-wjycte3p",
+        "title": "A practical synopsis of the materia alimentaria and materia medica / by Richard Pearson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/wjycte3p",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [],
+        "excerpt": "(formerly called Electuarium Leniti- vum) which consists of senna-leaves eight ounces, figs one pound, pulp of tamarinds, cassia, and French prunes, each half a pound, . coriander-seeds four ounces, liquorice root thr...",
+        "score": 30
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-0140313-chunk-3976",
+        "work_id": "nlm-0140313",
+        "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+        "matched_herbs": [
+          "Fig"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Poultice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dysentery",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Fig Poultice 783 Fire Weed 847 Fishberries 782 Fistula in Ano 232 Fits of Children 655 Fits, Epileptic 875 Hysteric 381 Ice Plant in 861 Five-finger 847 Flannel for Children 618 Flatulence, Caraway Seeds for 612 Flax-...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0221",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Poultice",
+          "Wash",
+          "Bath",
+          "Plaster"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cold or catarrh",
+          "Dropsy"
+        ],
+        "excerpt": "Rub with salt and onions when powdered together ; or a poultice of hot roasted onions kept on two or three days— change often ; or roasted turnip pearings, hot—change them twice a day ; or wash them with brake root te...",
+        "score": 36
+      },
+      {
+        "chunk_id": "wellcome-uqm6c9bg-chunk-0243",
+        "work_id": "wellcome-uqm6c9bg",
+        "title": "The famous book of herbal aids to health and fitness : remedies, preventives, restoratives, tonics, toilet accessories, etc.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/uqm6c9bg",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Wash",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "69 Smokers’ Toothpaste 65 Smoking Mixtures 15 Snuff (Herbal) 24 Soaps (Shaving) 70 Soaps (Toilet) 64 Solidified Cologne 32 %*Sphagnum Moss 53 * Spices (Culinary) 62 Sponges (Rubber) 64 Stomach and Liver Herbs and . Pi...",
+        "score": 35
+      },
+      {
+        "chunk_id": "wellcome-zgmykcw4-chunk-0488",
+        "work_id": "wellcome-zgmykcw4",
+        "title": "The British herbal and family physician to which is added a dispensatory for the use of private families / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zgmykcw4",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Gargle",
+          "Plaster"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation"
+        ],
+        "excerpt": "This may be done by giving the patient for his ordinary drink a decoction of figs and tamarinds, or small doses of rhubarb and nitre. Good effects are often produced from a bit of sal prune! , or purified nitre, held...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-wj2xxtdb-chunk-1497",
+        "work_id": "wellcome-wj2xxtdb",
+        "title": "The British herbal and family physician to which is added a dispensatory for the use of private families / By Nich. Culpepper.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/wj2xxtdb",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Gargle",
+          "Plaster"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation"
+        ],
+        "excerpt": "This may be done by giv- ing the patient for his ordinary drink a decoction of figs and tamarinds, or small doses of rhubarb and nitre. Good effects are often produced from a bit of sal prunel, or purified nitre, held...",
+        "score": 30
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-41778-chunk-0445",
+        "work_id": "pg-41778",
+        "title": "Epitome of the Pharmacopeia of the United States and the National Formulary",
+        "collection_id": "project-gutenberg",
+        "section_heading": "INDEX",
+        "source_url": "https://www.gutenberg.org/ebooks/41778",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Liniment",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Compound acetanilid powder, 6 anise powder (Pulvis rhei et magnesiae anisatus), 184 cathartic elixir, 97 cathartic pills, 71 chalk powder, 76 chloral and bromide (Mistura chloralis et potassii bromidi composita), 61 c...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-0140313-chunk-3976",
+        "work_id": "nlm-0140313",
+        "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+        "matched_herbs": [
+          "Fig"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Poultice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Dysentery",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Fig Poultice 783 Fire Weed 847 Fishberries 782 Fistula in Ano 232 Fits of Children 655 Fits, Epileptic 875 Hysteric 381 Ice Plant in 861 Five-finger 847 Flannel for Children 618 Flatulence, Caraway Seeds for 612 Flax-...",
+        "score": 38
+      },
+      {
+        "chunk_id": "wellcome-wjycte3p-chunk-0319",
+        "work_id": "wellcome-wjycte3p",
+        "title": "A practical synopsis of the materia alimentaria and materia medica / by Richard Pearson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/wjycte3p",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [],
+        "excerpt": "(formerly called Electuarium Leniti- vum) which consists of senna-leaves eight ounces, figs one pound, pulp of tamarinds, cassia, and French prunes, each half a pound, . coriander-seeds four ounces, liquorice root thr...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-zgmykcw4-chunk-0488",
+        "work_id": "wellcome-zgmykcw4",
+        "title": "The British herbal and family physician to which is added a dispensatory for the use of private families / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zgmykcw4",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Gargle",
+          "Plaster"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation"
+        ],
+        "excerpt": "This may be done by giving the patient for his ordinary drink a decoction of figs and tamarinds, or small doses of rhubarb and nitre. Good effects are often produced from a bit of sal prune! , or purified nitre, held...",
+        "score": 30
+      },
+      {
+        "chunk_id": "wellcome-wj2xxtdb-chunk-1497",
+        "work_id": "wellcome-wj2xxtdb",
+        "title": "The British herbal and family physician to which is added a dispensatory for the use of private families / By Nich. Culpepper.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/wj2xxtdb",
+        "matched_herbs": [
+          "Figs"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Decoction",
+          "Ointment",
+          "Gargle",
+          "Plaster"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation"
+        ],
+        "excerpt": "This may be done by giv- ing the patient for his ordinary drink a decoction of figs and tamarinds, or small doses of rhubarb and nitre. Good effects are often produced from a bit of sal prunel, or purified nitre, held...",
+        "score": 30
+      }
+    ]
+  },
+  "retrieval_text": "Fig is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 143 works and 235 source-linked chunks. Recorded variants include Fig, Figs. Common plant-part co-mentions include Root, Seed, Leaf, Gum, Bark, Flower. Common preparation co-mentions include Decoction, Gargle, Syrup, Powder, Liniment, Infusion. Common condition co-mentions include Inflammation, Fever, Wounds or ulcers, Cold or catarrh, Cough, Constipation. Caution co-mentions include Dose caution, Fatal-risk warning, Child-use caution, Bleeding caution, Narcotic or sedative caution, Pregnancy caution. Representative source works include A medicinal dictionary; including physic, surgery, anatomy, chymistry, and botany, in all their branches relative to medicine. Together with a history of drugs ... and an introductory preface, tracing the progress of physic, and explaining the theories which have ... prevail'd in all ages / By R. James.; Buchan enlarged. Domestic medicine; or, The family physician, a treatise on the prevention and cure of diseases, by regimen and simple medicines: With an appendix containing a dispensatory. For the use of private practitioners. To which is added ... rules and regulations to be observed ... in the management of infants, etc / [William Buchan].; Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practitioners to which are added, observations on diet, recommending a method of living less expensive and more conductive to health than the present; Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with an appendix, containing an dispensatory for the use of private practitioners : to which are added, observations on diet : recommending a method of living less expensive and more conducive to helath than the present. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.960Z",
+  "builder": "build-herb-profiles.mjs"
+}

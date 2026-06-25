@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-kpfk4gdg",
+  "title": "Lehrbuch der Pharmakognosie des Pflanzenreiches : Naturgeschichte der wichtigeren Arzneistoffe vegetabilischen Ursprunges / [Friedrich A. Flückiger].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/kpfk4gdg",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b28109144",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/kpfk4gdg",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 2616,
+  "paragraphCount": 2621,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-kpfk4gdg\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-kpfk4gdg\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-kpfk4gdg\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-kpfk4gdg.jsonl",
+  "rawSha256": "66217296d6d151cffc50d9ab3aac4c0626f06f227494a0309114f1c3e4b4e934",
+  "normalizedSha256": "52e8b14f066f23da6edb6e6ed8c33dadbe4fa0256408afbb64082cdab5a31559",
+  "processedAt": "2026-06-16T23:09:39.043Z"
+}

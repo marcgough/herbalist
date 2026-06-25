@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61741140R",
+  "title": "Manual of materia medica & therapeutics : being an abridgement of the late Dr. Pereira's Elements of materia medica , arranged in conformity with the British pharmacopoeia, and adapted to the use of medical practitioners, chemists and druggists, medical and pharmaceutical students, &c",
+  "creator": "Pereira, Jonathan, 1804-1853 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61741140R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61741140R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61741140R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 46,
+  "paragraphCount": 46,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61741140R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61741140R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61741140R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61741140R.jsonl",
+  "rawSha256": "67abd88125e48a1eab6135506d841c2a19e62555f18555d937ab5915bd8b4aa1",
+  "normalizedSha256": "85c1352d684961240ee4ce5fd9b91389abdbb997e3c308343b460ea19f43bea2",
+  "processedAt": "2026-06-17T11:30:41.106Z"
+}

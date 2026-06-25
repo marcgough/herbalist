@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101313403",
+  "title": "G. H. G. Jahr's Manual of homoeopathic medicine",
+  "creator": "Jahr, G. H. G. (Gottlieb Heinrich Georg), 1800-1875.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101313403-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101313403-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101313403",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 2223,
+  "paragraphCount": 2485,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101313403\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101313403\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101313403\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101313403.jsonl",
+  "rawSha256": "71d150c6ed8c1f26ac6a66d170ac2662c691611de74f7c9800dd68afd934cb04",
+  "normalizedSha256": "299fb0f7928b9c9aa7c14962156e8de36d688990177812aca1543bc73e0bd5f4",
+  "processedAt": "2026-06-18T01:54:27.559Z"
+}

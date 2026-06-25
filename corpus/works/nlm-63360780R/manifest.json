@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63360780R",
+  "title": "The American cyclopaedia of domestic medicine and household surgery : a reliable guide for every family, containing, in the plainest language, full descriptions of the various parts of the human body, accounts of the numerous diseases to which man is subject, their causes, symptoms, treatment, and prevention, with plain directions how to act in case of accidents and emergencies of every kind : also, full descriptions of the different articles used in medicine and explanations of medical and scientific terms",
+  "creator": "Ford, Samuel Payne, 1840-",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63360780R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63360780R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63360780R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;household-health",
+  "chunkCount": 4104,
+  "paragraphCount": 4537,
+  "sectionCount": 11,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63360780R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63360780R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63360780R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63360780R.jsonl",
+  "rawSha256": "291667c785e63aa6d9253e92902a19b2f476254bce5384f3792203beb2613dec",
+  "normalizedSha256": "67d00330a9a975d4bce2d563bc37466ed5eb7cc191e4b89ccce75e7342680555",
+  "processedAt": "2026-06-20T02:47:31.624Z"
+}

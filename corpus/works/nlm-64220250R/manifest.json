@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64220250R",
+  "title": "The American eclectic materia medica : containing one hundred and twenty-five illustrations of trees and plants of the American continent",
+  "creator": "Hollembaek, Henry.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220250R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64220250R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64220250R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 1629,
+  "paragraphCount": 1916,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220250R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220250R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64220250R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64220250R.jsonl",
+  "rawSha256": "682ed45b0be6849907359e8a291c382ad61955917a78a2545d377f20ad474cfe",
+  "normalizedSha256": "0b77235770c633173aa5cdf86fd8b16be72729ec6dcd7e5c42583ee300576339",
+  "processedAt": "2026-06-17T19:13:55.069Z"
+}

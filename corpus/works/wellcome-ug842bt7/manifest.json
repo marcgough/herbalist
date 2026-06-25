@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-ug842bt7",
+  "title": "The sick man's friend : Being a plain, practical medical work; designed for the use of families and individuals on vegetable, or botanical principles. In four parts / by P.E. Sanborn.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/ug842bt7",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b3302845x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/ug842bt7",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;botany",
+  "chunkCount": 491,
+  "paragraphCount": 494,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ug842bt7\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ug842bt7\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-ug842bt7\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-ug842bt7.jsonl",
+  "rawSha256": "9770f808dfd855a579e0a50f042f94282233ee244b362676ca78fc52a485e475",
+  "normalizedSha256": "6ffb0596d119f54ce3d3958ab1bf57e59f68389d1f1526d8b9010be85b010221",
+  "processedAt": "2026-06-16T23:08:50.293Z"
+}

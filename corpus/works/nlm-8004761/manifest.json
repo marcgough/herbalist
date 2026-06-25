@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-8004761",
+  "title": "Popular medicine, or, The American family physician : a work in which the principles and practice of medicine are familiarly explained : comprising a complete and comprehensive description of diseases, with full and definite directions for their treatment : the properties of many new and important medicines, with their doses and mode of administration, are accurately described : designed for general use and adapted to all climates",
+  "creator": "Capron, George, 1802-1882.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8004761-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-8004761-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/8004761",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 2560,
+  "paragraphCount": 2657,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-8004761\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-8004761\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-8004761\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-8004761.jsonl",
+  "rawSha256": "f787c9bbfb288faa9e3257e7dac69bab07970a0e9571678044ebcade8c6e350b",
+  "normalizedSha256": "7b700863a280724a88037f997c0e5490331c0cb09de0eec97189864558ac11a5",
+  "processedAt": "2026-06-18T14:38:23.062Z"
+}

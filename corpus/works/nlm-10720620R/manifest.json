@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-10720620R",
+  "title": "The practical herbalist, or, Health versus disease : designed as a guide to the practical use of nature's roots, herbs , etc. in the treatment and prevention of disease",
+  "creator": "Larsen, J. Aal (Jacob Aal) author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-10720620R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-10720620R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/10720620R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal",
+  "chunkCount": 399,
+  "paragraphCount": 407,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-10720620R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-10720620R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-10720620R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-10720620R.jsonl",
+  "rawSha256": "807e9b92af9f681aeedd07a1ad8976ff8368af72eba3d5e4f9c64ea30df6b363",
+  "normalizedSha256": "ab8f8839724a70ddfd670bfd3c0bbcaac736598007593224f6b1490f380cc34b",
+  "processedAt": "2026-06-17T17:31:40.507Z"
+}

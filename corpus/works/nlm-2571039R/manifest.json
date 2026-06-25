@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2571039R",
+  "title": "The Indian guide to health, or A valuable vegetable medical prescription for the cure of all disorders incident to this climate : designed as a guide to families and young practitioners",
+  "creator": "Selman, S. H. (Squire H.), -1873.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2571039R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2571039R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2571039R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 475,
+  "paragraphCount": 617,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2571039R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2571039R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2571039R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2571039R.jsonl",
+  "rawSha256": "15b49becc612edca4dacc64e8455dc8e01ae8c5b39e7452d6eccd60dc0ec9f56",
+  "normalizedSha256": "0c354ca6f8667a2ef4175f805d167ad4539c1e2f237b06cbcec9bcd30714e9fb",
+  "processedAt": "2026-06-20T02:03:47.746Z"
+}

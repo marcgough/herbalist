@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61840040R",
+  "title": "A lexicon for the use of druggists and students in pharmacy : containing many words not in general use : also, all the terms used in materia medica and botany, their derivation and correct pronunciation",
+  "creator": "Waggaman, Samuel, author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61840040R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61840040R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61840040R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;botany",
+  "chunkCount": 148,
+  "paragraphCount": 149,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61840040R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61840040R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61840040R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61840040R.jsonl",
+  "rawSha256": "220606431e7eefbc1966ad04892973d1974bc577d93dc58df8b127aa893f1a04",
+  "normalizedSha256": "4c9fc291171b108758750ed55e8026511b391585fa5271979685e43d3f59ab00",
+  "processedAt": "2026-06-18T01:36:44.456Z"
+}

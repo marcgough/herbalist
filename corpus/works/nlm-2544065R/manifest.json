@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2544065R",
+  "title": "Every man his own doctor, or, A treatise on the prevention and cure of diseases, by regimen and simple medicines",
+  "creator": "Buchan, William, 1729-1805.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544065R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2544065R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2544065R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 1935,
+  "paragraphCount": 3027,
+  "sectionCount": 24,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2544065R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2544065R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2544065R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2544065R.jsonl",
+  "rawSha256": "9a0c746584dece5652f0bc1518cb6a479d59f60caf368dde140a5fae718b8b6d",
+  "normalizedSha256": "1748b0abbb2a7baf1fdf56e5c7d1ed736d0ee9aefaf4af690f2abe4434d2b374",
+  "processedAt": "2026-06-16T23:50:11.353Z"
+}

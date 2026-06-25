@@ -1,0 +1,1165 @@
+{
+  "profile_id": "seed-dock",
+  "family_id": "seed-dock",
+  "canonical_name": "Dock",
+  "canonical_key": "dock",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-dock-a864ed013d#dock"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 166,
+    "total_chunks": 159,
+    "total_works": 107,
+    "matched_chunk_count": 159,
+    "matched_work_count": 107,
+    "matched_mention_total": 159
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "cultivation",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Dock",
+      "Docks"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-101149811",
+      "nlm-101230724"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1656",
+      "nlm-101149811-chunk-0048",
+      "nlm-101230724-chunk-1069"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 100
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 45
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 16
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 117,
+        "work_count": 89
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 44,
+        "work_count": 42
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 39,
+        "work_count": 38
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 26,
+        "work_count": 23
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 24,
+        "work_count": 24
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 17,
+        "work_count": 17
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "preparations": [
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 39,
+        "work_count": 37
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 39,
+        "work_count": 31
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 37,
+        "work_count": 29
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 34,
+        "work_count": 29
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 24,
+        "work_count": 23
+      },
+      {
+        "id": "wash",
+        "label": "Wash",
+        "signal_count": 22,
+        "work_count": 21
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 19,
+        "work_count": 19
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 16,
+        "work_count": 10
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 15,
+        "work_count": 15
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 14,
+        "work_count": 14
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 27,
+        "work_count": 23
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 6,
+        "work_count": 4
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 31,
+        "work_count": 22
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 27,
+        "work_count": 26
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 17,
+        "work_count": 17
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 14,
+        "work_count": 13
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 5,
+        "work_count": 4
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-gfchkr25",
+      "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+      "creator": "",
+      "publication_year": "1892",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/gfchkr25",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "nlm-63560150R",
+      "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+      "creator": "Ayers, J. Hamilton.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;botany;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-b6mx8n3x",
+      "title": "Medical reform, or, Physiology and botanic practice for the people / John Stevens.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/b6mx8n3x",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-64220910R",
+      "title": "The occult family physician and botanic guide to health : comprising a description of many American and foreign plants, and their medical virtues, with the cause, cure, and prevention of disease : to which is added, an explanation of the hidden forces in nature, with a large number of valuable receipts, the experience of twenty years' practice",
+      "creator": "Matteson, Antonette, 1847-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220910R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-101250104",
+      "title": "The practice of medicine, according to the plan most approved by the reformed or botanic colleges of the U.S. : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings : designed principally for families",
+      "creator": "Kost, J., 1819-1904.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250104-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "pg-76922",
+      "title": "Weeds used in medicine",
+      "creator": "Henkel, Alice, 1869-1916; Galloway, B. T. (Beverly Thomas), 1863-1938 [Author of introduction, etc.]",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://www.gutenberg.org/ebooks/76922",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-7704741",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-q59tmjuk",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "nlm-61650830R",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61650830R-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-b6mx8n3x-chunk-0003",
+        "work_id": "wellcome-b6mx8n3x",
+        "title": "Medical reform, or, Physiology and botanic practice for the people / John Stevens.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/b6mx8n3x",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Liniment",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Headache",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "for the sick 197 Digestion, theory of, 124 Digestion, the mean time of different articles, 199 Diuretics 328 Diuretic tea 338 Dock root 331 Doctors, their opinion of their profession, 37 Dose, proportions, 196 Drying...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0014",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "573 \" flatulency and indigestion 57 . \" influenza 576 \" stimulating 578 \" for palpitation of the heart 572 \" hysterics and windy colic 572 Dropsy of the heart 187 Dress of new born infants 363 Dress and exercise durin...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-t4np7uvm-chunk-0038",
+        "work_id": "wellcome-t4np7uvm",
+        "title": "Medical botany, or the herbal guide to health, explaining the natural pathology of disease, with hundreds of herbal recipes / [William Joseph Simmonite].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t4np7uvm",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Ointment",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "DECOCTION---Water;Dock root 2 ounces. Water 3 pints. Doss---A wine glassful three times a day. A 35. ELDER TREE. Elder tree or Sambucus Nigra under Venus, the leaves and young buds are ingredients in many of the teas...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-7704741-chunk-0687",
+        "work_id": "nlm-7704741",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "MIDWIFERY, A K D THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Thomson remarks, that in one case he applied a poultice of butternut shucks, to dissolve the cancerous tumor, and seem- ed likely to accomplish his object, when his hopes were blasted by the death of his patient in co...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-0678",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Thomson remarks, that in one case he applied a poultice of butternut shucks, to dissolve the cancerous tumor, and seem- ed likely to accomplish his object, when his hopes were blasted by the death of his patient in co...",
+        "score": 46
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-b6mx8n3x-chunk-0003",
+        "work_id": "wellcome-b6mx8n3x",
+        "title": "Medical reform, or, Physiology and botanic practice for the people / John Stevens.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/b6mx8n3x",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Liniment",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Headache",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "for the sick 197 Digestion, theory of, 124 Digestion, the mean time of different articles, 199 Diuretics 328 Diuretic tea 338 Dock root 331 Doctors, their opinion of their profession, 37 Dose, proportions, 196 Drying...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0014",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "573 \" flatulency and indigestion 57 . \" influenza 576 \" stimulating 578 \" for palpitation of the heart 572 \" hysterics and windy colic 572 Dropsy of the heart 187 Dress of new born infants 363 Dress and exercise durin...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-t4np7uvm-chunk-0038",
+        "work_id": "wellcome-t4np7uvm",
+        "title": "Medical botany, or the herbal guide to health, explaining the natural pathology of disease, with hundreds of herbal recipes / [William Joseph Simmonite].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t4np7uvm",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Ointment",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "DECOCTION---Water;Dock root 2 ounces. Water 3 pints. Doss---A wine glassful three times a day. A 35. ELDER TREE. Elder tree or Sambucus Nigra under Venus, the leaves and young buds are ingredients in many of the teas...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-7704741-chunk-0687",
+        "work_id": "nlm-7704741",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "MIDWIFERY, A K D THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Thomson remarks, that in one case he applied a poultice of butternut shucks, to dissolve the cancerous tumor, and seem- ed likely to accomplish his object, when his hopes were blasted by the death of his patient in co...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-0678",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Thomson remarks, that in one case he applied a poultice of butternut shucks, to dissolve the cancerous tumor, and seem- ed likely to accomplish his object, when his hopes were blasted by the death of his patient in co...",
+        "score": 46
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-b6mx8n3x-chunk-0003",
+        "work_id": "wellcome-b6mx8n3x",
+        "title": "Medical reform, or, Physiology and botanic practice for the people / John Stevens.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/b6mx8n3x",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Liniment",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Headache",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "for the sick 197 Digestion, theory of, 124 Digestion, the mean time of different articles, 199 Diuretics 328 Diuretic tea 338 Dock root 331 Doctors, their opinion of their profession, 37 Dose, proportions, 196 Drying...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0014",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "573 \" flatulency and indigestion 57 . \" influenza 576 \" stimulating 578 \" for palpitation of the heart 572 \" hysterics and windy colic 572 Dropsy of the heart 187 Dress of new born infants 363 Dress and exercise durin...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-t4np7uvm-chunk-0038",
+        "work_id": "wellcome-t4np7uvm",
+        "title": "Medical botany, or the herbal guide to health, explaining the natural pathology of disease, with hundreds of herbal recipes / [William Joseph Simmonite].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t4np7uvm",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tea",
+          "Ointment",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "DECOCTION---Water;Dock root 2 ounces. Water 3 pints. Doss---A wine glassful three times a day. A 35. ELDER TREE. Elder tree or Sambucus Nigra under Venus, the leaves and young buds are ingredients in many of the teas...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-7704741-chunk-0687",
+        "work_id": "nlm-7704741",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "MIDWIFERY, A K D THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Thomson remarks, that in one case he applied a poultice of butternut shucks, to dissolve the cancerous tumor, and seem- ed likely to accomplish his object, when his hopes were blasted by the death of his patient in co...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-0678",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Thomson remarks, that in one case he applied a poultice of butternut shucks, to dissolve the cancerous tumor, and seem- ed likely to accomplish his object, when his hopes were blasted by the death of his patient in co...",
+        "score": 46
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-b6mx8n3x-chunk-0003",
+        "work_id": "wellcome-b6mx8n3x",
+        "title": "Medical reform, or, Physiology and botanic practice for the people / John Stevens.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/b6mx8n3x",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Liniment",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Headache",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "for the sick 197 Digestion, theory of, 124 Digestion, the mean time of different articles, 199 Diuretics 328 Diuretic tea 338 Dock root 331 Doctors, their opinion of their profession, 37 Dose, proportions, 196 Drying...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0014",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "573 \" flatulency and indigestion 57 . \" influenza 576 \" stimulating 578 \" for palpitation of the heart 572 \" hysterics and windy colic 572 Dropsy of the heart 187 Dress of new born infants 363 Dress and exercise durin...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-7704741-chunk-0687",
+        "work_id": "nlm-7704741",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "MIDWIFERY, A K D THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Thomson remarks, that in one case he applied a poultice of butternut shucks, to dissolve the cancerous tumor, and seem- ed likely to accomplish his object, when his hopes were blasted by the death of his patient in co...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-0678",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Thomson remarks, that in one case he applied a poultice of butternut shucks, to dissolve the cancerous tumor, and seem- ed likely to accomplish his object, when his hopes were blasted by the death of his patient in co...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-61650830R-chunk-0099",
+        "work_id": "nlm-61650830R",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine, with a copious materia medica",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "I\\ \\",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61650830R-bk",
+        "matched_herbs": [
+          "Dock"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Ointment",
+          "Salve",
+          "Poultice",
+          "Wash",
+          "Juice"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Thomson remarks, that in one case he applied a poultice of butternut shucks, to* dissolve the cancerous tumor, and seem- ed likely to accomplish his object, when his hopes were blasted by the death of his patient in c...",
+        "score": 46
+      }
+    ]
+  },
+  "retrieval_text": "Dock is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 107 works and 159 source-linked chunks. Recorded variants include Dock, Docks. Common plant-part co-mentions include Root, Flower, Bark, Leaf, Seed, Gum. Common preparation co-mentions include Ointment, Juice, Decoction, Powder, Tea, Wash. Common condition co-mentions include Wounds or ulcers, Cold or catarrh, Inflammation, Fever, Dysentery, Rheumatism. Caution co-mentions include Dose caution, Fatal-risk warning, Child-use caution, Toxicity watch, Allergy or sensitivity caution, Bleeding caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.; Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs; Medical reform, or, Physiology and botanic practice for the people / John Stevens.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.998Z",
+  "builder": "build-herb-profiles.mjs"
+}

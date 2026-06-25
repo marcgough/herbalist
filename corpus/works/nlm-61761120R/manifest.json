@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61761120R",
+  "title": "Modern materia medica : with therapeutic notes : for the use of practitioners and students of medicine",
+  "creator": "Roth, Otto, author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61761120R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61761120R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61761120R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 1013,
+  "paragraphCount": 1018,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61761120R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61761120R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61761120R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61761120R.jsonl",
+  "rawSha256": "8c0fa75a4876f4cb881fd8587762210e5feb660141980cb1ad55621e00132702",
+  "normalizedSha256": "49d333bad35cbaecc6abf5d6deb3be3f2bd0fda6ca858115fd1340c11c0c9a65",
+  "processedAt": "2026-06-21T10:00:44.852Z"
+}

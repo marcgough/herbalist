@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64230020R",
+  "title": "An epitome of the American eclectic practice of medicine, surgery, obstetrics, diseases of women and children, materia medica and pharmacy : designed as a text book for physicians, and students of medicine",
+  "creator": "Paine, William, 1821-",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230020R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64230020R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64230020R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 31,
+  "paragraphCount": 40,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64230020R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64230020R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64230020R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64230020R.jsonl",
+  "rawSha256": "b147561d7027bb3ef527797c18367f1d466c844f8005d44a9943df28a811e666",
+  "normalizedSha256": "3e32e50bd6a0279bbee482fbd5ec36f487f51c7c8d55e485e98501e3f02c769e",
+  "processedAt": "2026-06-17T16:09:48.855Z"
+}

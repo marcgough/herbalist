@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64331080R",
+  "title": "Family physician : or homoeopathic practice of medicine, adapted to domestic and professional use",
+  "creator": "Sherrill, Hunting, 1783-1866.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64331080R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64331080R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64331080R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 45,
+  "paragraphCount": 81,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64331080R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64331080R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64331080R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64331080R.jsonl",
+  "rawSha256": "923d6e30884e8fa1f8247c453a48ee785564f0de750dcbd05a5e3aab83f1d75e",
+  "normalizedSha256": "c4886a804cefa3cdf3dc076e3d988870845f7d1f98df49a556c5acedf54c5bfb",
+  "processedAt": "2026-06-20T02:21:38.583Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2555024R",
+  "title": "The family physician, or Every man's companion, being a compilation from the most approved medical authors, adapted to the southern and western climates. To which is added an account of herbs, roots and plants, used for medical purposes",
+  "creator": "Goodlett, Adam G., d. 1848.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2555024R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2555024R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2555024R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1921,
+  "paragraphCount": 4446,
+  "sectionCount": 44,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2555024R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2555024R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2555024R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2555024R.jsonl",
+  "rawSha256": "0974942bb3056699e593b2090f9033e6e29bd011fc540bf723c2950cc56007b3",
+  "normalizedSha256": "aca772cd625988e86a94305c4f00b6ddeb7a5e2b7fb06ef18c79fe0e624c4ae8",
+  "processedAt": "2026-06-16T23:06:40.881Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63611030R",
+  "title": "A domestic guide to medicine : by which individuals, both male and female, are enabled to treat their own complaints on a safe and easy principle : to this is prefixed a few remarks on the universal domestic medicine of the author (formerly the improved Hygeian pills) showing that this medicine is founded on the prevailing doctrines of the Brit. College of Physicians and Surgeons, London",
+  "creator": "Ralph, Joseph.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611030R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63611030R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63611030R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 575,
+  "paragraphCount": 685,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63611030R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63611030R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63611030R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63611030R.jsonl",
+  "rawSha256": "4b0c3b8b4b34b8549db585df7892c6f9b450aac0252ba7676ec5bec40d745fe5",
+  "normalizedSha256": "a59150d4f57de40cf925a0774a4150218b8228a93731a7e053aeba2f22e9a66c",
+  "processedAt": "2026-06-17T14:47:36.722Z"
+}

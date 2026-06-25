@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101515274",
+  "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+  "creator": "Dunglison, Robley, 1798-1869.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101515274-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101515274",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;dietetics",
+  "chunkCount": 10408,
+  "paragraphCount": 10412,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101515274\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101515274\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101515274\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101515274.jsonl",
+  "rawSha256": "b675bf7adf2560efc21f30a07ed3aa32c69261943932d4e7a3ec50422fe91a67",
+  "normalizedSha256": "2ef637636c26fbb58e24723f8af43f29dba003de8dea8a21fcd62c5912d59c7c",
+  "processedAt": "2026-06-18T01:36:54.109Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-xyjmmeqt",
+  "title": "Domestic medicine : a treatise on the practice of medicine, adapted to the reformed system, comprising a materia medica / by J. Kost.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/xyjmmeqt",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21135150",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/xyjmmeqt",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 1169,
+  "paragraphCount": 1180,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-xyjmmeqt\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-xyjmmeqt\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-xyjmmeqt\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-xyjmmeqt.jsonl",
+  "rawSha256": "ee5174147f715af24dbff786d285ec27e18392b86b8bb9f8952b59c459c96589",
+  "normalizedSha256": "6c7c11ddb8bec3a13dc725e6f75dd92d864deddec4ad5a9d4a2cdfb58b190fea",
+  "processedAt": "2026-06-16T23:29:21.728Z"
+}

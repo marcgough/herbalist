@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63060830R",
+  "title": "Hygiene and sanitary matters",
+  "creator": "Winans, Ross, 1796-1877.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63060830R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63060830R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63060830R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;public-health",
+  "chunkCount": 180,
+  "paragraphCount": 251,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63060830R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63060830R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63060830R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63060830R.jsonl",
+  "rawSha256": "6fe9cade19fe3db8545b0817052bb7c9464b1e2cf1b2d85f3f59b5a42b94e6dd",
+  "normalizedSha256": "27aac58c281904e82ead48f008fde5e44c27287740394c8e9729d94529edb22a",
+  "processedAt": "2026-06-17T18:33:04.311Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-zw3te65d",
+  "title": "Medical botany : containing systematic and general descriptions, with plates of all the medicinal plants comprehended in the catalogues of the materia medica as published by the Royal Colleges of Physicians of London, Edinburgh, and Dublin ..., / by William Woodville.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/zw3te65d",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24923485",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/zw3te65d",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;medicinal-plants;medical-botany;botany",
+  "chunkCount": 2419,
+  "paragraphCount": 2616,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-zw3te65d\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-zw3te65d\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-zw3te65d\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-zw3te65d.jsonl",
+  "rawSha256": "9dfb3fbc143941d86aaf70ca5dc892f55e1efed82b6f8e7d2c9c59b73b0b7e38",
+  "normalizedSha256": "6540e010a4b4548825b5a1609b4d9aca29b7a56b307d7639db9317103bb7cbd7",
+  "processedAt": "2026-06-16T22:48:07.085Z"
+}

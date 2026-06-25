@@ -1,0 +1,275 @@
+{
+  "generatedAt": "2026-06-16T13:39:18.927Z",
+  "sourceCollectionId": "project-gutenberg",
+  "catalogUrl": "https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv",
+  "scannedRows": 90095,
+  "discoveredCount": 27,
+  "processedCount": 27,
+  "failureCount": 0,
+  "processed": [
+    {
+      "work_id": "pg-12522",
+      "title": "An Account of the Extraordinary Medicinal Fluid, called Aether.",
+      "chunkCount": 27,
+      "paragraphCount": 50,
+      "topicFamily": "materia-medica"
+    },
+    {
+      "work_id": "pg-13265",
+      "title": "A Book of Fruits and Flowers",
+      "chunkCount": 90,
+      "paragraphCount": 368,
+      "topicFamily": "materia-medica"
+    },
+    {
+      "work_id": "pg-19352",
+      "title": "Herbal Simples Approved for Modern Uses of Cure",
+      "chunkCount": 1133,
+      "paragraphCount": 2807,
+      "topicFamily": "herbal;botany"
+    },
+    {
+      "work_id": "pg-21414",
+      "title": "Culinary Herbs: Their Cultivation Harvesting Curing and Uses",
+      "chunkCount": 229,
+      "paragraphCount": 571,
+      "topicFamily": "herbal;culinary-herbs;cultivation"
+    },
+    {
+      "work_id": "pg-26393",
+      "title": "The Medicinal Plants of the Philippines",
+      "chunkCount": 496,
+      "paragraphCount": 2940,
+      "topicFamily": "medicinal-plants;botany"
+    },
+    {
+      "work_id": "pg-26718",
+      "title": "Health on the Farm: A Manual of Rural Sanitation and Hygiene",
+      "chunkCount": 389,
+      "paragraphCount": 955,
+      "topicFamily": "hygiene;public-health;household-health"
+    },
+    {
+      "work_id": "pg-29555",
+      "title": "Rural Hygiene",
+      "chunkCount": 733,
+      "paragraphCount": 1818,
+      "topicFamily": "hygiene;public-health;household-health"
+    },
+    {
+      "work_id": "pg-32250",
+      "title": "American Red Cross Text-Book on Home Hygiene and Care of the Sick",
+      "chunkCount": 531,
+      "paragraphCount": 1674,
+      "topicFamily": "hygiene;nursing"
+    },
+    {
+      "work_id": "pg-33654",
+      "title": "The Old English Herbals",
+      "chunkCount": 452,
+      "paragraphCount": 2163,
+      "topicFamily": "herbal;botany"
+    },
+    {
+      "work_id": "pg-34570",
+      "title": "Ginseng and Other Medicinal Plants",
+      "chunkCount": 460,
+      "paragraphCount": 1373,
+      "topicFamily": "medicinal-plants"
+    },
+    {
+      "work_id": "pg-38757",
+      "title": "New, Old, and Forgotten Remedies: Papers by Many Writers",
+      "chunkCount": 706,
+      "paragraphCount": 2861,
+      "topicFamily": "materia-medica"
+    },
+    {
+      "work_id": "pg-40373",
+      "title": "A Guide to Health",
+      "chunkCount": 198,
+      "paragraphCount": 359,
+      "topicFamily": "domestic-medicine"
+    },
+    {
+      "work_id": "pg-41697",
+      "title": "Merck's 1899 Manual of the Materia Medica",
+      "chunkCount": 555,
+      "paragraphCount": 16529,
+      "topicFamily": "materia-medica"
+    },
+    {
+      "work_id": "pg-41778",
+      "title": "Epitome of the Pharmacopeia of the United States and the National Formulary",
+      "chunkCount": 537,
+      "paragraphCount": 5347,
+      "topicFamily": "pharmacopoeia"
+    },
+    {
+      "work_id": "pg-49513",
+      "title": "The Complete Herbal",
+      "chunkCount": 1373,
+      "paragraphCount": 5855,
+      "topicFamily": "herbal"
+    },
+    {
+      "work_id": "pg-53755",
+      "title": "The Taleef Shereef; Or, Indian Materia Medica",
+      "chunkCount": 405,
+      "paragraphCount": 1368,
+      "topicFamily": "materia-medica"
+    },
+    {
+      "work_id": "pg-53875",
+      "title": "Madame Young's Guide to Health",
+      "chunkCount": 329,
+      "paragraphCount": 1254,
+      "topicFamily": "domestic-medicine"
+    },
+    {
+      "work_id": "pg-58591",
+      "title": "Hygiene: a manual of personal and public health (New Edition)",
+      "chunkCount": 1029,
+      "paragraphCount": 3168,
+      "topicFamily": "hygiene;public-health"
+    },
+    {
+      "work_id": "pg-61719",
+      "title": "Food and Flavor: A Gastronomic Guide to Health and Good Living",
+      "chunkCount": 899,
+      "paragraphCount": 2620,
+      "topicFamily": "domestic-medicine"
+    },
+    {
+      "work_id": "pg-62715",
+      "title": "Drug Plants Under Cultivation",
+      "chunkCount": 173,
+      "paragraphCount": 407,
+      "topicFamily": "medicinal-plants;cultivation;botany"
+    },
+    {
+      "work_id": "pg-65569",
+      "title": "Histology of medicinal plants",
+      "chunkCount": 488,
+      "paragraphCount": 1957,
+      "topicFamily": "medicinal-plants;botany"
+    },
+    {
+      "work_id": "pg-70024",
+      "title": "The old man's guide to health and longer life",
+      "chunkCount": 60,
+      "paragraphCount": 267,
+      "topicFamily": "domestic-medicine;hygiene"
+    },
+    {
+      "work_id": "pg-70350",
+      "title": "Dr. B. Mure's materia medica",
+      "chunkCount": 386,
+      "paragraphCount": 994,
+      "topicFamily": "materia-medica"
+    },
+    {
+      "work_id": "pg-70951",
+      "title": "A text-book on hygiene and pediatrics from a chiropractic standpoint",
+      "chunkCount": 767,
+      "paragraphCount": 2892,
+      "topicFamily": "hygiene;public-health"
+    },
+    {
+      "work_id": "pg-74245",
+      "title": "A Hausa botanical vocabulary",
+      "chunkCount": 230,
+      "paragraphCount": 2127,
+      "topicFamily": "botany"
+    },
+    {
+      "work_id": "pg-74359",
+      "title": "Domestic medicine",
+      "chunkCount": 1477,
+      "paragraphCount": 4374,
+      "topicFamily": "domestic-medicine"
+    },
+    {
+      "work_id": "pg-76922",
+      "title": "Weeds used in medicine",
+      "chunkCount": 69,
+      "paragraphCount": 356,
+      "topicFamily": "medicinal-plants"
+    }
+  ],
+  "failures": [],
+  "sampleTitles": [
+    {
+      "work_id": "pg-12522",
+      "title": "An Account of the Extraordinary Medicinal Fluid, called Aether.",
+      "topic_family": "materia-medica",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 18; matched materia-medica; Gutenberg issued 2004-06-01; original publication year pending bibliographic review."
+    },
+    {
+      "work_id": "pg-13265",
+      "title": "A Book of Fruits and Flowers",
+      "topic_family": "materia-medica",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 18; matched materia-medica; Gutenberg issued 2004-08-23; original publication year pending bibliographic review."
+    },
+    {
+      "work_id": "pg-19352",
+      "title": "Herbal Simples Approved for Modern Uses of Cure",
+      "topic_family": "herbal;botany",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 46; matched herbal, botany; Gutenberg issued 2006-09-22; original publication year pending bibliographic review."
+    },
+    {
+      "work_id": "pg-21414",
+      "title": "Culinary Herbs: Their Cultivation Harvesting Curing and Uses",
+      "topic_family": "herbal;culinary-herbs;cultivation",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 32; matched herbal, culinary-herbs, cultivation; Gutenberg issued 2007-05-11; original publication year pending bibliographic review."
+    },
+    {
+      "work_id": "pg-26393",
+      "title": "The Medicinal Plants of the Philippines",
+      "topic_family": "medicinal-plants;botany",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 32; matched medicinal-plants, botany; Gutenberg issued 2008-08-22; original publication year pending bibliographic review."
+    },
+    {
+      "work_id": "pg-26718",
+      "title": "Health on the Farm: A Manual of Rural Sanitation and Hygiene",
+      "topic_family": "hygiene;public-health;household-health",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 26; matched hygiene, public-health, household-health; Gutenberg issued 2008-09-28; original publication year pending bibliographic review."
+    },
+    {
+      "work_id": "pg-29555",
+      "title": "Rural Hygiene",
+      "topic_family": "hygiene;public-health;household-health",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 26; matched hygiene, public-health, household-health; Gutenberg issued 2009-07-31; original publication year pending bibliographic review."
+    },
+    {
+      "work_id": "pg-32250",
+      "title": "American Red Cross Text-Book on Home Hygiene and Care of the Sick",
+      "topic_family": "hygiene;nursing",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 18; matched hygiene, nursing; Gutenberg issued 2010-05-04; original publication year pending bibliographic review."
+    },
+    {
+      "work_id": "pg-33654",
+      "title": "The Old English Herbals",
+      "topic_family": "herbal;botany",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 26; matched herbal, botany; Gutenberg issued 2010-09-06; original publication year pending bibliographic review."
+    },
+    {
+      "work_id": "pg-34570",
+      "title": "Ginseng and Other Medicinal Plants",
+      "topic_family": "medicinal-plants",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 16; matched medicinal-plants; Gutenberg issued 2010-12-05; original publication year pending bibliographic review."
+    },
+    {
+      "work_id": "pg-38757",
+      "title": "New, Old, and Forgotten Remedies: Papers by Many Writers",
+      "topic_family": "materia-medica",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 18; matched materia-medica; Gutenberg issued 2012-02-04; original publication year pending bibliographic review."
+    },
+    {
+      "work_id": "pg-40373",
+      "title": "A Guide to Health",
+      "topic_family": "domestic-medicine",
+      "notes": "Auto-selected from Project Gutenberg catalog with score 14; matched domestic-medicine; Gutenberg issued 2012-07-30; original publication year pending bibliographic review."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63810390R",
+  "title": "Medical hygiene , or, Cures for all diseases without drugs : including essays on testimony of leading drug doctors, my drug teachers, when to use drugs, John Wesley on hygienic medicine, the unity of disease, the diet cure, the water cure, valedictory address, my trip to Europe, if uncertain what to do, remedies of mental hygiene , child-birth without pain or danger, midwifery and infant nursing",
+  "creator": "Ross, W. Frank (William Frank)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63810390R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63810390R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63810390R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;nursing",
+  "chunkCount": 390,
+  "paragraphCount": 393,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63810390R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63810390R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63810390R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63810390R.jsonl",
+  "rawSha256": "9a06448db55d8fe49c205d2aab7daed47f5641161bcebf5190811a1224de64c3",
+  "normalizedSha256": "a09e6e8be708d8bafc16843461ebc37670fbd59e69f74642ecae224a40584cca",
+  "processedAt": "2026-06-21T10:00:35.739Z"
+}

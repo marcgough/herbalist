@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63560570R",
+  "title": "The family physician, and domestic practice of medicine",
+  "creator": "Buchanan, John, M.D.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560570R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63560570R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63560570R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 28,
+  "paragraphCount": 34,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560570R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560570R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63560570R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63560570R.jsonl",
+  "rawSha256": "6854cf4e9ae8afff016b33817b1b941f2532e1850d5399c5dd67166ec001ff8a",
+  "normalizedSha256": "c561ed8cf226823865559ef7b294bce987314fbc6318929b910e665dfe8eac0f",
+  "processedAt": "2026-06-18T01:54:23.512Z"
+}

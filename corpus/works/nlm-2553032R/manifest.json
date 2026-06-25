@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2553032R",
+  "title": "The medical companion : treating, according to the most successful practice, I. The diseases common to warm climates and on ship board. II. Common cases in surgery, as fractures, dislocations, &c. III. The complaints peculiar to women and children. With a dispensatory and glossary. To which are added, a brief anatomy of the human body; an essay on hygeine [sic] or the art of preserving health and prolonging life; an American materia medica , instructing country gentlemen in the very important knowledge of the virtues and doses of our medicinal plants; also, a concise and impartial history of the capture of Washington, and the diseases which sprung from that most deplorable disaster",
+  "creator": "Ewell, James, 1773-1832.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2553032R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2553032R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2553032R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;medicinal-plants;hygiene",
+  "chunkCount": 1628,
+  "paragraphCount": 2741,
+  "sectionCount": 68,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2553032R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2553032R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2553032R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2553032R.jsonl",
+  "rawSha256": "d77fda3aa9537a4b0e6e92f8d469806497be532287d08d77fed4558b00ea3a56",
+  "normalizedSha256": "077cd557d9237a2044e688f04e19a7eb4d32da133ab1abe64c5a5f5dae2c68d6",
+  "processedAt": "2026-06-16T23:50:31.419Z"
+}

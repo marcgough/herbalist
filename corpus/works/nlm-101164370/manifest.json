@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101164370",
+  "title": "A list of the medicinal plants of Ohio (not embraced in Wood & Bache's U. S. Dispensatory) : containing, as far as known, a brief account of their properties",
+  "creator": "Bigelow, John M. (John Milton), 1804-1878.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101164370-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101164370-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101164370",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;medicinal-plants",
+  "chunkCount": 107,
+  "paragraphCount": 211,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101164370\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101164370\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101164370\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101164370.jsonl",
+  "rawSha256": "1fbe5318a4037f0b85da427f63151037d352c02fb8b8f6e0c0600ea2b9c6a9a3",
+  "normalizedSha256": "ea72b37dd958cede2650b38492435b6012102ba9dc4579fdfff12d63917de771",
+  "processedAt": "2026-06-16T23:50:18.351Z"
+}

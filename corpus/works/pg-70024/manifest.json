@@ -1,0 +1,20 @@
+{
+  "workId": "pg-70024",
+  "title": "The old man's guide to health and longer life",
+  "creator": "Hill, John, 1714?-1775",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/70024",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/70024/pg70024.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/70024.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 60,
+  "paragraphCount": 267,
+  "sectionCount": 10,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-70024\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-70024\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-70024.jsonl",
+  "rawSha256": "5846184de09a88cc6cc2e8bcd5778237ae0503ed782238f1aff26f5d248f73e3",
+  "normalizedSha256": "e5ef5b903891b69cf23f5edea88d826d14c29602a610339a271c37e8280c57c0",
+  "processedAt": "2026-06-16T13:39:14.164Z"
+}

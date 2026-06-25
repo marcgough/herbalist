@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Herbalisti</ShortName>
+  <Description>Search Herbalisti's rights-cleared reference library, herbal commons, remedies, source notes, and independent Signals.</Description>
+  <Tags>Herbalisti herbal medicine longevity public domain research</Tags>
+  <Contact>https://herbalisti.com/source-policy</Contact>
+  <Url type="text/html" method="get" template="https://herbalisti.com/search?q={searchTerms}" />
+  <Url type="application/json" method="get" template="https://herbalisti.com/api/search?query={searchTerms}" />
+  <Image height="16" width="16" type="image/svg+xml">https://herbalisti.com/favicon.svg</Image>
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <moz:SearchForm>https://herbalisti.com/search</moz:SearchForm>
+</OpenSearchDescription>

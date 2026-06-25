@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-qu62rk6r",
+  "title": "Domestic medicine or, A treatise on the prevention and cure of diseases by regimen and simple medicines. With an appendix, containing a dispensatory for the use of private practitioners. To which are added, observations on the diet of the common people ... / [William Buchan].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/qu62rk6r",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b28741419",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/qu62rk6r",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1797,
+  "paragraphCount": 1813,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-qu62rk6r\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-qu62rk6r\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-qu62rk6r.jsonl",
+  "rawSha256": "9c08e67ae752d3646ba20f8027d9509473af19459f12922d5e6f2ce07ffda307",
+  "normalizedSha256": "a63d7a475556bb12f54b3190e7aab367b5043774ec87317e7b4f4679c1dd73d9",
+  "processedAt": "2026-06-16T13:46:57.263Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

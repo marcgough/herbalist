@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2572013R",
+  "title": "A guide to health : being a compendium of medical instruction, upon botanic principles : designed for the use of families, and private individuals",
+  "creator": "Smith, J. H.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2572013R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2572013R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2572013R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 38,
+  "paragraphCount": 39,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2572013R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2572013R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2572013R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2572013R.jsonl",
+  "rawSha256": "e0dac0352175dfa5c7fff51fad5e02cb4bc8480ea07e9f3d53d9ef49a24943ee",
+  "normalizedSha256": "0922b0426fa6a4ddea740ccb610bf191776ab7465f7e88168409ac6e3a7c942d",
+  "processedAt": "2026-06-20T01:00:04.398Z"
+}

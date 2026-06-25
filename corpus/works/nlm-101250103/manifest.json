@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101250103",
+  "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+  "creator": "Watson, Rachel M.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101250103-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101250103",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 358,
+  "paragraphCount": 487,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101250103\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101250103\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101250103\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101250103.jsonl",
+  "rawSha256": "f72bb40b5eaa78e43aa1d229eb0a1d385f5e749b38fbdd71e4c3851a6ba010a5",
+  "normalizedSha256": "1d687b4082d7eaf68abd848e474733c81bb895970ea65ecb555e1fa70b6f7f58",
+  "processedAt": "2026-06-16T23:06:46.620Z"
+}

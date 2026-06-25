@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101230724",
+  "title": "The medical companion, or family physician : treating of the diseases of the United states, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added, a brief anatomy and physiology of the human body, shewing, on rational principles, the cause and cure of diseases : an essay on hygiene, or the art of preserving health, without the aid of medicine : and an American materia medica , pointing out the virtures and doses of our medicinal plants : also, the nurse's guide",
+  "creator": "Ewell, James, 1773-1832.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101230724-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101230724-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101230724",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;medicinal-plants;domestic-medicine;hygiene",
+  "chunkCount": 2115,
+  "paragraphCount": 3463,
+  "sectionCount": 20,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101230724\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101230724\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101230724\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101230724.jsonl",
+  "rawSha256": "71bc047c6075d6e47f35ff1df7ed01020f30bd17488dddc1b6edf673e9026d83",
+  "normalizedSha256": "7c93b72abf5c1d4be5acf731ca61d8222d83966bd765ee6571b77693b16af20f",
+  "processedAt": "2026-06-16T14:26:36.125Z"
+}

@@ -1,0 +1,172 @@
+{
+  "generatedAt": "2026-06-23T13:22:36.815Z",
+  "totalWorksConsidered": 2720,
+  "familyCount": 1866,
+  "multiWorkFamilyCount": 411,
+  "highConfidenceFamilyCount": 294,
+  "mediumConfidenceFamilyCount": 1534,
+  "lowConfidenceFamilyCount": 38,
+  "memberCount": 2720,
+  "topFamilies": [
+    {
+      "family_id": "family-domestic-medicine-or-a-treatise-on-the-preventio-3f8366cc50",
+      "family_label": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines",
+      "canonical_work_id": "nlm-2544048R",
+      "work_count": 42,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-pharmacopoeia-collegii-regalis-medicorum-londine-c7de113436",
+      "family_label": "Pharmacopoeia Collegii Regalis Medicorum Londinensis.",
+      "canonical_work_id": "wellcome-n9mqfwbn",
+      "work_count": 25,
+      "collection_ids": "wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-homoeopathic-domestic-physician-pulte-jh1-1b572da989",
+      "family_label": "Homoeopathic domestic physician",
+      "canonical_work_id": "nlm-101306886",
+      "work_count": 19,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-homoeopathic-domestic-medicine-laurie-j-4519463c9d",
+      "family_label": "Homoeopathic domestic medicine",
+      "canonical_work_id": "nlm-101306675",
+      "work_count": 18,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-new-guide-to-health-or-botanic-family-physician--c26ccab365",
+      "family_label": "New guide to health , or, Botanic family physician",
+      "canonical_work_id": "nlm-0061627",
+      "work_count": 18,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-pharmacopoeia-collegii-regii-medicorum-edinburge-a052b334e3",
+      "family_label": "Pharmacopoeia Collegii Regii Medicorum Edinburgensis.",
+      "canonical_work_id": "wellcome-skt8zhzw",
+      "work_count": 18,
+      "collection_ids": "wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-domestic-medicine-buchan-w1-7028d904c7",
+      "family_label": "Domestic medicine",
+      "canonical_work_id": "pg-74359",
+      "work_count": 17,
+      "collection_ids": "nlm-digital-collections;project-gutenberg;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-cyclopaedia-of-practical-medicine-comprising-tre-e8b92c06c1",
+      "family_label": "The cyclopaedia of practical medicine: comprising treatises on the nature and treatment of diseases, materia medica and therapeutics, medical jurisprudence, etc., etc .",
+      "canonical_work_id": "wellcome-ctrns2vu",
+      "work_count": 17,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-british-pharmacopoeia-unknown-4d67f1a633",
+      "family_label": "British pharmacopoeia",
+      "canonical_work_id": "wellcome-yps8cn9x",
+      "work_count": 16,
+      "collection_ids": "wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-lexicon-medicum-or-medical-dictionary-hooper-r1-2543dac49e",
+      "family_label": "Lexicon medicum, or, Medical dictionary",
+      "canonical_work_id": "nlm-101526705",
+      "work_count": 15,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-dictionary-of-domestic-medicine-and-household-su-fc8dc06871",
+      "family_label": "A dictionary of domestic medicine and household surgery",
+      "canonical_work_id": "nlm-0222600",
+      "work_count": 11,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-narrative-of-the-life-and-medical-discoveries-of-82b73ee867",
+      "family_label": "A narrative of the life and medical discoveries of Samuel Thomson",
+      "canonical_work_id": "nlm-2575005R",
+      "work_count": 10,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-treatise-on-therapeutics-wood-hc1-4380cde050",
+      "family_label": "A treatise on therapeutics",
+      "canonical_work_id": "nlm-101651492",
+      "work_count": 9,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-course-of-fifteen-lectures-on-medical-botany-rob-1e1db5159b",
+      "family_label": "A course of fifteen lectures on medical botany",
+      "canonical_work_id": "nlm-2568047R",
+      "work_count": 8,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-new-and-comprehensive-system-of-materia-medica-a-1dea8e418a",
+      "family_label": "A new and comprehensive system of materia medica and therapeutics: arranged upon a physiologico-pathological basis for the use of practitioners and students of medicine",
+      "canonical_work_id": "nlm-64310710RX1",
+      "work_count": 8,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-american-new-dispensatory-thacher-j1-f9fa8e3ec7",
+      "family_label": "The American new dispensatory",
+      "canonical_work_id": "nlm-2574014R",
+      "work_count": 8,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-medical-companion-or-family-physician-ewell-j1-7491fc6d52",
+      "family_label": "The medical companion, or, Family physician",
+      "canonical_work_id": "nlm-8206608",
+      "work_count": 8,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-handbook-of-hygiene-and-sanitary-science-unknown-17bc36d8cf",
+      "family_label": "A handbook of hygiene and sanitary science",
+      "canonical_work_id": "wellcome-ndpjxuu6",
+      "work_count": 7,
+      "collection_ids": "wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-gunns-domestic-medicine-or-poor-mans-friend-in-t-4aac0d6b3a",
+      "family_label": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness",
+      "canonical_work_id": "nlm-32520970R",
+      "work_count": 7,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    },
+    {
+      "family_id": "family-manual-of-materia-medica-and-therapeutics-pereir-18a1d1fbc8",
+      "family_label": "Manual of materia medica & therapeutics",
+      "canonical_work_id": "nlm-61741140R",
+      "work_count": 7,
+      "collection_ids": "nlm-digital-collections;wellcome-collection",
+      "clustering_confidence": "medium"
+    }
+  ]
+}

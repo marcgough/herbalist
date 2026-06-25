@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-q2sqr4s9",
+  "title": "Probadas flores : romanas de famosos & doctos varones compuestas para salud reparo d'los cuerpos humanos & ge[n]tilezas de hombres de palacio & de cria[n]ça tra[n]sladadas de le[n]gua ytaliana en nuestra española. Nueuame[n]te impressas corregidas: y emendadas con additiones.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/q2sqr4s9",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21073132",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/q2sqr4s9",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;botany",
+  "chunkCount": 35,
+  "paragraphCount": 40,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-q2sqr4s9\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-q2sqr4s9\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-q2sqr4s9\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-q2sqr4s9.jsonl",
+  "rawSha256": "1f59dda69b30249305f93e7c005e97bbb6b7b0ed42aa16df05908565fdcb89e6",
+  "normalizedSha256": "f651e59698ed1c9b536cad6ad7773ee22c34f17808bcf0c5495644768841b1ad",
+  "processedAt": "2026-06-16T23:08:36.091Z"
+}

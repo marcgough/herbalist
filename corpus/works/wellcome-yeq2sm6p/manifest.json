@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-yeq2sm6p",
+  "title": "Experimenta de nonnullorum ranunculorum venenata qualitate, horum externo et interno usu / Caroli Krapf.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/yeq2sm6p",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b33004080",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/yeq2sm6p",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 91,
+  "paragraphCount": 93,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-yeq2sm6p\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-yeq2sm6p\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-yeq2sm6p\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-yeq2sm6p.jsonl",
+  "rawSha256": "79c96f211a1a475b5359d812f85a8cc008525efdedb392b16305abfb029e2970",
+  "normalizedSha256": "19293f9eda8dfee1f7f52372808a302910695265aeee793cf05ccbeabf736554",
+  "processedAt": "2026-06-16T23:09:32.990Z"
+}

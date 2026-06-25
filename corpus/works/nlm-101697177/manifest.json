@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101697177",
+  "title": "Medicinal plants indigenous in Michigan",
+  "creator": "Lyons, A. B. (Albert Brown), 1841-1926 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101697177-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101697177-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101697177",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medicinal-plants",
+  "chunkCount": 69,
+  "paragraphCount": 70,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101697177\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101697177\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101697177\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101697177.jsonl",
+  "rawSha256": "4cd9d2fb000bb1225ad643acdc7a9baca980d3bab668bbd9987b66147f6ed584",
+  "normalizedSha256": "5a20817cd28fb12a55907732dbd2e8b43017060d54d3a3105bcea494ca296123",
+  "processedAt": "2026-06-17T14:47:45.537Z"
+}

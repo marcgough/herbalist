@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63611310R",
+  "title": "Robb & Co.'s family physician : a work on domestic medicines , designed to show how to have health, which is equivalent to time and money",
+  "creator": "Robb, R. L. (Robert Lee)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63611310R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63611310R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63611310R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 3081,
+  "paragraphCount": 3664,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63611310R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63611310R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63611310R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63611310R.jsonl",
+  "rawSha256": "9f000fca4ee758d3e76ab827af0d7e9baf129e0c5ac8cddf5de46a30069e800f",
+  "normalizedSha256": "e990228e2199e68fdf9f8a140f5cdb9dbe8b01e28193479d3457c0dffb4c9a73",
+  "processedAt": "2026-06-20T03:12:39.807Z"
+}

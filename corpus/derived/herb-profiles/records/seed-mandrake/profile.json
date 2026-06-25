@@ -1,0 +1,1186 @@
+{
+  "profile_id": "seed-mandrake",
+  "family_id": "seed-mandrake",
+  "canonical_name": "Mandrake",
+  "canonical_key": "mandrake",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-mandrake-c5944ac299#mandrake"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 332,
+    "total_chunks": 315,
+    "total_works": 107,
+    "matched_chunk_count": 315,
+    "matched_work_count": 107,
+    "matched_mention_total": 315
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Mandrake",
+      "Mandrakes"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0215565",
+      "nlm-100912803"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0859",
+      "nlm-0140313-chunk-0869",
+      "nlm-0140313-chunk-1034"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 201
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 119
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 5
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 248,
+        "work_count": 100
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 116,
+        "work_count": 65
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 47,
+        "work_count": 29
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 44,
+        "work_count": 39
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 39,
+        "work_count": 33
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 27,
+        "work_count": 24
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 15,
+        "work_count": 14
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "preparations": [
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 112,
+        "work_count": 52
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 96,
+        "work_count": 51
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 88,
+        "work_count": 48
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 88,
+        "work_count": 37
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 43,
+        "work_count": 35
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 31,
+        "work_count": 21
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 28,
+        "work_count": 23
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 27,
+        "work_count": 20
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 23,
+        "work_count": 22
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 22,
+        "work_count": 16
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 166,
+        "work_count": 63
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 21,
+        "work_count": 18
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 21,
+        "work_count": 16
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 45,
+        "work_count": 37
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 45,
+        "work_count": 34
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 38,
+        "work_count": 22
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 34,
+        "work_count": 23
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 29,
+        "work_count": 19
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 28,
+        "work_count": 25
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 23,
+        "work_count": 19
+      },
+      {
+        "id": "headache",
+        "label": "Headache",
+        "signal_count": 17,
+        "work_count": 14
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 16,
+        "work_count": 10
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 15,
+        "work_count": 14
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "nlm-101250104",
+      "title": "The practice of medicine, according to the plan most approved by the reformed or botanic colleges of the U.S. : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings : designed principally for families",
+      "creator": "Kost, J., 1819-1904.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250104-bk",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "wellcome-aw843fyz",
+      "title": "The practice of medicine, according to the plan most approved by the Reformed or Botanic Colleges of the U. S : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings ; designed principally for families / by J. Kost.",
+      "creator": "",
+      "publication_year": "1847",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/aw843fyz",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-100912803",
+      "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-63570990R",
+      "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-0140313",
+      "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants;domestic-medicine;hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-101485225",
+      "title": "The American practice abridged, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485225-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-101485229",
+      "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485229-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-101485230",
+      "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485230-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0104",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "MOUNTAIN ARNICA FLOWERS, [Arnica montana,]— Recommended in Low Fevers, Intermittent, Gout, Dropsy, and Rheumatism ; the tincture good for Fresh Wounds. MULLEIN HERB, [Verbascum thapsus,]—Recommended for Children's Fit...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0106",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Ointment"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "[Althaea officinalis,]— Serviceable in Asthma, Dysentery, and affections of the Kidneys. MALLOW (MARSH) ROOT, [Althaea officinalis,]—Good in diseases of the Kidneys, attended with irritation and pain. MANDRAKE ROOT, [...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-2558004RX1-chunk-1645",
+        "work_id": "nlm-2558004RX1",
+        "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volumes 1-2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558004RX1-bk",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "The tea made of it, I am told, is very good to take, by the stomach, for colic pains. —[/. Shaw. ~\\ LUSK’S RHEUMATIC DROPS. Take of, Mandrake root, \\ oz. Black cohush, £ oz. Pipsisawa, 2 drachms. Prickly ash bark, 2 d...",
+        "score": 46
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0009",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Powder",
+          "Ointment"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Kidneys, 19, 21, 23, 31, 32, 125 King’s Evil, 24, 70, 86 Lavender, 88 Laxative, 19 Leek, Garden, 18 Legs, pain in, 81 Lilly, Pond, 33 Lobelia, 21 Lockjaw, 41 Lime Water, 63 Liver, Derangements of, 20 Do Inflammation o...",
+        "score": 46
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0104",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "MOUNTAIN ARNICA FLOWERS, [Arnica montana,]— Recommended in Low Fevers, Intermittent, Gout, Dropsy, and Rheumatism ; the tincture good for Fresh Wounds. MULLEIN HERB, [Verbascum thapsus,]—Recommended for Children's Fit...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0106",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Ointment"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "[Althaea officinalis,]— Serviceable in Asthma, Dysentery, and affections of the Kidneys. MALLOW (MARSH) ROOT, [Althaea officinalis,]—Good in diseases of the Kidneys, attended with irritation and pain. MANDRAKE ROOT, [...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-2558004RX1-chunk-1645",
+        "work_id": "nlm-2558004RX1",
+        "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volumes 1-2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558004RX1-bk",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "The tea made of it, I am told, is very good to take, by the stomach, for colic pains. —[/. Shaw. ~\\ LUSK’S RHEUMATIC DROPS. Take of, Mandrake root, \\ oz. Black cohush, £ oz. Pipsisawa, 2 drachms. Prickly ash bark, 2 d...",
+        "score": 46
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0009",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Powder",
+          "Ointment"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Kidneys, 19, 21, 23, 31, 32, 125 King’s Evil, 24, 70, 86 Lavender, 88 Laxative, 19 Leek, Garden, 18 Legs, pain in, 81 Lilly, Pond, 33 Lobelia, 21 Lockjaw, 41 Lime Water, 63 Liver, Derangements of, 20 Do Inflammation o...",
+        "score": 46
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0104",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "MOUNTAIN ARNICA FLOWERS, [Arnica montana,]— Recommended in Low Fevers, Intermittent, Gout, Dropsy, and Rheumatism ; the tincture good for Fresh Wounds. MULLEIN HERB, [Verbascum thapsus,]—Recommended for Children's Fit...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0106",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Ointment"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "[Althaea officinalis,]— Serviceable in Asthma, Dysentery, and affections of the Kidneys. MALLOW (MARSH) ROOT, [Althaea officinalis,]—Good in diseases of the Kidneys, attended with irritation and pain. MANDRAKE ROOT, [...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-2558004RX1-chunk-1645",
+        "work_id": "nlm-2558004RX1",
+        "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volumes 1-2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558004RX1-bk",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "The tea made of it, I am told, is very good to take, by the stomach, for colic pains. —[/. Shaw. ~\\ LUSK’S RHEUMATIC DROPS. Take of, Mandrake root, \\ oz. Black cohush, £ oz. Pipsisawa, 2 drachms. Prickly ash bark, 2 d...",
+        "score": 46
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0009",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Powder",
+          "Ointment"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Kidneys, 19, 21, 23, 31, 32, 125 King’s Evil, 24, 70, 86 Lavender, 88 Laxative, 19 Leek, Garden, 18 Legs, pain in, 81 Lilly, Pond, 33 Lobelia, 21 Lockjaw, 41 Lime Water, 63 Liver, Derangements of, 20 Do Inflammation o...",
+        "score": 46
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0104",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "MOUNTAIN ARNICA FLOWERS, [Arnica montana,]— Recommended in Low Fevers, Intermittent, Gout, Dropsy, and Rheumatism ; the tincture good for Fresh Wounds. MULLEIN HERB, [Verbascum thapsus,]—Recommended for Children's Fit...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0106",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Ointment"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Rheumatism",
+          "Dysentery",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "[Althaea officinalis,]— Serviceable in Asthma, Dysentery, and affections of the Kidneys. MALLOW (MARSH) ROOT, [Althaea officinalis,]—Good in diseases of the Kidneys, attended with irritation and pain. MANDRAKE ROOT, [...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-2558004RX1-chunk-1645",
+        "work_id": "nlm-2558004RX1",
+        "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volumes 1-2)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558004RX1-bk",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Poultice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "The tea made of it, I am told, is very good to take, by the stomach, for colic pains. —[/. Shaw. ~\\ LUSK’S RHEUMATIC DROPS. Take of, Mandrake root, \\ oz. Black cohush, £ oz. Pipsisawa, 2 drachms. Prickly ash bark, 2 d...",
+        "score": 46
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0009",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "BY AMELIA YOUNG,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mandrake"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Powder",
+          "Ointment"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "Kidneys, 19, 21, 23, 31, 32, 125 King’s Evil, 24, 70, 86 Lavender, 88 Laxative, 19 Leek, Garden, 18 Legs, pain in, 81 Lilly, Pond, 33 Lobelia, 21 Lockjaw, 41 Lime Water, 63 Liver, Derangements of, 20 Do Inflammation o...",
+        "score": 46
+      }
+    ]
+  },
+  "retrieval_text": "Mandrake is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 107 works and 315 source-linked chunks. Recorded variants include Mandrake, Mandrakes. Common plant-part co-mentions include Root, Bark, Seed, Leaf, Gum, Berry. Common preparation co-mentions include Powder, Pill, Tea, Extract, Oil, Syrup. Common condition co-mentions include Cold or catarrh, Fever, Wounds or ulcers, Rheumatism, Dropsy, Cough. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Toxicity watch, Bleeding caution, Allergy or sensitivity caution. Representative source works include The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; The practice of medicine, according to the plan most approved by the reformed or botanic colleges of the U.S. : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings : designed principally for families; The practice of medicine, according to the plan most approved by the Reformed or Botanic Colleges of the U. S : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings ; designed principally for families / by J. Kost.; The American eclectic dispensatory. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.932Z",
+  "builder": "build-herb-profiles.mjs"
+}

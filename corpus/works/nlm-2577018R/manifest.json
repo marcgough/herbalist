@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2577018R",
+  "title": "Dr. John Williams' Last legacy, or, The useful family herbal",
+  "creator": "Williams, John (Physician)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2577018R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2577018R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2577018R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 50,
+  "paragraphCount": 58,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2577018R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2577018R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2577018R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2577018R.jsonl",
+  "rawSha256": "94004f4786044d00281b776b4889d84770dd256bacc299bae085eee4868aebf9",
+  "normalizedSha256": "62a98e164c569e6532352ffec13ad5bfbacf8804a9ea23a8034236cfd9d729b4",
+  "processedAt": "2026-06-16T23:06:57.686Z"
+}

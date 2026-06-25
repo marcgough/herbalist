@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-07430880R",
+  "title": "Laboratory manual for human physiology : experimental studies in hygiene , sanitation and physiology",
+  "creator": "Hartman, Carl G. (Carl Gottfried), 1879-1968 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-07430880R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-07430880R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/07430880R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;public-health",
+  "chunkCount": 267,
+  "paragraphCount": 268,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-07430880R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-07430880R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-07430880R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-07430880R.jsonl",
+  "rawSha256": "a8d8555095a9f7308110e0f251a171a557a173882574375fc8b817ce3647f7c5",
+  "normalizedSha256": "664093eabfabe10b1380ae9576078b1fa1a3f1c2e40db8164959fa163e3de6ca",
+  "processedAt": "2026-06-18T04:50:35.928Z"
+}

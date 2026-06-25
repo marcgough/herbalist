@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-ab3ffmu8",
+  "title": "The consumptive's guide to health, or, the invalid's five questions, and the doctor's five answers ; a comprehensive practical treatise on pulmonary consumption ... addressed in popular language to non-medical readers, and incidentally to physicians and students / by J. Hamilton Potter, M.D.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/ab3ffmu8",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21007767",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/ab3ffmu8",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 370,
+  "paragraphCount": 390,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ab3ffmu8\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-ab3ffmu8\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-ab3ffmu8\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-ab3ffmu8.jsonl",
+  "rawSha256": "ed8f33901b88fe9b45a2210a53430fa638555862df2e3fac936e7868132b9cbe",
+  "normalizedSha256": "5ed1bcbd2982db2f82acb1de3e890726464d07fe5452d336a0cb737e118b509d",
+  "processedAt": "2026-06-16T23:29:55.044Z"
+}

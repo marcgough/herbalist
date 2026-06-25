@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-09431320R",
+  "title": "Materia medica for pharmacy technicians",
+  "creator": "Letterman General Hospital (San Francisco, Calif.) author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-09431320R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-09431320R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/09431320R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 47,
+  "paragraphCount": 49,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-09431320R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-09431320R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-09431320R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-09431320R.jsonl",
+  "rawSha256": "687a87a71de36095f74e6250dd8676c31681fdb02fa8efba273929948815d968",
+  "normalizedSha256": "8447e2a5511491ef221486cf932fb540be450c77d395f5d5760c70aaee7791ae",
+  "processedAt": "2026-06-18T04:50:08.568Z"
+}

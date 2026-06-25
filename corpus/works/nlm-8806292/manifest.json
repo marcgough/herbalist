@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-8806292",
+  "title": "A hand-book of materia medica and therapeutics : with twenty-nine illustrations : being a portion of An analytical compendium of the various branches of medicine",
+  "creator": "Neill, John, 1819-1880.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8806292-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-8806292-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/8806292",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 48,
+  "paragraphCount": 70,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-8806292\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-8806292\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-8806292\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-8806292.jsonl",
+  "rawSha256": "065aa77a98bb2bb87af4079a7286716ad91de5fb7837bf54a2333f2585eba476",
+  "normalizedSha256": "6a3b4042924b3acc81ccdf5a73bff6012e59258feb731a1e1f6e64831e1d7a77",
+  "processedAt": "2026-06-17T17:31:37.404Z"
+}

@@ -1,0 +1,40 @@
+match_key,canonical_key_override,canonical_name_override,catalog_status_override,catalog_class_override,catalog_reason_override,decision_note
+clove-,clove,Clove,,,,merge trailing-punctuation variant into the main clove family
+wild cherry tree,wild cherry,Wild Cherry,,,,merge tree-form naming into the core medicinal wild cherry family
+capsicum,,Capsicum,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong medicinal plant family from review into the seed shortlist
+stramonium,,Stramonium,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong medicinal plant family from review into the seed shortlist
+bayberry,,Bayberry,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong medicinal plant family from review into the seed shortlist
+burdock,,Burdock,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong medicinal plant family from review into the seed shortlist
+belladonna,,Belladonna,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong medicinal plant family from review into the seed shortlist
+blue cohosh,,Blue Cohosh,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong medicinal plant family from review into the seed shortlist
+wild lettuce,,Wild Lettuce,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong medicinal plant family from review into the seed shortlist
+wild indigo,,Wild Indigo,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong medicinal plant family from review into the seed shortlist
+wild valerian,,Wild Valerian,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong medicinal plant family from review into the seed shortlist
+mercurial,,Mercurial,supporting,therapeutic-descriptor,manual-curator-therapeutic-descriptor,retain as historical therapeutic vocabulary rather than a herb entry
+camphorated,,Camphorated,supporting,derived-substance,manual-curator-derived-or-prepared-substance,retain as broader materia medica language rather than a herb entry
+vinegar,,Vinegar,supporting,derived-substance,manual-curator-derived-or-prepared-substance,retain as preparation substance rather than a herb entry
+anodyne,,Anodyne,supporting,therapeutic-descriptor,manual-curator-therapeutic-descriptor,retain as historical therapeutic vocabulary rather than a herb entry
+diaphoretic,,Diaphoretic,supporting,therapeutic-descriptor,manual-curator-therapeutic-descriptor,retain as historical therapeutic vocabulary rather than a herb entry
+tonic,,Tonic,supporting,therapeutic-descriptor,manual-curator-therapeutic-descriptor,retain as historical therapeutic vocabulary rather than a herb entry
+bay-berry,bayberry,Bayberry,,,,merge hyphenated bay-berry witness into the main bayberry family
+buck thorn,buckthorn,Buckthorn,,,,merge spaced buck thorn witness into the main buckthorn family
+flaxseed,linseed,Linseed,,,,merge flaxseed naming into the main linseed family
+flax-seed,linseed,Linseed,,,,merge hyphenated flax-seed naming into the main linseed family
+cayenne,capsicum,Capsicum,,,,merge cayenne naming into the main capsicum family
+cayenne-pepper,capsicum,Capsicum,,,,merge cayenne-pepper naming into the main capsicum family
+digitalis,foxglove,Foxglove,,,,merge digitalis naming into the main foxglove family
+thorn-apple,stramonium,Stramonium,,,,merge thorn-apple naming into the main stramonium family
+catechu,,Catechu,supporting,derived-substance,manual-curator-derived-or-prepared-substance,retain catechu as a historical materia medica extract rather than a first-wave herb page
+aconite,,Aconite,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong historical medicinal plant family from review into the seed shortlist
+boneset,,Boneset,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong historical medicinal plant family from review into the seed shortlist
+buchu,,Buchu,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong medicinal plant family from review into the seed shortlist
+comfrey,,Comfrey,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong historical medicinal plant family from review into the seed shortlist
+horehound,,Horehound,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong historical medicinal plant family from review into the seed shortlist
+hyssop,,Hyssop,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong historical medicinal plant family from review into the seed shortlist
+mullein,,Mullein,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong historical medicinal plant family from review into the seed shortlist
+plantain,plantain,Plantain (Plantago),seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote the medicinal plantain family from review into the seed shortlist
+rue,,Rue,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong historical medicinal plant family from review into the seed shortlist
+spearmint,,Spearmint,seed-ready,culinary-medicinal-plant,manual-curator-promoted-specific-family,promote strong culinary medicinal plant family from review into the seed shortlist
+tansy,,Tansy,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong historical medicinal plant family from review into the seed shortlist
+witch-hazel,witch hazel,Witch Hazel,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong medicinal plant family from review into the seed shortlist
+yarrow,,Yarrow,seed-ready,medicinal-herb,manual-curator-promoted-specific-family,promote strong historical medicinal plant family from review into the seed shortlist

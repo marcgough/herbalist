@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61440090R",
+  "title": "The guide to health : designed to promote the health, happiness and longevity of students and all others in sedentary life, especially invalids",
+  "creator": "Newell, Daniel.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61440090R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61440090R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61440090R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 136,
+  "paragraphCount": 162,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61440090R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61440090R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61440090R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61440090R.jsonl",
+  "rawSha256": "643cc4bdcf3aeb1d7dfcbab4f6e981af4db3138b658c69afdb8fd42af057b53c",
+  "normalizedSha256": "e28aa96409ae0aab9d15511c966d451d16fc106091ef4acf73c90fba00a502d8",
+  "processedAt": "2026-06-17T11:54:35.831Z"
+}

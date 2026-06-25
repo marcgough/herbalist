@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-htyhnrhw",
+  "title": "The family herbal. Or, An account of all those English plants, which are remarkable for their virtues, and of the drugs which are produced by vegetables of other countries; with their descriptions and their uses, as proved by experience / by Sir John Hill. Embellished with one hundred and fifty coloured plants.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/htyhnrhw",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b2928952x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/htyhnrhw",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 794,
+  "paragraphCount": 803,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-htyhnrhw\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-htyhnrhw\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-htyhnrhw\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-htyhnrhw.jsonl",
+  "rawSha256": "c2d862ec280dfb20194a8dab8a47c5e32fbd12d17d24a5304f26fb93f8959a06",
+  "normalizedSha256": "743f41aa3368b9173c2bfeaad27a9100fdf65299abd8cc4788cc22dafc266a2b",
+  "processedAt": "2026-06-16T23:53:26.087Z"
+}

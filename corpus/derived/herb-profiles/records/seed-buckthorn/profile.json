@@ -1,0 +1,1198 @@
+{
+  "profile_id": "seed-buckthorn",
+  "family_id": "seed-buckthorn",
+  "canonical_name": "Buckthorn",
+  "canonical_key": "buckthorn",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-buck-thorn-480e87e991#buck thorn",
+    "term-buckthorn-e03634200b#buckthorn"
+  ],
+  "decision_note": "merge spaced buck thorn witness into the main buckthorn family",
+  "metrics": {
+    "total_mentions": 879,
+    "total_chunks": 792,
+    "total_works": 336,
+    "matched_chunk_count": 792,
+    "matched_work_count": 336,
+    "matched_mention_total": 802
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Buckthorn",
+      "Buck Thorn"
+    ],
+    "sample_work_ids": [
+      "nlm-0217313",
+      "nlm-0217315",
+      "nlm-0217316"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217313-chunk-1791",
+      "nlm-0217315-chunk-0457",
+      "nlm-0217315-chunk-0678"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 582
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 187
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 47
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 292,
+        "work_count": 176
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 137,
+        "work_count": 111
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 118,
+        "work_count": 96
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 109,
+        "work_count": 96
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 99,
+        "work_count": 85
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 99,
+        "work_count": 78
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 91,
+        "work_count": 64
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 88,
+        "work_count": 80
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 31,
+        "work_count": 23
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 24,
+        "work_count": 24
+      }
+    ],
+    "preparations": [
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 616,
+        "work_count": 288
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 262,
+        "work_count": 166
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 217,
+        "work_count": 121
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 202,
+        "work_count": 104
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 151,
+        "work_count": 93
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 130,
+        "work_count": 103
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 127,
+        "work_count": 77
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 68,
+        "work_count": 52
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 60,
+        "work_count": 52
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 46,
+        "work_count": 40
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 217,
+        "work_count": 120
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 68,
+        "work_count": 64
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 66,
+        "work_count": 53
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 36,
+        "work_count": 32
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 66,
+        "work_count": 56
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 56,
+        "work_count": 48
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 49,
+        "work_count": 49
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 41,
+        "work_count": 40
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 36,
+        "work_count": 30
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 34,
+        "work_count": 29
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 26,
+        "work_count": 26
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 24,
+        "work_count": 23
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 22,
+        "work_count": 19
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 16,
+        "work_count": 11
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 52,
+      "matched_mention_count": 52
+    },
+    {
+      "work_id": "wellcome-takhmyez",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+      "creator": "",
+      "publication_year": "1747",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/takhmyez",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-gtpbv42a",
+      "title": "Pharmacopoeia officinalis et extemporanea: or, a compleat English dispensatory, in four parts. Containing I. The theory of pharmacy. And the feveral proceffes therein. II. A description of the officinal simples, with their virtues and preparations, Galenical and chymical. III. The officinal compositions; being such of the London and Bates's dispensatory as are now in use; together with fome others of uncommon efficacy, taken from the moft celebrated authors. IV. Extemporaneous prescriptions. Diftributed into claffes fuitable to their intentions in cure / By John Quincy, M. D.",
+      "creator": "",
+      "publication_year": "1726",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/gtpbv42a",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "nlm-2701678R",
+      "title": "The new dispensatory ... : the whole interspersed with practical cautions and observations",
+      "creator": "Lewis, William, 1708-1781.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2701678R-bk",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-q3jme7ef",
+      "title": "Pharmacopoeia officinalis et extemporanea: or, a complete English dispensatory, in four parts. Containing I. The theory of pharmacy ... II. A description of the officinal simples ... III. The officinal compositions; being such of the London and Bates's [sic] dispensatory as are now in use ... IV. Extemporaneous prescriptions ... To which is added, an account of the common adulterations both of simples and compounds; with some marks to detect them by / By John Quincy.",
+      "creator": "",
+      "publication_year": "1739",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/q3jme7ef",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-hqjgqauu",
+      "title": "The new dispensatory : containing, I. The elements of pharmacy. II. The materia medica, or an account of the substances employed in medicine; with the virtues and uses of each article, so far as they are warranted by experience and observation. III. The preparations and compositions of the new London and Edinburgh pharmacopoeas; with such of the old ones as are kept in the shops; the most celebrated foreign medicines; the most useful of those directed in the hospitals; sundry elegant extemporaneous forms, &c. digested in such a method as to compose a regular system of pharmacy; with remarks on their preparation and uses; the means of distinguishing adulterations; of performing the more difficult and dangerous processes with ease and safety, &c. : the whole interspersed with practical cautions and observations / by W. Lewis, M. B. F. R. S.",
+      "creator": "",
+      "publication_year": "1781",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/hqjgqauu",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-0217315",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases by regimen and simple medicines : with observations on sea-bathing, and the use of the mineral waters, to which is annexed a dispensatory for the use of private practitioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217315-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-fye8pzgm",
+      "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines; with observations on sea-bathing, and the use of the mineral waters to which is annexed, a dispensatory for the use of private practitioners / From the 22d English ed., with considerable additions and notes.",
+      "creator": "",
+      "publication_year": "1828",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/fye8pzgm",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-0217317",
+      "title": "New and enlarged edition of Dr. Buchan's Domestic medicine : or a treatise on the prevention and cure of diseases by regimen and simple medicines : with the latest corrections and improvements, and full directions in regard to air, exercise, bathing, clothing, sleep, diet, &c. &c. and the general management of the diseases of women and children : to which is annexed a complete family dispensatory, for the use of private practitioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0217317-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-61820150R-chunk-0059",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Buck Thorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Ointment",
+          "Gargle",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BUCK THORN BERRIES, [Rhamnus Catharticus,]—Re- commended in Dropsy, Rheumatism, and Gout. D2 42 R00T8, HERBS, AND FLOWERS. BITTER WORM, [Menyanthes Trifoliata,]—The infusion useful in Scurvy, Herpetic Diseases, and Rh...",
+        "score": 60
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0060",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Buck Thorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Ointment",
+          "Gargle",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BANEBERRY, RED, [Act«a Rubra,]—Cleansing and strengthening ; good in Female Obstructions. BLACKBERRIED ELDER, -[Sambucus Canadensis,]—The infusion is popular for Erysipelas, Fevers, Rheumatism, Gout, &c. BUCK THORN BE...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0020",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dropsy"
+        ],
+        "excerpt": "This remedy has been used in Europe for intermittents, rheumatism, scrofula, scurvy, dropsy, jaundice and various cachectic affections. BUCKHORN BRAKE, Osmunda regalis. Muc. Dem. Compounded with other articles, the bu...",
+        "score": 43
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-61820150R-chunk-0059",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Buck Thorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Ointment",
+          "Gargle",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BUCK THORN BERRIES, [Rhamnus Catharticus,]—Re- commended in Dropsy, Rheumatism, and Gout. D2 42 R00T8, HERBS, AND FLOWERS. BITTER WORM, [Menyanthes Trifoliata,]—The infusion useful in Scurvy, Herpetic Diseases, and Rh...",
+        "score": 60
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0060",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Buck Thorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Ointment",
+          "Gargle",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BANEBERRY, RED, [Act«a Rubra,]—Cleansing and strengthening ; good in Female Obstructions. BLACKBERRIED ELDER, -[Sambucus Canadensis,]—The infusion is popular for Erysipelas, Fevers, Rheumatism, Gout, &c. BUCK THORN BE...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0020",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dropsy"
+        ],
+        "excerpt": "This remedy has been used in Europe for intermittents, rheumatism, scrofula, scurvy, dropsy, jaundice and various cachectic affections. BUCKHORN BRAKE, Osmunda regalis. Muc. Dem. Compounded with other articles, the bu...",
+        "score": 43
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-61820150R-chunk-0059",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Buck Thorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Ointment",
+          "Gargle",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BUCK THORN BERRIES, [Rhamnus Catharticus,]—Re- commended in Dropsy, Rheumatism, and Gout. D2 42 R00T8, HERBS, AND FLOWERS. BITTER WORM, [Menyanthes Trifoliata,]—The infusion useful in Scurvy, Herpetic Diseases, and Rh...",
+        "score": 60
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0060",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Buck Thorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Ointment",
+          "Gargle",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BANEBERRY, RED, [Act«a Rubra,]—Cleansing and strengthening ; good in Female Obstructions. BLACKBERRIED ELDER, -[Sambucus Canadensis,]—The infusion is popular for Erysipelas, Fevers, Rheumatism, Gout, &c. BUCK THORN BE...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0020",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dropsy"
+        ],
+        "excerpt": "This remedy has been used in Europe for intermittents, rheumatism, scrofula, scurvy, dropsy, jaundice and various cachectic affections. BUCKHORN BRAKE, Osmunda regalis. Muc. Dem. Compounded with other articles, the bu...",
+        "score": 43
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-1648",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Liniment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation"
+        ],
+        "excerpt": "Flax, Common. -The seed is used in medicine under the name of linseed ; also the oil expressed therefrom. The infusion of the seeds, or linseed tea, is a very useful demulcent in coughs, colds, strangury, and bladder...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0020",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [
+          "Syrup"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dropsy"
+        ],
+        "excerpt": "This remedy has been used in Europe for intermittents, rheumatism, scrofula, scurvy, dropsy, jaundice and various cachectic affections. BUCKHORN BRAKE, Osmunda regalis. Muc. Dem. Compounded with other articles, the bu...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-8004761-chunk-2516",
+        "work_id": "nlm-8004761",
+        "title": "Popular medicine, or, The American family physician : a work in which the principles and practice of medicine are familiarly explained : comprising a complete and comprehensive description of diseases, with full and definite directions for their treatment : the properties of many new and important medicines, with their doses and mode of administration, are accurately described : designed for general use and adapted to all climates",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "DESIGNED FOR GENERAL USE,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-8004761-bk",
+        "matched_herbs": [
+          "Buckthorn"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Gum"
+        ],
+        "preparations": [
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Rheumatism",
+          "Constipation",
+          "Headache"
+        ],
+        "excerpt": "R Pulverized Socotrine Aloes, \" Gamboge, each half an ounce. Ipecac, Lach half a drachm. Scammony, ) Castile Soap, three drachms. Oil of Anise, forty drops. Syrup of Buckthorn, sufficient to make mass. Divide into fou...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-y4dht4p3-chunk-0213",
+        "work_id": "wellcome-y4dht4p3",
+        "title": "The new domestic medical manual : being a practical and familiar guide to the treatment of diseases generally; on a simplified and condensed plan: containing opinions of the most eminent practitioners; with a variety of approved and popular prescriptions; translated into English for family purposes. Also containing brief expositions of domestic surgery, with an adapted pharmacopoeia; for the use of clergymen, heads of families, captains of ships, travellers, &c. &c. With a variety of other useful information / By J. S. Forsyth.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y4dht4p3",
+        "matched_herbs": [
+          "Buck- Thorn"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Oil",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Inflammation"
+        ],
+        "excerpt": "To increase, how- ever, this latter effect, it has been found advan-* tageous to unite with the mercury a small propor- tion of antimonial powder, as well as of opium, to protect the bowels from irritation. To keepi u...",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Buckthorn is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 336 works and 792 source-linked chunks. Recorded variants include Buckthorn, Buck Thorn. Common plant-part co-mentions include Berry, Root, Flower, Seed, Bark, Leaf. Common preparation co-mentions include Syrup, Juice, Oil, Pill, Powder, Tincture. Common condition co-mentions include Diarrhoea or looseness, Cold or catarrh, Vomiting or nausea, Gout, Dropsy, Fever. Caution co-mentions include Dose caution, Child-use caution, Narcotic or sedative caution, Bleeding caution, Toxicity watch, Fatal-risk warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; Pharmacopoeia officinalis et extemporanea: or, a compleat English dispensatory, in four parts. Containing I. The theory of pharmacy. And the feveral proceffes therein. II. A description of the officinal simples, with their virtues and preparations, Galenical and chymical. III. The officinal compositions; being such of the London and Bates's dispensatory as are now in use; together with fome others of uncommon efficacy, taken from the moft celebrated authors. IV. Extemporaneous prescriptions. Diftributed into claffes fuitable to their intentions in cure / By John Quincy, M. D.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.837Z",
+  "builder": "build-herb-profiles.mjs"
+}

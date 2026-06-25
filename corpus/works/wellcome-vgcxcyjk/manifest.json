@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-vgcxcyjk",
+  "title": "Homoeopathic guide to health / [Ashton & Parsons Ltd.].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/vgcxcyjk",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b33471824",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/vgcxcyjk",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 264,
+  "paragraphCount": 265,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-vgcxcyjk\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-vgcxcyjk\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-vgcxcyjk\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-vgcxcyjk.jsonl",
+  "rawSha256": "6d6ef89bba50b860a7819ee400f15ea6fbf4cb5c1410aa06e9c6bd09ad1ea1ce",
+  "normalizedSha256": "61bcc6e51eea38735ff212454ad76ace95e587995d8de5646b692bc24e55c18a",
+  "processedAt": "2026-06-16T23:29:28.792Z"
+}

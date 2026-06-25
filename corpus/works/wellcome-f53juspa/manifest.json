@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-f53juspa",
+  "title": "The new domestic medicine : or, a treatise on the prevention and cure of diseases, by regimen and simple medicines. With an appendix, containing a dispensatory for the use of private practitioners. ... ; To which is now first added, memoirs of the life of Dr. Buchan : and important extracts from other works, particularly his Advice to mothers, ... / by William Buchan.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/f53juspa",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21942328",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/f53juspa",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1855,
+  "paragraphCount": 1865,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-f53juspa\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-f53juspa\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-f53juspa\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-f53juspa.jsonl",
+  "rawSha256": "c1f7151f2d3abe593eb7495357bd18e750100d8a5c711e00eea42802ef735dc9",
+  "normalizedSha256": "2f7bdf68d44eb179f6de1628981df3f2522f4cde2934c118668deac7377fecd2",
+  "processedAt": "2026-06-16T13:59:39.995Z"
+}

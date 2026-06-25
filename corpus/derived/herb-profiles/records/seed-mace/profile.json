@@ -1,0 +1,1101 @@
+{
+  "profile_id": "seed-mace",
+  "family_id": "seed-mace",
+  "canonical_name": "Mace",
+  "canonical_key": "mace",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-mace-20613c35da#mace"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 845,
+    "total_chunks": 736,
+    "total_works": 317,
+    "matched_chunk_count": 736,
+    "matched_work_count": 317,
+    "matched_mention_total": 736
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Mace"
+    ],
+    "sample_work_ids": [
+      "nlm-0217313",
+      "nlm-0217315",
+      "nlm-0217317"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217313-chunk-1797",
+      "nlm-0217315-chunk-1942",
+      "nlm-0217317-chunk-1985"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 724
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 10
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 2
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 144,
+        "work_count": 138
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 87,
+        "work_count": 66
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 72,
+        "work_count": 65
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 63,
+        "work_count": 54
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 51,
+        "work_count": 51
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 43,
+        "work_count": 37
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 42,
+        "work_count": 42
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 33,
+        "work_count": 27
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 30,
+        "work_count": 30
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 7,
+        "work_count": 7
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 716,
+        "work_count": 309
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 152,
+        "work_count": 121
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 149,
+        "work_count": 118
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 61,
+        "work_count": 47
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 59,
+        "work_count": 48
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 33,
+        "work_count": 30
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 33,
+        "work_count": 28
+      },
+      {
+        "id": "cordial",
+        "label": "Cordial",
+        "signal_count": 24,
+        "work_count": 22
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 20,
+        "work_count": 18
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 18,
+        "work_count": 17
+      }
+    ],
+    "cautions": [
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 83,
+        "work_count": 76
+      },
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 82,
+        "work_count": 59
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 8,
+        "work_count": 7
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "conditions": [
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 74,
+        "work_count": 66
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 70,
+        "work_count": 53
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 22,
+        "work_count": 21
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 14,
+        "work_count": 11
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "wellcome-tbt9dxgq",
+      "title": "The new dispensatory: containing, I. The elements of pharmacy. II. The materia medica, or an account of the substances employed in medicine with the virtues and uses of each article, so far as they are warranted by experience and observation. III. The preparations and compositions of the London and Edinburgh pharmacopoeias / By William Lewis, M.B., F.R.S.",
+      "creator": "",
+      "publication_year": "1768",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/tbt9dxgq",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-takhmyez",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+      "creator": "",
+      "publication_year": "1747",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/takhmyez",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-hqjgqauu",
+      "title": "The new dispensatory : containing, I. The elements of pharmacy. II. The materia medica, or an account of the substances employed in medicine; with the virtues and uses of each article, so far as they are warranted by experience and observation. III. The preparations and compositions of the new London and Edinburgh pharmacopoeas; with such of the old ones as are kept in the shops; the most celebrated foreign medicines; the most useful of those directed in the hospitals; sundry elegant extemporaneous forms, &c. digested in such a method as to compose a regular system of pharmacy; with remarks on their preparation and uses; the means of distinguishing adulterations; of performing the more difficult and dangerous processes with ease and safety, &c. : the whole interspersed with practical cautions and observations / by W. Lewis, M. B. F. R. S.",
+      "creator": "",
+      "publication_year": "1781",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/hqjgqauu",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-m7ynte5e",
+      "title": "The new dispensatory : containing, I. the elements of pharmacy : II. the materia medica, or, An account of the substances employed in medicine; with the virtues and uses of each srticle, so far as they are warranted by experience and observation : III. the preparations and compositions of the new London and Edinburgh pharmacopoeias; with such of the old ones as are kept in the shops; the most celebrated foreign medicines; the most useful of those directed in the hospitals; sundry elegant extemporaneous forms, &c. digested in such a method as to compose a regular system of pharmacy; with remarks on their preparation and uses; the means of distinguishing adulterations; of performing the more difficult and dangerous processes with ease and safety, &c. : the whole interspersed with practical cautions and observations / by W. Lewis, M.B.F.R.S.",
+      "creator": "",
+      "publication_year": "1782",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/m7ynte5e",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-2701678R",
+      "title": "The new dispensatory ... : the whole interspersed with practical cautions and observations",
+      "creator": "Lewis, William, 1708-1781.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2701678R-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-zphmbrys",
+      "title": "The Edinburgh new dispensatory ... / containing I. The elements of pharmaceutical chemistry. II. The materia medica; or, an account of the natural history, qualities, operations and uses, of the different substances employed in medicine. III. The pharmaceutical preparations and medicinal compositions of the new editions of the London (1788) and Edinburgh (1783) pharmacopoeias; with explanatory, critical, and practical observations on each: together with the addition of those formulae, from the best foreign pharmacopoeias, which are held in highest esteem in other parts of Europe. The whole interspersed with practical cautions and observations, and enriched by the latest discoveries in natural history, chemistry, and medicine; With new tables of elective attractions, of antimony, of mercury, &c. and copperplates of the most convenient furnaces, and principal pharmaceutical instruments. Being an improvement upon the New dispensatory of Dr. Lewis.",
+      "creator": "",
+      "publication_year": "1791",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/zphmbrys",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-hhhxg64u",
+      "title": "The new dispensatory : containing, I. The elements of pharmacy. II. The materia medica, or an account of the substances employed in medicine; with the virtues and uses of each article, so far as they are warranted by experience and observation. III. The preparations and compositions of the new London and Edinburgh pharmacopoeas; with some of the most celebrated foreign medicines; the most useful of those directed in the hospitals; sundry elegant extemporaneous forms, &c. digested in such a method as to compose a regular system of pharmacy; with remarks on their preparation and uses; the means of distinguishing adulterations; of performing the more difficult and dangerous processes with ease and safety, &c. : the whole interspersed with practical cautions and observations / by W. Lewis, M. B. F. R. S.",
+      "creator": "",
+      "publication_year": "1799",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/hhhxg64u",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-nhx2ne6y",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63610340R-chunk-0772",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Plaster",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "In such cases antispasmodic remedies should be administered, particularly valerian root, peppermint drops, fennel or caraway, bismuth, tartar emetic (from one-half to one grain). Nitrate of bismuth from two to three g...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1395",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "The diarrhoea attacking children during dentition, should under no circumstances be suddenly checked. If, however, there is reason to believe that the child is losing strength too fast, rhubarb should be constantly ad...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-v4g7fk8k-chunk-2147",
+        "work_id": "wellcome-v4g7fk8k",
+        "title": "Indian medicinal plants / by Lietenant-Colonel K.R. Kirtikar ... Major B.D. Basu ... and I.C.S. (retired).",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/v4g7fk8k",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Oil, in which the leaves have been boiled, is applied to paralysed parts, a powder of the dried leaves is dusted upon wounds to destroy excessive granulation and promote healthy action. In want of virility the followi...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-dtw8vtbe-chunk-0454",
+        "work_id": "wellcome-dtw8vtbe",
+        "title": "Pharmacopœia officinalis Britannica: or a new translation into English of the last edition of the pharmacopœia of the Royal College of Physicians of London; : with which are incorporated all the formulæ of the Dublin and Edinburgh colleges in alphabetical order: together with notes explanatory of the different processes, a correct table of old and new names, and a copious index. / By Richard Stocker.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dtw8vtbe",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [],
+        "excerpt": "Sulpliurct of pota sli 331 Lobelia. Cardinal-flower 46 Logwood 40 watery extract 220 Long-pepper 55 Loosestrife 4“ Lunar caustic. Nitrate of silver 147 Lytta. Blistering or Spanish fly 46 infusion ointment 426, 439 po...",
+        "score": 35
+      },
+      {
+        "chunk_id": "wellcome-d6g8apzt-chunk-0677",
+        "work_id": "wellcome-d6g8apzt",
+        "title": "The extra pharmacopœia of Martindale and Westcott.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/d6g8apzt",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Powder",
+          "Ointment",
+          "Plaster",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Headache"
+        ],
+        "excerpt": "D. i. /is,530. c. f. also p. 156. Daisy Powders. Headache Powders usually contain Acetanilide, 3 grains each. Healine (for rupture). —Analysis of Pills gave indefinite results— c. f. B. M. J. w. /o8,1198. Hochfelder P...",
+        "score": 35
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63610340R-chunk-0772",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Plaster",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "In such cases antispasmodic remedies should be administered, particularly valerian root, peppermint drops, fennel or caraway, bismuth, tartar emetic (from one-half to one grain). Nitrate of bismuth from two to three g...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1395",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "The diarrhoea attacking children during dentition, should under no circumstances be suddenly checked. If, however, there is reason to believe that the child is losing strength too fast, rhubarb should be constantly ad...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-v4g7fk8k-chunk-2147",
+        "work_id": "wellcome-v4g7fk8k",
+        "title": "Indian medicinal plants / by Lietenant-Colonel K.R. Kirtikar ... Major B.D. Basu ... and I.C.S. (retired).",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/v4g7fk8k",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Oil, in which the leaves have been boiled, is applied to paralysed parts, a powder of the dried leaves is dusted upon wounds to destroy excessive granulation and promote healthy action. In want of virility the followi...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-dtw8vtbe-chunk-0454",
+        "work_id": "wellcome-dtw8vtbe",
+        "title": "Pharmacopœia officinalis Britannica: or a new translation into English of the last edition of the pharmacopœia of the Royal College of Physicians of London; : with which are incorporated all the formulæ of the Dublin and Edinburgh colleges in alphabetical order: together with notes explanatory of the different processes, a correct table of old and new names, and a copious index. / By Richard Stocker.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dtw8vtbe",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [],
+        "excerpt": "Sulpliurct of pota sli 331 Lobelia. Cardinal-flower 46 Logwood 40 watery extract 220 Long-pepper 55 Loosestrife 4“ Lunar caustic. Nitrate of silver 147 Lytta. Blistering or Spanish fly 46 infusion ointment 426, 439 po...",
+        "score": 35
+      },
+      {
+        "chunk_id": "wellcome-d6g8apzt-chunk-0677",
+        "work_id": "wellcome-d6g8apzt",
+        "title": "The extra pharmacopœia of Martindale and Westcott.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/d6g8apzt",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Powder",
+          "Ointment",
+          "Plaster",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Headache"
+        ],
+        "excerpt": "D. i. /is,530. c. f. also p. 156. Daisy Powders. Headache Powders usually contain Acetanilide, 3 grains each. Healine (for rupture). —Analysis of Pills gave indefinite results— c. f. B. M. J. w. /o8,1198. Hochfelder P...",
+        "score": 35
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63610340R-chunk-0772",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Plaster",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "In such cases antispasmodic remedies should be administered, particularly valerian root, peppermint drops, fennel or caraway, bismuth, tartar emetic (from one-half to one grain). Nitrate of bismuth from two to three g...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1395",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "The diarrhoea attacking children during dentition, should under no circumstances be suddenly checked. If, however, there is reason to believe that the child is losing strength too fast, rhubarb should be constantly ad...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-v4g7fk8k-chunk-2147",
+        "work_id": "wellcome-v4g7fk8k",
+        "title": "Indian medicinal plants / by Lietenant-Colonel K.R. Kirtikar ... Major B.D. Basu ... and I.C.S. (retired).",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/v4g7fk8k",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Powder",
+          "Juice",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Oil, in which the leaves have been boiled, is applied to paralysed parts, a powder of the dried leaves is dusted upon wounds to destroy excessive granulation and promote healthy action. In want of virility the followi...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-d6g8apzt-chunk-0677",
+        "work_id": "wellcome-d6g8apzt",
+        "title": "The extra pharmacopœia of Martindale and Westcott.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/d6g8apzt",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Powder",
+          "Ointment",
+          "Plaster",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Headache"
+        ],
+        "excerpt": "D. i. /is,530. c. f. also p. 156. Daisy Powders. Headache Powders usually contain Acetanilide, 3 grains each. Healine (for rupture). —Analysis of Pills gave indefinite results— c. f. B. M. J. w. /o8,1198. Hochfelder P...",
+        "score": 35
+      },
+      {
+        "chunk_id": "wellcome-udrftdvz-chunk-0002",
+        "work_id": "wellcome-udrftdvz",
+        "title": "Medical and miscellaneous recipes : from the best recipes to be had / compiled and to be had only from D. Slater.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/udrftdvz",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "Mix the tincture and paregoric with the spirit of chloroform, and in the resulting liquids dissolve the oils. To above add the liquid extracts and shake well. Heat the treacle with 2 ozs. water, add the syrup of squil...",
+        "score": 34
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63610340R-chunk-0772",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Plaster",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "In such cases antispasmodic remedies should be administered, particularly valerian root, peppermint drops, fennel or caraway, bismuth, tartar emetic (from one-half to one grain). Nitrate of bismuth from two to three g...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1395",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Ointment",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "The diarrhoea attacking children during dentition, should under no circumstances be suddenly checked. If, however, there is reason to believe that the child is losing strength too fast, rhubarb should be constantly ad...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-d6g8apzt-chunk-0677",
+        "work_id": "wellcome-d6g8apzt",
+        "title": "The extra pharmacopœia of Martindale and Westcott.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/d6g8apzt",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Powder",
+          "Ointment",
+          "Plaster",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Headache"
+        ],
+        "excerpt": "D. i. /is,530. c. f. also p. 156. Daisy Powders. Headache Powders usually contain Acetanilide, 3 grains each. Healine (for rupture). —Analysis of Pills gave indefinite results— c. f. B. M. J. w. /o8,1198. Hochfelder P...",
+        "score": 35
+      },
+      {
+        "chunk_id": "wellcome-udrftdvz-chunk-0002",
+        "work_id": "wellcome-udrftdvz",
+        "title": "Medical and miscellaneous recipes : from the best recipes to be had / compiled and to be had only from D. Slater.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/udrftdvz",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Resin"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Ointment",
+          "Bath",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "Mix the tincture and paregoric with the spirit of chloroform, and in the resulting liquids dissolve the oils. To above add the liquid extracts and shake well. Heat the treacle with 2 ozs. water, add the syrup of squil...",
+        "score": 34
+      },
+      {
+        "chunk_id": "wellcome-xbdtnede-chunk-1349",
+        "work_id": "wellcome-xbdtnede",
+        "title": "Medical botany : or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias; comprising a popular and scientific account of all those poisonous vegetables that are indigenous to Great Britain / by John Stephenson and James Morss Churchill.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xbdtnede",
+        "matched_herbs": [
+          "Mace"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Fruit"
+        ],
+        "preparations": [
+          "Oil",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "They are supposed to be cordial, carminative, anodyne, and astringent; and with a view to the last-mentioned effects, they have been used in diarrhoea and dysentery. Given in large quantities, the nutmeg produces stup...",
+        "score": 34
+      }
+    ]
+  },
+  "retrieval_text": "Mace is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 317 works and 736 source-linked chunks. Recorded variants include Mace. Common plant-part co-mentions include Gum, Resin, Leaf, Seed, Fruit, Berry. Common preparation co-mentions include Oil, Plaster, Powder, Ointment, Extract, Liniment. Common condition co-mentions include Rheumatism, Cold or catarrh, Vomiting or nausea, Diarrhoea or looseness, Wounds or ulcers, Cough. Caution co-mentions include Narcotic or sedative caution, Dose caution, Bleeding caution, Fatal-risk warning, Child-use caution, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; The new dispensatory: containing, I. The elements of pharmacy. II. The materia medica, or an account of the substances employed in medicine with the virtues and uses of each article, so far as they are warranted by experience and observation. III. The preparations and compositions of the London and Edinburgh pharmacopoeias / By William Lewis, M.B., F.R.S.; Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.846Z",
+  "builder": "build-herb-profiles.mjs"
+}

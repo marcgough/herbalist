@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-7704741",
+  "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica",
+  "creator": "Howard, Horton, 1770-1833.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704741-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-7704741-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/7704741",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;botanic-medicine",
+  "chunkCount": 2460,
+  "paragraphCount": 3129,
+  "sectionCount": 19,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-7704741\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-7704741\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-7704741\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-7704741.jsonl",
+  "rawSha256": "43f02bdcefd076379ebfead59886a3f25315c7b4255d86b24712c7d2e7465b91",
+  "normalizedSha256": "7983c5807263c64a89c43745eac3fa85216646d423b81c02ab0044b78994c35b",
+  "processedAt": "2026-06-17T00:58:30.007Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64220920R",
+  "title": "The American vegetable practice : or a new and improved guide to health, designed for the use of families : in six parts",
+  "creator": "Mattson, M. (Morris), 1809?-1885.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220920R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64220920R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64220920R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 2125,
+  "paragraphCount": 2901,
+  "sectionCount": 16,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220920R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220920R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64220920R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64220920R.jsonl",
+  "rawSha256": "8b0a3c2d70925a0f00b38968db4ff88153e60c495b0217eedbd001e22fd5d1ef",
+  "normalizedSha256": "4ab1a29795defe8f6d4c53c930290a1d4db1da743bcd3edb4afb0b85bc38f464",
+  "processedAt": "2026-06-17T17:31:49.275Z"
+}

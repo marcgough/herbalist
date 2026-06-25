@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-kpx7ry9z",
+  "title": "A key to physic, and the occult sciences ... To which are added, lunar tables ... exhibiting ... the actual moment of the crisis of every disease ... The whole forming an interesting supplement to Culpeper's Family physician ... By E. Sibly.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/kpx7ry9z",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b24923357",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/kpx7ry9z",
+  "rightsStatus": "pdm",
+  "topicFamily": "domestic-medicine;botany",
+  "chunkCount": 1739,
+  "paragraphCount": 1845,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-kpx7ry9z\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-kpx7ry9z\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-kpx7ry9z\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-kpx7ry9z.jsonl",
+  "rawSha256": "08890e424d273504042b1149c2af46ea2a362b6b71c2a779b79fcdeb0398b596",
+  "normalizedSha256": "505a182e4bca4f3fcfa0568ee9b874801d14d013249aaf6ad07679572cefb0c2",
+  "processedAt": "2026-06-17T00:34:40.866Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63580350R",
+  "title": "Johnson's family physician : from the ablest medical authorities, giving numerous and dangerous diseases to which the human race is subject, the symptoms and treatment, or what is necessary to be done in an emergency for the patient before the physician arrives, thereby alleviating suffering and often saving life",
+  "creator": "Hudson, E. Darwin (Erasmus Darwin), Jr., 1843-1887.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580350R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63580350R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63580350R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 30,
+  "paragraphCount": 63,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580350R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580350R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63580350R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63580350R.jsonl",
+  "rawSha256": "8902b550b56ae452f5e09d5cdf0a6608f913797a04267258893ef68767ba490f",
+  "normalizedSha256": "f354797a401aa0790060a3ed54837ebed85499321cf1773ef582e3d6343e51e5",
+  "processedAt": "2026-06-18T14:38:16.955Z"
+}

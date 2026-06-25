@@ -1,0 +1,1166 @@
+{
+  "profile_id": "seed-wormwood",
+  "family_id": "seed-wormwood",
+  "canonical_name": "Wormwood",
+  "canonical_key": "wormwood",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-wormwood-f9e06099c6#wormwood"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 787,
+    "total_chunks": 722,
+    "total_works": 326,
+    "matched_chunk_count": 722,
+    "matched_work_count": 326,
+    "matched_mention_total": 722
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Wormwood",
+      "Wormwood Tops"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0215565",
+      "nlm-0217313"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-2210",
+      "nlm-0140313-chunk-2554",
+      "nlm-0215565-chunk-0100"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 563
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 130
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 37
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 162,
+        "work_count": 135
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 145,
+        "work_count": 79
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 136,
+        "work_count": 93
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 134,
+        "work_count": 112
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 91,
+        "work_count": 73
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 83,
+        "work_count": 55
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 80,
+        "work_count": 60
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 27,
+        "work_count": 26
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 19,
+        "work_count": 18
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 19,
+        "work_count": 12
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 265,
+        "work_count": 152
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 224,
+        "work_count": 96
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 168,
+        "work_count": 83
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 153,
+        "work_count": 83
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 130,
+        "work_count": 73
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 124,
+        "work_count": 101
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 120,
+        "work_count": 69
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 92,
+        "work_count": 57
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 60,
+        "work_count": 45
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 60,
+        "work_count": 39
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 186,
+        "work_count": 93
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 58,
+        "work_count": 46
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 37,
+        "work_count": 33
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 70,
+        "work_count": 49
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 66,
+        "work_count": 65
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 45,
+        "work_count": 35
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 38,
+        "work_count": 33
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 29,
+        "work_count": 27
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 22,
+        "work_count": 19
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 17,
+        "work_count": 17
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 17,
+        "work_count": 16
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 17,
+        "work_count": 14
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 11,
+        "work_count": 11
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 86,
+      "matched_mention_count": 86
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-m43ephex",
+      "title": "The Codicil to \"my will\" for the healthy and the sick : containing chapters on the anatomy and care of the human body, gymnastic exercises, first help in accidents, cooking recipes, medicinal plants and the cure of diseases.",
+      "creator": "",
+      "publication_year": "1897",
+      "collection_id": "wellcome-collection",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://wellcomecollection.org/works/m43ephex",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "nlm-2548018R",
+      "title": "Pharmacopoeia Londinensis, or, the London dispensatory : further adorned by the studies and collections of the fellows now living, of the said college",
+      "creator": "Culpeper, Nicholas, 1616-1654.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2548018R-bk",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-q3jme7ef",
+      "title": "Pharmacopoeia officinalis et extemporanea: or, a complete English dispensatory, in four parts. Containing I. The theory of pharmacy ... II. A description of the officinal simples ... III. The officinal compositions; being such of the London and Bates's [sic] dispensatory as are now in use ... IV. Extemporaneous prescriptions ... To which is added, an account of the common adulterations both of simples and compounds; with some marks to detect them by / By John Quincy.",
+      "creator": "",
+      "publication_year": "1739",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/q3jme7ef",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "pg-49513",
+      "title": "The Complete Herbal",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "herbal",
+      "source_url": "https://www.gutenberg.org/ebooks/49513",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-kxejz6hv",
+      "title": "A medicinal dictionary; including physic, surgery, anatomy, chymistry, and botany, in all their branches relative to medicine. Together with a history of drugs ... and an introductory preface, tracing the progress of physic, and explaining the theories which have ... prevail'd in all ages / By R. James.",
+      "creator": "",
+      "publication_year": "1743",
+      "collection_id": "wellcome-collection",
+      "topic_family": "botany",
+      "source_url": "https://wellcomecollection.org/works/kxejz6hv",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-yfu6989c",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/yfu6989c",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-ctkumbc4",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+      "creator": "",
+      "publication_year": "1820",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0236",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Powder",
+          "Bath"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is to be given in decoction, or infusion. It is very appropriate to female complaints. The infusion is excellent for profuse menstruation. Combined with wormwood and cammomile flowers, it greatly assists in child-b...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0359",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Rheumatism"
+        ],
+        "excerpt": "Extract of Wormwood. See Extractum Absinthii. Extractum Acacle Catechu. See Catechu Extractum. Extractum Absinthii Cacumina. D. Extract of Wormwood. Prepared from a defecated decoction. The essential oil is driven off...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-101149811-chunk-0044",
+        "work_id": "nlm-101149811",
+        "title": "The botanic family physician , or, The secret of curing all diseases on improved hygeian principles, fully disclosed : containing also formulas or recipes for the cure of every disease incidental to human nature : together with a valuable digest on midwifery",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101149811-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Juice",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dropsy"
+        ],
+        "excerpt": "For Dropsy. Take a tea of dwarf elder roots, for daily drink. Continue it for thirty days Take a handful of rose willow bark, and half a peck of dry ches- ■ ut leaves: boil in five quarts of rain water to two; and add...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-64230520R-chunk-1650",
+        "work_id": "nlm-64230520R",
+        "title": "The botanic physician : being a compendium of the practice of medicine upon botanic principles : containing all the principal branches necessary to the study of medicine as causes, symptoms, and cure of diseases : midwifery, materia medica , pharmacy and botany, surgery, physiology &c. : together with a great variety of useful recipes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230520R-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Wash",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Take skunk cabbage ball one ounce, whitewood bark, and Indian hemp root, each one ounce; all pulverized fine and mixed. Give from a half to a whole tea spoonful three mornings in succession, before eating. Or essence...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0128",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WORM LOZENGES,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Take cayenne pepper, poultice the stomach, and the puking will cease inStior 30 minutes. 2: take one spoonful of vine- gar, one .spoTJn'ful lump sugar, one spoonful of the Avhite of hen's eggs, and beat them together...",
+        "score": 41
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0236",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Powder",
+          "Bath"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is to be given in decoction, or infusion. It is very appropriate to female complaints. The infusion is excellent for profuse menstruation. Combined with wormwood and cammomile flowers, it greatly assists in child-b...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0359",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Rheumatism"
+        ],
+        "excerpt": "Extract of Wormwood. See Extractum Absinthii. Extractum Acacle Catechu. See Catechu Extractum. Extractum Absinthii Cacumina. D. Extract of Wormwood. Prepared from a defecated decoction. The essential oil is driven off...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-101149811-chunk-0044",
+        "work_id": "nlm-101149811",
+        "title": "The botanic family physician , or, The secret of curing all diseases on improved hygeian principles, fully disclosed : containing also formulas or recipes for the cure of every disease incidental to human nature : together with a valuable digest on midwifery",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101149811-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Juice",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dropsy"
+        ],
+        "excerpt": "For Dropsy. Take a tea of dwarf elder roots, for daily drink. Continue it for thirty days Take a handful of rose willow bark, and half a peck of dry ches- ■ ut leaves: boil in five quarts of rain water to two; and add...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-64230520R-chunk-1650",
+        "work_id": "nlm-64230520R",
+        "title": "The botanic physician : being a compendium of the practice of medicine upon botanic principles : containing all the principal branches necessary to the study of medicine as causes, symptoms, and cure of diseases : midwifery, materia medica , pharmacy and botany, surgery, physiology &c. : together with a great variety of useful recipes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230520R-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Wash",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Take skunk cabbage ball one ounce, whitewood bark, and Indian hemp root, each one ounce; all pulverized fine and mixed. Give from a half to a whole tea spoonful three mornings in succession, before eating. Or essence...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0128",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WORM LOZENGES,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Take cayenne pepper, poultice the stomach, and the puking will cease inStior 30 minutes. 2: take one spoonful of vine- gar, one .spoTJn'ful lump sugar, one spoonful of the Avhite of hen's eggs, and beat them together...",
+        "score": 41
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0236",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Powder",
+          "Bath"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is to be given in decoction, or infusion. It is very appropriate to female complaints. The infusion is excellent for profuse menstruation. Combined with wormwood and cammomile flowers, it greatly assists in child-b...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0359",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Rheumatism"
+        ],
+        "excerpt": "Extract of Wormwood. See Extractum Absinthii. Extractum Acacle Catechu. See Catechu Extractum. Extractum Absinthii Cacumina. D. Extract of Wormwood. Prepared from a defecated decoction. The essential oil is driven off...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-101149811-chunk-0044",
+        "work_id": "nlm-101149811",
+        "title": "The botanic family physician , or, The secret of curing all diseases on improved hygeian principles, fully disclosed : containing also formulas or recipes for the cure of every disease incidental to human nature : together with a valuable digest on midwifery",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101149811-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Juice",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dropsy"
+        ],
+        "excerpt": "For Dropsy. Take a tea of dwarf elder roots, for daily drink. Continue it for thirty days Take a handful of rose willow bark, and half a peck of dry ches- ■ ut leaves: boil in five quarts of rain water to two; and add...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-64230520R-chunk-1650",
+        "work_id": "nlm-64230520R",
+        "title": "The botanic physician : being a compendium of the practice of medicine upon botanic principles : containing all the principal branches necessary to the study of medicine as causes, symptoms, and cure of diseases : midwifery, materia medica , pharmacy and botany, surgery, physiology &c. : together with a great variety of useful recipes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230520R-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Wash",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Take skunk cabbage ball one ounce, whitewood bark, and Indian hemp root, each one ounce; all pulverized fine and mixed. Give from a half to a whole tea spoonful three mornings in succession, before eating. Or essence...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0128",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WORM LOZENGES,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Take cayenne pepper, poultice the stomach, and the puking will cease inStior 30 minutes. 2: take one spoonful of vine- gar, one .spoTJn'ful lump sugar, one spoonful of the Avhite of hen's eggs, and beat them together...",
+        "score": 41
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-aybb7599-chunk-0236",
+        "work_id": "wellcome-aybb7599",
+        "title": "The new family herbal : comprising a description, and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs: to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet, clothing, bathing, air, exercise, &c., &c / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aybb7599",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Powder",
+          "Bath"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "It is to be given in decoction, or infusion. It is very appropriate to female complaints. The infusion is excellent for profuse menstruation. Combined with wormwood and cammomile flowers, it greatly assists in child-b...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-ctkumbc4-chunk-0359",
+        "work_id": "wellcome-ctkumbc4",
+        "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Rheumatism"
+        ],
+        "excerpt": "Extract of Wormwood. See Extractum Absinthii. Extractum Acacle Catechu. See Catechu Extractum. Extractum Absinthii Cacumina. D. Extract of Wormwood. Prepared from a defecated decoction. The essential oil is driven off...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-101149811-chunk-0044",
+        "work_id": "nlm-101149811",
+        "title": "The botanic family physician , or, The secret of curing all diseases on improved hygeian principles, fully disclosed : containing also formulas or recipes for the cure of every disease incidental to human nature : together with a valuable digest on midwifery",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101149811-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Juice",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Dropsy"
+        ],
+        "excerpt": "For Dropsy. Take a tea of dwarf elder roots, for daily drink. Continue it for thirty days Take a handful of rose willow bark, and half a peck of dry ches- ■ ut leaves: boil in five quarts of rain water to two; and add...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-64230520R-chunk-1650",
+        "work_id": "nlm-64230520R",
+        "title": "The botanic physician : being a compendium of the practice of medicine upon botanic principles : containing all the principal branches necessary to the study of medicine as causes, symptoms, and cure of diseases : midwifery, materia medica , pharmacy and botany, surgery, physiology &c. : together with a great variety of useful recipes",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230520R-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Wash",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Take skunk cabbage ball one ounce, whitewood bark, and Indian hemp root, each one ounce; all pulverized fine and mixed. Give from a half to a whole tea spoonful three mornings in succession, before eating. Or essence...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0128",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "WORM LOZENGES,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Wormwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark",
+          "Tops"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "Take cayenne pepper, poultice the stomach, and the puking will cease inStior 30 minutes. 2: take one spoonful of vine- gar, one .spoTJn'ful lump sugar, one spoonful of the Avhite of hen's eggs, and beat them together...",
+        "score": 41
+      }
+    ]
+  },
+  "retrieval_text": "Wormwood is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 326 works and 722 source-linked chunks. Recorded variants include Wormwood, Wormwood Tops. Common plant-part co-mentions include Flower, Root, Leaf, Tops, Bark, Seed. Common preparation co-mentions include Oil, Syrup, Extract, Pill, Powder, Decoction. Common condition co-mentions include Cold or catarrh, Vomiting or nausea, Wounds or ulcers, Fever, Inflammation, Cough. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Toxicity watch, Fatal-risk warning, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; The Codicil to \"my will\" for the healthy and the sick : containing chapters on the anatomy and care of the human body, gymnastic exercises, first help in accidents, cooking recipes, medicinal plants and the cure of diseases.; Pharmacopoeia Londinensis, or, the London dispensatory : further adorned by the studies and collections of the fellows now living, of the said college. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.857Z",
+  "builder": "build-herb-profiles.mjs"
+}

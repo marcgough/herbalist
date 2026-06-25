@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101191481",
+  "title": "Manual of the active principles of indigenous and foreign medicinal plants , as prepared at the laboratory of B. Keith & Co",
+  "creator": "B. Keith & Co. author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101191481-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101191481-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101191481",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medicinal-plants",
+  "chunkCount": 113,
+  "paragraphCount": 115,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101191481\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101191481\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101191481\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101191481.jsonl",
+  "rawSha256": "b716b349824d2cfb676ead521c363c349afc278f8f350e9b6dfedfadf8114f3e",
+  "normalizedSha256": "41dc503e42f9a19ff22d4720e80e62b5ec1ebff9d5fe1dda4ac1e9cb9dec192d",
+  "processedAt": "2026-06-17T14:40:29.040Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64210830R",
+  "title": "The new system of medical treatment : an independent, eclectic, restorative and cleansing guide to health : the people's pocket companion",
+  "creator": "Davis, Charles Samuel.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210830R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64210830R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64210830R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 8,
+  "paragraphCount": 25,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210830R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210830R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64210830R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64210830R.jsonl",
+  "rawSha256": "f70bd89e260ad791ce751fde061a2c8f86582772d68eeef7b9fd8b8c5059fd05",
+  "normalizedSha256": "a08f8812b04c159e0c37267ef50526b6940f8ead514718b1ca2e7f44f917c8c0",
+  "processedAt": "2026-06-17T15:13:39.842Z"
+}

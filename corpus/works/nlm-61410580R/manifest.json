@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61410580R",
+  "title": "Guide to health and long life, or, What to eat, drink, and avoid : what exercise to take how to control and regulate the passions and appetites, and on the general conduct of life, whereby health may be secured, and a happy and comfortable old age attained ... : to which is added, a popular exposition of Liebig's theory of life, health, and disease",
+  "creator": "Culverwell, Robert James, 1802-1852.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61410580R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61410580R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61410580R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 357,
+  "paragraphCount": 498,
+  "sectionCount": 32,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61410580R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61410580R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61410580R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61410580R.jsonl",
+  "rawSha256": "f2312fc43d658d0fed58d9ff20b944bab75b626d1fad0dde4968e661270c3d5f",
+  "normalizedSha256": "ca7682b0d631580c6045a1f164ebd085c6a7da43b58047ca6c76dfa491e23524",
+  "processedAt": "2026-06-17T00:58:23.315Z"
+}

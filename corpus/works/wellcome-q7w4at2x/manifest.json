@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-q7w4at2x",
+  "title": "In sickness and in health : a manual of domestic medicine and surgery, hygiene, dietetics, and nursing / By George Waldo Crary, M.D., Frederic S. Lee, PH.D., Josiah Royce, PH.D. [and others] and J. West Roosevelt, M.D., editor.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/q7w4at2x",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21209054",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/q7w4at2x",
+  "rightsStatus": "pdm",
+  "topicFamily": "domestic-medicine;hygiene;nursing;dietetics",
+  "chunkCount": 3267,
+  "paragraphCount": 3301,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-q7w4at2x\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-q7w4at2x\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-q7w4at2x\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-q7w4at2x.jsonl",
+  "rawSha256": "2b6c7bca4586f70a2e0990cff831710f051eff74f8b372a7d0f993c625cee996",
+  "normalizedSha256": "aba47cbe3ce9bfc535bddd34d7f927c4bc03d05126e42edbab9adfa80a553bc0",
+  "processedAt": "2026-06-17T00:56:08.645Z"
+}

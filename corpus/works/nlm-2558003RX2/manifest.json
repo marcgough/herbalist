@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2558003RX2",
+  "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volume 2)",
+  "creator": "Howard, Horton, 1770-1833.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558003RX2-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2558003RX2-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2558003RX2",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botanic-medicine",
+  "chunkCount": 1234,
+  "paragraphCount": 1806,
+  "sectionCount": 11,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2558003RX2\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2558003RX2\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2558003RX2\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2558003RX2.jsonl",
+  "rawSha256": "1c5d4bfb204cd4595936c79f8dfc4c263caca29e12b94ddd176d129927bfd957",
+  "normalizedSha256": "0471ab8a86b2d5248ed01c1657e292858bb4dc36882abce4abad610932d3d748",
+  "processedAt": "2026-06-18T16:44:32.378Z"
+}

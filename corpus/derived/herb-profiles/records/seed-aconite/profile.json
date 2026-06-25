@@ -1,0 +1,1166 @@
+{
+  "profile_id": "seed-aconite",
+  "family_id": "seed-aconite",
+  "canonical_name": "Aconite",
+  "canonical_key": "aconite",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-aconite-eeeaf94386#aconite"
+  ],
+  "decision_note": "promote strong historical medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 1073,
+    "total_chunks": 969,
+    "total_works": 269,
+    "matched_chunk_count": 969,
+    "matched_work_count": 269,
+    "matched_mention_total": 969
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Aconite",
+      "Aconites"
+    ],
+    "sample_work_ids": [
+      "nlm-0027427",
+      "nlm-0140313",
+      "nlm-101178200"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0027427-chunk-0049",
+      "nlm-0027427-chunk-0058",
+      "nlm-0140313-chunk-1474"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 690
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 236
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 60
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 330,
+        "work_count": 147
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 312,
+        "work_count": 170
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 81,
+        "work_count": 61
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 74,
+        "work_count": 54
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 70,
+        "work_count": 47
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 52,
+        "work_count": 41
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 44,
+        "work_count": 35
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 41,
+        "work_count": 26
+      },
+      {
+        "id": "flowering-top",
+        "label": "Flowering tops",
+        "signal_count": 36,
+        "work_count": 32
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 22,
+        "work_count": 13
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 485,
+        "work_count": 174
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 360,
+        "work_count": 165
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 207,
+        "work_count": 86
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 179,
+        "work_count": 125
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 140,
+        "work_count": 92
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 129,
+        "work_count": 79
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 106,
+        "work_count": 68
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 68,
+        "work_count": 51
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 68,
+        "work_count": 47
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 57,
+        "work_count": 35
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 419,
+        "work_count": 164
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 190,
+        "work_count": 115
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 72,
+        "work_count": 57
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 47,
+        "work_count": 32
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 45,
+        "work_count": 40
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 28,
+        "work_count": 25
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 17,
+        "work_count": 15
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 91,
+        "work_count": 58
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 91,
+        "work_count": 55
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 90,
+        "work_count": 62
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 62,
+        "work_count": 55
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 45,
+        "work_count": 32
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 33,
+        "work_count": 27
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 24,
+        "work_count": 22
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 23,
+        "work_count": 21
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 19,
+        "work_count": 15
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 19,
+        "work_count": 11
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-wzfn65h9",
+      "title": "Elements of materia medica : containing the chemistry and natural history of drugs, their effects, doses, and adulterations with observations on all the new remedies recently introduced into practice, and on the preparations of the British Pharmacopoeia / by William Frazer.",
+      "creator": "",
+      "publication_year": "1864",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/wzfn65h9",
+      "signal_chunk_count": 33,
+      "matched_mention_count": 33
+    },
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 30,
+      "matched_mention_count": 30
+    },
+    {
+      "work_id": "wellcome-w6wxy8cw",
+      "title": "Elements of materia medica : containing the chemistry and natural history of drugs, their effects, doses, and adulterations : with observations on all the new remedies recently introduced into practice, and on the preparations of the British Pharmacopoeia / by William Frazer.",
+      "creator": "",
+      "publication_year": "1864",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/w6wxy8cw",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "nlm-64310710RX1",
+      "title": "A new and comprehensive system of materia medica and therapeutics: arranged upon a physiologico-pathological basis for the use of practitioners and students of medicine (Volume 1)",
+      "creator": "Hempel, Charles J. (Charles Julius), 1811-1879.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64310710RX1-bk",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-vny765qu",
+      "title": "Royle's manual of materia medica and therapeutics : including the preparations of the British pharmacopoeia and other approved medicines.",
+      "creator": "",
+      "publication_year": "1876",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/vny765qu",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "wellcome-thwh6g2c",
+      "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+      "creator": "",
+      "publication_year": "1885",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine;nursing",
+      "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "wellcome-c66j28sv",
+      "title": "Royle's manual of materia medica and therapeutics : including the preparations of the British pharmacopoeia and other approved medicines / by John Harley.",
+      "creator": "",
+      "publication_year": "1876",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/c66j28sv",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 18
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 15
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61840800R-chunk-0005",
+        "work_id": "nlm-61840800R",
+        "title": "Botanic materia medica , or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61840800R-bk",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "ACONITE LEAVES, Aconitum napellus. Nar. Dia. ROOT, \" \" Aconite has been employed in rheumatism, neuralgia, gout, scrofula, phthisis, secondary syphilis, scirrhus and cancer, certain cutaneous diseases, amaurosis, para...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0628",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Rheumatism"
+        ],
+        "excerpt": "Cinnamon water, half an ounce. Laudanum, fifteen minims. Antimonial wine, twenty-five minims. Syrup of poppies, two drachms. Mix, and make a draught for rheumatism. Narcotic Pills. Extract of henbane, half a scruple....",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-dz5j7b6t-chunk-1654",
+        "work_id": "wellcome-dz5j7b6t",
+        "title": "A digest of the principles and practice of medicine : with a short account of the history of medicine, and tables of Indian materia medica / by Rustomjee Naserwanjee Khory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dz5j7b6t",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Phosphorus gr. i, or less AperientSjdiluents, gum 4 hours. Name of poison. rroljably latal dose. Antidote. Average fatal period. Metallic Ieeitants. Arsenic Solution, gr. ii Hydrated sesquioxide o iron, magnesia, char...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1059",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "Tlie following is an excellent preparation : Pulverized Ipecac, - - - - 3 grains. Precipitated Sulphur, - - - - 2 scruples. Extract of Hyosciamus, - - - 6 grains. Mix, and divide into twelve pills. Dose, one every thr...",
+        "score": 43
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0628",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Rheumatism"
+        ],
+        "excerpt": "Cinnamon water, half an ounce. Laudanum, fifteen minims. Antimonial wine, twenty-five minims. Syrup of poppies, two drachms. Mix, and make a draught for rheumatism. Narcotic Pills. Extract of henbane, half a scruple....",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-dz5j7b6t-chunk-1654",
+        "work_id": "wellcome-dz5j7b6t",
+        "title": "A digest of the principles and practice of medicine : with a short account of the history of medicine, and tables of Indian materia medica / by Rustomjee Naserwanjee Khory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dz5j7b6t",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Phosphorus gr. i, or less AperientSjdiluents, gum 4 hours. Name of poison. rroljably latal dose. Antidote. Average fatal period. Metallic Ieeitants. Arsenic Solution, gr. ii Hydrated sesquioxide o iron, magnesia, char...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1059",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "Tlie following is an excellent preparation : Pulverized Ipecac, - - - - 3 grains. Precipitated Sulphur, - - - - 2 scruples. Extract of Hyosciamus, - - - 6 grains. Mix, and divide into twelve pills. Dose, one every thr...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-x5jtphhh-chunk-0021",
+        "work_id": "wellcome-x5jtphhh",
+        "title": "The new family herbal : comprising a description and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs; to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet , clothing, bathing, air, exercise, &c., &c. / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/x5jtphhh",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Liniment"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "Chil- dren and delicate persons should not approach too near it, as even inhaling the scent has sometimes produced sickness and fainting. Medicinal Virtues. —The leaves and roots are med- icinal. In proper doses they...",
+        "score": 43
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61840800R-chunk-0005",
+        "work_id": "nlm-61840800R",
+        "title": "Botanic materia medica , or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61840800R-bk",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "ACONITE LEAVES, Aconitum napellus. Nar. Dia. ROOT, \" \" Aconite has been employed in rheumatism, neuralgia, gout, scrofula, phthisis, secondary syphilis, scirrhus and cancer, certain cutaneous diseases, amaurosis, para...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0628",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Rheumatism"
+        ],
+        "excerpt": "Cinnamon water, half an ounce. Laudanum, fifteen minims. Antimonial wine, twenty-five minims. Syrup of poppies, two drachms. Mix, and make a draught for rheumatism. Narcotic Pills. Extract of henbane, half a scruple....",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1059",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "Tlie following is an excellent preparation : Pulverized Ipecac, - - - - 3 grains. Precipitated Sulphur, - - - - 2 scruples. Extract of Hyosciamus, - - - 6 grains. Mix, and divide into twelve pills. Dose, one every thr...",
+        "score": 43
+      },
+      {
+        "chunk_id": "wellcome-x5jtphhh-chunk-0021",
+        "work_id": "wellcome-x5jtphhh",
+        "title": "The new family herbal : comprising a description and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs; to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet , clothing, bathing, air, exercise, &c., &c. / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/x5jtphhh",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Liniment"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Consumption",
+          "Rheumatism",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "Chil- dren and delicate persons should not approach too near it, as even inhaling the scent has sometimes produced sickness and fainting. Medicinal Virtues. —The leaves and roots are med- icinal. In proper doses they...",
+        "score": 43
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61840800R-chunk-0005",
+        "work_id": "nlm-61840800R",
+        "title": "Botanic materia medica , or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61840800R-bk",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "ACONITE LEAVES, Aconitum napellus. Nar. Dia. ROOT, \" \" Aconite has been employed in rheumatism, neuralgia, gout, scrofula, phthisis, secondary syphilis, scirrhus and cancer, certain cutaneous diseases, amaurosis, para...",
+        "score": 50
+      },
+      {
+        "chunk_id": "wellcome-cs5n98hu-chunk-0628",
+        "work_id": "wellcome-cs5n98hu",
+        "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Powder",
+          "Juice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Rheumatism"
+        ],
+        "excerpt": "Cinnamon water, half an ounce. Laudanum, fifteen minims. Antimonial wine, twenty-five minims. Syrup of poppies, two drachms. Mix, and make a draught for rheumatism. Narcotic Pills. Extract of henbane, half a scruple....",
+        "score": 47
+      },
+      {
+        "chunk_id": "wellcome-dz5j7b6t-chunk-1654",
+        "work_id": "wellcome-dz5j7b6t",
+        "title": "A digest of the principles and practice of medicine : with a short account of the history of medicine, and tables of Indian materia medica / by Rustomjee Naserwanjee Khory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dz5j7b6t",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "Phosphorus gr. i, or less AperientSjdiluents, gum 4 hours. Name of poison. rroljably latal dose. Antidote. Average fatal period. Metallic Ieeitants. Arsenic Solution, gr. ii Hydrated sesquioxide o iron, magnesia, char...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-thwh6g2c-chunk-1059",
+        "work_id": "wellcome-thwh6g2c",
+        "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+        "matched_herbs": [
+          "Aconite"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Extract",
+          "Ointment",
+          "Oil",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "Tlie following is an excellent preparation : Pulverized Ipecac, - - - - 3 grains. Precipitated Sulphur, - - - - 2 scruples. Extract of Hyosciamus, - - - 6 grains. Mix, and divide into twelve pills. Dose, one every thr...",
+        "score": 43
+      }
+    ]
+  },
+  "retrieval_text": "Aconite is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 269 works and 969 source-linked chunks. Recorded variants include Aconite, Aconites. Common plant-part co-mentions include Root, Leaf, Flower, Bark, Seed, Gum. Common preparation co-mentions include Tincture, Extract, Powder, Juice, Oil, Liniment. Common condition co-mentions include Cold or catarrh, Fever, Rheumatism, Wounds or ulcers, Inflammation, Vomiting or nausea. Caution co-mentions include Dose caution, Narcotic or sedative caution, Toxicity watch, Child-use caution, Fatal-risk warning, Allergy or sensitivity caution. Representative source works include Elements of materia medica : containing the chemistry and natural history of drugs, their effects, doses, and adulterations with observations on all the new remedies recently introduced into practice, and on the preparations of the British Pharmacopoeia / by William Frazer.; The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Elements of materia medica : containing the chemistry and natural history of drugs, their effects, doses, and adulterations : with observations on all the new remedies recently introduced into practice, and on the preparations of the British Pharmacopoeia / by William Frazer.; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.801Z",
+  "builder": "build-herb-profiles.mjs"
+}

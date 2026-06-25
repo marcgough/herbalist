@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61810370R",
+  "title": "Materia medica , therapeutics, medical pharmacy, prescription-writing, and medical Latin : a manual for students and practitioners",
+  "creator": "Schleif, William, 1868- author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61810370R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61810370R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61810370R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 929,
+  "paragraphCount": 959,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61810370R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61810370R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61810370R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61810370R.jsonl",
+  "rawSha256": "1817191669eea3c698bc390c80dcd0a749d94413e5d0e97f20da61bcf7e732c8",
+  "normalizedSha256": "5352c9f68c0d14798ff70147509b17a7f79c7e523f605ad053f5f9e9aa792e31",
+  "processedAt": "2026-06-18T03:55:34.309Z"
+}

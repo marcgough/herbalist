@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-pespjnwk",
+  "title": "A new family herbal, or, a description of all the British and foreign plants, which are useful to man ... compiled from the works of Hill ... and other botanists. Fourth edition ... To which is now added an entire new supplement ... [etc.].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/pespjnwk",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21524063",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/pespjnwk",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal",
+  "chunkCount": 755,
+  "paragraphCount": 765,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-pespjnwk\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-pespjnwk\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-pespjnwk\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-pespjnwk.jsonl",
+  "rawSha256": "f9a4501231e978601a07047e3b4343edec19704d80345f58bc11283682698174",
+  "normalizedSha256": "8a3d030afbb403a34f2ab2095902707c6ee0bb8a7422fc46bd9bace530bf7b78",
+  "processedAt": "2026-06-17T00:34:44.283Z"
+}

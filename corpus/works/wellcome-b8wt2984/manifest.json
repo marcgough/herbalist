@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-b8wt2984",
+  "title": "The medical pocket book : containing a short but plain account of the symptoms, causes, and methods of cure, of the diseases incident to the human body; including such as require surgical treatment: together with the virtues and doses of medicinal compositions and simples : extracted from the best authors, and digested into alphabetical order / by Sir John Elliot, M.D.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/b8wt2984",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21117731",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/b8wt2984",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 197,
+  "paragraphCount": 197,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-b8wt2984\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-b8wt2984\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-b8wt2984\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-b8wt2984.jsonl",
+  "rawSha256": "a29a9cca662c1721125703598b62a3a1332683411f89e4850be7e8d48ca0d300",
+  "normalizedSha256": "4180894dd329c135cdbaac2da5b81e061b0f5a1917d4fe024066aa504e63dfdc",
+  "processedAt": "2026-06-16T23:09:13.644Z"
+}

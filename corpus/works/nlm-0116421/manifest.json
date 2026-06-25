@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-0116421",
+  "title": "The female's guide to health : containing an address to the married lady, together with a complete treatise on female complaints, and midwifery : to which is added a few remarks on the management of infants",
+  "creator": "Spaulding, Jonah, 1778-1870.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0116421-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-0116421-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/0116421",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 191,
+  "paragraphCount": 200,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0116421\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-0116421\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-0116421\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-0116421.jsonl",
+  "rawSha256": "d444744cf64c5a4b213fcde408d41bd079d21322e8fcdacf7dc8a468deb9a7b5",
+  "normalizedSha256": "c3ca44f4d16e183fa6f72e6c0e2cf0107a93bfdd87ccf09684b31b3313412d14",
+  "processedAt": "2026-06-17T13:32:36.662Z"
+}

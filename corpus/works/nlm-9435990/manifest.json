@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-9435990",
+  "title": "Marrow of practical medicine, and family guide : containing a brief and accurate description of the character, causes, and symptoms of the diseases of men, women, and children, with the most appropriate treatment, without poison or bloodshed ; to which is added a description of medicinal plants and herbs, their medicial qualities, and appropriate doses, with plain and full direction for making the various compound medicines recommended for the cure of diseases, &c",
+  "creator": "Mills, William, doctor",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435990-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-9435990-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/9435990",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;medicinal-plants",
+  "chunkCount": 700,
+  "paragraphCount": 1216,
+  "sectionCount": 18,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9435990\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-9435990\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-9435990\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-9435990.jsonl",
+  "rawSha256": "1aaafe278aedc37683d7fc87e3909d2a068374e444070275f966b1640a06b3db",
+  "normalizedSha256": "36585b1631d0d619b507a9c2ae001bd4e224fa7d3d089a2321c212153db7bbe3",
+  "processedAt": "2026-06-16T14:26:46.490Z"
+}

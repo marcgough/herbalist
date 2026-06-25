@@ -1,0 +1,20 @@
+{
+  "workId": "pg-12522",
+  "title": "An Account of the Extraordinary Medicinal Fluid, called Aether.",
+  "creator": "Turner, Matthew, -1788?",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/12522",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/12522/pg12522.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/12522.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "materia-medica",
+  "chunkCount": 27,
+  "paragraphCount": 50,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-12522\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-12522\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-12522.jsonl",
+  "rawSha256": "94de703b2c8b4580491bdbeaad3e81230e7abcee03429bb8b999bc286faebe69",
+  "normalizedSha256": "64eadcba529b545033a48c4f09806e87ee9240bbaa4ead1945af2e542b1cc1cd",
+  "processedAt": "2026-06-16T13:38:59.786Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63620400R",
+  "title": "Modern domestic medicine : being a treatise divested of professional terms on the nature, causes, symptoms, and treatment of the diseases of men, women, and children, in both cold and warm climates : with appropriate prescriptions in English : the whole preceded by practical rules for the preservation of health, the best means for invigorating the human body and prolonging life, and the mode of preventing the extension of infectious disorders, as also of annihilating contagion",
+  "creator": "Thomas, Robert, 1753-1835.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620400R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63620400R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63620400R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 1859,
+  "paragraphCount": 2626,
+  "sectionCount": 22,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620400R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620400R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63620400R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63620400R.jsonl",
+  "rawSha256": "276994714b55b6bd8c58bb67f4bb9ca5535c541a488ff5eb018e68d88c229559",
+  "normalizedSha256": "5091e6bdb5be93b463764cdb4af67475f46c14ada93ea3d59f13e3f0b3b9e270",
+  "processedAt": "2026-06-17T13:33:18.361Z"
+}

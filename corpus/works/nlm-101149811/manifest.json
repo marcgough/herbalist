@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101149811",
+  "title": "The botanic family physician , or, The secret of curing all diseases on improved hygeian principles, fully disclosed : containing also formulas or recipes for the cure of every disease incidental to human nature : together with a valuable digest on midwifery",
+  "creator": "Day, L. Meeker.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101149811-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101149811-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101149811",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 80,
+  "paragraphCount": 136,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101149811\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101149811\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101149811\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101149811.jsonl",
+  "rawSha256": "3b27733447464b491d67609a44d6f03a91b863ed0b49309c1c7132866a472463",
+  "normalizedSha256": "c809ec5c787333ca0d8b0ff2a4c63a7c17906b2e88645056bdce5904b34904d0",
+  "processedAt": "2026-06-17T15:13:56.647Z"
+}

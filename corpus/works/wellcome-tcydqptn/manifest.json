@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-tcydqptn",
+  "title": "New guide to health; or, botanic family physician. Containing a complete system of practice, on a plan entirely new; with a description of the vegetables made use of, and directions for preparing and administering them, to cure disease. To which is prefixed a narrative of the life and medical discoveries of the author / [by himself].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/tcydqptn",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b33027328",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/tcydqptn",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 603,
+  "paragraphCount": 632,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-tcydqptn\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-tcydqptn\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-tcydqptn.jsonl",
+  "rawSha256": "d98e6ecbff01125a8c7dd6370be0bf5b35d0c5c41214763fc58cecc8aaa062e4",
+  "normalizedSha256": "ef864bdd06bd03a4424d64198553e93928ccc21b4489ed672374f3fcc0dd6863",
+  "processedAt": "2026-06-16T13:46:58.606Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

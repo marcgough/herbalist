@@ -1,0 +1,30 @@
+# Medicinal plants: an illustrated and descriptive guide to plants indigenous to and naturalized in the United States which are used in medicine : their description, origin, history, preparation, chemistry and physiological effects fully described together with the properties of the most important medicinal plants of other countries thus giving information upon over one thousand medicinal plants (Volume 2)
+
+- Work ID: `nlm-101636340X2`
+- Creator: Millspaugh, Charles Frederick, 1854-1923 author.
+- Publication year: Unknown
+- Collection: nlm-digital-collections
+- Topic family: materia-medica;medicinal-plants;botany
+- Rights status: public_domain_mark
+- Reuse license: Public Domain Mark 1.0
+- Source URL: https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101636340X2-bk
+- Download URL: https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101636340X2-bk
+- Metadata URL: http://resource.nlm.nih.gov/101636340X2
+- Ingest status: chunked
+- Review status: downloaded_and_normalized
+
+## Notes
+
+NLM query terms: "medical botany", "medicinal plants"; matched materia-medica, medicinal-plants, botany; resource 101636340X2; pdf https://collections.nlm.nih.gov/pdf/nlm:nlmuid-101636340X2-bk; rights The National Library of Medicine believes this item to be in the public domain : https://creativecommons.org/publicdomain/mark/1.0/. | NLM query terms: "medical botany", "medicinal plants", herbal, pharmacopoeia; matched materia-medica, medicinal-plants, botany; resource 101636340X2; pdf https://collections.nlm.nih.gov/pdf/nlm:nlmuid-101636340X2-bk; rights The National Library of Medicine believes this item to be in the public domain : https://creativecommons.org/publicdomain/mark/1.0/.
+
+## Local Files
+
+- Raw source: `C:\Users\Superuser\Documents\Codex\2026-06-15\files-mentioned-by-the-user-natural\outputs\herbalisti-site\corpus\raw\nlm-101636340X2\source.txt`
+- Normalized text: `C:\Users\Superuser\Documents\Codex\2026-06-15\files-mentioned-by-the-user-natural\outputs\herbalisti-site\corpus\normalized\nlm-101636340X2\text.md`
+- Chunk file: `C:\Users\Superuser\Documents\Codex\2026-06-15\files-mentioned-by-the-user-natural\outputs\herbalisti-site\corpus\chunks\nlm-101636340X2.jsonl`
+
+## Checksums
+
+- Raw SHA-256: `701d5d8a2138674908f3b5dae679b7bacc54fc37bda6b58db3b266eadb616d6f`
+- Normalized SHA-256: `da7e50dcc7a4b7b6c8f081bc1e29b4cdebeec9edb21275534dcde02db4dd5993`
+

@@ -1,0 +1,1149 @@
+{
+  "profile_id": "seed-barley",
+  "family_id": "seed-barley",
+  "canonical_name": "Barley",
+  "canonical_key": "barley",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-barley-d7a9ead0b1#barley"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1123,
+    "total_chunks": 987,
+    "total_works": 351,
+    "matched_chunk_count": 987,
+    "matched_work_count": 351,
+    "matched_mention_total": 987
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Barley"
+    ],
+    "sample_work_ids": [
+      "nlm-0217313",
+      "nlm-0217315",
+      "nlm-0217316"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217313-chunk-0539",
+      "nlm-0217313-chunk-0747",
+      "nlm-0217313-chunk-0799"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 914
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 43
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 31
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 235,
+        "work_count": 182
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 137,
+        "work_count": 94
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 99,
+        "work_count": 84
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 95,
+        "work_count": 76
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 89,
+        "work_count": 74
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 87,
+        "work_count": 69
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 49,
+        "work_count": 39
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 14,
+        "work_count": 11
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 6,
+        "work_count": 6
+      }
+    ],
+    "preparations": [
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 931,
+        "work_count": 320
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 231,
+        "work_count": 152
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 199,
+        "work_count": 114
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 173,
+        "work_count": 107
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 136,
+        "work_count": 111
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 103,
+        "work_count": 44
+      },
+      {
+        "id": "wash",
+        "label": "Wash",
+        "signal_count": 98,
+        "work_count": 91
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 93,
+        "work_count": 79
+      },
+      {
+        "id": "gargle",
+        "label": "Gargle",
+        "signal_count": 74,
+        "work_count": 44
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 63,
+        "work_count": 63
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 160,
+        "work_count": 117
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 60,
+        "work_count": 54
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 50,
+        "work_count": 43
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 47,
+        "work_count": 31
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 37,
+        "work_count": 33
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 20,
+        "work_count": 19
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 203,
+        "work_count": 170
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 155,
+        "work_count": 115
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 94,
+        "work_count": 67
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 80,
+        "work_count": 67
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 63,
+        "work_count": 57
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 43,
+        "work_count": 43
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 33,
+        "work_count": 32
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 30,
+        "work_count": 28
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 26,
+        "work_count": 26
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 22,
+        "work_count": 21
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 82,
+      "matched_mention_count": 82
+    },
+    {
+      "work_id": "wellcome-bsnmkdkc",
+      "title": "The book of prescriptions : containing upwards of 3000 prescriptions collected from the practice of the most eminent physicians and surgeons, English and foreign comprising also a compendious history of the materia medica, lists of the doses of all official or established preparations and an index of diseases and remedies / by Henry Beasley.",
+      "creator": "",
+      "publication_year": "1892",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/bsnmkdkc",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-jtzqa4xp",
+      "title": "A family herbal: or, Familiar account of the medical properties of British and foreign plants, also their uses in dying, and the various arts, arranged according to the Linnaean system / [Robert John Thornton].",
+      "creator": "",
+      "publication_year": "1814",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica",
+      "source_url": "https://wellcomecollection.org/works/jtzqa4xp",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-fkxp4mmt",
+      "title": "Domestic medicine, or, A treatise on the prevention and cure of diseases by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation, an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself, and a family herbal / by William Buchan, M.D. of the Royal College of Physicians, Edingburgh ; to which are added, such useful discoveries ... as have transpired since the demise of the author.",
+      "creator": "",
+      "publication_year": "1823",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/fkxp4mmt",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-mqb4h4ks",
+      "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself and a family herbal. To which are added, such useful discoveries ... as have transpired since the demise of the author / by William Buchan.",
+      "creator": "",
+      "publication_year": "1813",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/mqb4h4ks",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-rk2ty6mu",
+      "title": "Lexicon medicum; or medical dictionary; containing an explanation and comparative, botany, chemistry, materia medica, midwifery, pharmacy, physiology, practice of physic, surgery, and the various branches of natural philosopy, connected with medicine / Selected, arranged and compiled, from the best authors, by Robert Hooper.",
+      "creator": "",
+      "publication_year": "1839",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/rk2ty6mu",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-g8fcur54",
+      "title": "Modern domestic medicine : a popular treatise, describing the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame embracing the modern improvements in medicine to which are added, a domestic materia medica a copious collection of approved prescriptions, &c. &c together with an appendix on the cold water system the whole intended as a comprehensive medical guide for the use of clergymen, heads of families, and emigrants, in the absence of their medical adviser / by Thomas J. Graham.",
+      "creator": "",
+      "publication_year": "1853",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/g8fcur54",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-b483zydr",
+      "title": "Modern domestic medicine ... to which is added a domestic materia medica / [Thomas J. Graham].",
+      "creator": "",
+      "publication_year": "1832",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/b483zydr",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-zjp42x2j",
+      "title": "Modern domestic medicine, or, A popular treatise illustrating the character, symptoms, causes, distinction, and correct treatment, of all diseases incident to the human frame ... : to which is added, a domestic materia medica ... / by Thomas John Graham.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/zjp42x2j",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-ump8j3f6",
+      "title": "Modern domestic medicine: : a popular treatise, illustrating the symptoms, causes, distinction, and correct treatment of the diseases incident to the human frame; embracing the modern improvements in medicine. To which are added, a domestic materia medica; a copious collection of approved prescriptions, &c. &c. The whole intended as a comprehensive medical guide for the use of clergymen heads, [sic] of families, and invalids. / By Thomas J. Graham, M.D. &c.",
+      "creator": "",
+      "publication_year": "1835",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/ump8j3f6",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-49513-chunk-0408",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "GOLDEN MAIDEN HAIR",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Poultice",
+          "Wash",
+          "Gargle",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] Venus owns them both. The leaves of either of the sorts, both specified, and the roots also boiled in wine or water, or in broth with Parsley or Fennel roots, do help to open the body, and a...",
+        "score": 51
+      },
+      {
+        "chunk_id": "nlm-2574009R-chunk-0324",
+        "work_id": "nlm-2574009R",
+        "title": "The vegetable materia medica and practice of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TREATMENT,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574009R-bk",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Gum",
+          "Tops"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Bath",
+          "Emetic"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "Bleeding, warm bath, long continued fomentations to the abdo- men constantly applied, and apply blisters to the part affected. Surge Clysters:—small quantites of flax seed tea, barley tea, and gum arabic in water. If...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-dzvjdvyh-chunk-0973",
+        "work_id": "wellcome-dzvjdvyh",
+        "title": "Shelton's American medicine, or improvement in uniting his new steam system, and the old practice of medicine : in which doctors' terms are explained, and the complaints of men, women and children, are treated of in a satisfactory manner ; and remedies suited to all climates, constitutions and circumstances of the American people ; the valuable practice and preparations of Dr. Isaac Wright, of Tennessee, are fully developed in this work ; it also contains a plain description of the whole human frame : with general rules for preserving health without the use of medicines ; and a choice collection of roots and plants, not explained in any other book ; and the practice is made perfectly safe, simple and convenient to alll capacities, with but little expense.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dzvjdvyh",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Wash",
+          "Bath",
+          "Oil",
+          "Draught",
+          "Steam"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "If diarrhea occurs, the warm or steam bath, (after a dose of castor oil with alittle laudanum in it), must be used. During the whole course, a soda or sediltiz powder may be drank two or three times a day. For burning...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-kpw6zk49-chunk-0391",
+        "work_id": "wellcome-kpw6zk49",
+        "title": "Medicines : their uses and mode of administration including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and appendix of formulae / by J. Moore Neligan ; with notes and additions, conforming it to the Pharmacopoeia of the United States, and including all that is new or important in recent improvements, by David Meredith Reese.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kpw6zk49",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Fruit"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "—It is seldom given by the mouth as a cathartic, but forms an admirable addition to laxative enemata, in inflammation or spasm of the intestines, in dysentery, or in irritation of the urino- genital organs. D. & M. OF...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1548",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Bath",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "The foot-bath must be taken lukewarm, for eight or ten minutes, and the patient must thereupon immediately retire to bed, and drink a few cups of warm, boiled lemonade. Meat, spiced food, or heavy meals and heating dr...",
+        "score": 41
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-49513-chunk-0408",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "GOLDEN MAIDEN HAIR",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Poultice",
+          "Wash",
+          "Gargle",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] Venus owns them both. The leaves of either of the sorts, both specified, and the roots also boiled in wine or water, or in broth with Parsley or Fennel roots, do help to open the body, and a...",
+        "score": 51
+      },
+      {
+        "chunk_id": "nlm-2574009R-chunk-0324",
+        "work_id": "nlm-2574009R",
+        "title": "The vegetable materia medica and practice of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TREATMENT,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574009R-bk",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Gum",
+          "Tops"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Bath",
+          "Emetic"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "Bleeding, warm bath, long continued fomentations to the abdo- men constantly applied, and apply blisters to the part affected. Surge Clysters:—small quantites of flax seed tea, barley tea, and gum arabic in water. If...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-dzvjdvyh-chunk-0973",
+        "work_id": "wellcome-dzvjdvyh",
+        "title": "Shelton's American medicine, or improvement in uniting his new steam system, and the old practice of medicine : in which doctors' terms are explained, and the complaints of men, women and children, are treated of in a satisfactory manner ; and remedies suited to all climates, constitutions and circumstances of the American people ; the valuable practice and preparations of Dr. Isaac Wright, of Tennessee, are fully developed in this work ; it also contains a plain description of the whole human frame : with general rules for preserving health without the use of medicines ; and a choice collection of roots and plants, not explained in any other book ; and the practice is made perfectly safe, simple and convenient to alll capacities, with but little expense.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dzvjdvyh",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Wash",
+          "Bath",
+          "Oil",
+          "Draught",
+          "Steam"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "If diarrhea occurs, the warm or steam bath, (after a dose of castor oil with alittle laudanum in it), must be used. During the whole course, a soda or sediltiz powder may be drank two or three times a day. For burning...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-kpw6zk49-chunk-0391",
+        "work_id": "wellcome-kpw6zk49",
+        "title": "Medicines : their uses and mode of administration including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and appendix of formulae / by J. Moore Neligan ; with notes and additions, conforming it to the Pharmacopoeia of the United States, and including all that is new or important in recent improvements, by David Meredith Reese.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kpw6zk49",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Fruit"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "—It is seldom given by the mouth as a cathartic, but forms an admirable addition to laxative enemata, in inflammation or spasm of the intestines, in dysentery, or in irritation of the urino- genital organs. D. & M. OF...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1548",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Bath",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "The foot-bath must be taken lukewarm, for eight or ten minutes, and the patient must thereupon immediately retire to bed, and drink a few cups of warm, boiled lemonade. Meat, spiced food, or heavy meals and heating dr...",
+        "score": 41
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-49513-chunk-0408",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "GOLDEN MAIDEN HAIR",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Poultice",
+          "Wash",
+          "Gargle",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] Venus owns them both. The leaves of either of the sorts, both specified, and the roots also boiled in wine or water, or in broth with Parsley or Fennel roots, do help to open the body, and a...",
+        "score": 51
+      },
+      {
+        "chunk_id": "nlm-2574009R-chunk-0324",
+        "work_id": "nlm-2574009R",
+        "title": "The vegetable materia medica and practice of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TREATMENT,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574009R-bk",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Gum",
+          "Tops"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Bath",
+          "Emetic"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "Bleeding, warm bath, long continued fomentations to the abdo- men constantly applied, and apply blisters to the part affected. Surge Clysters:—small quantites of flax seed tea, barley tea, and gum arabic in water. If...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-dzvjdvyh-chunk-0973",
+        "work_id": "wellcome-dzvjdvyh",
+        "title": "Shelton's American medicine, or improvement in uniting his new steam system, and the old practice of medicine : in which doctors' terms are explained, and the complaints of men, women and children, are treated of in a satisfactory manner ; and remedies suited to all climates, constitutions and circumstances of the American people ; the valuable practice and preparations of Dr. Isaac Wright, of Tennessee, are fully developed in this work ; it also contains a plain description of the whole human frame : with general rules for preserving health without the use of medicines ; and a choice collection of roots and plants, not explained in any other book ; and the practice is made perfectly safe, simple and convenient to alll capacities, with but little expense.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dzvjdvyh",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Wash",
+          "Bath",
+          "Oil",
+          "Draught",
+          "Steam"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "If diarrhea occurs, the warm or steam bath, (after a dose of castor oil with alittle laudanum in it), must be used. During the whole course, a soda or sediltiz powder may be drank two or three times a day. For burning...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-kpw6zk49-chunk-0391",
+        "work_id": "wellcome-kpw6zk49",
+        "title": "Medicines : their uses and mode of administration including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and appendix of formulae / by J. Moore Neligan ; with notes and additions, conforming it to the Pharmacopoeia of the United States, and including all that is new or important in recent improvements, by David Meredith Reese.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kpw6zk49",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Fruit"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "—It is seldom given by the mouth as a cathartic, but forms an admirable addition to laxative enemata, in inflammation or spasm of the intestines, in dysentery, or in irritation of the urino- genital organs. D. & M. OF...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1548",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Bath",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "The foot-bath must be taken lukewarm, for eight or ten minutes, and the patient must thereupon immediately retire to bed, and drink a few cups of warm, boiled lemonade. Meat, spiced food, or heavy meals and heating dr...",
+        "score": 41
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-49513-chunk-0408",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "GOLDEN MAIDEN HAIR",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Poultice",
+          "Wash",
+          "Gargle",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "_Government and virtues._] Venus owns them both. The leaves of either of the sorts, both specified, and the roots also boiled in wine or water, or in broth with Parsley or Fennel roots, do help to open the body, and a...",
+        "score": 51
+      },
+      {
+        "chunk_id": "nlm-2574009R-chunk-0324",
+        "work_id": "nlm-2574009R",
+        "title": "The vegetable materia medica and practice of medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TREATMENT,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574009R-bk",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Gum",
+          "Tops"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Bath",
+          "Emetic"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Inflammation"
+        ],
+        "excerpt": "Bleeding, warm bath, long continued fomentations to the abdo- men constantly applied, and apply blisters to the part affected. Surge Clysters:—small quantites of flax seed tea, barley tea, and gum arabic in water. If...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-dzvjdvyh-chunk-0973",
+        "work_id": "wellcome-dzvjdvyh",
+        "title": "Shelton's American medicine, or improvement in uniting his new steam system, and the old practice of medicine : in which doctors' terms are explained, and the complaints of men, women and children, are treated of in a satisfactory manner ; and remedies suited to all climates, constitutions and circumstances of the American people ; the valuable practice and preparations of Dr. Isaac Wright, of Tennessee, are fully developed in this work ; it also contains a plain description of the whole human frame : with general rules for preserving health without the use of medicines ; and a choice collection of roots and plants, not explained in any other book ; and the practice is made perfectly safe, simple and convenient to alll capacities, with but little expense.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dzvjdvyh",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Flower"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Wash",
+          "Bath",
+          "Oil",
+          "Draught",
+          "Steam"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "If diarrhea occurs, the warm or steam bath, (after a dose of castor oil with alittle laudanum in it), must be used. During the whole course, a soda or sediltiz powder may be drank two or three times a day. For burning...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-kpw6zk49-chunk-0391",
+        "work_id": "wellcome-kpw6zk49",
+        "title": "Medicines : their uses and mode of administration including a complete conspectus of the three British pharmacopoeias, an account of all the new remedies, and appendix of formulae / by J. Moore Neligan ; with notes and additions, conforming it to the Pharmacopoeia of the United States, and including all that is new or important in recent improvements, by David Meredith Reese.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kpw6zk49",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Fruit"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "—It is seldom given by the mouth as a cathartic, but forms an admirable addition to laxative enemata, in inflammation or spasm of the intestines, in dysentery, or in irritation of the urino- genital organs. D. & M. OF...",
+        "score": 42
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1548",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Barley"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Bath",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "The foot-bath must be taken lukewarm, for eight or ten minutes, and the patient must thereupon immediately retire to bed, and drink a few cups of warm, boiled lemonade. Meat, spiced food, or heavy meals and heating dr...",
+        "score": 41
+      }
+    ]
+  },
+  "retrieval_text": "Barley is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 351 works and 987 source-linked chunks. Recorded variants include Barley. Common plant-part co-mentions include Root, Gum, Fruit, Flower, Seed, Bark. Common preparation co-mentions include Decoction, Oil, Infusion, Juice, Tea, Syrup. Common condition co-mentions include Cold or catarrh, Inflammation, Fever, Vomiting or nausea, Wounds or ulcers, Dysentery. Caution co-mentions include Dose caution, Toxicity watch, Bleeding caution, Narcotic or sedative caution, Child-use caution, Allergy or sensitivity caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The book of prescriptions : containing upwards of 3000 prescriptions collected from the practice of the most eminent physicians and surgeons, English and foreign comprising also a compendious history of the materia medica, lists of the doses of all official or established preparations and an index of diseases and remedies / by Henry Beasley.; A family herbal: or, Familiar account of the medical properties of British and foreign plants, also their uses in dying, and the various arts, arranged according to the Linnaean system / [Robert John Thornton].; Domestic medicine, or, A treatise on the prevention and cure of diseases by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation, an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself, and a family herbal / by William Buchan, M.D. of the Royal College of Physicians, Edingburgh ; to which are added, such useful discoveries ... as have transpired since the demise of the author.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.798Z",
+  "builder": "build-herb-profiles.mjs"
+}

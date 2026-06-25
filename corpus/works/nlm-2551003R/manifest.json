@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2551003R",
+  "title": "The medical assistant, or Jamaica practice of physic : designed chiefly for the use of families and plantations",
+  "creator": "Dancer, Thomas.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2551003R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2551003R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2551003R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 36,
+  "paragraphCount": 74,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2551003R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2551003R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2551003R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2551003R.jsonl",
+  "rawSha256": "9a41830b4c736d06ea80086fa26164303762779b0c0d66f51e975aeb03dd3245",
+  "normalizedSha256": "3a0c14f526497e079b127375a9afad1858e1e0b272ebfe5f04735c07e0b47704",
+  "processedAt": "2026-06-17T17:08:31.690Z"
+}

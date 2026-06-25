@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-b2hszaak",
+  "title": "Catalogue of medicinal plants, according to their natural orders / [Andrew Duncan].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/b2hszaak",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30385404",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/b2hszaak",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;medicinal-plants",
+  "chunkCount": 26,
+  "paragraphCount": 26,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-b2hszaak\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-b2hszaak\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-b2hszaak.jsonl",
+  "rawSha256": "4ef14ccaa486b600f8e4f25450f57315e79e8f6bb3976bad14881441fc110ec5",
+  "normalizedSha256": "83ec6aceba84197e934bdc650bf9c10da02d87559567e69fee57f1e29b6a5f81",
+  "processedAt": "2026-06-16T13:46:47.607Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

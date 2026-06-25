@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2543055RX2",
+  "title": "American medical botany: being a collection of the native medicinal plants of the United States, containing their botanical history and chemical analysis, and properties and uses in medicine, diet and the arts, with coloured engravings (Volume 2)",
+  "creator": "Bigelow, Jacob, 1786-1879.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2543055RX2-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2543055RX2-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2543055RX2",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medicinal-plants;medical-botany;botany",
+  "chunkCount": 1,
+  "paragraphCount": 1,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2543055RX2\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2543055RX2\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2543055RX2\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2543055RX2.jsonl",
+  "rawSha256": "4916257ec166ffbc1c8da6f351f29f33107c49c5dfcca24f34de17c4bf79a504",
+  "normalizedSha256": "23180bc297eb7f8fc88a11d9eeaa1ca35f34a3c3495ddbe99ebd7fdd12b6d8a0",
+  "processedAt": "2026-06-16T14:26:59.058Z"
+}

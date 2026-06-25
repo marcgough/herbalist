@@ -1,0 +1,20 @@
+{
+  "workId": "pg-40373",
+  "title": "A Guide to Health",
+  "creator": "Gandhi, Mahatma, 1869-1948; Rama Iyer, A. [Translator]",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/40373",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/40373/pg40373.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/40373.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 198,
+  "paragraphCount": 359,
+  "sectionCount": 41,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-40373\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-40373\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-40373.jsonl",
+  "rawSha256": "c52bbee133eaa49a31a1f4ef13c5eaed2558d2911a635d1d6fa06c2827847b3b",
+  "normalizedSha256": "d8f1ca3eb3451eff09a5ece38825c9e810026d3ce9acd161778811f900d640ea",
+  "processedAt": "2026-06-16T13:39:07.054Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101626004",
+  "title": "Address of the faculty, with the annual report, and catalogue for 1846-'7 and programme of the ensuing sessions, of 1847-'48",
+  "creator": "Morrow, T. V. (Thomas Vaughan), 1804-1850, author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101626004-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101626004-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101626004",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal",
+  "chunkCount": 34,
+  "paragraphCount": 34,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101626004\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101626004\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101626004\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101626004.jsonl",
+  "rawSha256": "c2f22c12c9c937bcc9323e0ce2e28eb4ffd47d33f82fab1ef05d31841be3b610",
+  "normalizedSha256": "f37cfdf60b69202e2c7d8f38b18d1d4e5171f9a711ad21027821f6bcbdee85d0",
+  "processedAt": "2026-06-17T15:42:57.199Z"
+}

@@ -1,0 +1,536 @@
+{
+  "generatedAt": "2026-06-23T06:27:46.787Z",
+  "profile": {
+    "ref": "practical-remedies-reference-2026-06-21",
+    "path": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\review\\frontier-profiles\\practical-remedies-reference-2026-06-21.json",
+    "profileId": "practical-remedies-reference-2026-06-21",
+    "description": "Bias the next Herbalisti curated-selector pass toward book-scale practical remedies, direct hygiene references, materia-medica manuals, repertories, vade-mecums, family physicians, and botanical-principles books while cooling thin almanac, receipt-book, guide-to-health, sensational, occult, veterinary, lecture, and administrative shapes.",
+    "topicBoosts": {
+      "materia-medica": 120,
+      "domestic-medicine": 20,
+      "botany": 95,
+      "medical-botany": 95,
+      "medicinal-plants": 105,
+      "herbal": 100,
+      "pharmacopoeia": -30,
+      "hygiene": 10,
+      "public-health": -15,
+      "household-health": -35
+    },
+    "clusterBoosts": {
+      "reference-work": 45,
+      "materia-medica": 65,
+      "family-physician": 90,
+      "domestic-medicine": 20,
+      "guide-to-health": -25,
+      "herbal": 90,
+      "pharmacopoeia": -90
+    },
+    "excludeTitlePhrases": [
+      "opening address",
+      "inaugural lecture",
+      "questions and answers",
+      "quiz compend",
+      "for practitioners and students",
+      "for the use of students",
+      "course of lectures",
+      "notes from lectures",
+      "lectures on",
+      "delivered before",
+      "read before",
+      "companion to the latest edition of the british pharmacopoeia",
+      "adapted to the british pharmacopoeia",
+      "adapted to the united states pharmacopoeia",
+      "medico-chirurgical pharmacopoeia",
+      "text-book",
+      "first year pupil nurses",
+      "adapted for a medical text book",
+      "criticism on the united states pharmacopoeia",
+      "pharmacopoeia of the new-york hospital",
+      "physiologico-pathological basis",
+      "ein versuch",
+      "dental materia medica",
+      "brochure to accompany an exhibition",
+      "medical directions written for governor winthrop",
+      "general repository of physic",
+      "compendious medical dictionary",
+      "comprehensive medical dictionary",
+      "revised list of formulas",
+      "to be sold at the prices affixed",
+      "with their compliments",
+      "prepared at the laboratory of",
+      "praying for",
+      "appointed by the massachusetts medical society",
+      "transactions of",
+      "report on",
+      "circular",
+      "memorial to the trustees",
+      "lecture introductory",
+      "prospectus",
+      "occurrences which led to the removal",
+      "veterinaria",
+      "what to do until the doctor comes"
+    ],
+    "titleScoreAdjustments": [
+      {
+        "phrase": "repertory of homeopathic medicine",
+        "score": 240
+      },
+      {
+        "phrase": "repertory of homoeopathic medicine",
+        "score": 240
+      },
+      {
+        "phrase": "vade mecum",
+        "score": 180
+      },
+      {
+        "phrase": "vade-mecum",
+        "score": 180
+      },
+      {
+        "phrase": "country remedies",
+        "score": 180
+      },
+      {
+        "phrase": "family physician",
+        "score": 110
+      },
+      {
+        "phrase": "guide to health",
+        "score": -30
+      },
+      {
+        "phrase": "medical companion",
+        "score": 120
+      },
+      {
+        "phrase": "domestic medicine",
+        "score": 95
+      },
+      {
+        "phrase": "practice of medicine",
+        "score": 85
+      },
+      {
+        "phrase": "homoeopathic practice of medicine",
+        "score": 120
+      },
+      {
+        "phrase": "description of disease and its treatment",
+        "score": 110
+      },
+      {
+        "phrase": "medical prescriptions made plain",
+        "score": 120
+      },
+      {
+        "phrase": "true art of healing",
+        "score": 85
+      },
+      {
+        "phrase": "adapted to domestic and professional use",
+        "score": 90
+      },
+      {
+        "phrase": "pocket manual",
+        "score": 110
+      },
+      {
+        "phrase": "homeopathic medicine",
+        "score": 110
+      },
+      {
+        "phrase": "homoeopathic medicine",
+        "score": 110
+      },
+      {
+        "phrase": "travellers medical companion",
+        "score": 95
+      },
+      {
+        "phrase": "remedies",
+        "score": 90
+      },
+      {
+        "phrase": "prescriptions",
+        "score": 80
+      },
+      {
+        "phrase": "household surgery",
+        "score": 80
+      },
+      {
+        "phrase": "poor mans friend",
+        "score": 90
+      },
+      {
+        "phrase": "every man his own doctor",
+        "score": 70
+      },
+      {
+        "phrase": "manual",
+        "score": 40
+      },
+      {
+        "phrase": "companion",
+        "score": 30
+      },
+      {
+        "phrase": "therapeutic notes",
+        "score": 70
+      },
+      {
+        "phrase": "botanical principles",
+        "score": 150
+      },
+      {
+        "phrase": "botanic principles",
+        "score": 150
+      },
+      {
+        "phrase": "thomsonian system",
+        "score": 120
+      },
+      {
+        "phrase": "vegetable treatment",
+        "score": 120
+      },
+      {
+        "phrase": "master-piece",
+        "score": -560
+      },
+      {
+        "phrase": "aristotles",
+        "score": -560
+      },
+      {
+        "phrase": "sexual physiology",
+        "score": -520
+      },
+      {
+        "phrase": "phreno-chart",
+        "score": -520
+      },
+      {
+        "phrase": "occult forces in nature",
+        "score": -520
+      },
+      {
+        "phrase": "clairvoyant",
+        "score": -420
+      },
+      {
+        "phrase": "vital magnetism",
+        "score": -360
+      },
+      {
+        "phrase": "calisthenics",
+        "score": -280
+      },
+      {
+        "phrase": "family almanac",
+        "score": -220
+      },
+      {
+        "phrase": "almanac",
+        "score": -240
+      },
+      {
+        "phrase": "receipt book",
+        "score": -220
+      },
+      {
+        "phrase": "receipt-book",
+        "score": -220
+      },
+      {
+        "phrase": "housekeeping and home making",
+        "score": -180
+      },
+      {
+        "phrase": "housekeeping",
+        "score": -180
+      },
+      {
+        "phrase": "cookery",
+        "score": -180
+      },
+      {
+        "phrase": "bee-keeper",
+        "score": -260
+      },
+      {
+        "phrase": "farrier",
+        "score": -320
+      },
+      {
+        "phrase": "horses, cattle and sheep",
+        "score": -340
+      },
+      {
+        "phrase": "catalogue of medical books",
+        "score": -360
+      },
+      {
+        "phrase": "course of examinations",
+        "score": -420
+      },
+      {
+        "phrase": "useful drugs",
+        "score": -260
+      },
+      {
+        "phrase": "syllabus of laboratory work",
+        "score": -420
+      },
+      {
+        "phrase": "licensing boards",
+        "score": -260
+      },
+      {
+        "phrase": "questions and answers",
+        "score": -520
+      },
+      {
+        "phrase": "quiz compend",
+        "score": -520
+      },
+      {
+        "phrase": "students guide",
+        "score": -320
+      },
+      {
+        "phrase": "students guide",
+        "score": -320
+      },
+      {
+        "phrase": "for practitioners and students",
+        "score": -360
+      },
+      {
+        "phrase": "for the use of students",
+        "score": -320
+      },
+      {
+        "phrase": "notes from lectures",
+        "score": -520
+      },
+      {
+        "phrase": "lectures on",
+        "score": -260
+      },
+      {
+        "phrase": "companion to the latest edition of the british pharmacopoeia",
+        "score": -420
+      },
+      {
+        "phrase": "adapted to the british pharmacopoeia",
+        "score": -320
+      },
+      {
+        "phrase": "medico-chirurgical pharmacopoeia",
+        "score": -320
+      },
+      {
+        "phrase": "revised list of formulas",
+        "score": -420
+      }
+    ],
+    "notes": [
+      "Use this after the 2026-06-21 uncovered pass showed that direct hygiene and materia-medica books still land well, while almanac and guide-to-health shapes can still collapse into thin reference witnesses.",
+      "The intent is to preserve the anti-noise brakes from the earlier practical-remedies profile while pushing thin almanac, receipt-book, and housekeeping drift lower in the next selector pass."
+    ]
+  },
+  "stageFilter": "uncovered_family",
+  "dryRun": true,
+  "rebuildDerived": true,
+  "runStatus": true,
+  "selectionStrategy": "diverse",
+  "diversityScanWindow": 260,
+  "exclusions": {
+    "workIds": [
+      "nlm-2542063R",
+      "nlm-2563029R",
+      "nlm-2565060R",
+      "nlm-54410340R",
+      "nlm-56111190R",
+      "nlm-61761120R",
+      "nlm-63810390R",
+      "nlm-101178768",
+      "nlm-2541058R",
+      "nlm-101199051",
+      "nlm-101135080",
+      "nlm-2541055R",
+      "nlm-8206648",
+      "nlm-2437030R",
+      "nlm-101179368",
+      "nlm-25940930R",
+      "nlm-07420170R",
+      "nlm-63811190R",
+      "nlm-63560770R",
+      "nlm-63611240R",
+      "nlm-64330080R",
+      "wellcome-ads4ufq3",
+      "wellcome-ghk9p6a2",
+      "wellcome-fg3w68dq",
+      "wellcome-hpq54drv",
+      "wellcome-gkufawnj",
+      "wellcome-jdu86asm",
+      "wellcome-jtwjxcge",
+      "wellcome-jyf6wn73",
+      "wellcome-kyshj5hq",
+      "wellcome-qny8478u",
+      "wellcome-t5vwg7k3",
+      "wellcome-x6mn6ywj",
+      "wellcome-zskkj287",
+      "wellcome-d5vq9tfn",
+      "wellcome-bmfm8te9",
+      "wellcome-c5t9cgqr",
+      "wellcome-dvrry6r6"
+    ],
+    "seriesKeys": [],
+    "creatorSeriesKeys": [],
+    "titlePhrases": [
+      "opening address",
+      "inaugural lecture",
+      "questions and answers",
+      "quiz compend",
+      "for practitioners and students",
+      "for the use of students",
+      "course of lectures",
+      "notes from lectures",
+      "lectures on",
+      "delivered before",
+      "read before",
+      "companion to the latest edition of the british pharmacopoeia",
+      "adapted to the british pharmacopoeia",
+      "adapted to the united states pharmacopoeia",
+      "medico-chirurgical pharmacopoeia",
+      "text-book",
+      "first year pupil nurses",
+      "adapted for a medical text book",
+      "criticism on the united states pharmacopoeia",
+      "pharmacopoeia of the new-york hospital",
+      "physiologico-pathological basis",
+      "ein versuch",
+      "dental materia medica",
+      "brochure to accompany an exhibition",
+      "medical directions written for governor winthrop",
+      "general repository of physic",
+      "compendious medical dictionary",
+      "comprehensive medical dictionary",
+      "revised list of formulas",
+      "to be sold at the prices affixed",
+      "with their compliments",
+      "prepared at the laboratory of",
+      "praying for",
+      "appointed by the massachusetts medical society",
+      "transactions of",
+      "report on",
+      "circular",
+      "memorial to the trustees",
+      "lecture introductory",
+      "prospectus",
+      "occurrences which led to the removal",
+      "veterinaria",
+      "what to do until the doctor comes"
+    ]
+  },
+  "selected": {
+    "nlm-digital-collections": [
+      {
+        "work_id": "nlm-101170174",
+        "title": "Recent progress in materia medica : an address delivered in the Massachusetts Medical College, Boston, at the opening of the medical lectures of Harvard University, Nov. 2, 1864",
+        "creator": "Clarke, Edward H. (Edward Hammond), 1820-1877.",
+        "frontier_stage": "uncovered_family",
+        "frontier_score": 1459,
+        "topic_family": "materia-medica",
+        "title_cluster": "materia-medica",
+        "series_title_key": "recent progress in materia medica",
+        "creator_title_key": "clarke edward h 1820 1877::recent progress in materia medica"
+      },
+      {
+        "work_id": "nlm-2551013RX2",
+        "title": "Zoonomia, or, The laws of organic life: part second (Volume 2)",
+        "creator": "Darwin, Erasmus, 1731-1802.",
+        "frontier_stage": "uncovered_family",
+        "frontier_score": 1460,
+        "topic_family": "materia-medica",
+        "title_cluster": "general",
+        "series_title_key": "zoonomia or the laws of organic life part second",
+        "creator_title_key": "darwin erasmus 1731 1802::zoonomia or the laws of organic life part second"
+      },
+      {
+        "work_id": "nlm-54530510R",
+        "title": "Diseases of children for nurses : including infant feeding, therapeutic measures employed in childhood, treatment for emergencies, prophylaxis, hygiene , and nursing",
+        "creator": "McCombs, Robert S. (Robert Shelmerdine), 1880- author.",
+        "frontier_stage": "uncovered_family",
+        "frontier_score": 1477,
+        "topic_family": "hygiene;nursing",
+        "title_cluster": "general",
+        "series_title_key": "diseases of children for nurses",
+        "creator_title_key": "mccombs robert s 1880::diseases of children for nurses"
+      },
+      {
+        "work_id": "nlm-101731070",
+        "title": "Botany at the Rochester meeting of the American Association for the Advancement of Science ; North American botanists and botanical nomenclature ; A supplement to the revision of the botanical names of the U.S. Pharmacopoeia printed in the Bulletin of pharmacy for July 1892 / by H.H. Rusby",
+        "creator": "Rusby, Henry Hurd, 1855-1940 author.",
+        "frontier_stage": "uncovered_family",
+        "frontier_score": 1475,
+        "topic_family": "pharmacopoeia;botany",
+        "title_cluster": "pharmacopoeia",
+        "series_title_key": "botany at the rochester meeting of the american association for the advancement of science",
+        "creator_title_key": "rusby henry hurd 1855 1940::botany at the rochester meeting of the american association for the advancement of science"
+      }
+    ],
+    "wellcome-collection": [
+      {
+        "work_id": "wellcome-qu8xtvxf",
+        "title": "Every man his own physician : being a complete collection of efficacious and approved remedies, for every disease incident to the human body ; with plain instructions for their common use / by John Theobald, M.D. author of the Medulla medicine ; compiled at the command of His Royal Highness of the Duke of Cumberland.",
+        "creator": "",
+        "frontier_stage": "uncovered_family",
+        "frontier_score": 1470,
+        "topic_family": "materia-medica",
+        "title_cluster": "general",
+        "series_title_key": "every man his own physician",
+        "creator_title_key": "unknown::every man his own physician"
+      },
+      {
+        "work_id": "wellcome-rjj6mh83",
+        "title": "Catalogus variorum exoticorum rarissimorum maximam partem incognitorum et nullibi descriptorum partim medicinae partim curiositati inseruientium quae in museo suo breui luci exponendo possidet / Abrahamus Vater D. et P.P Anat. et Botan. substitutus.",
+        "creator": "",
+        "frontier_stage": "uncovered_family",
+        "frontier_score": 1467,
+        "topic_family": "materia-medica;botany",
+        "title_cluster": "general",
+        "series_title_key": "catalogus variorum exoticorum rarissimorum maximam partem incognitorum et nullibi descriptorum medicinae curiositati inseruientium quae in museo suo breui luci exponendo possidet",
+        "creator_title_key": "unknown::catalogus variorum exoticorum rarissimorum maximam partem incognitorum et nullibi descriptorum medicinae curiositati inseruientium quae in museo suo breui luci exponendo possidet"
+      },
+      {
+        "work_id": "wellcome-rf7zwwnq",
+        "title": "Continuacion, ó Suplemento a la materia medica del libro intitulado: Compendio de la medicina, ó Medicina practica / escrito por su autor Juan Manuel Venegas.",
+        "creator": "",
+        "frontier_stage": "uncovered_family",
+        "frontier_score": 1471,
+        "topic_family": "materia-medica",
+        "title_cluster": "materia-medica",
+        "series_title_key": "continuacion o suplemento a la materia medica del libro intitulado compendio de la medicina o medicina practica",
+        "creator_title_key": "unknown::continuacion o suplemento a la materia medica del libro intitulado compendio de la medicina o medicina practica"
+      },
+      {
+        "work_id": "wellcome-wv3pdutk",
+        "title": "Vivilore : the pathway to mental and physical perfection the twentieth century book for every woman / by Mary Ries Melendy.",
+        "creator": "",
+        "frontier_stage": "uncovered_family",
+        "frontier_score": 1485,
+        "topic_family": "materia-medica;hygiene",
+        "title_cluster": "general",
+        "series_title_key": "vivilore",
+        "creator_title_key": "unknown::vivilore"
+      }
+    ]
+  },
+  "commands": [],
+  "failedCommand": null
+}

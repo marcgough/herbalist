@@ -1,0 +1,1158 @@
+{
+  "profile_id": "seed-almond",
+  "family_id": "seed-almond",
+  "canonical_name": "Almond",
+  "canonical_key": "almond",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-almond-90e62b92a9#almond"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 2416,
+    "total_chunks": 2186,
+    "total_works": 595,
+    "matched_chunk_count": 2186,
+    "matched_work_count": 595,
+    "matched_mention_total": 2222
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Almond",
+      "Almonds"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0919",
+      "nlm-0140313-chunk-2635",
+      "nlm-0217313-chunk-1250"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1651
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 562
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 25
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 445,
+        "work_count": 247
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 296,
+        "work_count": 187
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 240,
+        "work_count": 148
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 215,
+        "work_count": 130
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 213,
+        "work_count": 181
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 110,
+        "work_count": 95
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 100,
+        "work_count": 91
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 90,
+        "work_count": 72
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 75,
+        "work_count": 68
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 27,
+        "work_count": 25
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 2076,
+        "work_count": 588
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 357,
+        "work_count": 187
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 322,
+        "work_count": 150
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 303,
+        "work_count": 130
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 176,
+        "work_count": 108
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 163,
+        "work_count": 121
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 134,
+        "work_count": 98
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 132,
+        "work_count": 83
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 120,
+        "work_count": 70
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 98,
+        "work_count": 59
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 414,
+        "work_count": 182
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 252,
+        "work_count": 164
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 137,
+        "work_count": 94
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 130,
+        "work_count": 123
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 100,
+        "work_count": 89
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 30,
+        "work_count": 29
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 30,
+        "work_count": 25
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 363,
+        "work_count": 202
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 183,
+        "work_count": 124
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 182,
+        "work_count": 125
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 109,
+        "work_count": 92
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 65,
+        "work_count": 56
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 63,
+        "work_count": 51
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 47,
+        "work_count": 41
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 46,
+        "work_count": 35
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 42,
+        "work_count": 36
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 37,
+        "work_count": 30
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 178,
+      "matched_mention_count": 183
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 69,
+      "matched_mention_count": 70
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 31,
+      "matched_mention_count": 31
+    },
+    {
+      "work_id": "wellcome-fwzua59q",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/fwzua59q",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "wellcome-ctkumbc4",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+      "creator": "",
+      "publication_year": "1820",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-dwk6bbmw",
+      "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "wellcome-nhx2ne6y",
+      "title": "Gray's supplement to the pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+      "creator": "",
+      "publication_year": "1848",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/nhx2ne6y",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "wellcome-yfu6989c",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/yfu6989c",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "wellcome-z5tnu37b",
+      "title": "Companion to the latest edition of the British pharmacopoeia : comparing the strength of the various preparations with those of the United States and other foreign pharmacopoeias to which are added not official preparations and practical hints on prescribing / by Peter Squire.",
+      "creator": "",
+      "publication_year": "1886",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/z5tnu37b",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 19
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-dkebu9hu-chunk-9623",
+        "work_id": "wellcome-dkebu9hu",
+        "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+        "matched_herbs": [
+          "Almond"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Extract",
+          "Poultice",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "It was formerly highly esteemed as-a vulnerary, and is still in use among the common people. A liniment formed by infusing the fruftj deprived of its seeds, in olive or almond oil, is applied to chapped hands, burns,...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-dwhz86ma-chunk-0290",
+        "work_id": "wellcome-dwhz86ma",
+        "title": "A pocket herbal; containing the medicinal virtues and uses of the most esteemed native plants; with some remarks on bathing, electricity, etc / [John Whiteclay Chambers].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwhz86ma",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "1^ is excellent, mixed with Oil of Almonds, to keep children open ; and in the same form it may be given Avith great success against habitual Costiveness in grown persons, taking a small dose ev ery night. It is also...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1682",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Extract",
+          "Salve",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "with great advantage in mucous obstruction of the lungs and catarrhal cough. The extract may be found in the apothecary shop, and may be taken several times a day, in doses from ten to twenty grains, dis- solved in ar...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0505",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Gargle",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Ointment, 64 Mezereon Root, 59 Milk, Ass’s Artificial, 10 of Sulphur, 87 , Nurse’s, substitute for, 68 Mineral Waters, 107 Poisons, 100 M indererus's Spirit, 83 Mixture for Gout, 56 Spasm, 32 Cough, 61 Destroying Flie...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-mqb4h4ks-chunk-1277",
+        "work_id": "wellcome-mqb4h4ks",
+        "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself and a family herbal. To which are added, such useful discoveries ... as have transpired since the demise of the author / by William Buchan.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mqb4h4ks",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The common cause of abortion are, the death of Ihe child ; weakness or relaxation of the mother; great evacuations; violent exercise; raising great weights; reaching too high ; jumping or stepping from an eminence; vo...",
+        "score": 44
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-dkebu9hu-chunk-9623",
+        "work_id": "wellcome-dkebu9hu",
+        "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+        "matched_herbs": [
+          "Almond"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Extract",
+          "Poultice",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "It was formerly highly esteemed as-a vulnerary, and is still in use among the common people. A liniment formed by infusing the fruftj deprived of its seeds, in olive or almond oil, is applied to chapped hands, burns,...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-dwhz86ma-chunk-0290",
+        "work_id": "wellcome-dwhz86ma",
+        "title": "A pocket herbal; containing the medicinal virtues and uses of the most esteemed native plants; with some remarks on bathing, electricity, etc / [John Whiteclay Chambers].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwhz86ma",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "1^ is excellent, mixed with Oil of Almonds, to keep children open ; and in the same form it may be given Avith great success against habitual Costiveness in grown persons, taking a small dose ev ery night. It is also...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1682",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Extract",
+          "Salve",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "with great advantage in mucous obstruction of the lungs and catarrhal cough. The extract may be found in the apothecary shop, and may be taken several times a day, in doses from ten to twenty grains, dis- solved in ar...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0505",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Gargle",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Ointment, 64 Mezereon Root, 59 Milk, Ass’s Artificial, 10 of Sulphur, 87 , Nurse’s, substitute for, 68 Mineral Waters, 107 Poisons, 100 M indererus's Spirit, 83 Mixture for Gout, 56 Spasm, 32 Cough, 61 Destroying Flie...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-mqb4h4ks-chunk-1277",
+        "work_id": "wellcome-mqb4h4ks",
+        "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself and a family herbal. To which are added, such useful discoveries ... as have transpired since the demise of the author / by William Buchan.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mqb4h4ks",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The common cause of abortion are, the death of Ihe child ; weakness or relaxation of the mother; great evacuations; violent exercise; raising great weights; reaching too high ; jumping or stepping from an eminence; vo...",
+        "score": 44
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-dkebu9hu-chunk-9623",
+        "work_id": "wellcome-dkebu9hu",
+        "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+        "matched_herbs": [
+          "Almond"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Extract",
+          "Poultice",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "It was formerly highly esteemed as-a vulnerary, and is still in use among the common people. A liniment formed by infusing the fruftj deprived of its seeds, in olive or almond oil, is applied to chapped hands, burns,...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-dwhz86ma-chunk-0290",
+        "work_id": "wellcome-dwhz86ma",
+        "title": "A pocket herbal; containing the medicinal virtues and uses of the most esteemed native plants; with some remarks on bathing, electricity, etc / [John Whiteclay Chambers].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwhz86ma",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "1^ is excellent, mixed with Oil of Almonds, to keep children open ; and in the same form it may be given Avith great success against habitual Costiveness in grown persons, taking a small dose ev ery night. It is also...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1682",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Extract",
+          "Salve",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "with great advantage in mucous obstruction of the lungs and catarrhal cough. The extract may be found in the apothecary shop, and may be taken several times a day, in doses from ten to twenty grains, dis- solved in ar...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-r97vc6ba-chunk-0505",
+        "work_id": "wellcome-r97vc6ba",
+        "title": "A companion to the medicine chest; or, plain directions for the employment of the various medicines, etc. contained in it : with the properties and doses of such as are more generally used in domestic medicine; to which are added, a brief description of the symptoms and treatment of diseases directions for restoring suspended animation and various mechanical auxiliaries to medicine / By John Savory.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r97vc6ba",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Ointment",
+          "Bath",
+          "Gargle",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Ointment, 64 Mezereon Root, 59 Milk, Ass’s Artificial, 10 of Sulphur, 87 , Nurse’s, substitute for, 68 Mineral Waters, 107 Poisons, 100 M indererus's Spirit, 83 Mixture for Gout, 56 Spasm, 32 Cough, 61 Destroying Flie...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-mqb4h4ks-chunk-1277",
+        "work_id": "wellcome-mqb4h4ks",
+        "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself and a family herbal. To which are added, such useful discoveries ... as have transpired since the demise of the author / by William Buchan.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mqb4h4ks",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The common cause of abortion are, the death of Ihe child ; weakness or relaxation of the mother; great evacuations; violent exercise; raising great weights; reaching too high ; jumping or stepping from an eminence; vo...",
+        "score": 44
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-dkebu9hu-chunk-9623",
+        "work_id": "wellcome-dkebu9hu",
+        "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+        "matched_herbs": [
+          "Almond"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Extract",
+          "Poultice",
+          "Liniment",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "It was formerly highly esteemed as-a vulnerary, and is still in use among the common people. A liniment formed by infusing the fruftj deprived of its seeds, in olive or almond oil, is applied to chapped hands, burns,...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-dwhz86ma-chunk-0290",
+        "work_id": "wellcome-dwhz86ma",
+        "title": "A pocket herbal; containing the medicinal virtues and uses of the most esteemed native plants; with some remarks on bathing, electricity, etc / [John Whiteclay Chambers].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwhz86ma",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "1^ is excellent, mixed with Oil of Almonds, to keep children open ; and in the same form it may be given Avith great success against habitual Costiveness in grown persons, taking a small dose ev ery night. It is also...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1682",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Extract",
+          "Salve",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "with great advantage in mucous obstruction of the lungs and catarrhal cough. The extract may be found in the apothecary shop, and may be taken several times a day, in doses from ten to twenty grains, dis- solved in ar...",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-mqb4h4ks-chunk-1277",
+        "work_id": "wellcome-mqb4h4ks",
+        "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : containing observations on the comparative advantages of vaccine inoculation, with instructions for performing the operation an essay, enabling puptured [sic] persons to manage themselves, with engravings of bandages, which every person may prepare for himself and a family herbal. To which are added, such useful discoveries ... as have transpired since the demise of the author / by William Buchan.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mqb4h4ks",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Fever",
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The common cause of abortion are, the death of Ihe child ; weakness or relaxation of the mother; great evacuations; violent exercise; raising great weights; reaching too high ; jumping or stepping from an eminence; vo...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-zmcacd4j-chunk-0218",
+        "work_id": "wellcome-zmcacd4j",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works / by a practising physician.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zmcacd4j",
+        "matched_herbs": [
+          "Almonds"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Dropsy"
+        ],
+        "excerpt": "Dose, one or two tea-spoonfuls three or four times a day, in barley-water. The following mixture is sometimes very beneficial in diseases of the bladder, and of the urinary passages, and in gonorrhoea and gleet:— Take...",
+        "score": 44
+      }
+    ]
+  },
+  "retrieval_text": "Almond is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 595 works and 2186 source-linked chunks. Recorded variants include Almond, Almonds. Common plant-part co-mentions include Gum, Seed, Flower, Root, Leaf, Bark. Common preparation co-mentions include Oil, Powder, Ointment, Syrup, Tincture, Juice. Common condition co-mentions include Cold or catarrh, Cough, Wounds or ulcers, Inflammation, Vomiting or nausea, Fever. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Allergy or sensitivity caution, Toxicity watch, Fatal-risk warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.; The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.; A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.729Z",
+  "builder": "build-herb-profiles.mjs"
+}

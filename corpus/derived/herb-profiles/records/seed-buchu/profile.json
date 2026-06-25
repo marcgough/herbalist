@@ -1,0 +1,1221 @@
+{
+  "profile_id": "seed-buchu",
+  "family_id": "seed-buchu",
+  "canonical_name": "Buchu",
+  "canonical_key": "buchu",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-buchu-361e0b751c#buchu"
+  ],
+  "decision_note": "promote strong medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 376,
+    "total_chunks": 323,
+    "total_works": 156,
+    "matched_chunk_count": 323,
+    "matched_work_count": 156,
+    "matched_mention_total": 323
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Buchu"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-05710300R",
+      "nlm-100912803"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-2710",
+      "nlm-0140313-chunk-3278",
+      "nlm-05710300R-chunk-1177"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 193
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 140
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 3
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 239,
+        "work_count": 129
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 72,
+        "work_count": 56
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 64,
+        "work_count": 50
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 42,
+        "work_count": 37
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 39,
+        "work_count": 37
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 38,
+        "work_count": 35
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 29,
+        "work_count": 25
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 25,
+        "work_count": 24
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 23,
+        "work_count": 21
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 8,
+        "work_count": 8
+      }
+    ],
+    "preparations": [
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 118,
+        "work_count": 84
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 101,
+        "work_count": 70
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 94,
+        "work_count": 69
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 63,
+        "work_count": 47
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 63,
+        "work_count": 42
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 40,
+        "work_count": 28
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 24,
+        "work_count": 18
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 23,
+        "work_count": 19
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 19,
+        "work_count": 18
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 16,
+        "work_count": 15
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 142,
+        "work_count": 95
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 19,
+        "work_count": 15
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 15,
+        "work_count": 14
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 12,
+        "work_count": 10
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 9,
+        "work_count": 8
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 6,
+        "work_count": 5
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 42,
+        "work_count": 36
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 29,
+        "work_count": 25
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 23,
+        "work_count": 23
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 21,
+        "work_count": 20
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 16,
+        "work_count": 16
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 15,
+        "work_count": 15
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 8,
+        "work_count": 8
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-cs5n98hu",
+      "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-61560610R",
+      "title": "Carpenter's family medicine chest dispensatory : containing a select catalogue of drugs, chemicals, and family medicines, with the properties and doses of each article most approved of in domestic medicine : to which is appended a concise description of diseases, with directions for the treatment of such as are unattended with serious consequences, showing also the best immediate measures to be adopted, in those disorders and accidents which are destructive to life, when the physician is not at hand, or until his assistance can be procured",
+      "creator": "Carpenter, George W. (George Washington), 1802-1860.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61560610R-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "nlm-61620650R",
+      "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+      "creator": "Fenner, B. (Byron), 1844-1926 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-nr9dehnu",
+      "title": "The magnetic and botanic family physician, and domestic practice of natural medicine : with illustrations showing various phases of mesmeric treatment, including full and concise instruction in mesmerism, curative magnetism, massage, and medical botany / by D. Younger.",
+      "creator": "",
+      "publication_year": "1887",
+      "collection_id": "wellcome-collection",
+      "topic_family": "medical-botany;domestic-medicine;botany",
+      "source_url": "https://wellcomecollection.org/works/nr9dehnu",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "nlm-101515274",
+      "title": "A dictionary of medical science : containing a full explanation of the various subjects and terms of anatomy, physiology, medical chemistry, pharmacy, pharmacology, therapeutics, medicine, hygiene, dietetics, pathology, bacteriology, surgery, ophthalmology, otology, laryngology, dermatology, gynecology, obstetrics, pediatrics, medical jurisprudence, dentistry, etc",
+      "creator": "Dunglison, Robley, 1798-1869.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "hygiene;dietetics",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101515274-bk",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "nlm-63560150R",
+      "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+      "creator": "Ayers, J. Hamilton.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;botany;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "wellcome-dkebu9hu",
+      "title": "The dispensatory of the United States of America / by Geo. B. Wood and Franklin Bache.",
+      "creator": "",
+      "publication_year": "1883",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dkebu9hu",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "nlm-63570350R",
+      "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "wellcome-zmcacd4j",
+      "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works / by a practising physician.",
+      "creator": "",
+      "publication_year": "1851",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/zmcacd4j",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-b6mx8n3x-chunk-0002",
+        "work_id": "wellcome-b6mx8n3x",
+        "title": "Medical reform, or, Physiology and botanic practice for the people / John Stevens.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/b6mx8n3x",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Tops"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Plaster"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "i Acidity of tlie Stomach 168 Allspice 311 Aloes 332 Angelica 312 Antiscorbutics 830 Antispasmodics 109 Apoplexy 283 Asthma 215 Astringents 103 Avens root 113, 316 Baldmoney 114 Barberry 114 Bayberry 112, 315 Bitter a...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0050",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable aa a Cathartic, in violent Bilious and Typus Fevers BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SEE...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-0013",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Beer for consumption Blackberry, common Bloodroot - Bloodletting - Bone-set - Burns - Butterfly weed - Buchu leaves - CATARRH OR COLDS - Catheter, use of - Cancer - Cancer root - Camomile - Castor oil - Camphorated po...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0052",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable as a Cathartic, in violent Bilious and Typus Fevers. BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SE...",
+        "score": 52
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-b6mx8n3x-chunk-0002",
+        "work_id": "wellcome-b6mx8n3x",
+        "title": "Medical reform, or, Physiology and botanic practice for the people / John Stevens.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/b6mx8n3x",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Tops"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Plaster"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "i Acidity of tlie Stomach 168 Allspice 311 Aloes 332 Angelica 312 Antiscorbutics 830 Antispasmodics 109 Apoplexy 283 Asthma 215 Astringents 103 Avens root 113, 316 Baldmoney 114 Barberry 114 Bayberry 112, 315 Bitter a...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0050",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable aa a Cathartic, in violent Bilious and Typus Fevers BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SEE...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-0013",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Beer for consumption Blackberry, common Bloodroot - Bloodletting - Bone-set - Burns - Butterfly weed - Buchu leaves - CATARRH OR COLDS - Catheter, use of - Cancer - Cancer root - Camomile - Castor oil - Camphorated po...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0052",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable as a Cathartic, in violent Bilious and Typus Fevers. BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SE...",
+        "score": 52
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-b6mx8n3x-chunk-0002",
+        "work_id": "wellcome-b6mx8n3x",
+        "title": "Medical reform, or, Physiology and botanic practice for the people / John Stevens.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/b6mx8n3x",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Tops"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Plaster"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "i Acidity of tlie Stomach 168 Allspice 311 Aloes 332 Angelica 312 Antiscorbutics 830 Antispasmodics 109 Apoplexy 283 Asthma 215 Astringents 103 Avens root 113, 316 Baldmoney 114 Barberry 114 Bayberry 112, 315 Bitter a...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0050",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable aa a Cathartic, in violent Bilious and Typus Fevers BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SEE...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-0013",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Beer for consumption Blackberry, common Bloodroot - Bloodletting - Bone-set - Burns - Butterfly weed - Buchu leaves - CATARRH OR COLDS - Catheter, use of - Cancer - Cancer root - Camomile - Castor oil - Camphorated po...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0052",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable as a Cathartic, in violent Bilious and Typus Fevers. BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SE...",
+        "score": 52
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-b6mx8n3x-chunk-0002",
+        "work_id": "wellcome-b6mx8n3x",
+        "title": "Medical reform, or, Physiology and botanic practice for the people / John Stevens.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/b6mx8n3x",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Tops"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Plaster"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Asthma",
+          "Diarrhoea or looseness",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "i Acidity of tlie Stomach 168 Allspice 311 Aloes 332 Angelica 312 Antiscorbutics 830 Antispasmodics 109 Apoplexy 283 Asthma 215 Astringents 103 Avens root 113, 316 Baldmoney 114 Barberry 114 Bayberry 112, 315 Bitter a...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0050",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable aa a Cathartic, in violent Bilious and Typus Fevers BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SEE...",
+        "score": 54
+      },
+      {
+        "chunk_id": "nlm-32520970R-chunk-0013",
+        "work_id": "nlm-32520970R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children, and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, by whch the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520970R-bk",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Powder",
+          "Oil"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Consumption",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Beer for consumption Blackberry, common Bloodroot - Bloodletting - Bone-set - Burns - Butterfly weed - Buchu leaves - CATARRH OR COLDS - Catheter, use of - Cancer - Cancer root - Camomile - Castor oil - Camphorated po...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0052",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Buchu"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Colic"
+        ],
+        "excerpt": "BLACK ROOT, [Leptandria Virginica,]—Invaluable as a Cathartic, in violent Bilious and Typus Fevers. BAYBERRY LEAVES, [Myrica Cerifera,]-The infusion in Flooding from the Womb, Hysterical Complaints, <fec. BEES-NEST SE...",
+        "score": 52
+      }
+    ]
+  },
+  "retrieval_text": "Buchu is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 156 works and 323 source-linked chunks. Recorded variants include Buchu. Common plant-part co-mentions include Leaf, Bark, Root, Gum, Seed, Flower. Common preparation co-mentions include Infusion, Oil, Tincture, Powder, Extract, Tea. Common condition co-mentions include Cold or catarrh, Inflammation, Rheumatism, Dropsy, Fever, Wounds or ulcers. Caution co-mentions include Dose caution, Narcotic or sedative caution, Allergy or sensitivity caution, Bleeding caution, Child-use caution, Toxicity watch. Representative source works include A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.; The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.; Carpenter's family medicine chest dispensatory : containing a select catalogue of drugs, chemicals, and family medicines, with the properties and doses of each article most approved of in domestic medicine : to which is appended a concise description of diseases, with directions for the treatment of such as are unattended with serious consequences, showing also the best immediate measures to be adopted, in those disorders and accidents which are destructive to life, when the physician is not at hand, or until his assistance can be procured; Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.929Z",
+  "builder": "build-herb-profiles.mjs"
+}

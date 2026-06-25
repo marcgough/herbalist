@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63610890R",
+  "title": "A friend in need : a household guide in health and in disease",
+  "creator": "Perry, J. Frank (Joseph Franklin), 1846-1909.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610890R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63610890R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63610890R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;household-health",
+  "chunkCount": 1514,
+  "paragraphCount": 1515,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610890R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63610890R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63610890R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63610890R.jsonl",
+  "rawSha256": "f3fa6f41396c51d392bd2c18ed1c355ff4e423f9bd1b09e128b07a6425f86180",
+  "normalizedSha256": "b838272d16dc0199009cc31d5874cad71e4441a11541b0fd99d378bf624ec9d0",
+  "processedAt": "2026-06-18T05:22:13.212Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-gb4y7mga",
+  "title": "Materia medica; or a description of simple medicines generally us'd in physick; fully and accurately demonstrating their uses, virtues, and places of growth ... With an appendix, shewing the nature and use of mineral waters / Written originally by the learned Monsieur Tournefort ... Faithfully translated into English.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/gb4y7mga",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30510594",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/gb4y7mga",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 796,
+  "paragraphCount": 859,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-gb4y7mga\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-gb4y7mga\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-gb4y7mga\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-gb4y7mga.jsonl",
+  "rawSha256": "6092df24d3480673276a8d3433ffe20844454bff4fc2fba70c63c964a12a1d2f",
+  "normalizedSha256": "216a6b8a8317e989b3140c512285a2e89abe4aee5285530d7882671c7d1ad065",
+  "processedAt": "2026-06-16T23:14:01.207Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64220260R",
+  "title": "The family physician , or, The true art of healing the sick in all diseases whatever",
+  "creator": "Hollick, Frederick, 1818-1900.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220260R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64220260R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64220260R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 388,
+  "paragraphCount": 462,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220260R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220260R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64220260R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64220260R.jsonl",
+  "rawSha256": "0fb5b7e7cf6c524ba60588904710decae721230143ae0ff2aad1ca455f33b077",
+  "normalizedSha256": "7114157f474d1b1830cd8f6f74adadf582a1c90dc45acf6a736597a98c073bb8",
+  "processedAt": "2026-06-20T02:21:50.061Z"
+}

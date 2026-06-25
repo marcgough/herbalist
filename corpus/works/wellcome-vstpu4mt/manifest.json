@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-vstpu4mt",
+  "title": "Botanic guide to health, and the natural pathology of disease / by A.I. Coffin.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/vstpu4mt",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b20411303",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/vstpu4mt",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 717,
+  "paragraphCount": 748,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-vstpu4mt\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-vstpu4mt\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-vstpu4mt.jsonl",
+  "rawSha256": "a2827145a479e8e1b1e2104e6ba9e4118e3737aab5ea38e1fb85706149295ab5",
+  "normalizedSha256": "35d0ea935ddb1214c34b5f9b9cab28ab7fc7ba1e9b78dbe45a9ccec2269dea48",
+  "processedAt": "2026-06-16T13:47:00.392Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

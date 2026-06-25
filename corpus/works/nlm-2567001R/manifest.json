@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2567001R",
+  "title": "The pharmacopoeia of the United States of America : 1820",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2567001R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2567001R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2567001R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 29,
+  "paragraphCount": 30,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2567001R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2567001R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2567001R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2567001R.jsonl",
+  "rawSha256": "bfca715bbe30952c683d0ae7d437b90eb0f03325ac8db7d5446c20a9b9f6b6d5",
+  "normalizedSha256": "6a5a4a588e273d5d948f9ad07acb5b7c6e9bc0c3542d070d3d0464d8e2304890",
+  "processedAt": "2026-06-19T12:38:35.409Z"
+}

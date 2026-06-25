@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2574014R",
+  "title": "The American new dispensatory : containing general principles of pharmaceutic chemistry ; pharmaceutic operations ; chemical analysis of the articles of materia medica ; materia medica , including several new and valuable articles, the production of the United States ; preparations and compositions ; with an appendix, containing medical prescriptions ; the nature and medical uses of the gases ; medical electricity ; galvanism ; an abridgment of Dr. Currie's reports on the use of water ; the cultivation of the poppy plant, and the method of preparing opium ; and several useful tables ; the whole compiled from the most approved authors, both European and American",
+  "creator": "Thacher, James, 1754-1844.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574014R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2574014R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2574014R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia;cultivation",
+  "chunkCount": 1437,
+  "paragraphCount": 2408,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2574014R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2574014R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2574014R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2574014R.jsonl",
+  "rawSha256": "4b1704926c4545929aa2bc93e40a7277549152acfd2545ce91e3d3fd61177413",
+  "normalizedSha256": "fa59859f6f288240aa27ffd9d9ab91ed9c9fa3dd3450c5762e4958efc4edd5a4",
+  "processedAt": "2026-06-17T11:19:20.571Z"
+}

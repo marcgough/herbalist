@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61850220R",
+  "title": "A materia medica , of the United States : systematically arranged",
+  "creator": "Zollickoffer, William, 1793-1853.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61850220R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61850220R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61850220R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 406,
+  "paragraphCount": 622,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61850220R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61850220R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61850220R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61850220R.jsonl",
+  "rawSha256": "10200f770bffff2499ed4f9fcdbb8b658dc617056fc8a35ae2195a40674c5f60",
+  "normalizedSha256": "b062b90fcb1c70b411d6ad88c9c0dfaaf5452b690b783f37cbce583e3dfd6adf",
+  "processedAt": "2026-06-17T18:51:16.235Z"
+}

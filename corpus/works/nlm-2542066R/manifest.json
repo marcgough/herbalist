@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2542066R",
+  "title": "Vegetable materia medica of the United States, or, Medical botany : containing a botanical, general, and medical history, of medicinal plants indigenous to the United States ; illustrated by coloured engravings, made after original drawings from nature, done by the author",
+  "creator": "Barton, William P. C. (William Paul Crillon), 1786-1856.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2542066R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2542066R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2542066R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;medicinal-plants;medical-botany;botany",
+  "chunkCount": 810,
+  "paragraphCount": 1650,
+  "sectionCount": 27,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2542066R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2542066R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2542066R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2542066R.jsonl",
+  "rawSha256": "1ad5eca5cccc69cf4ac32e2e5932ace0eb6cacb361310f997961b0c2327159d5",
+  "normalizedSha256": "172246d7c16720aa5277e86e322bc7a0a6aff822153f517b74046388f2f8369e",
+  "processedAt": "2026-06-16T14:22:50.302Z"
+}

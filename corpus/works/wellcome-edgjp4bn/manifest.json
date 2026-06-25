@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-edgjp4bn",
+  "title": "The elements of modern domestic medicine : a plain and practical hand-book describing simple diseases, their causes, prevention, and safe home treatment, the earliest signs that a physician is needed, and the procedure till the doctor arrives, in all emergencies / by Henry G. Hanchett ; the whole issued after careful revision by A.H. Laidlaw.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/edgjp4bn",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21126306",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/edgjp4bn",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 733,
+  "paragraphCount": 745,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-edgjp4bn\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-edgjp4bn\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-edgjp4bn.jsonl",
+  "rawSha256": "19e5e843f32ffeeea3b9d875dcb1288a4bac980ccfe8879f16454085b80e6712",
+  "normalizedSha256": "851d949d6971fbde681c5d97211b6d10c029aafc6cc44f4b66c647f7466dda31",
+  "processedAt": "2026-06-16T13:46:50.171Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

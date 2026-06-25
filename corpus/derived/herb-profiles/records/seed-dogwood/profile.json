@@ -1,0 +1,1188 @@
+{
+  "profile_id": "seed-dogwood",
+  "family_id": "seed-dogwood",
+  "canonical_name": "Dogwood",
+  "canonical_key": "dogwood",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-dogwood-09f5936097#dogwood"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 220,
+    "total_chunks": 211,
+    "total_works": 106,
+    "matched_chunk_count": 211,
+    "matched_work_count": 106,
+    "matched_mention_total": 211
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Dogwood",
+      "Dogwood Berries"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-100898140",
+      "nlm-100912803"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1011",
+      "nlm-0140313-chunk-1201",
+      "nlm-0140313-chunk-1656"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 181
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 35
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 195,
+        "work_count": 101
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 101,
+        "work_count": 61
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 32,
+        "work_count": 27
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 29,
+        "work_count": 25
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 25,
+        "work_count": 22
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 25,
+        "work_count": 21
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 23,
+        "work_count": 20
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 13,
+        "work_count": 8
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 50,
+        "work_count": 36
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 47,
+        "work_count": 41
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 38,
+        "work_count": 26
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 35,
+        "work_count": 27
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 22,
+        "work_count": 19
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 21,
+        "work_count": 18
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 20,
+        "work_count": 18
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 19,
+        "work_count": 18
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 19,
+        "work_count": 16
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 11,
+        "work_count": 11
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 83,
+        "work_count": 63
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 14,
+        "work_count": 10
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 9,
+        "work_count": 6
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 3,
+        "work_count": 2
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 56,
+        "work_count": 41
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 49,
+        "work_count": 38
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 20,
+        "work_count": 17
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 11,
+        "work_count": 11
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 11,
+        "work_count": 9
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 11,
+        "work_count": 9
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 11,
+        "work_count": 8
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 9,
+        "work_count": 7
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 6,
+        "work_count": 6
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-0140313",
+      "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants;domestic-medicine;hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "nlm-63570990R",
+      "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-100912803",
+      "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-63560880R",
+      "title": "A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc",
+      "creator": "Cook, Wm. H. (William Henry), 1832-1899.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "hygiene;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560880R-bk",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "nlm-61820150R",
+      "title": "The reformed botanic and Indian physician : a complete guide to health",
+      "creator": "Smith, Daniel, 1790-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "wellcome-dvdzaqep",
+      "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-q59tmjuk",
+      "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+      "creator": "",
+      "publication_year": "1855",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botanic-medicine",
+      "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0077",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dropsy"
+        ],
+        "excerpt": "DOGWOOD FLOWERS, [Cornus florida,]—A good remedy for Fluor Albus, Dyspepsia, Liver complaints, <fec. DOCK, WATER, [Rumex aquaticus,]—Good in Scurvy, Cutaneous Eruptions, and Cancerous Tumors. DOGWOOD, FALSE, [Acer str...",
+        "score": 51
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0312",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Alder, striped, see Witch hazel. Apple, Peru, \" Thorn apple. Arbutus, trailing, \" Gravel plant. Arse-mart, \" Water pepper. Asthma weed, \" Lobelia. Balm, mountain, \" Oswego tea. Balm, red, \" \" \" Basil, wild, \" Dittany....",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-1556",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Bitter root, 8 oz. Barberry bark, 2 oz. Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2097",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Dysentery",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two ounces of brown sugar, into a quart of...",
+        "score": 47
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0077",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dropsy"
+        ],
+        "excerpt": "DOGWOOD FLOWERS, [Cornus florida,]—A good remedy for Fluor Albus, Dyspepsia, Liver complaints, <fec. DOCK, WATER, [Rumex aquaticus,]—Good in Scurvy, Cutaneous Eruptions, and Cancerous Tumors. DOGWOOD, FALSE, [Acer str...",
+        "score": 51
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0312",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Alder, striped, see Witch hazel. Apple, Peru, \" Thorn apple. Arbutus, trailing, \" Gravel plant. Arse-mart, \" Water pepper. Asthma weed, \" Lobelia. Balm, mountain, \" Oswego tea. Balm, red, \" \" \" Basil, wild, \" Dittany....",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-1556",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Bitter root, 8 oz. Barberry bark, 2 oz. Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2097",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Dysentery",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two ounces of brown sugar, into a quart of...",
+        "score": 47
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0077",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dropsy"
+        ],
+        "excerpt": "DOGWOOD FLOWERS, [Cornus florida,]—A good remedy for Fluor Albus, Dyspepsia, Liver complaints, <fec. DOCK, WATER, [Rumex aquaticus,]—Good in Scurvy, Cutaneous Eruptions, and Cancerous Tumors. DOGWOOD, FALSE, [Acer str...",
+        "score": 51
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0312",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Alder, striped, see Witch hazel. Apple, Peru, \" Thorn apple. Arbutus, trailing, \" Gravel plant. Arse-mart, \" Water pepper. Asthma weed, \" Lobelia. Balm, mountain, \" Oswego tea. Balm, red, \" \" \" Basil, wild, \" Dittany....",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-1556",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Bitter root, 8 oz. Barberry bark, 2 oz. Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2097",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Dysentery",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two ounces of brown sugar, into a quart of...",
+        "score": 47
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0312",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Alder, striped, see Witch hazel. Apple, Peru, \" Thorn apple. Arbutus, trailing, \" Gravel plant. Arse-mart, \" Water pepper. Asthma weed, \" Lobelia. Balm, mountain, \" Oswego tea. Balm, red, \" \" \" Basil, wild, \" Dittany....",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-q59tmjuk-chunk-1556",
+        "work_id": "wellcome-q59tmjuk",
+        "title": "An improved system of botanic medicine : founded upon correct physiological principles : comprising a complete treatise on the practice of medicine with a copious materia medica / by Horton Howard.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/q59tmjuk",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Bitter root, 8 oz. Barberry bark, 2 oz. Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2097",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Cordial"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Dysentery",
+          "Constipation",
+          "Colic"
+        ],
+        "excerpt": "Prickly ash berries, 8 oz. Rhubarb, 2 oz. Caraway seeds, 1 lb. Cloves, 8 oz. African cayenne, 12 oz. All finely pulverized, and well mixed. Put one ounce of this powder, and two ounces of brown sugar, into a quart of...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0074",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Dogwood"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dropsy",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "CURRANT BARK, BLACK,—Good in all diseases of the Throat. DOVE'S FOOT, (Gerauium maculatum,)—Established rem- edy for Diarrhoea, Hemorrhage, and Fluor Albus. DILL-WEED, or DILLY, [Anthemis cotula,]—Employed in Fevers a...",
+        "score": 46
+      }
+    ]
+  },
+  "retrieval_text": "Dogwood is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 106 works and 211 source-linked chunks. Recorded variants include Dogwood, Dogwood Berries. Common plant-part co-mentions include Bark, Root, Berry, Flower, Gum, Leaf. Common preparation co-mentions include Tea, Powder, Extract, Decoction, Infusion, Tincture. Common condition co-mentions include Fever, Cold or catarrh, Cough, Colic, Diarrhoea or looseness, Wounds or ulcers. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Toxicity watch, Allergy or sensitivity caution. Representative source works include Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development; Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants; Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants; A handbook of family medicine and hygiene : together with descriptions of remedies, numerous choice formulas, dietary for the sick, rules for nursing, etc. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.966Z",
+  "builder": "build-herb-profiles.mjs"
+}

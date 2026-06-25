@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101678181",
+  "title": "Preliminary note on a new medicinal plant and its alkaloid",
+  "creator": "Wood, H. C., Jr. (Horatio C.), 1841-1920 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101678181-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101678181-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101678181",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medicinal-plants",
+  "chunkCount": 6,
+  "paragraphCount": 6,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101678181\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101678181\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101678181\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101678181.jsonl",
+  "rawSha256": "e3a94143ef36f03e67452cf95c57b31e83ca24e474a00dcb3ae224d16a4c57bc",
+  "normalizedSha256": "62dc832a466980b47604ef9c879e845e5713be168fa6e927887b8ffd62060cd1",
+  "processedAt": "2026-06-17T15:05:26.106Z"
+}

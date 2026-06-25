@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61750770R",
+  "title": "A botanical index to all the medicinal plants , barks, roots, seeds and flowers usually kept by druggists : arranged in alphabetical order, with their officinal and common names",
+  "creator": "Pollock, Allan (Pharmacist) author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61750770R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61750770R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61750770R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medicinal-plants;botany",
+  "chunkCount": 126,
+  "paragraphCount": 127,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61750770R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61750770R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61750770R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61750770R.jsonl",
+  "rawSha256": "63da79d31e8a91a913eb17a69b9f846756a9306fea58c8f2686d7220eb394f67",
+  "normalizedSha256": "8796f2f65fa45d04a2f5693d8c738c24577e576a0413b3e6776926e76bf70de5",
+  "processedAt": "2026-06-17T09:28:34.808Z"
+}

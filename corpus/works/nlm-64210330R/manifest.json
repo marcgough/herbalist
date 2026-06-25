@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64210330R",
+  "title": "The complete herbalist, or, The people their own physicians, by the use of nature's remedies : describing the great curative properties found in the herbal kingdom : a new and plain system of hygienic principles, together with comprehensive essays on sexual philosophy, marriage, divorce, &c",
+  "creator": "Brown, O. Phelps (Oliver Phelps)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210330R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64210330R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64210330R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal",
+  "chunkCount": 1596,
+  "paragraphCount": 1608,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210330R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64210330R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64210330R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64210330R.jsonl",
+  "rawSha256": "b32f7a6d7aedf4e76f2fefde5b9f53413360500bf172ee6fd9bd1bc1d2e1c852",
+  "normalizedSha256": "d3305605379b32d1c761b13053987f259312eff7b4b15022f4e4fe1afe523bff",
+  "processedAt": "2026-06-17T00:58:36.806Z"
+}

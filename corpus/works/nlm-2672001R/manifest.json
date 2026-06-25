@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2672001R",
+  "title": "The modern family physician : being Dr Green's treasure of health, or, cabinet of cures unlock'd ; in which all his public medicines are made known ... ; to which is prefixed, a new treatise on the various diseases incident to children",
+  "creator": "Green, Dr.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2672001R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2672001R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2672001R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 42,
+  "paragraphCount": 54,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2672001R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2672001R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2672001R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2672001R.jsonl",
+  "rawSha256": "bc4a2cadd49b75450e589999848e9f74040e2b34a1eda6a36caa75bb7df02cd5",
+  "normalizedSha256": "95f3725c337f9f418957c7b3a8f0106f0945dbd69b18222b7b05091d74f9e036",
+  "processedAt": "2026-06-19T23:34:25.544Z"
+}

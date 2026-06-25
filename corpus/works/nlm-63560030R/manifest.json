@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63560030R",
+  "title": "Abernethy's family physician , or, Ready prescriber in cases of illness and accident : where medical attendance is not desired or cannot be procured : containing the causes, symptoms and treatment of diseases, the proper remedies in burns, contusions, poisoning, and all varieties of physical casualties : forming a complete guide to the retention and recovery of health",
+  "creator": "Abernethy, John, 1764-1831.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560030R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63560030R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63560030R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 296,
+  "paragraphCount": 431,
+  "sectionCount": 13,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560030R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63560030R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63560030R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63560030R.jsonl",
+  "rawSha256": "d5e116ad6f8b2a1d9fad3878350701713196ba71e618d9a039717eb93831d6ce",
+  "normalizedSha256": "45b133d06b667c778580c4332cd250a5cb0db7a7141bf7fa71273358c0866289",
+  "processedAt": "2026-06-17T19:14:00.700Z"
+}

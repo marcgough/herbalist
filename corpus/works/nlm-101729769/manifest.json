@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101729769",
+  "title": "The botanical names of the U.S. pharmacopœia",
+  "creator": "Rusby, Henry Hurd, 1855-1940 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101729769-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101729769-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101729769",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;botany",
+  "chunkCount": 49,
+  "paragraphCount": 49,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101729769\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101729769\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101729769\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101729769.jsonl",
+  "rawSha256": "5672e7d3e3efeced5d09a0d7477ec84840f43c13f5ada9d0b32a97b5fc1655af",
+  "normalizedSha256": "390d5fe6bba6ac328ec7117f7b7506a52c5ced84974291c87bf9d948e5267315",
+  "processedAt": "2026-06-17T18:51:18.750Z"
+}

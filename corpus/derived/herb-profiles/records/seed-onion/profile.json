@@ -1,0 +1,1155 @@
+{
+  "profile_id": "seed-onion",
+  "family_id": "seed-onion",
+  "canonical_name": "Onion",
+  "canonical_key": "onion",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-onion-2889716716#onion"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 213,
+    "total_chunks": 205,
+    "total_works": 118,
+    "matched_chunk_count": 205,
+    "matched_work_count": 118,
+    "matched_mention_total": 205
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Onion",
+      "Onions"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-100912803",
+      "nlm-101250099"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-3966",
+      "nlm-100912803-chunk-2067",
+      "nlm-100912803-chunk-3704"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 112
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 78
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 17
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 55,
+        "work_count": 45
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 29,
+        "work_count": 26
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 26,
+        "work_count": 21
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 22,
+        "work_count": 19
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 16,
+        "work_count": 15
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 15,
+        "work_count": 11
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "bulb",
+        "label": "Bulb",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "preparations": [
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 108,
+        "work_count": 80
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 68,
+        "work_count": 42
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 52,
+        "work_count": 41
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 49,
+        "work_count": 34
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 43,
+        "work_count": 34
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 32,
+        "work_count": 24
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 24,
+        "work_count": 20
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 20,
+        "work_count": 12
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 19,
+        "work_count": 18
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 18,
+        "work_count": 17
+      }
+    ],
+    "cautions": [
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 51,
+        "work_count": 42
+      },
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 37,
+        "work_count": 35
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 15,
+        "work_count": 13
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 8,
+        "work_count": 7
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 48,
+        "work_count": 38
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 35,
+        "work_count": 29
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 25,
+        "work_count": 21
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 20,
+        "work_count": 20
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 14,
+        "work_count": 11
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 11,
+        "work_count": 10
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 7,
+        "work_count": 7
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-54410330R",
+      "title": "Primary studies for nurses : a text-book for first year pupil nurses, containing courses of studies in anatomy, physiology, hygiene, bacteriology, therapeutics and materia medica , dietetics and invalid cookery",
+      "creator": "Aikens, Charlotte A. (Charlotte Albina), 1868- author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;hygiene;nursing;convalescence;dietetics",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-54410330R-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "nlm-64230290R",
+      "title": "The sick man's friend : being a plain, practical medical work, designed for the use of families and individuals on vegetable, or botanical principles : in four parts",
+      "creator": "Sanborn, P. E. (Peter Elkins), 1796-1845.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230290R-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-ug842bt7",
+      "title": "The sick man's friend : Being a plain, practical medical work; designed for the use of families and individuals on vegetable, or botanical principles. In four parts / by P.E. Sanborn.",
+      "creator": "",
+      "publication_year": "1836",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/ug842bt7",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-vcp6d7za",
+      "title": "The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.",
+      "creator": "",
+      "publication_year": "1862",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/vcp6d7za",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "nlm-63560930R",
+      "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+      "creator": "Coxe, Edward Jenner, 1801-1882.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;convalescence",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-64230520R",
+      "title": "The botanic physician : being a compendium of the practice of medicine upon botanic principles : containing all the principal branches necessary to the study of medicine as causes, symptoms, and cure of diseases : midwifery, materia medica , pharmacy and botany, surgery, physiology &c. : together with a great variety of useful recipes",
+      "creator": "Smith, Elisha.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230520R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-kadwx9mj",
+      "title": "The botanic physician : being a compendium of the practice of medicine upon botanic principles : containing all the principal branches necessary to the study of medicine as causes, symptoms, and cure of diseases : midwifery, materia medica, pharmacy and botany, surgery, physiology &c. : together with a great variety of useful recipes / by Elisha Smith ;  revised, corrected, and improved by Isaac S. Smith.",
+      "creator": "",
+      "publication_year": "1844",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/kadwx9mj",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-64211070R",
+      "title": "The Cherokee physician, or, Indian guide to health : comprising a brief view of anatomy, with general rules for preserving health without the use of medicines : the diseases of the United States, with their symptoms, causes, and means of prevention are explained in simple terms : it also contains a description of a variety of herbs and roots, many of which are not explained in any other book, the medicinal virtues of which have hitherto been unknown to the whites",
+      "creator": "Foreman, Richard, active 1849-1857.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64211070R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-sswtagvt",
+      "title": "The Cherokee physician, or, Indian guide to health : comprising a brief view of anatomy, with general rules for preserving health without the use of medicines : the diseases of the United States, with their symptoms, causes, and means of prevention are explained in simple terms : it also contains a description of a variety of herbs and roots, many of which are not explained in any other book, the medicinal virtues of which have hitherto been unknown to the whites / as given by Richard Foreman ; to which is added a short dispensatory by Jas. W. Mahoney.",
+      "creator": "",
+      "publication_year": "1857",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/sswtagvt",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-vnh5zekf",
+      "title": "The compleat herbal: or, the botanical institutions of Mr. Tournefort ... / translated from the original Latin [by J. Martyn] With large additions from Ray, Gerarde, Parkinson, and others ... With a short account of the life and writings of the author.",
+      "creator": "",
+      "publication_year": "1719",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;botany",
+      "source_url": "https://wellcomecollection.org/works/vnh5zekf",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "wellcome-mjfy95cw-chunk-0074",
+        "work_id": "wellcome-mjfy95cw",
+        "title": "Chinese materia medica : vegetable kingdom / extensively revised from F. Porter Smith's work by G.A. Stuart.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mjfy95cw",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bulb"
+        ],
+        "preparations": [
+          "Tea",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "), and the foreign onion are specially mentioned in the Pentsao. It says that the latter are indigenous to the mountains of Szechuan, but we have not been able to verify this. Onion tea is given to persons suffering f...",
+        "score": 54
+      },
+      {
+        "chunk_id": "pg-53755-chunk-0235",
+        "work_id": "pg-53755",
+        "title": "The Taleef Shereef; Or, Indian Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PUBLISHED BY",
+        "source_url": "https://www.gutenberg.org/ebooks/53755",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "With Kutkuleja leaves, in Vomiting, Cholera, &c. ,, Cow's urine, in the cure of Diarrhoea. ,, Toolsi leaves, Internal heat. ,, Lime juice, and applied to the eyes, Evil spirits depart. ,, Kusskuss water, in the cure o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-xyjmmeqt-chunk-0836",
+        "work_id": "wellcome-xyjmmeqt",
+        "title": "Domestic medicine : a treatise on the practice of medicine, adapted to the reformed system, comprising a materia medica / by J. Kost.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xyjmmeqt",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "It should not be employed in doses too large, as it is somewhat active in its effects. The dose of the pow- der is from ten to twenty grains. In decoction of an ounce of coarse powder to a pint of boiling water, the -...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-aw843fyz-chunk-0777",
+        "work_id": "wellcome-aw843fyz",
+        "title": "The practice of medicine, according to the plan most approved by the Reformed or Botanic Colleges of the U. S : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings ; designed principally for families / by J. Kost.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aw843fyz",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "It should not be used in doses too large, as it is somewhat active in its effects. The dose of the powder is from 20 to 30 grains. In decoction of an ounce of coarse powder to a pint of boiling water, the dose is from...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2126",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "EXPECTORANT POWDER. Take of, Skunk cabbage root, 4 oz. Unicorq root, 2 oz. Lobelia seeds, 1 oz. Cayenne, 1 drachm All finely pulverized, sifted and well mixed. Dose—from half to a whole tea-spoonful, in honey or melas...",
+        "score": 43
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "wellcome-mjfy95cw-chunk-0074",
+        "work_id": "wellcome-mjfy95cw",
+        "title": "Chinese materia medica : vegetable kingdom / extensively revised from F. Porter Smith's work by G.A. Stuart.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mjfy95cw",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bulb"
+        ],
+        "preparations": [
+          "Tea",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "), and the foreign onion are specially mentioned in the Pentsao. It says that the latter are indigenous to the mountains of Szechuan, but we have not been able to verify this. Onion tea is given to persons suffering f...",
+        "score": 54
+      },
+      {
+        "chunk_id": "pg-53755-chunk-0235",
+        "work_id": "pg-53755",
+        "title": "The Taleef Shereef; Or, Indian Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PUBLISHED BY",
+        "source_url": "https://www.gutenberg.org/ebooks/53755",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "With Kutkuleja leaves, in Vomiting, Cholera, &c. ,, Cow's urine, in the cure of Diarrhoea. ,, Toolsi leaves, Internal heat. ,, Lime juice, and applied to the eyes, Evil spirits depart. ,, Kusskuss water, in the cure o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-xyjmmeqt-chunk-0836",
+        "work_id": "wellcome-xyjmmeqt",
+        "title": "Domestic medicine : a treatise on the practice of medicine, adapted to the reformed system, comprising a materia medica / by J. Kost.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xyjmmeqt",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "It should not be employed in doses too large, as it is somewhat active in its effects. The dose of the pow- der is from ten to twenty grains. In decoction of an ounce of coarse powder to a pint of boiling water, the -...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-aw843fyz-chunk-0777",
+        "work_id": "wellcome-aw843fyz",
+        "title": "The practice of medicine, according to the plan most approved by the Reformed or Botanic Colleges of the U. S : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings ; designed principally for families / by J. Kost.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aw843fyz",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "It should not be used in doses too large, as it is somewhat active in its effects. The dose of the powder is from 20 to 30 grains. In decoction of an ounce of coarse powder to a pint of boiling water, the dose is from...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2126",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "EXPECTORANT POWDER. Take of, Skunk cabbage root, 4 oz. Unicorq root, 2 oz. Lobelia seeds, 1 oz. Cayenne, 1 drachm All finely pulverized, sifted and well mixed. Dose—from half to a whole tea-spoonful, in honey or melas...",
+        "score": 43
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "wellcome-mjfy95cw-chunk-0074",
+        "work_id": "wellcome-mjfy95cw",
+        "title": "Chinese materia medica : vegetable kingdom / extensively revised from F. Porter Smith's work by G.A. Stuart.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mjfy95cw",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bulb"
+        ],
+        "preparations": [
+          "Tea",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "), and the foreign onion are specially mentioned in the Pentsao. It says that the latter are indigenous to the mountains of Szechuan, but we have not been able to verify this. Onion tea is given to persons suffering f...",
+        "score": 54
+      },
+      {
+        "chunk_id": "pg-53755-chunk-0235",
+        "work_id": "pg-53755",
+        "title": "The Taleef Shereef; Or, Indian Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PUBLISHED BY",
+        "source_url": "https://www.gutenberg.org/ebooks/53755",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "With Kutkuleja leaves, in Vomiting, Cholera, &c. ,, Cow's urine, in the cure of Diarrhoea. ,, Toolsi leaves, Internal heat. ,, Lime juice, and applied to the eyes, Evil spirits depart. ,, Kusskuss water, in the cure o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-xyjmmeqt-chunk-0836",
+        "work_id": "wellcome-xyjmmeqt",
+        "title": "Domestic medicine : a treatise on the practice of medicine, adapted to the reformed system, comprising a materia medica / by J. Kost.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xyjmmeqt",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "It should not be employed in doses too large, as it is somewhat active in its effects. The dose of the pow- der is from ten to twenty grains. In decoction of an ounce of coarse powder to a pint of boiling water, the -...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-aw843fyz-chunk-0777",
+        "work_id": "wellcome-aw843fyz",
+        "title": "The practice of medicine, according to the plan most approved by the Reformed or Botanic Colleges of the U. S : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings ; designed principally for families / by J. Kost.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aw843fyz",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "It should not be used in doses too large, as it is somewhat active in its effects. The dose of the powder is from 20 to 30 grains. In decoction of an ounce of coarse powder to a pint of boiling water, the dose is from...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2126",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "EXPECTORANT POWDER. Take of, Skunk cabbage root, 4 oz. Unicorq root, 2 oz. Lobelia seeds, 1 oz. Cayenne, 1 drachm All finely pulverized, sifted and well mixed. Dose—from half to a whole tea-spoonful, in honey or melas...",
+        "score": 43
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-mjfy95cw-chunk-0074",
+        "work_id": "wellcome-mjfy95cw",
+        "title": "Chinese materia medica : vegetable kingdom / extensively revised from F. Porter Smith's work by G.A. Stuart.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/mjfy95cw",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bulb"
+        ],
+        "preparations": [
+          "Tea",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Headache",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "), and the foreign onion are specially mentioned in the Pentsao. It says that the latter are indigenous to the mountains of Szechuan, but we have not been able to verify this. Onion tea is given to persons suffering f...",
+        "score": 54
+      },
+      {
+        "chunk_id": "pg-53755-chunk-0235",
+        "work_id": "pg-53755",
+        "title": "The Taleef Shereef; Or, Indian Materia Medica",
+        "collection_id": "project-gutenberg",
+        "section_heading": "PUBLISHED BY",
+        "source_url": "https://www.gutenberg.org/ebooks/53755",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea",
+          "Dropsy"
+        ],
+        "excerpt": "With Kutkuleja leaves, in Vomiting, Cholera, &c. ,, Cow's urine, in the cure of Diarrhoea. ,, Toolsi leaves, Internal heat. ,, Lime juice, and applied to the eyes, Evil spirits depart. ,, Kusskuss water, in the cure o...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-xyjmmeqt-chunk-0836",
+        "work_id": "wellcome-xyjmmeqt",
+        "title": "Domestic medicine : a treatise on the practice of medicine, adapted to the reformed system, comprising a materia medica / by J. Kost.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/xyjmmeqt",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "It should not be employed in doses too large, as it is somewhat active in its effects. The dose of the pow- der is from ten to twenty grains. In decoction of an ounce of coarse powder to a pint of boiling water, the -...",
+        "score": 44
+      },
+      {
+        "chunk_id": "wellcome-aw843fyz-chunk-0777",
+        "work_id": "wellcome-aw843fyz",
+        "title": "The practice of medicine, according to the plan most approved by the Reformed or Botanic Colleges of the U. S : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings ; designed principally for families / by J. Kost.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/aw843fyz",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Consumption",
+          "Asthma"
+        ],
+        "excerpt": "It should not be used in doses too large, as it is somewhat active in its effects. The dose of the powder is from 20 to 30 grains. In decoction of an ounce of coarse powder to a pint of boiling water, the dose is from...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-9435910-chunk-2126",
+        "work_id": "nlm-9435910",
+        "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TOGETHER WITH AN",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+        "matched_herbs": [
+          "Onion"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Tops"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough"
+        ],
+        "excerpt": "EXPECTORANT POWDER. Take of, Skunk cabbage root, 4 oz. Unicorq root, 2 oz. Lobelia seeds, 1 oz. Cayenne, 1 drachm All finely pulverized, sifted and well mixed. Dose—from half to a whole tea-spoonful, in honey or melas...",
+        "score": 43
+      }
+    ]
+  },
+  "retrieval_text": "Onion is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 118 works and 205 source-linked chunks. Recorded variants include Onion, Onions. Common plant-part co-mentions include Root, Seed, Leaf, Bark, Flower, Tops. Common preparation co-mentions include Juice, Poultice, Tea, Syrup, Oil, Tincture. Common condition co-mentions include Cold or catarrh, Cough, Wounds or ulcers, Fever, Vomiting or nausea, Asthma. Caution co-mentions include Child-use caution, Dose caution, Narcotic or sedative caution, Toxicity watch, Allergy or sensitivity caution, Bleeding caution. Representative source works include Primary studies for nurses : a text-book for first year pupil nurses, containing courses of studies in anatomy, physiology, hygiene, bacteriology, therapeutics and materia medica , dietetics and invalid cookery; The sick man's friend : being a plain, practical medical work, designed for the use of families and individuals on vegetable, or botanical principles : in four parts; The sick man's friend : Being a plain, practical medical work; designed for the use of families and individuals on vegetable, or botanical principles. In four parts / by P.E. Sanborn.; The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.972Z",
+  "builder": "build-herb-profiles.mjs"
+}

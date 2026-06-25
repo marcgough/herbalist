@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-hpzvntx3",
+  "title": "Culpeper's English physician; and complete herbal : to which are now first added, upwards of one hundred additional herbs, with a display of their medicinal and occult properties, physically applied to the cure of all disorders incident to mankind : to which are annexed, rules for compounding medicine according to the true system of nature, forming a complete family dispensatory, and natural system of physic, beautified and enriched with engravings of upwards of four hundred and fifty different plants and a set of anatomical figures, illustrated with notes and observations, critical and explanatory / by E. Sibly, Fellow of the Harmonic Philosophical Society at Paris; and author of the Complete illustration of astrology. [Pt.1].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/hpzvntx3",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b2143881x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/hpzvntx3",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal",
+  "chunkCount": 1343,
+  "paragraphCount": 1445,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-hpzvntx3\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-hpzvntx3\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-hpzvntx3\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-hpzvntx3.jsonl",
+  "rawSha256": "de2c89796a14b72d4fe0b8b331639f18a70ee75a6ec307120fbadf899604dfca",
+  "normalizedSha256": "ec3cf34a98a0e5ddf1c10f33d410219b80a5f3849aa7519cd710984fda04dd36",
+  "processedAt": "2026-06-17T09:29:41.712Z"
+}

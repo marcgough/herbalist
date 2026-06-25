@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63620260R",
+  "title": "A guide to health : or, Advice to both sexes, in nervous and consumptive complaints : with an essay on the scurvy, leprosy, and scrofula, also on a certain disease, seminal weakness, and a destructive habit of a private nature : to which is added, an address to parents, tutors, and guardians of youth, with observations on the use and abuse of cold bathing",
+  "creator": "Solomon, Samuel, -approximately 1818.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620260R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63620260R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63620260R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 497,
+  "paragraphCount": 696,
+  "sectionCount": 15,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620260R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620260R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63620260R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63620260R.jsonl",
+  "rawSha256": "b376f9bda6c5b0e7b9fef3fe4ded2fd4dcc088fc8cde6ab8005cd62626e25caa",
+  "normalizedSha256": "4de042b1f0eeabd1a3c9f19e7ec361a5eb1c9b3342a37eef8f5e8d7b015d4e04",
+  "processedAt": "2026-06-17T13:55:54.504Z"
+}

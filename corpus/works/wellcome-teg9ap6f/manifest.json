@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-teg9ap6f",
+  "title": "The complete herbalist, or, the people their own physicians by the use of nature's remedies showing the great curative properties of all herbs, gums, balsams, barks, flowers and roots ; how they should be prepared, when and under what influences selected, at what times gathered, and for what diseases administered. Also, separate treatises on fod and drinks ; clothing ; exercise ; the regulation of the passions, life, health, and disease; longevity; medication; air and sunshine ; bathing ; sleep, etc. Also, symptoms of prevalent diseases ; special treatment in special cases; and a new and plain system of hygienic principles / by O. Phelps Brown.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/teg9ap6f",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21297289",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/teg9ap6f",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;dietetics;botany",
+  "chunkCount": 1037,
+  "paragraphCount": 1054,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-teg9ap6f\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-teg9ap6f\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-teg9ap6f\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-teg9ap6f.jsonl",
+  "rawSha256": "7a9eaa82527abc8cc0a7be7051aedb4c9afa25ea9a5dbf49ec98d5d69bff2109",
+  "normalizedSha256": "aa0cac8b53d6527a52780e58af93fc70aeeccb9610b7f247a00145de5c1f0395",
+  "processedAt": "2026-06-16T23:53:18.918Z"
+}

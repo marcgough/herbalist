@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101174956",
+  "title": "A comprehensive medical dictionary : containing the pronunciation, etymology, and signification of the terms made use of in medicine and the kindred sciences : with an appendix, comprising a complete list of all the more important articles of the materia medica , arranged according to their medicinal properties : also an explanation of the Latin terms and phrases occurring in anatomy, pharmacy, etc. together with the necessary directions for writing Latin prescriptions, etc. etc",
+  "creator": "Thomas, Joseph, 1811-1891.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101174956-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101174956-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101174956",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 46,
+  "paragraphCount": 48,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101174956\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101174956\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101174956\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101174956.jsonl",
+  "rawSha256": "e3c1bdc21d0b3d4691b0d5bba9f3a9ccee527a58b7dc8b5f21f38d576f2527c6",
+  "normalizedSha256": "11e932facf988a8fdb285fbe99b0ad87f54b8c178b97c08e712edf76959862b9",
+  "processedAt": "2026-06-17T16:26:50.197Z"
+}

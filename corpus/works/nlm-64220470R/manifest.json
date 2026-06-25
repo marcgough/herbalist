@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64220470R",
+  "title": "The hygienic family physician : a complete guide for the preservation of health, and the treatment of the sick without medicine",
+  "creator": "Kellogg, M. G. (Merritt Gardner), 1832-",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220470R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64220470R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64220470R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 688,
+  "paragraphCount": 1025,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220470R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64220470R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64220470R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64220470R.jsonl",
+  "rawSha256": "7ed77f0345932574d6a254ba49ed616aa808e129bab8032ec24400a0333d3187",
+  "normalizedSha256": "035b3a8adbdd43add5b363e7e6c738c2c20212f3370392e48cf544cd48332e21",
+  "processedAt": "2026-06-17T14:19:59.415Z"
+}

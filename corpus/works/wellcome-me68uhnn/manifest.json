@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-me68uhnn",
+  "title": "Crosby's improved edition. The English physician, enlarged with three hundred and sixty-nine medicines made of English herbs, not in any former impression of Culpeper's British herbal, containing an astrologo-physical discourse on the various herbs of this nation ... illustrated with correct copper plates of the most useful and remarkable plants. To which is added The family physician and A present for the ladies, containing the best remedies for every disease incident to the human body / by Dr. Parkins.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/me68uhnn",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b22040766",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/me68uhnn",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;domestic-medicine",
+  "chunkCount": 1066,
+  "paragraphCount": 1119,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-me68uhnn\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-me68uhnn\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-me68uhnn.jsonl",
+  "rawSha256": "2cf30831482a6031de7f3c9c4b66df4a4da92426285e03bfe95ef68196f43488",
+  "normalizedSha256": "ca2ab711d0bd525b2b038dbebc5b4d9c321c0fa364fb16c981a4834014573775",
+  "processedAt": "2026-06-16T13:46:53.443Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

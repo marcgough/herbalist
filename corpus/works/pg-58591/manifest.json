@@ -1,0 +1,20 @@
+{
+  "workId": "pg-58591",
+  "title": "Hygiene: a manual of personal and public health (New Edition)",
+  "creator": "Newsholme, Arthur, Sir, 1857-1943",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/58591",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/58591/pg58591.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/58591.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "hygiene;public-health",
+  "chunkCount": 1029,
+  "paragraphCount": 3168,
+  "sectionCount": 102,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-58591\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-58591\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-58591.jsonl",
+  "rawSha256": "5c2a8e9aa13aaf3de3f79a431e78dfaa36e67322064367c71cc94e1cc01f7535",
+  "normalizedSha256": "fa3b5613317565db10ce2b80523ffeae1fd47d27a8379691c318e3556cdcb325",
+  "processedAt": "2026-06-16T13:39:11.212Z"
+}

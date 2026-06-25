@@ -1,0 +1,1186 @@
+{
+  "profile_id": "seed-hop",
+  "family_id": "seed-hop",
+  "canonical_name": "Hop",
+  "canonical_key": "hop",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-hop-87a0acaec0#hop"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 786,
+    "total_chunks": 728,
+    "total_works": 288,
+    "matched_chunk_count": 728,
+    "matched_work_count": 288,
+    "matched_mention_total": 736
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Hop",
+      "Hops"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0222600",
+      "nlm-100912803"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0715",
+      "nlm-0140313-chunk-1915",
+      "nlm-0140313-chunk-1920"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 593
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 85
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 68
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 148,
+        "work_count": 101
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 142,
+        "work_count": 92
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 56,
+        "work_count": 46
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 53,
+        "work_count": 48
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 52,
+        "work_count": 43
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 47,
+        "work_count": 44
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 43,
+        "work_count": 38
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 11,
+        "work_count": 10
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 296,
+        "work_count": 193
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 214,
+        "work_count": 141
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 183,
+        "work_count": 127
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 156,
+        "work_count": 110
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 137,
+        "work_count": 89
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 128,
+        "work_count": 63
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 111,
+        "work_count": 84
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 108,
+        "work_count": 78
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 85,
+        "work_count": 62
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 54,
+        "work_count": 39
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 320,
+        "work_count": 170
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 240,
+        "work_count": 156
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 47,
+        "work_count": 40
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 30,
+        "work_count": 29
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 14,
+        "work_count": 12
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 93,
+        "work_count": 69
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 78,
+        "work_count": 52
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 54,
+        "work_count": 38
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 40,
+        "work_count": 35
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 38,
+        "work_count": 31
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 28,
+        "work_count": 23
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 26,
+        "work_count": 26
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 24,
+        "work_count": 23
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 22,
+        "work_count": 22
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 18,
+        "work_count": 17
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 28,
+      "matched_mention_count": 28
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "wellcome-thwh6g2c",
+      "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+      "creator": "",
+      "publication_year": "1885",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine;nursing",
+      "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+      "signal_chunk_count": 18,
+      "matched_mention_count": 18
+    },
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 17,
+      "matched_mention_count": 17
+    },
+    {
+      "work_id": "nlm-100912803",
+      "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-0140313",
+      "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants;domestic-medicine;hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-63570990R",
+      "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-hgtdhfrh",
+      "title": "On the diseases of females : a treatise illustrating their symptoms, causes, varieties, and treatment, including the diseases and management of pregnancy and lying-in. Designed as a companion to the author's \"Modern domestic medicine.\" containing also an appendix on the proper principles of the treatment of epilepsy; an account of the symptoms and treatment of diseases of the heart; and a medical glossary / by Thomas J. Graham.",
+      "creator": "",
+      "publication_year": "1845",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/hgtdhfrh",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-wghdhhgb",
+      "title": "The elements of materia medica and therapeutics / by Jonathan Pereira.",
+      "creator": "",
+      "publication_year": "1849",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wghdhhgb",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-101278154-chunk-0123",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Hop"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Essence",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Croup, how treated, 23. symptoms of, 53. Currant-jelly Water, 96. Diarrhoea, in children, 21,65. in adults, 21, 62, 73,82. in cholera seasons, 21. remedies for, 21. Diphtheria, 64. Disinfectants, 104. Disinfection, 10...",
+        "score": 68
+      },
+      {
+        "chunk_id": "wellcome-zm8gvgpm-chunk-0051",
+        "work_id": "wellcome-zm8gvgpm",
+        "title": "The families' new guide to health : giving a description of the diseases to which families are subject, and their treatment : also instructions how to prepare their medicines, and administer them with safety : with a history of the origin and progress of spasmodic cholera, and the most successful plan of treatment : together with an exposition of the Thomsonian preparations of medicine, as given in the New York medical and physical journal (vol.1, new series), taken from the original specification at the Patent Office / selected by a physician.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zm8gvgpm",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Poultice",
+          "Bath",
+          "Emetic",
+          "Steam"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "All that can be done, is to treat it as is laid down for dropsy in gene- ral, which consists of steaming, purging, and emetics. But in diseases of so serious a nature a skilful Physician should be applied to. INFLAMMA...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1074",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "If the swellings are painful, get the child into a sweat by soaking the feet in hot water, and allowing him to drink teas of Balm, Catnip, Spearmint, or Pennyroyal, and give a dose of Paregoric. If the symptoms are se...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-101588460-chunk-0752",
+        "work_id": "nlm-101588460",
+        "title": "A conspectus of the pharmacopoeias of The London, Edinburgh and Dublin Colleges of Physicians, and of The United States Pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PREFACE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101588460-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Powder",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Althereal Tincture t :i \\ 203 of Lobelia. (Lobelia in powder 2 iv. , Spirit of Sulphuric JEther Ojss ) l<e. The same as the alcoholic tincture; in asthma, croup, pertussis. TINCTURA LUPULI. U. S. —L. E. Tinctura Humul...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-0042",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Poultice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "If the cough is severe give the Com- pound Tincture of Lobelia, in an infusion of slippery elm, every one or two hours. If there are symptoms of inflammation of the lungs, apply a Mustard poultice over the whole chest...",
+        "score": 44
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-101278154-chunk-0123",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Hop"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Essence",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Croup, how treated, 23. symptoms of, 53. Currant-jelly Water, 96. Diarrhoea, in children, 21,65. in adults, 21, 62, 73,82. in cholera seasons, 21. remedies for, 21. Diphtheria, 64. Disinfectants, 104. Disinfection, 10...",
+        "score": 68
+      },
+      {
+        "chunk_id": "wellcome-zm8gvgpm-chunk-0051",
+        "work_id": "wellcome-zm8gvgpm",
+        "title": "The families' new guide to health : giving a description of the diseases to which families are subject, and their treatment : also instructions how to prepare their medicines, and administer them with safety : with a history of the origin and progress of spasmodic cholera, and the most successful plan of treatment : together with an exposition of the Thomsonian preparations of medicine, as given in the New York medical and physical journal (vol.1, new series), taken from the original specification at the Patent Office / selected by a physician.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zm8gvgpm",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Poultice",
+          "Bath",
+          "Emetic",
+          "Steam"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "All that can be done, is to treat it as is laid down for dropsy in gene- ral, which consists of steaming, purging, and emetics. But in diseases of so serious a nature a skilful Physician should be applied to. INFLAMMA...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1074",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "If the swellings are painful, get the child into a sweat by soaking the feet in hot water, and allowing him to drink teas of Balm, Catnip, Spearmint, or Pennyroyal, and give a dose of Paregoric. If the symptoms are se...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-101588460-chunk-0752",
+        "work_id": "nlm-101588460",
+        "title": "A conspectus of the pharmacopoeias of The London, Edinburgh and Dublin Colleges of Physicians, and of The United States Pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PREFACE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101588460-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Powder",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Althereal Tincture t :i \\ 203 of Lobelia. (Lobelia in powder 2 iv. , Spirit of Sulphuric JEther Ojss ) l<e. The same as the alcoholic tincture; in asthma, croup, pertussis. TINCTURA LUPULI. U. S. —L. E. Tinctura Humul...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-0042",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Poultice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "If the cough is severe give the Com- pound Tincture of Lobelia, in an infusion of slippery elm, every one or two hours. If there are symptoms of inflammation of the lungs, apply a Mustard poultice over the whole chest...",
+        "score": 44
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-101278154-chunk-0123",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Hop"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Essence",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Croup, how treated, 23. symptoms of, 53. Currant-jelly Water, 96. Diarrhoea, in children, 21,65. in adults, 21, 62, 73,82. in cholera seasons, 21. remedies for, 21. Diphtheria, 64. Disinfectants, 104. Disinfection, 10...",
+        "score": 68
+      },
+      {
+        "chunk_id": "wellcome-zm8gvgpm-chunk-0051",
+        "work_id": "wellcome-zm8gvgpm",
+        "title": "The families' new guide to health : giving a description of the diseases to which families are subject, and their treatment : also instructions how to prepare their medicines, and administer them with safety : with a history of the origin and progress of spasmodic cholera, and the most successful plan of treatment : together with an exposition of the Thomsonian preparations of medicine, as given in the New York medical and physical journal (vol.1, new series), taken from the original specification at the Patent Office / selected by a physician.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zm8gvgpm",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Poultice",
+          "Bath",
+          "Emetic",
+          "Steam"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "All that can be done, is to treat it as is laid down for dropsy in gene- ral, which consists of steaming, purging, and emetics. But in diseases of so serious a nature a skilful Physician should be applied to. INFLAMMA...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-101588460-chunk-0752",
+        "work_id": "nlm-101588460",
+        "title": "A conspectus of the pharmacopoeias of The London, Edinburgh and Dublin Colleges of Physicians, and of The United States Pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PREFACE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101588460-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Powder",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Althereal Tincture t :i \\ 203 of Lobelia. (Lobelia in powder 2 iv. , Spirit of Sulphuric JEther Ojss ) l<e. The same as the alcoholic tincture; in asthma, croup, pertussis. TINCTURA LUPULI. U. S. —L. E. Tinctura Humul...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-0042",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Poultice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "If the cough is severe give the Com- pound Tincture of Lobelia, in an infusion of slippery elm, every one or two hours. If there are symptoms of inflammation of the lungs, apply a Mustard poultice over the whole chest...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1982",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Tincture",
+          "Syrup",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Take syrup of hops and syrup of malt, one ounce of each, tincture of myrrh one ounce, licorice two ounces, radish juice half an ounce, boil the whole of these ingredients together for ten minutes, take from the fire,...",
+        "score": 42
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-101278154-chunk-0123",
+        "work_id": "nlm-101278154",
+        "title": "The family adviser and guide to the medicine chest : a concise hand-book of domestic medicine",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101278154-bk",
+        "matched_herbs": [
+          "Hop"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Essence",
+          "Cordial"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cholera",
+          "Cough",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Dysentery"
+        ],
+        "excerpt": "Croup, how treated, 23. symptoms of, 53. Currant-jelly Water, 96. Diarrhoea, in children, 21,65. in adults, 21, 62, 73,82. in cholera seasons, 21. remedies for, 21. Diphtheria, 64. Disinfectants, 104. Disinfection, 10...",
+        "score": 68
+      },
+      {
+        "chunk_id": "wellcome-zm8gvgpm-chunk-0051",
+        "work_id": "wellcome-zm8gvgpm",
+        "title": "The families' new guide to health : giving a description of the diseases to which families are subject, and their treatment : also instructions how to prepare their medicines, and administer them with safety : with a history of the origin and progress of spasmodic cholera, and the most successful plan of treatment : together with an exposition of the Thomsonian preparations of medicine, as given in the New York medical and physical journal (vol.1, new series), taken from the original specification at the Patent Office / selected by a physician.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zm8gvgpm",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Poultice",
+          "Bath",
+          "Emetic",
+          "Steam"
+        ],
+        "cautions": [
+          "Fatal-risk warning"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Dropsy",
+          "Inflammation"
+        ],
+        "excerpt": "All that can be done, is to treat it as is laid down for dropsy in gene- ral, which consists of steaming, purging, and emetics. But in diseases of so serious a nature a skilful Physician should be applied to. INFLAMMA...",
+        "score": 50
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-1074",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Gum"
+        ],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Plaster",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [],
+        "excerpt": "If the swellings are painful, get the child into a sweat by soaking the feet in hot water, and allowing him to drink teas of Balm, Catnip, Spearmint, or Pennyroyal, and give a dose of Paregoric. If the symptoms are se...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-101588460-chunk-0752",
+        "work_id": "nlm-101588460",
+        "title": "A conspectus of the pharmacopoeias of The London, Edinburgh and Dublin Colleges of Physicians, and of The United States Pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "PREFACE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101588460-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Powder",
+          "Wash"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Althereal Tincture t :i \\ 203 of Lobelia. (Lobelia in powder 2 iv. , Spirit of Sulphuric JEther Ojss ) l<e. The same as the alcoholic tincture; in asthma, croup, pertussis. TINCTURA LUPULI. U. S. —L. E. Tinctura Humul...",
+        "score": 44
+      },
+      {
+        "chunk_id": "nlm-63620310R-chunk-0042",
+        "work_id": "nlm-63620310R",
+        "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+        "matched_herbs": [
+          "Hops"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Tea",
+          "Poultice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "If the cough is severe give the Com- pound Tincture of Lobelia, in an infusion of slippery elm, every one or two hours. If there are symptoms of inflammation of the lungs, apply a Mustard poultice over the whole chest...",
+        "score": 44
+      }
+    ]
+  },
+  "retrieval_text": "Hop is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 288 works and 728 source-linked chunks. Recorded variants include Hop, Hops. Common plant-part co-mentions include Root, Leaf, Gum, Bark, Seed, Resin. Common preparation co-mentions include Tincture, Extract, Infusion, Powder, Tea, Poultice. Common condition co-mentions include Cold or catarrh, Inflammation, Fever, Wounds or ulcers, Vomiting or nausea, Diarrhoea or looseness. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Allergy or sensitivity caution, Toxicity watch, Fatal-risk warning. Representative source works include The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc; Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.; The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.852Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61570610R",
+  "title": "The experienced botanist or Indian physician : being a new system of practice founded on botany ... for the use of families and practitioners",
+  "creator": "Cooper, J. W.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61570610R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61570610R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61570610R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 295,
+  "paragraphCount": 713,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61570610R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61570610R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61570610R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61570610R.jsonl",
+  "rawSha256": "bb0fafb8834f53eaa3cc7b509bd6b07b349d96f37d1fd0083dbfc88659aedb56",
+  "normalizedSha256": "a28eab69f6c9b43b262baf71d3e20defba3a6d49be0059c00f9cd49a4d02e1b2",
+  "processedAt": "2026-06-19T10:18:03.643Z"
+}

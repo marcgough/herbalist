@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101651492",
+  "title": "A treatise on therapeutics : comprising materia medica and toxicology, with especial reference to the application of the physiological action of drugs to clinical medicine",
+  "creator": "Wood, H. C., Jr. (Horatio C.), 1841-1920 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101651492-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101651492-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101651492",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 2063,
+  "paragraphCount": 2073,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101651492\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101651492\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101651492\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101651492.jsonl",
+  "rawSha256": "67e30af48d2bbae829c63365e438a090eaf6aaf07c9b90a2e26d8564631a4d5a",
+  "normalizedSha256": "876c240c862c3b6cddf9db56da3ec43b39b91eabb09675fb74a18f4cf6732cc6",
+  "processedAt": "2026-06-17T11:30:51.710Z"
+}

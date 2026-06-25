@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63320220R",
+  "title": "The physician's pocket synopsis : affording a concise view of the symptoms and treatment of the medical and surgical diseases incident to the human frame : compiled from the best authorities, with references to the most approved modern authors : together with the properties and doses of the simples and compounds of the national pharmacopoeia of the United States",
+  "creator": "Bartlett, John Stephen, 1812-1840.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63320220R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63320220R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63320220R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;pharmacopoeia",
+  "chunkCount": 1187,
+  "paragraphCount": 1388,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63320220R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63320220R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63320220R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63320220R.jsonl",
+  "rawSha256": "eeecbd235f2f06f278b545362870b5197ce347461cf39bd28b269e9bf7cdb3ab",
+  "normalizedSha256": "e4f14a81b18535c0dbba6ae7997875de48c00f5d9b1b9beb619a5c770f931ed1",
+  "processedAt": "2026-06-16T23:50:05.006Z"
+}

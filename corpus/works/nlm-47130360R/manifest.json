@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-47130360R",
+  "title": "Woman's guide to health : a treaties [sic] on the diseases of the female genital organs : rational treatment suitable for ladies' use",
+  "creator": "Weaver, Benjamin Franklin, 1839-",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-47130360R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-47130360R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/47130360R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 298,
+  "paragraphCount": 361,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-47130360R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-47130360R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-47130360R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-47130360R.jsonl",
+  "rawSha256": "5a8e71d40f41f5b887412df500431513c57f03222a5c846ad817e9d45ac0f282",
+  "normalizedSha256": "8b3ff7dba20924c4c3b512789a6a9772182d28e997bcca1f684b41f569c4cbec",
+  "processedAt": "2026-06-17T19:01:30.019Z"
+}

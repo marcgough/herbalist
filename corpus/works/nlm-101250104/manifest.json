@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101250104",
+  "title": "The practice of medicine, according to the plan most approved by the reformed or botanic colleges of the U.S. : embracing a treatise on materia medica and pharmacy ; illustrated with numerous engravings : designed principally for families",
+  "creator": "Kost, J., 1819-1904.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250104-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101250104-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101250104",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 1170,
+  "paragraphCount": 2056,
+  "sectionCount": 11,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101250104\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101250104\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101250104\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101250104.jsonl",
+  "rawSha256": "eab8e9d2a0071daf9e9c766a51721e48206d635f91ae6276adce6784d3cfbc25",
+  "normalizedSha256": "7c49d87822977621378d91eaeceb5d1cd45c8d273779c22ba5f398c1347515b8",
+  "processedAt": "2026-06-18T03:09:34.167Z"
+}

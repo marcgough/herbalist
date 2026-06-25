@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63750550R",
+  "title": "Materia medica and therapeutics : with ample illustrations of practice in all the departments of medical science and very copious notes of toxicology : suited to the wants of medical students, practitioners, and teachers",
+  "creator": "Mitchell, Thomas D. (Thomas Duché), 1791-1865.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63750550R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63750550R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63750550R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 2663,
+  "paragraphCount": 2959,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63750550R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63750550R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63750550R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63750550R.jsonl",
+  "rawSha256": "536b0ca1597d1c11025a79269d893a8a92540a7ef91c247b112aef91469c2322",
+  "normalizedSha256": "0ba5382752e426be8c01eaacb60310f06e2404cc28d0e0891c1b1eefb20ba4f8",
+  "processedAt": "2026-06-17T14:19:48.974Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-bhaccdfz",
+  "title": "Le hoàng-nàn, remède tonquinois contre la rage, la lèpre et autres maladies / par E.C. Lesserteur.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/bhaccdfz",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b28107226",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/bhaccdfz",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 242,
+  "paragraphCount": 245,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-bhaccdfz\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-bhaccdfz\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-bhaccdfz\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-bhaccdfz.jsonl",
+  "rawSha256": "86db3cc75501a502266e2f559e6e92c853d868c871ee67842858ddfc6e55c01e",
+  "normalizedSha256": "f64dc5d99a5e54ba7e96dacf0946447396310cef947390e05182a5cfbe3d9c09",
+  "processedAt": "2026-06-16T23:09:34.310Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-t8jfxryn",
+  "title": "Dr. John Williams' Last legacy, or, The useful family herbal.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/t8jfxryn",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21164368",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/t8jfxryn",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 49,
+  "paragraphCount": 49,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-t8jfxryn\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-t8jfxryn\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-t8jfxryn\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-t8jfxryn.jsonl",
+  "rawSha256": "a77d41d0b2eae7151f26a01292cd3b3e710b38dfee305d6e26c4d679fbeb301e",
+  "normalizedSha256": "2c6f8070147547b81235e37af5519105e56bba7b3e1bb6e1efbe2d3da65301e4",
+  "processedAt": "2026-06-16T23:09:01.895Z"
+}

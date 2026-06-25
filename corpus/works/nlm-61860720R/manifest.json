@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61860720R",
+  "title": "The Prescriber's pharmacopoeia : containing all the medicines in the London pharmacopoeia , arranged in classes according to their action, with their composition and doses",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61860720R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61860720R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61860720R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 160,
+  "paragraphCount": 342,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61860720R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61860720R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61860720R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61860720R.jsonl",
+  "rawSha256": "834e9ff3bebd4c3a49ebc338b45b40c3b4b0535a52a47a38d25f5c2f86e00cba",
+  "normalizedSha256": "6d50511bec190668d6cc8387209231c80a8e85d5ed11cd78e264a206e609efd1",
+  "processedAt": "2026-06-19T11:39:09.062Z"
+}

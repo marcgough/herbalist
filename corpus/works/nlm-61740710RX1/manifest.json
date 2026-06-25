@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61740710RX1",
+  "title": "Pharmacologia: corrected and extended, in accordance with the London pharmacopoeia of 1824, and with the generally advanced state of chemical science (Volume 1)",
+  "creator": "Paris, John Ayrton, 1785-1856.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61740710RX1-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61740710RX1-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61740710RX1",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 1022,
+  "paragraphCount": 1418,
+  "sectionCount": 21,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61740710RX1\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61740710RX1\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61740710RX1\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61740710RX1.jsonl",
+  "rawSha256": "3c6f1a77331e12c27c18b4541d2ddab185a877b5c9c329083350c97f5cdf2d00",
+  "normalizedSha256": "a5396aea3f38429ea07832942013b0fc2446addee8e1757a581e26d50c7275b5",
+  "processedAt": "2026-06-17T16:27:10.827Z"
+}

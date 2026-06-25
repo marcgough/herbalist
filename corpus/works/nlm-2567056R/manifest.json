@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2567056R",
+  "title": "The American medical lexicon : on the plan of Quincy's Lexicon physico-medicum, with many retrenchments, additions, and improvements : comprising an explanation of the etymology and signification of the terms used in anatomy, physiology, surgery, materia medica, chemistry, and the practice of physic",
+  "creator": "Quincy, John, -1722.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2567056R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2567056R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2567056R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 41,
+  "paragraphCount": 53,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2567056R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2567056R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2567056R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2567056R.jsonl",
+  "rawSha256": "6e14d062c22f33e384a2cde0e2aaa0852e8719b20b3ccbd4a371661d3751ffb8",
+  "normalizedSha256": "86583118d6070255dd5c46f9ee990adfb2c008c4423dce28a5c616e9e3fb81da",
+  "processedAt": "2026-06-18T03:09:20.647Z"
+}

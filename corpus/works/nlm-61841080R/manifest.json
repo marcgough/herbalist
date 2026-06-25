@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61841080R",
+  "title": "A guide to the organic drugs of the United States pharmacopoeia 1890 : containing in addition to the brief accounts of organic drugs, a conspectus of the natural orders of plants mentioned, a glossary of the botanical and therapeutical terms used, and an index of botanical synonyms",
+  "creator": "Wright, John S. (John Shepard), 1870- compiler.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61841080R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61841080R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61841080R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia;botany",
+  "chunkCount": 308,
+  "paragraphCount": 309,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61841080R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61841080R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61841080R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61841080R.jsonl",
+  "rawSha256": "de8d13b10dff3e25cd7a50e104197c8f9fc94a3ccaab7adbe961394a1e7c29e4",
+  "normalizedSha256": "e003bf891ac52a8bcaa8684ac81c3f3cdeeb889ee6667fde3e4664f260d71d39",
+  "processedAt": "2026-06-18T02:20:53.047Z"
+}

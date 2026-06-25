@@ -1,0 +1,1080 @@
+{
+  "profile_id": "seed-apple",
+  "family_id": "seed-apple",
+  "canonical_name": "Apple",
+  "canonical_key": "apple",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-apple-3a7bd3e236#apple"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 149,
+    "total_chunks": 149,
+    "total_works": 113,
+    "matched_chunk_count": 149,
+    "matched_work_count": 113,
+    "matched_mention_total": 149
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Apple"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217316"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-3947",
+      "nlm-0217313-chunk-0470",
+      "nlm-0217313-chunk-0509"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 114
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 23
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 12
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 54,
+        "work_count": 51
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 46,
+        "work_count": 45
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 22,
+        "work_count": 20
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 15,
+        "work_count": 13
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 13,
+        "work_count": 12
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 9,
+        "work_count": 8
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 89,
+        "work_count": 72
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 59,
+        "work_count": 56
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 22,
+        "work_count": 20
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 17,
+        "work_count": 13
+      },
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 13,
+        "work_count": 10
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 8,
+        "work_count": 6
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "capsule",
+        "label": "Capsule",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "cautions": [
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 12,
+        "work_count": 10
+      },
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 52,
+        "work_count": 49
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 9,
+        "work_count": 8
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 8,
+        "work_count": 7
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 6,
+        "work_count": 5
+      },
+      {
+        "id": "constipation",
+        "label": "Constipation",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-yyu6fnvg",
+      "title": "Herbal simples : approved for modern uses of cure / by W. T. Fernie.",
+      "creator": "",
+      "publication_year": "1895",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/yyu6fnvg",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-x58me7h2",
+      "title": "Herbal simples : approved for modern uses of cure / by W.T. Fernie.",
+      "creator": "",
+      "publication_year": "1897",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/x58me7h2",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "pg-19352",
+      "title": "Herbal Simples Approved for Modern Uses of Cure",
+      "creator": "Fernie, William Thomas, 1830-",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "herbal;botany",
+      "source_url": "https://www.gutenberg.org/ebooks/19352",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-63570990R",
+      "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-101587615",
+      "title": "The mystery of medicine explained : a family physician and household companion prepared for the use of families, plantations, ships, travelers, &c",
+      "creator": "Byrn, M. Lafayette (Marcus Lafayette), 1826-1903.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101587615-bk",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "nlm-63560150R",
+      "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+      "creator": "Ayers, J. Hamilton.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;botany;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "nlm-2544054R",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544054R-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "nlm-2544052R",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practitioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544052R-bk",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-61820150R-chunk-0152",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Rheumatism",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "TOBACCO, POISON, [Hyosciamus niger,]—Administered as a narcotic when opium is objectionable. TULIP TREE, BARK, [Liriodendron tulipifera,]—Good in Intermittents, Hysterics, and Dyspeptic cases. THOROUGHSTEM, [Eupatoriu...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0005",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma"
+        ],
+        "excerpt": "191 Ankle joint, fracture of 422 Anodynes 567 Antimony, poisoning by 444 Auti-fections or purifying gas 163 Anti-septics 571 Anti-spasmodics 572 Anti-hysteria mixture 572 Anti-flatulent mixture 574 Anti-acids or absor...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-63580420R-chunk-2629",
+        "work_id": "nlm-63580420R",
+        "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma"
+        ],
+        "excerpt": "Animal heat, 12 preparations, 178 food, 191 for children, 722 Animation, suspended, 231 from hanging, 233 from poisonous gases, Animation, suspended, from smothering, 235 Aniseed cordial, 805 Anthelmintics, 774 Antibi...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-dwk6bbmw-chunk-2016",
+        "work_id": "wellcome-dwk6bbmw",
+        "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Chlorine water should be kept in well- stoppered glass bottles, and in a place im- pervious to the rays of the sun. Med. Use. —Internally—it operates as a stimulant, and is employed with benefit in the advanced stages...",
+        "score": 37
+      },
+      {
+        "chunk_id": "nlm-0140313-chunk-3947",
+        "work_id": "nlm-0140313",
+        "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Asthma"
+        ],
+        "excerpt": "753 Sun Stroke 753 Appetite, Loss of, Tonic 796 of Patients 962 Apple Poultice 782 Tree Bark, Decoction of 982 Water 980 Aralia Hispida 843 Nudicaulis 792 Racemosa 914 Spinosa 922 Archangel 793 Arctium Lappa 817 Arden...",
+        "score": 36
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63560150R-chunk-0005",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma"
+        ],
+        "excerpt": "191 Ankle joint, fracture of 422 Anodynes 567 Antimony, poisoning by 444 Auti-fections or purifying gas 163 Anti-septics 571 Anti-spasmodics 572 Anti-hysteria mixture 572 Anti-flatulent mixture 574 Anti-acids or absor...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-63580420R-chunk-2629",
+        "work_id": "nlm-63580420R",
+        "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma"
+        ],
+        "excerpt": "Animal heat, 12 preparations, 178 food, 191 for children, 722 Animation, suspended, 231 from hanging, 233 from poisonous gases, Animation, suspended, from smothering, 235 Aniseed cordial, 805 Anthelmintics, 774 Antibi...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-dwk6bbmw-chunk-2016",
+        "work_id": "wellcome-dwk6bbmw",
+        "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Chlorine water should be kept in well- stoppered glass bottles, and in a place im- pervious to the rays of the sun. Med. Use. —Internally—it operates as a stimulant, and is employed with benefit in the advanced stages...",
+        "score": 37
+      },
+      {
+        "chunk_id": "nlm-0140313-chunk-3947",
+        "work_id": "nlm-0140313",
+        "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Asthma"
+        ],
+        "excerpt": "753 Sun Stroke 753 Appetite, Loss of, Tonic 796 of Patients 962 Apple Poultice 782 Tree Bark, Decoction of 982 Water 980 Aralia Hispida 843 Nudicaulis 792 Racemosa 914 Spinosa 922 Archangel 793 Arctium Lappa 817 Arden...",
+        "score": 36
+      },
+      {
+        "chunk_id": "wellcome-yyu6fnvg-chunk-0886",
+        "work_id": "wellcome-yyu6fnvg",
+        "title": "Herbal simples : approved for modern uses of cure / by W. T. Fernie.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/yyu6fnvg",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry"
+        ],
+        "preparations": [
+          "Tincture",
+          "Poultice",
+          "Oil"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Vomiting or nausea",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "407 Deafness— Mullein oil .. 232 Plantain, greater .. 273 ECZEMA, nee SKIN. EPILEPSY, Falling Sickness. Carrot, the flower .. 58 Clover, sweet .. .. 72 Club Moss .. 72 Cuckoo flower .. 87, 200 Fool’s parsley .. .. 261...",
+        "score": 31
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-61820150R-chunk-0152",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Rheumatism",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "TOBACCO, POISON, [Hyosciamus niger,]—Administered as a narcotic when opium is objectionable. TULIP TREE, BARK, [Liriodendron tulipifera,]—Good in Intermittents, Hysterics, and Dyspeptic cases. THOROUGHSTEM, [Eupatoriu...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0005",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma"
+        ],
+        "excerpt": "191 Ankle joint, fracture of 422 Anodynes 567 Antimony, poisoning by 444 Auti-fections or purifying gas 163 Anti-septics 571 Anti-spasmodics 572 Anti-hysteria mixture 572 Anti-flatulent mixture 574 Anti-acids or absor...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-63580420R-chunk-2629",
+        "work_id": "nlm-63580420R",
+        "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma"
+        ],
+        "excerpt": "Animal heat, 12 preparations, 178 food, 191 for children, 722 Animation, suspended, 231 from hanging, 233 from poisonous gases, Animation, suspended, from smothering, 235 Aniseed cordial, 805 Anthelmintics, 774 Antibi...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-dwk6bbmw-chunk-2016",
+        "work_id": "wellcome-dwk6bbmw",
+        "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Chlorine water should be kept in well- stoppered glass bottles, and in a place im- pervious to the rays of the sun. Med. Use. —Internally—it operates as a stimulant, and is employed with benefit in the advanced stages...",
+        "score": 37
+      },
+      {
+        "chunk_id": "nlm-0140313-chunk-3947",
+        "work_id": "nlm-0140313",
+        "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Asthma"
+        ],
+        "excerpt": "753 Sun Stroke 753 Appetite, Loss of, Tonic 796 of Patients 962 Apple Poultice 782 Tree Bark, Decoction of 982 Water 980 Aralia Hispida 843 Nudicaulis 792 Racemosa 914 Spinosa 922 Archangel 793 Arctium Lappa 817 Arden...",
+        "score": 36
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-61820150R-chunk-0152",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Toxicity watch",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Asthma",
+          "Rheumatism",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "TOBACCO, POISON, [Hyosciamus niger,]—Administered as a narcotic when opium is objectionable. TULIP TREE, BARK, [Liriodendron tulipifera,]—Good in Intermittents, Hysterics, and Dyspeptic cases. THOROUGHSTEM, [Eupatoriu...",
+        "score": 40
+      },
+      {
+        "chunk_id": "nlm-63560150R-chunk-0005",
+        "work_id": "nlm-63560150R",
+        "title": "Carleton's household physician : a family medical adviser, containing knowledge that will promote health, cure disease and prolong life, describing all diseases and teaching how to cure them by the simplest medicines : also, an analysis of everything related to courtship, marriage, and the production, management, and rearing of healthy families, together with a chapter on the preparation of medicines, giving prescriptions and valuable receipts, with a section explaining the botanical practice and the popular use of herbs",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560150R-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Ointment",
+          "Poultice",
+          "Draught",
+          "Pill"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma"
+        ],
+        "excerpt": "191 Ankle joint, fracture of 422 Anodynes 567 Antimony, poisoning by 444 Auti-fections or purifying gas 163 Anti-septics 571 Anti-spasmodics 572 Anti-hysteria mixture 572 Anti-flatulent mixture 574 Anti-acids or absor...",
+        "score": 39
+      },
+      {
+        "chunk_id": "nlm-63580420R-chunk-2629",
+        "work_id": "nlm-63580420R",
+        "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OF",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Tincture",
+          "Tea",
+          "Powder",
+          "Cordial",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cholera",
+          "Asthma"
+        ],
+        "excerpt": "Animal heat, 12 preparations, 178 food, 191 for children, 722 Animation, suspended, 231 from hanging, 233 from poisonous gases, Animation, suspended, from smothering, 235 Aniseed cordial, 805 Anthelmintics, 774 Antibi...",
+        "score": 37
+      },
+      {
+        "chunk_id": "wellcome-dwk6bbmw-chunk-2016",
+        "work_id": "wellcome-dwk6bbmw",
+        "title": "Gray's supplement to the Pharmacopoeia : being a concise but comprehensive dispensatory and manual of facts and formulae, for the chemist and druggist and medical practitioner / by Theophilus Redwood.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwk6bbmw",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Wash",
+          "Bath",
+          "Gargle",
+          "Juice"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Dysentery",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "Chlorine water should be kept in well- stoppered glass bottles, and in a place im- pervious to the rays of the sun. Med. Use. —Internally—it operates as a stimulant, and is employed with benefit in the advanced stages...",
+        "score": 37
+      },
+      {
+        "chunk_id": "nlm-0140313-chunk-3947",
+        "work_id": "nlm-0140313",
+        "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+        "matched_herbs": [
+          "Apple"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Asthma"
+        ],
+        "excerpt": "753 Sun Stroke 753 Appetite, Loss of, Tonic 796 of Patients 962 Apple Poultice 782 Tree Bark, Decoction of 982 Water 980 Aralia Hispida 843 Nudicaulis 792 Racemosa 914 Spinosa 922 Archangel 793 Arctium Lappa 817 Arden...",
+        "score": 36
+      }
+    ]
+  },
+  "retrieval_text": "Apple is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 113 works and 149 source-linked chunks. Recorded variants include Apple. Common plant-part co-mentions include Fruit, Root, Berry, Leaf, Seed, Flower. Common preparation co-mentions include Tea, Juice, Decoction, Oil, Poultice, Powder. Common condition co-mentions include Fever, Cold or catarrh, Vomiting or nausea, Asthma, Wounds or ulcers, Rheumatism. Caution co-mentions include Child-use caution, Dose caution, Narcotic or sedative caution, Toxicity watch, Bleeding caution, Allergy or sensitivity caution. Representative source works include Herbal simples : approved for modern uses of cure / by W. T. Fernie.; Herbal simples : approved for modern uses of cure / by W.T. Fernie.; Herbal Simples Approved for Modern Uses of Cure; Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:49.003Z",
+  "builder": "build-herb-profiles.mjs"
+}

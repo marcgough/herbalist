@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63620760R",
+  "title": "Wood's household practice of medicine, hygiene and surgery : a practical treatise for the use of families, travelers, seamen, miners, and others",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620760R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63620760R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63620760R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "hygiene;household-health",
+  "chunkCount": 5057,
+  "paragraphCount": 5115,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620760R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63620760R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63620760R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63620760R.jsonl",
+  "rawSha256": "f5f63f4355926f20712a810c78825ab3098d827db5b2ceca12effc9f5cc10252",
+  "normalizedSha256": "2e81b28bf50047a7d00ec36053c9e50097c57525cef48d9530d212f69868437d",
+  "processedAt": "2026-06-20T03:12:33.219Z"
+}

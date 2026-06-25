@@ -1,0 +1,20 @@
+{
+  "workId": "pg-49513",
+  "title": "The Complete Herbal",
+  "creator": "",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/49513",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/49513/pg49513.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/49513.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "herbal",
+  "chunkCount": 1373,
+  "paragraphCount": 5855,
+  "sectionCount": 27,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-49513\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-49513\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-49513.jsonl",
+  "rawSha256": "d9bacb3247d798fcd2a8ce3b7c76222407fc0ac1c8d4242e9e8163508c10e968",
+  "normalizedSha256": "2e478a41525efbb1c02b9ad6c3d8a5b27a005e883faebf1020d8e516737fe679",
+  "processedAt": "2026-06-16T13:39:09.406Z"
+}

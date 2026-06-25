@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-huy37jgb",
+  "title": "Buchan enlarged. Domestic medicine; or, The family physician, a treatise on the prevention and cure of diseases, by regimen and simple medicines: With an appendix containing a dispensatory. For the use of private practitioners. To which is added ... rules and regulations to be observed ... in the management of infants, etc / [William Buchan].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/huy37jgb",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b29309451",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/huy37jgb",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 2116,
+  "paragraphCount": 2140,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-huy37jgb\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-huy37jgb\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-huy37jgb.jsonl",
+  "rawSha256": "faa2fabeea441252534564ef4e9100fc66544cc3c638c311d235584d1d356b22",
+  "normalizedSha256": "1f15fc6571131b7928305e748ec4cf24fe8340b448f58240e46333f0e56887ce",
+  "processedAt": "2026-06-16T13:46:52.226Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101304953",
+  "title": "Gunn's domestic medicine , or Poor man's friend : shewing the diseases of men, women and children, and expressly intended for the benefit of families : containing a description of the medicinal roots and herbs, and how they are to be used in the cure of diseases : arranged on a new and simple plan",
+  "creator": "Gunn, John C.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101304953-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101304953-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101304953",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1585,
+  "paragraphCount": 2011,
+  "sectionCount": 9,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101304953\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101304953\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101304953\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101304953.jsonl",
+  "rawSha256": "c3e1e48ec7ccccd1be3449d1d3f2dabfbc2d764b5aa03f3a58a058ab0b5e1552",
+  "normalizedSha256": "715f89281ba9357a22677f5b5dd4c5fa4c3b3d9aed41b277f6bb99282d6e4ff7",
+  "processedAt": "2026-06-16T23:05:45.578Z"
+}

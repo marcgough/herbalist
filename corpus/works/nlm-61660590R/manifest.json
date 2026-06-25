@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61660590R",
+  "title": "The American eclectic dispensatory",
+  "creator": "King, John, 1813-1893.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61660590R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61660590R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 4781,
+  "paragraphCount": 5806,
+  "sectionCount": 12,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61660590R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61660590R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61660590R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61660590R.jsonl",
+  "rawSha256": "f05b3dcaac7282c554e3d50921f2ea973b6dfc171ea2b22dce1b6ba42c644526",
+  "normalizedSha256": "dccb68b03fbed3249d900e80efe0702e16d80628bb8be06d7f0905abda082ef2",
+  "processedAt": "2026-06-18T01:36:58.907Z"
+}

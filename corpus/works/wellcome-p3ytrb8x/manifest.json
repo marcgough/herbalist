@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-p3ytrb8x",
+  "title": "The English physician enlarged. With three hundred and sixty-nine medicines made of English herbs that were not in any impression until this ... / By Nich. Culpepper.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/p3ytrb8x",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b33018728",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/p3ytrb8x",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 946,
+  "paragraphCount": 968,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-p3ytrb8x\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-p3ytrb8x\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-p3ytrb8x\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-p3ytrb8x.jsonl",
+  "rawSha256": "010a46185a499cf995f0cb1a33733579262dffe9c9ebe3b0fa694182371c2fd6",
+  "normalizedSha256": "f500936a0491ad97f0c94629c370e66612926aef8d6478e70228189514f53100",
+  "processedAt": "2026-06-16T23:29:03.019Z"
+}

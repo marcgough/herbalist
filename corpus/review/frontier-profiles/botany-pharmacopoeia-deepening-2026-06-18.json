@@ -1,0 +1,79 @@
+{
+  "profileId": "botany-pharmacopoeia-deepening-2026-06-18",
+  "description": "Bias the next Herbalisti frontier slice toward botany, medicinal plants, materia medica, pharmacopoeia, and reference works while suppressing saturated family-physician repeats and fringe domestic-medicine outliers.",
+  "stage": "uncovered_family",
+  "selectionStrategy": "diverse",
+  "diversityScanWindow": 180,
+  "nlmLimit": 10,
+  "wellcomeLimit": 14,
+  "excludeWorkIds": [
+    "nlm-63580350R",
+    "nlm-8004761",
+    "nlm-64220630R",
+    "nlm-101731070",
+    "nlm-101722799",
+    "wellcome-ng7fpuv2",
+    "wellcome-y76d856v",
+    "wellcome-e2g2n9vv",
+    "wellcome-wv3pdutk",
+    "wellcome-x6myqt3f",
+    "wellcome-ep6yntuz",
+    "wellcome-fcbcmdda",
+    "wellcome-vfukwnz4",
+    "wellcome-sub5mjjp",
+    "wellcome-t3u939eg",
+    "wellcome-e5egngt7"
+  ],
+  "excludeSeriesKeys": [],
+  "excludeCreatorSeriesKeys": [],
+  "excludeTitlePhrases": [
+    "aristotle's complete master-piece",
+    "improved phreno-chart",
+    "sexual physiology revealed",
+    "the famous bird that speaks one word",
+    "opening address",
+    "inaugural lecture",
+    "contribucion al estudio",
+    "catalogus variorum"
+  ],
+  "topicBoosts": {
+    "botany": 120,
+    "medicinal-plants": 120,
+    "pharmacopoeia": 110,
+    "materia-medica": 90,
+    "herbal": 80,
+    "hygiene": 45,
+    "public-health": 35,
+    "household-health": 25,
+    "domestic-medicine": -80
+  },
+  "clusterBoosts": {
+    "pharmacopoeia": 80,
+    "reference-work": 70,
+    "materia-medica": 55,
+    "herbal": 55,
+    "family-physician": -90,
+    "domestic-medicine": -50,
+    "guide-to-health": -30
+  },
+  "titleScoreAdjustments": [
+    { "phrase": "dictionary of botanical terms", "score": 120 },
+    { "phrase": "materia medica", "score": 60 },
+    { "phrase": "pharmacopoeia", "score": 60 },
+    { "phrase": "medical botany", "score": 75 },
+    { "phrase": "medicinal plants", "score": 70 },
+    { "phrase": "family physician", "score": -60 },
+    { "phrase": "home doctor", "score": -80 },
+    { "phrase": "popular medicine", "score": -80 },
+    { "phrase": "aristotle's complete master-piece", "score": -600 },
+    { "phrase": "phreno-chart", "score": -500 },
+    { "phrase": "sexual physiology revealed", "score": -500 },
+    { "phrase": "report on the u. s. pharmacopoeia", "score": -350 },
+    { "phrase": "supplement to the revision of the botanical names", "score": -280 },
+    { "phrase": "epitome of the reports", "score": -260 }
+  ],
+  "notes": [
+    "Use this when the next pass should deepen the practical herb-reference spine rather than taking another broad domestic-medicine-heavy slice.",
+    "The explicit title and topic biases are intended to favor durable reference works that will improve later retrieval quality."
+  ]
+}

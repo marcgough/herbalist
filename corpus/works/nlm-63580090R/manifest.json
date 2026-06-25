@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63580090R",
+  "title": "The family physician and guide to health : a system of domestic medicine , including a treatise on midwifery and the diseases peculiar to women",
+  "creator": "Hammack, E. B. (Elijah B.)",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580090R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63580090R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63580090R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 28,
+  "paragraphCount": 46,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580090R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580090R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63580090R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63580090R.jsonl",
+  "rawSha256": "fcce45914d267752a61b5d5f323b1998fcfec638f6ecb2ec492cdaf55863c975",
+  "normalizedSha256": "982c0be638cd16c0101ea0fc5fb10e212c1ccfdfec8540a681412f30a407dc49",
+  "processedAt": "2026-06-17T12:10:43.782Z"
+}

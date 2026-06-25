@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2575032R",
+  "title": "Elements of therapeutics : or, A guide to health : being cautions and directions in the treatment of diseases : designed chiefly for the use of students",
+  "creator": "Townsend, Joseph, 1739-1816.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2575032R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2575032R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2575032R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 1473,
+  "paragraphCount": 1720,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2575032R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2575032R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2575032R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2575032R.jsonl",
+  "rawSha256": "22264ab1bcfe9fbbe76e09c33d81006798ddb1b3500d338ce6dad8ee537a71b5",
+  "normalizedSha256": "0732323cc22f07d86b337fc4c7608e360c1058c7ece058b14f1e4e064af04a49",
+  "processedAt": "2026-06-17T00:38:06.064Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64330310R",
+  "title": "Life, and its forces : health and disease correctly defined : a reliable guide to health without the use of mineral or vegetable poisons, or irritants : the conclusions from forty years' practice of medicine",
+  "creator": "Porter, William, Dr.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64330310R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64330310R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64330310R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 240,
+  "paragraphCount": 290,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64330310R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64330310R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64330310R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64330310R.jsonl",
+  "rawSha256": "580087a27e55032fd3d0d728aa152de23713bfe7e18fa236b1915a5ada65afd2",
+  "normalizedSha256": "3791912fe76622db099c1f8e5fd3ce4d3c3f36479db0cd1b1b52a1cb2da91404",
+  "processedAt": "2026-06-17T14:20:22.334Z"
+}

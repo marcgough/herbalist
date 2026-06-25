@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63580420R",
+  "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+  "creator": "Imray, Keith.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63580420R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63580420R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 2693,
+  "paragraphCount": 3255,
+  "sectionCount": 17,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580420R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63580420R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63580420R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63580420R.jsonl",
+  "rawSha256": "a9f41811fdb0c3cdb95d466faa0b7934e8be5c28d00c214f2366d94c037a0563",
+  "normalizedSha256": "7c60d7879afa123dbb19f75f1967ccefa9071a6d7c7e549b24aaa7d7c8a7037f",
+  "processedAt": "2026-06-17T13:32:47.263Z"
+}

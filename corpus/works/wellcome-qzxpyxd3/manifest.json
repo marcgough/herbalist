@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-qzxpyxd3",
+  "title": "New guide to health, or, Botanic family physician : containing a complete system of practice, upon a plan entirely new ; with a description of the vegetables made use of, and directions for preparing and administering them to cure disease ; to which is added, a description of several cases of disease attended by the author, with the mode of treatment and cure / by Samuel Thomson.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/qzxpyxd3",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21159555",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/qzxpyxd3",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 326,
+  "paragraphCount": 330,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-qzxpyxd3\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-qzxpyxd3\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-qzxpyxd3\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-qzxpyxd3.jsonl",
+  "rawSha256": "d75478f04054f8addbd861180d0a5c19b76a119b272d8f0cfd74b5b6d214478f",
+  "normalizedSha256": "61fc7c2acbad123156d8c6ec83f5266e720fbb35a7522ad93cef2202662f7b4c",
+  "processedAt": "2026-06-16T23:29:52.873Z"
+}

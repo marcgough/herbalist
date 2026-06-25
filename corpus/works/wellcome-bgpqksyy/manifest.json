@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-bgpqksyy",
+  "title": "Complete domestic medicine : A treatise on the prevention and cure of diseases, by regimen and simple medicines, with the latest corrections and improvements / [William Buchan].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/bgpqksyy",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b28739838",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/bgpqksyy",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1611,
+  "paragraphCount": 1642,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-bgpqksyy\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-bgpqksyy\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-bgpqksyy\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-bgpqksyy.jsonl",
+  "rawSha256": "ad4644aa8d79e9fe02c4d7d3218fbc50a52247267a2b9c6a4ef9d305bae73187",
+  "normalizedSha256": "8cd27d4192f079506909198b25f212ad8c6af0c17369fe487a05fb17a63b3d81",
+  "processedAt": "2026-06-16T13:59:12.642Z"
+}

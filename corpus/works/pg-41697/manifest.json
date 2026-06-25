@@ -1,0 +1,20 @@
+{
+  "workId": "pg-41697",
+  "title": "Merck's 1899 Manual of the Materia Medica",
+  "creator": "Merck & Co.",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/41697",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/41697/pg41697.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/41697.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "materia-medica",
+  "chunkCount": 555,
+  "paragraphCount": 16529,
+  "sectionCount": 27,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-41697\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-41697\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-41697.jsonl",
+  "rawSha256": "e372d9d2d45f26b9a9f76ed9f27fb65196f1f0ba73c780630e0d8b9000e5f0d2",
+  "normalizedSha256": "ff784fa19de24f91e75c41b4690e6cfd96e0e378f630615dcaa5850600d0c8e1",
+  "processedAt": "2026-06-16T13:39:07.801Z"
+}

@@ -1,0 +1,23 @@
+ALTER TABLE remedies ADD COLUMN plant_parts_json TEXT NOT NULL DEFAULT '[]';
+
+UPDATE remedies SET plant_parts_json = '["Leaf gel","Latex"]' WHERE id = 'aloe-vera';
+UPDATE remedies SET plant_parts_json = '["Root"]' WHERE id = 'ashwagandha';
+UPDATE remedies SET plant_parts_json = '["Root"]' WHERE id = 'asian-ginseng';
+UPDATE remedies SET plant_parts_json = '["Flower"]' WHERE id = 'chamomile';
+UPDATE remedies SET plant_parts_json = '["Fruit"]' WHERE id = 'cranberry';
+UPDATE remedies SET plant_parts_json = '["Root","Aerial parts","Flower"]' WHERE id = 'echinacea';
+UPDATE remedies SET plant_parts_json = '["Berry","Flower"]' WHERE id = 'elderberry';
+UPDATE remedies SET plant_parts_json = '["Bulb"]' WHERE id = 'garlic';
+UPDATE remedies SET plant_parts_json = '["Rhizome"]' WHERE id = 'ginger';
+UPDATE remedies SET plant_parts_json = '["Leaf"]' WHERE id = 'ginkgo';
+UPDATE remedies SET plant_parts_json = '["Root","Rhizome"]' WHERE id = 'goldenseal';
+UPDATE remedies SET plant_parts_json = '["Leaf"]' WHERE id = 'green-tea';
+UPDATE remedies SET plant_parts_json = '["Root"]' WHERE id = 'kava';
+UPDATE remedies SET plant_parts_json = '["Flower"]' WHERE id = 'lavender';
+UPDATE remedies SET plant_parts_json = '["Root"]' WHERE id = 'licorice-root';
+UPDATE remedies SET plant_parts_json = '["Seed"]' WHERE id = 'milk-thistle';
+UPDATE remedies SET plant_parts_json = '["Leaf","Essential oil"]' WHERE id = 'peppermint-oil';
+UPDATE remedies SET plant_parts_json = '["Berry"]' WHERE id = 'saw-palmetto';
+UPDATE remedies SET plant_parts_json = '["Flowering tops"]' WHERE id = 'st-johns-wort';
+UPDATE remedies SET plant_parts_json = '["Rhizome"]' WHERE id = 'turmeric';
+UPDATE remedies SET plant_parts_json = '["Root"]' WHERE id = 'valerian';

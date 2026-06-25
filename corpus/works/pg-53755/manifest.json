@@ -1,0 +1,20 @@
+{
+  "workId": "pg-53755",
+  "title": "The Taleef Shereef; Or, Indian Materia Medica",
+  "creator": "Playfair, George [Translator]",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/53755",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/53755/pg53755.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/53755.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "materia-medica",
+  "chunkCount": 405,
+  "paragraphCount": 1368,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-53755\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-53755\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-53755.jsonl",
+  "rawSha256": "18341e048f3e1e76427e2e040a4fddb96bc0ce1950767009154ef889ab3d98ee",
+  "normalizedSha256": "de708a4eeeb5b0b7a52e03076f026c43e31db1238a18b46cbdb9e81806405509",
+  "processedAt": "2026-06-16T13:39:09.889Z"
+}

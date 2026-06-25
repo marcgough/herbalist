@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61760120R",
+  "title": "Medical flora, or, Manual of the medical botany of the United States of North America",
+  "creator": "Rafinesque, C. S. (Constantine Samuel), 1783-1840.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61760120R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61760120R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61760120R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medical-botany;botany",
+  "chunkCount": 1179,
+  "paragraphCount": 1180,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61760120R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61760120R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61760120R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61760120R.jsonl",
+  "rawSha256": "11dde95df0af18983e20bd0110f73a3df7d0be185d57ddf14cbe93d27af57391",
+  "normalizedSha256": "087faada7bcf78ffcc600753d73572a75e72c956c8f42a79cb50cc0c7b9b2cd4",
+  "processedAt": "2026-06-17T00:58:26.566Z"
+}

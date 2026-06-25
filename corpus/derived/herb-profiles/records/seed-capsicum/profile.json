@@ -1,0 +1,1162 @@
+{
+  "profile_id": "seed-capsicum",
+  "family_id": "seed-capsicum",
+  "canonical_name": "Capsicum",
+  "canonical_key": "capsicum",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-capsicum-42906397a4#capsicum",
+    "term-cayenne-684b352dd4#cayenne",
+    "term-cayenne-pepper-113dc5bc15#cayenne-pepper"
+  ],
+  "decision_note": "merge cayenne naming into the main capsicum family | merge cayenne-pepper naming into the main capsicum family | promote strong medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 1640,
+    "total_chunks": 1537,
+    "total_works": 377,
+    "matched_chunk_count": 1537,
+    "matched_work_count": 377,
+    "matched_mention_total": 1570
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "convalescence",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Capsicum",
+      "Cayenne",
+      "Cayenne-pepper",
+      "Capsicums"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217315",
+      "nlm-0217317"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-1366",
+      "nlm-0140313-chunk-2195",
+      "nlm-0217315-chunk-1845"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 1191
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 311
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 85
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 181,
+        "work_count": 124
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 153,
+        "work_count": 106
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 148,
+        "work_count": 113
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 126,
+        "work_count": 99
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 119,
+        "work_count": 82
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 96,
+        "work_count": 68
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 65,
+        "work_count": 62
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 42,
+        "work_count": 39
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 42,
+        "work_count": 39
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 11,
+        "work_count": 11
+      }
+    ],
+    "preparations": [
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 1041,
+        "work_count": 323
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 472,
+        "work_count": 101
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 398,
+        "work_count": 194
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 337,
+        "work_count": 185
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 219,
+        "work_count": 135
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 179,
+        "work_count": 97
+      },
+      {
+        "id": "gargle",
+        "label": "Gargle",
+        "signal_count": 165,
+        "work_count": 132
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 149,
+        "work_count": 112
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 130,
+        "work_count": 64
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 117,
+        "work_count": 70
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 612,
+        "work_count": 243
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 152,
+        "work_count": 110
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 95,
+        "work_count": 69
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 59,
+        "work_count": 52
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 43,
+        "work_count": 36
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 41,
+        "work_count": 37
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 31,
+        "work_count": 29
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 13,
+        "work_count": 10
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 9,
+        "work_count": 9
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 209,
+        "work_count": 118
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 186,
+        "work_count": 118
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 163,
+        "work_count": 102
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 147,
+        "work_count": 84
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 141,
+        "work_count": 81
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 105,
+        "work_count": 70
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 78,
+        "work_count": 62
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 67,
+        "work_count": 39
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 63,
+        "work_count": 43
+      },
+      {
+        "id": "cholera",
+        "label": "Cholera",
+        "signal_count": 62,
+        "work_count": 51
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-yvn7kra7",
+      "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.",
+      "creator": "",
+      "publication_year": "1841",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/yvn7kra7",
+      "signal_chunk_count": 51,
+      "matched_mention_count": 51
+    },
+    {
+      "work_id": "nlm-64220920R",
+      "title": "The American vegetable practice : or a new and improved guide to health, designed for the use of families : in six parts",
+      "creator": "Mattson, M. (Morris), 1809?-1885.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64220920R-bk",
+      "signal_chunk_count": 49,
+      "matched_mention_count": 49
+    },
+    {
+      "work_id": "wellcome-rt52bskh",
+      "title": "The American vegetable practice, or a new and improved guide to health, designed for the use of families ... / By Morris Mattson.",
+      "creator": "",
+      "publication_year": "1841",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/rt52bskh",
+      "signal_chunk_count": 49,
+      "matched_mention_count": 49
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 38,
+      "matched_mention_count": 38
+    },
+    {
+      "work_id": "wellcome-bkhg7djn",
+      "title": "The practice of medicine on Thomsonian principles : and a materia medica, adapted to the work / by J. W. Comfort, M.D.",
+      "creator": "",
+      "publication_year": "1845",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/bkhg7djn",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "nlm-63340900R",
+      "title": "The practice of medicine on Thomsonian principles : adapted as well to the use of families as to that of the practitioner : containing propositions illustrative of the philosophy of Thomsonism : a brief history of the symptoms, peculiarities, and general course of disease in its different forms and varieties : with practical directions for administering a Thomsonian course of medicine, including the various methods of administering vapour baths and emetics, and a materia medica , adapted to the work",
+      "creator": "Comfort, J. W. (John W.)",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63340900R-bk",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "nlm-63570030R",
+      "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+      "creator": "Daily, William.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+      "signal_chunk_count": 19,
+      "matched_mention_count": 19
+    },
+    {
+      "work_id": "nlm-101485225",
+      "title": "The American practice abridged, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485225-bk",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 18
+    },
+    {
+      "work_id": "nlm-2558004RX1",
+      "title": "An improved system of botanic medicine: founded upon correct physiological principles : embracing a concise view of anatomy and physiology : together with an illustration of the new theory of medicine : to which is added, a treatise on female complaints, midwifery, and the diseases of children (Volumes 1-2)",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "botanic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2558004RX1-bk",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    },
+    {
+      "work_id": "nlm-9435910",
+      "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica , and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use",
+      "creator": "Howard, Horton, 1770-1833.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-9435910-bk",
+      "signal_chunk_count": 16,
+      "matched_mention_count": 16
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63340900R-chunk-1462",
+        "work_id": "nlm-63340900R",
+        "title": "The practice of medicine on Thomsonian principles : adapted as well to the use of families as to that of the practitioner : containing propositions illustrative of the philosophy of Thomsonism : a brief history of the symptoms, peculiarities, and general course of disease in its different forms and varieties : with practical directions for administering a Thomsonian course of medicine, including the various methods of administering vapour baths and emetics, and a materia medica , adapted to the work",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "EGG TEA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63340900R-bk",
+        "matched_herbs": [
+          "Cayenne"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Epilepsy 214 Cinchona 462 Eyes, inflammation of, from Cleavers 482 cold 274 Caustic potash 505 rheumatic inflammation Canada balsam 481 of 276 Charcoal 488 suppurative inflammation Cathartics 431 of 277 Canker 411 scr...",
+        "score": 62
+      },
+      {
+        "chunk_id": "wellcome-x5jtphhh-chunk-0063",
+        "work_id": "wellcome-x5jtphhh",
+        "title": "The new family herbal : comprising a description and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs; to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet , clothing, bathing, air, exercise, &c., &c. / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/x5jtphhh",
+        "matched_herbs": [
+          "Cayenne Pepper"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Many eminent physicians have great confidence in it, joined with sulphuric acid, and the tincture of cayenne pepper, in cases of phthisis, scrofula, ill-conditioned ulcers, rickets, scurvy, and in states of convalesce...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0712",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Capsicum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "In excessive doses, capsicum is an irritant poison. Therapeutic Uses. —It is employed in certain forms of dys- pepsia, flatulent colic, scarlet fever, yellow fever, delirium tremens, opium habit, etc. , etc. Externall...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0456",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "S",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Cayenne"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Plaster",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox"
+        ],
+        "excerpt": "Symptoms of diseases, Signs, Scald head, Strains, Sounds or bissing, Scum on the eye, Small pox, Scarlatina, Scrofula, Strengthening plaster, Superior gas beer, Splenitis, ague cake, Sickness and vomiting, 219 T The p...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101509190-chunk-1748",
+        "work_id": "nlm-101509190",
+        "title": "General therapeutics and materia medica : adapted for a medical textbook",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "5. GAL'BANUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101509190-bk",
+        "matched_herbs": [
+          "Capsicum",
+          "Cayenne Pepper"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh"
+        ],
+        "excerpt": "cations are often beneficial; and in the cold stage of cholera, where frictions are indicated, cayenne pepper is often added to the ointments used for this purpose. It is a common adjunct to the Unguentum hydrargyri i...",
+        "score": 45
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63340900R-chunk-1462",
+        "work_id": "nlm-63340900R",
+        "title": "The practice of medicine on Thomsonian principles : adapted as well to the use of families as to that of the practitioner : containing propositions illustrative of the philosophy of Thomsonism : a brief history of the symptoms, peculiarities, and general course of disease in its different forms and varieties : with practical directions for administering a Thomsonian course of medicine, including the various methods of administering vapour baths and emetics, and a materia medica , adapted to the work",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "EGG TEA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63340900R-bk",
+        "matched_herbs": [
+          "Cayenne"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Epilepsy 214 Cinchona 462 Eyes, inflammation of, from Cleavers 482 cold 274 Caustic potash 505 rheumatic inflammation Canada balsam 481 of 276 Charcoal 488 suppurative inflammation Cathartics 431 of 277 Canker 411 scr...",
+        "score": 62
+      },
+      {
+        "chunk_id": "wellcome-x5jtphhh-chunk-0063",
+        "work_id": "wellcome-x5jtphhh",
+        "title": "The new family herbal : comprising a description and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs; to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet , clothing, bathing, air, exercise, &c., &c. / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/x5jtphhh",
+        "matched_herbs": [
+          "Cayenne Pepper"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Many eminent physicians have great confidence in it, joined with sulphuric acid, and the tincture of cayenne pepper, in cases of phthisis, scrofula, ill-conditioned ulcers, rickets, scurvy, and in states of convalesce...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0712",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Capsicum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "In excessive doses, capsicum is an irritant poison. Therapeutic Uses. —It is employed in certain forms of dys- pepsia, flatulent colic, scarlet fever, yellow fever, delirium tremens, opium habit, etc. , etc. Externall...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0456",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "S",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Cayenne"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Plaster",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox"
+        ],
+        "excerpt": "Symptoms of diseases, Signs, Scald head, Strains, Sounds or bissing, Scum on the eye, Small pox, Scarlatina, Scrofula, Strengthening plaster, Superior gas beer, Splenitis, ague cake, Sickness and vomiting, 219 T The p...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101509190-chunk-1748",
+        "work_id": "nlm-101509190",
+        "title": "General therapeutics and materia medica : adapted for a medical textbook",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "5. GAL'BANUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101509190-bk",
+        "matched_herbs": [
+          "Capsicum",
+          "Cayenne Pepper"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh"
+        ],
+        "excerpt": "cations are often beneficial; and in the cold stage of cholera, where frictions are indicated, cayenne pepper is often added to the ointments used for this purpose. It is a common adjunct to the Unguentum hydrargyri i...",
+        "score": 45
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63340900R-chunk-1462",
+        "work_id": "nlm-63340900R",
+        "title": "The practice of medicine on Thomsonian principles : adapted as well to the use of families as to that of the practitioner : containing propositions illustrative of the philosophy of Thomsonism : a brief history of the symptoms, peculiarities, and general course of disease in its different forms and varieties : with practical directions for administering a Thomsonian course of medicine, including the various methods of administering vapour baths and emetics, and a materia medica , adapted to the work",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "EGG TEA",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63340900R-bk",
+        "matched_herbs": [
+          "Cayenne"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Liniment",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Rheumatism",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Epilepsy 214 Cinchona 462 Eyes, inflammation of, from Cleavers 482 cold 274 Caustic potash 505 rheumatic inflammation Canada balsam 481 of 276 Charcoal 488 suppurative inflammation Cathartics 431 of 277 Canker 411 scr...",
+        "score": 62
+      },
+      {
+        "chunk_id": "wellcome-x5jtphhh-chunk-0063",
+        "work_id": "wellcome-x5jtphhh",
+        "title": "The new family herbal : comprising a description and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs; to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet , clothing, bathing, air, exercise, &c., &c. / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/x5jtphhh",
+        "matched_herbs": [
+          "Cayenne Pepper"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Many eminent physicians have great confidence in it, joined with sulphuric acid, and the tincture of cayenne pepper, in cases of phthisis, scrofula, ill-conditioned ulcers, rickets, scurvy, and in states of convalesce...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0712",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Capsicum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "In excessive doses, capsicum is an irritant poison. Therapeutic Uses. —It is employed in certain forms of dys- pepsia, flatulent colic, scarlet fever, yellow fever, delirium tremens, opium habit, etc. , etc. Externall...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0456",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "S",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Cayenne"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Plaster",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox"
+        ],
+        "excerpt": "Symptoms of diseases, Signs, Scald head, Strains, Sounds or bissing, Scum on the eye, Small pox, Scarlatina, Scrofula, Strengthening plaster, Superior gas beer, Splenitis, ague cake, Sickness and vomiting, 219 T The p...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101509190-chunk-1748",
+        "work_id": "nlm-101509190",
+        "title": "General therapeutics and materia medica : adapted for a medical textbook",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "5. GAL'BANUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101509190-bk",
+        "matched_herbs": [
+          "Capsicum",
+          "Cayenne Pepper"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh"
+        ],
+        "excerpt": "cations are often beneficial; and in the cold stage of cholera, where frictions are indicated, cayenne pepper is often added to the ointments used for this purpose. It is a common adjunct to the Unguentum hydrargyri i...",
+        "score": 45
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "wellcome-x5jtphhh-chunk-0063",
+        "work_id": "wellcome-x5jtphhh",
+        "title": "The new family herbal : comprising a description and the medical virtues of British and foreign plants, founded on the works of eminent modern English and American writers on the medical properties of herbs; to which is added, the botanic family physician; valuable medical receipts; and important directions regarding diet , clothing, bathing, air, exercise, &c., &c. / by Matthew Robinson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/x5jtphhh",
+        "matched_herbs": [
+          "Cayenne Pepper"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tincture",
+          "Powder",
+          "Wash",
+          "Gargle",
+          "Oil"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Consumption",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Many eminent physicians have great confidence in it, joined with sulphuric acid, and the tincture of cayenne pepper, in cases of phthisis, scrofula, ill-conditioned ulcers, rickets, scurvy, and in states of convalesce...",
+        "score": 49
+      },
+      {
+        "chunk_id": "wellcome-fbvqhy9j-chunk-0712",
+        "work_id": "wellcome-fbvqhy9j",
+        "title": "Dental medicine, a manual of dental materia medica and therapeutics / by Ferdinand J.S. Gorgas.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/fbvqhy9j",
+        "matched_herbs": [
+          "Capsicum"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "In excessive doses, capsicum is an irritant poison. Therapeutic Uses. —It is employed in certain forms of dys- pepsia, flatulent colic, scarlet fever, yellow fever, delirium tremens, opium habit, etc. , etc. Externall...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-63570030R-chunk-0456",
+        "work_id": "nlm-63570030R",
+        "title": "The Indian doctor's practice of medicine : Daily's family physician : important to every one--health, the poor man's riches, the rich man's bliss : giving the symptoms of diseases, and a vegetable treatment of the diseases of men, women, and children",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "S",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570030R-bk",
+        "matched_herbs": [
+          "Cayenne"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Wash",
+          "Plaster",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Headache",
+          "Vomiting or nausea",
+          "Smallpox"
+        ],
+        "excerpt": "Symptoms of diseases, Signs, Scald head, Strains, Sounds or bissing, Scum on the eye, Small pox, Scarlatina, Scrofula, Strengthening plaster, Superior gas beer, Splenitis, ague cake, Sickness and vomiting, 219 T The p...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-101509190-chunk-1748",
+        "work_id": "nlm-101509190",
+        "title": "General therapeutics and materia medica : adapted for a medical textbook",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "5. GAL'BANUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101509190-bk",
+        "matched_herbs": [
+          "Capsicum",
+          "Cayenne Pepper"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh"
+        ],
+        "excerpt": "cations are often beneficial; and in the cold stage of cholera, where frictions are indicated, cayenne pepper is often added to the ointments used for this purpose. It is a common adjunct to the Unguentum hydrargyri i...",
+        "score": 45
+      },
+      {
+        "chunk_id": "nlm-101509190X1-chunk-1748",
+        "work_id": "nlm-101509190X1",
+        "title": "General therapeutics and materia medica : adapted for a medical textbook (Volume 1)",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "5. GAL'BANUM,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101509190X1-bk",
+        "matched_herbs": [
+          "Capsicum",
+          "Cayenne Pepper"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Gargle",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cholera",
+          "Cold or catarrh"
+        ],
+        "excerpt": "cations are often beneficial; and in the cold stage of cholera, where frictions are indicated, cayenne pepper is often added to the ointments used for this purpose. It is a common adjunct to the Unguentum hydrargyri i...",
+        "score": 45
+      }
+    ]
+  },
+  "retrieval_text": "Capsicum is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 377 works and 1537 source-linked chunks. Recorded variants include Capsicum, Cayenne, Cayenne-pepper, Capsicums. Common plant-part co-mentions include Seed, Root, Bark, Gum, Leaf, Berry. Common preparation co-mentions include Tincture, Tea, Powder, Oil, Infusion, Emetic. Common condition co-mentions include Cold or catarrh, Wounds or ulcers, Fever, Vomiting or nausea, Rheumatism, Inflammation. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Toxicity watch, Allergy or sensitivity caution, Bleeding caution. Representative source works include The American vegetable practice, or a new and improved guide to health, designed for the use of families : in six parts / by Morris Mattson.; The American vegetable practice : or a new and improved guide to health, designed for the use of families : in six parts; The American vegetable practice, or a new and improved guide to health, designed for the use of families ... / By Morris Mattson.; The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.767Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101196346",
+  "title": "The family physician, consumptives guide to health and lady's medical companion",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101196346-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101196346-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101196346",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 538,
+  "paragraphCount": 858,
+  "sectionCount": 5,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101196346\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101196346\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101196346\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101196346.jsonl",
+  "rawSha256": "a9b9394cc6254743d4cb04baa91e5f349e934003bdc2ebee87af3543e8015352",
+  "normalizedSha256": "cf2f39cea9dc4a1a4bc7424a15c82775d1ed51ba8c5295fa8cd6828995dcac7f",
+  "processedAt": "2026-06-17T16:09:52.143Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2575001R",
+  "title": "Historical sketch of the Thomsonian system of the practice of medicine on botanical principles : as originated by Samuel Thomson, and continued by his coadjutors",
+  "creator": "Thomson, John, Dr.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2575001R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2575001R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2575001R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 21,
+  "paragraphCount": 28,
+  "sectionCount": 4,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2575001R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2575001R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2575001R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2575001R.jsonl",
+  "rawSha256": "843f36419015ca46db18fabebc4a02a9abdb9b4f4aa8981a0a2a44d1bb2e86b4",
+  "normalizedSha256": "0c7b1f713d744917ede1b848a747b4d68367c4eea88dc868c93d3b43ee6e19df",
+  "processedAt": "2026-06-20T01:22:36.574Z"
+}

@@ -1,0 +1,1149 @@
+{
+  "profile_id": "seed-marshmallow",
+  "family_id": "seed-marshmallow",
+  "canonical_name": "Marshmallow",
+  "canonical_key": "marshmallow",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-marshmallow-5a9fee2cb0#marshmallow"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 690,
+    "total_chunks": 632,
+    "total_works": 208,
+    "matched_chunk_count": 632,
+    "matched_work_count": 208,
+    "matched_mention_total": 635
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Marshmallow",
+      "Marshmallows"
+    ],
+    "sample_work_ids": [
+      "nlm-0217313",
+      "nlm-0217315",
+      "nlm-0217317"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217313-chunk-0860",
+      "nlm-0217313-chunk-0933",
+      "nlm-0217313-chunk-1056"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 430
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 162
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 60
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 264,
+        "work_count": 125
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 127,
+        "work_count": 50
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 109,
+        "work_count": 46
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 75,
+        "work_count": 33
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 72,
+        "work_count": 44
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 60,
+        "work_count": 47
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 21,
+        "work_count": 9
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 17,
+        "work_count": 14
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 9,
+        "work_count": 7
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 7,
+        "work_count": 6
+      }
+    ],
+    "preparations": [
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 338,
+        "work_count": 122
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 209,
+        "work_count": 91
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 125,
+        "work_count": 41
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 122,
+        "work_count": 66
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 115,
+        "work_count": 74
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 103,
+        "work_count": 58
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 84,
+        "work_count": 47
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 74,
+        "work_count": 38
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 63,
+        "work_count": 26
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 53,
+        "work_count": 26
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 202,
+        "work_count": 82
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 67,
+        "work_count": 22
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 44,
+        "work_count": 29
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 34,
+        "work_count": 28
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 21,
+        "work_count": 17
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 11,
+        "work_count": 10
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 1,
+        "work_count": 1
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 115,
+        "work_count": 73
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 48,
+        "work_count": 40
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 47,
+        "work_count": 33
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 41,
+        "work_count": 23
+      },
+      {
+        "id": "dysentery",
+        "label": "Dysentery",
+        "signal_count": 34,
+        "work_count": 32
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 32,
+        "work_count": 29
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 27,
+        "work_count": 18
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 26,
+        "work_count": 17
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 25,
+        "work_count": 25
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 22,
+        "work_count": 16
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 182,
+      "matched_mention_count": 182
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 36,
+      "matched_mention_count": 36
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "nlm-2701678R",
+      "title": "The new dispensatory ... : the whole interspersed with practical cautions and observations",
+      "creator": "Lewis, William, 1708-1781.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2701678R-bk",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "nlm-63580420R",
+      "title": "A popular cyclopedia of modern domestic medicine : comprising every recent improvement in medical knowledge : with a plain account of the medicines in common use",
+      "creator": "Imray, Keith.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580420R-bk",
+      "signal_chunk_count": 9,
+      "matched_mention_count": 9
+    },
+    {
+      "work_id": "wellcome-wckrxdvh",
+      "title": "The way to preserve good health, invigorate a delicate constitution, and attain an advanced age : together with a treatise on domestic medicine, pointing out, in plain language, and as free from professional terms as possible, the nature, symptoms, causes, probable terminations, and treatment of all diseases incident to men, women, and children, in both cold and warm climates; as also appropriate prescriptions in English, and the doses of medicine which are suitable to different ages / the whole has been composed and arranged by Robert Thomas.",
+      "creator": "",
+      "publication_year": "1822",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/wckrxdvh",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-gfchkr25",
+      "title": "Slack's herbal : a treatise on the pathology of disease, designed for the use of families / by George Slack.",
+      "creator": "",
+      "publication_year": "1892",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/gfchkr25",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-vdz5naq9",
+      "title": "The botanic pharmacopœia : comprising the materia medica, doses and preparations of the medicines employed in the botanic practice / by J.G. Hatfield.",
+      "creator": "",
+      "publication_year": "1886",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia;botany",
+      "source_url": "https://wellcomecollection.org/works/vdz5naq9",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "nlm-2544054R",
+      "title": "Domestic medicine , or, A treatise on the prevention and cure of diseases, by regimen and simple medicines : with an appendix, containing a dispensatory for the use of private practioners",
+      "creator": "Buchan, William, 1729-1805.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544054R-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63570350R-chunk-0104",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Marshmallows"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "When given in sufficient doses, henbane operates as a decided narcotic, and in its general effects, much resembles opium; but it does not constipate, or affect the head; on the contrary, its ten- dency is rather to re...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63330560R-chunk-0387",
+        "work_id": "nlm-63330560R",
+        "title": "The physician's assistant : consisting of a short and comprehensive materia medica , together with a summary view of the whole practice of physic, surgery and midwifery",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63330560R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Poultice",
+          "Gargle",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves boiled with milk have the same effect in cleansing the bowels ; one spoonful of the juice in wine will help a wo- man to an easy and speedy delivery ; the syrup or conserve is also good in the falling sickn...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1551",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Juice",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation"
+        ],
+        "excerpt": "At the same time the following remedy may be used with great advantage : take essence of pimpernel eight grains, marshmallow juice three ounces; dose, one tablespoonful every half hour. The frequent swallowing of a te...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0872",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Poultice",
+          "Bath",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Cold water may also be allowed, when called for. But when there is much irritation of the stomach, mucilaginous diuretic draughts will be found the best, as an infusion of Marshmallow and Peach leaves; and Mustard pou...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-32520980R-chunk-1875",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "> B O O B B O B",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Cordial",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "In water, twice a day. C In mint-water, 3 ? I times a day. 3 3 In mint-water, 3 > I times a day. 3 3 In mint-water, 3? (_ times a day. 3 In honey. Tn decoction of\" marshmallow root, 3 times a day. C Alterative & £ Pur...",
+        "score": 41
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63570350R-chunk-0104",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Marshmallows"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "When given in sufficient doses, henbane operates as a decided narcotic, and in its general effects, much resembles opium; but it does not constipate, or affect the head; on the contrary, its ten- dency is rather to re...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63330560R-chunk-0387",
+        "work_id": "nlm-63330560R",
+        "title": "The physician's assistant : consisting of a short and comprehensive materia medica , together with a summary view of the whole practice of physic, surgery and midwifery",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63330560R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Poultice",
+          "Gargle",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves boiled with milk have the same effect in cleansing the bowels ; one spoonful of the juice in wine will help a wo- man to an easy and speedy delivery ; the syrup or conserve is also good in the falling sickn...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1551",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Juice",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation"
+        ],
+        "excerpt": "At the same time the following remedy may be used with great advantage : take essence of pimpernel eight grains, marshmallow juice three ounces; dose, one tablespoonful every half hour. The frequent swallowing of a te...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0872",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Poultice",
+          "Bath",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Cold water may also be allowed, when called for. But when there is much irritation of the stomach, mucilaginous diuretic draughts will be found the best, as an infusion of Marshmallow and Peach leaves; and Mustard pou...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-32520980R-chunk-1875",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "> B O O B B O B",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Cordial",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "In water, twice a day. C In mint-water, 3 ? I times a day. 3 3 In mint-water, 3 > I times a day. 3 3 In mint-water, 3? (_ times a day. 3 In honey. Tn decoction of\" marshmallow root, 3 times a day. C Alterative & £ Pur...",
+        "score": 41
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63570350R-chunk-0104",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Marshmallows"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "When given in sufficient doses, henbane operates as a decided narcotic, and in its general effects, much resembles opium; but it does not constipate, or affect the head; on the contrary, its ten- dency is rather to re...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63330560R-chunk-0387",
+        "work_id": "nlm-63330560R",
+        "title": "The physician's assistant : consisting of a short and comprehensive materia medica , together with a summary view of the whole practice of physic, surgery and midwifery",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63330560R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Poultice",
+          "Gargle",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves boiled with milk have the same effect in cleansing the bowels ; one spoonful of the juice in wine will help a wo- man to an easy and speedy delivery ; the syrup or conserve is also good in the falling sickn...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1551",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Juice",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation"
+        ],
+        "excerpt": "At the same time the following remedy may be used with great advantage : take essence of pimpernel eight grains, marshmallow juice three ounces; dose, one tablespoonful every half hour. The frequent swallowing of a te...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0872",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Poultice",
+          "Bath",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Cold water may also be allowed, when called for. But when there is much irritation of the stomach, mucilaginous diuretic draughts will be found the best, as an infusion of Marshmallow and Peach leaves; and Mustard pou...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-32520980R-chunk-1875",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "> B O O B B O B",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Cordial",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "In water, twice a day. C In mint-water, 3 ? I times a day. 3 3 In mint-water, 3 > I times a day. 3 3 In mint-water, 3? (_ times a day. 3 In honey. Tn decoction of\" marshmallow root, 3 times a day. C Alterative & £ Pur...",
+        "score": 41
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63570350R-chunk-0104",
+        "work_id": "nlm-63570350R",
+        "title": "The family and ship medicine chest companion : being a compendium of domestic medicine, surgery, and materia medica : with directions for the diet and management of the sick-room : particularly adapted for heads of families, captains of ships, travellers, and overseers of plantations : comprising plain rules for the administration of medicines, with their properties and doses : also general rules on bathing, a plain description of the treatment of fractures, and dislocations, etc., etc., and a concise account of the asiatic and spasmodic cholera, with the remedies to be used in the absence of professional assistance : to which is added receipts of general utility for family purposes : selected from standard works",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "(SULPHATE OF COPPER)",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570350R-bk",
+        "matched_herbs": [
+          "Marshmallows"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Extract",
+          "Powder",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "When given in sufficient doses, henbane operates as a decided narcotic, and in its general effects, much resembles opium; but it does not constipate, or affect the head; on the contrary, its ten- dency is rather to re...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-63330560R-chunk-0387",
+        "work_id": "nlm-63330560R",
+        "title": "The physician's assistant : consisting of a short and comprehensive materia medica , together with a summary view of the whole practice of physic, surgery and midwifery",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63330560R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Poultice",
+          "Gargle",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Vomiting or nausea",
+          "Inflammation"
+        ],
+        "excerpt": "The leaves boiled with milk have the same effect in cleansing the bowels ; one spoonful of the juice in wine will help a wo- man to an easy and speedy delivery ; the syrup or conserve is also good in the falling sickn...",
+        "score": 46
+      },
+      {
+        "chunk_id": "nlm-63610340R-chunk-1551",
+        "work_id": "nlm-63610340R",
+        "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Juice",
+          "Essence"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Inflammation"
+        ],
+        "excerpt": "At the same time the following remedy may be used with great advantage : take essence of pimpernel eight grains, marshmallow juice three ounces; dose, one tablespoonful every half hour. The frequent swallowing of a te...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-63580630R-chunk-0872",
+        "work_id": "nlm-63580630R",
+        "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Poultice",
+          "Bath",
+          "Draught"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Cold water may also be allowed, when called for. But when there is much irritation of the stomach, mucilaginous diuretic draughts will be found the best, as an infusion of Marshmallow and Peach leaves; and Mustard pou...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-32520980R-chunk-1875",
+        "work_id": "nlm-32520980R",
+        "title": "Gunn's domestic medicine, or, Poor man's friend in the hours of affliction, pain and sickness : this book points out, in plain language, free from doctors' terms, the diseases of men, women, and children and the latest and most approved means used in their cure, and is intended expressly for the benefit of families : it also contains descriptions of the medicinal roots and herbs of the United States and how they are to be used in the cure of diseases : arranged on a new and simple plan, in which the practice of medicine is reduced to principles of common sense",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "> B O O B B O B",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-32520980R-bk",
+        "matched_herbs": [
+          "Marshmallow"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root"
+        ],
+        "preparations": [
+          "Decoction",
+          "Cordial",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Asthma",
+          "Constipation",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "In water, twice a day. C In mint-water, 3 ? I times a day. 3 3 In mint-water, 3 > I times a day. 3 3 In mint-water, 3? (_ times a day. 3 In honey. Tn decoction of\" marshmallow root, 3 times a day. C Alterative & £ Pur...",
+        "score": 41
+      }
+    ]
+  },
+  "retrieval_text": "Marshmallow is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 208 works and 632 source-linked chunks. Recorded variants include Marshmallow, Marshmallows. Common plant-part co-mentions include Root, Gum, Flower, Leaf, Seed, Bark. Common preparation co-mentions include Syrup, Decoction, Oil, Powder, Tea, Infusion. Common condition co-mentions include Cold or catarrh, Wounds or ulcers, Inflammation, Cough, Dysentery, Vomiting or nausea. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Allergy or sensitivity caution, Toxicity watch. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse; The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.870Z",
+  "builder": "build-herb-profiles.mjs"
+}

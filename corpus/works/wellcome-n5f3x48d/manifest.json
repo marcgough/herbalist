@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-n5f3x48d",
+  "title": "Culpeper's [!] family physician ... The English physician enlarged / containing 300 medicines, made of American herbs. Being an astrologo-physical discourse of the vulgar herbs of this nation. Likewise, a variety or receipts.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/n5f3x48d",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b2933956x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/n5f3x48d",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica;domestic-medicine",
+  "chunkCount": 970,
+  "paragraphCount": 1023,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-n5f3x48d\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-n5f3x48d\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-n5f3x48d.jsonl",
+  "rawSha256": "a7583267cb869c54f16517181354bad97a1df26e7ebdb9a1ba7d36b7222a6e81",
+  "normalizedSha256": "ce40f555374fe84486c280310c1b7a6d24636aa10d3fa6494a5e658d68b0be08",
+  "processedAt": "2026-06-16T13:46:54.144Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

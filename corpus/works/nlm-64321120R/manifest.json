@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64321120R",
+  "title": "A pathogenetic materia medica : based upon Drs. Hughes' and Dake's Cyclopaedia of drug pathogenesy",
+  "creator": "Medical Investigation Club of Baltimore.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64321120R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64321120R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64321120R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 611,
+  "paragraphCount": 1322,
+  "sectionCount": 6,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64321120R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64321120R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64321120R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64321120R.jsonl",
+  "rawSha256": "1f9226a572a019d4ee4b056297c643ab1effea6cac5d93a9925466e02d134d38",
+  "normalizedSha256": "a48d01cd21fc3a43357678b3869c986a0b76abd49c2c2dadbe91ba01ac570f08",
+  "processedAt": "2026-06-18T03:55:47.257Z"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "prepared-not-populated",
+  "generatedAt": "2026-06-23T14:13:56.749Z",
+  "jurisdictionLane": "Australia",
+  "safeToRun": "Writes local queue artifacts only; no external API calls, scraping, downloads, or API keys.",
+  "candidateSourceCount": 5,
+  "searchThemeCount": 9,
+  "corpusReadyCandidateCount": 0,
+  "requiresExternalApprovalForApi": true,
+  "currentAustraliaReferenceCount": 0,
+  "allowedContentRule": "Book-like sources only, with full text allowed only when public domain, CC0, CC BY, CC BY-SA, or similarly permissive item-level reuse rights are clear.",
+  "excludedContentRule": "No newspapers, blogs, general web pages, serial feeds, uncertain-rights scans, or platform-only records enter the corpus.",
+  "culturalSafety": "First Australian and Indigenous knowledge remains restricted metadata only unless explicit rights, authority, and culturally safe review are obtained.",
+  "sourceIds": [
+    "trove-nla",
+    "state-library-victoria",
+    "state-library-nsw",
+    "state-library-queensland",
+    "bhl-australia"
+  ],
+  "themeIds": [
+    "australian-herbal",
+    "australian-medicinal-plants",
+    "medical-botany-australia",
+    "australian-flora-medicinal",
+    "domestic-medicine-australia",
+    "materia-medica-australia",
+    "australian-pharmacopoeia",
+    "botanical-guide-australia",
+    "bush-medicine-book"
+  ]
+}

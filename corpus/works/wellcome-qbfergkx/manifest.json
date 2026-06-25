@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-qbfergkx",
+  "title": "Le livre des simples medecines : traduction française du Liber simplici medicina dictus Circa instans de Platearius tirée d'un manuscrit du XIIIe siècle ... et publiée pour la première fois / par Paul Dorveaux.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/qbfergkx",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b31364317",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/qbfergkx",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 604,
+  "paragraphCount": 607,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-qbfergkx\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-qbfergkx\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-qbfergkx\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-qbfergkx.jsonl",
+  "rawSha256": "d67318e24cc8c463f6dda8bb006c24a2b6aed6462756b9b69f7222072d749c6c",
+  "normalizedSha256": "cb064948bba66aaf485bb0d179a5d3675373a7d4766b4432633ffd17e219363d",
+  "processedAt": "2026-06-16T23:09:36.378Z"
+}

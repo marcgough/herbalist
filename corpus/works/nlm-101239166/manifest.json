@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101239166",
+  "title": "The nurse, or, Hints on the care of the sick : including mothers and infants, and a digest of domestic medicine",
+  "creator": "Harris, Charles T. (Charles Taylor), 1818-",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101239166-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101239166-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101239166",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;nursing",
+  "chunkCount": 180,
+  "paragraphCount": 264,
+  "sectionCount": 9,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101239166\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101239166\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101239166\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101239166.jsonl",
+  "rawSha256": "8d2e0558607d34055cba7e84f63c1a6424f587595bcc69e24b3023650b47e920",
+  "normalizedSha256": "ea8bf5586fe2da5c284464205cb962cce32d544fbe915e78abb457c913c60139",
+  "processedAt": "2026-06-17T16:26:53.636Z"
+}

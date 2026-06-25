@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-jmzkgr2j",
+  "title": "Reseña historico cientifica sobre el éséré, o sea, la haba del calabar / [escrita por Félix García Carrasco].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/jmzkgr2j",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21496730",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/jmzkgr2j",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;materia-medica",
+  "chunkCount": 79,
+  "paragraphCount": 83,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-jmzkgr2j\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-jmzkgr2j\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-jmzkgr2j\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-jmzkgr2j.jsonl",
+  "rawSha256": "5e420a9253d9172ab5ebedee5256ba106144150a6b2df4cd82456c9853005bbf",
+  "normalizedSha256": "b52f0dfd8cefd957cf8d144892929b80992ff0799ae9d713d9c08a31fe72a5b3",
+  "processedAt": "2026-06-16T23:14:27.550Z"
+}

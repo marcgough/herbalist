@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-63570980R",
+  "title": "Everybody's doctor : a new and improved hand-book of hygiene and domestic medicine",
+  "creator": "Gunn, Robert A. (Robert Alexander), 1844-",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570980R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-63570980R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/63570980R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 1560,
+  "paragraphCount": 1567,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570980R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-63570980R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-63570980R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-63570980R.jsonl",
+  "rawSha256": "651fa73503589364962f62b4432362173045ea5c59d489d81b058006d54983d9",
+  "normalizedSha256": "d735ee75eb8bf1f66989ff2d0ebc85fe892f1b0161e942f7e163e19b100f54f3",
+  "processedAt": "2026-06-17T15:13:44.139Z"
+}

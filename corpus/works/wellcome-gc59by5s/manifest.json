@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-gc59by5s",
+  "title": "Domestic medicine, or poor man's friend : This book points out ... the diseases of men, women, and children, and ... their cure. It also contains descriptions of the medicinal roots and herbs of the western and southern country / [John C Gunn].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/gc59by5s",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b29303643",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/gc59by5s",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1864,
+  "paragraphCount": 1953,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-gc59by5s\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-gc59by5s\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-gc59by5s.jsonl",
+  "rawSha256": "b3c14060adb769de7feb844b27300b7880475f4bbd6ae63a691b6f820143b6dc",
+  "normalizedSha256": "bf17364d580a6b970f0b900dc07075728dfddebe354f47748b8c7917329a9fb2",
+  "processedAt": "2026-06-16T13:46:51.711Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

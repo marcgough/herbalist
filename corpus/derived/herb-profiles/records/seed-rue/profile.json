@@ -1,0 +1,1145 @@
+{
+  "profile_id": "seed-rue",
+  "family_id": "seed-rue",
+  "canonical_name": "Rue",
+  "canonical_key": "rue",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-rue-1b0460762c#rue"
+  ],
+  "decision_note": "promote strong historical medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 633,
+    "total_chunks": 585,
+    "total_works": 257,
+    "matched_chunk_count": 585,
+    "matched_work_count": 257,
+    "matched_mention_total": 585
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Rue"
+    ],
+    "sample_work_ids": [
+      "nlm-0217315",
+      "nlm-0217317",
+      "nlm-0217404"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217315-chunk-1872",
+      "nlm-0217317-chunk-1913",
+      "nlm-0217404-chunk-1905"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 422
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 127
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 59
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 229,
+        "work_count": 136
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 161,
+        "work_count": 90
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 135,
+        "work_count": 80
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 122,
+        "work_count": 76
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 44,
+        "work_count": 34
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 38,
+        "work_count": 35
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 33,
+        "work_count": 24
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 26,
+        "work_count": 24
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 21,
+        "work_count": 21
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 21,
+        "work_count": 21
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 349,
+        "work_count": 187
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 141,
+        "work_count": 57
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 105,
+        "work_count": 69
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 81,
+        "work_count": 71
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 65,
+        "work_count": 53
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 55,
+        "work_count": 47
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 54,
+        "work_count": 41
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 53,
+        "work_count": 28
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 47,
+        "work_count": 39
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 45,
+        "work_count": 32
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 118,
+        "work_count": 75
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 64,
+        "work_count": 52
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 63,
+        "work_count": 53
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 33,
+        "work_count": 33
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 18,
+        "work_count": 14
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 16,
+        "work_count": 14
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 12,
+        "work_count": 10
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "conditions": [
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 62,
+        "work_count": 49
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 39,
+        "work_count": 26
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 34,
+        "work_count": 33
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 32,
+        "work_count": 24
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 31,
+        "work_count": 26
+      },
+      {
+        "id": "colic",
+        "label": "Colic",
+        "signal_count": 30,
+        "work_count": 28
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 26,
+        "work_count": 25
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 24,
+        "work_count": 22
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 11,
+        "work_count": 11
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 41,
+      "matched_mention_count": 41
+    },
+    {
+      "work_id": "nlm-2751057R",
+      "title": "Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops",
+      "creator": "Culpeper, Nicholas, 1616-1654 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2751057R-bk",
+      "signal_chunk_count": 14,
+      "matched_mention_count": 14
+    },
+    {
+      "work_id": "nlm-2548018R",
+      "title": "Pharmacopoeia Londinensis, or, the London dispensatory : further adorned by the studies and collections of the fellows now living, of the said college",
+      "creator": "Culpeper, Nicholas, 1616-1654.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2548018R-bk",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-takhmyez",
+      "title": "Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].",
+      "creator": "",
+      "publication_year": "1747",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/takhmyez",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-ttetz6t2",
+      "title": "The complete herbal, to which is now added, upwards of one hundred additional herbs, with a display of their medicinal and occult qualities; physically applied to the cure of all disorders incident to mankind, To which is now annexed, the English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added, upwards of fifty choice receipts selected form the author's Last legacy / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1850",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/ttetz6t2",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "wellcome-ms79ffge",
+      "title": "Complete herbal ... To which is now first annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added upwards of 50 choice receipts selected from the author's Last legacy. To his wife ... / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1823",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/ms79ffge",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-v2hnvyj6",
+      "title": "Complete herbal, to which is now added, upwards of one hundred additional herbs, with a display of their medicinal and occult qualities : physically applied to the cure of all disorders incident to mankind [etc.].",
+      "creator": "",
+      "publication_year": "1816",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/v2hnvyj6",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-e8fn752s",
+      "title": "Culpeper's complete herbal ... To which are ... annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added ... receipts selected from the author's Last legacy / [Nicholas Culpeper].",
+      "creator": "",
+      "publication_year": "1818",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal",
+      "source_url": "https://wellcomecollection.org/works/e8fn752s",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "pg-49513",
+      "title": "The Complete Herbal",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "herbal",
+      "source_url": "https://www.gutenberg.org/ebooks/49513",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    },
+    {
+      "work_id": "wellcome-pjvn9c9z",
+      "title": "The complete herbal, to which is now added, upwards of one hundred additional herbs, with display of their medicinal and occult qualities; physically applied to the cure of all disorders incident to mankind : to which are now first annexed the English physician enlarged and key to physic, with rules for compounding medicine according to the true system of nature. Forming a complete family dispensatory, and a natural system of physic. / by Nicholas Culpeper M. D. to which is also added upwards of fifty choice receipts, selected from the author's last legacy to his wife.",
+      "creator": "",
+      "publication_year": "1842",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;botany",
+      "source_url": "https://wellcomecollection.org/works/pjvn9c9z",
+      "signal_chunk_count": 10,
+      "matched_mention_count": 10
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-101602774-chunk-0976",
+        "work_id": "nlm-101602774",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians, and of the United States pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101602774-bk",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Toxicity watch",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Great dryness or the mouth and throat, accompanied with a sensation or heat and pain or the stomach and bowels, headache, and delirium. Morbid Appearances. We know of no recorded instance of death in the human species...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-me68uhnn-chunk-0768",
+        "work_id": "wellcome-me68uhnn",
+        "title": "Crosby's improved edition. The English physician, enlarged with three hundred and sixty-nine medicines made of English herbs, not in any former impression of Culpeper's British herbal, containing an astrologo-physical discourse on the various herbs of this nation ... illustrated with correct copper plates of the most useful and remarkable plants. To which is added The family physician and A present for the ladies, containing the best remedies for every disease incident to the human body / by Dr. Parkins.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/me68uhnn",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helj)- eth the pains of the chest and sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica ami joints, being anointed, or laid...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-uxtkmwqd-chunk-0733",
+        "work_id": "wellcome-uxtkmwqd",
+        "title": "Culpeper's complete herbal, etc / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/uxtkmwqd",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helpeth the pains both of the chest ané sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica and joints, being anointed or laid...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-zdzdedt5-chunk-0759",
+        "work_id": "wellcome-zdzdedt5",
+        "title": "The English physician enlarged. With three hundred and sixty-nine medicines made of English herbs, not in any former impression of Culpeper's British herbal ... Crosby's improved edition ... To which is added the Family physician, and a present for the ladies, containing the best remedies ... / By Dr. Parkins.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zdzdedt5",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, help, eth the pains of the chest and sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica and joints, being anointed, or laid t...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-y753zzup-chunk-0808",
+        "work_id": "wellcome-y753zzup",
+        "title": "Culpeper's complete herbal, and English physician wherein several hundred herbs, with a display of their medicinal and occult properties ... To which are added, rules ... receipts, selected from the author's Last legacies ... To which is annexed, The British florist. Or Flower garden displayed .... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y753zzup",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helps the pains both of the chest and sides; as also coughs and hardness of breathing, the inflammations of the lungs, and tormenting pains of the sciatica and the joints, being anointed, or laid...",
+        "score": 42
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-101602774-chunk-0976",
+        "work_id": "nlm-101602774",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians, and of the United States pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101602774-bk",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Toxicity watch",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Great dryness or the mouth and throat, accompanied with a sensation or heat and pain or the stomach and bowels, headache, and delirium. Morbid Appearances. We know of no recorded instance of death in the human species...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-me68uhnn-chunk-0768",
+        "work_id": "wellcome-me68uhnn",
+        "title": "Crosby's improved edition. The English physician, enlarged with three hundred and sixty-nine medicines made of English herbs, not in any former impression of Culpeper's British herbal, containing an astrologo-physical discourse on the various herbs of this nation ... illustrated with correct copper plates of the most useful and remarkable plants. To which is added The family physician and A present for the ladies, containing the best remedies for every disease incident to the human body / by Dr. Parkins.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/me68uhnn",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helj)- eth the pains of the chest and sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica ami joints, being anointed, or laid...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-uxtkmwqd-chunk-0733",
+        "work_id": "wellcome-uxtkmwqd",
+        "title": "Culpeper's complete herbal, etc / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/uxtkmwqd",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helpeth the pains both of the chest ané sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica and joints, being anointed or laid...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-zdzdedt5-chunk-0759",
+        "work_id": "wellcome-zdzdedt5",
+        "title": "The English physician enlarged. With three hundred and sixty-nine medicines made of English herbs, not in any former impression of Culpeper's British herbal ... Crosby's improved edition ... To which is added the Family physician, and a present for the ladies, containing the best remedies ... / By Dr. Parkins.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zdzdedt5",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, help, eth the pains of the chest and sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica and joints, being anointed, or laid t...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-y753zzup-chunk-0808",
+        "work_id": "wellcome-y753zzup",
+        "title": "Culpeper's complete herbal, and English physician wherein several hundred herbs, with a display of their medicinal and occult properties ... To which are added, rules ... receipts, selected from the author's Last legacies ... To which is annexed, The British florist. Or Flower garden displayed .... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y753zzup",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helps the pains both of the chest and sides; as also coughs and hardness of breathing, the inflammations of the lungs, and tormenting pains of the sciatica and the joints, being anointed, or laid...",
+        "score": 42
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-101602774-chunk-0976",
+        "work_id": "nlm-101602774",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians, and of the United States pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101602774-bk",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Toxicity watch",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Great dryness or the mouth and throat, accompanied with a sensation or heat and pain or the stomach and bowels, headache, and delirium. Morbid Appearances. We know of no recorded instance of death in the human species...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-me68uhnn-chunk-0768",
+        "work_id": "wellcome-me68uhnn",
+        "title": "Crosby's improved edition. The English physician, enlarged with three hundred and sixty-nine medicines made of English herbs, not in any former impression of Culpeper's British herbal, containing an astrologo-physical discourse on the various herbs of this nation ... illustrated with correct copper plates of the most useful and remarkable plants. To which is added The family physician and A present for the ladies, containing the best remedies for every disease incident to the human body / by Dr. Parkins.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/me68uhnn",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helj)- eth the pains of the chest and sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica ami joints, being anointed, or laid...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-uxtkmwqd-chunk-0733",
+        "work_id": "wellcome-uxtkmwqd",
+        "title": "Culpeper's complete herbal, etc / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/uxtkmwqd",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helpeth the pains both of the chest ané sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica and joints, being anointed or laid...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-zdzdedt5-chunk-0759",
+        "work_id": "wellcome-zdzdedt5",
+        "title": "The English physician enlarged. With three hundred and sixty-nine medicines made of English herbs, not in any former impression of Culpeper's British herbal ... Crosby's improved edition ... To which is added the Family physician, and a present for the ladies, containing the best remedies ... / By Dr. Parkins.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zdzdedt5",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, help, eth the pains of the chest and sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica and joints, being anointed, or laid t...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-y753zzup-chunk-0808",
+        "work_id": "wellcome-y753zzup",
+        "title": "Culpeper's complete herbal, and English physician wherein several hundred herbs, with a display of their medicinal and occult properties ... To which are added, rules ... receipts, selected from the author's Last legacies ... To which is annexed, The British florist. Or Flower garden displayed .... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y753zzup",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helps the pains both of the chest and sides; as also coughs and hardness of breathing, the inflammations of the lungs, and tormenting pains of the sciatica and the joints, being anointed, or laid...",
+        "score": 42
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-101602774-chunk-0976",
+        "work_id": "nlm-101602774",
+        "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians, and of the United States pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "TO THE",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101602774-bk",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Pregnancy caution",
+          "Toxicity watch",
+          "Fatal-risk warning",
+          "Narcotic or sedative caution",
+          "Abortifacient warning"
+        ],
+        "conditions": [
+          "Headache",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "Great dryness or the mouth and throat, accompanied with a sensation or heat and pain or the stomach and bowels, headache, and delirium. Morbid Appearances. We know of no recorded instance of death in the human species...",
+        "score": 48
+      },
+      {
+        "chunk_id": "wellcome-me68uhnn-chunk-0768",
+        "work_id": "wellcome-me68uhnn",
+        "title": "Crosby's improved edition. The English physician, enlarged with three hundred and sixty-nine medicines made of English herbs, not in any former impression of Culpeper's British herbal, containing an astrologo-physical discourse on the various herbs of this nation ... illustrated with correct copper plates of the most useful and remarkable plants. To which is added The family physician and A present for the ladies, containing the best remedies for every disease incident to the human body / by Dr. Parkins.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/me68uhnn",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helj)- eth the pains of the chest and sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica ami joints, being anointed, or laid...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-uxtkmwqd-chunk-0733",
+        "work_id": "wellcome-uxtkmwqd",
+        "title": "Culpeper's complete herbal, etc / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/uxtkmwqd",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helpeth the pains both of the chest ané sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica and joints, being anointed or laid...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-zdzdedt5-chunk-0759",
+        "work_id": "wellcome-zdzdedt5",
+        "title": "The English physician enlarged. With three hundred and sixty-nine medicines made of English herbs, not in any former impression of Culpeper's British herbal ... Crosby's improved edition ... To which is added the Family physician, and a present for the ladies, containing the best remedies ... / By Dr. Parkins.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zdzdedt5",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase",
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Decoction",
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, help, eth the pains of the chest and sides, as also coughs and hardness of breathing, the inflammation of the lungs, and the tormenting pains of the sciatica and joints, being anointed, or laid t...",
+        "score": 45
+      },
+      {
+        "chunk_id": "wellcome-y753zzup-chunk-0808",
+        "work_id": "wellcome-y753zzup",
+        "title": "Culpeper's complete herbal, and English physician wherein several hundred herbs, with a display of their medicinal and occult properties ... To which are added, rules ... receipts, selected from the author's Last legacies ... To which is annexed, The British florist. Or Flower garden displayed .... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/y753zzup",
+        "matched_herbs": [
+          "Rue"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf"
+        ],
+        "preparations": [
+          "Oil",
+          "Draught"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Colic",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "The same being drank, helps the pains both of the chest and sides; as also coughs and hardness of breathing, the inflammations of the lungs, and tormenting pains of the sciatica and the joints, being anointed, or laid...",
+        "score": 42
+      }
+    ]
+  },
+  "retrieval_text": "Rue is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 257 works and 585 source-linked chunks. Recorded variants include Rue. Common plant-part co-mentions include Leaf, Seed, Root, Flower, Gum, Bark. Common preparation co-mentions include Oil, Juice, Powder, Decoction, Infusion, Extract. Common condition co-mentions include Epilepsy or convulsions, Cold or catarrh, Cough, Fever, Wounds or ulcers, Colic. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Toxicity watch, Abortifacient warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops; Pharmacopoeia Londinensis, or, the London dispensatory : further adorned by the studies and collections of the fellows now living, of the said college; Pharmacopoeia universalis: or, a new universal English dispensatory / [R. James].. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.876Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,20 @@
+{
+  "workId": "pg-65569",
+  "title": "Histology of medicinal plants",
+  "creator": "Mansfield, William James, 1878-",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/65569",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/65569/pg65569.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/65569.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "medicinal-plants;botany",
+  "chunkCount": 488,
+  "paragraphCount": 1957,
+  "sectionCount": 330,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-65569\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-65569\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-65569.jsonl",
+  "rawSha256": "bc6c85ef903886bd0b3891e215d7c5de21f21d5e429092692b63febfb06a55dc",
+  "normalizedSha256": "8377dd741047a2a69f6f24236ffe3e9f80e12591d95c158816a4913dfd25b474",
+  "processedAt": "2026-06-16T13:39:13.721Z"
+}

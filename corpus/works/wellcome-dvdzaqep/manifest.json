@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-dvdzaqep",
+  "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/dvdzaqep",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21154752",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/dvdzaqep",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 653,
+  "paragraphCount": 668,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-dvdzaqep\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-dvdzaqep\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-dvdzaqep\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-dvdzaqep.jsonl",
+  "rawSha256": "53f60f419956b3e0679ae4843fad5ceb10145d8e78cabed55fa923cb74bf47dc",
+  "normalizedSha256": "284572fe8323e667452cec38bd6faa6eee5720b1e71a3195814d01fe9155812c",
+  "processedAt": "2026-06-16T23:30:08.310Z"
+}

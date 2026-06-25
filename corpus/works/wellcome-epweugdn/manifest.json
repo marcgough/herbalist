@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-epweugdn",
+  "title": "The American physitian; or, a treatise of the roots, plants, trees, shrubs, fruit, herbs, etc. growing in the English plantations in America. Describing the place, time, names, kindes, temperature, vertues and uses of them, either for diet, physick, &c. Whereunto is added a discourse of the cacao-nut-tree, and the use of its fruit; with all the ways of making of chocolate / By W. Hughes.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/epweugdn",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30326497",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/epweugdn",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;botany",
+  "chunkCount": 219,
+  "paragraphCount": 229,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-epweugdn\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-epweugdn\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-epweugdn\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-epweugdn.jsonl",
+  "rawSha256": "406ca1b28b766deb837b8a8e3c78471ebb504e71547b7aff5fbce4bc2eaa1647",
+  "normalizedSha256": "39b22c1752c638d38230211eac1b421570afe943ae1c5b2b1019725b049888f9",
+  "processedAt": "2026-06-17T00:34:15.232Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101636340",
+  "title": "Medicinal plants : an illustrated and descriptive guide to plants indigenous to and naturalized in the United States which are used in medicine : their description, origin, history, preparation, chemistry and physiological effects fully described together with the properties of the most important medicinal plants of other countries thus giving information upon over one thousand medicinal plants",
+  "creator": "Millspaugh, Charles Frederick, 1854-1923 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101636340-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101636340-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101636340",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;medicinal-plants;botany",
+  "chunkCount": 1875,
+  "paragraphCount": 1927,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101636340\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101636340\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101636340\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101636340.jsonl",
+  "rawSha256": "a66ca48f3a4389a0d287aa1ec78062a2015dbf231cfa46ed0fe8f872a4434879",
+  "normalizedSha256": "75065c9bdd2981d896074fb6ebd6976373cd60a3b264e2091c30ddc5b11b4d1c",
+  "processedAt": "2026-06-17T09:13:55.475Z"
+}

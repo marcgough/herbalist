@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-61620630R",
+  "title": "Fenner's hand book of the United States Pharmacopoeia , seventh revision, 1890-1893 : a key to all official preparations : comparing the preparations of the present pharmacopoeia with those formerly official and converting the metric weight and measure directed in the pharmacopoeia into proportionate commercial weight and measure, with medicinal uses and doses of new preparations, convenient tables, etc",
+  "creator": "Fenner, B. (Byron), 1844-1926 author.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620630R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-61620630R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/61620630R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "pharmacopoeia",
+  "chunkCount": 649,
+  "paragraphCount": 649,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61620630R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-61620630R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-61620630R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-61620630R.jsonl",
+  "rawSha256": "166b7de2003822581fc56910dcd99015e7f73ad96b26737bcdbf3e6275880e4a",
+  "normalizedSha256": "f416eed1eb7f302f37845df88173143beeb0cd0f133e5bd0579f7eee6b901073",
+  "processedAt": "2026-06-18T03:55:37.507Z"
+}

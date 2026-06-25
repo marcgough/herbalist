@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-s3vgr92p",
+  "title": "Pharmacopoeia Londinensis: or, the London dispensatory further adorned by the studies and collections of the Fellows, now living of the said colledg [sic] ... In which is printed, I. The vertues, qualities, and properties of every simple ... VI. The Latin names of every one of the compounds / ... By Nich. Culpeper ... In this impression, 1661. There is added, to the compounds, many vertues and uses. By divers learned W.R.A.C.J.W., doctors of physick ... And, by Abdiah Cole.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/s3vgr92p",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b3032404x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/s3vgr92p",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;pharmacopoeia",
+  "chunkCount": 1386,
+  "paragraphCount": 1434,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-s3vgr92p\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-s3vgr92p\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-s3vgr92p\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-s3vgr92p.jsonl",
+  "rawSha256": "8b582a36b59aeb9928cbaa0158c46c42e802b05b0484e74af59176b4f2237771",
+  "normalizedSha256": "cfba3a55b7dbc2dd2a0a5be80c583bde96077590fa97fae4d721ea43ab469b07",
+  "processedAt": "2026-06-17T00:34:07.651Z"
+}

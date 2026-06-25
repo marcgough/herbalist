@@ -1,0 +1,1205 @@
+{
+  "profile_id": "seed-sassafras",
+  "family_id": "seed-sassafras",
+  "canonical_name": "Sassafras",
+  "canonical_key": "sassafras",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-sassafras-e4ea08a73f#sassafras"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 1099,
+    "total_chunks": 1064,
+    "total_works": 385,
+    "matched_chunk_count": 1064,
+    "matched_work_count": 385,
+    "matched_mention_total": 1064
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botanic-medicine",
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Sassafras"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0217313",
+      "nlm-0217315"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0834",
+      "nlm-0140313-chunk-0958",
+      "nlm-0140313-chunk-0959"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 545
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 414
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 114
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 521,
+        "work_count": 285
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 446,
+        "work_count": 247
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 195,
+        "work_count": 138
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 137,
+        "work_count": 82
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 130,
+        "work_count": 98
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 104,
+        "work_count": 83
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 65,
+        "work_count": 50
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 63,
+        "work_count": 46
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 22,
+        "work_count": 21
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 11,
+        "work_count": 11
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 645,
+        "work_count": 280
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 288,
+        "work_count": 140
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 221,
+        "work_count": 111
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 185,
+        "work_count": 121
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 146,
+        "work_count": 86
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 126,
+        "work_count": 59
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 106,
+        "work_count": 62
+      },
+      {
+        "id": "essence",
+        "label": "Essence",
+        "signal_count": 95,
+        "work_count": 49
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 92,
+        "work_count": 62
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 86,
+        "work_count": 71
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 356,
+        "work_count": 188
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 84,
+        "work_count": 64
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 70,
+        "work_count": 55
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 27,
+        "work_count": 27
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 12,
+        "work_count": 10
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "conditions": [
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 196,
+        "work_count": 136
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 158,
+        "work_count": 110
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 138,
+        "work_count": 98
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 92,
+        "work_count": 62
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 63,
+        "work_count": 49
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 56,
+        "work_count": 40
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 43,
+        "work_count": 27
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 37,
+        "work_count": 33
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 30,
+        "work_count": 23
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 24,
+        "work_count": 19
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 38,
+      "matched_mention_count": 38
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 32,
+      "matched_mention_count": 32
+    },
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 20,
+      "matched_mention_count": 20
+    },
+    {
+      "work_id": "nlm-63570990R",
+      "title": "Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570990R-bk",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "nlm-0140313",
+      "title": "Gunn's new family physician, or, Home book of health : forming a complete household guide, giving many valuable suggestions for avoiding disease and prolonging life, with plain directions in case of energency, and pointing out in familiar language the causes, symptoms, treatment and cure of diseases incident to men, women, and children with the simplest and best remedies : presenting a manual for nursing the sick, and describing minutely the properties and uses of hundreds of well-known medicinal plants : with supplementary treatises on anatomy, physiology, and hygiene, on domestic and sanitary economy, and on physical culture and development",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants;domestic-medicine;hygiene;nursing;household-health",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-0140313-bk",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "nlm-61660590R",
+      "title": "The American eclectic dispensatory",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61660590R-bk",
+      "signal_chunk_count": 13,
+      "matched_mention_count": 13
+    },
+    {
+      "work_id": "nlm-100912803",
+      "title": "Gunn's New domestic physician : or, Home book of health : a complete guide for families : giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children, with the simplest and best remedies : also, describing minutely the properties and uses of hundreds of well-known medicinal plants",
+      "creator": "Gunn, John C.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "medicinal-plants",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-100912803-bk",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-c2a6ce6m",
+      "title": "Wilkinson's botanico-medical practice : in six parts / by G.E. Wilkinson.",
+      "creator": "",
+      "publication_year": "1845",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/c2a6ce6m",
+      "signal_chunk_count": 12,
+      "matched_mention_count": 12
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    },
+    {
+      "work_id": "nlm-64231020R",
+      "title": "Wilkinson's botanico-medical practice : in six parts",
+      "creator": "Wilkinson, G. E.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64231020R-bk",
+      "signal_chunk_count": 11,
+      "matched_mention_count": 11
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64210710R-chunk-0181",
+        "work_id": "nlm-64210710R",
+        "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ANTI SPASMODIC TINCTURE :",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Take of Fir Balsam, 1 oz. Alcohol, 1 pt. Shake them well together. To be applied to fresh wounds, burns, and ulcers. A teaspoonful taken two or three times a day is beneficial in coughs, soreness of the bowels, &c. ES...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0018",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Gargle"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Beneficial in diarrhoea, hysteria, and urinary disorders. Sage (Salvia officinalis). Antiseptic, astringent. Excellent for colds, coughs, and colic. Also makes with vinegar a good gargle for sore throat. Sanicle Herb...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0247",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Gargle",
+          "Liniment",
+          "Plaster",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "This is recommended in pleurisy, dropsy, rheumatism, and some obstinate disorders of the skin. Dose: Two ounces three or four times a day, or oltcnei if the stomach will bear it. No. 96. TOOTHACHE DROPS. Oil of sassaf...",
+        "score": 48
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64210710R-chunk-0181",
+        "work_id": "nlm-64210710R",
+        "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ANTI SPASMODIC TINCTURE :",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Take of Fir Balsam, 1 oz. Alcohol, 1 pt. Shake them well together. To be applied to fresh wounds, burns, and ulcers. A teaspoonful taken two or three times a day is beneficial in coughs, soreness of the bowels, &c. ES...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0018",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Gargle"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Beneficial in diarrhoea, hysteria, and urinary disorders. Sage (Salvia officinalis). Antiseptic, astringent. Excellent for colds, coughs, and colic. Also makes with vinegar a good gargle for sore throat. Sanicle Herb...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0247",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Gargle",
+          "Liniment",
+          "Plaster",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "This is recommended in pleurisy, dropsy, rheumatism, and some obstinate disorders of the skin. Dose: Two ounces three or four times a day, or oltcnei if the stomach will bear it. No. 96. TOOTHACHE DROPS. Oil of sassaf...",
+        "score": 48
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64210710R-chunk-0181",
+        "work_id": "nlm-64210710R",
+        "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ANTI SPASMODIC TINCTURE :",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Take of Fir Balsam, 1 oz. Alcohol, 1 pt. Shake them well together. To be applied to fresh wounds, burns, and ulcers. A teaspoonful taken two or three times a day is beneficial in coughs, soreness of the bowels, &c. ES...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0018",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Gargle"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Beneficial in diarrhoea, hysteria, and urinary disorders. Sage (Salvia officinalis). Antiseptic, astringent. Excellent for colds, coughs, and colic. Also makes with vinegar a good gargle for sore throat. Sanicle Herb...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0247",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Gargle",
+          "Liniment",
+          "Plaster",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "This is recommended in pleurisy, dropsy, rheumatism, and some obstinate disorders of the skin. Dose: Two ounces three or four times a day, or oltcnei if the stomach will bear it. No. 96. TOOTHACHE DROPS. Oil of sassaf...",
+        "score": 48
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-64210710R-chunk-0181",
+        "work_id": "nlm-64210710R",
+        "title": "A guide to health : being an exposition of the principles of the Thomsonian system of practice, and their mode of application in the cure of every form of disease : embracing a concise view of the various theories of ancient and modern practice",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ANTI SPASMODIC TINCTURE :",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210710R-bk",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Ointment",
+          "Poultice",
+          "Oil",
+          "Essence"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Headache",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "Take of Fir Balsam, 1 oz. Alcohol, 1 pt. Shake them well together. To be applied to fresh wounds, burns, and ulcers. A teaspoonful taken two or three times a day is beneficial in coughs, soreness of the bowels, &c. ES...",
+        "score": 55
+      },
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0018",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Gargle"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Rheumatism",
+          "Gout",
+          "Diarrhoea or looseness",
+          "Wounds or ulcers",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "Beneficial in diarrhoea, hysteria, and urinary disorders. Sage (Salvia officinalis). Antiseptic, astringent. Excellent for colds, coughs, and colic. Also makes with vinegar a good gargle for sore throat. Sanicle Herb...",
+        "score": 55
+      },
+      {
+        "chunk_id": "nlm-101250103-chunk-0298",
+        "work_id": "nlm-101250103",
+        "title": "What every family wants : the family physician : containing simple remedies, easily obtained, for the cure of disease in all its forms",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "CAUTION TO PARENTS, &C",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101250103-bk",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Extract",
+          "Oil",
+          "Essence",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "sufficient to decoct them; the water should be poured off several times in order to extract all the virtues from them, after which unite the infusions, strain and boil down to one quart. Add one gill of Sicily wine; t...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-kuf2mvp4-chunk-0247",
+        "work_id": "wellcome-kuf2mvp4",
+        "title": "The American practice of medicine / by Dr. Law.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/kuf2mvp4",
+        "matched_herbs": [
+          "Sassafras"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [],
+        "preparations": [
+          "Powder",
+          "Gargle",
+          "Liniment",
+          "Plaster",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "This is recommended in pleurisy, dropsy, rheumatism, and some obstinate disorders of the skin. Dose: Two ounces three or four times a day, or oltcnei if the stomach will bear it. No. 96. TOOTHACHE DROPS. Oil of sassaf...",
+        "score": 48
+      }
+    ]
+  },
+  "retrieval_text": "Sassafras is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 385 works and 1064 source-linked chunks. Recorded variants include Sassafras. Common plant-part co-mentions include Root, Bark, Seed, Gum, Leaf, Flower. Common preparation co-mentions include Oil, Tincture, Tea, Decoction, Powder, Liniment. Common condition co-mentions include Rheumatism, Wounds or ulcers, Cold or catarrh, Fever, Vomiting or nausea, Inflammation. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Fatal-risk warning, Toxicity watch. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.; Gunn's New domestic physician, or, Home book of health : a complete guide for families, giving many valuable suggestions for avoiding disease and prolonging life, and pointing out in familiar language the causes, symptoms, treatment and cure of the diseases incident to men, women and children : with the simplest and best remedies, also, describing minutely the properties and uses of hundreds of well-known medicinal plants. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.792Z",
+  "builder": "build-herb-profiles.mjs"
+}

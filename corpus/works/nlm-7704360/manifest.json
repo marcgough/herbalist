@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-7704360",
+  "title": "The botanist & physician : containing a description of the principal active medicinal plants found in the middle and northern states of America, with directions relative to their preparation, administration & use in the cure of diseases : to which is prefixed, an outline of the Linnaean system of botany, intended as an introduction and glossary to the work : all designed for the use of families and the young student in botany",
+  "creator": "Harlow, Samuel.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7704360-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-7704360-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/7704360",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "medicinal-plants;botany",
+  "chunkCount": 211,
+  "paragraphCount": 475,
+  "sectionCount": 3,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-7704360\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-7704360\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-7704360\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-7704360.jsonl",
+  "rawSha256": "953b6eec1e8cb295cf03d393d3edfbd4942263d40eb2dc3ec8e21c2d9acfd41b",
+  "normalizedSha256": "ca7ff883f7bddb5520bfc04577abc27d262c058414f93ce2c320e66ccdf36a7f",
+  "processedAt": "2026-06-18T16:16:34.743Z"
+}

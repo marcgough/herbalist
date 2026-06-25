@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101602779",
+  "title": "A conspectus of the pharmacopoeias of the London, Edinburgh, and Dublin Colleges of Physicians, and of the United States pharmacopoeia : being a practical compendium of materia medica and pharmacy",
+  "creator": "Thomson, Anthony Todd, 1778-1849.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101602779-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101602779-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101602779",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;pharmacopoeia",
+  "chunkCount": 33,
+  "paragraphCount": 59,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101602779\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101602779\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101602779\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101602779.jsonl",
+  "rawSha256": "622423e4e83566f8f7dfcc18cb74d072c8fc4dbe769e64ae88fc2a7fe159d5e9",
+  "normalizedSha256": "393db1302934ddbec5768f577c31262aff1f508ffb2732fe2ed8698ad6458464",
+  "processedAt": "2026-06-18T15:49:30.069Z"
+}

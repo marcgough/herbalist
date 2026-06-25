@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-f662mavr",
+  "title": "Domestic medicine; or, the family physician; being an attempt to render the medical art more generally useful, by shewing people what is in their own power both with respect to the prevention and cure of diseases. Chiefly calculated to recommend a proper attention to regimen and simple medicines / [William Buchan].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/f662mavr",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b3050532x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/f662mavr",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1058,
+  "paragraphCount": 1071,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-f662mavr\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-f662mavr\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-f662mavr.jsonl",
+  "rawSha256": "37230d41597680f0ca773ee5eea957a8c2db122b60206650dc678fa0f3d22af1",
+  "normalizedSha256": "98c7e2b851e04eb5a6bc2a35d2c371d7524e3b7a61da5bbd6058aa10aa477e05",
+  "processedAt": "2026-06-16T13:46:50.383Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

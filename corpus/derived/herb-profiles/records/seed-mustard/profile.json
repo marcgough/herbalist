@@ -1,0 +1,1215 @@
+{
+  "profile_id": "seed-mustard",
+  "family_id": "seed-mustard",
+  "canonical_name": "Mustard",
+  "canonical_key": "mustard",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-mustard-352b5b6699#mustard"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 2412,
+    "total_chunks": 2238,
+    "total_works": 582,
+    "matched_chunk_count": 2238,
+    "matched_work_count": 582,
+    "matched_mention_total": 2238
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "convalescence",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia",
+      "public-health"
+    ],
+    "variants": [
+      "Mustard"
+    ],
+    "sample_work_ids": [
+      "nlm-0140313",
+      "nlm-0215565",
+      "nlm-0217313"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0140313-chunk-0725",
+      "nlm-0140313-chunk-1033",
+      "nlm-0140313-chunk-1103"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 1073
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 697
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 519
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 897,
+        "work_count": 424
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 372,
+        "work_count": 249
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 256,
+        "work_count": 188
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 216,
+        "work_count": 155
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 143,
+        "work_count": 121
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 122,
+        "work_count": 101
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 84,
+        "work_count": 67
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 55,
+        "work_count": 47
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 38,
+        "work_count": 38
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 36,
+        "work_count": 35
+      }
+    ],
+    "preparations": [
+      {
+        "id": "poultice",
+        "label": "Poultice",
+        "signal_count": 768,
+        "work_count": 310
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 761,
+        "work_count": 342
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 588,
+        "work_count": 178
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 382,
+        "work_count": 250
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 342,
+        "work_count": 198
+      },
+      {
+        "id": "emetic",
+        "label": "Emetic",
+        "signal_count": 311,
+        "work_count": 214
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 234,
+        "work_count": 176
+      },
+      {
+        "id": "bath",
+        "label": "Bath",
+        "signal_count": 214,
+        "work_count": 124
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 211,
+        "work_count": 124
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 203,
+        "work_count": 125
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 559,
+        "work_count": 296
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 258,
+        "work_count": 155
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 156,
+        "work_count": 102
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 90,
+        "work_count": 70
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 88,
+        "work_count": 64
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 77,
+        "work_count": 74
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 41,
+        "work_count": 37
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 25,
+        "work_count": 22
+      },
+      {
+        "id": "abortifacient",
+        "label": "Abortifacient warning",
+        "signal_count": 18,
+        "work_count": 17
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 412,
+        "work_count": 211
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 313,
+        "work_count": 208
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 275,
+        "work_count": 165
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 215,
+        "work_count": 146
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 143,
+        "work_count": 106
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 132,
+        "work_count": 103
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 108,
+        "work_count": 89
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 106,
+        "work_count": 76
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 78,
+        "work_count": 59
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 73,
+        "work_count": 68
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-thwh6g2c",
+      "title": "Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.",
+      "creator": "",
+      "publication_year": "1885",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;domestic-medicine;nursing",
+      "source_url": "https://wellcomecollection.org/works/thwh6g2c",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "nlm-63580630R",
+      "title": "The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions",
+      "creator": "King, John, 1813-1893.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63580630R-bk",
+      "signal_chunk_count": 27,
+      "matched_mention_count": 27
+    },
+    {
+      "work_id": "nlm-63620310R",
+      "title": "Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc",
+      "creator": "Stout, H. R. (Henry Rice), 1843-",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;nursing",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63620310R-bk",
+      "signal_chunk_count": 25,
+      "matched_mention_count": 25
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "nlm-101485225",
+      "title": "The American practice abridged, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485225-bk",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "nlm-101743940",
+      "title": "The family physician ; or, The reformed practice of medicine : on vegetable or botanical principles : being a compendium of the \"American practice\"",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine;botany",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101743940-bk",
+      "signal_chunk_count": 24,
+      "matched_mention_count": 24
+    },
+    {
+      "work_id": "nlm-101485230",
+      "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485230-bk",
+      "signal_chunk_count": 23,
+      "matched_mention_count": 23
+    },
+    {
+      "work_id": "nlm-64210130R",
+      "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+      "signal_chunk_count": 22,
+      "matched_mention_count": 22
+    },
+    {
+      "work_id": "nlm-63560930R",
+      "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+      "creator": "Coxe, Edward Jenner, 1801-1882.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "domestic-medicine;convalescence",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    },
+    {
+      "work_id": "nlm-101485229",
+      "title": "The American practice condensed, or The family physician : being the scientific system of medicine",
+      "creator": "Beach, W. (Wooster), 1794-1868.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;domestic-medicine",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101485229-bk",
+      "signal_chunk_count": 21,
+      "matched_mention_count": 21
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-64210130R-chunk-2919",
+        "work_id": "nlm-64210130R",
+        "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OS",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Poultice",
+          "Plaster",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—This is a perennial plant, growing abundantly throughout the United States Found along fences and roadsides. Flowers in July and August, and its berries are ripened in September. Properties. —A decoction of this bark...",
+        "score": 57
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560930R-chunk-0698",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Powder",
+          "Wash",
+          "Plaster",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "TARTAR EMETIC. When given in a large dose, or, at times, in a small one, owing to idiosyncrasy, a case of which I have seen, poison- ous symptoms may supervene, as violent and continued vomiting, severe pain in the st...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-avky2qdq-chunk-0023",
+        "work_id": "wellcome-avky2qdq",
+        "title": "The family doctor, or, Sick man's friend : shewing the medical properties and use of the most valuable medical roots and herbs, and how to apply them in the cure of diseases in domestic practice : from the first authority, together with many valuable recipes / by P.E. Sanborn.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/avky2qdq",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "It is emetic in doses of from twenty to thirty grains. I used a weak tincture of this root with complete success in a lung fever, with an infant of mine of nine months. It was all the expec- torant we used. We occasio...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0107",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Dropsy"
+        ],
+        "excerpt": "MEADOW FERN, LEAVES, [Myrica gale,]—A good rem- edy for tho Piles and Stomachic complaints. MUSTARD SEED, BLACK, [Sinapsis nigrum,]—Advan- tageously used in Dropsies, Chronic Rheumatism, and Palsy. MUSTARD SEED, WHITE...",
+        "score": 52
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-64210130R-chunk-2919",
+        "work_id": "nlm-64210130R",
+        "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OS",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Poultice",
+          "Plaster",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—This is a perennial plant, growing abundantly throughout the United States Found along fences and roadsides. Flowers in July and August, and its berries are ripened in September. Properties. —A decoction of this bark...",
+        "score": 57
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560930R-chunk-0698",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Powder",
+          "Wash",
+          "Plaster",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "TARTAR EMETIC. When given in a large dose, or, at times, in a small one, owing to idiosyncrasy, a case of which I have seen, poison- ous symptoms may supervene, as violent and continued vomiting, severe pain in the st...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-avky2qdq-chunk-0023",
+        "work_id": "wellcome-avky2qdq",
+        "title": "The family doctor, or, Sick man's friend : shewing the medical properties and use of the most valuable medical roots and herbs, and how to apply them in the cure of diseases in domestic practice : from the first authority, together with many valuable recipes / by P.E. Sanborn.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/avky2qdq",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "It is emetic in doses of from twenty to thirty grains. I used a weak tincture of this root with complete success in a lung fever, with an infant of mine of nine months. It was all the expec- torant we used. We occasio...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0107",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Dropsy"
+        ],
+        "excerpt": "MEADOW FERN, LEAVES, [Myrica gale,]—A good rem- edy for tho Piles and Stomachic complaints. MUSTARD SEED, BLACK, [Sinapsis nigrum,]—Advan- tageously used in Dropsies, Chronic Rheumatism, and Palsy. MUSTARD SEED, WHITE...",
+        "score": 52
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-64210130R-chunk-2919",
+        "work_id": "nlm-64210130R",
+        "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OS",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Poultice",
+          "Plaster",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—This is a perennial plant, growing abundantly throughout the United States Found along fences and roadsides. Flowers in July and August, and its berries are ripened in September. Properties. —A decoction of this bark...",
+        "score": 57
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560930R-chunk-0698",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Powder",
+          "Wash",
+          "Plaster",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "TARTAR EMETIC. When given in a large dose, or, at times, in a small one, owing to idiosyncrasy, a case of which I have seen, poison- ous symptoms may supervene, as violent and continued vomiting, severe pain in the st...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-avky2qdq-chunk-0023",
+        "work_id": "wellcome-avky2qdq",
+        "title": "The family doctor, or, Sick man's friend : shewing the medical properties and use of the most valuable medical roots and herbs, and how to apply them in the cure of diseases in domestic practice : from the first authority, together with many valuable recipes / by P.E. Sanborn.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/avky2qdq",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "It is emetic in doses of from twenty to thirty grains. I used a weak tincture of this root with complete success in a lung fever, with an infant of mine of nine months. It was all the expec- torant we used. We occasio...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0107",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Dropsy"
+        ],
+        "excerpt": "MEADOW FERN, LEAVES, [Myrica gale,]—A good rem- edy for tho Piles and Stomachic complaints. MUSTARD SEED, BLACK, [Sinapsis nigrum,]—Advan- tageously used in Dropsies, Chronic Rheumatism, and Palsy. MUSTARD SEED, WHITE...",
+        "score": 52
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-64210130R-chunk-2919",
+        "work_id": "nlm-64210130R",
+        "title": "Beach's family physician and home guide for the treatment of the diseases of men, women and children, on reform principles",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "OS",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64210130R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Extract",
+          "Poultice",
+          "Plaster",
+          "Juice"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Gout",
+          "Dropsy",
+          "Inflammation",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "—This is a perennial plant, growing abundantly throughout the United States Found along fences and roadsides. Flowers in July and August, and its berries are ripened in September. Properties. —A decoction of this bark...",
+        "score": 57
+      },
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "nlm-63560930R-chunk-0698",
+        "work_id": "nlm-63560930R",
+        "title": "Domestic medicine , or, Medical vade mecum : a safe companion and guide for families, planters, commanders of ships or steamers, or any one who may require a true friend in time of need : this companion embraces, alphabetically arranged, the medicines in general use, the diseases and accidents of usual occurrence, the most useful articles of diet or drink for the sick or convalescent, with the best mode of preparing them, and numerous remarks in reference to bathing, exercise, and other hygienic measures to preserve health, to repair and strengthen an enervated constitution, and to cure disease",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "AND FOR SALE BY ALL BOOKSELLERS THROUGHOUT",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560930R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Powder",
+          "Wash",
+          "Plaster",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cold or catarrh",
+          "Diarrhoea or looseness",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "TARTAR EMETIC. When given in a large dose, or, at times, in a small one, owing to idiosyncrasy, a case of which I have seen, poison- ous symptoms may supervene, as violent and continued vomiting, severe pain in the st...",
+        "score": 53
+      },
+      {
+        "chunk_id": "wellcome-avky2qdq-chunk-0023",
+        "work_id": "wellcome-avky2qdq",
+        "title": "The family doctor, or, Sick man's friend : shewing the medical properties and use of the most valuable medical roots and herbs, and how to apply them in the cure of diseases in domestic practice : from the first authority, together with many valuable recipes / by P.E. Sanborn.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/avky2qdq",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Tincture",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Toxicity watch",
+          "Dose caution",
+          "Allergy or sensitivity caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Vomiting or nausea"
+        ],
+        "excerpt": "It is emetic in doses of from twenty to thirty grains. I used a weak tincture of this root with complete success in a lung fever, with an infant of mine of nine months. It was all the expec- torant we used. We occasio...",
+        "score": 52
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0107",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mustard"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Tea",
+          "Powder"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cold or catarrh",
+          "Asthma",
+          "Rheumatism",
+          "Gout",
+          "Dysentery",
+          "Constipation",
+          "Dropsy"
+        ],
+        "excerpt": "MEADOW FERN, LEAVES, [Myrica gale,]—A good rem- edy for tho Piles and Stomachic complaints. MUSTARD SEED, BLACK, [Sinapsis nigrum,]—Advan- tageously used in Dropsies, Chronic Rheumatism, and Palsy. MUSTARD SEED, WHITE...",
+        "score": 52
+      }
+    ]
+  },
+  "retrieval_text": "Mustard is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 582 works and 2238 source-linked chunks. Recorded variants include Mustard. Common plant-part co-mentions include Seed, Root, Leaf, Bark, Flower, Gum. Common preparation co-mentions include Poultice, Oil, Plaster, Powder, Tea, Emetic. Common condition co-mentions include Cold or catarrh, Fever, Vomiting or nausea, Inflammation, Rheumatism, Wounds or ulcers. Caution co-mentions include Dose caution, Narcotic or sedative caution, Child-use caution, Bleeding caution, Allergy or sensitivity caution, Toxicity watch. Representative source works include Our family physician : a thoroughly reliable guide to the detection and treatment of all diseases that can be either checked in their career or treated entirely by an intelligent person, without the aid of a physician; especially such as require prompt and energetic measures, and those peculiar to this country. Embracing the allopathic, homeopathic, hydropathic, eclectic and herbal modes of treatment. Also giving full and explicit directions for nursing the sick,  preparation of food for the sick, etc. / by H. R. Stout.; The American family physician, or, Domestic guide to health : prepared expressly for the use of families, in language adapted to the understanding of the people : arranged in two divisions; Our family physician : a plain, practical, and reliable guide to the detection and treatment of all the diseases common to this country : designed for use by people who have not made the practice of medicine a study or business, and who are not supposed to be familiar with technical phrases and names, but want information stated in plain English : gives, separately, with every disease, the treatment prescribed by each of the \"schools\" and full and explicit directions for nursing the sick, preparation of food for the sick, etc; Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.722Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64230520R",
+  "title": "The botanic physician : being a compendium of the practice of medicine upon botanic principles : containing all the principal branches necessary to the study of medicine as causes, symptoms, and cure of diseases : midwifery, materia medica , pharmacy and botany, surgery, physiology &c. : together with a great variety of useful recipes",
+  "creator": "Smith, Elisha.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64230520R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64230520R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64230520R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica;botany",
+  "chunkCount": 2149,
+  "paragraphCount": 2872,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64230520R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64230520R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64230520R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64230520R.jsonl",
+  "rawSha256": "6ec926b5466459e0f5d8822d78b27efc8a947949cd5df04fdf7a75fbb60c18f0",
+  "normalizedSha256": "21d0013ee2389b71a95b325cdd046bc0c53a78055b94e145fb67d4d4b1fa8d74",
+  "processedAt": "2026-06-17T14:47:33.870Z"
+}

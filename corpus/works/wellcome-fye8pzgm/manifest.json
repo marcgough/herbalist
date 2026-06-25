@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-fye8pzgm",
+  "title": "Domestic medicine. Or, A treatise on the prevention and cure of diseases, by regimen and simple medicines; with observations on sea-bathing, and the use of the mineral waters to which is annexed, a dispensatory for the use of private practitioners / From the 22d English ed., with considerable additions and notes.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/fye8pzgm",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b33282791",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/fye8pzgm",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 2083,
+  "paragraphCount": 2104,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-fye8pzgm\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-fye8pzgm\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-fye8pzgm.jsonl",
+  "rawSha256": "89d34f3ba3c43443efe12f855005f382d00f8c10f4f4f292056c2a8e5e3b63ee",
+  "normalizedSha256": "5006fe004a4d60fe3b546a6c8835ba807134c86423171b785ec5cdd79538373c",
+  "processedAt": "2026-06-16T13:46:51.519Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

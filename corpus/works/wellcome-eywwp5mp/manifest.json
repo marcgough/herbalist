@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-eywwp5mp",
+  "title": "Botanicum medicinale : an herbal of medicinal plants on the College of Physicians' list .. Most beautifully engraved on 120 large folio copper-plates / From the exquisite drawings of the late ingenious T. Sheldrake ... To which is now added, his Tables for finding the heat and cold in all climates, that exotic plants may be raised in summer, and preserved in winter.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/eywwp5mp",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30450056",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/eywwp5mp",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;medicinal-plants",
+  "chunkCount": 195,
+  "paragraphCount": 196,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-eywwp5mp\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-eywwp5mp\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-eywwp5mp\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-eywwp5mp.jsonl",
+  "rawSha256": "ef44857f9dc6807bdb0760cd9acf450d49fe88c60b916830a6d71d39340cfe13",
+  "normalizedSha256": "cdcbdccc444b8b8eeb9a8dc88d6c6a55b3c3fa2a9beba454abad673fb5eee346",
+  "processedAt": "2026-06-16T22:49:33.811Z"
+}

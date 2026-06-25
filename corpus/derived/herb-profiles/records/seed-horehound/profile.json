@@ -1,0 +1,1116 @@
+{
+  "profile_id": "seed-horehound",
+  "family_id": "seed-horehound",
+  "canonical_name": "Horehound",
+  "canonical_key": "horehound",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "manual-curator-promoted-specific-family",
+  "source_family_refs": [
+    "term-horehound-ee38282a0c#horehound"
+  ],
+  "decision_note": "promote strong historical medicinal plant family from review into the seed shortlist",
+  "metrics": {
+    "total_mentions": 165,
+    "total_chunks": 149,
+    "total_works": 118,
+    "matched_chunk_count": 149,
+    "matched_work_count": 118,
+    "matched_mention_total": 149
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Horehound"
+    ],
+    "sample_work_ids": [
+      "nlm-0222600",
+      "nlm-2565084R",
+      "nlm-2566033RX1"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0222600-chunk-1752",
+      "nlm-2565084R-chunk-0251",
+      "nlm-2565084R-chunk-0356"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 95
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 39
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 28
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 67,
+        "work_count": 57
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 66,
+        "work_count": 56
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 25,
+        "work_count": 22
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 21,
+        "work_count": 21
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 9,
+        "work_count": 7
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 7,
+        "work_count": 7
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 7,
+        "work_count": 6
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "preparations": [
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 68,
+        "work_count": 50
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 47,
+        "work_count": 45
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 46,
+        "work_count": 46
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 43,
+        "work_count": 39
+      },
+      {
+        "id": "tea",
+        "label": "Tea",
+        "signal_count": 38,
+        "work_count": 33
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 27,
+        "work_count": 23
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 26,
+        "work_count": 25
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 18,
+        "work_count": 10
+      },
+      {
+        "id": "pill",
+        "label": "Pill",
+        "signal_count": 11,
+        "work_count": 10
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 11,
+        "work_count": 10
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 59,
+        "work_count": 46
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 22,
+        "work_count": 21
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 5,
+        "work_count": 4
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ],
+    "conditions": [
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 45,
+        "work_count": 45
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 24,
+        "work_count": 24
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 14,
+        "work_count": 14
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 12,
+        "work_count": 12
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 5,
+        "work_count": 4
+      },
+      {
+        "id": "gout",
+        "label": "Gout",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "measles",
+        "label": "Measles",
+        "signal_count": 3,
+        "work_count": 3
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 15,
+      "matched_mention_count": 15
+    },
+    {
+      "work_id": "wellcome-fwzua59q",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/fwzua59q",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "nlm-2751057R",
+      "title": "Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops",
+      "creator": "Culpeper, Nicholas, 1616-1654 author.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2751057R-bk",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-vcp6d7za",
+      "title": "The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.",
+      "creator": "",
+      "publication_year": "1862",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine;household-health",
+      "source_url": "https://wellcomecollection.org/works/vcp6d7za",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-f9769f9b",
+      "title": "The dispensatory and pharmacopoeia of North America and Great Britain / by John Buchanan and John J. Siggins.",
+      "creator": "",
+      "publication_year": "1878",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/f9769f9b",
+      "signal_chunk_count": 3,
+      "matched_mention_count": 3
+    },
+    {
+      "work_id": "wellcome-yfu6989c",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus, including the new French medicines / by James Rennie.",
+      "creator": "",
+      "publication_year": "1826",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/yfu6989c",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-ctkumbc4",
+      "title": "A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris; forming a complete dispensatory and conspectus; including the new French medicines, as well as herbs, drugs, compounds, veterinary drugs, patent medicines, perfumery, paints, varnishes, and similar articles kept in the shops; with their composition, uses, doses, and adulterations; being a general book of formulae for daily reference in the laboratory, and at the counter / by James Rennie, A.M. surgeon.",
+      "creator": "",
+      "publication_year": "1820",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ctkumbc4",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-s3vgr92p",
+      "title": "Pharmacopoeia Londinensis: or, the London dispensatory further adorned by the studies and collections of the Fellows, now living of the said colledg [sic] ... In which is printed, I. The vertues, qualities, and properties of every simple ... VI. The Latin names of every one of the compounds / ... By Nich. Culpeper ... In this impression, 1661. There is added, to the compounds, many vertues and uses. By divers learned W.R.A.C.J.W., doctors of physick ... And, by Abdiah Cole.",
+      "creator": "",
+      "publication_year": "1661",
+      "collection_id": "wellcome-collection",
+      "topic_family": "herbal;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/s3vgr92p",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "wellcome-jamxx58n",
+      "title": "The antiseptic or commonsense practice of medicine and guide to health : for the use of all true friends of medical science / by R.J. Parsons.",
+      "creator": "",
+      "publication_year": "1889",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/jamxx58n",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    },
+    {
+      "work_id": "pg-49513",
+      "title": "The Complete Herbal",
+      "creator": "",
+      "publication_year": "",
+      "collection_id": "project-gutenberg",
+      "topic_family": "herbal",
+      "source_url": "https://www.gutenberg.org/ebooks/49513",
+      "signal_chunk_count": 2,
+      "matched_mention_count": 2
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-49513-chunk-0357",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "THE",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of Mercury. A decoction of the dried herb, with the seed, or the juice of the green herb taken with honey, is a remedy for those that are short-winded, have a cough, or are fal...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0012",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Good in dys- pepsia, nervousness, sleeplessness, fevers, &amp;c. Horehound Herb (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. Hyssop Herb (Hyssopus officinalis)...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-t4np7uvm-chunk-0361",
+        "work_id": "wellcome-t4np7uvm",
+        "title": "Medical botany, or the herbal guide to health, explaining the natural pathology of disease, with hundreds of herbal recipes / [William Joseph Simmonite].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t4np7uvm",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "the paroxysms, by letting the sufferer stand erect in hot water, and’ let him inhale the vapor arising from the hot infusion of valerian, capsicum,'and pennyroyal. After the paroxysm, let him drink a cupful of the abo...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-g3hnsw88-chunk-0065",
+        "work_id": "wellcome-g3hnsw88",
+        "title": "The prescriber's pharmacopoeia : containing all the medicine in the London pharmacopoeia / arranged in classes according to their action, with their composition and doses, by a practising physician; altered to correspond with the U. S. Dispensatory revised with additions by Thomas F. Cock, M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/g3hnsw88",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Emetic",
+          "Capsule",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "Excites\" bronchial secretion. ASSAF^ETLDA (See Antispasmodics. ) BALSAMUM PERUVIANUM. (Balsam from the incised bark of the Myroxylon Peruiferum. Liquid Balsam. ) Dose and Form: 3ss-j on sugar, in pill with powders, mu...",
+        "score": 36
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-49513-chunk-0357",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "THE",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of Mercury. A decoction of the dried herb, with the seed, or the juice of the green herb taken with honey, is a remedy for those that are short-winded, have a cough, or are fal...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-t4np7uvm-chunk-0361",
+        "work_id": "wellcome-t4np7uvm",
+        "title": "Medical botany, or the herbal guide to health, explaining the natural pathology of disease, with hundreds of herbal recipes / [William Joseph Simmonite].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t4np7uvm",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "the paroxysms, by letting the sufferer stand erect in hot water, and’ let him inhale the vapor arising from the hot infusion of valerian, capsicum,'and pennyroyal. After the paroxysm, let him drink a cupful of the abo...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-g3hnsw88-chunk-0065",
+        "work_id": "wellcome-g3hnsw88",
+        "title": "The prescriber's pharmacopoeia : containing all the medicine in the London pharmacopoeia / arranged in classes according to their action, with their composition and doses, by a practising physician; altered to correspond with the U. S. Dispensatory revised with additions by Thomas F. Cock, M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/g3hnsw88",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Emetic",
+          "Capsule",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "Excites\" bronchial secretion. ASSAF^ETLDA (See Antispasmodics. ) BALSAMUM PERUVIANUM. (Balsam from the incised bark of the Myroxylon Peruiferum. Liquid Balsam. ) Dose and Form: 3ss-j on sugar, in pill with powders, mu...",
+        "score": 36
+      },
+      {
+        "chunk_id": "wellcome-r74qsznp-chunk-0060",
+        "work_id": "wellcome-r74qsznp",
+        "title": "The Prescriber's pharmacopoeia : containing all the medicines in the London pharmacopoeia, arranged in classes according to their action, with their composition and doses / by a practising physician, altered to correspond with the U.S. dispensatory ; revised and improved by an American physician.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/r74qsznp",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Emetic",
+          "Capsule",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": ") BALSAMUM PERUVIANUM. (Balsam from the incised bark of the Myroxylon Peruiferum. Liquid Balsam. ) Dose and Form. 3ss-j on sugar, in pill with powders, mucilage. Use. In chronic catarrh. BALSAMUM TOLUTANUM. (Concrete...",
+        "score": 36
+      },
+      {
+        "chunk_id": "pg-19352-chunk-0471",
+        "work_id": "pg-19352",
+        "title": "Herbal Simples Approved for Modern Uses of Cure",
+        "collection_id": "project-gutenberg",
+        "section_heading": "HERBAL SIMPLES APPROVED FOR MODERN USES OF CURE",
+        "source_url": "https://www.gutenberg.org/ebooks/19352",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Flower"
+        ],
+        "preparations": [
+          "Tea",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma"
+        ],
+        "excerpt": "The White Horehound (_Marrubium_) is a common square-stemmed herb of the Labiate order, growing in waste places, and of popular use for coughs and colds, whether in a medicinal form, or as a candied sweetmeat. Its bot...",
+        "score": 35
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-49513-chunk-0357",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "THE",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of Mercury. A decoction of the dried herb, with the seed, or the juice of the green herb taken with honey, is a remedy for those that are short-winded, have a cough, or are fal...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0012",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Good in dys- pepsia, nervousness, sleeplessness, fevers, &amp;c. Horehound Herb (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. Hyssop Herb (Hyssopus officinalis)...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-t4np7uvm-chunk-0361",
+        "work_id": "wellcome-t4np7uvm",
+        "title": "Medical botany, or the herbal guide to health, explaining the natural pathology of disease, with hundreds of herbal recipes / [William Joseph Simmonite].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t4np7uvm",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "the paroxysms, by letting the sufferer stand erect in hot water, and’ let him inhale the vapor arising from the hot infusion of valerian, capsicum,'and pennyroyal. After the paroxysm, let him drink a cupful of the abo...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-g3hnsw88-chunk-0065",
+        "work_id": "wellcome-g3hnsw88",
+        "title": "The prescriber's pharmacopoeia : containing all the medicine in the London pharmacopoeia / arranged in classes according to their action, with their composition and doses, by a practising physician; altered to correspond with the U. S. Dispensatory revised with additions by Thomas F. Cock, M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/g3hnsw88",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Emetic",
+          "Capsule",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "Excites\" bronchial secretion. ASSAF^ETLDA (See Antispasmodics. ) BALSAMUM PERUVIANUM. (Balsam from the incised bark of the Myroxylon Peruiferum. Liquid Balsam. ) Dose and Form: 3ss-j on sugar, in pill with powders, mu...",
+        "score": 36
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-49513-chunk-0357",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "THE",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Seed"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Vomiting or nausea",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "_Government and virtues._] It is an herb of Mercury. A decoction of the dried herb, with the seed, or the juice of the green herb taken with honey, is a remedy for those that are short-winded, have a cough, or are fal...",
+        "score": 54
+      },
+      {
+        "chunk_id": "wellcome-ay3sf7tc-chunk-0013",
+        "work_id": "wellcome-ay3sf7tc",
+        "title": "Popular herbal remedies : a handbook / [Potter & Clarke, Ltd].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ay3sf7tc",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution",
+          "Bleeding caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Tonic, nervine, anodyne. Good in dyspepsia, nervousnea*, sleeplessness, fevers, &c. 41. HOREHOUND HERB (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. -- — —- — —...",
+        "score": 52
+      },
+      {
+        "chunk_id": "wellcome-jzrny2ww-chunk-0012",
+        "work_id": "wellcome-jzrny2ww",
+        "title": "Potter's popular herbal and family medical guide / Potter & Clarke, Ltd.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/jzrny2ww",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Berry"
+        ],
+        "preparations": [],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Gout",
+          "Dropsy",
+          "Measles"
+        ],
+        "excerpt": "Good in dys- pepsia, nervousness, sleeplessness, fevers, &amp;c. Horehound Herb (Marrubium vulgare). Pectoral, stimulant, tonic. Valuable for coughs, colds, and pulmonary complaints. Hyssop Herb (Hyssopus officinalis)...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-t4np7uvm-chunk-0361",
+        "work_id": "wellcome-t4np7uvm",
+        "title": "Medical botany, or the herbal guide to health, explaining the natural pathology of disease, with hundreds of herbal recipes / [William Joseph Simmonite].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/t4np7uvm",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Tea"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Constipation",
+          "Vomiting or nausea",
+          "Colic"
+        ],
+        "excerpt": "the paroxysms, by letting the sufferer stand erect in hot water, and’ let him inhale the vapor arising from the hot infusion of valerian, capsicum,'and pennyroyal. After the paroxysm, let him drink a cupful of the abo...",
+        "score": 39
+      },
+      {
+        "chunk_id": "wellcome-g3hnsw88-chunk-0065",
+        "work_id": "wellcome-g3hnsw88",
+        "title": "The prescriber's pharmacopoeia : containing all the medicine in the London pharmacopoeia / arranged in classes according to their action, with their composition and doses, by a practising physician; altered to correspond with the U. S. Dispensatory revised with additions by Thomas F. Cock, M.D.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/g3hnsw88",
+        "matched_herbs": [
+          "Horehound"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Bark",
+          "Resin"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Emetic",
+          "Capsule",
+          "Pill"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Cold or catarrh"
+        ],
+        "excerpt": "Excites\" bronchial secretion. ASSAF^ETLDA (See Antispasmodics. ) BALSAMUM PERUVIANUM. (Balsam from the incised bark of the Myroxylon Peruiferum. Liquid Balsam. ) Dose and Form: 3ss-j on sugar, in pill with powders, mu...",
+        "score": 36
+      }
+    ]
+  },
+  "retrieval_text": "Horehound is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 118 works and 149 source-linked chunks. Recorded variants include Horehound. Common plant-part co-mentions include Leaf, Root, Seed, Flower, Tops, Gum. Common preparation co-mentions include Syrup, Infusion, Oil, Juice, Tea, Decoction. Common condition co-mentions include Cough, Cold or catarrh, Consumption, Fever, Wounds or ulcers, Asthma. Caution co-mentions include Dose caution, Narcotic or sedative caution, Toxicity watch, Child-use caution, Bleeding caution, Fatal-risk warning. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; A new supplement to the pharmacopoeias of London, Edinburgh, Dublin, and Paris : forming a complete dispensatory and conspectus; including the new French medicines and poisons ... / by James Rennie.; Pharmacopoeia Londinensis, or, The London dispensatory : further adorned by the studies and collections of the fellows, now living in the said colledg : being that book by which all apothecaries are bound to make up all the medicines in their shops; The Book of the household, or, Family dictionary of everything connected with housekeeping and domestic medicine : with the treatment of children, management of the sick room, the sanitary improvements of the dwelling, the duties of servants, and full information on all other subjects relating to personal and domestic comfort  / compiled by competent persons, under the superintendence of an association of heads of families and men of science.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:49.006Z",
+  "builder": "build-herb-profiles.mjs"
+}

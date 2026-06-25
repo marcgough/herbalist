@@ -1,0 +1,1165 @@
+{
+  "profile_id": "seed-pine",
+  "family_id": "seed-pine",
+  "canonical_name": "Pine",
+  "canonical_key": "pine",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-pine-d292237213#pine"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 171,
+    "total_chunks": 161,
+    "total_works": 93,
+    "matched_chunk_count": 161,
+    "matched_work_count": 93,
+    "matched_mention_total": 161
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "cultivation",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "hygiene",
+      "materia-medica",
+      "medical-botany",
+      "medicinal-plants",
+      "nursing",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Pine",
+      "Pines"
+    ],
+    "sample_work_ids": [
+      "nlm-101250105",
+      "nlm-101515274",
+      "nlm-101646219"
+    ],
+    "sample_chunk_ids": [
+      "nlm-101250105-chunk-0024",
+      "nlm-101515274-chunk-1853",
+      "nlm-101646219-chunk-0299"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 115
+      },
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 40
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 7
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 100,
+        "work_count": 50
+      },
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 25,
+        "work_count": 24
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 20,
+        "work_count": 18
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 19,
+        "work_count": 17
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 18,
+        "work_count": 15
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 15,
+        "work_count": 14
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 8,
+        "work_count": 8
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ],
+    "preparations": [
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 71,
+        "work_count": 49
+      },
+      {
+        "id": "plaster",
+        "label": "Plaster",
+        "signal_count": 45,
+        "work_count": 22
+      },
+      {
+        "id": "ointment",
+        "label": "Ointment",
+        "signal_count": 34,
+        "work_count": 20
+      },
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 26,
+        "work_count": 16
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 22,
+        "work_count": 16
+      },
+      {
+        "id": "liniment",
+        "label": "Liniment",
+        "signal_count": 12,
+        "work_count": 9
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "capsule",
+        "label": "Capsule",
+        "signal_count": 8,
+        "work_count": 8
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "allergy",
+        "label": "Allergy or sensitivity caution",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 2,
+        "work_count": 2
+      },
+      {
+        "id": "fatal-risk",
+        "label": "Fatal-risk warning",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 23,
+        "work_count": 19
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 16,
+        "work_count": 14
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "consumption",
+        "label": "Consumption",
+        "signal_count": 6,
+        "work_count": 6
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 4,
+        "work_count": 4
+      },
+      {
+        "id": "dropsy",
+        "label": "Dropsy",
+        "signal_count": 4,
+        "work_count": 3
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 3,
+        "work_count": 3
+      },
+      {
+        "id": "asthma",
+        "label": "Asthma",
+        "signal_count": 2,
+        "work_count": 2
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-t4wudf9r",
+      "title": "The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry.  II. The materia medica ...  III. The pharmaceutical preparations and compositions / Including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ...  By Andrew Duncan, Jun. ...  From the 8th and last Edinburgh ed.  With large additions, relating principally to the vegetable production of the United States.  By Jacob Dyckman.",
+      "creator": "",
+      "publication_year": "1818",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/t4wudf9r",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "nlm-2561028R",
+      "title": "The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry. II. The materia medica , or the natural pharmacuetical and medical history, of the substances employed in medicine. III. The pharmaceutical preparations and compositions : including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ; illustrated and explained in the language, and according to the principles of modern chemistry ; with numerous tables and plates of pharmaceutical apparatus",
+      "creator": "Duncan, Andrew, Jun., 1773-1832.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2561028R-bk",
+      "signal_chunk_count": 8,
+      "matched_mention_count": 8
+    },
+    {
+      "work_id": "wellcome-dz26ymj8",
+      "title": "The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry. II. The materia medica ... III. The pharmaceutical preparations and compositions. Including translations of the Edinburgh pharmacopoeia published in 1809 ... Illustrated and explained in the language, and according to the principles of modern chemistry ... / by Andrew Duncan jun. ... [etc.].",
+      "creator": "",
+      "publication_year": "1811",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/dz26ymj8",
+      "signal_chunk_count": 7,
+      "matched_mention_count": 7
+    },
+    {
+      "work_id": "wellcome-c3u76kss",
+      "title": "The Edinburgh new dispensatory : Containing I. The elements of pharmaceutical chemistry. II. The materia medica; or, The natural, pharmaceutical and medical history, of the substances employed in medicine. III. The pharmaceutical preparations and compositions. Including translations of the latest editions of the London, Edinburgh, and Dublin pharmacopoeias / by Andrew Duncan.",
+      "creator": "",
+      "publication_year": "1813",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/c3u76kss",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-thffwdwr",
+      "title": "The Pharmacopœia of the United States of America : 1820 / by the authority of the medical societies and colleges.",
+      "creator": "",
+      "publication_year": "1820",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica",
+      "source_url": "https://wellcomecollection.org/works/thffwdwr",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-xbdtnede",
+      "title": "Medical botany : or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias; comprising a popular and scientific account of all those poisonous vegetables that are indigenous to Great Britain / by John Stephenson and James Morss Churchill.",
+      "creator": "",
+      "publication_year": "1831",
+      "collection_id": "wellcome-collection",
+      "topic_family": "medicinal-plants;medical-botany;botany",
+      "source_url": "https://wellcomecollection.org/works/xbdtnede",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-vsjxk556",
+      "title": "Medical botany, or, illustrations and descriptions of the medicinal plants of the London, Edinburgh and Dublin pharmacopoeias; comprising a popular and scientific account of all those poisonous vegetables that are indigenous to Great Britain / By John Stephenson, M.D. ... and James Morss Churchill, F.L.S.",
+      "creator": "",
+      "publication_year": "1831",
+      "collection_id": "wellcome-collection",
+      "topic_family": "medicinal-plants;medical-botany;botany",
+      "source_url": "https://wellcomecollection.org/works/vsjxk556",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-ex39438t",
+      "title": "Medical botany: or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias; comprising a popular and scientific account of all those poisonous vegetables that are indigenous to Great Britain / By John Stephenson and James Morss Churchill.",
+      "creator": "",
+      "publication_year": "1831",
+      "collection_id": "wellcome-collection",
+      "topic_family": "medicinal-plants;medical-botany;botany",
+      "source_url": "https://wellcomecollection.org/works/ex39438t",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-p6hb9eef",
+      "title": "Medical botany: or, illustrations and descriptions of the medicinal plants of the London, Edinburgh, and Dublin pharmacopoeias; including a popular and scientific description of poisonous plants / By John Stephenson and James Morss Churchill.",
+      "creator": "",
+      "publication_year": "1828",
+      "collection_id": "wellcome-collection",
+      "topic_family": "medicinal-plants;medical-botany;botany",
+      "source_url": "https://wellcomecollection.org/works/p6hb9eef",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-sjeunkdh",
+      "title": "The pharmacopoeias of the London, Edinburgh, and Dublin colleges, translated into English : with an appendix, containing a systematic arrangement of the materia medica, tables of changes names, and a posological table.",
+      "creator": "",
+      "publication_year": "1815",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/sjeunkdh",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0120",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Poultice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "POOL ROOT, [Eupatorium ageratoides,]—A stimulating tonic, valuable in Tonic and Stomachic complaints. PEONY FLOWERS, [Pceonia officinalis,]—Used in Nervous and Hysterical complaints. PEONY ROOT, . [Pceonia officinalis...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0123",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption"
+        ],
+        "excerpt": "POPPY CAPSULES, [Papaver somniferum,]—A syrup made of these is a fine anodyne for children. POPPY FLOWERS, [Papaver somniferum,]—Make a very good soothing poultice for painful Swellings. 80 ROOTP, HEKrss, AND FLOWERS....",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0090",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "It-is unquestionably one of the most powerful of our native as- tringents. It has also been used to advantage in bilious fevers. The unripe fruits have been highly recommended by some physi- cians, as an astringent, i...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-1073",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Plaster"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "—The root of Pimpinella saxifraga, Stimulant, diaphoretic, diuretic, expectorant. Used in catarrhal condition of the mucous membrane. Dose of powder, 15 to 30 grains; of fluid extract, 15 to 30 minims. PINUS CANADENSI...",
+        "score": 36
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0120",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Poultice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "POOL ROOT, [Eupatorium ageratoides,]—A stimulating tonic, valuable in Tonic and Stomachic complaints. PEONY FLOWERS, [Pceonia officinalis,]—Used in Nervous and Hysterical complaints. PEONY ROOT, . [Pceonia officinalis...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0123",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption"
+        ],
+        "excerpt": "POPPY CAPSULES, [Papaver somniferum,]—A syrup made of these is a fine anodyne for children. POPPY FLOWERS, [Papaver somniferum,]—Make a very good soothing poultice for painful Swellings. 80 ROOTP, HEKrss, AND FLOWERS....",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0090",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "It-is unquestionably one of the most powerful of our native as- tringents. It has also been used to advantage in bilious fevers. The unripe fruits have been highly recommended by some physi- cians, as an astringent, i...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-1073",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Plaster"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "—The root of Pimpinella saxifraga, Stimulant, diaphoretic, diuretic, expectorant. Used in catarrhal condition of the mucous membrane. Dose of powder, 15 to 30 grains; of fluid extract, 15 to 30 minims. PINUS CANADENSI...",
+        "score": 36
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0120",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Poultice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "POOL ROOT, [Eupatorium ageratoides,]—A stimulating tonic, valuable in Tonic and Stomachic complaints. PEONY FLOWERS, [Pceonia officinalis,]—Used in Nervous and Hysterical complaints. PEONY ROOT, . [Pceonia officinalis...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0123",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption"
+        ],
+        "excerpt": "POPPY CAPSULES, [Papaver somniferum,]—A syrup made of these is a fine anodyne for children. POPPY FLOWERS, [Papaver somniferum,]—Make a very good soothing poultice for painful Swellings. 80 ROOTP, HEKrss, AND FLOWERS....",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0090",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "It-is unquestionably one of the most powerful of our native as- tringents. It has also been used to advantage in bilious fevers. The unripe fruits have been highly recommended by some physi- cians, as an astringent, i...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-1073",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Plaster"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "—The root of Pimpinella saxifraga, Stimulant, diaphoretic, diuretic, expectorant. Used in catarrhal condition of the mucous membrane. Dose of powder, 15 to 30 grains; of fluid extract, 15 to 30 minims. PINUS CANADENSI...",
+        "score": 36
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "pg-53875-chunk-0310",
+        "work_id": "pg-53875",
+        "title": "Madame Young's Guide to Health",
+        "collection_id": "project-gutenberg",
+        "section_heading": "TABLE,",
+        "source_url": "https://www.gutenberg.org/ebooks/53875",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Tea",
+          "Emetic",
+          "Capsule"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Cough",
+          "Consumption",
+          "Asthma",
+          "Rheumatism",
+          "Dropsy"
+        ],
+        "excerpt": "Common Names. Botanical Names. Per lb. Abscess Root, Polemonium reptans, 50 Aconite leaves, Aconitum napellus, Aconite root, \" \" Agrimony, Agrimonia eupatoria 50 Alder bark, black, Prinos verticillatus, 25 Alder berri...",
+        "score": 57
+      },
+      {
+        "chunk_id": "wellcome-dvdzaqep-chunk-0120",
+        "work_id": "wellcome-dvdzaqep",
+        "title": "The reformed botanic and Indian physician : a complete guide to health / by Daniel Smith.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dvdzaqep",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Poultice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption",
+          "Epilepsy or convulsions"
+        ],
+        "excerpt": "POOL ROOT, [Eupatorium ageratoides,]—A stimulating tonic, valuable in Tonic and Stomachic complaints. PEONY FLOWERS, [Pceonia officinalis,]—Used in Nervous and Hysterical complaints. PEONY ROOT, . [Pceonia officinalis...",
+        "score": 47
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0123",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Tea",
+          "Poultice",
+          "Capsule"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Consumption"
+        ],
+        "excerpt": "POPPY CAPSULES, [Papaver somniferum,]—A syrup made of these is a fine anodyne for children. POPPY FLOWERS, [Papaver somniferum,]—Make a very good soothing poultice for painful Swellings. 80 ROOTP, HEKrss, AND FLOWERS....",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-zc9bsska-chunk-0090",
+        "work_id": "wellcome-zc9bsska",
+        "title": "Botanic materia medica, or, The physician's guide to the remedies of the botanic kingdom : embracing the principal articles in use, with a brief account of their medicinal properties / by B.O. & G.C. Wilson.",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/zc9bsska",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Fruit",
+          "Bark"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup"
+        ],
+        "cautions": [
+          "Bleeding caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Diarrhoea or looseness",
+          "Dysentery",
+          "Wounds or ulcers",
+          "Dropsy"
+        ],
+        "excerpt": "It-is unquestionably one of the most powerful of our native as- tringents. It has also been used to advantage in bilious fevers. The unripe fruits have been highly recommended by some physi- cians, as an astringent, i...",
+        "score": 43
+      },
+      {
+        "chunk_id": "nlm-61620650R-chunk-1073",
+        "work_id": "nlm-61620650R",
+        "title": "Fenner's working formulae : a hand-book of the old and the new pharmacopoeias, containing weight and measure standards, working processes, working formulae, the medicinal properties and doses of drugs and their preparations, and being a comparison of the 1870 with the 1880 Pharmacopoeia : with remarks, suggestions, original processes and formulae, and other matter of interest and value to druggists and physicians",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "Opening",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61620650R-bk",
+        "matched_herbs": [
+          "Pine"
+        ],
+        "herb_basis": [
+          "part_phrase"
+        ],
+        "plant_parts": [
+          "Root",
+          "Bark",
+          "Gum"
+        ],
+        "preparations": [
+          "Extract",
+          "Powder",
+          "Ointment",
+          "Plaster"
+        ],
+        "cautions": [
+          "Dose caution"
+        ],
+        "conditions": [
+          "Rheumatism",
+          "Diarrhoea or looseness"
+        ],
+        "excerpt": "—The root of Pimpinella saxifraga, Stimulant, diaphoretic, diuretic, expectorant. Used in catarrhal condition of the mucous membrane. Dose of powder, 15 to 30 grains; of fluid extract, 15 to 30 minims. PINUS CANADENSI...",
+        "score": 36
+      }
+    ]
+  },
+  "retrieval_text": "Pine is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 93 works and 161 source-linked chunks. Recorded variants include Pine, Pines. Common plant-part co-mentions include Resin, Leaf, Root, Bark, Gum, Flower. Common preparation co-mentions include Oil, Plaster, Ointment, Juice, Powder, Liniment. Common condition co-mentions include Wounds or ulcers, Cold or catarrh, Rheumatism, Consumption, Cough, Fever. Caution co-mentions include Dose caution, Narcotic or sedative caution, Allergy or sensitivity caution, Child-use caution, Bleeding caution, Toxicity watch. Representative source works include The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry.  II. The materia medica ...  III. The pharmaceutical preparations and compositions / Including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ...  By Andrew Duncan, Jun. ...  From the 8th and last Edinburgh ed.  With large additions, relating principally to the vegetable production of the United States.  By Jacob Dyckman.; The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry. II. The materia medica , or the natural pharmacuetical and medical history, of the substances employed in medicine. III. The pharmaceutical preparations and compositions : including translations of the Edinburgh pharmacopoeia, published in 1805, of the Dublin pharmacopoeia, in 1807, and of the London pharmacopoeia, in 1815 ; illustrated and explained in the language, and according to the principles of modern chemistry ; with numerous tables and plates of pharmaceutical apparatus; The Edinburgh new dispensatory : containing I. The elements of pharmaceutical chemistry. II. The materia medica ... III. The pharmaceutical preparations and compositions. Including translations of the Edinburgh pharmacopoeia published in 1809 ... Illustrated and explained in the language, and according to the principles of modern chemistry ... / by Andrew Duncan jun. ... [etc.].; The Edinburgh new dispensatory : Containing I. The elements of pharmaceutical chemistry. II. The materia medica; or, The natural, pharmaceutical and medical history, of the substances employed in medicine. III. The pharmaceutical preparations and compositions. Including translations of the latest editions of the London, Edinburgh, and Dublin pharmacopoeias / by Andrew Duncan.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.996Z",
+  "builder": "build-herb-profiles.mjs"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-wkjphuw8",
+  "title": "Address to the public, on the principles of medical botany : with an enumeration of the herbs; and retail price list of herbs, roots, barks, and compounds, used in the botanic practice, as introduced into England by Dr. Coffin / issued by J. Nadin, medical botanist ... [etc.].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/wkjphuw8",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b2153522x",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/wkjphuw8",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;medical-botany;botany",
+  "chunkCount": 38,
+  "paragraphCount": 42,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-wkjphuw8\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-wkjphuw8\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-wkjphuw8.jsonl",
+  "rawSha256": "0b2bc242ad9ee0bdc8056dfc7f2963af7a342e05298f9c9d7706d1dce2fb47a5",
+  "normalizedSha256": "e779f58152dc859cacc98010bbde330562aa1a600f019c18f5bba4962e863a03",
+  "processedAt": "2026-06-16T13:47:02.028Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

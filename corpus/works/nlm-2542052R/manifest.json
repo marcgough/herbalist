@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2542052R",
+  "title": "Collections for an essay towards a materia medica of the United-States",
+  "creator": "Barton, Benjamin Smith, 1766-1815.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2542052R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2542052R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2542052R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 269,
+  "paragraphCount": 501,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2542052R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2542052R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2542052R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2542052R.jsonl",
+  "rawSha256": "c3300eb8bd0281c22085d93090cbdccab2011f855f4b276eea3d55b9a6c17755",
+  "normalizedSha256": "0ae4438b94d74f2a4b26c691772f18977417ae8ba7c5b021faae6f5ece572f80",
+  "processedAt": "2026-06-18T16:45:09.594Z"
+}

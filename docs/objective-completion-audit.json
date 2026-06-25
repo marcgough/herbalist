@@ -1,0 +1,570 @@
+{
+  "generatedAt": "2026-06-25T11:32:28.719Z",
+  "auditSignature": "be25b863547da499ec855c1db281cfee9f9a6e7ba4e8d10dad95537bf07b213a",
+  "version": 1,
+  "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
+  "status": "local-ready-production-pending",
+  "goalComplete": false,
+  "localImplementationReady": true,
+  "counts": {
+    "pass": 15,
+    "pending-production": 3
+  },
+  "evidenceStandard": "Completion is only proven when every requirement is either locally proven or live-production proven, and no pending-production or missing requirement remains.",
+  "productionSignals": {
+    "pagesD1BindingActive": false,
+    "newsWorkerD1BindingActive": false,
+    "r2MediaBindingActive": false,
+    "locallyVisibleSecrets": {
+      "CLOUDFLARE_API_TOKEN": false,
+      "CLOUDFLARE_ACCOUNT_ID": false,
+      "FEED_ADMIN_TOKEN": false,
+      "KIE_API_KEY": false,
+      "MEDIA_ADMIN_TOKEN": false
+    },
+    "canonicalUrlPresent": true
+  },
+  "requirementMatrix": [
+    {
+      "id": "brand",
+      "requirement": "Original Herbalisti branding with high-tech holistic tone, logo, colours, fonts, and voice.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "public/assets/herbalisti-logo.svg",
+        "public/assets/herbalisti-mark.svg",
+        "public/favicon.svg",
+        "public/manifest.webmanifest",
+        "docs/brand-system.md",
+        "npm run verify:brand"
+      ],
+      "remaining": [],
+      "caveats": []
+    },
+    {
+      "id": "openai-imagery",
+      "requirement": "OpenAI-generated launch imagery using the requested Image Gen 2 workflow.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "public/assets/herbalisti-hero.png",
+        "public/assets/herbalisti-research.png",
+        "public/data/media-provenance.json",
+        "docs/attribution.md",
+        "npm run verify:attribution"
+      ],
+      "remaining": [],
+      "caveats": [
+        "OPENAI_API_KEY is only needed later if repeatable server-side generation is added."
+      ]
+    },
+    {
+      "id": "high-tech-motion-system",
+      "requirement": "Contemporary high-tech motion language with subtle procedural movement, manifest-governed ambient video slots, and reduced-motion support.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "src/App.tsx",
+        "src/App.css",
+        "src/data/mediaManifest.ts",
+        "public/data/media-manifest.json",
+        "scripts/verify-motion-system.mjs",
+        "npm run verify:motion-system"
+      ],
+      "remaining": [],
+      "caveats": [
+        "Seedance video remains disabled until reviewed owned MP4 assets exist."
+      ]
+    },
+    {
+      "id": "book-database",
+      "requirement": "Searchable database of the books and source records referenced by the starting Natural Medicines plan.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "functions/api/books.js",
+        "functions/_lib/books.js",
+        "public/data/reference-books.json",
+        "migrations/0002_seed_reference_data.sql",
+        "migrations/0003_reference_book_metadata.sql",
+        "docs/source-verification.md",
+        "corpus/derived/australia-lane/README.md",
+        "corpus/exports/corpus-rights-audit-summary.json",
+        "docs/corpus-rights-audit.md",
+        "npm run verify:corpus-rights",
+        "npm run verify:australia-lane",
+        "npm run verify:api"
+      ],
+      "remaining": [],
+      "caveats": [
+        "The database is a verified source index, not a copyrighted book-extraction corpus.",
+        "Australia is prepared as a rights-review lane; no Australian works enter the searchable corpus until item-level reuse rights are proven."
+      ]
+    },
+    {
+      "id": "public-domain-herbal-chat",
+      "requirement": "Search-first home interface with a public-domain herbal database and retrieval chat from open, out-of-copyright, or permissively usable sources.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "functions/api/herbal-knowledge.js",
+        "functions/api/herbal-chat.js",
+        "functions/_lib/herbal-knowledge.js",
+        "public/data/herbal-knowledge.json",
+        "corpus/exports/herb-profile-summary.json",
+        "corpus/derived/herb-profiles/profiles.json",
+        "src/data/herbalKnowledge.ts",
+        "src/App.tsx home search/chat",
+        "npm run verify:data-exports",
+        "npm run verify:api"
+      ],
+      "remaining": [],
+      "caveats": [
+        "The archive chat stays retrieval-first with deterministic fallback; optional hosted synthesis activates when OPENAI_API_KEY is configured."
+      ]
+    },
+    {
+      "id": "citation-notes",
+      "requirement": "Structured citation/source notes tying reference books, remedies, signals, and governance decisions back to public source links without copyrighted extraction.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "src/data/citationNotes.ts",
+        "functions/api/citation-notes.js",
+        "functions/_lib/citation-notes.js",
+        "public/data/citation-notes.json",
+        "migrations/0008_seed_citation_notes.sql",
+        "src/App.tsx /notes",
+        "npm run verify:citation-notes",
+        "npm run verify:api"
+      ],
+      "remaining": [],
+      "caveats": [
+        "Citation notes are short public-source pointers, not copied book text or medical advice."
+      ]
+    },
+    {
+      "id": "remedy-index",
+      "requirement": "Natural-medicines knowledgebase foundation with safety-led remedy records.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "functions/api/remedies.js",
+        "functions/_lib/remedies.js",
+        "public/data/remedies.json",
+        "src/data/remedies.ts",
+        "migrations/0006_seed_remedies.sql",
+        "npm run verify:d1",
+        "npm run verify:api"
+      ],
+      "remaining": [],
+      "caveats": []
+    },
+    {
+      "id": "relationship-map",
+      "requirement": "Source-led relationship discovery across remedies, plant parts, preparations, traditional-use context, related records, and safety watches.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "functions/api/graph.js",
+        "functions/_lib/knowledge-graph.js",
+        "migrations/0009_remedy_plant_parts.sql",
+        "src/App.tsx /map",
+        "scripts/verify-knowledge-graph.mjs",
+        "npm run verify:knowledge-graph",
+        "npm run verify:api"
+      ],
+      "remaining": [],
+      "caveats": [
+        "Relationship edges use traditional-context language rather than treatment-claim language."
+      ]
+    },
+    {
+      "id": "unified-search",
+      "requirement": "Unified searchable public research surface across references, citation notes, remedies, signals, and source records.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "functions/api/search.js",
+        "functions/_lib/search.js",
+        "src/App.tsx /search",
+        "functions/_lib/citation-notes.js",
+        "npm run verify:api",
+        "npm run verify:production -- <url>"
+      ],
+      "remaining": [],
+      "caveats": []
+    },
+    {
+      "id": "independent-newsfeed",
+      "requirement": "Self-updating public-source newsfeed for longevity, peptides, gene therapy, gene editing, DNA modification, CRISPR, health as a service, and related self-sovereign wellbeing topics.",
+      "status": "pending-production",
+      "proofState": "pending_live_production_evidence",
+      "evidence": [
+        "functions/api/news.js",
+        "functions/api/signals.xml.js",
+        "functions/api/source-health.js",
+        "functions/_lib/feed.js",
+        "functions/_lib/signals-rss.js",
+        "workers/news-refresh.js",
+        "wrangler.news.toml",
+        "public/data/news.json",
+        "public/data/feed-status.json",
+        "npm run verify:static-news-refresh",
+        "npm run verify:signal-coverage",
+        "npm run verify:signals-rss",
+        "npm run verify:source-health",
+        "npm run verify:feed-normalization",
+        "npm run verify:news-worker"
+      ],
+      "remaining": [
+        "Create the production Cloudflare D1 database.",
+        "Run npm run configure:cloudflare -- --d1 <database_id> --apply.",
+        "Deploy the scheduled news Worker."
+      ],
+      "caveats": []
+    },
+    {
+      "id": "signal-intelligence",
+      "requirement": "Metadata-only topic and source intelligence for the public Signals feed, showing coverage, leading clusters, recency, and source mix without medical guidance.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "functions/api/signal-intelligence.js",
+        "functions/_lib/signal-intelligence.js",
+        "src/App.tsx SignalIntelligencePanel",
+        "src/App.css signal-intelligence-panel",
+        "scripts/verify-signal-intelligence.mjs",
+        "npm run verify:signal-intelligence",
+        "npm run verify:api",
+        "npm run verify:production -- <url>"
+      ],
+      "remaining": [],
+      "caveats": [
+        "Signal intelligence summarizes public metadata only; it is not medical guidance or treatment ranking."
+      ]
+    },
+    {
+      "id": "non-pharma-source-governance",
+      "requirement": "Allowlist-first source governance excluding Big Pharma-owned channels by default.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "functions/_lib/sources.js",
+        "functions/api/sources.js",
+        "public/data/sources.json",
+        "migrations/0007_source_independence_review.sql",
+        "public/data/governance.json",
+        "docs/source-verification.md",
+        "npm run verify:source-governance",
+        "npm run verify:governance",
+        "npm run verify:production -- <url>"
+      ],
+      "remaining": [],
+      "caveats": [
+        "This is an allowlist, blocklist, and source-level review control, not a full funding/affiliation audit for every article author."
+      ]
+    },
+    {
+      "id": "seedance-video-readiness",
+      "requirement": "Seedance 2.0 via Kie.ai support for optional high-tech ambient video backgrounds.",
+      "status": "pending-production",
+      "proofState": "pending_live_production_evidence",
+      "evidence": [
+        "functions/api/media/seedance.js",
+        "functions/api/media/seedance-status.js",
+        "functions/_lib/media.js",
+        "public/data/media-manifest.json",
+        "docs/media-generation.md",
+        "npm run verify:media-endpoints"
+      ],
+      "remaining": [
+        "Set KIE_API_KEY and MEDIA_ADMIN_TOKEN as Cloudflare secrets.",
+        "Generate candidate videos only after credits are approved.",
+        "Review, store as owned assets, record provenance, then enable manifest slots."
+      ],
+      "caveats": [
+        "Video is optional for launch; current slots stay disabled until reviewed owned assets exist."
+      ]
+    },
+    {
+      "id": "operational-health",
+      "requirement": "Public operational health contract for launch verification without exposing secret values.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "functions/api/health.js",
+        "scripts/verify-api.mjs",
+        "scripts/verify-production.mjs",
+        "scripts/verify-live-readiness.mjs",
+        "npm run verify:api",
+        "npm run verify:production -- <url>",
+        "npm run verify:live-readiness -- --strict"
+      ],
+      "remaining": [],
+      "caveats": []
+    },
+    {
+      "id": "production-environment-contract",
+      "requirement": "Machine-readable production environment contract for Cloudflare resources, secrets, commands, and completion gates.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "docs/production-environment-contract.json",
+        "docs/external-launch-actions.json",
+        "docs/external-launch-actions.md",
+        "docs/production-cutover-simulation.json",
+        "docs/production-cutover-simulation.md",
+        "scripts/verify-production-contract.mjs",
+        "scripts/verify-external-actions.mjs",
+        "scripts/simulate-production-cutover.mjs",
+        "scripts/verify-production-cutover-simulation.mjs",
+        "npm run verify:production-contract",
+        "npm run verify:external-actions",
+        "npm run verify:production-cutover",
+        "docs/deployment-runbook.md",
+        "docs/production-launch-packet.md"
+      ],
+      "remaining": [],
+      "caveats": []
+    },
+    {
+      "id": "cloudflare-hosting",
+      "requirement": "Production hosting at herbalisti.com using Cloudflare Pages, D1, and scheduled Worker infrastructure.",
+      "status": "pending-production",
+      "proofState": "pending_live_production_evidence",
+      "evidence": [
+        "wrangler.toml",
+        "wrangler.news.toml",
+        "scripts/configure-cloudflare-bindings.mjs",
+        "scripts/simulate-production-cutover.mjs",
+        "scripts/prepare-launch-packet.mjs",
+        "scripts/prepare-external-actions.mjs",
+        "functions/api/health.js",
+        "docs/deployment-runbook.md",
+        "npm run verify:launch -- --soft",
+        "npm run verify:production-cutover",
+        "npm run verify:live-readiness -- --strict",
+        "npm run prepare:launch",
+        "npm run prepare:external-actions"
+      ],
+      "remaining": [
+        "Create Cloudflare Pages project herbalisti.",
+        "Connect herbalisti.com DNS/custom domain.",
+        "Create and bind Cloudflare D1 database.",
+        "Apply D1 migrations remotely.",
+        "Set required Cloudflare secrets.",
+        "Deploy Pages and scheduled Worker.",
+        "Run npm run verify:production -- https://herbalisti.com."
+      ],
+      "caveats": []
+    },
+    {
+      "id": "medical-and-privacy-boundaries",
+      "requirement": "Public medical, editorial, source, and privacy boundaries suitable for a non-diagnostic research interface.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "public/data/governance.json",
+        "src/App.tsx /governance",
+        "npm run verify:governance"
+      ],
+      "remaining": [],
+      "caveats": []
+    },
+    {
+      "id": "release-verification",
+      "requirement": "Local release gate covers build, assets, governance, feed, database, media, API, and production-shape checks.",
+      "status": "pass",
+      "proofState": "locally_proven",
+      "evidence": [
+        "package.json scripts",
+        "scripts/verify-release.mjs",
+        "scripts/verify-accessibility-smoke.mjs",
+        "scripts/verify-production.mjs",
+        "scripts/verify-visual-smoke.mjs",
+        "scripts/verify-production-contract.mjs",
+        "scripts/verify-production-cutover-simulation.mjs",
+        "scripts/verify-launch-config.mjs",
+        "scripts/verify-australia-lane.mjs",
+        "scripts/verify-external-actions.mjs",
+        "scripts/verify-live-readiness.mjs",
+        "scripts/verify-citation-notes.mjs",
+        "scripts/verify-static-news-refresh.mjs",
+        "scripts/verify-signal-coverage.mjs",
+        "scripts/verify-signal-intelligence.mjs",
+        "scripts/verify-signals-rss.mjs",
+        "scripts/verify-motion-system.mjs",
+        "scripts/verify-source-health.mjs",
+        "scripts/verify-corpus-rights.mjs",
+        "scripts/export-public-data.mjs",
+        "scripts/verify-data-exports.mjs",
+        "scripts/verify-discovery-metadata.mjs",
+        "scripts/verify-api-catalog.mjs",
+        "scripts/verify-search-discovery.mjs",
+        "scripts/verify-source-governance.mjs",
+        "scripts/verify-knowledge-graph.mjs",
+        "scripts/prepare-external-actions.mjs",
+        "scripts/simulate-production-cutover.mjs",
+        "scripts/prepare-launch-packet.mjs"
+      ],
+      "remaining": [],
+      "caveats": []
+    }
+  ],
+  "dataSnapshot": {
+    "referenceBooks": {
+      "total": 1328,
+      "source": "static-export-corpus-registry"
+    },
+    "herbalKnowledge": {
+      "total": 124,
+      "sourceWorks": 200,
+      "corpusProfiles": 112,
+      "profileCount": 124,
+      "totalMatchedChunks": 121899
+    },
+    "remedies": {
+      "total": 21
+    },
+    "citationNotes": {
+      "total": 10
+    },
+    "sources": {
+      "total": 6,
+      "allowlisted": 6
+    },
+    "apiCatalog": {
+      "endpointCount": 16,
+      "publicEndpointCount": 14,
+      "protectedEndpointCount": 2
+    },
+    "news": {
+      "generatedAt": "2026-06-25T11:31:42.156Z",
+      "total": 24,
+      "topicCounts": {
+        "Longevity": 11,
+        "Peptides": 4,
+        "Gene therapy": 5,
+        "DNA modification": 1,
+        "Gene editing": 8,
+        "CRISPR": 7,
+        "Health as a service": 1
+      },
+      "sourceCounts": {
+        "Fight Aging!": 6,
+        "arXiv": 4,
+        "Lifespan.io": 5,
+        "bioRxiv": 1,
+        "Crossref": 8
+      },
+      "latestRefreshStatus": "completed",
+      "publicSnapshot": {
+        "status": "updated",
+        "itemCount": 24,
+        "generatedAt": "2026-06-25T11:31:42.156Z"
+      }
+    },
+    "media": {
+      "openAiImageAssets": 2,
+      "openAiImageGen2Assets": 2
+    },
+    "corpusRights": {
+      "status": "pass",
+      "totalWorks": 2720,
+      "chunkedWorks": 1328
+    }
+  },
+  "launchReadiness": {
+    "status": "needs-production-setup",
+    "productionReady": false,
+    "blockers": [
+      "Create the Cloudflare D1 database, then run npm run configure:cloudflare -- --d1 <database_id> --apply to activate the HERBALISTI_DB binding in wrangler.toml",
+      "Create the Cloudflare D1 database, then run npm run configure:cloudflare -- --d1 <database_id> --apply to activate the HERBALISTI_DB binding in wrangler.news.toml"
+    ],
+    "warnings": [
+      "R2 binding is not active yet; this is optional until Seedance video outputs need to be copied into Herbalisti-owned storage",
+      "CLOUDFLARE_API_TOKEN is not visible in the local shell; set it for scripted deployment or use an authenticated Wrangler session",
+      "CLOUDFLARE_ACCOUNT_ID is not visible in the local shell; set it for scripted deployment or use an authenticated Wrangler session",
+      "FEED_ADMIN_TOKEN is not visible in the local shell; make sure it is set as a Cloudflare secret before using the related production feature",
+      "KIE_API_KEY is not visible in the local shell; make sure it is set as a Cloudflare secret before using the related production feature",
+      "MEDIA_ADMIN_TOKEN is not visible in the local shell; make sure it is set as a Cloudflare secret before using the related production feature",
+      "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
+    ],
+    "checked": {
+      "files": 114,
+      "scripts": 81,
+      "passes": 166
+    },
+    "nextActions": [
+      "Create the Cloudflare D1 database named herbalisti.",
+      "Run npm run configure:cloudflare -- --d1 <database_id> --apply with the returned database ID.",
+      "Set Cloudflare secrets for protected refresh and media-generation features.",
+      "Run npm run verify:launch again."
+    ]
+  },
+  "productionContract": {
+    "domain": "herbalisti.com",
+    "pagesProject": "herbalisti",
+    "newsWorker": "herbalisti-news-refresh",
+    "d1Database": "herbalisti",
+    "requiredResources": [
+      "cloudflare-pages",
+      "cloudflare-d1",
+      "scheduled-news-worker"
+    ],
+    "requiredLaunchSecrets": [
+      "FEED_ADMIN_TOKEN",
+      "KIE_API_KEY",
+      "MEDIA_ADMIN_TOKEN"
+    ],
+    "safePreflight": [
+      "npm run verify:launch -- --soft",
+      "npm run verify:production-cutover",
+      "npm run verify:static-news-refresh",
+      "npm run verify:signal-coverage",
+      "npm run verify:signal-intelligence",
+      "npm run verify:signals-rss",
+      "npm run verify:source-governance",
+      "npm run verify:knowledge-graph",
+      "npm run verify:citation-notes",
+      "npm run verify:source-health",
+      "npm run verify:corpus-rights",
+      "npm run verify:data-exports",
+      "npm run verify:discovery-metadata",
+      "npm run verify:api-catalog",
+      "npm run verify:search-discovery",
+      "npm run verify:australia-lane",
+      "npm run verify:external-actions",
+      "npm run prepare:completion-audit",
+      "npm run verify:completion-audit",
+      "npm run verify:visual-smoke",
+      "npm run verify:accessibility-smoke",
+      "npm run verify:live-readiness",
+      "npm run prepare:launch"
+    ],
+    "liveCompletionGates": [
+      "npm run verify:live-readiness -- --strict",
+      "npm run verify:production -- https://herbalisti.com",
+      "npm run verify:goal-readiness -- --strict"
+    ],
+    "guardrails": {
+      "noAutomaticDeploymentWithoutApproval": true,
+      "noDnsMutationWithoutApproval": true,
+      "noPaidGenerationWithoutApproval": true,
+      "noSecretValuesInLogs": true,
+      "medicalAdvice": "disabled",
+      "publicAccounts": "disabled",
+      "sourceMode": "allowlist_first"
+    }
+  },
+  "launchPacket": {
+    "status": "pending-production-setup",
+    "blockerCount": 8,
+    "nextCommand": "npm run verify:launch -- --soft"
+  },
+  "outputFiles": {
+    "json": "docs/objective-completion-audit.json",
+    "markdown": "docs/objective-completion-audit.md"
+  }
+}

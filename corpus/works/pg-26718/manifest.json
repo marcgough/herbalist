@@ -1,0 +1,20 @@
+{
+  "workId": "pg-26718",
+  "title": "Health on the Farm: A Manual of Rural Sanitation and Hygiene",
+  "creator": "Harris, H. F. (Henry Fauntleroy), 1867-1926",
+  "collectionId": "project-gutenberg",
+  "sourceUrl": "https://www.gutenberg.org/ebooks/26718",
+  "downloadUrl": "https://www.gutenberg.org/cache/epub/26718/pg26718.txt",
+  "metadataUrl": "https://www.gutenberg.org/ebooks/26718.rdf",
+  "rightsStatus": "public_domain_us",
+  "topicFamily": "hygiene;public-health;household-health",
+  "chunkCount": 389,
+  "paragraphCount": 955,
+  "sectionCount": 52,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\pg-26718\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\pg-26718\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\pg-26718.jsonl",
+  "rawSha256": "59b67217e624fdf8947a2407d0eb8fe71826081a206bc34e0d4460ad565b9244",
+  "normalizedSha256": "5e1c373a2953dad55c4ead8aa596477de36c4c7b69ba5c4af7fac10a7133bd1d",
+  "processedAt": "2026-06-16T13:39:03.267Z"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-d6kbu6xg",
+  "title": "The medical companion, or family physician : treating of the diseases of the United states, with their symptoms, causes, cure, and means of prevention : common cases in surgery, as fractures, dislocations, &c. : the management and diseases of women and children : a dispensatory, for preparing family medicines, and a glossary explaining technical terms : to which are added, a brief anatomy and physiology of the human body, shewing, on rational principles, the cause and cure of diseases : an essay on hygiene, or the art of preserving health, without the aid of medicine : and an American materia medica, pointing out the virtures and doses of our medicinal plants : also, the nurse's guide / by James Ewell.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/d6kbu6xg",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21118553",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/d6kbu6xg",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;medicinal-plants;domestic-medicine;hygiene",
+  "chunkCount": 2150,
+  "paragraphCount": 2190,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-d6kbu6xg\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-d6kbu6xg\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-d6kbu6xg.jsonl",
+  "rawSha256": "a3fdd9d6b72b4f1b46e35d01748f723b8d8c297c38d9d1297e8a6ae9a6d9a3b0",
+  "normalizedSha256": "48e10170bbc9317ab6ca628b8db1432e50cc803e6d74701a8a4af81fabcabb5b",
+  "processedAt": "2026-06-16T13:46:49.444Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2165030R",
+  "title": "A botanical dictionary",
+  "creator": "Bulliard, Pierre, 1752-1793.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2165030R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2165030R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2165030R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "botany",
+  "chunkCount": 274,
+  "paragraphCount": 274,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2165030R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2165030R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2165030R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2165030R.jsonl",
+  "rawSha256": "af7c8abdea1614dddda94810d18ba50e1e76b96882026e37652c6ec710498a36",
+  "normalizedSha256": "8c629288abddfdd6281e652e13add6e1f9a6cb37281e817185037328581fa662",
+  "processedAt": "2026-06-18T03:09:42.456Z"
+}

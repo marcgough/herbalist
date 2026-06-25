@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-64310420R",
+  "title": "The elements of modern domestic medicine : a plain and practical hand-book describing simple diseases, their causes, prevention, and safe home treatment, the earliest signs that a physician is needed, and the procedure till the doctor arrives, in all emergencies",
+  "creator": "Hanchett, Henry Granger, 1853-1918.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-64310420R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-64310420R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/64310420R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 739,
+  "paragraphCount": 876,
+  "sectionCount": 8,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64310420R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-64310420R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-64310420R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-64310420R.jsonl",
+  "rawSha256": "bf96cc0263611360f1a6ffce47ab4bbb8eeb9f2ea358a9b68a09de50322a5afd",
+  "normalizedSha256": "ace048370d7ecd4bb011ba999d1c947ec4e1a2027a621709c5c284df52ba160f",
+  "processedAt": "2026-06-16T23:06:27.638Z"
+}

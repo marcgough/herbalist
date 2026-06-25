@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2572026R",
+  "title": "The dogmaticus, or, Family physician : founded on reason and experience : containing 1st. A brief anatomical description of the human body : 2nd. A treatment on the symptoms and cure of diseases : 3rd. The names and qualities of medical plants, and other medicines made use of in the healing art : 4th. Directions for preparing and compounding medicines, and their particular use : arranged and divided into sections and classes : together with directions for preserving health, and an explanation table : for the use of families and practitioners",
+  "creator": "Smith, Joseph, practical physician",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2572026R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2572026R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2572026R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 222,
+  "paragraphCount": 303,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2572026R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2572026R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2572026R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2572026R.jsonl",
+  "rawSha256": "fc1ecd8f08e3045dd864def34b16c69307df76d85b6d72b0c36822584fe86a91",
+  "normalizedSha256": "95a83af83f92869f9d53a425bbd5a68c137a37a57c486b3c2702256ff25323a7",
+  "processedAt": "2026-06-20T01:00:09.572Z"
+}

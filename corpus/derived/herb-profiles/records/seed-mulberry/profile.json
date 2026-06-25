@@ -1,0 +1,1139 @@
+{
+  "profile_id": "seed-mulberry",
+  "family_id": "seed-mulberry",
+  "canonical_name": "Mulberry",
+  "canonical_key": "mulberry",
+  "catalog_status": "seed-ready",
+  "catalog_class": "medicinal-herb",
+  "catalog_reason": "curated-high-confidence-seed-term",
+  "source_family_refs": [
+    "term-mulberry-2afc0f6bdf#mulberry"
+  ],
+  "decision_note": "",
+  "metrics": {
+    "total_mentions": 474,
+    "total_chunks": 415,
+    "total_works": 244,
+    "matched_chunk_count": 415,
+    "matched_work_count": 244,
+    "matched_mention_total": 427
+  },
+  "coverage": {
+    "collections": [
+      "nlm-digital-collections",
+      "project-gutenberg",
+      "wellcome-collection"
+    ],
+    "topic_families": [
+      "botany",
+      "dietetics",
+      "domestic-medicine",
+      "herbal",
+      "household-health",
+      "hygiene",
+      "materia-medica",
+      "medicinal-plants",
+      "pharmacopoeia"
+    ],
+    "variants": [
+      "Mulberry",
+      "Mulberries"
+    ],
+    "sample_work_ids": [
+      "nlm-0217313",
+      "nlm-0217315",
+      "nlm-0217316"
+    ],
+    "sample_chunk_ids": [
+      "nlm-0217313-chunk-0986",
+      "nlm-0217315-chunk-0926",
+      "nlm-0217316-chunk-0766"
+    ]
+  },
+  "signal_summary": {
+    "herb_basis": [
+      {
+        "id": "preparation_of",
+        "label": "preparation of",
+        "mention_count": 327
+      },
+      {
+        "id": "preparation_suffix",
+        "label": "preparation suffix",
+        "mention_count": 74
+      },
+      {
+        "id": "part_phrase",
+        "label": "part phrase",
+        "mention_count": 51
+      }
+    ],
+    "plant_parts": [
+      {
+        "id": "leaf",
+        "label": "Leaf",
+        "signal_count": 116,
+        "work_count": 105
+      },
+      {
+        "id": "flower",
+        "label": "Flower",
+        "signal_count": 112,
+        "work_count": 104
+      },
+      {
+        "id": "fruit",
+        "label": "Fruit",
+        "signal_count": 96,
+        "work_count": 93
+      },
+      {
+        "id": "berry",
+        "label": "Berry",
+        "signal_count": 69,
+        "work_count": 61
+      },
+      {
+        "id": "root",
+        "label": "Root",
+        "signal_count": 67,
+        "work_count": 61
+      },
+      {
+        "id": "gum",
+        "label": "Gum",
+        "signal_count": 57,
+        "work_count": 47
+      },
+      {
+        "id": "bark",
+        "label": "Bark",
+        "signal_count": 56,
+        "work_count": 52
+      },
+      {
+        "id": "seed",
+        "label": "Seed",
+        "signal_count": 46,
+        "work_count": 45
+      },
+      {
+        "id": "resin",
+        "label": "Resin",
+        "signal_count": 5,
+        "work_count": 5
+      },
+      {
+        "id": "tops",
+        "label": "Tops",
+        "signal_count": 4,
+        "work_count": 4
+      }
+    ],
+    "preparations": [
+      {
+        "id": "juice",
+        "label": "Juice",
+        "signal_count": 244,
+        "work_count": 172
+      },
+      {
+        "id": "syrup",
+        "label": "Syrup",
+        "signal_count": 241,
+        "work_count": 141
+      },
+      {
+        "id": "gargle",
+        "label": "Gargle",
+        "signal_count": 87,
+        "work_count": 67
+      },
+      {
+        "id": "decoction",
+        "label": "Decoction",
+        "signal_count": 66,
+        "work_count": 49
+      },
+      {
+        "id": "infusion",
+        "label": "Infusion",
+        "signal_count": 54,
+        "work_count": 43
+      },
+      {
+        "id": "extract",
+        "label": "Extract",
+        "signal_count": 45,
+        "work_count": 34
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "signal_count": 34,
+        "work_count": 29
+      },
+      {
+        "id": "tincture",
+        "label": "Tincture",
+        "signal_count": 32,
+        "work_count": 20
+      },
+      {
+        "id": "powder",
+        "label": "Powder",
+        "signal_count": 29,
+        "work_count": 27
+      },
+      {
+        "id": "draught",
+        "label": "Draught",
+        "signal_count": 20,
+        "work_count": 20
+      }
+    ],
+    "cautions": [
+      {
+        "id": "dose",
+        "label": "Dose caution",
+        "signal_count": 108,
+        "work_count": 82
+      },
+      {
+        "id": "child-use",
+        "label": "Child-use caution",
+        "signal_count": 44,
+        "work_count": 38
+      },
+      {
+        "id": "toxicity",
+        "label": "Toxicity watch",
+        "signal_count": 38,
+        "work_count": 38
+      },
+      {
+        "id": "narcotic",
+        "label": "Narcotic or sedative caution",
+        "signal_count": 34,
+        "work_count": 29
+      },
+      {
+        "id": "bleeding",
+        "label": "Bleeding caution",
+        "signal_count": 4,
+        "work_count": 3
+      },
+      {
+        "id": "pregnancy",
+        "label": "Pregnancy caution",
+        "signal_count": 1,
+        "work_count": 1
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fever",
+        "label": "Fever",
+        "signal_count": 67,
+        "work_count": 65
+      },
+      {
+        "id": "wounds",
+        "label": "Wounds or ulcers",
+        "signal_count": 67,
+        "work_count": 61
+      },
+      {
+        "id": "cold",
+        "label": "Cold or catarrh",
+        "signal_count": 40,
+        "work_count": 33
+      },
+      {
+        "id": "inflammation",
+        "label": "Inflammation",
+        "signal_count": 37,
+        "work_count": 35
+      },
+      {
+        "id": "vomiting",
+        "label": "Vomiting or nausea",
+        "signal_count": 15,
+        "work_count": 14
+      },
+      {
+        "id": "diarrhoea",
+        "label": "Diarrhoea or looseness",
+        "signal_count": 13,
+        "work_count": 13
+      },
+      {
+        "id": "measles",
+        "label": "Measles",
+        "signal_count": 10,
+        "work_count": 10
+      },
+      {
+        "id": "epilepsy",
+        "label": "Epilepsy or convulsions",
+        "signal_count": 10,
+        "work_count": 9
+      },
+      {
+        "id": "cough",
+        "label": "Cough",
+        "signal_count": 9,
+        "work_count": 9
+      },
+      {
+        "id": "rheumatism",
+        "label": "Rheumatism",
+        "signal_count": 9,
+        "work_count": 9
+      }
+    ]
+  },
+  "supporting_works": [
+    {
+      "work_id": "wellcome-ujbsp48n",
+      "title": "The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.",
+      "creator": "",
+      "publication_year": "1833",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/ujbsp48n",
+      "signal_chunk_count": 34,
+      "matched_mention_count": 34
+    },
+    {
+      "work_id": "wellcome-kxejz6hv",
+      "title": "A medicinal dictionary; including physic, surgery, anatomy, chymistry, and botany, in all their branches relative to medicine. Together with a history of drugs ... and an introductory preface, tracing the progress of physic, and explaining the theories which have ... prevail'd in all ages / By R. James.",
+      "creator": "",
+      "publication_year": "1743",
+      "collection_id": "wellcome-collection",
+      "topic_family": "botany",
+      "source_url": "https://wellcomecollection.org/works/kxejz6hv",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "nlm-63610340R",
+      "title": "Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse",
+      "creator": "Mansperger, K.",
+      "publication_year": "",
+      "collection_id": "nlm-digital-collections",
+      "topic_family": "herbal;materia-medica;hygiene",
+      "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63610340R-bk",
+      "signal_chunk_count": 6,
+      "matched_mention_count": 6
+    },
+    {
+      "work_id": "wellcome-gy79dgeq",
+      "title": "Lexicon medicum; or medical dictionary; containing an explanation of the terms in anatomy, botany ... and the various branches of natural philosophy connected with medicine / selected, arranged, and compiled from the best authors.",
+      "creator": "",
+      "publication_year": "1825",
+      "collection_id": "wellcome-collection",
+      "topic_family": "botany",
+      "source_url": "https://wellcomecollection.org/works/gy79dgeq",
+      "signal_chunk_count": 5,
+      "matched_mention_count": 5
+    },
+    {
+      "work_id": "wellcome-cs5n98hu",
+      "title": "A compendium of domestic medicine : and companion to the medicine chest comprising plain directions for the employment of medicines, with their properties and doses ... / by John Savory.",
+      "creator": "",
+      "publication_year": "1852",
+      "collection_id": "wellcome-collection",
+      "topic_family": "domestic-medicine",
+      "source_url": "https://wellcomecollection.org/works/cs5n98hu",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-rg6kdhef",
+      "title": "A dictionary of materia medica and practical pharmacy : including a translation of the formulae of the London pharmacopoeia / by William Thomas Brande.",
+      "creator": "",
+      "publication_year": "1839",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;pharmacopoeia",
+      "source_url": "https://wellcomecollection.org/works/rg6kdhef",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-q648cs3p",
+      "title": "Cooley's cyclopaedia of practical receipts and collateral information in the arts, manufactures, professions, and trades, including medicine, pharmacy, hygiene, and domestic economy : designed as a comprehensive supplement to the pharmacopoeia and general book of reference for the manufacturer, tradesman, amateur, and heads of families.",
+      "creator": "",
+      "publication_year": "1880",
+      "collection_id": "wellcome-collection",
+      "topic_family": "pharmacopoeia;hygiene",
+      "source_url": "https://wellcomecollection.org/works/q648cs3p",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-wdckcztx",
+      "title": "Lexicon medicum, or, Medical dictionary : containing an explanation of the terms in anatomy, botany, chemistry, materia medica, midwifery, mineralogy, pharmacy, physiology, practice of physic, surgery, and the various branches of natural philosophy connected with medicine : selected, arranged, and compiled from the best authors / by Robert Hooper.",
+      "creator": "",
+      "publication_year": "1838",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/wdckcztx",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-ybfdn8ze",
+      "title": "Lexicon medicum, or, Medical dictionary : containing an explanation of the terms in anatomy, botany, chemistry, materia medica, midwifery, mineralogy, pharmacy, physiology, practice of physic, surgery, and the various branches of natural philosophy connected with medicine : selected, arranged, and compiled from the best authors / by Robert Hooper.",
+      "creator": "",
+      "publication_year": "1832",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/ybfdn8ze",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    },
+    {
+      "work_id": "wellcome-x9wbqn69",
+      "title": "Lexicon medicum, or, Medical dictionary : containing an explanation of the terms in anatomy, botany, chemistry, materia medica, midwifery, mineralogy, pharmacy, physiology, practice of physic, surgery, and the various branches of natural philosophy connected with medicine : selected, arranged, and compiled from the best authors / By Robert Hooper. In two volumes.",
+      "creator": "",
+      "publication_year": "1843",
+      "collection_id": "wellcome-collection",
+      "topic_family": "materia-medica;botany",
+      "source_url": "https://wellcomecollection.org/works/x9wbqn69",
+      "signal_chunk_count": 4,
+      "matched_mention_count": 4
+    }
+  ],
+  "evidence_passages": {
+    "overview": [
+      {
+        "chunk_id": "nlm-63570620R-chunk-0616",
+        "work_id": "nlm-63570620R",
+        "title": "The family physician : being a domestic medical work, written in plain style, and divided into four parts",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "* THE FAMILY PHYSICIAN. BEING A DOMESTIC MEDICAL WORK,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570620R-bk",
+        "matched_herbs": [
+          "Mulberry"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "dysentery,- 2S8 Mixture foiv colic of infants, . 289 Mixture for inflammation of the kidneys-,, 289 Mixture for tinea, capitis, or scahfhead,. 290 Mulberry syrup, 293 Mixture for gonorrhoea,, 294 -316 INDEX. Menorrhag...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0270",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mulberry"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "FOR THE ASTHMA, CRAMP AND COLIC. Give five drops of rattlesnake grease to a grown person and two or three drops to a child. For either of the com- plaints this is relaxing and gives great deliverance. P2 174 RECIPES....",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-ms79ffge-chunk-0131",
+        "work_id": "wellcome-ms79ffge",
+        "title": "Complete herbal ... To which is now first annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added upwards of 50 choice receipts selected from the author's Last legacy. To his wife ... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ms79ffge",
+        "matched_herbs": [
+          "Mulberries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Juice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "The leaves, seed, or roots i this realm. are all veiy good in decoctions, drinks ori Time. ] It flowers about May, and the lotions, for inward or outward wounds, or! berries are ripe in June, and then quickly other so...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-dwhz86ma-chunk-0068",
+        "work_id": "wellcome-dwhz86ma",
+        "title": "A pocket herbal; containing the medicinal virtues and uses of the most esteemed native plants; with some remarks on bathing, electricity, etc / [John Whiteclay Chambers].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwhz86ma",
+        "matched_herbs": [
+          "Mulberries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Gargle",
+          "Juice",
+          "Steam"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "English Rhubarb of the Turkey kind, whicltisno\\wjiaturalized in our gardens, the root sliced, dried, and powdiered ^96^ fifom: 20 to 40 grains. eumSEY AlCn SORB THSROiAT, - ■■. Squinancyworty a strong infusion, ojf de...",
+        "score": 41
+      },
+      {
+        "chunk_id": "nlm-63560030R-chunk-0170",
+        "work_id": "nlm-63560030R",
+        "title": "Abernethy's family physician , or, Ready prescriber in cases of illness and accident : where medical attendance is not desired or cannot be procured : containing the causes, symptoms and treatment of diseases, the proper remedies in burns, contusions, poisoning, and all varieties of physical casualties : forming a complete guide to the retention and recovery of health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "NOTES BY THE AMERICAN EDITOR - - 117 ABERNETHY'S",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560030R-bk",
+        "matched_herbs": [
+          "Mulberries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Bath",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "It ia a much more common case, however, that the disorder steals insidiously on the patient, putting on the mask of almost every other disease. Treatment. —Take twelve ounces of blood from the. arm, and apply a bliste...",
+        "score": 41
+      }
+    ],
+    "preparations": [
+      {
+        "chunk_id": "nlm-63570620R-chunk-0616",
+        "work_id": "nlm-63570620R",
+        "title": "The family physician : being a domestic medical work, written in plain style, and divided into four parts",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "* THE FAMILY PHYSICIAN. BEING A DOMESTIC MEDICAL WORK,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570620R-bk",
+        "matched_herbs": [
+          "Mulberry"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "dysentery,- 2S8 Mixture foiv colic of infants, . 289 Mixture for inflammation of the kidneys-,, 289 Mixture for tinea, capitis, or scahfhead,. 290 Mulberry syrup, 293 Mixture for gonorrhoea,, 294 -316 INDEX. Menorrhag...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0270",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mulberry"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "FOR THE ASTHMA, CRAMP AND COLIC. Give five drops of rattlesnake grease to a grown person and two or three drops to a child. For either of the com- plaints this is relaxing and gives great deliverance. P2 174 RECIPES....",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-ms79ffge-chunk-0131",
+        "work_id": "wellcome-ms79ffge",
+        "title": "Complete herbal ... To which is now first annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added upwards of 50 choice receipts selected from the author's Last legacy. To his wife ... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ms79ffge",
+        "matched_herbs": [
+          "Mulberries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Juice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "The leaves, seed, or roots i this realm. are all veiy good in decoctions, drinks ori Time. ] It flowers about May, and the lotions, for inward or outward wounds, or! berries are ripe in June, and then quickly other so...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-dwhz86ma-chunk-0068",
+        "work_id": "wellcome-dwhz86ma",
+        "title": "A pocket herbal; containing the medicinal virtues and uses of the most esteemed native plants; with some remarks on bathing, electricity, etc / [John Whiteclay Chambers].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwhz86ma",
+        "matched_herbs": [
+          "Mulberries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Gargle",
+          "Juice",
+          "Steam"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "English Rhubarb of the Turkey kind, whicltisno\\wjiaturalized in our gardens, the root sliced, dried, and powdiered ^96^ fifom: 20 to 40 grains. eumSEY AlCn SORB THSROiAT, - ■■. Squinancyworty a strong infusion, ojf de...",
+        "score": 41
+      },
+      {
+        "chunk_id": "nlm-63560030R-chunk-0170",
+        "work_id": "nlm-63560030R",
+        "title": "Abernethy's family physician , or, Ready prescriber in cases of illness and accident : where medical attendance is not desired or cannot be procured : containing the causes, symptoms and treatment of diseases, the proper remedies in burns, contusions, poisoning, and all varieties of physical casualties : forming a complete guide to the retention and recovery of health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "NOTES BY THE AMERICAN EDITOR - - 117 ABERNETHY'S",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560030R-bk",
+        "matched_herbs": [
+          "Mulberries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Bath",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "It ia a much more common case, however, that the disorder steals insidiously on the patient, putting on the mask of almost every other disease. Treatment. —Take twelve ounces of blood from the. arm, and apply a bliste...",
+        "score": 41
+      }
+    ],
+    "conditions": [
+      {
+        "chunk_id": "nlm-63570620R-chunk-0616",
+        "work_id": "nlm-63570620R",
+        "title": "The family physician : being a domestic medical work, written in plain style, and divided into four parts",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "* THE FAMILY PHYSICIAN. BEING A DOMESTIC MEDICAL WORK,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570620R-bk",
+        "matched_herbs": [
+          "Mulberry"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "dysentery,- 2S8 Mixture foiv colic of infants, . 289 Mixture for inflammation of the kidneys-,, 289 Mixture for tinea, capitis, or scahfhead,. 290 Mulberry syrup, 293 Mixture for gonorrhoea,, 294 -316 INDEX. Menorrhag...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0270",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mulberry"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "FOR THE ASTHMA, CRAMP AND COLIC. Give five drops of rattlesnake grease to a grown person and two or three drops to a child. For either of the com- plaints this is relaxing and gives great deliverance. P2 174 RECIPES....",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-ms79ffge-chunk-0131",
+        "work_id": "wellcome-ms79ffge",
+        "title": "Complete herbal ... To which is now first annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added upwards of 50 choice receipts selected from the author's Last legacy. To his wife ... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ms79ffge",
+        "matched_herbs": [
+          "Mulberries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Juice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "The leaves, seed, or roots i this realm. are all veiy good in decoctions, drinks ori Time. ] It flowers about May, and the lotions, for inward or outward wounds, or! berries are ripe in June, and then quickly other so...",
+        "score": 42
+      },
+      {
+        "chunk_id": "wellcome-dwhz86ma-chunk-0068",
+        "work_id": "wellcome-dwhz86ma",
+        "title": "A pocket herbal; containing the medicinal virtues and uses of the most esteemed native plants; with some remarks on bathing, electricity, etc / [John Whiteclay Chambers].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/dwhz86ma",
+        "matched_herbs": [
+          "Mulberries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Decoction",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Poultice",
+          "Gargle",
+          "Juice",
+          "Steam"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Wounds or ulcers"
+        ],
+        "excerpt": "English Rhubarb of the Turkey kind, whicltisno\\wjiaturalized in our gardens, the root sliced, dried, and powdiered ^96^ fifom: 20 to 40 grains. eumSEY AlCn SORB THSROiAT, - ■■. Squinancyworty a strong infusion, ojf de...",
+        "score": 41
+      },
+      {
+        "chunk_id": "nlm-63560030R-chunk-0170",
+        "work_id": "nlm-63560030R",
+        "title": "Abernethy's family physician , or, Ready prescriber in cases of illness and accident : where medical attendance is not desired or cannot be procured : containing the causes, symptoms and treatment of diseases, the proper remedies in burns, contusions, poisoning, and all varieties of physical casualties : forming a complete guide to the retention and recovery of health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "NOTES BY THE AMERICAN EDITOR - - 117 ABERNETHY'S",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63560030R-bk",
+        "matched_herbs": [
+          "Mulberries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Gum"
+        ],
+        "preparations": [
+          "Infusion",
+          "Tincture",
+          "Syrup",
+          "Bath",
+          "Draught",
+          "Emetic",
+          "Pill"
+        ],
+        "cautions": [],
+        "conditions": [
+          "Vomiting or nausea",
+          "Wounds or ulcers",
+          "Inflammation"
+        ],
+        "excerpt": "It ia a much more common case, however, that the disorder steals insidiously on the patient, putting on the mask of almost every other disease. Treatment. —Take twelve ounces of blood from the. arm, and apply a bliste...",
+        "score": 41
+      }
+    ],
+    "cautions": [
+      {
+        "chunk_id": "nlm-63570620R-chunk-0616",
+        "work_id": "nlm-63570620R",
+        "title": "The family physician : being a domestic medical work, written in plain style, and divided into four parts",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "* THE FAMILY PHYSICIAN. BEING A DOMESTIC MEDICAL WORK,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570620R-bk",
+        "matched_herbs": [
+          "Mulberry"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed",
+          "Bark"
+        ],
+        "preparations": [
+          "Syrup",
+          "Powder",
+          "Ointment",
+          "Oil",
+          "Emetic"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Narcotic or sedative caution"
+        ],
+        "conditions": [
+          "Dysentery",
+          "Vomiting or nausea",
+          "Inflammation",
+          "Colic"
+        ],
+        "excerpt": "dysentery,- 2S8 Mixture foiv colic of infants, . 289 Mixture for inflammation of the kidneys-,, 289 Mixture for tinea, capitis, or scahfhead,. 290 Mulberry syrup, 293 Mixture for gonorrhoea,, 294 -316 INDEX. Menorrhag...",
+        "score": 49
+      },
+      {
+        "chunk_id": "nlm-61820150R-chunk-0270",
+        "work_id": "nlm-61820150R",
+        "title": "The reformed botanic and Indian physician : a complete guide to health",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "ROOTS, HERBS, AND FLOWERS? 55",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-61820150R-bk",
+        "matched_herbs": [
+          "Mulberry"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Leaf",
+          "Bark"
+        ],
+        "preparations": [
+          "Decoction",
+          "Syrup",
+          "Juice",
+          "Oil"
+        ],
+        "cautions": [
+          "Child-use caution"
+        ],
+        "conditions": [
+          "Cough",
+          "Cold or catarrh",
+          "Asthma",
+          "Wounds or ulcers",
+          "Colic"
+        ],
+        "excerpt": "FOR THE ASTHMA, CRAMP AND COLIC. Give five drops of rattlesnake grease to a grown person and two or three drops to a child. For either of the com- plaints this is relaxing and gives great deliverance. P2 174 RECIPES....",
+        "score": 46
+      },
+      {
+        "chunk_id": "wellcome-ms79ffge-chunk-0131",
+        "work_id": "wellcome-ms79ffge",
+        "title": "Complete herbal ... To which is now first annexed his English physician enlarged, and Key to [Galen's Method of] physic ... to which is also added upwards of 50 choice receipts selected from the author's Last legacy. To his wife ... / [Nicholas Culpeper].",
+        "collection_id": "wellcome-collection",
+        "section_heading": "Opening",
+        "source_url": "https://wellcomecollection.org/works/ms79ffge",
+        "matched_herbs": [
+          "Mulberries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Seed",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Juice",
+          "Cordial"
+        ],
+        "cautions": [
+          "Toxicity watch"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "The leaves, seed, or roots i this realm. are all veiy good in decoctions, drinks ori Time. ] It flowers about May, and the lotions, for inward or outward wounds, or! berries are ripe in June, and then quickly other so...",
+        "score": 42
+      },
+      {
+        "chunk_id": "pg-49513-chunk-0115",
+        "work_id": "pg-49513",
+        "title": "The Complete Herbal",
+        "collection_id": "project-gutenberg",
+        "section_heading": "THE",
+        "source_url": "https://www.gutenberg.org/ebooks/49513",
+        "matched_herbs": [
+          "Mulberries"
+        ],
+        "herb_basis": [
+          "preparation_of"
+        ],
+        "plant_parts": [
+          "Root",
+          "Leaf",
+          "Flower",
+          "Berry",
+          "Fruit"
+        ],
+        "preparations": [
+          "Decoction",
+          "Powder",
+          "Juice"
+        ],
+        "cautions": [
+          "Toxicity watch",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever",
+          "Wounds or ulcers"
+        ],
+        "excerpt": "_Government and virtues._] It is a plant of Venus in Aries. If any ask the reason why Venus is so prickly? Tell them it is because she is in the house of Mars. The buds, leaves, and branches, while they are green, are...",
+        "score": 41
+      },
+      {
+        "chunk_id": "nlm-63570620R-chunk-0589",
+        "work_id": "nlm-63570620R",
+        "title": "The family physician : being a domestic medical work, written in plain style, and divided into four parts",
+        "collection_id": "nlm-digital-collections",
+        "section_heading": "* THE FAMILY PHYSICIAN. BEING A DOMESTIC MEDICAL WORK,",
+        "source_url": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-63570620R-bk",
+        "matched_herbs": [
+          "Mulberry"
+        ],
+        "herb_basis": [
+          "preparation_suffix"
+        ],
+        "plant_parts": [
+          "Seed"
+        ],
+        "preparations": [
+          "Infusion",
+          "Syrup",
+          "Tea",
+          "Powder",
+          "Juice",
+          "Oil",
+          "Pill"
+        ],
+        "cautions": [
+          "Child-use caution",
+          "Dose caution"
+        ],
+        "conditions": [
+          "Fever"
+        ],
+        "excerpt": "WORM POWDER. Take one scruple of poAvdered rhenbarb, scammony, and calomel, of each five grains, and mix. This is a full dose for a grown person, which can be divided for children, and given in molasses or honey. INFU...",
+        "score": 41
+      }
+    ]
+  },
+  "retrieval_text": "Mulberry is a medicinal herb profile in the Herbalisti historical corpus. It is represented across 244 works and 415 source-linked chunks. Recorded variants include Mulberry, Mulberries. Common plant-part co-mentions include Leaf, Flower, Fruit, Berry, Root, Gum. Common preparation co-mentions include Juice, Syrup, Gargle, Decoction, Infusion, Extract. Common condition co-mentions include Fever, Wounds or ulcers, Cold or catarrh, Inflammation, Vomiting or nausea, Diarrhoea or looseness. Caution co-mentions include Dose caution, Child-use caution, Toxicity watch, Narcotic or sedative caution, Bleeding caution, Pregnancy caution. Representative source works include The pharmacopoeia universalis or, complete encyclopedia of the materia medica; contained in the pharmacopoeias of London, Edinburgh, and Dublin as well as of all those of Europe and America ; and of the dispensatories, formularies and chemical works ... With an appendix ... / by A. J. L. Jourdan : Edited by J. Rennie.; A medicinal dictionary; including physic, surgery, anatomy, chymistry, and botany, in all their branches relative to medicine. Together with a history of drugs ... and an introductory preface, tracing the progress of physic, and explaining the theories which have ... prevail'd in all ages / By R. James.; Dr. Mansperger's book of hygiene : containing instructions for the cure of diseases, together with many valuable and useful prescriptions : added to which is an accurate description of the properties and application of the curative powers of roots and herbs, with instructions for a diagnosis of diseases from the urine and pulse; Lexicon medicum; or medical dictionary; containing an explanation of the terms in anatomy, botany ... and the various branches of natural philosophy connected with medicine / selected, arranged, and compiled from the best authors.. This is a retrieval summary of historical co-mentions only, not a medical claim.",
+  "generated_at": "2026-06-23T13:20:48.921Z",
+  "builder": "build-herb-profiles.mjs"
+}

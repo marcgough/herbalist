@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2544058R",
+  "title": "Dr. Buchan's Family medical works : containing the Domestic medicine , enlarged : and the Advice to mothers, on the subject of their own health; and on the means of promoting the health, strength, and beauty of their offspring",
+  "creator": "Buchan, William, 1729-1805.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544058R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2544058R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2544058R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine;hygiene",
+  "chunkCount": 2418,
+  "paragraphCount": 2979,
+  "sectionCount": 30,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2544058R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2544058R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2544058R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2544058R.jsonl",
+  "rawSha256": "431da3a338b47eb34a9de9b50e03df441c4cfa89755bb4dce9f3cdf19cda4cf4",
+  "normalizedSha256": "1a328575def652ca5915dae96119e04e1c454e5200382968e0f7145c30b553e3",
+  "processedAt": "2026-06-17T15:05:30.204Z"
+}

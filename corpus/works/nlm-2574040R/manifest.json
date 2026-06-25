@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2574040R",
+  "title": "A treatise on the diseases of negroes, as they occur in the island of Jamaica : with observations on the country remedies",
+  "creator": "Thomson, James, fl. 1814-1820.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2574040R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2574040R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2574040R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "materia-medica",
+  "chunkCount": 487,
+  "paragraphCount": 620,
+  "sectionCount": 11,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2574040R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2574040R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2574040R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2574040R.jsonl",
+  "rawSha256": "ee7bab63250803ab250a68508e79d5284c365bc47df19319174f67996844cd8a",
+  "normalizedSha256": "ffc038bc3b7f58285edda9439321975b32b0b6216bad16d824a016cbcc68a5eb",
+  "processedAt": "2026-06-20T01:42:56.575Z"
+}

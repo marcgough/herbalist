@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-mq8ebxvb",
+  "title": "Buchan's Domestic medicine modernized; or, a treatise on the prevention and cure of diseases by regimen and simple medicine : containing, ... observations on the comparative advantages of vaccine inoculation, ... an essay, enabling ruptured persons to manage themselves ... a family herbal: and such useful discoveries in medicine and surgery as have transpired since the demise of the late William Buchan.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/mq8ebxvb",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21695295",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/mq8ebxvb",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1972,
+  "paragraphCount": 1988,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-mq8ebxvb\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-mq8ebxvb\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-mq8ebxvb.jsonl",
+  "rawSha256": "453626c35cc85ca9a7072b3aeb9cdc43cb2c4e1294247de338fd21d4c05f3b54",
+  "normalizedSha256": "61dbad1a56eb166899df5fdd0277f6c0f9dbddbb9dd26f5c72033e8c672df774",
+  "processedAt": "2026-06-16T13:46:53.662Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

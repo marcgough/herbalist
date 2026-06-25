@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101493016",
+  "title": "Elements of homoeopathic practice of physic : an appendix to Dr. A.G. Hull's Laurie's \"homoeopathic domestic medicine\" : arranged as a practical work for students : containing also the diseases of the urinary and genital organs",
+  "creator": "Laurie, Joseph, -1865.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101493016-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101493016-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101493016",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 1012,
+  "paragraphCount": 1323,
+  "sectionCount": 7,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101493016\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101493016\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101493016\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101493016.jsonl",
+  "rawSha256": "006a0d1354db8eee61b1d03ce7eef415c4657a6c5d5ff313836b83c3c7d62962",
+  "normalizedSha256": "de4a5eea60ed3c2543a4e2d62fe682a92761eae4eaf36e789372769a3660e955",
+  "processedAt": "2026-06-17T15:43:04.825Z"
+}

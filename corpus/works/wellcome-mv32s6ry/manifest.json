@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-mv32s6ry",
+  "title": "An improved system of domestic medicine : founded upon correct physiological principles : comprising a complete treatise on anatomy and physiology, the practice of medicine, with a copious materia medica, and an extensive treatise on midwifery, embellished with over one hundred useful engravings, gotten up expressly for family use / by Horton Howard.",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/mv32s6ry",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b21130760",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/mv32s6ry",
+  "rightsStatus": "pdm",
+  "topicFamily": "materia-medica;domestic-medicine",
+  "chunkCount": 2425,
+  "paragraphCount": 2465,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-mv32s6ry\\source.txt",
+  "manifestFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-mv32s6ry\\source-manifest.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-mv32s6ry\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-mv32s6ry.jsonl",
+  "rawSha256": "af5e3431afdd864403133e0c5e18b15267226ba85cb10d61e44d59227006679d",
+  "normalizedSha256": "45a7baac0766534ec6abf4ba6ce16e5525fda37f3f16a602fae92278ba78b56c",
+  "processedAt": "2026-06-16T23:29:19.673Z"
+}

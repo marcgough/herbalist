@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-101178768",
+  "title": "The family almanac and guide to health",
+  "creator": "Fitch, Samuel Sheldon, 1801-1876.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-101178768-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101178768-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/101178768",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "domestic-medicine",
+  "chunkCount": 25,
+  "paragraphCount": 37,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101178768\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-101178768\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-101178768\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-101178768.jsonl",
+  "rawSha256": "4dcd9f611e6b90be7193f83b08a10d46a5fd4ab3a030a31500805fe6c9683b49",
+  "normalizedSha256": "25e2e179c53ccbd76e9bf69181c5d9056bfc11e97aa572f453bf9a1d81320a6f",
+  "processedAt": "2026-06-21T10:00:28.084Z"
+}

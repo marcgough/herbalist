@@ -1,0 +1,21 @@
+{
+  "workId": "wellcome-sxzjt4da",
+  "title": "The family physician, surgeon, and cattlekeeper's guide ... containing many valuable prescriptions ... for curing or relieving various diseases of the human body, and of cattle, from drugs and herbs / [Joseph Arundel].",
+  "creator": "",
+  "collectionId": "wellcome-collection",
+  "sourceUrl": "https://wellcomecollection.org/works/sxzjt4da",
+  "downloadUrl": "https://api.wellcomecollection.org/text/v1/b30372264",
+  "metadataUrl": "https://api.wellcomecollection.org/catalogue/v2/works/sxzjt4da",
+  "rightsStatus": "pdm",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 40,
+  "paragraphCount": 41,
+  "sectionCount": 1,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\wellcome-sxzjt4da\\source.txt",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\wellcome-sxzjt4da\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\wellcome-sxzjt4da.jsonl",
+  "rawSha256": "7a17c6bc02400a3931f45d4cbf1943d0576ec1a395cdcca07c4bcdc3b3fea5c0",
+  "normalizedSha256": "7e2fff56e338a110b6fb64fcfb6f67fddf0b7dd4745c958ecb8cd84d958a9dc7",
+  "processedAt": "2026-06-16T13:46:58.445Z",
+  "rebuildSource": "rebuild-text-derivatives"
+}

@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-7703898",
+  "title": "Every man's doctor, or, Family guide to health : containing a condensed description of the various causes and symptoms of diseases : with an appendix showing the medical properties of the most valuable roots and herbs : to which is added 150 recipes",
+  "creator": "",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-7703898-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-7703898-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/7703898",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 25,
+  "paragraphCount": 37,
+  "sectionCount": 9,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-7703898\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-7703898\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-7703898\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-7703898.jsonl",
+  "rawSha256": "6cae764a1ff1cde56dda01f25a35ebb23809e34ea14d7e615b328aabf0cacb83",
+  "normalizedSha256": "6d7de07d7753ec288ddcd66e24764cc36db7223aabe97f6cb7e888f8a17ecc99",
+  "processedAt": "2026-06-16T23:05:34.870Z"
+}

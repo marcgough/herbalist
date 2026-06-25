@@ -1,0 +1,21 @@
+{
+  "workId": "nlm-2544043R",
+  "title": "Domestic medicine , or, The family physician : being an attempt to render the medical art more generally useful, by shewing people what is in their own power both with respect to the prevention and cure of diseases ; chiefly calculated to recommend a proper attention to regimen and simple medicines",
+  "creator": "Buchan, William, 1729-1805.",
+  "collectionId": "nlm-digital-collections",
+  "sourceUrl": "https://collections.nlm.nih.gov/catalog/nlm%3Anlmuid-2544043R-bk",
+  "downloadUrl": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-2544043R-bk",
+  "metadataUrl": "http://resource.nlm.nih.gov/2544043R",
+  "rightsStatus": "public_domain_mark",
+  "topicFamily": "herbal;domestic-medicine",
+  "chunkCount": 1307,
+  "paragraphCount": 1459,
+  "sectionCount": 2,
+  "rawFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2544043R\\source.txt",
+  "sourceRecordFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\raw\\nlm-2544043R\\source-record.json",
+  "normalizedFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\normalized\\nlm-2544043R\\text.md",
+  "chunkFile": "C:\\Users\\Superuser\\Documents\\Codex\\2026-06-15\\files-mentioned-by-the-user-natural\\outputs\\herbalisti-site\\corpus\\chunks\\nlm-2544043R.jsonl",
+  "rawSha256": "893e0b90a355fe0d3fdda4547b53f0a47a644312034a871e389449af9236d42b",
+  "normalizedSha256": "6ed129acafb1352fa5de79bd2a1d87b447a936d28e359a8b3bfcaac07366a2c0",
+  "processedAt": "2026-06-16T22:57:56.306Z"
+}
