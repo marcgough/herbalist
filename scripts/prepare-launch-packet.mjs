@@ -69,6 +69,7 @@ const phases = [
       'Read-only Cloudflare production-state probing is available before any resource creation or deployment.',
       'D1 production migration manifest fingerprints the exact ordered SQL files before remote migration approval.',
       'DNS/custom-domain cutover plan snapshots current public DNS and the Cloudflare Pages apex-domain operator sequence.',
+      'Production secret setup packet names required GitHub and Cloudflare secret scopes without storing values.',
       'Production provisioning readiness shows the next approved action, local state, and exact operator sequence.',
       'Local Cloudflare Pages runtime starts.',
       'API and production-shape smoke tests pass.',
@@ -120,6 +121,7 @@ const phases = [
       command('npm run verify:cloudflare-production-state'),
       command('npm run verify:d1-manifest'),
       command('npm run verify:dns-cutover'),
+      command('npm run verify:production-secrets'),
       command('npm run prepare:production-provisioning'),
       command('npm run verify:production-provisioning'),
       command('npm run verify:static-news-refresh'),
@@ -153,6 +155,7 @@ const phases = [
       'Provide a single manual GitHub Actions path that can create/confirm the Pages project, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, then run live verification.',
     commands: [
       command('npm run verify:production-deploy-workflow'),
+      command('npm run verify:production-secrets'),
       command('npm run verify:github-production-readiness -- --strict'),
       command('GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production', 'deploys-production-when-dispatched'),
     ],

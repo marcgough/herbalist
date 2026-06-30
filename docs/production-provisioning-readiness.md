@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-06-30T19:17:01.519Z
+Generated: 2026-06-30T19:44:12.247Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -18,6 +18,8 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - D1 migration manifest fingerprint: 6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3
 - DNS cutover status: needs-dns-cutover
 - DNS nameserver provider: external-or-registrar
+- Production secret setup status: ready-for-secret-entry
+- GitHub production secret names: 6
 
 ## Next Approved Action
 
@@ -31,6 +33,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: Read-only Cloudflare production state verifier is exposed and included in safe preflight.
 - pass: D1 production migration manifest is current and included in safe preflight.
 - pass: DNS/custom-domain cutover plan is available and included in safe preflight.
+- pass: Production secret setup packet is current and included in safe preflight.
 - pass: Safe preflight includes GitHub CI/manual release evidence verification.
 - pass: Cloudflare binding configurator is available.
 - pass: Production cutover simulation verifier is available.
@@ -64,6 +67,7 @@ npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state
 npm run verify:d1-manifest
 npm run verify:dns-cutover
+npm run verify:production-secrets
 npm run verify:launch -- --soft
 npm run verify:production-contract
 npm run verify:production-provisioning
@@ -100,6 +104,7 @@ npx wrangler d1 migrations apply herbalisti --remote
 Side effect: writes-cloudflare-secrets
 
 ```bash
+npm run verify:production-secrets
 npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
 npx wrangler pages secret put KIE_API_KEY --project-name herbalisti
 npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti

@@ -49,6 +49,7 @@ for (const id of [
   'check-cloudflare-production-state',
   'generate-d1-production-migration-manifest',
   'generate-dns-cutover-plan',
+  'generate-production-secret-setup',
   'activate-d1-bindings-local',
 ]) {
   assert(localIds.has(id), `Checklist should include local action ${id}`)
@@ -102,6 +103,10 @@ assert(
 assert(
   externalActions['run-github-production-deploy-workflow'].command === contract.commands.githubProductionDeploy[0],
   'Guarded GitHub production deploy workflow command should match the production contract',
+)
+assert(
+  externalActions['run-github-production-deploy-workflow'].verification.includes('npm run verify:production-secrets'),
+  'Guarded GitHub production deploy workflow should require production secret setup verification',
 )
 assert(
   checklist.completionGates.every((gate) => contract.commands.liveCompletionGates.includes(gate)),

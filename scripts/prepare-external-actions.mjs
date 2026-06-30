@@ -140,6 +140,15 @@ const localAllowedActions = [
     notes: ['Use npm run verify:dns-cutover before DNS/custom-domain work and again after nameserver changes propagate.'],
   }),
   localAction({
+    id: 'generate-production-secret-setup',
+    title: 'Generate production secret setup packet',
+    command: 'npm run prepare:production-secrets',
+    purpose:
+      'Refresh the GitHub production environment and Cloudflare runtime secret-name setup packet without reading, storing, or printing secret values.',
+    writesLocalFiles: true,
+    notes: ['Use npm run verify:production-secrets before setting GitHub or Cloudflare secret values.'],
+  }),
+  localAction({
     id: 'activate-d1-bindings-local',
     title: 'Activate local Wrangler D1 bindings after Cloudflare returns the database ID',
     command: command(contract.commands, 'activateBindings'),
@@ -263,6 +272,7 @@ const approvalRequiredActions = [
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-release-evidence',
       'npm run verify:d1-manifest',
+      'npm run verify:production-secrets',
       'npm run verify:live-readiness -- --strict',
       'npm run verify:production -- https://herbalisti.com',
       'npm run verify:goal-readiness -- --strict',
@@ -278,6 +288,7 @@ const approvalRequiredActions = [
     notes: [
       'Requires the exact workflow input confirm=deploy-herbalisti-production.',
       'Use the GitHub production environment approval controls before dispatch.',
+      'Run npm run verify:production-secrets and npm run verify:github-production-readiness -- --strict before dispatch.',
       'Do not use skip_live_verification for final completion evidence.',
     ],
   }),

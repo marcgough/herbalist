@@ -76,6 +76,8 @@ assert(productionDeploy.includes('environment:'), 'Production deploy workflow sh
 assert(productionDeploy.includes('npm run verify:github-release-evidence'), 'Production deploy workflow should require exact release evidence')
 assert(productionDeploy.includes('npm run verify:production-deploy-workflow'), 'Production deploy workflow should verify its own contract')
 assert(productionDeploy.includes('npm run verify:d1-manifest'), 'Production deploy workflow should verify D1 migration manifest before remote migrations')
+assert(productionDeploy.includes('npm run verify:dns-cutover'), 'Production deploy workflow should verify DNS cutover readiness')
+assert(productionDeploy.includes('npm run verify:production-secrets'), 'Production deploy workflow should verify production secret setup')
 assert(productionDeploy.includes('npm run deploy:cloudflare'), 'Production deploy workflow should deploy Cloudflare Pages when manually approved')
 assert(productionDeploy.includes('npm run deploy:news-worker'), 'Production deploy workflow should deploy the scheduled Worker when manually approved')
 
@@ -83,6 +85,8 @@ assert(releaseVerifier.includes('verify:github-actions'), 'Full release verifier
 assert(releaseVerifier.includes('verify:production-deploy-workflow'), 'Full release verifier should include the production deploy workflow gate')
 assert(releaseVerifier.includes('verify:github-production-readiness'), 'Full release verifier should include the GitHub production readiness gate')
 assert(releaseVerifier.includes('verify:d1-manifest'), 'Full release verifier should include the D1 production migration manifest gate')
+assert(releaseVerifier.includes('verify:dns-cutover'), 'Full release verifier should include the DNS cutover gate')
+assert(releaseVerifier.includes('verify:production-secrets'), 'Full release verifier should include the production secret setup gate')
 assert(launchVerifier.includes('.github/workflows/ci.yml'), 'Launch verifier should require the CI workflow')
 assert(launchVerifier.includes('.github/workflows/release-gate.yml'), 'Launch verifier should require the manual release workflow')
 assert(launchVerifier.includes('.github/workflows/production-deploy.yml'), 'Launch verifier should require the production deploy workflow')

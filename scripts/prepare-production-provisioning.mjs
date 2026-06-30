@@ -50,6 +50,9 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
     ? readJson('docs/d1-production-migration-manifest.json')
     : null
   const dnsCutoverPlan = exists('docs/dns-cutover-plan.json') ? readJson('docs/dns-cutover-plan.json') : null
+  const productionSecretSetup = exists('docs/production-secret-setup.json')
+    ? readJson('docs/production-secret-setup.json')
+    : null
   const pagesToml = read('wrangler.toml')
   const newsToml = read('wrangler.news.toml')
   const pagesD1Active = hasActiveD1Binding(pagesToml)
@@ -87,6 +90,13 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         contract.commands.safePreflight.includes('npm run verify:dns-cutover') &&
         dnsCutoverPlan?.status !== 'local-contract-failed',
       'DNS/custom-domain cutover plan is available and included in safe preflight.',
+    ),
+    buildCheck(
+      'production-secret-setup',
+      Boolean(scripts['verify:production-secrets']) &&
+        contract.commands.safePreflight.includes('npm run verify:production-secrets') &&
+        productionSecretSetup?.status === 'ready-for-secret-entry',
+      'Production secret setup packet is current and included in safe preflight.',
     ),
     buildCheck(
       'github-release-evidence-preflight',
@@ -146,6 +156,8 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       d1MigrationCount: d1Manifest?.summary?.migrationCount ?? 0,
       dnsCutoverStatus: dnsCutoverPlan?.status ?? 'missing',
       dnsNameserverProvider: dnsCutoverPlan?.currentState?.nameserversProvider ?? 'unknown',
+      productionSecretSetupStatus: productionSecretSetup?.status ?? 'missing',
+      githubProductionSecretCount: productionSecretSetup?.githubProductionEnvironment?.secrets?.length ?? 0,
     },
     checks,
     productionBlockers,
@@ -159,6 +171,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:cloudflare-production-state',
           'npm run verify:d1-manifest',
           'npm run verify:dns-cutover',
+          'npm run verify:production-secrets',
           'npm run verify:launch -- --soft',
           'npm run verify:production-contract',
           'npm run verify:production-provisioning',
@@ -183,7 +196,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       {
         id: 'set-required-secrets',
         sideEffect: 'writes-cloudflare-secrets',
-        commands: contract.secrets.filter((secret) => secret.requiredForLaunch).map((secret) => secret.setCommand),
+        commands: ['npm run verify:production-secrets', ...contract.secrets.filter((secret) => secret.requiredForLaunch).map((secret) => secret.setCommand)],
       },
       {
         id: 'deploy',
@@ -221,6 +234,8 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     `- D1 migration manifest fingerprint: ${packet.currentState.d1MigrationManifestFingerprint ?? 'missing'}`,
     `- DNS cutover status: ${packet.currentState.dnsCutoverStatus}`,
     `- DNS nameserver provider: ${packet.currentState.dnsNameserverProvider}`,
+    `- Production secret setup status: ${packet.currentState.productionSecretSetupStatus}`,
+    `- GitHub production secret names: ${packet.currentState.githubProductionSecretCount}`,
     '',
     '## Next Approved Action',
     '',

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-30T19:18:16.351Z",
+  "generatedAt": "2026-06-30T19:45:17.757Z",
   "source": "static-refresh",
   "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names filtered from source/title metadata.",
   "latestRefresh": {
-    "id": "static-refresh-20260630T191816351Z",
+    "id": "static-refresh-20260630T194517757Z",
     "triggerType": "static-refresh",
     "status": "completed",
-    "startedAt": "2026-06-30T19:18:16.351Z",
-    "finishedAt": "2026-06-30T19:18:16.351Z",
+    "startedAt": "2026-06-30T19:45:17.757Z",
+    "finishedAt": "2026-06-30T19:45:17.757Z",
     "itemCount": 24,
     "persistedCount": 0,
     "publicItemCount": 24,
@@ -18,6 +18,6 @@
   "publicSnapshot": {
     "status": "updated",
     "itemCount": 24,
-    "generatedAt": "2026-06-30T19:18:16.351Z"
+    "generatedAt": "2026-06-30T19:45:17.757Z"
   }
 }

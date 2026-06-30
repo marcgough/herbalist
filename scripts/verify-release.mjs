@@ -154,6 +154,7 @@ for (const [label, command] of [
   ['GitHub production readiness verifier contract', npm('run', 'verify:github-production-readiness', '--', '--skip-release-evidence')],
   ['Cloudflare production state probe', npm('run', 'verify:cloudflare-production-state')],
   ['DNS custom-domain cutover plan', npm('run', 'verify:dns-cutover')],
+  ['production secret setup packet', npm('run', 'verify:production-secrets')],
   ['brand assets', npm('run', 'verify:brand')],
   ['media attribution', npm('run', 'verify:attribution')],
   ['high-tech motion system', npm('run', 'verify:motion-system')],

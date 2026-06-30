@@ -54,6 +54,9 @@ const d1ProductionManifest = exists('docs/d1-production-migration-manifest.json'
 const dnsCutoverPlan = exists('docs/dns-cutover-plan.json')
   ? readJson('docs/dns-cutover-plan.json')
   : { status: 'missing' }
+const productionSecretSetup = exists('docs/production-secret-setup.json')
+  ? readJson('docs/production-secret-setup.json')
+  : { status: 'missing' }
 
 const scripts = packageJson.scripts ?? {}
 const activePagesD1 = hasActiveD1Binding(pagesToml)
@@ -488,12 +491,15 @@ const requirements = [
       exists('docs/d1-production-migration-manifest.md') &&
       exists('docs/dns-cutover-plan.json') &&
       exists('docs/dns-cutover-plan.md') &&
+      exists('docs/production-secret-setup.json') &&
+      exists('docs/production-secret-setup.md') &&
       exists('docs/production-cutover-simulation.json') &&
       exists('docs/production-cutover-simulation.md') &&
       exists('scripts/verify-production-contract.mjs') &&
       exists('scripts/verify-external-actions.mjs') &&
       exists('scripts/prepare-d1-production-manifest.mjs') &&
       exists('scripts/prepare-dns-cutover-plan.mjs') &&
+      exists('scripts/prepare-production-secret-setup.mjs') &&
       exists('scripts/simulate-production-cutover.mjs') &&
       exists('scripts/verify-production-cutover-simulation.mjs') &&
       exists('scripts/prepare-production-provisioning.mjs') &&
@@ -508,6 +514,8 @@ const requirements = [
       Boolean(scripts['prepare:d1-manifest']) &&
       Boolean(scripts['verify:dns-cutover']) &&
       Boolean(scripts['prepare:dns-cutover']) &&
+      Boolean(scripts['verify:production-secrets']) &&
+      Boolean(scripts['prepare:production-secrets']) &&
       Boolean(scripts['verify:production-deploy-workflow']) &&
       Boolean(scripts['verify:github-production-readiness']) &&
       Boolean(scripts['verify:cloudflare-production-state']) &&
@@ -520,7 +528,8 @@ const requirements = [
       productionProvisioningReadiness.status !== 'local-contract-failed' &&
       d1ProductionManifest.status === 'pass' &&
       d1ProductionManifest.summary?.migrationCount >= 1 &&
-      dnsCutoverPlan.status !== 'local-contract-failed'
+      dnsCutoverPlan.status !== 'local-contract-failed' &&
+      productionSecretSetup.status === 'ready-for-secret-entry'
         ? 'pass'
         : 'missing',
     evidence: [
@@ -533,12 +542,15 @@ const requirements = [
       'docs/d1-production-migration-manifest.md',
       'docs/dns-cutover-plan.json',
       'docs/dns-cutover-plan.md',
+      'docs/production-secret-setup.json',
+      'docs/production-secret-setup.md',
       'docs/production-cutover-simulation.json',
       'docs/production-cutover-simulation.md',
       'scripts/verify-production-contract.mjs',
       'scripts/verify-external-actions.mjs',
       'scripts/prepare-d1-production-manifest.mjs',
       'scripts/prepare-dns-cutover-plan.mjs',
+      'scripts/prepare-production-secret-setup.mjs',
       'scripts/simulate-production-cutover.mjs',
       'scripts/verify-production-cutover-simulation.mjs',
       'scripts/prepare-production-provisioning.mjs',
@@ -551,6 +563,7 @@ const requirements = [
       'npm run verify:production-provisioning',
       'npm run verify:d1-manifest',
       'npm run verify:dns-cutover',
+      'npm run verify:production-secrets',
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-production-readiness',
       'npm run verify:cloudflare-production-state',
@@ -576,6 +589,7 @@ const requirements = [
       'scripts/verify-cloudflare-production-state.mjs',
       'scripts/prepare-d1-production-manifest.mjs',
       'scripts/prepare-dns-cutover-plan.mjs',
+      'scripts/prepare-production-secret-setup.mjs',
       '.github/workflows/production-deploy.yml',
       'functions/api/health.js',
       'docs/deployment-runbook.md',
@@ -587,6 +601,7 @@ const requirements = [
       'npm run verify:cloudflare-production-state',
       'npm run verify:d1-manifest',
       'npm run verify:dns-cutover',
+      'npm run verify:production-secrets',
       'npm run verify:live-readiness -- --strict',
       'npm run prepare:launch',
       'npm run prepare:external-actions',
@@ -628,6 +643,8 @@ const requirements = [
       scripts['prepare:d1-manifest'] &&
       scripts['verify:dns-cutover'] &&
       scripts['prepare:dns-cutover'] &&
+      scripts['verify:production-secrets'] &&
+      scripts['prepare:production-secrets'] &&
       scripts['verify:production-deploy-workflow'] &&
       scripts['verify:live-readiness'] &&
       scripts['verify:brand'] &&
@@ -676,6 +693,7 @@ const requirements = [
       'scripts/verify-cloudflare-production-state.mjs',
       'scripts/prepare-d1-production-manifest.mjs',
       'scripts/prepare-dns-cutover-plan.mjs',
+      'scripts/prepare-production-secret-setup.mjs',
       'scripts/verify-production-deploy-workflow.mjs',
       '.github/workflows/ci.yml',
       '.github/workflows/release-gate.yml',

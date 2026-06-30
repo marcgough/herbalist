@@ -29,6 +29,7 @@ npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state
 npm run verify:d1-manifest
 npm run verify:dns-cutover
+npm run verify:production-secrets
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
 npm run prepare:launch
@@ -65,6 +66,7 @@ npm run verify:visual-smoke
 npm run verify:corpus-rights
 npm run verify:d1-manifest
 npm run verify:dns-cutover
+npm run verify:production-secrets
 npm run verify:d1
 npm run verify:news-worker
 npm run pages:dev
@@ -194,6 +196,15 @@ npm run verify:dns-cutover
 ```
 
 It records current public DNS for `herbalisti.com`, checks whether the apex domain is already delegated to Cloudflare nameservers, notes CAA certificate-readiness state, and writes `docs/dns-cutover-plan.json` plus `docs/dns-cutover-plan.md`. It does not call Cloudflare APIs, change nameservers, mutate DNS, deploy, create resources, set secrets, or print secret values.
+
+Production secret setup planning is local and value-free:
+
+```bash
+npm run prepare:production-secrets
+npm run verify:production-secrets
+```
+
+It writes `docs/production-secret-setup.json` and `docs/production-secret-setup.md`, naming the required GitHub `production` environment secrets for the guarded deployment workflow and the Cloudflare runtime secret fallback commands. It does not read, request, set, store, or print secret values.
 
 Production provisioning readiness is local and read-only except for the generated handoff files:
 
@@ -474,6 +485,13 @@ Migration `0008_seed_citation_notes.sql` adds source-led citation notes for refe
 Migration `0009_remedy_plant_parts.sql` adds `plant_parts_json` to remedies and backfills source-led plant-part context such as root, leaf, flower, berry, seed, bulb, and rhizome for the launch remedy set.
 
 ## Secrets
+
+Before entering or setting any secret value, run:
+
+```bash
+npm run prepare:production-secrets
+npm run verify:production-secrets
+```
 
 Set these in the Cloudflare dashboard or with Wrangler:
 

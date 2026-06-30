@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-06-30T19:16:45.952Z
+Generated: 2026-06-30T19:43:59.940Z
 
 Status: needs-approval-and-production-setup
 
@@ -100,6 +100,17 @@ npm run prepare:dns-cutover
 
 Notes:
 - Use npm run verify:dns-cutover before DNS/custom-domain work and again after nameserver changes propagate.
+
+### Generate production secret setup packet
+
+Refresh the GitHub production environment and Cloudflare runtime secret-name setup packet without reading, storing, or printing secret values.
+
+```bash
+npm run prepare:production-secrets
+```
+
+Notes:
+- Use npm run verify:production-secrets before setting GitHub or Cloudflare secret values.
 
 ### Activate local Wrangler D1 bindings after Cloudflare returns the database ID
 
@@ -315,6 +326,7 @@ Verification:
 - npm run verify:production-deploy-workflow
 - npm run verify:github-release-evidence
 - npm run verify:d1-manifest
+- npm run verify:production-secrets
 - npm run verify:live-readiness -- --strict
 - npm run verify:production -- https://herbalisti.com
 - npm run verify:goal-readiness -- --strict
@@ -322,6 +334,7 @@ Verification:
 Notes:
 - Requires the exact workflow input confirm=deploy-herbalisti-production.
 - Use the GitHub production environment approval controls before dispatch.
+- Run npm run verify:production-secrets and npm run verify:github-production-readiness -- --strict before dispatch.
 - Do not use skip_live_verification for final completion evidence.
 
 ### Connect herbalisti.com custom domain and DNS
