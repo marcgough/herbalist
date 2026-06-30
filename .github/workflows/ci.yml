@@ -68,6 +68,7 @@ jobs:
           npm run prepare:completion-audit
           npm run verify:completion-audit
           npm run verify:governance
+          npm run verify:admin-auth
           npm run verify:media-endpoints
           npm run verify:cloudflare-config
           npm run verify:production-cutover

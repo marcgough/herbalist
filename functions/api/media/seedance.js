@@ -1,4 +1,5 @@
 import { extractKieTaskId } from '../../_lib/media.js'
+import { authorizedByAdminToken } from '../../_lib/admin-auth.js'
 
 const KIE_CREATE_TASK_URL = 'https://api.kie.ai/api/v1/jobs/createTask'
 const ALLOWED_MODELS = new Set(['bytedance/seedance-2', 'bytedance/seedance-2-fast'])
@@ -12,14 +13,6 @@ const json = (payload, status = 200) =>
       'cache-control': 'no-store',
     },
   })
-
-const authorized = (request, env) => {
-  const configuredToken = env.MEDIA_ADMIN_TOKEN
-  if (!configuredToken) return false
-  const headerToken = request.headers.get('x-herbalisti-admin-token')
-  const bearer = request.headers.get('authorization')?.replace(/^Bearer\s+/i, '')
-  return headerToken === configuredToken || bearer === configuredToken
-}
 
 const numberInRange = (value, min, max) => {
   const number = Number(value)
@@ -40,7 +33,7 @@ export async function onRequestPost({ request, env }) {
     )
   }
 
-  if (!authorized(request, env)) {
+  if (!(await authorizedByAdminToken(request, env.MEDIA_ADMIN_TOKEN))) {
     return json({ error: 'unauthorized' }, 401)
   }
 

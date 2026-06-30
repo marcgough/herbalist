@@ -4,6 +4,7 @@ import {
   persistNewsItemsToD1,
   sourcePolicyText,
 } from '../functions/_lib/feed.js'
+import { authorizedByAdminToken } from '../functions/_lib/admin-auth.js'
 
 const refresh = async (env, triggerType = 'manual') => {
   if (!env.HERBALISTI_DB) {
@@ -45,20 +46,17 @@ const refresh = async (env, triggerType = 'manual') => {
   }
 }
 
-const authorized = (request, env) => {
-  if (!env.FEED_ADMIN_TOKEN) return false
-  const bearer = request.headers.get('authorization')?.replace(/^Bearer\s+/i, '')
-  const headerToken = request.headers.get('x-herbalisti-feed-token')
-  return bearer === env.FEED_ADMIN_TOKEN || headerToken === env.FEED_ADMIN_TOKEN
-}
-
 export default {
   async scheduled(_event, env, ctx) {
     ctx.waitUntil(refresh(env, 'scheduled'))
   },
 
   async fetch(request, env) {
-    if (!authorized(request, env)) {
+    if (
+      !(await authorizedByAdminToken(request, env.FEED_ADMIN_TOKEN, {
+        headerName: 'x-herbalisti-feed-token',
+      }))
+    ) {
       return Response.json({ error: 'unauthorized' }, { status: 401 })
     }
 

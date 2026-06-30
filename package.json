@@ -57,6 +57,7 @@
     "resolve:production-d1": "node scripts/resolve-production-d1-database.mjs",
     "verify:api": "node scripts/verify-api.mjs",
     "verify:accessibility-smoke": "npm run build && node scripts/verify-accessibility-smoke.mjs",
+    "verify:admin-auth": "node scripts/verify-admin-auth.mjs",
     "verify:api-catalog": "node scripts/verify-api-catalog.mjs",
     "verify:australia-lane": "node scripts/verify-australia-lane.mjs",
     "verify:attribution": "node scripts/verify-attribution.mjs",

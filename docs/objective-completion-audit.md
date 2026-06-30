@@ -1,6 +1,6 @@
 # Herbalisti Objective Completion Audit
 
-Generated: 2026-06-30T21:42:30.972Z
+Generated: 2026-06-30T22:17:58.597Z
 
 ## Objective
 
@@ -11,7 +11,7 @@ Build Herbalisti as a fully functioning website for herbalisti.com with original
 - Status: `local-ready-production-pending`
 - Goal complete: `false`
 - Local implementation ready: `true`
-- Audit signature: `b2ab4e2fd651569c380bfb74bfe91fa750661c2a3456f9169b62412bbbd29431`
+- Audit signature: `c7d105c440c563cc03e906106b2ca56ca87797c7165129c7846f85adf36c1c2a`
 
 ## Completion Rule
 
@@ -33,18 +33,18 @@ Completion is only proven when every requirement is either locally proven or liv
 | independent-newsfeed |pending-production |pending_live_production_evidence |functions/api/news.js<br>functions/api/signals.xml.js<br>functions/api/source-health.js<br>functions/_lib/feed.js |Create the production Cloudflare D1 database.<br>Run npm run configure:cloudflare -- --d1 <database_id> --apply.<br>Deploy the scheduled news Worker. |
 | signal-intelligence |pass |locally_proven |functions/api/signal-intelligence.js<br>functions/_lib/signal-intelligence.js<br>src/App.tsx SignalIntelligencePanel<br>src/App.css signal-intelligence-panel |None |
 | non-pharma-source-governance |pass |locally_proven |functions/_lib/sources.js<br>functions/api/sources.js<br>public/data/sources.json<br>migrations/0007_source_independence_review.sql |None |
-| seedance-video-readiness |pending-production |pending_live_production_evidence |functions/api/media/seedance.js<br>functions/api/media/seedance-status.js<br>functions/_lib/media.js<br>public/data/media-manifest.json |Set KIE_API_KEY and MEDIA_ADMIN_TOKEN as Cloudflare secrets.<br>Generate candidate videos only after credits are approved.<br>Review, store as owned assets, record provenance, then enable manifest slots. |
+| seedance-video-readiness |pending-production |pending_live_production_evidence |functions/api/media/seedance.js<br>functions/api/media/seedance-status.js<br>functions/_lib/media.js<br>functions/_lib/admin-auth.js |Set KIE_API_KEY and MEDIA_ADMIN_TOKEN as Cloudflare secrets.<br>Generate candidate videos only after credits are approved.<br>Review, store as owned assets, record provenance, then enable manifest slots. |
 | operational-health |pass |locally_proven |functions/api/health.js<br>scripts/verify-api.mjs<br>scripts/verify-production.mjs<br>scripts/verify-live-readiness.mjs |None |
 | production-environment-contract |pass |locally_proven |docs/production-environment-contract.json<br>docs/external-launch-actions.json<br>docs/external-launch-actions.md<br>docs/production-provisioning-readiness.json |None |
 | cloudflare-hosting |pending-production |pending_live_production_evidence |wrangler.toml<br>wrangler.news.toml<br>scripts/configure-cloudflare-bindings.mjs<br>scripts/simulate-production-cutover.mjs |Create Cloudflare Pages project herbalisti.<br>Connect herbalisti.com DNS/custom domain.<br>Create and bind Cloudflare D1 database. |
 | medical-and-privacy-boundaries |pass |locally_proven |public/data/governance.json<br>src/App.tsx /governance<br>npm run verify:governance |None |
-| release-verification |pass |locally_proven |package.json scripts<br>scripts/verify-release.mjs<br>scripts/verify-accessibility-smoke.mjs<br>scripts/verify-production.mjs |None |
+| release-verification |pass |locally_proven |package.json scripts<br>scripts/verify-release.mjs<br>scripts/verify-admin-auth.mjs<br>scripts/verify-accessibility-smoke.mjs |None |
 
 ## Launch Readiness
 
 - Launch preflight status: `needs-production-setup`
 - Production ready: `false`
-- Checked files/scripts/passes: `138/99/209`
+- Checked files/scripts/passes: `138/100/209`
 
 ### Current Blockers
 

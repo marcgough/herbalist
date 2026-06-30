@@ -325,6 +325,7 @@ const requirements = [
       exists('functions/api/signals.xml.js') &&
       exists('functions/api/source-health.js') &&
       exists('functions/_lib/feed.js') &&
+      exists('functions/_lib/admin-auth.js') &&
       exists('functions/_lib/signals-rss.js') &&
       exists('workers/news-refresh.js') &&
       exists('migrations/0005_feed_refresh_runs.sql') &&
@@ -334,6 +335,7 @@ const requirements = [
       exists('scripts/verify-signals-rss.mjs') &&
       exists('scripts/verify-source-health.mjs') &&
       scripts['verify:static-news-refresh'] &&
+      scripts['verify:admin-auth'] &&
       scripts['verify:signal-coverage'] &&
       scripts['verify:signals-rss'] &&
       scripts['verify:source-health'] &&
@@ -351,6 +353,7 @@ const requirements = [
       'functions/api/signals.xml.js',
       'functions/api/source-health.js',
       'functions/_lib/feed.js',
+      'functions/_lib/admin-auth.js',
       'functions/_lib/signals-rss.js',
       'workers/news-refresh.js',
       'wrangler.news.toml',
@@ -361,6 +364,7 @@ const requirements = [
       'npm run verify:signals-rss',
       'npm run verify:source-health',
       'npm run verify:feed-normalization',
+      'npm run verify:admin-auth',
       'npm run verify:news-worker',
     ],
     remaining:
@@ -435,7 +439,9 @@ const requirements = [
       exists('functions/api/media/seedance.js') &&
       exists('functions/api/media/seedance-status.js') &&
       exists('functions/_lib/media.js') &&
+      exists('functions/_lib/admin-auth.js') &&
       exists('scripts/verify-media-endpoints.mjs') &&
+      Boolean(scripts['verify:admin-auth']) &&
       mediaManifest.video?.hero &&
       mediaManifest.video?.research
         ? 'pending-production'
@@ -444,8 +450,10 @@ const requirements = [
       'functions/api/media/seedance.js',
       'functions/api/media/seedance-status.js',
       'functions/_lib/media.js',
+      'functions/_lib/admin-auth.js',
       'public/data/media-manifest.json',
       'docs/media-generation.md',
+      'npm run verify:admin-auth',
       'npm run verify:media-endpoints',
     ],
     remaining: [
@@ -688,6 +696,7 @@ const requirements = [
       scripts['verify:brand'] &&
       scripts['verify:attribution'] &&
       scripts['verify:citation-notes'] &&
+      scripts['verify:admin-auth'] &&
       scripts['verify:media-endpoints'] &&
       scripts['verify:motion-system'] &&
       scripts['verify:news-worker'] &&
@@ -718,6 +727,7 @@ const requirements = [
     evidence: [
       'package.json scripts',
       'scripts/verify-release.mjs',
+      'scripts/verify-admin-auth.mjs',
       'scripts/verify-accessibility-smoke.mjs',
       'scripts/verify-production.mjs',
       'scripts/verify-visual-smoke.mjs',

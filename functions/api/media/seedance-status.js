@@ -1,4 +1,5 @@
 import { extractKieResultUrl } from '../../_lib/media.js'
+import { authorizedByAdminToken } from '../../_lib/admin-auth.js'
 
 const KIE_TASK_INFO_URL = 'https://api.kie.ai/api/v1/jobs/recordInfo'
 
@@ -9,14 +10,6 @@ const json = (payload, status = 200) =>
       'cache-control': 'no-store',
     },
   })
-
-const authorized = (request, env) => {
-  const configuredToken = env.MEDIA_ADMIN_TOKEN
-  if (!configuredToken) return false
-  const headerToken = request.headers.get('x-herbalisti-admin-token')
-  const bearer = request.headers.get('authorization')?.replace(/^Bearer\s+/i, '')
-  return headerToken === configuredToken || bearer === configuredToken
-}
 
 export async function onRequestGet({ request, env }) {
   if (!env.KIE_API_KEY || !env.MEDIA_ADMIN_TOKEN) {
@@ -29,7 +22,7 @@ export async function onRequestGet({ request, env }) {
     )
   }
 
-  if (!authorized(request, env)) {
+  if (!(await authorizedByAdminToken(request, env.MEDIA_ADMIN_TOKEN))) {
     return json({ error: 'unauthorized' }, 401)
   }
 

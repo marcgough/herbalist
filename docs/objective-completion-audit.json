@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T21:42:30.972Z",
-  "auditSignature": "b2ab4e2fd651569c380bfb74bfe91fa750661c2a3456f9169b62412bbbd29431",
+  "generatedAt": "2026-06-30T22:17:58.597Z",
+  "auditSignature": "c7d105c440c563cc03e906106b2ca56ca87797c7165129c7846f85adf36c1c2a",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -205,6 +205,7 @@
         "functions/api/signals.xml.js",
         "functions/api/source-health.js",
         "functions/_lib/feed.js",
+        "functions/_lib/admin-auth.js",
         "functions/_lib/signals-rss.js",
         "workers/news-refresh.js",
         "wrangler.news.toml",
@@ -215,6 +216,7 @@
         "npm run verify:signals-rss",
         "npm run verify:source-health",
         "npm run verify:feed-normalization",
+        "npm run verify:admin-auth",
         "npm run verify:news-worker"
       ],
       "remaining": [
@@ -274,8 +276,10 @@
         "functions/api/media/seedance.js",
         "functions/api/media/seedance-status.js",
         "functions/_lib/media.js",
+        "functions/_lib/admin-auth.js",
         "public/data/media-manifest.json",
         "docs/media-generation.md",
+        "npm run verify:admin-auth",
         "npm run verify:media-endpoints"
       ],
       "remaining": [
@@ -436,6 +440,7 @@
       "evidence": [
         "package.json scripts",
         "scripts/verify-release.mjs",
+        "scripts/verify-admin-auth.mjs",
         "scripts/verify-accessibility-smoke.mjs",
         "scripts/verify-production.mjs",
         "scripts/verify-visual-smoke.mjs",
@@ -513,7 +518,7 @@
       "protectedEndpointCount": 2
     },
     "news": {
-      "generatedAt": "2026-06-30T21:10:35.122Z",
+      "generatedAt": "2026-06-30T22:06:01.729Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 15,
@@ -536,7 +541,7 @@
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T21:10:35.122Z"
+        "generatedAt": "2026-06-30T22:06:01.729Z"
       }
     },
     "media": {
@@ -567,7 +572,7 @@
     ],
     "checked": {
       "files": 138,
-      "scripts": 99,
+      "scripts": 100,
       "passes": 209
     },
     "nextActions": [

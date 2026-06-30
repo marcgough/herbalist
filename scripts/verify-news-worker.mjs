@@ -332,6 +332,14 @@ try {
   const unauthorized = await worker.fetch(new Request('https://herbalisti.local/'), env)
   assert(unauthorized.status === 401, `Expected unauthorized refresh to return 401, got ${unauthorized.status}`)
 
+  const wrongToken = await worker.fetch(
+    new Request('https://herbalisti.local/', {
+      headers: { 'x-herbalisti-feed-token': `${token}-wrong` },
+    }),
+    env,
+  )
+  assert(wrongToken.status === 401, `Expected wrong-token refresh to return 401, got ${wrongToken.status}`)
+
   const authorized = await worker.fetch(
     new Request('https://herbalisti.local/', {
       headers: { authorization: `Bearer ${token}` },
@@ -346,6 +354,19 @@ try {
   assert(
     payload.refreshRun?.itemCount === payload.itemCount && payload.refreshRun?.persistedCount === payload.persisted,
     'Manual refresh ledger counts should match the persisted feed result',
+  )
+
+  const headerAuthorized = await worker.fetch(
+    new Request('https://herbalisti.local/', {
+      headers: { 'x-herbalisti-feed-token': token },
+    }),
+    env,
+  )
+  const headerPayload = await headerAuthorized.json()
+  assert(headerAuthorized.ok, `Header-token refresh failed: ${JSON.stringify(headerPayload)}`)
+  assert(
+    headerPayload.itemCount === payload.itemCount && headerPayload.persisted === payload.persisted,
+    'Header-token refresh should match bearer-token refresh counts',
   )
 
   const scheduledPromises = []

@@ -64,6 +64,7 @@ assert(ci.includes('npm run verify:production-deploy-dry-run'), 'CI workflow sho
 assert(ci.includes('npm run verify:production-d1-resolver'), 'CI workflow should verify production D1 resolver behavior')
 assert(ci.includes('npm run verify:search-discovery'), 'CI workflow should verify search discovery')
 assert(ci.includes('npm run verify:corpus-rights -- --public-only'), 'CI workflow should verify committed public corpus exports')
+assert(ci.includes('npm run verify:admin-auth'), 'CI workflow should verify protected admin token auth')
 assert(ci.includes('npm run verify:media-endpoints'), 'CI workflow should verify media endpoints with mocked provider responses')
 
 assert(release.includes('workflow_dispatch:'), 'Manual release workflow should only run by workflow_dispatch')
