@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-30T18:49:23.362Z",
+  "status": "pass",
+  "productionComplete": false,
+  "safeToRun": "Reads local migration SQL and launch contracts, then optionally writes docs/d1-production-migration-manifest files. It does not call Cloudflare, apply remote migrations, deploy, mutate DNS, create resources, call paid APIs, or print secret values.",
+  "project": {
+    "databaseName": "herbalisti",
+    "binding": "HERBALISTI_DB",
+    "migrationsPath": "migrations",
+    "remoteMigrationCommand": "npx wrangler d1 migrations apply herbalisti --remote",
+    "localVerificationCommand": "npm run verify:d1"
+  },
+  "summary": {
+    "migrationCount": 9,
+    "totalBytes": 35080,
+    "manifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
+    "tablesCreated": [
+      "citation_notes",
+      "feed_refresh_runs",
+      "feed_sources",
+      "media_jobs",
+      "news_items",
+      "reference_books",
+      "remedies"
+    ],
+    "tablesAltered": [
+      "feed_sources",
+      "reference_books",
+      "remedies"
+    ],
+    "seedTargets": [
+      "citation_notes",
+      "feed_sources",
+      "reference_books",
+      "remedies"
+    ],
+    "indexesCreated": [
+      "idx_citation_notes_linked_record_id",
+      "idx_citation_notes_source_type",
+      "idx_feed_refresh_runs_finished_at",
+      "idx_media_jobs_status",
+      "idx_news_items_published_at",
+      "idx_news_items_source_name",
+      "idx_remedies_name"
+    ]
+  },
+  "checks": [
+    {
+      "id": "migration-directory",
+      "status": "pass",
+      "detail": "9 SQL migration files found in migrations."
+    },
+    {
+      "id": "file-naming",
+      "status": "pass",
+      "detail": "Migration files use the ordered NNNN_description.sql naming pattern."
+    },
+    {
+      "id": "continuous-sequence",
+      "status": "pass",
+      "detail": "Migration sequence: 0001, 0002, 0003, 0004, 0005, 0006, 0007, 0008, 0009."
+    },
+    {
+      "id": "production-contract",
+      "status": "pass",
+      "detail": "Production contract points Cloudflare D1 at the herbalisti migration directory."
+    },
+    {
+      "id": "local-d1-verifier",
+      "status": "pass",
+      "detail": "Local D1 migration verifier is exposed as npm run verify:d1."
+    },
+    {
+      "id": "remote-command-recorded",
+      "status": "pass",
+      "detail": "Remote D1 migration command is recorded in the production contract."
+    },
+    {
+      "id": "no-secret-values",
+      "status": "pass",
+      "detail": "Migration SQL does not contain obvious API keys, bearer tokens, or private keys."
+    }
+  ],
+  "migrations": [
+    {
+      "file": "migrations/0001_initial.sql",
+      "bytes": 1763,
+      "sha256": "9426cb6082769c5f2af4df43299ecba8281357e0d176f0c54dc1029d5759f217",
+      "createsTables": [
+        "feed_sources",
+        "media_jobs",
+        "news_items",
+        "reference_books"
+      ],
+      "altersTables": [],
+      "createsIndexes": [
+        "idx_media_jobs_status",
+        "idx_news_items_published_at",
+        "idx_news_items_source_name"
+      ],
+      "insertTargets": [],
+      "updateTargets": []
+    },
+    {
+      "file": "migrations/0002_seed_reference_data.sql",
+      "bytes": 3400,
+      "sha256": "8b21ee063cd4138fd8553831865a01f27af10b7fac2a081d400b7541b836a6c2",
+      "createsTables": [],
+      "altersTables": [],
+      "createsIndexes": [],
+      "insertTargets": [
+        "feed_sources",
+        "reference_books"
+      ],
+      "updateTargets": []
+    },
+    {
+      "file": "migrations/0003_reference_book_metadata.sql",
+      "bytes": 3306,
+      "sha256": "9d185c3d3a5e02baf7d691c1d57e69bd9fcdd30f8083d36e0fedfe1640c0e6fb",
+      "createsTables": [],
+      "altersTables": [
+        "reference_books"
+      ],
+      "createsIndexes": [],
+      "insertTargets": [],
+      "updateTargets": [
+        "reference_books"
+      ]
+    },
+    {
+      "file": "migrations/0004_feed_source_names.sql",
+      "bytes": 502,
+      "sha256": "8f5f845577882e232b7831c97d8cc8022eb50181f9645c937b2a96846c7b38bf",
+      "createsTables": [],
+      "altersTables": [
+        "feed_sources"
+      ],
+      "createsIndexes": [],
+      "insertTargets": [],
+      "updateTargets": [
+        "feed_sources"
+      ]
+    },
+    {
+      "file": "migrations/0005_feed_refresh_runs.sql",
+      "bytes": 557,
+      "sha256": "e8147ab97c3fb4a12bfd7299b97aa0c76bbf825cd18cf4c5658d6450d66e5127",
+      "createsTables": [
+        "feed_refresh_runs"
+      ],
+      "altersTables": [],
+      "createsIndexes": [
+        "idx_feed_refresh_runs_finished_at"
+      ],
+      "insertTargets": [],
+      "updateTargets": []
+    },
+    {
+      "file": "migrations/0006_seed_remedies.sql",
+      "bytes": 14609,
+      "sha256": "a1e4825dd183d9c8f06e3e1f9cfb2adeeec05b393d3f8525bd191c8b37048b8d",
+      "createsTables": [
+        "remedies"
+      ],
+      "altersTables": [],
+      "createsIndexes": [
+        "idx_remedies_name"
+      ],
+      "insertTargets": [
+        "remedies"
+      ],
+      "updateTargets": []
+    },
+    {
+      "file": "migrations/0007_source_independence_review.sql",
+      "bytes": 3709,
+      "sha256": "374ddc394f70a95127eede3b148e81ac5eb933e069c85b48cd4b0fa87f49c347",
+      "createsTables": [],
+      "altersTables": [
+        "feed_sources"
+      ],
+      "createsIndexes": [],
+      "insertTargets": [],
+      "updateTargets": [
+        "feed_sources"
+      ]
+    },
+    {
+      "file": "migrations/0008_seed_citation_notes.sql",
+      "bytes": 5498,
+      "sha256": "44a5a04e2b7641ab32dc47a5b2e69ca3b10a9a32d48e62c3fe28d6905538f08b",
+      "createsTables": [
+        "citation_notes"
+      ],
+      "altersTables": [],
+      "createsIndexes": [
+        "idx_citation_notes_linked_record_id",
+        "idx_citation_notes_source_type"
+      ],
+      "insertTargets": [
+        "citation_notes"
+      ],
+      "updateTargets": []
+    },
+    {
+      "file": "migrations/0009_remedy_plant_parts.sql",
+      "bytes": 1736,
+      "sha256": "633576d3b20bebc7dd3afd885fd5c35bd7b4f618e45649d262a960f911940ef6",
+      "createsTables": [],
+      "altersTables": [
+        "remedies"
+      ],
+      "createsIndexes": [],
+      "insertTargets": [],
+      "updateTargets": [
+        "remedies"
+      ]
+    }
+  ],
+  "productionGuardrail": "Apply remote D1 migrations only after this manifest, npm run verify:d1, npm run verify:launch -- --soft, npm run verify:production-contract, and approved Cloudflare D1 provisioning have passed."
+}

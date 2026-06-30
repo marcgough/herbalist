@@ -54,6 +54,7 @@ for (const command of [
   'npm run verify:production-deploy-workflow',
   'npm run verify:launch -- --soft',
   'npm run verify:production-contract',
+  'npm run verify:d1-manifest',
   'npm run verify:production-provisioning',
   'npx wrangler pages project create herbalisti --production-branch main',
   'npm run configure:cloudflare -- --d1 "$CLOUDFLARE_D1_DATABASE_ID" --apply',

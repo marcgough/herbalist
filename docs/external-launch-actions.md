@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-06-30T18:19:00.889Z
+Generated: 2026-06-30T18:49:32.344Z
 
 Status: needs-approval-and-production-setup
 
@@ -79,6 +79,17 @@ npm run verify:cloudflare-production-state
 Notes:
 - Use npm run verify:cloudflare-production-state -- --strict after Cloudflare resources, secrets, and deployments are expected to exist.
 
+### Generate D1 production migration manifest
+
+Refresh the ordered SQL migration fingerprint packet before remote D1 migrations are approved or applied.
+
+```bash
+npm run prepare:d1-manifest
+```
+
+Notes:
+- Use npm run verify:d1-manifest before any remote D1 migration command.
+
 ### Activate local Wrangler D1 bindings after Cloudflare returns the database ID
 
 Write the returned D1 database ID into local Wrangler config after the external D1 resource exists.
@@ -155,6 +166,7 @@ npx wrangler d1 migrations apply herbalisti --remote
 After: create-d1-database, activate-d1-bindings-local
 
 Verification:
+- npm run verify:d1-manifest
 - npm run verify:launch -- --soft
 
 ### Set Feed Admin Token secret
@@ -291,6 +303,7 @@ Secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_D1_DATABAS
 Verification:
 - npm run verify:production-deploy-workflow
 - npm run verify:github-release-evidence
+- npm run verify:d1-manifest
 - npm run verify:live-readiness -- --strict
 - npm run verify:production -- https://herbalisti.com
 - npm run verify:goal-readiness -- --strict

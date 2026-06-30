@@ -47,6 +47,7 @@ for (const id of [
   'generate-production-provisioning-readiness',
   'check-github-production-readiness',
   'check-cloudflare-production-state',
+  'generate-d1-production-migration-manifest',
   'activate-d1-bindings-local',
 ]) {
   assert(localIds.has(id), `Checklist should include local action ${id}`)
@@ -84,6 +85,10 @@ assert(
 assert(
   externalActions['apply-remote-d1-migrations'].command === contract.commands.remoteMigrations[0],
   'Remote migration command should match the production contract',
+)
+assert(
+  externalActions['apply-remote-d1-migrations'].verification.includes('npm run verify:d1-manifest'),
+  'Remote migration action should require D1 production migration manifest verification',
 )
 assert(
   externalActions['deploy-cloudflare-pages'].command === contract.commands.deploy[0],

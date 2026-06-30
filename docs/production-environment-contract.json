@@ -35,7 +35,12 @@
       "binding": "HERBALISTI_DB",
       "configFiles": ["wrangler.toml", "wrangler.news.toml"],
       "migrationsPath": "migrations",
-      "verify": ["npm run verify:d1", "npm run verify:launch -- --soft", "npm run verify:production-cutover"]
+      "verify": [
+        "npm run verify:d1",
+        "npm run verify:d1-manifest",
+        "npm run verify:launch -- --soft",
+        "npm run verify:production-cutover"
+      ]
     },
     {
       "id": "scheduled-news-worker",
@@ -117,6 +122,7 @@
       "npm run verify:github-production-readiness",
       "npm run verify:github-release-evidence",
       "npm run verify:cloudflare-production-state",
+      "npm run verify:d1-manifest",
       "npm run prepare:production-provisioning",
       "npm run verify:production-provisioning",
       "npm run verify:static-news-refresh",

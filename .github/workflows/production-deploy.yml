@@ -92,6 +92,7 @@ jobs:
           npm run verify:production-deploy-workflow
           npm run verify:launch -- --soft
           npm run verify:production-contract
+          npm run verify:d1-manifest
           npm run verify:production-provisioning
 
       - name: Ensure Cloudflare Pages project
@@ -112,10 +113,13 @@ jobs:
       - name: Verify configured launch contracts
         run: |
           npm run verify:launch -- --soft
+          npm run verify:d1-manifest
           npm run verify:production-provisioning
 
       - name: Apply production D1 migrations
-        run: npx wrangler d1 migrations apply herbalisti --remote
+        run: |
+          npm run verify:d1-manifest
+          npx wrangler d1 migrations apply herbalisti --remote
 
       - name: Set Cloudflare runtime secrets
         shell: bash

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T18:19:01.744Z",
+  "generatedAt": "2026-06-30T18:49:41.852Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,8 +27,10 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "785f1ef4f8ec5ecc2c7929276710c8040cdbd01400317eeb25e789fafea83518",
-    "externalActionsFingerprint": "6b8a526cb671f3640c08b8f4ec210362c7b03a88e8f83dbd08c6b2512c5b4988"
+    "contractFingerprint": "89c8fbfa0032ef4c50bde4a372e9ffc24e1364e16c7ce537f136f5c5b50c1219",
+    "externalActionsFingerprint": "297c301a37c1c04b73de8d5cc1a98845e31237868783ad6dfdbcf14be21a584d",
+    "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
+    "d1MigrationCount": 9
   },
   "checks": [
     {
@@ -50,6 +52,11 @@
       "id": "cloudflare-production-state-gate",
       "status": "pass",
       "detail": "Read-only Cloudflare production state verifier is exposed and included in safe preflight."
+    },
+    {
+      "id": "d1-production-migration-manifest",
+      "status": "pass",
+      "detail": "D1 production migration manifest is current and included in safe preflight."
     },
     {
       "id": "github-release-evidence-preflight",
@@ -132,6 +139,7 @@
       "commands": [
         "npm run verify:github-release-evidence",
         "npm run verify:cloudflare-production-state",
+        "npm run verify:d1-manifest",
         "npm run verify:launch -- --soft",
         "npm run verify:production-contract",
         "npm run verify:production-provisioning"

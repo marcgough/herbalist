@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-06-30T18:19:01.744Z
+Generated: 2026-06-30T18:49:41.852Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -14,6 +14,8 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - R2 media binding active: false
 - Required secret names: FEED_ADMIN_TOKEN, KIE_API_KEY, MEDIA_ADMIN_TOKEN
 - Locally visible required secret names: none
+- D1 migration count: 9
+- D1 migration manifest fingerprint: 6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3
 
 ## Next Approved Action
 
@@ -25,6 +27,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: External action checklist describes production setup state.
 - pass: GitHub release evidence verifier is exposed as an npm script.
 - pass: Read-only Cloudflare production state verifier is exposed and included in safe preflight.
+- pass: D1 production migration manifest is current and included in safe preflight.
 - pass: Safe preflight includes GitHub CI/manual release evidence verification.
 - pass: Cloudflare binding configurator is available.
 - pass: Production cutover simulation verifier is available.
@@ -56,6 +59,7 @@ Side effect: none
 ```bash
 npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state
+npm run verify:d1-manifest
 npm run verify:launch -- --soft
 npm run verify:production-contract
 npm run verify:production-provisioning

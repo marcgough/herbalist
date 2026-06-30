@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T18:30:14.439Z",
-  "auditSignature": "db973f42a950be7a469fa4b0348ba57138b4d5c512bbe53bda426790b4dae99c",
+  "generatedAt": "2026-06-30T18:53:22.237Z",
+  "auditSignature": "c4aa727c291a79e39c138fb572b35fc20c97c88476c21b1a707508b02cec5273",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -315,10 +315,13 @@
         "docs/external-launch-actions.md",
         "docs/production-provisioning-readiness.json",
         "docs/production-provisioning-readiness.md",
+        "docs/d1-production-migration-manifest.json",
+        "docs/d1-production-migration-manifest.md",
         "docs/production-cutover-simulation.json",
         "docs/production-cutover-simulation.md",
         "scripts/verify-production-contract.mjs",
         "scripts/verify-external-actions.mjs",
+        "scripts/prepare-d1-production-manifest.mjs",
         "scripts/simulate-production-cutover.mjs",
         "scripts/verify-production-cutover-simulation.mjs",
         "scripts/prepare-production-provisioning.mjs",
@@ -329,6 +332,7 @@
         "npm run verify:production-contract",
         "npm run verify:external-actions",
         "npm run verify:production-provisioning",
+        "npm run verify:d1-manifest",
         "npm run verify:production-deploy-workflow",
         "npm run verify:github-production-readiness",
         "npm run verify:cloudflare-production-state",
@@ -355,6 +359,7 @@
         "scripts/verify-production-deploy-workflow.mjs",
         "scripts/verify-github-production-readiness.mjs",
         "scripts/verify-cloudflare-production-state.mjs",
+        "scripts/prepare-d1-production-manifest.mjs",
         ".github/workflows/production-deploy.yml",
         "functions/api/health.js",
         "docs/deployment-runbook.md",
@@ -364,6 +369,7 @@
         "npm run verify:production-deploy-workflow",
         "npm run verify:github-production-readiness",
         "npm run verify:cloudflare-production-state",
+        "npm run verify:d1-manifest",
         "npm run verify:live-readiness -- --strict",
         "npm run prepare:launch",
         "npm run prepare:external-actions"
@@ -411,6 +417,7 @@
         "scripts/verify-github-release-evidence.mjs",
         "scripts/verify-github-production-readiness.mjs",
         "scripts/verify-cloudflare-production-state.mjs",
+        "scripts/prepare-d1-production-manifest.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
         ".github/workflows/ci.yml",
         ".github/workflows/release-gate.yml",
@@ -470,30 +477,30 @@
       "protectedEndpointCount": 2
     },
     "news": {
-      "generatedAt": "2026-06-30T18:29:15.551Z",
+      "generatedAt": "2026-06-30T18:52:31.569Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 15,
         "DNA modification": 5,
         "Peptides": 1,
-        "Health as a service": 1,
         "Self-sovereign wellbeing": 1,
-        "Gene editing": 6,
-        "CRISPR": 5,
-        "Gene therapy": 2
+        "Gene editing": 7,
+        "CRISPR": 6,
+        "Gene therapy": 3,
+        "Health as a service": 1
       },
       "sourceCounts": {
-        "Lifespan.io": 6,
         "Fight Aging!": 6,
+        "Lifespan.io": 6,
         "arXiv": 2,
-        "Crossref": 7,
-        "bioRxiv": 3
+        "bioRxiv": 3,
+        "Crossref": 7
       },
       "latestRefreshStatus": "completed",
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T18:29:15.551Z"
+        "generatedAt": "2026-06-30T18:52:31.569Z"
       }
     },
     "media": {
@@ -523,9 +530,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 123,
-      "scripts": 88,
-      "passes": 182
+      "files": 126,
+      "scripts": 90,
+      "passes": 187
     },
     "nextActions": [
       "Create the Cloudflare D1 database named herbalisti.",
@@ -557,6 +564,7 @@
       "npm run verify:github-production-readiness",
       "npm run verify:github-release-evidence",
       "npm run verify:cloudflare-production-state",
+      "npm run verify:d1-manifest",
       "npm run prepare:production-provisioning",
       "npm run verify:production-provisioning",
       "npm run verify:static-news-refresh",

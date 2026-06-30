@@ -27,6 +27,7 @@ npm run verify:production-deploy-workflow
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state
+npm run verify:d1-manifest
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
 npm run prepare:launch
@@ -61,6 +62,7 @@ npm run verify:source-governance
 npm run verify:source-health
 npm run verify:visual-smoke
 npm run verify:corpus-rights
+npm run verify:d1-manifest
 npm run verify:d1
 npm run verify:news-worker
 npm run pages:dev
@@ -388,10 +390,12 @@ The Governance policy keeps four boundaries explicit:
 For local migration verification without Cloudflare account access:
 
 ```bash
+npm run prepare:d1-manifest
+npm run verify:d1-manifest
 npm run verify:d1
 ```
 
-This uses `wrangler.local.toml`, creates a clean ignored local D1 sandbox at `.wrangler-herbalisti-verify`, applies all migrations, and checks the reference-book metadata, feed source seed records, `news_items`, and `media_jobs`.
+The manifest commands write and verify `docs/d1-production-migration-manifest.json` and `docs/d1-production-migration-manifest.md`, fingerprinting the ordered SQL files that will later be applied remotely. `verify:d1` uses `wrangler.local.toml`, creates a clean ignored local D1 sandbox at `.wrangler-herbalisti-verify`, applies all migrations, and checks the reference-book metadata, feed source seed records, `news_items`, and `media_jobs`.
 
 Create the database:
 
@@ -420,6 +424,7 @@ Manual file editing should only be needed if Cloudflare changes the Wrangler bin
 Apply migrations:
 
 ```bash
+npm run verify:d1-manifest
 npm run wrangler -- d1 migrations apply herbalisti --local
 npm run wrangler -- d1 migrations apply herbalisti --remote
 ```

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T18:19:00.889Z",
+  "generatedAt": "2026-06-30T18:49:32.344Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -101,6 +101,18 @@
       ]
     },
     {
+      "id": "generate-d1-production-migration-manifest",
+      "title": "Generate D1 production migration manifest",
+      "approvalRequired": false,
+      "command": "npm run prepare:d1-manifest",
+      "purpose": "Refresh the ordered SQL migration fingerprint packet before remote D1 migrations are approved or applied.",
+      "writesLocalFiles": true,
+      "after": [],
+      "notes": [
+        "Use npm run verify:d1-manifest before any remote D1 migration command."
+      ]
+    },
+    {
       "id": "activate-d1-bindings-local",
       "title": "Activate local Wrangler D1 bindings after Cloudflare returns the database ID",
       "approvalRequired": false,
@@ -177,6 +189,7 @@
         "activate-d1-bindings-local"
       ],
       "verification": [
+        "npm run verify:d1-manifest",
         "npm run verify:launch -- --soft"
       ],
       "secretNames": [],
@@ -309,6 +322,7 @@
       "verification": [
         "npm run verify:production-deploy-workflow",
         "npm run verify:github-release-evidence",
+        "npm run verify:d1-manifest",
         "npm run verify:live-readiness -- --strict",
         "npm run verify:production -- https://herbalisti.com",
         "npm run verify:goal-readiness -- --strict"

@@ -183,6 +183,7 @@ for (const [label, command] of [
   ['production deploy workflow', npm('run', 'verify:production-deploy-workflow')],
   ['production provisioning readiness', npm('run', 'verify:production-provisioning')],
   ['production environment contract', npm('run', 'verify:production-contract')],
+  ['D1 production migration manifest', npm('run', 'verify:d1-manifest')],
   ['local D1 migrations', npm('run', 'verify:d1')],
   ['scheduled news Worker', npm('run', 'verify:news-worker')],
 ]) {

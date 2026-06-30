@@ -67,6 +67,7 @@ const phases = [
       'GitHub production environment and secret-name readiness can be checked without exposing secret values.',
       'Current GitHub CI and manual release-gate evidence is verified for the intended launch commit.',
       'Read-only Cloudflare production-state probing is available before any resource creation or deployment.',
+      'D1 production migration manifest fingerprints the exact ordered SQL files before remote migration approval.',
       'Production provisioning readiness shows the next approved action, local state, and exact operator sequence.',
       'Local Cloudflare Pages runtime starts.',
       'API and production-shape smoke tests pass.',
@@ -116,6 +117,7 @@ const phases = [
       command('npm run verify:github-production-readiness'),
       command('npm run verify:github-release-evidence'),
       command('npm run verify:cloudflare-production-state'),
+      command('npm run verify:d1-manifest'),
       command('npm run prepare:production-provisioning'),
       command('npm run verify:production-provisioning'),
       command('npm run verify:static-news-refresh'),
@@ -164,7 +166,10 @@ const phases = [
     title: 'Apply production D1 migrations',
     status: pagesD1Active && newsD1Active ? 'ready-to-run' : 'blocked-by-bindings',
     purpose: 'Create the production tables and seed launch data for references, remedies, plant parts, sources, news, media jobs, and feed refresh runs.',
-    commands: [command('npx wrangler d1 migrations apply herbalisti --remote', 'writes-cloudflare-d1')],
+    commands: [
+      command('npm run verify:d1-manifest'),
+      command('npx wrangler d1 migrations apply herbalisti --remote', 'writes-cloudflare-d1'),
+    ],
     blockers: pagesD1Active && newsD1Active ? [] : ['Activate the D1 binding before remote migrations.'],
   }),
   phase({

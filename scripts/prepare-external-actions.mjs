@@ -122,6 +122,15 @@ const localAllowedActions = [
     notes: ['Use npm run verify:cloudflare-production-state -- --strict after Cloudflare resources, secrets, and deployments are expected to exist.'],
   }),
   localAction({
+    id: 'generate-d1-production-migration-manifest',
+    title: 'Generate D1 production migration manifest',
+    command: 'npm run prepare:d1-manifest',
+    purpose:
+      'Refresh the ordered SQL migration fingerprint packet before remote D1 migrations are approved or applied.',
+    writesLocalFiles: true,
+    notes: ['Use npm run verify:d1-manifest before any remote D1 migration command.'],
+  }),
+  localAction({
     id: 'activate-d1-bindings-local',
     title: 'Activate local Wrangler D1 bindings after Cloudflare returns the database ID',
     command: command(contract.commands, 'activateBindings'),
@@ -169,7 +178,7 @@ const approvalRequiredActions = [
     externalEffect: 'Writes production database schema and seed data to Cloudflare D1.',
     approvalReason: 'Mutates the production data store.',
     after: ['create-d1-database', 'activate-d1-bindings-local'],
-    verification: ['npm run verify:launch -- --soft'],
+    verification: ['npm run verify:d1-manifest', 'npm run verify:launch -- --soft'],
   }),
   approvalAction({
     id: 'set-feed-admin-token',
@@ -244,6 +253,7 @@ const approvalRequiredActions = [
     verification: [
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-release-evidence',
+      'npm run verify:d1-manifest',
       'npm run verify:live-readiness -- --strict',
       'npm run verify:production -- https://herbalisti.com',
       'npm run verify:goal-readiness -- --strict',

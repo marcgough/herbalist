@@ -48,6 +48,9 @@ const liveReadinessVerifier = read('scripts/verify-live-readiness.mjs')
 const externalActions = readJson('docs/external-launch-actions.json')
 const productionCutoverSimulation = readJson('docs/production-cutover-simulation.json')
 const productionProvisioningReadiness = readJson('docs/production-provisioning-readiness.json')
+const d1ProductionManifest = exists('docs/d1-production-migration-manifest.json')
+  ? readJson('docs/d1-production-migration-manifest.json')
+  : { status: 'missing', summary: { migrationCount: 0 } }
 
 const scripts = packageJson.scripts ?? {}
 const activePagesD1 = hasActiveD1Binding(pagesToml)
@@ -478,10 +481,13 @@ const requirements = [
       exists('docs/external-launch-actions.md') &&
       exists('docs/production-provisioning-readiness.json') &&
       exists('docs/production-provisioning-readiness.md') &&
+      exists('docs/d1-production-migration-manifest.json') &&
+      exists('docs/d1-production-migration-manifest.md') &&
       exists('docs/production-cutover-simulation.json') &&
       exists('docs/production-cutover-simulation.md') &&
       exists('scripts/verify-production-contract.mjs') &&
       exists('scripts/verify-external-actions.mjs') &&
+      exists('scripts/prepare-d1-production-manifest.mjs') &&
       exists('scripts/simulate-production-cutover.mjs') &&
       exists('scripts/verify-production-cutover-simulation.mjs') &&
       exists('scripts/prepare-production-provisioning.mjs') &&
@@ -492,6 +498,8 @@ const requirements = [
       Boolean(scripts['verify:production-contract']) &&
       Boolean(scripts['verify:external-actions']) &&
       Boolean(scripts['verify:production-provisioning']) &&
+      Boolean(scripts['verify:d1-manifest']) &&
+      Boolean(scripts['prepare:d1-manifest']) &&
       Boolean(scripts['verify:production-deploy-workflow']) &&
       Boolean(scripts['verify:github-production-readiness']) &&
       Boolean(scripts['verify:cloudflare-production-state']) &&
@@ -501,7 +509,9 @@ const requirements = [
       externalActions.guardrails?.externalActionsRequireFreshApproval === true &&
       productionCutoverSimulation.status === 'pass' &&
       productionCutoverSimulation.simulatedBindings?.sharedD1DatabaseId === true &&
-      productionProvisioningReadiness.status !== 'local-contract-failed'
+      productionProvisioningReadiness.status !== 'local-contract-failed' &&
+      d1ProductionManifest.status === 'pass' &&
+      d1ProductionManifest.summary?.migrationCount >= 1
         ? 'pass'
         : 'missing',
     evidence: [
@@ -510,10 +520,13 @@ const requirements = [
       'docs/external-launch-actions.md',
       'docs/production-provisioning-readiness.json',
       'docs/production-provisioning-readiness.md',
+      'docs/d1-production-migration-manifest.json',
+      'docs/d1-production-migration-manifest.md',
       'docs/production-cutover-simulation.json',
       'docs/production-cutover-simulation.md',
       'scripts/verify-production-contract.mjs',
       'scripts/verify-external-actions.mjs',
+      'scripts/prepare-d1-production-manifest.mjs',
       'scripts/simulate-production-cutover.mjs',
       'scripts/verify-production-cutover-simulation.mjs',
       'scripts/prepare-production-provisioning.mjs',
@@ -524,6 +537,7 @@ const requirements = [
       'npm run verify:production-contract',
       'npm run verify:external-actions',
       'npm run verify:production-provisioning',
+      'npm run verify:d1-manifest',
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-production-readiness',
       'npm run verify:cloudflare-production-state',
@@ -547,6 +561,7 @@ const requirements = [
       'scripts/verify-production-deploy-workflow.mjs',
       'scripts/verify-github-production-readiness.mjs',
       'scripts/verify-cloudflare-production-state.mjs',
+      'scripts/prepare-d1-production-manifest.mjs',
       '.github/workflows/production-deploy.yml',
       'functions/api/health.js',
       'docs/deployment-runbook.md',
@@ -556,6 +571,7 @@ const requirements = [
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-production-readiness',
       'npm run verify:cloudflare-production-state',
+      'npm run verify:d1-manifest',
       'npm run verify:live-readiness -- --strict',
       'npm run prepare:launch',
       'npm run prepare:external-actions',
@@ -593,6 +609,8 @@ const requirements = [
       scripts['verify:github-release-evidence'] &&
       scripts['verify:github-production-readiness'] &&
       scripts['verify:cloudflare-production-state'] &&
+      scripts['verify:d1-manifest'] &&
+      scripts['prepare:d1-manifest'] &&
       scripts['verify:production-deploy-workflow'] &&
       scripts['verify:live-readiness'] &&
       scripts['verify:brand'] &&
@@ -639,6 +657,7 @@ const requirements = [
       'scripts/verify-github-release-evidence.mjs',
       'scripts/verify-github-production-readiness.mjs',
       'scripts/verify-cloudflare-production-state.mjs',
+      'scripts/prepare-d1-production-manifest.mjs',
       'scripts/verify-production-deploy-workflow.mjs',
       '.github/workflows/ci.yml',
       '.github/workflows/release-gate.yml',

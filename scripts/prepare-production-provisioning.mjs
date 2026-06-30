@@ -46,6 +46,9 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
   const packageJson = readJson('package.json')
   const contract = readJson('docs/production-environment-contract.json')
   const externalActions = readJson('docs/external-launch-actions.json')
+  const d1Manifest = exists('docs/d1-production-migration-manifest.json')
+    ? readJson('docs/d1-production-migration-manifest.json')
+    : null
   const pagesToml = read('wrangler.toml')
   const newsToml = read('wrangler.news.toml')
   const pagesD1Active = hasActiveD1Binding(pagesToml)
@@ -68,6 +71,14 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       Boolean(scripts['verify:cloudflare-production-state']) &&
         contract.commands.safePreflight.includes('npm run verify:cloudflare-production-state'),
       'Read-only Cloudflare production state verifier is exposed and included in safe preflight.',
+    ),
+    buildCheck(
+      'd1-production-migration-manifest',
+      Boolean(scripts['verify:d1-manifest']) &&
+        contract.commands.safePreflight.includes('npm run verify:d1-manifest') &&
+        d1Manifest?.status === 'pass' &&
+        d1Manifest.summary?.migrationCount >= 1,
+      'D1 production migration manifest is current and included in safe preflight.',
     ),
     buildCheck(
       'github-release-evidence-preflight',
@@ -123,6 +134,8 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       hiddenRequiredSecretNames: requiredSecrets.filter((name) => !visibleSecrets.includes(name)),
       contractFingerprint: hash(JSON.stringify(contract)),
       externalActionsFingerprint: hash(JSON.stringify(externalActions)),
+      d1MigrationManifestFingerprint: d1Manifest?.summary?.manifestFingerprint ?? null,
+      d1MigrationCount: d1Manifest?.summary?.migrationCount ?? 0,
     },
     checks,
     productionBlockers,
@@ -134,6 +147,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         commands: [
           'npm run verify:github-release-evidence',
           'npm run verify:cloudflare-production-state',
+          'npm run verify:d1-manifest',
           'npm run verify:launch -- --soft',
           'npm run verify:production-contract',
           'npm run verify:production-provisioning',
@@ -192,6 +206,8 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     `- R2 media binding active: ${packet.currentState.r2MediaBindingActive}`,
     `- Required secret names: ${packet.currentState.requiredSecretNames.join(', ')}`,
     `- Locally visible required secret names: ${packet.currentState.visibleRequiredSecretNames.join(', ') || 'none'}`,
+    `- D1 migration count: ${packet.currentState.d1MigrationCount}`,
+    `- D1 migration manifest fingerprint: ${packet.currentState.d1MigrationManifestFingerprint ?? 'missing'}`,
     '',
     '## Next Approved Action',
     '',
