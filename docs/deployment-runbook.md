@@ -23,6 +23,7 @@ npm run export:data
 npm run lint
 npm run build
 npm run verify:github-actions
+npm run verify:github-release-evidence
 npm run prepare:launch
 npm run prepare:completion-audit
 npm run verify:completion-audit
@@ -141,6 +142,14 @@ npm run verify:github-actions
 ```
 
 It checks that the public repository has a push/PR CI workflow for repository-safe gates, a manual release-gate workflow for the heavier browser and Cloudflare-runtime checks, read-only workflow permissions, no deployment/resource/secret mutation commands, reproducible Wrangler tooling, explicit public corpus-export mode on GitHub runners, and launch-contract wiring. Full local corpus verification remains covered by `npm run verify:release` on a workstation with the local corpus layer.
+
+GitHub release evidence verification is read-only and should be run after the manual release gate has completed:
+
+```bash
+npm run verify:github-release-evidence
+```
+
+It checks the public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, then verifies the visual-smoke artifact metadata without downloading it.
 
 Public data export verification is local and read-only after generation:
 

@@ -141,6 +141,7 @@ assert(exists('scripts/prepare-completion-audit.mjs'), 'Production contract requ
 assert(exists('scripts/verify-accessibility-smoke.mjs'), 'Production contract requires the accessibility smoke verifier')
 assert(exists('scripts/verify-visual-smoke.mjs'), 'Production contract requires the desktop/mobile visual smoke verifier')
 assert(exists('scripts/verify-github-actions.mjs'), 'Production contract requires the GitHub Actions handoff verifier')
+assert(exists('scripts/verify-github-release-evidence.mjs'), 'Production contract requires the GitHub release evidence verifier')
 assert(exists('.github/workflows/ci.yml'), 'Production contract requires the GitHub CI workflow')
 assert(exists('.github/workflows/release-gate.yml'), 'Production contract requires the manual release-gate workflow')
 assert(exists('docs/objective-completion-audit.json'), 'Production contract requires the objective completion audit JSON')
@@ -244,6 +245,10 @@ assert(
   contract.commands.safePreflight.includes('npm run verify:github-actions'),
   'Safe preflight should include GitHub Actions handoff verification',
 )
+assert(
+  contract.commands.safePreflight.includes('npm run verify:github-release-evidence'),
+  'Safe preflight should include GitHub CI and manual release evidence verification',
+)
 
 for (const name of secretNames) {
   assert(envExample.includes(`${name}=`), `.env.example should document ${name}`)
@@ -284,6 +289,10 @@ assert(
   launchPacketScript.includes('npm run verify:github-actions'),
   'Launch packet generator should include GitHub Actions handoff verification',
 )
+assert(
+  launchPacketScript.includes('npm run verify:github-release-evidence'),
+  'Launch packet generator should include GitHub release evidence verification',
+)
 
 for (const [key, enabled] of Object.entries(contract.guardrails)) {
   if (typeof enabled === 'boolean') {
@@ -318,6 +327,7 @@ assert(runbook.includes('verify:completion-audit'), 'Deployment runbook should d
 assert(runbook.includes('verify:accessibility-smoke'), 'Deployment runbook should document accessibility smoke verification')
 assert(runbook.includes('verify:visual-smoke'), 'Deployment runbook should document visual smoke verification')
 assert(runbook.includes('verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
+assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
 assert(
   launchPacketDoc.includes('production-environment-contract.json'),
   'Production launch packet doc should reference the production environment contract',
@@ -353,6 +363,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:github-actions'),
   'Production launch packet doc should include GitHub Actions verification',
+)
+assert(
+  launchPacketDoc.includes('verify:github-release-evidence'),
+  'Production launch packet doc should include GitHub release evidence verification',
 )
 assert(
   externalActionsDoc.includes('Do not paste secret values into chat'),

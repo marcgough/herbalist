@@ -41,6 +41,7 @@ The packet covers:
 
 - local release proof
 - GitHub Actions safe-gate and manual repository release-gate verification
+- GitHub CI/manual release evidence for the intended launch commit
 - objective completion audit generation and signature verification
 - public `/api/health` launch contract verification
 - independent-source governance and source-review metadata verification
@@ -93,6 +94,7 @@ Use this packet with:
 ```bash
 npm run verify:launch -- --soft
 npm run verify:github-actions
+npm run verify:github-release-evidence
 npm run verify:source-governance
 npm run verify:knowledge-graph
 npm run verify:citation-notes

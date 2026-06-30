@@ -116,6 +116,8 @@ The herbal commons gate now requires the public export and API to expose the cor
 
 `npm run verify:github-actions` checks that the GitHub repository has a push/PR CI workflow for repository-safe gates, a manual release workflow for the heavier browser and Cloudflare-runtime checks, read-only permissions, no deployment/resource/secret mutation commands, reproducible Wrangler tooling, explicit public corpus-export mode on GitHub runners, and launch-contract wiring. The full corpus artifact audit remains a local release requirement because the multi-GB corpus layer is intentionally excluded from GitHub.
 
+`npm run verify:github-release-evidence` checks public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, then verifies the uploaded visual-smoke artifact metadata without downloading artifacts or mutating GitHub.
+
 `npm run verify:external-actions` checks the local handoff that separates normal local work from approval-required Cloudflare, DNS, secret, deployment, and paid-generation actions.
 
 `npm run verify:production-cutover` checks the local production cutover simulation. It proves the future D1/R2 binding update can be modeled with fake resource IDs, confirms that Pages Functions and the scheduled Worker use the same D1 target, and verifies that migrations, secrets, deployment, and domain work remain sequenced behind the approval-required external actions.
