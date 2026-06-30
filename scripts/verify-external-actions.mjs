@@ -47,6 +47,7 @@ for (const id of [
   'generate-production-provisioning-readiness',
   'check-github-production-readiness',
   'check-cloudflare-production-state',
+  'generate-cloudflare-token-requirements',
   'generate-d1-production-migration-manifest',
   'generate-dns-cutover-plan',
   'generate-production-secret-setup',
@@ -107,6 +108,15 @@ assert(
 assert(
   externalActions['run-github-production-deploy-workflow'].verification.includes('npm run verify:production-secrets'),
   'Guarded GitHub production deploy workflow should require production secret setup verification',
+)
+assert(
+  externalActions['run-github-production-deploy-workflow'].verification.includes('npm run verify:cloudflare-token-requirements'),
+  'Guarded GitHub production deploy workflow should require Cloudflare token requirement verification',
+)
+assert(
+  localIds.has('generate-cloudflare-token-requirements') &&
+    markdown.includes('verify:cloudflare-token-requirements'),
+  'Checklist should include Cloudflare token requirement generation and verification',
 )
 assert(
   checklist.completionGates.every((gate) => contract.commands.liveCompletionGates.includes(gate)),

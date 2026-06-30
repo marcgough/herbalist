@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T20:11:09.760Z",
+  "generatedAt": "2026-06-30T21:42:30.345Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -98,6 +98,19 @@
       "after": [],
       "notes": [
         "Use npm run verify:cloudflare-production-state -- --strict after Cloudflare resources, secrets, and deployments are expected to exist."
+      ]
+    },
+    {
+      "id": "generate-cloudflare-token-requirements",
+      "title": "Generate Cloudflare API token requirement packet",
+      "approvalRequired": false,
+      "command": "npm run prepare:cloudflare-token-requirements",
+      "purpose": "Refresh the value-free token-permission packet for the CLOUDFLARE_API_TOKEN used by the guarded production workflow.",
+      "writesLocalFiles": true,
+      "after": [],
+      "notes": [
+        "Use npm run verify:cloudflare-token-requirements before setting the GitHub production CLOUDFLARE_API_TOKEN secret.",
+        "The packet names permissions and documentation sources only; it must never contain the token value."
       ]
     },
     {
@@ -346,6 +359,7 @@
         "npm run verify:github-release-evidence",
         "npm run verify:d1-manifest",
         "npm run verify:production-secrets",
+        "npm run verify:cloudflare-token-requirements",
         "npm run verify:live-readiness -- --strict",
         "npm run verify:production -- https://herbalisti.com",
         "npm run verify:goal-readiness -- --strict"
@@ -360,7 +374,7 @@
       "notes": [
         "Requires the exact workflow input confirm=deploy-herbalisti-production.",
         "Use the GitHub production environment approval controls before dispatch.",
-        "Run npm run verify:production-secrets and npm run verify:github-production-readiness -- --strict before dispatch.",
+        "Run npm run verify:production-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.",
         "Do not use skip_live_verification for final completion evidence."
       ]
     },

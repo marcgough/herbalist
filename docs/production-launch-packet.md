@@ -46,6 +46,7 @@ The packet covers:
 - mocked production D1 resolver behavior verification
 - GitHub production environment and secret-name readiness verification
 - GitHub CI/manual release evidence for the intended launch commit
+- Cloudflare API token permission requirement verification
 - production provisioning readiness and exact operator sequence
 - objective completion audit generation and signature verification
 - public `/api/health` launch contract verification
@@ -105,6 +106,7 @@ npm run verify:production-d1-resolver
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state
+npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets

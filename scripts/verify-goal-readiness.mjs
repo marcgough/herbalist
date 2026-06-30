@@ -57,6 +57,9 @@ const dnsCutoverPlan = exists('docs/dns-cutover-plan.json')
 const productionSecretSetup = exists('docs/production-secret-setup.json')
   ? readJson('docs/production-secret-setup.json')
   : { status: 'missing' }
+const cloudflareTokenRequirements = exists('docs/cloudflare-token-requirements.json')
+  ? readJson('docs/cloudflare-token-requirements.json')
+  : { status: 'missing' }
 
 const scripts = packageJson.scripts ?? {}
 const activePagesD1 = hasActiveD1Binding(pagesToml)
@@ -493,6 +496,8 @@ const requirements = [
       exists('docs/dns-cutover-plan.md') &&
       exists('docs/production-secret-setup.json') &&
       exists('docs/production-secret-setup.md') &&
+      exists('docs/cloudflare-token-requirements.json') &&
+      exists('docs/cloudflare-token-requirements.md') &&
       exists('docs/production-cutover-simulation.json') &&
       exists('docs/production-cutover-simulation.md') &&
       exists('scripts/verify-production-contract.mjs') &&
@@ -500,6 +505,7 @@ const requirements = [
       exists('scripts/prepare-d1-production-manifest.mjs') &&
       exists('scripts/prepare-dns-cutover-plan.mjs') &&
       exists('scripts/prepare-production-secret-setup.mjs') &&
+      exists('scripts/prepare-cloudflare-token-requirements.mjs') &&
       exists('scripts/resolve-production-d1-database.mjs') &&
       exists('scripts/verify-production-deploy-dry-run.mjs') &&
       exists('scripts/verify-production-d1-resolver.mjs') &&
@@ -513,6 +519,8 @@ const requirements = [
       Boolean(scripts['verify:production-contract']) &&
       Boolean(scripts['verify:external-actions']) &&
       Boolean(scripts['verify:production-provisioning']) &&
+      Boolean(scripts['verify:cloudflare-token-requirements']) &&
+      Boolean(scripts['prepare:cloudflare-token-requirements']) &&
       Boolean(scripts['verify:d1-manifest']) &&
       Boolean(scripts['prepare:d1-manifest']) &&
       Boolean(scripts['verify:dns-cutover']) &&
@@ -535,7 +543,8 @@ const requirements = [
       d1ProductionManifest.status === 'pass' &&
       d1ProductionManifest.summary?.migrationCount >= 1 &&
       dnsCutoverPlan.status !== 'local-contract-failed' &&
-      productionSecretSetup.status === 'ready-for-secret-entry'
+      productionSecretSetup.status === 'ready-for-secret-entry' &&
+      cloudflareTokenRequirements.status === 'ready-for-token-entry'
         ? 'pass'
         : 'missing',
     evidence: [
@@ -550,6 +559,8 @@ const requirements = [
       'docs/dns-cutover-plan.md',
       'docs/production-secret-setup.json',
       'docs/production-secret-setup.md',
+      'docs/cloudflare-token-requirements.json',
+      'docs/cloudflare-token-requirements.md',
       'docs/production-cutover-simulation.json',
       'docs/production-cutover-simulation.md',
       'scripts/verify-production-contract.mjs',
@@ -557,6 +568,7 @@ const requirements = [
       'scripts/prepare-d1-production-manifest.mjs',
       'scripts/prepare-dns-cutover-plan.mjs',
       'scripts/prepare-production-secret-setup.mjs',
+      'scripts/prepare-cloudflare-token-requirements.mjs',
       'scripts/resolve-production-d1-database.mjs',
       'scripts/verify-production-deploy-dry-run.mjs',
       'scripts/verify-production-d1-resolver.mjs',
@@ -579,6 +591,7 @@ const requirements = [
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-production-readiness',
       'npm run verify:cloudflare-production-state',
+      'npm run verify:cloudflare-token-requirements',
       'npm run verify:production-cutover',
       'docs/deployment-runbook.md',
       'docs/production-launch-packet.md',
@@ -602,6 +615,7 @@ const requirements = [
       'scripts/prepare-d1-production-manifest.mjs',
       'scripts/prepare-dns-cutover-plan.mjs',
       'scripts/prepare-production-secret-setup.mjs',
+      'scripts/prepare-cloudflare-token-requirements.mjs',
       'scripts/resolve-production-d1-database.mjs',
       'scripts/verify-production-deploy-dry-run.mjs',
       'scripts/verify-production-d1-resolver.mjs',
@@ -614,6 +628,7 @@ const requirements = [
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-production-readiness',
       'npm run verify:cloudflare-production-state',
+      'npm run verify:cloudflare-token-requirements',
       'npm run verify:d1-manifest',
       'npm run verify:dns-cutover',
       'npm run verify:production-secrets',
@@ -657,12 +672,14 @@ const requirements = [
       scripts['verify:github-release-evidence'] &&
       scripts['verify:github-production-readiness'] &&
       scripts['verify:cloudflare-production-state'] &&
+      scripts['verify:cloudflare-token-requirements'] &&
       scripts['verify:d1-manifest'] &&
       scripts['prepare:d1-manifest'] &&
       scripts['verify:dns-cutover'] &&
       scripts['prepare:dns-cutover'] &&
       scripts['verify:production-secrets'] &&
       scripts['prepare:production-secrets'] &&
+      scripts['prepare:cloudflare-token-requirements'] &&
       scripts['resolve:production-d1'] &&
       scripts['verify:production-deploy-dry-run'] &&
       scripts['verify:production-d1-resolver'] &&
@@ -712,6 +729,7 @@ const requirements = [
       'scripts/verify-github-release-evidence.mjs',
       'scripts/verify-github-production-readiness.mjs',
       'scripts/verify-cloudflare-production-state.mjs',
+      'scripts/prepare-cloudflare-token-requirements.mjs',
       'scripts/prepare-d1-production-manifest.mjs',
       'scripts/prepare-dns-cutover-plan.mjs',
       'scripts/prepare-production-secret-setup.mjs',

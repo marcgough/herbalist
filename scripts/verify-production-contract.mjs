@@ -159,6 +159,7 @@ assert(exists('scripts/prepare-production-provisioning.mjs'), 'Production contra
 assert(exists('scripts/prepare-d1-production-manifest.mjs'), 'Production contract requires the D1 production migration manifest generator')
 assert(exists('scripts/prepare-dns-cutover-plan.mjs'), 'Production contract requires the DNS cutover plan generator')
 assert(exists('scripts/prepare-production-secret-setup.mjs'), 'Production contract requires the production secret setup generator')
+assert(exists('scripts/prepare-cloudflare-token-requirements.mjs'), 'Production contract requires the Cloudflare token requirement generator')
 assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production contract requires the production D1 resolver')
 assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production contract requires the production D1 resolver verifier')
 assert(exists('scripts/verify-production-deploy-dry-run.mjs'), 'Production contract requires the production deploy dry-run verifier')
@@ -184,6 +185,8 @@ assert(exists('docs/dns-cutover-plan.json'), 'Production contract requires the D
 assert(exists('docs/dns-cutover-plan.md'), 'Production contract requires the DNS cutover plan Markdown')
 assert(exists('docs/production-secret-setup.json'), 'Production contract requires the production secret setup JSON')
 assert(exists('docs/production-secret-setup.md'), 'Production contract requires the production secret setup Markdown')
+assert(exists('docs/cloudflare-token-requirements.json'), 'Production contract requires the Cloudflare token requirements JSON')
+assert(exists('docs/cloudflare-token-requirements.md'), 'Production contract requires the Cloudflare token requirements Markdown')
 assert(exists('scripts/simulate-production-cutover.mjs'), 'Production contract requires the production cutover simulation')
 assert(
   exists('scripts/verify-production-cutover-simulation.mjs'),
@@ -304,6 +307,10 @@ assert(
 assert(
   contract.commands.safePreflight.includes('npm run verify:cloudflare-production-state'),
   'Safe preflight should include the read-only Cloudflare production state probe',
+)
+assert(
+  contract.commands.safePreflight.includes('npm run verify:cloudflare-token-requirements'),
+  'Safe preflight should include Cloudflare API token requirement verification',
 )
 assert(
   contract.commands.safePreflight.includes('npm run verify:d1-manifest'),
@@ -447,6 +454,7 @@ assert(runbook.includes('verify:production-d1-resolver'), 'Deployment runbook sh
 assert(runbook.includes('verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
 assert(runbook.includes('verify:cloudflare-production-state'), 'Deployment runbook should document Cloudflare production state verification')
+assert(runbook.includes('verify:cloudflare-token-requirements'), 'Deployment runbook should document Cloudflare token requirement verification')
 assert(runbook.includes('verify:d1-manifest'), 'Deployment runbook should document D1 production migration manifest verification')
 assert(runbook.includes('verify:dns-cutover'), 'Deployment runbook should document DNS/custom-domain cutover verification')
 assert(runbook.includes('verify:production-secrets'), 'Deployment runbook should document production secret setup verification')
@@ -511,6 +519,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:cloudflare-production-state'),
   'Production launch packet doc should include Cloudflare production state verification',
+)
+assert(
+  launchPacketDoc.includes('verify:cloudflare-token-requirements'),
+  'Production launch packet doc should include Cloudflare token requirement verification',
 )
 assert(
   launchPacketDoc.includes('verify:d1-manifest'),

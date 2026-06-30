@@ -122,6 +122,18 @@ const localAllowedActions = [
     notes: ['Use npm run verify:cloudflare-production-state -- --strict after Cloudflare resources, secrets, and deployments are expected to exist.'],
   }),
   localAction({
+    id: 'generate-cloudflare-token-requirements',
+    title: 'Generate Cloudflare API token requirement packet',
+    command: 'npm run prepare:cloudflare-token-requirements',
+    purpose:
+      'Refresh the value-free token-permission packet for the CLOUDFLARE_API_TOKEN used by the guarded production workflow.',
+    writesLocalFiles: true,
+    notes: [
+      'Use npm run verify:cloudflare-token-requirements before setting the GitHub production CLOUDFLARE_API_TOKEN secret.',
+      'The packet names permissions and documentation sources only; it must never contain the token value.',
+    ],
+  }),
+  localAction({
     id: 'generate-d1-production-migration-manifest',
     title: 'Generate D1 production migration manifest',
     command: 'npm run prepare:d1-manifest',
@@ -272,6 +284,7 @@ const approvalRequiredActions = [
       'npm run verify:github-release-evidence',
       'npm run verify:d1-manifest',
       'npm run verify:production-secrets',
+      'npm run verify:cloudflare-token-requirements',
       'npm run verify:live-readiness -- --strict',
       'npm run verify:production -- https://herbalisti.com',
       'npm run verify:goal-readiness -- --strict',
@@ -286,7 +299,7 @@ const approvalRequiredActions = [
     notes: [
       'Requires the exact workflow input confirm=deploy-herbalisti-production.',
       'Use the GitHub production environment approval controls before dispatch.',
-      'Run npm run verify:production-secrets and npm run verify:github-production-readiness -- --strict before dispatch.',
+      'Run npm run verify:production-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.',
       'Do not use skip_live_verification for final completion evidence.',
     ],
   }),

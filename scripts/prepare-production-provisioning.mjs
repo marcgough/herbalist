@@ -53,6 +53,9 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
   const productionSecretSetup = exists('docs/production-secret-setup.json')
     ? readJson('docs/production-secret-setup.json')
     : null
+  const cloudflareTokenRequirements = exists('docs/cloudflare-token-requirements.json')
+    ? readJson('docs/cloudflare-token-requirements.json')
+    : null
   const pagesToml = read('wrangler.toml')
   const newsToml = read('wrangler.news.toml')
   const pagesD1Active = hasActiveD1Binding(pagesToml)
@@ -97,6 +100,13 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         contract.commands.safePreflight.includes('npm run verify:production-secrets') &&
         productionSecretSetup?.status === 'ready-for-secret-entry',
       'Production secret setup packet is current and included in safe preflight.',
+    ),
+    buildCheck(
+      'cloudflare-token-requirements',
+      Boolean(scripts['verify:cloudflare-token-requirements']) &&
+        contract.commands.safePreflight.includes('npm run verify:cloudflare-token-requirements') &&
+        cloudflareTokenRequirements?.status === 'ready-for-token-entry',
+      'Cloudflare API token permission packet is current and included in safe preflight.',
     ),
     buildCheck(
       'github-release-evidence-preflight',
@@ -176,6 +186,9 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       dnsNameserverProvider: dnsCutoverPlan?.currentState?.nameserversProvider ?? 'unknown',
       productionSecretSetupStatus: productionSecretSetup?.status ?? 'missing',
       githubProductionSecretCount: productionSecretSetup?.githubProductionEnvironment?.secrets?.length ?? 0,
+      cloudflareTokenRequirementsStatus: cloudflareTokenRequirements?.status ?? 'missing',
+      cloudflareTokenRequiredPermissionCount:
+        cloudflareTokenRequirements?.cloudflareApiToken?.requiredPermissions?.length ?? 0,
     },
     checks,
     productionBlockers,
@@ -191,6 +204,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:d1-manifest',
           'npm run verify:dns-cutover',
           'npm run verify:production-secrets',
+          'npm run verify:cloudflare-token-requirements',
           'npm run verify:production-deploy-dry-run',
           'npm run verify:production-d1-resolver',
           'npm run verify:launch -- --soft',
@@ -263,6 +277,8 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     `- DNS nameserver provider: ${packet.currentState.dnsNameserverProvider}`,
     `- Production secret setup status: ${packet.currentState.productionSecretSetupStatus}`,
     `- GitHub production secret names: ${packet.currentState.githubProductionSecretCount}`,
+    `- Cloudflare token requirement status: ${packet.currentState.cloudflareTokenRequirementsStatus}`,
+    `- Cloudflare token required permissions: ${packet.currentState.cloudflareTokenRequiredPermissionCount}`,
     '',
     '## Next Approved Action',
     '',

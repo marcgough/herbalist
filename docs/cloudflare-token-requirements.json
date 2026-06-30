@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-30T21:41:39.197Z",
+  "status": "ready-for-token-entry",
+  "productionComplete": false,
+  "safeToRun": "Reads local launch contracts and public Cloudflare documentation citations. It does not read, request, set, store, or print token values; it does not call Cloudflare, deploy, mutate DNS, create resources, or call paid APIs.",
+  "project": {
+    "domain": "herbalisti.com",
+    "pagesProject": "herbalisti",
+    "newsWorker": "herbalisti-news-refresh",
+    "d1Database": "herbalisti",
+    "optionalR2Bucket": "herbalisti-media"
+  },
+  "githubSecretNames": [
+    "CLOUDFLARE_API_TOKEN",
+    "CLOUDFLARE_ACCOUNT_ID"
+  ],
+  "cloudflareApiToken": {
+    "recommendedName": "Herbalisti production deploy",
+    "scopeBoundary": "Restrict to the Cloudflare account that will host herbalisti.com and the Herbalisti Workers/Pages resources.",
+    "requiredPermissions": [
+      {
+        "category": "Account",
+        "permission": "Cloudflare Pages",
+        "access": "Edit",
+        "requiredForLaunch": true,
+        "coveredCommands": [
+          "npx wrangler pages project list --json",
+          "npx wrangler pages project create herbalisti --production-branch main",
+          "npx wrangler pages deploy dist --project-name herbalisti",
+          "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",
+          "npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti"
+        ],
+        "sourceIds": [
+          "cloudflare-pages-direct-upload",
+          "cloudflare-pages-api",
+          "cloudflare-token-permissions"
+        ]
+      },
+      {
+        "category": "Account",
+        "permission": "D1",
+        "access": "Edit",
+        "requiredForLaunch": true,
+        "coveredCommands": [
+          "npx wrangler d1 list --json",
+          "npx wrangler d1 create herbalisti",
+          "npx wrangler d1 migrations apply herbalisti --remote"
+        ],
+        "sourceIds": [
+          "cloudflare-d1-rest-import",
+          "cloudflare-token-permissions"
+        ]
+      },
+      {
+        "category": "Account",
+        "permission": "Workers Scripts",
+        "access": "Edit",
+        "requiredForLaunch": true,
+        "coveredCommands": [
+          "npx wrangler deploy --config wrangler.news.toml",
+          "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
+          "npx wrangler deployments list --name herbalisti-news-refresh --json",
+          "npx wrangler secret list --config wrangler.news.toml --format json"
+        ],
+        "sourceIds": [
+          "cloudflare-workers-github-actions",
+          "cloudflare-workers-builds-token",
+          "cloudflare-token-permissions"
+        ]
+      },
+      {
+        "category": "Account",
+        "permission": "Account Settings",
+        "access": "Read",
+        "requiredForLaunch": true,
+        "coveredCommands": [
+          "npx wrangler whoami",
+          "Wrangler account discovery in non-interactive CI"
+        ],
+        "sourceIds": [
+          "cloudflare-workers-builds-token"
+        ]
+      }
+    ],
+    "optionalPermissions": [
+      {
+        "category": "User",
+        "permission": "User Details",
+        "access": "Read",
+        "requiredForLaunch": false,
+        "coveredCommands": [
+          "Wrangler user-token identity discovery"
+        ],
+        "sourceIds": [
+          "cloudflare-workers-builds-token",
+          "cloudflare-token-permissions"
+        ]
+      },
+      {
+        "category": "User",
+        "permission": "Memberships",
+        "access": "Read",
+        "requiredForLaunch": false,
+        "coveredCommands": [
+          "Wrangler user-token account membership discovery"
+        ],
+        "sourceIds": [
+          "cloudflare-workers-builds-token",
+          "cloudflare-token-permissions"
+        ]
+      },
+      {
+        "category": "Account",
+        "permission": "Workers R2 Storage",
+        "access": "Edit",
+        "requiredForLaunch": false,
+        "coveredCommands": [
+          "npx wrangler r2 bucket create herbalisti-media"
+        ],
+        "sourceIds": [
+          "cloudflare-workers-builds-token",
+          "cloudflare-token-permissions"
+        ],
+        "notes": "Only needed when the optional reviewed-video R2 bucket is created."
+      }
+    ],
+    "explicitlyNotRequired": [
+      {
+        "category": "Zone",
+        "permission": "DNS",
+        "access": "Edit",
+        "reason": "The guarded GitHub workflow does not mutate DNS. herbalisti.com custom-domain and DNS work remains an explicit separate launch step."
+      },
+      {
+        "category": "Account",
+        "permission": "Billing",
+        "access": "Edit",
+        "reason": "The production workflow does not need billing access."
+      }
+    ],
+    "valueHandling": "Create or edit the token in Cloudflare and enter the token value directly into the GitHub production environment secret named CLOUDFLARE_API_TOKEN. Do not paste the value into chat, docs, Git, screenshots, or logs."
+  },
+  "sourceEvidence": [
+    {
+      "id": "cloudflare-pages-direct-upload",
+      "title": "Cloudflare Pages direct upload with Wrangler",
+      "url": "https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/",
+      "retrievedAt": "2026-07-01",
+      "supports": [
+        "Pages Wrangler deploys require CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_API_TOKEN in CI.",
+        "The Pages deployment token needs Account / Cloudflare Pages / Edit permission."
+      ]
+    },
+    {
+      "id": "cloudflare-pages-api",
+      "title": "Cloudflare Pages REST API token guidance",
+      "url": "https://developers.cloudflare.com/pages/configuration/api/",
+      "retrievedAt": "2026-07-01",
+      "supports": [
+        "Custom Cloudflare tokens for Pages automation need the Cloudflare Pages permission with Edit access.",
+        "Pages API requests accept a Cloudflare API token in the authorization header."
+      ]
+    },
+    {
+      "id": "cloudflare-workers-github-actions",
+      "title": "Cloudflare Workers GitHub Actions authentication",
+      "url": "https://developers.cloudflare.com/workers/ci-cd/external-cicd/github-actions/",
+      "retrievedAt": "2026-07-01",
+      "supports": [
+        "Non-interactive Wrangler CI uses CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.",
+        "Cloudflare recommends scoping deployment tokens down to the account and zone being deployed."
+      ]
+    },
+    {
+      "id": "cloudflare-workers-builds-token",
+      "title": "Cloudflare Workers build-token permission set",
+      "url": "https://developers.cloudflare.com/workers/ci-cd/builds/configuration/",
+      "retrievedAt": "2026-07-01",
+      "supports": [
+        "Workers build tokens use Account Settings Read, Workers Scripts Edit, Workers KV Storage Edit, Workers R2 Storage Edit, zone Workers Routes Edit, User Details Read, and Memberships Read.",
+        "Herbalisti needs Workers Scripts Edit for scheduled Worker deploy and secret operations; R2 is optional until reviewed video assets exist."
+      ]
+    },
+    {
+      "id": "cloudflare-d1-rest-import",
+      "title": "Cloudflare D1 REST import token guidance",
+      "url": "https://developers.cloudflare.com/d1/tutorials/import-to-d1-with-rest-api/",
+      "retrievedAt": "2026-07-01",
+      "supports": [
+        "D1 write automation needs Account / D1 / Edit permission."
+      ]
+    },
+    {
+      "id": "cloudflare-token-permissions",
+      "title": "Cloudflare API token permissions reference",
+      "url": "https://developers.cloudflare.com/fundamentals/api/reference/permissions/",
+      "retrievedAt": "2026-07-01",
+      "supports": [
+        "Cloudflare Pages Edit can create, edit, and delete Pages projects.",
+        "D1 Edit grants write access to D1.",
+        "Workers Scripts Edit grants write access to Workers scripts.",
+        "Workers R2 Storage Edit grants write access to R2 storage.",
+        "User Details Read and Memberships Read are user-scoped read permissions."
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "cloudflare-token-secret-named",
+      "status": "pass",
+      "detail": "Guarded workflow reads CLOUDFLARE_API_TOKEN from GitHub production environment secrets."
+    },
+    {
+      "id": "cloudflare-account-id-secret-named",
+      "status": "pass",
+      "detail": "Guarded workflow reads CLOUDFLARE_ACCOUNT_ID from GitHub production environment secrets."
+    },
+    {
+      "id": "required-permission-coverage",
+      "status": "pass",
+      "detail": "Required Cloudflare token permission packet covers Pages, D1, Workers Scripts, and Account Settings."
+    },
+    {
+      "id": "workflow-command-coverage",
+      "status": "pass",
+      "detail": "Required Cloudflare token permissions map to commands used by the launch workflow or contract."
+    },
+    {
+      "id": "optional-r2-separate",
+      "status": "pass",
+      "detail": "Optional R2 permission remains separate from launch-critical permissions."
+    },
+    {
+      "id": "no-dns-token-permission",
+      "status": "pass",
+      "detail": "Guarded workflow does not require DNS edit permission."
+    },
+    {
+      "id": "secret-value-free",
+      "status": "pass",
+      "detail": "Token requirement inputs do not contain obvious secret values."
+    },
+    {
+      "id": "source-evidence",
+      "status": "pass",
+      "detail": "Cloudflare token requirement packet links only to Cloudflare documentation sources."
+    },
+    {
+      "id": "handoff-docs-reference",
+      "status": "pass",
+      "detail": "Deployment runbook and launch packet reference the token requirement gate."
+    },
+    {
+      "id": "npm-script",
+      "status": "pass",
+      "detail": "Cloudflare token requirement verifier is exposed as an npm script."
+    }
+  ]
+}

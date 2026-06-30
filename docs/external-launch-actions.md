@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-06-30T20:11:09.760Z
+Generated: 2026-06-30T21:42:30.345Z
 
 Status: needs-approval-and-production-setup
 
@@ -78,6 +78,18 @@ npm run verify:cloudflare-production-state
 
 Notes:
 - Use npm run verify:cloudflare-production-state -- --strict after Cloudflare resources, secrets, and deployments are expected to exist.
+
+### Generate Cloudflare API token requirement packet
+
+Refresh the value-free token-permission packet for the CLOUDFLARE_API_TOKEN used by the guarded production workflow.
+
+```bash
+npm run prepare:cloudflare-token-requirements
+```
+
+Notes:
+- Use npm run verify:cloudflare-token-requirements before setting the GitHub production CLOUDFLARE_API_TOKEN secret.
+- The packet names permissions and documentation sources only; it must never contain the token value.
 
 ### Generate D1 production migration manifest
 
@@ -325,6 +337,7 @@ Verification:
 - npm run verify:github-release-evidence
 - npm run verify:d1-manifest
 - npm run verify:production-secrets
+- npm run verify:cloudflare-token-requirements
 - npm run verify:live-readiness -- --strict
 - npm run verify:production -- https://herbalisti.com
 - npm run verify:goal-readiness -- --strict
@@ -332,7 +345,7 @@ Verification:
 Notes:
 - Requires the exact workflow input confirm=deploy-herbalisti-production.
 - Use the GitHub production environment approval controls before dispatch.
-- Run npm run verify:production-secrets and npm run verify:github-production-readiness -- --strict before dispatch.
+- Run npm run verify:production-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.
 - Do not use skip_live_verification for final completion evidence.
 
 ### Connect herbalisti.com custom domain and DNS

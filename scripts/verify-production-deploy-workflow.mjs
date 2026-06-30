@@ -62,6 +62,7 @@ for (const command of [
   'npm run verify:production-d1-resolver',
   'npm run verify:launch -- --soft',
   'npm run verify:production-contract',
+  'npm run verify:cloudflare-token-requirements',
   'npm run verify:d1-manifest',
   'npm run verify:dns-cutover',
   'npm run verify:production-secrets',
@@ -90,6 +91,7 @@ assert(!secretValuePattern.test(workflow), 'Production deploy workflow must not 
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-workflow'), 'Safe preflight should include production deploy workflow verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'), 'Safe preflight should include production deploy dry-run verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-d1-resolver'), 'Safe preflight should include production D1 resolver verification')
+assert(contract.commands.safePreflight.includes('npm run verify:cloudflare-token-requirements'), 'Safe preflight should include Cloudflare token requirement verification')
 assert(
   externalActions.approvalRequiredActions?.some((action) => action.id === 'run-github-production-deploy-workflow'),
   'External action checklist should include the guarded GitHub production deploy workflow action',

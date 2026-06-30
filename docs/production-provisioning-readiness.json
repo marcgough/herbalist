@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T21:09:36.944Z",
+  "generatedAt": "2026-06-30T21:42:30.433Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,14 +27,16 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "fada0800e5ea047addfa5c631304f1d3ee99b7ec11e03298c56f0ab04fc2dedc",
-    "externalActionsFingerprint": "a3c846b1e726ffc1882d87f06678c91a73ab0d3be34733af87781beb1e50277c",
+    "contractFingerprint": "e7d184c6fc29972db3bdee5d2043835d2c9d3a9b92f68dfe43ecb734f4044d74",
+    "externalActionsFingerprint": "6dd39f405ddb7ba51dabb66fec3da27a9dca5bef8d8df6a4ebc9fe0dd74c9848",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
     "dnsNameserverProvider": "external-or-registrar",
     "productionSecretSetupStatus": "ready-for-secret-entry",
-    "githubProductionSecretCount": 5
+    "githubProductionSecretCount": 5,
+    "cloudflareTokenRequirementsStatus": "ready-for-token-entry",
+    "cloudflareTokenRequiredPermissionCount": 4
   },
   "checks": [
     {
@@ -71,6 +73,11 @@
       "id": "production-secret-setup",
       "status": "pass",
       "detail": "Production secret setup packet is current and included in safe preflight."
+    },
+    {
+      "id": "cloudflare-token-requirements",
+      "status": "pass",
+      "detail": "Cloudflare API token permission packet is current and included in safe preflight."
     },
     {
       "id": "github-release-evidence-preflight",
@@ -167,6 +174,7 @@
         "npm run verify:d1-manifest",
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
+        "npm run verify:cloudflare-token-requirements",
         "npm run verify:production-deploy-dry-run",
         "npm run verify:production-d1-resolver",
         "npm run verify:launch -- --soft",

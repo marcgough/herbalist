@@ -1,6 +1,6 @@
 # Herbalisti Production Secret Setup
 
-Generated: 2026-06-30T20:11:09.708Z
+Generated: 2026-06-30T21:41:49.320Z
 
 Status: ready-for-secret-entry
 
@@ -53,6 +53,14 @@ npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti
 npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti
 ```
 
+## Cloudflare API Token Permissions
+
+CLOUDFLARE_API_TOKEN is a GitHub production secret name; its Cloudflare permissions are documented separately so values and permission metadata do not get mixed.
+
+- Status: ready-for-token-entry
+- Documentation: `docs/cloudflare-token-requirements.md`
+- Verification: `npm run verify:cloudflare-token-requirements`
+
 ## Checks
 
 - pass: .github/workflows/production-deploy.yml exists.
@@ -61,6 +69,7 @@ npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti
 - pass: Production contract records every guarded workflow secret name.
 - pass: Required Cloudflare runtime secrets have command templates without values.
 - pass: GitHub production readiness verifier is available for secret-name checks.
+- pass: Cloudflare API token permission packet is available for CLOUDFLARE_API_TOKEN setup.
 - pass: External action packet names the required production workflow secrets.
 
 ## Operator Sequence

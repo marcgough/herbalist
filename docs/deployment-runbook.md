@@ -13,7 +13,7 @@ npm install
 npm run verify:release
 ```
 
-`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the guarded production deploy dry run, the mocked production D1 resolver behavior, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
+`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the guarded production deploy dry run, the mocked production D1 resolver behavior, Cloudflare token requirements, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
 
 Individual gates:
 
@@ -29,6 +29,7 @@ npm run verify:production-d1-resolver
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state
+npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
@@ -66,6 +67,7 @@ npm run verify:source-governance
 npm run verify:source-health
 npm run verify:visual-smoke
 npm run verify:corpus-rights
+npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
@@ -205,6 +207,15 @@ npm run verify:cloudflare-production-state -- --strict
 ```
 
 Without a valid Wrangler session or `CLOUDFLARE_API_TOKEN`, it reports `needs-cloudflare-auth`. Once authenticated, it checks visible Cloudflare Pages, D1, Worker deployment, custom-domain metadata, and required secret names without creating resources, deploying, mutating DNS, setting secrets, calling paid APIs, or printing secret values.
+
+Cloudflare API token requirement planning is local and value-free:
+
+```bash
+npm run prepare:cloudflare-token-requirements
+npm run verify:cloudflare-token-requirements
+```
+
+It writes `docs/cloudflare-token-requirements.json` and `docs/cloudflare-token-requirements.md`, naming the Cloudflare permission set needed by `CLOUDFLARE_API_TOKEN` for the guarded workflow: Cloudflare Pages Edit, D1 Edit, Workers Scripts Edit, and Account Settings Read, with optional R2 permission kept separate until reviewed video assets need owned storage. It does not read, request, set, store, or print token values.
 
 DNS/custom-domain cutover planning is read-only:
 
@@ -521,8 +532,8 @@ npm run verify:production-secrets
 Set these in the Cloudflare dashboard or with Wrangler:
 
 ```bash
-npm run wrangler -- pages secret put KIE_API_KEY --project-name herbalisti
-npm run wrangler -- pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti
+npx wrangler pages secret put KIE_API_KEY --project-name herbalisti
+npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti
 ```
 
 The canonical secret list and scope mapping lives in `docs/production-environment-contract.json`. Do not paste secret values into chat, docs, config files, or logs.
@@ -530,7 +541,7 @@ The canonical secret list and scope mapping lives in `docs/production-environmen
 Set this for the scheduled news Worker:
 
 ```bash
-npm run wrangler -- secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
+npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
 ```
 
 For CI-style deployment automation, provide these in the deployment environment rather than committing them:
@@ -545,7 +556,7 @@ CLOUDFLARE_ACCOUNT_ID
 Optional later:
 
 ```bash
-npm run wrangler -- pages secret put OPENAI_API_KEY --project-name herbalisti
+npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti
 ```
 
 That key remains optional. It is only needed when we want hosted OpenAI synthesis for the archive chat or repeatable server-side image generation.

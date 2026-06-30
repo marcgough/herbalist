@@ -54,6 +54,9 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
   const contract = readJson('docs/production-environment-contract.json')
   const workflow = read(workflowPath)
   const externalActions = readJson('docs/external-launch-actions.json')
+  const cloudflareTokenRequirements = exists('docs/cloudflare-token-requirements.json')
+    ? readJson('docs/cloudflare-token-requirements.json')
+    : null
   const workflowSecretRefs = [...workflow.matchAll(/secrets\.([A-Z0-9_]+)/g)].map((match) => match[1])
   const contractSecrets = Object.fromEntries(contract.secrets.map((secret) => [secret.name, secret]))
 
@@ -119,6 +122,15 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       detail: 'GitHub production readiness verifier is available for secret-name checks.',
     },
     {
+      id: 'cloudflare-token-requirements',
+      status:
+        Boolean(packageJson.scripts?.['verify:cloudflare-token-requirements']) &&
+        cloudflareTokenRequirements?.status === 'ready-for-token-entry'
+          ? 'pass'
+          : 'fail',
+      detail: 'Cloudflare API token permission packet is available for CLOUDFLARE_API_TOKEN setup.',
+    },
+    {
       id: 'external-action-secret-coverage',
       status: requiredWorkflowSecretNames.every((name) =>
         externalActions.approvalRequiredActions.some((action) => action.secretNames?.includes(name)),
@@ -155,6 +167,13 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       note:
         'When the guarded GitHub production deploy workflow is used, it sets required Cloudflare runtime secrets from GitHub secrets. Direct Wrangler commands are the manual fallback path.',
       secrets: cloudflareRuntimeSecrets,
+    },
+    cloudflareApiTokenRequirements: {
+      status: cloudflareTokenRequirements?.status ?? 'missing',
+      documentation: 'docs/cloudflare-token-requirements.md',
+      verificationCommand: 'npm run verify:cloudflare-token-requirements',
+      note:
+        'CLOUDFLARE_API_TOKEN is a GitHub production secret name; its Cloudflare permissions are documented separately so values and permission metadata do not get mixed.',
     },
     checks,
     operatorSequence: [
@@ -239,7 +258,13 @@ export const renderProductionSecretSetupMarkdown = (packet) => {
   for (const secret of packet.cloudflareRuntime.secrets) {
     lines.push(secret.setCommand)
   }
-  lines.push('```', '', '## Checks', '')
+  lines.push('```', '', '## Cloudflare API Token Permissions', '')
+  lines.push(packet.cloudflareApiTokenRequirements.note)
+  lines.push('')
+  lines.push(`- Status: ${packet.cloudflareApiTokenRequirements.status}`)
+  lines.push(`- Documentation: \`${packet.cloudflareApiTokenRequirements.documentation}\``)
+  lines.push(`- Verification: \`${packet.cloudflareApiTokenRequirements.verificationCommand}\``)
+  lines.push('', '## Checks', '')
 
   for (const check of packet.checks) {
     lines.push(`- ${check.status}: ${check.detail}`)
