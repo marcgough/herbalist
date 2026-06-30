@@ -61,7 +61,7 @@ const phases = [
     commands: [command('npm install'), command('npm run verify:release')],
     checks: [
       'Build succeeds.',
-      'GitHub Actions safe-gate and manual release-gate workflows are present, read-only, and non-deploying.',
+      'GitHub Actions safe-gate and manual repository release-gate workflows are present, read-only, non-deploying, and use public corpus-export mode on GitHub runners.',
       'Local Cloudflare Pages runtime starts.',
       'API and production-shape smoke tests pass.',
       'Desktop and mobile visual smoke confirms routed pages render without console warnings, broken imagery, or horizontal overflow.',

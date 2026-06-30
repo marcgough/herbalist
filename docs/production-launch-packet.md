@@ -40,7 +40,7 @@ npm run prepare:launch -- --strict
 The packet covers:
 
 - local release proof
-- GitHub Actions safe-gate and manual release-gate verification
+- GitHub Actions safe-gate and manual repository release-gate verification
 - objective completion audit generation and signature verification
 - public `/api/health` launch contract verification
 - independent-source governance and source-review metadata verification

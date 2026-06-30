@@ -66,7 +66,7 @@ const addFailure = (failures, work, message) => {
   })
 }
 
-export const buildCorpusRightsAudit = async () => {
+export const buildCorpusRightsAudit = async ({ publicOnly = false } = {}) => {
   const works = await readCsvFile(worksRegistryPath)
   const chunked = works.filter((work) => work.ingest_status === 'chunked')
   const discovered = works.filter((work) => work.ingest_status === 'discovered')
@@ -118,6 +118,10 @@ export const buildCorpusRightsAudit = async () => {
       if (!String(value ?? '').trim()) {
         addFailure(failures, work, `Chunked work is missing ${field}.`)
       }
+    }
+
+    if (publicOnly) {
+      continue
     }
 
     const manifestPath = resolve(worksDir, work.work_id, 'manifest.json')
@@ -176,12 +180,15 @@ export const buildCorpusRightsAudit = async () => {
   return {
     version: 1,
     generatedAt: new Date().toISOString(),
+    mode: publicOnly ? 'public-export' : 'full-local-corpus',
     status:
       failures.length === 0 && chunkArtifactFailures.length === 0 && referenceExportFailures.length === 0 && herbalSourceFailures.length === 0
         ? 'pass'
         : 'fail',
     safeToRun:
-      'Reads local corpus registry, manifests, chunk files, normalized text, and public data exports only. It does not fetch, scrape, deploy, mutate DNS, call paid APIs, or print secrets.',
+      publicOnly
+        ? 'Reads the committed corpus registry and public data exports only. It does not require the heavyweight local corpus artifact layer, fetch, scrape, deploy, mutate DNS, call paid APIs, or print secrets.'
+        : 'Reads local corpus registry, manifests, chunk files, normalized text, and public data exports only. It does not fetch, scrape, deploy, mutate DNS, call paid APIs, or print secrets.',
     inclusionStandard: {
       fullText:
         'Only rights-cleared public-domain or permissively licensed book-like works from approved no-key public archive lanes can be chunked into the corpus.',
@@ -259,7 +266,8 @@ export const renderCorpusRightsMarkdown = (audit) => {
 const main = async () => {
   const args = new Set(process.argv.slice(2))
   const write = args.has('--write')
-  const audit = await buildCorpusRightsAudit()
+  const publicOnly = args.has('--public-only')
+  const audit = await buildCorpusRightsAudit({ publicOnly })
 
   if (write) {
     writeFileSync(resolve(root, 'corpus/exports/corpus-rights-audit-summary.json'), `${JSON.stringify(audit, null, 2)}\n`)

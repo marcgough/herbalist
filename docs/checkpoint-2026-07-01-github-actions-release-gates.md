@@ -4,7 +4,7 @@ Date: 2026-07-01
 
 ## Summary
 
-Herbalisti is synced to the GitHub repository `marcgough/herbalist` and now has repository-level CI plus a manual release-gate workflow. The workflows are deliberately verification-only: they do not deploy, create Cloudflare resources, mutate DNS, set secrets, or publish production changes.
+Herbalisti is synced to the GitHub repository `marcgough/herbalist` and now has repository-level CI plus a manual repository release-gate workflow. The workflows are deliberately verification-only: they do not deploy, create Cloudflare resources, mutate DNS, set secrets, or publish production changes. GitHub-hosted runners use public corpus-export mode because the heavyweight local corpus artifact layer is intentionally excluded from the public repository; full corpus artifact verification remains part of local `npm run verify:release`.
 
 Remote:
 
@@ -15,7 +15,7 @@ Remote:
 ## What Changed
 
 - Added `.github/workflows/ci.yml` for push and pull-request verification on `main`.
-- Added `.github/workflows/release-gate.yml` as a manual `workflow_dispatch` release gate that runs the full local release suite and uploads visual-smoke screenshots.
+- Added `.github/workflows/release-gate.yml` as a manual `workflow_dispatch` release gate that runs the repository-safe release suite and uploads visual-smoke screenshots.
 - Added `scripts/verify-github-actions.mjs` to prove workflow safety, expected coverage, and release-contract wiring.
 - Added `wrangler` as a direct dev dependency so local and GitHub release checks have the Cloudflare CLI available through `npm ci`.
 - Made browser smoke verification portable across Windows, Linux, and macOS runners.

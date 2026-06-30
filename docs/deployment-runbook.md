@@ -140,7 +140,7 @@ GitHub Actions verification is local and read-only:
 npm run verify:github-actions
 ```
 
-It checks that the public repository has a push/PR CI workflow for local safe gates, a manual full release-gate workflow for the heavier browser and Cloudflare-runtime checks, read-only workflow permissions, no deployment/resource/secret mutation commands, reproducible Wrangler tooling, and launch-contract wiring.
+It checks that the public repository has a push/PR CI workflow for repository-safe gates, a manual release-gate workflow for the heavier browser and Cloudflare-runtime checks, read-only workflow permissions, no deployment/resource/secret mutation commands, reproducible Wrangler tooling, explicit public corpus-export mode on GitHub runners, and launch-contract wiring. Full local corpus verification remains covered by `npm run verify:release` on a workstation with the local corpus layer.
 
 Public data export verification is local and read-only after generation:
 

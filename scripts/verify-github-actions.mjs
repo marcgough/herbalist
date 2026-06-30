@@ -53,14 +53,14 @@ assert(ci.includes('npm run verify:goal-readiness'), 'CI workflow should verify 
 assert(ci.includes('npm run verify:launch -- --soft'), 'CI workflow should run non-destructive launch preflight')
 assert(ci.includes('npm run verify:production-contract'), 'CI workflow should verify production contract')
 assert(ci.includes('npm run verify:search-discovery'), 'CI workflow should verify search discovery')
-assert(ci.includes('npm run verify:corpus-rights'), 'CI workflow should verify corpus rights')
+assert(ci.includes('npm run verify:corpus-rights -- --public-only'), 'CI workflow should verify committed public corpus exports')
 assert(ci.includes('npm run verify:media-endpoints'), 'CI workflow should verify media endpoints with mocked provider responses')
 
 assert(release.includes('workflow_dispatch:'), 'Manual release workflow should only run by workflow_dispatch')
 assert(!release.includes('push:'), 'Manual release workflow should not run automatically on push')
 assert(!release.includes('pull_request:'), 'Manual release workflow should not run automatically on pull_request')
 assert(release.includes('PLAYWRIGHT_CHROMIUM_EXECUTABLE'), 'Manual release workflow should resolve the browser executable')
-assert(release.includes('npm run verify:release'), 'Manual release workflow should run the full release verifier')
+assert(release.includes('npm run verify:release -- --public-only'), 'Manual release workflow should run the repository-safe release verifier')
 assert(release.includes('actions/upload-artifact@v4'), 'Manual release workflow should upload visual smoke screenshots')
 
 assert(releaseVerifier.includes('verify:github-actions'), 'Full release verifier should include the GitHub Actions gate')
@@ -77,7 +77,7 @@ console.log(
       status: 'pass',
       workflows: [ciPath, releasePath],
       automaticDeployment: false,
-      fullReleaseMode: 'manual workflow_dispatch',
+      fullReleaseMode: 'manual workflow_dispatch with public corpus export mode',
       safeToRun:
         'This verifier reads local workflow and contract files only. It does not call GitHub, deploy, mutate DNS, create Cloudflare resources, or print secret values.',
     },

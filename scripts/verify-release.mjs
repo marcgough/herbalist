@@ -5,6 +5,8 @@ import { fileURLToPath } from 'node:url'
 import { existsSync } from 'node:fs'
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)))
+const args = new Set(process.argv.slice(2))
+const publicCorpusOnly = args.has('--public-only')
 const localWranglerCli = resolve(
   root,
   'node_modules',
@@ -137,6 +139,9 @@ const stopProcessTree = (childProcess) => {
 
 const npm = (...args) => commandString(['npm', ...args])
 const node = (...args) => commandString(['node', ...args])
+const corpusRightsCheck = publicCorpusOnly
+  ? ['corpus rights audit (public export mode)', npm('run', 'verify:corpus-rights', '--', '--public-only')]
+  : ['corpus rights audit', npm('run', 'verify:corpus-rights')]
 
 const checks = []
 
@@ -156,7 +161,7 @@ for (const [label, command] of [
   ['signal intelligence', npm('run', 'verify:signal-intelligence')],
   ['Signals RSS', npm('run', 'verify:signals-rss')],
   ['source health', npm('run', 'verify:source-health')],
-  ['corpus rights audit', npm('run', 'verify:corpus-rights')],
+  corpusRightsCheck,
   ['public data exports', npm('run', 'verify:data-exports')],
   ['discovery metadata', npm('run', 'verify:discovery-metadata')],
   ['API catalog', npm('run', 'verify:api-catalog')],
@@ -251,6 +256,7 @@ console.log(
   JSON.stringify(
     {
       status: 'pass',
+      mode: publicCorpusOnly ? 'public-corpus-export' : 'full-local-corpus',
       pagesBaseUrl: baseUrl,
       checks: checks.map((check) => ({
         label: check.label,

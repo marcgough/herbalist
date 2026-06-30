@@ -48,7 +48,7 @@ npm run pages:dev
 GitHub Actions:
 
 - `.github/workflows/ci.yml` runs local safe gates on pushes and pull requests to `main`.
-- `.github/workflows/release-gate.yml` is manual only and runs the full release verifier, including browser smoke and local Cloudflare-runtime checks.
+- `.github/workflows/release-gate.yml` is manual only and runs the repository-safe release verifier with public corpus-export checks, browser smoke, and local Cloudflare-runtime checks. Full local corpus verification remains covered by `npm run verify:release` on a workstation with the local corpus layer.
 - `npm run verify:github-actions` checks that those workflows remain read-only, non-deploying, and connected to the launch contract.
 
 ## Production Direction

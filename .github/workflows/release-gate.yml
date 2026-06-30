@@ -11,8 +11,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  full-release:
-    name: Full local release verification
+  repository-release:
+    name: Repository release verification
     runs-on: ubuntu-latest
     timeout-minutes: 40
 
@@ -49,8 +49,8 @@ jobs:
             chromium --version
           fi
 
-      - name: Full release verifier
-        run: npm run verify:release
+      - name: Repository release verifier
+        run: npm run verify:release -- --public-only
 
       - name: Upload visual smoke screenshots
         if: always()
