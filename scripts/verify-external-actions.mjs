@@ -44,6 +44,7 @@ for (const id of [
   'generate-launch-packet',
   'run-production-cutover-simulation',
   'generate-external-actions',
+  'generate-production-provisioning-readiness',
   'activate-d1-bindings-local',
 ]) {
   assert(localIds.has(id), `Checklist should include local action ${id}`)

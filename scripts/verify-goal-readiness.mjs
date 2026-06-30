@@ -47,6 +47,7 @@ const productionVerifier = read('scripts/verify-production.mjs')
 const liveReadinessVerifier = read('scripts/verify-live-readiness.mjs')
 const externalActions = readJson('docs/external-launch-actions.json')
 const productionCutoverSimulation = readJson('docs/production-cutover-simulation.json')
+const productionProvisioningReadiness = readJson('docs/production-provisioning-readiness.json')
 
 const scripts = packageJson.scripts ?? {}
 const activePagesD1 = hasActiveD1Binding(pagesToml)
@@ -475,34 +476,43 @@ const requirements = [
       exists('docs/production-environment-contract.json') &&
       exists('docs/external-launch-actions.json') &&
       exists('docs/external-launch-actions.md') &&
+      exists('docs/production-provisioning-readiness.json') &&
+      exists('docs/production-provisioning-readiness.md') &&
       exists('docs/production-cutover-simulation.json') &&
       exists('docs/production-cutover-simulation.md') &&
       exists('scripts/verify-production-contract.mjs') &&
       exists('scripts/verify-external-actions.mjs') &&
       exists('scripts/simulate-production-cutover.mjs') &&
       exists('scripts/verify-production-cutover-simulation.mjs') &&
+      exists('scripts/prepare-production-provisioning.mjs') &&
       Boolean(scripts['verify:production-contract']) &&
       Boolean(scripts['verify:external-actions']) &&
+      Boolean(scripts['verify:production-provisioning']) &&
       Boolean(scripts['verify:production-cutover']) &&
       Boolean(scripts['simulate:production-cutover']) &&
       Boolean(scripts['prepare:production-cutover']) &&
       externalActions.guardrails?.externalActionsRequireFreshApproval === true &&
       productionCutoverSimulation.status === 'pass' &&
-      productionCutoverSimulation.simulatedBindings?.sharedD1DatabaseId === true
+      productionCutoverSimulation.simulatedBindings?.sharedD1DatabaseId === true &&
+      productionProvisioningReadiness.status !== 'local-contract-failed'
         ? 'pass'
         : 'missing',
     evidence: [
       'docs/production-environment-contract.json',
       'docs/external-launch-actions.json',
       'docs/external-launch-actions.md',
+      'docs/production-provisioning-readiness.json',
+      'docs/production-provisioning-readiness.md',
       'docs/production-cutover-simulation.json',
       'docs/production-cutover-simulation.md',
       'scripts/verify-production-contract.mjs',
       'scripts/verify-external-actions.mjs',
       'scripts/simulate-production-cutover.mjs',
       'scripts/verify-production-cutover-simulation.mjs',
+      'scripts/prepare-production-provisioning.mjs',
       'npm run verify:production-contract',
       'npm run verify:external-actions',
+      'npm run verify:production-provisioning',
       'npm run verify:production-cutover',
       'docs/deployment-runbook.md',
       'docs/production-launch-packet.md',
@@ -519,10 +529,12 @@ const requirements = [
       'scripts/simulate-production-cutover.mjs',
       'scripts/prepare-launch-packet.mjs',
       'scripts/prepare-external-actions.mjs',
+      'scripts/prepare-production-provisioning.mjs',
       'functions/api/health.js',
       'docs/deployment-runbook.md',
       'npm run verify:launch -- --soft',
       'npm run verify:production-cutover',
+      'npm run verify:production-provisioning',
       'npm run verify:live-readiness -- --strict',
       'npm run prepare:launch',
       'npm run prepare:external-actions',
@@ -579,9 +591,11 @@ const requirements = [
       scripts['verify:knowledge-graph'] &&
       scripts['verify:production-contract'] &&
       scripts['verify:production-cutover'] &&
+      scripts['verify:production-provisioning'] &&
       scripts['verify:production'] &&
       scripts['verify:visual-smoke'] &&
       scripts['prepare:external-actions'] &&
+      scripts['prepare:production-provisioning'] &&
       scripts['prepare:production-cutover'] &&
       scripts['prepare:launch']
         ? 'pass'
@@ -594,6 +608,7 @@ const requirements = [
       'scripts/verify-visual-smoke.mjs',
       'scripts/verify-production-contract.mjs',
       'scripts/verify-production-cutover-simulation.mjs',
+      'scripts/prepare-production-provisioning.mjs',
       'scripts/verify-launch-config.mjs',
       'scripts/verify-github-actions.mjs',
       'scripts/verify-github-release-evidence.mjs',
@@ -619,6 +634,7 @@ const requirements = [
       'scripts/verify-knowledge-graph.mjs',
       'scripts/prepare-external-actions.mjs',
       'scripts/simulate-production-cutover.mjs',
+      'scripts/prepare-production-provisioning.mjs',
       'scripts/prepare-launch-packet.mjs',
     ],
   }),

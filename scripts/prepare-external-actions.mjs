@@ -98,6 +98,14 @@ const localAllowedActions = [
     writesLocalFiles: true,
   }),
   localAction({
+    id: 'generate-production-provisioning-readiness',
+    title: 'Generate production provisioning readiness packet',
+    command: 'npm run prepare:production-provisioning',
+    purpose:
+      'Refresh the machine-readable and Markdown packet that shows the current local readiness state, next approved production action, and exact operator sequence.',
+    writesLocalFiles: true,
+  }),
+  localAction({
     id: 'activate-d1-bindings-local',
     title: 'Activate local Wrangler D1 bindings after Cloudflare returns the database ID',
     command: command(contract.commands, 'activateBindings'),

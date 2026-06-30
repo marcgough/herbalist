@@ -107,6 +107,8 @@
       "npm run verify:production-cutover",
       "npm run verify:github-actions",
       "npm run verify:github-release-evidence",
+      "npm run prepare:production-provisioning",
+      "npm run verify:production-provisioning",
       "npm run verify:static-news-refresh",
       "npm run verify:signal-coverage",
       "npm run verify:signal-intelligence",

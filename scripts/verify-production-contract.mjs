@@ -138,6 +138,7 @@ assert(exists('corpus/exports/australia-lane-summary.json'), 'Production contrac
 assert(exists('scripts/prepare-external-actions.mjs'), 'Production contract requires the external action packet generator')
 assert(exists('scripts/verify-external-actions.mjs'), 'Production contract requires the external action verifier')
 assert(exists('scripts/prepare-completion-audit.mjs'), 'Production contract requires the objective completion audit generator')
+assert(exists('scripts/prepare-production-provisioning.mjs'), 'Production contract requires the production provisioning readiness generator')
 assert(exists('scripts/verify-accessibility-smoke.mjs'), 'Production contract requires the accessibility smoke verifier')
 assert(exists('scripts/verify-visual-smoke.mjs'), 'Production contract requires the desktop/mobile visual smoke verifier')
 assert(exists('scripts/verify-github-actions.mjs'), 'Production contract requires the GitHub Actions handoff verifier')
@@ -148,6 +149,8 @@ assert(exists('docs/objective-completion-audit.json'), 'Production contract requ
 assert(exists('docs/objective-completion-audit.md'), 'Production contract requires the objective completion audit Markdown')
 assert(exists('docs/external-launch-actions.json'), 'Production contract requires the external action JSON handoff')
 assert(exists('docs/external-launch-actions.md'), 'Production contract requires the external action Markdown handoff')
+assert(exists('docs/production-provisioning-readiness.json'), 'Production contract requires the production provisioning readiness JSON')
+assert(exists('docs/production-provisioning-readiness.md'), 'Production contract requires the production provisioning readiness Markdown')
 assert(exists('scripts/simulate-production-cutover.mjs'), 'Production contract requires the production cutover simulation')
 assert(
   exists('scripts/verify-production-cutover-simulation.mjs'),
@@ -249,6 +252,14 @@ assert(
   contract.commands.safePreflight.includes('npm run verify:github-release-evidence'),
   'Safe preflight should include GitHub CI and manual release evidence verification',
 )
+assert(
+  contract.commands.safePreflight.includes('npm run prepare:production-provisioning'),
+  'Safe preflight should refresh production provisioning readiness',
+)
+assert(
+  contract.commands.safePreflight.includes('npm run verify:production-provisioning'),
+  'Safe preflight should include production provisioning readiness verification',
+)
 
 for (const name of secretNames) {
   assert(envExample.includes(`${name}=`), `.env.example should document ${name}`)
@@ -293,6 +304,10 @@ assert(
   launchPacketScript.includes('npm run verify:github-release-evidence'),
   'Launch packet generator should include GitHub release evidence verification',
 )
+assert(
+  launchPacketScript.includes('npm run verify:production-provisioning'),
+  'Launch packet generator should include production provisioning readiness verification',
+)
 
 for (const [key, enabled] of Object.entries(contract.guardrails)) {
   if (typeof enabled === 'boolean') {
@@ -328,6 +343,7 @@ assert(runbook.includes('verify:accessibility-smoke'), 'Deployment runbook shoul
 assert(runbook.includes('verify:visual-smoke'), 'Deployment runbook should document visual smoke verification')
 assert(runbook.includes('verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
+assert(runbook.includes('verify:production-provisioning'), 'Deployment runbook should document production provisioning readiness verification')
 assert(
   launchPacketDoc.includes('production-environment-contract.json'),
   'Production launch packet doc should reference the production environment contract',
@@ -367,6 +383,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:github-release-evidence'),
   'Production launch packet doc should include GitHub release evidence verification',
+)
+assert(
+  launchPacketDoc.includes('verify:production-provisioning'),
+  'Production launch packet doc should include production provisioning readiness verification',
 )
 assert(
   externalActionsDoc.includes('Do not paste secret values into chat'),

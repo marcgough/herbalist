@@ -1,6 +1,6 @@
 # Herbalisti Objective Completion Audit
 
-Generated: 2026-06-30T14:57:29.047Z
+Generated: 2026-06-30T15:53:57.137Z
 
 ## Objective
 
@@ -11,7 +11,7 @@ Build Herbalisti as a fully functioning website for herbalisti.com with original
 - Status: `local-ready-production-pending`
 - Goal complete: `false`
 - Local implementation ready: `true`
-- Audit signature: `189cf9f54f7a7bf726b57d944dad048dbed20537ebd40848534e6b66b5e1cf26`
+- Audit signature: `63fac2663623f5fd6f10df09eb5627fb27ab4466ee8a97efa93c1e176fde1bc6`
 
 ## Completion Rule
 
@@ -35,7 +35,7 @@ Completion is only proven when every requirement is either locally proven or liv
 | non-pharma-source-governance |pass |locally_proven |functions/_lib/sources.js<br>functions/api/sources.js<br>public/data/sources.json<br>migrations/0007_source_independence_review.sql |None |
 | seedance-video-readiness |pending-production |pending_live_production_evidence |functions/api/media/seedance.js<br>functions/api/media/seedance-status.js<br>functions/_lib/media.js<br>public/data/media-manifest.json |Set KIE_API_KEY and MEDIA_ADMIN_TOKEN as Cloudflare secrets.<br>Generate candidate videos only after credits are approved.<br>Review, store as owned assets, record provenance, then enable manifest slots. |
 | operational-health |pass |locally_proven |functions/api/health.js<br>scripts/verify-api.mjs<br>scripts/verify-production.mjs<br>scripts/verify-live-readiness.mjs |None |
-| production-environment-contract |pass |locally_proven |docs/production-environment-contract.json<br>docs/external-launch-actions.json<br>docs/external-launch-actions.md<br>docs/production-cutover-simulation.json |None |
+| production-environment-contract |pass |locally_proven |docs/production-environment-contract.json<br>docs/external-launch-actions.json<br>docs/external-launch-actions.md<br>docs/production-provisioning-readiness.json |None |
 | cloudflare-hosting |pending-production |pending_live_production_evidence |wrangler.toml<br>wrangler.news.toml<br>scripts/configure-cloudflare-bindings.mjs<br>scripts/simulate-production-cutover.mjs |Create Cloudflare Pages project herbalisti.<br>Connect herbalisti.com DNS/custom domain.<br>Create and bind Cloudflare D1 database. |
 | medical-and-privacy-boundaries |pass |locally_proven |public/data/governance.json<br>src/App.tsx /governance<br>npm run verify:governance |None |
 | release-verification |pass |locally_proven |package.json scripts<br>scripts/verify-release.mjs<br>scripts/verify-accessibility-smoke.mjs<br>scripts/verify-production.mjs |None |
@@ -44,7 +44,7 @@ Completion is only proven when every requirement is either locally proven or liv
 
 - Launch preflight status: `needs-production-setup`
 - Production ready: `false`
-- Checked files/scripts/passes: `117/82/170`
+- Checked files/scripts/passes: `119/85/175`
 
 ### Current Blockers
 

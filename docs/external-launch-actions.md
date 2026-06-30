@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-06-24T03:43:54.040Z
+Generated: 2026-06-30T15:48:37.235Z
 
 Status: needs-approval-and-production-setup
 
@@ -47,6 +47,14 @@ Refresh the machine-readable and Markdown handoff artifacts from the production 
 
 ```bash
 npm run prepare:external-actions
+```
+
+### Generate production provisioning readiness packet
+
+Refresh the machine-readable and Markdown packet that shows the current local readiness state, next approved production action, and exact operator sequence.
+
+```bash
+npm run prepare:production-provisioning
 ```
 
 ### Activate local Wrangler D1 bindings after Cloudflare returns the database ID

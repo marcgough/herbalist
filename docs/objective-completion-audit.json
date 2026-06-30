@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T14:57:29.047Z",
-  "auditSignature": "189cf9f54f7a7bf726b57d944dad048dbed20537ebd40848534e6b66b5e1cf26",
+  "generatedAt": "2026-06-30T15:53:57.137Z",
+  "auditSignature": "63fac2663623f5fd6f10df09eb5627fb27ab4466ee8a97efa93c1e176fde1bc6",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -313,14 +313,18 @@
         "docs/production-environment-contract.json",
         "docs/external-launch-actions.json",
         "docs/external-launch-actions.md",
+        "docs/production-provisioning-readiness.json",
+        "docs/production-provisioning-readiness.md",
         "docs/production-cutover-simulation.json",
         "docs/production-cutover-simulation.md",
         "scripts/verify-production-contract.mjs",
         "scripts/verify-external-actions.mjs",
         "scripts/simulate-production-cutover.mjs",
         "scripts/verify-production-cutover-simulation.mjs",
+        "scripts/prepare-production-provisioning.mjs",
         "npm run verify:production-contract",
         "npm run verify:external-actions",
+        "npm run verify:production-provisioning",
         "npm run verify:production-cutover",
         "docs/deployment-runbook.md",
         "docs/production-launch-packet.md"
@@ -340,10 +344,12 @@
         "scripts/simulate-production-cutover.mjs",
         "scripts/prepare-launch-packet.mjs",
         "scripts/prepare-external-actions.mjs",
+        "scripts/prepare-production-provisioning.mjs",
         "functions/api/health.js",
         "docs/deployment-runbook.md",
         "npm run verify:launch -- --soft",
         "npm run verify:production-cutover",
+        "npm run verify:production-provisioning",
         "npm run verify:live-readiness -- --strict",
         "npm run prepare:launch",
         "npm run prepare:external-actions"
@@ -385,8 +391,10 @@
         "scripts/verify-visual-smoke.mjs",
         "scripts/verify-production-contract.mjs",
         "scripts/verify-production-cutover-simulation.mjs",
+        "scripts/prepare-production-provisioning.mjs",
         "scripts/verify-launch-config.mjs",
         "scripts/verify-github-actions.mjs",
+        "scripts/verify-github-release-evidence.mjs",
         ".github/workflows/ci.yml",
         ".github/workflows/release-gate.yml",
         "scripts/verify-australia-lane.mjs",
@@ -409,6 +417,7 @@
         "scripts/verify-knowledge-graph.mjs",
         "scripts/prepare-external-actions.mjs",
         "scripts/simulate-production-cutover.mjs",
+        "scripts/prepare-production-provisioning.mjs",
         "scripts/prepare-launch-packet.mjs"
       ],
       "remaining": [],
@@ -443,7 +452,7 @@
       "protectedEndpointCount": 2
     },
     "news": {
-      "generatedAt": "2026-06-30T14:56:44.137Z",
+      "generatedAt": "2026-06-30T15:52:58.815Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 13,
@@ -464,7 +473,7 @@
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T14:56:44.137Z"
+        "generatedAt": "2026-06-30T15:52:58.815Z"
       }
     },
     "media": {
@@ -494,9 +503,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 117,
-      "scripts": 82,
-      "passes": 170
+      "files": 119,
+      "scripts": 85,
+      "passes": 175
     },
     "nextActions": [
       "Create the Cloudflare D1 database named herbalisti.",
@@ -524,6 +533,9 @@
       "npm run verify:launch -- --soft",
       "npm run verify:production-cutover",
       "npm run verify:github-actions",
+      "npm run verify:github-release-evidence",
+      "npm run prepare:production-provisioning",
+      "npm run verify:production-provisioning",
       "npm run verify:static-news-refresh",
       "npm run verify:signal-coverage",
       "npm run verify:signal-intelligence",

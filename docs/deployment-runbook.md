@@ -24,6 +24,8 @@ npm run lint
 npm run build
 npm run verify:github-actions
 npm run verify:github-release-evidence
+npm run prepare:production-provisioning
+npm run verify:production-provisioning
 npm run prepare:launch
 npm run prepare:completion-audit
 npm run verify:completion-audit
@@ -150,6 +152,15 @@ npm run verify:github-release-evidence
 ```
 
 It checks the public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, then verifies the visual-smoke artifact metadata without downloading it.
+
+Production provisioning readiness is local and read-only except for the generated handoff files:
+
+```bash
+npm run prepare:production-provisioning
+npm run verify:production-provisioning
+```
+
+It records the current Wrangler binding state, hidden required secret names, next approved external action, and exact operator sequence before Cloudflare resource creation, migrations, secrets, deployment, domain connection, or live verification.
 
 Public data export verification is local and read-only after generation:
 

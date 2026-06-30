@@ -118,6 +118,8 @@ The herbal commons gate now requires the public export and API to expose the cor
 
 `npm run verify:github-release-evidence` checks public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, then verifies the uploaded visual-smoke artifact metadata without downloading artifacts or mutating GitHub.
 
+`npm run prepare:production-provisioning` and `npm run verify:production-provisioning` generate and check the local production provisioning packet: current Wrangler binding state, hidden required secret names, next approved external action, and exact operator sequence from D1 creation through live verification.
+
 `npm run verify:external-actions` checks the local handoff that separates normal local work from approval-required Cloudflare, DNS, secret, deployment, and paid-generation actions.
 
 `npm run verify:production-cutover` checks the local production cutover simulation. It proves the future D1/R2 binding update can be modeled with fake resource IDs, confirms that Pages Functions and the scheduled Worker use the same D1 target, and verifies that migrations, secrets, deployment, and domain work remain sequenced behind the approval-required external actions.

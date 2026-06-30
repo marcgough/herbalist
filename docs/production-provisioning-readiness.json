@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-30T15:51:29.510Z",
+  "status": "ready-for-approved-production-provisioning",
+  "productionComplete": false,
+  "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
+  "project": {
+    "domain": "herbalisti.com",
+    "pagesProject": "herbalisti",
+    "newsWorker": "herbalisti-news-refresh",
+    "d1Database": "herbalisti",
+    "optionalR2Bucket": "herbalisti-media"
+  },
+  "currentState": {
+    "pagesD1BindingActive": false,
+    "newsWorkerD1BindingActive": false,
+    "d1DatabaseIdsMatch": null,
+    "r2MediaBindingActive": false,
+    "requiredSecretNames": [
+      "FEED_ADMIN_TOKEN",
+      "KIE_API_KEY",
+      "MEDIA_ADMIN_TOKEN"
+    ],
+    "visibleRequiredSecretNames": [],
+    "hiddenRequiredSecretNames": [
+      "FEED_ADMIN_TOKEN",
+      "KIE_API_KEY",
+      "MEDIA_ADMIN_TOKEN"
+    ],
+    "contractFingerprint": "eab9ec30a6edea06da0db800485214a0ae0753945986ffb16f27d874328c03b3",
+    "externalActionsFingerprint": "88657ff6c5601ce84e8b47cf268254e966bf83c9b2501e408418cebe84f218bc"
+  },
+  "checks": [
+    {
+      "id": "production-contract",
+      "status": "pass",
+      "detail": "Production contract targets herbalisti.com."
+    },
+    {
+      "id": "external-action-checklist",
+      "status": "pass",
+      "detail": "External action checklist describes production setup state."
+    },
+    {
+      "id": "github-release-evidence-gate",
+      "status": "pass",
+      "detail": "GitHub release evidence verifier is exposed as an npm script."
+    },
+    {
+      "id": "github-release-evidence-preflight",
+      "status": "pass",
+      "detail": "Safe preflight includes GitHub CI/manual release evidence verification."
+    },
+    {
+      "id": "cloudflare-configurator",
+      "status": "pass",
+      "detail": "Cloudflare binding configurator is available."
+    },
+    {
+      "id": "production-cutover-simulation",
+      "status": "pass",
+      "detail": "Production cutover simulation verifier is available."
+    },
+    {
+      "id": "external-action-verifier",
+      "status": "pass",
+      "detail": "External action verifier is available."
+    },
+    {
+      "id": "pages-deploy-script",
+      "status": "pass",
+      "detail": "Cloudflare Pages deploy script is available."
+    },
+    {
+      "id": "worker-deploy-script",
+      "status": "pass",
+      "detail": "Scheduled Worker deploy script is available."
+    },
+    {
+      "id": "d1-create-action",
+      "status": "pass",
+      "detail": "D1 creation action exists."
+    },
+    {
+      "id": "d1-migration-action",
+      "status": "pass",
+      "detail": "Remote D1 migration action exists."
+    },
+    {
+      "id": "required-secret-actions",
+      "status": "pass",
+      "detail": "Required launch secrets have named setup actions."
+    },
+    {
+      "id": "deployment-actions",
+      "status": "pass",
+      "detail": "Pages and scheduled Worker deployment actions exist."
+    },
+    {
+      "id": "domain-action",
+      "status": "pass",
+      "detail": "Custom domain action exists."
+    },
+    {
+      "id": "live-completion-gates",
+      "status": "pass",
+      "detail": "Strict live completion gates are declared."
+    },
+    {
+      "id": "no-secret-values",
+      "status": "pass",
+      "detail": "Provisioning inputs do not contain obvious secret values."
+    }
+  ],
+  "productionBlockers": [
+    "Pages D1 binding is not active.",
+    "Scheduled Worker D1 binding is not active.",
+    "FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch.",
+    "KIE_API_KEY is not locally visible; confirm it is set directly in Cloudflare before launch.",
+    "MEDIA_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch."
+  ],
+  "nextApprovedAction": "create-d1-database",
+  "operatorSequence": [
+    {
+      "id": "preflight",
+      "sideEffect": "none",
+      "commands": [
+        "npm run verify:github-release-evidence",
+        "npm run verify:launch -- --soft",
+        "npm run verify:production-contract",
+        "npm run verify:production-provisioning"
+      ]
+    },
+    {
+      "id": "create-cloudflare-d1",
+      "sideEffect": "creates-cloudflare-resource",
+      "command": "npx wrangler d1 create herbalisti",
+      "captures": [
+        "Returned D1 database ID only; do not store secret values in chat or docs."
+      ]
+    },
+    {
+      "id": "activate-local-bindings",
+      "sideEffect": "writes-local-config",
+      "command": "npm run configure:cloudflare -- --d1 <database_id> --apply"
+    },
+    {
+      "id": "remote-d1-migrations",
+      "sideEffect": "writes-cloudflare-d1",
+      "command": "npx wrangler d1 migrations apply herbalisti --remote"
+    },
+    {
+      "id": "set-required-secrets",
+      "sideEffect": "writes-cloudflare-secrets",
+      "commands": [
+        "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
+        "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",
+        "npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti"
+      ]
+    },
+    {
+      "id": "deploy",
+      "sideEffect": "public-deployment",
+      "commands": [
+        "npm run deploy:cloudflare",
+        "npm run deploy:news-worker"
+      ]
+    },
+    {
+      "id": "domain-and-live-verification",
+      "sideEffect": "dns-and-live-verification",
+      "commands": [
+        "npm run verify:live-readiness -- --strict",
+        "npm run verify:production -- https://herbalisti.com",
+        "npm run verify:goal-readiness -- --strict"
+      ]
+    }
+  ]
+}

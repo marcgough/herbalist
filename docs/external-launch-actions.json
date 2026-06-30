@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-24T03:43:54.040Z",
+  "generatedAt": "2026-06-30T15:48:37.235Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -62,6 +62,16 @@
       "approvalRequired": false,
       "command": "npm run prepare:external-actions",
       "purpose": "Refresh the machine-readable and Markdown handoff artifacts from the production contract.",
+      "writesLocalFiles": true,
+      "after": [],
+      "notes": []
+    },
+    {
+      "id": "generate-production-provisioning-readiness",
+      "title": "Generate production provisioning readiness packet",
+      "approvalRequired": false,
+      "command": "npm run prepare:production-provisioning",
+      "purpose": "Refresh the machine-readable and Markdown packet that shows the current local readiness state, next approved production action, and exact operator sequence.",
       "writesLocalFiles": true,
       "after": [],
       "notes": []

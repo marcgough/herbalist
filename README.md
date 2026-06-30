@@ -20,6 +20,8 @@ npm run lint
 npm run build
 npm run verify:github-actions
 npm run verify:github-release-evidence
+npm run prepare:production-provisioning
+npm run verify:production-provisioning
 npm run prepare:launch
 npm run verify:attribution
 npm run verify:brand
@@ -61,6 +63,8 @@ Run the production preflight before attempting launch:
 
 ```bash
 npm run verify:launch
+npm run prepare:production-provisioning
+npm run verify:production-provisioning
 ```
 
 It does not deploy, upload, call paid APIs, or expose secret values. It checks whether required files, package scripts, Cloudflare D1 bindings, and locally visible deployment variables are in place. Use `npm run verify:launch -- --soft` when you want the JSON report without a failing exit code.
