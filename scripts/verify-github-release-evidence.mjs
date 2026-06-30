@@ -17,9 +17,10 @@ const ciWorkflow = getArg('--ci-workflow', 'Herbalisti CI')
 const manualWorkflow = getArg('--manual-workflow', 'Herbalisti Manual Release Gate')
 const artifactName = getArg('--artifact', 'herbalisti-visual-smoke')
 const maxAgeHours = Number(getArg('--max-age-hours', '168'))
+const safeDirectory = root.replace(/\\/g, '/')
 const commit =
   getArg('--commit', '') ||
-  execFileSync('git', ['rev-parse', 'HEAD'], {
+  execFileSync('git', ['-c', `safe.directory=${safeDirectory}`, 'rev-parse', 'HEAD'], {
     cwd: root,
     encoding: 'utf8',
   }).trim()
