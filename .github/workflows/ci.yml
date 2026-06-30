@@ -72,6 +72,7 @@ jobs:
           npm run verify:cloudflare-config
           npm run verify:production-cutover
           npm run verify:production-deploy-workflow
+          npm run verify:production-deploy-dry-run
           npm run verify:production-d1-resolver
           npm run verify:production-contract
           npm run verify:launch -- --soft

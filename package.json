@@ -85,6 +85,7 @@
     "verify:news-worker": "node scripts/verify-news-worker.mjs",
     "verify:production-contract": "node scripts/verify-production-contract.mjs",
     "verify:production-cutover": "node scripts/verify-production-cutover-simulation.mjs",
+    "verify:production-deploy-dry-run": "node scripts/verify-production-deploy-dry-run.mjs",
     "verify:production-d1-resolver": "node scripts/verify-production-d1-resolver.mjs",
     "verify:production-deploy-workflow": "node scripts/verify-production-deploy-workflow.mjs",
     "verify:production-provisioning": "node scripts/prepare-production-provisioning.mjs --check",

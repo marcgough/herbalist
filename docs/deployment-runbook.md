@@ -13,7 +13,7 @@ npm install
 npm run verify:release
 ```
 
-`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the mocked production D1 resolver behavior, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
+`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the guarded production deploy dry run, the mocked production D1 resolver behavior, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
 
 Individual gates:
 
@@ -24,6 +24,7 @@ npm run lint
 npm run build
 npm run verify:github-actions
 npm run verify:production-deploy-workflow
+npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
@@ -170,6 +171,14 @@ npm run verify:production-deploy-workflow
 ```
 
 It checks `.github/workflows/production-deploy.yml` without running it. The workflow is manual-only, requires the exact `deploy-herbalisti-production` confirmation phrase, uses the GitHub `production` environment, validates named GitHub secrets, verifies exact release evidence, configures runner-local D1 bindings, applies remote D1 migrations, sets Cloudflare secrets from GitHub secrets without echoing values, deploys Pages and the scheduled Worker, and runs strict live verification unless temporarily skipped during DNS transition.
+
+Guarded production deploy dry-run verification is local and mocked:
+
+```bash
+npm run verify:production-deploy-dry-run
+```
+
+It rehearses the production workflow's Cloudflare-facing command path with a temporary fake `npx wrangler`: Pages project list/create, D1 resolution, in-memory binding activation, remote migration command shape, secret put command shape, Pages deploy, and scheduled Worker deploy. It does not call Cloudflare, create resources, mutate DNS, deploy, set real secrets, write Wrangler config files, call paid APIs, or print secret values.
 
 Production D1 resolver verification is local and mocked:
 

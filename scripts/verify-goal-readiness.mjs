@@ -501,6 +501,7 @@ const requirements = [
       exists('scripts/prepare-dns-cutover-plan.mjs') &&
       exists('scripts/prepare-production-secret-setup.mjs') &&
       exists('scripts/resolve-production-d1-database.mjs') &&
+      exists('scripts/verify-production-deploy-dry-run.mjs') &&
       exists('scripts/verify-production-d1-resolver.mjs') &&
       exists('scripts/simulate-production-cutover.mjs') &&
       exists('scripts/verify-production-cutover-simulation.mjs') &&
@@ -519,6 +520,7 @@ const requirements = [
       Boolean(scripts['verify:production-secrets']) &&
       Boolean(scripts['prepare:production-secrets']) &&
       Boolean(scripts['resolve:production-d1']) &&
+      Boolean(scripts['verify:production-deploy-dry-run']) &&
       Boolean(scripts['verify:production-d1-resolver']) &&
       Boolean(scripts['verify:production-deploy-workflow']) &&
       Boolean(scripts['verify:github-production-readiness']) &&
@@ -556,6 +558,7 @@ const requirements = [
       'scripts/prepare-dns-cutover-plan.mjs',
       'scripts/prepare-production-secret-setup.mjs',
       'scripts/resolve-production-d1-database.mjs',
+      'scripts/verify-production-deploy-dry-run.mjs',
       'scripts/verify-production-d1-resolver.mjs',
       'scripts/simulate-production-cutover.mjs',
       'scripts/verify-production-cutover-simulation.mjs',
@@ -571,6 +574,7 @@ const requirements = [
       'npm run verify:dns-cutover',
       'npm run verify:production-secrets',
       'npm run resolve:production-d1',
+      'npm run verify:production-deploy-dry-run',
       'npm run verify:production-d1-resolver',
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-production-readiness',
@@ -599,6 +603,7 @@ const requirements = [
       'scripts/prepare-dns-cutover-plan.mjs',
       'scripts/prepare-production-secret-setup.mjs',
       'scripts/resolve-production-d1-database.mjs',
+      'scripts/verify-production-deploy-dry-run.mjs',
       'scripts/verify-production-d1-resolver.mjs',
       '.github/workflows/production-deploy.yml',
       'functions/api/health.js',
@@ -613,6 +618,7 @@ const requirements = [
       'npm run verify:dns-cutover',
       'npm run verify:production-secrets',
       'npm run resolve:production-d1',
+      'npm run verify:production-deploy-dry-run',
       'npm run verify:production-d1-resolver',
       'npm run verify:live-readiness -- --strict',
       'npm run prepare:launch',
@@ -658,6 +664,7 @@ const requirements = [
       scripts['verify:production-secrets'] &&
       scripts['prepare:production-secrets'] &&
       scripts['resolve:production-d1'] &&
+      scripts['verify:production-deploy-dry-run'] &&
       scripts['verify:production-d1-resolver'] &&
       scripts['verify:production-deploy-workflow'] &&
       scripts['verify:live-readiness'] &&
@@ -709,6 +716,7 @@ const requirements = [
       'scripts/prepare-dns-cutover-plan.mjs',
       'scripts/prepare-production-secret-setup.mjs',
       'scripts/resolve-production-d1-database.mjs',
+      'scripts/verify-production-deploy-dry-run.mjs',
       'scripts/verify-production-d1-resolver.mjs',
       'scripts/verify-production-deploy-workflow.mjs',
       '.github/workflows/ci.yml',

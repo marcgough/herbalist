@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-06-30T20:41:04.635Z
+Generated: 2026-06-30T21:09:36.944Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -41,6 +41,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: Safe preflight includes GitHub CI/manual release evidence verification.
 - pass: Cloudflare binding configurator is available.
 - pass: Guarded production workflow can resolve or create the named D1 database without a D1 ID secret.
+- pass: Guarded production workflow can rehearse its Cloudflare-facing command path with fake Wrangler.
 - pass: Production cutover simulation verifier is available.
 - pass: External action verifier is available.
 - pass: Cloudflare Pages deploy script is available.
@@ -73,6 +74,7 @@ npm run verify:cloudflare-production-state
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
 npm run verify:launch -- --soft
 npm run verify:production-contract

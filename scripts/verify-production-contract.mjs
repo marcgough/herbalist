@@ -161,6 +161,7 @@ assert(exists('scripts/prepare-dns-cutover-plan.mjs'), 'Production contract requ
 assert(exists('scripts/prepare-production-secret-setup.mjs'), 'Production contract requires the production secret setup generator')
 assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production contract requires the production D1 resolver')
 assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production contract requires the production D1 resolver verifier')
+assert(exists('scripts/verify-production-deploy-dry-run.mjs'), 'Production contract requires the production deploy dry-run verifier')
 assert(exists('scripts/verify-production-deploy-workflow.mjs'), 'Production contract requires the production deploy workflow verifier')
 assert(exists('scripts/verify-accessibility-smoke.mjs'), 'Production contract requires the accessibility smoke verifier')
 assert(exists('scripts/verify-visual-smoke.mjs'), 'Production contract requires the desktop/mobile visual smoke verifier')
@@ -285,6 +286,10 @@ assert(
   'Safe preflight should include guarded production deploy workflow verification',
 )
 assert(
+  contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'),
+  'Safe preflight should include guarded production deploy dry-run verification',
+)
+assert(
   contract.commands.safePreflight.includes('npm run verify:production-d1-resolver'),
   'Safe preflight should include mocked production D1 resolver verification',
 )
@@ -367,6 +372,10 @@ assert(
   'Launch packet generator should include production deploy workflow verification',
 )
 assert(
+  launchPacketScript.includes('npm run verify:production-deploy-dry-run'),
+  'Launch packet generator should include production deploy dry-run verification',
+)
+assert(
   launchPacketScript.includes('npm run verify:production-d1-resolver'),
   'Launch packet generator should include production D1 resolver verification',
 )
@@ -433,6 +442,7 @@ assert(runbook.includes('verify:accessibility-smoke'), 'Deployment runbook shoul
 assert(runbook.includes('verify:visual-smoke'), 'Deployment runbook should document visual smoke verification')
 assert(runbook.includes('verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
 assert(runbook.includes('verify:production-deploy-workflow'), 'Deployment runbook should document production deploy workflow verification')
+assert(runbook.includes('verify:production-deploy-dry-run'), 'Deployment runbook should document production deploy dry-run verification')
 assert(runbook.includes('verify:production-d1-resolver'), 'Deployment runbook should document production D1 resolver verification')
 assert(runbook.includes('verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
@@ -481,6 +491,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:production-deploy-workflow'),
   'Production launch packet doc should include production deploy workflow verification',
+)
+assert(
+  launchPacketDoc.includes('verify:production-deploy-dry-run'),
+  'Production launch packet doc should include production deploy dry-run verification',
 )
 assert(
   launchPacketDoc.includes('verify:production-d1-resolver'),

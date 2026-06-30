@@ -115,6 +115,7 @@
       "npm run verify:production-cutover",
       "npm run verify:github-actions",
       "npm run verify:production-deploy-workflow",
+      "npm run verify:production-deploy-dry-run",
       "npm run verify:production-d1-resolver",
       "npm run verify:github-production-readiness",
       "npm run verify:github-release-evidence",

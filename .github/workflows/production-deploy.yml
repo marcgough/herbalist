@@ -89,6 +89,7 @@ jobs:
       - name: Verify local launch contracts
         run: |
           npm run verify:production-deploy-workflow
+          npm run verify:production-deploy-dry-run
           npm run verify:production-d1-resolver
           npm run verify:launch -- --soft
           npm run verify:production-contract

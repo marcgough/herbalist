@@ -114,6 +114,13 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         command(contract, 'resolveProductionD1').includes('resolve:production-d1'),
       'Guarded production workflow can resolve or create the named D1 database without a D1 ID secret.',
     ),
+    buildCheck(
+      'production-deploy-dry-run',
+      Boolean(scripts['verify:production-deploy-dry-run']) &&
+        exists('scripts/verify-production-deploy-dry-run.mjs') &&
+        contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'),
+      'Guarded production workflow can rehearse its Cloudflare-facing command path with fake Wrangler.',
+    ),
     buildCheck('production-cutover-simulation', Boolean(scripts['verify:production-cutover']), 'Production cutover simulation verifier is available.'),
     buildCheck('external-action-verifier', Boolean(scripts['verify:external-actions']), 'External action verifier is available.'),
     buildCheck('pages-deploy-script', Boolean(scripts['deploy:cloudflare']), 'Cloudflare Pages deploy script is available.'),
@@ -184,6 +191,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:d1-manifest',
           'npm run verify:dns-cutover',
           'npm run verify:production-secrets',
+          'npm run verify:production-deploy-dry-run',
           'npm run verify:production-d1-resolver',
           'npm run verify:launch -- --soft',
           'npm run verify:production-contract',
