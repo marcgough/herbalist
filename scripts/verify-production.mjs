@@ -25,6 +25,7 @@ const expectedHealthSurfaces = [
   'sourcesApi',
   'sourceHealthApi',
   'feedStatusApi',
+  'feedRefreshApi',
   'dataExports',
   'discoveryMetadata',
   'apiCatalog',
@@ -46,6 +47,16 @@ const assertOperationalHealth = (health) => {
     assert(health.bindings.d1 === true, 'Production Health API should report an active D1 binding')
   }
   assert(
+    ['configured', 'disabled'].includes(health.protectedFeatures?.feedRefresh),
+    'Health API should expose protected feed refresh feature state without secret values',
+  )
+  if (isCanonicalProductionUrl && !isLocalBaseUrl) {
+    assert(
+      health.protectedFeatures.feedRefresh === 'configured',
+      'Production Health API should report protected feed refresh configured',
+    )
+  }
+  assert(
     ['configured', 'disabled'].includes(health.protectedFeatures?.seedanceMediaJobs),
     'Health API should expose protected Seedance feature state without secret values',
   )
@@ -65,6 +76,17 @@ const assertOperationalHealth = (health) => {
   )
   assert(health.feed?.sourcePolicy?.includes('Herbalisti allowlist'), 'Health API should expose source policy')
   assert(Object.hasOwn(health.feed ?? {}, 'latestRefresh'), 'Health API should expose latestRefresh')
+  if (isCanonicalProductionUrl && !isLocalBaseUrl) {
+    const latest = health.feed.latestRefresh
+    const finishedAt = latest?.finishedAt ? Date.parse(latest.finishedAt) : NaN
+    const ageHours = Number.isFinite(finishedAt) ? (Date.now() - finishedAt) / 36e5 : Infinity
+    assert(
+      ['completed', 'completed_with_warnings'].includes(latest?.status),
+      'Production Health API should report a completed feed refresh',
+    )
+    assert(Number(latest?.itemCount ?? 0) > 0, 'Production Health API should report refreshed feed items')
+    assert(ageHours <= 8, 'Production Health API should report a feed refresh from the last 8 hours')
+  }
   assert(health.launchBoundary?.medicalAdvice === 'disabled', 'Health API should disable medical advice')
   assert(health.launchBoundary?.publicAccounts === 'disabled', 'Health API should disable public accounts')
   assert(health.launchBoundary?.sourceMode === 'allowlist_first', 'Health API should preserve allowlist-first mode')
@@ -475,7 +497,13 @@ assert(apiCatalog.apiBaseUrl === 'https://herbalisti.com', 'API catalog should e
 assert(Array.isArray(apiCatalog.endpoints), 'API catalog should expose endpoints')
 assert(apiCatalog.endpointCount === apiCatalog.endpoints.length, 'API catalog endpoint count should match endpoints length')
 assert(apiCatalog.publicEndpointCount >= 14, 'API catalog should expose the public endpoint count')
-assert(apiCatalog.protectedEndpointCount === 2, 'API catalog should expose the protected media endpoint count')
+assert(apiCatalog.protectedEndpointCount === 3, 'API catalog should expose the protected admin endpoint count')
+for (const protectedEndpointId of ['feed-refresh', 'seedance-create', 'seedance-status']) {
+  assert(
+    apiCatalog.endpoints.some((endpoint) => endpoint.id === protectedEndpointId && endpoint.access === 'protected-admin'),
+    `API catalog should expose protected admin endpoint ${protectedEndpointId}`,
+  )
+}
 assert(apiCatalog.boundaries?.medicalAdvice === 'disabled', 'API catalog should preserve the medical-advice boundary')
 assert(apiCatalog.boundaries?.publicAccounts === 'disabled', 'API catalog should preserve the public-account boundary')
 assert(apiCatalog.boundaries?.sourceMode === 'allowlist_first', 'API catalog should preserve the allowlist source boundary')

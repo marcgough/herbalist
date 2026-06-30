@@ -196,6 +196,7 @@ const phases = [
     purpose: 'Protect manual feed refreshes and Seedance media endpoints without committing or printing secret values.',
     commands: [
       command('npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml', 'writes-cloudflare-secret'),
+      command('npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti', 'writes-cloudflare-secret'),
       command('npx wrangler pages secret put KIE_API_KEY --project-name herbalisti', 'writes-cloudflare-secret'),
       command('npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti', 'writes-cloudflare-secret'),
       command('npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti', 'optional-writes-cloudflare-secret'),

@@ -241,6 +241,7 @@ try {
 
   runNpxWrangler({ binDir, statePath, args: ['d1', 'migrations', 'apply', 'herbalisti', '--remote'] })
   runNpxWrangler({ binDir, statePath, args: ['secret', 'put', 'FEED_ADMIN_TOKEN', '--config', 'wrangler.news.toml'], input: fakeSecretValue })
+  runNpxWrangler({ binDir, statePath, args: ['pages', 'secret', 'put', 'FEED_ADMIN_TOKEN', '--project-name', 'herbalisti'], input: fakeSecretValue })
   runNpxWrangler({ binDir, statePath, args: ['pages', 'secret', 'put', 'KIE_API_KEY', '--project-name', 'herbalisti'], input: fakeSecretValue })
   runNpxWrangler({ binDir, statePath, args: ['pages', 'secret', 'put', 'MEDIA_ADMIN_TOKEN', '--project-name', 'herbalisti'], input: fakeSecretValue })
   runNpxWrangler({ binDir, statePath, args: ['pages', 'deploy', 'dist', '--project-name', 'herbalisti'] })
@@ -254,6 +255,7 @@ try {
     ['d1 resolver create path', resolverOutput.status === 'created' && state.createdD1Databases?.includes('herbalisti')],
     ['remote migrations', state.remoteMigrationsApplied === true],
     ['worker secret', state.workerSecrets?.some((secret) => secret.name === 'FEED_ADMIN_TOKEN' && secret.stdinBytes > 0)],
+    ['pages feed secret', state.pagesSecrets?.some((secret) => secret.name === 'FEED_ADMIN_TOKEN' && secret.stdinBytes > 0)],
     ['kie secret', state.pagesSecrets?.some((secret) => secret.name === 'KIE_API_KEY' && secret.stdinBytes > 0)],
     ['media secret', state.pagesSecrets?.some((secret) => secret.name === 'MEDIA_ADMIN_TOKEN' && secret.stdinBytes > 0)],
     ['pages deploy', state.pagesDeployed === true],

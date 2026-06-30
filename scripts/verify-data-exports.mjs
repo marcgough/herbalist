@@ -186,7 +186,13 @@ assert(apiCatalog.source === 'static-export-api-catalog', 'API catalog should be
 assert(apiCatalog.apiBaseUrl === 'https://herbalisti.com', 'API catalog should expose the production API base URL')
 assert(apiCatalog.endpointCount === apiCatalog.endpoints?.length, 'API catalog endpoint count should match endpoint records')
 assert(apiCatalog.publicEndpointCount >= 14, 'API catalog should expose the public API surface count')
-assert(apiCatalog.protectedEndpointCount === 2, 'API catalog should expose the protected media endpoint count')
+assert(apiCatalog.protectedEndpointCount === 3, 'API catalog should expose the protected admin endpoint count')
+for (const protectedEndpointId of ['feed-refresh', 'seedance-create', 'seedance-status']) {
+  assert(
+    apiCatalog.endpoints.some((endpoint) => endpoint.id === protectedEndpointId && endpoint.access === 'protected-admin'),
+    `API catalog should expose protected admin endpoint ${protectedEndpointId}`,
+  )
+}
 assert(apiCatalog.boundaries?.medicalAdvice === 'disabled', 'API catalog should preserve the medical advice boundary')
 assert(apiCatalog.boundaries?.publicAccounts === 'disabled', 'API catalog should preserve the public account boundary')
 assert(apiCatalog.boundaries?.secretValues === 'never_returned', 'API catalog should preserve the no-secret-values boundary')

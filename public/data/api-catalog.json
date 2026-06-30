@@ -1,14 +1,14 @@
 {
   "name": "Herbalisti public API catalog",
   "version": "2026-06-16",
-  "generatedAt": "2026-06-30T22:18:21.181Z",
+  "generatedAt": "2026-06-30T22:58:24.100Z",
   "source": "static-export-api-catalog",
-  "policy": "Machine-readable endpoint catalog for public discovery and launch verification. Public endpoints return metadata, source indexes, and educational retrieval context only; protected media endpoints require admin authorization and do not expose secret values.",
+  "policy": "Machine-readable endpoint catalog for public discovery and launch verification. Public endpoints return metadata, source indexes, and educational retrieval context only; protected admin endpoints require authorization and do not expose secret values.",
   "canonicalUrl": "https://herbalisti.com/data/api-catalog.json",
   "apiBaseUrl": "https://herbalisti.com",
-  "endpointCount": 16,
+  "endpointCount": 17,
   "publicEndpointCount": 14,
-  "protectedEndpointCount": 2,
+  "protectedEndpointCount": 3,
   "boundaries": {
     "medicalAdvice": "disabled",
     "publicAccounts": "disabled",
@@ -256,6 +256,22 @@
       ],
       "responseShape": [
         "rss"
+      ]
+    },
+    {
+      "id": "feed-refresh",
+      "method": "POST",
+      "path": "/api/feed-refresh",
+      "access": "protected-admin",
+      "purpose": "Trigger a protected live Signals feed refresh after admin authorization.",
+      "parameters": [
+        "Authorization"
+      ],
+      "responseShape": [
+        "generatedAt",
+        "itemCount",
+        "persisted",
+        "refreshRun"
       ]
     },
     {

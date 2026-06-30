@@ -48,6 +48,8 @@ const preferredGithubScope = {
 const workflowSecretCommand = (name) => `gh secret set ${name} --env production --repo marcgough/herbalist`
 
 const commandForContractSecret = (secret) => secret.setCommand ?? workflowSecretCommand(secret.name)
+const commandsForContractSecret = (secret) =>
+  [commandForContractSecret(secret), ...(Array.isArray(secret.additionalSetCommands) ? secret.additionalSetCommands : [])].filter(Boolean)
 
 export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOString() } = {}) => {
   const packageJson = readJson('package.json')
@@ -76,6 +78,7 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       requiredForLaunch: secret.requiredForLaunch,
       scope: secret.scope,
       setCommand: commandForContractSecret(secret),
+      setCommands: commandsForContractSecret(secret),
       workflowCanSetFromGithubSecret: requiredWorkflowSecretNames.includes(secret.name),
       notes: secret.notes,
     }))
@@ -196,7 +199,7 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       {
         id: 'manual-cloudflare-runtime-secret-fallback',
         sideEffect: 'writes-cloudflare-secrets',
-        commands: cloudflareRuntimeSecrets.map((secret) => secret.setCommand),
+        commands: cloudflareRuntimeSecrets.flatMap((secret) => secret.setCommands),
         detail:
           'Use only if not using the guarded GitHub production deploy workflow. Values must be entered interactively or piped from a local secret manager, not pasted into chat, docs, or Git.',
       },
@@ -256,7 +259,9 @@ export const renderProductionSecretSetupMarkdown = (packet) => {
   lines.push(packet.cloudflareRuntime.note)
   lines.push('', '```bash')
   for (const secret of packet.cloudflareRuntime.secrets) {
-    lines.push(secret.setCommand)
+    for (const command of secret.setCommands) {
+      lines.push(command)
+    }
   }
   lines.push('```', '', '## Cloudflare API Token Permissions', '')
   lines.push(packet.cloudflareApiTokenRequirements.note)

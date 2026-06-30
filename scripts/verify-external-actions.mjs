@@ -94,6 +94,16 @@ assert(
   'Remote migration action should require D1 production migration manifest verification',
 )
 assert(
+  externalActions['set-feed-admin-token'].additionalCommands?.includes(
+    'npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti',
+  ),
+  'Feed admin token action should include the Pages feed-refresh secret command',
+)
+assert(
+  markdown.includes('npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti'),
+  'External action Markdown should include the Pages feed-refresh secret command',
+)
+assert(
   externalActions['deploy-cloudflare-pages'].command === contract.commands.deploy[0],
   'Pages deploy command should match the production contract',
 )

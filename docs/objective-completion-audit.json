@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T22:17:58.597Z",
-  "auditSignature": "c7d105c440c563cc03e906106b2ca56ca87797c7165129c7846f85adf36c1c2a",
+  "generatedAt": "2026-06-30T22:59:07.881Z",
+  "auditSignature": "0bcbac42494a4b49e3d583cf93b81e6f9383c4a9dc14a0cdce2334aa2bef5e95",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -202,10 +202,12 @@
       "proofState": "pending_live_production_evidence",
       "evidence": [
         "functions/api/news.js",
+        "functions/api/feed-refresh.js",
         "functions/api/signals.xml.js",
         "functions/api/source-health.js",
         "functions/_lib/feed.js",
         "functions/_lib/admin-auth.js",
+        "functions/_lib/news-refresh.js",
         "functions/_lib/signals-rss.js",
         "workers/news-refresh.js",
         "wrangler.news.toml",
@@ -513,12 +515,12 @@
       "allowlisted": 6
     },
     "apiCatalog": {
-      "endpointCount": 16,
+      "endpointCount": 17,
       "publicEndpointCount": 14,
-      "protectedEndpointCount": 2
+      "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-06-30T22:06:01.729Z",
+      "generatedAt": "2026-06-30T22:58:06.960Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 15,
@@ -541,7 +543,7 @@
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T22:06:01.729Z"
+        "generatedAt": "2026-06-30T22:58:06.960Z"
       }
     },
     "media": {
@@ -571,9 +573,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 138,
+      "files": 140,
       "scripts": 100,
-      "passes": 209
+      "passes": 211
     },
     "nextActions": [
       "Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.",

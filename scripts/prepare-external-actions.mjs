@@ -28,6 +28,7 @@ const approvalAction = ({
   phase,
   title,
   command: actionCommand,
+  additionalCommands = [],
   requiredForLaunch = true,
   externalEffect,
   approvalReason,
@@ -42,6 +43,7 @@ const approvalAction = ({
   requiredForLaunch,
   approvalRequired: true,
   command: actionCommand,
+  additionalCommands,
   externalEffect,
   approvalReason,
   after,
@@ -215,6 +217,7 @@ const approvalRequiredActions = [
     phase: 'secrets',
     title: 'Set Feed Admin Token secret',
     command: contract.secrets.find((secret) => secret.name === 'FEED_ADMIN_TOKEN')?.setCommand ?? '',
+    additionalCommands: contract.secrets.find((secret) => secret.name === 'FEED_ADMIN_TOKEN')?.additionalSetCommands ?? [],
     externalEffect: 'Stores a secret in Cloudflare for protected feed-refresh controls.',
     approvalReason: 'Writes a secret to Cloudflare. The value must be supplied outside chat/logs.',
     secretNames: ['FEED_ADMIN_TOKEN'],
@@ -397,6 +400,9 @@ const renderMarkdown = (value) => {
     lines.push('')
     lines.push('```bash')
     lines.push(action.command)
+    for (const extraCommand of action.additionalCommands ?? []) {
+      lines.push(extraCommand)
+    }
     lines.push('```')
     lines.push('')
     if (action.notes.length) {
@@ -424,6 +430,9 @@ const renderMarkdown = (value) => {
     lines.push('')
     lines.push('```bash')
     lines.push(action.command)
+    for (const extraCommand of action.additionalCommands ?? []) {
+      lines.push(extraCommand)
+    }
     lines.push('```')
     lines.push('')
     if (action.after.length) {

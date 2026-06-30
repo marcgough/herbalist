@@ -2,6 +2,7 @@ import { existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs'
 import { relative, resolve } from 'node:path'
 import { spawnSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
+import { onRequestGet as getFeedRefreshEndpoint, onRequestPost as postFeedRefreshEndpoint } from '../functions/api/feed-refresh.js'
 import { readLatestFeedRefreshRunFromD1, readNewsItemsFromD1 } from '../functions/_lib/feed.js'
 import worker from '../workers/news-refresh.js'
 
@@ -199,6 +200,12 @@ const assert = (condition, message) => {
   }
 }
 
+const responseJson = async (response) => ({
+  status: response.status,
+  cacheControl: response.headers.get('cache-control'),
+  body: await response.json(),
+})
+
 const jsonResponse = (payload) =>
   new Response(JSON.stringify(payload), {
     status: 200,
@@ -329,6 +336,61 @@ try {
     FEED_ADMIN_TOKEN: token,
   }
 
+  const endpointGet = await responseJson(
+    await getFeedRefreshEndpoint({
+      request: new Request('https://herbalisti.local/api/feed-refresh'),
+      env,
+    }),
+  )
+  assert(endpointGet.status === 405, `Expected feed-refresh GET to return 405, got ${endpointGet.status}`)
+  assert(endpointGet.cacheControl === 'no-store', 'Feed refresh GET response should disable caching')
+
+  const endpointWithoutD1 = await responseJson(
+    await postFeedRefreshEndpoint({
+      request: new Request('https://herbalisti.local/api/feed-refresh', {
+        method: 'POST',
+        headers: { 'x-herbalisti-feed-token': token },
+      }),
+      env: { FEED_ADMIN_TOKEN: token },
+    }),
+  )
+  assert(endpointWithoutD1.status === 503, `Expected unbound feed-refresh endpoint to return 503, got ${endpointWithoutD1.status}`)
+  assert(endpointWithoutD1.body.error === 'feed_refresh_not_configured', 'Unbound feed-refresh endpoint should explain missing D1 binding')
+
+  const endpointUnauthorized = await responseJson(
+    await postFeedRefreshEndpoint({
+      request: new Request('https://herbalisti.local/api/feed-refresh', { method: 'POST' }),
+      env,
+    }),
+  )
+  assert(endpointUnauthorized.status === 401, `Expected unauthorized feed-refresh endpoint to return 401, got ${endpointUnauthorized.status}`)
+
+  const endpointWrongToken = await responseJson(
+    await postFeedRefreshEndpoint({
+      request: new Request('https://herbalisti.local/api/feed-refresh', {
+        method: 'POST',
+        headers: { authorization: `Bearer ${token}-wrong` },
+      }),
+      env,
+    }),
+  )
+  assert(endpointWrongToken.status === 401, `Expected wrong-token feed-refresh endpoint to return 401, got ${endpointWrongToken.status}`)
+
+  const endpointRefresh = await responseJson(
+    await postFeedRefreshEndpoint({
+      request: new Request('https://herbalisti.local/api/feed-refresh', {
+        method: 'POST',
+        headers: { 'x-herbalisti-feed-token': token },
+      }),
+      env,
+    }),
+  )
+  assert(endpointRefresh.status === 200, `Protected feed-refresh endpoint failed: ${JSON.stringify(endpointRefresh.body)}`)
+  assert(endpointRefresh.cacheControl === 'no-store', 'Feed refresh POST response should disable caching')
+  assert(endpointRefresh.body.itemCount >= 5, `Expected endpoint refresh to return at least 5 items, got ${endpointRefresh.body.itemCount}`)
+  assert(endpointRefresh.body.persisted === endpointRefresh.body.itemCount, 'Endpoint refresh should persist every fixture item')
+  assert(endpointRefresh.body.refreshRun?.triggerType === 'pages-manual', 'Endpoint refresh should record pages-manual trigger type')
+
   const unauthorized = await worker.fetch(new Request('https://herbalisti.local/'), env)
   assert(unauthorized.status === 401, `Expected unauthorized refresh to return 401, got ${unauthorized.status}`)
 
@@ -385,6 +447,7 @@ try {
        ORDER BY created_at ASC;`,
     )[0]?.results ?? []
   const refreshTriggers = refreshRows.map((row) => row.trigger_type)
+  assert(refreshTriggers.includes('pages-manual'), 'Refresh ledger should include the protected Pages feed refresh')
   assert(refreshTriggers.includes('manual'), 'Refresh ledger should include the protected manual refresh')
   assert(refreshTriggers.includes('scheduled'), 'Refresh ledger should include the scheduled refresh')
   assert(
@@ -472,6 +535,11 @@ try {
           itemCount: payload.itemCount,
           persisted: payload.persisted,
           warnings: payload.warnings?.length ?? 0,
+        },
+        protectedPagesRefresh: {
+          itemCount: endpointRefresh.body.itemCount,
+          persisted: endpointRefresh.body.persisted,
+          triggerType: endpointRefresh.body.refreshRun.triggerType,
         },
         scheduledRefresh: {
           waitUntilTasks: scheduledPromises.length,

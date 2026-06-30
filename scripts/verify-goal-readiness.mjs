@@ -322,10 +322,12 @@ const requirements = [
       'Self-updating public-source newsfeed for longevity, peptides, gene therapy, gene editing, DNA modification, CRISPR, health as a service, and related self-sovereign wellbeing topics.',
     status:
       exists('functions/api/news.js') &&
+      exists('functions/api/feed-refresh.js') &&
       exists('functions/api/signals.xml.js') &&
       exists('functions/api/source-health.js') &&
       exists('functions/_lib/feed.js') &&
       exists('functions/_lib/admin-auth.js') &&
+      exists('functions/_lib/news-refresh.js') &&
       exists('functions/_lib/signals-rss.js') &&
       exists('workers/news-refresh.js') &&
       exists('migrations/0005_feed_refresh_runs.sql') &&
@@ -350,10 +352,12 @@ const requirements = [
         : 'missing',
     evidence: [
       'functions/api/news.js',
+      'functions/api/feed-refresh.js',
       'functions/api/signals.xml.js',
       'functions/api/source-health.js',
       'functions/_lib/feed.js',
       'functions/_lib/admin-auth.js',
+      'functions/_lib/news-refresh.js',
       'functions/_lib/signals-rss.js',
       'workers/news-refresh.js',
       'wrangler.news.toml',

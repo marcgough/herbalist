@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-06-30T21:42:30.433Z
+Generated: 2026-06-30T22:44:23.876Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -128,6 +128,7 @@ Side effect: writes-cloudflare-secrets
 ```bash
 npm run verify:production-secrets
 npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
+npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
 npx wrangler pages secret put KIE_API_KEY --project-name herbalisti
 npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti
 ```

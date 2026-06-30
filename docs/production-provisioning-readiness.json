@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T21:42:30.433Z",
+  "generatedAt": "2026-06-30T22:44:23.876Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,8 +27,8 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "e7d184c6fc29972db3bdee5d2043835d2c9d3a9b92f68dfe43ecb734f4044d74",
-    "externalActionsFingerprint": "6dd39f405ddb7ba51dabb66fec3da27a9dca5bef8d8df6a4ebc9fe0dd74c9848",
+    "contractFingerprint": "7ed654f7feeb975ed96bb2e43d97e199bd50074c4cae1ef56dbf5b849799c409",
+    "externalActionsFingerprint": "cded726bbcfb80eca43a75099d974a00baf434a70ea32c7ae9d7cdad26d14af8",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -214,6 +214,7 @@
       "commands": [
         "npm run verify:production-secrets",
         "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
+        "npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti",
         "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",
         "npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti"
       ]

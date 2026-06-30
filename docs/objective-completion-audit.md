@@ -1,6 +1,6 @@
 # Herbalisti Objective Completion Audit
 
-Generated: 2026-06-30T22:17:58.597Z
+Generated: 2026-06-30T22:59:07.881Z
 
 ## Objective
 
@@ -11,7 +11,7 @@ Build Herbalisti as a fully functioning website for herbalisti.com with original
 - Status: `local-ready-production-pending`
 - Goal complete: `false`
 - Local implementation ready: `true`
-- Audit signature: `c7d105c440c563cc03e906106b2ca56ca87797c7165129c7846f85adf36c1c2a`
+- Audit signature: `0bcbac42494a4b49e3d583cf93b81e6f9383c4a9dc14a0cdce2334aa2bef5e95`
 
 ## Completion Rule
 
@@ -30,7 +30,7 @@ Completion is only proven when every requirement is either locally proven or liv
 | remedy-index |pass |locally_proven |functions/api/remedies.js<br>functions/_lib/remedies.js<br>public/data/remedies.json<br>src/data/remedies.ts |None |
 | relationship-map |pass |locally_proven |functions/api/graph.js<br>functions/_lib/knowledge-graph.js<br>migrations/0009_remedy_plant_parts.sql<br>src/App.tsx /map |None |
 | unified-search |pass |locally_proven |functions/api/search.js<br>functions/_lib/search.js<br>src/App.tsx /search<br>functions/_lib/citation-notes.js |None |
-| independent-newsfeed |pending-production |pending_live_production_evidence |functions/api/news.js<br>functions/api/signals.xml.js<br>functions/api/source-health.js<br>functions/_lib/feed.js |Create the production Cloudflare D1 database.<br>Run npm run configure:cloudflare -- --d1 <database_id> --apply.<br>Deploy the scheduled news Worker. |
+| independent-newsfeed |pending-production |pending_live_production_evidence |functions/api/news.js<br>functions/api/feed-refresh.js<br>functions/api/signals.xml.js<br>functions/api/source-health.js |Create the production Cloudflare D1 database.<br>Run npm run configure:cloudflare -- --d1 <database_id> --apply.<br>Deploy the scheduled news Worker. |
 | signal-intelligence |pass |locally_proven |functions/api/signal-intelligence.js<br>functions/_lib/signal-intelligence.js<br>src/App.tsx SignalIntelligencePanel<br>src/App.css signal-intelligence-panel |None |
 | non-pharma-source-governance |pass |locally_proven |functions/_lib/sources.js<br>functions/api/sources.js<br>public/data/sources.json<br>migrations/0007_source_independence_review.sql |None |
 | seedance-video-readiness |pending-production |pending_live_production_evidence |functions/api/media/seedance.js<br>functions/api/media/seedance-status.js<br>functions/_lib/media.js<br>functions/_lib/admin-auth.js |Set KIE_API_KEY and MEDIA_ADMIN_TOKEN as Cloudflare secrets.<br>Generate candidate videos only after credits are approved.<br>Review, store as owned assets, record provenance, then enable manifest slots. |
@@ -44,7 +44,7 @@ Completion is only proven when every requirement is either locally proven or liv
 
 - Launch preflight status: `needs-production-setup`
 - Production ready: `false`
-- Checked files/scripts/passes: `138/100/209`
+- Checked files/scripts/passes: `140/100/211`
 
 ### Current Blockers
 
@@ -82,9 +82,9 @@ Live completion gates:
 - Remedies: `21`
 - Citation notes: `10`
 - Allowlisted source records: `6`
-- API endpoints catalogued: `16`
+- API endpoints catalogued: `17`
 - Public API endpoints: `14`
-- Protected API endpoints: `2`
+- Protected API endpoints: `3`
 - Current news signals: `24`
 - Current news refresh status: `completed`
 - OpenAI Image Gen 2 assets: `2`

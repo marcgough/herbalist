@@ -96,6 +96,7 @@ const readJsonProbe = async (label, url) =>
       d1Bound: body?.bindings?.d1 ?? null,
       r2MediaBound: body?.bindings?.r2Media ?? null,
       protectedFeatures: body?.protectedFeatures ?? null,
+      latestFeedRefresh: body?.feed?.latestRefresh ?? null,
       parseError: parseError || null,
     }
   }, label)
@@ -111,11 +112,30 @@ const httpsHomepage = await fetchProbe('HTTPS homepage', `https://${domain}/`)
 const httpRedirect = await fetchProbe('HTTP canonical redirect', `http://${domain}/`)
 const wwwRedirect = await fetchProbe('WWW canonical redirect', `https://www.${domain}/`)
 const health = await readJsonProbe('Health API', `https://${domain}/api/health`)
+const feedRefreshFreshness = (() => {
+  const latest = health.latestFeedRefresh
+  const finishedAt = latest?.finishedAt ? Date.parse(latest.finishedAt) : NaN
+  const ageHours = Number.isFinite(finishedAt) ? (Date.now() - finishedAt) / 36e5 : Infinity
+
+  return {
+    completed: ['completed', 'completed_with_warnings'].includes(latest?.status),
+    hasItems: Number(latest?.itemCount ?? 0) > 0,
+    ageHours: Number.isFinite(ageHours) ? Number(ageHours.toFixed(2)) : null,
+    maxAgeHours: 8,
+    fresh: Number.isFinite(ageHours) && ageHours <= 8,
+  }
+})()
 const requiredProductionBindings = {
   d1: health.d1Bound === true,
 }
 const requiredProtectedFeatures = {
+  feedRefresh: health.protectedFeatures?.feedRefresh === 'configured',
   seedanceMediaJobs: health.protectedFeatures?.seedanceMediaJobs === 'configured',
+}
+const requiredFeedState = {
+  latestRefreshCompleted: feedRefreshFreshness.completed,
+  latestRefreshHasItems: feedRefreshFreshness.hasItems,
+  latestRefreshFresh: feedRefreshFreshness.fresh,
 }
 
 const redirectTargets = {
@@ -129,7 +149,11 @@ const ready =
   redirectTargets.httpToHttps &&
   health.ok &&
   requiredProductionBindings.d1 &&
-  requiredProtectedFeatures.seedanceMediaJobs
+  requiredProtectedFeatures.feedRefresh &&
+  requiredProtectedFeatures.seedanceMediaJobs &&
+  requiredFeedState.latestRefreshCompleted &&
+  requiredFeedState.latestRefreshHasItems &&
+  requiredFeedState.latestRefreshFresh
 
 const result = {
   status: ready ? 'ready-for-production-verification' : 'not-ready',
@@ -150,9 +174,11 @@ const result = {
     wwwRedirect,
     redirectTargets,
     health,
-    requiredProductionBindings,
-    requiredProtectedFeatures,
-  },
+      requiredProductionBindings,
+      requiredProtectedFeatures,
+      requiredFeedState,
+      feedRefreshFreshness,
+    },
   nextActions: ready
     ? [
         'Run npm run verify:production -- https://herbalisti.com.',
@@ -162,7 +188,9 @@ const result = {
         'Connect herbalisti.com as a Cloudflare Pages custom domain.',
         'Confirm DNS is active for the apex domain.',
         'Confirm the HERBALISTI_DB D1 binding is active in production.',
+        'Confirm FEED_ADMIN_TOKEN is set as a Cloudflare Pages secret for the protected feed-refresh endpoint.',
         'Confirm KIE_API_KEY and MEDIA_ADMIN_TOKEN are set if protected Seedance endpoints remain required for launch.',
+        'Run the protected POST /api/feed-refresh path or wait for the scheduled Worker until /api/health reports a fresh completed feed refresh.',
         'Deploy Cloudflare Pages and the scheduled news Worker.',
         'Run npm run verify:live-readiness again.',
       ],

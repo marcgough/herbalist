@@ -74,6 +74,10 @@ assert(
   'Cloudflare Pages verification should include the Signals RSS route',
 )
 assert(
+  resources['cloudflare-pages']?.verify?.includes('POST /api/feed-refresh'),
+  'Cloudflare Pages verification should include the protected feed-refresh route',
+)
+assert(
   resources['cloudflare-pages']?.verify?.includes('GET /data/remedies.json'),
   'Cloudflare Pages verification should include the public data export route',
 )
@@ -126,7 +130,9 @@ assert(exists('functions/api/herbal-knowledge.js'), 'Production contract require
 assert(exists('functions/api/herbal-chat.js'), 'Production contract requires the herbal chat endpoint')
 assert(exists('functions/_lib/herbal-knowledge.js'), 'Production contract requires the herbal knowledge helper')
 assert(exists('functions/api/signals.xml.js'), 'Production contract requires the public Signals RSS endpoint')
+assert(exists('functions/api/feed-refresh.js'), 'Production contract requires the protected feed refresh endpoint')
 assert(exists('functions/_lib/signals-rss.js'), 'Production contract requires the Signals RSS helper')
+assert(exists('functions/_lib/news-refresh.js'), 'Production contract requires the shared news refresh helper')
 assert(exists('scripts/lib/static-news-refresh.mjs'), 'Production contract requires the static news refresh helper')
 assert(exists('scripts/verify-static-news-refresh.mjs'), 'Production contract requires the static news refresh verifier')
 assert(exists('scripts/verify-signal-coverage.mjs'), 'Production contract requires the signal coverage verifier')
@@ -354,6 +360,22 @@ assert(
     .filter((secret) => secret.setCommand)
     .every((secret) => !secret.setCommand.includes('<') && !secret.setCommand.includes('TOKEN_VALUE')),
   'Secret set commands should never include placeholder secret values',
+)
+assert(
+  contract.secrets
+    .flatMap((secret) => secret.additionalSetCommands ?? [])
+    .every((command) => !command.includes('<') && !command.includes('TOKEN_VALUE')),
+  'Additional secret set commands should never include placeholder secret values',
+)
+assert(
+  contract.secrets
+    .find((secret) => secret.name === 'FEED_ADMIN_TOKEN')
+    ?.additionalSetCommands?.includes('npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti'),
+  'FEED_ADMIN_TOKEN should also be set as a Pages secret for protected feed refresh',
+)
+assert(
+  contract.commands.setSecrets.includes('npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti'),
+  'Contract setSecrets should include the Pages feed-refresh secret command',
 )
 assert(
   contract.commands.liveCompletionGates.includes('npm run verify:live-readiness -- --strict'),

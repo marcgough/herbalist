@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T21:42:30.345Z",
+  "generatedAt": "2026-06-30T22:44:17.937Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -184,6 +184,7 @@
       "requiredForLaunch": true,
       "approvalRequired": true,
       "command": "npx wrangler d1 create herbalisti",
+      "additionalCommands": [],
       "externalEffect": "Creates a Cloudflare D1 database named herbalisti.",
       "approvalReason": "Creates a production cloud resource in the Cloudflare account.",
       "after": [],
@@ -201,6 +202,7 @@
       "requiredForLaunch": false,
       "approvalRequired": true,
       "command": "npx wrangler r2 bucket create herbalisti-media",
+      "additionalCommands": [],
       "externalEffect": "Creates a Cloudflare R2 bucket for reviewed owned Seedance video assets.",
       "approvalReason": "Creates an optional production cloud storage resource.",
       "after": [],
@@ -219,6 +221,7 @@
       "requiredForLaunch": true,
       "approvalRequired": true,
       "command": "npx wrangler d1 migrations apply herbalisti --remote",
+      "additionalCommands": [],
       "externalEffect": "Writes production database schema and seed data to Cloudflare D1.",
       "approvalReason": "Mutates the production data store.",
       "after": [
@@ -239,6 +242,9 @@
       "requiredForLaunch": true,
       "approvalRequired": true,
       "command": "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
+      "additionalCommands": [
+        "npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti"
+      ],
       "externalEffect": "Stores a secret in Cloudflare for protected feed-refresh controls.",
       "approvalReason": "Writes a secret to Cloudflare. The value must be supplied outside chat/logs.",
       "after": [],
@@ -257,6 +263,7 @@
       "requiredForLaunch": true,
       "approvalRequired": true,
       "command": "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",
+      "additionalCommands": [],
       "externalEffect": "Stores the Kie.ai API key in Cloudflare Pages for protected Seedance jobs.",
       "approvalReason": "Writes a secret and can later enable paid media generation if separately approved.",
       "after": [],
@@ -275,6 +282,7 @@
       "requiredForLaunch": true,
       "approvalRequired": true,
       "command": "npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti",
+      "additionalCommands": [],
       "externalEffect": "Stores a secret in Cloudflare Pages for protected media job create/status endpoints.",
       "approvalReason": "Writes a secret to Cloudflare. The value must be supplied outside chat/logs.",
       "after": [],
@@ -291,6 +299,7 @@
       "requiredForLaunch": false,
       "approvalRequired": true,
       "command": "npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti",
+      "additionalCommands": [],
       "externalEffect": "Stores an OpenAI API key in Cloudflare Pages for optional hosted synthesis or repeatable server-side image generation.",
       "approvalReason": "Writes a secret and can enable paid API usage if a later feature calls it.",
       "after": [],
@@ -309,6 +318,7 @@
       "requiredForLaunch": true,
       "approvalRequired": true,
       "command": "npm run deploy:cloudflare",
+      "additionalCommands": [],
       "externalEffect": "Publishes the Herbalisti website bundle to Cloudflare Pages.",
       "approvalReason": "Public deployment of the website.",
       "after": [
@@ -331,6 +341,7 @@
       "requiredForLaunch": true,
       "approvalRequired": true,
       "command": "npm run deploy:news-worker",
+      "additionalCommands": [],
       "externalEffect": "Publishes the scheduled feed-refresh Worker to Cloudflare.",
       "approvalReason": "Public deployment of scheduled automation.",
       "after": [
@@ -351,6 +362,7 @@
       "requiredForLaunch": false,
       "approvalRequired": true,
       "command": "GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production",
+      "additionalCommands": [],
       "externalEffect": "Runs the manual GitHub production workflow that can create or confirm the Pages project, resolve or create the D1 database by name, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, and run live verification.",
       "approvalReason": "Public production deployment automation with Cloudflare resource, secret, D1, Worker, and live-site effects.",
       "after": [],
@@ -385,6 +397,7 @@
       "requiredForLaunch": true,
       "approvalRequired": true,
       "command": "Cloudflare dashboard: connect herbalisti.com to the herbalisti Pages project",
+      "additionalCommands": [],
       "externalEffect": "Changes public DNS/custom-domain routing for herbalisti.com.",
       "approvalReason": "Mutates public DNS or Cloudflare custom-domain configuration.",
       "after": [
@@ -406,6 +419,7 @@
       "requiredForLaunch": false,
       "approvalRequired": true,
       "command": "POST /api/media/seedance with approved prompt and MEDIA_ADMIN_TOKEN",
+      "additionalCommands": [],
       "externalEffect": "Calls a paid third-party media-generation provider.",
       "approvalReason": "Can spend credits and create external media-generation jobs.",
       "after": [

@@ -37,6 +37,7 @@ const functionFilesByEndpoint = {
   'source-health': 'functions/api/source-health.js',
   'signal-intelligence': 'functions/api/signal-intelligence.js',
   'feed-status': 'functions/api/feed-status.js',
+  'feed-refresh': 'functions/api/feed-refresh.js',
   news: 'functions/api/news.js',
   'signals-rss': 'functions/api/signals.xml.js',
   'seedance-create': 'functions/api/media/seedance.js',
@@ -60,7 +61,7 @@ const requiredPublicEndpoints = [
   'signals-rss',
 ]
 
-const requiredProtectedEndpoints = ['seedance-create', 'seedance-status']
+const requiredProtectedEndpoints = ['feed-refresh', 'seedance-create', 'seedance-status']
 const secretNamePattern = /\b(CLOUDFLARE_API_TOKEN|CLOUDFLARE_ACCOUNT_ID|FEED_ADMIN_TOKEN|KIE_API_KEY|MEDIA_ADMIN_TOKEN|OPENAI_API_KEY)\b/
 
 assert(exists('public/data/api-catalog.json'), 'API catalog public export is missing')

@@ -237,7 +237,12 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       {
         id: 'set-required-secrets',
         sideEffect: 'writes-cloudflare-secrets',
-        commands: ['npm run verify:production-secrets', ...contract.secrets.filter((secret) => secret.requiredForLaunch).map((secret) => secret.setCommand)],
+        commands: [
+          'npm run verify:production-secrets',
+          ...contract.secrets
+            .filter((secret) => secret.requiredForLaunch)
+            .flatMap((secret) => [secret.setCommand, ...(secret.additionalSetCommands ?? [])].filter(Boolean)),
+        ],
       },
       {
         id: 'deploy',

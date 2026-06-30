@@ -1,6 +1,6 @@
 # Herbalisti Production Secret Setup
 
-Generated: 2026-06-30T21:41:49.320Z
+Generated: 2026-06-30T22:43:22.900Z
 
 Status: ready-for-secret-entry
 
@@ -48,6 +48,7 @@ When the guarded GitHub production deploy workflow is used, it sets required Clo
 
 ```bash
 npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
+npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
 npx wrangler pages secret put KIE_API_KEY --project-name herbalisti
 npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti
 npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti
@@ -109,6 +110,7 @@ Use only if not using the guarded GitHub production deploy workflow. Values must
 
 ```bash
 npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
+npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
 npx wrangler pages secret put KIE_API_KEY --project-name herbalisti
 npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti
 npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti

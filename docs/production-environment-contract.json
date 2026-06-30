@@ -20,6 +20,7 @@
         "GET /opensearch.xml",
         "GET /api/health",
         "GET /api/signals.xml",
+        "POST /api/feed-refresh",
         "GET /data/discovery-metadata.json",
         "GET /data/api-catalog.json",
         "GET /data/herbal-knowledge.json",
@@ -82,9 +83,10 @@
     {
       "name": "FEED_ADMIN_TOKEN",
       "requiredForLaunch": true,
-      "scope": "scheduled-news-worker",
+      "scope": "scheduled-news-worker-and-cloudflare-pages-feed-refresh",
       "setCommand": "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
-      "notes": "Protects manual news refresh triggers."
+      "additionalSetCommands": ["npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti"],
+      "notes": "Protects manual news refresh triggers for both the scheduled Worker and the Pages feed-refresh endpoint."
     },
     {
       "name": "KIE_API_KEY",
@@ -160,6 +162,7 @@
     "resolveProductionD1": ["npm run resolve:production-d1 -- --create-if-missing --github-env \"$GITHUB_ENV\""],
     "setSecrets": [
       "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
+      "npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti",
       "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",
       "npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti",
       "npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti"

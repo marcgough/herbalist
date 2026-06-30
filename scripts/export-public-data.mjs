@@ -170,6 +170,15 @@ const apiEndpoints = [
     responseShape: ['rss'],
   },
   {
+    id: 'feed-refresh',
+    method: 'POST',
+    path: '/api/feed-refresh',
+    access: 'protected-admin',
+    purpose: 'Trigger a protected live Signals feed refresh after admin authorization.',
+    parameters: ['Authorization'],
+    responseShape: ['generatedAt', 'itemCount', 'persisted', 'refreshRun'],
+  },
+  {
     id: 'seedance-create',
     method: 'POST',
     path: '/api/media/seedance',
@@ -305,7 +314,7 @@ const exports = [
       generatedAt,
       source: 'static-export-api-catalog',
       policy:
-        'Machine-readable endpoint catalog for public discovery and launch verification. Public endpoints return metadata, source indexes, and educational retrieval context only; protected media endpoints require admin authorization and do not expose secret values.',
+        'Machine-readable endpoint catalog for public discovery and launch verification. Public endpoints return metadata, source indexes, and educational retrieval context only; protected admin endpoints require authorization and do not expose secret values.',
       canonicalUrl: 'https://herbalisti.com/data/api-catalog.json',
       apiBaseUrl: 'https://herbalisti.com',
       endpointCount: apiEndpoints.length,

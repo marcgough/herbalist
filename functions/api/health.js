@@ -40,6 +40,7 @@ export async function onRequestGet({ env = {} }) {
       sourcesApi: true,
       sourceHealthApi: true,
       feedStatusApi: true,
+      feedRefreshApi: true,
       dataExports: true,
       discoveryMetadata: true,
       apiCatalog: true,
@@ -51,6 +52,7 @@ export async function onRequestGet({ env = {} }) {
       r2Media: Boolean(env.HERBALISTI_MEDIA),
     },
     protectedFeatures: {
+      feedRefresh: env.FEED_ADMIN_TOKEN && env.HERBALISTI_DB ? 'configured' : 'disabled',
       seedanceMediaJobs: env.KIE_API_KEY && env.MEDIA_ADMIN_TOKEN ? 'configured' : 'disabled',
       serverSideOpenAiImages: env.OPENAI_API_KEY ? 'configured' : 'not_required',
       serverSideOpenAiHerbalChat: env.OPENAI_API_KEY ? 'configured' : 'fallback_only',

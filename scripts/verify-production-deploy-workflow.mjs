@@ -72,10 +72,12 @@ for (const command of [
   'npm run configure:cloudflare -- --d1 "$CLOUDFLARE_D1_DATABASE_ID" --apply',
   'npx wrangler d1 migrations apply herbalisti --remote',
   'npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml',
+  'npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti',
   'npx wrangler pages secret put KIE_API_KEY --project-name herbalisti',
   'npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti',
   'npm run deploy:cloudflare',
   'npm run deploy:news-worker',
+  'https://herbalisti.com/api/feed-refresh',
   'npm run verify:live-readiness -- --strict',
   'npm run verify:production -- https://herbalisti.com',
   'npm run verify:goal-readiness -- --strict',
@@ -87,6 +89,8 @@ assert(workflow.includes("printf '%s' \"$FEED_ADMIN_TOKEN\""), 'FEED_ADMIN_TOKEN
 assert(workflow.includes("printf '%s' \"$KIE_API_KEY\""), 'KIE_API_KEY should be piped without echoing')
 assert(workflow.includes("printf '%s' \"$MEDIA_ADMIN_TOKEN\""), 'MEDIA_ADMIN_TOKEN should be piped without echoing')
 assert(workflow.includes('skip_live_verification'), 'Production deploy workflow should expose a DNS-transition live verification override')
+assert(workflow.includes('curl --fail --silent --show-error --request POST'), 'Production deploy workflow should seed the live feed through a protected POST')
+assert(workflow.includes("['completed', 'completed_with_warnings']"), 'Production deploy workflow should accept completed feed-refresh statuses only')
 assert(!secretValuePattern.test(workflow), 'Production deploy workflow must not contain literal secret values')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-workflow'), 'Safe preflight should include production deploy workflow verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'), 'Safe preflight should include production deploy dry-run verification')

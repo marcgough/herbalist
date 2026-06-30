@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-06-30T21:42:30.345Z
+Generated: 2026-06-30T22:44:17.937Z
 
 Status: needs-approval-and-production-setup
 
@@ -215,6 +215,7 @@ Command:
 
 ```bash
 npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
+npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
 ```
 
 Secret names: FEED_ADMIN_TOKEN

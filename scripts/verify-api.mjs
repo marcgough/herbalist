@@ -53,6 +53,7 @@ const expectedHealthSurfaces = [
   'sourcesApi',
   'sourceHealthApi',
   'feedStatusApi',
+  'feedRefreshApi',
   'dataExports',
   'discoveryMetadata',
   'apiCatalog',
@@ -72,6 +73,10 @@ const assertOperationalHealth = (health) => {
   assert(
     typeof health.bindings?.r2Media === 'boolean',
     '/api/health should expose R2 media binding presence as a boolean',
+  )
+  assert(
+    ['configured', 'disabled'].includes(health.protectedFeatures?.feedRefresh),
+    '/api/health should expose protected feed refresh feature state without secret values',
   )
   assert(
     ['configured', 'disabled'].includes(health.protectedFeatures?.seedanceMediaJobs),
