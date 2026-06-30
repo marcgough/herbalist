@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T15:53:57.137Z",
-  "auditSignature": "63fac2663623f5fd6f10df09eb5627fb27ab4466ee8a97efa93c1e176fde1bc6",
+  "generatedAt": "2026-06-30T16:12:51.429Z",
+  "auditSignature": "19ee69d1a8e6f0ee281658c39cdc2b085be3308f7302e8ff9ee7483d8e82abcc",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -452,7 +452,7 @@
       "protectedEndpointCount": 2
     },
     "news": {
-      "generatedAt": "2026-06-30T15:52:58.815Z",
+      "generatedAt": "2026-06-30T16:11:56.693Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 13,
@@ -473,7 +473,7 @@
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T15:52:58.815Z"
+        "generatedAt": "2026-06-30T16:11:56.693Z"
       }
     },
     "media": {

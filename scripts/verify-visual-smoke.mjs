@@ -9,6 +9,7 @@ import { chromium } from 'playwright-core'
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)))
 const providedBaseUrl = process.argv[2] || process.env.HERBALISTI_BASE_URL || ''
 const outputDir = resolve(root, 'output', 'playwright', 'herbalisti-visual-smoke')
+const uiWaitTimeoutMs = Number(process.env.HERBALISTI_UI_WAIT_TIMEOUT_MS ?? (process.env.CI ? 30000 : 15000))
 const localWranglerCli = resolve(root, 'node_modules', 'wrangler', 'bin', 'wrangler.js')
 const wranglerCli = existsSync(localWranglerCli)
   ? localWranglerCli
@@ -59,9 +60,13 @@ const routes = [
   },
   {
     id: 'search',
-    path: '/search?q=CRISPR',
-    selectors: ['.console-section', '.search-group'],
+    path: '/search',
+    selectors: ['.console-section', '.console-toolbar', '.search-field input'],
     text: ['One interface for books, notes, remedies, sources, and signals.'],
+    interact: async (page) => {
+      await page.locator('.search-field input').fill('ginger')
+      await page.locator('.search-group').first().waitFor({ state: 'visible', timeout: uiWaitTimeoutMs })
+    },
   },
   {
     id: 'library',
@@ -227,13 +232,13 @@ const startPagesServer = async () => {
 const findBrowserExecutable = () => browserCandidates.find((candidate) => existsSync(candidate))
 
 const ensureVisible = async (page, selector, label) => {
-  await page.locator(selector).first().waitFor({ state: 'visible', timeout: 15000 })
+  await page.locator(selector).first().waitFor({ state: 'visible', timeout: uiWaitTimeoutMs })
   const count = await page.locator(selector).count()
   assert(count > 0, `${label} expected selector ${selector}`)
 }
 
 const waitForText = async (page, text, label) => {
-  await page.getByText(text, { exact: false }).first().waitFor({ state: 'visible', timeout: 15000 })
+  await page.getByText(text, { exact: false }).first().waitFor({ state: 'visible', timeout: uiWaitTimeoutMs })
 }
 
 const inspectLayout = async (page) =>
