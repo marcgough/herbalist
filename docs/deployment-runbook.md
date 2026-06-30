@@ -22,6 +22,7 @@ npm run refresh:news
 npm run export:data
 npm run lint
 npm run build
+npm run verify:github-actions
 npm run prepare:launch
 npm run prepare:completion-audit
 npm run verify:completion-audit
@@ -132,6 +133,14 @@ npm run verify:production-contract
 ```
 
 It records the required Cloudflare Pages project, D1 database, scheduled Worker, optional R2 media bucket, Cloudflare secret scopes, side-effecting commands, launch guardrails, and live completion gates.
+
+GitHub Actions verification is local and read-only:
+
+```bash
+npm run verify:github-actions
+```
+
+It checks that the public repository has a push/PR CI workflow for local safe gates, a manual full release-gate workflow for the heavier browser and Cloudflare-runtime checks, read-only workflow permissions, no deployment/resource/secret mutation commands, reproducible Wrangler tooling, and launch-contract wiring.
 
 Public data export verification is local and read-only after generation:
 

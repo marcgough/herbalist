@@ -27,6 +27,8 @@ const add = (ok, passMessage, failMessage, severity = 'blocker') => {
 
 const requiredFiles = [
   'index.html',
+  '.github/workflows/ci.yml',
+  '.github/workflows/release-gate.yml',
   'wrangler.toml',
   'wrangler.news.toml',
   'public/assets/herbalisti-logo.svg',
@@ -109,6 +111,7 @@ const requiredFiles = [
   'scripts/verify-data-exports.mjs',
   'scripts/verify-discovery-metadata.mjs',
   'scripts/verify-goal-readiness.mjs',
+  'scripts/verify-github-actions.mjs',
   'scripts/verify-live-readiness.mjs',
   'scripts/verify-knowledge-graph.mjs',
   'scripts/verify-media-endpoints.mjs',
@@ -176,6 +179,7 @@ for (const script of [
   'verify:external-actions',
   'verify:feed-normalization',
   'verify:goal-readiness',
+  'verify:github-actions',
   'verify:governance',
   'verify:knowledge-graph',
   'verify:media-endpoints',

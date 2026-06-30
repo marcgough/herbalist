@@ -105,6 +105,7 @@
     "safePreflight": [
       "npm run verify:launch -- --soft",
       "npm run verify:production-cutover",
+      "npm run verify:github-actions",
       "npm run verify:static-news-refresh",
       "npm run verify:signal-coverage",
       "npm run verify:signal-intelligence",

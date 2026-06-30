@@ -115,7 +115,7 @@ const directSpecs = {
   ...packageJson.dependencies,
   ...packageJson.devDependencies,
 }
-const allowedLicenses = new Set(['MIT', 'ISC', 'Apache-2.0'])
+const allowedLicenses = new Set(['MIT', 'ISC', 'Apache-2.0', 'MIT OR Apache-2.0'])
 const dependencyReport = []
 
 for (const [name, spec] of Object.entries(directSpecs)) {

@@ -18,6 +18,7 @@ npm run refresh:news
 npm run export:data
 npm run lint
 npm run build
+npm run verify:github-actions
 npm run prepare:launch
 npm run verify:attribution
 npm run verify:brand
@@ -43,6 +44,12 @@ npm run verify:source-governance
 npm run verify:source-health
 npm run pages:dev
 ```
+
+GitHub Actions:
+
+- `.github/workflows/ci.yml` runs local safe gates on pushes and pull requests to `main`.
+- `.github/workflows/release-gate.yml` is manual only and runs the full release verifier, including browser smoke and local Cloudflare-runtime checks.
+- `npm run verify:github-actions` checks that those workflows remain read-only, non-deploying, and connected to the launch contract.
 
 ## Production Direction
 

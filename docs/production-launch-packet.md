@@ -40,6 +40,7 @@ npm run prepare:launch -- --strict
 The packet covers:
 
 - local release proof
+- GitHub Actions safe-gate and manual release-gate verification
 - objective completion audit generation and signature verification
 - public `/api/health` launch contract verification
 - independent-source governance and source-review metadata verification
@@ -91,6 +92,7 @@ Use this packet with:
 
 ```bash
 npm run verify:launch -- --soft
+npm run verify:github-actions
 npm run verify:source-governance
 npm run verify:knowledge-graph
 npm run verify:citation-notes

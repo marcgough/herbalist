@@ -55,6 +55,7 @@ Direct runtime dependencies used by the public site and Cloudflare functions:
 | `typescript` | `~6.0.2` | Apache-2.0 | Type checking |
 | `typescript-eslint` | `^8.59.2` | MIT | TypeScript linting |
 | `vite` | `^8.0.16` | MIT | Build tool |
+| `wrangler` | `^4.105.0` | MIT OR Apache-2.0 | Cloudflare local release and GitHub manual release-gate checks |
 
 ## Launch Rule
 

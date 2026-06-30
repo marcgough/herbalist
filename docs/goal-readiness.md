@@ -57,6 +57,7 @@ The audit currently checks:
 - Seedance video readiness
 - Operational health contract
 - Production environment contract
+- GitHub Actions CI and manual full-release gate
 - External-action checklist for approval-required launch steps
 - Local production cutover simulation for D1/R2 binding rehearsal
 - Cloudflare hosting readiness
@@ -112,6 +113,8 @@ The herbal commons gate now requires the public export and API to expose the cor
 `npm run verify:corpus-rights` checks the corpus registry, chunk manifests, normalized text, and public exports against the source inclusion standard: public-domain or permissively licensed book-like works only, from approved no-key public archive lanes. `npm run corpus:rights-audit` refreshes the JSON and Markdown audit handoff.
 
 `docs/production-environment-contract.json` is the canonical machine-readable handoff for Cloudflare resources, required launch secrets, side-effecting commands, guardrails, and live completion gates. It is checked by `npm run verify:production-contract`.
+
+`npm run verify:github-actions` checks that the GitHub repository has a push/PR CI workflow for local safe gates, a manual full-release workflow for the heavier browser and Cloudflare-runtime checks, read-only permissions, no deployment/resource/secret mutation commands, reproducible Wrangler tooling, and launch-contract wiring.
 
 `npm run verify:external-actions` checks the local handoff that separates normal local work from approval-required Cloudflare, DNS, secret, deployment, and paid-generation actions.
 

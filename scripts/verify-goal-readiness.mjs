@@ -556,6 +556,7 @@ const requirements = [
       scripts['verify:accessibility-smoke'] &&
       scripts['verify:australia-lane'] &&
       scripts['verify:external-actions'] &&
+      scripts['verify:github-actions'] &&
       scripts['verify:live-readiness'] &&
       scripts['verify:brand'] &&
       scripts['verify:attribution'] &&
@@ -593,6 +594,9 @@ const requirements = [
       'scripts/verify-production-contract.mjs',
       'scripts/verify-production-cutover-simulation.mjs',
       'scripts/verify-launch-config.mjs',
+      'scripts/verify-github-actions.mjs',
+      '.github/workflows/ci.yml',
+      '.github/workflows/release-gate.yml',
       'scripts/verify-australia-lane.mjs',
       'scripts/verify-external-actions.mjs',
       'scripts/verify-live-readiness.mjs',

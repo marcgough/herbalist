@@ -145,6 +145,7 @@ for (const [label, command] of [
   ['export public data snapshots', npm('run', 'export:data')],
   ['lint', npm('run', 'lint')],
   ['production build', npm('run', 'build')],
+  ['GitHub Actions handoff', npm('run', 'verify:github-actions')],
   ['brand assets', npm('run', 'verify:brand')],
   ['media attribution', npm('run', 'verify:attribution')],
   ['high-tech motion system', npm('run', 'verify:motion-system')],

@@ -67,6 +67,7 @@
     "verify:feed-normalization": "node scripts/verify-feed-normalization.mjs",
     "verify:goal-readiness": "node scripts/verify-goal-readiness.mjs",
     "verify:governance": "node scripts/verify-governance.mjs",
+    "verify:github-actions": "node scripts/verify-github-actions.mjs",
     "verify:launch": "node scripts/verify-launch-config.mjs",
     "verify:live-readiness": "node scripts/verify-live-readiness.mjs",
     "verify:media-endpoints": "node scripts/verify-media-endpoints.mjs",
@@ -106,6 +107,7 @@
     "playwright-core": "^1.61.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
-    "vite": "^8.0.16"
+    "vite": "^8.0.16",
+    "wrangler": "^4.105.0"
   }
 }

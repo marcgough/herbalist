@@ -1,0 +1,75 @@
+name: Herbalisti CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: herbalisti-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  local-gates:
+    name: Local safe gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+
+      - name: Verify GitHub Actions handoff
+        run: npm run verify:github-actions
+
+      - name: Verify launch-safe contracts
+        run: |
+          npm run verify:brand
+          npm run verify:attribution
+          npm run verify:motion-system
+          npm run verify:edge-policy
+          npm run verify:feed-normalization
+          npm run verify:static-news-refresh
+          npm run verify:signal-coverage
+          npm run verify:signal-intelligence
+          npm run verify:signals-rss
+          npm run verify:source-health
+          npm run verify:corpus-rights
+          npm run verify:data-exports
+          npm run verify:discovery-metadata
+          npm run verify:api-catalog
+          npm run verify:search-discovery
+          npm run verify:australia-lane
+          npm run verify:source-governance
+          npm run verify:knowledge-graph
+          npm run verify:citation-notes
+          npm run verify:goal-readiness
+          npm run prepare:completion-audit
+          npm run verify:completion-audit
+          npm run verify:governance
+          npm run verify:media-endpoints
+          npm run verify:cloudflare-config
+          npm run verify:production-cutover
+          npm run verify:production-contract
+          npm run verify:launch -- --soft

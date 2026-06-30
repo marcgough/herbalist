@@ -61,6 +61,7 @@ const phases = [
     commands: [command('npm install'), command('npm run verify:release')],
     checks: [
       'Build succeeds.',
+      'GitHub Actions safe-gate and manual release-gate workflows are present, read-only, and non-deploying.',
       'Local Cloudflare Pages runtime starts.',
       'API and production-shape smoke tests pass.',
       'Desktop and mobile visual smoke confirms routed pages render without console warnings, broken imagery, or horizontal overflow.',
@@ -104,6 +105,7 @@ const phases = [
       command('npm run configure:cloudflare -- --d1 <database_id> --apply', 'writes-local-config'),
       command('npm run configure:cloudflare -- --d1 <database_id> --r2 herbalisti-media --apply', 'optional-writes-local-config'),
       command('npm run verify:launch -- --soft'),
+      command('npm run verify:github-actions'),
       command('npm run verify:static-news-refresh'),
       command('npm run verify:signal-coverage'),
       command('npm run verify:signal-intelligence'),

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-25T11:32:28.719Z",
-  "auditSignature": "be25b863547da499ec855c1db281cfee9f9a6e7ba4e8d10dad95537bf07b213a",
+  "generatedAt": "2026-06-30T14:42:53.547Z",
+  "auditSignature": "daa0d36ff6894e1ac8f6938453408dc91071fc18c0c21e79f706df5d41a1aebf",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -386,6 +386,9 @@
         "scripts/verify-production-contract.mjs",
         "scripts/verify-production-cutover-simulation.mjs",
         "scripts/verify-launch-config.mjs",
+        "scripts/verify-github-actions.mjs",
+        ".github/workflows/ci.yml",
+        ".github/workflows/release-gate.yml",
         "scripts/verify-australia-lane.mjs",
         "scripts/verify-external-actions.mjs",
         "scripts/verify-live-readiness.mjs",
@@ -440,29 +443,28 @@
       "protectedEndpointCount": 2
     },
     "news": {
-      "generatedAt": "2026-06-25T11:31:42.156Z",
+      "generatedAt": "2026-06-30T14:42:09.339Z",
       "total": 24,
       "topicCounts": {
-        "Longevity": 11,
-        "Peptides": 4,
-        "Gene therapy": 5,
-        "DNA modification": 1,
+        "Longevity": 13,
+        "DNA modification": 6,
+        "Peptides": 1,
         "Gene editing": 8,
         "CRISPR": 7,
-        "Health as a service": 1
+        "Gene therapy": 2
       },
       "sourceCounts": {
         "Fight Aging!": 6,
-        "arXiv": 4,
         "Lifespan.io": 5,
-        "bioRxiv": 1,
+        "arXiv": 2,
+        "bioRxiv": 3,
         "Crossref": 8
       },
       "latestRefreshStatus": "completed",
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-25T11:31:42.156Z"
+        "generatedAt": "2026-06-30T14:42:09.339Z"
       }
     },
     "media": {
@@ -492,9 +494,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 114,
-      "scripts": 81,
-      "passes": 166
+      "files": 117,
+      "scripts": 82,
+      "passes": 170
     },
     "nextActions": [
       "Create the Cloudflare D1 database named herbalisti.",
@@ -521,6 +523,7 @@
     "safePreflight": [
       "npm run verify:launch -- --soft",
       "npm run verify:production-cutover",
+      "npm run verify:github-actions",
       "npm run verify:static-news-refresh",
       "npm run verify:signal-coverage",
       "npm run verify:signal-intelligence",
