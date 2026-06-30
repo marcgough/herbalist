@@ -44,6 +44,7 @@ The packet covers:
 - guarded GitHub production deploy workflow verification
 - guarded production deploy dry-run verification
 - mocked production D1 resolver behavior verification
+- protected production feed seed verification
 - GitHub production environment and secret-name readiness verification
 - GitHub CI/manual release evidence for the intended launch commit
 - Cloudflare API token permission requirement verification
@@ -73,7 +74,9 @@ The packet covers:
 - remote D1 migration
 - Cloudflare secret setup
 - Pages and scheduled Worker deployment
-- `herbalisti.com` custom domain and live verification
+- `herbalisti.com` custom domain setup
+- protected live Signals feed seed through `/api/feed-refresh`
+- live verification
 
 ## Current Expected Status
 
@@ -103,6 +106,7 @@ npm run verify:github-actions
 npm run verify:production-deploy-workflow
 npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
+npm run verify:production-feed-seed
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state
@@ -129,6 +133,7 @@ npm run verify:search-discovery
 npm run verify:australia-lane
 npm run verify:production-cutover
 npm run verify:external-actions
+npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed
 npm run verify:live-readiness
 npm run verify:goal-readiness
 npm run prepare:completion-audit
@@ -139,4 +144,4 @@ npm run verify:production-contract
 npm run verify:release
 ```
 
-The project should not be treated as complete until `npm run verify:live-readiness -- --strict`, `npm run verify:production -- https://herbalisti.com`, and `npm run verify:goal-readiness -- --strict` pass after deployment. Strict live readiness now requires the production domain, canonical redirects, `/api/health`, an active production D1 binding, and configured protected Seedance endpoints.
+The project should not be treated as complete until `npm run verify:live-readiness -- --strict`, `npm run verify:production -- https://herbalisti.com`, and `npm run verify:goal-readiness -- --strict` pass after deployment. Strict live readiness now requires the production domain, canonical redirects, `/api/health`, an active production D1 binding, configured protected feed/media endpoints, and a fresh completed feed refresh with items.

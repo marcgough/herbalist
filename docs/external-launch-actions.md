@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-06-30T22:44:17.937Z
+Generated: 2026-06-30T23:25:49.038Z
 
 Status: needs-approval-and-production-setup
 
@@ -55,6 +55,14 @@ Refresh the machine-readable and Markdown packet that shows the current local re
 
 ```bash
 npm run prepare:production-provisioning
+```
+
+### Verify production feed seed command
+
+Confirm the protected production feed seed command is confirmation-gated, dry-run safe, and wired into the production contract without calling the network.
+
+```bash
+npm run verify:production-feed-seed
 ```
 
 ### Check GitHub production environment and secret-name readiness
@@ -316,6 +324,33 @@ After: apply-remote-d1-migrations, set-feed-admin-token
 Verification:
 - npm run verify:source-health
 - npm run verify:production -- https://herbalisti.com
+
+### Seed live Signals feed
+
+Required for launch: true
+
+External effect: Triggers the protected production feed-refresh endpoint and writes a feed refresh run into production D1.
+
+Approval reason: Writes production feed-refresh data and uses the feed admin secret.
+
+Command:
+
+```bash
+npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed
+```
+
+After: deploy-cloudflare-pages, deploy-news-worker, connect-domain
+
+Secret names: FEED_ADMIN_TOKEN
+
+Verification:
+- npm run verify:production-feed-seed
+- npm run verify:live-readiness -- --strict
+- npm run verify:production -- https://herbalisti.com
+
+Notes:
+- Use this after DNS/custom-domain routing is active when the guarded deploy workflow was run with live verification skipped.
+- The command prints sanitized feed-refresh metadata only and must not print the token value.
 
 ### Run guarded GitHub production deploy workflow
 

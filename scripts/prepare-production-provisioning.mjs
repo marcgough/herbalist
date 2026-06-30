@@ -131,6 +131,17 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'),
       'Guarded production workflow can rehearse its Cloudflare-facing command path with fake Wrangler.',
     ),
+    buildCheck(
+      'production-feed-seed',
+      Boolean(scripts['seed:production-feed']) &&
+        Boolean(scripts['verify:production-feed-seed']) &&
+        exists('scripts/seed-production-feed.mjs') &&
+        exists('scripts/verify-production-feed-seed.mjs') &&
+        contract.commands.safePreflight.includes('npm run verify:production-feed-seed') &&
+        command(contract, 'seedProductionFeed').includes('seed:production-feed') &&
+        Boolean(actionById(approvalActions, 'seed-production-feed')),
+      'Protected production feed seed command is available for post-deploy freshness proof.',
+    ),
     buildCheck('production-cutover-simulation', Boolean(scripts['verify:production-cutover']), 'Production cutover simulation verifier is available.'),
     buildCheck('external-action-verifier', Boolean(scripts['verify:external-actions']), 'External action verifier is available.'),
     buildCheck('pages-deploy-script', Boolean(scripts['deploy:cloudflare']), 'Cloudflare Pages deploy script is available.'),
@@ -207,6 +218,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:cloudflare-token-requirements',
           'npm run verify:production-deploy-dry-run',
           'npm run verify:production-d1-resolver',
+          'npm run verify:production-feed-seed',
           'npm run verify:launch -- --soft',
           'npm run verify:production-contract',
           'npm run verify:production-provisioning',
@@ -250,9 +262,20 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         commands: contract.commands.deploy,
       },
       {
-        id: 'domain-and-live-verification',
-        sideEffect: 'dns-and-live-verification',
-        commands: ['npm run verify:dns-cutover', ...contract.commands.liveCompletionGates],
+        id: 'domain-cutover',
+        sideEffect: 'dns-and-custom-domain-change',
+        commands: ['npm run verify:dns-cutover'],
+        captures: ['Connect herbalisti.com to the Cloudflare Pages project before seeding through the canonical domain.'],
+      },
+      {
+        id: 'seed-live-feed',
+        sideEffect: 'writes-cloudflare-d1',
+        commands: ['npm run verify:production-feed-seed', ...contract.commands.seedProductionFeed],
+      },
+      {
+        id: 'live-verification',
+        sideEffect: 'live-verification',
+        commands: contract.commands.liveCompletionGates,
       },
     ],
   }

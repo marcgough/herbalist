@@ -11,6 +11,7 @@ const readJson = (path) => JSON.parse(read(path))
 const exists = (path) => existsSync(resolve(root, path))
 
 const workflow = read(workflowPath)
+const feedSeedScript = read('scripts/seed-production-feed.mjs')
 const packageJson = readJson('package.json')
 const contract = readJson('docs/production-environment-contract.json')
 const externalActions = readJson('docs/external-launch-actions.json')
@@ -77,7 +78,7 @@ for (const command of [
   'npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti',
   'npm run deploy:cloudflare',
   'npm run deploy:news-worker',
-  'https://herbalisti.com/api/feed-refresh',
+  'npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed',
   'npm run verify:live-readiness -- --strict',
   'npm run verify:production -- https://herbalisti.com',
   'npm run verify:goal-readiness -- --strict',
@@ -89,8 +90,9 @@ assert(workflow.includes("printf '%s' \"$FEED_ADMIN_TOKEN\""), 'FEED_ADMIN_TOKEN
 assert(workflow.includes("printf '%s' \"$KIE_API_KEY\""), 'KIE_API_KEY should be piped without echoing')
 assert(workflow.includes("printf '%s' \"$MEDIA_ADMIN_TOKEN\""), 'MEDIA_ADMIN_TOKEN should be piped without echoing')
 assert(workflow.includes('skip_live_verification'), 'Production deploy workflow should expose a DNS-transition live verification override')
-assert(workflow.includes('curl --fail --silent --show-error --request POST'), 'Production deploy workflow should seed the live feed through a protected POST')
-assert(workflow.includes("['completed', 'completed_with_warnings']"), 'Production deploy workflow should accept completed feed-refresh statuses only')
+assert(packageJson.scripts?.['seed:production-feed'], 'Production deploy workflow should use the shared feed seed command')
+assert(feedSeedScript.includes('/api/feed-refresh'), 'Production feed seed command should post to the protected feed-refresh endpoint')
+assert(feedSeedScript.includes("['completed', 'completed_with_warnings']"), 'Production feed seed command should accept completed feed-refresh statuses only')
 assert(!secretValuePattern.test(workflow), 'Production deploy workflow must not contain literal secret values')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-workflow'), 'Safe preflight should include production deploy workflow verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'), 'Safe preflight should include production deploy dry-run verification')

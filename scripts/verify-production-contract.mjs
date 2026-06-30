@@ -78,6 +78,12 @@ assert(
   'Cloudflare Pages verification should include the protected feed-refresh route',
 )
 assert(
+  resources['cloudflare-pages']?.verify?.includes(
+    'npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed',
+  ),
+  'Cloudflare Pages verification should include the protected production feed seed command',
+)
+assert(
   resources['cloudflare-pages']?.verify?.includes('GET /data/remedies.json'),
   'Cloudflare Pages verification should include the public data export route',
 )
@@ -170,6 +176,8 @@ assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production contrac
 assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production contract requires the production D1 resolver verifier')
 assert(exists('scripts/verify-production-deploy-dry-run.mjs'), 'Production contract requires the production deploy dry-run verifier')
 assert(exists('scripts/verify-production-deploy-workflow.mjs'), 'Production contract requires the production deploy workflow verifier')
+assert(exists('scripts/seed-production-feed.mjs'), 'Production contract requires the production feed seed command')
+assert(exists('scripts/verify-production-feed-seed.mjs'), 'Production contract requires the production feed seed verifier')
 assert(exists('scripts/verify-accessibility-smoke.mjs'), 'Production contract requires the accessibility smoke verifier')
 assert(exists('scripts/verify-visual-smoke.mjs'), 'Production contract requires the desktop/mobile visual smoke verifier')
 assert(exists('scripts/verify-github-actions.mjs'), 'Production contract requires the GitHub Actions handoff verifier')
@@ -303,6 +311,10 @@ assert(
   'Safe preflight should include mocked production D1 resolver verification',
 )
 assert(
+  contract.commands.safePreflight.includes('npm run verify:production-feed-seed'),
+  'Safe preflight should include production feed seed verification',
+)
+assert(
   contract.commands.safePreflight.includes('npm run verify:github-production-readiness'),
   'Safe preflight should include GitHub production readiness verification',
 )
@@ -378,6 +390,12 @@ assert(
   'Contract setSecrets should include the Pages feed-refresh secret command',
 )
 assert(
+  contract.commands.seedProductionFeed?.includes(
+    'npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed',
+  ),
+  'Contract should include the canonical production feed seed command',
+)
+assert(
   contract.commands.liveCompletionGates.includes('npm run verify:live-readiness -- --strict'),
   'Live completion gates should include strict live-domain readiness verification',
 )
@@ -407,6 +425,14 @@ assert(
 assert(
   launchPacketScript.includes('npm run verify:production-d1-resolver'),
   'Launch packet generator should include production D1 resolver verification',
+)
+assert(
+  launchPacketScript.includes('npm run verify:production-feed-seed'),
+  'Launch packet generator should include production feed seed verification',
+)
+assert(
+  launchPacketScript.includes('npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed'),
+  'Launch packet generator should include production feed seed command',
 )
 assert(
   launchPacketScript.includes('npm run verify:github-production-readiness'),
@@ -473,6 +499,7 @@ assert(runbook.includes('verify:github-actions'), 'Deployment runbook should doc
 assert(runbook.includes('verify:production-deploy-workflow'), 'Deployment runbook should document production deploy workflow verification')
 assert(runbook.includes('verify:production-deploy-dry-run'), 'Deployment runbook should document production deploy dry-run verification')
 assert(runbook.includes('verify:production-d1-resolver'), 'Deployment runbook should document production D1 resolver verification')
+assert(runbook.includes('verify:production-feed-seed'), 'Deployment runbook should document production feed seed verification')
 assert(runbook.includes('verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
 assert(runbook.includes('verify:cloudflare-production-state'), 'Deployment runbook should document Cloudflare production state verification')
@@ -531,6 +558,14 @@ assert(
   'Production launch packet doc should include production D1 resolver verification',
 )
 assert(
+  launchPacketDoc.includes('verify:production-feed-seed'),
+  'Production launch packet doc should include production feed seed verification',
+)
+assert(
+  launchPacketDoc.includes('seed:production-feed'),
+  'Production launch packet doc should include the production feed seed command',
+)
+assert(
   launchPacketDoc.includes('verify:github-production-readiness'),
   'Production launch packet doc should include GitHub production readiness verification',
 )
@@ -577,6 +612,10 @@ assert(
 assert(
   externalActionsJson.approvalRequiredActions?.some((action) => action.id === 'run-github-production-deploy-workflow'),
   'External action checklist should include the guarded GitHub production deploy workflow action',
+)
+assert(
+  externalActionsJson.approvalRequiredActions?.some((action) => action.id === 'seed-production-feed'),
+  'External action checklist should include the protected production feed seed action',
 )
 assert(
   externalActionsJson.guardrails?.externalActionsRequireFreshApproval === true,

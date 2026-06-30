@@ -13,7 +13,7 @@ npm install
 npm run verify:release
 ```
 
-`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the guarded production deploy dry run, the mocked production D1 resolver behavior, Cloudflare token requirements, protected admin token authentication, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
+`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the guarded production deploy dry run, the mocked production D1 resolver behavior, the protected production feed seed command, Cloudflare token requirements, protected admin token authentication, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
 
 Individual gates:
 
@@ -26,6 +26,7 @@ npm run verify:github-actions
 npm run verify:production-deploy-workflow
 npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
+npm run verify:production-feed-seed
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state
@@ -173,7 +174,7 @@ Guarded production deploy workflow verification is local and read-only:
 npm run verify:production-deploy-workflow
 ```
 
-It checks `.github/workflows/production-deploy.yml` without running it. The workflow is manual-only, requires the exact `deploy-herbalisti-production` confirmation phrase, uses the GitHub `production` environment, validates named GitHub secrets, verifies exact release evidence, configures runner-local D1 bindings, applies remote D1 migrations, sets Cloudflare secrets from GitHub secrets without echoing values, deploys Pages and the scheduled Worker, and runs strict live verification unless temporarily skipped during DNS transition.
+It checks `.github/workflows/production-deploy.yml` without running it. The workflow is manual-only, requires the exact `deploy-herbalisti-production` confirmation phrase, uses the GitHub `production` environment, validates named GitHub secrets, verifies exact release evidence, configures runner-local D1 bindings, applies remote D1 migrations, sets Cloudflare secrets from GitHub secrets without echoing values, deploys Pages and the scheduled Worker, seeds the live Signals feed through the protected feed-refresh endpoint, and runs strict live verification unless temporarily skipped during DNS transition.
 
 Guarded production deploy dry-run verification is local and mocked:
 
@@ -181,7 +182,7 @@ Guarded production deploy dry-run verification is local and mocked:
 npm run verify:production-deploy-dry-run
 ```
 
-It rehearses the production workflow's Cloudflare-facing command path with a temporary fake `npx wrangler`: Pages project list/create, D1 resolution, in-memory binding activation, remote migration command shape, secret put command shape, Pages deploy, and scheduled Worker deploy. It does not call Cloudflare, create resources, mutate DNS, deploy, set real secrets, write Wrangler config files, call paid APIs, or print secret values.
+It rehearses the production workflow's Cloudflare-facing command path with a temporary fake `npx wrangler`: Pages project list/create, D1 resolution, in-memory binding activation, remote migration command shape, secret put command shape, Pages deploy, scheduled Worker deploy, and the production feed seed command in dry-run mode. It does not call Cloudflare, create resources, mutate DNS, deploy, set real secrets, write Wrangler config files, call paid APIs, or print secret values.
 
 Production D1 resolver verification is local and mocked:
 
@@ -190,6 +191,14 @@ npm run verify:production-d1-resolver
 ```
 
 It runs the real D1 resolver against a temporary fake `npx wrangler` command and proves the existing-database, create-if-missing, and missing-without-create paths without calling Cloudflare, creating resources, mutating DNS, deploying, setting secrets, or printing secret values.
+
+Production feed seed verification is local and dry-run only:
+
+```bash
+npm run verify:production-feed-seed
+```
+
+It checks that the protected feed seed command exists, requires the exact `seed-herbalisti-feed` confirmation phrase, targets `https://herbalisti.com/api/feed-refresh`, and is wired into the production contract, external-action checklist, and guarded production deploy workflow. The verifier runs the command only with `--dry-run`, so it does not call the network, write D1, deploy, mutate DNS, set secrets, call paid APIs, or print secret values.
 
 GitHub production readiness verification is read-only:
 
@@ -533,6 +542,7 @@ npm run verify:production-secrets
 Set these in the Cloudflare dashboard or with Wrangler:
 
 ```bash
+npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
 npx wrangler pages secret put KIE_API_KEY --project-name herbalisti
 npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti
 ```
@@ -544,6 +554,8 @@ Set this for the scheduled news Worker:
 ```bash
 npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
 ```
+
+Use the same feed token value for the Pages feed-refresh endpoint and the scheduled Worker manual-refresh path. Do not print or paste the value into chat, docs, Git, or command logs.
 
 For CI-style deployment automation, provide these in the deployment environment rather than committing them:
 
@@ -584,6 +596,15 @@ Do not enable a manifest slot while it points to a missing local file or a provi
 
 The public website can read `/api/news` from D1 once `HERBALISTI_DB` is bound. The scheduled Worker refreshes that D1 table every six hours and writes a row to `feed_refresh_runs`. The frontend also reads `/api/feed-status`, falling back to `/data/feed-status.json`, so the Signals section can show a refresh heartbeat rather than relying only on article timestamps.
 
+For final launch freshness after Pages, D1, secrets, Worker deployment, and DNS/custom-domain routing are active, seed the live feed through the protected Pages endpoint:
+
+```bash
+npm run verify:production-feed-seed
+npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed
+```
+
+The seed command posts to `/api/feed-refresh` with `FEED_ADMIN_TOKEN`, requires the exact confirmation phrase, and prints only sanitized refresh metadata. It writes production feed-refresh data, so run it only as an approved production action.
+
 For static fallback builds, `npm run refresh:news` preserves the previous non-empty `public/data/news.json` when the latest refresh returns zero usable items. It still writes `public/data/feed-status.json` with `completed_with_preserved_snapshot`, the attempted item count, preserved public item count, and source warnings. This prevents a temporary source outage from collapsing the public fallback feed to an empty page.
 
 For deterministic local Worker verification:
@@ -598,7 +619,8 @@ This uses `wrangler.news.local.toml`, applies migrations to a clean ignored loca
 2. Set a manual-refresh token:
 
 ```bash
-npm run wrangler -- secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
+npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
+npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
 ```
 
 3. Deploy the scheduled Worker:
@@ -614,7 +636,7 @@ The cron schedule is currently:
 crons = ["17 */6 * * *"]
 ```
 
-Manual refresh is available through the Worker URL when the `FEED_ADMIN_TOKEN` is provided as `Authorization: Bearer ...` or `x-herbalisti-feed-token`.
+Manual refresh is available through the Worker URL and the Pages `/api/feed-refresh` endpoint when the `FEED_ADMIN_TOKEN` is provided as `Authorization: Bearer ...` or `x-herbalisti-feed-token`.
 
 ## Current API Surface
 

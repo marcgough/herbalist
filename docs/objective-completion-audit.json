@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T22:59:07.881Z",
-  "auditSignature": "0bcbac42494a4b49e3d583cf93b81e6f9383c4a9dc14a0cdce2334aa2bef5e95",
+  "generatedAt": "2026-06-30T23:41:14.102Z",
+  "auditSignature": "e38c25e263cd47c12e873de7c94dabb9c2fd0e9375d6d53c0cda994f968f4734",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -219,7 +219,9 @@
         "npm run verify:source-health",
         "npm run verify:feed-normalization",
         "npm run verify:admin-auth",
-        "npm run verify:news-worker"
+        "npm run verify:news-worker",
+        "npm run verify:production-feed-seed",
+        "npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed"
       ],
       "remaining": [
         "Create the production Cloudflare D1 database.",
@@ -338,8 +340,10 @@
         "scripts/prepare-production-secret-setup.mjs",
         "scripts/prepare-cloudflare-token-requirements.mjs",
         "scripts/resolve-production-d1-database.mjs",
+        "scripts/seed-production-feed.mjs",
         "scripts/verify-production-deploy-dry-run.mjs",
         "scripts/verify-production-d1-resolver.mjs",
+        "scripts/verify-production-feed-seed.mjs",
         "scripts/simulate-production-cutover.mjs",
         "scripts/verify-production-cutover-simulation.mjs",
         "scripts/prepare-production-provisioning.mjs",
@@ -354,8 +358,10 @@
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
         "npm run resolve:production-d1",
+        "npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed",
         "npm run verify:production-deploy-dry-run",
         "npm run verify:production-d1-resolver",
+        "npm run verify:production-feed-seed",
         "npm run verify:production-deploy-workflow",
         "npm run verify:github-production-readiness",
         "npm run verify:cloudflare-production-state",
@@ -388,8 +394,10 @@
         "scripts/prepare-production-secret-setup.mjs",
         "scripts/prepare-cloudflare-token-requirements.mjs",
         "scripts/resolve-production-d1-database.mjs",
+        "scripts/seed-production-feed.mjs",
         "scripts/verify-production-deploy-dry-run.mjs",
         "scripts/verify-production-d1-resolver.mjs",
+        "scripts/verify-production-feed-seed.mjs",
         ".github/workflows/production-deploy.yml",
         "functions/api/health.js",
         "docs/deployment-runbook.md",
@@ -404,8 +412,10 @@
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
         "npm run resolve:production-d1",
+        "npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed",
         "npm run verify:production-deploy-dry-run",
         "npm run verify:production-d1-resolver",
+        "npm run verify:production-feed-seed",
         "npm run verify:live-readiness -- --strict",
         "npm run prepare:launch",
         "npm run prepare:external-actions"
@@ -520,7 +530,7 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-06-30T22:58:06.960Z",
+      "generatedAt": "2026-06-30T23:40:14.327Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 15,
@@ -543,7 +553,7 @@
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T22:58:06.960Z"
+        "generatedAt": "2026-06-30T23:40:14.327Z"
       }
     },
     "media": {
@@ -573,9 +583,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 140,
-      "scripts": 100,
-      "passes": 211
+      "files": 142,
+      "scripts": 102,
+      "passes": 215
     },
     "nextActions": [
       "Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.",
@@ -606,6 +616,7 @@
       "npm run verify:production-deploy-workflow",
       "npm run verify:production-deploy-dry-run",
       "npm run verify:production-d1-resolver",
+      "npm run verify:production-feed-seed",
       "npm run verify:github-production-readiness",
       "npm run verify:github-release-evidence",
       "npm run verify:cloudflare-production-state",

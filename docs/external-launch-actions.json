@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T22:44:17.937Z",
+  "generatedAt": "2026-06-30T23:25:49.038Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -73,6 +73,16 @@
       "command": "npm run prepare:production-provisioning",
       "purpose": "Refresh the machine-readable and Markdown packet that shows the current local readiness state, next approved production action, and exact operator sequence.",
       "writesLocalFiles": true,
+      "after": [],
+      "notes": []
+    },
+    {
+      "id": "verify-production-feed-seed",
+      "title": "Verify production feed seed command",
+      "approvalRequired": false,
+      "command": "npm run verify:production-feed-seed",
+      "purpose": "Confirm the protected production feed seed command is confirmation-gated, dry-run safe, and wired into the production contract without calling the network.",
+      "writesLocalFiles": false,
       "after": [],
       "notes": []
     },
@@ -354,6 +364,34 @@
       ],
       "secretNames": [],
       "notes": []
+    },
+    {
+      "id": "seed-production-feed",
+      "phase": "post-deploy-feed",
+      "title": "Seed live Signals feed",
+      "requiredForLaunch": true,
+      "approvalRequired": true,
+      "command": "npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed",
+      "additionalCommands": [],
+      "externalEffect": "Triggers the protected production feed-refresh endpoint and writes a feed refresh run into production D1.",
+      "approvalReason": "Writes production feed-refresh data and uses the feed admin secret.",
+      "after": [
+        "deploy-cloudflare-pages",
+        "deploy-news-worker",
+        "connect-domain"
+      ],
+      "verification": [
+        "npm run verify:production-feed-seed",
+        "npm run verify:live-readiness -- --strict",
+        "npm run verify:production -- https://herbalisti.com"
+      ],
+      "secretNames": [
+        "FEED_ADMIN_TOKEN"
+      ],
+      "notes": [
+        "Use this after DNS/custom-domain routing is active when the guarded deploy workflow was run with live verification skipped.",
+        "The command prints sanitized feed-refresh metadata only and must not print the token value."
+      ]
     },
     {
       "id": "run-github-production-deploy-workflow",

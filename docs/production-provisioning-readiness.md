@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-06-30T22:44:23.876Z
+Generated: 2026-06-30T23:25:59.960Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -45,6 +45,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: Cloudflare binding configurator is available.
 - pass: Guarded production workflow can resolve or create the named D1 database without a D1 ID secret.
 - pass: Guarded production workflow can rehearse its Cloudflare-facing command path with fake Wrangler.
+- pass: Protected production feed seed command is available for post-deploy freshness proof.
 - pass: Production cutover simulation verifier is available.
 - pass: External action verifier is available.
 - pass: Cloudflare Pages deploy script is available.
@@ -80,6 +81,7 @@ npm run verify:production-secrets
 npm run verify:cloudflare-token-requirements
 npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
+npm run verify:production-feed-seed
 npm run verify:launch -- --soft
 npm run verify:production-contract
 npm run verify:production-provisioning
@@ -142,12 +144,30 @@ npm run deploy:cloudflare
 npm run deploy:news-worker
 ```
 
-### domain-and-live-verification
+### domain-cutover
 
-Side effect: dns-and-live-verification
+Side effect: dns-and-custom-domain-change
 
 ```bash
 npm run verify:dns-cutover
+```
+
+- Connect herbalisti.com to the Cloudflare Pages project before seeding through the canonical domain.
+
+### seed-live-feed
+
+Side effect: writes-cloudflare-d1
+
+```bash
+npm run verify:production-feed-seed
+npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed
+```
+
+### live-verification
+
+Side effect: live-verification
+
+```bash
 npm run verify:live-readiness -- --strict
 npm run verify:production -- https://herbalisti.com
 npm run verify:goal-readiness -- --strict

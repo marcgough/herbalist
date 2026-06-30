@@ -21,6 +21,7 @@
         "GET /api/health",
         "GET /api/signals.xml",
         "POST /api/feed-refresh",
+        "npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed",
         "GET /data/discovery-metadata.json",
         "GET /data/api-catalog.json",
         "GET /data/herbal-knowledge.json",
@@ -119,6 +120,7 @@
       "npm run verify:production-deploy-workflow",
       "npm run verify:production-deploy-dry-run",
       "npm run verify:production-d1-resolver",
+      "npm run verify:production-feed-seed",
       "npm run verify:github-production-readiness",
       "npm run verify:github-release-evidence",
       "npm run verify:cloudflare-production-state",
@@ -160,6 +162,7 @@
     ],
     "remoteMigrations": ["npx wrangler d1 migrations apply herbalisti --remote"],
     "resolveProductionD1": ["npm run resolve:production-d1 -- --create-if-missing --github-env \"$GITHUB_ENV\""],
+    "seedProductionFeed": ["npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed"],
     "setSecrets": [
       "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
       "npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti",

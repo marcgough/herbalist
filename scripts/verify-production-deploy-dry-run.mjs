@@ -246,6 +246,23 @@ try {
   runNpxWrangler({ binDir, statePath, args: ['pages', 'secret', 'put', 'MEDIA_ADMIN_TOKEN', '--project-name', 'herbalisti'], input: fakeSecretValue })
   runNpxWrangler({ binDir, statePath, args: ['pages', 'deploy', 'dist', '--project-name', 'herbalisti'] })
   runNpxWrangler({ binDir, statePath, args: ['deploy', '--config', 'wrangler.news.toml'] })
+  const feedSeedDryRun = spawnSync(
+    process.execPath,
+    [
+      'scripts/seed-production-feed.mjs',
+      '--dry-run',
+      '--base-url',
+      'https://herbalisti.com',
+      '--confirm',
+      'seed-herbalisti-feed',
+    ],
+    {
+      cwd: root,
+      encoding: 'utf8',
+    },
+  )
+  assert.equal(feedSeedDryRun.status, 0, `Production feed seed dry run should pass\n${feedSeedDryRun.stderr}`)
+  const feedSeedDryRunPayload = JSON.parse(feedSeedDryRun.stdout)
 
   const state = JSON.parse(readFileSync(statePath, 'utf8'))
   const callStrings = state.calls.map((call) => call.join(' '))
@@ -260,7 +277,8 @@ try {
     ['media secret', state.pagesSecrets?.some((secret) => secret.name === 'MEDIA_ADMIN_TOKEN' && secret.stdinBytes > 0)],
     ['pages deploy', state.pagesDeployed === true],
     ['worker deploy', state.workerDeployed === true],
-    ['no secret-looking values', !secretValuePattern.test(JSON.stringify({ state, resolverOutput }))],
+    ['feed seed dry run', feedSeedDryRunPayload.endpoint === 'https://herbalisti.com/api/feed-refresh'],
+    ['no secret-looking values', !secretValuePattern.test(JSON.stringify({ state, resolverOutput, feedSeedDryRunPayload }))],
   ].map(([id, ok]) => ({ id, status: ok ? 'pass' : 'fail' }))
 
   assert(checks.every((check) => check.status === 'pass'), `Production deploy dry-run checks failed: ${JSON.stringify(checks)}`)

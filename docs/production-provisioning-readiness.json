@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T22:44:23.876Z",
+  "generatedAt": "2026-06-30T23:25:59.960Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,8 +27,8 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "7ed654f7feeb975ed96bb2e43d97e199bd50074c4cae1ef56dbf5b849799c409",
-    "externalActionsFingerprint": "cded726bbcfb80eca43a75099d974a00baf434a70ea32c7ae9d7cdad26d14af8",
+    "contractFingerprint": "97b9cfd22c2a10e358fc7cc4e5ec20efd54ce385e1ceb0a8d964b7c8c4edb7df",
+    "externalActionsFingerprint": "0cf3ca680a3df7d194e51bd8f25038e0faee8079a65e8a1e2cdd30d6773984be",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -98,6 +98,11 @@
       "id": "production-deploy-dry-run",
       "status": "pass",
       "detail": "Guarded production workflow can rehearse its Cloudflare-facing command path with fake Wrangler."
+    },
+    {
+      "id": "production-feed-seed",
+      "status": "pass",
+      "detail": "Protected production feed seed command is available for post-deploy freshness proof."
     },
     {
       "id": "production-cutover-simulation",
@@ -177,6 +182,7 @@
         "npm run verify:cloudflare-token-requirements",
         "npm run verify:production-deploy-dry-run",
         "npm run verify:production-d1-resolver",
+        "npm run verify:production-feed-seed",
         "npm run verify:launch -- --soft",
         "npm run verify:production-contract",
         "npm run verify:production-provisioning"
@@ -228,10 +234,27 @@
       ]
     },
     {
-      "id": "domain-and-live-verification",
-      "sideEffect": "dns-and-live-verification",
+      "id": "domain-cutover",
+      "sideEffect": "dns-and-custom-domain-change",
       "commands": [
-        "npm run verify:dns-cutover",
+        "npm run verify:dns-cutover"
+      ],
+      "captures": [
+        "Connect herbalisti.com to the Cloudflare Pages project before seeding through the canonical domain."
+      ]
+    },
+    {
+      "id": "seed-live-feed",
+      "sideEffect": "writes-cloudflare-d1",
+      "commands": [
+        "npm run verify:production-feed-seed",
+        "npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed"
+      ]
+    },
+    {
+      "id": "live-verification",
+      "sideEffect": "live-verification",
+      "commands": [
         "npm run verify:live-readiness -- --strict",
         "npm run verify:production -- https://herbalisti.com",
         "npm run verify:goal-readiness -- --strict"

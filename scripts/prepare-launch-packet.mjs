@@ -73,6 +73,7 @@ const phases = [
       'DNS/custom-domain cutover plan snapshots current public DNS and the Cloudflare Pages apex-domain operator sequence.',
       'Production secret setup packet names required GitHub and Cloudflare secret scopes without storing values.',
       'Production provisioning readiness shows the next approved action, local state, and exact operator sequence.',
+      'Production feed seed command is confirmation-gated and can refresh the live feed before final proof.',
       'Local Cloudflare Pages runtime starts.',
       'API and production-shape smoke tests pass.',
       'Desktop and mobile visual smoke confirms routed pages render without console warnings, broken imagery, or horizontal overflow.',
@@ -162,6 +163,7 @@ const phases = [
       command('npm run verify:production-deploy-workflow'),
       command('npm run verify:production-deploy-dry-run'),
       command('npm run verify:production-d1-resolver'),
+      command('npm run verify:production-feed-seed'),
       command('npm run verify:production-secrets'),
       command('npm run verify:cloudflare-token-requirements'),
       command('npm run verify:github-production-readiness -- --strict'),
@@ -226,11 +228,13 @@ const phases = [
     purpose: 'Connect the custom domain, verify DNS, and prove the live site satisfies the production contract.',
     commands: [
       command('npm run verify:dns-cutover'),
+      command('npm run verify:production-feed-seed'),
+      command('npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed', 'writes-cloudflare-d1'),
       command('npm run verify:live-readiness -- --strict'),
       command('npm run verify:production -- https://herbalisti.com'),
       command('npm run verify:goal-readiness -- --strict'),
     ],
-    blockers: ['Cloudflare Pages custom domain and DNS must be active before live verification can pass.'],
+    blockers: ['Cloudflare Pages custom domain and DNS must be active before the canonical feed seed and live verification can pass.'],
   }),
 ]
 

@@ -336,11 +336,15 @@ const requirements = [
       exists('scripts/verify-signal-coverage.mjs') &&
       exists('scripts/verify-signals-rss.mjs') &&
       exists('scripts/verify-source-health.mjs') &&
+      exists('scripts/seed-production-feed.mjs') &&
+      exists('scripts/verify-production-feed-seed.mjs') &&
       scripts['verify:static-news-refresh'] &&
       scripts['verify:admin-auth'] &&
       scripts['verify:signal-coverage'] &&
       scripts['verify:signals-rss'] &&
       scripts['verify:source-health'] &&
+      scripts['seed:production-feed'] &&
+      scripts['verify:production-feed-seed'] &&
       app.includes('/api/news') &&
       app.includes('/api/signals.xml') &&
       app.includes('Signals RSS') &&
@@ -370,6 +374,8 @@ const requirements = [
       'npm run verify:feed-normalization',
       'npm run verify:admin-auth',
       'npm run verify:news-worker',
+      'npm run verify:production-feed-seed',
+      'npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed',
     ],
     remaining:
       activePagesD1 && activeNewsD1
@@ -519,8 +525,10 @@ const requirements = [
       exists('scripts/prepare-production-secret-setup.mjs') &&
       exists('scripts/prepare-cloudflare-token-requirements.mjs') &&
       exists('scripts/resolve-production-d1-database.mjs') &&
+      exists('scripts/seed-production-feed.mjs') &&
       exists('scripts/verify-production-deploy-dry-run.mjs') &&
       exists('scripts/verify-production-d1-resolver.mjs') &&
+      exists('scripts/verify-production-feed-seed.mjs') &&
       exists('scripts/simulate-production-cutover.mjs') &&
       exists('scripts/verify-production-cutover-simulation.mjs') &&
       exists('scripts/prepare-production-provisioning.mjs') &&
@@ -540,8 +548,10 @@ const requirements = [
       Boolean(scripts['verify:production-secrets']) &&
       Boolean(scripts['prepare:production-secrets']) &&
       Boolean(scripts['resolve:production-d1']) &&
+      Boolean(scripts['seed:production-feed']) &&
       Boolean(scripts['verify:production-deploy-dry-run']) &&
       Boolean(scripts['verify:production-d1-resolver']) &&
+      Boolean(scripts['verify:production-feed-seed']) &&
       Boolean(scripts['verify:production-deploy-workflow']) &&
       Boolean(scripts['verify:github-production-readiness']) &&
       Boolean(scripts['verify:cloudflare-production-state']) &&
@@ -582,8 +592,10 @@ const requirements = [
       'scripts/prepare-production-secret-setup.mjs',
       'scripts/prepare-cloudflare-token-requirements.mjs',
       'scripts/resolve-production-d1-database.mjs',
+      'scripts/seed-production-feed.mjs',
       'scripts/verify-production-deploy-dry-run.mjs',
       'scripts/verify-production-d1-resolver.mjs',
+      'scripts/verify-production-feed-seed.mjs',
       'scripts/simulate-production-cutover.mjs',
       'scripts/verify-production-cutover-simulation.mjs',
       'scripts/prepare-production-provisioning.mjs',
@@ -598,8 +610,10 @@ const requirements = [
       'npm run verify:dns-cutover',
       'npm run verify:production-secrets',
       'npm run resolve:production-d1',
+      'npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed',
       'npm run verify:production-deploy-dry-run',
       'npm run verify:production-d1-resolver',
+      'npm run verify:production-feed-seed',
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-production-readiness',
       'npm run verify:cloudflare-production-state',
@@ -629,8 +643,10 @@ const requirements = [
       'scripts/prepare-production-secret-setup.mjs',
       'scripts/prepare-cloudflare-token-requirements.mjs',
       'scripts/resolve-production-d1-database.mjs',
+      'scripts/seed-production-feed.mjs',
       'scripts/verify-production-deploy-dry-run.mjs',
       'scripts/verify-production-d1-resolver.mjs',
+      'scripts/verify-production-feed-seed.mjs',
       '.github/workflows/production-deploy.yml',
       'functions/api/health.js',
       'docs/deployment-runbook.md',
@@ -645,8 +661,10 @@ const requirements = [
       'npm run verify:dns-cutover',
       'npm run verify:production-secrets',
       'npm run resolve:production-d1',
+      'npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed',
       'npm run verify:production-deploy-dry-run',
       'npm run verify:production-d1-resolver',
+      'npm run verify:production-feed-seed',
       'npm run verify:live-readiness -- --strict',
       'npm run prepare:launch',
       'npm run prepare:external-actions',
@@ -817,6 +835,7 @@ const result = {
         'Set Cloudflare Pages and Worker secrets.',
         'Deploy Cloudflare Pages and the scheduled news Worker.',
         'Point herbalisti.com DNS/custom domain to the Pages project.',
+        'Run npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed.',
         'Run npm run verify:production -- https://herbalisti.com.',
       ],
 }

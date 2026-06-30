@@ -45,6 +45,7 @@ for (const id of [
   'run-production-cutover-simulation',
   'generate-external-actions',
   'generate-production-provisioning-readiness',
+  'verify-production-feed-seed',
   'check-github-production-readiness',
   'check-cloudflare-production-state',
   'generate-cloudflare-token-requirements',
@@ -65,6 +66,7 @@ for (const id of [
   'set-media-admin-token',
   'deploy-cloudflare-pages',
   'deploy-news-worker',
+  'seed-production-feed',
   'connect-domain',
 ]) {
   assert(externalActions[id]?.approvalRequired === true, `External action ${id} should require approval`)
@@ -114,6 +116,18 @@ assert(
 assert(
   externalActions['run-github-production-deploy-workflow'].command === contract.commands.githubProductionDeploy[0],
   'Guarded GitHub production deploy workflow command should match the production contract',
+)
+assert(
+  externalActions['seed-production-feed'].command === contract.commands.seedProductionFeed[0],
+  'Production feed seed command should match the production contract',
+)
+assert(
+  externalActions['seed-production-feed'].secretNames.includes('FEED_ADMIN_TOKEN'),
+  'Production feed seed action should name FEED_ADMIN_TOKEN',
+)
+assert(
+  externalActions['seed-production-feed'].verification.includes('npm run verify:production-feed-seed'),
+  'Production feed seed action should require its dry-run verifier',
 )
 assert(
   externalActions['run-github-production-deploy-workflow'].verification.includes('npm run verify:production-secrets'),

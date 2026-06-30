@@ -108,6 +108,13 @@ const localAllowedActions = [
     writesLocalFiles: true,
   }),
   localAction({
+    id: 'verify-production-feed-seed',
+    title: 'Verify production feed seed command',
+    command: 'npm run verify:production-feed-seed',
+    purpose:
+      'Confirm the protected production feed seed command is confirmation-gated, dry-run safe, and wired into the production contract without calling the network.',
+  }),
+  localAction({
     id: 'check-github-production-readiness',
     title: 'Check GitHub production environment and secret-name readiness',
     command: 'npm run verify:github-production-readiness',
@@ -272,6 +279,25 @@ const approvalRequiredActions = [
     approvalReason: 'Public deployment of scheduled automation.',
     after: ['apply-remote-d1-migrations', 'set-feed-admin-token'],
     verification: ['npm run verify:source-health', 'npm run verify:production -- https://herbalisti.com'],
+  }),
+  approvalAction({
+    id: 'seed-production-feed',
+    phase: 'post-deploy-feed',
+    title: 'Seed live Signals feed',
+    command: command(contract.commands, 'seedProductionFeed'),
+    externalEffect: 'Triggers the protected production feed-refresh endpoint and writes a feed refresh run into production D1.',
+    approvalReason: 'Writes production feed-refresh data and uses the feed admin secret.',
+    after: ['deploy-cloudflare-pages', 'deploy-news-worker', 'connect-domain'],
+    verification: [
+      'npm run verify:production-feed-seed',
+      'npm run verify:live-readiness -- --strict',
+      'npm run verify:production -- https://herbalisti.com',
+    ],
+    secretNames: ['FEED_ADMIN_TOKEN'],
+    notes: [
+      'Use this after DNS/custom-domain routing is active when the guarded deploy workflow was run with live verification skipped.',
+      'The command prints sanitized feed-refresh metadata only and must not print the token value.',
+    ],
   }),
   approvalAction({
     id: 'run-github-production-deploy-workflow',

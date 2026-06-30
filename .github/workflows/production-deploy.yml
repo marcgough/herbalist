@@ -147,10 +147,7 @@ jobs:
       - name: Seed live Signals feed
         if: ${{ !inputs.skip_live_verification }}
         shell: bash
-        run: |
-          set -euo pipefail
-          response="$(curl --fail --silent --show-error --request POST "https://herbalisti.com/api/feed-refresh" --header "authorization: Bearer $FEED_ADMIN_TOKEN" --header "accept: application/json")"
-          RESPONSE_JSON="$response" node -e "const payload = JSON.parse(process.env.RESPONSE_JSON || '{}'); if (!payload.refreshRun || !['completed', 'completed_with_warnings'].includes(payload.refreshRun.status) || payload.itemCount < 1) { throw new Error('Live Signals feed refresh did not complete with items.'); }"
+        run: npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed
 
       - name: Verify live production
         if: ${{ !inputs.skip_live_verification }}
