@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T17:06:47.298Z",
+  "generatedAt": "2026-06-30T18:19:01.744Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,8 +27,8 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "33e569e95d1145333e394199d50eda4c007fd3df5dcc06725ddfcb79b3c1bbf0",
-    "externalActionsFingerprint": "d172c986c74451467f7edda9758f30ceed2d74484925a8ceae925189e6cb67e3"
+    "contractFingerprint": "785f1ef4f8ec5ecc2c7929276710c8040cdbd01400317eeb25e789fafea83518",
+    "externalActionsFingerprint": "6b8a526cb671f3640c08b8f4ec210362c7b03a88e8f83dbd08c6b2512c5b4988"
   },
   "checks": [
     {
@@ -45,6 +45,11 @@
       "id": "github-release-evidence-gate",
       "status": "pass",
       "detail": "GitHub release evidence verifier is exposed as an npm script."
+    },
+    {
+      "id": "cloudflare-production-state-gate",
+      "status": "pass",
+      "detail": "Read-only Cloudflare production state verifier is exposed and included in safe preflight."
     },
     {
       "id": "github-release-evidence-preflight",
@@ -126,6 +131,7 @@
       "sideEffect": "none",
       "commands": [
         "npm run verify:github-release-evidence",
+        "npm run verify:cloudflare-production-state",
         "npm run verify:launch -- --soft",
         "npm run verify:production-contract",
         "npm run verify:production-provisioning"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T17:06:46.509Z",
+  "generatedAt": "2026-06-30T18:19:00.889Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -86,6 +86,18 @@
       "after": [],
       "notes": [
         "Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate."
+      ]
+    },
+    {
+      "id": "check-cloudflare-production-state",
+      "title": "Check read-only Cloudflare production state",
+      "approvalRequired": false,
+      "command": "npm run verify:cloudflare-production-state",
+      "purpose": "Read Wrangler authentication and remote Cloudflare resource/secret-name state before creating D1, deploying, or routing herbalisti.com.",
+      "writesLocalFiles": false,
+      "after": [],
+      "notes": [
+        "Use npm run verify:cloudflare-production-state -- --strict after Cloudflare resources, secrets, and deployments are expected to exist."
       ]
     },
     {

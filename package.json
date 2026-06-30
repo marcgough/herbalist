@@ -58,6 +58,7 @@
     "verify:brand": "node scripts/verify-brand.mjs",
     "verify:citation-notes": "node scripts/verify-citation-notes.mjs",
     "verify:cloudflare-config": "node scripts/verify-cloudflare-bindings.mjs",
+    "verify:cloudflare-production-state": "node scripts/verify-cloudflare-production-state.mjs",
     "verify:completion-audit": "node scripts/prepare-completion-audit.mjs --check",
     "verify:corpus-rights": "node scripts/verify-corpus-rights.mjs",
     "verify:d1": "node scripts/verify-d1.mjs",

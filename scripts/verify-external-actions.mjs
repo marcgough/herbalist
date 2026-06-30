@@ -46,6 +46,7 @@ for (const id of [
   'generate-external-actions',
   'generate-production-provisioning-readiness',
   'check-github-production-readiness',
+  'check-cloudflare-production-state',
   'activate-d1-bindings-local',
 ]) {
   assert(localIds.has(id), `Checklist should include local action ${id}`)

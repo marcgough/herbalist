@@ -26,6 +26,7 @@ npm run verify:github-actions
 npm run verify:production-deploy-workflow
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
+npm run verify:cloudflare-production-state
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
 npm run prepare:launch
@@ -171,6 +172,15 @@ npm run verify:github-production-readiness -- --strict
 ```
 
 It checks GitHub workflow, environment, secret-name, and release-run metadata without creating environments, setting secrets, dispatching workflows, or printing secret values. Current setup should report `needs-github-production-setup` until the `production` environment and required GitHub secret names are configured.
+
+Cloudflare production state verification is read-only and should be run before resource creation or deployment:
+
+```bash
+npm run verify:cloudflare-production-state
+npm run verify:cloudflare-production-state -- --strict
+```
+
+Without a valid Wrangler session or `CLOUDFLARE_API_TOKEN`, it reports `needs-cloudflare-auth`. Once authenticated, it checks visible Cloudflare Pages, D1, Worker deployment, custom-domain metadata, and required secret names without creating resources, deploying, mutating DNS, setting secrets, calling paid APIs, or printing secret values.
 
 Production provisioning readiness is local and read-only except for the generated handoff files:
 

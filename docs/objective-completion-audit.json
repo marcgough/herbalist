@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T18:00:35.516Z",
-  "auditSignature": "c848e4c6ddc489962e4c75ac682c2ee91fd93890e4a28e0f9a3aa1e4b1872fa7",
+  "generatedAt": "2026-06-30T18:30:14.439Z",
+  "auditSignature": "db973f42a950be7a469fa4b0348ba57138b4d5c512bbe53bda426790b4dae99c",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -324,12 +324,14 @@
         "scripts/prepare-production-provisioning.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
         "scripts/verify-github-production-readiness.mjs",
+        "scripts/verify-cloudflare-production-state.mjs",
         ".github/workflows/production-deploy.yml",
         "npm run verify:production-contract",
         "npm run verify:external-actions",
         "npm run verify:production-provisioning",
         "npm run verify:production-deploy-workflow",
         "npm run verify:github-production-readiness",
+        "npm run verify:cloudflare-production-state",
         "npm run verify:production-cutover",
         "docs/deployment-runbook.md",
         "docs/production-launch-packet.md"
@@ -352,6 +354,7 @@
         "scripts/prepare-production-provisioning.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
         "scripts/verify-github-production-readiness.mjs",
+        "scripts/verify-cloudflare-production-state.mjs",
         ".github/workflows/production-deploy.yml",
         "functions/api/health.js",
         "docs/deployment-runbook.md",
@@ -360,6 +363,7 @@
         "npm run verify:production-provisioning",
         "npm run verify:production-deploy-workflow",
         "npm run verify:github-production-readiness",
+        "npm run verify:cloudflare-production-state",
         "npm run verify:live-readiness -- --strict",
         "npm run prepare:launch",
         "npm run prepare:external-actions"
@@ -406,6 +410,7 @@
         "scripts/verify-github-actions.mjs",
         "scripts/verify-github-release-evidence.mjs",
         "scripts/verify-github-production-readiness.mjs",
+        "scripts/verify-cloudflare-production-state.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
         ".github/workflows/ci.yml",
         ".github/workflows/release-gate.yml",
@@ -465,30 +470,30 @@
       "protectedEndpointCount": 2
     },
     "news": {
-      "generatedAt": "2026-06-30T17:59:54.395Z",
+      "generatedAt": "2026-06-30T18:29:15.551Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 15,
         "DNA modification": 5,
         "Peptides": 1,
+        "Health as a service": 1,
         "Self-sovereign wellbeing": 1,
-        "Gene editing": 7,
-        "CRISPR": 6,
-        "Gene therapy": 3,
-        "Health as a service": 1
+        "Gene editing": 6,
+        "CRISPR": 5,
+        "Gene therapy": 2
       },
       "sourceCounts": {
         "Lifespan.io": 6,
         "Fight Aging!": 6,
         "arXiv": 2,
-        "bioRxiv": 3,
-        "Crossref": 7
+        "Crossref": 7,
+        "bioRxiv": 3
       },
       "latestRefreshStatus": "completed",
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T17:59:54.395Z"
+        "generatedAt": "2026-06-30T18:29:15.551Z"
       }
     },
     "media": {
@@ -518,9 +523,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 122,
-      "scripts": 87,
-      "passes": 180
+      "files": 123,
+      "scripts": 88,
+      "passes": 182
     },
     "nextActions": [
       "Create the Cloudflare D1 database named herbalisti.",
@@ -551,6 +556,7 @@
       "npm run verify:production-deploy-workflow",
       "npm run verify:github-production-readiness",
       "npm run verify:github-release-evidence",
+      "npm run verify:cloudflare-production-state",
       "npm run prepare:production-provisioning",
       "npm run verify:production-provisioning",
       "npm run verify:static-news-refresh",

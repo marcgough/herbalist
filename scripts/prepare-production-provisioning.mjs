@@ -64,6 +64,12 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
     buildCheck('external-action-checklist', externalActions.status.includes('production-setup'), 'External action checklist describes production setup state.'),
     buildCheck('github-release-evidence-gate', Boolean(scripts['verify:github-release-evidence']), 'GitHub release evidence verifier is exposed as an npm script.'),
     buildCheck(
+      'cloudflare-production-state-gate',
+      Boolean(scripts['verify:cloudflare-production-state']) &&
+        contract.commands.safePreflight.includes('npm run verify:cloudflare-production-state'),
+      'Read-only Cloudflare production state verifier is exposed and included in safe preflight.',
+    ),
+    buildCheck(
       'github-release-evidence-preflight',
       contract.commands.safePreflight.includes('npm run verify:github-release-evidence'),
       'Safe preflight includes GitHub CI/manual release evidence verification.',
@@ -127,6 +133,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         sideEffect: 'none',
         commands: [
           'npm run verify:github-release-evidence',
+          'npm run verify:cloudflare-production-state',
           'npm run verify:launch -- --soft',
           'npm run verify:production-contract',
           'npm run verify:production-provisioning',

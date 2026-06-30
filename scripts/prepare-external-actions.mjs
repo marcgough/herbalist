@@ -114,6 +114,14 @@ const localAllowedActions = [
     notes: ['Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate.'],
   }),
   localAction({
+    id: 'check-cloudflare-production-state',
+    title: 'Check read-only Cloudflare production state',
+    command: 'npm run verify:cloudflare-production-state',
+    purpose:
+      'Read Wrangler authentication and remote Cloudflare resource/secret-name state before creating D1, deploying, or routing herbalisti.com.',
+    notes: ['Use npm run verify:cloudflare-production-state -- --strict after Cloudflare resources, secrets, and deployments are expected to exist.'],
+  }),
+  localAction({
     id: 'activate-d1-bindings-local',
     title: 'Activate local Wrangler D1 bindings after Cloudflare returns the database ID',
     command: command(contract.commands, 'activateBindings'),

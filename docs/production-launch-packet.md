@@ -100,6 +100,7 @@ npm run verify:github-actions
 npm run verify:production-deploy-workflow
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
+npm run verify:cloudflare-production-state
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
 npm run verify:source-governance

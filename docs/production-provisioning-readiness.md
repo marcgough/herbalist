@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-06-30T17:06:47.298Z
+Generated: 2026-06-30T18:19:01.744Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -24,6 +24,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: Production contract targets herbalisti.com.
 - pass: External action checklist describes production setup state.
 - pass: GitHub release evidence verifier is exposed as an npm script.
+- pass: Read-only Cloudflare production state verifier is exposed and included in safe preflight.
 - pass: Safe preflight includes GitHub CI/manual release evidence verification.
 - pass: Cloudflare binding configurator is available.
 - pass: Production cutover simulation verifier is available.
@@ -54,6 +55,7 @@ Side effect: none
 
 ```bash
 npm run verify:github-release-evidence
+npm run verify:cloudflare-production-state
 npm run verify:launch -- --soft
 npm run verify:production-contract
 npm run verify:production-provisioning
