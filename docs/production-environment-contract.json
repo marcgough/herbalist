@@ -114,6 +114,7 @@
       "npm run verify:production-cutover",
       "npm run verify:github-actions",
       "npm run verify:production-deploy-workflow",
+      "npm run verify:github-production-readiness",
       "npm run verify:github-release-evidence",
       "npm run prepare:production-provisioning",
       "npm run verify:production-provisioning",
@@ -156,6 +157,7 @@
     ],
     "deploy": ["npm run deploy:cloudflare", "npm run deploy:news-worker"],
     "githubProductionDeploy": ["GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production"],
+    "githubProductionReadiness": ["npm run verify:github-production-readiness -- --strict"],
     "liveCompletionGates": [
       "npm run verify:live-readiness -- --strict",
       "npm run verify:production -- https://herbalisti.com",

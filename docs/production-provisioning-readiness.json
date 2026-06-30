@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T16:40:57.840Z",
+  "generatedAt": "2026-06-30T17:06:47.298Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,8 +27,8 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "c543a4cb6c902d03d15ee197905910e3c743769eb97316a076836644695a9819",
-    "externalActionsFingerprint": "c72c9c56087f64956fc09dec31927ae06b4e6028599fdf1a5a8a36509b9a3784"
+    "contractFingerprint": "33e569e95d1145333e394199d50eda4c007fd3df5dcc06725ddfcb79b3c1bbf0",
+    "externalActionsFingerprint": "d172c986c74451467f7edda9758f30ceed2d74484925a8ceae925189e6cb67e3"
   },
   "checks": [
     {

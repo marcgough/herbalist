@@ -106,6 +106,14 @@ const localAllowedActions = [
     writesLocalFiles: true,
   }),
   localAction({
+    id: 'check-github-production-readiness',
+    title: 'Check GitHub production environment and secret-name readiness',
+    command: 'npm run verify:github-production-readiness',
+    purpose:
+      'Read GitHub workflow, environment, secret-name, and release evidence metadata before the guarded production deploy workflow is dispatched.',
+    notes: ['Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate.'],
+  }),
+  localAction({
     id: 'activate-d1-bindings-local',
     title: 'Activate local Wrangler D1 bindings after Cloudflare returns the database ID',
     command: command(contract.commands, 'activateBindings'),

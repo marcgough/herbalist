@@ -143,6 +143,7 @@ assert(exists('scripts/verify-production-deploy-workflow.mjs'), 'Production cont
 assert(exists('scripts/verify-accessibility-smoke.mjs'), 'Production contract requires the accessibility smoke verifier')
 assert(exists('scripts/verify-visual-smoke.mjs'), 'Production contract requires the desktop/mobile visual smoke verifier')
 assert(exists('scripts/verify-github-actions.mjs'), 'Production contract requires the GitHub Actions handoff verifier')
+assert(exists('scripts/verify-github-production-readiness.mjs'), 'Production contract requires the GitHub production readiness verifier')
 assert(exists('scripts/verify-github-release-evidence.mjs'), 'Production contract requires the GitHub release evidence verifier')
 assert(exists('.github/workflows/ci.yml'), 'Production contract requires the GitHub CI workflow')
 assert(exists('.github/workflows/release-gate.yml'), 'Production contract requires the manual release-gate workflow')
@@ -255,6 +256,10 @@ assert(
   'Safe preflight should include guarded production deploy workflow verification',
 )
 assert(
+  contract.commands.safePreflight.includes('npm run verify:github-production-readiness'),
+  'Safe preflight should include GitHub production readiness verification',
+)
+assert(
   contract.commands.safePreflight.includes('npm run verify:github-release-evidence'),
   'Safe preflight should include GitHub CI and manual release evidence verification',
 )
@@ -311,6 +316,10 @@ assert(
   'Launch packet generator should include production deploy workflow verification',
 )
 assert(
+  launchPacketScript.includes('npm run verify:github-production-readiness'),
+  'Launch packet generator should include GitHub production readiness verification',
+)
+assert(
   launchPacketScript.includes('npm run verify:github-release-evidence'),
   'Launch packet generator should include GitHub release evidence verification',
 )
@@ -353,6 +362,7 @@ assert(runbook.includes('verify:accessibility-smoke'), 'Deployment runbook shoul
 assert(runbook.includes('verify:visual-smoke'), 'Deployment runbook should document visual smoke verification')
 assert(runbook.includes('verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
 assert(runbook.includes('verify:production-deploy-workflow'), 'Deployment runbook should document production deploy workflow verification')
+assert(runbook.includes('verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
 assert(runbook.includes('verify:production-provisioning'), 'Deployment runbook should document production provisioning readiness verification')
 assert(
@@ -394,6 +404,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:production-deploy-workflow'),
   'Production launch packet doc should include production deploy workflow verification',
+)
+assert(
+  launchPacketDoc.includes('verify:github-production-readiness'),
+  'Production launch packet doc should include GitHub production readiness verification',
 )
 assert(
   launchPacketDoc.includes('verify:github-release-evidence'),

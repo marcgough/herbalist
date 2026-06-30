@@ -64,6 +64,7 @@ const phases = [
       'Build succeeds.',
       'GitHub Actions safe-gate and manual repository release-gate workflows are present, read-only, non-deploying, and use public corpus-export mode on GitHub runners.',
       'Guarded GitHub production deploy workflow is present, manual-only, confirmation-gated, environment-scoped, and verified locally without running it.',
+      'GitHub production environment and secret-name readiness can be checked without exposing secret values.',
       'Current GitHub CI and manual release-gate evidence is verified for the intended launch commit.',
       'Production provisioning readiness shows the next approved action, local state, and exact operator sequence.',
       'Local Cloudflare Pages runtime starts.',
@@ -111,6 +112,7 @@ const phases = [
       command('npm run verify:launch -- --soft'),
       command('npm run verify:github-actions'),
       command('npm run verify:production-deploy-workflow'),
+      command('npm run verify:github-production-readiness'),
       command('npm run verify:github-release-evidence'),
       command('npm run prepare:production-provisioning'),
       command('npm run verify:production-provisioning'),
@@ -145,6 +147,7 @@ const phases = [
       'Provide a single manual GitHub Actions path that can create/confirm the Pages project, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, then run live verification.',
     commands: [
       command('npm run verify:production-deploy-workflow'),
+      command('npm run verify:github-production-readiness -- --strict'),
       command('GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production', 'deploys-production-when-dispatched'),
     ],
     blockers: pagesD1Active && newsD1Active ? [] : ['GitHub secret CLOUDFLARE_D1_DATABASE_ID must contain the returned production D1 database ID before dispatch.'],

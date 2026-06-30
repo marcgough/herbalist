@@ -99,6 +99,7 @@ const normalized = normalizeNewsItems(
     }),
   ],
   10,
+  { includeWatchFallback: false },
 )
 
 assert(normalized.length === 2, `Expected normalized feed to keep 2 valid unique items, got ${normalized.length}`)
@@ -118,6 +119,7 @@ const limited = normalizeNewsItems(
     }),
   ],
   2,
+  { includeWatchFallback: false },
 )
 
 assert(limited.length === 2, 'Limit should be applied after invalid and duplicate rows are removed')

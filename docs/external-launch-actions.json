@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T16:40:56.831Z",
+  "generatedAt": "2026-06-30T17:06:46.509Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -75,6 +75,18 @@
       "writesLocalFiles": true,
       "after": [],
       "notes": []
+    },
+    {
+      "id": "check-github-production-readiness",
+      "title": "Check GitHub production environment and secret-name readiness",
+      "approvalRequired": false,
+      "command": "npm run verify:github-production-readiness",
+      "purpose": "Read GitHub workflow, environment, secret-name, and release evidence metadata before the guarded production deploy workflow is dispatched.",
+      "writesLocalFiles": false,
+      "after": [],
+      "notes": [
+        "Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate."
+      ]
     },
     {
       "id": "activate-d1-bindings-local",

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T16:42:39.624Z",
-  "auditSignature": "72b8f52e1997a5122f583da1224238b362efc5a3f0c7144866bdf8992b0fc133",
+  "generatedAt": "2026-06-30T17:14:19.669Z",
+  "auditSignature": "78c81df1b5c6ba5cbdbb247b9828d3e28f73170657bb951d39acbe0b279643f2",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -323,11 +323,13 @@
         "scripts/verify-production-cutover-simulation.mjs",
         "scripts/prepare-production-provisioning.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
+        "scripts/verify-github-production-readiness.mjs",
         ".github/workflows/production-deploy.yml",
         "npm run verify:production-contract",
         "npm run verify:external-actions",
         "npm run verify:production-provisioning",
         "npm run verify:production-deploy-workflow",
+        "npm run verify:github-production-readiness",
         "npm run verify:production-cutover",
         "docs/deployment-runbook.md",
         "docs/production-launch-packet.md"
@@ -349,6 +351,7 @@
         "scripts/prepare-external-actions.mjs",
         "scripts/prepare-production-provisioning.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
+        "scripts/verify-github-production-readiness.mjs",
         ".github/workflows/production-deploy.yml",
         "functions/api/health.js",
         "docs/deployment-runbook.md",
@@ -356,6 +359,7 @@
         "npm run verify:production-cutover",
         "npm run verify:production-provisioning",
         "npm run verify:production-deploy-workflow",
+        "npm run verify:github-production-readiness",
         "npm run verify:live-readiness -- --strict",
         "npm run prepare:launch",
         "npm run prepare:external-actions"
@@ -401,6 +405,7 @@
         "scripts/verify-launch-config.mjs",
         "scripts/verify-github-actions.mjs",
         "scripts/verify-github-release-evidence.mjs",
+        "scripts/verify-github-production-readiness.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
         ".github/workflows/ci.yml",
         ".github/workflows/release-gate.yml",
@@ -460,28 +465,30 @@
       "protectedEndpointCount": 2
     },
     "news": {
-      "generatedAt": "2026-06-30T16:41:51.055Z",
+      "generatedAt": "2026-06-30T17:13:33.329Z",
       "total": 24,
       "topicCounts": {
-        "Longevity": 14,
+        "Longevity": 15,
         "DNA modification": 5,
         "Peptides": 1,
-        "Gene editing": 8,
-        "CRISPR": 7,
-        "Gene therapy": 2
+        "Self-sovereign wellbeing": 1,
+        "Gene editing": 7,
+        "CRISPR": 6,
+        "Gene therapy": 3,
+        "Health as a service": 1
       },
       "sourceCounts": {
-        "Lifespan.io": 5,
+        "Lifespan.io": 6,
         "Fight Aging!": 6,
         "arXiv": 2,
         "bioRxiv": 3,
-        "Crossref": 8
+        "Crossref": 7
       },
       "latestRefreshStatus": "completed",
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T16:41:51.055Z"
+        "generatedAt": "2026-06-30T17:13:33.329Z"
       }
     },
     "media": {
@@ -511,9 +518,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 121,
-      "scripts": 86,
-      "passes": 178
+      "files": 122,
+      "scripts": 87,
+      "passes": 180
     },
     "nextActions": [
       "Create the Cloudflare D1 database named herbalisti.",
@@ -542,6 +549,7 @@
       "npm run verify:production-cutover",
       "npm run verify:github-actions",
       "npm run verify:production-deploy-workflow",
+      "npm run verify:github-production-readiness",
       "npm run verify:github-release-evidence",
       "npm run prepare:production-provisioning",
       "npm run verify:production-provisioning",

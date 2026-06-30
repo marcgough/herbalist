@@ -69,6 +69,7 @@
     "verify:goal-readiness": "node scripts/verify-goal-readiness.mjs",
     "verify:governance": "node scripts/verify-governance.mjs",
     "verify:github-actions": "node scripts/verify-github-actions.mjs",
+    "verify:github-production-readiness": "node scripts/verify-github-production-readiness.mjs",
     "verify:github-release-evidence": "node scripts/verify-github-release-evidence.mjs",
     "verify:launch": "node scripts/verify-launch-config.mjs",
     "verify:live-readiness": "node scripts/verify-live-readiness.mjs",

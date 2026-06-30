@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T16:41:51.055Z",
+  "generatedAt": "2026-06-30T17:13:33.329Z",
   "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names filtered from source/title metadata.",
   "sourceHealthPolicy": "Source health checks report allowlisted public or independent sources only; warnings do not add fallback pharma channels.",
   "warnings": [],
@@ -11,7 +11,7 @@
       "sourceType": "public-research-index",
       "role": "Public biomedical metadata for frontier-biology terms.",
       "status": "empty",
-      "checkedAt": "2026-06-30T16:41:43.679Z",
+      "checkedAt": "2026-06-30T17:13:28.443Z",
       "itemCount": 10,
       "usableItemCount": 0,
       "newestItemAt": "",
@@ -26,7 +26,7 @@
       "sourceType": "public-research-index",
       "role": "Open preprint metadata for computational biology and frontier science.",
       "status": "ok",
-      "checkedAt": "2026-06-30T16:41:41.730Z",
+      "checkedAt": "2026-06-30T17:13:26.725Z",
       "itemCount": 8,
       "usableItemCount": 2,
       "newestItemAt": "2026-06-29T04:43:22.000Z",
@@ -41,7 +41,7 @@
       "sourceType": "preprint-server",
       "role": "Public biology preprint metadata for longevity and biotechnology topics.",
       "status": "ok",
-      "checkedAt": "2026-06-30T16:41:44.196Z",
+      "checkedAt": "2026-06-30T17:13:29.468Z",
       "itemCount": 3,
       "usableItemCount": 3,
       "newestItemAt": "2026-05-31T00:00:00.000Z",
@@ -56,7 +56,7 @@
       "sourceType": "public-research-index",
       "role": "Public scholarly metadata expansion for longevity and frontier biology.",
       "status": "ok",
-      "checkedAt": "2026-06-30T16:41:51.055Z",
+      "checkedAt": "2026-06-30T17:13:33.329Z",
       "itemCount": 10,
       "usableItemCount": 10,
       "newestItemAt": "2026-05-01T00:00:00.000Z",
@@ -71,7 +71,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity coverage from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-06-30T16:41:44.001Z",
+      "checkedAt": "2026-06-30T17:13:26.984Z",
       "itemCount": 8,
       "usableItemCount": 5,
       "newestItemAt": "2026-06-30T16:21:38.000Z",
@@ -86,7 +86,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity commentary from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-06-30T16:41:42.809Z",
+      "checkedAt": "2026-06-30T17:13:27.992Z",
       "itemCount": 8,
       "usableItemCount": 6,
       "newestItemAt": "2026-06-30T10:11:23.000Z",
@@ -256,6 +256,19 @@
       "sourceType": "independent-longevity"
     },
     {
+      "id": "watch-lifespan-independent-longevity",
+      "title": "Lifespan.io independent longevity signal lane",
+      "sourceName": "Lifespan.io",
+      "url": "https://www.lifespan.io/news/",
+      "publishedAt": "2026-06-15T00:00:00.000Z",
+      "summary": "Independent longevity coverage lane for public research context and personally owned wellbeing decisions.",
+      "topics": [
+        "Longevity",
+        "Self-sovereign wellbeing"
+      ],
+      "sourceType": "independent-longevity"
+    },
+    {
       "id": "biorxiv-10.64898/2026.05.29.728865",
       "title": "Relative Hemodynamic Timing in Human White Matter",
       "sourceName": "bioRxiv",
@@ -358,19 +371,6 @@
       "sourceType": "public-research-index"
     },
     {
-      "id": "crossref-bjs524",
-      "title": "Review of Current Applications of CRISPR Gene Editing Techniques in Breast Cancer Therapeutics Development",
-      "sourceName": "Crossref",
-      "url": "https://doi.org/10.52403/ijhsr.20250745",
-      "publishedAt": "2025-08-01T00:00:00.000Z",
-      "summary": "Public Crossref metadata from International Journal of Health Sciences and Research.",
-      "topics": [
-        "Gene editing",
-        "CRISPR"
-      ],
-      "sourceType": "public-research-index"
-    },
-    {
       "id": "crossref-16l21t7",
       "title": "Progress and Criteria in Public Health Applications of Gene Therapy and Gene Editing: Beyond the White Paper",
       "sourceName": "Crossref",
@@ -385,15 +385,17 @@
       "sourceType": "public-research-index"
     },
     {
-      "id": "crossref-10a10w8",
-      "title": "Advances and Applications of CRISPR Gene Editing in Tumor Therapy",
+      "id": "crossref-1pmasy0",
+      "title": "CRISPR and Gene Editing: A New Frontier in Healthcare",
       "sourceName": "Crossref",
-      "url": "https://doi.org/10.31058/j.hr.2025.94015",
-      "publishedAt": "2025-01-01T00:00:00.000Z",
-      "summary": "Public Crossref metadata from Health Research.",
+      "url": "https://doi.org/10.55938/wlp.v1i1.85",
+      "publishedAt": "2024-10-28T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Emerging Trends in Biotechnology Transforming Health Services.",
       "topics": [
+        "Gene therapy",
         "Gene editing",
-        "CRISPR"
+        "CRISPR",
+        "Health as a service"
       ],
       "sourceType": "public-research-index"
     }

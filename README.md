@@ -20,6 +20,7 @@ npm run lint
 npm run build
 npm run verify:github-actions
 npm run verify:production-deploy-workflow
+npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
@@ -56,6 +57,7 @@ GitHub Actions:
 - `.github/workflows/production-deploy.yml` is manual only, requires the exact `deploy-herbalisti-production` confirmation phrase, runs under the GitHub `production` environment, reads named GitHub secrets, and can perform the approved Cloudflare production deploy path when the remaining launch inputs exist.
 - `npm run verify:github-actions` checks that the CI and release-gate workflows remain read-only, non-deploying, and connected to the launch contract.
 - `npm run verify:production-deploy-workflow` checks that the production workflow remains manual-only, confirmation-gated, environment-scoped, release-evidence-gated, and free of literal secret values.
+- `npm run verify:github-production-readiness` reads GitHub metadata to report whether the `production` environment and required production workflow secret names are present. Use `-- --strict` only as the final dispatch-readiness gate.
 - `npm run verify:github-release-evidence` checks that the intended launch commit has fresh successful GitHub CI and manual release-gate runs, plus the uploaded visual-smoke artifact.
 
 ## Production Direction
@@ -67,6 +69,7 @@ Run the production preflight before attempting launch:
 ```bash
 npm run verify:launch
 npm run verify:production-deploy-workflow
+npm run verify:github-production-readiness
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
 ```

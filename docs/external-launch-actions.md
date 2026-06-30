@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-06-30T16:40:56.831Z
+Generated: 2026-06-30T17:06:46.509Z
 
 Status: needs-approval-and-production-setup
 
@@ -56,6 +56,17 @@ Refresh the machine-readable and Markdown packet that shows the current local re
 ```bash
 npm run prepare:production-provisioning
 ```
+
+### Check GitHub production environment and secret-name readiness
+
+Read GitHub workflow, environment, secret-name, and release evidence metadata before the guarded production deploy workflow is dispatched.
+
+```bash
+npm run verify:github-production-readiness
+```
+
+Notes:
+- Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate.
 
 ### Activate local Wrangler D1 bindings after Cloudflare returns the database ID
 

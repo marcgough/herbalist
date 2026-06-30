@@ -24,6 +24,7 @@ npm run lint
 npm run build
 npm run verify:github-actions
 npm run verify:production-deploy-workflow
+npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
@@ -161,6 +162,15 @@ npm run verify:production-deploy-workflow
 ```
 
 It checks `.github/workflows/production-deploy.yml` without running it. The workflow is manual-only, requires the exact `deploy-herbalisti-production` confirmation phrase, uses the GitHub `production` environment, validates named GitHub secrets, verifies exact release evidence, configures runner-local D1 bindings, applies remote D1 migrations, sets Cloudflare secrets from GitHub secrets without echoing values, deploys Pages and the scheduled Worker, and runs strict live verification unless temporarily skipped during DNS transition.
+
+GitHub production readiness verification is read-only:
+
+```bash
+npm run verify:github-production-readiness
+npm run verify:github-production-readiness -- --strict
+```
+
+It checks GitHub workflow, environment, secret-name, and release-run metadata without creating environments, setting secrets, dispatching workflows, or printing secret values. Current setup should report `needs-github-production-setup` until the `production` environment and required GitHub secret names are configured.
 
 Production provisioning readiness is local and read-only except for the generated handoff files:
 
