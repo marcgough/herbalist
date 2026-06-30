@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T20:21:13.915Z",
-  "auditSignature": "4644e52fc1521cb3898466c0ba319e701de6f2a1801814f726b615a61b6f7021",
+  "generatedAt": "2026-06-30T20:44:46.059Z",
+  "auditSignature": "7873d610cf41d6ae6a21466afac458c671f0a3c60f2928a94e7ac275102debd9",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -329,6 +329,7 @@
         "scripts/prepare-dns-cutover-plan.mjs",
         "scripts/prepare-production-secret-setup.mjs",
         "scripts/resolve-production-d1-database.mjs",
+        "scripts/verify-production-d1-resolver.mjs",
         "scripts/simulate-production-cutover.mjs",
         "scripts/verify-production-cutover-simulation.mjs",
         "scripts/prepare-production-provisioning.mjs",
@@ -343,6 +344,7 @@
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
         "npm run resolve:production-d1",
+        "npm run verify:production-d1-resolver",
         "npm run verify:production-deploy-workflow",
         "npm run verify:github-production-readiness",
         "npm run verify:cloudflare-production-state",
@@ -373,6 +375,7 @@
         "scripts/prepare-dns-cutover-plan.mjs",
         "scripts/prepare-production-secret-setup.mjs",
         "scripts/resolve-production-d1-database.mjs",
+        "scripts/verify-production-d1-resolver.mjs",
         ".github/workflows/production-deploy.yml",
         "functions/api/health.js",
         "docs/deployment-runbook.md",
@@ -386,6 +389,7 @@
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
         "npm run resolve:production-d1",
+        "npm run verify:production-d1-resolver",
         "npm run verify:live-readiness -- --strict",
         "npm run prepare:launch",
         "npm run prepare:external-actions"
@@ -437,6 +441,7 @@
         "scripts/prepare-dns-cutover-plan.mjs",
         "scripts/prepare-production-secret-setup.mjs",
         "scripts/resolve-production-d1-database.mjs",
+        "scripts/verify-production-d1-resolver.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
         ".github/workflows/ci.yml",
         ".github/workflows/release-gate.yml",
@@ -496,7 +501,7 @@
       "protectedEndpointCount": 2
     },
     "news": {
-      "generatedAt": "2026-06-30T20:13:46.084Z",
+      "generatedAt": "2026-06-30T20:43:54.227Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 15,
@@ -519,7 +524,7 @@
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T20:13:46.084Z"
+        "generatedAt": "2026-06-30T20:43:54.227Z"
       }
     },
     "media": {
@@ -549,9 +554,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 133,
-      "scripts": 95,
-      "passes": 200
+      "files": 134,
+      "scripts": 96,
+      "passes": 202
     },
     "nextActions": [
       "Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.",
@@ -580,6 +585,7 @@
       "npm run verify:production-cutover",
       "npm run verify:github-actions",
       "npm run verify:production-deploy-workflow",
+      "npm run verify:production-d1-resolver",
       "npm run verify:github-production-readiness",
       "npm run verify:github-release-evidence",
       "npm run verify:cloudflare-production-state",

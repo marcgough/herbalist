@@ -50,10 +50,13 @@ for (const name of [
 assert(!workflow.includes('secrets.CLOUDFLARE_D1_DATABASE_ID'), 'Production deploy workflow should resolve the D1 database ID by name, not read it as a GitHub secret')
 assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production deploy workflow requires the D1 resolver script')
 assert(packageJson.scripts?.['resolve:production-d1'], 'package.json should expose resolve:production-d1')
+assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production deploy workflow requires the D1 resolver verifier')
+assert(packageJson.scripts?.['verify:production-d1-resolver'], 'package.json should expose verify:production-d1-resolver')
 
 for (const command of [
   'npm run verify:github-release-evidence -- --commit "$GITHUB_SHA"',
   'npm run verify:production-deploy-workflow',
+  'npm run verify:production-d1-resolver',
   'npm run verify:launch -- --soft',
   'npm run verify:production-contract',
   'npm run verify:d1-manifest',
@@ -82,6 +85,7 @@ assert(workflow.includes("printf '%s' \"$MEDIA_ADMIN_TOKEN\""), 'MEDIA_ADMIN_TOK
 assert(workflow.includes('skip_live_verification'), 'Production deploy workflow should expose a DNS-transition live verification override')
 assert(!secretValuePattern.test(workflow), 'Production deploy workflow must not contain literal secret values')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-workflow'), 'Safe preflight should include production deploy workflow verification')
+assert(contract.commands.safePreflight.includes('npm run verify:production-d1-resolver'), 'Safe preflight should include production D1 resolver verification')
 assert(
   externalActions.approvalRequiredActions?.some((action) => action.id === 'run-github-production-deploy-workflow'),
   'External action checklist should include the guarded GitHub production deploy workflow action',

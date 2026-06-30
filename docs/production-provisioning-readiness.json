@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T20:11:37.700Z",
+  "generatedAt": "2026-06-30T20:41:04.635Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,7 +27,7 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "1edaee553d8be3d5355a478f335d2f3390b711ab5722132b3036cbb139753b71",
+    "contractFingerprint": "c2433cb8053da22480ad9587e1989ad29ce4e27d341824b8ed8252a84cbaaa53",
     "externalActionsFingerprint": "a3c846b1e726ffc1882d87f06678c91a73ab0d3be34733af87781beb1e50277c",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
@@ -162,6 +162,7 @@
         "npm run verify:d1-manifest",
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
+        "npm run verify:production-d1-resolver",
         "npm run verify:launch -- --soft",
         "npm run verify:production-contract",
         "npm run verify:production-provisioning"

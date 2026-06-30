@@ -36,6 +36,7 @@ const scripts = packageJson.scripts ?? {}
 
 assert(scripts['verify:github-actions'], 'package.json should expose verify:github-actions')
 assert(scripts['verify:production-deploy-workflow'], 'package.json should expose verify:production-deploy-workflow')
+assert(scripts['verify:production-d1-resolver'], 'package.json should expose verify:production-d1-resolver')
 assert(scripts['verify:github-production-readiness'], 'package.json should expose verify:github-production-readiness')
 assert(packageJson.devDependencies?.wrangler, 'Wrangler should be a devDependency for reproducible release verification')
 
@@ -57,6 +58,7 @@ assert(ci.includes('npm run verify:github-actions'), 'CI workflow should verify 
 assert(ci.includes('npm run verify:goal-readiness'), 'CI workflow should verify goal readiness')
 assert(ci.includes('npm run verify:launch -- --soft'), 'CI workflow should run non-destructive launch preflight')
 assert(ci.includes('npm run verify:production-contract'), 'CI workflow should verify production contract')
+assert(ci.includes('npm run verify:production-d1-resolver'), 'CI workflow should verify production D1 resolver behavior')
 assert(ci.includes('npm run verify:search-discovery'), 'CI workflow should verify search discovery')
 assert(ci.includes('npm run verify:corpus-rights -- --public-only'), 'CI workflow should verify committed public corpus exports')
 assert(ci.includes('npm run verify:media-endpoints'), 'CI workflow should verify media endpoints with mocked provider responses')
@@ -75,6 +77,7 @@ assert(productionDeploy.includes('deploy-herbalisti-production'), 'Production de
 assert(productionDeploy.includes('environment:'), 'Production deploy workflow should use a GitHub production environment')
 assert(productionDeploy.includes('npm run verify:github-release-evidence'), 'Production deploy workflow should require exact release evidence')
 assert(productionDeploy.includes('npm run verify:production-deploy-workflow'), 'Production deploy workflow should verify its own contract')
+assert(productionDeploy.includes('npm run verify:production-d1-resolver'), 'Production deploy workflow should verify the D1 resolver behavior before resolving the live database')
 assert(productionDeploy.includes('npm run verify:d1-manifest'), 'Production deploy workflow should verify D1 migration manifest before remote migrations')
 assert(productionDeploy.includes('npm run verify:dns-cutover'), 'Production deploy workflow should verify DNS cutover readiness')
 assert(productionDeploy.includes('npm run verify:production-secrets'), 'Production deploy workflow should verify production secret setup')
@@ -85,6 +88,7 @@ assert(productionDeploy.includes('npm run deploy:news-worker'), 'Production depl
 
 assert(releaseVerifier.includes('verify:github-actions'), 'Full release verifier should include the GitHub Actions gate')
 assert(releaseVerifier.includes('verify:production-deploy-workflow'), 'Full release verifier should include the production deploy workflow gate')
+assert(releaseVerifier.includes('verify:production-d1-resolver'), 'Full release verifier should include the production D1 resolver gate')
 assert(releaseVerifier.includes('verify:github-production-readiness'), 'Full release verifier should include the GitHub production readiness gate')
 assert(releaseVerifier.includes('verify:d1-manifest'), 'Full release verifier should include the D1 production migration manifest gate')
 assert(releaseVerifier.includes('verify:dns-cutover'), 'Full release verifier should include the DNS cutover gate')
@@ -94,15 +98,19 @@ assert(launchVerifier.includes('.github/workflows/release-gate.yml'), 'Launch ve
 assert(launchVerifier.includes('.github/workflows/production-deploy.yml'), 'Launch verifier should require the production deploy workflow')
 assert(productionContractVerifier.includes('verify:github-actions'), 'Production contract verifier should require GitHub Actions verification')
 assert(productionContractVerifier.includes('verify:production-deploy-workflow'), 'Production contract verifier should require production deploy workflow verification')
+assert(productionContractVerifier.includes('verify:production-d1-resolver'), 'Production contract verifier should require production D1 resolver verification')
 assert(productionContractVerifier.includes('verify:github-production-readiness'), 'Production contract verifier should require GitHub production readiness verification')
 assert(contract.commands.safePreflight.includes('npm run verify:github-actions'), 'Safe preflight should include GitHub Actions verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-workflow'), 'Safe preflight should include production deploy workflow verification')
+assert(contract.commands.safePreflight.includes('npm run verify:production-d1-resolver'), 'Safe preflight should include production D1 resolver verification')
 assert(contract.commands.safePreflight.includes('npm run verify:github-production-readiness'), 'Safe preflight should include GitHub production readiness verification')
 assert(runbook.includes('npm run verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
 assert(runbook.includes('npm run verify:production-deploy-workflow'), 'Deployment runbook should document production deploy workflow verification')
+assert(runbook.includes('npm run verify:production-d1-resolver'), 'Deployment runbook should document production D1 resolver verification')
 assert(runbook.includes('npm run verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(launchPacket.includes('npm run verify:github-actions'), 'Production launch packet should document GitHub Actions verification')
 assert(launchPacket.includes('npm run verify:production-deploy-workflow'), 'Production launch packet should document production deploy workflow verification')
+assert(launchPacket.includes('npm run verify:production-d1-resolver'), 'Production launch packet should document production D1 resolver verification')
 assert(launchPacket.includes('npm run verify:github-production-readiness'), 'Production launch packet should document GitHub production readiness verification')
 
 console.log(

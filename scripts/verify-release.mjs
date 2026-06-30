@@ -183,6 +183,7 @@ for (const [label, command] of [
   ['Cloudflare binding configurator', npm('run', 'verify:cloudflare-config')],
   ['production cutover simulation', npm('run', 'verify:production-cutover')],
   ['production deploy workflow', npm('run', 'verify:production-deploy-workflow')],
+  ['production D1 resolver behavior', npm('run', 'verify:production-d1-resolver')],
   ['production provisioning readiness', npm('run', 'verify:production-provisioning')],
   ['production environment contract', npm('run', 'verify:production-contract')],
   ['D1 production migration manifest', npm('run', 'verify:d1-manifest')],

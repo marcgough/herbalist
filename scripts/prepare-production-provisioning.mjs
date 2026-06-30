@@ -107,7 +107,10 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
     buildCheck(
       'production-d1-resolver',
       Boolean(scripts['resolve:production-d1']) &&
+        Boolean(scripts['verify:production-d1-resolver']) &&
         exists('scripts/resolve-production-d1-database.mjs') &&
+        exists('scripts/verify-production-d1-resolver.mjs') &&
+        contract.commands.safePreflight.includes('npm run verify:production-d1-resolver') &&
         command(contract, 'resolveProductionD1').includes('resolve:production-d1'),
       'Guarded production workflow can resolve or create the named D1 database without a D1 ID secret.',
     ),
@@ -181,6 +184,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:d1-manifest',
           'npm run verify:dns-cutover',
           'npm run verify:production-secrets',
+          'npm run verify:production-d1-resolver',
           'npm run verify:launch -- --soft',
           'npm run verify:production-contract',
           'npm run verify:production-provisioning',

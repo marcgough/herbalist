@@ -95,6 +95,10 @@ assert(
   'Cloudflare D1 verification should include the production migration manifest',
 )
 assert(
+  resources['cloudflare-d1']?.verify?.includes('npm run verify:production-d1-resolver'),
+  'Cloudflare D1 verification should include the mocked production D1 resolver verifier',
+)
+assert(
   resources['cloudflare-d1']?.productionWorkflowResolution ===
     'npm run resolve:production-d1 -- --create-if-missing --github-env "$GITHUB_ENV"',
   'Cloudflare D1 should be resolved inside the guarded production workflow by database name',
@@ -156,6 +160,7 @@ assert(exists('scripts/prepare-d1-production-manifest.mjs'), 'Production contrac
 assert(exists('scripts/prepare-dns-cutover-plan.mjs'), 'Production contract requires the DNS cutover plan generator')
 assert(exists('scripts/prepare-production-secret-setup.mjs'), 'Production contract requires the production secret setup generator')
 assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production contract requires the production D1 resolver')
+assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production contract requires the production D1 resolver verifier')
 assert(exists('scripts/verify-production-deploy-workflow.mjs'), 'Production contract requires the production deploy workflow verifier')
 assert(exists('scripts/verify-accessibility-smoke.mjs'), 'Production contract requires the accessibility smoke verifier')
 assert(exists('scripts/verify-visual-smoke.mjs'), 'Production contract requires the desktop/mobile visual smoke verifier')
@@ -280,6 +285,10 @@ assert(
   'Safe preflight should include guarded production deploy workflow verification',
 )
 assert(
+  contract.commands.safePreflight.includes('npm run verify:production-d1-resolver'),
+  'Safe preflight should include mocked production D1 resolver verification',
+)
+assert(
   contract.commands.safePreflight.includes('npm run verify:github-production-readiness'),
   'Safe preflight should include GitHub production readiness verification',
 )
@@ -358,6 +367,10 @@ assert(
   'Launch packet generator should include production deploy workflow verification',
 )
 assert(
+  launchPacketScript.includes('npm run verify:production-d1-resolver'),
+  'Launch packet generator should include production D1 resolver verification',
+)
+assert(
   launchPacketScript.includes('npm run verify:github-production-readiness'),
   'Launch packet generator should include GitHub production readiness verification',
 )
@@ -420,6 +433,7 @@ assert(runbook.includes('verify:accessibility-smoke'), 'Deployment runbook shoul
 assert(runbook.includes('verify:visual-smoke'), 'Deployment runbook should document visual smoke verification')
 assert(runbook.includes('verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
 assert(runbook.includes('verify:production-deploy-workflow'), 'Deployment runbook should document production deploy workflow verification')
+assert(runbook.includes('verify:production-d1-resolver'), 'Deployment runbook should document production D1 resolver verification')
 assert(runbook.includes('verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
 assert(runbook.includes('verify:cloudflare-production-state'), 'Deployment runbook should document Cloudflare production state verification')
@@ -467,6 +481,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:production-deploy-workflow'),
   'Production launch packet doc should include production deploy workflow verification',
+)
+assert(
+  launchPacketDoc.includes('verify:production-d1-resolver'),
+  'Production launch packet doc should include production D1 resolver verification',
 )
 assert(
   launchPacketDoc.includes('verify:github-production-readiness'),

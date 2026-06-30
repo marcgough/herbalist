@@ -42,6 +42,7 @@ The packet covers:
 - local release proof
 - GitHub Actions safe-gate and manual repository release-gate verification
 - guarded GitHub production deploy workflow verification
+- mocked production D1 resolver behavior verification
 - GitHub production environment and secret-name readiness verification
 - GitHub CI/manual release evidence for the intended launch commit
 - production provisioning readiness and exact operator sequence
@@ -98,6 +99,7 @@ Use this packet with:
 npm run verify:launch -- --soft
 npm run verify:github-actions
 npm run verify:production-deploy-workflow
+npm run verify:production-d1-resolver
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state

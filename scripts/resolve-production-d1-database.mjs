@@ -17,12 +17,21 @@ const createIfMissing = argSet.has('--create-if-missing')
 const uuidPattern = /\b[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}\b/i
 const secretValuePattern =
   /(sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9_]{20,}|Bearer\s+[A-Za-z0-9._-]+|-----BEGIN [A-Z ]+PRIVATE KEY-----)/i
+const npxCommand = process.platform === 'win32' ? 'npx.cmd' : 'npx'
+const quoteCmdArg = (value) =>
+  /^[A-Za-z0-9_@%+=:,./\\-]+$/.test(value) ? String(value) : `"${String(value).replace(/"/g, '""')}"`
 
-const runWrangler = (wranglerArgs) =>
-  execFileSync('npx', ['wrangler', ...wranglerArgs], {
+const runWrangler = (wranglerArgs) => {
+  const command =
+    process.platform === 'win32'
+      ? [process.env.ComSpec || 'cmd.exe', ['/d', '/s', '/c', ['call', npxCommand, 'wrangler', ...wranglerArgs].map(quoteCmdArg).join(' ')]]
+      : [npxCommand, ['wrangler', ...wranglerArgs]]
+
+  return execFileSync(command[0], command[1], {
     encoding: 'utf8',
     stdio: ['ignore', 'pipe', 'pipe'],
   })
+}
 
 const normalizeDatabases = (payload) => {
   if (Array.isArray(payload)) {
