@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-06-30T18:49:41.852Z
+Generated: 2026-06-30T19:17:01.519Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -16,6 +16,8 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - Locally visible required secret names: none
 - D1 migration count: 9
 - D1 migration manifest fingerprint: 6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3
+- DNS cutover status: needs-dns-cutover
+- DNS nameserver provider: external-or-registrar
 
 ## Next Approved Action
 
@@ -28,6 +30,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: GitHub release evidence verifier is exposed as an npm script.
 - pass: Read-only Cloudflare production state verifier is exposed and included in safe preflight.
 - pass: D1 production migration manifest is current and included in safe preflight.
+- pass: DNS/custom-domain cutover plan is available and included in safe preflight.
 - pass: Safe preflight includes GitHub CI/manual release evidence verification.
 - pass: Cloudflare binding configurator is available.
 - pass: Production cutover simulation verifier is available.
@@ -60,6 +63,7 @@ Side effect: none
 npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state
 npm run verify:d1-manifest
+npm run verify:dns-cutover
 npm run verify:launch -- --soft
 npm run verify:production-contract
 npm run verify:production-provisioning
@@ -115,6 +119,7 @@ npm run deploy:news-worker
 Side effect: dns-and-live-verification
 
 ```bash
+npm run verify:dns-cutover
 npm run verify:live-readiness -- --strict
 npm run verify:production -- https://herbalisti.com
 npm run verify:goal-readiness -- --strict

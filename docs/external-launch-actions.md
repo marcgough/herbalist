@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-06-30T18:49:32.344Z
+Generated: 2026-06-30T19:16:45.952Z
 
 Status: needs-approval-and-production-setup
 
@@ -89,6 +89,17 @@ npm run prepare:d1-manifest
 
 Notes:
 - Use npm run verify:d1-manifest before any remote D1 migration command.
+
+### Generate DNS/custom-domain cutover plan
+
+Refresh the read-only DNS snapshot and custom-domain operator sequence before herbalisti.com DNS or Cloudflare Pages domain changes are approved.
+
+```bash
+npm run prepare:dns-cutover
+```
+
+Notes:
+- Use npm run verify:dns-cutover before DNS/custom-domain work and again after nameserver changes propagate.
 
 ### Activate local Wrangler D1 bindings after Cloudflare returns the database ID
 
@@ -330,6 +341,7 @@ Cloudflare dashboard: connect herbalisti.com to the herbalisti Pages project
 After: deploy-cloudflare-pages
 
 Verification:
+- npm run verify:dns-cutover
 - npm run verify:live-readiness -- --strict
 - npm run verify:production -- https://herbalisti.com
 - npm run verify:goal-readiness -- --strict

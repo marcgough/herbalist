@@ -78,6 +78,10 @@ assert(
   'Cloudflare Pages verification should include the public data export route',
 )
 assert(
+  resources['cloudflare-pages']?.verify?.includes('npm run verify:dns-cutover'),
+  'Cloudflare Pages verification should include DNS/custom-domain cutover verification',
+)
+assert(
   resources['cloudflare-pages']?.verify?.includes('GET /data/api-catalog.json'),
   'Cloudflare Pages verification should include the public API catalog route',
 )
@@ -144,6 +148,7 @@ assert(exists('scripts/verify-external-actions.mjs'), 'Production contract requi
 assert(exists('scripts/prepare-completion-audit.mjs'), 'Production contract requires the objective completion audit generator')
 assert(exists('scripts/prepare-production-provisioning.mjs'), 'Production contract requires the production provisioning readiness generator')
 assert(exists('scripts/prepare-d1-production-manifest.mjs'), 'Production contract requires the D1 production migration manifest generator')
+assert(exists('scripts/prepare-dns-cutover-plan.mjs'), 'Production contract requires the DNS cutover plan generator')
 assert(exists('scripts/verify-production-deploy-workflow.mjs'), 'Production contract requires the production deploy workflow verifier')
 assert(exists('scripts/verify-accessibility-smoke.mjs'), 'Production contract requires the accessibility smoke verifier')
 assert(exists('scripts/verify-visual-smoke.mjs'), 'Production contract requires the desktop/mobile visual smoke verifier')
@@ -162,6 +167,8 @@ assert(exists('docs/production-provisioning-readiness.json'), 'Production contra
 assert(exists('docs/production-provisioning-readiness.md'), 'Production contract requires the production provisioning readiness Markdown')
 assert(exists('docs/d1-production-migration-manifest.json'), 'Production contract requires the D1 production migration manifest JSON')
 assert(exists('docs/d1-production-migration-manifest.md'), 'Production contract requires the D1 production migration manifest Markdown')
+assert(exists('docs/dns-cutover-plan.json'), 'Production contract requires the DNS cutover plan JSON')
+assert(exists('docs/dns-cutover-plan.md'), 'Production contract requires the DNS cutover plan Markdown')
 assert(exists('scripts/simulate-production-cutover.mjs'), 'Production contract requires the production cutover simulation')
 assert(
   exists('scripts/verify-production-cutover-simulation.mjs'),
@@ -280,6 +287,10 @@ assert(
   'Safe preflight should include D1 production migration manifest verification',
 )
 assert(
+  contract.commands.safePreflight.includes('npm run verify:dns-cutover'),
+  'Safe preflight should include DNS/custom-domain cutover verification',
+)
+assert(
   contract.commands.safePreflight.includes('npm run prepare:production-provisioning'),
   'Safe preflight should refresh production provisioning readiness',
 )
@@ -348,6 +359,10 @@ assert(
   'Launch packet generator should include D1 production migration manifest verification',
 )
 assert(
+  launchPacketScript.includes('npm run verify:dns-cutover'),
+  'Launch packet generator should include DNS/custom-domain cutover verification',
+)
+assert(
   launchPacketScript.includes('npm run verify:production-provisioning'),
   'Launch packet generator should include production provisioning readiness verification',
 )
@@ -390,6 +405,7 @@ assert(runbook.includes('verify:github-production-readiness'), 'Deployment runbo
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
 assert(runbook.includes('verify:cloudflare-production-state'), 'Deployment runbook should document Cloudflare production state verification')
 assert(runbook.includes('verify:d1-manifest'), 'Deployment runbook should document D1 production migration manifest verification')
+assert(runbook.includes('verify:dns-cutover'), 'Deployment runbook should document DNS/custom-domain cutover verification')
 assert(runbook.includes('verify:production-provisioning'), 'Deployment runbook should document production provisioning readiness verification')
 assert(
   launchPacketDoc.includes('production-environment-contract.json'),
@@ -446,6 +462,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:d1-manifest'),
   'Production launch packet doc should include D1 production migration manifest verification',
+)
+assert(
+  launchPacketDoc.includes('verify:dns-cutover'),
+  'Production launch packet doc should include DNS/custom-domain cutover verification',
 )
 assert(
   launchPacketDoc.includes('verify:production-provisioning'),

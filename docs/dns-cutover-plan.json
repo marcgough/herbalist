@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "generatedAt": "2026-06-30T19:16:12.162Z",
+  "status": "needs-dns-cutover",
+  "productionComplete": false,
+  "safeToRun": "Reads public DNS records and local launch contracts, then optionally writes docs/dns-cutover-plan files. It does not call Cloudflare APIs, change nameservers, mutate DNS, deploy, create resources, set secrets, call paid APIs, or print secret values.",
+  "project": {
+    "domain": "herbalisti.com",
+    "pagesProject": "herbalisti",
+    "newsWorker": "herbalisti-news-refresh",
+    "d1Database": "herbalisti",
+    "optionalR2Bucket": "herbalisti-media"
+  },
+  "docs": {
+    "cloudflarePagesCustomDomains": "https://developers.cloudflare.com/pages/configuration/custom-domains/"
+  },
+  "currentState": {
+    "domain": "herbalisti.com",
+    "nameservers": [
+      "dns1.registrar-servers.com",
+      "dns2.registrar-servers.com"
+    ],
+    "nameserversProvider": "external-or-registrar",
+    "cloudflareZoneReady": false,
+    "apexRecordPresent": true,
+    "caaReadyForCloudflareCertificate": true,
+    "records": {
+      "a": {
+        "type": "A",
+        "status": "present",
+        "records": [
+          "192.64.119.134"
+        ]
+      },
+      "aaaa": {
+        "type": "AAAA",
+        "status": "missing",
+        "records": [],
+        "error": "ENODATA"
+      },
+      "cname": {
+        "type": "CNAME",
+        "status": "missing",
+        "records": [],
+        "error": "ENODATA"
+      },
+      "ns": {
+        "type": "NS",
+        "status": "present",
+        "records": [
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
+        ]
+      },
+      "caa": {
+        "type": "CAA",
+        "status": "missing",
+        "records": [],
+        "error": "ENODATA"
+      }
+    }
+  },
+  "checks": [
+    {
+      "id": "domain-contract",
+      "status": "pass",
+      "detail": "Production contract domain is herbalisti.com."
+    },
+    {
+      "id": "dns-observed",
+      "status": "pass",
+      "detail": "Observed 2 nameserver record(s)."
+    },
+    {
+      "id": "cloudflare-zone-for-apex",
+      "status": "pending",
+      "detail": "Apex domain is not yet delegated to Cloudflare nameservers."
+    },
+    {
+      "id": "caa-certificate-readiness",
+      "status": "pass",
+      "detail": "No CAA records are present, so no CAA restriction was detected."
+    },
+    {
+      "id": "cloudflare-pages-custom-domain-source",
+      "status": "pass",
+      "detail": "Cloudflare Pages custom-domain source URL is recorded."
+    }
+  ],
+  "targetState": {
+    "cloudflarePagesProject": "herbalisti",
+    "apexDomain": "herbalisti.com",
+    "apexDomainRequirement": "For a Cloudflare Pages apex domain, the domain must be a zone in the same Cloudflare account as the Pages project, with nameservers delegated to Cloudflare before custom-domain activation.",
+    "canonicalRedirects": [
+      "http://herbalisti.com -> https://herbalisti.com/",
+      "https://www.herbalisti.com -> https://herbalisti.com/"
+    ],
+    "liveVerification": [
+      "npm run verify:live-readiness -- --strict",
+      "npm run verify:production -- https://herbalisti.com",
+      "npm run verify:goal-readiness -- --strict"
+    ]
+  },
+  "operatorSequence": [
+    {
+      "id": "confirm-cloudflare-zone-route",
+      "sideEffect": "approval-required-dns-provider-decision",
+      "detail": "Use Cloudflare Pages custom-domain setup for the apex domain. Cloudflare documentation says an apex Pages domain must be a Cloudflare zone in the same account as the Pages project."
+    },
+    {
+      "id": "delegate-nameservers",
+      "sideEffect": "mutates-public-dns",
+      "detail": "At the registrar, replace the current nameservers with the two nameservers assigned by Cloudflare for herbalisti.com."
+    },
+    {
+      "id": "attach-pages-custom-domain",
+      "sideEffect": "mutates-cloudflare-pages-domain",
+      "detail": "In Workers & Pages, open the herbalisti Pages project, add herbalisti.com as a custom domain, and let Cloudflare create or validate the required DNS record."
+    },
+    {
+      "id": "configure-www-canonical-route",
+      "sideEffect": "mutates-cloudflare-dns-or-redirects",
+      "detail": "Add www.herbalisti.com only as a redirect/canonical route to the apex domain, keeping herbalisti.com as the public canonical URL."
+    },
+    {
+      "id": "verify-live-domain",
+      "sideEffect": "none",
+      "commands": [
+        "npm run verify:dns-cutover",
+        "npm run verify:live-readiness -- --strict"
+      ]
+    }
+  ],
+  "nextActions": [
+    "Prepare Cloudflare zone delegation for herbalisti.com.",
+    "Capture the Cloudflare-assigned nameservers during approved setup.",
+    "Change registrar nameservers only after approval for public DNS mutation.",
+    "Attach herbalisti.com as a Cloudflare Pages custom domain after the Pages project exists."
+  ]
+}

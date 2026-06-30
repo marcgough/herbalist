@@ -49,6 +49,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
   const d1Manifest = exists('docs/d1-production-migration-manifest.json')
     ? readJson('docs/d1-production-migration-manifest.json')
     : null
+  const dnsCutoverPlan = exists('docs/dns-cutover-plan.json') ? readJson('docs/dns-cutover-plan.json') : null
   const pagesToml = read('wrangler.toml')
   const newsToml = read('wrangler.news.toml')
   const pagesD1Active = hasActiveD1Binding(pagesToml)
@@ -79,6 +80,13 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         d1Manifest?.status === 'pass' &&
         d1Manifest.summary?.migrationCount >= 1,
       'D1 production migration manifest is current and included in safe preflight.',
+    ),
+    buildCheck(
+      'dns-cutover-plan',
+      Boolean(scripts['verify:dns-cutover']) &&
+        contract.commands.safePreflight.includes('npm run verify:dns-cutover') &&
+        dnsCutoverPlan?.status !== 'local-contract-failed',
+      'DNS/custom-domain cutover plan is available and included in safe preflight.',
     ),
     buildCheck(
       'github-release-evidence-preflight',
@@ -136,6 +144,8 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       externalActionsFingerprint: hash(JSON.stringify(externalActions)),
       d1MigrationManifestFingerprint: d1Manifest?.summary?.manifestFingerprint ?? null,
       d1MigrationCount: d1Manifest?.summary?.migrationCount ?? 0,
+      dnsCutoverStatus: dnsCutoverPlan?.status ?? 'missing',
+      dnsNameserverProvider: dnsCutoverPlan?.currentState?.nameserversProvider ?? 'unknown',
     },
     checks,
     productionBlockers,
@@ -148,6 +158,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:github-release-evidence',
           'npm run verify:cloudflare-production-state',
           'npm run verify:d1-manifest',
+          'npm run verify:dns-cutover',
           'npm run verify:launch -- --soft',
           'npm run verify:production-contract',
           'npm run verify:production-provisioning',
@@ -182,7 +193,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       {
         id: 'domain-and-live-verification',
         sideEffect: 'dns-and-live-verification',
-        commands: contract.commands.liveCompletionGates,
+        commands: ['npm run verify:dns-cutover', ...contract.commands.liveCompletionGates],
       },
     ],
   }
@@ -208,6 +219,8 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     `- Locally visible required secret names: ${packet.currentState.visibleRequiredSecretNames.join(', ') || 'none'}`,
     `- D1 migration count: ${packet.currentState.d1MigrationCount}`,
     `- D1 migration manifest fingerprint: ${packet.currentState.d1MigrationManifestFingerprint ?? 'missing'}`,
+    `- DNS cutover status: ${packet.currentState.dnsCutoverStatus}`,
+    `- DNS nameserver provider: ${packet.currentState.dnsNameserverProvider}`,
     '',
     '## Next Approved Action',
     '',

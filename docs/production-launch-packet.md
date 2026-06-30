@@ -102,6 +102,7 @@ npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state
 npm run verify:d1-manifest
+npm run verify:dns-cutover
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
 npm run verify:source-governance

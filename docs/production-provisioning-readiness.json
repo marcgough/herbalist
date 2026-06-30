@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T18:49:41.852Z",
+  "generatedAt": "2026-06-30T19:17:01.519Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,10 +27,12 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "89c8fbfa0032ef4c50bde4a372e9ffc24e1364e16c7ce537f136f5c5b50c1219",
-    "externalActionsFingerprint": "297c301a37c1c04b73de8d5cc1a98845e31237868783ad6dfdbcf14be21a584d",
+    "contractFingerprint": "167a5a0042b2a91c8a152538677bdd6515c67ab303fa5a94a6727462460874ed",
+    "externalActionsFingerprint": "32ad8f45a49c2bc766a4c630eb486a63edf272b0a0ba4e1bf38b2ab67c62eec8",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
-    "d1MigrationCount": 9
+    "d1MigrationCount": 9,
+    "dnsCutoverStatus": "needs-dns-cutover",
+    "dnsNameserverProvider": "external-or-registrar"
   },
   "checks": [
     {
@@ -57,6 +59,11 @@
       "id": "d1-production-migration-manifest",
       "status": "pass",
       "detail": "D1 production migration manifest is current and included in safe preflight."
+    },
+    {
+      "id": "dns-cutover-plan",
+      "status": "pass",
+      "detail": "DNS/custom-domain cutover plan is available and included in safe preflight."
     },
     {
       "id": "github-release-evidence-preflight",
@@ -140,6 +147,7 @@
         "npm run verify:github-release-evidence",
         "npm run verify:cloudflare-production-state",
         "npm run verify:d1-manifest",
+        "npm run verify:dns-cutover",
         "npm run verify:launch -- --soft",
         "npm run verify:production-contract",
         "npm run verify:production-provisioning"
@@ -184,6 +192,7 @@
       "id": "domain-and-live-verification",
       "sideEffect": "dns-and-live-verification",
       "commands": [
+        "npm run verify:dns-cutover",
         "npm run verify:live-readiness -- --strict",
         "npm run verify:production -- https://herbalisti.com",
         "npm run verify:goal-readiness -- --strict"

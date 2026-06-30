@@ -68,6 +68,7 @@ const phases = [
       'Current GitHub CI and manual release-gate evidence is verified for the intended launch commit.',
       'Read-only Cloudflare production-state probing is available before any resource creation or deployment.',
       'D1 production migration manifest fingerprints the exact ordered SQL files before remote migration approval.',
+      'DNS/custom-domain cutover plan snapshots current public DNS and the Cloudflare Pages apex-domain operator sequence.',
       'Production provisioning readiness shows the next approved action, local state, and exact operator sequence.',
       'Local Cloudflare Pages runtime starts.',
       'API and production-shape smoke tests pass.',
@@ -118,6 +119,7 @@ const phases = [
       command('npm run verify:github-release-evidence'),
       command('npm run verify:cloudflare-production-state'),
       command('npm run verify:d1-manifest'),
+      command('npm run verify:dns-cutover'),
       command('npm run prepare:production-provisioning'),
       command('npm run verify:production-provisioning'),
       command('npm run verify:static-news-refresh'),
@@ -210,6 +212,7 @@ const phases = [
     status: 'pending-external',
     purpose: 'Connect the custom domain, verify DNS, and prove the live site satisfies the production contract.',
     commands: [
+      command('npm run verify:dns-cutover'),
       command('npm run verify:live-readiness -- --strict'),
       command('npm run verify:production -- https://herbalisti.com'),
       command('npm run verify:goal-readiness -- --strict'),

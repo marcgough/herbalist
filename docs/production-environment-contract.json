@@ -24,6 +24,7 @@
         "GET /data/api-catalog.json",
         "GET /data/herbal-knowledge.json",
         "GET /data/remedies.json",
+        "npm run verify:dns-cutover",
         "npm run verify:production -- https://herbalisti.com"
       ]
     },
@@ -123,6 +124,7 @@
       "npm run verify:github-release-evidence",
       "npm run verify:cloudflare-production-state",
       "npm run verify:d1-manifest",
+      "npm run verify:dns-cutover",
       "npm run prepare:production-provisioning",
       "npm run verify:production-provisioning",
       "npm run verify:static-news-refresh",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T18:49:32.344Z",
+  "generatedAt": "2026-06-30T19:16:45.952Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -110,6 +110,18 @@
       "after": [],
       "notes": [
         "Use npm run verify:d1-manifest before any remote D1 migration command."
+      ]
+    },
+    {
+      "id": "generate-dns-cutover-plan",
+      "title": "Generate DNS/custom-domain cutover plan",
+      "approvalRequired": false,
+      "command": "npm run prepare:dns-cutover",
+      "purpose": "Refresh the read-only DNS snapshot and custom-domain operator sequence before herbalisti.com DNS or Cloudflare Pages domain changes are approved.",
+      "writesLocalFiles": true,
+      "after": [],
+      "notes": [
+        "Use npm run verify:dns-cutover before DNS/custom-domain work and again after nameserver changes propagate."
       ]
     },
     {
@@ -354,6 +366,7 @@
         "deploy-cloudflare-pages"
       ],
       "verification": [
+        "npm run verify:dns-cutover",
         "npm run verify:live-readiness -- --strict",
         "npm run verify:production -- https://herbalisti.com",
         "npm run verify:goal-readiness -- --strict"

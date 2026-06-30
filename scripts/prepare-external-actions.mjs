@@ -131,6 +131,15 @@ const localAllowedActions = [
     notes: ['Use npm run verify:d1-manifest before any remote D1 migration command.'],
   }),
   localAction({
+    id: 'generate-dns-cutover-plan',
+    title: 'Generate DNS/custom-domain cutover plan',
+    command: 'npm run prepare:dns-cutover',
+    purpose:
+      'Refresh the read-only DNS snapshot and custom-domain operator sequence before herbalisti.com DNS or Cloudflare Pages domain changes are approved.',
+    writesLocalFiles: true,
+    notes: ['Use npm run verify:dns-cutover before DNS/custom-domain work and again after nameserver changes propagate.'],
+  }),
+  localAction({
     id: 'activate-d1-bindings-local',
     title: 'Activate local Wrangler D1 bindings after Cloudflare returns the database ID',
     command: command(contract.commands, 'activateBindings'),
@@ -280,7 +289,7 @@ const approvalRequiredActions = [
     externalEffect: 'Changes public DNS/custom-domain routing for herbalisti.com.',
     approvalReason: 'Mutates public DNS or Cloudflare custom-domain configuration.',
     after: ['deploy-cloudflare-pages'],
-    verification: contract.commands.liveCompletionGates,
+    verification: ['npm run verify:dns-cutover', ...contract.commands.liveCompletionGates],
   }),
   approvalAction({
     id: 'generate-seedance-video-optional',

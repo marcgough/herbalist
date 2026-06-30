@@ -28,6 +28,7 @@ npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run verify:cloudflare-production-state
 npm run verify:d1-manifest
+npm run verify:dns-cutover
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
 npm run prepare:launch
@@ -63,6 +64,7 @@ npm run verify:source-health
 npm run verify:visual-smoke
 npm run verify:corpus-rights
 npm run verify:d1-manifest
+npm run verify:dns-cutover
 npm run verify:d1
 npm run verify:news-worker
 npm run pages:dev
@@ -184,6 +186,15 @@ npm run verify:cloudflare-production-state -- --strict
 
 Without a valid Wrangler session or `CLOUDFLARE_API_TOKEN`, it reports `needs-cloudflare-auth`. Once authenticated, it checks visible Cloudflare Pages, D1, Worker deployment, custom-domain metadata, and required secret names without creating resources, deploying, mutating DNS, setting secrets, calling paid APIs, or printing secret values.
 
+DNS/custom-domain cutover planning is read-only:
+
+```bash
+npm run prepare:dns-cutover
+npm run verify:dns-cutover
+```
+
+It records current public DNS for `herbalisti.com`, checks whether the apex domain is already delegated to Cloudflare nameservers, notes CAA certificate-readiness state, and writes `docs/dns-cutover-plan.json` plus `docs/dns-cutover-plan.md`. It does not call Cloudflare APIs, change nameservers, mutate DNS, deploy, create resources, set secrets, or print secret values.
+
 Production provisioning readiness is local and read-only except for the generated handoff files:
 
 ```bash
@@ -268,6 +279,14 @@ npm run verify:live-readiness -- --strict
 4. Build output directory: `dist`.
 5. Connect the custom domain `herbalisti.com`.
 
+Before custom-domain work, run:
+
+```bash
+npm run verify:dns-cutover
+```
+
+Current expected state before DNS setup: `needs-dns-cutover`, because the apex domain is still delegated outside Cloudflare.
+
 ## Brand Assets
 
 Core launch assets:
@@ -320,6 +339,7 @@ npm run wrangler -- pages deploy dist --project-name herbalisti
 After DNS and the custom domain are active, verify the live site:
 
 ```bash
+npm run verify:dns-cutover
 npm run verify:live-readiness -- --strict
 npm run verify:production -- https://herbalisti.com
 ```

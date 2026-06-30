@@ -48,6 +48,7 @@ for (const id of [
   'check-github-production-readiness',
   'check-cloudflare-production-state',
   'generate-d1-production-migration-manifest',
+  'generate-dns-cutover-plan',
   'activate-d1-bindings-local',
 ]) {
   assert(localIds.has(id), `Checklist should include local action ${id}`)
@@ -105,6 +106,10 @@ assert(
 assert(
   checklist.completionGates.every((gate) => contract.commands.liveCompletionGates.includes(gate)),
   'Checklist completion gates should mirror the production contract',
+)
+assert(
+  externalActions['connect-domain'].verification.includes('npm run verify:dns-cutover'),
+  'Custom-domain action should require DNS/custom-domain cutover verification',
 )
 
 const secretNames = checklist.approvalRequiredActions.flatMap((action) => action.secretNames)
