@@ -25,6 +25,7 @@ const hasActiveR2Binding = (toml) =>
 const secretNames = [
   'CLOUDFLARE_API_TOKEN',
   'CLOUDFLARE_ACCOUNT_ID',
+  'CLOUDFLARE_D1_DATABASE_ID',
   'FEED_ADMIN_TOKEN',
   'KIE_API_KEY',
   'MEDIA_ADMIN_TOKEN',
@@ -62,6 +63,7 @@ const phases = [
     checks: [
       'Build succeeds.',
       'GitHub Actions safe-gate and manual repository release-gate workflows are present, read-only, non-deploying, and use public corpus-export mode on GitHub runners.',
+      'Guarded GitHub production deploy workflow is present, manual-only, confirmation-gated, environment-scoped, and verified locally without running it.',
       'Current GitHub CI and manual release-gate evidence is verified for the intended launch commit.',
       'Production provisioning readiness shows the next approved action, local state, and exact operator sequence.',
       'Local Cloudflare Pages runtime starts.',
@@ -108,6 +110,7 @@ const phases = [
       command('npm run configure:cloudflare -- --d1 <database_id> --r2 herbalisti-media --apply', 'optional-writes-local-config'),
       command('npm run verify:launch -- --soft'),
       command('npm run verify:github-actions'),
+      command('npm run verify:production-deploy-workflow'),
       command('npm run verify:github-release-evidence'),
       command('npm run prepare:production-provisioning'),
       command('npm run verify:production-provisioning'),
@@ -133,6 +136,23 @@ const phases = [
       command('npm run verify:goal-readiness'),
     ],
     blockers: pagesD1Active && newsD1Active ? [] : ['wrangler.toml and wrangler.news.toml still use template D1 bindings.'],
+  }),
+  phase({
+    id: 'guarded-github-production-workflow',
+    title: 'Guarded GitHub production workflow',
+    status: pagesD1Active && newsD1Active ? 'ready-after-secrets-and-evidence' : 'prepared',
+    purpose:
+      'Provide a single manual GitHub Actions path that can create/confirm the Pages project, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, then run live verification.',
+    commands: [
+      command('npm run verify:production-deploy-workflow'),
+      command('GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production', 'deploys-production-when-dispatched'),
+    ],
+    blockers: pagesD1Active && newsD1Active ? [] : ['GitHub secret CLOUDFLARE_D1_DATABASE_ID must contain the returned production D1 database ID before dispatch.'],
+    notes: [
+      'The workflow is manual-only and requires the GitHub production environment.',
+      'The workflow still requires exact GitHub CI/manual release evidence for the dispatch commit.',
+      'Live verification can be temporarily skipped only while DNS is being connected; final completion still requires strict live verification.',
+    ],
   }),
   phase({
     id: 'remote-migrations',

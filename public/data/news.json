@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T16:11:56.693Z",
+  "generatedAt": "2026-06-30T16:41:51.055Z",
   "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names filtered from source/title metadata.",
   "sourceHealthPolicy": "Source health checks report allowlisted public or independent sources only; warnings do not add fallback pharma channels.",
   "warnings": [],
@@ -11,7 +11,7 @@
       "sourceType": "public-research-index",
       "role": "Public biomedical metadata for frontier-biology terms.",
       "status": "empty",
-      "checkedAt": "2026-06-30T16:11:52.579Z",
+      "checkedAt": "2026-06-30T16:41:43.679Z",
       "itemCount": 10,
       "usableItemCount": 0,
       "newestItemAt": "",
@@ -26,7 +26,7 @@
       "sourceType": "public-research-index",
       "role": "Open preprint metadata for computational biology and frontier science.",
       "status": "ok",
-      "checkedAt": "2026-06-30T16:11:50.839Z",
+      "checkedAt": "2026-06-30T16:41:41.730Z",
       "itemCount": 8,
       "usableItemCount": 2,
       "newestItemAt": "2026-06-29T04:43:22.000Z",
@@ -41,7 +41,7 @@
       "sourceType": "preprint-server",
       "role": "Public biology preprint metadata for longevity and biotechnology topics.",
       "status": "ok",
-      "checkedAt": "2026-06-30T16:11:52.883Z",
+      "checkedAt": "2026-06-30T16:41:44.196Z",
       "itemCount": 3,
       "usableItemCount": 3,
       "newestItemAt": "2026-05-31T00:00:00.000Z",
@@ -56,7 +56,7 @@
       "sourceType": "public-research-index",
       "role": "Public scholarly metadata expansion for longevity and frontier biology.",
       "status": "ok",
-      "checkedAt": "2026-06-30T16:11:56.693Z",
+      "checkedAt": "2026-06-30T16:41:51.055Z",
       "itemCount": 10,
       "usableItemCount": 10,
       "newestItemAt": "2026-05-01T00:00:00.000Z",
@@ -71,10 +71,10 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity coverage from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-06-30T16:11:51.008Z",
+      "checkedAt": "2026-06-30T16:41:44.001Z",
       "itemCount": 8,
       "usableItemCount": 5,
-      "newestItemAt": "2026-06-29T21:02:28.000Z",
+      "newestItemAt": "2026-06-30T16:21:38.000Z",
       "warning": "",
       "isAllowlisted": true,
       "isBigPharmaRelated": false
@@ -86,7 +86,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity commentary from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-06-30T16:11:51.741Z",
+      "checkedAt": "2026-06-30T16:41:42.809Z",
       "itemCount": 8,
       "usableItemCount": 6,
       "newestItemAt": "2026-06-30T10:11:23.000Z",
@@ -96,6 +96,18 @@
     }
   ],
   "items": [
+    {
+      "id": "lifespan-1g7s8cs",
+      "title": "Study Maps Existing Drugs to the Hallmarks of Aging",
+      "sourceName": "Lifespan.io",
+      "url": "https://lifespan.io/study-maps-existing-drugs-to-the-hallmarks-of-aging/",
+      "publishedAt": "2026-06-30T16:21:38.000Z",
+      "summary": "Independent longevity coverage from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "independent-longevity"
+    },
     {
       "id": "fightaging-7rb0j0",
       "title": "Evidence for Aging Clocks to Progress Faster Now than in the Past",
@@ -240,18 +252,6 @@
       "summary": "Independent longevity coverage from the Herbalisti source allowlist.",
       "topics": [
         "Longevity"
-      ],
-      "sourceType": "independent-longevity"
-    },
-    {
-      "id": "lifespan-1kavqvf",
-      "title": "Epigenetic Drug Targets Fat, Improving Blood Vessel Health",
-      "sourceName": "Lifespan.io",
-      "url": "https://lifespan.io/epigenetic-drug-targets-fat-improving-blood-vessel-health/",
-      "publishedAt": "2026-06-19T17:04:10.000Z",
-      "summary": "Independent longevity coverage from the Herbalisti source allowlist.",
-      "topics": [
-        "DNA modification"
       ],
       "sourceType": "independent-longevity"
     },

@@ -216,6 +216,37 @@ const approvalRequiredActions = [
     verification: ['npm run verify:source-health', 'npm run verify:production -- https://herbalisti.com'],
   }),
   approvalAction({
+    id: 'run-github-production-deploy-workflow',
+    phase: 'deploy',
+    title: 'Run guarded GitHub production deploy workflow',
+    command: command(contract.commands, 'githubProductionDeploy'),
+    requiredForLaunch: false,
+    externalEffect:
+      'Runs the manual GitHub production workflow that can create or confirm the Pages project, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, and run live verification.',
+    approvalReason: 'Public production deployment automation with Cloudflare resource, secret, D1, Worker, and live-site effects.',
+    after: ['create-d1-database'],
+    verification: [
+      'npm run verify:production-deploy-workflow',
+      'npm run verify:github-release-evidence',
+      'npm run verify:live-readiness -- --strict',
+      'npm run verify:production -- https://herbalisti.com',
+      'npm run verify:goal-readiness -- --strict',
+    ],
+    secretNames: [
+      'CLOUDFLARE_API_TOKEN',
+      'CLOUDFLARE_ACCOUNT_ID',
+      'CLOUDFLARE_D1_DATABASE_ID',
+      'FEED_ADMIN_TOKEN',
+      'KIE_API_KEY',
+      'MEDIA_ADMIN_TOKEN',
+    ],
+    notes: [
+      'Requires the exact workflow input confirm=deploy-herbalisti-production.',
+      'Use the GitHub production environment approval controls before dispatch.',
+      'Do not use skip_live_verification for final completion evidence.',
+    ],
+  }),
+  approvalAction({
     id: 'connect-domain',
     phase: 'domain',
     title: 'Connect herbalisti.com custom domain and DNS',

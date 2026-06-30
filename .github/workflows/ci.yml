@@ -71,5 +71,6 @@ jobs:
           npm run verify:media-endpoints
           npm run verify:cloudflare-config
           npm run verify:production-cutover
+          npm run verify:production-deploy-workflow
           npm run verify:production-contract
           npm run verify:launch -- --soft

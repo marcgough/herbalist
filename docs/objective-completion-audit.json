@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T16:12:51.429Z",
-  "auditSignature": "19ee69d1a8e6f0ee281658c39cdc2b085be3308f7302e8ff9ee7483d8e82abcc",
+  "generatedAt": "2026-06-30T16:42:39.624Z",
+  "auditSignature": "72b8f52e1997a5122f583da1224238b362efc5a3f0c7144866bdf8992b0fc133",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -322,9 +322,12 @@
         "scripts/simulate-production-cutover.mjs",
         "scripts/verify-production-cutover-simulation.mjs",
         "scripts/prepare-production-provisioning.mjs",
+        "scripts/verify-production-deploy-workflow.mjs",
+        ".github/workflows/production-deploy.yml",
         "npm run verify:production-contract",
         "npm run verify:external-actions",
         "npm run verify:production-provisioning",
+        "npm run verify:production-deploy-workflow",
         "npm run verify:production-cutover",
         "docs/deployment-runbook.md",
         "docs/production-launch-packet.md"
@@ -345,11 +348,14 @@
         "scripts/prepare-launch-packet.mjs",
         "scripts/prepare-external-actions.mjs",
         "scripts/prepare-production-provisioning.mjs",
+        "scripts/verify-production-deploy-workflow.mjs",
+        ".github/workflows/production-deploy.yml",
         "functions/api/health.js",
         "docs/deployment-runbook.md",
         "npm run verify:launch -- --soft",
         "npm run verify:production-cutover",
         "npm run verify:production-provisioning",
+        "npm run verify:production-deploy-workflow",
         "npm run verify:live-readiness -- --strict",
         "npm run prepare:launch",
         "npm run prepare:external-actions"
@@ -395,8 +401,10 @@
         "scripts/verify-launch-config.mjs",
         "scripts/verify-github-actions.mjs",
         "scripts/verify-github-release-evidence.mjs",
+        "scripts/verify-production-deploy-workflow.mjs",
         ".github/workflows/ci.yml",
         ".github/workflows/release-gate.yml",
+        ".github/workflows/production-deploy.yml",
         "scripts/verify-australia-lane.mjs",
         "scripts/verify-external-actions.mjs",
         "scripts/verify-live-readiness.mjs",
@@ -452,19 +460,19 @@
       "protectedEndpointCount": 2
     },
     "news": {
-      "generatedAt": "2026-06-30T16:11:56.693Z",
+      "generatedAt": "2026-06-30T16:41:51.055Z",
       "total": 24,
       "topicCounts": {
-        "Longevity": 13,
-        "DNA modification": 6,
+        "Longevity": 14,
+        "DNA modification": 5,
         "Peptides": 1,
         "Gene editing": 8,
         "CRISPR": 7,
         "Gene therapy": 2
       },
       "sourceCounts": {
-        "Fight Aging!": 6,
         "Lifespan.io": 5,
+        "Fight Aging!": 6,
         "arXiv": 2,
         "bioRxiv": 3,
         "Crossref": 8
@@ -473,7 +481,7 @@
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T16:11:56.693Z"
+        "generatedAt": "2026-06-30T16:41:51.055Z"
       }
     },
     "media": {
@@ -503,9 +511,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 119,
-      "scripts": 85,
-      "passes": 175
+      "files": 121,
+      "scripts": 86,
+      "passes": 178
     },
     "nextActions": [
       "Create the Cloudflare D1 database named herbalisti.",
@@ -533,6 +541,7 @@
       "npm run verify:launch -- --soft",
       "npm run verify:production-cutover",
       "npm run verify:github-actions",
+      "npm run verify:production-deploy-workflow",
       "npm run verify:github-release-evidence",
       "npm run prepare:production-provisioning",
       "npm run verify:production-provisioning",
@@ -575,7 +584,7 @@
   },
   "launchPacket": {
     "status": "pending-production-setup",
-    "blockerCount": 8,
+    "blockerCount": 9,
     "nextCommand": "npm run verify:launch -- --soft"
   },
   "outputFiles": {

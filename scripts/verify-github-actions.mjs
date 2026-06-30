@@ -16,6 +16,7 @@ const assert = (condition, message) => {
 
 const ciPath = '.github/workflows/ci.yml'
 const releasePath = '.github/workflows/release-gate.yml'
+const productionDeployPath = '.github/workflows/production-deploy.yml'
 const packageJson = readJson('package.json')
 const releaseVerifier = read('scripts/verify-release.mjs')
 const launchVerifier = read('scripts/verify-launch-config.mjs')
@@ -26,12 +27,15 @@ const contract = readJson('docs/production-environment-contract.json')
 
 assert(exists(ciPath), 'GitHub CI workflow is missing')
 assert(exists(releasePath), 'GitHub manual release workflow is missing')
+assert(exists(productionDeployPath), 'GitHub production deploy workflow is missing')
 
 const ci = read(ciPath)
 const release = read(releasePath)
+const productionDeploy = read(productionDeployPath)
 const scripts = packageJson.scripts ?? {}
 
 assert(scripts['verify:github-actions'], 'package.json should expose verify:github-actions')
+assert(scripts['verify:production-deploy-workflow'], 'package.json should expose verify:production-deploy-workflow')
 assert(packageJson.devDependencies?.wrangler, 'Wrangler should be a devDependency for reproducible release verification')
 
 for (const workflow of [ci, release]) {
@@ -63,19 +67,35 @@ assert(release.includes('PLAYWRIGHT_CHROMIUM_EXECUTABLE'), 'Manual release workf
 assert(release.includes('npm run verify:release -- --public-only'), 'Manual release workflow should run the repository-safe release verifier')
 assert(release.includes('actions/upload-artifact@v4'), 'Manual release workflow should upload visual smoke screenshots')
 
+assert(productionDeploy.includes('workflow_dispatch:'), 'Production deploy workflow should only run by workflow_dispatch')
+assert(!productionDeploy.includes('push:'), 'Production deploy workflow should not run automatically on push')
+assert(!productionDeploy.includes('pull_request:'), 'Production deploy workflow should not run automatically on pull_request')
+assert(productionDeploy.includes('deploy-herbalisti-production'), 'Production deploy workflow should require the exact confirmation phrase')
+assert(productionDeploy.includes('environment:'), 'Production deploy workflow should use a GitHub production environment')
+assert(productionDeploy.includes('npm run verify:github-release-evidence'), 'Production deploy workflow should require exact release evidence')
+assert(productionDeploy.includes('npm run verify:production-deploy-workflow'), 'Production deploy workflow should verify its own contract')
+assert(productionDeploy.includes('npm run deploy:cloudflare'), 'Production deploy workflow should deploy Cloudflare Pages when manually approved')
+assert(productionDeploy.includes('npm run deploy:news-worker'), 'Production deploy workflow should deploy the scheduled Worker when manually approved')
+
 assert(releaseVerifier.includes('verify:github-actions'), 'Full release verifier should include the GitHub Actions gate')
+assert(releaseVerifier.includes('verify:production-deploy-workflow'), 'Full release verifier should include the production deploy workflow gate')
 assert(launchVerifier.includes('.github/workflows/ci.yml'), 'Launch verifier should require the CI workflow')
 assert(launchVerifier.includes('.github/workflows/release-gate.yml'), 'Launch verifier should require the manual release workflow')
+assert(launchVerifier.includes('.github/workflows/production-deploy.yml'), 'Launch verifier should require the production deploy workflow')
 assert(productionContractVerifier.includes('verify:github-actions'), 'Production contract verifier should require GitHub Actions verification')
+assert(productionContractVerifier.includes('verify:production-deploy-workflow'), 'Production contract verifier should require production deploy workflow verification')
 assert(contract.commands.safePreflight.includes('npm run verify:github-actions'), 'Safe preflight should include GitHub Actions verification')
+assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-workflow'), 'Safe preflight should include production deploy workflow verification')
 assert(runbook.includes('npm run verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
+assert(runbook.includes('npm run verify:production-deploy-workflow'), 'Deployment runbook should document production deploy workflow verification')
 assert(launchPacket.includes('npm run verify:github-actions'), 'Production launch packet should document GitHub Actions verification')
+assert(launchPacket.includes('npm run verify:production-deploy-workflow'), 'Production launch packet should document production deploy workflow verification')
 
 console.log(
   JSON.stringify(
     {
       status: 'pass',
-      workflows: [ciPath, releasePath],
+      workflows: [ciPath, releasePath, productionDeployPath],
       automaticDeployment: false,
       fullReleaseMode: 'manual workflow_dispatch with public corpus export mode',
       safeToRun:

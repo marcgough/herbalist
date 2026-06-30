@@ -178,6 +178,7 @@ for (const [label, command] of [
   ['Seedance media endpoints', npm('run', 'verify:media-endpoints')],
   ['Cloudflare binding configurator', npm('run', 'verify:cloudflare-config')],
   ['production cutover simulation', npm('run', 'verify:production-cutover')],
+  ['production deploy workflow', npm('run', 'verify:production-deploy-workflow')],
   ['production provisioning readiness', npm('run', 'verify:production-provisioning')],
   ['production environment contract', npm('run', 'verify:production-contract')],
   ['local D1 migrations', npm('run', 'verify:d1')],

@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-06-30T15:48:37.235Z
+Generated: 2026-06-30T16:40:56.831Z
 
 Status: needs-approval-and-production-setup
 
@@ -247,6 +247,36 @@ After: apply-remote-d1-migrations, set-feed-admin-token
 Verification:
 - npm run verify:source-health
 - npm run verify:production -- https://herbalisti.com
+
+### Run guarded GitHub production deploy workflow
+
+Required for launch: false
+
+External effect: Runs the manual GitHub production workflow that can create or confirm the Pages project, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, and run live verification.
+
+Approval reason: Public production deployment automation with Cloudflare resource, secret, D1, Worker, and live-site effects.
+
+Command:
+
+```bash
+GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production
+```
+
+After: create-d1-database
+
+Secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_D1_DATABASE_ID, FEED_ADMIN_TOKEN, KIE_API_KEY, MEDIA_ADMIN_TOKEN
+
+Verification:
+- npm run verify:production-deploy-workflow
+- npm run verify:github-release-evidence
+- npm run verify:live-readiness -- --strict
+- npm run verify:production -- https://herbalisti.com
+- npm run verify:goal-readiness -- --strict
+
+Notes:
+- Requires the exact workflow input confirm=deploy-herbalisti-production.
+- Use the GitHub production environment approval controls before dispatch.
+- Do not use skip_live_verification for final completion evidence.
 
 ### Connect herbalisti.com custom domain and DNS
 

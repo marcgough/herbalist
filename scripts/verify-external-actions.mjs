@@ -65,7 +65,12 @@ for (const id of [
   assert(externalActions[id]?.requiredForLaunch === true, `External action ${id} should be required for launch`)
 }
 
-for (const id of ['create-r2-bucket-optional', 'set-openai-api-key-optional', 'generate-seedance-video-optional']) {
+for (const id of [
+  'create-r2-bucket-optional',
+  'set-openai-api-key-optional',
+  'run-github-production-deploy-workflow',
+  'generate-seedance-video-optional',
+]) {
   assert(externalActions[id]?.approvalRequired === true, `Optional external action ${id} should still require approval`)
   assert(externalActions[id]?.requiredForLaunch === false, `Optional external action ${id} should not block launch`)
 }
@@ -87,12 +92,23 @@ assert(
   'News Worker deploy command should match the production contract',
 )
 assert(
+  externalActions['run-github-production-deploy-workflow'].command === contract.commands.githubProductionDeploy[0],
+  'Guarded GitHub production deploy workflow command should match the production contract',
+)
+assert(
   checklist.completionGates.every((gate) => contract.commands.liveCompletionGates.includes(gate)),
   'Checklist completion gates should mirror the production contract',
 )
 
 const secretNames = checklist.approvalRequiredActions.flatMap((action) => action.secretNames)
-for (const name of ['FEED_ADMIN_TOKEN', 'KIE_API_KEY', 'MEDIA_ADMIN_TOKEN']) {
+for (const name of [
+  'CLOUDFLARE_API_TOKEN',
+  'CLOUDFLARE_ACCOUNT_ID',
+  'CLOUDFLARE_D1_DATABASE_ID',
+  'FEED_ADMIN_TOKEN',
+  'KIE_API_KEY',
+  'MEDIA_ADMIN_TOKEN',
+]) {
   assert(secretNames.includes(name), `Checklist should name required secret ${name}`)
 }
 

@@ -485,9 +485,12 @@ const requirements = [
       exists('scripts/simulate-production-cutover.mjs') &&
       exists('scripts/verify-production-cutover-simulation.mjs') &&
       exists('scripts/prepare-production-provisioning.mjs') &&
+      exists('scripts/verify-production-deploy-workflow.mjs') &&
+      exists('.github/workflows/production-deploy.yml') &&
       Boolean(scripts['verify:production-contract']) &&
       Boolean(scripts['verify:external-actions']) &&
       Boolean(scripts['verify:production-provisioning']) &&
+      Boolean(scripts['verify:production-deploy-workflow']) &&
       Boolean(scripts['verify:production-cutover']) &&
       Boolean(scripts['simulate:production-cutover']) &&
       Boolean(scripts['prepare:production-cutover']) &&
@@ -510,9 +513,12 @@ const requirements = [
       'scripts/simulate-production-cutover.mjs',
       'scripts/verify-production-cutover-simulation.mjs',
       'scripts/prepare-production-provisioning.mjs',
+      'scripts/verify-production-deploy-workflow.mjs',
+      '.github/workflows/production-deploy.yml',
       'npm run verify:production-contract',
       'npm run verify:external-actions',
       'npm run verify:production-provisioning',
+      'npm run verify:production-deploy-workflow',
       'npm run verify:production-cutover',
       'docs/deployment-runbook.md',
       'docs/production-launch-packet.md',
@@ -530,11 +536,14 @@ const requirements = [
       'scripts/prepare-launch-packet.mjs',
       'scripts/prepare-external-actions.mjs',
       'scripts/prepare-production-provisioning.mjs',
+      'scripts/verify-production-deploy-workflow.mjs',
+      '.github/workflows/production-deploy.yml',
       'functions/api/health.js',
       'docs/deployment-runbook.md',
       'npm run verify:launch -- --soft',
       'npm run verify:production-cutover',
       'npm run verify:production-provisioning',
+      'npm run verify:production-deploy-workflow',
       'npm run verify:live-readiness -- --strict',
       'npm run prepare:launch',
       'npm run prepare:external-actions',
@@ -570,6 +579,7 @@ const requirements = [
       scripts['verify:external-actions'] &&
       scripts['verify:github-actions'] &&
       scripts['verify:github-release-evidence'] &&
+      scripts['verify:production-deploy-workflow'] &&
       scripts['verify:live-readiness'] &&
       scripts['verify:brand'] &&
       scripts['verify:attribution'] &&
@@ -591,6 +601,7 @@ const requirements = [
       scripts['verify:knowledge-graph'] &&
       scripts['verify:production-contract'] &&
       scripts['verify:production-cutover'] &&
+      scripts['verify:production-deploy-workflow'] &&
       scripts['verify:production-provisioning'] &&
       scripts['verify:production'] &&
       scripts['verify:visual-smoke'] &&
@@ -612,8 +623,10 @@ const requirements = [
       'scripts/verify-launch-config.mjs',
       'scripts/verify-github-actions.mjs',
       'scripts/verify-github-release-evidence.mjs',
+      'scripts/verify-production-deploy-workflow.mjs',
       '.github/workflows/ci.yml',
       '.github/workflows/release-gate.yml',
+      '.github/workflows/production-deploy.yml',
       'scripts/verify-australia-lane.mjs',
       'scripts/verify-external-actions.mjs',
       'scripts/verify-live-readiness.mjs',

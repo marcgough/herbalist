@@ -72,6 +72,13 @@
       "notes": "Required only for scripted Wrangler deployment when not using an authenticated local Wrangler session."
     },
     {
+      "name": "CLOUDFLARE_D1_DATABASE_ID",
+      "requiredForLaunch": false,
+      "scope": "github-production-deploy-workflow",
+      "setCommand": null,
+      "notes": "Required as a GitHub secret only when using the guarded production deployment workflow to configure the runner-local Wrangler bindings."
+    },
+    {
       "name": "FEED_ADMIN_TOKEN",
       "requiredForLaunch": true,
       "scope": "scheduled-news-worker",
@@ -106,6 +113,7 @@
       "npm run verify:launch -- --soft",
       "npm run verify:production-cutover",
       "npm run verify:github-actions",
+      "npm run verify:production-deploy-workflow",
       "npm run verify:github-release-evidence",
       "npm run prepare:production-provisioning",
       "npm run verify:production-provisioning",
@@ -147,6 +155,7 @@
       "npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti"
     ],
     "deploy": ["npm run deploy:cloudflare", "npm run deploy:news-worker"],
+    "githubProductionDeploy": ["GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production"],
     "liveCompletionGates": [
       "npm run verify:live-readiness -- --strict",
       "npm run verify:production -- https://herbalisti.com",
