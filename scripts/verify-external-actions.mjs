@@ -121,13 +121,13 @@ const secretNames = checklist.approvalRequiredActions.flatMap((action) => action
 for (const name of [
   'CLOUDFLARE_API_TOKEN',
   'CLOUDFLARE_ACCOUNT_ID',
-  'CLOUDFLARE_D1_DATABASE_ID',
   'FEED_ADMIN_TOKEN',
   'KIE_API_KEY',
   'MEDIA_ADMIN_TOKEN',
 ]) {
   assert(secretNames.includes(name), `Checklist should name required secret ${name}`)
 }
+assert(!secretNames.includes('CLOUDFLARE_D1_DATABASE_ID'), 'D1 database ID should be resolved by the guarded workflow, not handled as a GitHub secret')
 
 const combinedText = `${JSON.stringify(checklist)}\n${markdown}`
 assert(!/sk-[A-Za-z0-9_-]{20,}/.test(combinedText), 'Checklist must not contain OpenAI-looking secret values')

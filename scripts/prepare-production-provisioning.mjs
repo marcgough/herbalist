@@ -104,6 +104,13 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       'Safe preflight includes GitHub CI/manual release evidence verification.',
     ),
     buildCheck('cloudflare-configurator', Boolean(scripts['configure:cloudflare']), 'Cloudflare binding configurator is available.'),
+    buildCheck(
+      'production-d1-resolver',
+      Boolean(scripts['resolve:production-d1']) &&
+        exists('scripts/resolve-production-d1-database.mjs') &&
+        command(contract, 'resolveProductionD1').includes('resolve:production-d1'),
+      'Guarded production workflow can resolve or create the named D1 database without a D1 ID secret.',
+    ),
     buildCheck('production-cutover-simulation', Boolean(scripts['verify:production-cutover']), 'Production cutover simulation verifier is available.'),
     buildCheck('external-action-verifier', Boolean(scripts['verify:external-actions']), 'External action verifier is available.'),
     buildCheck('pages-deploy-script', Boolean(scripts['deploy:cloudflare']), 'Cloudflare Pages deploy script is available.'),
@@ -124,11 +131,12 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
     ...(pagesD1Active && newsD1Active && !d1IdsMatch ? ['Pages and scheduled Worker D1 bindings do not point at the same database ID.'] : []),
     ...requiredSecrets.filter((name) => !visibleSecrets.includes(name)).map((name) => `${name} is not locally visible; confirm it is set directly in Cloudflare before launch.`),
   ]
-  const nextApprovedAction = !pagesD1Active || !newsD1Active
+  const manualCloudflareNextAction = !pagesD1Active || !newsD1Active
     ? 'create-d1-database'
     : requiredSecrets.some((name) => !visibleSecrets.includes(name))
     ? 'set-required-cloudflare-secrets'
     : 'deploy-cloudflare-pages-and-worker'
+  const guardedWorkflowNextAction = 'set-github-production-environment-secrets'
 
   return {
     version: 1,
@@ -161,7 +169,8 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
     },
     checks,
     productionBlockers,
-    nextApprovedAction,
+    nextApprovedAction: guardedWorkflowNextAction,
+    manualCloudflareNextAction,
     operatorSequence: [
       {
         id: 'preflight',
@@ -176,6 +185,12 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:production-contract',
           'npm run verify:production-provisioning',
         ],
+      },
+      {
+        id: 'guarded-workflow-d1-resolution',
+        sideEffect: 'creates-cloudflare-resource-when-missing',
+        command: command(contract, 'resolveProductionD1'),
+        captures: ['D1 database ID is written to the GitHub runner environment only; it is not handled as a GitHub secret.'],
       },
       {
         id: 'create-cloudflare-d1',
@@ -240,6 +255,10 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     '## Next Approved Action',
     '',
     `\`${packet.nextApprovedAction}\``,
+    '',
+    '## Manual Cloudflare Path',
+    '',
+    `\`${packet.manualCloudflareNextAction}\``,
     '',
     '## Checks',
     '',

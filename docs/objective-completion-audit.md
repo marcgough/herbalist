@@ -1,6 +1,6 @@
 # Herbalisti Objective Completion Audit
 
-Generated: 2026-06-30T19:46:14.056Z
+Generated: 2026-06-30T20:21:13.915Z
 
 ## Objective
 
@@ -11,7 +11,7 @@ Build Herbalisti as a fully functioning website for herbalisti.com with original
 - Status: `local-ready-production-pending`
 - Goal complete: `false`
 - Local implementation ready: `true`
-- Audit signature: `659f708d6ef21bf6a48b9b778823b9f1e1632adbda8ce992871afa334d2c87a5`
+- Audit signature: `4644e52fc1521cb3898466c0ba319e701de6f2a1801814f726b615a61b6f7021`
 
 ## Completion Rule
 
@@ -44,18 +44,18 @@ Completion is only proven when every requirement is either locally proven or liv
 
 - Launch preflight status: `needs-production-setup`
 - Production ready: `false`
-- Checked files/scripts/passes: `132/94/197`
+- Checked files/scripts/passes: `133/95/200`
 
 ### Current Blockers
 
-- Create the Cloudflare D1 database, then run npm run configure:cloudflare -- --d1 <database_id> --apply to activate the HERBALISTI_DB binding in wrangler.toml
-- Create the Cloudflare D1 database, then run npm run configure:cloudflare -- --d1 <database_id> --apply to activate the HERBALISTI_DB binding in wrangler.news.toml
+- Manual Pages D1 binding is not active in wrangler.toml; the guarded production workflow can resolve the D1 database by name, or run npm run configure:cloudflare -- --d1 <database_id> --apply after manual D1 creation
+- Manual News Worker D1 binding is not active in wrangler.news.toml; the guarded production workflow can resolve the D1 database by name, or run npm run configure:cloudflare -- --d1 <database_id> --apply after manual D1 creation
 
 ### Next Actions
 
-- Create the Cloudflare D1 database named herbalisti.
-- Run npm run configure:cloudflare -- --d1 <database_id> --apply with the returned database ID.
-- Set Cloudflare secrets for protected refresh and media-generation features.
+- Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.
+- Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.
+- Confirm Cloudflare runtime secrets for protected refresh and media-generation features.
 - Run npm run verify:launch again.
 
 ## Production Contract

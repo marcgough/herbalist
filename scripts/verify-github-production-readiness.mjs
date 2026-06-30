@@ -21,7 +21,6 @@ const workflowPath = '.github/workflows/production-deploy.yml'
 const requiredSecretNames = [
   'CLOUDFLARE_API_TOKEN',
   'CLOUDFLARE_ACCOUNT_ID',
-  'CLOUDFLARE_D1_DATABASE_ID',
   'FEED_ADMIN_TOKEN',
   'KIE_API_KEY',
   'MEDIA_ADMIN_TOKEN',
@@ -257,6 +256,7 @@ const result = {
       }
     : null,
   requiredSecretNames,
+  workflowDerivedValues: ['CLOUDFLARE_D1_DATABASE_ID'],
   secretScopes,
   missingSecretNames,
   checks,

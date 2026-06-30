@@ -1,6 +1,6 @@
 # Herbalisti Production Secret Setup
 
-Generated: 2026-06-30T19:43:59.909Z
+Generated: 2026-06-30T20:11:09.708Z
 
 Status: ready-for-secret-entry
 
@@ -22,10 +22,17 @@ Environment: `production`
 ```bash
 gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist
 gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
-gh secret set CLOUDFLARE_D1_DATABASE_ID --env production --repo marcgough/herbalist
 gh secret set FEED_ADMIN_TOKEN --env production --repo marcgough/herbalist
 gh secret set KIE_API_KEY --env production --repo marcgough/herbalist
 gh secret set MEDIA_ADMIN_TOKEN --env production --repo marcgough/herbalist
+```
+
+## Workflow-Derived Values
+
+- `CLOUDFLARE_D1_DATABASE_ID`: Resolved inside the guarded production workflow and written to the runner environment; it is not required as a GitHub secret.
+
+```bash
+npm run resolve:production-d1 -- --create-if-missing --github-env "$GITHUB_ENV"
 ```
 
 Verify secret-name readiness:
@@ -50,6 +57,7 @@ npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti
 
 - pass: .github/workflows/production-deploy.yml exists.
 - pass: Production deploy workflow references every required workflow secret name.
+- pass: Production deploy workflow resolves the D1 database ID during the guarded run instead of requiring it as a GitHub secret.
 - pass: Production contract records every guarded workflow secret name.
 - pass: Required Cloudflare runtime secrets have command templates without values.
 - pass: GitHub production readiness verifier is available for secret-name checks.
@@ -57,11 +65,11 @@ npx wrangler pages secret put OPENAI_API_KEY --project-name herbalisti
 
 ## Operator Sequence
 
-### create-cloudflare-d1-first
+### resolve-cloudflare-d1-during-guarded-workflow
 
 Side effect: creates-cloudflare-resource
 
-Create the Cloudflare D1 database before setting CLOUDFLARE_D1_DATABASE_ID, because the returned production database ID is one of the required GitHub production secrets.
+The guarded production workflow resolves the Cloudflare D1 database named herbalisti and creates it only if it is missing during the approved run.
 
 ### set-github-production-environment-secrets
 
@@ -70,7 +78,6 @@ Side effect: writes-github-secrets
 ```bash
 gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist
 gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
-gh secret set CLOUDFLARE_D1_DATABASE_ID --env production --repo marcgough/herbalist
 gh secret set FEED_ADMIN_TOKEN --env production --repo marcgough/herbalist
 gh secret set KIE_API_KEY --env production --repo marcgough/herbalist
 gh secret set MEDIA_ADMIN_TOKEN --env production --repo marcgough/herbalist

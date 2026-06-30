@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-06-30T19:43:59.940Z
+Generated: 2026-06-30T20:11:09.760Z
 
 Status: needs-approval-and-production-setup
 
@@ -308,7 +308,7 @@ Verification:
 
 Required for launch: false
 
-External effect: Runs the manual GitHub production workflow that can create or confirm the Pages project, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, and run live verification.
+External effect: Runs the manual GitHub production workflow that can create or confirm the Pages project, resolve or create the D1 database by name, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, and run live verification.
 
 Approval reason: Public production deployment automation with Cloudflare resource, secret, D1, Worker, and live-site effects.
 
@@ -318,9 +318,7 @@ Command:
 GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production
 ```
 
-After: create-d1-database
-
-Secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_D1_DATABASE_ID, FEED_ADMIN_TOKEN, KIE_API_KEY, MEDIA_ADMIN_TOKEN
+Secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, FEED_ADMIN_TOKEN, KIE_API_KEY, MEDIA_ADMIN_TOKEN
 
 Verification:
 - npm run verify:production-deploy-workflow
@@ -383,7 +381,7 @@ Verification:
 
 - Approval to create Cloudflare resources.
 - Authenticated Cloudflare/Wrangler session or deployment operator access.
-- Returned D1 database ID from Cloudflare.
+- Returned D1 database ID from Cloudflare only if using the manual Cloudflare path instead of the guarded GitHub production workflow.
 - Confirmation that required secrets are available to set directly in Cloudflare without exposing values in chat.
 - Approval to deploy Pages and the scheduled Worker.
 - Approval to connect herbalisti.com DNS/custom domain.

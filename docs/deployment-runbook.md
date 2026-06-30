@@ -434,6 +434,12 @@ Create the database:
 npm run wrangler -- d1 create herbalisti
 ```
 
+The guarded GitHub production workflow can resolve the D1 database named `herbalisti` during the approved workflow run, creating it only if it is missing, and write the database ID to the runner environment without storing it as a GitHub secret:
+
+```bash
+npm run resolve:production-d1 -- --create-if-missing --github-env "$GITHUB_ENV"
+```
+
 Use the local configurator to update both production Wrangler files with the returned database ID:
 
 ```bash
@@ -514,6 +520,8 @@ For CI-style deployment automation, provide these in the deployment environment 
 CLOUDFLARE_API_TOKEN
 CLOUDFLARE_ACCOUNT_ID
 ```
+
+`CLOUDFLARE_D1_DATABASE_ID` is not a GitHub production secret. The guarded workflow derives it from the Cloudflare D1 database named `herbalisti`.
 
 Optional later:
 

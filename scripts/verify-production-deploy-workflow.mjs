@@ -40,7 +40,6 @@ assert(workflow.includes('npm ci'), 'Production deploy workflow should install f
 for (const name of [
   'CLOUDFLARE_API_TOKEN',
   'CLOUDFLARE_ACCOUNT_ID',
-  'CLOUDFLARE_D1_DATABASE_ID',
   'FEED_ADMIN_TOKEN',
   'KIE_API_KEY',
   'MEDIA_ADMIN_TOKEN',
@@ -48,6 +47,9 @@ for (const name of [
   assert(workflow.includes(`secrets.${name}`), `Production deploy workflow should read ${name} from GitHub secrets`)
   assert(workflow.includes(name), `Production deploy workflow should validate ${name} presence by name only`)
 }
+assert(!workflow.includes('secrets.CLOUDFLARE_D1_DATABASE_ID'), 'Production deploy workflow should resolve the D1 database ID by name, not read it as a GitHub secret')
+assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production deploy workflow requires the D1 resolver script')
+assert(packageJson.scripts?.['resolve:production-d1'], 'package.json should expose resolve:production-d1')
 
 for (const command of [
   'npm run verify:github-release-evidence -- --commit "$GITHUB_SHA"',
@@ -59,6 +61,7 @@ for (const command of [
   'npm run verify:production-secrets',
   'npm run verify:production-provisioning',
   'npx wrangler pages project create herbalisti --production-branch main',
+  'npm run resolve:production-d1 -- --create-if-missing --github-env "$GITHUB_ENV"',
   'npm run configure:cloudflare -- --d1 "$CLOUDFLARE_D1_DATABASE_ID" --apply',
   'npx wrangler d1 migrations apply herbalisti --remote',
   'npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml',
@@ -95,11 +98,11 @@ console.log(
       requiredGitHubSecrets: [
         'CLOUDFLARE_API_TOKEN',
         'CLOUDFLARE_ACCOUNT_ID',
-        'CLOUDFLARE_D1_DATABASE_ID',
         'FEED_ADMIN_TOKEN',
         'KIE_API_KEY',
         'MEDIA_ADMIN_TOKEN',
       ],
+      workflowDerivedValues: ['CLOUDFLARE_D1_DATABASE_ID'],
       safeToRun:
         'This verifier reads local workflow, package, and contract files only. It does not call GitHub, deploy, mutate DNS, create Cloudflare resources, set secrets, or print secret values.',
     },

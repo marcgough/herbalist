@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-06-30T19:44:12.247Z
+Generated: 2026-06-30T20:11:37.700Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -19,9 +19,13 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - DNS cutover status: needs-dns-cutover
 - DNS nameserver provider: external-or-registrar
 - Production secret setup status: ready-for-secret-entry
-- GitHub production secret names: 6
+- GitHub production secret names: 5
 
 ## Next Approved Action
+
+`set-github-production-environment-secrets`
+
+## Manual Cloudflare Path
 
 `create-d1-database`
 
@@ -36,6 +40,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: Production secret setup packet is current and included in safe preflight.
 - pass: Safe preflight includes GitHub CI/manual release evidence verification.
 - pass: Cloudflare binding configurator is available.
+- pass: Guarded production workflow can resolve or create the named D1 database without a D1 ID secret.
 - pass: Production cutover simulation verifier is available.
 - pass: External action verifier is available.
 - pass: Cloudflare Pages deploy script is available.
@@ -72,6 +77,16 @@ npm run verify:launch -- --soft
 npm run verify:production-contract
 npm run verify:production-provisioning
 ```
+
+### guarded-workflow-d1-resolution
+
+Side effect: creates-cloudflare-resource-when-missing
+
+```bash
+npm run resolve:production-d1 -- --create-if-missing --github-env "$GITHUB_ENV"
+```
+
+- D1 database ID is written to the GitHub runner environment only; it is not handled as a GitHub secret.
 
 ### create-cloudflare-d1
 

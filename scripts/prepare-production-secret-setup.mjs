@@ -23,10 +23,19 @@ const secretValuePattern =
 const requiredWorkflowSecretNames = [
   'CLOUDFLARE_API_TOKEN',
   'CLOUDFLARE_ACCOUNT_ID',
-  'CLOUDFLARE_D1_DATABASE_ID',
   'FEED_ADMIN_TOKEN',
   'KIE_API_KEY',
   'MEDIA_ADMIN_TOKEN',
+]
+
+const workflowDerivedValues = [
+  {
+    name: 'CLOUDFLARE_D1_DATABASE_ID',
+    source: 'Cloudflare D1 database named herbalisti',
+    command: 'npm run resolve:production-d1 -- --create-if-missing --github-env "$GITHUB_ENV"',
+    notes:
+      'Resolved inside the guarded production workflow and written to the runner environment; it is not required as a GitHub secret.',
+  },
 ]
 
 const preferredGithubScope = {
@@ -54,10 +63,7 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
     preferredScope: preferredGithubScope,
     setCommand: workflowSecretCommand(name),
     source: workflowPath,
-    notes:
-      name === 'CLOUDFLARE_D1_DATABASE_ID'
-        ? 'Set after Cloudflare D1 creation returns the production database ID.'
-        : 'Set directly in GitHub without pasting the value into chat, docs, Git, or logs.',
+    notes: 'Set directly in GitHub without pasting the value into chat, docs, Git, or logs.',
   }))
 
   const cloudflareRuntimeSecrets = contract.secrets
@@ -81,6 +87,15 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       id: 'workflow-secret-references',
       status: requiredWorkflowSecretNames.every((name) => workflowSecretRefs.includes(name)) ? 'pass' : 'fail',
       detail: 'Production deploy workflow references every required workflow secret name.',
+    },
+    {
+      id: 'workflow-derived-d1-id',
+      status:
+        workflowDerivedValues.every((value) => workflow.includes(value.command)) &&
+        !workflowSecretRefs.includes('CLOUDFLARE_D1_DATABASE_ID')
+          ? 'pass'
+          : 'fail',
+      detail: 'Production deploy workflow resolves the D1 database ID during the guarded run instead of requiring it as a GitHub secret.',
     },
     {
       id: 'contract-secret-records',
@@ -134,6 +149,7 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       readinessCommand: 'npm run verify:github-production-readiness',
       strictReadinessCommand: 'npm run verify:github-production-readiness -- --strict',
       secrets: githubEnvironmentSecrets,
+      workflowDerivedValues,
     },
     cloudflareRuntime: {
       note:
@@ -143,10 +159,10 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
     checks,
     operatorSequence: [
       {
-        id: 'create-cloudflare-d1-first',
+        id: 'resolve-cloudflare-d1-during-guarded-workflow',
         sideEffect: 'creates-cloudflare-resource',
         detail:
-          'Create the Cloudflare D1 database before setting CLOUDFLARE_D1_DATABASE_ID, because the returned production database ID is one of the required GitHub production secrets.',
+          'The guarded production workflow resolves the Cloudflare D1 database named herbalisti and creates it only if it is missing during the approved run.',
       },
       {
         id: 'set-github-production-environment-secrets',
@@ -204,7 +220,17 @@ export const renderProductionSecretSetupMarkdown = (packet) => {
     lines.push(secret.setCommand)
   }
 
-  lines.push('```', '', 'Verify secret-name readiness:', '', '```bash')
+  lines.push('```', '', '## Workflow-Derived Values', '')
+  for (const value of packet.githubProductionEnvironment.workflowDerivedValues) {
+    lines.push(`- \`${value.name}\`: ${value.notes}`)
+    lines.push('')
+    lines.push('```bash')
+    lines.push(value.command)
+    lines.push('```')
+    lines.push('')
+  }
+
+  lines.push('Verify secret-name readiness:', '', '```bash')
   lines.push(packet.githubProductionEnvironment.readinessCommand)
   lines.push(packet.githubProductionEnvironment.strictReadinessCommand)
   lines.push('```', '', '## Cloudflare Runtime Secret Fallback', '')

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T19:46:14.056Z",
-  "auditSignature": "659f708d6ef21bf6a48b9b778823b9f1e1632adbda8ce992871afa334d2c87a5",
+  "generatedAt": "2026-06-30T20:21:13.915Z",
+  "auditSignature": "4644e52fc1521cb3898466c0ba319e701de6f2a1801814f726b615a61b6f7021",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -328,6 +328,7 @@
         "scripts/prepare-d1-production-manifest.mjs",
         "scripts/prepare-dns-cutover-plan.mjs",
         "scripts/prepare-production-secret-setup.mjs",
+        "scripts/resolve-production-d1-database.mjs",
         "scripts/simulate-production-cutover.mjs",
         "scripts/verify-production-cutover-simulation.mjs",
         "scripts/prepare-production-provisioning.mjs",
@@ -341,6 +342,7 @@
         "npm run verify:d1-manifest",
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
+        "npm run resolve:production-d1",
         "npm run verify:production-deploy-workflow",
         "npm run verify:github-production-readiness",
         "npm run verify:cloudflare-production-state",
@@ -370,6 +372,7 @@
         "scripts/prepare-d1-production-manifest.mjs",
         "scripts/prepare-dns-cutover-plan.mjs",
         "scripts/prepare-production-secret-setup.mjs",
+        "scripts/resolve-production-d1-database.mjs",
         ".github/workflows/production-deploy.yml",
         "functions/api/health.js",
         "docs/deployment-runbook.md",
@@ -382,6 +385,7 @@
         "npm run verify:d1-manifest",
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
+        "npm run resolve:production-d1",
         "npm run verify:live-readiness -- --strict",
         "npm run prepare:launch",
         "npm run prepare:external-actions"
@@ -432,6 +436,7 @@
         "scripts/prepare-d1-production-manifest.mjs",
         "scripts/prepare-dns-cutover-plan.mjs",
         "scripts/prepare-production-secret-setup.mjs",
+        "scripts/resolve-production-d1-database.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
         ".github/workflows/ci.yml",
         ".github/workflows/release-gate.yml",
@@ -491,30 +496,30 @@
       "protectedEndpointCount": 2
     },
     "news": {
-      "generatedAt": "2026-06-30T19:45:17.757Z",
+      "generatedAt": "2026-06-30T20:13:46.084Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 15,
         "DNA modification": 5,
         "Peptides": 1,
+        "Health as a service": 1,
         "Self-sovereign wellbeing": 1,
-        "Gene editing": 7,
-        "CRISPR": 6,
-        "Gene therapy": 3,
-        "Health as a service": 1
+        "Gene editing": 6,
+        "CRISPR": 5,
+        "Gene therapy": 1
       },
       "sourceCounts": {
         "Fight Aging!": 6,
         "Lifespan.io": 6,
         "arXiv": 2,
-        "bioRxiv": 3,
-        "Crossref": 7
+        "Crossref": 7,
+        "bioRxiv": 3
       },
       "latestRefreshStatus": "completed",
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T19:45:17.757Z"
+        "generatedAt": "2026-06-30T20:13:46.084Z"
       }
     },
     "media": {
@@ -531,8 +536,8 @@
     "status": "needs-production-setup",
     "productionReady": false,
     "blockers": [
-      "Create the Cloudflare D1 database, then run npm run configure:cloudflare -- --d1 <database_id> --apply to activate the HERBALISTI_DB binding in wrangler.toml",
-      "Create the Cloudflare D1 database, then run npm run configure:cloudflare -- --d1 <database_id> --apply to activate the HERBALISTI_DB binding in wrangler.news.toml"
+      "Manual Pages D1 binding is not active in wrangler.toml; the guarded production workflow can resolve the D1 database by name, or run npm run configure:cloudflare -- --d1 <database_id> --apply after manual D1 creation",
+      "Manual News Worker D1 binding is not active in wrangler.news.toml; the guarded production workflow can resolve the D1 database by name, or run npm run configure:cloudflare -- --d1 <database_id> --apply after manual D1 creation"
     ],
     "warnings": [
       "R2 binding is not active yet; this is optional until Seedance video outputs need to be copied into Herbalisti-owned storage",
@@ -544,14 +549,14 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 132,
-      "scripts": 94,
-      "passes": 197
+      "files": 133,
+      "scripts": 95,
+      "passes": 200
     },
     "nextActions": [
-      "Create the Cloudflare D1 database named herbalisti.",
-      "Run npm run configure:cloudflare -- --d1 <database_id> --apply with the returned database ID.",
-      "Set Cloudflare secrets for protected refresh and media-generation features.",
+      "Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.",
+      "Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.",
+      "Confirm Cloudflare runtime secrets for protected refresh and media-generation features.",
       "Run npm run verify:launch again."
     ]
   },
@@ -622,7 +627,7 @@
   },
   "launchPacket": {
     "status": "pending-production-setup",
-    "blockerCount": 9,
+    "blockerCount": 8,
     "nextCommand": "npm run verify:launch -- --soft"
   },
   "outputFiles": {

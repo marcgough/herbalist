@@ -53,6 +53,7 @@
     "prepare:production-secrets": "node scripts/prepare-production-secret-setup.mjs --write",
     "prepare:production-cutover": "node scripts/simulate-production-cutover.mjs --write",
     "refresh:news": "node scripts/refresh-news.mjs",
+    "resolve:production-d1": "node scripts/resolve-production-d1-database.mjs",
     "verify:api": "node scripts/verify-api.mjs",
     "verify:accessibility-smoke": "npm run build && node scripts/verify-accessibility-smoke.mjs",
     "verify:api-catalog": "node scripts/verify-api-catalog.mjs",

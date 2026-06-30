@@ -78,6 +78,8 @@ assert(productionDeploy.includes('npm run verify:production-deploy-workflow'), '
 assert(productionDeploy.includes('npm run verify:d1-manifest'), 'Production deploy workflow should verify D1 migration manifest before remote migrations')
 assert(productionDeploy.includes('npm run verify:dns-cutover'), 'Production deploy workflow should verify DNS cutover readiness')
 assert(productionDeploy.includes('npm run verify:production-secrets'), 'Production deploy workflow should verify production secret setup')
+assert(productionDeploy.includes('npm run resolve:production-d1'), 'Production deploy workflow should resolve the D1 database ID by name during the guarded run')
+assert(!productionDeploy.includes('secrets.CLOUDFLARE_D1_DATABASE_ID'), 'Production deploy workflow should not require the D1 database ID as a GitHub secret')
 assert(productionDeploy.includes('npm run deploy:cloudflare'), 'Production deploy workflow should deploy Cloudflare Pages when manually approved')
 assert(productionDeploy.includes('npm run deploy:news-worker'), 'Production deploy workflow should deploy the scheduled Worker when manually approved')
 

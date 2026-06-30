@@ -94,6 +94,11 @@ assert(
   resources['cloudflare-d1']?.verify?.includes('npm run verify:d1-manifest'),
   'Cloudflare D1 verification should include the production migration manifest',
 )
+assert(
+  resources['cloudflare-d1']?.productionWorkflowResolution ===
+    'npm run resolve:production-d1 -- --create-if-missing --github-env "$GITHUB_ENV"',
+  'Cloudflare D1 should be resolved inside the guarded production workflow by database name',
+)
 assert(resources['scheduled-news-worker']?.required === true, 'Scheduled news Worker should be required')
 assert(resources['media-r2']?.required === false, 'R2 media bucket should remain optional before approved videos exist')
 
@@ -150,6 +155,7 @@ assert(exists('scripts/prepare-production-provisioning.mjs'), 'Production contra
 assert(exists('scripts/prepare-d1-production-manifest.mjs'), 'Production contract requires the D1 production migration manifest generator')
 assert(exists('scripts/prepare-dns-cutover-plan.mjs'), 'Production contract requires the DNS cutover plan generator')
 assert(exists('scripts/prepare-production-secret-setup.mjs'), 'Production contract requires the production secret setup generator')
+assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production contract requires the production D1 resolver')
 assert(exists('scripts/verify-production-deploy-workflow.mjs'), 'Production contract requires the production deploy workflow verifier')
 assert(exists('scripts/verify-accessibility-smoke.mjs'), 'Production contract requires the accessibility smoke verifier')
 assert(exists('scripts/verify-visual-smoke.mjs'), 'Production contract requires the desktop/mobile visual smoke verifier')
@@ -309,6 +315,8 @@ assert(
 for (const name of secretNames) {
   assert(envExample.includes(`${name}=`), `.env.example should document ${name}`)
 }
+assert(envExample.includes('HERBALISTI_D1_DATABASE_ID='), '.env.example should document the local D1 binding helper')
+assert(!envExample.includes('CLOUDFLARE_D1_DATABASE_ID='), '.env.example should not present the D1 database ID as a Cloudflare secret')
 
 for (const scriptName of npmRunCommands) {
   assert(Boolean(scripts[scriptName]), `package.json should include script ${scriptName}`)
@@ -418,6 +426,7 @@ assert(runbook.includes('verify:cloudflare-production-state'), 'Deployment runbo
 assert(runbook.includes('verify:d1-manifest'), 'Deployment runbook should document D1 production migration manifest verification')
 assert(runbook.includes('verify:dns-cutover'), 'Deployment runbook should document DNS/custom-domain cutover verification')
 assert(runbook.includes('verify:production-secrets'), 'Deployment runbook should document production secret setup verification')
+assert(runbook.includes('resolve:production-d1'), 'Deployment runbook should document guarded D1 resolution')
 assert(runbook.includes('verify:production-provisioning'), 'Deployment runbook should document production provisioning readiness verification')
 assert(
   launchPacketDoc.includes('production-environment-contract.json'),
@@ -482,6 +491,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:production-secrets'),
   'Production launch packet doc should include production secret setup verification',
+)
+assert(
+  launchPacketDoc.includes('resolve:production-d1'),
+  'Production launch packet doc should include guarded D1 resolution',
 )
 assert(
   launchPacketDoc.includes('verify:production-provisioning'),

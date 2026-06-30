@@ -25,7 +25,6 @@ const hasActiveR2Binding = (toml) =>
 const secretNames = [
   'CLOUDFLARE_API_TOKEN',
   'CLOUDFLARE_ACCOUNT_ID',
-  'CLOUDFLARE_D1_DATABASE_ID',
   'FEED_ADMIN_TOKEN',
   'KIE_API_KEY',
   'MEDIA_ADMIN_TOKEN',
@@ -152,14 +151,15 @@ const phases = [
     title: 'Guarded GitHub production workflow',
     status: pagesD1Active && newsD1Active ? 'ready-after-secrets-and-evidence' : 'prepared',
     purpose:
-      'Provide a single manual GitHub Actions path that can create/confirm the Pages project, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, then run live verification.',
+      'Provide a single manual GitHub Actions path that can create/confirm the Pages project, resolve or create the D1 database by name, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, then run live verification.',
     commands: [
       command('npm run verify:production-deploy-workflow'),
       command('npm run verify:production-secrets'),
       command('npm run verify:github-production-readiness -- --strict'),
+      command('npm run resolve:production-d1 -- --create-if-missing --github-env "$GITHUB_ENV"', 'creates-cloudflare-resource-when-missing'),
       command('GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production', 'deploys-production-when-dispatched'),
     ],
-    blockers: pagesD1Active && newsD1Active ? [] : ['GitHub secret CLOUDFLARE_D1_DATABASE_ID must contain the returned production D1 database ID before dispatch.'],
+    blockers: [],
     notes: [
       'The workflow is manual-only and requires the GitHub production environment.',
       'The workflow still requires exact GitHub CI/manual release evidence for the dispatch commit.',

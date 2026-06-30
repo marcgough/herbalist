@@ -36,6 +36,7 @@
       "binding": "HERBALISTI_DB",
       "configFiles": ["wrangler.toml", "wrangler.news.toml"],
       "migrationsPath": "migrations",
+      "productionWorkflowResolution": "npm run resolve:production-d1 -- --create-if-missing --github-env \"$GITHUB_ENV\"",
       "verify": [
         "npm run verify:d1",
         "npm run verify:d1-manifest",
@@ -76,13 +77,6 @@
       "scope": "local-deploy-automation",
       "setCommand": null,
       "notes": "Required only for scripted Wrangler deployment when not using an authenticated local Wrangler session."
-    },
-    {
-      "name": "CLOUDFLARE_D1_DATABASE_ID",
-      "requiredForLaunch": false,
-      "scope": "github-production-deploy-workflow",
-      "setCommand": null,
-      "notes": "Required as a GitHub secret only when using the guarded production deployment workflow to configure the runner-local Wrangler bindings."
     },
     {
       "name": "FEED_ADMIN_TOKEN",
@@ -159,6 +153,7 @@
       "npm run configure:cloudflare -- --d1 <database_id> --r2 herbalisti-media --apply"
     ],
     "remoteMigrations": ["npx wrangler d1 migrations apply herbalisti --remote"],
+    "resolveProductionD1": ["npm run resolve:production-d1 -- --create-if-missing --github-env \"$GITHUB_ENV\""],
     "setSecrets": [
       "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
       "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",

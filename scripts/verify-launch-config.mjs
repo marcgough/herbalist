@@ -112,6 +112,7 @@ const requiredFiles = [
   'scripts/prepare-launch-packet.mjs',
   'scripts/prepare-production-provisioning.mjs',
   'scripts/prepare-production-secret-setup.mjs',
+  'scripts/resolve-production-d1-database.mjs',
   'scripts/simulate-production-cutover.mjs',
   'scripts/verify-accessibility-smoke.mjs',
   'scripts/verify-api-catalog.mjs',
@@ -181,6 +182,7 @@ for (const script of [
   'prepare:production-secrets',
   'prepare:production-cutover',
   'refresh:news',
+  'resolve:production-d1',
   'verify:api',
   'verify:api-catalog',
   'verify:accessibility-smoke',
@@ -264,12 +266,12 @@ const newsD1Binding = readD1Binding(newsToml)
 add(
   Boolean(pagesD1Binding),
   'Cloudflare Pages D1 binding is active in wrangler.toml',
-  'Create the Cloudflare D1 database, then run npm run configure:cloudflare -- --d1 <database_id> --apply to activate the HERBALISTI_DB binding in wrangler.toml',
+  'Manual Pages D1 binding is not active in wrangler.toml; the guarded production workflow can resolve the D1 database by name, or run npm run configure:cloudflare -- --d1 <database_id> --apply after manual D1 creation',
 )
 add(
   Boolean(newsD1Binding),
   'News Worker D1 binding is active in wrangler.news.toml',
-  'Create the Cloudflare D1 database, then run npm run configure:cloudflare -- --d1 <database_id> --apply to activate the HERBALISTI_DB binding in wrangler.news.toml',
+  'Manual News Worker D1 binding is not active in wrangler.news.toml; the guarded production workflow can resolve the D1 database by name, or run npm run configure:cloudflare -- --d1 <database_id> --apply after manual D1 creation',
 )
 if (pagesD1Binding && newsD1Binding) {
   add(
@@ -298,6 +300,11 @@ const localSecretNames = [
 for (const name of localSecretNames) {
   add(envExample.includes(`${name}=`), `.env.example documents ${name}`, `.env.example does not document ${name}`)
 }
+add(
+  envExample.includes('HERBALISTI_D1_DATABASE_ID='),
+  '.env.example documents HERBALISTI_D1_DATABASE_ID for manual local binding',
+  '.env.example does not document HERBALISTI_D1_DATABASE_ID',
+)
 
 const locallyVisible = Object.fromEntries(
   localSecretNames.map((name) => [name, Boolean(String(process.env[name] ?? '').trim())]),
@@ -349,9 +356,9 @@ const result = {
           'Verify herbalisti.com after DNS and custom domain activation.',
         ]
       : [
-          'Create the Cloudflare D1 database named herbalisti.',
-          'Run npm run configure:cloudflare -- --d1 <database_id> --apply with the returned database ID.',
-          'Set Cloudflare secrets for protected refresh and media-generation features.',
+          'Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.',
+          'Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.',
+          'Confirm Cloudflare runtime secrets for protected refresh and media-generation features.',
           'Run npm run verify:launch again.',
         ],
   checked: {

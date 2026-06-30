@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T19:44:12.247Z",
+  "generatedAt": "2026-06-30T20:11:37.700Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,14 +27,14 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "5dccf534f8b8f5749c32270c930a26d05ae5bcbc5ab5ba5957ac51a714c50362",
-    "externalActionsFingerprint": "09c48119582d48c9edb5a3b1b8727e5774c5a0c730cc733f247277802959588a",
+    "contractFingerprint": "1edaee553d8be3d5355a478f335d2f3390b711ab5722132b3036cbb139753b71",
+    "externalActionsFingerprint": "a3c846b1e726ffc1882d87f06678c91a73ab0d3be34733af87781beb1e50277c",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
     "dnsNameserverProvider": "external-or-registrar",
     "productionSecretSetupStatus": "ready-for-secret-entry",
-    "githubProductionSecretCount": 6
+    "githubProductionSecretCount": 5
   },
   "checks": [
     {
@@ -81,6 +81,11 @@
       "id": "cloudflare-configurator",
       "status": "pass",
       "detail": "Cloudflare binding configurator is available."
+    },
+    {
+      "id": "production-d1-resolver",
+      "status": "pass",
+      "detail": "Guarded production workflow can resolve or create the named D1 database without a D1 ID secret."
     },
     {
       "id": "production-cutover-simulation",
@@ -145,7 +150,8 @@
     "KIE_API_KEY is not locally visible; confirm it is set directly in Cloudflare before launch.",
     "MEDIA_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch."
   ],
-  "nextApprovedAction": "create-d1-database",
+  "nextApprovedAction": "set-github-production-environment-secrets",
+  "manualCloudflareNextAction": "create-d1-database",
   "operatorSequence": [
     {
       "id": "preflight",
@@ -159,6 +165,14 @@
         "npm run verify:launch -- --soft",
         "npm run verify:production-contract",
         "npm run verify:production-provisioning"
+      ]
+    },
+    {
+      "id": "guarded-workflow-d1-resolution",
+      "sideEffect": "creates-cloudflare-resource-when-missing",
+      "command": "npm run resolve:production-d1 -- --create-if-missing --github-env \"$GITHUB_ENV\"",
+      "captures": [
+        "D1 database ID is written to the GitHub runner environment only; it is not handled as a GitHub secret."
       ]
     },
     {
