@@ -107,6 +107,7 @@ const checks = []
 let workflows = []
 let environments = []
 let productionEnvironment = null
+let productionBranchPolicies = []
 let repositorySecretNames = new Set()
 let environmentSecretNames = new Set()
 let apiError = ''
@@ -139,6 +140,11 @@ if (!token) {
         allow404: true,
       })
       environmentSecretNames = secretNamesFrom(environmentSecretPayload)
+      const branchPolicyPayload = await fetchJson(
+        `/environments/${encodeURIComponent(environmentName)}/deployment-branch-policies`,
+        { allow404: true },
+      )
+      productionBranchPolicies = branchPolicyPayload?.branch_policies ?? []
     }
   } catch (error) {
     apiError = String(error.message ?? error)
@@ -168,6 +174,7 @@ checks.push(
 )
 
 const protectionRules = productionEnvironment?.protection_rules ?? []
+const mainBranchPolicyPresent = productionBranchPolicies.some((policy) => policy.name === 'main')
 checks.push(
   check(
     'production-environment-protection',
@@ -175,6 +182,15 @@ checks.push(
     protectionRules.length > 0
       ? `Production environment has ${protectionRules.length} protection rule(s).`
       : 'Production environment has no visible protection rules; add reviewer protection before final dispatch if available on this repository plan.',
+  ),
+)
+checks.push(
+  check(
+    'production-branch-policy',
+    productionEnvironment && mainBranchPolicyPresent ? 'pass' : 'fail',
+    productionEnvironment && mainBranchPolicyPresent
+      ? 'Production environment is restricted to the main branch.'
+      : 'Production environment is missing a main branch deployment policy.',
   ),
 )
 
@@ -233,6 +249,11 @@ const result = {
         name: productionEnvironment.name,
         htmlUrl: productionEnvironment.html_url,
         protectionRuleCount: protectionRules.length,
+        deploymentBranchPolicy: productionEnvironment.deployment_branch_policy ?? null,
+        branchPolicies: productionBranchPolicies.map((policy) => ({
+          name: policy.name,
+          type: policy.type,
+        })),
       }
     : null,
   requiredSecretNames,
@@ -244,8 +265,15 @@ const result = {
     status === 'ready-for-guarded-production-dispatch'
       ? ['Dispatch Herbalisti Production Deploy only after Cloudflare DNS/domain approval is ready.']
       : [
-          'Create or configure the GitHub production environment for marcgough/herbalist.',
-          'Add the required GitHub secret names without exposing values in chat, docs, or logs.',
+          ...(!productionEnvironment
+            ? ['Create or configure the GitHub production environment for marcgough/herbalist.']
+            : []),
+          ...(productionEnvironment && !mainBranchPolicyPresent
+            ? ['Restrict the GitHub production environment to the main branch.']
+            : []),
+          ...(missingSecretNames.length
+            ? ['Add the required GitHub secret names without exposing values in chat, docs, or logs.']
+            : []),
           'Run npm run verify:github-production-readiness again.',
         ],
   safeToRun:
