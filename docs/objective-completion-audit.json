@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T06:22:46.791Z",
-  "auditSignature": "2be9cfd3a9a789aa980aa065032fd13141a247673d1ca686ec0123fb2af9d824",
+  "generatedAt": "2026-07-01T07:24:25.008Z",
+  "auditSignature": "b2cb9b6093d907843a289f1e8cd4387bb73de5a2ea588a7ba334323162872616",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -548,7 +548,7 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T06:21:46.064Z",
+      "generatedAt": "2026-07-01T07:23:09.917Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 13,
@@ -556,9 +556,9 @@
         "Health as a service": 2,
         "Peptides": 1,
         "Self-sovereign wellbeing": 1,
-        "CRISPR": 7,
+        "CRISPR": 6,
         "Gene editing": 6,
-        "Gene therapy": 1
+        "Gene therapy": 2
       },
       "sourceCounts": {
         "Fight Aging!": 6,
@@ -571,7 +571,7 @@
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-07-01T06:21:46.064Z"
+        "generatedAt": "2026-07-01T07:23:09.917Z"
       }
     },
     "media": {
@@ -601,9 +601,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 145,
-      "scripts": 109,
-      "passes": 220
+      "files": 148,
+      "scripts": 111,
+      "passes": 225
     },
     "nextActions": [
       "Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.",
@@ -646,6 +646,7 @@
       "npm run verify:production-state",
       "npm run prepare:production-provisioning",
       "npm run verify:production-provisioning",
+      "npm run verify:production-operator-brief",
       "npm run verify:static-news-refresh",
       "npm run verify:signal-coverage",
       "npm run verify:signal-intelligence",

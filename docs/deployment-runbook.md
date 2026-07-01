@@ -13,7 +13,7 @@ npm install
 npm run verify:release
 ```
 
-`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the guarded production deploy dry run, the mocked production D1 resolver behavior, the protected production feed seed command, production state snapshot structure, Cloudflare token requirements, protected admin token authentication, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
+`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the guarded production deploy dry run, the mocked production D1 resolver behavior, the protected production feed seed command, production state snapshot structure, Cloudflare token requirements, protected admin token authentication, the production operator brief, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
 
 Individual gates:
 
@@ -40,6 +40,8 @@ npm run prepare:production-state
 npm run verify:production-state
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
+npm run prepare:production-operator-brief
+npm run verify:production-operator-brief
 npm run prepare:launch
 npm run prepare:completion-audit
 npm run verify:completion-audit
@@ -295,6 +297,15 @@ npm run verify:production-provisioning
 ```
 
 It records the current Wrangler binding state, hidden required secret names, next approved external action, and exact operator sequence before Cloudflare resource creation, migrations, secrets, deployment, domain connection, or live verification.
+
+Production operator brief generation is local and value-free:
+
+```bash
+npm run prepare:production-operator-brief
+npm run verify:production-operator-brief
+```
+
+It writes `docs/production-operator-brief.json` and `docs/production-operator-brief.md`, consolidating the production state snapshot, GitHub dispatch packet, secret setup packet, Cloudflare token requirements, DNS cutover plan, provisioning packet, and external-action checklist into one no-secret operator sequence. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.
 
 Public data export verification is local and read-only after generation:
 

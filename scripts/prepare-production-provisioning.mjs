@@ -127,6 +127,16 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       'Production state snapshot is available and included in safe preflight.',
     ),
     buildCheck(
+      'production-operator-brief',
+      Boolean(scripts['prepare:production-operator-brief']) &&
+        Boolean(scripts['verify:production-operator-brief']) &&
+        exists('scripts/prepare-production-operator-brief.mjs') &&
+        exists('docs/production-operator-brief.json') &&
+        exists('docs/production-operator-brief.md') &&
+        contract.commands.safePreflight.includes('npm run verify:production-operator-brief'),
+      'Consolidated production operator brief is available and included in safe preflight.',
+    ),
+    buildCheck(
       'cloudflare-token-requirements',
       Boolean(scripts['verify:cloudflare-token-requirements']) &&
         contract.commands.safePreflight.includes('npm run verify:cloudflare-token-requirements') &&
@@ -277,6 +287,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:launch -- --soft',
           'npm run verify:production-contract',
           'npm run verify:production-provisioning',
+          'npm run verify:production-operator-brief',
         ],
       },
       {

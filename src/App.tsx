@@ -1842,6 +1842,9 @@ function App() {
     }
     setHomeChatMessages((messages) => [...messages, userMessage])
     setHomeChatLoading(true)
+    setHomeSearchGroups([])
+    setHomeSearchLastQuery(query)
+    setHomeSearchStatus(`Searching indexed records for "${query}"`)
 
     const loadHomeSearchGroups = async () => {
       try {
@@ -1896,7 +1899,18 @@ function App() {
       }
     }
 
-    Promise.all([loadHomeSearchGroups(), loadHomeHerbalResponse()])
+    const homeSearchPromise = loadHomeSearchGroups().then((searchPayload) => {
+      setHomeSearchGroups(searchPayload.groups)
+      setHomeSearchStatus(
+        searchPayload.total > 0
+          ? `${searchPayload.total} indexed results from ${searchPayload.source}`
+          : `No indexed results yet from ${searchPayload.source}`,
+      )
+      setHomeSearchLastQuery(query)
+      return searchPayload
+    })
+
+    Promise.all([homeSearchPromise, loadHomeHerbalResponse()])
       .then(([searchPayload, herbalPayload]) => {
         const visibleGroups = nonEmptySearchGroups(searchPayload.groups)
         const hasHerbalMatch = herbalPayload.matches.length > 0
@@ -1908,13 +1922,6 @@ function App() {
             )}. Review the preview below or open the research console for the full result set.`
           : herbalPayload.answer
 
-        setHomeSearchGroups(searchPayload.groups)
-        setHomeSearchStatus(
-          searchPayload.total > 0
-            ? `${searchPayload.total} indexed results from ${searchPayload.source}`
-            : `No indexed results yet from ${searchPayload.source}`,
-        )
-        setHomeSearchLastQuery(query)
         setHomeChatResponse({
           ...herbalPayload,
           answer: assistantText,
@@ -2730,7 +2737,7 @@ function App() {
                 </div>
 
                 <ChatCitations response={homeChatResponse} />
-                {homePreviewGroups.length ? (
+                {homeSearchLastQuery || homePreviewGroups.length ? (
                   <section className="home-search-preview" aria-label="Search preview results">
                     <div className="home-search-preview-header">
                       <div>
@@ -2748,21 +2755,29 @@ function App() {
                         <span>Open research console</span>
                       </a>
                     </div>
-                    <div className="home-search-preview-grid">
-                      {homePreviewGroups.map((group) => (
-                        <section className="home-search-group" key={group.id} aria-label={`${group.label} preview`}>
-                          <div className="search-group-heading">
-                            <h3>{group.label}</h3>
-                            <span>{group.total}</span>
-                          </div>
-                          <div className="search-group-results">
-                            {group.items.slice(0, 2).map((item) => (
-                              <SearchResultCard key={item.id} item={item} />
-                            ))}
-                          </div>
-                        </section>
-                      ))}
-                    </div>
+                    {homePreviewGroups.length ? (
+                      <div className="home-search-preview-grid">
+                        {homePreviewGroups.map((group) => (
+                          <section className="home-search-group" key={group.id} aria-label={`${group.label} preview`}>
+                            <div className="search-group-heading">
+                              <h3>{group.label}</h3>
+                              <span>{group.total}</span>
+                            </div>
+                            <div className="search-group-results">
+                              {group.items.slice(0, 2).map((item) => (
+                                <SearchResultCard key={item.id} item={item} />
+                              ))}
+                            </div>
+                          </section>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="home-search-preview-empty">
+                        {homeChatLoading
+                          ? 'Checking the index and public-source signals...'
+                          : 'No preview records matched yet. Open the research console to widen the search.'}
+                      </p>
+                    )}
                   </section>
                 ) : null}
                 <div className="home-chat-meta">

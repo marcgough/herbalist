@@ -9,7 +9,7 @@ npm install
 npm run verify:release
 ```
 
-The release verifier refreshes the public feed seed and heartbeat, exports public data snapshots, lints, builds, verifies brand assets, checks the high-tech motion system, checks feed normalization, signal intelligence, Signals RSS, source health, and public data exports, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, verifies the protected Seedance media endpoints without real provider calls, checks the Cloudflare binding configurator, applies local D1 migrations, verifies the scheduled news Worker and refresh ledger, starts local Cloudflare Pages, smokes the public API, and runs the production-shape verifier against the temporary local URL.
+The release verifier refreshes the public feed seed and heartbeat, exports public data snapshots, lints, builds, verifies brand assets, checks the high-tech motion system, checks feed normalization, signal intelligence, Signals RSS, source health, and public data exports, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, verifies the protected Seedance media endpoints without real provider calls, checks the Cloudflare binding configurator, verifies the production operator brief, applies local D1 migrations, verifies the scheduled news Worker and refresh ledger, starts local Cloudflare Pages, smokes the public API, and runs the production-shape verifier against the temporary local URL.
 
 Individual checks:
 
@@ -24,6 +24,8 @@ npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
+npm run prepare:production-operator-brief
+npm run verify:production-operator-brief
 npm run prepare:launch
 npm run verify:attribution
 npm run verify:brand
@@ -72,6 +74,7 @@ npm run verify:production-deploy-workflow
 npm run verify:github-production-readiness
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
+npm run verify:production-operator-brief
 ```
 
 It does not deploy, upload, call paid APIs, or expose secret values. It checks whether required files, package scripts, Cloudflare D1 bindings, and locally visible deployment variables are in place. Use `npm run verify:launch -- --soft` when you want the JSON report without a failing exit code.
@@ -97,6 +100,13 @@ npm run prepare:launch
 npm run prepare:launch -- --markdown
 ```
 
+Generate the consolidated, no-secret production operator brief:
+
+```bash
+npm run prepare:production-operator-brief
+npm run verify:production-operator-brief
+```
+
 Useful scripts:
 
 ```bash
@@ -111,11 +121,12 @@ Required later:
 
 - `CLOUDFLARE_API_TOKEN` for deployment automation.
 - `CLOUDFLARE_ACCOUNT_ID` for deployment automation.
-- `CLOUDFLARE_D1_DATABASE_ID` for the guarded GitHub production workflow after D1 creation.
 - `FEED_ADMIN_TOKEN` for protected manual news refresh.
 - `KIE_API_KEY` for Seedance 2.0 generated video backgrounds.
 - `MEDIA_ADMIN_TOKEN` for protected Seedance job endpoints.
 - `OPENAI_API_KEY` only if repeatable server-side image generation is added.
+
+`CLOUDFLARE_D1_DATABASE_ID` is not required as a GitHub secret; the guarded production workflow resolves the D1 database named `herbalisti` during the approved run.
 
 Do not commit secrets.
 
@@ -134,6 +145,7 @@ Also see:
 - `docs/deployment-runbook.md`
 - `docs/goal-readiness.md`
 - `docs/production-launch-packet.md`
+- `docs/production-operator-brief.md`
 - `docs/attribution.md`
 - `docs/brand-system.md`
 - `docs/media-generation.md`

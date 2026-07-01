@@ -134,6 +134,7 @@
       "npm run verify:production-state",
       "npm run prepare:production-provisioning",
       "npm run verify:production-provisioning",
+      "npm run verify:production-operator-brief",
       "npm run verify:static-news-refresh",
       "npm run verify:signal-coverage",
       "npm run verify:signal-intelligence",

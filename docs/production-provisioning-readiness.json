@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T05:16:59.745Z",
+  "generatedAt": "2026-07-01T06:56:30.868Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -23,7 +23,7 @@
     "hiddenRequiredSecretNames": [
       "FEED_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "94974b14e1e6b9d82596d664a874b3bda8d5187ee94c2e462e7ab65f110784e0",
+    "contractFingerprint": "338e8e80fa1e0a13ab4639b4b8176182b3aa7426b1da9fac3a12e0f427fdd342",
     "externalActionsFingerprint": "46b2afbf39cbfe4c7b9cc0a34f0c2d03d14a7fe2a544ee5c5ab95c600e4502fe",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
@@ -83,6 +83,11 @@
       "id": "production-state-snapshot",
       "status": "pass",
       "detail": "Production state snapshot is available and included in safe preflight."
+    },
+    {
+      "id": "production-operator-brief",
+      "status": "pass",
+      "detail": "Consolidated production operator brief is available and included in safe preflight."
     },
     {
       "id": "cloudflare-token-requirements",
@@ -207,7 +212,8 @@
         "npm run verify:production-feed-seed",
         "npm run verify:launch -- --soft",
         "npm run verify:production-contract",
-        "npm run verify:production-provisioning"
+        "npm run verify:production-provisioning",
+        "npm run verify:production-operator-brief"
       ]
     },
     {

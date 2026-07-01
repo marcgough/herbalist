@@ -168,6 +168,7 @@ assert(exists('scripts/prepare-external-actions.mjs'), 'Production contract requ
 assert(exists('scripts/verify-external-actions.mjs'), 'Production contract requires the external action verifier')
 assert(exists('scripts/prepare-completion-audit.mjs'), 'Production contract requires the objective completion audit generator')
 assert(exists('scripts/prepare-production-provisioning.mjs'), 'Production contract requires the production provisioning readiness generator')
+assert(exists('scripts/prepare-production-operator-brief.mjs'), 'Production contract requires the production operator brief generator')
 assert(exists('scripts/prepare-production-state-snapshot.mjs'), 'Production contract requires the production state snapshot generator')
 assert(exists('scripts/prepare-d1-production-manifest.mjs'), 'Production contract requires the D1 production migration manifest generator')
 assert(exists('scripts/prepare-dns-cutover-plan.mjs'), 'Production contract requires the DNS cutover plan generator')
@@ -196,6 +197,8 @@ assert(exists('docs/external-launch-actions.json'), 'Production contract require
 assert(exists('docs/external-launch-actions.md'), 'Production contract requires the external action Markdown handoff')
 assert(exists('docs/production-provisioning-readiness.json'), 'Production contract requires the production provisioning readiness JSON')
 assert(exists('docs/production-provisioning-readiness.md'), 'Production contract requires the production provisioning readiness Markdown')
+assert(exists('docs/production-operator-brief.json'), 'Production contract requires the production operator brief JSON')
+assert(exists('docs/production-operator-brief.md'), 'Production contract requires the production operator brief Markdown')
 assert(exists('docs/production-state-snapshot.json'), 'Production contract requires the production state snapshot JSON')
 assert(exists('docs/production-state-snapshot.md'), 'Production contract requires the production state snapshot Markdown')
 assert(exists('docs/github-production-dispatch.json'), 'Production contract requires the GitHub production dispatch JSON')
@@ -373,6 +376,10 @@ assert(
   contract.commands.safePreflight.includes('npm run verify:production-provisioning'),
   'Safe preflight should include production provisioning readiness verification',
 )
+assert(
+  contract.commands.safePreflight.includes('npm run verify:production-operator-brief'),
+  'Safe preflight should include production operator brief verification',
+)
 
 for (const name of secretNames) {
   assert(envExample.includes(`${name}=`), `.env.example should document ${name}`)
@@ -516,6 +523,10 @@ assert(
   launchPacketScript.includes('npm run verify:production-provisioning'),
   'Launch packet generator should include production provisioning readiness verification',
 )
+assert(
+  launchPacketScript.includes('npm run verify:production-operator-brief'),
+  'Launch packet generator should include production operator brief verification',
+)
 
 for (const [key, enabled] of Object.entries(contract.guardrails)) {
   if (typeof enabled === 'boolean') {
@@ -574,6 +585,7 @@ assert(
 assert(runbook.includes('verify:production-state'), 'Deployment runbook should document production state snapshot verification')
 assert(runbook.includes('resolve:production-d1'), 'Deployment runbook should document guarded D1 resolution')
 assert(runbook.includes('verify:production-provisioning'), 'Deployment runbook should document production provisioning readiness verification')
+assert(runbook.includes('verify:production-operator-brief'), 'Deployment runbook should document production operator brief verification')
 assert(
   launchPacketDoc.includes('production-environment-contract.json'),
   'Production launch packet doc should reference the production environment contract',
@@ -685,6 +697,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:production-provisioning'),
   'Production launch packet doc should include production provisioning readiness verification',
+)
+assert(
+  launchPacketDoc.includes('verify:production-operator-brief'),
+  'Production launch packet doc should include production operator brief verification',
 )
 assert(
   externalActionsDoc.includes('Do not paste secret values into chat'),

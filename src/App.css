@@ -547,6 +547,17 @@ main:focus-visible {
   gap: 10px;
 }
 
+.home-search-preview-empty {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid rgba(102, 123, 130, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.44);
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
 .home-search-group {
   display: grid;
   gap: 10px;

@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-01T07:22:42.531Z",
+  "status": "needs-github-production-secret-entry",
+  "productionComplete": false,
+  "safeToRun": "Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.",
+  "project": {
+    "domain": "herbalisti.com",
+    "pagesProject": "herbalisti",
+    "newsWorker": "herbalisti-news-refresh",
+    "d1Database": "herbalisti",
+    "optionalR2Bucket": "herbalisti-media"
+  },
+  "currentState": {
+    "localImplementationReady": true,
+    "goalComplete": false,
+    "productionStateStatus": "local-ready-production-pending",
+    "releaseEvidenceStatus": "pass",
+    "releaseEvidencePolicy": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.",
+    "githubProductionReadinessStatus": "needs-github-production-setup",
+    "missingGitHubSecretNames": [
+      "CLOUDFLARE_API_TOKEN",
+      "CLOUDFLARE_ACCOUNT_ID"
+    ],
+    "cloudflareProductionStateStatus": "needs-cloudflare-auth",
+    "wranglerAuthenticated": false,
+    "dnsCutoverStatus": "needs-dns-cutover",
+    "dnsNameserverProvider": "external-or-registrar",
+    "liveReadinessStatus": "not-ready",
+    "productionProvisioningStatus": "ready-for-approved-production-provisioning",
+    "productionBlockerCount": 13
+  },
+  "secretBoundary": {
+    "requiredGitHubSecretNames": [
+      "CLOUDFLARE_API_TOKEN",
+      "CLOUDFLARE_ACCOUNT_ID"
+    ],
+    "optionalGitHubSecretNames": [
+      "KIE_API_KEY"
+    ],
+    "generatedRuntimeSecretNames": [
+      "FEED_ADMIN_TOKEN",
+      "MEDIA_ADMIN_TOKEN"
+    ],
+    "notRequiredAsGitHubSecretNames": [
+      "FEED_ADMIN_TOKEN",
+      "MEDIA_ADMIN_TOKEN",
+      "CLOUDFLARE_D1_DATABASE_ID"
+    ],
+    "valueHandling": "Enter externally issued secret values directly into GitHub or Cloudflare. Do not paste values into chat, docs, Git, screenshots, or logs."
+  },
+  "operatorSequence": [
+    {
+      "id": "safe-local-preflight",
+      "sideEffect": "none",
+      "commands": [
+        "npm run verify:launch -- --soft",
+        "npm run verify:github-actions",
+        "npm run verify:github-production-readiness",
+        "npm run verify:github-release-evidence",
+        "npm run verify:production-state-current",
+        "npm run verify:cloudflare-production-state",
+        "npm run verify:cloudflare-token-requirements",
+        "npm run verify:d1-manifest",
+        "npm run verify:dns-cutover",
+        "npm run verify:production-secrets",
+        "npm run verify:github-generated-secrets",
+        "npm run verify:github-production-dispatch",
+        "npm run verify:production-deploy-workflow",
+        "npm run verify:production-deploy-dry-run",
+        "npm run verify:production-d1-resolver",
+        "npm run verify:production-feed-seed",
+        "npm run verify:production-provisioning",
+        "npm run verify:production-operator-brief"
+      ],
+      "evidence": "Confirms the current local build, launch contracts, source governance, GitHub release evidence, Cloudflare readiness probes, and no-secret packets before production action."
+    },
+    {
+      "id": "set-required-github-production-environment-secrets",
+      "sideEffect": "writes-github-secrets",
+      "commands": [
+        "gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist",
+        "gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist"
+      ],
+      "requires": [
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID"
+      ],
+      "evidence": "After entry, run npm run verify:github-production-readiness -- --strict."
+    },
+    {
+      "id": "dispatch-guarded-production-workflow",
+      "sideEffect": "public-production-deploy",
+      "commands": [
+        "gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=false",
+        "gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=true -f skip_live_verification_confirm=skip-herbalisti-live-verification"
+      ],
+      "evidence": "Use final completion mode only when live verification is expected to pass. DNS transition mode cannot prove completion."
+    },
+    {
+      "id": "connect-domain-and-dns",
+      "sideEffect": "mutates-public-dns-or-custom-domain",
+      "commands": [
+        "npm run verify:dns-cutover"
+      ],
+      "evidence": "Connect herbalisti.com to the Herbalisti Cloudflare Pages project and re-run DNS/live readiness checks after propagation."
+    },
+    {
+      "id": "seed-live-feed-and-prove-completion",
+      "sideEffect": "writes-production-d1-and-verifies-live-site",
+      "commands": [
+        "npm run verify:production-feed-seed",
+        "npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed",
+        "npm run verify:live-readiness -- --strict",
+        "npm run verify:production -- https://herbalisti.com",
+        "npm run verify:goal-readiness -- --strict"
+      ],
+      "evidence": "A fresh protected feed refresh and strict live verification are required before the overall Herbalisti goal can be complete."
+    }
+  ],
+  "hardGates": [
+    {
+      "id": "secret-entry",
+      "description": "Entering or generating production secret values.",
+      "immediateNextWhen": true
+    },
+    {
+      "id": "production-deployment",
+      "description": "Dispatching the guarded GitHub production workflow or manually deploying Cloudflare Pages/Worker.",
+      "immediateNextWhen": false
+    },
+    {
+      "id": "dns-custom-domain",
+      "description": "Changing herbalisti.com nameservers, DNS records, or Cloudflare Pages custom-domain configuration.",
+      "immediateNextWhen": false
+    },
+    {
+      "id": "paid-media-generation",
+      "description": "Calling Kie.ai Seedance or any paid generation provider.",
+      "immediateNextWhen": false
+    }
+  ],
+  "productionBlockers": [
+    "Completion audit pending: independent-newsfeed: pending-production.",
+    "Completion audit pending: cloudflare-hosting: pending-production.",
+    "GitHub production secret name missing: CLOUDFLARE_API_TOKEN.",
+    "GitHub production secret name missing: CLOUDFLARE_ACCOUNT_ID.",
+    "Cloudflare production state is needs-cloudflare-auth.",
+    "DNS/custom-domain state is needs-dns-cutover.",
+    "Live domain readiness is not-ready.",
+    "Provisioning blocker: Pages D1 binding is not active.",
+    "Provisioning blocker: Scheduled Worker D1 binding is not active.",
+    "Provisioning blocker: FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch.",
+    "Pages D1 binding is not active.",
+    "Scheduled Worker D1 binding is not active.",
+    "FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch."
+  ],
+  "finalCompletionGates": [
+    "npm run verify:live-readiness -- --strict",
+    "npm run verify:production -- https://herbalisti.com",
+    "npm run verify:goal-readiness -- --strict"
+  ],
+  "sourcePackets": [
+    {
+      "path": "docs/production-environment-contract.json",
+      "version": 1,
+      "generatedAt": null,
+      "status": "contract",
+      "productionComplete": false
+    },
+    {
+      "path": "docs/production-state-snapshot.json",
+      "version": 1,
+      "generatedAt": "2026-07-01T05:38:27.093Z",
+      "status": "local-ready-production-pending",
+      "productionComplete": false
+    },
+    {
+      "path": "docs/github-production-dispatch.json",
+      "version": 1,
+      "generatedAt": "2026-07-01T05:16:59.658Z",
+      "status": "needs-github-production-secret-names",
+      "productionComplete": false
+    },
+    {
+      "path": "docs/production-secret-setup.json",
+      "version": 1,
+      "generatedAt": "2026-07-01T05:17:00.055Z",
+      "status": "ready-for-secret-entry",
+      "productionComplete": false
+    },
+    {
+      "path": "docs/cloudflare-token-requirements.json",
+      "version": 1,
+      "generatedAt": "2026-06-30T21:41:39.197Z",
+      "status": "ready-for-token-entry",
+      "productionComplete": false
+    },
+    {
+      "path": "docs/dns-cutover-plan.json",
+      "version": 1,
+      "generatedAt": "2026-06-30T19:16:12.162Z",
+      "status": "needs-dns-cutover",
+      "productionComplete": false
+    },
+    {
+      "path": "docs/production-provisioning-readiness.json",
+      "version": 1,
+      "generatedAt": "2026-07-01T06:56:30.868Z",
+      "status": "ready-for-approved-production-provisioning",
+      "productionComplete": false
+    },
+    {
+      "path": "docs/external-launch-actions.json",
+      "version": 1,
+      "generatedAt": "2026-07-01T04:47:02.655Z",
+      "status": "needs-approval-and-production-setup",
+      "productionComplete": false
+    }
+  ],
+  "checks": [
+    {
+      "id": "project-domain",
+      "status": "pass",
+      "detail": "Production contract targets herbalisti.com."
+    },
+    {
+      "id": "github-secret-boundary",
+      "status": "pass",
+      "detail": "Only Cloudflare deployment credentials are required as GitHub production environment secrets."
+    },
+    {
+      "id": "generated-runtime-tokens",
+      "status": "pass",
+      "detail": "Protected feed and media admin tokens are generated runtime names, not required external GitHub credentials."
+    },
+    {
+      "id": "cloudflare-token-packet",
+      "status": "pass",
+      "detail": "Cloudflare API token permissions are documented without token values."
+    },
+    {
+      "id": "dispatch-packet",
+      "status": "pass",
+      "detail": "GitHub dispatch packet preserves strict final verification and DNS-transition acknowledgement."
+    },
+    {
+      "id": "live-completion-gates",
+      "status": "pass",
+      "detail": "Final completion gates are strict live-domain checks."
+    },
+    {
+      "id": "package-scripts",
+      "status": "pass",
+      "detail": "Package exposes generated operator brief commands."
+    },
+    {
+      "id": "operator-brief-in-release",
+      "status": "pass",
+      "detail": "Full release verification includes the operator brief."
+    },
+    {
+      "id": "source-packets",
+      "status": "pass",
+      "detail": "All source packets used by the operator brief exist."
+    }
+  ],
+  "nextAction": "Set the required GitHub production environment secret names directly in GitHub, then run npm run verify:github-production-readiness -- --strict."
+}

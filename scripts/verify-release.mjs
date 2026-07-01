@@ -192,6 +192,7 @@ for (const [label, command] of [
   ['production feed seed command', npm('run', 'verify:production-feed-seed')],
   ['GitHub production dispatch packet', npm('run', 'verify:github-production-dispatch')],
   ['production provisioning readiness', npm('run', 'verify:production-provisioning')],
+  ['production operator brief', npm('run', 'verify:production-operator-brief')],
   ['production environment contract', npm('run', 'verify:production-contract')],
   ['D1 production migration manifest', npm('run', 'verify:d1-manifest')],
   ['local D1 migrations', npm('run', 'verify:d1')],

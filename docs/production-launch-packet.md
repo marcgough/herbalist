@@ -52,6 +52,7 @@ The packet covers:
 - consolidated production state snapshot verification
 - Cloudflare API token permission requirement verification
 - production provisioning readiness and exact operator sequence
+- production operator brief verification for the consolidated no-secret launch handoff
 - objective completion audit generation and signature verification
 - public `/api/health` launch contract verification
 - independent-source governance and source-review metadata verification
@@ -125,6 +126,8 @@ npm run verify:github-generated-secrets
 npm run resolve:production-d1
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
+npm run prepare:production-operator-brief
+npm run verify:production-operator-brief
 npm run verify:source-governance
 npm run verify:knowledge-graph
 npm run verify:citation-notes
