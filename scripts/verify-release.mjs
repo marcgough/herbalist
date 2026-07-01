@@ -142,6 +142,9 @@ const node = (...args) => commandString(['node', ...args])
 const corpusRightsCheck = publicCorpusOnly
   ? ['corpus rights audit (public export mode)', npm('run', 'verify:corpus-rights', '--', '--public-only')]
   : ['corpus rights audit', npm('run', 'verify:corpus-rights')]
+const corpusMemoryCheck = publicCorpusOnly
+  ? null
+  : ['Corpus Memory local retrieval service', npm('run', 'verify:corpus-memory')]
 
 const checks = []
 
@@ -172,6 +175,7 @@ for (const [label, command] of [
   ['Signals RSS', npm('run', 'verify:signals-rss')],
   ['source health', npm('run', 'verify:source-health')],
   corpusRightsCheck,
+  ...(corpusMemoryCheck ? [corpusMemoryCheck] : []),
   ['public data exports', npm('run', 'verify:data-exports')],
   ['discovery metadata', npm('run', 'verify:discovery-metadata')],
   ['API catalog', npm('run', 'verify:api-catalog')],

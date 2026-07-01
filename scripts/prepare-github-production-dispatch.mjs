@@ -82,6 +82,7 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
     'npm run verify:dns-cutover',
     'npm run verify:production-provisioning',
     'npm run verify:github-generated-secrets',
+    'npm run verify:corpus-memory',
     'npm run verify:github-production-dispatch',
     'npm run verify:production-dispatch-preflight -- --strict',
     'npm run verify:launch -- --soft',

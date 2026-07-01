@@ -142,6 +142,7 @@ npm run verify:signal-intelligence
 npm run verify:signals-rss
 npm run verify:source-health
 npm run verify:corpus-rights
+npm run verify:corpus-memory
 npm run verify:data-exports
 npm run verify:discovery-metadata
 npm run verify:api-catalog

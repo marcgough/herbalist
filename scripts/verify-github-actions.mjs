@@ -48,6 +48,7 @@ assert(scripts['prepare:production-deploy-evidence'], 'package.json should expos
 assert(scripts['verify:production-deploy-evidence'], 'package.json should expose verify:production-deploy-evidence')
 assert(scripts['verify:production-deploy-evidence-artifact'], 'package.json should expose verify:production-deploy-evidence-artifact')
 assert(scripts['verify:cloudflare-token-requirements'], 'package.json should expose verify:cloudflare-token-requirements')
+assert(scripts['verify:corpus-memory'], 'package.json should expose verify:corpus-memory')
 assert(packageJson.devDependencies?.wrangler, 'Wrangler should be a devDependency for reproducible release verification')
 
 for (const workflow of [ci, release]) {
@@ -75,6 +76,7 @@ assert(ci.includes('npm run verify:github-production-dispatch'), 'CI workflow sh
 assert(ci.includes('npm run verify:production-state'), 'CI workflow should verify the production state snapshot')
 assert(ci.includes('npm run verify:search-discovery'), 'CI workflow should verify search discovery')
 assert(ci.includes('npm run verify:corpus-rights -- --public-only'), 'CI workflow should verify committed public corpus exports')
+assert(!ci.includes('npm run verify:corpus-memory'), 'CI workflow should not require the ignored local Corpus Memory SQLite store')
 assert(ci.includes('npm run verify:admin-auth'), 'CI workflow should verify protected admin token auth')
 assert(ci.includes('npm run verify:media-endpoints'), 'CI workflow should verify media endpoints with mocked provider responses')
 
@@ -140,6 +142,11 @@ assert(
   'Full release verifier should include the GitHub production credential helper write-path gate',
 )
 assert(releaseVerifier.includes('verify:cloudflare-token-requirements'), 'Full release verifier should include the Cloudflare token requirement gate')
+assert(releaseVerifier.includes('verify:corpus-memory'), 'Full release verifier should include the Corpus Memory gate')
+assert(
+  releaseVerifier.includes('publicCorpusOnly') && releaseVerifier.includes('corpusMemoryCheck = publicCorpusOnly'),
+  'Repository-safe public release mode should skip the local Corpus Memory SQLite store verifier',
+)
 assert(launchVerifier.includes('.github/workflows/ci.yml'), 'Launch verifier should require the CI workflow')
 assert(launchVerifier.includes('.github/workflows/release-gate.yml'), 'Launch verifier should require the manual release workflow')
 assert(launchVerifier.includes('.github/workflows/production-deploy.yml'), 'Launch verifier should require the production deploy workflow')
@@ -158,6 +165,7 @@ assert(productionContractVerifier.includes('verify:github-production-readiness')
 assert(productionContractVerifier.includes('verify:production-state'), 'Production contract verifier should require production state snapshot verification')
 assert(productionContractVerifier.includes('verify:production-state-current'), 'Production contract verifier should require current production state evidence verification')
 assert(productionContractVerifier.includes('verify:cloudflare-token-requirements'), 'Production contract verifier should require Cloudflare token requirement verification')
+assert(productionContractVerifier.includes('verify:corpus-memory'), 'Production contract verifier should require Corpus Memory verification')
 assert(contract.commands.safePreflight.includes('npm run verify:github-actions'), 'Safe preflight should include GitHub Actions verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-workflow'), 'Safe preflight should include production deploy workflow verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-evidence-artifact'), 'Safe preflight should include production deploy evidence artifact readback verification')
@@ -174,6 +182,7 @@ assert(contract.commands.safePreflight.includes('npm run verify:github-productio
 assert(contract.commands.safePreflight.includes('npm run verify:production-state-current'), 'Safe preflight should include current production state evidence verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-state'), 'Safe preflight should include production state snapshot verification')
 assert(contract.commands.safePreflight.includes('npm run verify:cloudflare-token-requirements'), 'Safe preflight should include Cloudflare token requirement verification')
+assert(contract.commands.safePreflight.includes('npm run verify:corpus-memory'), 'Safe preflight should include Corpus Memory verification')
 assert(runbook.includes('npm run verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
 assert(runbook.includes('npm run verify:production-deploy-workflow'), 'Deployment runbook should document production deploy workflow verification')
 assert(runbook.includes('npm run verify:production-deploy-evidence-artifact'), 'Deployment runbook should document production deploy evidence artifact readback verification')
@@ -207,6 +216,7 @@ assert(
 assert(runbook.includes('npm run verify:production-state-current'), 'Deployment runbook should document current production state evidence verification')
 assert(runbook.includes('npm run verify:production-state'), 'Deployment runbook should document production state snapshot verification')
 assert(runbook.includes('npm run verify:cloudflare-token-requirements'), 'Deployment runbook should document Cloudflare token requirement verification')
+assert(runbook.includes('npm run verify:corpus-memory'), 'Deployment runbook should document Corpus Memory verification')
 assert(launchPacket.includes('npm run verify:github-actions'), 'Production launch packet should document GitHub Actions verification')
 assert(launchPacket.includes('npm run verify:production-deploy-workflow'), 'Production launch packet should document production deploy workflow verification')
 assert(launchPacket.includes('npm run verify:production-deploy-evidence-artifact'), 'Production launch packet should document production deploy evidence artifact readback verification')
@@ -227,6 +237,7 @@ assert(
   'Production launch packet should document GitHub production credential helper verification',
 )
 assert(launchPacket.includes('npm run verify:cloudflare-token-requirements'), 'Production launch packet should document Cloudflare token requirement verification')
+assert(launchPacket.includes('npm run verify:corpus-memory'), 'Production launch packet should document Corpus Memory verification')
 
 console.log(
   JSON.stringify(

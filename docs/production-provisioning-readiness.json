@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T20:17:30.675Z",
+  "generatedAt": "2026-07-01T20:59:49.059Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -23,7 +23,7 @@
     "hiddenRequiredSecretNames": [
       "FEED_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "dc4b174370e749426bc6f32a131d456714b68b7c3106d3a7fe42da36973decbc",
+    "contractFingerprint": "8dda094199b25d8d833182c400463f8e320aa83505966f5ce415bb41dfd4d77a",
     "externalActionsFingerprint": "c448bde6d81cbc01303d0e9860f6a4cde2aa158d33e4b3e80143701f10c4dddd",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
@@ -259,6 +259,7 @@
         "npm run verify:production-feed-seed",
         "npm run verify:launch -- --soft",
         "npm run verify:production-contract",
+        "npm run verify:corpus-memory",
         "npm run verify:production-provisioning",
         "npm run verify:production-operator-brief"
       ]

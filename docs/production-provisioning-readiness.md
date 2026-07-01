@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-07-01T20:17:30.675Z
+Generated: 2026-07-01T20:59:49.059Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -110,6 +110,7 @@ npm run verify:production-d1-resolver
 npm run verify:production-feed-seed
 npm run verify:launch -- --soft
 npm run verify:production-contract
+npm run verify:corpus-memory
 npm run verify:production-provisioning
 npm run verify:production-operator-brief
 ```

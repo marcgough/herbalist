@@ -157,7 +157,10 @@ assert(exists('public/data/discovery-metadata.json'), 'Production contract requi
 assert(exists('public/data/api-catalog.json'), 'Production contract requires the API catalog public export')
 assert(exists('corpus/derived/herb-profiles/profiles.json'), 'Production contract requires the herb profile corpus export')
 assert(exists('corpus/exports/herb-profile-summary.json'), 'Production contract requires the herb profile summary')
+assert(exists('corpus-memory/state.json'), 'Production contract requires the separated Corpus Memory state marker')
+assert(exists('corpus-memory/README.md'), 'Production contract requires the Corpus Memory boundary documentation')
 assert(exists('scripts/verify-corpus-rights.mjs'), 'Production contract requires the corpus rights verifier')
+assert(exists('scripts/verify-corpus-memory.mjs'), 'Production contract requires the Corpus Memory verifier')
 assert(exists('scripts/verify-discovery-metadata.mjs'), 'Production contract requires the discovery metadata verifier')
 assert(exists('corpus/exports/corpus-rights-audit-summary.json'), 'Production contract requires the corpus rights audit summary')
 assert(exists('docs/corpus-rights-audit.md'), 'Production contract requires the corpus rights audit Markdown handoff')
@@ -274,6 +277,10 @@ assert(
 assert(
   contract.commands.safePreflight.includes('npm run verify:corpus-rights'),
   'Safe preflight should include corpus rights audit verification',
+)
+assert(
+  contract.commands.safePreflight.includes('npm run verify:corpus-memory'),
+  'Safe preflight should include Corpus Memory verification',
 )
 assert(
   contract.commands.safePreflight.includes('npm run verify:data-exports'),
@@ -612,6 +619,7 @@ assert(runbook.includes('verify:knowledge-graph'), 'Deployment runbook should do
 assert(runbook.includes('verify:citation-notes'), 'Deployment runbook should document citation notes verification')
 assert(runbook.includes('verify:source-health'), 'Deployment runbook should document source health verification')
 assert(runbook.includes('verify:corpus-rights'), 'Deployment runbook should document corpus rights verification')
+assert(runbook.includes('verify:corpus-memory'), 'Deployment runbook should document Corpus Memory verification')
 assert(runbook.includes('verify:data-exports'), 'Deployment runbook should document public data export verification')
 assert(runbook.includes('verify:discovery-metadata'), 'Deployment runbook should document discovery metadata verification')
 assert(runbook.includes('verify:api-catalog'), 'Deployment runbook should document API catalog verification')
@@ -666,6 +674,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:external-actions'),
   'Production launch packet doc should include external action verification',
+)
+assert(
+  launchPacketDoc.includes('verify:corpus-memory'),
+  'Production launch packet doc should include Corpus Memory verification',
 )
 assert(
   launchPacketDoc.includes('verify:production-cutover'),

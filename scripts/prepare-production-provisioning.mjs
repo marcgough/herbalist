@@ -361,6 +361,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:production-feed-seed',
           'npm run verify:launch -- --soft',
           'npm run verify:production-contract',
+          'npm run verify:corpus-memory',
           'npm run verify:production-provisioning',
           'npm run verify:production-operator-brief',
         ],

@@ -260,12 +260,16 @@ const requirements = [
       exists('functions/api/herbal-knowledge.js') &&
       exists('functions/api/herbal-chat.js') &&
       exists('functions/_lib/herbal-knowledge.js') &&
+      exists('functions/_lib/corpus-memory.js') &&
       exists('public/data/herbal-knowledge.json') &&
+      exists('corpus-memory/state.json') &&
+      exists('scripts/verify-corpus-memory.mjs') &&
       herbalKnowledgeExport.total >= 100 &&
       herbalCorpusProfiles.length >= 100 &&
       (herbalKnowledgeExport.sources?.length ?? 0) >= 150 &&
       herbProfileSummary.profileCount >= 100 &&
       herbProfileSummary.totalMatchedChunks >= 100000 &&
+      scripts['verify:corpus-memory'] &&
       app.includes('/api/herbal-chat') &&
       (app.includes('Ask the herbal archive.') || app.includes('Ask the public-domain herbal index')) &&
       app.includes('/data/herbal-knowledge.json') &&
@@ -279,11 +283,14 @@ const requirements = [
       'functions/api/herbal-knowledge.js',
       'functions/api/herbal-chat.js',
       'functions/_lib/herbal-knowledge.js',
+      'functions/_lib/corpus-memory.js',
       'public/data/herbal-knowledge.json',
+      'corpus-memory/state.json',
       'corpus/exports/herb-profile-summary.json',
       'corpus/derived/herb-profiles/profiles.json',
       'src/data/herbalKnowledge.ts',
       'src/App.tsx home search/chat',
+      'npm run verify:corpus-memory',
       'npm run verify:data-exports',
       'npm run verify:api',
     ],
@@ -881,6 +888,7 @@ const requirements = [
       scripts['verify:signals-rss'] &&
       scripts['verify:source-health'] &&
       scripts['verify:corpus-rights'] &&
+      scripts['verify:corpus-memory'] &&
       scripts['verify:data-exports'] &&
       scripts['verify:discovery-metadata'] &&
       scripts['verify:api-catalog'] &&
@@ -942,6 +950,7 @@ const requirements = [
       'scripts/verify-motion-system.mjs',
       'scripts/verify-source-health.mjs',
       'scripts/verify-corpus-rights.mjs',
+      'scripts/verify-corpus-memory.mjs',
       'scripts/export-public-data.mjs',
       'scripts/verify-data-exports.mjs',
       'scripts/verify-discovery-metadata.mjs',

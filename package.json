@@ -75,6 +75,7 @@
     "verify:cloudflare-token-requirements": "node scripts/prepare-cloudflare-token-requirements.mjs --check",
     "verify:completion-audit": "node scripts/prepare-completion-audit.mjs --check",
     "verify:corpus-rights": "node scripts/verify-corpus-rights.mjs",
+    "verify:corpus-memory": "node scripts/verify-corpus-memory.mjs",
     "verify:d1": "node scripts/verify-d1.mjs",
     "verify:d1-manifest": "node scripts/prepare-d1-production-manifest.mjs --check",
     "verify:dns-cutover": "node scripts/prepare-dns-cutover-plan.mjs --check",

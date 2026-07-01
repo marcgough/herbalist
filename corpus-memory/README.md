@@ -36,6 +36,7 @@ The raw book archive still lives under `corpus/`.
 - `npm run corpus-memory:refresh`
 - `npm run corpus-memory:stats`
 - `npm run corpus-memory:state`
+- `npm run verify:corpus-memory`
 
 ## Operational State
 
@@ -46,6 +47,10 @@ Run `npm run corpus-memory:state` to write the current local service snapshot to
 That file is the current repo-local boundary marker for the separated Herbalisti corpus store.
 
 Run `npm run corpus-memory:refresh` after a corpus rebuild when you want the separated retrieval store and the repo-local state file brought back into sync in one step.
+
+Run `npm run verify:corpus-memory` during launch checks. It validates the local SQLite store, `corpus-memory/state.json`, known herb-profile retrieval, and a temporary loopback HTTP service. The configured service at `http://127.0.0.1:8766` is allowed to be offline unless you pass `-- --require-live`.
+
+The SQLite store is intentionally excluded from Git. GitHub CI verifies the committed public corpus exports instead; `verify:corpus-memory` is a local/operator check for machines that have the full Herbalisti corpus store.
 
 ## Current Ingestion Shape
 

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T20:21:32.487Z",
-  "auditSignature": "0340a45110b4482ef26ff1b78410169f14b6d1c850163c8899b9aad4c6c95966",
+  "generatedAt": "2026-07-01T21:03:00.124Z",
+  "auditSignature": "78f65c8101727d1097b955d0a07465fd3c3aec45db106ec6bd30a97a0015916c",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -119,11 +119,14 @@
         "functions/api/herbal-knowledge.js",
         "functions/api/herbal-chat.js",
         "functions/_lib/herbal-knowledge.js",
+        "functions/_lib/corpus-memory.js",
         "public/data/herbal-knowledge.json",
+        "corpus-memory/state.json",
         "corpus/exports/herb-profile-summary.json",
         "corpus/derived/herb-profiles/profiles.json",
         "src/data/herbalKnowledge.ts",
         "src/App.tsx home search/chat",
+        "npm run verify:corpus-memory",
         "npm run verify:data-exports",
         "npm run verify:api"
       ],
@@ -536,6 +539,7 @@
         "scripts/verify-motion-system.mjs",
         "scripts/verify-source-health.mjs",
         "scripts/verify-corpus-rights.mjs",
+        "scripts/verify-corpus-memory.mjs",
         "scripts/export-public-data.mjs",
         "scripts/verify-data-exports.mjs",
         "scripts/verify-discovery-metadata.mjs",
@@ -581,7 +585,7 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T20:20:19.305Z",
+      "generatedAt": "2026-07-01T21:01:42.419Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 15,
@@ -606,7 +610,7 @@
         "itemCount": 24,
         "preservedSourceItemCount": 0,
         "preservedSourceNames": [],
-        "generatedAt": "2026-07-01T20:20:19.305Z"
+        "generatedAt": "2026-07-01T21:01:42.419Z"
       }
     },
     "media": {
@@ -636,9 +640,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 148,
-      "scripts": 118,
-      "passes": 225
+      "files": 151,
+      "scripts": 119,
+      "passes": 229
     },
     "nextActions": [
       "Set the required GitHub production environment credentials listed by npm run verify:github-production-readiness.",
@@ -695,6 +699,7 @@
       "npm run verify:citation-notes",
       "npm run verify:source-health",
       "npm run verify:corpus-rights",
+      "npm run verify:corpus-memory",
       "npm run verify:data-exports",
       "npm run verify:discovery-metadata",
       "npm run verify:api-catalog",

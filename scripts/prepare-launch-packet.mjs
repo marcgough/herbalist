@@ -156,6 +156,7 @@ const phases = [
       command('npm run verify:citation-notes'),
       command('npm run verify:source-health'),
       command('npm run verify:corpus-rights'),
+      command('npm run verify:corpus-memory'),
       command('npm run verify:data-exports'),
       command('npm run verify:discovery-metadata'),
       command('npm run verify:api-catalog'),

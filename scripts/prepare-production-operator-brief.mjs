@@ -152,6 +152,7 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     'npm run verify:production-deploy-dry-run',
     'npm run verify:production-d1-resolver',
     'npm run verify:production-feed-seed',
+    'npm run verify:corpus-memory',
     'npm run verify:production-provisioning',
     'npm run verify:production-operator-brief',
   ])

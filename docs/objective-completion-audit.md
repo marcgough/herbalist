@@ -1,6 +1,6 @@
 # Herbalisti Objective Completion Audit
 
-Generated: 2026-07-01T20:21:32.487Z
+Generated: 2026-07-01T21:03:00.124Z
 
 ## Objective
 
@@ -11,7 +11,7 @@ Build Herbalisti as a fully functioning website for herbalisti.com with original
 - Status: `local-ready-production-pending`
 - Goal complete: `false`
 - Local implementation ready: `true`
-- Audit signature: `0340a45110b4482ef26ff1b78410169f14b6d1c850163c8899b9aad4c6c95966`
+- Audit signature: `78f65c8101727d1097b955d0a07465fd3c3aec45db106ec6bd30a97a0015916c`
 
 ## Completion Rule
 
@@ -25,7 +25,7 @@ Completion is only proven when every requirement is either locally proven or liv
 | openai-imagery |pass |locally_proven |public/assets/herbalisti-hero.png<br>public/assets/herbalisti-research.png<br>public/data/media-provenance.json<br>docs/attribution.md |None |
 | high-tech-motion-system |pass |locally_proven |src/App.tsx<br>src/App.css<br>src/data/mediaManifest.ts<br>public/data/media-manifest.json |None |
 | book-database |pass |locally_proven |functions/api/books.js<br>functions/_lib/books.js<br>public/data/reference-books.json<br>migrations/0002_seed_reference_data.sql |None |
-| public-domain-herbal-chat |pass |locally_proven |functions/api/herbal-knowledge.js<br>functions/api/herbal-chat.js<br>functions/_lib/herbal-knowledge.js<br>public/data/herbal-knowledge.json |None |
+| public-domain-herbal-chat |pass |locally_proven |functions/api/herbal-knowledge.js<br>functions/api/herbal-chat.js<br>functions/_lib/herbal-knowledge.js<br>functions/_lib/corpus-memory.js |None |
 | citation-notes |pass |locally_proven |src/data/citationNotes.ts<br>functions/api/citation-notes.js<br>functions/_lib/citation-notes.js<br>public/data/citation-notes.json |None |
 | remedy-index |pass |locally_proven |functions/api/remedies.js<br>functions/_lib/remedies.js<br>public/data/remedies.json<br>src/data/remedies.ts |None |
 | relationship-map |pass |locally_proven |functions/api/graph.js<br>functions/_lib/knowledge-graph.js<br>migrations/0009_remedy_plant_parts.sql<br>src/App.tsx /map |None |
@@ -44,7 +44,7 @@ Completion is only proven when every requirement is either locally proven or liv
 
 - Launch preflight status: `needs-production-setup`
 - Production ready: `false`
-- Checked files/scripts/passes: `148/118/225`
+- Checked files/scripts/passes: `151/119/229`
 
 ### Current Blockers
 
