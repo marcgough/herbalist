@@ -193,6 +193,10 @@ const auditBody = {
     requiredResources: contract.resources.filter((resource) => resource.required).map((resource) => resource.id),
     requiredLaunchSecrets: contract.secrets.filter((secret) => secret.requiredForLaunch).map((secret) => secret.name),
     safePreflight: contract.commands.safePreflight,
+    finalCompletionGates: contract.commands.finalCompletionGates ?? [
+      ...(contract.commands.postDeployEvidence ?? []),
+      ...(contract.commands.liveCompletionGates ?? []),
+    ],
     liveCompletionGates: contract.commands.liveCompletionGates,
     guardrails: contract.guardrails,
   },
@@ -275,7 +279,11 @@ ${list(payload.launchReadiness.nextActions)}
 - Required resources: ${payload.productionContract.requiredResources.join(', ')}
 - Required launch secrets: ${payload.productionContract.requiredLaunchSecrets.join(', ')}
 
-Live completion gates:
+Final completion gates:
+
+${list(payload.productionContract.finalCompletionGates)}
+
+Live-domain completion gates:
 
 ${list(payload.productionContract.liveCompletionGates)}
 

@@ -458,8 +458,23 @@ assert(
   contract.commands.liveCompletionGates.includes('npm run verify:goal-readiness -- --strict'),
   'Live completion gates should include strict goal-readiness verification',
 )
+assert(
+  contract.commands.finalCompletionGates.includes(
+    'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
+  ),
+  'Final completion gates should include strict production deploy evidence artifact readback verification',
+)
+for (const command of contract.commands.liveCompletionGates) {
+  assert(
+    contract.commands.finalCompletionGates.includes(command),
+    `Final completion gates should include live completion gate: ${command}`,
+  )
+}
 for (const command of contract.commands.liveCompletionGates) {
   assert(launchPacketScript.includes(command), `Launch packet generator should include live completion gate: ${command}`)
+}
+for (const command of contract.commands.finalCompletionGates) {
+  assert(launchPacketScript.includes(command), `Launch packet generator should include final completion gate: ${command}`)
 }
 assert(
   launchPacketScript.includes('npm run verify:github-actions'),
@@ -807,6 +822,7 @@ console.log(
       d1BindingConsistency:
         pagesD1Binding && newsD1Binding ? pagesD1Binding.databaseId === newsD1Binding.databaseId : 'pending-bindings',
       liveCompletionGates: contract.commands.liveCompletionGates,
+      finalCompletionGates: contract.commands.finalCompletionGates,
       safeToRun: 'This verifier reads local files only. It does not deploy, mutate DNS, create resources, or print secret values.',
     },
     null,

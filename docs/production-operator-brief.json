@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T11:54:24.673Z",
+  "generatedAt": "2026-07-01T12:32:14.883Z",
   "status": "needs-github-production-secret-entry",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.",
@@ -168,6 +168,7 @@
     "FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch."
   ],
   "finalCompletionGates": [
+    "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
     "npm run verify:live-readiness -- --strict",
     "npm run verify:production -- https://herbalisti.com",
     "npm run verify:goal-readiness -- --strict"
@@ -190,7 +191,7 @@
     {
       "path": "docs/github-production-dispatch.json",
       "version": 1,
-      "generatedAt": "2026-07-01T11:53:23.891Z",
+      "generatedAt": "2026-07-01T12:32:14.148Z",
       "status": "needs-github-production-secret-names",
       "productionComplete": false
     },
@@ -218,14 +219,14 @@
     {
       "path": "docs/production-provisioning-readiness.json",
       "version": 1,
-      "generatedAt": "2026-07-01T11:54:24.388Z",
+      "generatedAt": "2026-07-01T12:32:13.350Z",
       "status": "ready-for-approved-production-provisioning",
       "productionComplete": false
     },
     {
       "path": "docs/external-launch-actions.json",
       "version": 1,
-      "generatedAt": "2026-07-01T10:54:57.965Z",
+      "generatedAt": "2026-07-01T12:32:12.552Z",
       "status": "needs-approval-and-production-setup",
       "productionComplete": false
     }
@@ -259,7 +260,12 @@
     {
       "id": "live-completion-gates",
       "status": "pass",
-      "detail": "Final completion gates are strict live-domain checks."
+      "detail": "Strict live-domain checks are declared."
+    },
+    {
+      "id": "final-completion-gates",
+      "status": "pass",
+      "detail": "Final completion gates include deployment artifact readback and strict live-domain checks."
     },
     {
       "id": "package-scripts",

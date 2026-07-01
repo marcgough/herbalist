@@ -1,6 +1,6 @@
 # Herbalisti GitHub Production Dispatch Packet
 
-Generated: 2026-07-01T11:53:23.891Z
+Generated: 2026-07-01T12:32:14.148Z
 
 Status: needs-github-production-secret-names
 
@@ -70,7 +70,7 @@ Inputs:
 gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=false
 ```
 
-Final completion requires live verification inside the workflow plus npm run verify:live-readiness -- --strict, npm run verify:production -- https://herbalisti.com, and npm run verify:goal-readiness -- --strict.
+Final completion requires the post-dispatch deployment evidence artifact readback plus strict live readiness, production smoke, and goal-readiness verification against https://herbalisti.com.
 
 ## DNS Transition Dispatch
 
@@ -112,6 +112,7 @@ npm run verify:production-deploy-evidence-artifact -- --strict --run-id <product
 
 ## Final Completion Gates
 
+- `npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>`
 - `npm run verify:live-readiness -- --strict`
 - `npm run verify:production -- https://herbalisti.com`
 - `npm run verify:goal-readiness -- --strict`

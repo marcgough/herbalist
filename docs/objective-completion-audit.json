@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T11:56:51.415Z",
-  "auditSignature": "f4a4d0abcdd2a42b0eec21c267d48a08008e1dfde9c3d396d7b61fd01cf5e8d7",
+  "generatedAt": "2026-07-01T12:39:57.978Z",
+  "auditSignature": "7352cf860ece6e799e434aa4460debcc1805ede89bd47ab223c4a90aa60e5713",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -12,6 +12,7 @@
   },
   "evidenceStandard": "Completion is only proven when every requirement is either locally proven or live-production proven, and no pending-production or missing requirement remains.",
   "productionSignals": {
+    "strictMode": false,
     "pagesD1BindingActive": false,
     "newsWorkerD1BindingActive": false,
     "r2MediaBindingActive": false,
@@ -22,7 +23,15 @@
       "KIE_API_KEY": false,
       "MEDIA_ADMIN_TOKEN": false
     },
-    "canonicalUrlPresent": true
+    "canonicalUrlPresent": true,
+    "strictLiveReadiness": {
+      "ok": false,
+      "status": "not-run"
+    },
+    "strictProductionVerification": {
+      "ok": false,
+      "status": "not-run"
+    }
   },
   "requirementMatrix": [
     {
@@ -226,7 +235,12 @@
       "remaining": [
         "Create the production Cloudflare D1 database.",
         "Run npm run configure:cloudflare -- --d1 <database_id> --apply.",
-        "Deploy the scheduled news Worker."
+        "Deploy the scheduled news Worker.",
+        "Set FEED_ADMIN_TOKEN for protected refresh surfaces.",
+        "Run npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed.",
+        "Run npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>.",
+        "Run npm run verify:live-readiness -- --strict.",
+        "Run npm run verify:production -- https://herbalisti.com."
       ],
       "caveats": []
     },
@@ -455,6 +469,8 @@
         "Apply D1 migrations remotely.",
         "Set required Cloudflare secrets.",
         "Deploy Pages and scheduled Worker.",
+        "Run npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>.",
+        "Run npm run verify:live-readiness -- --strict.",
         "Run npm run verify:production -- https://herbalisti.com."
       ],
       "caveats": []
@@ -565,30 +581,30 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T11:55:51.995Z",
-      "total": 18,
+      "generatedAt": "2026-07-01T12:38:57.634Z",
+      "total": 24,
       "topicCounts": {
         "Longevity": 13,
         "DNA modification": 1,
         "Health as a service": 2,
         "Peptides": 1,
-        "Gene therapy": 1,
-        "CRISPR": 1,
-        "Gene editing": 1,
-        "Self-sovereign wellbeing": 1
+        "Self-sovereign wellbeing": 1,
+        "Gene editing": 8,
+        "CRISPR": 7,
+        "Gene therapy": 2
       },
       "sourceCounts": {
         "Fight Aging!": 6,
         "Lifespan.io": 6,
-        "arXiv": 4,
-        "Crossref": 1,
-        "bioRxiv": 1
+        "arXiv": 3,
+        "bioRxiv": 1,
+        "Crossref": 8
       },
-      "latestRefreshStatus": "completed_with_warnings",
+      "latestRefreshStatus": "completed",
       "publicSnapshot": {
         "status": "updated",
-        "itemCount": 18,
-        "generatedAt": "2026-07-01T11:55:51.995Z"
+        "itemCount": 24,
+        "generatedAt": "2026-07-01T12:38:57.634Z"
       }
     },
     "media": {
@@ -687,6 +703,12 @@
       "npm run verify:accessibility-smoke",
       "npm run verify:live-readiness",
       "npm run prepare:launch"
+    ],
+    "finalCompletionGates": [
+      "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
+      "npm run verify:live-readiness -- --strict",
+      "npm run verify:production -- https://herbalisti.com",
+      "npm run verify:goal-readiness -- --strict"
     ],
     "liveCompletionGates": [
       "npm run verify:live-readiness -- --strict",

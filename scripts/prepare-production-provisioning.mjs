@@ -221,6 +221,14 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
     buildCheck('deployment-actions', Boolean(actionById(approvalActions, 'deploy-cloudflare-pages')) && Boolean(actionById(approvalActions, 'deploy-news-worker')), 'Pages and scheduled Worker deployment actions exist.'),
     buildCheck('domain-action', Boolean(actionById(approvalActions, 'connect-domain')), 'Custom domain action exists.'),
     buildCheck('live-completion-gates', contract.commands.liveCompletionGates.length === 3, 'Strict live completion gates are declared.'),
+    buildCheck(
+      'final-completion-gates',
+      contract.commands.finalCompletionGates?.includes(
+        'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
+      ) &&
+        contract.commands.liveCompletionGates.every((gate) => contract.commands.finalCompletionGates.includes(gate)),
+      'Final completion gates include deployment artifact readback and strict live-domain checks.',
+    ),
     buildCheck('no-secret-values', !secretValuePattern.test(JSON.stringify({ contract, externalActions })), 'Provisioning inputs do not contain obvious secret values.'),
   ]
 
@@ -357,6 +365,11 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         commands: contract.commands.deploy,
       },
       {
+        id: 'verify-production-deploy-evidence-artifact',
+        sideEffect: 'read-only-github-metadata',
+        commands: contract.commands.postDeployEvidence,
+      },
+      {
         id: 'domain-cutover',
         sideEffect: 'dns-and-custom-domain-change',
         commands: ['npm run verify:dns-cutover'],
@@ -373,6 +386,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         commands: contract.commands.liveCompletionGates,
       },
     ],
+    finalCompletionGates: contract.commands.finalCompletionGates,
   }
 }
 

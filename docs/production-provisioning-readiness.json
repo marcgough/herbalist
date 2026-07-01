@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T11:54:24.388Z",
+  "generatedAt": "2026-07-01T12:32:13.350Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -23,8 +23,8 @@
     "hiddenRequiredSecretNames": [
       "FEED_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "0bbf00eb2d7f4b014848319cc8f2a25695351bc143847a3d4a2f09a6b83cf95d",
-    "externalActionsFingerprint": "46271a72ba14d6acef2e016ecdc023c7db3788ae9ee37b0b15ec3e6e13c136ed",
+    "contractFingerprint": "74f367024d559aefac110d97f100701c56fbc4335430b3eafc3c42d705a428a9",
+    "externalActionsFingerprint": "8221f68f975d1f6177076272d14fb69d0f453d7d0f33294c8f2816a822ca80b2",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -191,6 +191,11 @@
       "detail": "Strict live completion gates are declared."
     },
     {
+      "id": "final-completion-gates",
+      "status": "pass",
+      "detail": "Final completion gates include deployment artifact readback and strict live-domain checks."
+    },
+    {
       "id": "no-secret-values",
       "status": "pass",
       "detail": "Provisioning inputs do not contain obvious secret values."
@@ -284,6 +289,13 @@
       ]
     },
     {
+      "id": "verify-production-deploy-evidence-artifact",
+      "sideEffect": "read-only-github-metadata",
+      "commands": [
+        "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>"
+      ]
+    },
+    {
       "id": "domain-cutover",
       "sideEffect": "dns-and-custom-domain-change",
       "commands": [
@@ -310,5 +322,11 @@
         "npm run verify:goal-readiness -- --strict"
       ]
     }
+  ],
+  "finalCompletionGates": [
+    "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
+    "npm run verify:live-readiness -- --strict",
+    "npm run verify:production -- https://herbalisti.com",
+    "npm run verify:goal-readiness -- --strict"
   ]
 }

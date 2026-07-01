@@ -55,6 +55,10 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
   const optionalSecretNames = ['KIE_API_KEY']
   const generatedRuntimeSecretNames = ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN']
   const missingGitHubSecretNames = productionState?.summary?.githubMissingSecretNames ?? requiredSecretNames
+  const finalCompletionGates = contract.commands.finalCompletionGates ?? [
+    ...(contract.commands.postDeployEvidence ?? []),
+    ...(contract.commands.liveCompletionGates ?? []),
+  ]
 
   const strictPreflightCommands = [
     'npm run verify:github-actions',
@@ -85,7 +89,7 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
       command:
         'gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=false',
       completionEvidence:
-        'Final completion requires live verification inside the workflow plus npm run verify:live-readiness -- --strict, npm run verify:production -- https://herbalisti.com, and npm run verify:goal-readiness -- --strict.',
+        'Final completion requires the post-dispatch deployment evidence artifact readback plus strict live readiness, production smoke, and goal-readiness verification against https://herbalisti.com.',
     },
     dnsTransitionMode: {
       confirm: 'deploy-herbalisti-production',
@@ -217,7 +221,7 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
       productionProvisioningStatus: productionProvisioning?.status ?? 'missing',
     },
     checks,
-    finalCompletionGates: contract.commands.liveCompletionGates,
+    finalCompletionGates,
     guardrails: {
       noSecretValuesInPacket: true,
       noActionDispatchDuringPreparation: true,

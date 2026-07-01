@@ -468,7 +468,10 @@ const packet = {
     'Approval to connect herbalisti.com DNS/custom domain.',
   ],
   productionBlockers,
-  completionGates: contract.commands.liveCompletionGates,
+  completionGates: contract.commands.finalCompletionGates ?? [
+    ...(contract.commands.postDeployEvidence ?? []),
+    ...(contract.commands.liveCompletionGates ?? []),
+  ],
 }
 
 const renderMarkdown = (value) => {

@@ -1,6 +1,6 @@
 # Herbalisti Production Operator Brief
 
-Generated: 2026-07-01T11:54:24.673Z
+Generated: 2026-07-01T12:32:14.883Z
 
 Status: needs-github-production-secret-entry
 
@@ -152,6 +152,7 @@ npm run verify:goal-readiness -- --strict
 
 ## Final Completion Gates
 
+- `npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>`
 - `npm run verify:live-readiness -- --strict`
 - `npm run verify:production -- https://herbalisti.com`
 - `npm run verify:goal-readiness -- --strict`
@@ -163,7 +164,8 @@ npm run verify:goal-readiness -- --strict
 - pass: Protected feed and media admin tokens are generated runtime names, not required external GitHub credentials.
 - pass: Cloudflare API token permissions are documented without token values.
 - pass: GitHub dispatch packet preserves strict final verification and DNS-transition acknowledgement.
-- pass: Final completion gates are strict live-domain checks.
+- pass: Strict live-domain checks are declared.
+- pass: Final completion gates include deployment artifact readback and strict live-domain checks.
 - pass: Package exposes generated operator brief commands.
 - pass: Full release verification includes the operator brief.
 - pass: All source packets used by the operator brief exist.

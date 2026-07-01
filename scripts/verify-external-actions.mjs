@@ -219,8 +219,9 @@ assert(
   'Checklist should include Cloudflare token requirement generation and verification',
 )
 assert(
-  checklist.completionGates.every((gate) => contract.commands.liveCompletionGates.includes(gate)),
-  'Checklist completion gates should mirror the production contract',
+  checklist.completionGates.every((gate) => contract.commands.finalCompletionGates.includes(gate)) &&
+    contract.commands.finalCompletionGates.every((gate) => checklist.completionGates.includes(gate)),
+  'Checklist completion gates should mirror the production contract final completion gates',
 )
 assert(
   externalActions['connect-domain'].verification.includes('npm run verify:dns-cutover'),

@@ -189,6 +189,12 @@
       "npm run verify:live-readiness -- --strict",
       "npm run verify:production -- https://herbalisti.com",
       "npm run verify:goal-readiness -- --strict"
+    ],
+    "finalCompletionGates": [
+      "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
+      "npm run verify:live-readiness -- --strict",
+      "npm run verify:production -- https://herbalisti.com",
+      "npm run verify:goal-readiness -- --strict"
     ]
   },
   "guardrails": {

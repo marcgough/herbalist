@@ -108,6 +108,12 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     productionState.summary?.githubMissingSecretNames ??
     []
   const liveCompletionGates = commandList(contract.commands?.liveCompletionGates)
+  const finalCompletionGates = commandList(
+    contract.commands?.finalCompletionGates ?? [
+      ...commandList(contract.commands?.postDeployEvidence),
+      ...liveCompletionGates,
+    ],
+  )
 
   const safePreflightCommands = unique([
     'npm run verify:launch -- --soft',
@@ -174,7 +180,17 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
       liveCompletionGates.includes('npm run verify:live-readiness -- --strict') &&
         liveCompletionGates.includes('npm run verify:production -- https://herbalisti.com') &&
         liveCompletionGates.includes('npm run verify:goal-readiness -- --strict'),
-      'Final completion gates are strict live-domain checks.',
+      'Strict live-domain checks are declared.',
+    ),
+    buildCheck(
+      'final-completion-gates',
+      finalCompletionGates.includes(
+        'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
+      ) &&
+        finalCompletionGates.includes('npm run verify:live-readiness -- --strict') &&
+        finalCompletionGates.includes('npm run verify:production -- https://herbalisti.com') &&
+        finalCompletionGates.includes('npm run verify:goal-readiness -- --strict'),
+      'Final completion gates include deployment artifact readback and strict live-domain checks.',
     ),
     buildCheck(
       'package-scripts',
@@ -305,7 +321,7 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
       },
     ],
     productionBlockers,
-    finalCompletionGates: liveCompletionGates,
+    finalCompletionGates,
     sourcePackets: sourcePacketPaths.map(compactSourcePacket),
     checks,
     nextAction:
@@ -444,6 +460,12 @@ const validatePacket = (packet, jsonOutput, markdownOutput) => {
   assert(
     packet.operatorSequence.some((step) => step.id === 'seed-live-feed-and-prove-completion'),
     'Operator brief should include live feed seed and completion sequence',
+  )
+  assert(
+    packet.finalCompletionGates.includes(
+      'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
+    ),
+    'Operator brief should include strict production deploy evidence artifact readback in final completion gates',
   )
   assert(
     packet.finalCompletionGates.includes('npm run verify:production -- https://herbalisti.com'),

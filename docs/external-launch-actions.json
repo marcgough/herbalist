@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T10:54:57.965Z",
+  "generatedAt": "2026-07-01T12:32:12.552Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -567,6 +567,7 @@
     "FEED_ADMIN_TOKEN is not locally visible; confirm it is set in Cloudflare before using the related feature."
   ],
   "completionGates": [
+    "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
     "npm run verify:live-readiness -- --strict",
     "npm run verify:production -- https://herbalisti.com",
     "npm run verify:goal-readiness -- --strict"

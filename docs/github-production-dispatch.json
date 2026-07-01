@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T11:53:23.891Z",
+  "generatedAt": "2026-07-01T12:32:14.148Z",
   "status": "needs-github-production-secret-names",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, workflow files, and generated readiness packets only. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.",
@@ -20,7 +20,7 @@
       "skip_live_verification": false,
       "skip_live_verification_confirm": "",
       "command": "gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=false",
-      "completionEvidence": "Final completion requires live verification inside the workflow plus npm run verify:live-readiness -- --strict, npm run verify:production -- https://herbalisti.com, and npm run verify:goal-readiness -- --strict."
+      "completionEvidence": "Final completion requires the post-dispatch deployment evidence artifact readback plus strict live readiness, production smoke, and goal-readiness verification against https://herbalisti.com."
     },
     "dnsTransitionMode": {
       "confirm": "deploy-herbalisti-production",
@@ -144,6 +144,7 @@
     }
   ],
   "finalCompletionGates": [
+    "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
     "npm run verify:live-readiness -- --strict",
     "npm run verify:production -- https://herbalisti.com",
     "npm run verify:goal-readiness -- --strict"

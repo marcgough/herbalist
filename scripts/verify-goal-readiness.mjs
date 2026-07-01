@@ -1,5 +1,6 @@
 import { existsSync, readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
+import { spawnSync } from 'node:child_process'
 import { fileURLToPath } from 'node:url'
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)))
@@ -8,6 +9,37 @@ const strict = process.argv.includes('--strict')
 const read = (path) => readFileSync(resolve(root, path), 'utf8')
 const exists = (path) => existsSync(resolve(root, path))
 const readJson = (path) => JSON.parse(read(path))
+
+const runJsonCommand = ({ label, args, timeoutMs }) => {
+  const result = spawnSync(process.execPath, args, {
+    cwd: root,
+    encoding: 'utf8',
+    env: { ...process.env, NO_COLOR: '1' },
+    timeout: timeoutMs,
+  })
+  const stdout = result.stdout ?? ''
+  const stderr = result.stderr ?? ''
+  let data = null
+  let parseError = null
+
+  try {
+    data = JSON.parse(stdout)
+  } catch (error) {
+    parseError = error.message
+  }
+
+  return {
+    label,
+    ok: !result.error && result.status === 0 && Boolean(data),
+    exitCode: result.status,
+    signal: result.signal,
+    error: result.error?.message ?? null,
+    parseError,
+    data,
+    stderr: stderr.slice(0, 1200),
+    stdout: data ? undefined : stdout.slice(0, 1200),
+  }
+}
 
 const hasActiveD1Binding = (toml) =>
   /^\s*\[\[d1_databases\]\]/m.test(toml) &&
@@ -78,6 +110,42 @@ const requiredSecrets = [
 const visibleSecrets = Object.fromEntries(requiredSecrets.map((name) => [name, Boolean(process.env[name]?.trim())]))
 const openAiAssets = mediaProvenance.assets.filter((asset) => asset.provider === 'OpenAI image generation')
 const herbalCorpusProfiles = (herbalKnowledgeExport.records ?? []).filter((record) => record.entryKind === 'corpus-profile')
+const strictLiveReadinessProbe = strict
+  ? runJsonCommand({
+      label: 'live-readiness',
+      args: ['scripts/verify-live-readiness.mjs', '--strict'],
+      timeoutMs: 90000,
+    })
+  : null
+const strictProductionProbe = strict
+  ? runJsonCommand({
+      label: 'production-verification',
+      args: ['scripts/verify-production.mjs', 'https://herbalisti.com'],
+      timeoutMs: 120000,
+    })
+  : null
+const strictLiveProductionVerified =
+  strict &&
+  strictLiveReadinessProbe?.ok === true &&
+  strictLiveReadinessProbe.data?.status === 'ready-for-production-verification' &&
+  strictProductionProbe?.ok === true &&
+  strictProductionProbe.data?.status === 'pass'
+const cloudflareHostingLocalProofReady =
+  exists('wrangler.toml') &&
+  exists('wrangler.news.toml') &&
+  exists('scripts/configure-cloudflare-bindings.mjs') &&
+  exists('scripts/simulate-production-cutover.mjs') &&
+  exists('scripts/prepare-launch-packet.mjs') &&
+  exists('scripts/prepare-external-actions.mjs') &&
+  exists('scripts/prepare-production-provisioning.mjs') &&
+  exists('scripts/prepare-production-state-snapshot.mjs') &&
+  exists('scripts/prepare-github-production-dispatch.mjs') &&
+  exists('scripts/prepare-production-deploy-evidence.mjs') &&
+  exists('scripts/verify-production-deploy-evidence-artifact.mjs') &&
+  exists('scripts/verify-production-deploy-workflow.mjs') &&
+  exists('scripts/verify-live-readiness.mjs') &&
+  exists('scripts/verify-production.mjs') &&
+  exists('.github/workflows/production-deploy.yml')
 
 const requirements = [
   requirement({
@@ -353,7 +421,7 @@ const requirements = [
       app.includes('Signals RSS') &&
       app.includes('/api/source-health') &&
       index.includes('application/rss+xml')
-        ? activePagesD1 && activeNewsD1
+        ? strictLiveProductionVerified
           ? 'pass'
           : 'pending-production'
         : 'missing',
@@ -381,12 +449,17 @@ const requirements = [
       'npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed',
     ],
     remaining:
-      activePagesD1 && activeNewsD1
+      strictLiveProductionVerified
         ? []
         : [
             'Create the production Cloudflare D1 database.',
             'Run npm run configure:cloudflare -- --d1 <database_id> --apply.',
             'Deploy the scheduled news Worker.',
+            'Set FEED_ADMIN_TOKEN for protected refresh surfaces.',
+            'Run npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed.',
+            'Run npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>.',
+            'Run npm run verify:live-readiness -- --strict.',
+            'Run npm run verify:production -- https://herbalisti.com.',
       ],
   }),
   requirement({
@@ -678,7 +751,11 @@ const requirements = [
   requirement({
     id: 'cloudflare-hosting',
     requirement: 'Production hosting at herbalisti.com using Cloudflare Pages, D1, and scheduled Worker infrastructure.',
-    status: activePagesD1 && activeNewsD1 ? 'pending-production' : 'pending-production',
+    status: cloudflareHostingLocalProofReady
+      ? strictLiveProductionVerified
+        ? 'pass'
+        : 'pending-production'
+      : 'missing',
     evidence: [
       'wrangler.toml',
       'wrangler.news.toml',
@@ -739,6 +816,8 @@ const requirements = [
       'Apply D1 migrations remotely.',
       'Set required Cloudflare secrets.',
       'Deploy Pages and scheduled Worker.',
+      'Run npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>.',
+      'Run npm run verify:live-readiness -- --strict.',
       'Run npm run verify:production -- https://herbalisti.com.',
     ],
   }),
@@ -901,11 +980,28 @@ const result = {
     'Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.',
   counts,
   productionSignals: {
+    strictMode: strict,
     pagesD1BindingActive: activePagesD1,
     newsWorkerD1BindingActive: activeNewsD1,
     r2MediaBindingActive: activeR2,
     locallyVisibleSecrets: visibleSecrets,
     canonicalUrlPresent: index.includes('https://herbalisti.com/'),
+    strictLiveReadiness: strictLiveReadinessProbe
+      ? {
+          ok: strictLiveReadinessProbe.ok,
+          exitCode: strictLiveReadinessProbe.exitCode,
+          status: strictLiveReadinessProbe.data?.status ?? 'unavailable',
+          error: strictLiveReadinessProbe.error ?? strictLiveReadinessProbe.parseError,
+        }
+      : { ok: false, status: 'not-run' },
+    strictProductionVerification: strictProductionProbe
+      ? {
+          ok: strictProductionProbe.ok,
+          exitCode: strictProductionProbe.exitCode,
+          status: strictProductionProbe.data?.status ?? 'unavailable',
+          error: strictProductionProbe.error ?? strictProductionProbe.parseError,
+        }
+      : { ok: false, status: 'not-run' },
   },
   requirements,
   nextActions: goalComplete
@@ -917,6 +1013,8 @@ const result = {
         'Deploy Cloudflare Pages and the scheduled news Worker.',
         'Point herbalisti.com DNS/custom domain to the Pages project.',
         'Run npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed.',
+        'Run npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>.',
+        'Run npm run verify:live-readiness -- --strict.',
         'Run npm run verify:production -- https://herbalisti.com.',
       ],
 }

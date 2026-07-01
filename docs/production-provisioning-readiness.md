@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-07-01T11:54:24.388Z
+Generated: 2026-07-01T12:32:13.350Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -68,6 +68,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: Pages and scheduled Worker deployment actions exist.
 - pass: Custom domain action exists.
 - pass: Strict live completion gates are declared.
+- pass: Final completion gates include deployment artifact readback and strict live-domain checks.
 - pass: Provisioning inputs do not contain obvious secret values.
 
 ## Production Blockers
@@ -168,6 +169,14 @@ Side effect: public-deployment
 ```bash
 npm run deploy:cloudflare
 npm run deploy:news-worker
+```
+
+### verify-production-deploy-evidence-artifact
+
+Side effect: read-only-github-metadata
+
+```bash
+npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>
 ```
 
 ### domain-cutover

@@ -1,6 +1,6 @@
 # Herbalisti Objective Completion Audit
 
-Generated: 2026-07-01T11:56:51.415Z
+Generated: 2026-07-01T12:39:57.978Z
 
 ## Objective
 
@@ -11,7 +11,7 @@ Build Herbalisti as a fully functioning website for herbalisti.com with original
 - Status: `local-ready-production-pending`
 - Goal complete: `false`
 - Local implementation ready: `true`
-- Audit signature: `f4a4d0abcdd2a42b0eec21c267d48a08008e1dfde9c3d396d7b61fd01cf5e8d7`
+- Audit signature: `7352cf860ece6e799e434aa4460debcc1805ede89bd47ab223c4a90aa60e5713`
 
 ## Completion Rule
 
@@ -67,7 +67,14 @@ Completion is only proven when every requirement is either locally proven or liv
 - Required resources: cloudflare-pages, cloudflare-d1, scheduled-news-worker
 - Required launch secrets: FEED_ADMIN_TOKEN
 
-Live completion gates:
+Final completion gates:
+
+- npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>
+- npm run verify:live-readiness -- --strict
+- npm run verify:production -- https://herbalisti.com
+- npm run verify:goal-readiness -- --strict
+
+Live-domain completion gates:
 
 - npm run verify:live-readiness -- --strict
 - npm run verify:production -- https://herbalisti.com
@@ -85,8 +92,8 @@ Live completion gates:
 - API endpoints catalogued: `17`
 - Public API endpoints: `14`
 - Protected API endpoints: `3`
-- Current news signals: `18`
-- Current news refresh status: `completed_with_warnings`
+- Current news signals: `24`
+- Current news refresh status: `completed`
 - OpenAI Image Gen 2 assets: `2`
 - Corpus rights status: `pass`
 

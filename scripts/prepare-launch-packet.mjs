@@ -257,6 +257,9 @@ const phases = [
       command('npm run verify:dns-cutover'),
       command('npm run verify:production-feed-seed'),
       command('npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed', 'writes-cloudflare-d1'),
+      command(
+        'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
+      ),
       command('npm run verify:live-readiness -- --strict'),
       command('npm run verify:production -- https://herbalisti.com'),
       command('npm run verify:goal-readiness -- --strict'),
