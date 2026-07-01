@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T01:08:21.772Z",
+  "generatedAt": "2026-07-01T02:21:12.588Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -425,7 +425,7 @@
       "title": "Run guarded GitHub production deploy workflow",
       "requiredForLaunch": false,
       "approvalRequired": true,
-      "command": "GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production",
+      "command": "GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production; if skip_live_verification=true, also set skip_live_verification_confirm=skip-herbalisti-live-verification",
       "additionalCommands": [],
       "externalEffect": "Runs the manual GitHub production workflow that can create or confirm the Pages project, resolve or create the D1 database by name, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, and run live verification.",
       "approvalReason": "Public production deployment automation with Cloudflare resource, secret, D1, Worker, and live-site effects.",
@@ -451,6 +451,7 @@
       ],
       "notes": [
         "Requires the exact workflow input confirm=deploy-herbalisti-production.",
+        "If skip_live_verification=true during DNS transition, also set skip_live_verification_confirm=skip-herbalisti-live-verification.",
         "Use the GitHub production environment approval controls before dispatch.",
         "Run npm run verify:production-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.",
         "Do not use skip_live_verification for final completion evidence."

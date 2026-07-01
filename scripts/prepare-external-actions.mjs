@@ -352,6 +352,7 @@ const approvalRequiredActions = [
     ],
     notes: [
       'Requires the exact workflow input confirm=deploy-herbalisti-production.',
+      'If skip_live_verification=true during DNS transition, also set skip_live_verification_confirm=skip-herbalisti-live-verification.',
       'Use the GitHub production environment approval controls before dispatch.',
       'Run npm run verify:production-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.',
       'Do not use skip_live_verification for final completion evidence.',

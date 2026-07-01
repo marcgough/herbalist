@@ -27,6 +27,12 @@ assert(!workflow.includes('pull_request:'), 'Production deploy workflow must not
 assert(!workflow.includes('schedule:'), 'Production deploy workflow must not run on a schedule')
 assert(workflow.includes('deploy-herbalisti-production'), 'Production deploy workflow must require an exact confirmation phrase')
 assert(workflow.includes('DEPLOY_CONFIRMATION'), 'Production deploy workflow should pass confirmation input through an environment variable')
+assert(workflow.includes('skip_live_verification'), 'Production deploy workflow should expose a DNS-transition live verification override')
+assert(workflow.includes('skip_live_verification_confirm'), 'Production deploy workflow should require a separate live-verification skip acknowledgement input')
+assert(workflow.includes('skip-herbalisti-live-verification'), 'Production deploy workflow should require the exact live-verification skip acknowledgement phrase')
+assert(workflow.includes('SKIP_LIVE_VERIFICATION'), 'Production deploy workflow should pass the live-verification skip input through an environment variable')
+assert(workflow.includes('SKIP_LIVE_VERIFICATION_CONFIRMATION'), 'Production deploy workflow should pass the live-verification skip acknowledgement through an environment variable')
+assert(workflow.includes('Live verification acknowledgement required'), 'Production deploy workflow should fail loudly when live verification is skipped without acknowledgement')
 assert(workflow.includes('environment:'), 'Production deploy workflow should use a GitHub environment')
 assert(workflow.includes('name: production'), 'Production deploy workflow should target the production environment')
 assert(workflow.includes('url: https://herbalisti.com'), 'Production deploy workflow should publish the production URL')
@@ -92,7 +98,6 @@ for (const command of [
 assert(workflow.includes("printf '%s' \"$FEED_ADMIN_TOKEN\""), 'FEED_ADMIN_TOKEN should be piped without echoing')
 assert(workflow.includes("printf '%s' \"$KIE_API_KEY\""), 'KIE_API_KEY should be piped without echoing')
 assert(workflow.includes("printf '%s' \"$MEDIA_ADMIN_TOKEN\""), 'MEDIA_ADMIN_TOKEN should be piped without echoing')
-assert(workflow.includes('skip_live_verification'), 'Production deploy workflow should expose a DNS-transition live verification override')
 assert(packageJson.scripts?.['seed:production-feed'], 'Production deploy workflow should use the shared feed seed command')
 assert(feedSeedScript.includes('/api/feed-refresh'), 'Production feed seed command should post to the protected feed-refresh endpoint')
 assert(feedSeedScript.includes("['completed', 'completed_with_warnings']"), 'Production feed seed command should accept completed feed-refresh statuses only')
@@ -105,6 +110,12 @@ assert(contract.commands.safePreflight.includes('npm run verify:cloudflare-token
 assert(
   externalActions.approvalRequiredActions?.some((action) => action.id === 'run-github-production-deploy-workflow'),
   'External action checklist should include the guarded GitHub production deploy workflow action',
+)
+assert(
+  externalActions.approvalRequiredActions
+    ?.find((action) => action.id === 'run-github-production-deploy-workflow')
+    ?.notes?.some((note) => note.includes('skip_live_verification_confirm=skip-herbalisti-live-verification')),
+  'External action checklist should document the live-verification skip acknowledgement phrase',
 )
 
 console.log(

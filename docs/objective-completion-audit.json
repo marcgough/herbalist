@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T01:10:57.092Z",
-  "auditSignature": "ced04dc8eb64bf49943528dcedd252c6885646f3b74052663b409a597115257b",
+  "generatedAt": "2026-07-01T02:47:59.493Z",
+  "auditSignature": "bd1dccb88392e5d19bf4a649ab765b735abc1c1c3e890a4ad23cf56dcd0df359",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -539,30 +539,30 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T01:09:50.508Z",
-      "total": 24,
+      "generatedAt": "2026-07-01T02:47:00.830Z",
+      "total": 22,
       "topicCounts": {
         "Longevity": 14,
         "DNA modification": 4,
         "Peptides": 3,
-        "Self-sovereign wellbeing": 1,
-        "CRISPR": 5,
-        "Gene editing": 5,
-        "Gene therapy": 2,
-        "Health as a service": 1
+        "Gene therapy": 1,
+        "CRISPR": 2,
+        "Gene editing": 1,
+        "Health as a service": 1,
+        "Self-sovereign wellbeing": 1
       },
       "sourceCounts": {
         "Fight Aging!": 6,
         "Lifespan.io": 6,
-        "arXiv": 2,
-        "bioRxiv": 5,
-        "Crossref": 5
+        "arXiv": 3,
+        "Crossref": 2,
+        "bioRxiv": 5
       },
-      "latestRefreshStatus": "completed",
+      "latestRefreshStatus": "completed_with_warnings",
       "publicSnapshot": {
         "status": "updated",
-        "itemCount": 24,
-        "generatedAt": "2026-07-01T01:09:50.508Z"
+        "itemCount": 22,
+        "generatedAt": "2026-07-01T02:47:00.830Z"
       }
     },
     "media": {
@@ -669,6 +669,7 @@
       "noDnsMutationWithoutApproval": true,
       "noPaidGenerationWithoutApproval": true,
       "noSecretValuesInLogs": true,
+      "liveVerificationSkipRequiresAcknowledgement": true,
       "medicalAdvice": "disabled",
       "publicAccounts": "disabled",
       "sourceMode": "allowlist_first"

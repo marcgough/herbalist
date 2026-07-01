@@ -150,6 +150,16 @@ assert(
   'Guarded GitHub production deploy workflow should require current production state evidence verification',
 )
 assert(
+  externalActions['run-github-production-deploy-workflow'].notes?.some((note) =>
+    note.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
+  ),
+  'Guarded GitHub production deploy workflow should document the live-verification skip acknowledgement phrase',
+)
+assert(
+  markdown.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
+  'External action Markdown should document the live-verification skip acknowledgement phrase',
+)
+assert(
   localIds.has('generate-production-state-snapshot') && markdown.includes('verify:production-state'),
   'Checklist should include production state snapshot generation and verification',
 )

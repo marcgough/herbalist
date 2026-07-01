@@ -83,6 +83,8 @@ assert(productionDeploy.includes('workflow_dispatch:'), 'Production deploy workf
 assert(!productionDeploy.includes('push:'), 'Production deploy workflow should not run automatically on push')
 assert(!productionDeploy.includes('pull_request:'), 'Production deploy workflow should not run automatically on pull_request')
 assert(productionDeploy.includes('deploy-herbalisti-production'), 'Production deploy workflow should require the exact confirmation phrase')
+assert(productionDeploy.includes('skip_live_verification_confirm'), 'Production deploy workflow should require the live-verification skip acknowledgement input')
+assert(productionDeploy.includes('skip-herbalisti-live-verification'), 'Production deploy workflow should require the exact live-verification skip acknowledgement phrase')
 assert(productionDeploy.includes('environment:'), 'Production deploy workflow should use a GitHub production environment')
 assert(productionDeploy.includes('npm run verify:github-release-evidence'), 'Production deploy workflow should require exact release evidence')
 assert(productionDeploy.includes('npm run verify:production-state-current'), 'Production deploy workflow should verify current production state evidence')
@@ -134,6 +136,10 @@ assert(contract.commands.safePreflight.includes('npm run verify:production-state
 assert(contract.commands.safePreflight.includes('npm run verify:cloudflare-token-requirements'), 'Safe preflight should include Cloudflare token requirement verification')
 assert(runbook.includes('npm run verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
 assert(runbook.includes('npm run verify:production-deploy-workflow'), 'Deployment runbook should document production deploy workflow verification')
+assert(
+  runbook.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
+  'Deployment runbook should document the live-verification skip acknowledgement phrase',
+)
 assert(runbook.includes('npm run verify:production-deploy-dry-run'), 'Deployment runbook should document production deploy dry-run verification')
 assert(runbook.includes('npm run verify:production-d1-resolver'), 'Deployment runbook should document production D1 resolver verification')
 assert(runbook.includes('npm run verify:production-feed-seed'), 'Deployment runbook should document production feed seed verification')
@@ -143,6 +149,10 @@ assert(runbook.includes('npm run verify:production-state'), 'Deployment runbook 
 assert(runbook.includes('npm run verify:cloudflare-token-requirements'), 'Deployment runbook should document Cloudflare token requirement verification')
 assert(launchPacket.includes('npm run verify:github-actions'), 'Production launch packet should document GitHub Actions verification')
 assert(launchPacket.includes('npm run verify:production-deploy-workflow'), 'Production launch packet should document production deploy workflow verification')
+assert(
+  launchPacket.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
+  'Production launch packet should document the live-verification skip acknowledgement phrase',
+)
 assert(launchPacket.includes('npm run verify:production-deploy-dry-run'), 'Production launch packet should document production deploy dry-run verification')
 assert(launchPacket.includes('npm run verify:production-d1-resolver'), 'Production launch packet should document production D1 resolver verification')
 assert(launchPacket.includes('npm run verify:production-feed-seed'), 'Production launch packet should document production feed seed verification')

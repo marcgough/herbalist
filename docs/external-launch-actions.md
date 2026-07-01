@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-07-01T01:08:21.772Z
+Generated: 2026-07-01T02:21:12.588Z
 
 Status: needs-approval-and-production-setup
 
@@ -387,7 +387,7 @@ Approval reason: Public production deployment automation with Cloudflare resourc
 Command:
 
 ```bash
-GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production
+GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production; if skip_live_verification=true, also set skip_live_verification_confirm=skip-herbalisti-live-verification
 ```
 
 Secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, FEED_ADMIN_TOKEN, KIE_API_KEY, MEDIA_ADMIN_TOKEN
@@ -406,6 +406,7 @@ Verification:
 
 Notes:
 - Requires the exact workflow input confirm=deploy-herbalisti-production.
+- If skip_live_verification=true during DNS transition, also set skip_live_verification_confirm=skip-herbalisti-live-verification.
 - Use the GitHub production environment approval controls before dispatch.
 - Run npm run verify:production-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.
 - Do not use skip_live_verification for final completion evidence.

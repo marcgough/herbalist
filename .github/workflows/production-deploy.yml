@@ -12,6 +12,10 @@ on:
         required: true
         default: false
         type: boolean
+      skip_live_verification_confirm:
+        description: When skip_live_verification is true, type skip-herbalisti-live-verification to acknowledge strict live verification remains required for final completion.
+        required: false
+        type: string
 
 permissions:
   contents: read
@@ -32,10 +36,16 @@ jobs:
         shell: bash
         env:
           DEPLOY_CONFIRMATION: ${{ inputs.confirm }}
+          SKIP_LIVE_VERIFICATION: ${{ inputs.skip_live_verification }}
+          SKIP_LIVE_VERIFICATION_CONFIRMATION: ${{ inputs.skip_live_verification_confirm }}
         run: |
           set -euo pipefail
           if [ "$DEPLOY_CONFIRMATION" != "deploy-herbalisti-production" ]; then
             echo "::error title=Confirmation required::Type deploy-herbalisti-production to run this production deployment workflow."
+            exit 1
+          fi
+          if [ "$SKIP_LIVE_VERIFICATION" = "true" ] && [ "$SKIP_LIVE_VERIFICATION_CONFIRMATION" != "skip-herbalisti-live-verification" ]; then
+            echo "::error title=Live verification acknowledgement required::When skip_live_verification is true, type skip-herbalisti-live-verification in skip_live_verification_confirm. Final completion still requires strict live verification."
             exit 1
           fi
 

@@ -174,13 +174,16 @@ const phases = [
       command('npm run verify:github-production-readiness -- --strict'),
       command('npm run verify:production-state-current'),
       command('npm run resolve:production-d1 -- --create-if-missing --github-env "$GITHUB_ENV"', 'creates-cloudflare-resource-when-missing'),
-      command('GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production', 'deploys-production-when-dispatched'),
+      command(
+        'GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production; if skip_live_verification=true, also set skip_live_verification_confirm=skip-herbalisti-live-verification',
+        'deploys-production-when-dispatched',
+      ),
     ],
     blockers: [],
     notes: [
       'The workflow is manual-only and requires the GitHub production environment.',
       'The workflow still requires exact GitHub CI/manual release evidence for the dispatch commit.',
-      'Live verification can be temporarily skipped only while DNS is being connected; final completion still requires strict live verification.',
+      'Live verification can be temporarily skipped only while DNS is being connected and only with skip_live_verification_confirm=skip-herbalisti-live-verification; final completion still requires strict live verification.',
     ],
   }),
   phase({

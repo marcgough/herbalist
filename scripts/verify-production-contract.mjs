@@ -407,6 +407,16 @@ assert(
   'Contract should include the canonical production feed seed command',
 )
 assert(
+  contract.commands.githubProductionDeploy?.[0]?.includes(
+    'skip_live_verification_confirm=skip-herbalisti-live-verification',
+  ),
+  'Contract should document the live-verification skip acknowledgement phrase',
+)
+assert(
+  contract.guardrails?.liveVerificationSkipRequiresAcknowledgement === true,
+  'Contract guardrails should require acknowledgement before skipping live verification',
+)
+assert(
   contract.commands.liveCompletionGates.includes('npm run verify:live-readiness -- --strict'),
   'Live completion gates should include strict live-domain readiness verification',
 )
@@ -428,6 +438,10 @@ assert(
 assert(
   launchPacketScript.includes('npm run verify:production-deploy-workflow'),
   'Launch packet generator should include production deploy workflow verification',
+)
+assert(
+  launchPacketScript.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
+  'Launch packet generator should document the live-verification skip acknowledgement phrase',
 )
 assert(
   launchPacketScript.includes('npm run verify:production-deploy-dry-run'),
@@ -516,6 +530,10 @@ assert(runbook.includes('verify:accessibility-smoke'), 'Deployment runbook shoul
 assert(runbook.includes('verify:visual-smoke'), 'Deployment runbook should document visual smoke verification')
 assert(runbook.includes('verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
 assert(runbook.includes('verify:production-deploy-workflow'), 'Deployment runbook should document production deploy workflow verification')
+assert(
+  runbook.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
+  'Deployment runbook should document the live-verification skip acknowledgement phrase',
+)
 assert(runbook.includes('verify:production-deploy-dry-run'), 'Deployment runbook should document production deploy dry-run verification')
 assert(runbook.includes('verify:production-d1-resolver'), 'Deployment runbook should document production D1 resolver verification')
 assert(runbook.includes('verify:production-feed-seed'), 'Deployment runbook should document production feed seed verification')
@@ -569,6 +587,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:production-deploy-workflow'),
   'Production launch packet doc should include production deploy workflow verification',
+)
+assert(
+  launchPacketDoc.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
+  'Production launch packet doc should include the live-verification skip acknowledgement phrase',
 )
 assert(
   launchPacketDoc.includes('verify:production-deploy-dry-run'),
@@ -651,6 +673,12 @@ assert(
     ?.find((action) => action.id === 'run-github-production-deploy-workflow')
     ?.verification?.includes('npm run verify:production-state-current'),
   'External action checklist should require current production state evidence before the guarded GitHub production deploy workflow',
+)
+assert(
+  externalActionsJson.approvalRequiredActions
+    ?.find((action) => action.id === 'run-github-production-deploy-workflow')
+    ?.notes?.some((note) => note.includes('skip_live_verification_confirm=skip-herbalisti-live-verification')),
+  'External action checklist should document the live-verification skip acknowledgement phrase',
 )
 assert(
   externalActionsJson.approvalRequiredActions?.some((action) => action.id === 'seed-production-feed'),
