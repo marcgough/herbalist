@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T23:41:14.102Z",
-  "auditSignature": "e38c25e263cd47c12e873de7c94dabb9c2fd0e9375d6d53c0cda994f968f4734",
+  "generatedAt": "2026-07-01T00:14:36.724Z",
+  "auditSignature": "8b5e62bf2bff7b7b555cb0a1514c12e1228129c3a244e5fb7635ccc91aa5591a",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -323,6 +323,8 @@
         "docs/external-launch-actions.md",
         "docs/production-provisioning-readiness.json",
         "docs/production-provisioning-readiness.md",
+        "docs/production-state-snapshot.json",
+        "docs/production-state-snapshot.md",
         "docs/d1-production-migration-manifest.json",
         "docs/d1-production-migration-manifest.md",
         "docs/dns-cutover-plan.json",
@@ -347,6 +349,7 @@
         "scripts/simulate-production-cutover.mjs",
         "scripts/verify-production-cutover-simulation.mjs",
         "scripts/prepare-production-provisioning.mjs",
+        "scripts/prepare-production-state-snapshot.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
         "scripts/verify-github-production-readiness.mjs",
         "scripts/verify-cloudflare-production-state.mjs",
@@ -354,6 +357,8 @@
         "npm run verify:production-contract",
         "npm run verify:external-actions",
         "npm run verify:production-provisioning",
+        "npm run prepare:production-state",
+        "npm run verify:production-state",
         "npm run verify:d1-manifest",
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
@@ -386,6 +391,7 @@
         "scripts/prepare-launch-packet.mjs",
         "scripts/prepare-external-actions.mjs",
         "scripts/prepare-production-provisioning.mjs",
+        "scripts/prepare-production-state-snapshot.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
         "scripts/verify-github-production-readiness.mjs",
         "scripts/verify-cloudflare-production-state.mjs",
@@ -404,6 +410,8 @@
         "npm run verify:launch -- --soft",
         "npm run verify:production-cutover",
         "npm run verify:production-provisioning",
+        "npm run prepare:production-state",
+        "npm run verify:production-state",
         "npm run verify:production-deploy-workflow",
         "npm run verify:github-production-readiness",
         "npm run verify:cloudflare-production-state",
@@ -463,6 +471,7 @@
         "scripts/verify-github-actions.mjs",
         "scripts/verify-github-release-evidence.mjs",
         "scripts/verify-github-production-readiness.mjs",
+        "scripts/prepare-production-state-snapshot.mjs",
         "scripts/verify-cloudflare-production-state.mjs",
         "scripts/prepare-cloudflare-token-requirements.mjs",
         "scripts/prepare-d1-production-manifest.mjs",
@@ -530,30 +539,30 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-06-30T23:40:14.327Z",
+      "generatedAt": "2026-07-01T00:13:35.575Z",
       "total": 24,
       "topicCounts": {
-        "Longevity": 15,
-        "DNA modification": 5,
-        "Peptides": 1,
+        "Longevity": 14,
+        "DNA modification": 4,
+        "Peptides": 3,
         "Self-sovereign wellbeing": 1,
-        "Gene editing": 7,
-        "CRISPR": 6,
-        "Gene therapy": 3,
+        "CRISPR": 5,
+        "Gene editing": 5,
+        "Gene therapy": 2,
         "Health as a service": 1
       },
       "sourceCounts": {
         "Fight Aging!": 6,
         "Lifespan.io": 6,
         "arXiv": 2,
-        "bioRxiv": 3,
-        "Crossref": 7
+        "bioRxiv": 5,
+        "Crossref": 5
       },
       "latestRefreshStatus": "completed",
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-06-30T23:40:14.327Z"
+        "generatedAt": "2026-07-01T00:13:35.575Z"
       }
     },
     "media": {
@@ -583,9 +592,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 142,
-      "scripts": 102,
-      "passes": 215
+      "files": 145,
+      "scripts": 104,
+      "passes": 220
     },
     "nextActions": [
       "Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.",
@@ -624,6 +633,7 @@
       "npm run verify:d1-manifest",
       "npm run verify:dns-cutover",
       "npm run verify:production-secrets",
+      "npm run verify:production-state",
       "npm run prepare:production-provisioning",
       "npm run verify:production-provisioning",
       "npm run verify:static-news-refresh",

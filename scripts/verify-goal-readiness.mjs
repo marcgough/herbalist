@@ -508,6 +508,8 @@ const requirements = [
       exists('docs/external-launch-actions.md') &&
       exists('docs/production-provisioning-readiness.json') &&
       exists('docs/production-provisioning-readiness.md') &&
+      exists('docs/production-state-snapshot.json') &&
+      exists('docs/production-state-snapshot.md') &&
       exists('docs/d1-production-migration-manifest.json') &&
       exists('docs/d1-production-migration-manifest.md') &&
       exists('docs/dns-cutover-plan.json') &&
@@ -532,6 +534,7 @@ const requirements = [
       exists('scripts/simulate-production-cutover.mjs') &&
       exists('scripts/verify-production-cutover-simulation.mjs') &&
       exists('scripts/prepare-production-provisioning.mjs') &&
+      exists('scripts/prepare-production-state-snapshot.mjs') &&
       exists('scripts/verify-production-deploy-workflow.mjs') &&
       exists('scripts/verify-github-production-readiness.mjs') &&
       exists('scripts/verify-cloudflare-production-state.mjs') &&
@@ -539,6 +542,8 @@ const requirements = [
       Boolean(scripts['verify:production-contract']) &&
       Boolean(scripts['verify:external-actions']) &&
       Boolean(scripts['verify:production-provisioning']) &&
+      Boolean(scripts['prepare:production-state']) &&
+      Boolean(scripts['verify:production-state']) &&
       Boolean(scripts['verify:cloudflare-token-requirements']) &&
       Boolean(scripts['prepare:cloudflare-token-requirements']) &&
       Boolean(scripts['verify:d1-manifest']) &&
@@ -575,6 +580,8 @@ const requirements = [
       'docs/external-launch-actions.md',
       'docs/production-provisioning-readiness.json',
       'docs/production-provisioning-readiness.md',
+      'docs/production-state-snapshot.json',
+      'docs/production-state-snapshot.md',
       'docs/d1-production-migration-manifest.json',
       'docs/d1-production-migration-manifest.md',
       'docs/dns-cutover-plan.json',
@@ -599,6 +606,7 @@ const requirements = [
       'scripts/simulate-production-cutover.mjs',
       'scripts/verify-production-cutover-simulation.mjs',
       'scripts/prepare-production-provisioning.mjs',
+      'scripts/prepare-production-state-snapshot.mjs',
       'scripts/verify-production-deploy-workflow.mjs',
       'scripts/verify-github-production-readiness.mjs',
       'scripts/verify-cloudflare-production-state.mjs',
@@ -606,6 +614,8 @@ const requirements = [
       'npm run verify:production-contract',
       'npm run verify:external-actions',
       'npm run verify:production-provisioning',
+      'npm run prepare:production-state',
+      'npm run verify:production-state',
       'npm run verify:d1-manifest',
       'npm run verify:dns-cutover',
       'npm run verify:production-secrets',
@@ -635,6 +645,7 @@ const requirements = [
       'scripts/prepare-launch-packet.mjs',
       'scripts/prepare-external-actions.mjs',
       'scripts/prepare-production-provisioning.mjs',
+      'scripts/prepare-production-state-snapshot.mjs',
       'scripts/verify-production-deploy-workflow.mjs',
       'scripts/verify-github-production-readiness.mjs',
       'scripts/verify-cloudflare-production-state.mjs',
@@ -653,6 +664,8 @@ const requirements = [
       'npm run verify:launch -- --soft',
       'npm run verify:production-cutover',
       'npm run verify:production-provisioning',
+      'npm run prepare:production-state',
+      'npm run verify:production-state',
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-production-readiness',
       'npm run verify:cloudflare-production-state',
@@ -701,6 +714,8 @@ const requirements = [
       scripts['verify:github-actions'] &&
       scripts['verify:github-release-evidence'] &&
       scripts['verify:github-production-readiness'] &&
+      scripts['verify:production-state'] &&
+      scripts['prepare:production-state'] &&
       scripts['verify:cloudflare-production-state'] &&
       scripts['verify:cloudflare-token-requirements'] &&
       scripts['verify:d1-manifest'] &&
@@ -760,6 +775,7 @@ const requirements = [
       'scripts/verify-github-actions.mjs',
       'scripts/verify-github-release-evidence.mjs',
       'scripts/verify-github-production-readiness.mjs',
+      'scripts/prepare-production-state-snapshot.mjs',
       'scripts/verify-cloudflare-production-state.mjs',
       'scripts/prepare-cloudflare-token-requirements.mjs',
       'scripts/prepare-d1-production-manifest.mjs',

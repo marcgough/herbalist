@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T23:40:14.327Z",
+  "generatedAt": "2026-07-01T00:13:35.575Z",
   "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names filtered from source/title metadata.",
   "sourceHealthPolicy": "Source health checks report allowlisted public or independent sources only; warnings do not add fallback pharma channels.",
   "warnings": [],
@@ -11,7 +11,7 @@
       "sourceType": "public-research-index",
       "role": "Public biomedical metadata for frontier-biology terms.",
       "status": "empty",
-      "checkedAt": "2026-06-30T23:40:10.500Z",
+      "checkedAt": "2026-07-01T00:13:27.156Z",
       "itemCount": 10,
       "usableItemCount": 0,
       "newestItemAt": "",
@@ -26,7 +26,7 @@
       "sourceType": "public-research-index",
       "role": "Open preprint metadata for computational biology and frontier science.",
       "status": "ok",
-      "checkedAt": "2026-06-30T23:40:09.252Z",
+      "checkedAt": "2026-07-01T00:13:25.357Z",
       "itemCount": 8,
       "usableItemCount": 2,
       "newestItemAt": "2026-06-29T04:43:22.000Z",
@@ -41,10 +41,10 @@
       "sourceType": "preprint-server",
       "role": "Public biology preprint metadata for longevity and biotechnology topics.",
       "status": "ok",
-      "checkedAt": "2026-06-30T23:40:11.704Z",
-      "itemCount": 3,
-      "usableItemCount": 3,
-      "newestItemAt": "2026-05-31T00:00:00.000Z",
+      "checkedAt": "2026-07-01T00:13:29.972Z",
+      "itemCount": 5,
+      "usableItemCount": 5,
+      "newestItemAt": "2026-06-01T00:00:00.000Z",
       "warning": "",
       "isAllowlisted": true,
       "isBigPharmaRelated": false
@@ -56,7 +56,7 @@
       "sourceType": "public-research-index",
       "role": "Public scholarly metadata expansion for longevity and frontier biology.",
       "status": "ok",
-      "checkedAt": "2026-06-30T23:40:14.327Z",
+      "checkedAt": "2026-07-01T00:13:35.575Z",
       "itemCount": 10,
       "usableItemCount": 10,
       "newestItemAt": "2026-05-01T00:00:00.000Z",
@@ -71,7 +71,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity coverage from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-06-30T23:40:10.113Z",
+      "checkedAt": "2026-07-01T00:13:26.853Z",
       "itemCount": 8,
       "usableItemCount": 5,
       "newestItemAt": "2026-06-30T16:21:38.000Z",
@@ -86,7 +86,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity commentary from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-06-30T23:40:10.162Z",
+      "checkedAt": "2026-07-01T00:13:26.661Z",
       "itemCount": 8,
       "usableItemCount": 6,
       "newestItemAt": "2026-06-30T18:35:31.000Z",
@@ -269,39 +269,62 @@
       "sourceType": "independent-longevity"
     },
     {
-      "id": "biorxiv-10.64898/2026.05.29.728865",
-      "title": "Relative Hemodynamic Timing in Human White Matter",
+      "id": "biorxiv-10.1101/2025.05.13.653866",
+      "title": "An abundant merozoite surface protein of Plasmodium falciparum modulates susceptibility to inhibitory antibodies",
       "sourceName": "bioRxiv",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728865v1",
-      "publishedAt": "2026-05-31T00:00:00.000Z",
-      "summary": "Public preprint metadata in neuroscience.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653866v3",
+      "publishedAt": "2026-06-01T00:00:00.000Z",
+      "summary": "Public preprint metadata in microbiology.",
+      "topics": [
+        "CRISPR"
+      ],
+      "sourceType": "preprint-server"
+    },
+    {
+      "id": "biorxiv-10.1101/2025.08.06.668799",
+      "title": "ASCL1 primes medullary thymic epithelial cell programs required for central tolerance",
+      "sourceName": "bioRxiv",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.08.06.668799v2",
+      "publishedAt": "2026-06-01T00:00:00.000Z",
+      "summary": "Public preprint metadata in immunology.",
+      "topics": [
+        "DNA modification"
+      ],
+      "sourceType": "preprint-server"
+    },
+    {
+      "id": "biorxiv-10.64898/2026.05.31.729018",
+      "title": "Thousandfold Expansion Microscopy",
+      "sourceName": "bioRxiv",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.31.729018v1",
+      "publishedAt": "2026-06-01T00:00:00.000Z",
+      "summary": "Public preprint metadata in molecular biology.",
+      "topics": [
+        "Peptides"
+      ],
+      "sourceType": "preprint-server"
+    },
+    {
+      "id": "biorxiv-10.64898/2026.05.06.723176",
+      "title": "High-throughput identification of protein turnover modulators in human neurons",
+      "sourceName": "bioRxiv",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.06.723176v2",
+      "publishedAt": "2026-06-01T00:00:00.000Z",
+      "summary": "Public preprint metadata in cell biology.",
       "topics": [
         "Longevity"
       ],
       "sourceType": "preprint-server"
     },
     {
-      "id": "biorxiv-10.64898/2026.05.29.728722",
-      "title": "Chronic Mild Stress Impairs Hippocampal Myelination through SOX6-Dependent Dysfunction of Oligodendrocyte Lineage Cells",
+      "id": "biorxiv-10.1101/2025.11.06.687047",
+      "title": "A nutrient-sensitive enterokine coordinates developmental plasticity through inter-organ signalling",
       "sourceName": "bioRxiv",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728722v1",
-      "publishedAt": "2026-05-31T00:00:00.000Z",
-      "summary": "Public preprint metadata in neuroscience.",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.06.687047v2",
+      "publishedAt": "2026-06-01T00:00:00.000Z",
+      "summary": "Public preprint metadata in developmental biology.",
       "topics": [
-        "DNA modification"
-      ],
-      "sourceType": "preprint-server"
-    },
-    {
-      "id": "biorxiv-10.64898/2026.05.29.728902",
-      "title": "PFAS exposure is associated with accelerated epigenetic ageing in a wild marine mammal",
-      "sourceName": "bioRxiv",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728902v1",
-      "publishedAt": "2026-05-31T00:00:00.000Z",
-      "summary": "Public preprint metadata in ecology.",
-      "topics": [
-        "Longevity",
-        "DNA modification"
+        "Peptides"
       ],
       "sourceType": "preprint-server"
     },
@@ -345,19 +368,6 @@
       "sourceType": "public-research-index"
     },
     {
-      "id": "crossref-15fszgf",
-      "title": "Current Applications and Future Perspective of CRISPR/Cas9 Gene Editing in Cancer Therapy",
-      "sourceName": "Crossref",
-      "url": "https://doi.org/10.62051/ijphmr.v5n1.06",
-      "publishedAt": "2025-10-22T00:00:00.000Z",
-      "summary": "Public Crossref metadata from International Journal of Public Health and Medical Research.",
-      "topics": [
-        "Gene editing",
-        "CRISPR"
-      ],
-      "sourceType": "public-research-index"
-    },
-    {
       "id": "crossref-mucr5n",
       "title": "Gene, Base, and Prime Editing",
       "sourceName": "Crossref",
@@ -367,20 +377,6 @@
       "topics": [
         "Gene therapy",
         "Gene editing"
-      ],
-      "sourceType": "public-research-index"
-    },
-    {
-      "id": "crossref-16l21t7",
-      "title": "Progress and Criteria in Public Health Applications of Gene Therapy and Gene Editing: Beyond the White Paper",
-      "sourceName": "Crossref",
-      "url": "https://doi.org/10.1159/000546850",
-      "publishedAt": "2025-06-18T00:00:00.000Z",
-      "summary": "Public Crossref metadata from Public Health Genomics.",
-      "topics": [
-        "Gene therapy",
-        "Gene editing",
-        "CRISPR"
       ],
       "sourceType": "public-research-index"
     },

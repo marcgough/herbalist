@@ -153,6 +153,7 @@ for (const [label, command] of [
   ['GitHub Actions handoff', npm('run', 'verify:github-actions')],
   ['GitHub production readiness verifier contract', npm('run', 'verify:github-production-readiness', '--', '--skip-release-evidence')],
   ['Cloudflare production state probe', npm('run', 'verify:cloudflare-production-state')],
+  ['production state snapshot', npm('run', 'verify:production-state')],
   ['Cloudflare token requirement packet', npm('run', 'verify:cloudflare-token-requirements')],
   ['protected admin token auth', npm('run', 'verify:admin-auth')],
   ['DNS custom-domain cutover plan', npm('run', 'verify:dns-cutover')],

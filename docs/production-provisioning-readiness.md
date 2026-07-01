@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-06-30T23:25:59.960Z
+Generated: 2026-07-01T00:12:11.084Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -19,6 +19,8 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - DNS cutover status: needs-dns-cutover
 - DNS nameserver provider: external-or-registrar
 - Production secret setup status: ready-for-secret-entry
+- Production state snapshot status: local-ready-production-pending
+- Production state snapshot blockers: 16
 - GitHub production secret names: 5
 - Cloudflare token requirement status: ready-for-token-entry
 - Cloudflare token required permissions: 4
@@ -40,6 +42,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: D1 production migration manifest is current and included in safe preflight.
 - pass: DNS/custom-domain cutover plan is available and included in safe preflight.
 - pass: Production secret setup packet is current and included in safe preflight.
+- pass: Production state snapshot is available and included in safe preflight.
 - pass: Cloudflare API token permission packet is current and included in safe preflight.
 - pass: Safe preflight includes GitHub CI/manual release evidence verification.
 - pass: Cloudflare binding configurator is available.
@@ -78,6 +81,7 @@ npm run verify:cloudflare-production-state
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:production-state
 npm run verify:cloudflare-token-requirements
 npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver

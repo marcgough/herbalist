@@ -108,6 +108,18 @@ const localAllowedActions = [
     writesLocalFiles: true,
   }),
   localAction({
+    id: 'generate-production-state-snapshot',
+    title: 'Generate consolidated production state snapshot',
+    command: 'npm run prepare:production-state',
+    purpose:
+      'Refresh the machine-readable and Markdown snapshot that consolidates completion, GitHub, Cloudflare, DNS, live-domain, and release evidence.',
+    writesLocalFiles: true,
+    notes: [
+      'Use npm run verify:production-state to check the stored snapshot schema and secret-free boundary.',
+      'This action is read-only against external services and must not set secrets, deploy, mutate DNS, or create resources.',
+    ],
+  }),
+  localAction({
     id: 'verify-production-feed-seed',
     title: 'Verify production feed seed command',
     command: 'npm run verify:production-feed-seed',
@@ -313,6 +325,7 @@ const approvalRequiredActions = [
       'npm run verify:github-release-evidence',
       'npm run verify:d1-manifest',
       'npm run verify:production-secrets',
+      'npm run verify:production-state',
       'npm run verify:cloudflare-token-requirements',
       'npm run verify:live-readiness -- --strict',
       'npm run verify:production -- https://herbalisti.com',

@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-01T00:11:23.938Z",
+  "status": "local-ready-production-pending",
+  "productionComplete": false,
+  "safeToRun": "Reads local launch artifacts, public DNS, public live-domain responses, GitHub readiness metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.",
+  "project": {
+    "domain": "herbalisti.com",
+    "pagesProject": "herbalisti",
+    "newsWorker": "herbalisti-news-refresh",
+    "d1Database": "herbalisti",
+    "optionalR2Bucket": "herbalisti-media"
+  },
+  "git": {
+    "branch": "main",
+    "commit": "081c2dc7e1921644249c0b6b74ba9d219eaf3a4e",
+    "note": "Commit is the repository HEAD observed when the snapshot was generated; the snapshot artifact itself may be committed afterward."
+  },
+  "summary": {
+    "completionAuditStatus": "local-ready-production-pending",
+    "goalComplete": false,
+    "localImplementationReady": true,
+    "pendingRequirementCount": 3,
+    "releaseEvidenceStatus": "pass",
+    "githubProductionReadinessStatus": "needs-github-production-setup",
+    "githubMissingSecretNames": [
+      "CLOUDFLARE_API_TOKEN",
+      "CLOUDFLARE_ACCOUNT_ID",
+      "FEED_ADMIN_TOKEN",
+      "KIE_API_KEY",
+      "MEDIA_ADMIN_TOKEN"
+    ],
+    "cloudflareProductionStateStatus": "needs-cloudflare-auth",
+    "wranglerAuthenticated": false,
+    "dnsCutoverStatus": "needs-dns-cutover",
+    "dnsNameserverProvider": "external-or-registrar",
+    "liveReadinessStatus": "not-ready",
+    "productionProvisioningStatus": "ready-for-approved-production-provisioning",
+    "blockerCount": 16
+  },
+  "checks": [
+    {
+      "id": "completion-audit-loaded",
+      "status": "pass",
+      "detail": "Completion audit status is local-ready-production-pending."
+    },
+    {
+      "id": "github-release-evidence-captured",
+      "status": "pass",
+      "detail": "Release evidence is pass for 081c2dc7e1921644249c0b6b74ba9d219eaf3a4e."
+    },
+    {
+      "id": "github-production-readiness-captured",
+      "status": "pass",
+      "detail": "GitHub production readiness status is needs-github-production-setup."
+    },
+    {
+      "id": "cloudflare-production-state-captured",
+      "status": "pass",
+      "detail": "Cloudflare production state is needs-cloudflare-auth."
+    },
+    {
+      "id": "dns-cutover-state-captured",
+      "status": "pass",
+      "detail": "DNS cutover status is needs-dns-cutover."
+    },
+    {
+      "id": "live-readiness-captured",
+      "status": "pass",
+      "detail": "Live readiness status is not-ready."
+    },
+    {
+      "id": "secret-value-boundary",
+      "status": "pass",
+      "detail": "Snapshot stores secret names and readiness status only; no secret values are required or printed."
+    }
+  ],
+  "blockers": [
+    "Completion audit pending: independent-newsfeed: pending-production.",
+    "Completion audit pending: seedance-video-readiness: pending-production.",
+    "Completion audit pending: cloudflare-hosting: pending-production.",
+    "GitHub production secret name missing: CLOUDFLARE_API_TOKEN.",
+    "GitHub production secret name missing: CLOUDFLARE_ACCOUNT_ID.",
+    "GitHub production secret name missing: FEED_ADMIN_TOKEN.",
+    "GitHub production secret name missing: KIE_API_KEY.",
+    "GitHub production secret name missing: MEDIA_ADMIN_TOKEN.",
+    "Cloudflare production state is needs-cloudflare-auth.",
+    "DNS/custom-domain state is needs-dns-cutover.",
+    "Live domain readiness is not-ready.",
+    "Provisioning blocker: Pages D1 binding is not active.",
+    "Provisioning blocker: Scheduled Worker D1 binding is not active.",
+    "Provisioning blocker: FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch.",
+    "Provisioning blocker: KIE_API_KEY is not locally visible; confirm it is set directly in Cloudflare before launch.",
+    "Provisioning blocker: MEDIA_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch."
+  ],
+  "nextActions": [
+    "Add the required GitHub secret names without exposing values in chat, docs, or logs.",
+    "Run npm run verify:github-production-readiness again.",
+    "Authenticate Wrangler interactively or provide CLOUDFLARE_API_TOKEN, then rerun npm run verify:cloudflare-production-state.",
+    "Prepare Cloudflare zone delegation for herbalisti.com.",
+    "Capture the Cloudflare-assigned nameservers during approved setup.",
+    "Change registrar nameservers only after approval for public DNS mutation.",
+    "Attach herbalisti.com as a Cloudflare Pages custom domain after the Pages project exists.",
+    "Connect herbalisti.com as a Cloudflare Pages custom domain.",
+    "Confirm DNS is active for the apex domain.",
+    "Confirm the HERBALISTI_DB D1 binding is active in production.",
+    "Confirm FEED_ADMIN_TOKEN is set as a Cloudflare Pages secret for the protected feed-refresh endpoint.",
+    "Confirm KIE_API_KEY and MEDIA_ADMIN_TOKEN are set if protected Seedance endpoints remain required for launch.",
+    "Run the protected POST /api/feed-refresh path or wait for the scheduled Worker until /api/health reports a fresh completed feed refresh.",
+    "Deploy Cloudflare Pages and the scheduled news Worker.",
+    "Run npm run verify:live-readiness again.",
+    "Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.",
+    "Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.",
+    "Confirm Cloudflare runtime secrets for protected refresh and media-generation features.",
+    "Run npm run verify:launch again."
+  ],
+  "probes": {
+    "releaseEvidence": {
+      "summary": {
+        "ok": true,
+        "exitCode": 0,
+        "timedOut": false,
+        "status": "pass",
+        "error": null
+      },
+      "commit": "081c2dc7e1921644249c0b6b74ba9d219eaf3a4e",
+      "ciRunId": 28483440796,
+      "manualReleaseRunId": 28483471119,
+      "artifactId": 7996595562
+    },
+    "githubProductionReadiness": {
+      "summary": {
+        "ok": true,
+        "exitCode": 0,
+        "timedOut": false,
+        "status": "needs-github-production-setup",
+        "error": null
+      },
+      "environment": "production",
+      "protectionRuleCount": 2,
+      "branchPolicies": [
+        {
+          "name": "main",
+          "type": "branch"
+        }
+      ],
+      "requiredSecretNames": [
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID",
+        "FEED_ADMIN_TOKEN",
+        "KIE_API_KEY",
+        "MEDIA_ADMIN_TOKEN"
+      ],
+      "missingSecretNames": [
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID",
+        "FEED_ADMIN_TOKEN",
+        "KIE_API_KEY",
+        "MEDIA_ADMIN_TOKEN"
+      ]
+    },
+    "cloudflareProductionState": {
+      "summary": {
+        "ok": true,
+        "exitCode": 0,
+        "timedOut": false,
+        "status": "needs-cloudflare-auth",
+        "error": null
+      },
+      "wrangler": {
+        "command": "local-wrangler-js",
+        "version": "4.105.0",
+        "authenticated": false
+      },
+      "visibleState": {
+        "d1DatabaseNames": [],
+        "pagesProjectNames": [],
+        "pagesProductionDeploymentCount": 0,
+        "newsWorkerDeploymentCount": 0,
+        "pagesSecretNames": [],
+        "newsWorkerSecretNames": []
+      }
+    },
+    "dnsCutover": {
+      "summary": {
+        "ok": true,
+        "exitCode": 0,
+        "timedOut": false,
+        "status": "needs-dns-cutover",
+        "error": null
+      },
+      "provider": "external-or-registrar",
+      "cloudflareZoneReady": false,
+      "apexRecordPresent": true,
+      "caaReadyForCloudflareCertificate": true
+    },
+    "liveReadiness": {
+      "summary": {
+        "ok": true,
+        "exitCode": 0,
+        "timedOut": false,
+        "status": "not-ready",
+        "error": null
+      },
+      "dns": {
+        "aRecords": [
+          "192.64.119.134"
+        ],
+        "aaaaRecords": [],
+        "cnameRecords": [],
+        "nsRecords": [
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
+        ]
+      },
+      "http": {
+        "httpsStatus": null,
+        "httpRedirectStatus": 302,
+        "wwwRedirectStatus": null,
+        "healthStatus": null,
+        "healthD1Bound": null,
+        "protectedFeatures": null,
+        "feedRefreshFreshness": {
+          "completed": false,
+          "hasItems": false,
+          "ageHours": null,
+          "maxAgeHours": 8,
+          "fresh": false
+        }
+      }
+    }
+  }
+}

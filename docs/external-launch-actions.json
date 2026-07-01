@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T23:25:49.038Z",
+  "generatedAt": "2026-07-01T00:11:23.954Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -75,6 +75,19 @@
       "writesLocalFiles": true,
       "after": [],
       "notes": []
+    },
+    {
+      "id": "generate-production-state-snapshot",
+      "title": "Generate consolidated production state snapshot",
+      "approvalRequired": false,
+      "command": "npm run prepare:production-state",
+      "purpose": "Refresh the machine-readable and Markdown snapshot that consolidates completion, GitHub, Cloudflare, DNS, live-domain, and release evidence.",
+      "writesLocalFiles": true,
+      "after": [],
+      "notes": [
+        "Use npm run verify:production-state to check the stored snapshot schema and secret-free boundary.",
+        "This action is read-only against external services and must not set secrets, deploy, mutate DNS, or create resources."
+      ]
     },
     {
       "id": "verify-production-feed-seed",
@@ -409,6 +422,7 @@
         "npm run verify:github-release-evidence",
         "npm run verify:d1-manifest",
         "npm run verify:production-secrets",
+        "npm run verify:production-state",
         "npm run verify:cloudflare-token-requirements",
         "npm run verify:live-readiness -- --strict",
         "npm run verify:production -- https://herbalisti.com",

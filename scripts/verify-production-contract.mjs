@@ -168,6 +168,7 @@ assert(exists('scripts/prepare-external-actions.mjs'), 'Production contract requ
 assert(exists('scripts/verify-external-actions.mjs'), 'Production contract requires the external action verifier')
 assert(exists('scripts/prepare-completion-audit.mjs'), 'Production contract requires the objective completion audit generator')
 assert(exists('scripts/prepare-production-provisioning.mjs'), 'Production contract requires the production provisioning readiness generator')
+assert(exists('scripts/prepare-production-state-snapshot.mjs'), 'Production contract requires the production state snapshot generator')
 assert(exists('scripts/prepare-d1-production-manifest.mjs'), 'Production contract requires the D1 production migration manifest generator')
 assert(exists('scripts/prepare-dns-cutover-plan.mjs'), 'Production contract requires the DNS cutover plan generator')
 assert(exists('scripts/prepare-production-secret-setup.mjs'), 'Production contract requires the production secret setup generator')
@@ -193,6 +194,8 @@ assert(exists('docs/external-launch-actions.json'), 'Production contract require
 assert(exists('docs/external-launch-actions.md'), 'Production contract requires the external action Markdown handoff')
 assert(exists('docs/production-provisioning-readiness.json'), 'Production contract requires the production provisioning readiness JSON')
 assert(exists('docs/production-provisioning-readiness.md'), 'Production contract requires the production provisioning readiness Markdown')
+assert(exists('docs/production-state-snapshot.json'), 'Production contract requires the production state snapshot JSON')
+assert(exists('docs/production-state-snapshot.md'), 'Production contract requires the production state snapshot Markdown')
 assert(exists('docs/d1-production-migration-manifest.json'), 'Production contract requires the D1 production migration manifest JSON')
 assert(exists('docs/d1-production-migration-manifest.md'), 'Production contract requires the D1 production migration manifest Markdown')
 assert(exists('docs/dns-cutover-plan.json'), 'Production contract requires the DNS cutover plan JSON')
@@ -343,6 +346,10 @@ assert(
   'Safe preflight should include production secret setup verification',
 )
 assert(
+  contract.commands.safePreflight.includes('npm run verify:production-state'),
+  'Safe preflight should include production state snapshot verification',
+)
+assert(
   contract.commands.safePreflight.includes('npm run prepare:production-provisioning'),
   'Safe preflight should refresh production provisioning readiness',
 )
@@ -459,6 +466,10 @@ assert(
   'Launch packet generator should include production secret setup verification',
 )
 assert(
+  launchPacketScript.includes('npm run verify:production-state'),
+  'Launch packet generator should include production state snapshot verification',
+)
+assert(
   launchPacketScript.includes('npm run verify:production-provisioning'),
   'Launch packet generator should include production provisioning readiness verification',
 )
@@ -507,6 +518,7 @@ assert(runbook.includes('verify:cloudflare-token-requirements'), 'Deployment run
 assert(runbook.includes('verify:d1-manifest'), 'Deployment runbook should document D1 production migration manifest verification')
 assert(runbook.includes('verify:dns-cutover'), 'Deployment runbook should document DNS/custom-domain cutover verification')
 assert(runbook.includes('verify:production-secrets'), 'Deployment runbook should document production secret setup verification')
+assert(runbook.includes('verify:production-state'), 'Deployment runbook should document production state snapshot verification')
 assert(runbook.includes('resolve:production-d1'), 'Deployment runbook should document guarded D1 resolution')
 assert(runbook.includes('verify:production-provisioning'), 'Deployment runbook should document production provisioning readiness verification')
 assert(
@@ -592,6 +604,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:production-secrets'),
   'Production launch packet doc should include production secret setup verification',
+)
+assert(
+  launchPacketDoc.includes('verify:production-state'),
+  'Production launch packet doc should include production state snapshot verification',
 )
 assert(
   launchPacketDoc.includes('resolve:production-d1'),

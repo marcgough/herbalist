@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-06-30T23:25:49.038Z
+Generated: 2026-07-01T00:11:23.954Z
 
 Status: needs-approval-and-production-setup
 
@@ -56,6 +56,18 @@ Refresh the machine-readable and Markdown packet that shows the current local re
 ```bash
 npm run prepare:production-provisioning
 ```
+
+### Generate consolidated production state snapshot
+
+Refresh the machine-readable and Markdown snapshot that consolidates completion, GitHub, Cloudflare, DNS, live-domain, and release evidence.
+
+```bash
+npm run prepare:production-state
+```
+
+Notes:
+- Use npm run verify:production-state to check the stored snapshot schema and secret-free boundary.
+- This action is read-only against external services and must not set secrets, deploy, mutate DNS, or create resources.
 
 ### Verify production feed seed command
 
@@ -373,6 +385,7 @@ Verification:
 - npm run verify:github-release-evidence
 - npm run verify:d1-manifest
 - npm run verify:production-secrets
+- npm run verify:production-state
 - npm run verify:cloudflare-token-requirements
 - npm run verify:live-readiness -- --strict
 - npm run verify:production -- https://herbalisti.com

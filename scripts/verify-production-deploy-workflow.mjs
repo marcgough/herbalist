@@ -67,6 +67,7 @@ for (const command of [
   'npm run verify:d1-manifest',
   'npm run verify:dns-cutover',
   'npm run verify:production-secrets',
+  'npm run verify:production-state',
   'npm run verify:production-provisioning',
   'npx wrangler pages project create herbalisti --production-branch main',
   'npm run resolve:production-d1 -- --create-if-missing --github-env "$GITHUB_ENV"',
@@ -97,6 +98,7 @@ assert(!secretValuePattern.test(workflow), 'Production deploy workflow must not 
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-workflow'), 'Safe preflight should include production deploy workflow verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'), 'Safe preflight should include production deploy dry-run verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-d1-resolver'), 'Safe preflight should include production D1 resolver verification')
+assert(contract.commands.safePreflight.includes('npm run verify:production-state'), 'Safe preflight should include production state snapshot verification')
 assert(contract.commands.safePreflight.includes('npm run verify:cloudflare-token-requirements'), 'Safe preflight should include Cloudflare token requirement verification')
 assert(
   externalActions.approvalRequiredActions?.some((action) => action.id === 'run-github-production-deploy-workflow'),

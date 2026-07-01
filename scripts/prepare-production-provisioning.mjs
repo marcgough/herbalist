@@ -53,6 +53,9 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
   const productionSecretSetup = exists('docs/production-secret-setup.json')
     ? readJson('docs/production-secret-setup.json')
     : null
+  const productionStateSnapshot = exists('docs/production-state-snapshot.json')
+    ? readJson('docs/production-state-snapshot.json')
+    : null
   const cloudflareTokenRequirements = exists('docs/cloudflare-token-requirements.json')
     ? readJson('docs/cloudflare-token-requirements.json')
     : null
@@ -100,6 +103,17 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         contract.commands.safePreflight.includes('npm run verify:production-secrets') &&
         productionSecretSetup?.status === 'ready-for-secret-entry',
       'Production secret setup packet is current and included in safe preflight.',
+    ),
+    buildCheck(
+      'production-state-snapshot',
+      Boolean(scripts['prepare:production-state']) &&
+        Boolean(scripts['verify:production-state']) &&
+        exists('scripts/prepare-production-state-snapshot.mjs') &&
+        exists('docs/production-state-snapshot.json') &&
+        exists('docs/production-state-snapshot.md') &&
+        contract.commands.safePreflight.includes('npm run verify:production-state') &&
+        ['complete', 'local-ready-production-pending', 'incomplete'].includes(productionStateSnapshot?.status),
+      'Production state snapshot is available and included in safe preflight.',
     ),
     buildCheck(
       'cloudflare-token-requirements',
@@ -196,6 +210,8 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       dnsCutoverStatus: dnsCutoverPlan?.status ?? 'missing',
       dnsNameserverProvider: dnsCutoverPlan?.currentState?.nameserversProvider ?? 'unknown',
       productionSecretSetupStatus: productionSecretSetup?.status ?? 'missing',
+      productionStateSnapshotStatus: productionStateSnapshot?.status ?? 'missing',
+      productionStateSnapshotBlockers: productionStateSnapshot?.summary?.blockerCount ?? null,
       githubProductionSecretCount: productionSecretSetup?.githubProductionEnvironment?.secrets?.length ?? 0,
       cloudflareTokenRequirementsStatus: cloudflareTokenRequirements?.status ?? 'missing',
       cloudflareTokenRequiredPermissionCount:
@@ -215,6 +231,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:d1-manifest',
           'npm run verify:dns-cutover',
           'npm run verify:production-secrets',
+          'npm run verify:production-state',
           'npm run verify:cloudflare-token-requirements',
           'npm run verify:production-deploy-dry-run',
           'npm run verify:production-d1-resolver',
@@ -304,6 +321,8 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     `- DNS cutover status: ${packet.currentState.dnsCutoverStatus}`,
     `- DNS nameserver provider: ${packet.currentState.dnsNameserverProvider}`,
     `- Production secret setup status: ${packet.currentState.productionSecretSetupStatus}`,
+    `- Production state snapshot status: ${packet.currentState.productionStateSnapshotStatus}`,
+    `- Production state snapshot blockers: ${packet.currentState.productionStateSnapshotBlockers}`,
     `- GitHub production secret names: ${packet.currentState.githubProductionSecretCount}`,
     `- Cloudflare token requirement status: ${packet.currentState.cloudflareTokenRequirementsStatus}`,
     `- Cloudflare token required permissions: ${packet.currentState.cloudflareTokenRequiredPermissionCount}`,

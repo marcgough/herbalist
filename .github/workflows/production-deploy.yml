@@ -97,6 +97,7 @@ jobs:
           npm run verify:d1-manifest
           npm run verify:dns-cutover
           npm run verify:production-secrets
+          npm run verify:production-state
           npm run verify:production-provisioning
 
       - name: Ensure Cloudflare Pages project
@@ -122,6 +123,7 @@ jobs:
         run: |
           npm run verify:launch -- --soft
           npm run verify:d1-manifest
+          npm run verify:production-state
           npm run verify:production-provisioning
 
       - name: Apply production D1 migrations

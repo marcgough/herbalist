@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T23:25:59.960Z",
+  "generatedAt": "2026-07-01T00:12:11.084Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,13 +27,15 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "97b9cfd22c2a10e358fc7cc4e5ec20efd54ce385e1ceb0a8d964b7c8c4edb7df",
-    "externalActionsFingerprint": "0cf3ca680a3df7d194e51bd8f25038e0faee8079a65e8a1e2cdd30d6773984be",
+    "contractFingerprint": "3844981d64dbf1d1fd5dce4f583997fbbdeca8a7d89e24500f0cef0073817432",
+    "externalActionsFingerprint": "3bb5c5b3d7c5add18efe786026557ab967eef2dac204725ff90c583aa9203cbd",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
     "dnsNameserverProvider": "external-or-registrar",
     "productionSecretSetupStatus": "ready-for-secret-entry",
+    "productionStateSnapshotStatus": "local-ready-production-pending",
+    "productionStateSnapshotBlockers": 16,
     "githubProductionSecretCount": 5,
     "cloudflareTokenRequirementsStatus": "ready-for-token-entry",
     "cloudflareTokenRequiredPermissionCount": 4
@@ -73,6 +75,11 @@
       "id": "production-secret-setup",
       "status": "pass",
       "detail": "Production secret setup packet is current and included in safe preflight."
+    },
+    {
+      "id": "production-state-snapshot",
+      "status": "pass",
+      "detail": "Production state snapshot is available and included in safe preflight."
     },
     {
       "id": "cloudflare-token-requirements",
@@ -179,6 +186,7 @@
         "npm run verify:d1-manifest",
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
+        "npm run verify:production-state",
         "npm run verify:cloudflare-token-requirements",
         "npm run verify:production-deploy-dry-run",
         "npm run verify:production-d1-resolver",

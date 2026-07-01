@@ -13,7 +13,7 @@ npm install
 npm run verify:release
 ```
 
-`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the guarded production deploy dry run, the mocked production D1 resolver behavior, the protected production feed seed command, Cloudflare token requirements, protected admin token authentication, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
+`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the guarded production deploy dry run, the mocked production D1 resolver behavior, the protected production feed seed command, production state snapshot structure, Cloudflare token requirements, protected admin token authentication, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
 
 Individual gates:
 
@@ -34,6 +34,8 @@ npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run prepare:production-state
+npm run verify:production-state
 npm run prepare:production-provisioning
 npm run verify:production-provisioning
 npm run prepare:launch
@@ -73,6 +75,7 @@ npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:production-state
 npm run verify:d1
 npm run verify:news-worker
 npm run pages:dev
@@ -134,6 +137,15 @@ npm run verify:completion-audit
 ```
 
 `prepare:completion-audit` writes `docs/objective-completion-audit.json` and `docs/objective-completion-audit.md` from the current local evidence. `verify:completion-audit` recomputes the stable audit signature and fails if those artifacts drift from the current goal-readiness, launch-preflight, production-contract, public-data, and feed-heartbeat state.
+
+For the current consolidated production state, run:
+
+```bash
+npm run prepare:production-state
+npm run verify:production-state
+```
+
+`prepare:production-state` writes `docs/production-state-snapshot.json` and `docs/production-state-snapshot.md`. It consolidates the completion audit, GitHub production readiness, GitHub release evidence, read-only Cloudflare state, public DNS cutover status, and live-domain readiness into one snapshot. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.
 
 For the current production cutover packet, run:
 
@@ -217,6 +229,14 @@ npm run verify:cloudflare-production-state -- --strict
 ```
 
 Without a valid Wrangler session or `CLOUDFLARE_API_TOKEN`, it reports `needs-cloudflare-auth`. Once authenticated, it checks visible Cloudflare Pages, D1, Worker deployment, custom-domain metadata, and required secret names without creating resources, deploying, mutating DNS, setting secrets, calling paid APIs, or printing secret values.
+
+Production state snapshot verification is local and artifact-only:
+
+```bash
+npm run verify:production-state
+```
+
+It checks that the stored production state snapshot is schema-valid and secret-free. Refresh the snapshot with `npm run prepare:production-state` whenever GitHub secrets, Cloudflare authentication, DNS, deployment, or live-domain status changes.
 
 Cloudflare API token requirement planning is local and value-free:
 
