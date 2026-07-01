@@ -1,6 +1,6 @@
 # Herbalisti Production Secret Setup
 
-Generated: 2026-07-01T04:47:11.092Z
+Generated: 2026-07-01T05:17:00.055Z
 
 Status: ready-for-secret-entry
 
