@@ -62,6 +62,15 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
   const cloudflareTokenRequirements = exists('docs/cloudflare-token-requirements.json')
     ? readJson('docs/cloudflare-token-requirements.json')
     : null
+  const githubProductionEnvironment = productionSecretSetup?.githubProductionEnvironment ?? {}
+  const githubRequiredSecretNames = githubProductionEnvironment.requiredSecretNames ?? []
+  const githubRequiredVariableNames = githubProductionEnvironment.requiredVariableNames ?? []
+  const githubRequiredCredentialNames =
+    githubProductionEnvironment.requiredCredentialNames ?? [
+      ...githubRequiredSecretNames,
+      ...githubRequiredVariableNames,
+    ]
+  const githubOptionalSecretNames = githubProductionEnvironment.optionalSecretNames ?? []
   const pagesToml = read('wrangler.toml')
   const newsToml = read('wrangler.news.toml')
   const pagesD1Active = hasActiveD1Binding(pagesToml)
@@ -279,8 +288,12 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         productionStateSnapshot?.summary?.productionDeployEvidenceArtifactStatus ?? 'unknown',
       productionSmokeStatus: productionStateSnapshot?.summary?.productionSmokeStatus ?? 'unknown',
       githubProductionDispatchStatus: githubProductionDispatch?.status ?? 'missing',
-      githubProductionSecretCount: productionSecretSetup?.githubProductionEnvironment?.secrets?.length ?? 0,
-      githubProductionVariableCount: productionSecretSetup?.githubProductionEnvironment?.variables?.length ?? 0,
+      githubProductionRequiredSecretNames: githubRequiredSecretNames,
+      githubProductionRequiredVariableNames: githubRequiredVariableNames,
+      githubProductionRequiredCredentialNames: githubRequiredCredentialNames,
+      githubProductionOptionalSecretNames: githubOptionalSecretNames,
+      githubProductionSecretCount: githubRequiredSecretNames.length + githubOptionalSecretNames.length,
+      githubProductionVariableCount: githubRequiredVariableNames.length,
       githubGeneratedSecretHelper: productionSecretSetup?.githubProductionEnvironment?.generatedSecretHelper
         ? 'available'
         : 'missing',
@@ -420,8 +433,10 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     `- Production deploy evidence artifact: ${packet.currentState.productionDeployEvidenceArtifactStatus}`,
     `- Live production smoke: ${packet.currentState.productionSmokeStatus}`,
     `- GitHub production dispatch status: ${packet.currentState.githubProductionDispatchStatus}`,
-    `- GitHub production secret names: ${packet.currentState.githubProductionSecretCount}`,
-    `- GitHub production variable names: ${packet.currentState.githubProductionVariableCount}`,
+    `- Required GitHub production secret names: ${packet.currentState.githubProductionRequiredSecretNames.join(', ') || 'none'}`,
+    `- Required GitHub production variable names: ${packet.currentState.githubProductionRequiredVariableNames.join(', ') || 'none'}`,
+    `- Required GitHub production credential names: ${packet.currentState.githubProductionRequiredCredentialNames.join(', ') || 'none'}`,
+    `- Optional GitHub production secret names: ${packet.currentState.githubProductionOptionalSecretNames.join(', ') || 'none'}`,
     `- GitHub generated secret helper: ${packet.currentState.githubGeneratedSecretHelper}`,
     `- Cloudflare token requirement status: ${packet.currentState.cloudflareTokenRequirementsStatus}`,
     `- Cloudflare token required permissions: ${packet.currentState.cloudflareTokenRequiredPermissionCount}`,
@@ -494,6 +509,27 @@ if (check) {
   assert.equal(read(outputMarkdownPath), markdownOutput, `${outputMarkdownPath} is stale`)
   assert.notEqual(packet.status, 'local-contract-failed', 'Production provisioning local contract should pass')
   assert(packet.checks.every((item) => item.status === 'pass'), 'All production provisioning checks should pass')
+  assert.deepEqual(
+    packet.currentState.githubProductionRequiredSecretNames,
+    ['CLOUDFLARE_API_TOKEN'],
+    'Production provisioning should identify CLOUDFLARE_API_TOKEN as the required GitHub secret.',
+  )
+  assert.deepEqual(
+    packet.currentState.githubProductionRequiredVariableNames,
+    ['CLOUDFLARE_ACCOUNT_ID'],
+    'Production provisioning should identify CLOUDFLARE_ACCOUNT_ID as the required GitHub variable.',
+  )
+  assert.deepEqual(
+    packet.currentState.githubProductionOptionalSecretNames,
+    ['KIE_API_KEY'],
+    'Production provisioning should keep KIE_API_KEY as the optional GitHub production secret.',
+  )
+  assert(
+    markdownOutput.includes('Required GitHub production secret names: CLOUDFLARE_API_TOKEN') &&
+      markdownOutput.includes('Required GitHub production variable names: CLOUDFLARE_ACCOUNT_ID') &&
+      markdownOutput.includes('Optional GitHub production secret names: KIE_API_KEY'),
+    'Production provisioning Markdown should name required secrets, required variables, and optional secrets explicitly.',
+  )
 }
 
 console.log(markdown ? markdownOutput : jsonOutput)

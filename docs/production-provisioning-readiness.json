@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T15:10:38.360Z",
+  "generatedAt": "2026-07-01T16:10:42.398Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -35,6 +35,19 @@
     "productionDeployEvidenceArtifactStatus": "pending-production-deploy-evidence-artifact",
     "productionSmokeStatus": "unavailable",
     "githubProductionDispatchStatus": "needs-github-production-credentials",
+    "githubProductionRequiredSecretNames": [
+      "CLOUDFLARE_API_TOKEN"
+    ],
+    "githubProductionRequiredVariableNames": [
+      "CLOUDFLARE_ACCOUNT_ID"
+    ],
+    "githubProductionRequiredCredentialNames": [
+      "CLOUDFLARE_API_TOKEN",
+      "CLOUDFLARE_ACCOUNT_ID"
+    ],
+    "githubProductionOptionalSecretNames": [
+      "KIE_API_KEY"
+    ],
     "githubProductionSecretCount": 2,
     "githubProductionVariableCount": 1,
     "githubGeneratedSecretHelper": "available",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T15:11:33.450Z",
+  "generatedAt": "2026-07-01T16:11:10.456Z",
   "status": "needs-github-production-credential-entry",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.",
@@ -234,7 +234,7 @@
     {
       "path": "docs/production-provisioning-readiness.json",
       "version": 1,
-      "generatedAt": "2026-07-01T15:10:38.360Z",
+      "generatedAt": "2026-07-01T16:10:42.398Z",
       "status": "ready-for-approved-production-provisioning",
       "productionComplete": false
     },
