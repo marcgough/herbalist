@@ -262,7 +262,16 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
     : requiredSecrets.some((name) => !visibleSecrets.includes(name))
     ? 'set-required-cloudflare-secrets'
     : 'deploy-cloudflare-pages-and-worker'
-  const guardedWorkflowNextAction = 'set-github-production-environment-credentials'
+  const missingGitHubCredentialNames = githubProductionDispatch?.missingGitHubCredentialNames ?? githubRequiredCredentialNames
+  const guardedWorkflowNextAction = failedChecks.length
+    ? 'fix-local-production-contract'
+    : missingGitHubCredentialNames.length
+    ? 'set-github-production-environment-credentials'
+    : githubProductionDispatch?.status === 'ready-for-approved-final-dispatch'
+    ? 'run-github-production-deploy-workflow-final'
+    : githubProductionDispatch?.status === 'ready-for-approved-dispatch-dns-transition-only'
+    ? 'run-github-production-deploy-workflow-dns-transition'
+    : 'verify-github-production-dispatch'
 
   return {
     version: 1,
@@ -306,6 +315,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       githubProductionCredentialHelper: productionSecretSetup?.githubProductionEnvironment?.externalCredentialHelper
         ? 'available'
         : 'missing',
+      githubProductionMissingCredentialNames: missingGitHubCredentialNames,
       githubGeneratedSecretHelper: productionSecretSetup?.githubProductionEnvironment?.generatedSecretHelper
         ? 'available'
         : 'missing',

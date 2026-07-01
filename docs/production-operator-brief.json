@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T18:03:18.024Z",
-  "status": "needs-github-production-credential-entry",
+  "generatedAt": "2026-07-01T19:40:41.120Z",
+  "status": "needs-cloudflare-auth-or-approved-workflow-dispatch",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.",
   "project": {
@@ -18,17 +18,10 @@
     "releaseEvidenceStatus": "pass",
     "productionDeployEvidenceArtifactStatus": "pending-production-deploy-evidence-artifact",
     "releaseEvidencePolicy": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.",
-    "githubProductionReadinessStatus": "needs-github-production-setup",
-    "missingGitHubSecretNames": [
-      "CLOUDFLARE_API_TOKEN"
-    ],
-    "missingGitHubVariableNames": [
-      "CLOUDFLARE_ACCOUNT_ID"
-    ],
-    "missingGitHubCredentialNames": [
-      "CLOUDFLARE_API_TOKEN",
-      "CLOUDFLARE_ACCOUNT_ID"
-    ],
+    "githubProductionReadinessStatus": "ready-for-guarded-production-dispatch",
+    "missingGitHubSecretNames": [],
+    "missingGitHubVariableNames": [],
+    "missingGitHubCredentialNames": [],
     "cloudflareProductionStateStatus": "needs-cloudflare-auth",
     "wranglerAuthenticated": false,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -36,7 +29,7 @@
     "liveReadinessStatus": "not-ready",
     "productionSmokeStatus": "unavailable",
     "productionProvisioningStatus": "ready-for-approved-production-provisioning",
-    "productionBlockerCount": 15
+    "productionBlockerCount": 13
   },
   "secretBoundary": {
     "requiredGitHubSecretNames": [
@@ -150,12 +143,12 @@
     {
       "id": "credential-entry",
       "description": "Entering production GitHub secret values and non-secret deployment variables.",
-      "immediateNextWhen": true
+      "immediateNextWhen": false
     },
     {
       "id": "production-deployment",
       "description": "Dispatching the guarded GitHub production workflow or manually deploying Cloudflare Pages/Worker.",
-      "immediateNextWhen": false
+      "immediateNextWhen": true
     },
     {
       "id": "dns-custom-domain",
@@ -172,8 +165,6 @@
     "Completion audit pending: independent-newsfeed: pending-production.",
     "Completion audit pending: cloudflare-hosting: pending-production.",
     "Production deploy evidence artifact readback is pending-production-deploy-evidence-artifact.",
-    "GitHub production credential missing: CLOUDFLARE_API_TOKEN.",
-    "GitHub production credential missing: CLOUDFLARE_ACCOUNT_ID.",
     "Cloudflare production state is needs-cloudflare-auth.",
     "DNS/custom-domain state is needs-dns-cutover.",
     "Live domain readiness is not-ready.",
@@ -202,15 +193,15 @@
     {
       "path": "docs/production-state-snapshot.json",
       "version": 1,
-      "generatedAt": "2026-07-01T15:10:41.511Z",
+      "generatedAt": "2026-07-01T19:37:29.778Z",
       "status": "local-ready-production-pending",
       "productionComplete": false
     },
     {
       "path": "docs/github-production-dispatch.json",
       "version": 1,
-      "generatedAt": "2026-07-01T18:03:16.176Z",
-      "status": "needs-github-production-credentials",
+      "generatedAt": "2026-07-01T19:40:39.622Z",
+      "status": "ready-for-approved-dispatch-dns-transition-only",
       "productionComplete": false
     },
     {
@@ -237,7 +228,7 @@
     {
       "path": "docs/production-provisioning-readiness.json",
       "version": 1,
-      "generatedAt": "2026-07-01T18:03:17.202Z",
+      "generatedAt": "2026-07-01T19:40:40.388Z",
       "status": "ready-for-approved-production-provisioning",
       "productionComplete": false
     },
@@ -301,5 +292,5 @@
       "detail": "All source packets used by the operator brief exist."
     }
   ],
-  "nextAction": "Set the required GitHub production environment credentials directly in GitHub, then run npm run verify:github-production-readiness -- --strict."
+  "nextAction": "Authenticate Cloudflare locally for manual inspection, or use the approved guarded GitHub workflow path with required GitHub production credentials."
 }

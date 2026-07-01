@@ -1,8 +1,8 @@
 # Herbalisti GitHub Production Dispatch Packet
 
-Generated: 2026-07-01T18:03:16.176Z
+Generated: 2026-07-01T19:40:39.622Z
 
-Status: needs-github-production-credentials
+Status: ready-for-approved-dispatch-dns-transition-only
 
 Reads local launch contracts, workflow files, and generated readiness packets only. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.
 
@@ -13,7 +13,7 @@ Reads local launch contracts, workflow files, and generated readiness packets on
 - Dispatch commit: <dispatch_commit_sha>
 - Dispatch commit policy: Replace <dispatch_commit_sha> with the exact main-branch commit that will be dispatched, then run the strict release evidence and production-state-current gates before dispatch.
 - Production state: local-ready-production-pending
-- GitHub production readiness: needs-github-production-setup
+- GitHub production readiness: ready-for-guarded-production-dispatch
 - Cloudflare production state: needs-cloudflare-auth
 - DNS cutover: needs-dns-cutover
 - Live readiness: not-ready
@@ -21,8 +21,8 @@ Reads local launch contracts, workflow files, and generated readiness packets on
 
 ## Required GitHub Credentials
 
-- CLOUDFLARE_API_TOKEN: missing secret
-- CLOUDFLARE_ACCOUNT_ID: missing variable
+- CLOUDFLARE_API_TOKEN: present secret
+- CLOUDFLARE_ACCOUNT_ID: present variable or secret fallback
 
 ## Optional GitHub Secret Names
 

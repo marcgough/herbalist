@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T18:03:16.176Z",
-  "status": "needs-github-production-credentials",
+  "generatedAt": "2026-07-01T19:40:39.622Z",
+  "status": "ready-for-approved-dispatch-dns-transition-only",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, workflow files, and generated readiness packets only. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.",
   "repository": "marcgough/herbalist",
@@ -71,19 +71,12 @@
     "FEED_ADMIN_TOKEN",
     "MEDIA_ADMIN_TOKEN"
   ],
-  "missingGitHubSecretNames": [
-    "CLOUDFLARE_API_TOKEN"
-  ],
-  "missingGitHubVariableNames": [
-    "CLOUDFLARE_ACCOUNT_ID"
-  ],
-  "missingGitHubCredentialNames": [
-    "CLOUDFLARE_API_TOKEN",
-    "CLOUDFLARE_ACCOUNT_ID"
-  ],
+  "missingGitHubSecretNames": [],
+  "missingGitHubVariableNames": [],
+  "missingGitHubCredentialNames": [],
   "currentReadiness": {
     "productionStateStatus": "local-ready-production-pending",
-    "githubProductionReadinessStatus": "needs-github-production-setup",
+    "githubProductionReadinessStatus": "ready-for-guarded-production-dispatch",
     "cloudflareProductionStateStatus": "needs-cloudflare-auth",
     "dnsCutoverStatus": "needs-dns-cutover",
     "liveReadinessStatus": "not-ready",

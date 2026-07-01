@@ -195,11 +195,12 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
   ]
 
   const failedChecks = checks.filter((item) => item.status !== 'pass')
+  const dnsReadyForPagesCustomDomain = productionState?.summary?.dnsCutoverStatus === 'dns-ready-for-pages-custom-domain'
   const status = failedChecks.length
     ? 'local-contract-failed'
     : missingGitHubCredentialNames.length
     ? 'needs-github-production-credentials'
-    : productionState?.summary?.dnsCutoverStatus !== 'ready'
+    : !dnsReadyForPagesCustomDomain
     ? 'ready-for-approved-dispatch-dns-transition-only'
     : 'ready-for-approved-final-dispatch'
 

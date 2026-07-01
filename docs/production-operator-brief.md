@@ -1,8 +1,8 @@
 # Herbalisti Production Operator Brief
 
-Generated: 2026-07-01T18:03:18.024Z
+Generated: 2026-07-01T19:40:41.120Z
 
-Status: needs-github-production-credential-entry
+Status: needs-cloudflare-auth-or-approved-workflow-dispatch
 
 Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.
 
@@ -15,8 +15,8 @@ Reads local launch contracts and generated readiness packets, then optionally wr
 - Release evidence: pass
 - Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - Release evidence policy: Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.
-- GitHub production readiness: needs-github-production-setup
-- Missing GitHub credential names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
+- GitHub production readiness: ready-for-guarded-production-dispatch
+- Missing GitHub credential names: none
 - Cloudflare production state: needs-cloudflare-auth
 - Wrangler authenticated: false
 - DNS cutover: needs-dns-cutover
@@ -24,7 +24,7 @@ Reads local launch contracts and generated readiness packets, then optionally wr
 - Live readiness: not-ready
 - Live production smoke: unavailable
 - Production provisioning: ready-for-approved-production-provisioning
-- Production blocker count: 15
+- Production blocker count: 13
 
 ## Credential Boundary
 
@@ -37,7 +37,7 @@ Reads local launch contracts and generated readiness packets, then optionally wr
 
 ## Next Action
 
-Set the required GitHub production environment credentials directly in GitHub, then run npm run verify:github-production-readiness -- --strict.
+Authenticate Cloudflare locally for manual inspection, or use the approved guarded GitHub workflow path with required GitHub production credentials.
 
 ## Operator Sequence
 
@@ -133,8 +133,8 @@ npm run verify:goal-readiness -- --strict
 
 ## Hard Gates
 
-- credential-entry: Entering production GitHub secret values and non-secret deployment variables. Immediate next: true
-- production-deployment: Dispatching the guarded GitHub production workflow or manually deploying Cloudflare Pages/Worker. Immediate next: false
+- credential-entry: Entering production GitHub secret values and non-secret deployment variables. Immediate next: false
+- production-deployment: Dispatching the guarded GitHub production workflow or manually deploying Cloudflare Pages/Worker. Immediate next: true
 - dns-custom-domain: Changing herbalisti.com nameservers, DNS records, or Cloudflare Pages custom-domain configuration. Immediate next: false
 - paid-media-generation: Calling Kie.ai Seedance or any paid generation provider. Immediate next: false
 
@@ -143,8 +143,6 @@ npm run verify:goal-readiness -- --strict
 - Completion audit pending: independent-newsfeed: pending-production.
 - Completion audit pending: cloudflare-hosting: pending-production.
 - Production deploy evidence artifact readback is pending-production-deploy-evidence-artifact.
-- GitHub production credential missing: CLOUDFLARE_API_TOKEN.
-- GitHub production credential missing: CLOUDFLARE_ACCOUNT_ID.
 - Cloudflare production state is needs-cloudflare-auth.
 - DNS/custom-domain state is needs-dns-cutover.
 - Live domain readiness is not-ready.
@@ -180,7 +178,7 @@ npm run verify:goal-readiness -- --strict
 
 - docs/production-environment-contract.json: contract
 - docs/production-state-snapshot.json: local-ready-production-pending
-- docs/github-production-dispatch.json: needs-github-production-credentials
+- docs/github-production-dispatch.json: ready-for-approved-dispatch-dns-transition-only
 - docs/production-secret-setup.json: ready-for-secret-entry
 - docs/cloudflare-token-requirements.json: ready-for-token-entry
 - docs/dns-cutover-plan.json: needs-dns-cutover

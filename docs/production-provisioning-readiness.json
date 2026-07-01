@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T18:03:17.202Z",
+  "generatedAt": "2026-07-01T19:40:40.388Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -31,10 +31,10 @@
     "dnsNameserverProvider": "external-or-registrar",
     "productionSecretSetupStatus": "ready-for-secret-entry",
     "productionStateSnapshotStatus": "local-ready-production-pending",
-    "productionStateSnapshotBlockers": 12,
+    "productionStateSnapshotBlockers": 10,
     "productionDeployEvidenceArtifactStatus": "pending-production-deploy-evidence-artifact",
     "productionSmokeStatus": "unavailable",
-    "githubProductionDispatchStatus": "needs-github-production-credentials",
+    "githubProductionDispatchStatus": "ready-for-approved-dispatch-dns-transition-only",
     "githubProductionRequiredSecretNames": [
       "CLOUDFLARE_API_TOKEN"
     ],
@@ -51,6 +51,7 @@
     "githubProductionSecretCount": 2,
     "githubProductionVariableCount": 1,
     "githubProductionCredentialHelper": "available",
+    "githubProductionMissingCredentialNames": [],
     "githubGeneratedSecretHelper": "available",
     "cloudflareTokenRequirementsStatus": "ready-for-token-entry",
     "cloudflareTokenRequiredPermissionCount": 4
@@ -227,7 +228,7 @@
     "Scheduled Worker D1 binding is not active.",
     "FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch."
   ],
-  "nextApprovedAction": "set-github-production-environment-credentials",
+  "nextApprovedAction": "run-github-production-deploy-workflow-dns-transition",
   "manualCloudflareNextAction": "create-d1-database",
   "operatorSequence": [
     {

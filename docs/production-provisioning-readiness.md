@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-07-01T18:03:17.202Z
+Generated: 2026-07-01T19:40:40.388Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -20,10 +20,10 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - DNS nameserver provider: external-or-registrar
 - Production secret setup status: ready-for-secret-entry
 - Production state snapshot status: local-ready-production-pending
-- Production state snapshot blockers: 12
+- Production state snapshot blockers: 10
 - Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - Live production smoke: unavailable
-- GitHub production dispatch status: needs-github-production-credentials
+- GitHub production dispatch status: ready-for-approved-dispatch-dns-transition-only
 - Required GitHub production secret names: CLOUDFLARE_API_TOKEN
 - Required GitHub production variable names: CLOUDFLARE_ACCOUNT_ID
 - Required GitHub production credential names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
@@ -35,7 +35,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 
 ## Next Approved Action
 
-`set-github-production-environment-credentials`
+`run-github-production-deploy-workflow-dns-transition`
 
 ## Manual Cloudflare Path
 

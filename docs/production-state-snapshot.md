@@ -1,6 +1,6 @@
 # Herbalisti Production State Snapshot
 
-Generated: 2026-07-01T15:10:41.511Z
+Generated: 2026-07-01T19:37:29.778Z
 
 Status: local-ready-production-pending
 
@@ -16,15 +16,15 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Stored Snapshot Summary
 
 - Git branch: main
-- Observed git commit at generation time: 44e326b387b9ef678b4ae3324678d25456153b91
+- Observed git commit at generation time: 4cb6bcef768fef70f9c4fce61f5ff01ea29537a9
 - Git note: Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.
 - Completion audit status: local-ready-production-pending
 - Goal complete: false
 - Local implementation ready: true
 - Pending requirement count: 2
 - Production deploy evidence artifact: pending-production-deploy-evidence-artifact
-- GitHub production readiness: needs-github-production-setup
-- Missing GitHub production credential names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
+- GitHub production readiness: ready-for-guarded-production-dispatch
+- Missing GitHub production credential names: none
 - Cloudflare production state: needs-cloudflare-auth
 - Wrangler authenticated: false
 - DNS cutover status: needs-dns-cutover
@@ -33,14 +33,14 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - Live production smoke: unavailable
 - Final completion gates: 4
 - Production provisioning status: ready-for-approved-production-provisioning
-- Blocker count: 12
+- Blocker count: 10
 
 ## Checks
 
 - pass: Completion audit status is local-ready-production-pending.
-- pass: Release evidence is pass for 44e326b387b9ef678b4ae3324678d25456153b91.
+- pass: Release evidence is pass for 4cb6bcef768fef70f9c4fce61f5ff01ea29537a9.
 - pass: Production deploy evidence artifact status is pending-production-deploy-evidence-artifact.
-- pass: GitHub production readiness status is needs-github-production-setup.
+- pass: GitHub production readiness status is ready-for-guarded-production-dispatch.
 - pass: Cloudflare production state is needs-cloudflare-auth.
 - pass: DNS cutover status is needs-dns-cutover.
 - pass: Live readiness status is not-ready.
@@ -52,8 +52,6 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - Completion audit pending: independent-newsfeed: pending-production.
 - Completion audit pending: cloudflare-hosting: pending-production.
 - Production deploy evidence artifact readback is pending-production-deploy-evidence-artifact.
-- GitHub production credential missing: CLOUDFLARE_API_TOKEN.
-- GitHub production credential missing: CLOUDFLARE_ACCOUNT_ID.
 - Cloudflare production state is needs-cloudflare-auth.
 - DNS/custom-domain state is needs-dns-cutover.
 - Live domain readiness is not-ready.
@@ -65,9 +63,9 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Probe Details
 
 - Release evidence: pass
-- CI run ID: 28525480846
-- Manual release run ID: 28525538329
-- Visual smoke artifact ID: 8013577846
+- CI run ID: 28542340144
+- Manual release run ID: 28542382486
+- Visual smoke artifact ID: 8020575005
 - Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - Production deploy run ID: pending
 - Production deploy evidence artifact ID: pending
@@ -85,8 +83,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 
 ## Next Actions
 
-- Add the required GitHub production credential names without exposing secret values in chat, docs, or logs.
-- Run npm run verify:github-production-readiness again.
+- Dispatch Herbalisti Production Deploy only after Cloudflare DNS/domain approval is ready.
 - Authenticate Wrangler interactively or provide CLOUDFLARE_API_TOKEN, then rerun npm run verify:cloudflare-production-state.
 - Prepare Cloudflare zone delegation for herbalisti.com.
 - Capture the Cloudflare-assigned nameservers during approved setup.

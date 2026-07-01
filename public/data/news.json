@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T18:53:47.570Z",
+  "generatedAt": "2026-07-01T19:45:28.795Z",
   "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication.",
   "sourceHealthPolicy": "Source health checks report allowlisted public or independent sources only; warnings do not add fallback pharma channels.",
   "warnings": [],
@@ -11,7 +11,7 @@
       "sourceType": "public-research-index",
       "role": "Public biomedical metadata for frontier-biology terms.",
       "status": "empty",
-      "checkedAt": "2026-07-01T18:53:43.386Z",
+      "checkedAt": "2026-07-01T19:45:25.639Z",
       "itemCount": 10,
       "usableItemCount": 0,
       "newestItemAt": "",
@@ -26,7 +26,7 @@
       "sourceType": "public-research-index",
       "role": "Open preprint metadata for computational biology and frontier science.",
       "status": "ok",
-      "checkedAt": "2026-07-01T18:53:41.623Z",
+      "checkedAt": "2026-07-01T19:45:23.852Z",
       "itemCount": 8,
       "usableItemCount": 3,
       "newestItemAt": "2026-06-26T09:24:42.000Z",
@@ -41,7 +41,7 @@
       "sourceType": "preprint-server",
       "role": "Public biology preprint metadata for longevity and biotechnology topics.",
       "status": "ok",
-      "checkedAt": "2026-07-01T18:53:44.288Z",
+      "checkedAt": "2026-07-01T19:45:26.432Z",
       "itemCount": 3,
       "usableItemCount": 1,
       "newestItemAt": "2026-06-01T00:00:00.000Z",
@@ -56,7 +56,7 @@
       "sourceType": "public-research-index",
       "role": "Public scholarly metadata expansion for longevity and frontier biology.",
       "status": "ok",
-      "checkedAt": "2026-07-01T18:53:47.570Z",
+      "checkedAt": "2026-07-01T19:45:28.795Z",
       "itemCount": 9,
       "usableItemCount": 9,
       "newestItemAt": "2026-05-01T00:00:00.000Z",
@@ -71,7 +71,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity coverage from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-01T18:53:42.272Z",
+      "checkedAt": "2026-07-01T19:45:25.143Z",
       "itemCount": 8,
       "usableItemCount": 6,
       "newestItemAt": "2026-07-01T17:13:38.000Z",
@@ -86,7 +86,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity commentary from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-01T18:53:42.512Z",
+      "checkedAt": "2026-07-01T19:45:24.657Z",
       "itemCount": 8,
       "usableItemCount": 7,
       "newestItemAt": "2026-07-01T18:22:10.000Z",
@@ -343,19 +343,6 @@
       "sourceType": "public-research-index"
     },
     {
-      "id": "crossref-15fszgf",
-      "title": "Current Applications and Future Perspective of CRISPR/Cas9 Gene Editing in Cancer Therapy",
-      "sourceName": "Crossref",
-      "url": "https://doi.org/10.62051/ijphmr.v5n1.06",
-      "publishedAt": "2025-10-22T00:00:00.000Z",
-      "summary": "Public Crossref metadata from International Journal of Public Health and Medical Research.",
-      "topics": [
-        "Gene editing",
-        "CRISPR"
-      ],
-      "sourceType": "public-research-index"
-    },
-    {
       "id": "crossref-mucr5n",
       "title": "Gene, Base, and Prime Editing",
       "sourceName": "Crossref",
@@ -390,6 +377,19 @@
       "summary": "Public Crossref metadata from Public Health Genomics.",
       "topics": [
         "Gene therapy",
+        "Gene editing",
+        "CRISPR"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "crossref-10a10w8",
+      "title": "Advances and Applications of CRISPR Gene Editing in Tumor Therapy",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.31058/j.hr.2025.94015",
+      "publishedAt": "2025-01-01T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Health Research.",
+      "topics": [
         "Gene editing",
         "CRISPR"
       ],

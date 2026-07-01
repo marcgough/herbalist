@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T15:10:41.511Z",
+  "generatedAt": "2026-07-01T19:37:29.778Z",
   "status": "local-ready-production-pending",
   "productionComplete": false,
   "completionBoundary": "Production is complete only when the deployment evidence artifact, strict live readiness, live production smoke, and goal-readiness gates all pass against the live herbalisti.com deployment.",
@@ -20,7 +20,7 @@
   },
   "git": {
     "branch": "main",
-    "commit": "44e326b387b9ef678b4ae3324678d25456153b91",
+    "commit": "4cb6bcef768fef70f9c4fce61f5ff01ea29537a9",
     "note": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence."
   },
   "summary": {
@@ -30,17 +30,10 @@
     "pendingRequirementCount": 2,
     "releaseEvidenceStatus": "pass",
     "productionDeployEvidenceArtifactStatus": "pending-production-deploy-evidence-artifact",
-    "githubProductionReadinessStatus": "needs-github-production-setup",
-    "githubMissingSecretNames": [
-      "CLOUDFLARE_API_TOKEN"
-    ],
-    "githubMissingVariableNames": [
-      "CLOUDFLARE_ACCOUNT_ID"
-    ],
-    "githubMissingCredentialNames": [
-      "CLOUDFLARE_API_TOKEN",
-      "CLOUDFLARE_ACCOUNT_ID"
-    ],
+    "githubProductionReadinessStatus": "ready-for-guarded-production-dispatch",
+    "githubMissingSecretNames": [],
+    "githubMissingVariableNames": [],
+    "githubMissingCredentialNames": [],
     "cloudflareProductionStateStatus": "needs-cloudflare-auth",
     "wranglerAuthenticated": false,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -49,7 +42,7 @@
     "productionSmokeStatus": "unavailable",
     "finalCompletionGateCount": 4,
     "productionProvisioningStatus": "ready-for-approved-production-provisioning",
-    "blockerCount": 12
+    "blockerCount": 10
   },
   "checks": [
     {
@@ -60,7 +53,7 @@
     {
       "id": "github-release-evidence-captured",
       "status": "pass",
-      "detail": "Release evidence is pass for 44e326b387b9ef678b4ae3324678d25456153b91."
+      "detail": "Release evidence is pass for 4cb6bcef768fef70f9c4fce61f5ff01ea29537a9."
     },
     {
       "id": "production-deploy-evidence-artifact-captured",
@@ -70,7 +63,7 @@
     {
       "id": "github-production-readiness-captured",
       "status": "pass",
-      "detail": "GitHub production readiness status is needs-github-production-setup."
+      "detail": "GitHub production readiness status is ready-for-guarded-production-dispatch."
     },
     {
       "id": "cloudflare-production-state-captured",
@@ -102,8 +95,6 @@
     "Completion audit pending: independent-newsfeed: pending-production.",
     "Completion audit pending: cloudflare-hosting: pending-production.",
     "Production deploy evidence artifact readback is pending-production-deploy-evidence-artifact.",
-    "GitHub production credential missing: CLOUDFLARE_API_TOKEN.",
-    "GitHub production credential missing: CLOUDFLARE_ACCOUNT_ID.",
     "Cloudflare production state is needs-cloudflare-auth.",
     "DNS/custom-domain state is needs-dns-cutover.",
     "Live domain readiness is not-ready.",
@@ -113,8 +104,7 @@
     "Provisioning blocker: FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch."
   ],
   "nextActions": [
-    "Add the required GitHub production credential names without exposing secret values in chat, docs, or logs.",
-    "Run npm run verify:github-production-readiness again.",
+    "Dispatch Herbalisti Production Deploy only after Cloudflare DNS/domain approval is ready.",
     "Authenticate Wrangler interactively or provide CLOUDFLARE_API_TOKEN, then rerun npm run verify:cloudflare-production-state.",
     "Prepare Cloudflare zone delegation for herbalisti.com.",
     "Capture the Cloudflare-assigned nameservers during approved setup.",
@@ -145,10 +135,10 @@
         "status": "pass",
         "error": null
       },
-      "commit": "44e326b387b9ef678b4ae3324678d25456153b91",
-      "ciRunId": 28525480846,
-      "manualReleaseRunId": 28525538329,
-      "artifactId": 8013577846
+      "commit": "4cb6bcef768fef70f9c4fce61f5ff01ea29537a9",
+      "ciRunId": 28542340144,
+      "manualReleaseRunId": 28542382486,
+      "artifactId": 8020575005
     },
     "productionDeployEvidenceArtifact": {
       "summary": {
@@ -162,14 +152,14 @@
       "artifactId": null,
       "artifactDigest": null,
       "strictCompletionCommand": "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
-      "detail": "No fresh successful Herbalisti Production Deploy workflow_dispatch run exists for 44e326b387b9ef678b4ae3324678d25456153b91."
+      "detail": "No fresh successful Herbalisti Production Deploy workflow_dispatch run exists for 4cb6bcef768fef70f9c4fce61f5ff01ea29537a9."
     },
     "githubProductionReadiness": {
       "summary": {
         "ok": true,
         "exitCode": 0,
         "timedOut": false,
-        "status": "needs-github-production-setup",
+        "status": "ready-for-guarded-production-dispatch",
         "error": null
       },
       "environment": "production",
@@ -190,16 +180,9 @@
         "CLOUDFLARE_API_TOKEN",
         "CLOUDFLARE_ACCOUNT_ID"
       ],
-      "missingSecretNames": [
-        "CLOUDFLARE_API_TOKEN"
-      ],
-      "missingVariableNames": [
-        "CLOUDFLARE_ACCOUNT_ID"
-      ],
-      "missingCredentialNames": [
-        "CLOUDFLARE_API_TOKEN",
-        "CLOUDFLARE_ACCOUNT_ID"
-      ]
+      "missingSecretNames": [],
+      "missingVariableNames": [],
+      "missingCredentialNames": []
     },
     "cloudflareProductionState": {
       "summary": {
