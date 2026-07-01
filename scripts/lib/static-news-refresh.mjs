@@ -39,20 +39,46 @@ const warningSourceNames = (feed) =>
     : []
 
 const mergeLastKnownWarningSourceItems = (feedItems, existingItems, sourceNames, limit = 24) => {
-  if (!sourceNames.length || feedItems.length >= limit) {
-    return { items: feedItems, preservedSourceItems: [] }
+  if (!sourceNames.length) {
+    return { items: feedItems.slice(0, limit), preservedSourceItems: [] }
   }
 
   const sourceNameSet = new Set(sourceNames)
   const seen = new Set(feedItems.map(itemKey))
-  const preservedSourceItems = existingItems
+  const preservedSourceCandidates = existingItems
     .filter((item) => sourceNameSet.has(item.sourceName))
     .filter((item) => !seen.has(itemKey(item)))
     .sort((left, right) => itemTimestamp(right) - itemTimestamp(left))
-    .slice(0, Math.max(0, limit - feedItems.length))
+
+  if (!preservedSourceCandidates.length) {
+    return { items: feedItems.slice(0, limit), preservedSourceItems: [] }
+  }
+
+  const preservedKeys = new Set(preservedSourceCandidates.map(itemKey))
+  const items = []
+  const selectedKeys = new Set()
+
+  for (const item of [...feedItems, ...preservedSourceCandidates].sort((left, right) => {
+    const timestampDelta = itemTimestamp(right) - itemTimestamp(left)
+    if (timestampDelta !== 0) {
+      return timestampDelta
+    }
+
+    return Number(preservedKeys.has(itemKey(right))) - Number(preservedKeys.has(itemKey(left)))
+  })) {
+    const key = itemKey(item)
+    if (selectedKeys.has(key) || items.length >= limit) {
+      continue
+    }
+
+    selectedKeys.add(key)
+    items.push(item)
+  }
+
+  const preservedSourceItems = preservedSourceCandidates.filter((item) => selectedKeys.has(itemKey(item)))
 
   return {
-    items: [...feedItems, ...preservedSourceItems],
+    items,
     preservedSourceItems,
   }
 }

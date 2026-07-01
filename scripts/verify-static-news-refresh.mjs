@@ -111,6 +111,84 @@ const partialFailureFeed = {
   ],
 }
 
+const feedItem = ({
+  id,
+  title,
+  sourceName = 'Lifespan.io',
+  sourceType = 'independent-longevity',
+  url,
+  publishedAt,
+  summary = 'Synthetic verifier metadata.',
+  topics = ['Longevity'],
+}) => ({
+  id,
+  title,
+  sourceName,
+  sourceType,
+  url,
+  publishedAt,
+  summary,
+  topics,
+})
+
+const fullExistingFeed = {
+  ...goodFeed,
+  generatedAt: '2026-06-24T04:00:00.000Z',
+  items: [
+    feedItem({
+      id: 'last-known-arxiv-peptide',
+      title: 'Last-known arXiv peptide signal',
+      sourceName: 'arXiv',
+      sourceType: 'public-research-index',
+      url: 'https://arxiv.org/abs/2606.27824v2',
+      publishedAt: '2026-06-23T00:00:00.000Z',
+      summary: 'Open preprint metadata preserved from the previous successful refresh.',
+      topics: ['Peptides'],
+    }),
+    ...Array.from({ length: 23 }, (_, index) =>
+      feedItem({
+        id: `existing-longevity-${index}`,
+        title: `Existing longevity signal ${index}`,
+        url: `https://www.lifespan.io/news/existing-longevity-${index}/`,
+        publishedAt: `2026-06-${String(22 - Math.floor(index / 4)).padStart(2, '0')}T00:00:00.000Z`,
+      }),
+    ),
+  ],
+}
+
+const fullWarningFeed = {
+  ...goodFeed,
+  generatedAt: '2026-06-24T05:00:00.000Z',
+  warnings: ['Skipped arXiv: timed out'],
+  sourceHealth: [
+    {
+      id: 'arxiv',
+      name: 'arXiv',
+      status: 'warning',
+    },
+  ],
+  items: [
+    ...Array.from({ length: 23 }, (_, index) =>
+      feedItem({
+        id: `fresh-longevity-${index}`,
+        title: `Fresh longevity signal ${index}`,
+        url: `https://www.lifespan.io/news/fresh-longevity-${index}/`,
+        publishedAt: `2026-06-${String(24 - Math.floor(index / 4)).padStart(2, '0')}T00:00:00.000Z`,
+      }),
+    ),
+    feedItem({
+      id: 'watch-generic-old',
+      title: 'Generic old watch lane',
+      sourceName: 'PubMed / NCBI',
+      sourceType: 'public-research-index',
+      url: 'https://pubmed.ncbi.nlm.nih.gov/?term=longevity',
+      publishedAt: '2026-06-15T00:00:00.000Z',
+      summary: 'Older watch-lane metadata.',
+      topics: ['Longevity'],
+    }),
+  ],
+}
+
 const tempDir = await mkdtemp(join(tmpdir(), 'herbalisti-static-refresh-'))
 
 try {
@@ -201,6 +279,32 @@ try {
     'Feed status should include a specific partial source preservation warning',
   )
 
+  await writeFile(join(tempDir, 'news.json'), `${JSON.stringify(fullExistingFeed, null, 2)}\n`, 'utf8')
+
+  const fullPreserved = await writeStaticNewsRefresh(fullWarningFeed, { dataDir: tempDir })
+  const fullPreservedNews = await readJson(join(tempDir, 'news.json'))
+  const fullPreservedStatus = await readJson(join(tempDir, 'feed-status.json'))
+
+  assert(fullPreserved.newsWritten === true, 'Full warning feed should still write a refreshed public feed')
+  assert(fullPreservedNews.items.length === 24, 'Full warning feed should keep the public feed at the limit')
+  assert(
+    fullPreservedNews.items.some((item) => item.id === 'last-known-arxiv-peptide'),
+    'Full warning feed should preserve recent last-known metadata from the temporarily unavailable source',
+  )
+  assert(
+    !fullPreservedNews.items.some((item) => item.id === 'watch-generic-old'),
+    'Full warning feed should prefer recent last-known source metadata over older generic watch lanes',
+  )
+  assert(
+    fullPreservedStatus.latestRefresh.preservedSourceItemCount === 1 &&
+      fullPreservedStatus.latestRefresh.preservedSourceNames.includes('arXiv'),
+    'Full warning feed should count and name preserved items even when the feed was already full',
+  )
+  assert(
+    fullPreservedNews.preservation?.preservedSourceNames.includes('arXiv'),
+    'Full warning feed should expose preserved source names in the public payload',
+  )
+
   const appSource = read('src/App.tsx')
   assert(appSource.includes('publicItemCount'), 'Frontend heartbeat should understand the public item count')
   assert(
@@ -234,6 +338,14 @@ try {
           publicSnapshotStatus: partiallyPreservedStatus.publicSnapshot.status,
           publicItemCount: partiallyPreservedStatus.latestRefresh.publicItemCount,
           preservedSourceItemCount: partiallyPreservedStatus.latestRefresh.preservedSourceItemCount,
+        },
+        fullWarningPreservation: {
+          newsWritten: fullPreserved.newsWritten,
+          refreshStatus: fullPreservedStatus.latestRefresh.status,
+          publicSnapshotStatus: fullPreservedStatus.publicSnapshot.status,
+          publicItemCount: fullPreservedStatus.latestRefresh.publicItemCount,
+          preservedSourceItemCount: fullPreservedStatus.latestRefresh.preservedSourceItemCount,
+          preservedSourceNames: fullPreservedStatus.latestRefresh.preservedSourceNames,
         },
         safeToRun:
           'This verifier writes only to a temporary local directory. It does not fetch live sources, mutate production data, or call paid APIs.',
