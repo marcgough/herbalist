@@ -55,6 +55,7 @@
     "prepare:production-deploy-evidence": "node scripts/prepare-production-deploy-evidence.mjs --write",
     "prepare:production-secrets": "node scripts/prepare-production-secret-setup.mjs --write",
     "prepare:production-state": "node scripts/prepare-production-state-snapshot.mjs --write",
+    "prepare:release-evidence": "node scripts/prepare-release-evidence-artifact.mjs",
     "prepare:cloudflare-token-requirements": "node scripts/prepare-cloudflare-token-requirements.mjs --write",
     "prepare:production-cutover": "node scripts/simulate-production-cutover.mjs --write",
     "refresh:news": "node scripts/refresh-news.mjs",

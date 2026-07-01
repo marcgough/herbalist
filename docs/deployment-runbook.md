@@ -160,7 +160,7 @@ npm run verify:production-dispatch-preflight -- --strict
 
 `prepare:production-state` writes `docs/production-state-snapshot.json` and `docs/production-state-snapshot.md`. It consolidates the completion audit, GitHub production readiness, GitHub release evidence, read-only Cloudflare state, public DNS cutover status, and live-domain readiness into one snapshot. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.
 
-`verify:production-state-current` regenerates the production state in memory, checks that the public GitHub CI run, manual release-gate run, and visual-smoke artifact metadata match the current git commit, and performs read-only public live-domain readiness and production-smoke probes. Use it after CI and the manual release gate have passed for the exact commit being prepared for production.
+`verify:production-state-current` regenerates the production state in memory, checks that the public GitHub CI run, manual release-gate run, visual-smoke artifact metadata, and structured release-evidence artifact metadata match the current git commit, and performs read-only public live-domain readiness and production-smoke probes. Use it after CI and the manual release gate have passed for the exact commit being prepared for production.
 
 `verify:production-dispatch-preflight -- --strict` is the final read-only gate before the guarded production workflow is run. It proves the exact current commit has matching release evidence, GitHub production readiness, dispatch packet state, provisioning next action, and the correct DNS-transition or final dispatch boundary. It does not dispatch workflows, deploy, mutate DNS, create resources, set secrets, download artifacts, call paid APIs, or print credential values.
 
@@ -195,7 +195,7 @@ GitHub release evidence verification is read-only and should be run after the ma
 npm run verify:github-release-evidence
 ```
 
-It checks the public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, then verifies the visual-smoke artifact metadata without downloading it.
+It checks the public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, then verifies both the visual-smoke artifact and the no-secret `herbalisti-release-evidence` artifact metadata without downloading them.
 
 Guarded production deploy workflow verification is local and read-only:
 

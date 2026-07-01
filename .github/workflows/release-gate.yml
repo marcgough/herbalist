@@ -53,6 +53,16 @@ jobs:
       - name: Repository release verifier
         run: npm run verify:release -- --public-only
 
+      - name: Prepare release evidence artifact
+        run: npm run prepare:release-evidence
+
+      - name: Upload release evidence
+        uses: actions/upload-artifact@v6
+        with:
+          name: herbalisti-release-evidence
+          path: output/release-evidence
+          if-no-files-found: error
+
       - name: Upload visual smoke screenshots
         if: always()
         uses: actions/upload-artifact@v6

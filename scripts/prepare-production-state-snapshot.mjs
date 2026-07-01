@@ -310,6 +310,8 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
         ciRunId: releaseEvidence?.ciRun?.id ?? null,
         manualReleaseRunId: releaseEvidence?.manualReleaseRun?.id ?? null,
         artifactId: releaseEvidence?.artifact?.id ?? null,
+        releaseEvidenceArtifactId: releaseEvidence?.releaseEvidenceArtifact?.id ?? null,
+        releaseEvidenceArtifactDigest: releaseEvidence?.releaseEvidenceArtifact?.digest ?? null,
       },
       productionDeployEvidenceArtifact: {
         summary: summarizeProbe(deployEvidenceArtifactProbe),
@@ -433,6 +435,8 @@ export const renderProductionStateMarkdown = (packet) => {
   lines.push(`- CI run ID: ${packet.probes.releaseEvidence.ciRunId ?? 'unknown'}`)
   lines.push(`- Manual release run ID: ${packet.probes.releaseEvidence.manualReleaseRunId ?? 'unknown'}`)
   lines.push(`- Visual smoke artifact ID: ${packet.probes.releaseEvidence.artifactId ?? 'unknown'}`)
+  lines.push(`- Release evidence artifact ID: ${packet.probes.releaseEvidence.releaseEvidenceArtifactId ?? 'unknown'}`)
+  lines.push(`- Release evidence artifact digest: ${packet.probes.releaseEvidence.releaseEvidenceArtifactDigest ?? 'unknown'}`)
   lines.push(`- Production deploy evidence artifact: ${packet.probes.productionDeployEvidenceArtifact.summary.status}`)
   lines.push(`- Production deploy run ID: ${packet.probes.productionDeployEvidenceArtifact.runId ?? 'pending'}`)
   lines.push(`- Production deploy evidence artifact ID: ${packet.probes.productionDeployEvidenceArtifact.artifactId ?? 'pending'}`)
@@ -530,6 +534,10 @@ const validateCurrentSnapshot = (packet) => {
   assert(packet.probes.releaseEvidence.ciRunId, 'Current release evidence should include a CI run ID')
   assert(packet.probes.releaseEvidence.manualReleaseRunId, 'Current release evidence should include a manual release run ID')
   assert(packet.probes.releaseEvidence.artifactId, 'Current release evidence should include a visual smoke artifact ID')
+  assert(
+    packet.probes.releaseEvidence.releaseEvidenceArtifactId,
+    'Current release evidence should include a release evidence artifact ID',
+  )
   assert.equal(
     packet.probes?.productionDeployEvidenceArtifact?.summary?.ok,
     true,

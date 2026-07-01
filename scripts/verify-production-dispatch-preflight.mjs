@@ -232,6 +232,8 @@ const result = {
     manualReleaseRunId: releaseEvidence.data?.manualReleaseRun?.id ?? null,
     visualSmokeArtifactId: releaseEvidence.data?.artifact?.id ?? null,
     visualSmokeArtifactDigest: releaseEvidence.data?.artifact?.digest ?? null,
+    releaseEvidenceArtifactId: releaseEvidence.data?.releaseEvidenceArtifact?.id ?? null,
+    releaseEvidenceArtifactDigest: releaseEvidence.data?.releaseEvidenceArtifact?.digest ?? null,
     githubProductionReadinessStatus: githubReadiness.data?.status ?? 'unavailable',
     productionStateStatus: currentProductionState.data?.snapshotStatus ?? 'unavailable',
     productionDeployEvidenceArtifactStatus:

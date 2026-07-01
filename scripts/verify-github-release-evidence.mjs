@@ -16,6 +16,7 @@ const branch = getArg('--branch', 'main')
 const ciWorkflow = getArg('--ci-workflow', 'Herbalisti CI')
 const manualWorkflow = getArg('--manual-workflow', 'Herbalisti Manual Release Gate')
 const artifactName = getArg('--artifact', 'herbalisti-visual-smoke')
+const releaseEvidenceArtifactName = getArg('--release-evidence-artifact', 'herbalisti-release-evidence')
 const maxAgeHours = Number(getArg('--max-age-hours', '168'))
 const safeDirectory = root.replace(/\\/g, '/')
 const commit =
@@ -83,11 +84,22 @@ assert(
 const artifactsUrl = `https://api.github.com/repos/${repository}/actions/runs/${manualRun.id}/artifacts`
 const artifacts = (await fetchJson(artifactsUrl)).artifacts ?? []
 const artifact = artifacts.find((candidate) => candidate.name === artifactName)
+const releaseEvidenceArtifact = artifacts.find((candidate) => candidate.name === releaseEvidenceArtifactName)
 
 assert(artifact, `Manual release run ${manualRun.id} is missing ${artifactName} artifact`)
 assert(artifact.expired === false, `${artifactName} artifact has expired`)
 assert(Number(artifact.size_in_bytes) > 1_000_000, `${artifactName} artifact is unexpectedly small`)
 assert(String(artifact.digest ?? '').startsWith('sha256:'), `${artifactName} artifact is missing a sha256 digest`)
+assert(
+  releaseEvidenceArtifact,
+  `Manual release run ${manualRun.id} is missing ${releaseEvidenceArtifactName} artifact`,
+)
+assert(releaseEvidenceArtifact.expired === false, `${releaseEvidenceArtifactName} artifact has expired`)
+assert(Number(releaseEvidenceArtifact.size_in_bytes) > 1_000, `${releaseEvidenceArtifactName} artifact is unexpectedly small`)
+assert(
+  String(releaseEvidenceArtifact.digest ?? '').startsWith('sha256:'),
+  `${releaseEvidenceArtifactName} artifact is missing a sha256 digest`,
+)
 
 console.log(
   JSON.stringify(
@@ -118,6 +130,13 @@ console.log(
         sizeInBytes: artifact.size_in_bytes,
         digest: artifact.digest,
         expiresAt: artifact.expires_at,
+      },
+      releaseEvidenceArtifact: {
+        id: releaseEvidenceArtifact.id,
+        name: releaseEvidenceArtifact.name,
+        sizeInBytes: releaseEvidenceArtifact.size_in_bytes,
+        digest: releaseEvidenceArtifact.digest,
+        expiresAt: releaseEvidenceArtifact.expires_at,
       },
       safeToRun:
         'Reads public GitHub Actions run and artifact metadata only. It does not deploy, mutate DNS, create Cloudflare resources, set secrets, download artifacts, call paid APIs, or print credential values.',

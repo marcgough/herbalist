@@ -44,6 +44,7 @@ assert(scripts['verify:github-production-dispatch'], 'package.json should expose
 assert(scripts['verify:production-dispatch-preflight'], 'package.json should expose verify:production-dispatch-preflight')
 assert(scripts['verify:production-state'], 'package.json should expose verify:production-state')
 assert(scripts['verify:production-state-current'], 'package.json should expose verify:production-state-current')
+assert(scripts['prepare:release-evidence'], 'package.json should expose prepare:release-evidence')
 assert(scripts['prepare:production-deploy-evidence'], 'package.json should expose prepare:production-deploy-evidence')
 assert(scripts['verify:production-deploy-evidence'], 'package.json should expose verify:production-deploy-evidence')
 assert(scripts['verify:production-deploy-evidence-artifact'], 'package.json should expose verify:production-deploy-evidence-artifact')
@@ -87,6 +88,9 @@ assert(release.includes('actions: read'), 'Manual release workflow should use re
 assert(release.includes('PLAYWRIGHT_CHROMIUM_EXECUTABLE'), 'Manual release workflow should resolve the browser executable')
 assert(release.includes('npm run verify:release -- --public-only'), 'Manual release workflow should run the repository-safe release verifier')
 assert(release.includes('actions/upload-artifact@v6'), 'Manual release workflow should upload visual smoke screenshots')
+assert(release.includes('npm run prepare:release-evidence'), 'Manual release workflow should prepare a no-secret release evidence artifact')
+assert(release.includes('herbalisti-release-evidence'), 'Manual release workflow should upload the release evidence artifact')
+assert(release.includes('output/release-evidence'), 'Manual release workflow should upload the release evidence directory')
 
 assert(productionDeploy.includes('workflow_dispatch:'), 'Production deploy workflow should only run by workflow_dispatch')
 assert(!productionDeploy.includes('push:'), 'Production deploy workflow should not run automatically on push')
@@ -121,6 +125,7 @@ assert(productionDeploy.includes('herbalisti-production-deploy-evidence'), 'Prod
 assert(productionDeploy.includes('output/production-deploy'), 'Production deploy workflow should upload the deployment evidence directory')
 
 assert(releaseVerifier.includes('verify:github-actions'), 'Full release verifier should include the GitHub Actions gate')
+assert(exists('scripts/prepare-release-evidence-artifact.mjs'), 'Release evidence artifact writer should exist')
 assert(releaseVerifier.includes('verify:production-deploy-workflow'), 'Full release verifier should include the production deploy workflow gate')
 assert(releaseVerifier.includes('verify:production-deploy-evidence'), 'Full release verifier should include the production deploy evidence packet gate')
 assert(releaseVerifier.includes('verify:production-deploy-evidence-artifact'), 'Full release verifier should include the production deploy evidence artifact readback gate')

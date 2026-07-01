@@ -210,6 +210,7 @@ assert(exists('scripts/verify-visual-smoke.mjs'), 'Production contract requires 
 assert(exists('scripts/verify-github-actions.mjs'), 'Production contract requires the GitHub Actions handoff verifier')
 assert(exists('scripts/verify-github-production-readiness.mjs'), 'Production contract requires the GitHub production readiness verifier')
 assert(exists('scripts/verify-github-release-evidence.mjs'), 'Production contract requires the GitHub release evidence verifier')
+assert(exists('scripts/prepare-release-evidence-artifact.mjs'), 'Production contract requires the GitHub release evidence artifact writer')
 assert(exists('scripts/verify-cloudflare-production-state.mjs'), 'Production contract requires the Cloudflare production state verifier')
 assert(exists('.github/workflows/ci.yml'), 'Production contract requires the GitHub CI workflow')
 assert(exists('.github/workflows/release-gate.yml'), 'Production contract requires the manual release-gate workflow')
