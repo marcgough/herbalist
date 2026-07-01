@@ -45,6 +45,9 @@ const topicMatchers = [
 const healthSignalContextMatcher =
   /\b(longevity|healthspan|aging|ageing|senescence|rejuvenation|gene therapy|cell therapy|therapeutic|therapy|clinical|patient|human|medicine|biomedical|disease|healthcare|treatment|oncology|cancer|leukaemia|leukemia|immunotherapy|toxicity|antigen|vaccine|drug discovery|protein therapeutic|epigenetic|methylation|personalized health|preventive health|digital health|health as a service|dna writing|self-sovereign|personal agency|owned wellbeing|wellbeing|wellness)\b/i
 
+const publicResearchHeadlineContextMatcher =
+  /\b(longevity|healthspan|aging|ageing|senescence|rejuvenation|peptides?|protein turnover|protein therapeutic|gene therapy|viral vector|aav|lentiviral|gene editing|genome editing|base editing|prime editing|crispr|cas9|cas12|cas13|dna modification|epigenetic|methylation|chromatin|dna writing|personalized health|preventive health|digital health|healthcare chatbots?|smartphone-derived|health service|health as a service|longevity as a service|self-sovereign|self sovereign|personal agency|owned wellbeing|sovereign wellbeing)\b/i
+
 const offTopicResearchContextMatcher =
   /\b(agriculture|agricultural|crop|crops|cotton|rice|maize|wheat|barley|soybean|potato|vegetable|plants?|arabidopsis|abiotic|starch|herbivory|pest|insect|fungal pathogen|plant health exchange|disease resistance|thin films?|sputter|mbe-grown|ciss|mipac|lammps|spica|boltzmann generators?|expansion microscopy|climate-driven mortality forecasting)\b|\blongevity of (innovation|software|systems?|brands?|markets?|networks?|products?|companies|institutions)\b/i
 
@@ -274,6 +277,8 @@ export const topicsFor = (text) =>
 
 export const hasHealthSignalContext = (value) => healthSignalContextMatcher.test(compact(value))
 
+export const hasPublicResearchHeadlineContext = (value) => publicResearchHeadlineContextMatcher.test(compact(value))
+
 export const hasOffTopicResearchContext = (value) => offTopicResearchContextMatcher.test(compact(value))
 
 export const isHealthRelevantNewsItem = (item) => {
@@ -290,6 +295,13 @@ export const isHealthRelevantNewsItem = (item) => {
     .join(' ')
 
   if (!hasHealthSignalContext(text)) {
+    return false
+  }
+
+  if (
+    ['public-research-index', 'preprint-server'].includes(item.sourceType) &&
+    !hasPublicResearchHeadlineContext(`${item.title} ${item.summary}`)
+  ) {
     return false
   }
 

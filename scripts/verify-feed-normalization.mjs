@@ -4,6 +4,7 @@ import {
   dedupeNewsItems,
   hasHealthSignalContext,
   hasOffTopicResearchContext,
+  hasPublicResearchHeadlineContext,
   isHealthRelevantNewsItem,
   normalizeNewsItems,
   sourceHashForNewsItem,
@@ -108,6 +109,16 @@ const genericCrisprSignal = item({
   topics: ['CRISPR'],
   contextText: 'Basic method optimization in model organisms only.',
 })
+const abstractOnlyCrisprSignal = item({
+  id: 'abstract-only-crispr-signal',
+  title: 'An abundant merozoite surface protein modulates susceptibility to inhibitory antibodies',
+  sourceName: 'bioRxiv',
+  sourceType: 'preprint-server',
+  url: 'https://www.biorxiv.org/content/10.1101/herbalisti-abstract-only-crisprv1',
+  summary: 'Public preprint metadata in microbiology.',
+  topics: ['CRISPR'],
+  contextText: 'An infectious-disease surface protein paper whose abstract mentions CRISPR screening and patient antibodies.',
+})
 const metaphoricalLongevitySignal = item({
   id: 'metaphorical-longevity-signal',
   title: 'The Longevity of Innovation',
@@ -130,10 +141,22 @@ const materialsPeptideSignal = item({
 })
 
 assert(hasHealthSignalContext(therapeuticSignal.contextText), 'Therapeutic signal should have health context')
+assert(
+  hasPublicResearchHeadlineContext(`${therapeuticSignal.title} ${therapeuticSignal.summary}`),
+  'Therapeutic signal should have headline-level public research context',
+)
 assert(hasOffTopicResearchContext(agricultureSignal.contextText), 'Agriculture signal should have off-topic context')
 assert(isHealthRelevantNewsItem(therapeuticSignal), 'Therapeutic CRISPR metadata should be health relevant')
 assert(!isHealthRelevantNewsItem(agricultureSignal), 'Agricultural CRISPR metadata should not be health relevant')
 assert(!isHealthRelevantNewsItem(genericCrisprSignal), 'Generic CRISPR metadata should need a health or longevity context')
+assert(
+  !hasPublicResearchHeadlineContext(`${abstractOnlyCrisprSignal.title} ${abstractOnlyCrisprSignal.summary}`),
+  'Abstract-only CRISPR preprint should not have headline-level public research context',
+)
+assert(
+  !isHealthRelevantNewsItem(abstractOnlyCrisprSignal),
+  'Public research metadata should not pass when frontier relevance is only hidden in abstract context',
+)
 assert(
   !isHealthRelevantNewsItem(metaphoricalLongevitySignal),
   'Metaphorical longevity metadata should not be health relevant',
@@ -146,6 +169,7 @@ const normalized = normalizeNewsItems(
     therapeuticSignal,
     agricultureSignal,
     genericCrisprSignal,
+    abstractOnlyCrisprSignal,
     metaphoricalLongevitySignal,
     materialsPeptideSignal,
     item({
@@ -179,6 +203,7 @@ assert(
         'agriculture-signal',
         'blocked',
         'future',
+        'abstract-only-crispr-signal',
         'generic-crispr-signal',
         'materials-peptide-signal',
         'metaphorical-longevity-signal',

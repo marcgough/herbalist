@@ -296,7 +296,7 @@ assert(
 assert(
   publicNews.items.every(
     (item) =>
-      !/cotton|crop|plant health|herbivory|arabidopsis|rice|maize|wheat|potato|longevity of innovation|thin films|sputter|mbe-grown|lammps|spica|boltzmann generators|expansion microscopy|climate-driven mortality/i.test(
+      !/cotton|crop|plant health|herbivory|arabidopsis|rice|maize|wheat|potato|longevity of innovation|thin films|sputter|mbe-grown|lammps|spica|boltzmann generators|expansion microscopy|climate-driven mortality|merozoite|plasmodium|central tolerance/i.test(
         `${item.title} ${item.summary}`,
       ),
   ),
