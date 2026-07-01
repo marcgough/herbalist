@@ -1,0 +1,166 @@
+import assert from 'node:assert/strict'
+import { mkdirSync, writeFileSync } from 'node:fs'
+import { resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const root = resolve(fileURLToPath(new URL('..', import.meta.url)))
+const outputDirectory = 'output/production-deploy'
+const outputJsonPath = `${outputDirectory}/production-deploy-evidence.json`
+const outputMarkdownPath = `${outputDirectory}/production-deploy-evidence.md`
+const artifactName = 'herbalisti-production-deploy-evidence'
+
+const args = new Set(process.argv.slice(2))
+const write = args.has('--write') || (!args.has('--check') && !args.has('--markdown'))
+const check = args.has('--check')
+const markdown = args.has('--markdown')
+
+const secretValuePattern =
+  /(sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9_]{20,}|Bearer\s+[A-Za-z0-9._-]+|-----BEGIN [A-Z ]+PRIVATE KEY-----)/i
+
+const clean = (value, fallback = null) => {
+  const text = String(value ?? '').replace(/\s+/g, ' ').trim()
+  return text || fallback
+}
+
+const boolFromEnv = (name) => String(process.env[name] ?? '').toLowerCase() === 'true'
+
+const buildProductionDeployEvidence = ({ generatedAt = new Date().toISOString() } = {}) => {
+  const repository = clean(process.env.GITHUB_REPOSITORY, 'marcgough/herbalist')
+  const runId = clean(process.env.GITHUB_RUN_ID)
+  const runAttempt = clean(process.env.GITHUB_RUN_ATTEMPT)
+  const runUrl = runId && repository ? `https://github.com/${repository}/actions/runs/${runId}` : null
+  const liveVerificationSkipped = boolFromEnv('LIVE_VERIFICATION_SKIPPED')
+  const liveVerificationSkipAcknowledged = boolFromEnv('LIVE_VERIFICATION_SKIP_ACKNOWLEDGED')
+
+  assert(
+    !liveVerificationSkipped || liveVerificationSkipAcknowledged,
+    'Skipped live verification evidence requires the explicit skip acknowledgement.',
+  )
+
+  return {
+    schemaVersion: 1,
+    generatedAt,
+    status: 'production-deploy-evidence-ready',
+    artifact: {
+      name: artifactName,
+      outputDirectory,
+      jsonPath: outputJsonPath,
+      markdownPath: outputMarkdownPath,
+      retentionDays: 90,
+    },
+    site: {
+      name: 'Herbalisti',
+      url: clean(process.env.HERBALISTI_PRODUCTION_URL, 'https://herbalisti.com'),
+      customDomain: 'herbalisti.com',
+    },
+    github: {
+      repository,
+      workflow: clean(process.env.GITHUB_WORKFLOW, 'Herbalisti Production Deploy'),
+      job: clean(process.env.GITHUB_JOB, 'deploy'),
+      runId,
+      runAttempt,
+      runUrl,
+      sha: clean(process.env.GITHUB_SHA),
+      ref: clean(process.env.GITHUB_REF),
+      refName: clean(process.env.GITHUB_REF_NAME),
+      actor: clean(process.env.GITHUB_ACTOR),
+    },
+    deployment: {
+      environment: 'production',
+      pagesProject: 'herbalisti',
+      newsWorker: 'herbalisti-news-refresh',
+      d1Database: 'herbalisti',
+      jobStatusAtEvidenceStep: clean(process.env.PRODUCTION_DEPLOY_JOB_STATUS, 'unknown'),
+      liveVerificationSkipped,
+      liveVerificationSkipAcknowledged,
+      liveVerificationMode: liveVerificationSkipped ? 'dns-transition-skip' : 'strict-live-verification',
+      completionEvidence: liveVerificationSkipped
+        ? 'Not complete: strict live verification against https://herbalisti.com remains required after DNS is connected.'
+        : 'Complete only if this workflow run succeeds after seeding the live feed and strict live verification passes.',
+      requiredLiveVerificationCommands: [
+        'npm run verify:live-readiness -- --strict',
+        'npm run verify:production -- https://herbalisti.com',
+        'npm run verify:goal-readiness -- --strict',
+      ],
+    },
+    safety: {
+      includesSecretValues: false,
+      notes: [
+        'This packet records workflow, domain, and verification metadata only.',
+        'It does not read or write admin tokens, provider keys, Cloudflare API tokens, or GitHub tokens.',
+      ],
+    },
+  }
+}
+
+const renderMarkdown = (evidence) => [
+  '# Herbalisti Production Deploy Evidence',
+  '',
+  `Generated: ${evidence.generatedAt}`,
+  '',
+  `- Site: ${evidence.site.url}`,
+  `- Environment: ${evidence.deployment.environment}`,
+  `- GitHub run: ${evidence.github.runUrl ?? 'unavailable'}`,
+  `- Commit: ${evidence.github.sha ?? 'unavailable'}`,
+  `- Workflow: ${evidence.github.workflow}`,
+  `- Job status at evidence step: ${evidence.deployment.jobStatusAtEvidenceStep}`,
+  `- Live verification mode: ${evidence.deployment.liveVerificationMode}`,
+  '',
+  '## Completion Boundary',
+  '',
+  evidence.deployment.completionEvidence,
+  '',
+  'Required live verification commands:',
+  '',
+  ...evidence.deployment.requiredLiveVerificationCommands.map((command) => `- \`${command}\``),
+  '',
+  '## Safety',
+  '',
+  'This evidence packet is intentionally non-secret. It records only workflow metadata and completion boundaries.',
+  '',
+].join('\n')
+
+const evidence = buildProductionDeployEvidence()
+const json = `${JSON.stringify(evidence, null, 2)}\n`
+const md = renderMarkdown(evidence)
+
+assert(!secretValuePattern.test(json), 'Production deploy evidence JSON must not contain literal secret values.')
+assert(!secretValuePattern.test(md), 'Production deploy evidence Markdown must not contain literal secret values.')
+assert(evidence.artifact.name === artifactName, 'Production deploy evidence artifact name is stable.')
+assert(evidence.site.url === 'https://herbalisti.com', 'Production deploy evidence must target herbalisti.com.')
+
+if (check) {
+  console.log(
+    JSON.stringify(
+      {
+        status: 'pass',
+        artifactName,
+        outputDirectory,
+        liveVerificationMode: evidence.deployment.liveVerificationMode,
+        safeToRun:
+          'This verifier builds a non-secret deployment evidence packet in memory only. It does not deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.',
+      },
+      null,
+      2,
+    ),
+  )
+} else if (markdown) {
+  console.log(md)
+} else if (write) {
+  mkdirSync(resolve(root, outputDirectory), { recursive: true })
+  writeFileSync(resolve(root, outputJsonPath), json)
+  writeFileSync(resolve(root, outputMarkdownPath), md)
+  console.log(
+    JSON.stringify(
+      {
+        status: 'written',
+        artifactName,
+        files: [outputJsonPath, outputMarkdownPath],
+        safeToRun:
+          'This command writes non-secret deployment evidence only. It does not deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.',
+      },
+      null,
+      2,
+    ),
+  )
+}

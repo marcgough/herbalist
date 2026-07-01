@@ -1,7 +1,7 @@
 {
   "name": "Herbalisti discovery metadata",
   "version": "2026-06-16",
-  "generatedAt": "2026-07-01T09:49:21.488Z",
+  "generatedAt": "2026-07-01T10:27:10.457Z",
   "source": "static-export-discovery-metadata",
   "policy": "Structured discovery metadata for search engines, crawlers, and public data users. It describes public Herbalisti surfaces without medical advice, diagnosis, treatment claims, copied source text, or personalized recommendations.",
   "canonicalUrl": "https://herbalisti.com/",

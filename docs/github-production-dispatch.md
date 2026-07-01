@@ -1,6 +1,6 @@
 # Herbalisti GitHub Production Dispatch Packet
 
-Generated: 2026-07-01T05:16:59.658Z
+Generated: 2026-07-01T10:24:55.418Z
 
 Status: needs-github-production-secret-names
 
@@ -43,6 +43,7 @@ npm run verify:production-state-current
 npm run verify:production-secrets
 npm run verify:cloudflare-token-requirements
 npm run verify:production-deploy-workflow
+npm run verify:production-deploy-evidence
 npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
 npm run verify:production-feed-seed

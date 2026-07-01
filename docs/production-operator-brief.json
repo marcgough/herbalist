@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T09:10:42.277Z",
+  "generatedAt": "2026-07-01T10:24:55.627Z",
   "status": "needs-github-production-secret-entry",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.",
@@ -67,6 +67,7 @@
         "npm run verify:github-generated-secrets",
         "npm run verify:github-production-dispatch",
         "npm run verify:production-deploy-workflow",
+        "npm run verify:production-deploy-evidence",
         "npm run verify:production-deploy-dry-run",
         "npm run verify:production-d1-resolver",
         "npm run verify:production-feed-seed",
@@ -178,7 +179,7 @@
     {
       "path": "docs/github-production-dispatch.json",
       "version": 1,
-      "generatedAt": "2026-07-01T05:16:59.658Z",
+      "generatedAt": "2026-07-01T10:24:55.418Z",
       "status": "needs-github-production-secret-names",
       "productionComplete": false
     },
@@ -206,7 +207,7 @@
     {
       "path": "docs/production-provisioning-readiness.json",
       "version": 1,
-      "generatedAt": "2026-07-01T06:56:30.868Z",
+      "generatedAt": "2026-07-01T10:24:55.535Z",
       "status": "ready-for-approved-production-provisioning",
       "productionComplete": false
     },

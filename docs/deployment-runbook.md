@@ -194,7 +194,15 @@ Guarded production deploy workflow verification is local and read-only:
 npm run verify:production-deploy-workflow
 ```
 
-It checks `.github/workflows/production-deploy.yml` without running it. The workflow is manual-only, requires the exact `deploy-herbalisti-production` confirmation phrase, uses the GitHub `production` environment, validates named GitHub secrets, verifies exact release evidence, configures runner-local D1 bindings, applies remote D1 migrations, sets Cloudflare secrets from GitHub secrets without echoing values, deploys Pages and the scheduled Worker, seeds the live Signals feed through the protected feed-refresh endpoint, and runs strict live verification unless temporarily skipped during DNS transition with `skip_live_verification_confirm=skip-herbalisti-live-verification`.
+It checks `.github/workflows/production-deploy.yml` without running it. The workflow is manual-only, requires the exact `deploy-herbalisti-production` confirmation phrase, uses the GitHub `production` environment, validates named GitHub secrets, verifies exact release evidence, configures runner-local D1 bindings, applies remote D1 migrations, sets Cloudflare secrets from GitHub secrets without echoing values, deploys Pages and the scheduled Worker, seeds the live Signals feed through the protected feed-refresh endpoint, writes a non-secret production deployment evidence artifact, and runs strict live verification unless temporarily skipped during DNS transition with `skip_live_verification_confirm=skip-herbalisti-live-verification`.
+
+Production deploy evidence verification is local and artifact-shape only:
+
+```bash
+npm run verify:production-deploy-evidence
+```
+
+It builds the deployment evidence packet in memory and confirms the stable artifact name, `https://herbalisti.com` target, live-verification completion boundary, and secret-free output. During the guarded production workflow, the packet is uploaded as `herbalisti-production-deploy-evidence` from `output/production-deploy`.
 
 GitHub production dispatch packet verification is local and read-only:
 

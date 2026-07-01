@@ -1,6 +1,6 @@
 # Herbalisti Production Operator Brief
 
-Generated: 2026-07-01T09:10:42.277Z
+Generated: 2026-07-01T10:24:55.627Z
 
 Status: needs-github-production-secret-entry
 
@@ -58,6 +58,7 @@ npm run verify:production-secrets
 npm run verify:github-generated-secrets
 npm run verify:github-production-dispatch
 npm run verify:production-deploy-workflow
+npm run verify:production-deploy-evidence
 npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
 npm run verify:production-feed-seed

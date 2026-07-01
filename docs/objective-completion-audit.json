@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T09:50:04.547Z",
-  "auditSignature": "e9218726d2d84706cfaaca13fc8c544c3a35e1a797d5bdfe21d5c8494e8964f6",
+  "generatedAt": "2026-07-01T10:27:50.847Z",
+  "auditSignature": "0c32a3058fcb1341cfc0163ab81aa7176ce77ce14585f10c36f34e50ce1e7bdf",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -555,30 +555,30 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T09:49:05.017Z",
-      "total": 18,
+      "generatedAt": "2026-07-01T10:26:52.829Z",
+      "total": 24,
       "topicCounts": {
         "Longevity": 13,
-        "DNA modification": 3,
-        "Health as a service": 2,
+        "DNA modification": 2,
+        "Health as a service": 3,
         "Peptides": 1,
-        "Gene therapy": 1,
-        "CRISPR": 1,
-        "Gene editing": 1,
-        "Self-sovereign wellbeing": 1
+        "Self-sovereign wellbeing": 1,
+        "Gene editing": 8,
+        "CRISPR": 7,
+        "Gene therapy": 3
       },
       "sourceCounts": {
         "Fight Aging!": 6,
         "Lifespan.io": 6,
-        "arXiv": 4,
-        "Crossref": 1,
-        "bioRxiv": 1
+        "arXiv": 3,
+        "bioRxiv": 1,
+        "Crossref": 8
       },
-      "latestRefreshStatus": "completed_with_warnings",
+      "latestRefreshStatus": "completed",
       "publicSnapshot": {
         "status": "updated",
-        "itemCount": 18,
-        "generatedAt": "2026-07-01T09:49:05.017Z"
+        "itemCount": 24,
+        "generatedAt": "2026-07-01T10:26:52.829Z"
       }
     },
     "media": {
@@ -609,7 +609,7 @@
     ],
     "checked": {
       "files": 148,
-      "scripts": 111,
+      "scripts": 113,
       "passes": 225
     },
     "nextActions": [
@@ -637,6 +637,7 @@
       "npm run verify:production-cutover",
       "npm run verify:github-actions",
       "npm run verify:production-deploy-workflow",
+      "npm run verify:production-deploy-evidence",
       "npm run verify:production-deploy-dry-run",
       "npm run verify:production-d1-resolver",
       "npm run verify:production-feed-seed",

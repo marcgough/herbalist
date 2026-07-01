@@ -63,6 +63,7 @@ const phases = [
       'Build succeeds.',
       'GitHub Actions safe-gate and manual repository release-gate workflows are present, read-only, non-deploying, and use public corpus-export mode on GitHub runners.',
       'Guarded GitHub production deploy workflow is present, manual-only, confirmation-gated, environment-scoped, and verified locally without running it.',
+      'Production deployment evidence artifact generation is verified without writing secrets.',
       'Guarded production deploy dry run rehearses Pages project creation, D1 resolution, binding activation, migrations, secret puts, and deploy commands with fake Wrangler.',
       'Production D1 resolver behavior is verified locally with mocked Wrangler list, create, and missing-database paths.',
       'GitHub production environment and secret-name readiness can be checked without exposing secret values.',
@@ -123,6 +124,7 @@ const phases = [
       command('npm run verify:launch -- --soft'),
       command('npm run verify:github-actions'),
       command('npm run verify:production-deploy-workflow'),
+      command('npm run verify:production-deploy-evidence'),
       command('npm run verify:production-deploy-dry-run'),
       command('npm run verify:production-d1-resolver'),
       command('npm run verify:github-production-readiness'),
@@ -170,6 +172,7 @@ const phases = [
       'Provide a single manual GitHub Actions path that can create/confirm the Pages project, resolve or create the D1 database by name, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, then run live verification.',
     commands: [
       command('npm run verify:production-deploy-workflow'),
+      command('npm run verify:production-deploy-evidence'),
       command('npm run verify:production-deploy-dry-run'),
       command('npm run verify:production-d1-resolver'),
       command('npm run verify:production-feed-seed'),

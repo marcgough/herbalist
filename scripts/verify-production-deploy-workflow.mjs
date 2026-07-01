@@ -67,6 +67,9 @@ assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production deploy 
 assert(packageJson.scripts?.['resolve:production-d1'], 'package.json should expose resolve:production-d1')
 assert(exists('scripts/verify-production-deploy-dry-run.mjs'), 'Production deploy workflow requires the deploy dry-run verifier')
 assert(packageJson.scripts?.['verify:production-deploy-dry-run'], 'package.json should expose verify:production-deploy-dry-run')
+assert(exists('scripts/prepare-production-deploy-evidence.mjs'), 'Production deploy workflow requires the deploy evidence packet generator')
+assert(packageJson.scripts?.['prepare:production-deploy-evidence'], 'package.json should expose prepare:production-deploy-evidence')
+assert(packageJson.scripts?.['verify:production-deploy-evidence'], 'package.json should expose verify:production-deploy-evidence')
 assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production deploy workflow requires the D1 resolver verifier')
 assert(packageJson.scripts?.['verify:production-d1-resolver'], 'package.json should expose verify:production-d1-resolver')
 assert(packageJson.scripts?.['verify:production-state-current'], 'package.json should expose verify:production-state-current')
@@ -101,9 +104,26 @@ for (const command of [
   'npm run verify:live-readiness -- --strict',
   'npm run verify:production -- https://herbalisti.com',
   'npm run verify:goal-readiness -- --strict',
+  'npm run prepare:production-deploy-evidence',
+  'actions/upload-artifact@v4',
+  'herbalisti-production-deploy-evidence',
+  'output/production-deploy',
+  'retention-days: 90',
 ]) {
   assert(workflow.includes(command), `Production deploy workflow should include: ${command}`)
 }
+
+const evidenceStart = workflow.indexOf('Write production deployment evidence')
+const evidenceEnd = workflow.indexOf('Upload production deployment evidence')
+assert(evidenceStart >= 0 && evidenceEnd > evidenceStart, 'Production deploy workflow should write evidence before uploading it')
+const evidenceBlock = workflow.slice(evidenceStart, evidenceEnd)
+for (const secretName of ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN', 'KIE_API_KEY', 'CLOUDFLARE_API_TOKEN']) {
+  assert(!evidenceBlock.includes(secretName), `Production deployment evidence generation must not read ${secretName}`)
+}
+assert(
+  workflow.includes('if: ${{ always() }}'),
+  'Production deployment evidence should be attempted even when a deploy step fails',
+)
 
 assert(workflow.includes("printf '%s' \"$FEED_ADMIN_TOKEN\""), 'FEED_ADMIN_TOKEN should be piped without echoing')
 assert(workflow.includes("printf '%s' \"$KIE_API_KEY\""), 'KIE_API_KEY should be piped without echoing')
@@ -143,6 +163,7 @@ console.log(
       requiredGitHubSecrets: ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID'],
       optionalGitHubSecrets: ['KIE_API_KEY'],
       generatedRuntimeSecretNames: ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN'],
+      deploymentEvidenceArtifact: 'herbalisti-production-deploy-evidence',
       workflowDerivedValues: ['CLOUDFLARE_D1_DATABASE_ID'],
       safeToRun:
         'This verifier reads local workflow, package, and contract files only. It does not call GitHub, deploy, mutate DNS, create Cloudflare resources, set secrets, or print secret values.',

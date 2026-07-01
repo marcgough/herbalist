@@ -1,25 +1,23 @@
 {
-  "generatedAt": "2026-07-01T09:49:05.017Z",
+  "generatedAt": "2026-07-01T10:26:52.829Z",
   "source": "static-refresh",
   "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication.",
   "latestRefresh": {
-    "id": "static-refresh-20260701T094905017Z",
+    "id": "static-refresh-20260701T102652829Z",
     "triggerType": "static-refresh",
-    "status": "completed_with_warnings",
-    "startedAt": "2026-07-01T09:49:05.017Z",
-    "finishedAt": "2026-07-01T09:49:05.017Z",
-    "itemCount": 18,
+    "status": "completed",
+    "startedAt": "2026-07-01T10:26:52.829Z",
+    "finishedAt": "2026-07-01T10:26:52.829Z",
+    "itemCount": 24,
     "persistedCount": 0,
-    "publicItemCount": 18,
-    "warningCount": 1,
-    "warnings": [
-      "Skipped Crossref: 500 Server Error: https://api.crossref.org/works?query.bibliographic=longevity+healthspan+senescence+peptide+peptides+CRISPR+gene+therapy+gene+editing+genome+editing+DNA+modification+epigenetic+personalized+health+preventive+health+digital+health+health+as+a+service+self-sovereign+wellbeing&filter=from-pub-date%3A2024-07-01&rows=12&mailto=hello%40herbalisti.com"
-    ],
+    "publicItemCount": 24,
+    "warningCount": 0,
+    "warnings": [],
     "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication."
   },
   "publicSnapshot": {
     "status": "updated",
-    "itemCount": 18,
-    "generatedAt": "2026-07-01T09:49:05.017Z"
+    "itemCount": 24,
+    "generatedAt": "2026-07-01T10:26:52.829Z"
   }
 }

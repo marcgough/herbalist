@@ -187,6 +187,7 @@ for (const [label, command] of [
   ['Cloudflare binding configurator', npm('run', 'verify:cloudflare-config')],
   ['production cutover simulation', npm('run', 'verify:production-cutover')],
   ['production deploy workflow', npm('run', 'verify:production-deploy-workflow')],
+  ['production deploy evidence packet', npm('run', 'verify:production-deploy-evidence')],
   ['production deploy dry run', npm('run', 'verify:production-deploy-dry-run')],
   ['production D1 resolver behavior', npm('run', 'verify:production-d1-resolver')],
   ['production feed seed command', npm('run', 'verify:production-feed-seed')],

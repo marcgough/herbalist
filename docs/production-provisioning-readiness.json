@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T06:56:30.868Z",
+  "generatedAt": "2026-07-01T10:24:55.535Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -23,7 +23,7 @@
     "hiddenRequiredSecretNames": [
       "FEED_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "338e8e80fa1e0a13ab4639b4b8176182b3aa7426b1da9fac3a12e0f427fdd342",
+    "contractFingerprint": "241532d2e4f6fb5021ceb879ab7b88a10fae4b8afe91639552cfbf3a6bf5e97c",
     "externalActionsFingerprint": "46b2afbf39cbfe4c7b9cc0a34f0c2d03d14a7fe2a544ee5c5ab95c600e4502fe",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
@@ -120,6 +120,11 @@
       "detail": "Guarded production workflow can resolve or create the named D1 database without a D1 ID secret."
     },
     {
+      "id": "production-deploy-evidence",
+      "status": "pass",
+      "detail": "Guarded production workflow can emit a non-secret deployment evidence artifact."
+    },
+    {
       "id": "production-deploy-dry-run",
       "status": "pass",
       "detail": "Guarded production workflow can rehearse its Cloudflare-facing command path with fake Wrangler."
@@ -207,6 +212,7 @@
         "npm run verify:production-state",
         "npm run verify:cloudflare-token-requirements",
         "npm run verify:github-production-dispatch",
+        "npm run verify:production-deploy-evidence",
         "npm run verify:production-deploy-dry-run",
         "npm run verify:production-d1-resolver",
         "npm run verify:production-feed-seed",

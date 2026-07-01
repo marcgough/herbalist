@@ -123,6 +123,7 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     'npm run verify:github-generated-secrets',
     'npm run verify:github-production-dispatch',
     'npm run verify:production-deploy-workflow',
+    'npm run verify:production-deploy-evidence',
     'npm run verify:production-deploy-dry-run',
     'npm run verify:production-d1-resolver',
     'npm run verify:production-feed-seed',

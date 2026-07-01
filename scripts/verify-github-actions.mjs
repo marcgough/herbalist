@@ -43,6 +43,8 @@ assert(scripts['verify:github-production-readiness'], 'package.json should expos
 assert(scripts['verify:github-production-dispatch'], 'package.json should expose verify:github-production-dispatch')
 assert(scripts['verify:production-state'], 'package.json should expose verify:production-state')
 assert(scripts['verify:production-state-current'], 'package.json should expose verify:production-state-current')
+assert(scripts['prepare:production-deploy-evidence'], 'package.json should expose prepare:production-deploy-evidence')
+assert(scripts['verify:production-deploy-evidence'], 'package.json should expose verify:production-deploy-evidence')
 assert(scripts['verify:cloudflare-token-requirements'], 'package.json should expose verify:cloudflare-token-requirements')
 assert(packageJson.devDependencies?.wrangler, 'Wrangler should be a devDependency for reproducible release verification')
 
@@ -104,9 +106,14 @@ assert(productionDeploy.includes('npm run resolve:production-d1'), 'Production d
 assert(!productionDeploy.includes('secrets.CLOUDFLARE_D1_DATABASE_ID'), 'Production deploy workflow should not require the D1 database ID as a GitHub secret')
 assert(productionDeploy.includes('npm run deploy:cloudflare'), 'Production deploy workflow should deploy Cloudflare Pages when manually approved')
 assert(productionDeploy.includes('npm run deploy:news-worker'), 'Production deploy workflow should deploy the scheduled Worker when manually approved')
+assert(productionDeploy.includes('npm run prepare:production-deploy-evidence'), 'Production deploy workflow should write a non-secret deployment evidence packet')
+assert(productionDeploy.includes('actions/upload-artifact@v4'), 'Production deploy workflow should upload deployment evidence')
+assert(productionDeploy.includes('herbalisti-production-deploy-evidence'), 'Production deploy workflow should use the stable deployment evidence artifact name')
+assert(productionDeploy.includes('output/production-deploy'), 'Production deploy workflow should upload the deployment evidence directory')
 
 assert(releaseVerifier.includes('verify:github-actions'), 'Full release verifier should include the GitHub Actions gate')
 assert(releaseVerifier.includes('verify:production-deploy-workflow'), 'Full release verifier should include the production deploy workflow gate')
+assert(releaseVerifier.includes('verify:production-deploy-evidence'), 'Full release verifier should include the production deploy evidence packet gate')
 assert(releaseVerifier.includes('verify:production-deploy-dry-run'), 'Full release verifier should include the production deploy dry-run gate')
 assert(releaseVerifier.includes('verify:production-d1-resolver'), 'Full release verifier should include the production D1 resolver gate')
 assert(releaseVerifier.includes('verify:production-feed-seed'), 'Full release verifier should include the production feed seed gate')
