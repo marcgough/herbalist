@@ -1,6 +1,6 @@
 # Herbalisti Production Operator Brief
 
-Generated: 2026-07-01T12:32:14.883Z
+Generated: 2026-07-01T13:44:48.005Z
 
 Status: needs-github-production-secret-entry
 
@@ -22,8 +22,9 @@ Reads local launch contracts and generated readiness packets, then optionally wr
 - DNS cutover: needs-dns-cutover
 - DNS provider: external-or-registrar
 - Live readiness: not-ready
+- Live production smoke: unavailable
 - Production provisioning: ready-for-approved-production-provisioning
-- Production blocker count: 14
+- Production blocker count: 15
 
 ## Secret Boundary
 
@@ -143,6 +144,7 @@ npm run verify:goal-readiness -- --strict
 - Cloudflare production state is needs-cloudflare-auth.
 - DNS/custom-domain state is needs-dns-cutover.
 - Live domain readiness is not-ready.
+- Live production smoke verification is unavailable.
 - Provisioning blocker: Pages D1 binding is not active.
 - Provisioning blocker: Scheduled Worker D1 binding is not active.
 - Provisioning blocker: FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch.

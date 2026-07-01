@@ -24,6 +24,7 @@ const launchPacketDoc = read('docs/production-launch-packet.md')
 const launchPacketScript = read('scripts/prepare-launch-packet.mjs')
 const externalActionsDoc = read('docs/external-launch-actions.md')
 const externalActionsJson = readJson('docs/external-launch-actions.json')
+const productionStateScript = read('scripts/prepare-production-state-snapshot.mjs')
 const productionCutoverDoc = read('docs/production-cutover-simulation.md')
 const productionCutoverJson = readJson('docs/production-cutover-simulation.json')
 const corpusRightsAudit = readJson('corpus/exports/corpus-rights-audit-summary.json')
@@ -807,6 +808,22 @@ assert(
 assert(
   productionCutoverDoc.includes('No Cloudflare API call'),
   'Production cutover simulation doc should state the no-external-action boundary',
+)
+assert(
+  productionStateScript.includes("['scripts/verify-production.mjs', 'https://herbalisti.com']"),
+  'Production state snapshot should run the live production smoke verifier against herbalisti.com',
+)
+assert(
+  productionStateScript.includes("productionSmokeStatus === 'pass'"),
+  'Production state completion should require live production smoke verification to pass',
+)
+assert(
+  productionStateScript.includes('production-smoke-captured'),
+  'Production state snapshot should expose the live production smoke check',
+)
+assert(
+  productionStateScript.includes('finalCompletionGates'),
+  'Production state snapshot should carry final completion gates for operator evidence',
 )
 
 console.log(

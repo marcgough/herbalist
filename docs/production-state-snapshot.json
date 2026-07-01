@@ -1,8 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T11:52:09.520Z",
+  "generatedAt": "2026-07-01T13:41:09.798Z",
   "status": "local-ready-production-pending",
   "productionComplete": false,
+  "completionBoundary": "Production is complete only when the deployment evidence artifact, strict live readiness, live production smoke, and goal-readiness gates all pass against the live herbalisti.com deployment.",
+  "finalCompletionGates": [
+    "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
+    "npm run verify:live-readiness -- --strict",
+    "npm run verify:production -- https://herbalisti.com",
+    "npm run verify:goal-readiness -- --strict"
+  ],
   "safeToRun": "Reads local launch artifacts, public DNS, public live-domain responses, GitHub release/deploy artifact metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.",
   "project": {
     "domain": "herbalisti.com",
@@ -13,7 +20,7 @@
   },
   "git": {
     "branch": "main",
-    "commit": "b3663d46527135d55c0e1e6bb302d70545ecc19c",
+    "commit": "11f4d3fe1dc7d5f62fc254d00380538f772c7d59",
     "note": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence."
   },
   "summary": {
@@ -33,8 +40,10 @@
     "dnsCutoverStatus": "needs-dns-cutover",
     "dnsNameserverProvider": "external-or-registrar",
     "liveReadinessStatus": "not-ready",
+    "productionSmokeStatus": "unavailable",
+    "finalCompletionGateCount": 4,
     "productionProvisioningStatus": "ready-for-approved-production-provisioning",
-    "blockerCount": 11
+    "blockerCount": 12
   },
   "checks": [
     {
@@ -45,7 +54,7 @@
     {
       "id": "github-release-evidence-captured",
       "status": "pass",
-      "detail": "Release evidence is pass for b3663d46527135d55c0e1e6bb302d70545ecc19c."
+      "detail": "Release evidence is pass for 11f4d3fe1dc7d5f62fc254d00380538f772c7d59."
     },
     {
       "id": "production-deploy-evidence-artifact-captured",
@@ -73,6 +82,11 @@
       "detail": "Live readiness status is not-ready."
     },
     {
+      "id": "production-smoke-captured",
+      "status": "warning",
+      "detail": "Live production smoke probe did not return a current JSON payload."
+    },
+    {
       "id": "secret-value-boundary",
       "status": "pass",
       "detail": "Snapshot stores secret names and readiness status only; no secret values are required or printed."
@@ -87,6 +101,7 @@
     "Cloudflare production state is needs-cloudflare-auth.",
     "DNS/custom-domain state is needs-dns-cutover.",
     "Live domain readiness is not-ready.",
+    "Live production smoke verification is unavailable.",
     "Provisioning blocker: Pages D1 binding is not active.",
     "Provisioning blocker: Scheduled Worker D1 binding is not active.",
     "Provisioning blocker: FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch."
@@ -109,6 +124,7 @@
     "Deploy Cloudflare Pages and the scheduled news Worker.",
     "Run npm run verify:live-readiness again.",
     "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
+    "npm run verify:production -- https://herbalisti.com",
     "Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.",
     "Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.",
     "Confirm Cloudflare runtime secret setup for protected feed refresh; Seedance media secrets remain optional until approved.",
@@ -123,10 +139,10 @@
         "status": "pass",
         "error": null
       },
-      "commit": "b3663d46527135d55c0e1e6bb302d70545ecc19c",
-      "ciRunId": 28514702485,
-      "manualReleaseRunId": 28514767305,
-      "artifactId": 8008934977
+      "commit": "11f4d3fe1dc7d5f62fc254d00380538f772c7d59",
+      "ciRunId": 28520643062,
+      "manualReleaseRunId": 28520694770,
+      "artifactId": 8011469262
     },
     "productionDeployEvidenceArtifact": {
       "summary": {
@@ -140,7 +156,7 @@
       "artifactId": null,
       "artifactDigest": null,
       "strictCompletionCommand": "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
-      "detail": "No fresh successful Herbalisti Production Deploy workflow_dispatch run exists for b3663d46527135d55c0e1e6bb302d70545ecc19c."
+      "detail": "No fresh successful Herbalisti Production Deploy workflow_dispatch run exists for 11f4d3fe1dc7d5f62fc254d00380538f772c7d59."
     },
     "githubProductionReadiness": {
       "summary": {
@@ -270,6 +286,17 @@
           }
         }
       }
+    },
+    "productionSmoke": {
+      "summary": {
+        "ok": false,
+        "exitCode": 1,
+        "timedOut": false,
+        "status": "unavailable",
+        "error": "Error: Homepage failed: fetch failed"
+      },
+      "baseUrl": "https://herbalisti.com/",
+      "checks": null
     }
   }
 }

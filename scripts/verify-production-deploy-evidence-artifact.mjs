@@ -1,8 +1,11 @@
 import { execFileSync } from 'node:child_process'
+import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)))
+const readJson = (path) => JSON.parse(readFileSync(resolve(root, path), 'utf8'))
+const contract = readJson('docs/production-environment-contract.json')
 const args = process.argv.slice(2)
 const argSet = new Set(args)
 
@@ -18,6 +21,18 @@ const artifactName = getArg('--artifact', 'herbalisti-production-deploy-evidence
 const runId = getArg('--run-id', '')
 const strict = argSet.has('--strict')
 const maxAgeHours = Number(getArg('--max-age-hours', '720'))
+const finalCompletionGates = contract.commands?.finalCompletionGates ?? [
+  'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
+  'npm run verify:live-readiness -- --strict',
+  'npm run verify:production -- https://herbalisti.com',
+  'npm run verify:goal-readiness -- --strict',
+]
+const strictCompletionCommand =
+  finalCompletionGates.find((command) => command.includes('verify:production-deploy-evidence-artifact')) ??
+  'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>'
+const remainingFinalCompletionGatesAfterArtifactReadback = finalCompletionGates.filter(
+  (command) => !command.includes('verify:production-deploy-evidence-artifact'),
+)
 const safeDirectory = root.replace(/\\/g, '/')
 const commit =
   getArg('--commit', '') ||
@@ -82,6 +97,12 @@ const basePayload = {
   artifactName,
   strict,
   maxAgeHours,
+  artifactReadbackScope: 'single-final-completion-gate',
+  completionBoundary:
+    'This verifier proves only the non-secret production deployment evidence artifact for the selected run and commit. Herbalisti is complete only when every final completion gate also passes against the live production site.',
+  strictCompletionCommand,
+  finalCompletionGates,
+  remainingFinalCompletionGatesAfterArtifactReadback,
   safeToRun:
     'Reads GitHub Actions production deploy run and artifact metadata only. It does not dispatch workflows, deploy, mutate DNS, create Cloudflare resources, set secrets, download artifacts, call paid APIs, or print credential values.',
 }
@@ -124,8 +145,6 @@ if (!deployRun) {
       detail: runId
         ? `Production deploy run ${runId} is not a fresh successful workflow_dispatch run for ${commit}.`
         : `No fresh successful ${workflowName} workflow_dispatch run exists for ${commit}.`,
-      strictCompletionCommand:
-        'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
     },
     strict ? 1 : 0,
   )
@@ -163,7 +182,7 @@ if (!deployRun) {
         : null,
       observedRuns,
       detail: artifactOk
-        ? 'The guarded production deployment uploaded the non-secret deployment evidence artifact for this commit.'
+        ? 'The guarded production deployment uploaded the non-secret deployment evidence artifact for this commit. This is one final completion gate; strict live readiness, live production smoke, and goal-readiness gates must still pass before the site is complete.'
         : `Production deploy run ${deployRun.id} is missing a valid ${artifactName} artifact.`,
     },
     artifactOk ? 0 : 1,

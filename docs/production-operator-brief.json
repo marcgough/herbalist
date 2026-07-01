@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T12:32:14.883Z",
+  "generatedAt": "2026-07-01T13:44:48.005Z",
   "status": "needs-github-production-secret-entry",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.",
@@ -28,8 +28,9 @@
     "dnsCutoverStatus": "needs-dns-cutover",
     "dnsNameserverProvider": "external-or-registrar",
     "liveReadinessStatus": "not-ready",
+    "productionSmokeStatus": "unavailable",
     "productionProvisioningStatus": "ready-for-approved-production-provisioning",
-    "productionBlockerCount": 14
+    "productionBlockerCount": 15
   },
   "secretBoundary": {
     "requiredGitHubSecretNames": [
@@ -160,6 +161,7 @@
     "Cloudflare production state is needs-cloudflare-auth.",
     "DNS/custom-domain state is needs-dns-cutover.",
     "Live domain readiness is not-ready.",
+    "Live production smoke verification is unavailable.",
     "Provisioning blocker: Pages D1 binding is not active.",
     "Provisioning blocker: Scheduled Worker D1 binding is not active.",
     "Provisioning blocker: FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch.",
@@ -184,7 +186,7 @@
     {
       "path": "docs/production-state-snapshot.json",
       "version": 1,
-      "generatedAt": "2026-07-01T11:52:09.520Z",
+      "generatedAt": "2026-07-01T13:41:09.798Z",
       "status": "local-ready-production-pending",
       "productionComplete": false
     },
@@ -219,7 +221,7 @@
     {
       "path": "docs/production-provisioning-readiness.json",
       "version": 1,
-      "generatedAt": "2026-07-01T12:32:13.350Z",
+      "generatedAt": "2026-07-01T13:44:47.074Z",
       "status": "ready-for-approved-production-provisioning",
       "productionComplete": false
     },

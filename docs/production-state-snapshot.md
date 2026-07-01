@@ -1,6 +1,6 @@
 # Herbalisti Production State Snapshot
 
-Generated: 2026-07-01T11:52:09.520Z
+Generated: 2026-07-01T13:41:09.798Z
 
 Status: local-ready-production-pending
 
@@ -16,7 +16,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Stored Snapshot Summary
 
 - Git branch: main
-- Observed git commit at generation time: b3663d46527135d55c0e1e6bb302d70545ecc19c
+- Observed git commit at generation time: 11f4d3fe1dc7d5f62fc254d00380538f772c7d59
 - Git note: Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.
 - Completion audit status: local-ready-production-pending
 - Goal complete: false
@@ -30,18 +30,21 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - DNS cutover status: needs-dns-cutover
 - DNS nameserver provider: external-or-registrar
 - Live readiness: not-ready
+- Live production smoke: unavailable
+- Final completion gates: 4
 - Production provisioning status: ready-for-approved-production-provisioning
-- Blocker count: 11
+- Blocker count: 12
 
 ## Checks
 
 - pass: Completion audit status is local-ready-production-pending.
-- pass: Release evidence is pass for b3663d46527135d55c0e1e6bb302d70545ecc19c.
+- pass: Release evidence is pass for 11f4d3fe1dc7d5f62fc254d00380538f772c7d59.
 - pass: Production deploy evidence artifact status is pending-production-deploy-evidence-artifact.
 - pass: GitHub production readiness status is needs-github-production-setup.
 - pass: Cloudflare production state is needs-cloudflare-auth.
 - pass: DNS cutover status is needs-dns-cutover.
 - pass: Live readiness status is not-ready.
+- warning: Live production smoke probe did not return a current JSON payload.
 - pass: Snapshot stores secret names and readiness status only; no secret values are required or printed.
 
 ## Blockers
@@ -54,6 +57,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - Cloudflare production state is needs-cloudflare-auth.
 - DNS/custom-domain state is needs-dns-cutover.
 - Live domain readiness is not-ready.
+- Live production smoke verification is unavailable.
 - Provisioning blocker: Pages D1 binding is not active.
 - Provisioning blocker: Scheduled Worker D1 binding is not active.
 - Provisioning blocker: FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch.
@@ -61,9 +65,9 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Probe Details
 
 - Release evidence: pass
-- CI run ID: 28514702485
-- Manual release run ID: 28514767305
-- Visual smoke artifact ID: 8008934977
+- CI run ID: 28520643062
+- Manual release run ID: 28520694770
+- Visual smoke artifact ID: 8011469262
 - Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - Production deploy run ID: pending
 - Production deploy evidence artifact ID: pending
@@ -76,6 +80,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - Live HTTPS status: unknown
 - Live health status: unknown
 - Live health D1 bound: unknown
+- Live production smoke: unavailable
 - Live public surface checks: news=false, signalsRss=false, search=false, herbalChat=false, referenceBooks=false
 
 ## Next Actions
@@ -97,6 +102,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - Deploy Cloudflare Pages and the scheduled news Worker.
 - Run npm run verify:live-readiness again.
 - npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>
+- npm run verify:production -- https://herbalisti.com
 - Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.
 - Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.
 - Confirm Cloudflare runtime secret setup for protected feed refresh; Seedance media secrets remain optional until approved.

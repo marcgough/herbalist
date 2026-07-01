@@ -83,11 +83,26 @@ const summarizeProbe = (probe) => ({
   exitCode: probe.exitCode,
   timedOut: probe.timedOut,
   status: probe.data?.status ?? 'unavailable',
-  error: probe.error || probe.parseError || probe.stderr || null,
+  error: compactProbeError(probe),
 })
 
 const unique = (items) => [...new Set(items.filter(Boolean))]
 const checkItem = (id, status, detail) => ({ id, status, detail })
+
+const compactProbeError = (probe) => {
+  const text = probe.error || probe.parseError || probe.stderr || ''
+  if (!text) return null
+  const lines = text
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+  const errorLine =
+    lines.find((line) => line.startsWith('Error:')) ??
+    lines.find((line) => !line.startsWith('file://') && !line.startsWith('at ') && !line.startsWith('^')) ??
+    lines[0] ??
+    text
+  return errorLine.slice(0, 500)
+}
 
 export const buildProductionStateSnapshot = async ({ generatedAt = new Date().toISOString() } = {}) => {
   const contract = readJson('docs/production-environment-contract.json')
@@ -124,11 +139,15 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
   })
   const dnsProbe = run('dns-cutover-plan', ['scripts/prepare-dns-cutover-plan.mjs'], { timeout: 45000 })
   const liveProbe = run('live-readiness', ['scripts/verify-live-readiness.mjs'], { timeout: 45000 })
+  const productionSmokeProbe = run('production-smoke', ['scripts/verify-production.mjs', 'https://herbalisti.com'], {
+    timeout: 90000,
+  })
 
   const github = githubProbe.data
   const cloudflare = cloudflareProbe.data
   const dns = dnsProbe.data
   const live = liveProbe.data
+  const productionSmoke = productionSmokeProbe.data
   const releaseEvidence = releaseEvidenceProbe.data
 
   const pendingRequirementIds =
@@ -139,7 +158,9 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
   const cloudflareStatus = cloudflare?.status ?? 'unavailable'
   const dnsStatus = dns?.status ?? 'unavailable'
   const liveStatus = live?.status ?? 'unavailable'
+  const productionSmokeStatus = productionSmoke?.status ?? 'unavailable'
   const deployEvidenceArtifactStatus = deployEvidenceArtifactProbe.data?.status ?? 'unavailable'
+  const finalCompletionGates = contract.commands?.finalCompletionGates ?? []
 
   const blockers = unique([
     ...pendingRequirementIds.map((item) => `Completion audit pending: ${item}.`),
@@ -152,12 +173,14 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
       : [`Cloudflare production state is ${cloudflareStatus}.`]),
     ...(dnsStatus === 'dns-ready-for-pages-custom-domain' ? [] : [`DNS/custom-domain state is ${dnsStatus}.`]),
     ...(liveStatus === 'ready-for-production-verification' ? [] : [`Live domain readiness is ${liveStatus}.`]),
+    ...(productionSmokeStatus === 'pass' ? [] : [`Live production smoke verification is ${productionSmokeStatus}.`]),
     ...(provisioning?.productionBlockers ?? []).map((item) => `Provisioning blocker: ${item}`),
   ])
 
   const productionEvidenceComplete =
     completionAudit?.goalComplete &&
     liveStatus === 'ready-for-production-verification' &&
+    productionSmokeStatus === 'pass' &&
     deployEvidenceArtifactStatus === 'pass'
 
   const status = productionEvidenceComplete
@@ -211,6 +234,13 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
       liveProbe.ok ? `Live readiness status is ${live.status}.` : 'Live readiness probe did not return a current JSON payload.',
     ),
     checkItem(
+      'production-smoke-captured',
+      productionSmokeProbe.ok ? 'pass' : 'warning',
+      productionSmokeProbe.ok
+        ? `Live production smoke status is ${productionSmoke.status}.`
+        : 'Live production smoke probe did not return a current JSON payload.',
+    ),
+    checkItem(
       'secret-value-boundary',
       'pass',
       'Snapshot stores secret names and readiness status only; no secret values are required or printed.',
@@ -222,6 +252,9 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
     generatedAt,
     status,
     productionComplete: status === 'complete',
+    completionBoundary:
+      'Production is complete only when the deployment evidence artifact, strict live readiness, live production smoke, and goal-readiness gates all pass against the live herbalisti.com deployment.',
+    finalCompletionGates,
     safeToRun:
       'Reads local launch artifacts, public DNS, public live-domain responses, GitHub release/deploy artifact metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.',
     project: contract.project,
@@ -245,6 +278,8 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
       dnsCutoverStatus: dnsStatus,
       dnsNameserverProvider: dns?.currentState?.nameserversProvider ?? 'unknown',
       liveReadinessStatus: liveStatus,
+      productionSmokeStatus,
+      finalCompletionGateCount: finalCompletionGates.length,
       productionProvisioningStatus: provisioning?.status ?? 'missing',
       blockerCount: blockers.length,
     },
@@ -261,6 +296,7 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
             deployEvidenceArtifactProbe.data?.strictCompletionCommand ||
               'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
           ]),
+      ...(productionSmokeStatus === 'pass' ? [] : ['npm run verify:production -- https://herbalisti.com']),
       ...(completionAudit?.launchReadiness?.nextActions ?? []),
     ]),
     probes: {
@@ -319,6 +355,11 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
           publicSurfaces: live?.http?.publicSurfaces ?? null,
         },
       },
+      productionSmoke: {
+        summary: summarizeProbe(productionSmokeProbe),
+        baseUrl: productionSmoke?.baseUrl ?? 'https://herbalisti.com/',
+        checks: productionSmoke?.checks ?? null,
+      },
     },
   }
 }
@@ -357,6 +398,8 @@ export const renderProductionStateMarkdown = (packet) => {
     `- DNS cutover status: ${packet.summary.dnsCutoverStatus}`,
     `- DNS nameserver provider: ${packet.summary.dnsNameserverProvider}`,
     `- Live readiness: ${packet.summary.liveReadinessStatus}`,
+    `- Live production smoke: ${packet.summary.productionSmokeStatus}`,
+    `- Final completion gates: ${packet.summary.finalCompletionGateCount}`,
     `- Production provisioning status: ${packet.summary.productionProvisioningStatus}`,
     `- Blocker count: ${packet.summary.blockerCount}`,
     '',
@@ -398,6 +441,7 @@ export const renderProductionStateMarkdown = (packet) => {
   lines.push(`- Live HTTPS status: ${packet.probes.liveReadiness.http.httpsStatus ?? 'unknown'}`)
   lines.push(`- Live health status: ${packet.probes.liveReadiness.http.healthStatus ?? 'unknown'}`)
   lines.push(`- Live health D1 bound: ${packet.probes.liveReadiness.http.healthD1Bound ?? 'unknown'}`)
+  lines.push(`- Live production smoke: ${packet.probes.productionSmoke.summary.status}`)
   lines.push(
     `- Live public surface checks: ${
       packet.probes.liveReadiness.http.requiredPublicSurfaces
@@ -441,6 +485,11 @@ const validateStoredSnapshot = () => {
   assert(packet.probes?.cloudflareProductionState, 'Snapshot should include Cloudflare production state probe data')
   assert(packet.probes?.dnsCutover, 'Snapshot should include DNS cutover probe data')
   assert(packet.probes?.liveReadiness, 'Snapshot should include live readiness probe data')
+  assert(packet.probes?.productionSmoke, 'Snapshot should include live production smoke probe data')
+  assert(
+    packet.finalCompletionGates?.includes('npm run verify:production -- https://herbalisti.com'),
+    'Snapshot should include the live production smoke final completion gate',
+  )
   assert(storedMarkdown.includes('## Stored Snapshot Summary'), `${outputMarkdownPath} should include a stored snapshot summary`)
   assert(storedMarkdown.includes('## Blockers'), `${outputMarkdownPath} should include blockers`)
   assert.equal(secretValuePattern.test(`${storedJson}\n${storedMarkdown}`), false, 'Snapshot must not contain secret-looking values')
@@ -490,6 +539,16 @@ const validateCurrentSnapshot = (packet) => {
       'pass',
       'Complete production state requires production deploy evidence artifact readback to pass',
     )
+    assert.equal(
+      packet.summary.liveReadinessStatus,
+      'ready-for-production-verification',
+      'Complete production state requires strict live readiness to pass',
+    )
+    assert.equal(
+      packet.probes.productionSmoke.summary.status,
+      'pass',
+      'Complete production state requires live production smoke verification to pass',
+    )
   }
   assert.equal(secretValuePattern.test(`${serialized}\n${rendered}`), false, 'Current snapshot must not contain secret-looking values')
 
@@ -527,6 +586,7 @@ if (check) {
         productionDeployEvidenceArtifactStatus: packet.probes.productionDeployEvidenceArtifact.summary.status,
         productionDeployRunId: packet.probes.productionDeployEvidenceArtifact.runId,
         productionDeployEvidenceArtifactId: packet.probes.productionDeployEvidenceArtifact.artifactId,
+        productionSmokeStatus: packet.probes.productionSmoke.summary.status,
         safeToRun:
           'Regenerates the production state in memory for the current git commit and checks public GitHub release plus production deploy evidence metadata. It does not write files, deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values.',
       },
