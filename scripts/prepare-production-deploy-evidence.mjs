@@ -7,7 +7,9 @@ const root = resolve(fileURLToPath(new URL('..', import.meta.url)))
 const outputDirectory = 'output/production-deploy'
 const outputJsonPath = `${outputDirectory}/production-deploy-evidence.json`
 const outputMarkdownPath = `${outputDirectory}/production-deploy-evidence.md`
-const feedSeedEvidencePath = `${outputDirectory}/feed-seed-evidence.json`
+const defaultFeedSeedEvidencePath = `${outputDirectory}/feed-seed-evidence.json`
+const feedSeedEvidencePath =
+  String(process.env.HERBALISTI_FEED_SEED_EVIDENCE_PATH ?? '').trim() || defaultFeedSeedEvidencePath
 const artifactName = 'herbalisti-production-deploy-evidence'
 
 const args = new Set(process.argv.slice(2))
