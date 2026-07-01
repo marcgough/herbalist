@@ -128,12 +128,12 @@ const fixtureItems = [
   },
   {
     id: 'coverage-peptides',
-    title: 'Peptide discovery signal from open preprint metadata',
+    title: 'Therapeutic peptide discovery signal from open preprint metadata',
     sourceName: 'arXiv',
     sourceType: 'public-research-index',
     url: 'https://arxiv.org/search/advanced?terms-0-term=peptide',
     publishedAt: '2026-06-19T00:00:00.000Z',
-    summary: 'Open preprint metadata for peptide structure and design.',
+    summary: 'Open preprint metadata for peptide structure, protein therapeutic design, and drug discovery.',
     topics: ['Peptides'],
   },
   {
@@ -148,12 +148,12 @@ const fixtureItems = [
   },
   {
     id: 'coverage-gene-editing',
-    title: 'Genome editing and prime editing signal',
+    title: 'Genome editing and prime editing signal for therapeutic cell repair',
     sourceName: 'bioRxiv',
     sourceType: 'preprint-server',
     url: 'https://www.biorxiv.org/content/10.1101/2026.06.17.000001v1',
     publishedAt: '2026-06-17T00:00:00.000Z',
-    summary: 'Public preprint metadata for base editing, prime editing, and genome editing.',
+    summary: 'Public preprint metadata for therapeutic base editing, prime editing, and genome editing.',
     topics: ['Gene editing'],
   },
   {
@@ -288,6 +288,19 @@ assert(
 assert(
   publicNews.items.every((item) => !textHasBlockedSource(`${item.title} ${item.summary} ${item.sourceName}`)),
   'Public news export should not include blocked Big Pharma source names',
+)
+assert(
+  publicNews.items.every((item) => !Object.hasOwn(item, 'contextText')),
+  'Public news export should not expose private relevance context text',
+)
+assert(
+  publicNews.items.every(
+    (item) =>
+      !/cotton|crop|plant health|herbivory|arabidopsis|rice|maize|wheat|potato|longevity of innovation|thin films|sputter|mbe-grown|lammps|spica|boltzmann generators|expansion microscopy|climate-driven mortality/i.test(
+        `${item.title} ${item.summary}`,
+      ),
+  ),
+  'Public news export should exclude known off-topic research metadata drift',
 )
 assert(
   Array.isArray(publicNews.sourceHealth) &&

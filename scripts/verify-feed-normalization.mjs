@@ -2,6 +2,9 @@ import {
   canonicalTitleKey,
   canonicalUrlKey,
   dedupeNewsItems,
+  hasHealthSignalContext,
+  hasOffTopicResearchContext,
+  isHealthRelevantNewsItem,
   normalizeNewsItems,
   sourceHashForNewsItem,
 } from '../functions/_lib/feed.js'
@@ -13,6 +16,7 @@ const assert = (condition, message) => {
 }
 
 const item = (overrides) => ({
+  ...overrides,
   id: overrides.id,
   title: overrides.title,
   sourceName: overrides.sourceName ?? 'Crossref',
@@ -76,9 +80,74 @@ assert(
   'Canonical source hash should match DOI duplicates with tracking differences',
 )
 
+const therapeuticSignal = item({
+  id: 'therapeutic-signal',
+  title: 'Therapeutic applications of CRISPR-Cas9 gene editing',
+  sourceName: 'Crossref',
+  url: 'https://doi.org/10.5555/herbalisti-therapeutic-signal',
+  summary: 'Public Crossref metadata from Frontiers in Genome Editing.',
+  topics: ['Gene editing', 'CRISPR'],
+  contextText: 'Therapeutic applications of CRISPR-Cas9 gene editing for patient medicine.',
+})
+const agricultureSignal = item({
+  id: 'agriculture-signal',
+  title: 'CRISPR-Cas9 genome editing of cotton genes for herbivory resistance',
+  sourceName: 'Crossref',
+  url: 'https://doi.org/10.5555/herbalisti-agriculture-signal',
+  summary: 'Public Crossref metadata from Plant Health Exchange.',
+  topics: ['Gene editing', 'CRISPR'],
+  contextText: 'Cotton crop herbivory resistance and agricultural plant health exchange metadata.',
+})
+const genericCrisprSignal = item({
+  id: 'generic-crispr-signal',
+  title: 'CRISPR method optimization in model organisms',
+  sourceName: 'bioRxiv',
+  sourceType: 'preprint-server',
+  url: 'https://www.biorxiv.org/content/10.1101/herbalisti-generic-crisprv1',
+  summary: 'Public preprint metadata in biology.',
+  topics: ['CRISPR'],
+  contextText: 'Basic method optimization in model organisms only.',
+})
+const metaphoricalLongevitySignal = item({
+  id: 'metaphorical-longevity-signal',
+  title: 'The Longevity of Innovation',
+  sourceName: 'arXiv',
+  sourceType: 'public-research-index',
+  url: 'https://arxiv.org/abs/2606.29777v1',
+  summary: 'Open preprint metadata matching Herbalisti frontier-biology topics.',
+  topics: ['Longevity'],
+  contextText: 'The longevity of innovation in technology markets and institutions.',
+})
+const materialsPeptideSignal = item({
+  id: 'materials-peptide-signal',
+  title: 'MBE-grown thin films for CISS effect studies',
+  sourceName: 'arXiv',
+  sourceType: 'public-research-index',
+  url: 'https://arxiv.org/abs/2606.28508v1',
+  summary: 'Open preprint metadata matching peptide-adjacent physics topics.',
+  topics: ['Peptides'],
+  contextText: 'Microscopic characterization of sputter-deposited thin films for CISS and MIPAC studies.',
+})
+
+assert(hasHealthSignalContext(therapeuticSignal.contextText), 'Therapeutic signal should have health context')
+assert(hasOffTopicResearchContext(agricultureSignal.contextText), 'Agriculture signal should have off-topic context')
+assert(isHealthRelevantNewsItem(therapeuticSignal), 'Therapeutic CRISPR metadata should be health relevant')
+assert(!isHealthRelevantNewsItem(agricultureSignal), 'Agricultural CRISPR metadata should not be health relevant')
+assert(!isHealthRelevantNewsItem(genericCrisprSignal), 'Generic CRISPR metadata should need a health or longevity context')
+assert(
+  !isHealthRelevantNewsItem(metaphoricalLongevitySignal),
+  'Metaphorical longevity metadata should not be health relevant',
+)
+assert(!isHealthRelevantNewsItem(materialsPeptideSignal), 'Materials-science peptide metadata should not be health relevant')
+
 const normalized = normalizeNewsItems(
   [
     ...duplicateRows,
+    therapeuticSignal,
+    agricultureSignal,
+    genericCrisprSignal,
+    metaphoricalLongevitySignal,
+    materialsPeptideSignal,
     item({
       id: 'blocked',
       title: 'Pfizer peptide announcement for longevity medicine',
@@ -102,10 +171,27 @@ const normalized = normalizeNewsItems(
   { includeWatchFallback: false },
 )
 
-assert(normalized.length === 2, `Expected normalized feed to keep 2 valid unique items, got ${normalized.length}`)
+assert(normalized.length === 3, `Expected normalized feed to keep 3 valid unique items, got ${normalized.length}`)
 assert(
-  normalized.every((newsItem) => !['blocked', 'future', 'untagged', 'pubmed-old', 'rss-same-title'].includes(newsItem.id)),
-  'Normalized feed should remove blocked, future, untagged, and duplicate items',
+  normalized.every(
+    (newsItem) =>
+      ![
+        'agriculture-signal',
+        'blocked',
+        'future',
+        'generic-crispr-signal',
+        'materials-peptide-signal',
+        'metaphorical-longevity-signal',
+        'untagged',
+        'pubmed-old',
+        'rss-same-title',
+      ].includes(newsItem.id),
+  ),
+  'Normalized feed should remove off-topic, blocked, future, untagged, and duplicate items',
+)
+assert(
+  normalized.every((newsItem) => !('contextText' in newsItem)),
+  'Normalized public feed items should not expose private relevance context text',
 )
 
 const limited = normalizeNewsItems(
@@ -137,6 +223,7 @@ console.log(
       duplicateOutput: deduped.length,
       normalizedOutput: normalized.length,
       limitedOutput: limited.length,
+      healthRelevantKept: normalized.some((newsItem) => newsItem.id === 'therapeutic-signal'),
     },
     null,
     2,

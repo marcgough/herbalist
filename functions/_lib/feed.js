@@ -7,7 +7,7 @@ const parser = new XMLParser({
 })
 
 export const sourcePolicyText =
-  'Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names filtered from source/title metadata.'
+  'Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication.'
 
 export const pharmaBlocklist = [
   'abbvie',
@@ -42,10 +42,11 @@ const topicMatchers = [
   ['Self-sovereign wellbeing', /self-sovereign|self sovereign|personal agency|owned wellbeing|sovereign wellbeing/i],
 ]
 
-const healthContextMatcher =
-  /\b(longevity|healthspan|aging|ageing|senescence|rejuvenation|health|peptide|peptides|gene therapy|cell therapy|therapeutic|therapy|clinical|patient|human|medicine|biomedical|disease|epigenetic|methylation|personalized health|preventive health|digital health|health as a service|dna writing|self-sovereign|personal agency|owned wellbeing)\b/i
+const healthSignalContextMatcher =
+  /\b(longevity|healthspan|aging|ageing|senescence|rejuvenation|gene therapy|cell therapy|therapeutic|therapy|clinical|patient|human|medicine|biomedical|disease|healthcare|treatment|oncology|cancer|leukaemia|leukemia|immunotherapy|toxicity|antigen|vaccine|drug discovery|protein therapeutic|epigenetic|methylation|personalized health|preventive health|digital health|health as a service|dna writing|self-sovereign|personal agency|owned wellbeing|wellbeing|wellness)\b/i
 
-const crossrefOffTopicMatcher = /\b(crop|crops|rice|potato|vegetable|plants?|abiotic|starch|disease resistance)\b/i
+const offTopicResearchContextMatcher =
+  /\b(agriculture|agricultural|crop|crops|cotton|rice|maize|wheat|barley|soybean|potato|vegetable|plants?|arabidopsis|abiotic|starch|herbivory|pest|insect|fungal pathogen|plant health exchange|disease resistance|thin films?|sputter|mbe-grown|ciss|mipac|lammps|spica|boltzmann generators?|expansion microscopy|climate-driven mortality forecasting)\b|\blongevity of (innovation|software|systems?|brands?|markets?|networks?|products?|companies|institutions)\b/i
 
 export const newsTopics = topicMatchers.map(([topic]) => topic)
 export const newsSourceNames = ['PubMed / NCBI', 'arXiv', 'bioRxiv', 'Crossref', 'Lifespan.io', 'Fight Aging!']
@@ -271,6 +272,30 @@ export const textHasBlockedSource = (value) => {
 export const topicsFor = (text) =>
   topicMatchers.filter(([, matcher]) => matcher.test(text)).map(([topic]) => topic)
 
+export const hasHealthSignalContext = (value) => healthSignalContextMatcher.test(compact(value))
+
+export const hasOffTopicResearchContext = (value) => offTopicResearchContextMatcher.test(compact(value))
+
+export const isHealthRelevantNewsItem = (item) => {
+  const text = [
+    item.title,
+    item.summary,
+    item.sourceName,
+    item.sourceType,
+    item.topics,
+    item.contextText,
+  ]
+    .flatMap((part) => (Array.isArray(part) ? part : [part]))
+    .filter(Boolean)
+    .join(' ')
+
+  if (!hasHealthSignalContext(text)) {
+    return false
+  }
+
+  return !hasOffTopicResearchContext(text)
+}
+
 const normalizeQuery = (value) => String(value ?? '').trim().slice(0, 120)
 const escapeLike = (value) => value.replace(/[\\%_]/g, (match) => `\\${match}`)
 
@@ -445,6 +470,7 @@ const arxivItems = async ({ fetchImpl = fetch } = {}) => {
   const parsed = parser.parse(text)
   return asArray(parsed?.feed?.entry).map((entry) => {
     const title = compact(entry.title)
+    const abstract = compact(entry.summary)
     return {
       id: `arxiv-${compact(entry.id).split('/').pop()}`,
       title,
@@ -452,7 +478,8 @@ const arxivItems = async ({ fetchImpl = fetch } = {}) => {
       url: compact(entry.id),
       publishedAt: safeDate(entry.published),
       summary: 'Open preprint metadata matching Herbalisti frontier-biology topics.',
-      topics: topicsFor(title),
+      topics: topicsFor(`${title} ${abstract}`),
+      contextText: `${title} ${abstract}`,
       sourceType: 'public-research-index',
     }
   })
@@ -469,7 +496,12 @@ const biorxivItems = async ({ fetchImpl = fetch } = {}) => {
   return asArray(payload?.collection)
     .filter((record) => {
       const text = `${record.title} ${record.abstract} ${record.category}`
-      return topicMatchers.some(([, matcher]) => matcher.test(text)) && !textHasBlockedSource(text)
+      return (
+        topicMatchers.some(([, matcher]) => matcher.test(text)) &&
+        hasHealthSignalContext(text) &&
+        !hasOffTopicResearchContext(text) &&
+        !textHasBlockedSource(text)
+      )
     })
     .slice(0, 8)
     .map((record) => {
@@ -482,6 +514,7 @@ const biorxivItems = async ({ fetchImpl = fetch } = {}) => {
         publishedAt: safeDate(record.date),
         summary: `Public preprint metadata in ${compact(record.category || 'biology')}.`,
         topics: topicsFor(`${title} ${record.abstract}`),
+        contextText: `${title} ${record.abstract} ${record.category}`,
         sourceType: 'preprint-server',
       }
     })
@@ -530,11 +563,11 @@ const crossrefItems = async ({ fetchImpl = fetch } = {}) => {
         publishedAt: datePartsToIso(record.published ?? record['published-print'] ?? record['published-online'] ?? record.created),
         summary: `Public Crossref metadata from ${container}.`,
         topics: topicsFor(text),
+        contextText: text,
         sourceType: 'public-research-index',
       }
     })
-    .filter((item) => healthContextMatcher.test(`${item.title} ${item.summary}`))
-    .filter((item) => !crossrefOffTopicMatcher.test(item.title))
+    .filter(isHealthRelevantNewsItem)
 }
 
 const rssItems = async (source, { fetchImpl = fetch } = {}) => {
@@ -617,7 +650,10 @@ const usableForFeed = (item) =>
   item.url &&
   item.topics.length &&
   new Date(item.publishedAt).valueOf() <= Date.now() &&
+  (item.sourceType === 'independent-longevity' || isHealthRelevantNewsItem(item)) &&
   !textHasBlockedSource(`${item.title} ${item.summary} ${item.sourceName}`)
+
+const publicNewsItem = ({ contextText, ...item }) => item
 
 const newestItemDate = (items) => {
   const timestamps = items
@@ -675,12 +711,13 @@ export const normalizeNewsItems = (items, limit = 24, options = {}) =>
         .filter((item) => item.title && item.url)
         .filter((item) => item.topics.length)
         .filter((item) => new Date(item.publishedAt).valueOf() <= Date.now())
+        .filter((item) => item.sourceType === 'independent-longevity' || isHealthRelevantNewsItem(item))
         .filter((item) => !textHasBlockedSource(`${item.title} ${item.summary} ${item.sourceName}`))
         .sort((a, b) => new Date(b.publishedAt).valueOf() - new Date(a.publishedAt).valueOf()),
     ),
     limit,
     options,
-  )
+  ).map(publicNewsItem)
 
 export const fetchHerbalistiNews = async ({ fetchImpl = fetch, limit = 24 } = {}) => {
   const warnings = []

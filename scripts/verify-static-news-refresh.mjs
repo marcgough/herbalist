@@ -20,7 +20,7 @@ const readJson = async (path) => JSON.parse(await readFile(path, 'utf8'))
 const read = (path) => readFileSync(resolve(root, path), 'utf8')
 
 const sourcePolicy =
-  'Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names filtered from source/title metadata.'
+  'Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication.'
 
 const goodFeed = {
   generatedAt: '2026-06-24T00:00:00.000Z',

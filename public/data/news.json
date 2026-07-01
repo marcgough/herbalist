@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T05:45:38.092Z",
-  "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names filtered from source/title metadata.",
+  "generatedAt": "2026-07-01T06:21:46.064Z",
+  "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication.",
   "sourceHealthPolicy": "Source health checks report allowlisted public or independent sources only; warnings do not add fallback pharma channels.",
   "warnings": [],
   "sourceHealth": [
@@ -11,7 +11,7 @@
       "sourceType": "public-research-index",
       "role": "Public biomedical metadata for frontier-biology terms.",
       "status": "empty",
-      "checkedAt": "2026-07-01T05:45:29.746Z",
+      "checkedAt": "2026-07-01T06:21:40.511Z",
       "itemCount": 10,
       "usableItemCount": 0,
       "newestItemAt": "",
@@ -26,10 +26,10 @@
       "sourceType": "public-research-index",
       "role": "Open preprint metadata for computational biology and frontier science.",
       "status": "ok",
-      "checkedAt": "2026-07-01T05:45:28.242Z",
+      "checkedAt": "2026-07-01T06:21:38.918Z",
       "itemCount": 8,
-      "usableItemCount": 2,
-      "newestItemAt": "2026-06-29T04:43:22.000Z",
+      "usableItemCount": 3,
+      "newestItemAt": "2026-06-26T09:24:42.000Z",
       "warning": "",
       "isAllowlisted": true,
       "isBigPharmaRelated": false
@@ -41,9 +41,9 @@
       "sourceType": "preprint-server",
       "role": "Public biology preprint metadata for longevity and biotechnology topics.",
       "status": "ok",
-      "checkedAt": "2026-07-01T05:45:31.151Z",
-      "itemCount": 5,
-      "usableItemCount": 5,
+      "checkedAt": "2026-07-01T06:21:41.369Z",
+      "itemCount": 3,
+      "usableItemCount": 3,
       "newestItemAt": "2026-06-01T00:00:00.000Z",
       "warning": "",
       "isAllowlisted": true,
@@ -56,9 +56,9 @@
       "sourceType": "public-research-index",
       "role": "Public scholarly metadata expansion for longevity and frontier biology.",
       "status": "ok",
-      "checkedAt": "2026-07-01T05:45:38.092Z",
-      "itemCount": 10,
-      "usableItemCount": 10,
+      "checkedAt": "2026-07-01T06:21:46.064Z",
+      "itemCount": 8,
+      "usableItemCount": 8,
       "newestItemAt": "2026-05-01T00:00:00.000Z",
       "warning": "",
       "isAllowlisted": true,
@@ -71,7 +71,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity coverage from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-01T05:45:29.051Z",
+      "checkedAt": "2026-07-01T06:21:39.366Z",
       "itemCount": 8,
       "usableItemCount": 5,
       "newestItemAt": "2026-06-30T16:21:38.000Z",
@@ -86,7 +86,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity commentary from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-01T05:45:29.414Z",
+      "checkedAt": "2026-07-01T06:21:40.075Z",
       "itemCount": 8,
       "usableItemCount": 6,
       "newestItemAt": "2026-06-30T18:35:31.000Z",
@@ -170,18 +170,6 @@
       "sourceType": "independent-longevity"
     },
     {
-      "id": "arxiv-2606.29777v1",
-      "title": "The Longevity of Innovation",
-      "sourceName": "arXiv",
-      "url": "http://arxiv.org/abs/2606.29777v1",
-      "publishedAt": "2026-06-29T04:43:22.000Z",
-      "summary": "Open preprint metadata matching Herbalisti frontier-biology topics.",
-      "topics": [
-        "Longevity"
-      ],
-      "sourceType": "public-research-index"
-    },
-    {
       "id": "fightaging-11dlqst",
       "title": "Fight Aging! Newsletter, June 29th 2026",
       "sourceName": "Fight Aging!",
@@ -220,6 +208,18 @@
       "sourceType": "independent-longevity"
     },
     {
+      "id": "arxiv-2606.28449v1",
+      "title": "Establishing the Minimal Clinically Important Difference (MCID) for Smartphone-Derived Gait Measures in Multiple Sclerosis",
+      "sourceName": "arXiv",
+      "url": "http://arxiv.org/abs/2606.28449v1",
+      "publishedAt": "2026-06-26T09:24:42.000Z",
+      "summary": "Open preprint metadata matching Herbalisti frontier-biology topics.",
+      "topics": [
+        "Health as a service"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
       "id": "arxiv-2606.27824v2",
       "title": "Pepti-drift: Toxicity-Repulsive Drifting for Antigen-Conditioned Discrete Peptide Generation",
       "sourceName": "arXiv",
@@ -228,6 +228,18 @@
       "summary": "Open preprint metadata matching Herbalisti frontier-biology topics.",
       "topics": [
         "Peptides"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "arxiv-2606.27302v1",
+      "title": "AI Healthcare Chatbots as Information Infrastructure: A Large-Scale Study of User-Reported Breakdowns",
+      "sourceName": "arXiv",
+      "url": "http://arxiv.org/abs/2606.27302v1",
+      "publishedAt": "2026-06-25T17:24:26.000Z",
+      "summary": "Open preprint metadata matching Herbalisti frontier-biology topics.",
+      "topics": [
+        "Health as a service"
       ],
       "sourceType": "public-research-index"
     },
@@ -256,18 +268,6 @@
       "sourceType": "independent-longevity"
     },
     {
-      "id": "watch-crossref-health-service",
-      "title": "Crossref personalized health service metadata lane",
-      "sourceName": "Crossref",
-      "url": "https://api.crossref.org/works?query.bibliographic=personalized%20health%20digital%20health%20preventive%20health",
-      "publishedAt": "2026-06-15T00:00:00.000Z",
-      "summary": "Public scholarly metadata lane for personalized health, digital health, preventive health, and health as a service signals.",
-      "topics": [
-        "Health as a service"
-      ],
-      "sourceType": "public-research-index"
-    },
-    {
       "id": "watch-lifespan-independent-longevity",
       "title": "Lifespan.io independent longevity signal lane",
       "sourceName": "Lifespan.io",
@@ -281,18 +281,6 @@
       "sourceType": "independent-longevity"
     },
     {
-      "id": "biorxiv-10.1101/2025.05.13.653866",
-      "title": "An abundant merozoite surface protein of Plasmodium falciparum modulates susceptibility to inhibitory antibodies",
-      "sourceName": "bioRxiv",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653866v3",
-      "publishedAt": "2026-06-01T00:00:00.000Z",
-      "summary": "Public preprint metadata in microbiology.",
-      "topics": [
-        "CRISPR"
-      ],
-      "sourceType": "preprint-server"
-    },
-    {
       "id": "biorxiv-10.1101/2025.08.06.668799",
       "title": "ASCL1 primes medullary thymic epithelial cell programs required for central tolerance",
       "sourceName": "bioRxiv",
@@ -301,18 +289,6 @@
       "summary": "Public preprint metadata in immunology.",
       "topics": [
         "DNA modification"
-      ],
-      "sourceType": "preprint-server"
-    },
-    {
-      "id": "biorxiv-10.64898/2026.05.31.729018",
-      "title": "Thousandfold Expansion Microscopy",
-      "sourceName": "bioRxiv",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.31.729018v1",
-      "publishedAt": "2026-06-01T00:00:00.000Z",
-      "summary": "Public preprint metadata in molecular biology.",
-      "topics": [
-        "Peptides"
       ],
       "sourceType": "preprint-server"
     },
@@ -329,14 +305,14 @@
       "sourceType": "preprint-server"
     },
     {
-      "id": "biorxiv-10.1101/2025.11.06.687047",
-      "title": "A nutrient-sensitive enterokine coordinates developmental plasticity through inter-organ signalling",
+      "id": "biorxiv-10.1101/2025.05.13.653866",
+      "title": "An abundant merozoite surface protein of Plasmodium falciparum modulates susceptibility to inhibitory antibodies",
       "sourceName": "bioRxiv",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.06.687047v2",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653866v3",
       "publishedAt": "2026-06-01T00:00:00.000Z",
-      "summary": "Public preprint metadata in developmental biology.",
+      "summary": "Public preprint metadata in microbiology.",
       "topics": [
-        "Peptides"
+        "CRISPR"
       ],
       "sourceType": "preprint-server"
     },
@@ -347,19 +323,6 @@
       "url": "https://doi.org/10.1002/hsr2.72497",
       "publishedAt": "2026-05-01T00:00:00.000Z",
       "summary": "Public Crossref metadata from Health Science Reports.",
-      "topics": [
-        "Gene editing",
-        "CRISPR"
-      ],
-      "sourceType": "public-research-index"
-    },
-    {
-      "id": "crossref-193po1j",
-      "title": "CRISPR-Cas9 Genome Editing of Cotton JAZ genes for Helicoverpa zea and H. armigera herbivory resistance",
-      "sourceName": "Crossref",
-      "url": "https://doi.org/10.1094/grow-cot-12-25-522",
-      "publishedAt": "2025-12-29T00:00:00.000Z",
-      "summary": "Public Crossref metadata from Grow: Plant Health Exchange.",
       "topics": [
         "Gene editing",
         "CRISPR"
@@ -380,15 +343,55 @@
       "sourceType": "public-research-index"
     },
     {
-      "id": "crossref-mucr5n",
-      "title": "Gene, Base, and Prime Editing",
+      "id": "crossref-15fszgf",
+      "title": "Current Applications and Future Perspective of CRISPR/Cas9 Gene Editing in Cancer Therapy",
       "sourceName": "Crossref",
-      "url": "https://doi.org/10.1142/9781800617537_0009",
-      "publishedAt": "2025-09-22T00:00:00.000Z",
-      "summary": "Public Crossref metadata from Gene Transfer, Genome Editing and Gene Therapy.",
+      "url": "https://doi.org/10.62051/ijphmr.v5n1.06",
+      "publishedAt": "2025-10-22T00:00:00.000Z",
+      "summary": "Public Crossref metadata from International Journal of Public Health and Medical Research.",
+      "topics": [
+        "Gene editing",
+        "CRISPR"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "crossref-bjs524",
+      "title": "Review of Current Applications of CRISPR Gene Editing Techniques in Breast Cancer Therapeutics Development",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.52403/ijhsr.20250745",
+      "publishedAt": "2025-08-01T00:00:00.000Z",
+      "summary": "Public Crossref metadata from International Journal of Health Sciences and Research.",
+      "topics": [
+        "Gene editing",
+        "CRISPR"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "crossref-16l21t7",
+      "title": "Progress and Criteria in Public Health Applications of Gene Therapy and Gene Editing: Beyond the White Paper",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.1159/000546850",
+      "publishedAt": "2025-06-18T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Public Health Genomics.",
       "topics": [
         "Gene therapy",
-        "Gene editing"
+        "Gene editing",
+        "CRISPR"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
+      "id": "crossref-10a10w8",
+      "title": "Advances and Applications of CRISPR Gene Editing in Tumor Therapy",
+      "sourceName": "Crossref",
+      "url": "https://doi.org/10.31058/j.hr.2025.94015",
+      "publishedAt": "2025-01-01T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Health Research.",
+      "topics": [
+        "Gene editing",
+        "CRISPR"
       ],
       "sourceType": "public-research-index"
     }
