@@ -45,6 +45,9 @@ const preferredGithubScope = {
 
 const workflowSecretCommand = (name) => `gh secret set ${name} --env production --repo marcgough/herbalist`
 const workflowVariableCommand = (name) => `gh variable set ${name} --env production --repo marcgough/herbalist`
+const externalCredentialHelperVerifyCommand = 'npm run verify:github-production-credentials'
+const externalCredentialHelperSetCommand =
+  'npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials'
 const generatedGithubSecretNames = ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN']
 const generatedGithubSecretCommand =
   'npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets'
@@ -167,6 +170,17 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       detail: 'GitHub production readiness verifier is available for credential-name checks.',
     },
     {
+      id: 'github-production-credential-helper',
+      status:
+        Boolean(packageJson.scripts?.['set:github-production-credentials']) &&
+        Boolean(packageJson.scripts?.['verify:github-production-credentials']) &&
+        exists('scripts/set-github-production-credentials.mjs')
+          ? 'pass'
+          : 'fail',
+      detail:
+        'Value-safe helper is available for required externally issued GitHub production credentials.',
+    },
+    {
       id: 'github-generated-secret-helper',
       status:
         Boolean(packageJson.scripts?.['set:github-generated-secrets']) &&
@@ -217,6 +231,14 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       environment: preferredGithubScope.environment,
       readinessCommand: 'npm run verify:github-production-readiness',
       strictReadinessCommand: 'npm run verify:github-production-readiness -- --strict',
+      externalCredentialHelper: {
+        verificationCommand: externalCredentialHelperVerifyCommand,
+        setCommand: externalCredentialHelperSetCommand,
+        requiredEnvironmentVariables: requiredWorkflowCredentialNames,
+        confirmation: 'set-herbalisti-production-credentials',
+        notes:
+          'Optional value-safe CLI path. It reads CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID from the local environment and sends them to GitHub through stdin without printing values.',
+      },
       generatedSecretHelper: {
         verificationCommand: generatedGithubSecretVerifyCommand,
         setCommand: generatedGithubSecretCommand,
@@ -265,9 +287,13 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
         id: 'set-github-production-environment-credentials',
         sideEffect: 'writes-github-secrets-and-variables',
         commands: [
+          externalCredentialHelperVerifyCommand,
+          externalCredentialHelperSetCommand,
           ...githubEnvironmentSecrets.filter((secret) => secret.requiredForGuardedWorkflow).map((secret) => secret.setCommand),
           ...githubEnvironmentVariables.map((variable) => variable.setCommand),
         ],
+        detail:
+          'Use the helper when values are already available as local environment variables; otherwise use the direct gh commands and enter values through stdin or the GitHub interface.',
       },
       {
         id: 'verify-credential-name-readiness',
@@ -332,6 +358,18 @@ export const renderProductionSecretSetupMarkdown = (packet) => {
     lines.push(`- ${variable.name}: ${variable.notes}`)
     lines.push(`- Secret fallback: \`${variable.secretFallbackCommand}\``)
   }
+
+  lines.push(
+    '',
+    'Value-safe helper for required GitHub production credentials:',
+    '',
+    packet.githubProductionEnvironment.externalCredentialHelper.notes,
+    '',
+    '```bash',
+    packet.githubProductionEnvironment.externalCredentialHelper.verificationCommand,
+    packet.githubProductionEnvironment.externalCredentialHelper.setCommand,
+    '```',
+  )
 
   lines.push('', 'Optional paid-media secret value:', '', '```bash')
   for (const secret of packet.githubProductionEnvironment.secrets.filter((item) => !item.requiredForGuardedWorkflow)) {

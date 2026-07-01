@@ -48,6 +48,7 @@ for (const id of [
   'generate-production-state-snapshot',
   'verify-production-feed-seed',
   'check-github-production-readiness',
+  'verify-github-production-credentials-helper',
   'generate-github-production-dispatch-packet',
   'check-current-production-state-evidence',
   'check-cloudflare-production-state',
@@ -63,6 +64,7 @@ for (const id of [
 
 const externalActions = Object.fromEntries(checklist.approvalRequiredActions.map((action) => [action.id, action]))
 for (const id of [
+  'set-github-production-credentials',
   'create-d1-database',
   'apply-remote-d1-migrations',
   'set-feed-admin-token',
@@ -112,6 +114,29 @@ assert(
   'Worker feed admin token action should use the scheduled Worker secret command',
 )
 assert(
+  externalActions['set-github-production-credentials'].command ===
+    'npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials',
+  'GitHub production credential action should use the value-safe helper',
+)
+assert(
+  externalActions['set-github-production-credentials'].additionalCommands?.includes(
+    'gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist',
+  ) &&
+    externalActions['set-github-production-credentials'].additionalCommands?.includes(
+      'gh variable set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist',
+    ),
+  'GitHub production credential action should include direct gh fallback commands',
+)
+assert(
+  externalActions['set-github-production-credentials'].verification?.includes(
+    'npm run verify:github-production-credentials',
+  ) &&
+    externalActions['set-github-production-credentials'].verification?.includes(
+      'npm run verify:github-production-readiness -- --strict',
+    ),
+  'GitHub production credential action should verify helper and strict readiness',
+)
+assert(
   externalActions['set-worker-feed-admin-token'].after.includes('deploy-news-worker'),
   'Worker feed admin token action should run after the scheduled Worker deploy action',
 )
@@ -122,6 +147,11 @@ assert(
 assert(
   markdown.includes('npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti'),
   'External action Markdown should include the Pages feed-refresh secret command',
+)
+assert(
+  markdown.includes('npm run verify:github-production-credentials') &&
+    markdown.includes('npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials'),
+  'External action Markdown should include the GitHub production credential helper',
 )
 assert(
   markdown.includes('npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml') &&
@@ -210,6 +240,11 @@ assert(
 assert(
   localIds.has('verify-github-generated-secrets') && markdown.includes('npm run verify:github-generated-secrets'),
   'Checklist should include the generated GitHub admin secret helper dry-run verification',
+)
+assert(
+  localIds.has('verify-github-production-credentials-helper') &&
+    markdown.includes('npm run verify:github-production-credentials'),
+  'Checklist should include the required GitHub production credential helper dry-run verification',
 )
 assert(
   externalActions['generate-herbalisti-owned-github-secrets'].command ===

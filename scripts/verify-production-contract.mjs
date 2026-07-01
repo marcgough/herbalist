@@ -174,6 +174,10 @@ assert(exists('scripts/prepare-production-state-snapshot.mjs'), 'Production cont
 assert(exists('scripts/prepare-d1-production-manifest.mjs'), 'Production contract requires the D1 production migration manifest generator')
 assert(exists('scripts/prepare-dns-cutover-plan.mjs'), 'Production contract requires the DNS cutover plan generator')
 assert(exists('scripts/prepare-production-secret-setup.mjs'), 'Production contract requires the production secret setup generator')
+assert(
+  exists('scripts/set-github-production-credentials.mjs'),
+  'Production contract requires the GitHub production credential helper',
+)
 assert(exists('scripts/set-github-generated-secrets.mjs'), 'Production contract requires the GitHub generated secret helper')
 assert(exists('scripts/prepare-cloudflare-token-requirements.mjs'), 'Production contract requires the Cloudflare token requirement generator')
 assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production contract requires the production D1 resolver')
@@ -372,6 +376,10 @@ assert(
   'Safe preflight should include production secret setup verification',
 )
 assert(
+  contract.commands.safePreflight.includes('npm run verify:github-production-credentials'),
+  'Safe preflight should include GitHub production credential helper verification',
+)
+assert(
   contract.commands.safePreflight.includes('npm run verify:github-generated-secrets'),
   'Safe preflight should include GitHub generated admin secret helper verification',
 )
@@ -546,6 +554,10 @@ assert(
   'Launch packet generator should include production secret setup verification',
 )
 assert(
+  launchPacketScript.includes('npm run verify:github-production-credentials'),
+  'Launch packet generator should include GitHub production credential helper verification',
+)
+assert(
   launchPacketScript.includes('npm run verify:github-generated-secrets'),
   'Launch packet generator should include GitHub generated admin secret helper verification',
 )
@@ -614,6 +626,10 @@ assert(runbook.includes('verify:cloudflare-token-requirements'), 'Deployment run
 assert(runbook.includes('verify:d1-manifest'), 'Deployment runbook should document D1 production migration manifest verification')
 assert(runbook.includes('verify:dns-cutover'), 'Deployment runbook should document DNS/custom-domain cutover verification')
 assert(runbook.includes('verify:production-secrets'), 'Deployment runbook should document production secret setup verification')
+assert(
+  runbook.includes('verify:github-production-credentials'),
+  'Deployment runbook should document GitHub production credential helper verification',
+)
 assert(
   runbook.includes('verify:github-generated-secrets'),
   'Deployment runbook should document GitHub generated admin secret helper verification',
@@ -725,6 +741,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:production-secrets'),
   'Production launch packet doc should include production secret setup verification',
+)
+assert(
+  launchPacketDoc.includes('verify:github-production-credentials'),
+  'Production launch packet doc should include GitHub production credential helper verification',
 )
 assert(
   launchPacketDoc.includes('verify:github-generated-secrets'),

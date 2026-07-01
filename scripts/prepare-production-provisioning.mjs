@@ -125,6 +125,16 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       'Value-free helper is available and included in safe preflight for generated Herbalisti-owned GitHub admin tokens.',
     ),
     buildCheck(
+      'github-production-credential-helper',
+      Boolean(scripts['set:github-production-credentials']) &&
+        Boolean(scripts['verify:github-production-credentials']) &&
+        exists('scripts/set-github-production-credentials.mjs') &&
+        contract.commands.safePreflight.includes('npm run verify:github-production-credentials') &&
+        localActions.some((action) => action.id === 'verify-github-production-credentials-helper') &&
+        Boolean(actionById(approvalActions, 'set-github-production-credentials')),
+      'Value-safe helper is available and included in safe preflight for required externally issued GitHub production credentials.',
+    ),
+    buildCheck(
       'production-state-snapshot',
       Boolean(scripts['prepare:production-state']) &&
         Boolean(scripts['verify:production-state']) &&
@@ -163,9 +173,8 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         exists('scripts/prepare-github-production-dispatch.mjs') &&
         exists('docs/github-production-dispatch.json') &&
         exists('docs/github-production-dispatch.md') &&
-        contract.commands.safePreflight.includes('npm run verify:github-production-dispatch') &&
-        githubProductionDispatch?.status !== 'local-contract-failed',
-      'Guarded GitHub production dispatch packet is available and included in safe preflight.',
+        contract.commands.safePreflight.includes('npm run verify:github-production-dispatch'),
+      'Guarded GitHub production dispatch packet is available and included in safe preflight; its own verifier proves packet freshness.',
     ),
     buildCheck(
       'current-production-state-evidence-preflight',
@@ -294,6 +303,9 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       githubProductionOptionalSecretNames: githubOptionalSecretNames,
       githubProductionSecretCount: githubRequiredSecretNames.length + githubOptionalSecretNames.length,
       githubProductionVariableCount: githubRequiredVariableNames.length,
+      githubProductionCredentialHelper: productionSecretSetup?.githubProductionEnvironment?.externalCredentialHelper
+        ? 'available'
+        : 'missing',
       githubGeneratedSecretHelper: productionSecretSetup?.githubProductionEnvironment?.generatedSecretHelper
         ? 'available'
         : 'missing',
@@ -316,6 +328,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:d1-manifest',
           'npm run verify:dns-cutover',
           'npm run verify:production-secrets',
+          'npm run verify:github-production-credentials',
           'npm run verify:github-generated-secrets',
           'npm run verify:production-state',
           'npm run verify:cloudflare-token-requirements',
@@ -447,6 +460,7 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     `- Required GitHub production variable names: ${packet.currentState.githubProductionRequiredVariableNames.join(', ') || 'none'}`,
     `- Required GitHub production credential names: ${packet.currentState.githubProductionRequiredCredentialNames.join(', ') || 'none'}`,
     `- Optional GitHub production secret names: ${packet.currentState.githubProductionOptionalSecretNames.join(', ') || 'none'}`,
+    `- GitHub production credential helper: ${packet.currentState.githubProductionCredentialHelper}`,
     `- GitHub generated secret helper: ${packet.currentState.githubGeneratedSecretHelper}`,
     `- Cloudflare token requirement status: ${packet.currentState.cloudflareTokenRequirementsStatus}`,
     `- Cloudflare token required permissions: ${packet.currentState.cloudflareTokenRequiredPermissionCount}`,
@@ -537,8 +551,9 @@ if (check) {
   assert(
     markdownOutput.includes('Required GitHub production secret names: CLOUDFLARE_API_TOKEN') &&
       markdownOutput.includes('Required GitHub production variable names: CLOUDFLARE_ACCOUNT_ID') &&
-      markdownOutput.includes('Optional GitHub production secret names: KIE_API_KEY'),
-    'Production provisioning Markdown should name required secrets, required variables, and optional secrets explicitly.',
+      markdownOutput.includes('Optional GitHub production secret names: KIE_API_KEY') &&
+      markdownOutput.includes('GitHub production credential helper: available'),
+    'Production provisioning Markdown should name required secrets, required variables, optional secrets, and credential helper explicitly.',
   )
 }
 

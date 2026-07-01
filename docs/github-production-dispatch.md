@@ -1,6 +1,6 @@
 # Herbalisti GitHub Production Dispatch Packet
 
-Generated: 2026-07-01T17:18:59.493Z
+Generated: 2026-07-01T18:03:16.176Z
 
 Status: needs-github-production-credentials
 
@@ -41,6 +41,7 @@ npm run verify:github-production-readiness -- --strict
 npm run verify:github-release-evidence -- --commit <dispatch_commit_sha>
 npm run verify:production-state-current
 npm run verify:production-secrets
+npm run verify:github-production-credentials
 npm run verify:cloudflare-token-requirements
 npm run verify:production-deploy-workflow
 npm run verify:production-deploy-evidence
@@ -107,6 +108,7 @@ npm run verify:production-deploy-evidence-artifact -- --strict --run-id <product
 - pass: Production provisioning packet is available and locally consistent.
 - pass: Production state snapshot still separates local readiness from live completion.
 - pass: Production secret setup packet is available without secret values.
+- pass: Value-safe helper is available for required externally issued GitHub production credentials.
 - pass: Value-free helper is available for generated Herbalisti-owned GitHub admin tokens.
 - pass: Cloudflare token requirement packet is available without token values.
 

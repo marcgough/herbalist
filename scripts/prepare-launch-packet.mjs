@@ -76,6 +76,7 @@ const phases = [
       'D1 production migration manifest fingerprints the exact ordered SQL files before remote migration approval.',
       'DNS/custom-domain cutover plan snapshots current public DNS and the Cloudflare Pages apex-domain operator sequence.',
       'Production secret setup packet names required GitHub and Cloudflare secret scopes without storing values.',
+      'GitHub production credential helper can set the externally issued Cloudflare API token and account ID without displaying values.',
       'GitHub generated admin secret helper can create Herbalisti-owned FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN without displaying values.',
       'Production state snapshot consolidates GitHub, Cloudflare, DNS, live-domain, release, and completion evidence without mutating production.',
       'Production provisioning readiness shows the next approved action, local state, and exact operator sequence.',
@@ -138,6 +139,7 @@ const phases = [
       command('npm run verify:d1-manifest'),
       command('npm run verify:dns-cutover'),
       command('npm run verify:production-secrets'),
+      command('npm run verify:github-production-credentials'),
       command('npm run verify:github-generated-secrets'),
       command('npm run prepare:production-state'),
       command('npm run verify:production-state'),
@@ -183,6 +185,7 @@ const phases = [
       command('npm run verify:github-production-dispatch'),
       command('npm run verify:production-operator-brief'),
       command('npm run verify:production-secrets'),
+      command('npm run verify:github-production-credentials'),
       command('npm run verify:github-generated-secrets'),
       command('npm run verify:cloudflare-token-requirements'),
       command('npm run verify:github-production-readiness -- --strict'),
@@ -218,6 +221,11 @@ const phases = [
     purpose:
       'Protect required feed-refresh controls while keeping optional Seedance media secrets separate from the launch blocker path.',
     commands: [
+      command('npm run verify:github-production-credentials'),
+      command(
+        'npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials',
+        'writes-github-production-secret-and-variable',
+      ),
       command('npm run verify:github-generated-secrets'),
       command(
         'npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets',
@@ -233,6 +241,7 @@ const phases = [
       ...(!visibleSecrets.FEED_ADMIN_TOKEN ? ['FEED_ADMIN_TOKEN is not visible locally or confirmed in Cloudflare.'] : []),
     ],
     notes: [
+      'The GitHub production credential helper reads CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID from the local environment and sends them to GitHub without printing values.',
       'The guarded GitHub production workflow can generate FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values.',
       'KIE_API_KEY and MEDIA_ADMIN_TOKEN are optional until approved Seedance media generation is enabled.',
       'OPENAI_API_KEY is optional unless repeatable server-side image generation is added.',

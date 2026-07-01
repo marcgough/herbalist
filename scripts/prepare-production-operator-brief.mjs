@@ -142,6 +142,7 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     'npm run verify:d1-manifest',
     'npm run verify:dns-cutover',
     'npm run verify:production-secrets',
+    'npm run verify:github-production-credentials',
     'npm run verify:github-generated-secrets',
     'npm run verify:github-production-dispatch',
     'npm run verify:production-deploy-workflow',
@@ -160,6 +161,10 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
   const requiredGitHubVariableCommands = list(productionSecrets.githubProductionEnvironment?.variables).map(
     (variable) => variable.setCommand,
   )
+  const externalCredentialHelperCommands = commandList([
+    productionSecrets.githubProductionEnvironment?.externalCredentialHelper?.verificationCommand,
+    productionSecrets.githubProductionEnvironment?.externalCredentialHelper?.setCommand,
+  ])
 
   const status = deriveStatus({ productionState, githubDispatch, dnsCutoverPlan })
   const productionBlockers = unique([
@@ -214,7 +219,9 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     buildCheck(
       'package-scripts',
       Boolean(scripts['prepare:production-operator-brief']) &&
-        Boolean(scripts['verify:production-operator-brief']),
+        Boolean(scripts['verify:production-operator-brief']) &&
+        Boolean(scripts['verify:github-production-credentials']) &&
+        Boolean(scripts['set:github-production-credentials']),
       'Package exposes generated operator brief commands.',
     ),
     buildCheck(
@@ -282,9 +289,10 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
       {
         id: 'set-required-github-production-environment-credentials',
         sideEffect: 'writes-github-secrets-and-variables',
-        commands: [...requiredGitHubSecretCommands, ...requiredGitHubVariableCommands],
+        commands: [...externalCredentialHelperCommands, ...requiredGitHubSecretCommands, ...requiredGitHubVariableCommands],
         requires: requiredGitHubCredentialNames,
-        evidence: 'After entry, run npm run verify:github-production-readiness -- --strict.',
+        evidence:
+          'Use the value-safe helper when the required values are present as local environment variables; otherwise use the direct gh commands or GitHub interface. After entry, run npm run verify:github-production-readiness -- --strict.',
       },
       {
         id: 'dispatch-guarded-production-workflow',
@@ -478,6 +486,12 @@ const validatePacket = (packet, jsonOutput, markdownOutput) => {
   assert(
     packet.operatorSequence.some((step) => step.id === 'dispatch-guarded-production-workflow'),
     'Operator brief should include guarded workflow dispatch sequence',
+  )
+  assert(
+    packet.operatorSequence
+      .find((step) => step.id === 'set-required-github-production-environment-credentials')
+      ?.commands?.includes('npm run verify:github-production-credentials'),
+    'Operator brief should include the value-safe GitHub production credential helper',
   )
   assert(
     packet.operatorSequence.some((step) => step.id === 'verify-production-deploy-evidence-artifact'),

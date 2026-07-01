@@ -1,7 +1,21 @@
 const baseUrl = process.argv[2] ?? process.env.HERBALISTI_BASE_URL ?? 'http://127.0.0.1:8788'
+const timeoutMs = Number(process.env.HERBALISTI_VERIFY_TIMEOUT_MS ?? 30000)
+
+const fetchWithTimeout = async (path) => {
+  const controller = new AbortController()
+  const timeout = setTimeout(() => controller.abort(), timeoutMs)
+
+  try {
+    return await fetch(new URL(path, baseUrl), { signal: controller.signal })
+  } catch (error) {
+    throw new Error(`${path} request failed: ${error.message}`)
+  } finally {
+    clearTimeout(timeout)
+  }
+}
 
 const readJson = async (path) => {
-  const response = await fetch(new URL(path, baseUrl))
+  const response = await fetchWithTimeout(path)
   const text = await response.text()
   if (!response.ok) {
     throw new Error(`${path} returned ${response.status}: ${text}`)
@@ -14,7 +28,7 @@ const readJson = async (path) => {
 }
 
 const readTextResponse = async (path) => {
-  const response = await fetch(new URL(path, baseUrl))
+  const response = await fetchWithTimeout(path)
   const text = await response.text()
   if (!response.ok) {
     throw new Error(`${path} returned ${response.status}: ${text}`)

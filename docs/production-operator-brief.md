@@ -1,6 +1,6 @@
 # Herbalisti Production Operator Brief
 
-Generated: 2026-07-01T17:19:47.064Z
+Generated: 2026-07-01T18:03:18.024Z
 
 Status: needs-github-production-credential-entry
 
@@ -58,6 +58,7 @@ npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:github-production-credentials
 npm run verify:github-generated-secrets
 npm run verify:github-production-dispatch
 npm run verify:production-deploy-workflow
@@ -76,9 +77,11 @@ Side effect: writes-github-secrets-and-variables
 
 Requires: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
 
-After entry, run npm run verify:github-production-readiness -- --strict.
+Use the value-safe helper when the required values are present as local environment variables; otherwise use the direct gh commands or GitHub interface. After entry, run npm run verify:github-production-readiness -- --strict.
 
 ```bash
+npm run verify:github-production-credentials
+npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials
 gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist
 gh variable set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
 ```

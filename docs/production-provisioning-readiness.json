@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T17:19:46.964Z",
+  "generatedAt": "2026-07-01T18:03:17.202Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -23,8 +23,8 @@
     "hiddenRequiredSecretNames": [
       "FEED_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "74f367024d559aefac110d97f100701c56fbc4335430b3eafc3c42d705a428a9",
-    "externalActionsFingerprint": "30e6d3318b4a8801435df0faf6911971dd4da2d321f0d543c3cc439a98dc0c83",
+    "contractFingerprint": "bb42ea53df236e1754f1c04febbe34a17f535d28fc5c390e3d43f6230543deae",
+    "externalActionsFingerprint": "b57160ac9be37237bb1f39f3ebcb4485af00bd607fa974c644eb2c980f20d8c1",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -50,6 +50,7 @@
     ],
     "githubProductionSecretCount": 2,
     "githubProductionVariableCount": 1,
+    "githubProductionCredentialHelper": "available",
     "githubGeneratedSecretHelper": "available",
     "cloudflareTokenRequirementsStatus": "ready-for-token-entry",
     "cloudflareTokenRequiredPermissionCount": 4
@@ -96,6 +97,11 @@
       "detail": "Value-free helper is available and included in safe preflight for generated Herbalisti-owned GitHub admin tokens."
     },
     {
+      "id": "github-production-credential-helper",
+      "status": "pass",
+      "detail": "Value-safe helper is available and included in safe preflight for required externally issued GitHub production credentials."
+    },
+    {
       "id": "production-state-snapshot",
       "status": "pass",
       "detail": "Production state snapshot is available and included in safe preflight."
@@ -118,7 +124,7 @@
     {
       "id": "github-production-dispatch-packet",
       "status": "pass",
-      "detail": "Guarded GitHub production dispatch packet is available and included in safe preflight."
+      "detail": "Guarded GitHub production dispatch packet is available and included in safe preflight; its own verifier proves packet freshness."
     },
     {
       "id": "current-production-state-evidence-preflight",
@@ -234,6 +240,7 @@
         "npm run verify:d1-manifest",
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
+        "npm run verify:github-production-credentials",
         "npm run verify:github-generated-secrets",
         "npm run verify:production-state",
         "npm run verify:cloudflare-token-requirements",

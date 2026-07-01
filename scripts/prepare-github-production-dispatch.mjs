@@ -70,6 +70,7 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
     'npm run verify:github-release-evidence -- --commit <dispatch_commit_sha>',
     'npm run verify:production-state-current',
     'npm run verify:production-secrets',
+    'npm run verify:github-production-credentials',
     'npm run verify:cloudflare-token-requirements',
     'npm run verify:production-deploy-workflow',
     'npm run verify:production-deploy-evidence',
@@ -163,6 +164,19 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
       'production-secret-setup',
       productionSecrets?.status === 'ready-for-secret-entry',
       'Production secret setup packet is available without secret values.',
+    ),
+    buildCheck(
+      'github-production-credential-helper',
+      Boolean(packageScripts['set:github-production-credentials']) &&
+        Boolean(packageScripts['verify:github-production-credentials']) &&
+        exists('scripts/set-github-production-credentials.mjs') &&
+        productionSecrets?.githubProductionEnvironment?.externalCredentialHelper?.requiredEnvironmentVariables?.includes(
+          'CLOUDFLARE_API_TOKEN',
+        ) &&
+        productionSecrets?.githubProductionEnvironment?.externalCredentialHelper?.requiredEnvironmentVariables?.includes(
+          'CLOUDFLARE_ACCOUNT_ID',
+        ),
+      'Value-safe helper is available for required externally issued GitHub production credentials.',
     ),
     buildCheck(
       'github-generated-secret-helper',

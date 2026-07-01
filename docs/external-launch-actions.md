@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-07-01T17:18:59.519Z
+Generated: 2026-07-01T18:02:48.331Z
 
 Status: needs-approval-and-production-setup
 
@@ -87,6 +87,18 @@ npm run verify:github-production-readiness
 
 Notes:
 - Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate.
+
+### Verify required GitHub production credential helper
+
+Dry-run the helper that can send CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID to the GitHub production environment through stdin without printing values.
+
+```bash
+npm run verify:github-production-credentials
+```
+
+Notes:
+- This is dry-run only and does not set secrets or variables.
+- The write path requires npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials with required values already present in the local environment.
 
 ### Generate guarded GitHub production dispatch packet
 
@@ -258,6 +270,35 @@ After: create-d1-database, activate-d1-bindings-local
 Verification:
 - npm run verify:d1-manifest
 - npm run verify:launch -- --soft
+
+### Set required GitHub production credentials
+
+Required for launch: true
+
+External effect: Stores the required Cloudflare deployment secret and account identifier in the GitHub production environment.
+
+Approval reason: Writes an externally issued secret and deployment variable to GitHub production environment storage.
+
+Command:
+
+```bash
+npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials
+gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist
+gh variable set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
+```
+
+Secret names: CLOUDFLARE_API_TOKEN
+
+Variable names: CLOUDFLARE_ACCOUNT_ID
+
+Verification:
+- npm run verify:github-production-credentials
+- npm run verify:github-production-readiness -- --strict
+
+Notes:
+- The helper reads CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID from the local environment and sends values through stdin.
+- Use the direct gh commands or the GitHub UI when values are not available as local environment variables.
+- Do not paste secret values into chat, docs, Git, screenshots, or command logs.
 
 ### Generate Herbalisti-owned GitHub admin secrets
 

@@ -1,6 +1,6 @@
 # Herbalisti Production Secret Setup
 
-Generated: 2026-07-01T15:10:36.752Z
+Generated: 2026-07-01T18:02:49.060Z
 
 Status: ready-for-secret-entry
 
@@ -34,6 +34,15 @@ gh variable set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalis
 
 - CLOUDFLARE_ACCOUNT_ID: Prefer a GitHub production environment variable because this is an account identifier, not a secret. A secret fallback is supported for existing setups.
 - Secret fallback: `gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist`
+
+Value-safe helper for required GitHub production credentials:
+
+Optional value-safe CLI path. It reads CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID from the local environment and sends them to GitHub through stdin without printing values.
+
+```bash
+npm run verify:github-production-credentials
+npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials
+```
 
 Optional paid-media secret value:
 
@@ -97,6 +106,7 @@ CLOUDFLARE_API_TOKEN is a GitHub production secret name; its Cloudflare permissi
 - pass: Production contract records required, optional, and generated runtime secret names.
 - pass: Required Cloudflare runtime secrets have command templates without values.
 - pass: GitHub production readiness verifier is available for credential-name checks.
+- pass: Value-safe helper is available for required externally issued GitHub production credentials.
 - pass: Value-free helper is available for generated Herbalisti-owned GitHub admin tokens.
 - pass: Cloudflare API token permission packet is available for CLOUDFLARE_API_TOKEN setup.
 - pass: External action packet names the required production workflow secrets.
@@ -124,7 +134,11 @@ npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secre
 
 Side effect: writes-github-secrets-and-variables
 
+Use the helper when values are already available as local environment variables; otherwise use the direct gh commands and enter values through stdin or the GitHub interface.
+
 ```bash
+npm run verify:github-production-credentials
+npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials
 gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist
 gh variable set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
 ```

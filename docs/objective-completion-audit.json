@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T17:23:01.845Z",
-  "auditSignature": "262675564a5b94df591430e6eab8c8ca0e9d8d74da8562e412c5307bf7570bdd",
+  "generatedAt": "2026-07-01T18:12:36.092Z",
+  "auditSignature": "ff5deafa1f08b1981b2ab9c305f2f7815cc5933d54e7af040910a899b3cf5703",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -581,7 +581,7 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T17:21:53.907Z",
+      "generatedAt": "2026-07-01T18:11:35.594Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 14,
@@ -606,7 +606,7 @@
         "itemCount": 24,
         "preservedSourceItemCount": 0,
         "preservedSourceNames": [],
-        "generatedAt": "2026-07-01T17:21:53.907Z"
+        "generatedAt": "2026-07-01T18:11:35.594Z"
       }
     },
     "media": {
@@ -637,7 +637,7 @@
     ],
     "checked": {
       "files": 148,
-      "scripts": 114,
+      "scripts": 116,
       "passes": 225
     },
     "nextActions": [
@@ -679,6 +679,7 @@
       "npm run verify:d1-manifest",
       "npm run verify:dns-cutover",
       "npm run verify:production-secrets",
+      "npm run verify:github-production-credentials",
       "npm run verify:github-generated-secrets",
       "npm run verify:production-state",
       "npm run prepare:production-provisioning",

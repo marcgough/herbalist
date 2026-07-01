@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-07-01T17:19:46.964Z
+Generated: 2026-07-01T18:03:17.202Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -28,6 +28,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - Required GitHub production variable names: CLOUDFLARE_ACCOUNT_ID
 - Required GitHub production credential names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
 - Optional GitHub production secret names: KIE_API_KEY
+- GitHub production credential helper: available
 - GitHub generated secret helper: available
 - Cloudflare token requirement status: ready-for-token-entry
 - Cloudflare token required permissions: 4
@@ -50,11 +51,12 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: DNS/custom-domain cutover plan is available and included in safe preflight.
 - pass: Production secret setup packet is current and included in safe preflight.
 - pass: Value-free helper is available and included in safe preflight for generated Herbalisti-owned GitHub admin tokens.
+- pass: Value-safe helper is available and included in safe preflight for required externally issued GitHub production credentials.
 - pass: Production state snapshot is available and included in safe preflight.
 - pass: Consolidated production operator brief is available and included in safe preflight.
 - pass: Cloudflare API token permission packet is current and included in safe preflight.
 - pass: Safe preflight includes GitHub CI/manual release evidence verification.
-- pass: Guarded GitHub production dispatch packet is available and included in safe preflight.
+- pass: Guarded GitHub production dispatch packet is available and included in safe preflight; its own verifier proves packet freshness.
 - pass: Safe preflight includes current-commit production state evidence verification.
 - pass: Cloudflare binding configurator is available.
 - pass: Guarded production workflow can resolve or create the named D1 database without a D1 ID secret.
@@ -94,6 +96,7 @@ npm run verify:cloudflare-production-state
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:github-production-credentials
 npm run verify:github-generated-secrets
 npm run verify:production-state
 npm run verify:cloudflare-token-requirements

@@ -126,6 +126,10 @@ assert(releaseVerifier.includes('verify:production-state'), 'Full release verifi
 assert(releaseVerifier.includes('verify:d1-manifest'), 'Full release verifier should include the D1 production migration manifest gate')
 assert(releaseVerifier.includes('verify:dns-cutover'), 'Full release verifier should include the DNS cutover gate')
 assert(releaseVerifier.includes('verify:production-secrets'), 'Full release verifier should include the production secret setup gate')
+assert(
+  releaseVerifier.includes('verify:github-production-credentials'),
+  'Full release verifier should include the GitHub production credential helper gate',
+)
 assert(releaseVerifier.includes('verify:cloudflare-token-requirements'), 'Full release verifier should include the Cloudflare token requirement gate')
 assert(launchVerifier.includes('.github/workflows/ci.yml'), 'Launch verifier should require the CI workflow')
 assert(launchVerifier.includes('.github/workflows/release-gate.yml'), 'Launch verifier should require the manual release workflow')
@@ -149,6 +153,7 @@ assert(contract.commands.safePreflight.includes('npm run verify:production-d1-re
 assert(contract.commands.safePreflight.includes('npm run verify:production-feed-seed'), 'Safe preflight should include production feed seed verification')
 assert(contract.commands.safePreflight.includes('npm run verify:github-production-dispatch'), 'Safe preflight should include GitHub production dispatch packet verification')
 assert(contract.commands.safePreflight.includes('npm run verify:github-production-readiness'), 'Safe preflight should include GitHub production readiness verification')
+assert(contract.commands.safePreflight.includes('npm run verify:github-production-credentials'), 'Safe preflight should include GitHub production credential helper verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-state-current'), 'Safe preflight should include current production state evidence verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-state'), 'Safe preflight should include production state snapshot verification')
 assert(contract.commands.safePreflight.includes('npm run verify:cloudflare-token-requirements'), 'Safe preflight should include Cloudflare token requirement verification')
@@ -168,6 +173,10 @@ assert(
   runbook.includes('CLOUDFLARE_API_TOKEN` as a secret') &&
     runbook.includes('CLOUDFLARE_ACCOUNT_ID` as a variable'),
   'Deployment runbook should distinguish the Cloudflare token secret from the account ID variable',
+)
+assert(
+  runbook.includes('npm run verify:github-production-credentials'),
+  'Deployment runbook should document GitHub production credential helper verification',
 )
 assert(
   !runbook.includes('required GitHub secret names are configured'),
@@ -190,6 +199,10 @@ assert(launchPacket.includes('npm run verify:github-production-dispatch'), 'Prod
 assert(launchPacket.includes('npm run verify:github-production-readiness'), 'Production launch packet should document GitHub production readiness verification')
 assert(launchPacket.includes('npm run verify:production-state-current'), 'Production launch packet should document current production state evidence verification')
 assert(launchPacket.includes('npm run verify:production-state'), 'Production launch packet should document production state snapshot verification')
+assert(
+  launchPacket.includes('npm run verify:github-production-credentials'),
+  'Production launch packet should document GitHub production credential helper verification',
+)
 assert(launchPacket.includes('npm run verify:cloudflare-token-requirements'), 'Production launch packet should document Cloudflare token requirement verification')
 
 console.log(

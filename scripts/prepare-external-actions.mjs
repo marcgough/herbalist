@@ -137,6 +137,17 @@ const localAllowedActions = [
     notes: ['Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate.'],
   }),
   localAction({
+    id: 'verify-github-production-credentials-helper',
+    title: 'Verify required GitHub production credential helper',
+    command: 'npm run verify:github-production-credentials',
+    purpose:
+      'Dry-run the helper that can send CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID to the GitHub production environment through stdin without printing values.',
+    notes: [
+      'This is dry-run only and does not set secrets or variables.',
+      'The write path requires npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials with required values already present in the local environment.',
+    ],
+  }),
+  localAction({
     id: 'generate-github-production-dispatch-packet',
     title: 'Generate guarded GitHub production dispatch packet',
     command: 'npm run prepare:github-production-dispatch',
@@ -266,6 +277,28 @@ const approvalRequiredActions = [
     approvalReason: 'Mutates the production data store.',
     after: ['create-d1-database', 'activate-d1-bindings-local'],
     verification: ['npm run verify:d1-manifest', 'npm run verify:launch -- --soft'],
+  }),
+  approvalAction({
+    id: 'set-github-production-credentials',
+    phase: 'secrets',
+    title: 'Set required GitHub production credentials',
+    command: 'npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials',
+    additionalCommands: [
+      'gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist',
+      'gh variable set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist',
+    ],
+    externalEffect:
+      'Stores the required Cloudflare deployment secret and account identifier in the GitHub production environment.',
+    approvalReason:
+      'Writes an externally issued secret and deployment variable to GitHub production environment storage.',
+    verification: ['npm run verify:github-production-credentials', 'npm run verify:github-production-readiness -- --strict'],
+    secretNames: ['CLOUDFLARE_API_TOKEN'],
+    variableNames: ['CLOUDFLARE_ACCOUNT_ID'],
+    notes: [
+      'The helper reads CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID from the local environment and sends values through stdin.',
+      'Use the direct gh commands or the GitHub UI when values are not available as local environment variables.',
+      'Do not paste secret values into chat, docs, Git, screenshots, or command logs.',
+    ],
   }),
   approvalAction({
     id: 'generate-herbalisti-owned-github-secrets',

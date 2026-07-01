@@ -48,6 +48,7 @@ The packet covers:
 - mocked production D1 resolver behavior verification
 - protected production feed seed verification
 - GitHub production environment credential-name readiness verification
+- GitHub production credential helper dry-run verification for the externally issued Cloudflare token and account ID
 - GitHub generated admin secret helper dry-run verification
 - GitHub CI/manual release evidence for the intended launch commit
 - current production state evidence for the exact GitHub commit
@@ -124,6 +125,7 @@ npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:github-production-credentials
 npm run verify:github-generated-secrets
 npm run resolve:production-d1
 npm run prepare:production-provisioning

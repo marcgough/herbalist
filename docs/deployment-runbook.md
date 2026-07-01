@@ -35,6 +35,7 @@ npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:github-production-credentials
 npm run verify:github-generated-secrets
 npm run prepare:production-state
 npm run verify:production-state
@@ -79,6 +80,7 @@ npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:github-production-credentials
 npm run verify:github-generated-secrets
 npm run verify:production-state
 npm run verify:d1
@@ -301,7 +303,15 @@ npm run prepare:production-secrets
 npm run verify:production-secrets
 ```
 
-It writes `docs/production-secret-setup.json` and `docs/production-secret-setup.md`, naming the required GitHub `production` environment secrets for the guarded deployment workflow and the Cloudflare runtime secret fallback commands. It does not read, request, set, store, or print secret values.
+It writes `docs/production-secret-setup.json` and `docs/production-secret-setup.md`, naming the required GitHub `production` environment secrets for the guarded deployment workflow, the value-safe GitHub credential helper, and the Cloudflare runtime secret fallback commands. It does not read, request, set, store, or print secret values.
+
+GitHub production credential helper verification is local and value-free:
+
+```bash
+npm run verify:github-production-credentials
+```
+
+It dry-runs the helper for `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`, reports whether matching local environment values are present, and does not call GitHub, set secrets or variables, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print credential values. The write path is `npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials`; it reads the required values from the local environment and streams them into the GitHub `production` environment through stdin.
 
 GitHub generated admin secret verification is local and value-free:
 

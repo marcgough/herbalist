@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T17:18:59.493Z",
+  "generatedAt": "2026-07-01T18:03:16.176Z",
   "status": "needs-github-production-credentials",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, workflow files, and generated readiness packets only. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.",
@@ -36,6 +36,7 @@
     "npm run verify:github-release-evidence -- --commit <dispatch_commit_sha>",
     "npm run verify:production-state-current",
     "npm run verify:production-secrets",
+    "npm run verify:github-production-credentials",
     "npm run verify:cloudflare-token-requirements",
     "npm run verify:production-deploy-workflow",
     "npm run verify:production-deploy-evidence",
@@ -143,6 +144,11 @@
       "id": "production-secret-setup",
       "status": "pass",
       "detail": "Production secret setup packet is available without secret values."
+    },
+    {
+      "id": "github-production-credential-helper",
+      "status": "pass",
+      "detail": "Value-safe helper is available for required externally issued GitHub production credentials."
     },
     {
       "id": "github-generated-secret-helper",
