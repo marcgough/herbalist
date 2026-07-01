@@ -69,6 +69,7 @@ for (const command of [
   'npm run verify:production-deploy-workflow',
   'npm run verify:production-deploy-dry-run',
   'npm run verify:production-d1-resolver',
+  'npm run verify:github-production-dispatch',
   'npm run verify:launch -- --soft',
   'npm run verify:production-contract',
   'npm run verify:cloudflare-token-requirements',

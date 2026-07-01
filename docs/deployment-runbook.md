@@ -192,6 +192,14 @@ npm run verify:production-deploy-workflow
 
 It checks `.github/workflows/production-deploy.yml` without running it. The workflow is manual-only, requires the exact `deploy-herbalisti-production` confirmation phrase, uses the GitHub `production` environment, validates named GitHub secrets, verifies exact release evidence, configures runner-local D1 bindings, applies remote D1 migrations, sets Cloudflare secrets from GitHub secrets without echoing values, deploys Pages and the scheduled Worker, seeds the live Signals feed through the protected feed-refresh endpoint, and runs strict live verification unless temporarily skipped during DNS transition with `skip_live_verification_confirm=skip-herbalisti-live-verification`.
 
+GitHub production dispatch packet verification is local and read-only:
+
+```bash
+npm run verify:github-production-dispatch
+```
+
+It checks `docs/github-production-dispatch.json` and `docs/github-production-dispatch.md` for the exact guarded workflow inputs, strict preflight commands, required secret names, and the DNS-transition skip acknowledgement boundary. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.
+
 Guarded production deploy dry-run verification is local and mocked:
 
 ```bash

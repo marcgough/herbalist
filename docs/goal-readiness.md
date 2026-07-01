@@ -122,6 +122,8 @@ The herbal commons gate now requires the public export and API to expose the cor
 
 `npm run verify:production-deploy-workflow` checks the guarded production deploy workflow without running it. The workflow is manual-only, confirmation-gated, scoped to the GitHub `production` environment, exact-release-evidence-gated, and wired to Cloudflare Pages, D1 migrations, Worker deployment, runtime secrets, and live verification using named GitHub secrets without literal secret values in the repo. If DNS transition requires `skip_live_verification=true`, the workflow also requires `skip_live_verification_confirm=skip-herbalisti-live-verification`; final completion still requires strict live verification.
 
+`npm run verify:github-production-dispatch` checks the no-secret dispatch packet for the guarded GitHub production workflow. It records the strict preflight, exact workflow inputs, required secret names, and DNS-transition skip boundary without dispatching the workflow or touching production.
+
 `npm run verify:github-production-readiness` reads GitHub workflow, environment, secret-name, and release-run metadata without creating environments, setting secrets, dispatching workflows, or printing secret values. Strict mode is the final dispatch-readiness gate after the `production` environment and required GitHub secret names exist.
 
 `npm run verify:github-release-evidence` checks public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, then verifies the uploaded visual-smoke artifact metadata without downloading artifacts or mutating GitHub.

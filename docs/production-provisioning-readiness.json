@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T02:21:12.909Z",
+  "generatedAt": "2026-07-01T03:22:50.281Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,8 +27,8 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "cce599ded49f7c8dff9ca86993959e9cf49ccc57a3fb4df60f0aae8cee10df52",
-    "externalActionsFingerprint": "e0568adce9ba13649c690f94efeac5bf6f4e3d04825556ec513dcf61ab011682",
+    "contractFingerprint": "902979a408963758451e999292b45d72fbf7ab240386422bdc547646866196d0",
+    "externalActionsFingerprint": "d51ab64922f18c5e86cd68248e8ba4abaf16906d4e10f2d5d70f41119ce8a6f5",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -36,6 +36,7 @@
     "productionSecretSetupStatus": "ready-for-secret-entry",
     "productionStateSnapshotStatus": "local-ready-production-pending",
     "productionStateSnapshotBlockers": 16,
+    "githubProductionDispatchStatus": "needs-github-production-secret-names",
     "githubProductionSecretCount": 5,
     "cloudflareTokenRequirementsStatus": "ready-for-token-entry",
     "cloudflareTokenRequiredPermissionCount": 4
@@ -90,6 +91,11 @@
       "id": "github-release-evidence-preflight",
       "status": "pass",
       "detail": "Safe preflight includes GitHub CI/manual release evidence verification."
+    },
+    {
+      "id": "github-production-dispatch-packet",
+      "status": "pass",
+      "detail": "Guarded GitHub production dispatch packet is available and included in safe preflight."
     },
     {
       "id": "current-production-state-evidence-preflight",
@@ -194,6 +200,7 @@
         "npm run verify:production-secrets",
         "npm run verify:production-state",
         "npm run verify:cloudflare-token-requirements",
+        "npm run verify:github-production-dispatch",
         "npm run verify:production-deploy-dry-run",
         "npm run verify:production-d1-resolver",
         "npm run verify:production-feed-seed",

@@ -60,6 +60,9 @@ const productionSecretSetup = exists('docs/production-secret-setup.json')
 const cloudflareTokenRequirements = exists('docs/cloudflare-token-requirements.json')
   ? readJson('docs/cloudflare-token-requirements.json')
   : { status: 'missing' }
+const githubProductionDispatch = exists('docs/github-production-dispatch.json')
+  ? readJson('docs/github-production-dispatch.json')
+  : { status: 'missing' }
 
 const scripts = packageJson.scripts ?? {}
 const activePagesD1 = hasActiveD1Binding(pagesToml)
@@ -510,6 +513,8 @@ const requirements = [
       exists('docs/production-provisioning-readiness.md') &&
       exists('docs/production-state-snapshot.json') &&
       exists('docs/production-state-snapshot.md') &&
+      exists('docs/github-production-dispatch.json') &&
+      exists('docs/github-production-dispatch.md') &&
       exists('docs/d1-production-migration-manifest.json') &&
       exists('docs/d1-production-migration-manifest.md') &&
       exists('docs/dns-cutover-plan.json') &&
@@ -535,6 +540,7 @@ const requirements = [
       exists('scripts/verify-production-cutover-simulation.mjs') &&
       exists('scripts/prepare-production-provisioning.mjs') &&
       exists('scripts/prepare-production-state-snapshot.mjs') &&
+      exists('scripts/prepare-github-production-dispatch.mjs') &&
       exists('scripts/verify-production-deploy-workflow.mjs') &&
       exists('scripts/verify-github-production-readiness.mjs') &&
       exists('scripts/verify-cloudflare-production-state.mjs') &&
@@ -544,6 +550,8 @@ const requirements = [
       Boolean(scripts['verify:production-provisioning']) &&
       Boolean(scripts['prepare:production-state']) &&
       Boolean(scripts['verify:production-state']) &&
+      Boolean(scripts['prepare:github-production-dispatch']) &&
+      Boolean(scripts['verify:github-production-dispatch']) &&
       Boolean(scripts['verify:cloudflare-token-requirements']) &&
       Boolean(scripts['prepare:cloudflare-token-requirements']) &&
       Boolean(scripts['verify:d1-manifest']) &&
@@ -567,6 +575,7 @@ const requirements = [
       productionCutoverSimulation.status === 'pass' &&
       productionCutoverSimulation.simulatedBindings?.sharedD1DatabaseId === true &&
       productionProvisioningReadiness.status !== 'local-contract-failed' &&
+      githubProductionDispatch.status !== 'local-contract-failed' &&
       d1ProductionManifest.status === 'pass' &&
       d1ProductionManifest.summary?.migrationCount >= 1 &&
       dnsCutoverPlan.status !== 'local-contract-failed' &&
@@ -582,6 +591,8 @@ const requirements = [
       'docs/production-provisioning-readiness.md',
       'docs/production-state-snapshot.json',
       'docs/production-state-snapshot.md',
+      'docs/github-production-dispatch.json',
+      'docs/github-production-dispatch.md',
       'docs/d1-production-migration-manifest.json',
       'docs/d1-production-migration-manifest.md',
       'docs/dns-cutover-plan.json',
@@ -607,6 +618,7 @@ const requirements = [
       'scripts/verify-production-cutover-simulation.mjs',
       'scripts/prepare-production-provisioning.mjs',
       'scripts/prepare-production-state-snapshot.mjs',
+      'scripts/prepare-github-production-dispatch.mjs',
       'scripts/verify-production-deploy-workflow.mjs',
       'scripts/verify-github-production-readiness.mjs',
       'scripts/verify-cloudflare-production-state.mjs',
@@ -616,6 +628,8 @@ const requirements = [
       'npm run verify:production-provisioning',
       'npm run prepare:production-state',
       'npm run verify:production-state',
+      'npm run prepare:github-production-dispatch',
+      'npm run verify:github-production-dispatch',
       'npm run verify:d1-manifest',
       'npm run verify:dns-cutover',
       'npm run verify:production-secrets',
@@ -646,6 +660,7 @@ const requirements = [
       'scripts/prepare-external-actions.mjs',
       'scripts/prepare-production-provisioning.mjs',
       'scripts/prepare-production-state-snapshot.mjs',
+      'scripts/prepare-github-production-dispatch.mjs',
       'scripts/verify-production-deploy-workflow.mjs',
       'scripts/verify-github-production-readiness.mjs',
       'scripts/verify-cloudflare-production-state.mjs',
@@ -666,6 +681,7 @@ const requirements = [
       'npm run verify:production-provisioning',
       'npm run prepare:production-state',
       'npm run verify:production-state',
+      'npm run verify:github-production-dispatch',
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-production-readiness',
       'npm run verify:cloudflare-production-state',
@@ -714,6 +730,8 @@ const requirements = [
       scripts['verify:github-actions'] &&
       scripts['verify:github-release-evidence'] &&
       scripts['verify:github-production-readiness'] &&
+      scripts['prepare:github-production-dispatch'] &&
+      scripts['verify:github-production-dispatch'] &&
       scripts['verify:production-state'] &&
       scripts['prepare:production-state'] &&
       scripts['verify:cloudflare-production-state'] &&
@@ -775,6 +793,7 @@ const requirements = [
       'scripts/verify-github-actions.mjs',
       'scripts/verify-github-release-evidence.mjs',
       'scripts/verify-github-production-readiness.mjs',
+      'scripts/prepare-github-production-dispatch.mjs',
       'scripts/prepare-production-state-snapshot.mjs',
       'scripts/verify-cloudflare-production-state.mjs',
       'scripts/prepare-cloudflare-token-requirements.mjs',

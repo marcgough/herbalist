@@ -169,6 +169,7 @@ const phases = [
       command('npm run verify:production-deploy-dry-run'),
       command('npm run verify:production-d1-resolver'),
       command('npm run verify:production-feed-seed'),
+      command('npm run verify:github-production-dispatch'),
       command('npm run verify:production-secrets'),
       command('npm run verify:cloudflare-token-requirements'),
       command('npm run verify:github-production-readiness -- --strict'),

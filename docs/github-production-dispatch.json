@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-01T03:23:57.591Z",
+  "status": "needs-github-production-secret-names",
+  "productionComplete": false,
+  "safeToRun": "Reads local launch contracts, workflow files, and generated readiness packets only. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.",
+  "repository": "marcgough/herbalist",
+  "branch": "main",
+  "dispatchCommit": "<dispatch_commit_sha>",
+  "dispatchCommitPolicy": "Replace <dispatch_commit_sha> with the exact main-branch commit that will be dispatched, then run the strict release evidence and production-state-current gates before dispatch.",
+  "workflow": {
+    "file": ".github/workflows/production-deploy.yml",
+    "name": "Herbalisti Production Deploy",
+    "environment": "production",
+    "url": "https://herbalisti.com"
+  },
+  "dispatchInputs": {
+    "finalCompletionMode": {
+      "confirm": "deploy-herbalisti-production",
+      "skip_live_verification": false,
+      "skip_live_verification_confirm": "",
+      "command": "gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=false",
+      "completionEvidence": "Final completion requires live verification inside the workflow plus npm run verify:live-readiness -- --strict, npm run verify:production -- https://herbalisti.com, and npm run verify:goal-readiness -- --strict."
+    },
+    "dnsTransitionMode": {
+      "confirm": "deploy-herbalisti-production",
+      "skip_live_verification": true,
+      "skip_live_verification_confirm": "skip-herbalisti-live-verification",
+      "command": "gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=true -f skip_live_verification_confirm=skip-herbalisti-live-verification",
+      "completionEvidence": "This mode is only for DNS-transition sequencing and cannot prove goal completion. Strict live verification remains required afterward."
+    }
+  },
+  "strictPreflightCommands": [
+    "npm run verify:github-actions",
+    "npm run verify:github-production-readiness -- --strict",
+    "npm run verify:github-release-evidence -- --commit <dispatch_commit_sha>",
+    "npm run verify:production-state-current",
+    "npm run verify:production-secrets",
+    "npm run verify:cloudflare-token-requirements",
+    "npm run verify:production-deploy-workflow",
+    "npm run verify:production-deploy-dry-run",
+    "npm run verify:production-d1-resolver",
+    "npm run verify:production-feed-seed",
+    "npm run verify:d1-manifest",
+    "npm run verify:dns-cutover",
+    "npm run verify:production-provisioning",
+    "npm run verify:github-production-dispatch",
+    "npm run verify:launch -- --soft"
+  ],
+  "requiredGitHubSecretNames": [
+    "CLOUDFLARE_API_TOKEN",
+    "CLOUDFLARE_ACCOUNT_ID",
+    "FEED_ADMIN_TOKEN",
+    "KIE_API_KEY",
+    "MEDIA_ADMIN_TOKEN"
+  ],
+  "missingGitHubSecretNames": [
+    "CLOUDFLARE_API_TOKEN",
+    "CLOUDFLARE_ACCOUNT_ID",
+    "FEED_ADMIN_TOKEN",
+    "KIE_API_KEY",
+    "MEDIA_ADMIN_TOKEN"
+  ],
+  "currentReadiness": {
+    "productionStateStatus": "local-ready-production-pending",
+    "githubProductionReadinessStatus": "needs-github-production-setup",
+    "cloudflareProductionStateStatus": "needs-cloudflare-auth",
+    "dnsCutoverStatus": "needs-dns-cutover",
+    "liveReadinessStatus": "not-ready",
+    "productionProvisioningStatus": "ready-for-approved-production-provisioning"
+  },
+  "checks": [
+    {
+      "id": "workflow-file",
+      "status": "pass",
+      "detail": "Production deploy workflow exists."
+    },
+    {
+      "id": "manual-workflow",
+      "status": "pass",
+      "detail": "Production deploy workflow is manually dispatched only."
+    },
+    {
+      "id": "primary-confirmation",
+      "status": "pass",
+      "detail": "Production deploy workflow requires the primary confirmation phrase."
+    },
+    {
+      "id": "skip-acknowledgement",
+      "status": "pass",
+      "detail": "Production deploy workflow requires a second acknowledgement when live verification is skipped."
+    },
+    {
+      "id": "package-scripts",
+      "status": "pass",
+      "detail": "Package exposes prepare and verify commands for this dispatch packet."
+    },
+    {
+      "id": "contract-preflight",
+      "status": "pass",
+      "detail": "Production contract safe preflight includes GitHub production dispatch verification."
+    },
+    {
+      "id": "external-action-wiring",
+      "status": "pass",
+      "detail": "External action checklist wires the guarded dispatch packet into the production workflow action."
+    },
+    {
+      "id": "release-gate",
+      "status": "pass",
+      "detail": "Full release verifier includes the GitHub production dispatch packet."
+    },
+    {
+      "id": "production-provisioning",
+      "status": "pass",
+      "detail": "Production provisioning packet is available and locally consistent."
+    },
+    {
+      "id": "production-state",
+      "status": "pass",
+      "detail": "Production state snapshot still separates local readiness from live completion."
+    },
+    {
+      "id": "production-secret-setup",
+      "status": "pass",
+      "detail": "Production secret setup packet is available without secret values."
+    },
+    {
+      "id": "cloudflare-token-requirements",
+      "status": "pass",
+      "detail": "Cloudflare token requirement packet is available without token values."
+    }
+  ],
+  "finalCompletionGates": [
+    "npm run verify:live-readiness -- --strict",
+    "npm run verify:production -- https://herbalisti.com",
+    "npm run verify:goal-readiness -- --strict"
+  ],
+  "guardrails": {
+    "noSecretValuesInPacket": true,
+    "noActionDispatchDuringPreparation": true,
+    "finalCompletionRequiresStrictLiveVerification": true,
+    "dnsTransitionSkipRequiresAcknowledgement": true
+  }
+}

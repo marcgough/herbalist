@@ -56,6 +56,9 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
   const productionStateSnapshot = exists('docs/production-state-snapshot.json')
     ? readJson('docs/production-state-snapshot.json')
     : null
+  const githubProductionDispatch = exists('docs/github-production-dispatch.json')
+    ? readJson('docs/github-production-dispatch.json')
+    : null
   const cloudflareTokenRequirements = exists('docs/cloudflare-token-requirements.json')
     ? readJson('docs/cloudflare-token-requirements.json')
     : null
@@ -126,6 +129,16 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       'github-release-evidence-preflight',
       contract.commands.safePreflight.includes('npm run verify:github-release-evidence'),
       'Safe preflight includes GitHub CI/manual release evidence verification.',
+    ),
+    buildCheck(
+      'github-production-dispatch-packet',
+      Boolean(scripts['verify:github-production-dispatch']) &&
+        exists('scripts/prepare-github-production-dispatch.mjs') &&
+        exists('docs/github-production-dispatch.json') &&
+        exists('docs/github-production-dispatch.md') &&
+        contract.commands.safePreflight.includes('npm run verify:github-production-dispatch') &&
+        githubProductionDispatch?.status !== 'local-contract-failed',
+      'Guarded GitHub production dispatch packet is available and included in safe preflight.',
     ),
     buildCheck(
       'current-production-state-evidence-preflight',
@@ -222,6 +235,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       productionSecretSetupStatus: productionSecretSetup?.status ?? 'missing',
       productionStateSnapshotStatus: productionStateSnapshot?.status ?? 'missing',
       productionStateSnapshotBlockers: productionStateSnapshot?.summary?.blockerCount ?? null,
+      githubProductionDispatchStatus: githubProductionDispatch?.status ?? 'missing',
       githubProductionSecretCount: productionSecretSetup?.githubProductionEnvironment?.secrets?.length ?? 0,
       cloudflareTokenRequirementsStatus: cloudflareTokenRequirements?.status ?? 'missing',
       cloudflareTokenRequiredPermissionCount:
@@ -244,6 +258,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:production-secrets',
           'npm run verify:production-state',
           'npm run verify:cloudflare-token-requirements',
+          'npm run verify:github-production-dispatch',
           'npm run verify:production-deploy-dry-run',
           'npm run verify:production-d1-resolver',
           'npm run verify:production-feed-seed',
@@ -334,6 +349,7 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     `- Production secret setup status: ${packet.currentState.productionSecretSetupStatus}`,
     `- Production state snapshot status: ${packet.currentState.productionStateSnapshotStatus}`,
     `- Production state snapshot blockers: ${packet.currentState.productionStateSnapshotBlockers}`,
+    `- GitHub production dispatch status: ${packet.currentState.githubProductionDispatchStatus}`,
     `- GitHub production secret names: ${packet.currentState.githubProductionSecretCount}`,
     `- Cloudflare token requirement status: ${packet.currentState.cloudflareTokenRequirementsStatus}`,
     `- Cloudflare token required permissions: ${packet.currentState.cloudflareTokenRequiredPermissionCount}`,

@@ -135,6 +135,18 @@ const localAllowedActions = [
     notes: ['Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate.'],
   }),
   localAction({
+    id: 'generate-github-production-dispatch-packet',
+    title: 'Generate guarded GitHub production dispatch packet',
+    command: 'npm run prepare:github-production-dispatch',
+    purpose:
+      'Refresh the no-secret dispatch packet for the guarded GitHub production workflow, including exact inputs, preflight commands, and live-verification skip boundary.',
+    writesLocalFiles: true,
+    notes: [
+      'Use npm run verify:github-production-dispatch before dispatching the production workflow.',
+      'This packet does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, or create Cloudflare resources.',
+    ],
+  }),
+  localAction({
     id: 'check-current-production-state-evidence',
     title: 'Check current production state evidence',
     command: 'npm run verify:production-state-current',
@@ -333,6 +345,7 @@ const approvalRequiredActions = [
     approvalReason: 'Public production deployment automation with Cloudflare resource, secret, D1, Worker, and live-site effects.',
     verification: [
       'npm run verify:production-deploy-workflow',
+      'npm run verify:github-production-dispatch',
       'npm run verify:github-release-evidence',
       'npm run verify:production-state-current',
       'npm run verify:d1-manifest',

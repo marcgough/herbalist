@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T02:21:12.588Z",
+  "generatedAt": "2026-07-01T03:21:37.158Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -109,6 +109,19 @@
       "after": [],
       "notes": [
         "Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate."
+      ]
+    },
+    {
+      "id": "generate-github-production-dispatch-packet",
+      "title": "Generate guarded GitHub production dispatch packet",
+      "approvalRequired": false,
+      "command": "npm run prepare:github-production-dispatch",
+      "purpose": "Refresh the no-secret dispatch packet for the guarded GitHub production workflow, including exact inputs, preflight commands, and live-verification skip boundary.",
+      "writesLocalFiles": true,
+      "after": [],
+      "notes": [
+        "Use npm run verify:github-production-dispatch before dispatching the production workflow.",
+        "This packet does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, or create Cloudflare resources."
       ]
     },
     {
@@ -432,6 +445,7 @@
       "after": [],
       "verification": [
         "npm run verify:production-deploy-workflow",
+        "npm run verify:github-production-dispatch",
         "npm run verify:github-release-evidence",
         "npm run verify:production-state-current",
         "npm run verify:d1-manifest",

@@ -177,6 +177,7 @@ assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production contrac
 assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production contract requires the production D1 resolver verifier')
 assert(exists('scripts/verify-production-deploy-dry-run.mjs'), 'Production contract requires the production deploy dry-run verifier')
 assert(exists('scripts/verify-production-deploy-workflow.mjs'), 'Production contract requires the production deploy workflow verifier')
+assert(exists('scripts/prepare-github-production-dispatch.mjs'), 'Production contract requires the GitHub production dispatch packet generator')
 assert(exists('scripts/seed-production-feed.mjs'), 'Production contract requires the production feed seed command')
 assert(exists('scripts/verify-production-feed-seed.mjs'), 'Production contract requires the production feed seed verifier')
 assert(exists('scripts/verify-accessibility-smoke.mjs'), 'Production contract requires the accessibility smoke verifier')
@@ -196,6 +197,8 @@ assert(exists('docs/production-provisioning-readiness.json'), 'Production contra
 assert(exists('docs/production-provisioning-readiness.md'), 'Production contract requires the production provisioning readiness Markdown')
 assert(exists('docs/production-state-snapshot.json'), 'Production contract requires the production state snapshot JSON')
 assert(exists('docs/production-state-snapshot.md'), 'Production contract requires the production state snapshot Markdown')
+assert(exists('docs/github-production-dispatch.json'), 'Production contract requires the GitHub production dispatch JSON')
+assert(exists('docs/github-production-dispatch.md'), 'Production contract requires the GitHub production dispatch Markdown')
 assert(exists('docs/d1-production-migration-manifest.json'), 'Production contract requires the D1 production migration manifest JSON')
 assert(exists('docs/d1-production-migration-manifest.md'), 'Production contract requires the D1 production migration manifest Markdown')
 assert(exists('docs/dns-cutover-plan.json'), 'Production contract requires the DNS cutover plan JSON')
@@ -316,6 +319,10 @@ assert(
 assert(
   contract.commands.safePreflight.includes('npm run verify:production-feed-seed'),
   'Safe preflight should include production feed seed verification',
+)
+assert(
+  contract.commands.safePreflight.includes('npm run verify:github-production-dispatch'),
+  'Safe preflight should include GitHub production dispatch packet verification',
 )
 assert(
   contract.commands.safePreflight.includes('npm run verify:github-production-readiness'),
@@ -456,6 +463,10 @@ assert(
   'Launch packet generator should include production feed seed verification',
 )
 assert(
+  launchPacketScript.includes('npm run verify:github-production-dispatch'),
+  'Launch packet generator should include GitHub production dispatch packet verification',
+)
+assert(
   launchPacketScript.includes('npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed'),
   'Launch packet generator should include production feed seed command',
 )
@@ -537,6 +548,7 @@ assert(
 assert(runbook.includes('verify:production-deploy-dry-run'), 'Deployment runbook should document production deploy dry-run verification')
 assert(runbook.includes('verify:production-d1-resolver'), 'Deployment runbook should document production D1 resolver verification')
 assert(runbook.includes('verify:production-feed-seed'), 'Deployment runbook should document production feed seed verification')
+assert(runbook.includes('verify:github-production-dispatch'), 'Deployment runbook should document GitHub production dispatch packet verification')
 assert(runbook.includes('verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
 assert(runbook.includes('verify:production-state-current'), 'Deployment runbook should document current-commit production state evidence verification')
@@ -605,6 +617,10 @@ assert(
   'Production launch packet doc should include production feed seed verification',
 )
 assert(
+  launchPacketDoc.includes('verify:github-production-dispatch'),
+  'Production launch packet doc should include GitHub production dispatch packet verification',
+)
+assert(
   launchPacketDoc.includes('seed:production-feed'),
   'Production launch packet doc should include the production feed seed command',
 )
@@ -665,6 +681,12 @@ assert(
   'External action checklist should include the current production state evidence action',
 )
 assert(
+  externalActionsJson.localAllowedActions?.some(
+    (action) => action.id === 'generate-github-production-dispatch-packet',
+  ),
+  'External action checklist should include the GitHub production dispatch packet action',
+)
+assert(
   externalActionsJson.approvalRequiredActions?.some((action) => action.id === 'run-github-production-deploy-workflow'),
   'External action checklist should include the guarded GitHub production deploy workflow action',
 )
@@ -673,6 +695,12 @@ assert(
     ?.find((action) => action.id === 'run-github-production-deploy-workflow')
     ?.verification?.includes('npm run verify:production-state-current'),
   'External action checklist should require current production state evidence before the guarded GitHub production deploy workflow',
+)
+assert(
+  externalActionsJson.approvalRequiredActions
+    ?.find((action) => action.id === 'run-github-production-deploy-workflow')
+    ?.verification?.includes('npm run verify:github-production-dispatch'),
+  'External action checklist should require GitHub production dispatch packet verification before the guarded workflow',
 )
 assert(
   externalActionsJson.approvalRequiredActions

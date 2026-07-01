@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T02:21:22.013Z",
+  "generatedAt": "2026-07-01T03:21:37.270Z",
   "status": "local-ready-production-pending",
   "productionComplete": false,
   "safeToRun": "Reads local launch artifacts, public DNS, public live-domain responses, GitHub readiness metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.",
@@ -13,7 +13,7 @@
   },
   "git": {
     "branch": "main",
-    "commit": "82aa05709f81b1e658d45296b0bd97cd315b1ece",
+    "commit": "2bf1e85ec4e58c67688484306df5368eb4df0370",
     "note": "Commit is the repository HEAD observed when the snapshot was generated; the snapshot artifact itself may be committed afterward."
   },
   "summary": {
@@ -47,7 +47,7 @@
     {
       "id": "github-release-evidence-captured",
       "status": "pass",
-      "detail": "Release evidence is pass for 82aa05709f81b1e658d45296b0bd97cd315b1ece."
+      "detail": "Release evidence is pass for 2bf1e85ec4e58c67688484306df5368eb4df0370."
     },
     {
       "id": "github-production-readiness-captured",
@@ -123,10 +123,10 @@
         "status": "pass",
         "error": null
       },
-      "commit": "82aa05709f81b1e658d45296b0bd97cd315b1ece",
-      "ciRunId": 28486878064,
-      "manualReleaseRunId": 28486906252,
-      "artifactId": 7997865092
+      "commit": "2bf1e85ec4e58c67688484306df5368eb4df0370",
+      "ciRunId": 28490490279,
+      "manualReleaseRunId": 28490526458,
+      "artifactId": 7999149788
     },
     "githubProductionReadiness": {
       "summary": {
@@ -209,8 +209,8 @@
         "aaaaRecords": [],
         "cnameRecords": [],
         "nsRecords": [
-          "dns1.registrar-servers.com",
-          "dns2.registrar-servers.com"
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
         ]
       },
       "http": {

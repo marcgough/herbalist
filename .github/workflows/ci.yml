@@ -76,6 +76,7 @@ jobs:
           npm run verify:production-deploy-dry-run
           npm run verify:production-d1-resolver
           npm run verify:production-feed-seed
+          npm run verify:github-production-dispatch
           npm run verify:production-state
           npm run verify:production-contract
           npm run verify:launch -- --soft

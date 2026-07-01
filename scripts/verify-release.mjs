@@ -189,6 +189,7 @@ for (const [label, command] of [
   ['production deploy dry run', npm('run', 'verify:production-deploy-dry-run')],
   ['production D1 resolver behavior', npm('run', 'verify:production-d1-resolver')],
   ['production feed seed command', npm('run', 'verify:production-feed-seed')],
+  ['GitHub production dispatch packet', npm('run', 'verify:github-production-dispatch')],
   ['production provisioning readiness', npm('run', 'verify:production-provisioning')],
   ['production environment contract', npm('run', 'verify:production-contract')],
   ['D1 production migration manifest', npm('run', 'verify:d1-manifest')],

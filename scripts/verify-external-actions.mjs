@@ -48,6 +48,7 @@ for (const id of [
   'generate-production-state-snapshot',
   'verify-production-feed-seed',
   'check-github-production-readiness',
+  'generate-github-production-dispatch-packet',
   'check-current-production-state-evidence',
   'check-cloudflare-production-state',
   'generate-cloudflare-token-requirements',
@@ -145,6 +146,12 @@ assert(
 )
 assert(
   externalActions['run-github-production-deploy-workflow'].verification.includes(
+    'npm run verify:github-production-dispatch',
+  ),
+  'Guarded GitHub production deploy workflow should require GitHub production dispatch packet verification',
+)
+assert(
+  externalActions['run-github-production-deploy-workflow'].verification.includes(
     'npm run verify:production-state-current',
   ),
   'Guarded GitHub production deploy workflow should require current production state evidence verification',
@@ -167,6 +174,11 @@ assert(
   localIds.has('check-current-production-state-evidence') &&
     markdown.includes('npm run verify:production-state-current'),
   'Checklist should include current production state evidence verification',
+)
+assert(
+  localIds.has('generate-github-production-dispatch-packet') &&
+    markdown.includes('npm run verify:github-production-dispatch'),
+  'Checklist should include GitHub production dispatch packet generation and verification',
 )
 assert(
   localIds.has('generate-cloudflare-token-requirements') &&

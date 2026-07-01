@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-07-01T02:21:12.909Z
+Generated: 2026-07-01T03:22:50.281Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -21,6 +21,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - Production secret setup status: ready-for-secret-entry
 - Production state snapshot status: local-ready-production-pending
 - Production state snapshot blockers: 16
+- GitHub production dispatch status: needs-github-production-secret-names
 - GitHub production secret names: 5
 - Cloudflare token requirement status: ready-for-token-entry
 - Cloudflare token required permissions: 4
@@ -45,6 +46,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: Production state snapshot is available and included in safe preflight.
 - pass: Cloudflare API token permission packet is current and included in safe preflight.
 - pass: Safe preflight includes GitHub CI/manual release evidence verification.
+- pass: Guarded GitHub production dispatch packet is available and included in safe preflight.
 - pass: Safe preflight includes current-commit production state evidence verification.
 - pass: Cloudflare binding configurator is available.
 - pass: Guarded production workflow can resolve or create the named D1 database without a D1 ID secret.
@@ -85,6 +87,7 @@ npm run verify:dns-cutover
 npm run verify:production-secrets
 npm run verify:production-state
 npm run verify:cloudflare-token-requirements
+npm run verify:github-production-dispatch
 npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
 npm run verify:production-feed-seed

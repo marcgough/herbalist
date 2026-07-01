@@ -1,6 +1,6 @@
 # Herbalisti Production State Snapshot
 
-Generated: 2026-07-01T02:21:22.013Z
+Generated: 2026-07-01T03:21:37.270Z
 
 Status: local-ready-production-pending
 
@@ -16,7 +16,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Current Summary
 
 - Git branch: main
-- Git commit: 82aa05709f81b1e658d45296b0bd97cd315b1ece
+- Git commit: 2bf1e85ec4e58c67688484306df5368eb4df0370
 - Git note: Commit is the repository HEAD observed when the snapshot was generated; the snapshot artifact itself may be committed afterward.
 - Completion audit status: local-ready-production-pending
 - Goal complete: false
@@ -35,7 +35,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Checks
 
 - pass: Completion audit status is local-ready-production-pending.
-- pass: Release evidence is pass for 82aa05709f81b1e658d45296b0bd97cd315b1ece.
+- pass: Release evidence is pass for 2bf1e85ec4e58c67688484306df5368eb4df0370.
 - pass: GitHub production readiness status is needs-github-production-setup.
 - pass: Cloudflare production state is needs-cloudflare-auth.
 - pass: DNS cutover status is needs-dns-cutover.
@@ -64,9 +64,9 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Probe Details
 
 - Release evidence: pass
-- CI run ID: 28486878064
-- Manual release run ID: 28486906252
-- Visual smoke artifact ID: 7997865092
+- CI run ID: 28490490279
+- Manual release run ID: 28490526458
+- Visual smoke artifact ID: 7999149788
 - GitHub environment protection rules: 2
 - Cloudflare visible D1 names: none
 - Cloudflare visible Pages projects: none
