@@ -147,6 +147,29 @@ const summaries = expectedExports.map(({ path, minRecords, minSources, minCorpus
   }
 })
 
+const referenceBooksExport = readJson('public/data/reference-books.json')
+const laneCoverage = referenceBooksExport.laneCoverage
+assert(Array.isArray(laneCoverage), 'Reference-book export should expose laneCoverage')
+assert(laneCoverage.length === 3, 'Reference-book export should expose US, UK, and Australia lane coverage')
+const laneCoverageByLane = new Map(laneCoverage.map((lane) => [lane.lane, lane]))
+assert(
+  laneCoverageByLane.get('US')?.status === 'active' && Number(laneCoverageByLane.get('US')?.referenceCount ?? 0) > 0,
+  'Reference-book export should report the US lane as active',
+)
+assert(
+  laneCoverageByLane.get('UK')?.status === 'active' && Number(laneCoverageByLane.get('UK')?.referenceCount ?? 0) > 0,
+  'Reference-book export should report the UK lane as active',
+)
+assert(
+  laneCoverageByLane.get('Australia')?.status === 'prepared-not-populated' &&
+    Number(laneCoverageByLane.get('Australia')?.referenceCount ?? -1) === 0,
+  'Reference-book export should report Australia as prepared but not populated',
+)
+assert(
+  String(laneCoverageByLane.get('Australia')?.message ?? '').includes('rights-cleared archive intake'),
+  'Reference-book export should explain the Australia rights-cleared intake boundary',
+)
+
 assert(packageJson.scripts?.['export:data'], 'package.json should include export:data')
 assert(packageJson.scripts?.['verify:data-exports'], 'package.json should include verify:data-exports')
 assert(

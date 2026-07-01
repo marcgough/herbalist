@@ -1,9 +1,32 @@
 {
   "name": "Herbalisti reference book export",
   "version": "2026-06-16",
-  "generatedAt": "2026-07-01T16:12:21.811Z",
+  "generatedAt": "2026-07-01T16:59:13.498Z",
   "source": "static-export-corpus-registry",
   "policy": "Public bibliographic metadata and rights-cleared source-index records only; no copied book text, treatment protocols, or personalized advice.",
+  "laneCoverage": [
+    {
+      "lane": "US",
+      "label": "US",
+      "status": "active",
+      "referenceCount": 465,
+      "message": "US archive lane active with rights-cleared public-domain and permissively reusable source records."
+    },
+    {
+      "lane": "UK",
+      "label": "UK",
+      "status": "active",
+      "referenceCount": 863,
+      "message": "UK archive lane active with rights-cleared public-domain and permissively reusable source records."
+    },
+    {
+      "lane": "Australia",
+      "label": "Australia",
+      "status": "prepared-not-populated",
+      "referenceCount": 0,
+      "message": "Australia lane is prepared for rights-cleared archive intake; no Australian reference books are published yet."
+    }
+  ],
   "total": 1328,
   "records": [
     {

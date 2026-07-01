@@ -117,6 +117,25 @@ assert(
   ),
   '/api/books should expose searchable rights-lane metadata for US, UK, and Australia filtering',
 )
+assert(Array.isArray(booksAll.laneCoverage), '/api/books should expose laneCoverage')
+const apiLaneCoverage = new Map(booksAll.laneCoverage.map((lane) => [lane.lane, lane]))
+assert(
+  apiLaneCoverage.get('US')?.status === 'active' && Number(apiLaneCoverage.get('US')?.referenceCount ?? 0) > 0,
+  '/api/books should report the US lane as active',
+)
+assert(
+  apiLaneCoverage.get('UK')?.status === 'active' && Number(apiLaneCoverage.get('UK')?.referenceCount ?? 0) > 0,
+  '/api/books should report the UK lane as active',
+)
+assert(
+  apiLaneCoverage.get('Australia')?.status === 'prepared-not-populated' &&
+    Number(apiLaneCoverage.get('Australia')?.referenceCount ?? -1) === 0,
+  '/api/books should report the Australia lane as prepared but not populated',
+)
+assert(
+  String(apiLaneCoverage.get('Australia')?.message ?? '').includes('rights-cleared archive intake'),
+  '/api/books should explain the Australia rights-cleared intake boundary',
+)
 
 const ukBooks = await readJson('/api/books?region=UK')
 assert(ukBooks.books.length >= 1, '/api/books?region=UK should return at least one UK-lane record')

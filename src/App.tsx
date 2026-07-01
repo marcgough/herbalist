@@ -21,7 +21,7 @@ import {
 } from 'lucide-react'
 import './App.css'
 import { bookRecords } from './data/books'
-import type { BookRecord, BookRegionFilter } from './data/books'
+import type { BookRecord, BookRegionFilter, BookRightsLane } from './data/books'
 import { citationNotes } from './data/citationNotes'
 import type { CitationNote, CitationSourceType } from './data/citationNotes'
 import {
@@ -140,6 +140,7 @@ const setOptionalUrlParam = (params: URLSearchParams, name: string, value: strin
 type BookPayload = {
   generatedAt?: string
   source?: string
+  laneCoverage?: ReferenceLaneCoverage[]
   total?: number
   books?: BookRecord[]
 }
@@ -147,8 +148,17 @@ type BookPayload = {
 type BookExportPayload = {
   generatedAt?: string
   source?: string
+  laneCoverage?: ReferenceLaneCoverage[]
   total?: number
   records?: BookRecord[]
+}
+
+type ReferenceLaneCoverage = {
+  lane: BookRightsLane
+  label: string
+  status: 'active' | 'prepared-not-populated' | 'awaiting-rights-cleared-intake' | string
+  referenceCount: number
+  message: string
 }
 
 type DataExportPayload<T> = {
@@ -420,6 +430,26 @@ const bookSearchRegions = (book: BookRecord): string[] => {
 
   return [...new Set(regions)]
 }
+
+const buildReferenceLaneCoverage = (items: BookRecord[]): ReferenceLaneCoverage[] =>
+  bookRegionModes
+    .filter((lane): lane is BookRightsLane => lane !== 'All lanes')
+    .map((lane) => {
+      const referenceCount = items.filter((book) => bookSearchRegions(book).includes(lane)).length
+      const active = referenceCount > 0
+
+      return {
+        lane,
+        label: lane,
+        status: active ? 'active' : lane === 'Australia' ? 'prepared-not-populated' : 'awaiting-rights-cleared-intake',
+        referenceCount,
+        message: active
+          ? `${lane} archive lane active with rights-cleared source records.`
+          : lane === 'Australia'
+            ? 'Australia lane is prepared for rights-cleared archive intake; no Australian reference books are published yet.'
+            : `${lane} lane is prepared for rights-cleared archive intake.`,
+      }
+    })
 
 const filterBookRecords = (items: BookRecord[], mode: string, query: string, region: BookRegionFilter = 'All lanes') => {
   const normalizedQuery = query.trim()
@@ -1641,6 +1671,9 @@ function App() {
     () => urlOptionParam('bookRegion', bookRegionModes, 'All lanes') as BookRegionFilter,
   )
   const [books, setBooks] = useState<BookRecord[]>(bookRecords)
+  const [referenceLaneCoverage, setReferenceLaneCoverage] = useState<ReferenceLaneCoverage[]>(() =>
+    buildReferenceLaneCoverage(bookRecords),
+  )
   const [bookPageCount, setBookPageCount] = useState(1)
   const [libraryStatus, setLibraryStatus] = useState('Seed reference library')
   const [citationQuery, setCitationQuery] = useState(() => urlParam('note'))
@@ -2277,6 +2310,11 @@ function App() {
         const payload = (await response.json()) as BookPayload
         if (active && Array.isArray(payload.books)) {
           setBooks(payload.books)
+          setReferenceLaneCoverage(
+            Array.isArray(payload.laneCoverage) && payload.laneCoverage.length
+              ? payload.laneCoverage
+              : buildReferenceLaneCoverage(payload.books),
+          )
           setLibraryStatus(
             `${payload.total ?? payload.books.length} references from ${readableSource(payload.source)}${bookRegion !== 'All lanes' ? ` for ${bookRegion} lane` : ''}`,
           )
@@ -2301,6 +2339,11 @@ function App() {
         if (active && Array.isArray(payload.records)) {
           const exportBooks = filterBookRecords(payload.records, bookMode, debouncedBookQuery, bookRegion)
           setBooks(exportBooks)
+          setReferenceLaneCoverage(
+            Array.isArray(payload.laneCoverage) && payload.laneCoverage.length
+              ? payload.laneCoverage
+              : buildReferenceLaneCoverage(payload.records),
+          )
           setLibraryStatus(
             `${exportBooks.length} references from ${readableSource(payload.source)}${bookRegion !== 'All lanes' ? ` for ${bookRegion} lane` : ''}`,
           )
@@ -2315,6 +2358,7 @@ function App() {
       if (active) {
         const fallbackBooks = filterBookRecords(bookRecords, bookMode, debouncedBookQuery, bookRegion)
         setBooks(fallbackBooks)
+        setReferenceLaneCoverage(buildReferenceLaneCoverage(bookRecords))
         setLibraryStatus(
           `${fallbackBooks.length} references from local archive seed${bookRegion !== 'All lanes' ? ` for ${bookRegion} lane` : ''}`,
         )
@@ -3024,6 +3068,23 @@ function App() {
         <div className="data-status">
           <Database size={18} />
           <span>{libraryStatus}</span>
+        </div>
+
+        <div className="lane-coverage-strip" aria-label="Reference lane coverage">
+          {referenceLaneCoverage.map((lane) => (
+            <span
+              key={lane.lane}
+              className={`lane-coverage-chip lane-coverage-chip-${lane.status === 'active' ? 'active' : 'pending'}`}
+              title={lane.message}
+            >
+              <span className="lane-coverage-name">{lane.label}</span>
+              <span>
+                {lane.status === 'active'
+                  ? `${lane.referenceCount.toLocaleString('en-US')} references`
+                  : 'rights review'}
+              </span>
+            </span>
+          ))}
         </div>
 
         <div className="controls-row">

@@ -2,7 +2,7 @@ import { mkdir, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-import { publicReferenceBooks } from '../functions/_lib/books.js'
+import { buildReferenceLaneCoverage, publicReferenceBooks } from '../functions/_lib/books.js'
 import { fallbackCitationNotes } from '../functions/_lib/citation-notes.js'
 import { allHerbalKnowledgeEntries, allHerbalSourceWorks } from '../functions/_lib/herbal-knowledge.js'
 import { fallbackRemedies } from '../functions/_lib/remedies.js'
@@ -59,7 +59,7 @@ const apiEndpoints = [
     access: 'public',
     purpose: 'Search rights-cleared reference-book and source-index records.',
     parameters: ['query', 'mode', 'region'],
-    responseShape: ['generatedAt', 'source', 'filters', 'total', 'books'],
+    responseShape: ['generatedAt', 'source', 'filters', 'laneCoverage', 'total', 'books'],
   },
   {
     id: 'herbal-knowledge',
@@ -251,6 +251,7 @@ const exports = [
       source: publicReferenceBooks.length ? 'static-export-corpus-registry' : 'static-export',
       policy:
         'Public bibliographic metadata and rights-cleared source-index records only; no copied book text, treatment protocols, or personalized advice.',
+      laneCoverage: buildReferenceLaneCoverage(publicReferenceBooks),
       total: publicReferenceBooks.length,
       records: publicReferenceBooks,
     },

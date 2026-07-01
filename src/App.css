@@ -1667,6 +1667,41 @@ main:focus-visible {
   background: rgba(207, 232, 231, 0.38);
 }
 
+.lane-coverage-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -8px 0 18px;
+}
+
+.lane-coverage-chip {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border: 1px solid rgba(102, 123, 130, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.64);
+  color: var(--titanium);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.lane-coverage-chip-active {
+  border-color: rgba(21, 54, 54, 0.22);
+  color: var(--ink);
+}
+
+.lane-coverage-chip-pending {
+  background: rgba(207, 232, 231, 0.3);
+}
+
+.lane-coverage-name {
+  color: var(--ink);
+  font-weight: 800;
+}
+
 .feed-warning {
   display: flex;
   width: fit-content;

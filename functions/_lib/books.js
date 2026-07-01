@@ -86,6 +86,30 @@ export const fallbackBooks = [
 const publicArchiveStatuses = new Set(['cc-by', 'pdm', 'public_domain_mark', 'public_domain_us'])
 const validRegionFilters = ['All lanes', 'US', 'UK', 'Australia']
 const validRightsLanes = new Set(validRegionFilters.filter((value) => value !== 'All lanes'))
+export const referenceLaneDefinitions = [
+  {
+    lane: 'US',
+    label: 'US',
+    emptyStatus: 'awaiting-rights-cleared-intake',
+    activeMessage: 'US archive lane active with rights-cleared public-domain and permissively reusable source records.',
+    emptyMessage: 'US lane is prepared for rights-cleared archive intake.',
+  },
+  {
+    lane: 'UK',
+    label: 'UK',
+    emptyStatus: 'awaiting-rights-cleared-intake',
+    activeMessage: 'UK archive lane active with rights-cleared public-domain and permissively reusable source records.',
+    emptyMessage: 'UK lane is prepared for rights-cleared archive intake.',
+  },
+  {
+    lane: 'Australia',
+    label: 'Australia',
+    emptyStatus: 'prepared-not-populated',
+    activeMessage: 'Australia archive lane active with rights-cleared public-domain and permissively reusable source records.',
+    emptyMessage:
+      'Australia lane is prepared for rights-cleared archive intake; no Australian reference books are published yet.',
+  },
+]
 const publisherRightsLanes = {
   'National Library of Medicine': 'US',
   'Project Gutenberg': 'US',
@@ -278,6 +302,23 @@ export const filterBooks = (books, { query = '', mode = 'All', region = 'All lan
 
 export const isPublicArchiveBook = (book) => publicArchiveStatuses.has(String(book?.sourceStatus ?? ''))
 
+export const buildReferenceLaneCoverage = (books = publicReferenceBooks) => {
+  const normalizedBooks = normalizeBookCollection(books)
+
+  return referenceLaneDefinitions.map((definition) => {
+    const referenceCount = normalizedBooks.filter((book) => inferBookSearchRegions(book).includes(definition.lane)).length
+    const active = referenceCount > 0
+
+    return {
+      lane: definition.lane,
+      label: definition.label,
+      status: active ? 'active' : definition.emptyStatus,
+      referenceCount,
+      message: active ? definition.activeMessage : definition.emptyMessage,
+    }
+  })
+}
+
 export const readBooksFromD1 = async (db, { query = '', mode = 'All' } = {}) => {
   const normalizedQuery = normalizeQuery(query)
   const normalizedMode = normalizeBookMode(mode)
@@ -317,19 +358,22 @@ export const getBooksPayload = async (env, filters = {}) => {
     mode: normalizeBookMode(filters.mode),
     region: normalizeBookRegionFilter(filters.region),
   }
-  let books = filterBooks(publicReferenceBooks, normalizedFilters)
+  let bookCollection = publicReferenceBooks
+  let books = filterBooks(bookCollection, normalizedFilters)
   let source = publicReferenceBooks.length ? 'static-corpus-registry' : 'static-fallback'
 
   if (env.HERBALISTI_DB) {
-    const d1Books = (await readBooksFromD1(env.HERBALISTI_DB, normalizedFilters)).filter(isPublicArchiveBook)
+    const d1Books = (await readBooksFromD1(env.HERBALISTI_DB)).filter(isPublicArchiveBook)
+    bookCollection = normalizeBookCollection(mergeBookCollections(publicReferenceBooks, d1Books))
     source = publicReferenceBooks.length ? 'd1-and-corpus-registry' : 'd1'
-    books = filterBooks(normalizeBookCollection(mergeBookCollections(publicReferenceBooks, d1Books)), normalizedFilters)
+    books = filterBooks(bookCollection, normalizedFilters)
   }
 
   return {
     generatedAt: new Date().toISOString(),
     source,
     filters: normalizedFilters,
+    laneCoverage: buildReferenceLaneCoverage(bookCollection),
     total: books.length,
     books,
   }
