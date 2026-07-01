@@ -25,6 +25,9 @@ const launchPacketScript = read('scripts/prepare-launch-packet.mjs')
 const externalActionsDoc = read('docs/external-launch-actions.md')
 const externalActionsJson = readJson('docs/external-launch-actions.json')
 const productionStateScript = read('scripts/prepare-production-state-snapshot.mjs')
+const productionDeployWorkflow = read('.github/workflows/production-deploy.yml')
+const productionDeployEvidenceScript = read('scripts/prepare-production-deploy-evidence.mjs')
+const feedSeedScript = read('scripts/seed-production-feed.mjs')
 const productionCutoverDoc = read('docs/production-cutover-simulation.md')
 const productionCutoverJson = readJson('docs/production-cutover-simulation.json')
 const corpusRightsAudit = readJson('corpus/exports/corpus-rights-audit-summary.json')
@@ -205,6 +208,15 @@ assert(exists('scripts/verify-production-deploy-evidence-artifact.mjs'), 'Produc
 assert(exists('scripts/prepare-github-production-dispatch.mjs'), 'Production contract requires the GitHub production dispatch packet generator')
 assert(exists('scripts/seed-production-feed.mjs'), 'Production contract requires the production feed seed command')
 assert(exists('scripts/verify-production-feed-seed.mjs'), 'Production contract requires the production feed seed verifier')
+assert(feedSeedScript.includes('--evidence-path'), 'Production feed seed command should support sanitized evidence output')
+assert(
+  productionDeployWorkflow.includes('--evidence-path output/production-deploy/feed-seed-evidence.json'),
+  'Production deploy workflow should preserve sanitized feed seed evidence inside the uploaded deployment artifact',
+)
+assert(
+  productionDeployEvidenceScript.includes('feedSeedEvidence'),
+  'Production deploy evidence packet should summarize sanitized feed seed evidence',
+)
 assert(exists('scripts/verify-accessibility-smoke.mjs'), 'Production contract requires the accessibility smoke verifier')
 assert(exists('scripts/verify-visual-smoke.mjs'), 'Production contract requires the desktop/mobile visual smoke verifier')
 assert(exists('scripts/verify-github-actions.mjs'), 'Production contract requires the GitHub Actions handoff verifier')

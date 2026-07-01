@@ -193,7 +193,7 @@ jobs:
       - name: Seed live Signals feed
         if: ${{ !inputs.skip_live_verification }}
         shell: bash
-        run: npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed
+        run: npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed --evidence-path output/production-deploy/feed-seed-evidence.json
 
       - name: Verify live production
         if: ${{ !inputs.skip_live_verification }}

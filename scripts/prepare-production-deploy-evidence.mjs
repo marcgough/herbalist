@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -7,6 +7,7 @@ const root = resolve(fileURLToPath(new URL('..', import.meta.url)))
 const outputDirectory = 'output/production-deploy'
 const outputJsonPath = `${outputDirectory}/production-deploy-evidence.json`
 const outputMarkdownPath = `${outputDirectory}/production-deploy-evidence.md`
+const feedSeedEvidencePath = `${outputDirectory}/feed-seed-evidence.json`
 const artifactName = 'herbalisti-production-deploy-evidence'
 
 const args = new Set(process.argv.slice(2))
@@ -24,6 +25,37 @@ const clean = (value, fallback = null) => {
 
 const boolFromEnv = (name) => String(process.env[name] ?? '').toLowerCase() === 'true'
 const readJson = (path) => JSON.parse(readFileSync(resolve(root, path), 'utf8'))
+const readOptionalJson = (path) => {
+  const absolutePath = resolve(root, path)
+  if (!existsSync(absolutePath)) {
+    return null
+  }
+  return JSON.parse(readFileSync(absolutePath, 'utf8'))
+}
+
+const sanitizeFeedSeedEvidence = (evidence) => {
+  if (!evidence) {
+    return null
+  }
+
+  return {
+    status: clean(evidence.status, 'unknown'),
+    generatedAt: clean(evidence.generatedAt),
+    baseUrl: clean(evidence.baseUrl),
+    endpoint: clean(evidence.endpoint),
+    itemCount: Number(evidence.itemCount ?? 0),
+    persisted: Number(evidence.persisted ?? 0),
+    refreshRun: evidence.refreshRun
+      ? {
+          status: clean(evidence.refreshRun.status),
+          triggerType: clean(evidence.refreshRun.triggerType),
+          itemCount: Number(evidence.refreshRun.itemCount ?? 0),
+          startedAt: clean(evidence.refreshRun.startedAt),
+          finishedAt: clean(evidence.refreshRun.finishedAt),
+        }
+      : null,
+  }
+}
 
 const buildProductionDeployEvidence = ({ generatedAt = new Date().toISOString() } = {}) => {
   const contract = readJson('docs/production-environment-contract.json')
@@ -33,6 +65,13 @@ const buildProductionDeployEvidence = ({ generatedAt = new Date().toISOString() 
   const runUrl = runId && repository ? `https://github.com/${repository}/actions/runs/${runId}` : null
   const liveVerificationSkipped = boolFromEnv('LIVE_VERIFICATION_SKIPPED')
   const liveVerificationSkipAcknowledged = boolFromEnv('LIVE_VERIFICATION_SKIP_ACKNOWLEDGED')
+  const jobStatusAtEvidenceStep = clean(process.env.PRODUCTION_DEPLOY_JOB_STATUS, 'unknown')
+  const feedSeedEvidence = sanitizeFeedSeedEvidence(readOptionalJson(feedSeedEvidencePath))
+  const feedSeedEvidenceStatus = feedSeedEvidence
+    ? 'captured'
+    : liveVerificationSkipped
+      ? 'skipped-dns-transition'
+      : 'pending-live-workflow-seed-result'
   const postDeployEvidenceCommands = contract.commands?.postDeployEvidence ?? [
     'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
   ]
@@ -49,6 +88,15 @@ const buildProductionDeployEvidence = ({ generatedAt = new Date().toISOString() 
   assert(
     !liveVerificationSkipped || liveVerificationSkipAcknowledged,
     'Skipped live verification evidence requires the explicit skip acknowledgement.',
+  )
+  assert(
+    !(
+      process.env.GITHUB_ACTIONS === 'true' &&
+      !liveVerificationSkipped &&
+      jobStatusAtEvidenceStep === 'success' &&
+      !feedSeedEvidence
+    ),
+    `Successful live production deployment evidence requires sanitized feed seed evidence at ${feedSeedEvidencePath}.`,
   )
 
   return {
@@ -84,10 +132,15 @@ const buildProductionDeployEvidence = ({ generatedAt = new Date().toISOString() 
       pagesProject: 'herbalisti',
       newsWorker: 'herbalisti-news-refresh',
       d1Database: 'herbalisti',
-      jobStatusAtEvidenceStep: clean(process.env.PRODUCTION_DEPLOY_JOB_STATUS, 'unknown'),
+      jobStatusAtEvidenceStep,
       liveVerificationSkipped,
       liveVerificationSkipAcknowledged,
       liveVerificationMode: liveVerificationSkipped ? 'dns-transition-skip' : 'strict-live-verification',
+      feedSeedEvidence: {
+        status: feedSeedEvidenceStatus,
+        path: feedSeedEvidencePath,
+        summary: feedSeedEvidence,
+      },
       completionEvidence: liveVerificationSkipped
         ? 'Not complete: production deploy evidence artifact readback and strict live verification against https://herbalisti.com remain required after DNS is connected.'
         : 'Not complete until this workflow run succeeds, this evidence artifact is uploaded and read back, and strict live verification passes.',
@@ -117,6 +170,16 @@ const renderMarkdown = (evidence) => [
   `- Workflow: ${evidence.github.workflow}`,
   `- Job status at evidence step: ${evidence.deployment.jobStatusAtEvidenceStep}`,
   `- Live verification mode: ${evidence.deployment.liveVerificationMode}`,
+  `- Feed seed evidence: ${evidence.deployment.feedSeedEvidence.status}`,
+  `- Feed seed evidence path: ${evidence.deployment.feedSeedEvidence.path}`,
+  '',
+  '## Feed Seed Evidence',
+  '',
+  evidence.deployment.feedSeedEvidence.summary
+    ? `The protected feed seed result was captured with ${evidence.deployment.feedSeedEvidence.summary.itemCount} item(s), ${evidence.deployment.feedSeedEvidence.summary.persisted} persisted record(s), and refresh status \`${evidence.deployment.feedSeedEvidence.summary.refreshRun?.status ?? 'unknown'}\`.`
+    : evidence.deployment.liveVerificationSkipped
+      ? 'Feed seed evidence was skipped because this production run is in DNS-transition mode. The live feed must be seeded and verified after DNS is connected.'
+      : 'Feed seed evidence is pending until the guarded production workflow seeds the protected live feed.',
   '',
   '## Completion Boundary',
   '',
@@ -149,6 +212,10 @@ assert(!secretValuePattern.test(md), 'Production deploy evidence Markdown must n
 assert(evidence.artifact.name === artifactName, 'Production deploy evidence artifact name is stable.')
 assert(evidence.site.url === 'https://herbalisti.com', 'Production deploy evidence must target herbalisti.com.')
 assert(
+  evidence.deployment.feedSeedEvidence.path === feedSeedEvidencePath,
+  'Production deploy evidence should carry the sanitized feed seed evidence path.',
+)
+assert(
   evidence.deployment.finalCompletionGates.includes(
     'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
   ),
@@ -169,6 +236,8 @@ if (check) {
         artifactName,
         outputDirectory,
         liveVerificationMode: evidence.deployment.liveVerificationMode,
+        feedSeedEvidenceStatus: evidence.deployment.feedSeedEvidence.status,
+        feedSeedEvidencePath: evidence.deployment.feedSeedEvidence.path,
         finalCompletionGates: evidence.deployment.finalCompletionGates,
         safeToRun:
           'This verifier builds a non-secret deployment evidence packet in memory only. It does not deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.',

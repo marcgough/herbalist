@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { spawnSync } from 'node:child_process'
-import { existsSync, readFileSync } from 'node:fs'
+import { existsSync, readFileSync, rmSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -17,6 +17,7 @@ const contract = readJson('docs/production-environment-contract.json')
 const externalActions = readJson('docs/external-launch-actions.json')
 const workflow = read('.github/workflows/production-deploy.yml')
 const scriptSource = read('scripts/seed-production-feed.mjs')
+const dryRunEvidencePath = '.tmp/verify-production-feed-seed/feed-seed-evidence.json'
 
 assert(exists('scripts/seed-production-feed.mjs'), 'Production feed seed command should exist')
 assert(packageJson.scripts?.['seed:production-feed'], 'package.json should expose seed:production-feed')
@@ -49,8 +50,17 @@ assert(
 )
 assert(scriptSource.includes('seed-herbalisti-feed'), 'Feed seed command should require an exact confirmation phrase')
 assert(scriptSource.includes('--dry-run'), 'Feed seed command should provide a dry-run mode')
+assert(scriptSource.includes('--evidence-path'), 'Feed seed command should provide a sanitized evidence output mode')
 assert(scriptSource.includes('authorization'), 'Feed seed command should send authorization only at request time')
 assert(!secretValuePattern.test(scriptSource), 'Feed seed command must not contain literal secret values')
+assert(
+  workflow.includes(
+    '--evidence-path output/production-deploy/feed-seed-evidence.json',
+  ),
+  'Production deploy workflow should preserve sanitized feed seed evidence in the deployment artifact directory',
+)
+
+rmSync(resolve(root, '.tmp/verify-production-feed-seed'), { recursive: true, force: true })
 
 const missingConfirm = spawnSync(process.execPath, ['scripts/seed-production-feed.mjs', '--dry-run'], {
   cwd: root,
@@ -68,6 +78,8 @@ const dryRun = spawnSync(
     'https://herbalisti.com',
     '--confirm',
     'seed-herbalisti-feed',
+    '--evidence-path',
+    dryRunEvidencePath,
   ],
   {
     cwd: root,
@@ -79,7 +91,18 @@ const dryRunPayload = JSON.parse(dryRun.stdout)
 assert.equal(dryRunPayload.status, 'dry-run', 'Feed seed dry-run should report dry-run status')
 assert.equal(dryRunPayload.endpoint, 'https://herbalisti.com/api/feed-refresh', 'Feed seed dry-run should target the protected feed-refresh endpoint')
 assert.equal(dryRunPayload.wouldSendAuthorizationHeader, true, 'Feed seed dry-run should document authorization behavior')
+assert.equal(dryRunPayload.evidencePath, dryRunEvidencePath, 'Feed seed dry-run should report the evidence path')
 assert(!secretValuePattern.test(dryRun.stdout), 'Feed seed dry-run output must not contain secret-looking values')
+assert(exists(dryRunEvidencePath), 'Feed seed dry-run should write sanitized evidence when requested')
+const dryRunEvidence = readJson(dryRunEvidencePath)
+assert.equal(dryRunEvidence.status, 'dry-run', 'Feed seed evidence should preserve dry-run status')
+assert.equal(
+  dryRunEvidence.endpoint,
+  'https://herbalisti.com/api/feed-refresh',
+  'Feed seed evidence should preserve the endpoint',
+)
+assert(!secretValuePattern.test(read(dryRunEvidencePath)), 'Feed seed evidence must not contain secret-looking values')
+rmSync(resolve(root, '.tmp/verify-production-feed-seed'), { recursive: true, force: true })
 
 console.log(
   JSON.stringify(
@@ -87,6 +110,7 @@ console.log(
       status: 'pass',
       command: packageJson.scripts['seed:production-feed'],
       dryRunEndpoint: dryRunPayload.endpoint,
+      dryRunEvidencePath,
       approvalAction: seedAction.id,
       safeToRun:
         'This verifier reads local files and runs the feed seed command in dry-run mode only. It does not call the network, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.',

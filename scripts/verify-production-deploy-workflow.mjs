@@ -88,8 +88,9 @@ assert(packageJson.scripts?.['verify:production-dispatch-preflight'], 'package.j
 assert(
   deployEvidenceScript.includes('finalCompletionGates') &&
     deployEvidenceScript.includes('postDeployEvidenceCommands') &&
-    deployEvidenceScript.includes('requiredLiveVerificationCommands'),
-  'Production deploy evidence packet should include post-deploy readback, live verification, and final completion gates',
+    deployEvidenceScript.includes('requiredLiveVerificationCommands') &&
+    deployEvidenceScript.includes('feedSeedEvidence'),
+  'Production deploy evidence packet should include post-deploy readback, feed seed evidence, live verification, and final completion gates',
 )
 assert(
   deployEvidenceScript.includes('docs/production-environment-contract.json'),
@@ -127,6 +128,7 @@ for (const command of [
   'npm run deploy:cloudflare',
   'npm run deploy:news-worker',
   'npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed',
+  '--evidence-path output/production-deploy/feed-seed-evidence.json',
   'npm run verify:live-readiness -- --strict',
   'npm run verify:production -- https://herbalisti.com',
   'npm run verify:goal-readiness -- --strict',
@@ -175,8 +177,13 @@ assert(
   feedSeedIndex > workerFeedSecretIndex,
   'Production deploy workflow should seed the live feed only after the Worker FEED_ADMIN_TOKEN secret has been applied',
 )
+assert(
+  workflow.indexOf('--evidence-path output/production-deploy/feed-seed-evidence.json') > workerFeedSecretIndex,
+  'Production deploy workflow should write sanitized feed seed evidence after the Worker FEED_ADMIN_TOKEN secret has been applied',
+)
 assert(packageJson.scripts?.['seed:production-feed'], 'Production deploy workflow should use the shared feed seed command')
 assert(feedSeedScript.includes('/api/feed-refresh'), 'Production feed seed command should post to the protected feed-refresh endpoint')
+assert(feedSeedScript.includes('--evidence-path'), 'Production feed seed command should support sanitized evidence output')
 assert(feedSeedScript.includes("['completed', 'completed_with_warnings']"), 'Production feed seed command should accept completed feed-refresh statuses only')
 assert(!secretValuePattern.test(workflow), 'Production deploy workflow must not contain literal secret values')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-workflow'), 'Safe preflight should include production deploy workflow verification')

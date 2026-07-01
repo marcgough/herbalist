@@ -211,7 +211,7 @@ Production deploy evidence verification is local and artifact-shape only:
 npm run verify:production-deploy-evidence
 ```
 
-It builds the deployment evidence packet in memory and confirms the stable artifact name, `https://herbalisti.com` target, final-completion boundary, and secret-free output. During the guarded production workflow, the packet is uploaded as `herbalisti-production-deploy-evidence` from `output/production-deploy`. The packet records both the post-dispatch artifact readback command and the strict live-domain verification commands from `docs/production-environment-contract.json`.
+It builds the deployment evidence packet in memory and confirms the stable artifact name, `https://herbalisti.com` target, final-completion boundary, sanitized feed-seed evidence slot, and secret-free output. During the guarded production workflow, the packet is uploaded as `herbalisti-production-deploy-evidence` from `output/production-deploy`. The packet records both the post-dispatch artifact readback command and the strict live-domain verification commands from `docs/production-environment-contract.json`. When strict live verification is not skipped, the protected feed seed command also writes `output/production-deploy/feed-seed-evidence.json`, a sanitized proof containing feed refresh counts, timestamps, and status without token values.
 
 Production deploy evidence artifact readback is GitHub metadata-only:
 
@@ -265,7 +265,7 @@ Production feed seed verification is local and dry-run only:
 npm run verify:production-feed-seed
 ```
 
-It checks that the protected feed seed command exists, requires the exact `seed-herbalisti-feed` confirmation phrase, targets `https://herbalisti.com/api/feed-refresh`, and is wired into the production contract, external-action checklist, and guarded production deploy workflow. The verifier runs the command only with `--dry-run`, so it does not call the network, write D1, deploy, mutate DNS, set secrets, call paid APIs, or print secret values.
+It checks that the protected feed seed command exists, requires the exact `seed-herbalisti-feed` confirmation phrase, targets `https://herbalisti.com/api/feed-refresh`, can write sanitized feed-seed evidence, and is wired into the production contract, external-action checklist, and guarded production deploy workflow. The verifier runs the command only with `--dry-run`, so it does not call the network, write D1, deploy, mutate DNS, set secrets, call paid APIs, or print secret values.
 
 GitHub production readiness verification is read-only:
 
