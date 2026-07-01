@@ -127,6 +127,12 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       contract.commands.safePreflight.includes('npm run verify:github-release-evidence'),
       'Safe preflight includes GitHub CI/manual release evidence verification.',
     ),
+    buildCheck(
+      'current-production-state-evidence-preflight',
+      Boolean(scripts['verify:production-state-current']) &&
+        contract.commands.safePreflight.includes('npm run verify:production-state-current'),
+      'Safe preflight includes current-commit production state evidence verification.',
+    ),
     buildCheck('cloudflare-configurator', Boolean(scripts['configure:cloudflare']), 'Cloudflare binding configurator is available.'),
     buildCheck(
       'production-d1-resolver',
@@ -227,6 +233,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         sideEffect: 'none',
         commands: [
           'npm run verify:github-release-evidence',
+          'npm run verify:production-state-current',
           'npm run verify:cloudflare-production-state',
           'npm run verify:d1-manifest',
           'npm run verify:dns-cutover',

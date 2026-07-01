@@ -47,6 +47,7 @@ The packet covers:
 - protected production feed seed verification
 - GitHub production environment and secret-name readiness verification
 - GitHub CI/manual release evidence for the intended launch commit
+- current production state evidence for the exact GitHub commit
 - consolidated production state snapshot verification
 - Cloudflare API token permission requirement verification
 - production provisioning readiness and exact operator sequence
@@ -110,6 +111,7 @@ npm run verify:production-d1-resolver
 npm run verify:production-feed-seed
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
+npm run verify:production-state-current
 npm run verify:cloudflare-production-state
 npm run prepare:production-state
 npm run verify:production-state

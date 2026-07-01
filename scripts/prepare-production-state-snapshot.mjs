@@ -11,7 +11,13 @@ const outputMarkdownPath = 'docs/production-state-snapshot.md'
 const args = new Set(process.argv.slice(2))
 const write = args.has('--write')
 const check = args.has('--check')
+const checkCurrent = args.has('--check-current')
 const markdown = args.has('--markdown')
+
+assert(
+  [check, checkCurrent].filter(Boolean).length <= 1,
+  'Use only one verification mode: --check or --check-current.',
+)
 
 const read = (path) => readFileSync(resolve(root, path), 'utf8')
 const readJson = (path) => JSON.parse(read(path))
@@ -89,8 +95,15 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
   const provisioning = exists('docs/production-provisioning-readiness.json')
     ? readJson('docs/production-provisioning-readiness.json')
     : null
+  const branch = runGit(['branch', '--show-current']) || null
+  const commit = runGit(['rev-parse', 'HEAD']) || null
 
-  const releaseEvidenceProbe = run('github-release-evidence', ['scripts/verify-github-release-evidence.mjs'], {
+  const releaseEvidenceArgs = ['scripts/verify-github-release-evidence.mjs']
+  if (commit) {
+    releaseEvidenceArgs.push('--commit', commit)
+  }
+
+  const releaseEvidenceProbe = run('github-release-evidence', releaseEvidenceArgs, {
     timeout: 45000,
   })
   const githubProbe = run(
@@ -189,8 +202,8 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
       'Reads local launch artifacts, public DNS, public live-domain responses, GitHub readiness metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.',
     project: contract.project,
     git: {
-      branch: runGit(['branch', '--show-current']) || null,
-      commit: runGit(['rev-parse', 'HEAD']) || null,
+      branch,
+      commit,
       note: 'Commit is the repository HEAD observed when the snapshot was generated; the snapshot artifact itself may be committed afterward.',
     },
     summary: {
@@ -367,6 +380,36 @@ const validateStoredSnapshot = () => {
   return packet
 }
 
+const validateCurrentSnapshot = (packet) => {
+  const currentCommit = runGit(['rev-parse', 'HEAD']) || null
+  const serialized = JSON.stringify(packet, null, 2)
+  const rendered = renderProductionStateMarkdown(packet)
+
+  assert(currentCommit, 'Current git commit should be available')
+  assert.equal(packet.git?.commit, currentCommit, 'Generated production state should target the current git commit')
+  assert.equal(
+    packet.probes?.releaseEvidence?.summary?.ok,
+    true,
+    'Current production state should include successful GitHub release evidence',
+  )
+  assert.equal(
+    packet.probes?.releaseEvidence?.summary?.status,
+    'pass',
+    'Current production state release evidence should pass',
+  )
+  assert.equal(
+    packet.probes?.releaseEvidence?.commit,
+    currentCommit,
+    'GitHub release evidence should match the current git commit',
+  )
+  assert(packet.probes.releaseEvidence.ciRunId, 'Current release evidence should include a CI run ID')
+  assert(packet.probes.releaseEvidence.manualReleaseRunId, 'Current release evidence should include a manual release run ID')
+  assert(packet.probes.releaseEvidence.artifactId, 'Current release evidence should include a visual smoke artifact ID')
+  assert.equal(secretValuePattern.test(`${serialized}\n${rendered}`), false, 'Current snapshot must not contain secret-looking values')
+
+  return packet
+}
+
 if (check) {
   const packet = validateStoredSnapshot()
   console.log(
@@ -378,6 +421,25 @@ if (check) {
         blockerCount: packet.summary.blockerCount,
         safeToRun:
           'Reads committed snapshot artifacts only. It does not call GitHub, Cloudflare, DNS, production URLs, paid APIs, or print secret values.',
+      },
+      null,
+      2,
+    ),
+  )
+} else if (checkCurrent) {
+  const packet = validateCurrentSnapshot(await buildProductionStateSnapshot())
+  console.log(
+    JSON.stringify(
+      {
+        status: 'pass',
+        snapshotStatus: packet.status,
+        commit: packet.git.commit,
+        releaseEvidenceCommit: packet.probes.releaseEvidence.commit,
+        ciRunId: packet.probes.releaseEvidence.ciRunId,
+        manualReleaseRunId: packet.probes.releaseEvidence.manualReleaseRunId,
+        artifactId: packet.probes.releaseEvidence.artifactId,
+        safeToRun:
+          'Regenerates the production state in memory for the current git commit and checks public GitHub release evidence. It does not write files, deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values.',
       },
       null,
       2,

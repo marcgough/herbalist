@@ -86,6 +86,9 @@ jobs:
       - name: Verify exact release evidence
         run: npm run verify:github-release-evidence -- --commit "$GITHUB_SHA"
 
+      - name: Verify current production state evidence
+        run: npm run verify:production-state-current
+
       - name: Verify local launch contracts
         run: |
           npm run verify:production-deploy-workflow

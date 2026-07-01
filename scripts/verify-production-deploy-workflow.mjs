@@ -55,9 +55,11 @@ assert(exists('scripts/verify-production-deploy-dry-run.mjs'), 'Production deplo
 assert(packageJson.scripts?.['verify:production-deploy-dry-run'], 'package.json should expose verify:production-deploy-dry-run')
 assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production deploy workflow requires the D1 resolver verifier')
 assert(packageJson.scripts?.['verify:production-d1-resolver'], 'package.json should expose verify:production-d1-resolver')
+assert(packageJson.scripts?.['verify:production-state-current'], 'package.json should expose verify:production-state-current')
 
 for (const command of [
   'npm run verify:github-release-evidence -- --commit "$GITHUB_SHA"',
+  'npm run verify:production-state-current',
   'npm run verify:production-deploy-workflow',
   'npm run verify:production-deploy-dry-run',
   'npm run verify:production-d1-resolver',

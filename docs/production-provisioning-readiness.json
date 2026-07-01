@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T00:12:11.084Z",
+  "generatedAt": "2026-07-01T00:45:00.880Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,7 +27,7 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "3844981d64dbf1d1fd5dce4f583997fbbdeca8a7d89e24500f0cef0073817432",
+    "contractFingerprint": "9b39a780b1717d2eb3d4d483955f8601e04fc0770a52a5c2fc114ebbb461e66c",
     "externalActionsFingerprint": "3bb5c5b3d7c5add18efe786026557ab967eef2dac204725ff90c583aa9203cbd",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
@@ -90,6 +90,11 @@
       "id": "github-release-evidence-preflight",
       "status": "pass",
       "detail": "Safe preflight includes GitHub CI/manual release evidence verification."
+    },
+    {
+      "id": "current-production-state-evidence-preflight",
+      "status": "pass",
+      "detail": "Safe preflight includes current-commit production state evidence verification."
     },
     {
       "id": "cloudflare-configurator",
@@ -182,6 +187,7 @@
       "sideEffect": "none",
       "commands": [
         "npm run verify:github-release-evidence",
+        "npm run verify:production-state-current",
         "npm run verify:cloudflare-production-state",
         "npm run verify:d1-manifest",
         "npm run verify:dns-cutover",

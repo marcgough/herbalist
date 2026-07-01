@@ -123,6 +123,7 @@
       "npm run verify:production-feed-seed",
       "npm run verify:github-production-readiness",
       "npm run verify:github-release-evidence",
+      "npm run verify:production-state-current",
       "npm run verify:cloudflare-production-state",
       "npm run verify:cloudflare-token-requirements",
       "npm run verify:d1-manifest",

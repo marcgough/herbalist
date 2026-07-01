@@ -97,6 +97,7 @@
     "verify:production-provisioning": "node scripts/prepare-production-provisioning.mjs --check",
     "verify:production-secrets": "node scripts/prepare-production-secret-setup.mjs --check",
     "verify:production-state": "node scripts/prepare-production-state-snapshot.mjs --check",
+    "verify:production-state-current": "node scripts/prepare-production-state-snapshot.mjs --check-current",
     "verify:production": "node scripts/verify-production.mjs",
     "verify:release": "node scripts/verify-release.mjs",
     "verify:search-discovery": "node scripts/verify-search-discovery.mjs",

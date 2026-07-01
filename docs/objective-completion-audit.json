@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T00:14:36.724Z",
-  "auditSignature": "8b5e62bf2bff7b7b555cb0a1514c12e1228129c3a244e5fb7635ccc91aa5591a",
+  "generatedAt": "2026-07-01T00:46:16.440Z",
+  "auditSignature": "123b219ec8f46651f6335da317ab17e586dcd7b6c83327ed39c39b9159bb77b3",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -539,30 +539,30 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T00:13:35.575Z",
+      "generatedAt": "2026-07-01T00:45:15.681Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 14,
         "DNA modification": 4,
         "Peptides": 3,
+        "Health as a service": 1,
         "Self-sovereign wellbeing": 1,
-        "CRISPR": 5,
-        "Gene editing": 5,
-        "Gene therapy": 2,
-        "Health as a service": 1
+        "CRISPR": 4,
+        "Gene editing": 4,
+        "Gene therapy": 1
       },
       "sourceCounts": {
         "Fight Aging!": 6,
         "Lifespan.io": 6,
         "arXiv": 2,
-        "bioRxiv": 5,
-        "Crossref": 5
+        "Crossref": 5,
+        "bioRxiv": 5
       },
       "latestRefreshStatus": "completed",
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-07-01T00:13:35.575Z"
+        "generatedAt": "2026-07-01T00:45:15.681Z"
       }
     },
     "media": {
@@ -593,7 +593,7 @@
     ],
     "checked": {
       "files": 145,
-      "scripts": 104,
+      "scripts": 105,
       "passes": 220
     },
     "nextActions": [
@@ -628,6 +628,7 @@
       "npm run verify:production-feed-seed",
       "npm run verify:github-production-readiness",
       "npm run verify:github-release-evidence",
+      "npm run verify:production-state-current",
       "npm run verify:cloudflare-production-state",
       "npm run verify:cloudflare-token-requirements",
       "npm run verify:d1-manifest",

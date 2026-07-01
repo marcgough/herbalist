@@ -326,6 +326,10 @@ assert(
   'Safe preflight should include GitHub CI and manual release evidence verification',
 )
 assert(
+  contract.commands.safePreflight.includes('npm run verify:production-state-current'),
+  'Safe preflight should include current-commit production state evidence verification',
+)
+assert(
   contract.commands.safePreflight.includes('npm run verify:cloudflare-production-state'),
   'Safe preflight should include the read-only Cloudflare production state probe',
 )
@@ -450,6 +454,10 @@ assert(
   'Launch packet generator should include GitHub release evidence verification',
 )
 assert(
+  launchPacketScript.includes('npm run verify:production-state-current'),
+  'Launch packet generator should include current-commit production state evidence verification',
+)
+assert(
   launchPacketScript.includes('npm run verify:cloudflare-production-state'),
   'Launch packet generator should include Cloudflare production state verification',
 )
@@ -513,6 +521,7 @@ assert(runbook.includes('verify:production-d1-resolver'), 'Deployment runbook sh
 assert(runbook.includes('verify:production-feed-seed'), 'Deployment runbook should document production feed seed verification')
 assert(runbook.includes('verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
+assert(runbook.includes('verify:production-state-current'), 'Deployment runbook should document current-commit production state evidence verification')
 assert(runbook.includes('verify:cloudflare-production-state'), 'Deployment runbook should document Cloudflare production state verification')
 assert(runbook.includes('verify:cloudflare-token-requirements'), 'Deployment runbook should document Cloudflare token requirement verification')
 assert(runbook.includes('verify:d1-manifest'), 'Deployment runbook should document D1 production migration manifest verification')
@@ -584,6 +593,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:github-release-evidence'),
   'Production launch packet doc should include GitHub release evidence verification',
+)
+assert(
+  launchPacketDoc.includes('verify:production-state-current'),
+  'Production launch packet doc should include current-commit production state evidence verification',
 )
 assert(
   launchPacketDoc.includes('verify:cloudflare-production-state'),

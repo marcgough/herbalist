@@ -61,6 +61,7 @@ The audit currently checks:
 - Guarded GitHub production deploy workflow
 - GitHub production environment and secret-name readiness
 - Consolidated production state snapshot
+- Current-commit production state evidence
 - External-action checklist for approval-required launch steps
 - Local production cutover simulation for D1/R2 binding rehearsal
 - Cloudflare hosting readiness
@@ -124,6 +125,8 @@ The herbal commons gate now requires the public export and API to expose the cor
 `npm run verify:github-production-readiness` reads GitHub workflow, environment, secret-name, and release-run metadata without creating environments, setting secrets, dispatching workflows, or printing secret values. Strict mode is the final dispatch-readiness gate after the `production` environment and required GitHub secret names exist.
 
 `npm run verify:github-release-evidence` checks public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, then verifies the uploaded visual-smoke artifact metadata without downloading artifacts or mutating GitHub.
+
+`npm run verify:production-state-current` regenerates the production state in memory and checks that the GitHub release evidence matches the current git commit. It is intended for the post-CI, post-manual-release moment before a guarded production deployment, not as a pre-push local development gate.
 
 `npm run prepare:production-provisioning` and `npm run verify:production-provisioning` generate and check the local production provisioning packet: current Wrangler binding state, hidden required secret names, next approved external action, and exact operator sequence from D1 creation through live verification.
 
