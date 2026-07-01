@@ -599,6 +599,8 @@ if (check) {
         ciRunId: packet.probes.releaseEvidence.ciRunId,
         manualReleaseRunId: packet.probes.releaseEvidence.manualReleaseRunId,
         artifactId: packet.probes.releaseEvidence.artifactId,
+        releaseEvidenceArtifactId: packet.probes.releaseEvidence.releaseEvidenceArtifactId,
+        releaseEvidenceArtifactDigest: packet.probes.releaseEvidence.releaseEvidenceArtifactDigest,
         productionDeployEvidenceArtifactStatus: packet.probes.productionDeployEvidenceArtifact.summary.status,
         productionDeployRunId: packet.probes.productionDeployEvidenceArtifact.runId,
         productionDeployEvidenceArtifactId: packet.probes.productionDeployEvidenceArtifact.artifactId,
