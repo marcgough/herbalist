@@ -543,6 +543,8 @@ const requirements = [
       exists('scripts/prepare-production-state-snapshot.mjs') &&
       exists('scripts/prepare-github-production-dispatch.mjs') &&
       exists('scripts/prepare-production-operator-brief.mjs') &&
+      exists('scripts/prepare-production-deploy-evidence.mjs') &&
+      exists('scripts/verify-production-deploy-evidence-artifact.mjs') &&
       exists('scripts/verify-production-deploy-workflow.mjs') &&
       exists('scripts/verify-github-production-readiness.mjs') &&
       exists('scripts/verify-cloudflare-production-state.mjs') &&
@@ -571,6 +573,9 @@ const requirements = [
       Boolean(scripts['verify:production-deploy-dry-run']) &&
       Boolean(scripts['verify:production-d1-resolver']) &&
       Boolean(scripts['verify:production-feed-seed']) &&
+      Boolean(scripts['prepare:production-deploy-evidence']) &&
+      Boolean(scripts['verify:production-deploy-evidence']) &&
+      Boolean(scripts['verify:production-deploy-evidence-artifact']) &&
       Boolean(scripts['verify:production-deploy-workflow']) &&
       Boolean(scripts['verify:github-production-readiness']) &&
       Boolean(scripts['verify:cloudflare-production-state']) &&
@@ -635,6 +640,8 @@ const requirements = [
       'scripts/prepare-production-state-snapshot.mjs',
       'scripts/prepare-github-production-dispatch.mjs',
       'scripts/prepare-production-operator-brief.mjs',
+      'scripts/prepare-production-deploy-evidence.mjs',
+      'scripts/verify-production-deploy-evidence-artifact.mjs',
       'scripts/verify-production-deploy-workflow.mjs',
       'scripts/verify-github-production-readiness.mjs',
       'scripts/verify-cloudflare-production-state.mjs',
@@ -657,6 +664,8 @@ const requirements = [
       'npm run verify:production-deploy-dry-run',
       'npm run verify:production-d1-resolver',
       'npm run verify:production-feed-seed',
+      'npm run verify:production-deploy-evidence',
+      'npm run verify:production-deploy-evidence-artifact',
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-production-readiness',
       'npm run verify:cloudflare-production-state',
@@ -680,6 +689,8 @@ const requirements = [
       'scripts/prepare-production-provisioning.mjs',
       'scripts/prepare-production-state-snapshot.mjs',
       'scripts/prepare-github-production-dispatch.mjs',
+      'scripts/prepare-production-deploy-evidence.mjs',
+      'scripts/verify-production-deploy-evidence-artifact.mjs',
       'scripts/verify-production-deploy-workflow.mjs',
       'scripts/verify-github-production-readiness.mjs',
       'scripts/verify-cloudflare-production-state.mjs',
@@ -715,6 +726,8 @@ const requirements = [
       'npm run verify:production-deploy-dry-run',
       'npm run verify:production-d1-resolver',
       'npm run verify:production-feed-seed',
+      'npm run verify:production-deploy-evidence',
+      'npm run verify:production-deploy-evidence-artifact',
       'npm run verify:live-readiness -- --strict',
       'npm run prepare:launch',
       'npm run prepare:external-actions',
@@ -771,6 +784,9 @@ const requirements = [
       scripts['resolve:production-d1'] &&
       scripts['verify:production-deploy-dry-run'] &&
       scripts['verify:production-d1-resolver'] &&
+      scripts['prepare:production-deploy-evidence'] &&
+      scripts['verify:production-deploy-evidence'] &&
+      scripts['verify:production-deploy-evidence-artifact'] &&
       scripts['verify:production-deploy-workflow'] &&
       scripts['verify:live-readiness'] &&
       scripts['verify:brand'] &&
@@ -830,6 +846,8 @@ const requirements = [
       'scripts/resolve-production-d1-database.mjs',
       'scripts/verify-production-deploy-dry-run.mjs',
       'scripts/verify-production-d1-resolver.mjs',
+      'scripts/prepare-production-deploy-evidence.mjs',
+      'scripts/verify-production-deploy-evidence-artifact.mjs',
       'scripts/verify-production-deploy-workflow.mjs',
       '.github/workflows/ci.yml',
       '.github/workflows/release-gate.yml',
