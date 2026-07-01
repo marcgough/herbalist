@@ -202,7 +202,7 @@ Production deploy evidence verification is local and artifact-shape only:
 npm run verify:production-deploy-evidence
 ```
 
-It builds the deployment evidence packet in memory and confirms the stable artifact name, `https://herbalisti.com` target, live-verification completion boundary, and secret-free output. During the guarded production workflow, the packet is uploaded as `herbalisti-production-deploy-evidence` from `output/production-deploy`.
+It builds the deployment evidence packet in memory and confirms the stable artifact name, `https://herbalisti.com` target, final-completion boundary, and secret-free output. During the guarded production workflow, the packet is uploaded as `herbalisti-production-deploy-evidence` from `output/production-deploy`. The packet records both the post-dispatch artifact readback command and the strict live-domain verification commands from `docs/production-environment-contract.json`.
 
 Production deploy evidence artifact readback is GitHub metadata-only:
 

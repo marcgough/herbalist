@@ -11,6 +11,7 @@ const readJson = (path) => JSON.parse(read(path))
 const exists = (path) => existsSync(resolve(root, path))
 
 const workflow = read(workflowPath)
+const deployEvidenceScript = read('scripts/prepare-production-deploy-evidence.mjs')
 const feedSeedScript = read('scripts/seed-production-feed.mjs')
 const packageJson = readJson('package.json')
 const contract = readJson('docs/production-environment-contract.json')
@@ -70,6 +71,16 @@ assert(packageJson.scripts?.['verify:production-deploy-dry-run'], 'package.json 
 assert(exists('scripts/prepare-production-deploy-evidence.mjs'), 'Production deploy workflow requires the deploy evidence packet generator')
 assert(packageJson.scripts?.['prepare:production-deploy-evidence'], 'package.json should expose prepare:production-deploy-evidence')
 assert(packageJson.scripts?.['verify:production-deploy-evidence'], 'package.json should expose verify:production-deploy-evidence')
+assert(
+  deployEvidenceScript.includes('finalCompletionGates') &&
+    deployEvidenceScript.includes('postDeployEvidenceCommands') &&
+    deployEvidenceScript.includes('requiredLiveVerificationCommands'),
+  'Production deploy evidence packet should include post-deploy readback, live verification, and final completion gates',
+)
+assert(
+  deployEvidenceScript.includes('docs/production-environment-contract.json'),
+  'Production deploy evidence packet should source completion gates from the production contract',
+)
 assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production deploy workflow requires the D1 resolver verifier')
 assert(packageJson.scripts?.['verify:production-d1-resolver'], 'package.json should expose verify:production-d1-resolver')
 assert(packageJson.scripts?.['verify:production-state-current'], 'package.json should expose verify:production-state-current')

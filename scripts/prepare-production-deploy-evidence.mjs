@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { mkdirSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -23,14 +23,28 @@ const clean = (value, fallback = null) => {
 }
 
 const boolFromEnv = (name) => String(process.env[name] ?? '').toLowerCase() === 'true'
+const readJson = (path) => JSON.parse(readFileSync(resolve(root, path), 'utf8'))
 
 const buildProductionDeployEvidence = ({ generatedAt = new Date().toISOString() } = {}) => {
+  const contract = readJson('docs/production-environment-contract.json')
   const repository = clean(process.env.GITHUB_REPOSITORY, 'marcgough/herbalist')
   const runId = clean(process.env.GITHUB_RUN_ID)
   const runAttempt = clean(process.env.GITHUB_RUN_ATTEMPT)
   const runUrl = runId && repository ? `https://github.com/${repository}/actions/runs/${runId}` : null
   const liveVerificationSkipped = boolFromEnv('LIVE_VERIFICATION_SKIPPED')
   const liveVerificationSkipAcknowledged = boolFromEnv('LIVE_VERIFICATION_SKIP_ACKNOWLEDGED')
+  const postDeployEvidenceCommands = contract.commands?.postDeployEvidence ?? [
+    'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
+  ]
+  const requiredLiveVerificationCommands = contract.commands?.liveCompletionGates ?? [
+    'npm run verify:live-readiness -- --strict',
+    'npm run verify:production -- https://herbalisti.com',
+    'npm run verify:goal-readiness -- --strict',
+  ]
+  const finalCompletionGates = contract.commands?.finalCompletionGates ?? [
+    ...postDeployEvidenceCommands,
+    ...requiredLiveVerificationCommands,
+  ]
 
   assert(
     !liveVerificationSkipped || liveVerificationSkipAcknowledged,
@@ -75,13 +89,11 @@ const buildProductionDeployEvidence = ({ generatedAt = new Date().toISOString() 
       liveVerificationSkipAcknowledged,
       liveVerificationMode: liveVerificationSkipped ? 'dns-transition-skip' : 'strict-live-verification',
       completionEvidence: liveVerificationSkipped
-        ? 'Not complete: strict live verification against https://herbalisti.com remains required after DNS is connected.'
-        : 'Complete only if this workflow run succeeds after seeding the live feed and strict live verification passes.',
-      requiredLiveVerificationCommands: [
-        'npm run verify:live-readiness -- --strict',
-        'npm run verify:production -- https://herbalisti.com',
-        'npm run verify:goal-readiness -- --strict',
-      ],
+        ? 'Not complete: production deploy evidence artifact readback and strict live verification against https://herbalisti.com remain required after DNS is connected.'
+        : 'Not complete until this workflow run succeeds, this evidence artifact is uploaded and read back, and strict live verification passes.',
+      postDeployEvidenceCommands,
+      requiredLiveVerificationCommands,
+      finalCompletionGates,
     },
     safety: {
       includesSecretValues: false,
@@ -110,9 +122,17 @@ const renderMarkdown = (evidence) => [
   '',
   evidence.deployment.completionEvidence,
   '',
+  'Required post-deploy evidence readback:',
+  '',
+  ...evidence.deployment.postDeployEvidenceCommands.map((command) => `- \`${command}\``),
+  '',
   'Required live verification commands:',
   '',
   ...evidence.deployment.requiredLiveVerificationCommands.map((command) => `- \`${command}\``),
+  '',
+  'Final completion gates:',
+  '',
+  ...evidence.deployment.finalCompletionGates.map((command) => `- \`${command}\``),
   '',
   '## Safety',
   '',
@@ -128,6 +148,18 @@ assert(!secretValuePattern.test(json), 'Production deploy evidence JSON must not
 assert(!secretValuePattern.test(md), 'Production deploy evidence Markdown must not contain literal secret values.')
 assert(evidence.artifact.name === artifactName, 'Production deploy evidence artifact name is stable.')
 assert(evidence.site.url === 'https://herbalisti.com', 'Production deploy evidence must target herbalisti.com.')
+assert(
+  evidence.deployment.finalCompletionGates.includes(
+    'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
+  ),
+  'Production deploy evidence should include post-deploy evidence artifact readback in final completion gates.',
+)
+for (const command of evidence.deployment.requiredLiveVerificationCommands) {
+  assert(
+    evidence.deployment.finalCompletionGates.includes(command),
+    `Production deploy evidence should include live verification gate in final completion gates: ${command}`,
+  )
+}
 
 if (check) {
   console.log(
@@ -137,6 +169,7 @@ if (check) {
         artifactName,
         outputDirectory,
         liveVerificationMode: evidence.deployment.liveVerificationMode,
+        finalCompletionGates: evidence.deployment.finalCompletionGates,
         safeToRun:
           'This verifier builds a non-secret deployment evidence packet in memory only. It does not deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.',
       },
