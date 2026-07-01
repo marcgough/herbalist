@@ -41,6 +41,7 @@ assert(scripts['verify:production-d1-resolver'], 'package.json should expose ver
 assert(scripts['verify:production-feed-seed'], 'package.json should expose verify:production-feed-seed')
 assert(scripts['verify:github-production-readiness'], 'package.json should expose verify:github-production-readiness')
 assert(scripts['verify:github-production-dispatch'], 'package.json should expose verify:github-production-dispatch')
+assert(scripts['verify:production-dispatch-preflight'], 'package.json should expose verify:production-dispatch-preflight')
 assert(scripts['verify:production-state'], 'package.json should expose verify:production-state')
 assert(scripts['verify:production-state-current'], 'package.json should expose verify:production-state-current')
 assert(scripts['prepare:production-deploy-evidence'], 'package.json should expose prepare:production-deploy-evidence')
@@ -98,6 +99,10 @@ assert(productionDeploy.includes('npm run verify:production-deploy-workflow'), '
 assert(productionDeploy.includes('npm run verify:production-deploy-dry-run'), 'Production deploy workflow should verify the local fake-Wrangler deploy dry run before live Cloudflare steps')
 assert(productionDeploy.includes('npm run verify:production-d1-resolver'), 'Production deploy workflow should verify the D1 resolver behavior before resolving the live database')
 assert(productionDeploy.includes('npm run verify:github-production-dispatch'), 'Production deploy workflow should verify the GitHub production dispatch packet')
+assert(
+  productionDeploy.includes('npm run verify:production-dispatch-preflight -- --strict'),
+  'Production deploy workflow should verify exact production dispatch preflight before live Cloudflare steps',
+)
 assert(productionDeploy.includes('npm run seed:production-feed'), 'Production deploy workflow should seed the live feed through the shared command')
 assert(productionDeploy.includes('npm run verify:production-state'), 'Production deploy workflow should verify the production state snapshot')
 assert(productionDeploy.includes('npm run verify:d1-manifest'), 'Production deploy workflow should verify D1 migration manifest before remote migrations')
@@ -145,6 +150,10 @@ assert(productionContractVerifier.includes('verify:production-deploy-evidence-ar
 assert(productionContractVerifier.includes('verify:production-d1-resolver'), 'Production contract verifier should require production D1 resolver verification')
 assert(productionContractVerifier.includes('verify:production-feed-seed'), 'Production contract verifier should require production feed seed verification')
 assert(productionContractVerifier.includes('verify:github-production-dispatch'), 'Production contract verifier should require GitHub production dispatch verification')
+assert(
+  productionContractVerifier.includes('verify:production-dispatch-preflight'),
+  'Production contract verifier should require production dispatch preflight verification',
+)
 assert(productionContractVerifier.includes('verify:github-production-readiness'), 'Production contract verifier should require GitHub production readiness verification')
 assert(productionContractVerifier.includes('verify:production-state'), 'Production contract verifier should require production state snapshot verification')
 assert(productionContractVerifier.includes('verify:production-state-current'), 'Production contract verifier should require current production state evidence verification')
@@ -156,6 +165,10 @@ assert(contract.commands.safePreflight.includes('npm run verify:production-deplo
 assert(contract.commands.safePreflight.includes('npm run verify:production-d1-resolver'), 'Safe preflight should include production D1 resolver verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-feed-seed'), 'Safe preflight should include production feed seed verification')
 assert(contract.commands.safePreflight.includes('npm run verify:github-production-dispatch'), 'Safe preflight should include GitHub production dispatch packet verification')
+assert(
+  contract.commands.safePreflight.includes('npm run verify:production-dispatch-preflight'),
+  'Safe preflight should include production dispatch preflight verification',
+)
 assert(contract.commands.safePreflight.includes('npm run verify:github-production-readiness'), 'Safe preflight should include GitHub production readiness verification')
 assert(contract.commands.safePreflight.includes('npm run verify:github-production-credentials'), 'Safe preflight should include GitHub production credential helper verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-state-current'), 'Safe preflight should include current production state evidence verification')
@@ -172,6 +185,7 @@ assert(runbook.includes('npm run verify:production-deploy-dry-run'), 'Deployment
 assert(runbook.includes('npm run verify:production-d1-resolver'), 'Deployment runbook should document production D1 resolver verification')
 assert(runbook.includes('npm run verify:production-feed-seed'), 'Deployment runbook should document production feed seed verification')
 assert(runbook.includes('npm run verify:github-production-dispatch'), 'Deployment runbook should document GitHub production dispatch packet verification')
+assert(runbook.includes('npm run verify:production-dispatch-preflight'), 'Deployment runbook should document production dispatch preflight verification')
 assert(runbook.includes('npm run verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(
   runbook.includes('CLOUDFLARE_API_TOKEN` as a secret') &&
@@ -204,6 +218,7 @@ assert(launchPacket.includes('npm run verify:production-deploy-dry-run'), 'Produ
 assert(launchPacket.includes('npm run verify:production-d1-resolver'), 'Production launch packet should document production D1 resolver verification')
 assert(launchPacket.includes('npm run verify:production-feed-seed'), 'Production launch packet should document production feed seed verification')
 assert(launchPacket.includes('npm run verify:github-production-dispatch'), 'Production launch packet should document GitHub production dispatch packet verification')
+assert(launchPacket.includes('npm run verify:production-dispatch-preflight'), 'Production launch packet should document production dispatch preflight verification')
 assert(launchPacket.includes('npm run verify:github-production-readiness'), 'Production launch packet should document GitHub production readiness verification')
 assert(launchPacket.includes('npm run verify:production-state-current'), 'Production launch packet should document current production state evidence verification')
 assert(launchPacket.includes('npm run verify:production-state'), 'Production launch packet should document production state snapshot verification')

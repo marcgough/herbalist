@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T18:02:48.331Z",
+  "generatedAt": "2026-07-01T20:17:28.954Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -135,6 +135,19 @@
       "notes": [
         "Use npm run verify:github-production-dispatch before dispatching the production workflow.",
         "This packet does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, or create Cloudflare resources."
+      ]
+    },
+    {
+      "id": "check-production-dispatch-preflight",
+      "title": "Check exact production dispatch preflight",
+      "approvalRequired": false,
+      "command": "npm run verify:production-dispatch-preflight -- --strict",
+      "purpose": "Prove the exact current commit has matching release evidence, GitHub production readiness, dispatch packet state, provisioning next action, and DNS-transition/final dispatch boundary before the guarded production workflow is run.",
+      "writesLocalFiles": false,
+      "after": [],
+      "notes": [
+        "Run this after CI and the manual release gate have passed for the exact commit being prepared for production.",
+        "This command does not dispatch workflows, deploy, mutate DNS, create resources, set secrets, download artifacts, call paid APIs, or print secret values."
       ]
     },
     {
@@ -561,6 +574,7 @@
         "npm run verify:production-deploy-workflow",
         "npm run verify:production-deploy-evidence-artifact",
         "npm run verify:github-production-dispatch",
+        "npm run verify:production-dispatch-preflight -- --strict",
         "npm run verify:github-release-evidence",
         "npm run verify:production-state-current",
         "npm run verify:d1-manifest",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T19:40:40.388Z",
+  "generatedAt": "2026-07-01T20:17:30.675Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -23,8 +23,8 @@
     "hiddenRequiredSecretNames": [
       "FEED_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "bb42ea53df236e1754f1c04febbe34a17f535d28fc5c390e3d43f6230543deae",
-    "externalActionsFingerprint": "b57160ac9be37237bb1f39f3ebcb4485af00bd607fa974c644eb2c980f20d8c1",
+    "contractFingerprint": "dc4b174370e749426bc6f32a131d456714b68b7c3106d3a7fe42da36973decbc",
+    "externalActionsFingerprint": "c448bde6d81cbc01303d0e9860f6a4cde2aa158d33e4b3e80143701f10c4dddd",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -126,6 +126,11 @@
       "id": "github-production-dispatch-packet",
       "status": "pass",
       "detail": "Guarded GitHub production dispatch packet is available and included in safe preflight; its own verifier proves packet freshness."
+    },
+    {
+      "id": "production-dispatch-preflight",
+      "status": "pass",
+      "detail": "Exact production dispatch preflight is available before the guarded GitHub production workflow runs."
     },
     {
       "id": "current-production-state-evidence-preflight",
@@ -246,6 +251,7 @@
         "npm run verify:production-state",
         "npm run verify:cloudflare-token-requirements",
         "npm run verify:github-production-dispatch",
+        "npm run verify:production-dispatch-preflight -- --strict",
         "npm run verify:production-deploy-evidence",
         "npm run verify:production-deploy-evidence-artifact",
         "npm run verify:production-deploy-dry-run",

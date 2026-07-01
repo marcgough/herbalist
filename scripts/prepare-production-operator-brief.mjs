@@ -145,6 +145,7 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     'npm run verify:github-production-credentials',
     'npm run verify:github-generated-secrets',
     'npm run verify:github-production-dispatch',
+    'npm run verify:production-dispatch-preflight',
     'npm run verify:production-deploy-workflow',
     'npm run verify:production-deploy-evidence',
     'npm run verify:production-deploy-evidence-artifact',
@@ -220,6 +221,7 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
       'package-scripts',
       Boolean(scripts['prepare:production-operator-brief']) &&
         Boolean(scripts['verify:production-operator-brief']) &&
+        Boolean(scripts['verify:production-dispatch-preflight']) &&
         Boolean(scripts['verify:github-production-credentials']) &&
         Boolean(scripts['set:github-production-credentials']),
       'Package exposes generated operator brief commands.',

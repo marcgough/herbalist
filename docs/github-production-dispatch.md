@@ -1,6 +1,6 @@
 # Herbalisti GitHub Production Dispatch Packet
 
-Generated: 2026-07-01T19:40:39.622Z
+Generated: 2026-07-01T20:17:29.770Z
 
 Status: ready-for-approved-dispatch-dns-transition-only
 
@@ -54,6 +54,7 @@ npm run verify:dns-cutover
 npm run verify:production-provisioning
 npm run verify:github-generated-secrets
 npm run verify:github-production-dispatch
+npm run verify:production-dispatch-preflight -- --strict
 npm run verify:launch -- --soft
 ```
 
@@ -102,7 +103,7 @@ npm run verify:production-deploy-evidence-artifact -- --strict --run-id <product
 - pass: Production deploy workflow requires the primary confirmation phrase.
 - pass: Production deploy workflow requires a second acknowledgement when live verification is skipped.
 - pass: Package exposes prepare and verify commands for this dispatch packet.
-- pass: Production contract safe preflight includes GitHub production dispatch verification.
+- pass: Production contract safe preflight includes GitHub production dispatch and exact pre-dispatch verification.
 - pass: External action checklist wires the guarded dispatch packet into the production workflow action.
 - pass: Full release verifier includes the GitHub production dispatch packet.
 - pass: Production provisioning packet is available and locally consistent.

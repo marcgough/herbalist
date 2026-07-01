@@ -213,6 +213,12 @@ assert(
 )
 assert(
   externalActions['run-github-production-deploy-workflow'].verification.includes(
+    'npm run verify:production-dispatch-preflight -- --strict',
+  ),
+  'Guarded GitHub production deploy workflow should require exact production dispatch preflight verification',
+)
+assert(
+  externalActions['run-github-production-deploy-workflow'].verification.includes(
     'npm run verify:production-state-current',
   ),
   'Guarded GitHub production deploy workflow should require current production state evidence verification',
@@ -265,6 +271,11 @@ assert(
   localIds.has('generate-github-production-dispatch-packet') &&
     markdown.includes('npm run verify:github-production-dispatch'),
   'Checklist should include GitHub production dispatch packet generation and verification',
+)
+assert(
+  localIds.has('check-production-dispatch-preflight') &&
+    markdown.includes('npm run verify:production-dispatch-preflight'),
+  'Checklist should include exact production dispatch preflight verification',
 )
 assert(
   localIds.has('generate-cloudflare-token-requirements') &&

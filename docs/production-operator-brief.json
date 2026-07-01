@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T19:40:41.120Z",
+  "generatedAt": "2026-07-01T20:17:31.622Z",
   "status": "needs-cloudflare-auth-or-approved-workflow-dispatch",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.",
@@ -75,6 +75,7 @@
         "npm run verify:github-production-credentials",
         "npm run verify:github-generated-secrets",
         "npm run verify:github-production-dispatch",
+        "npm run verify:production-dispatch-preflight",
         "npm run verify:production-deploy-workflow",
         "npm run verify:production-deploy-evidence",
         "npm run verify:production-deploy-evidence-artifact",
@@ -200,7 +201,7 @@
     {
       "path": "docs/github-production-dispatch.json",
       "version": 1,
-      "generatedAt": "2026-07-01T19:40:39.622Z",
+      "generatedAt": "2026-07-01T20:17:29.770Z",
       "status": "ready-for-approved-dispatch-dns-transition-only",
       "productionComplete": false
     },
@@ -228,14 +229,14 @@
     {
       "path": "docs/production-provisioning-readiness.json",
       "version": 1,
-      "generatedAt": "2026-07-01T19:40:40.388Z",
+      "generatedAt": "2026-07-01T20:17:30.675Z",
       "status": "ready-for-approved-production-provisioning",
       "productionComplete": false
     },
     {
       "path": "docs/external-launch-actions.json",
       "version": 1,
-      "generatedAt": "2026-07-01T18:02:48.331Z",
+      "generatedAt": "2026-07-01T20:17:28.954Z",
       "status": "needs-approval-and-production-setup",
       "productionComplete": false
     }

@@ -160,6 +160,17 @@ const localAllowedActions = [
     ],
   }),
   localAction({
+    id: 'check-production-dispatch-preflight',
+    title: 'Check exact production dispatch preflight',
+    command: 'npm run verify:production-dispatch-preflight -- --strict',
+    purpose:
+      'Prove the exact current commit has matching release evidence, GitHub production readiness, dispatch packet state, provisioning next action, and DNS-transition/final dispatch boundary before the guarded production workflow is run.',
+    notes: [
+      'Run this after CI and the manual release gate have passed for the exact commit being prepared for production.',
+      'This command does not dispatch workflows, deploy, mutate DNS, create resources, set secrets, download artifacts, call paid APIs, or print secret values.',
+    ],
+  }),
+  localAction({
     id: 'check-current-production-state-evidence',
     title: 'Check current production state evidence',
     command: 'npm run verify:production-state-current',
@@ -430,6 +441,7 @@ const approvalRequiredActions = [
       'npm run verify:production-deploy-workflow',
       'npm run verify:production-deploy-evidence-artifact',
       'npm run verify:github-production-dispatch',
+      'npm run verify:production-dispatch-preflight -- --strict',
       'npm run verify:github-release-evidence',
       'npm run verify:production-state-current',
       'npm run verify:d1-manifest',

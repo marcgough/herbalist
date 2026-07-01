@@ -188,6 +188,10 @@ assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production contrac
 assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production contract requires the production D1 resolver verifier')
 assert(exists('scripts/verify-production-deploy-dry-run.mjs'), 'Production contract requires the production deploy dry-run verifier')
 assert(exists('scripts/verify-production-deploy-workflow.mjs'), 'Production contract requires the production deploy workflow verifier')
+assert(
+  exists('scripts/verify-production-dispatch-preflight.mjs'),
+  'Production contract requires the production dispatch preflight verifier',
+)
 assert(exists('scripts/prepare-production-deploy-evidence.mjs'), 'Production contract requires the production deploy evidence packet generator')
 assert(exists('scripts/verify-production-deploy-evidence-artifact.mjs'), 'Production contract requires the production deploy evidence artifact readback verifier')
 assert(exists('scripts/prepare-github-production-dispatch.mjs'), 'Production contract requires the GitHub production dispatch packet generator')
@@ -346,6 +350,10 @@ assert(
 assert(
   contract.commands.safePreflight.includes('npm run verify:github-production-dispatch'),
   'Safe preflight should include GitHub production dispatch packet verification',
+)
+assert(
+  contract.commands.safePreflight.includes('npm run verify:production-dispatch-preflight'),
+  'Safe preflight should include production dispatch preflight verification',
 )
 assert(
   contract.commands.safePreflight.includes('npm run verify:github-production-readiness'),
@@ -526,6 +534,10 @@ assert(
   'Launch packet generator should include GitHub production dispatch packet verification',
 )
 assert(
+  launchPacketScript.includes('npm run verify:production-dispatch-preflight'),
+  'Launch packet generator should include production dispatch preflight verification',
+)
+assert(
   launchPacketScript.includes('npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed'),
   'Launch packet generator should include production feed seed command',
 )
@@ -622,6 +634,7 @@ assert(runbook.includes('verify:production-deploy-dry-run'), 'Deployment runbook
 assert(runbook.includes('verify:production-d1-resolver'), 'Deployment runbook should document production D1 resolver verification')
 assert(runbook.includes('verify:production-feed-seed'), 'Deployment runbook should document production feed seed verification')
 assert(runbook.includes('verify:github-production-dispatch'), 'Deployment runbook should document GitHub production dispatch packet verification')
+assert(runbook.includes('verify:production-dispatch-preflight'), 'Deployment runbook should document production dispatch preflight verification')
 assert(runbook.includes('verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
 assert(runbook.includes('verify:production-state-current'), 'Deployment runbook should document current-commit production state evidence verification')
@@ -713,6 +726,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:github-production-dispatch'),
   'Production launch packet doc should include GitHub production dispatch packet verification',
+)
+assert(
+  launchPacketDoc.includes('verify:production-dispatch-preflight'),
+  'Production launch packet doc should include production dispatch preflight verification',
 )
 assert(
   launchPacketDoc.includes('seed:production-feed'),
@@ -807,6 +824,12 @@ assert(
     ?.find((action) => action.id === 'run-github-production-deploy-workflow')
     ?.verification?.includes('npm run verify:github-production-dispatch'),
   'External action checklist should require GitHub production dispatch packet verification before the guarded workflow',
+)
+assert(
+  externalActionsJson.approvalRequiredActions
+    ?.find((action) => action.id === 'run-github-production-deploy-workflow')
+    ?.verification?.includes('npm run verify:production-dispatch-preflight -- --strict'),
+  'External action checklist should require exact production dispatch preflight before the guarded workflow',
 )
 assert(
   externalActionsJson.approvalRequiredActions

@@ -115,6 +115,7 @@ npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
 npm run verify:production-feed-seed
 npm run verify:github-production-dispatch
+npm run verify:production-dispatch-preflight -- --strict
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
 npm run verify:production-state-current

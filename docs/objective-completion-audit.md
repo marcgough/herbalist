@@ -1,6 +1,6 @@
 # Herbalisti Objective Completion Audit
 
-Generated: 2026-07-01T19:46:33.190Z
+Generated: 2026-07-01T20:21:32.487Z
 
 ## Objective
 
@@ -11,7 +11,7 @@ Build Herbalisti as a fully functioning website for herbalisti.com with original
 - Status: `local-ready-production-pending`
 - Goal complete: `false`
 - Local implementation ready: `true`
-- Audit signature: `24401c1a49bde8753b86e21c9036edf1d3e75384c31c36dfc64d2e88d6436e08`
+- Audit signature: `0340a45110b4482ef26ff1b78410169f14b6d1c850163c8899b9aad4c6c95966`
 
 ## Completion Rule
 
@@ -44,7 +44,7 @@ Completion is only proven when every requirement is either locally proven or liv
 
 - Launch preflight status: `needs-production-setup`
 - Production ready: `false`
-- Checked files/scripts/passes: `148/117/225`
+- Checked files/scripts/passes: `148/118/225`
 
 ### Current Blockers
 

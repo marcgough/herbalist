@@ -83,6 +83,8 @@ assert(packageJson.scripts?.['verify:production-deploy-dry-run'], 'package.json 
 assert(exists('scripts/prepare-production-deploy-evidence.mjs'), 'Production deploy workflow requires the deploy evidence packet generator')
 assert(packageJson.scripts?.['prepare:production-deploy-evidence'], 'package.json should expose prepare:production-deploy-evidence')
 assert(packageJson.scripts?.['verify:production-deploy-evidence'], 'package.json should expose verify:production-deploy-evidence')
+assert(exists('scripts/verify-production-dispatch-preflight.mjs'), 'Production deploy workflow requires the dispatch preflight verifier')
+assert(packageJson.scripts?.['verify:production-dispatch-preflight'], 'package.json should expose verify:production-dispatch-preflight')
 assert(
   deployEvidenceScript.includes('finalCompletionGates') &&
     deployEvidenceScript.includes('postDeployEvidenceCommands') &&
@@ -104,6 +106,7 @@ for (const command of [
   'npm run verify:production-deploy-dry-run',
   'npm run verify:production-d1-resolver',
   'npm run verify:github-production-dispatch',
+  'npm run verify:production-dispatch-preflight -- --strict',
   'npm run verify:launch -- --soft',
   'npm run verify:production-contract',
   'npm run verify:cloudflare-token-requirements',
@@ -179,6 +182,10 @@ assert(!secretValuePattern.test(workflow), 'Production deploy workflow must not 
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-workflow'), 'Safe preflight should include production deploy workflow verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'), 'Safe preflight should include production deploy dry-run verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-d1-resolver'), 'Safe preflight should include production D1 resolver verification')
+assert(
+  contract.commands.safePreflight.includes('npm run verify:production-dispatch-preflight'),
+  'Safe preflight should include production dispatch preflight verification',
+)
 assert(contract.commands.safePreflight.includes('npm run verify:production-state'), 'Safe preflight should include production state snapshot verification')
 assert(contract.commands.safePreflight.includes('npm run verify:cloudflare-token-requirements'), 'Safe preflight should include Cloudflare token requirement verification')
 assert(

@@ -83,6 +83,7 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
     'npm run verify:production-provisioning',
     'npm run verify:github-generated-secrets',
     'npm run verify:github-production-dispatch',
+    'npm run verify:production-dispatch-preflight -- --strict',
     'npm run verify:launch -- --soft',
   ]
 
@@ -129,18 +130,21 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
     buildCheck(
       'package-scripts',
       Boolean(packageScripts['prepare:github-production-dispatch']) &&
-        Boolean(packageScripts['verify:github-production-dispatch']),
+        Boolean(packageScripts['verify:github-production-dispatch']) &&
+        Boolean(packageScripts['verify:production-dispatch-preflight']),
       'Package exposes prepare and verify commands for this dispatch packet.',
     ),
     buildCheck(
       'contract-preflight',
-      contract.commands.safePreflight.includes('npm run verify:github-production-dispatch'),
-      'Production contract safe preflight includes GitHub production dispatch verification.',
+      contract.commands.safePreflight.includes('npm run verify:github-production-dispatch') &&
+        contract.commands.safePreflight.includes('npm run verify:production-dispatch-preflight'),
+      'Production contract safe preflight includes GitHub production dispatch and exact pre-dispatch verification.',
     ),
     buildCheck(
       'external-action-wiring',
       Boolean(dispatchAction) &&
         dispatchAction.verification?.includes('npm run verify:github-production-dispatch') &&
+        dispatchAction.verification?.includes('npm run verify:production-dispatch-preflight -- --strict') &&
         dispatchAction.notes?.some((note) => note.includes('skip_live_verification_confirm=skip-herbalisti-live-verification')),
       'External action checklist wires the guarded dispatch packet into the production workflow action.',
     ),

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T19:40:39.622Z",
+  "generatedAt": "2026-07-01T20:17:29.770Z",
   "status": "ready-for-approved-dispatch-dns-transition-only",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, workflow files, and generated readiness packets only. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.",
@@ -49,6 +49,7 @@
     "npm run verify:production-provisioning",
     "npm run verify:github-generated-secrets",
     "npm run verify:github-production-dispatch",
+    "npm run verify:production-dispatch-preflight -- --strict",
     "npm run verify:launch -- --soft"
   ],
   "postDispatchEvidenceCommands": [
@@ -111,7 +112,7 @@
     {
       "id": "contract-preflight",
       "status": "pass",
-      "detail": "Production contract safe preflight includes GitHub production dispatch verification."
+      "detail": "Production contract safe preflight includes GitHub production dispatch and exact pre-dispatch verification."
     },
     {
       "id": "external-action-wiring",

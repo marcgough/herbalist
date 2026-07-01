@@ -28,6 +28,8 @@ npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
 npm run verify:production-feed-seed
 npm run verify:github-production-readiness
+npm run verify:github-production-dispatch
+npm run verify:production-dispatch-preflight -- --strict
 npm run verify:github-release-evidence
 npm run verify:production-state-current
 npm run verify:cloudflare-production-state
@@ -153,11 +155,14 @@ For the current consolidated production state, run:
 npm run prepare:production-state
 npm run verify:production-state
 npm run verify:production-state-current
+npm run verify:production-dispatch-preflight -- --strict
 ```
 
 `prepare:production-state` writes `docs/production-state-snapshot.json` and `docs/production-state-snapshot.md`. It consolidates the completion audit, GitHub production readiness, GitHub release evidence, read-only Cloudflare state, public DNS cutover status, and live-domain readiness into one snapshot. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.
 
 `verify:production-state-current` regenerates the production state in memory, checks that the public GitHub CI run, manual release-gate run, and visual-smoke artifact metadata match the current git commit, and performs read-only public live-domain readiness and production-smoke probes. Use it after CI and the manual release gate have passed for the exact commit being prepared for production.
+
+`verify:production-dispatch-preflight -- --strict` is the final read-only gate before the guarded production workflow is run. It proves the exact current commit has matching release evidence, GitHub production readiness, dispatch packet state, provisioning next action, and the correct DNS-transition or final dispatch boundary. It does not dispatch workflows, deploy, mutate DNS, create resources, set secrets, download artifacts, call paid APIs, or print credential values.
 
 For the current production cutover packet, run:
 
@@ -229,6 +234,14 @@ npm run verify:github-production-dispatch
 ```
 
 It checks `docs/github-production-dispatch.json` and `docs/github-production-dispatch.md` for the exact guarded workflow inputs, strict preflight commands, required GitHub production credential names, and the DNS-transition skip acknowledgement boundary. It does not dispatch GitHub Actions, set secrets or variables, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.
+
+Production dispatch preflight verification is read-only and should be run after CI and the manual release gate are complete for the exact launch commit:
+
+```bash
+npm run verify:production-dispatch-preflight -- --strict
+```
+
+It checks current commit release evidence, GitHub production readiness, production state, the dispatch packet, provisioning next action, the operator brief, the production deploy workflow contract, and the DNS-transition/final dispatch boundary before any production workflow is run.
 
 Guarded production deploy dry-run verification is local and mocked:
 

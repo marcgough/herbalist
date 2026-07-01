@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-07-01T18:02:48.331Z
+Generated: 2026-07-01T20:17:28.954Z
 
 Status: needs-approval-and-production-setup
 
@@ -111,6 +111,18 @@ npm run prepare:github-production-dispatch
 Notes:
 - Use npm run verify:github-production-dispatch before dispatching the production workflow.
 - This packet does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, or create Cloudflare resources.
+
+### Check exact production dispatch preflight
+
+Prove the exact current commit has matching release evidence, GitHub production readiness, dispatch packet state, provisioning next action, and DNS-transition/final dispatch boundary before the guarded production workflow is run.
+
+```bash
+npm run verify:production-dispatch-preflight -- --strict
+```
+
+Notes:
+- Run this after CI and the manual release gate have passed for the exact commit being prepared for production.
+- This command does not dispatch workflows, deploy, mutate DNS, create resources, set secrets, download artifacts, call paid APIs, or print secret values.
 
 ### Check current production state evidence
 
@@ -513,6 +525,7 @@ Verification:
 - npm run verify:production-deploy-workflow
 - npm run verify:production-deploy-evidence-artifact
 - npm run verify:github-production-dispatch
+- npm run verify:production-dispatch-preflight -- --strict
 - npm run verify:github-release-evidence
 - npm run verify:production-state-current
 - npm run verify:d1-manifest
