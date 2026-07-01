@@ -1,6 +1,6 @@
 # Herbalisti Production State Snapshot
 
-Generated: 2026-07-01T05:38:27.093Z
+Generated: 2026-07-01T09:07:41.432Z
 
 Status: local-ready-production-pending
 
@@ -16,7 +16,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Stored Snapshot Summary
 
 - Git branch: main
-- Observed git commit at generation time: c418c45e68a2f38bd616e20024418ed44b29941f
+- Observed git commit at generation time: ceccce7a93e3c238f7399d865d6390d31393eb6a
 - Git note: Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.
 - Completion audit status: local-ready-production-pending
 - Goal complete: false
@@ -35,7 +35,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Checks
 
 - pass: Completion audit status is local-ready-production-pending.
-- pass: Release evidence is pass for c418c45e68a2f38bd616e20024418ed44b29941f.
+- pass: Release evidence is pass for ceccce7a93e3c238f7399d865d6390d31393eb6a.
 - pass: GitHub production readiness status is needs-github-production-setup.
 - pass: Cloudflare production state is needs-cloudflare-auth.
 - pass: DNS cutover status is needs-dns-cutover.
@@ -58,9 +58,9 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Probe Details
 
 - Release evidence: pass
-- CI run ID: 28495352929
-- Manual release run ID: 28495393895
-- Visual smoke artifact ID: 8000877043
+- CI run ID: 28505020198
+- Manual release run ID: 28505061359
+- Visual smoke artifact ID: 8004842837
 - GitHub environment protection rules: 2
 - Cloudflare visible D1 names: none
 - Cloudflare visible Pages projects: none
@@ -69,6 +69,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - Live HTTPS status: unknown
 - Live health status: unknown
 - Live health D1 bound: unknown
+- Live public surface checks: news=false, signalsRss=false, search=false, herbalChat=false, referenceBooks=false
 
 ## Next Actions
 
@@ -85,6 +86,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - Confirm FEED_ADMIN_TOKEN is set as a Cloudflare Pages secret for the protected feed-refresh endpoint.
 - Leave KIE_API_KEY and MEDIA_ADMIN_TOKEN disabled until approved Seedance generation is needed.
 - Run the protected POST /api/feed-refresh path or wait for the scheduled Worker until /api/health reports a fresh completed feed refresh.
+- Confirm /api/news, /api/signals.xml, /api/search, /api/herbal-chat, and /data/reference-books.json are live on the canonical domain.
 - Deploy Cloudflare Pages and the scheduled news Worker.
 - Run npm run verify:live-readiness again.
 - Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.

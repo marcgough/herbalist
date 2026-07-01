@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T05:38:27.093Z",
+  "generatedAt": "2026-07-01T09:07:41.432Z",
   "status": "local-ready-production-pending",
   "productionComplete": false,
   "safeToRun": "Reads local launch artifacts, public DNS, public live-domain responses, GitHub readiness metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.",
@@ -13,7 +13,7 @@
   },
   "git": {
     "branch": "main",
-    "commit": "c418c45e68a2f38bd616e20024418ed44b29941f",
+    "commit": "ceccce7a93e3c238f7399d865d6390d31393eb6a",
     "note": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence."
   },
   "summary": {
@@ -44,7 +44,7 @@
     {
       "id": "github-release-evidence-captured",
       "status": "pass",
-      "detail": "Release evidence is pass for c418c45e68a2f38bd616e20024418ed44b29941f."
+      "detail": "Release evidence is pass for ceccce7a93e3c238f7399d865d6390d31393eb6a."
     },
     {
       "id": "github-production-readiness-captured",
@@ -98,6 +98,7 @@
     "Confirm FEED_ADMIN_TOKEN is set as a Cloudflare Pages secret for the protected feed-refresh endpoint.",
     "Leave KIE_API_KEY and MEDIA_ADMIN_TOKEN disabled until approved Seedance generation is needed.",
     "Run the protected POST /api/feed-refresh path or wait for the scheduled Worker until /api/health reports a fresh completed feed refresh.",
+    "Confirm /api/news, /api/signals.xml, /api/search, /api/herbal-chat, and /data/reference-books.json are live on the canonical domain.",
     "Deploy Cloudflare Pages and the scheduled news Worker.",
     "Run npm run verify:live-readiness again.",
     "Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.",
@@ -114,10 +115,10 @@
         "status": "pass",
         "error": null
       },
-      "commit": "c418c45e68a2f38bd616e20024418ed44b29941f",
-      "ciRunId": 28495352929,
-      "manualReleaseRunId": 28495393895,
-      "artifactId": 8000877043
+      "commit": "ceccce7a93e3c238f7399d865d6390d31393eb6a",
+      "ciRunId": 28505020198,
+      "manualReleaseRunId": 28505061359,
+      "artifactId": 8004842837
     },
     "githubProductionReadiness": {
       "summary": {
@@ -211,6 +212,40 @@
           "ageHours": null,
           "maxAgeHours": 8,
           "fresh": false
+        },
+        "requiredPublicSurfaces": {
+          "news": false,
+          "signalsRss": false,
+          "search": false,
+          "herbalChat": false,
+          "referenceBooks": false
+        },
+        "publicSurfaces": {
+          "news": {
+            "ok": false,
+            "label": "News API",
+            "error": "This operation was aborted"
+          },
+          "signalsRss": {
+            "ok": false,
+            "label": "Signals RSS",
+            "error": "This operation was aborted"
+          },
+          "search": {
+            "ok": false,
+            "label": "Unified search API",
+            "error": "This operation was aborted"
+          },
+          "herbalChat": {
+            "ok": false,
+            "label": "Herbal chat API",
+            "error": "This operation was aborted"
+          },
+          "referenceBooks": {
+            "ok": false,
+            "label": "Reference books export",
+            "error": "This operation was aborted"
+          }
         }
       }
     }

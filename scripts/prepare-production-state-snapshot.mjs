@@ -276,6 +276,8 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
           healthD1Bound: live?.http?.health?.d1Bound ?? null,
           protectedFeatures: live?.http?.health?.protectedFeatures ?? null,
           feedRefreshFreshness: live?.http?.feedRefreshFreshness ?? null,
+          requiredPublicSurfaces: live?.http?.requiredPublicSurfaces ?? null,
+          publicSurfaces: live?.http?.publicSurfaces ?? null,
         },
       },
     },
@@ -348,6 +350,15 @@ export const renderProductionStateMarkdown = (packet) => {
   lines.push(`- Live HTTPS status: ${packet.probes.liveReadiness.http.httpsStatus ?? 'unknown'}`)
   lines.push(`- Live health status: ${packet.probes.liveReadiness.http.healthStatus ?? 'unknown'}`)
   lines.push(`- Live health D1 bound: ${packet.probes.liveReadiness.http.healthD1Bound ?? 'unknown'}`)
+  lines.push(
+    `- Live public surface checks: ${
+      packet.probes.liveReadiness.http.requiredPublicSurfaces
+        ? Object.entries(packet.probes.liveReadiness.http.requiredPublicSurfaces)
+            .map(([key, value]) => `${key}=${value}`)
+            .join(', ')
+        : 'unknown'
+    }`,
+  )
 
   lines.push('', '## Next Actions', '')
   for (const action of packet.nextActions) {

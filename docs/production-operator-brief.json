@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T07:22:42.531Z",
+  "generatedAt": "2026-07-01T09:10:42.277Z",
   "status": "needs-github-production-secret-entry",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.",
@@ -171,7 +171,7 @@
     {
       "path": "docs/production-state-snapshot.json",
       "version": 1,
-      "generatedAt": "2026-07-01T05:38:27.093Z",
+      "generatedAt": "2026-07-01T09:07:41.432Z",
       "status": "local-ready-production-pending",
       "productionComplete": false
     },

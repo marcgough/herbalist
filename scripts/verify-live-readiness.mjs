@@ -101,6 +101,67 @@ const readJsonProbe = async (label, url) =>
     }
   }, label)
 
+const readJsonSurfaceProbe = async (label, url, probe) =>
+  withTimeout(async (signal) => {
+    const response = await fetch(url, {
+      headers: {
+        accept: 'application/json',
+        'user-agent': 'Herbalisti live readiness verifier',
+      },
+      signal,
+    })
+    const contentType = response.headers.get('content-type') ?? ''
+    let body = null
+    let parseError = ''
+
+    if (contentType.includes('json')) {
+      try {
+        body = await response.json()
+      } catch (error) {
+        parseError = error.message
+      }
+    }
+
+    const probeResult = body ? probe(body) : { ok: false }
+
+    return {
+      ok: response.ok && contentType.includes('json') && Boolean(probeResult.ok),
+      label,
+      url,
+      status: response.status,
+      contentType,
+      cacheControl: response.headers.get('cache-control'),
+      cfRay: response.headers.get('cf-ray'),
+      parseError: parseError || null,
+      ...probeResult,
+    }
+  }, label)
+
+const readTextSurfaceProbe = async (label, url, probe, { accept = '*/*' } = {}) =>
+  withTimeout(async (signal) => {
+    const response = await fetch(url, {
+      headers: {
+        accept,
+        'user-agent': 'Herbalisti live readiness verifier',
+      },
+      signal,
+    })
+    const contentType = response.headers.get('content-type') ?? ''
+    const text = await response.text()
+    const probeResult = probe(text, response)
+
+    return {
+      ok: response.ok && Boolean(probeResult.ok),
+      label,
+      url,
+      status: response.status,
+      contentType,
+      cacheControl: response.headers.get('cache-control'),
+      cfRay: response.headers.get('cf-ray'),
+      ...probeResult,
+    }
+  }, label)
+
 const [aRecords, aaaaRecords, cnameRecords, nsRecords] = await Promise.all([
   resolveRecord('A', resolve4),
   resolveRecord('AAAA', resolve6),
@@ -108,10 +169,71 @@ const [aRecords, aaaaRecords, cnameRecords, nsRecords] = await Promise.all([
   resolveRecord('NS', resolveNs),
 ])
 
-const httpsHomepage = await fetchProbe('HTTPS homepage', `https://${domain}/`)
-const httpRedirect = await fetchProbe('HTTP canonical redirect', `http://${domain}/`)
-const wwwRedirect = await fetchProbe('WWW canonical redirect', `https://www.${domain}/`)
-const health = await readJsonProbe('Health API', `https://${domain}/api/health`)
+const [httpsHomepage, httpRedirect, wwwRedirect, health, news, signalsRss, search, herbalChat, referenceBooks] =
+  await Promise.all([
+    fetchProbe('HTTPS homepage', `https://${domain}/`),
+    fetchProbe('HTTP canonical redirect', `http://${domain}/`),
+    fetchProbe('WWW canonical redirect', `https://www.${domain}/`),
+    readJsonProbe('Health API', `https://${domain}/api/health`),
+    readJsonSurfaceProbe('News API', `https://${domain}/api/news?source=Crossref`, (body) => ({
+      itemCount: Array.isArray(body.items) ? body.items.length : 0,
+      total: Number(body.total ?? 0),
+      sourcePolicyPresent: String(body.sourcePolicy ?? '').includes('Herbalisti allowlist'),
+      sourceFiltered: Array.isArray(body.items) && body.items.every((item) => item.sourceName === 'Crossref'),
+      ok:
+        Array.isArray(body.items) &&
+        body.items.length > 0 &&
+        body.items.every((item) => item.sourceName === 'Crossref') &&
+        String(body.sourcePolicy ?? '').includes('Herbalisti allowlist'),
+    })),
+    readTextSurfaceProbe(
+      'Signals RSS',
+      `https://${domain}/api/signals.xml?source=Crossref`,
+      (text) => ({
+        itemCount: [...text.matchAll(/<item>/g)].length,
+        sourcePolicyPresent: text.includes('Herbalisti allowlist'),
+        medicalBoundaryPresent: text.includes('not medical advice'),
+        crossrefCategoryPresent: text.includes('<category>Crossref</category>'),
+        ok:
+          text.includes('<title>Herbalisti Signals</title>') &&
+          text.includes('Herbalisti allowlist') &&
+          text.includes('not medical advice') &&
+          text.includes('<category>Crossref</category>') &&
+          [...text.matchAll(/<item>/g)].length > 0,
+      }),
+      { accept: 'application/rss+xml' },
+    ),
+    readJsonSurfaceProbe('Unified search API', `https://${domain}/api/search?query=ginger`, (body) => ({
+      total: Number(body.total ?? 0),
+      groupCount: Array.isArray(body.groups) ? body.groups.length : 0,
+      hasGingerResult:
+        Array.isArray(body.groups) &&
+        body.groups.some(
+          (group) => Array.isArray(group.items) && group.items.some((item) => /ginger/i.test(item.title ?? '')),
+        ),
+      ok:
+        Number(body.total ?? 0) > 0 &&
+        Array.isArray(body.groups) &&
+        body.groups.some(
+          (group) => Array.isArray(group.items) && group.items.some((item) => /ginger/i.test(item.title ?? '')),
+        ),
+    })),
+    readJsonSurfaceProbe('Herbal chat API', `https://${domain}/api/herbal-chat?query=ginger`, (body) => ({
+      model: body.model ?? null,
+      citationCount: Array.isArray(body.citations) ? body.citations.length : 0,
+      policyPresent: String(body.policy ?? '').includes('not medical advice'),
+      ok:
+        /ginger/i.test(String(body.answer ?? '')) &&
+        Array.isArray(body.citations) &&
+        body.citations.length > 0 &&
+        String(body.policy ?? '').includes('not medical advice'),
+    })),
+    readJsonSurfaceProbe('Reference books export', `https://${domain}/data/reference-books.json`, (body) => ({
+      total: Number(body.total ?? 0),
+      policyPresent: String(body.policy ?? '').includes('no copied book text'),
+      ok: Number(body.total ?? 0) >= 1000 && String(body.policy ?? '').includes('no copied book text'),
+    })),
+  ])
 const feedRefreshFreshness = (() => {
   const latest = health.latestFeedRefresh
   const finishedAt = latest?.finishedAt ? Date.parse(latest.finishedAt) : NaN
@@ -139,6 +261,13 @@ const requiredFeedState = {
   latestRefreshHasItems: feedRefreshFreshness.hasItems,
   latestRefreshFresh: feedRefreshFreshness.fresh,
 }
+const requiredPublicSurfaces = {
+  news: news.ok === true,
+  signalsRss: signalsRss.ok === true,
+  search: search.ok === true,
+  herbalChat: herbalChat.ok === true,
+  referenceBooks: referenceBooks.ok === true,
+}
 
 const redirectTargets = {
   httpToHttps: httpRedirect.status >= 300 && httpRedirect.status < 400 && httpRedirect.location?.startsWith(`https://${domain}`),
@@ -154,7 +283,8 @@ const ready =
   requiredProtectedFeatures.feedRefresh &&
   requiredFeedState.latestRefreshCompleted &&
   requiredFeedState.latestRefreshHasItems &&
-  requiredFeedState.latestRefreshFresh
+  requiredFeedState.latestRefreshFresh &&
+  Object.values(requiredPublicSurfaces).every(Boolean)
 
 const result = {
   status: ready ? 'ready-for-production-verification' : 'not-ready',
@@ -175,12 +305,20 @@ const result = {
     wwwRedirect,
     redirectTargets,
     health,
-      requiredProductionBindings,
-      requiredProtectedFeatures,
-      optionalProtectedFeatures,
-      requiredFeedState,
-      feedRefreshFreshness,
+    requiredProductionBindings,
+    requiredProtectedFeatures,
+    optionalProtectedFeatures,
+    requiredFeedState,
+    requiredPublicSurfaces,
+    feedRefreshFreshness,
+    publicSurfaces: {
+      news,
+      signalsRss,
+      search,
+      herbalChat,
+      referenceBooks,
     },
+  },
   nextActions: ready
     ? [
         'Run npm run verify:production -- https://herbalisti.com.',
@@ -193,6 +331,7 @@ const result = {
         'Confirm FEED_ADMIN_TOKEN is set as a Cloudflare Pages secret for the protected feed-refresh endpoint.',
         'Leave KIE_API_KEY and MEDIA_ADMIN_TOKEN disabled until approved Seedance generation is needed.',
         'Run the protected POST /api/feed-refresh path or wait for the scheduled Worker until /api/health reports a fresh completed feed refresh.',
+        'Confirm /api/news, /api/signals.xml, /api/search, /api/herbal-chat, and /data/reference-books.json are live on the canonical domain.',
         'Deploy Cloudflare Pages and the scheduled news Worker.',
         'Run npm run verify:live-readiness again.',
       ],
