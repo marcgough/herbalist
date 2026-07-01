@@ -95,7 +95,7 @@ That is correct while:
 - `wrangler.news.toml` has no active production D1 binding
 - Cloudflare secrets are not locally visible or confirmed
 - `herbalisti.com` has not been verified live
-- live `/api/health` cannot yet prove an active production D1 binding and configured protected Seedance endpoints
+- live `/api/health` cannot yet prove an active production D1 binding, configured protected feed refresh, and a fresh completed feed refresh
 
 After the D1 database is created, both Wrangler files must be configured from the same returned `database_id`. The launch preflight and production contract verifier check that the Pages Functions and scheduled news Worker share one `HERBALISTI_DB` target.
 
@@ -154,4 +154,4 @@ npm run verify:release
 
 If the guarded GitHub production deployment is dispatched with `skip_live_verification=true` during DNS transition, also set `skip_live_verification_confirm=skip-herbalisti-live-verification`. That acknowledgement does not count as completion evidence; final completion still requires strict live verification against `https://herbalisti.com`.
 
-The project should not be treated as complete until `npm run verify:live-readiness -- --strict`, `npm run verify:production -- https://herbalisti.com`, and `npm run verify:goal-readiness -- --strict` pass after deployment. Strict live readiness now requires the production domain, canonical redirects, `/api/health`, an active production D1 binding, configured protected feed/media endpoints, and a fresh completed feed refresh with items.
+The project should not be treated as complete until `npm run verify:live-readiness -- --strict`, `npm run verify:production -- https://herbalisti.com`, and `npm run verify:goal-readiness -- --strict` pass after deployment. Strict live readiness now requires the production domain, canonical redirects, `/api/health`, an active production D1 binding, configured protected feed refresh, and a fresh completed feed refresh with items. Seedance media endpoints are optional until approved generation is enabled.

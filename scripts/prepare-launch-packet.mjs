@@ -204,11 +204,9 @@ const phases = [
   phase({
     id: 'secrets',
     title: 'Set production secrets',
-    status:
-      visibleSecrets.FEED_ADMIN_TOKEN && visibleSecrets.KIE_API_KEY && visibleSecrets.MEDIA_ADMIN_TOKEN
-        ? 'locally-visible'
-        : 'pending-external',
-    purpose: 'Protect manual feed refreshes and Seedance media endpoints without committing or printing secret values.',
+    status: visibleSecrets.FEED_ADMIN_TOKEN ? 'required-visible' : 'pending-required-feed-secret',
+    purpose:
+      'Protect required feed-refresh controls while keeping optional Seedance media secrets separate from the launch blocker path.',
     commands: [
       command('npm run verify:github-generated-secrets'),
       command(
@@ -223,10 +221,12 @@ const phases = [
     ],
     blockers: [
       ...(!visibleSecrets.FEED_ADMIN_TOKEN ? ['FEED_ADMIN_TOKEN is not visible locally or confirmed in Cloudflare.'] : []),
-      ...(!visibleSecrets.KIE_API_KEY ? ['KIE_API_KEY is not visible locally or confirmed in Cloudflare.'] : []),
-      ...(!visibleSecrets.MEDIA_ADMIN_TOKEN ? ['MEDIA_ADMIN_TOKEN is not visible locally or confirmed in Cloudflare.'] : []),
     ],
-    notes: ['OPENAI_API_KEY is optional unless repeatable server-side image generation is added.'],
+    notes: [
+      'The guarded GitHub production workflow can generate FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values.',
+      'KIE_API_KEY and MEDIA_ADMIN_TOKEN are optional until approved Seedance media generation is enabled.',
+      'OPENAI_API_KEY is optional unless repeatable server-side image generation is added.',
+    ],
   }),
   phase({
     id: 'deploy',

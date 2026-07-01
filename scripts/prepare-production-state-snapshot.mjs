@@ -204,7 +204,8 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
     git: {
       branch,
       commit,
-      note: 'Commit is the repository HEAD observed when the snapshot was generated; the snapshot artifact itself may be committed afterward.',
+      note:
+        'Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.',
     },
     summary: {
       completionAuditStatus: completionAudit?.status ?? 'missing',
@@ -298,10 +299,10 @@ export const renderProductionStateMarkdown = (packet) => {
     `- D1 database: ${packet.project.d1Database}`,
     `- News Worker: ${packet.project.newsWorker}`,
     '',
-    '## Current Summary',
+    '## Stored Snapshot Summary',
     '',
     `- Git branch: ${packet.git.branch ?? 'unknown'}`,
-    `- Git commit: ${packet.git.commit ?? 'unknown'}`,
+    `- Observed git commit at generation time: ${packet.git.commit ?? 'unknown'}`,
     `- Git note: ${packet.git.note}`,
     `- Completion audit status: ${packet.summary.completionAuditStatus}`,
     `- Goal complete: ${packet.summary.goalComplete}`,
@@ -373,7 +374,7 @@ const validateStoredSnapshot = () => {
   assert(packet.probes?.cloudflareProductionState, 'Snapshot should include Cloudflare production state probe data')
   assert(packet.probes?.dnsCutover, 'Snapshot should include DNS cutover probe data')
   assert(packet.probes?.liveReadiness, 'Snapshot should include live readiness probe data')
-  assert(storedMarkdown.includes('## Current Summary'), `${outputMarkdownPath} should include a current summary`)
+  assert(storedMarkdown.includes('## Stored Snapshot Summary'), `${outputMarkdownPath} should include a stored snapshot summary`)
   assert(storedMarkdown.includes('## Blockers'), `${outputMarkdownPath} should include blockers`)
   assert.equal(secretValuePattern.test(`${storedJson}\n${storedMarkdown}`), false, 'Snapshot must not contain secret-looking values')
 

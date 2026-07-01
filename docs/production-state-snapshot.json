@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T05:16:18.112Z",
+  "generatedAt": "2026-07-01T05:38:27.093Z",
   "status": "local-ready-production-pending",
   "productionComplete": false,
   "safeToRun": "Reads local launch artifacts, public DNS, public live-domain responses, GitHub readiness metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.",
@@ -13,8 +13,8 @@
   },
   "git": {
     "branch": "main",
-    "commit": "753627c4be620caf28d000710f3eccca22b9c562",
-    "note": "Commit is the repository HEAD observed when the snapshot was generated; the snapshot artifact itself may be committed afterward."
+    "commit": "c418c45e68a2f38bd616e20024418ed44b29941f",
+    "note": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence."
   },
   "summary": {
     "completionAuditStatus": "local-ready-production-pending",
@@ -44,7 +44,7 @@
     {
       "id": "github-release-evidence-captured",
       "status": "pass",
-      "detail": "Release evidence is pass for 753627c4be620caf28d000710f3eccca22b9c562."
+      "detail": "Release evidence is pass for c418c45e68a2f38bd616e20024418ed44b29941f."
     },
     {
       "id": "github-production-readiness-captured",
@@ -114,10 +114,10 @@
         "status": "pass",
         "error": null
       },
-      "commit": "753627c4be620caf28d000710f3eccca22b9c562",
-      "ciRunId": 28494818359,
-      "manualReleaseRunId": 28494831759,
-      "artifactId": 8000676831
+      "commit": "c418c45e68a2f38bd616e20024418ed44b29941f",
+      "ciRunId": 28495352929,
+      "manualReleaseRunId": 28495393895,
+      "artifactId": 8000877043
     },
     "githubProductionReadiness": {
       "summary": {
@@ -194,8 +194,8 @@
         "aaaaRecords": [],
         "cnameRecords": [],
         "nsRecords": [
-          "dns2.registrar-servers.com",
-          "dns1.registrar-servers.com"
+          "dns1.registrar-servers.com",
+          "dns2.registrar-servers.com"
         ]
       },
       "http": {

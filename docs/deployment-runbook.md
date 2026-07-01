@@ -357,7 +357,7 @@ Live domain readiness can be checked without deploying or mutating DNS:
 npm run verify:live-readiness
 ```
 
-Before DNS/custom-domain setup this should normally report `not-ready` without failing. After Cloudflare Pages, DNS, the required production D1 binding, and protected Seedance endpoint secrets are active, strict mode should pass before the full production verifier:
+Before DNS/custom-domain setup this should normally report `not-ready` without failing. After Cloudflare Pages, DNS, the required production D1 binding, protected feed refresh, and a fresh completed feed refresh are active, strict mode should pass before the full production verifier. Seedance media endpoints remain optional until approved generation is enabled:
 
 ```bash
 npm run verify:live-readiness -- --strict

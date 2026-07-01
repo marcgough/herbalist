@@ -26,7 +26,7 @@ The goal should remain active until:
 - Any Seedance video slots remain disabled unless reviewed owned assets exist.
 - `npm run verify:production -- https://herbalisti.com` passes against the live domain.
 - `npm run verify:live-readiness -- --strict` passes against the live domain.
-- The live `/api/health` endpoint proves the production D1 binding is active and protected Seedance endpoints are configured.
+- The live `/api/health` endpoint proves the production D1 binding is active, protected feed refresh is configured, and a fresh completed feed refresh has items.
 
 ## Requirement Groups
 
@@ -138,4 +138,4 @@ The herbal commons gate now requires the public export and API to expose the cor
 
 `npm run verify:production-cutover` checks the local production cutover simulation. It proves the future D1/R2 binding update can be modeled with fake resource IDs, confirms that Pages Functions and the scheduled Worker use the same D1 target, and verifies that migrations, secrets, deployment, and domain work remain sequenced behind the approval-required external actions.
 
-`npm run verify:live-readiness` is the read-only DNS/HTTPS/custom-domain probe. It reports `not-ready` without failing before cutover, and `npm run verify:live-readiness -- --strict` is a live completion gate after Cloudflare Pages, DNS, production D1, and required protected endpoint secrets are active.
+`npm run verify:live-readiness` is the read-only DNS/HTTPS/custom-domain probe. It reports `not-ready` without failing before cutover, and `npm run verify:live-readiness -- --strict` is a live completion gate after Cloudflare Pages, DNS, production D1, protected feed refresh, and a fresh completed feed refresh are active. Seedance media endpoints remain optional until approved generation is enabled.

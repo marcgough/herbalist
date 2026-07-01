@@ -387,8 +387,9 @@ for (const scriptName of npmRunCommands) {
 assert(
   contract.secrets
     .filter((secret) => secret.requiredForLaunch)
-    .every((secret) => ['FEED_ADMIN_TOKEN', 'KIE_API_KEY', 'MEDIA_ADMIN_TOKEN'].includes(secret.name)),
-  'Only protected feed/media runtime secrets should be required for launch',
+    .map((secret) => secret.name)
+    .join(',') === 'FEED_ADMIN_TOKEN',
+  'Only the protected feed-refresh runtime secret should be required for launch',
 )
 assert(
   contract.secrets
