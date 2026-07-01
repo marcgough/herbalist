@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-07-01T03:21:37.158Z
+Generated: 2026-07-01T04:07:21.569Z
 
 Status: needs-approval-and-production-setup
 
@@ -168,6 +168,18 @@ npm run prepare:production-secrets
 Notes:
 - Use npm run verify:production-secrets before setting GitHub or Cloudflare secret values.
 
+### Verify generated GitHub admin secret helper
+
+Dry-run the helper that can generate Herbalisti-owned admin tokens directly into GitHub without printing values.
+
+```bash
+npm run verify:github-generated-secrets
+```
+
+Notes:
+- This is dry-run only and does not generate values, set secrets, deploy, mutate DNS, or call paid APIs.
+- The write path requires npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets.
+
 ### Activate local Wrangler D1 bindings after Cloudflare returns the database ID
 
 Write the returned D1 database ID into local Wrangler config after the external D1 resource exists.
@@ -246,6 +258,30 @@ After: create-d1-database, activate-d1-bindings-local
 Verification:
 - npm run verify:d1-manifest
 - npm run verify:launch -- --soft
+
+### Generate Herbalisti-owned GitHub admin secrets
+
+Required for launch: false
+
+External effect: Generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN locally, then stores them as GitHub production environment secrets without printing values.
+
+Approval reason: Writes new secret values into GitHub. Use only when the generated-token path is preferred over manually supplied admin tokens.
+
+Command:
+
+```bash
+npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets
+```
+
+Secret names: FEED_ADMIN_TOKEN, MEDIA_ADMIN_TOKEN
+
+Verification:
+- npm run verify:github-generated-secrets
+- npm run verify:github-production-readiness
+
+Notes:
+- Does not generate CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, or KIE_API_KEY.
+- Generated values are not recoverable from GitHub after setting; rotate by running the command again.
 
 ### Set Feed Admin Token secret
 
@@ -411,6 +447,7 @@ Verification:
 - npm run verify:production-state-current
 - npm run verify:d1-manifest
 - npm run verify:production-secrets
+- npm run verify:github-generated-secrets
 - npm run verify:production-state
 - npm run verify:cloudflare-token-requirements
 - npm run verify:live-readiness -- --strict
@@ -421,7 +458,7 @@ Notes:
 - Requires the exact workflow input confirm=deploy-herbalisti-production.
 - If skip_live_verification=true during DNS transition, also set skip_live_verification_confirm=skip-herbalisti-live-verification.
 - Use the GitHub production environment approval controls before dispatch.
-- Run npm run verify:production-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.
+- Run npm run verify:production-secrets, npm run verify:github-generated-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.
 - Do not use skip_live_verification for final completion evidence.
 
 ### Connect herbalisti.com custom domain and DNS

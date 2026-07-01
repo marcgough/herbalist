@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T03:22:50.281Z",
+  "generatedAt": "2026-07-01T04:07:21.580Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -27,8 +27,8 @@
       "KIE_API_KEY",
       "MEDIA_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "902979a408963758451e999292b45d72fbf7ab240386422bdc547646866196d0",
-    "externalActionsFingerprint": "d51ab64922f18c5e86cd68248e8ba4abaf16906d4e10f2d5d70f41119ce8a6f5",
+    "contractFingerprint": "639e58496290d83cd41f81b5106bc8ecf40ba94e18b2070a9d4a000677f8dbe0",
+    "externalActionsFingerprint": "1a8eef789ca6ed4f68695d4dba175c76807e4f89b41728f2950d2c631f600010",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -38,6 +38,7 @@
     "productionStateSnapshotBlockers": 16,
     "githubProductionDispatchStatus": "needs-github-production-secret-names",
     "githubProductionSecretCount": 5,
+    "githubGeneratedSecretHelper": "available",
     "cloudflareTokenRequirementsStatus": "ready-for-token-entry",
     "cloudflareTokenRequiredPermissionCount": 4
   },
@@ -76,6 +77,11 @@
       "id": "production-secret-setup",
       "status": "pass",
       "detail": "Production secret setup packet is current and included in safe preflight."
+    },
+    {
+      "id": "github-generated-secret-helper",
+      "status": "pass",
+      "detail": "Value-free helper is available and included in safe preflight for generated Herbalisti-owned GitHub admin tokens."
     },
     {
       "id": "production-state-snapshot",
@@ -198,6 +204,7 @@
         "npm run verify:d1-manifest",
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
+        "npm run verify:github-generated-secrets",
         "npm run verify:production-state",
         "npm run verify:cloudflare-token-requirements",
         "npm run verify:github-production-dispatch",
@@ -234,6 +241,17 @@
       "id": "remote-d1-migrations",
       "sideEffect": "writes-cloudflare-d1",
       "command": "npx wrangler d1 migrations apply herbalisti --remote"
+    },
+    {
+      "id": "generate-herbalisti-owned-github-secrets",
+      "sideEffect": "writes-github-secrets",
+      "commands": [
+        "npm run verify:github-generated-secrets",
+        "npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets"
+      ],
+      "captures": [
+        "Generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN directly into GitHub secret storage without printing values."
+      ]
     },
     {
       "id": "set-required-secrets",

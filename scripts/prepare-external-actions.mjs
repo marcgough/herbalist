@@ -205,6 +205,17 @@ const localAllowedActions = [
     notes: ['Use npm run verify:production-secrets before setting GitHub or Cloudflare secret values.'],
   }),
   localAction({
+    id: 'verify-github-generated-secrets',
+    title: 'Verify generated GitHub admin secret helper',
+    command: 'npm run verify:github-generated-secrets',
+    purpose:
+      'Dry-run the helper that can generate Herbalisti-owned admin tokens directly into GitHub without printing values.',
+    notes: [
+      'This is dry-run only and does not generate values, set secrets, deploy, mutate DNS, or call paid APIs.',
+      'The write path requires npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets.',
+    ],
+  }),
+  localAction({
     id: 'activate-d1-bindings-local',
     title: 'Activate local Wrangler D1 bindings after Cloudflare returns the database ID',
     command: command(contract.commands, 'activateBindings'),
@@ -253,6 +264,23 @@ const approvalRequiredActions = [
     approvalReason: 'Mutates the production data store.',
     after: ['create-d1-database', 'activate-d1-bindings-local'],
     verification: ['npm run verify:d1-manifest', 'npm run verify:launch -- --soft'],
+  }),
+  approvalAction({
+    id: 'generate-herbalisti-owned-github-secrets',
+    phase: 'secrets',
+    title: 'Generate Herbalisti-owned GitHub admin secrets',
+    command: 'npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets',
+    requiredForLaunch: false,
+    externalEffect:
+      'Generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN locally, then stores them as GitHub production environment secrets without printing values.',
+    approvalReason:
+      'Writes new secret values into GitHub. Use only when the generated-token path is preferred over manually supplied admin tokens.',
+    verification: ['npm run verify:github-generated-secrets', 'npm run verify:github-production-readiness'],
+    secretNames: ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN'],
+    notes: [
+      'Does not generate CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, or KIE_API_KEY.',
+      'Generated values are not recoverable from GitHub after setting; rotate by running the command again.',
+    ],
   }),
   approvalAction({
     id: 'set-feed-admin-token',
@@ -350,6 +378,7 @@ const approvalRequiredActions = [
       'npm run verify:production-state-current',
       'npm run verify:d1-manifest',
       'npm run verify:production-secrets',
+      'npm run verify:github-generated-secrets',
       'npm run verify:production-state',
       'npm run verify:cloudflare-token-requirements',
       'npm run verify:live-readiness -- --strict',
@@ -367,7 +396,7 @@ const approvalRequiredActions = [
       'Requires the exact workflow input confirm=deploy-herbalisti-production.',
       'If skip_live_verification=true during DNS transition, also set skip_live_verification_confirm=skip-herbalisti-live-verification.',
       'Use the GitHub production environment approval controls before dispatch.',
-      'Run npm run verify:production-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.',
+      'Run npm run verify:production-secrets, npm run verify:github-generated-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.',
       'Do not use skip_live_verification for final completion evidence.',
     ],
   }),

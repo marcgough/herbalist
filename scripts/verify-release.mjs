@@ -158,6 +158,7 @@ for (const [label, command] of [
   ['protected admin token auth', npm('run', 'verify:admin-auth')],
   ['DNS custom-domain cutover plan', npm('run', 'verify:dns-cutover')],
   ['production secret setup packet', npm('run', 'verify:production-secrets')],
+  ['GitHub generated admin secret helper', npm('run', 'verify:github-generated-secrets')],
   ['brand assets', npm('run', 'verify:brand')],
   ['media attribution', npm('run', 'verify:attribution')],
   ['high-tech motion system', npm('run', 'verify:motion-system')],

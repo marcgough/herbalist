@@ -71,6 +71,7 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
     'npm run verify:d1-manifest',
     'npm run verify:dns-cutover',
     'npm run verify:production-provisioning',
+    'npm run verify:github-generated-secrets',
     'npm run verify:github-production-dispatch',
     'npm run verify:launch -- --soft',
   ]
@@ -153,6 +154,15 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
       'production-secret-setup',
       productionSecrets?.status === 'ready-for-secret-entry',
       'Production secret setup packet is available without secret values.',
+    ),
+    buildCheck(
+      'github-generated-secret-helper',
+      Boolean(packageScripts['set:github-generated-secrets']) &&
+        Boolean(packageScripts['verify:github-generated-secrets']) &&
+        exists('scripts/set-github-generated-secrets.mjs') &&
+        productionSecrets?.githubProductionEnvironment?.generatedSecretHelper?.generatedSecretNames?.includes('FEED_ADMIN_TOKEN') &&
+        productionSecrets?.githubProductionEnvironment?.generatedSecretHelper?.generatedSecretNames?.includes('MEDIA_ADMIN_TOKEN'),
+      'Value-free helper is available for generated Herbalisti-owned GitHub admin tokens.',
     ),
     buildCheck(
       'cloudflare-token-requirements',

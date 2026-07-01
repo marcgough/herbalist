@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-07-01T03:22:50.281Z
+Generated: 2026-07-01T04:07:21.580Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -23,6 +23,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - Production state snapshot blockers: 16
 - GitHub production dispatch status: needs-github-production-secret-names
 - GitHub production secret names: 5
+- GitHub generated secret helper: available
 - Cloudflare token requirement status: ready-for-token-entry
 - Cloudflare token required permissions: 4
 
@@ -43,6 +44,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: D1 production migration manifest is current and included in safe preflight.
 - pass: DNS/custom-domain cutover plan is available and included in safe preflight.
 - pass: Production secret setup packet is current and included in safe preflight.
+- pass: Value-free helper is available and included in safe preflight for generated Herbalisti-owned GitHub admin tokens.
 - pass: Production state snapshot is available and included in safe preflight.
 - pass: Cloudflare API token permission packet is current and included in safe preflight.
 - pass: Safe preflight includes GitHub CI/manual release evidence verification.
@@ -85,6 +87,7 @@ npm run verify:cloudflare-production-state
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:github-generated-secrets
 npm run verify:production-state
 npm run verify:cloudflare-token-requirements
 npm run verify:github-production-dispatch
@@ -131,6 +134,17 @@ Side effect: writes-cloudflare-d1
 ```bash
 npx wrangler d1 migrations apply herbalisti --remote
 ```
+
+### generate-herbalisti-owned-github-secrets
+
+Side effect: writes-github-secrets
+
+```bash
+npm run verify:github-generated-secrets
+npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets
+```
+
+- Generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN directly into GitHub secret storage without printing values.
 
 ### set-required-secrets
 

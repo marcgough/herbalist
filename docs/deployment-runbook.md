@@ -35,6 +35,7 @@ npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:github-generated-secrets
 npm run prepare:production-state
 npm run verify:production-state
 npm run prepare:production-provisioning
@@ -76,6 +77,7 @@ npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:github-generated-secrets
 npm run verify:production-state
 npm run verify:d1
 npm run verify:news-worker
@@ -276,6 +278,14 @@ npm run verify:production-secrets
 ```
 
 It writes `docs/production-secret-setup.json` and `docs/production-secret-setup.md`, naming the required GitHub `production` environment secrets for the guarded deployment workflow and the Cloudflare runtime secret fallback commands. It does not read, request, set, store, or print secret values.
+
+GitHub generated admin secret verification is local and value-free:
+
+```bash
+npm run verify:github-generated-secrets
+```
+
+It dry-runs the helper for `FEED_ADMIN_TOKEN` and `MEDIA_ADMIN_TOKEN`, prints command shapes only, and does not generate values, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values. The write path is `npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets`; it streams generated values into GitHub secret storage without printing or storing them.
 
 Production provisioning readiness is local and read-only except for the generated handoff files:
 

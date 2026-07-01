@@ -1,6 +1,6 @@
 # Herbalisti Production Secret Setup
 
-Generated: 2026-06-30T22:43:22.900Z
+Generated: 2026-07-01T04:07:21.594Z
 
 Status: ready-for-secret-entry
 
@@ -11,6 +11,7 @@ Reads local launch contracts and workflow files, then optionally writes docs/pro
 - Do not paste secret values into chat, docs, Git, screenshots, or command logs.
 - Prefer GitHub `production` environment secrets for the guarded production deploy workflow.
 - Enter values directly in GitHub or Cloudflare interfaces, or pipe from a local secret manager.
+- FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN may be generated directly into GitHub with the guarded helper below.
 - Setting a Kie.ai key does not approve paid generation; generated video remains separately approval-gated.
 
 ## GitHub Production Environment Secrets
@@ -19,12 +20,21 @@ Repository: `marcgough/herbalist`
 
 Environment: `production`
 
+Generated Herbalisti-owned admin tokens:
+
+```bash
+npm run verify:github-generated-secrets
+npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets
+```
+
+Generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN locally and streams them into GitHub secret storage without printing or storing values.
+
+Externally issued values still need direct secret entry:
+
 ```bash
 gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist
 gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
-gh secret set FEED_ADMIN_TOKEN --env production --repo marcgough/herbalist
 gh secret set KIE_API_KEY --env production --repo marcgough/herbalist
-gh secret set MEDIA_ADMIN_TOKEN --env production --repo marcgough/herbalist
 ```
 
 ## Workflow-Derived Values
@@ -70,6 +80,7 @@ CLOUDFLARE_API_TOKEN is a GitHub production secret name; its Cloudflare permissi
 - pass: Production contract records every guarded workflow secret name.
 - pass: Required Cloudflare runtime secrets have command templates without values.
 - pass: GitHub production readiness verifier is available for secret-name checks.
+- pass: Value-free helper is available for generated Herbalisti-owned GitHub admin tokens.
 - pass: Cloudflare API token permission packet is available for CLOUDFLARE_API_TOKEN setup.
 - pass: External action packet names the required production workflow secrets.
 
@@ -80,6 +91,17 @@ CLOUDFLARE_API_TOKEN is a GitHub production secret name; its Cloudflare permissi
 Side effect: creates-cloudflare-resource
 
 The guarded production workflow resolves the Cloudflare D1 database named herbalisti and creates it only if it is missing during the approved run.
+
+### generate-herbalisti-owned-github-secrets
+
+Side effect: writes-github-secrets
+
+Optional helper for the Herbalisti-owned admin tokens only. It does not generate Cloudflare credentials or the Kie.ai key.
+
+```bash
+npm run verify:github-generated-secrets
+npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets
+```
 
 ### set-github-production-environment-secrets
 

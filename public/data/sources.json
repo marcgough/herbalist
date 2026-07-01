@@ -1,7 +1,7 @@
 {
   "name": "Herbalisti source registry export",
   "version": "2026-06-16",
-  "generatedAt": "2026-07-01T03:31:00.775Z",
+  "generatedAt": "2026-07-01T04:10:36.863Z",
   "source": "static-export",
   "policy": "Allowlist-first source registry with Big Pharma-related channels excluded by default and reviewed before expansion.",
   "total": 6,

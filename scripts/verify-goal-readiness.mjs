@@ -530,6 +530,7 @@ const requirements = [
       exists('scripts/prepare-d1-production-manifest.mjs') &&
       exists('scripts/prepare-dns-cutover-plan.mjs') &&
       exists('scripts/prepare-production-secret-setup.mjs') &&
+      exists('scripts/set-github-generated-secrets.mjs') &&
       exists('scripts/prepare-cloudflare-token-requirements.mjs') &&
       exists('scripts/resolve-production-d1-database.mjs') &&
       exists('scripts/seed-production-feed.mjs') &&
@@ -560,6 +561,8 @@ const requirements = [
       Boolean(scripts['prepare:dns-cutover']) &&
       Boolean(scripts['verify:production-secrets']) &&
       Boolean(scripts['prepare:production-secrets']) &&
+      Boolean(scripts['set:github-generated-secrets']) &&
+      Boolean(scripts['verify:github-generated-secrets']) &&
       Boolean(scripts['resolve:production-d1']) &&
       Boolean(scripts['seed:production-feed']) &&
       Boolean(scripts['verify:production-deploy-dry-run']) &&
@@ -576,6 +579,12 @@ const requirements = [
       productionCutoverSimulation.simulatedBindings?.sharedD1DatabaseId === true &&
       productionProvisioningReadiness.status !== 'local-contract-failed' &&
       githubProductionDispatch.status !== 'local-contract-failed' &&
+      productionSecretSetup.githubProductionEnvironment?.generatedSecretHelper?.generatedSecretNames?.includes(
+        'FEED_ADMIN_TOKEN',
+      ) &&
+      productionSecretSetup.githubProductionEnvironment?.generatedSecretHelper?.generatedSecretNames?.includes(
+        'MEDIA_ADMIN_TOKEN',
+      ) &&
       d1ProductionManifest.status === 'pass' &&
       d1ProductionManifest.summary?.migrationCount >= 1 &&
       dnsCutoverPlan.status !== 'local-contract-failed' &&
@@ -608,6 +617,7 @@ const requirements = [
       'scripts/prepare-d1-production-manifest.mjs',
       'scripts/prepare-dns-cutover-plan.mjs',
       'scripts/prepare-production-secret-setup.mjs',
+      'scripts/set-github-generated-secrets.mjs',
       'scripts/prepare-cloudflare-token-requirements.mjs',
       'scripts/resolve-production-d1-database.mjs',
       'scripts/seed-production-feed.mjs',
@@ -633,6 +643,7 @@ const requirements = [
       'npm run verify:d1-manifest',
       'npm run verify:dns-cutover',
       'npm run verify:production-secrets',
+      'npm run verify:github-generated-secrets',
       'npm run resolve:production-d1',
       'npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed',
       'npm run verify:production-deploy-dry-run',
@@ -667,6 +678,7 @@ const requirements = [
       'scripts/prepare-d1-production-manifest.mjs',
       'scripts/prepare-dns-cutover-plan.mjs',
       'scripts/prepare-production-secret-setup.mjs',
+      'scripts/set-github-generated-secrets.mjs',
       'scripts/prepare-cloudflare-token-requirements.mjs',
       'scripts/resolve-production-d1-database.mjs',
       'scripts/seed-production-feed.mjs',
@@ -689,6 +701,7 @@ const requirements = [
       'npm run verify:d1-manifest',
       'npm run verify:dns-cutover',
       'npm run verify:production-secrets',
+      'npm run verify:github-generated-secrets',
       'npm run resolve:production-d1',
       'npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed',
       'npm run verify:production-deploy-dry-run',
@@ -742,6 +755,8 @@ const requirements = [
       scripts['prepare:dns-cutover'] &&
       scripts['verify:production-secrets'] &&
       scripts['prepare:production-secrets'] &&
+      scripts['set:github-generated-secrets'] &&
+      scripts['verify:github-generated-secrets'] &&
       scripts['prepare:cloudflare-token-requirements'] &&
       scripts['resolve:production-d1'] &&
       scripts['verify:production-deploy-dry-run'] &&
@@ -800,6 +815,7 @@ const requirements = [
       'scripts/prepare-d1-production-manifest.mjs',
       'scripts/prepare-dns-cutover-plan.mjs',
       'scripts/prepare-production-secret-setup.mjs',
+      'scripts/set-github-generated-secrets.mjs',
       'scripts/resolve-production-d1-database.mjs',
       'scripts/verify-production-deploy-dry-run.mjs',
       'scripts/verify-production-d1-resolver.mjs',

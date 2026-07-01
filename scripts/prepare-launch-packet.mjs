@@ -73,6 +73,7 @@ const phases = [
       'D1 production migration manifest fingerprints the exact ordered SQL files before remote migration approval.',
       'DNS/custom-domain cutover plan snapshots current public DNS and the Cloudflare Pages apex-domain operator sequence.',
       'Production secret setup packet names required GitHub and Cloudflare secret scopes without storing values.',
+      'GitHub generated admin secret helper can create Herbalisti-owned FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN without displaying values.',
       'Production state snapshot consolidates GitHub, Cloudflare, DNS, live-domain, release, and completion evidence without mutating production.',
       'Production provisioning readiness shows the next approved action, local state, and exact operator sequence.',
       'Production feed seed command is confirmation-gated and can refresh the live feed before final proof.',
@@ -131,6 +132,7 @@ const phases = [
       command('npm run verify:d1-manifest'),
       command('npm run verify:dns-cutover'),
       command('npm run verify:production-secrets'),
+      command('npm run verify:github-generated-secrets'),
       command('npm run prepare:production-state'),
       command('npm run verify:production-state'),
       command('npm run prepare:production-provisioning'),
@@ -171,6 +173,7 @@ const phases = [
       command('npm run verify:production-feed-seed'),
       command('npm run verify:github-production-dispatch'),
       command('npm run verify:production-secrets'),
+      command('npm run verify:github-generated-secrets'),
       command('npm run verify:cloudflare-token-requirements'),
       command('npm run verify:github-production-readiness -- --strict'),
       command('npm run verify:production-state-current'),
@@ -200,13 +203,18 @@ const phases = [
   }),
   phase({
     id: 'secrets',
-    title: 'Set Cloudflare secrets',
+    title: 'Set production secrets',
     status:
       visibleSecrets.FEED_ADMIN_TOKEN && visibleSecrets.KIE_API_KEY && visibleSecrets.MEDIA_ADMIN_TOKEN
         ? 'locally-visible'
         : 'pending-external',
     purpose: 'Protect manual feed refreshes and Seedance media endpoints without committing or printing secret values.',
     commands: [
+      command('npm run verify:github-generated-secrets'),
+      command(
+        'npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets',
+        'writes-github-secrets',
+      ),
       command('npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml', 'writes-cloudflare-secret'),
       command('npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti', 'writes-cloudflare-secret'),
       command('npx wrangler pages secret put KIE_API_KEY --project-name herbalisti', 'writes-cloudflare-secret'),

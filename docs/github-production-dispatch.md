@@ -1,6 +1,6 @@
 # Herbalisti GitHub Production Dispatch Packet
 
-Generated: 2026-07-01T03:23:57.591Z
+Generated: 2026-07-01T04:07:21.957Z
 
 Status: needs-github-production-secret-names
 
@@ -43,6 +43,7 @@ npm run verify:production-feed-seed
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-provisioning
+npm run verify:github-generated-secrets
 npm run verify:github-production-dispatch
 npm run verify:launch -- --soft
 ```
@@ -92,6 +93,7 @@ This mode is only for DNS-transition sequencing and cannot prove goal completion
 - pass: Production provisioning packet is available and locally consistent.
 - pass: Production state snapshot still separates local readiness from live completion.
 - pass: Production secret setup packet is available without secret values.
+- pass: Value-free helper is available for generated Herbalisti-owned GitHub admin tokens.
 - pass: Cloudflare token requirement packet is available without token values.
 
 ## Final Completion Gates

@@ -108,6 +108,14 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       'Production secret setup packet is current and included in safe preflight.',
     ),
     buildCheck(
+      'github-generated-secret-helper',
+      Boolean(scripts['set:github-generated-secrets']) &&
+        Boolean(scripts['verify:github-generated-secrets']) &&
+        exists('scripts/set-github-generated-secrets.mjs') &&
+        contract.commands.safePreflight.includes('npm run verify:github-generated-secrets'),
+      'Value-free helper is available and included in safe preflight for generated Herbalisti-owned GitHub admin tokens.',
+    ),
+    buildCheck(
       'production-state-snapshot',
       Boolean(scripts['prepare:production-state']) &&
         Boolean(scripts['verify:production-state']) &&
@@ -237,6 +245,9 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       productionStateSnapshotBlockers: productionStateSnapshot?.summary?.blockerCount ?? null,
       githubProductionDispatchStatus: githubProductionDispatch?.status ?? 'missing',
       githubProductionSecretCount: productionSecretSetup?.githubProductionEnvironment?.secrets?.length ?? 0,
+      githubGeneratedSecretHelper: productionSecretSetup?.githubProductionEnvironment?.generatedSecretHelper
+        ? 'available'
+        : 'missing',
       cloudflareTokenRequirementsStatus: cloudflareTokenRequirements?.status ?? 'missing',
       cloudflareTokenRequiredPermissionCount:
         cloudflareTokenRequirements?.cloudflareApiToken?.requiredPermissions?.length ?? 0,
@@ -256,6 +267,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:d1-manifest',
           'npm run verify:dns-cutover',
           'npm run verify:production-secrets',
+          'npm run verify:github-generated-secrets',
           'npm run verify:production-state',
           'npm run verify:cloudflare-token-requirements',
           'npm run verify:github-production-dispatch',
@@ -288,6 +300,17 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         id: 'remote-d1-migrations',
         sideEffect: 'writes-cloudflare-d1',
         command: command(contract, 'remoteMigrations'),
+      },
+      {
+        id: 'generate-herbalisti-owned-github-secrets',
+        sideEffect: 'writes-github-secrets',
+        commands: [
+          'npm run verify:github-generated-secrets',
+          'npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets',
+        ],
+        captures: [
+          'Generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN directly into GitHub secret storage without printing values.',
+        ],
       },
       {
         id: 'set-required-secrets',
@@ -351,6 +374,7 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     `- Production state snapshot blockers: ${packet.currentState.productionStateSnapshotBlockers}`,
     `- GitHub production dispatch status: ${packet.currentState.githubProductionDispatchStatus}`,
     `- GitHub production secret names: ${packet.currentState.githubProductionSecretCount}`,
+    `- GitHub generated secret helper: ${packet.currentState.githubGeneratedSecretHelper}`,
     `- Cloudflare token requirement status: ${packet.currentState.cloudflareTokenRequirementsStatus}`,
     `- Cloudflare token required permissions: ${packet.currentState.cloudflareTokenRequiredPermissionCount}`,
     '',

@@ -46,6 +46,10 @@ const preferredGithubScope = {
 }
 
 const workflowSecretCommand = (name) => `gh secret set ${name} --env production --repo marcgough/herbalist`
+const generatedGithubSecretNames = ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN']
+const generatedGithubSecretCommand =
+  'npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets'
+const generatedGithubSecretVerifyCommand = 'npm run verify:github-generated-secrets'
 
 const commandForContractSecret = (secret) => secret.setCommand ?? workflowSecretCommand(secret.name)
 const commandsForContractSecret = (secret) =>
@@ -65,10 +69,13 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
   const githubEnvironmentSecrets = requiredWorkflowSecretNames.map((name) => ({
     name,
     requiredForGuardedWorkflow: true,
+    valueSource: generatedGithubSecretNames.includes(name) ? 'herbalisti-generated' : 'external-credential',
     preferredScope: preferredGithubScope,
     setCommand: workflowSecretCommand(name),
     source: workflowPath,
-    notes: 'Set directly in GitHub without pasting the value into chat, docs, Git, or logs.',
+    notes: generatedGithubSecretNames.includes(name)
+      ? 'Can be generated directly into GitHub with the guarded helper; do not print or store the generated value.'
+      : 'Set directly in GitHub without pasting the value into chat, docs, Git, or logs.',
   }))
 
   const cloudflareRuntimeSecrets = contract.secrets
@@ -125,6 +132,16 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       detail: 'GitHub production readiness verifier is available for secret-name checks.',
     },
     {
+      id: 'github-generated-secret-helper',
+      status:
+        Boolean(packageJson.scripts?.['set:github-generated-secrets']) &&
+        Boolean(packageJson.scripts?.['verify:github-generated-secrets']) &&
+        exists('scripts/set-github-generated-secrets.mjs')
+          ? 'pass'
+          : 'fail',
+      detail: 'Value-free helper is available for generated Herbalisti-owned GitHub admin tokens.',
+    },
+    {
       id: 'cloudflare-token-requirements',
       status:
         Boolean(packageJson.scripts?.['verify:cloudflare-token-requirements']) &&
@@ -157,12 +174,21 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       preferGithubProductionEnvironmentSecrets: true,
       productionWorkflowRequiresManualDispatch: true,
       cloudflareRuntimeSecretsCanBeSetByGuardedWorkflow: true,
+      herbalistiOwnedSecretsCanBeGeneratedWithoutDisplayingValues: true,
     },
     githubProductionEnvironment: {
       repository: preferredGithubScope.repository,
       environment: preferredGithubScope.environment,
       readinessCommand: 'npm run verify:github-production-readiness',
       strictReadinessCommand: 'npm run verify:github-production-readiness -- --strict',
+      generatedSecretHelper: {
+        verificationCommand: generatedGithubSecretVerifyCommand,
+        setCommand: generatedGithubSecretCommand,
+        generatedSecretNames: generatedGithubSecretNames,
+        confirmation: 'set-herbalisti-generated-secrets',
+        notes:
+          'Generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN locally and streams them into GitHub secret storage without printing or storing values.',
+      },
       secrets: githubEnvironmentSecrets,
       workflowDerivedValues,
     },
@@ -185,6 +211,13 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
         sideEffect: 'creates-cloudflare-resource',
         detail:
           'The guarded production workflow resolves the Cloudflare D1 database named herbalisti and creates it only if it is missing during the approved run.',
+      },
+      {
+        id: 'generate-herbalisti-owned-github-secrets',
+        sideEffect: 'writes-github-secrets',
+        commands: [generatedGithubSecretVerifyCommand, generatedGithubSecretCommand],
+        detail:
+          'Optional helper for the Herbalisti-owned admin tokens only. It does not generate Cloudflare credentials or the Kie.ai key.',
       },
       {
         id: 'set-github-production-environment-secrets',
@@ -227,6 +260,7 @@ export const renderProductionSecretSetupMarkdown = (packet) => {
     '- Do not paste secret values into chat, docs, Git, screenshots, or command logs.',
     '- Prefer GitHub `production` environment secrets for the guarded production deploy workflow.',
     '- Enter values directly in GitHub or Cloudflare interfaces, or pipe from a local secret manager.',
+    '- FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN may be generated directly into GitHub with the guarded helper below.',
     '- Setting a Kie.ai key does not approve paid generation; generated video remains separately approval-gated.',
     '',
     '## GitHub Production Environment Secrets',
@@ -235,10 +269,23 @@ export const renderProductionSecretSetupMarkdown = (packet) => {
     '',
     `Environment: \`${packet.githubProductionEnvironment.environment}\``,
     '',
+    'Generated Herbalisti-owned admin tokens:',
+    '',
+    '```bash',
+    packet.githubProductionEnvironment.generatedSecretHelper.verificationCommand,
+    packet.githubProductionEnvironment.generatedSecretHelper.setCommand,
+    '```',
+    '',
+    packet.githubProductionEnvironment.generatedSecretHelper.notes,
+    '',
+    'Externally issued values still need direct secret entry:',
+    '',
     '```bash',
   ]
 
-  for (const secret of packet.githubProductionEnvironment.secrets) {
+  for (const secret of packet.githubProductionEnvironment.secrets.filter(
+    (item) => item.valueSource === 'external-credential',
+  )) {
     lines.push(secret.setCommand)
   }
 

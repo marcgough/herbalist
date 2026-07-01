@@ -46,6 +46,7 @@ The packet covers:
 - mocked production D1 resolver behavior verification
 - protected production feed seed verification
 - GitHub production environment and secret-name readiness verification
+- GitHub generated admin secret helper dry-run verification
 - GitHub CI/manual release evidence for the intended launch commit
 - current production state evidence for the exact GitHub commit
 - consolidated production state snapshot verification
@@ -74,7 +75,7 @@ The packet covers:
 - Cloudflare resource creation
 - local Wrangler binding activation
 - remote D1 migration
-- Cloudflare secret setup
+- production secret setup
 - Pages and scheduled Worker deployment
 - `herbalisti.com` custom domain setup
 - protected live Signals feed seed through `/api/feed-refresh`
@@ -120,6 +121,7 @@ npm run verify:cloudflare-token-requirements
 npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
+npm run verify:github-generated-secrets
 npm run resolve:production-d1
 npm run prepare:production-provisioning
 npm run verify:production-provisioning

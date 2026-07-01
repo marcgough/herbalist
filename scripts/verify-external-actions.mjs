@@ -55,6 +55,7 @@ for (const id of [
   'generate-d1-production-migration-manifest',
   'generate-dns-cutover-plan',
   'generate-production-secret-setup',
+  'verify-github-generated-secrets',
   'activate-d1-bindings-local',
 ]) {
   assert(localIds.has(id), `Checklist should include local action ${id}`)
@@ -79,6 +80,7 @@ for (const id of [
 for (const id of [
   'create-r2-bucket-optional',
   'set-openai-api-key-optional',
+  'generate-herbalisti-owned-github-secrets',
   'run-github-production-deploy-workflow',
   'generate-seedance-video-optional',
 ]) {
@@ -137,6 +139,12 @@ assert(
   'Guarded GitHub production deploy workflow should require production secret setup verification',
 )
 assert(
+  externalActions['run-github-production-deploy-workflow'].verification.includes(
+    'npm run verify:github-generated-secrets',
+  ),
+  'Guarded GitHub production deploy workflow should require generated admin secret helper verification',
+)
+assert(
   externalActions['run-github-production-deploy-workflow'].verification.includes('npm run verify:cloudflare-token-requirements'),
   'Guarded GitHub production deploy workflow should require Cloudflare token requirement verification',
 )
@@ -169,6 +177,20 @@ assert(
 assert(
   localIds.has('generate-production-state-snapshot') && markdown.includes('verify:production-state'),
   'Checklist should include production state snapshot generation and verification',
+)
+assert(
+  localIds.has('verify-github-generated-secrets') && markdown.includes('npm run verify:github-generated-secrets'),
+  'Checklist should include the generated GitHub admin secret helper dry-run verification',
+)
+assert(
+  externalActions['generate-herbalisti-owned-github-secrets'].command ===
+    'npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets',
+  'Generated GitHub admin secret action should require the exact confirmation-gated helper command',
+)
+assert(
+  externalActions['generate-herbalisti-owned-github-secrets'].secretNames.includes('FEED_ADMIN_TOKEN') &&
+    externalActions['generate-herbalisti-owned-github-secrets'].secretNames.includes('MEDIA_ADMIN_TOKEN'),
+  'Generated GitHub admin secret action should name only the generated admin tokens',
 )
 assert(
   localIds.has('check-current-production-state-evidence') &&
