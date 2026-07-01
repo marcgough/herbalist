@@ -1,6 +1,6 @@
 # Herbalisti Production Operator Brief
 
-Generated: 2026-07-01T10:24:55.627Z
+Generated: 2026-07-01T10:55:15.000Z
 
 Status: needs-github-production-secret-entry
 
@@ -59,6 +59,7 @@ npm run verify:github-generated-secrets
 npm run verify:github-production-dispatch
 npm run verify:production-deploy-workflow
 npm run verify:production-deploy-evidence
+npm run verify:production-deploy-evidence-artifact
 npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
 npm run verify:production-feed-seed
@@ -88,6 +89,16 @@ Use final completion mode only when live verification is expected to pass. DNS t
 ```bash
 gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=false
 gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=true -f skip_live_verification_confirm=skip-herbalisti-live-verification
+```
+
+### verify-production-deploy-evidence-artifact
+
+Side effect: read-only-github-metadata
+
+After the guarded workflow run completes, confirm GitHub uploaded the non-secret production deployment evidence artifact for that exact run.
+
+```bash
+npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>
 ```
 
 ### connect-domain-and-dns

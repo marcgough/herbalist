@@ -180,6 +180,7 @@ assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production contract
 assert(exists('scripts/verify-production-deploy-dry-run.mjs'), 'Production contract requires the production deploy dry-run verifier')
 assert(exists('scripts/verify-production-deploy-workflow.mjs'), 'Production contract requires the production deploy workflow verifier')
 assert(exists('scripts/prepare-production-deploy-evidence.mjs'), 'Production contract requires the production deploy evidence packet generator')
+assert(exists('scripts/verify-production-deploy-evidence-artifact.mjs'), 'Production contract requires the production deploy evidence artifact readback verifier')
 assert(exists('scripts/prepare-github-production-dispatch.mjs'), 'Production contract requires the GitHub production dispatch packet generator')
 assert(exists('scripts/seed-production-feed.mjs'), 'Production contract requires the production feed seed command')
 assert(exists('scripts/verify-production-feed-seed.mjs'), 'Production contract requires the production feed seed verifier')
@@ -316,6 +317,10 @@ assert(
 assert(
   contract.commands.safePreflight.includes('npm run verify:production-deploy-evidence'),
   'Safe preflight should include guarded production deploy evidence verification',
+)
+assert(
+  contract.commands.safePreflight.includes('npm run verify:production-deploy-evidence-artifact'),
+  'Safe preflight should include guarded production deploy evidence artifact readback verification',
 )
 assert(
   contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'),
@@ -469,6 +474,10 @@ assert(
   'Launch packet generator should include production deploy evidence verification',
 )
 assert(
+  launchPacketScript.includes('npm run verify:production-deploy-evidence-artifact'),
+  'Launch packet generator should include production deploy evidence artifact readback verification',
+)
+assert(
   launchPacketScript.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
   'Launch packet generator should document the live-verification skip acknowledgement phrase',
 )
@@ -572,6 +581,7 @@ assert(runbook.includes('verify:visual-smoke'), 'Deployment runbook should docum
 assert(runbook.includes('verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
 assert(runbook.includes('verify:production-deploy-workflow'), 'Deployment runbook should document production deploy workflow verification')
 assert(runbook.includes('verify:production-deploy-evidence'), 'Deployment runbook should document production deploy evidence verification')
+assert(runbook.includes('verify:production-deploy-evidence-artifact'), 'Deployment runbook should document production deploy evidence artifact readback verification')
 assert(
   runbook.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
   'Deployment runbook should document the live-verification skip acknowledgement phrase',
@@ -639,6 +649,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:production-deploy-evidence'),
   'Production launch packet doc should include production deploy evidence verification',
+)
+assert(
+  launchPacketDoc.includes('verify:production-deploy-evidence-artifact'),
+  'Production launch packet doc should include production deploy evidence artifact readback verification',
 )
 assert(
   launchPacketDoc.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T10:24:55.418Z",
+  "generatedAt": "2026-07-01T10:54:59.206Z",
   "status": "needs-github-production-secret-names",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, workflow files, and generated readiness packets only. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.",
@@ -39,6 +39,7 @@
     "npm run verify:cloudflare-token-requirements",
     "npm run verify:production-deploy-workflow",
     "npm run verify:production-deploy-evidence",
+    "npm run verify:production-deploy-evidence-artifact",
     "npm run verify:production-deploy-dry-run",
     "npm run verify:production-d1-resolver",
     "npm run verify:production-feed-seed",
@@ -48,6 +49,9 @@
     "npm run verify:github-generated-secrets",
     "npm run verify:github-production-dispatch",
     "npm run verify:launch -- --soft"
+  ],
+  "postDispatchEvidenceCommands": [
+    "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>"
   ],
   "requiredGitHubSecretNames": [
     "CLOUDFLARE_API_TOKEN",

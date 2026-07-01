@@ -100,6 +100,7 @@
     "verify:production-d1-resolver": "node scripts/verify-production-d1-resolver.mjs",
     "verify:production-deploy-workflow": "node scripts/verify-production-deploy-workflow.mjs",
     "verify:production-feed-seed": "node scripts/verify-production-feed-seed.mjs",
+    "verify:production-deploy-evidence-artifact": "node scripts/verify-production-deploy-evidence-artifact.mjs",
     "verify:production-provisioning": "node scripts/prepare-production-provisioning.mjs --check",
     "verify:production-operator-brief": "node scripts/prepare-production-operator-brief.mjs --check",
     "verify:production-deploy-evidence": "node scripts/prepare-production-deploy-evidence.mjs --check",

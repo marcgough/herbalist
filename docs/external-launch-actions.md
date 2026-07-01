@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-07-01T04:47:02.655Z
+Generated: 2026-07-01T10:54:57.965Z
 
 Status: needs-approval-and-production-setup
 
@@ -442,6 +442,7 @@ Secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, KIE_API_KEY
 
 Verification:
 - npm run verify:production-deploy-workflow
+- npm run verify:production-deploy-evidence-artifact
 - npm run verify:github-production-dispatch
 - npm run verify:github-release-evidence
 - npm run verify:production-state-current
@@ -461,6 +462,7 @@ Notes:
 - The workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values; they do not need to be stored as GitHub secrets for launch.
 - KIE_API_KEY is optional until approved Seedance media generation is needed.
 - Run npm run verify:production-secrets, npm run verify:github-generated-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.
+- After dispatch, run npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id> to confirm the non-secret deployment evidence artifact exists.
 - Do not use skip_live_verification for final completion evidence.
 
 ### Connect herbalisti.com custom domain and DNS

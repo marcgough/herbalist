@@ -170,6 +170,12 @@ assert(
   'Guarded GitHub production deploy workflow should require current production state evidence verification',
 )
 assert(
+  externalActions['run-github-production-deploy-workflow'].verification.includes(
+    'npm run verify:production-deploy-evidence-artifact',
+  ),
+  'Guarded GitHub production deploy workflow should require production deploy evidence artifact readback verification',
+)
+assert(
   externalActions['run-github-production-deploy-workflow'].notes?.some((note) =>
     note.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
   ),

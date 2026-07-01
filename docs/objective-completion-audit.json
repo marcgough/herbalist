@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T10:27:50.847Z",
-  "auditSignature": "0c32a3058fcb1341cfc0163ab81aa7176ce77ce14585f10c36f34e50ce1e7bdf",
+  "generatedAt": "2026-07-01T10:57:07.713Z",
+  "auditSignature": "f691a7de327d30b6d22239d0e16f61717e07d71e75fde4ecb350907daef07c25",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -555,11 +555,11 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T10:26:52.829Z",
+      "generatedAt": "2026-07-01T10:56:10.050Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 13,
-        "DNA modification": 2,
+        "DNA modification": 1,
         "Health as a service": 3,
         "Peptides": 1,
         "Self-sovereign wellbeing": 1,
@@ -578,7 +578,7 @@
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-07-01T10:26:52.829Z"
+        "generatedAt": "2026-07-01T10:56:10.050Z"
       }
     },
     "media": {
@@ -609,7 +609,7 @@
     ],
     "checked": {
       "files": 148,
-      "scripts": 113,
+      "scripts": 114,
       "passes": 225
     },
     "nextActions": [
@@ -638,6 +638,7 @@
       "npm run verify:github-actions",
       "npm run verify:production-deploy-workflow",
       "npm run verify:production-deploy-evidence",
+      "npm run verify:production-deploy-evidence-artifact",
       "npm run verify:production-deploy-dry-run",
       "npm run verify:production-d1-resolver",
       "npm run verify:production-feed-seed",

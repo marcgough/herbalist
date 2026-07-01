@@ -124,6 +124,7 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     'npm run verify:github-production-dispatch',
     'npm run verify:production-deploy-workflow',
     'npm run verify:production-deploy-evidence',
+    'npm run verify:production-deploy-evidence-artifact',
     'npm run verify:production-deploy-dry-run',
     'npm run verify:production-d1-resolver',
     'npm run verify:production-feed-seed',
@@ -252,6 +253,13 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
         ].filter(Boolean),
         evidence:
           'Use final completion mode only when live verification is expected to pass. DNS transition mode cannot prove completion.',
+      },
+      {
+        id: 'verify-production-deploy-evidence-artifact',
+        sideEffect: 'read-only-github-metadata',
+        commands: commandList(contract.commands?.postDeployEvidence),
+        evidence:
+          'After the guarded workflow run completes, confirm GitHub uploaded the non-secret production deployment evidence artifact for that exact run.',
       },
       {
         id: 'connect-domain-and-dns',
@@ -425,6 +433,10 @@ const validatePacket = (packet, jsonOutput, markdownOutput) => {
   assert(
     packet.operatorSequence.some((step) => step.id === 'dispatch-guarded-production-workflow'),
     'Operator brief should include guarded workflow dispatch sequence',
+  )
+  assert(
+    packet.operatorSequence.some((step) => step.id === 'verify-production-deploy-evidence-artifact'),
+    'Operator brief should include production deploy evidence artifact readback sequence',
   )
   assert(
     packet.operatorSequence.some((step) => step.id === 'seed-live-feed-and-prove-completion'),

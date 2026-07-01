@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T10:24:55.627Z",
+  "generatedAt": "2026-07-01T10:55:15.000Z",
   "status": "needs-github-production-secret-entry",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.",
@@ -68,6 +68,7 @@
         "npm run verify:github-production-dispatch",
         "npm run verify:production-deploy-workflow",
         "npm run verify:production-deploy-evidence",
+        "npm run verify:production-deploy-evidence-artifact",
         "npm run verify:production-deploy-dry-run",
         "npm run verify:production-d1-resolver",
         "npm run verify:production-feed-seed",
@@ -97,6 +98,14 @@
         "gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=true -f skip_live_verification_confirm=skip-herbalisti-live-verification"
       ],
       "evidence": "Use final completion mode only when live verification is expected to pass. DNS transition mode cannot prove completion."
+    },
+    {
+      "id": "verify-production-deploy-evidence-artifact",
+      "sideEffect": "read-only-github-metadata",
+      "commands": [
+        "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>"
+      ],
+      "evidence": "After the guarded workflow run completes, confirm GitHub uploaded the non-secret production deployment evidence artifact for that exact run."
     },
     {
       "id": "connect-domain-and-dns",
@@ -179,7 +188,7 @@
     {
       "path": "docs/github-production-dispatch.json",
       "version": 1,
-      "generatedAt": "2026-07-01T10:24:55.418Z",
+      "generatedAt": "2026-07-01T10:54:59.206Z",
       "status": "needs-github-production-secret-names",
       "productionComplete": false
     },
@@ -207,14 +216,14 @@
     {
       "path": "docs/production-provisioning-readiness.json",
       "version": 1,
-      "generatedAt": "2026-07-01T10:24:55.535Z",
+      "generatedAt": "2026-07-01T10:54:59.719Z",
       "status": "ready-for-approved-production-provisioning",
       "productionComplete": false
     },
     {
       "path": "docs/external-launch-actions.json",
       "version": 1,
-      "generatedAt": "2026-07-01T04:47:02.655Z",
+      "generatedAt": "2026-07-01T10:54:57.965Z",
       "status": "needs-approval-and-production-setup",
       "productionComplete": false
     }

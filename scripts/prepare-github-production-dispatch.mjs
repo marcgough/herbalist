@@ -65,6 +65,7 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
     'npm run verify:cloudflare-token-requirements',
     'npm run verify:production-deploy-workflow',
     'npm run verify:production-deploy-evidence',
+    'npm run verify:production-deploy-evidence-artifact',
     'npm run verify:production-deploy-dry-run',
     'npm run verify:production-d1-resolver',
     'npm run verify:production-feed-seed',
@@ -200,6 +201,9 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
     },
     dispatchInputs,
     strictPreflightCommands,
+    postDispatchEvidenceCommands: [
+      'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
+    ],
     requiredGitHubSecretNames: requiredSecretNames,
     optionalGitHubSecretNames: optionalSecretNames,
     generatedRuntimeSecretNames,
@@ -299,6 +303,12 @@ export const renderGithubProductionDispatchMarkdown = (packet) => {
   lines.push('', '```bash', packet.dispatchInputs.dnsTransitionMode.command, '```', '')
   lines.push(packet.dispatchInputs.dnsTransitionMode.completionEvidence)
   lines.push('')
+
+  lines.push('## Post Dispatch Evidence', '', '```bash')
+  for (const command of packet.postDispatchEvidenceCommands) {
+    lines.push(command)
+  }
+  lines.push('```', '')
 
   lines.push('## Checks', '')
   for (const check of packet.checks) {

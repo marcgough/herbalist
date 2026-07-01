@@ -204,6 +204,20 @@ npm run verify:production-deploy-evidence
 
 It builds the deployment evidence packet in memory and confirms the stable artifact name, `https://herbalisti.com` target, live-verification completion boundary, and secret-free output. During the guarded production workflow, the packet is uploaded as `herbalisti-production-deploy-evidence` from `output/production-deploy`.
 
+Production deploy evidence artifact readback is GitHub metadata-only:
+
+```bash
+npm run verify:production-deploy-evidence-artifact
+```
+
+Before production dispatch, this reports the evidence artifact as pending without failing local readiness. After the guarded production workflow runs, use strict mode with the exact run ID:
+
+```bash
+npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>
+```
+
+It verifies the successful production deploy run uploaded `herbalisti-production-deploy-evidence` for the expected commit without downloading the artifact, setting secrets, deploying, mutating DNS, creating resources, calling paid APIs, or printing credential values.
+
 GitHub production dispatch packet verification is local and read-only:
 
 ```bash

@@ -43,6 +43,7 @@ The packet covers:
 - GitHub Actions safe-gate and manual repository release-gate verification
 - guarded GitHub production deploy workflow verification
 - guarded production deployment evidence artifact verification
+- guarded production deployment evidence artifact readback verification
 - guarded production deploy dry-run verification
 - mocked production D1 resolver behavior verification
 - protected production feed seed verification
@@ -145,6 +146,7 @@ npm run verify:search-discovery
 npm run verify:australia-lane
 npm run verify:production-cutover
 npm run verify:production-deploy-evidence
+npm run verify:production-deploy-evidence-artifact
 npm run verify:external-actions
 npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed
 npm run verify:live-readiness

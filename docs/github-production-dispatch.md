@@ -1,6 +1,6 @@
 # Herbalisti GitHub Production Dispatch Packet
 
-Generated: 2026-07-01T10:24:55.418Z
+Generated: 2026-07-01T10:54:59.206Z
 
 Status: needs-github-production-secret-names
 
@@ -44,6 +44,7 @@ npm run verify:production-secrets
 npm run verify:cloudflare-token-requirements
 npm run verify:production-deploy-workflow
 npm run verify:production-deploy-evidence
+npm run verify:production-deploy-evidence-artifact
 npm run verify:production-deploy-dry-run
 npm run verify:production-d1-resolver
 npm run verify:production-feed-seed
@@ -86,6 +87,12 @@ gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f c
 ```
 
 This mode is only for DNS-transition sequencing and cannot prove goal completion. Strict live verification remains required afterward.
+
+## Post Dispatch Evidence
+
+```bash
+npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>
+```
 
 ## Checks
 

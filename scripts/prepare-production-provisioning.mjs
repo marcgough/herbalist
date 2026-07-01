@@ -187,6 +187,13 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       'Guarded production workflow can emit a non-secret deployment evidence artifact.',
     ),
     buildCheck(
+      'production-deploy-evidence-artifact',
+      Boolean(scripts['verify:production-deploy-evidence-artifact']) &&
+        exists('scripts/verify-production-deploy-evidence-artifact.mjs') &&
+        contract.commands.safePreflight.includes('npm run verify:production-deploy-evidence-artifact'),
+      'Production deployment evidence artifact can be read back from GitHub Actions metadata after dispatch.',
+    ),
+    buildCheck(
       'production-deploy-dry-run',
       Boolean(scripts['verify:production-deploy-dry-run']) &&
         exists('scripts/verify-production-deploy-dry-run.mjs') &&
@@ -289,6 +296,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:cloudflare-token-requirements',
           'npm run verify:github-production-dispatch',
           'npm run verify:production-deploy-evidence',
+          'npm run verify:production-deploy-evidence-artifact',
           'npm run verify:production-deploy-dry-run',
           'npm run verify:production-d1-resolver',
           'npm run verify:production-feed-seed',

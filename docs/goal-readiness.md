@@ -128,6 +128,8 @@ The herbal commons gate now requires the public export and API to expose the cor
 
 `npm run verify:github-release-evidence` checks public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, then verifies the uploaded visual-smoke artifact metadata without downloading artifacts or mutating GitHub.
 
+`npm run verify:production-deploy-evidence-artifact` checks GitHub Actions metadata for the guarded production deploy run and its `herbalisti-production-deploy-evidence` artifact. Before production dispatch it reports pending without touching production; after dispatch, strict mode with `--run-id <production_deploy_run_id>` proves the artifact exists for the exact run.
+
 `npm run verify:production-state-current` regenerates the production state in memory and checks that the GitHub release evidence matches the current git commit. It is intended for the post-CI, post-manual-release moment before a guarded production deployment, not as a pre-push local development gate.
 
 `npm run prepare:production-provisioning` and `npm run verify:production-provisioning` generate and check the local production provisioning packet: current Wrangler binding state, hidden required secret names, next approved external action, and exact operator sequence from D1 creation through live verification.

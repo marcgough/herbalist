@@ -119,6 +119,7 @@
       "npm run verify:github-actions",
       "npm run verify:production-deploy-workflow",
       "npm run verify:production-deploy-evidence",
+      "npm run verify:production-deploy-evidence-artifact",
       "npm run verify:production-deploy-dry-run",
       "npm run verify:production-d1-resolver",
       "npm run verify:production-feed-seed",
@@ -181,6 +182,9 @@
       "GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production; if skip_live_verification=true, also set skip_live_verification_confirm=skip-herbalisti-live-verification"
     ],
     "githubProductionReadiness": ["npm run verify:github-production-readiness -- --strict"],
+    "postDeployEvidence": [
+      "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>"
+    ],
     "liveCompletionGates": [
       "npm run verify:live-readiness -- --strict",
       "npm run verify:production -- https://herbalisti.com",

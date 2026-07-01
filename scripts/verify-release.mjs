@@ -188,6 +188,7 @@ for (const [label, command] of [
   ['production cutover simulation', npm('run', 'verify:production-cutover')],
   ['production deploy workflow', npm('run', 'verify:production-deploy-workflow')],
   ['production deploy evidence packet', npm('run', 'verify:production-deploy-evidence')],
+  ['production deploy evidence artifact readback', npm('run', 'verify:production-deploy-evidence-artifact')],
   ['production deploy dry run', npm('run', 'verify:production-deploy-dry-run')],
   ['production D1 resolver behavior', npm('run', 'verify:production-d1-resolver')],
   ['production feed seed command', npm('run', 'verify:production-feed-seed')],

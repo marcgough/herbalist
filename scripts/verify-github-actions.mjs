@@ -45,6 +45,7 @@ assert(scripts['verify:production-state'], 'package.json should expose verify:pr
 assert(scripts['verify:production-state-current'], 'package.json should expose verify:production-state-current')
 assert(scripts['prepare:production-deploy-evidence'], 'package.json should expose prepare:production-deploy-evidence')
 assert(scripts['verify:production-deploy-evidence'], 'package.json should expose verify:production-deploy-evidence')
+assert(scripts['verify:production-deploy-evidence-artifact'], 'package.json should expose verify:production-deploy-evidence-artifact')
 assert(scripts['verify:cloudflare-token-requirements'], 'package.json should expose verify:cloudflare-token-requirements')
 assert(packageJson.devDependencies?.wrangler, 'Wrangler should be a devDependency for reproducible release verification')
 
@@ -114,6 +115,7 @@ assert(productionDeploy.includes('output/production-deploy'), 'Production deploy
 assert(releaseVerifier.includes('verify:github-actions'), 'Full release verifier should include the GitHub Actions gate')
 assert(releaseVerifier.includes('verify:production-deploy-workflow'), 'Full release verifier should include the production deploy workflow gate')
 assert(releaseVerifier.includes('verify:production-deploy-evidence'), 'Full release verifier should include the production deploy evidence packet gate')
+assert(releaseVerifier.includes('verify:production-deploy-evidence-artifact'), 'Full release verifier should include the production deploy evidence artifact readback gate')
 assert(releaseVerifier.includes('verify:production-deploy-dry-run'), 'Full release verifier should include the production deploy dry-run gate')
 assert(releaseVerifier.includes('verify:production-d1-resolver'), 'Full release verifier should include the production D1 resolver gate')
 assert(releaseVerifier.includes('verify:production-feed-seed'), 'Full release verifier should include the production feed seed gate')
@@ -130,6 +132,7 @@ assert(launchVerifier.includes('.github/workflows/production-deploy.yml'), 'Laun
 assert(productionContractVerifier.includes('verify:github-actions'), 'Production contract verifier should require GitHub Actions verification')
 assert(productionContractVerifier.includes('verify:production-deploy-workflow'), 'Production contract verifier should require production deploy workflow verification')
 assert(productionContractVerifier.includes('verify:production-deploy-dry-run'), 'Production contract verifier should require production deploy dry-run verification')
+assert(productionContractVerifier.includes('verify:production-deploy-evidence-artifact'), 'Production contract verifier should require production deploy evidence artifact readback verification')
 assert(productionContractVerifier.includes('verify:production-d1-resolver'), 'Production contract verifier should require production D1 resolver verification')
 assert(productionContractVerifier.includes('verify:production-feed-seed'), 'Production contract verifier should require production feed seed verification')
 assert(productionContractVerifier.includes('verify:github-production-dispatch'), 'Production contract verifier should require GitHub production dispatch verification')
@@ -139,6 +142,7 @@ assert(productionContractVerifier.includes('verify:production-state-current'), '
 assert(productionContractVerifier.includes('verify:cloudflare-token-requirements'), 'Production contract verifier should require Cloudflare token requirement verification')
 assert(contract.commands.safePreflight.includes('npm run verify:github-actions'), 'Safe preflight should include GitHub Actions verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-workflow'), 'Safe preflight should include production deploy workflow verification')
+assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-evidence-artifact'), 'Safe preflight should include production deploy evidence artifact readback verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'), 'Safe preflight should include production deploy dry-run verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-d1-resolver'), 'Safe preflight should include production D1 resolver verification')
 assert(contract.commands.safePreflight.includes('npm run verify:production-feed-seed'), 'Safe preflight should include production feed seed verification')
@@ -149,6 +153,7 @@ assert(contract.commands.safePreflight.includes('npm run verify:production-state
 assert(contract.commands.safePreflight.includes('npm run verify:cloudflare-token-requirements'), 'Safe preflight should include Cloudflare token requirement verification')
 assert(runbook.includes('npm run verify:github-actions'), 'Deployment runbook should document GitHub Actions verification')
 assert(runbook.includes('npm run verify:production-deploy-workflow'), 'Deployment runbook should document production deploy workflow verification')
+assert(runbook.includes('npm run verify:production-deploy-evidence-artifact'), 'Deployment runbook should document production deploy evidence artifact readback verification')
 assert(
   runbook.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
   'Deployment runbook should document the live-verification skip acknowledgement phrase',
@@ -163,6 +168,7 @@ assert(runbook.includes('npm run verify:production-state'), 'Deployment runbook 
 assert(runbook.includes('npm run verify:cloudflare-token-requirements'), 'Deployment runbook should document Cloudflare token requirement verification')
 assert(launchPacket.includes('npm run verify:github-actions'), 'Production launch packet should document GitHub Actions verification')
 assert(launchPacket.includes('npm run verify:production-deploy-workflow'), 'Production launch packet should document production deploy workflow verification')
+assert(launchPacket.includes('npm run verify:production-deploy-evidence-artifact'), 'Production launch packet should document production deploy evidence artifact readback verification')
 assert(
   launchPacket.includes('skip_live_verification_confirm=skip-herbalisti-live-verification'),
   'Production launch packet should document the live-verification skip acknowledgement phrase',

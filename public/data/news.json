@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T10:26:52.829Z",
+  "generatedAt": "2026-07-01T10:56:10.050Z",
   "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication.",
   "sourceHealthPolicy": "Source health checks report allowlisted public or independent sources only; warnings do not add fallback pharma channels.",
   "warnings": [],
@@ -11,7 +11,7 @@
       "sourceType": "public-research-index",
       "role": "Public biomedical metadata for frontier-biology terms.",
       "status": "empty",
-      "checkedAt": "2026-07-01T10:26:46.822Z",
+      "checkedAt": "2026-07-01T10:56:01.101Z",
       "itemCount": 10,
       "usableItemCount": 0,
       "newestItemAt": "",
@@ -26,7 +26,7 @@
       "sourceType": "public-research-index",
       "role": "Open preprint metadata for computational biology and frontier science.",
       "status": "ok",
-      "checkedAt": "2026-07-01T10:26:45.566Z",
+      "checkedAt": "2026-07-01T10:55:59.244Z",
       "itemCount": 8,
       "usableItemCount": 3,
       "newestItemAt": "2026-06-26T09:24:42.000Z",
@@ -41,7 +41,7 @@
       "sourceType": "preprint-server",
       "role": "Public biology preprint metadata for longevity and biotechnology topics.",
       "status": "ok",
-      "checkedAt": "2026-07-01T10:26:46.741Z",
+      "checkedAt": "2026-07-01T10:56:01.873Z",
       "itemCount": 3,
       "usableItemCount": 1,
       "newestItemAt": "2026-06-01T00:00:00.000Z",
@@ -56,7 +56,7 @@
       "sourceType": "public-research-index",
       "role": "Public scholarly metadata expansion for longevity and frontier biology.",
       "status": "ok",
-      "checkedAt": "2026-07-01T10:26:52.829Z",
+      "checkedAt": "2026-07-01T10:56:10.050Z",
       "itemCount": 9,
       "usableItemCount": 9,
       "newestItemAt": "2026-05-01T00:00:00.000Z",
@@ -71,7 +71,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity coverage from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-01T10:26:46.878Z",
+      "checkedAt": "2026-07-01T10:56:00.796Z",
       "itemCount": 8,
       "usableItemCount": 5,
       "newestItemAt": "2026-06-30T16:21:38.000Z",
@@ -86,16 +86,28 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity commentary from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-01T10:26:45.906Z",
+      "checkedAt": "2026-07-01T10:56:00.776Z",
       "itemCount": 8,
       "usableItemCount": 6,
-      "newestItemAt": "2026-07-01T10:11:22.000Z",
+      "newestItemAt": "2026-07-01T10:22:42.000Z",
       "warning": "",
       "isAllowlisted": true,
       "isBigPharmaRelated": false
     }
   ],
   "items": [
+    {
+      "id": "fightaging-1fm2b8s",
+      "title": "Reduced FOXO1 in Epididymal Tissue as a Proximate Cause of Male Reproductive Aging",
+      "sourceName": "Fight Aging!",
+      "url": "https://www.fightaging.org/archives/2026/07/reduced-foxo1-in-epididymal-tissue-as-a-proximate-cause-of-male-reproductive-aging/",
+      "publishedAt": "2026-07-01T10:22:42.000Z",
+      "summary": "Independent longevity commentary from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "independent-longevity"
+    },
     {
       "id": "fightaging-fkif86",
       "title": "Senescent Cells in Senile Lentigo Caused by UV Exposure",
@@ -174,19 +186,6 @@
       "sourceName": "Fight Aging!",
       "url": "https://www.fightaging.org/archives/2026/06/a-review-of-the-state-of-stem-cell-therapies/",
       "publishedAt": "2026-06-29T10:22:39.000Z",
-      "summary": "Independent longevity commentary from the Herbalisti source allowlist.",
-      "topics": [
-        "Longevity",
-        "DNA modification"
-      ],
-      "sourceType": "independent-longevity"
-    },
-    {
-      "id": "fightaging-11dlqst",
-      "title": "Fight Aging! Newsletter, June 29th 2026",
-      "sourceName": "Fight Aging!",
-      "url": "https://www.fightaging.org/archives/2026/06/fight-aging-newsletter-june-29th-2026/",
-      "publishedAt": "2026-06-28T11:06:38.000Z",
       "summary": "Independent longevity commentary from the Herbalisti source allowlist.",
       "topics": [
         "Longevity",
