@@ -1,6 +1,6 @@
 # Herbalisti Production Secret Setup
 
-Generated: 2026-07-01T04:07:21.594Z
+Generated: 2026-07-01T04:47:11.092Z
 
 Status: ready-for-secret-entry
 
@@ -9,10 +9,10 @@ Reads local launch contracts and workflow files, then optionally writes docs/pro
 ## Guardrails
 
 - Do not paste secret values into chat, docs, Git, screenshots, or command logs.
-- Prefer GitHub `production` environment secrets for the guarded production deploy workflow.
-- Enter values directly in GitHub or Cloudflare interfaces, or pipe from a local secret manager.
-- FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN may be generated directly into GitHub with the guarded helper below.
-- Setting a Kie.ai key does not approve paid generation; generated video remains separately approval-gated.
+- Prefer GitHub `production` environment secrets for externally issued deployment credentials.
+- Enter externally issued values directly in GitHub or Cloudflare interfaces, or pipe from a local secret manager.
+- The guarded production workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values.
+- KIE_API_KEY is optional for launch; setting it does not approve paid generation, and generated video remains separately approval-gated.
 
 ## GitHub Production Environment Secrets
 
@@ -20,21 +20,30 @@ Repository: `marcgough/herbalist`
 
 Environment: `production`
 
-Generated Herbalisti-owned admin tokens:
-
-```bash
-npm run verify:github-generated-secrets
-npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets
-```
-
-Generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN locally and streams them into GitHub secret storage without printing or storing values.
-
-Externally issued values still need direct secret entry:
+Required externally issued values:
 
 ```bash
 gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist
 gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
+```
+
+Optional paid-media value:
+
+```bash
 gh secret set KIE_API_KEY --env production --repo marcgough/herbalist
+```
+
+Generated runtime admin tokens:
+
+- FEED_ADMIN_TOKEN, MEDIA_ADMIN_TOKEN
+
+Optional manual path. The guarded deployment workflow can generate FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values without stored GitHub secrets.
+
+Optional manual GitHub helper for generated admin tokens:
+
+```bash
+npm run verify:github-generated-secrets
+npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets
 ```
 
 ## Workflow-Derived Values
@@ -75,9 +84,9 @@ CLOUDFLARE_API_TOKEN is a GitHub production secret name; its Cloudflare permissi
 ## Checks
 
 - pass: .github/workflows/production-deploy.yml exists.
-- pass: Production deploy workflow references every required workflow secret name.
+- pass: Production deploy workflow references required external credentials, optional Kie credentials, and generated runtime admin token names.
 - pass: Production deploy workflow resolves the D1 database ID during the guarded run instead of requiring it as a GitHub secret.
-- pass: Production contract records every guarded workflow secret name.
+- pass: Production contract records required, optional, and generated runtime secret names.
 - pass: Required Cloudflare runtime secrets have command templates without values.
 - pass: GitHub production readiness verifier is available for secret-name checks.
 - pass: Value-free helper is available for generated Herbalisti-owned GitHub admin tokens.
@@ -96,7 +105,7 @@ The guarded production workflow resolves the Cloudflare D1 database named herbal
 
 Side effect: writes-github-secrets
 
-Optional helper for the Herbalisti-owned admin tokens only. It does not generate Cloudflare credentials or the Kie.ai key.
+Optional manual helper for storing Herbalisti-owned admin tokens in GitHub. The guarded production workflow can generate these as masked runtime values instead.
 
 ```bash
 npm run verify:github-generated-secrets
@@ -110,9 +119,7 @@ Side effect: writes-github-secrets
 ```bash
 gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist
 gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
-gh secret set FEED_ADMIN_TOKEN --env production --repo marcgough/herbalist
 gh secret set KIE_API_KEY --env production --repo marcgough/herbalist
-gh secret set MEDIA_ADMIN_TOKEN --env production --repo marcgough/herbalist
 ```
 
 ### verify-secret-name-readiness

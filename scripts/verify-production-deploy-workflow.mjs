@@ -47,13 +47,21 @@ assert(workflow.includes('npm ci'), 'Production deploy workflow should install f
 for (const name of [
   'CLOUDFLARE_API_TOKEN',
   'CLOUDFLARE_ACCOUNT_ID',
-  'FEED_ADMIN_TOKEN',
-  'KIE_API_KEY',
-  'MEDIA_ADMIN_TOKEN',
 ]) {
   assert(workflow.includes(`secrets.${name}`), `Production deploy workflow should read ${name} from GitHub secrets`)
   assert(workflow.includes(name), `Production deploy workflow should validate ${name} presence by name only`)
 }
+assert(workflow.includes('secrets.KIE_API_KEY'), 'Production deploy workflow may read optional KIE_API_KEY from GitHub secrets')
+assert(!workflow.includes('secrets.FEED_ADMIN_TOKEN'), 'Production deploy workflow should generate FEED_ADMIN_TOKEN at runtime')
+assert(!workflow.includes('secrets.MEDIA_ADMIN_TOKEN'), 'Production deploy workflow should generate MEDIA_ADMIN_TOKEN at runtime')
+assert(workflow.includes('Generate runtime admin tokens'), 'Production deploy workflow should generate Herbalisti-owned admin tokens at runtime')
+assert(workflow.includes("::add-mask::$value"), 'Generated runtime admin tokens should be masked in GitHub logs')
+assert(workflow.includes("['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN']"), 'Production deploy workflow should generate both runtime admin token names')
+assert(workflow.includes('randomBytes(32)'), 'Generated runtime admin tokens should use cryptographic randomness')
+assert(
+  workflow.includes('KIE_API_KEY is not configured; optional Seedance media endpoints will remain disabled.'),
+  'Production deploy workflow should treat KIE_API_KEY as optional for launch',
+)
 assert(!workflow.includes('secrets.CLOUDFLARE_D1_DATABASE_ID'), 'Production deploy workflow should resolve the D1 database ID by name, not read it as a GitHub secret')
 assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production deploy workflow requires the D1 resolver script')
 assert(packageJson.scripts?.['resolve:production-d1'], 'package.json should expose resolve:production-d1')
@@ -76,6 +84,7 @@ for (const command of [
   'npm run verify:d1-manifest',
   'npm run verify:dns-cutover',
   'npm run verify:production-secrets',
+  'npm run verify:github-generated-secrets',
   'npm run verify:production-state',
   'npm run verify:production-provisioning',
   'npx wrangler pages project create herbalisti --production-branch main',
@@ -99,6 +108,10 @@ for (const command of [
 assert(workflow.includes("printf '%s' \"$FEED_ADMIN_TOKEN\""), 'FEED_ADMIN_TOKEN should be piped without echoing')
 assert(workflow.includes("printf '%s' \"$KIE_API_KEY\""), 'KIE_API_KEY should be piped without echoing')
 assert(workflow.includes("printf '%s' \"$MEDIA_ADMIN_TOKEN\""), 'MEDIA_ADMIN_TOKEN should be piped without echoing')
+assert(
+  workflow.includes('Skipping optional Seedance media secrets because KIE_API_KEY is not configured.'),
+  'Production deploy workflow should skip optional media secrets when KIE_API_KEY is absent',
+)
 assert(packageJson.scripts?.['seed:production-feed'], 'Production deploy workflow should use the shared feed seed command')
 assert(feedSeedScript.includes('/api/feed-refresh'), 'Production feed seed command should post to the protected feed-refresh endpoint')
 assert(feedSeedScript.includes("['completed', 'completed_with_warnings']"), 'Production feed seed command should accept completed feed-refresh statuses only')
@@ -127,13 +140,9 @@ console.log(
       trigger: 'workflow_dispatch',
       environment: 'production',
       deploymentAutomatic: false,
-      requiredGitHubSecrets: [
-        'CLOUDFLARE_API_TOKEN',
-        'CLOUDFLARE_ACCOUNT_ID',
-        'FEED_ADMIN_TOKEN',
-        'KIE_API_KEY',
-        'MEDIA_ADMIN_TOKEN',
-      ],
+      requiredGitHubSecrets: ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID'],
+      optionalGitHubSecrets: ['KIE_API_KEY'],
+      generatedRuntimeSecretNames: ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN'],
       workflowDerivedValues: ['CLOUDFLARE_D1_DATABASE_ID'],
       safeToRun:
         'This verifier reads local workflow, package, and contract files only. It does not call GitHub, deploy, mutate DNS, create Cloudflare resources, set secrets, or print secret values.',

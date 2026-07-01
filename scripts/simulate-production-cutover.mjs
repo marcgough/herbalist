@@ -138,8 +138,8 @@ export const buildProductionCutoverSimulation = () => {
     'pages-deploy-after-migrations-and-secrets',
     actionHasAfter(approvalActions, 'deploy-cloudflare-pages', 'apply-remote-d1-migrations') &&
       actionHasAfter(approvalActions, 'deploy-cloudflare-pages', 'set-feed-admin-token') &&
-      actionHasAfter(approvalActions, 'deploy-cloudflare-pages', 'set-kie-api-key') &&
-      actionHasAfter(approvalActions, 'deploy-cloudflare-pages', 'set-media-admin-token'),
+      !actionHasAfter(approvalActions, 'deploy-cloudflare-pages', 'set-kie-api-key') &&
+      !actionHasAfter(approvalActions, 'deploy-cloudflare-pages', 'set-media-admin-token'),
     'Pages deployment is sequenced after migrations and required secrets.',
   )
   addCheck(

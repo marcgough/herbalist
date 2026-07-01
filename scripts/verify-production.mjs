@@ -60,12 +60,10 @@ const assertOperationalHealth = (health) => {
     ['configured', 'disabled'].includes(health.protectedFeatures?.seedanceMediaJobs),
     'Health API should expose protected Seedance feature state without secret values',
   )
-  if (isCanonicalProductionUrl && !isLocalBaseUrl) {
-    assert(
-      health.protectedFeatures.seedanceMediaJobs === 'configured',
-      'Production Health API should report protected Seedance endpoints configured',
-    )
-  }
+  assert(
+    isLocalBaseUrl || health.protectedFeatures.seedanceMediaJobs !== 'configured' || health.bindings.d1 === true,
+    'Configured Seedance endpoints should only be reported with production health bindings available',
+  )
   assert(
     ['configured', 'not_required'].includes(health.protectedFeatures?.serverSideOpenAiImages),
     'Health API should expose OpenAI image feature state without secret values',

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "pass",
-  "generatedAt": "2026-06-24T03:44:01.285Z",
+  "generatedAt": "2026-07-01T04:52:25.682Z",
   "safeToRun": "Local production cutover simulation only. No Cloudflare API call, deployment, DNS mutation, upload, paid generation, secret readout, or Wrangler config write is attempted.",
   "scenario": {
     "d1DatabaseName": "herbalisti",

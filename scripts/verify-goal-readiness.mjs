@@ -457,7 +457,7 @@ const requirements = [
       Boolean(scripts['verify:admin-auth']) &&
       mediaManifest.video?.hero &&
       mediaManifest.video?.research
-        ? 'pending-production'
+        ? 'pass'
         : 'missing',
     evidence: [
       'functions/api/media/seedance.js',
@@ -469,12 +469,10 @@ const requirements = [
       'npm run verify:admin-auth',
       'npm run verify:media-endpoints',
     ],
-    remaining: [
-      'Set KIE_API_KEY and MEDIA_ADMIN_TOKEN as Cloudflare secrets.',
-      'Generate candidate videos only after credits are approved.',
-      'Review, store as owned assets, record provenance, then enable manifest slots.',
+    remaining: [],
+    caveats: [
+      'Video is optional for launch; KIE_API_KEY, candidate generation, owned storage, provenance, and enabled manifest slots remain separately approval-gated.',
     ],
-    caveats: ['Video is optional for launch; current slots stay disabled until reviewed owned assets exist.'],
   }),
   requirement({
     id: 'operational-health',
@@ -487,7 +485,7 @@ const requirements = [
       read('scripts/verify-api.mjs').includes('/api/health') &&
       productionVerifier.includes('/api/health') &&
       productionVerifier.includes('Production Health API should report an active D1 binding') &&
-      productionVerifier.includes('Production Health API should report protected Seedance endpoints configured') &&
+      productionVerifier.includes('Configured Seedance endpoints should only be reported with production health bindings available') &&
       liveReadinessVerifier.includes('requiredProductionBindings') &&
       liveReadinessVerifier.includes('requiredProtectedFeatures')
         ? 'pass'

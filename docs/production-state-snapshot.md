@@ -1,6 +1,6 @@
 # Herbalisti Production State Snapshot
 
-Generated: 2026-07-01T03:21:37.270Z
+Generated: 2026-07-01T04:48:24.709Z
 
 Status: local-ready-production-pending
 
@@ -16,26 +16,26 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Current Summary
 
 - Git branch: main
-- Git commit: 2bf1e85ec4e58c67688484306df5368eb4df0370
+- Git commit: 4ec6be05f2c790e64ee79707fa51cfb4f537ef62
 - Git note: Commit is the repository HEAD observed when the snapshot was generated; the snapshot artifact itself may be committed afterward.
 - Completion audit status: local-ready-production-pending
 - Goal complete: false
 - Local implementation ready: true
-- Pending requirement count: 3
+- Pending requirement count: 2
 - GitHub production readiness: needs-github-production-setup
-- Missing GitHub production secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, FEED_ADMIN_TOKEN, KIE_API_KEY, MEDIA_ADMIN_TOKEN
+- Missing GitHub production secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
 - Cloudflare production state: needs-cloudflare-auth
 - Wrangler authenticated: false
 - DNS cutover status: needs-dns-cutover
 - DNS nameserver provider: external-or-registrar
 - Live readiness: not-ready
 - Production provisioning status: ready-for-approved-production-provisioning
-- Blocker count: 16
+- Blocker count: 10
 
 ## Checks
 
 - pass: Completion audit status is local-ready-production-pending.
-- pass: Release evidence is pass for 2bf1e85ec4e58c67688484306df5368eb4df0370.
+- pass: Release evidence is pass for 4ec6be05f2c790e64ee79707fa51cfb4f537ef62.
 - pass: GitHub production readiness status is needs-github-production-setup.
 - pass: Cloudflare production state is needs-cloudflare-auth.
 - pass: DNS cutover status is needs-dns-cutover.
@@ -45,28 +45,22 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Blockers
 
 - Completion audit pending: independent-newsfeed: pending-production.
-- Completion audit pending: seedance-video-readiness: pending-production.
 - Completion audit pending: cloudflare-hosting: pending-production.
 - GitHub production secret name missing: CLOUDFLARE_API_TOKEN.
 - GitHub production secret name missing: CLOUDFLARE_ACCOUNT_ID.
-- GitHub production secret name missing: FEED_ADMIN_TOKEN.
-- GitHub production secret name missing: KIE_API_KEY.
-- GitHub production secret name missing: MEDIA_ADMIN_TOKEN.
 - Cloudflare production state is needs-cloudflare-auth.
 - DNS/custom-domain state is needs-dns-cutover.
 - Live domain readiness is not-ready.
 - Provisioning blocker: Pages D1 binding is not active.
 - Provisioning blocker: Scheduled Worker D1 binding is not active.
 - Provisioning blocker: FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch.
-- Provisioning blocker: KIE_API_KEY is not locally visible; confirm it is set directly in Cloudflare before launch.
-- Provisioning blocker: MEDIA_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch.
 
 ## Probe Details
 
 - Release evidence: pass
-- CI run ID: 28490490279
-- Manual release run ID: 28490526458
-- Visual smoke artifact ID: 7999149788
+- CI run ID: 28493350355
+- Manual release run ID: 28493402413
+- Visual smoke artifact ID: 8000142107
 - GitHub environment protection rules: 2
 - Cloudflare visible D1 names: none
 - Cloudflare visible Pages projects: none
@@ -89,11 +83,11 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - Confirm DNS is active for the apex domain.
 - Confirm the HERBALISTI_DB D1 binding is active in production.
 - Confirm FEED_ADMIN_TOKEN is set as a Cloudflare Pages secret for the protected feed-refresh endpoint.
-- Confirm KIE_API_KEY and MEDIA_ADMIN_TOKEN are set if protected Seedance endpoints remain required for launch.
+- Leave KIE_API_KEY and MEDIA_ADMIN_TOKEN disabled until approved Seedance generation is needed.
 - Run the protected POST /api/feed-refresh path or wait for the scheduled Worker until /api/health reports a fresh completed feed refresh.
 - Deploy Cloudflare Pages and the scheduled news Worker.
 - Run npm run verify:live-readiness again.
-- Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.
+- Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.
 - Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.
-- Confirm Cloudflare runtime secrets for protected refresh and media-generation features.
+- Confirm Cloudflare runtime secret setup for protected feed refresh; Seedance media secrets remain optional until approved.
 - Run npm run verify:launch again.

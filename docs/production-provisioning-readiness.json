@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T04:07:21.580Z",
+  "generatedAt": "2026-07-01T04:49:51.626Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -17,27 +17,23 @@
     "d1DatabaseIdsMatch": null,
     "r2MediaBindingActive": false,
     "requiredSecretNames": [
-      "FEED_ADMIN_TOKEN",
-      "KIE_API_KEY",
-      "MEDIA_ADMIN_TOKEN"
+      "FEED_ADMIN_TOKEN"
     ],
     "visibleRequiredSecretNames": [],
     "hiddenRequiredSecretNames": [
-      "FEED_ADMIN_TOKEN",
-      "KIE_API_KEY",
-      "MEDIA_ADMIN_TOKEN"
+      "FEED_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "639e58496290d83cd41f81b5106bc8ecf40ba94e18b2070a9d4a000677f8dbe0",
-    "externalActionsFingerprint": "1a8eef789ca6ed4f68695d4dba175c76807e4f89b41728f2950d2c631f600010",
+    "contractFingerprint": "94974b14e1e6b9d82596d664a874b3bda8d5187ee94c2e462e7ab65f110784e0",
+    "externalActionsFingerprint": "46b2afbf39cbfe4c7b9cc0a34f0c2d03d14a7fe2a544ee5c5ab95c600e4502fe",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
     "dnsNameserverProvider": "external-or-registrar",
     "productionSecretSetupStatus": "ready-for-secret-entry",
     "productionStateSnapshotStatus": "local-ready-production-pending",
-    "productionStateSnapshotBlockers": 16,
+    "productionStateSnapshotBlockers": 10,
     "githubProductionDispatchStatus": "needs-github-production-secret-names",
-    "githubProductionSecretCount": 5,
+    "githubProductionSecretCount": 3,
     "githubGeneratedSecretHelper": "available",
     "cloudflareTokenRequirementsStatus": "ready-for-token-entry",
     "cloudflareTokenRequiredPermissionCount": 4
@@ -187,9 +183,7 @@
   "productionBlockers": [
     "Pages D1 binding is not active.",
     "Scheduled Worker D1 binding is not active.",
-    "FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch.",
-    "KIE_API_KEY is not locally visible; confirm it is set directly in Cloudflare before launch.",
-    "MEDIA_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch."
+    "FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch."
   ],
   "nextApprovedAction": "set-github-production-environment-secrets",
   "manualCloudflareNextAction": "create-d1-database",
@@ -259,9 +253,7 @@
       "commands": [
         "npm run verify:production-secrets",
         "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
-        "npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti",
-        "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",
-        "npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti"
+        "npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti"
       ]
     },
     {

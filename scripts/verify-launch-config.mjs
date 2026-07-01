@@ -339,11 +339,20 @@ for (const name of ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID']) {
   )
 }
 
-for (const name of ['FEED_ADMIN_TOKEN', 'KIE_API_KEY', 'MEDIA_ADMIN_TOKEN']) {
+for (const name of ['FEED_ADMIN_TOKEN']) {
   add(
     locallyVisible[name],
     `${name} is visible in the local shell`,
     `${name} is not visible in the local shell; make sure it is set as a Cloudflare secret before using the related production feature`,
+    'warning',
+  )
+}
+
+for (const name of ['KIE_API_KEY', 'MEDIA_ADMIN_TOKEN']) {
+  add(
+    locallyVisible[name],
+    `${name} is visible in the local shell`,
+    `${name} is not visible in the local shell; this is optional until approved Seedance media generation is enabled`,
     'warning',
   )
 }
@@ -376,9 +385,9 @@ const result = {
           'Verify herbalisti.com after DNS and custom domain activation.',
         ]
       : [
-          'Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.',
+          'Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.',
           'Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.',
-          'Confirm Cloudflare runtime secrets for protected refresh and media-generation features.',
+          'Confirm Cloudflare runtime secret setup for protected feed refresh; Seedance media secrets remain optional until approved.',
           'Run npm run verify:launch again.',
         ],
   checked: {

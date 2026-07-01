@@ -87,21 +87,21 @@
       "scope": "scheduled-news-worker-and-cloudflare-pages-feed-refresh",
       "setCommand": "npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml",
       "additionalSetCommands": ["npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti"],
-      "notes": "Protects manual news refresh triggers for both the scheduled Worker and the Pages feed-refresh endpoint."
+      "notes": "Protects manual news refresh triggers for both the scheduled Worker and the Pages feed-refresh endpoint. The guarded GitHub deploy workflow can generate this runtime token without requiring a stored GitHub secret."
     },
     {
       "name": "KIE_API_KEY",
-      "requiredForLaunch": true,
+      "requiredForLaunch": false,
       "scope": "cloudflare-pages",
       "setCommand": "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",
-      "notes": "Enables protected Seedance 2.0 media job creation after approval."
+      "notes": "Optional until reviewed Seedance video generation is approved. Setting this can enable paid provider calls through protected endpoints."
     },
     {
       "name": "MEDIA_ADMIN_TOKEN",
-      "requiredForLaunch": true,
+      "requiredForLaunch": false,
       "scope": "cloudflare-pages",
       "setCommand": "npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti",
-      "notes": "Protects Seedance media job create/status endpoints."
+      "notes": "Protects optional Seedance media job create/status endpoints. The guarded GitHub deploy workflow can generate this runtime token when KIE_API_KEY is configured."
     },
     {
       "name": "OPENAI_API_KEY",

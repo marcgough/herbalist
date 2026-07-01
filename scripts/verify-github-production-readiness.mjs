@@ -21,10 +21,9 @@ const workflowPath = '.github/workflows/production-deploy.yml'
 const requiredSecretNames = [
   'CLOUDFLARE_API_TOKEN',
   'CLOUDFLARE_ACCOUNT_ID',
-  'FEED_ADMIN_TOKEN',
-  'KIE_API_KEY',
-  'MEDIA_ADMIN_TOKEN',
 ]
+const optionalSecretNames = ['KIE_API_KEY']
+const generatedRuntimeSecretNames = ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN']
 
 const read = (path) => readFileSync(resolve(root, path), 'utf8')
 const exists = (path) => existsSync(resolve(root, path))
@@ -193,8 +192,9 @@ checks.push(
   ),
 )
 
+const inspectedSecretNames = [...requiredSecretNames, ...optionalSecretNames]
 const secretScopes = Object.fromEntries(
-  requiredSecretNames.map((name) => [
+  inspectedSecretNames.map((name) => [
     name,
     {
       repository: repositorySecretNames.has(name),
@@ -256,6 +256,8 @@ const result = {
       }
     : null,
   requiredSecretNames,
+  optionalSecretNames,
+  generatedRuntimeSecretNames,
   workflowDerivedValues: ['CLOUDFLARE_D1_DATABASE_ID'],
   secretScopes,
   missingSecretNames,

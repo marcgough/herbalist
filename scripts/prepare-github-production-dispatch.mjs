@@ -51,10 +51,9 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
   const requiredSecretNames = [
     'CLOUDFLARE_API_TOKEN',
     'CLOUDFLARE_ACCOUNT_ID',
-    'FEED_ADMIN_TOKEN',
-    'KIE_API_KEY',
-    'MEDIA_ADMIN_TOKEN',
   ]
+  const optionalSecretNames = ['KIE_API_KEY']
+  const generatedRuntimeSecretNames = ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN']
   const missingGitHubSecretNames = productionState?.summary?.githubMissingSecretNames ?? requiredSecretNames
 
   const strictPreflightCommands = [
@@ -201,6 +200,8 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
     dispatchInputs,
     strictPreflightCommands,
     requiredGitHubSecretNames: requiredSecretNames,
+    optionalGitHubSecretNames: optionalSecretNames,
+    generatedRuntimeSecretNames,
     missingGitHubSecretNames,
     currentReadiness: {
       productionStateStatus: productionState?.status ?? 'missing',
@@ -251,6 +252,17 @@ export const renderGithubProductionDispatchMarkdown = (packet) => {
   for (const name of packet.requiredGitHubSecretNames) {
     const missing = packet.missingGitHubSecretNames.includes(name)
     lines.push(`- ${name}: ${missing ? 'missing' : 'present'}`)
+  }
+
+  lines.push('', '## Optional GitHub Secret Names', '')
+  for (const name of packet.optionalGitHubSecretNames) {
+    const missing = packet.missingGitHubSecretNames.includes(name)
+    lines.push(`- ${name}: ${missing ? 'optional / not set' : 'present'}`)
+  }
+
+  lines.push('', '## Generated Runtime Secret Names', '')
+  for (const name of packet.generatedRuntimeSecretNames) {
+    lines.push(`- ${name}: generated and masked during the guarded workflow`)
   }
 
   lines.push('', '## Strict Preflight', '', '```bash')

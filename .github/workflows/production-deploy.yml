@@ -61,9 +61,7 @@ jobs:
       GITHUB_TOKEN: ${{ github.token }}
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      FEED_ADMIN_TOKEN: ${{ secrets.FEED_ADMIN_TOKEN }}
       KIE_API_KEY: ${{ secrets.KIE_API_KEY }}
-      MEDIA_ADMIN_TOKEN: ${{ secrets.MEDIA_ADMIN_TOKEN }}
 
     steps:
       - name: Checkout
@@ -83,7 +81,7 @@ jobs:
         run: |
           set -euo pipefail
           missing=0
-          for name in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID FEED_ADMIN_TOKEN KIE_API_KEY MEDIA_ADMIN_TOKEN; do
+          for name in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID; do
             if [ -z "${!name:-}" ]; then
               echo "::error title=Missing production secret::$name is required for the production deployment workflow."
               missing=1
@@ -92,6 +90,25 @@ jobs:
           if [ "$missing" -ne 0 ]; then
             exit 1
           fi
+          if [ -z "${KIE_API_KEY:-}" ]; then
+            echo "KIE_API_KEY is not configured; optional Seedance media endpoints will remain disabled."
+          fi
+
+      - name: Generate runtime admin tokens
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS='=' read -r name value; do
+            echo "::add-mask::$value"
+            printf '%s=%s\n' "$name" "$value" >> "$GITHUB_ENV"
+          done < <(node --input-type=module <<'NODE'
+          import { randomBytes } from 'node:crypto'
+
+          for (const name of ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN']) {
+            console.log(`${name}=herbalisti_${randomBytes(32).toString('base64url')}`)
+          }
+          NODE
+          )
 
       - name: Verify exact release evidence
         run: npm run verify:github-release-evidence -- --commit "$GITHUB_SHA"
@@ -111,6 +128,7 @@ jobs:
           npm run verify:d1-manifest
           npm run verify:dns-cutover
           npm run verify:production-secrets
+          npm run verify:github-generated-secrets
           npm run verify:production-state
           npm run verify:production-provisioning
 
@@ -151,8 +169,12 @@ jobs:
           set -euo pipefail
           printf '%s' "$FEED_ADMIN_TOKEN" | npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
           printf '%s' "$FEED_ADMIN_TOKEN" | npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
-          printf '%s' "$KIE_API_KEY" | npx wrangler pages secret put KIE_API_KEY --project-name herbalisti
-          printf '%s' "$MEDIA_ADMIN_TOKEN" | npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti
+          if [ -n "${KIE_API_KEY:-}" ]; then
+            printf '%s' "$KIE_API_KEY" | npx wrangler pages secret put KIE_API_KEY --project-name herbalisti
+            printf '%s' "$MEDIA_ADMIN_TOKEN" | npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti
+          else
+            echo "Skipping optional Seedance media secrets because KIE_API_KEY is not configured."
+          fi
 
       - name: Deploy Cloudflare Pages
         run: npm run deploy:cloudflare

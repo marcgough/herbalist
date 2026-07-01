@@ -1,6 +1,6 @@
 # Herbalisti GitHub Production Dispatch Packet
 
-Generated: 2026-07-01T04:07:21.957Z
+Generated: 2026-07-01T04:49:02.706Z
 
 Status: needs-github-production-secret-names
 
@@ -23,9 +23,15 @@ Reads local launch contracts, workflow files, and generated readiness packets on
 
 - CLOUDFLARE_API_TOKEN: missing
 - CLOUDFLARE_ACCOUNT_ID: missing
-- FEED_ADMIN_TOKEN: missing
-- KIE_API_KEY: missing
-- MEDIA_ADMIN_TOKEN: missing
+
+## Optional GitHub Secret Names
+
+- KIE_API_KEY: present
+
+## Generated Runtime Secret Names
+
+- FEED_ADMIN_TOKEN: generated and masked during the guarded workflow
+- MEDIA_ADMIN_TOKEN: generated and masked during the guarded workflow
 
 ## Strict Preflight
 

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T04:07:21.569Z",
+  "generatedAt": "2026-07-01T04:47:02.655Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -346,7 +346,7 @@
       "id": "set-kie-api-key",
       "phase": "secrets",
       "title": "Set Kie.ai API key secret",
-      "requiredForLaunch": true,
+      "requiredForLaunch": false,
       "approvalRequired": true,
       "command": "npx wrangler pages secret put KIE_API_KEY --project-name herbalisti",
       "additionalCommands": [],
@@ -365,7 +365,7 @@
       "id": "set-media-admin-token",
       "phase": "secrets",
       "title": "Set Media Admin Token secret",
-      "requiredForLaunch": true,
+      "requiredForLaunch": false,
       "approvalRequired": true,
       "command": "npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti",
       "additionalCommands": [],
@@ -409,9 +409,7 @@
       "approvalReason": "Public deployment of the website.",
       "after": [
         "apply-remote-d1-migrations",
-        "set-feed-admin-token",
-        "set-kie-api-key",
-        "set-media-admin-token"
+        "set-feed-admin-token"
       ],
       "verification": [
         "npm run verify:live-readiness -- --strict",
@@ -477,7 +475,7 @@
       "approvalRequired": true,
       "command": "GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production; if skip_live_verification=true, also set skip_live_verification_confirm=skip-herbalisti-live-verification",
       "additionalCommands": [],
-      "externalEffect": "Runs the manual GitHub production workflow that can create or confirm the Pages project, resolve or create the D1 database by name, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, and run live verification.",
+      "externalEffect": "Runs the manual GitHub production workflow that can create or confirm the Pages project, resolve or create the D1 database by name, configure runner-local D1 bindings, apply migrations, generate masked runtime admin tokens, set Cloudflare secrets, deploy Pages and the scheduled Worker, and run live verification.",
       "approvalReason": "Public production deployment automation with Cloudflare resource, secret, D1, Worker, and live-site effects.",
       "after": [],
       "verification": [
@@ -497,14 +495,14 @@
       "secretNames": [
         "CLOUDFLARE_API_TOKEN",
         "CLOUDFLARE_ACCOUNT_ID",
-        "FEED_ADMIN_TOKEN",
-        "KIE_API_KEY",
-        "MEDIA_ADMIN_TOKEN"
+        "KIE_API_KEY"
       ],
       "notes": [
         "Requires the exact workflow input confirm=deploy-herbalisti-production.",
         "If skip_live_verification=true during DNS transition, also set skip_live_verification_confirm=skip-herbalisti-live-verification.",
         "Use the GitHub production environment approval controls before dispatch.",
+        "The workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values; they do not need to be stored as GitHub secrets for launch.",
+        "KIE_API_KEY is optional until approved Seedance media generation is needed.",
         "Run npm run verify:production-secrets, npm run verify:github-generated-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.",
         "Do not use skip_live_verification for final completion evidence."
       ]
@@ -564,9 +562,7 @@
   "productionBlockers": [
     "Pages D1 binding is not active in wrangler.toml.",
     "News Worker D1 binding is not active in wrangler.news.toml.",
-    "FEED_ADMIN_TOKEN is not locally visible; confirm it is set in Cloudflare before using the related feature.",
-    "KIE_API_KEY is not locally visible; confirm it is set in Cloudflare before using the related feature.",
-    "MEDIA_ADMIN_TOKEN is not locally visible; confirm it is set in Cloudflare before using the related feature."
+    "FEED_ADMIN_TOKEN is not locally visible; confirm it is set in Cloudflare before using the related feature."
   ],
   "completionGates": [
     "npm run verify:live-readiness -- --strict",

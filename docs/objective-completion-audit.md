@@ -1,6 +1,6 @@
 # Herbalisti Objective Completion Audit
 
-Generated: 2026-07-01T04:11:25.291Z
+Generated: 2026-07-01T04:53:46.167Z
 
 ## Objective
 
@@ -11,7 +11,7 @@ Build Herbalisti as a fully functioning website for herbalisti.com with original
 - Status: `local-ready-production-pending`
 - Goal complete: `false`
 - Local implementation ready: `true`
-- Audit signature: `434e47accafe0bd8cd3f8910f09909fffa18c5973a217580790c04ab881d99f0`
+- Audit signature: `1c0f6f7642e955ef64c1d4419f7c83020f8449470f059d643f16597773996f53`
 
 ## Completion Rule
 
@@ -33,7 +33,7 @@ Completion is only proven when every requirement is either locally proven or liv
 | independent-newsfeed |pending-production |pending_live_production_evidence |functions/api/news.js<br>functions/api/feed-refresh.js<br>functions/api/signals.xml.js<br>functions/api/source-health.js |Create the production Cloudflare D1 database.<br>Run npm run configure:cloudflare -- --d1 <database_id> --apply.<br>Deploy the scheduled news Worker. |
 | signal-intelligence |pass |locally_proven |functions/api/signal-intelligence.js<br>functions/_lib/signal-intelligence.js<br>src/App.tsx SignalIntelligencePanel<br>src/App.css signal-intelligence-panel |None |
 | non-pharma-source-governance |pass |locally_proven |functions/_lib/sources.js<br>functions/api/sources.js<br>public/data/sources.json<br>migrations/0007_source_independence_review.sql |None |
-| seedance-video-readiness |pending-production |pending_live_production_evidence |functions/api/media/seedance.js<br>functions/api/media/seedance-status.js<br>functions/_lib/media.js<br>functions/_lib/admin-auth.js |Set KIE_API_KEY and MEDIA_ADMIN_TOKEN as Cloudflare secrets.<br>Generate candidate videos only after credits are approved.<br>Review, store as owned assets, record provenance, then enable manifest slots. |
+| seedance-video-readiness |pass |locally_proven |functions/api/media/seedance.js<br>functions/api/media/seedance-status.js<br>functions/_lib/media.js<br>functions/_lib/admin-auth.js |None |
 | operational-health |pass |locally_proven |functions/api/health.js<br>scripts/verify-api.mjs<br>scripts/verify-production.mjs<br>scripts/verify-live-readiness.mjs |None |
 | production-environment-contract |pass |locally_proven |docs/production-environment-contract.json<br>docs/external-launch-actions.json<br>docs/external-launch-actions.md<br>docs/production-provisioning-readiness.json |None |
 | cloudflare-hosting |pending-production |pending_live_production_evidence |wrangler.toml<br>wrangler.news.toml<br>scripts/configure-cloudflare-bindings.mjs<br>scripts/simulate-production-cutover.mjs |Create Cloudflare Pages project herbalisti.<br>Connect herbalisti.com DNS/custom domain.<br>Create and bind Cloudflare D1 database. |
@@ -53,9 +53,9 @@ Completion is only proven when every requirement is either locally proven or liv
 
 ### Next Actions
 
-- Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.
+- Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.
 - Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.
-- Confirm Cloudflare runtime secrets for protected refresh and media-generation features.
+- Confirm Cloudflare runtime secret setup for protected feed refresh; Seedance media secrets remain optional until approved.
 - Run npm run verify:launch again.
 
 ## Production Contract
@@ -65,7 +65,7 @@ Completion is only proven when every requirement is either locally proven or liv
 - D1 database: `herbalisti`
 - News Worker: `herbalisti-news-refresh`
 - Required resources: cloudflare-pages, cloudflare-d1, scheduled-news-worker
-- Required launch secrets: FEED_ADMIN_TOKEN, KIE_API_KEY, MEDIA_ADMIN_TOKEN
+- Required launch secrets: FEED_ADMIN_TOKEN
 
 Live completion gates:
 

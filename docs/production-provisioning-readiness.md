@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-07-01T04:07:21.580Z
+Generated: 2026-07-01T04:49:51.626Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -12,7 +12,7 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - News Worker D1 binding active: false
 - D1 database IDs match: null
 - R2 media binding active: false
-- Required secret names: FEED_ADMIN_TOKEN, KIE_API_KEY, MEDIA_ADMIN_TOKEN
+- Required secret names: FEED_ADMIN_TOKEN
 - Locally visible required secret names: none
 - D1 migration count: 9
 - D1 migration manifest fingerprint: 6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3
@@ -20,9 +20,9 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - DNS nameserver provider: external-or-registrar
 - Production secret setup status: ready-for-secret-entry
 - Production state snapshot status: local-ready-production-pending
-- Production state snapshot blockers: 16
+- Production state snapshot blockers: 10
 - GitHub production dispatch status: needs-github-production-secret-names
-- GitHub production secret names: 5
+- GitHub production secret names: 3
 - GitHub generated secret helper: available
 - Cloudflare token requirement status: ready-for-token-entry
 - Cloudflare token required permissions: 4
@@ -71,8 +71,6 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - Pages D1 binding is not active.
 - Scheduled Worker D1 binding is not active.
 - FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch.
-- KIE_API_KEY is not locally visible; confirm it is set directly in Cloudflare before launch.
-- MEDIA_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch.
 
 ## Operator Sequence
 
@@ -154,8 +152,6 @@ Side effect: writes-cloudflare-secrets
 npm run verify:production-secrets
 npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
 npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
-npx wrangler pages secret put KIE_API_KEY --project-name herbalisti
-npx wrangler pages secret put MEDIA_ADMIN_TOKEN --project-name herbalisti
 ```
 
 ### deploy

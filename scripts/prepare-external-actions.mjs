@@ -298,6 +298,7 @@ const approvalRequiredActions = [
     phase: 'secrets',
     title: 'Set Kie.ai API key secret',
     command: contract.secrets.find((secret) => secret.name === 'KIE_API_KEY')?.setCommand ?? '',
+    requiredForLaunch: false,
     externalEffect: 'Stores the Kie.ai API key in Cloudflare Pages for protected Seedance jobs.',
     approvalReason: 'Writes a secret and can later enable paid media generation if separately approved.',
     secretNames: ['KIE_API_KEY'],
@@ -308,6 +309,7 @@ const approvalRequiredActions = [
     phase: 'secrets',
     title: 'Set Media Admin Token secret',
     command: contract.secrets.find((secret) => secret.name === 'MEDIA_ADMIN_TOKEN')?.setCommand ?? '',
+    requiredForLaunch: false,
     externalEffect: 'Stores a secret in Cloudflare Pages for protected media job create/status endpoints.',
     approvalReason: 'Writes a secret to Cloudflare. The value must be supplied outside chat/logs.',
     secretNames: ['MEDIA_ADMIN_TOKEN'],
@@ -330,7 +332,7 @@ const approvalRequiredActions = [
     command: command(contract.commands, 'deploy'),
     externalEffect: 'Publishes the Herbalisti website bundle to Cloudflare Pages.',
     approvalReason: 'Public deployment of the website.',
-    after: ['apply-remote-d1-migrations', 'set-feed-admin-token', 'set-kie-api-key', 'set-media-admin-token'],
+    after: ['apply-remote-d1-migrations', 'set-feed-admin-token'],
     verification: ['npm run verify:live-readiness -- --strict', 'npm run verify:production -- https://herbalisti.com'],
   }),
   approvalAction({
@@ -369,7 +371,7 @@ const approvalRequiredActions = [
     command: command(contract.commands, 'githubProductionDeploy'),
     requiredForLaunch: false,
     externalEffect:
-      'Runs the manual GitHub production workflow that can create or confirm the Pages project, resolve or create the D1 database by name, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, and run live verification.',
+      'Runs the manual GitHub production workflow that can create or confirm the Pages project, resolve or create the D1 database by name, configure runner-local D1 bindings, apply migrations, generate masked runtime admin tokens, set Cloudflare secrets, deploy Pages and the scheduled Worker, and run live verification.',
     approvalReason: 'Public production deployment automation with Cloudflare resource, secret, D1, Worker, and live-site effects.',
     verification: [
       'npm run verify:production-deploy-workflow',
@@ -388,14 +390,14 @@ const approvalRequiredActions = [
     secretNames: [
       'CLOUDFLARE_API_TOKEN',
       'CLOUDFLARE_ACCOUNT_ID',
-      'FEED_ADMIN_TOKEN',
       'KIE_API_KEY',
-      'MEDIA_ADMIN_TOKEN',
     ],
     notes: [
       'Requires the exact workflow input confirm=deploy-herbalisti-production.',
       'If skip_live_verification=true during DNS transition, also set skip_live_verification_confirm=skip-herbalisti-live-verification.',
       'Use the GitHub production environment approval controls before dispatch.',
+      'The workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values; they do not need to be stored as GitHub secrets for launch.',
+      'KIE_API_KEY is optional until approved Seedance media generation is needed.',
       'Run npm run verify:production-secrets, npm run verify:github-generated-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.',
       'Do not use skip_live_verification for final completion evidence.',
     ],

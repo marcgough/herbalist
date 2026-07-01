@@ -66,8 +66,6 @@ for (const id of [
   'create-d1-database',
   'apply-remote-d1-migrations',
   'set-feed-admin-token',
-  'set-kie-api-key',
-  'set-media-admin-token',
   'deploy-cloudflare-pages',
   'deploy-news-worker',
   'seed-production-feed',
@@ -81,6 +79,8 @@ for (const id of [
   'create-r2-bucket-optional',
   'set-openai-api-key-optional',
   'generate-herbalisti-owned-github-secrets',
+  'set-kie-api-key',
+  'set-media-admin-token',
   'run-github-production-deploy-workflow',
   'generate-seedance-video-optional',
 ]) {
@@ -113,6 +113,11 @@ assert(
 assert(
   externalActions['deploy-cloudflare-pages'].command === contract.commands.deploy[0],
   'Pages deploy command should match the production contract',
+)
+assert(
+  !externalActions['deploy-cloudflare-pages'].after.includes('set-kie-api-key') &&
+    !externalActions['deploy-cloudflare-pages'].after.includes('set-media-admin-token'),
+  'Pages deploy should not depend on optional Seedance secret setup',
 )
 assert(
   externalActions['deploy-news-worker'].command === contract.commands.deploy[1],
@@ -224,7 +229,7 @@ for (const name of [
   'KIE_API_KEY',
   'MEDIA_ADMIN_TOKEN',
 ]) {
-  assert(secretNames.includes(name), `Checklist should name required secret ${name}`)
+  assert(secretNames.includes(name), `Checklist should name managed secret ${name}`)
 }
 assert(!secretNames.includes('CLOUDFLARE_D1_DATABASE_ID'), 'D1 database ID should be resolved by the guarded workflow, not handled as a GitHub secret')
 

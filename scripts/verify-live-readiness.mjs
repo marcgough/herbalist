@@ -130,6 +130,8 @@ const requiredProductionBindings = {
 }
 const requiredProtectedFeatures = {
   feedRefresh: health.protectedFeatures?.feedRefresh === 'configured',
+}
+const optionalProtectedFeatures = {
   seedanceMediaJobs: health.protectedFeatures?.seedanceMediaJobs === 'configured',
 }
 const requiredFeedState = {
@@ -150,7 +152,6 @@ const ready =
   health.ok &&
   requiredProductionBindings.d1 &&
   requiredProtectedFeatures.feedRefresh &&
-  requiredProtectedFeatures.seedanceMediaJobs &&
   requiredFeedState.latestRefreshCompleted &&
   requiredFeedState.latestRefreshHasItems &&
   requiredFeedState.latestRefreshFresh
@@ -176,6 +177,7 @@ const result = {
     health,
       requiredProductionBindings,
       requiredProtectedFeatures,
+      optionalProtectedFeatures,
       requiredFeedState,
       feedRefreshFreshness,
     },
@@ -189,7 +191,7 @@ const result = {
         'Confirm DNS is active for the apex domain.',
         'Confirm the HERBALISTI_DB D1 binding is active in production.',
         'Confirm FEED_ADMIN_TOKEN is set as a Cloudflare Pages secret for the protected feed-refresh endpoint.',
-        'Confirm KIE_API_KEY and MEDIA_ADMIN_TOKEN are set if protected Seedance endpoints remain required for launch.',
+        'Leave KIE_API_KEY and MEDIA_ADMIN_TOKEN disabled until approved Seedance generation is needed.',
         'Run the protected POST /api/feed-refresh path or wait for the scheduled Worker until /api/health reports a fresh completed feed refresh.',
         'Deploy Cloudflare Pages and the scheduled news Worker.',
         'Run npm run verify:live-readiness again.',

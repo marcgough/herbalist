@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-07-01T04:07:21.569Z
+Generated: 2026-07-01T04:47:02.655Z
 
 Status: needs-approval-and-production-setup
 
@@ -305,7 +305,7 @@ Notes:
 
 ### Set Kie.ai API key secret
 
-Required for launch: true
+Required for launch: false
 
 External effect: Stores the Kie.ai API key in Cloudflare Pages for protected Seedance jobs.
 
@@ -324,7 +324,7 @@ Notes:
 
 ### Set Media Admin Token secret
 
-Required for launch: true
+Required for launch: false
 
 External effect: Stores a secret in Cloudflare Pages for protected media job create/status endpoints.
 
@@ -371,7 +371,7 @@ Command:
 npm run deploy:cloudflare
 ```
 
-After: apply-remote-d1-migrations, set-feed-admin-token, set-kie-api-key, set-media-admin-token
+After: apply-remote-d1-migrations, set-feed-admin-token
 
 Verification:
 - npm run verify:live-readiness -- --strict
@@ -428,7 +428,7 @@ Notes:
 
 Required for launch: false
 
-External effect: Runs the manual GitHub production workflow that can create or confirm the Pages project, resolve or create the D1 database by name, configure runner-local D1 bindings, apply migrations, set Cloudflare secrets from GitHub secrets, deploy Pages and the scheduled Worker, and run live verification.
+External effect: Runs the manual GitHub production workflow that can create or confirm the Pages project, resolve or create the D1 database by name, configure runner-local D1 bindings, apply migrations, generate masked runtime admin tokens, set Cloudflare secrets, deploy Pages and the scheduled Worker, and run live verification.
 
 Approval reason: Public production deployment automation with Cloudflare resource, secret, D1, Worker, and live-site effects.
 
@@ -438,7 +438,7 @@ Command:
 GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production; if skip_live_verification=true, also set skip_live_verification_confirm=skip-herbalisti-live-verification
 ```
 
-Secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, FEED_ADMIN_TOKEN, KIE_API_KEY, MEDIA_ADMIN_TOKEN
+Secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, KIE_API_KEY
 
 Verification:
 - npm run verify:production-deploy-workflow
@@ -458,6 +458,8 @@ Notes:
 - Requires the exact workflow input confirm=deploy-herbalisti-production.
 - If skip_live_verification=true during DNS transition, also set skip_live_verification_confirm=skip-herbalisti-live-verification.
 - Use the GitHub production environment approval controls before dispatch.
+- The workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values; they do not need to be stored as GitHub secrets for launch.
+- KIE_API_KEY is optional until approved Seedance media generation is needed.
 - Run npm run verify:production-secrets, npm run verify:github-generated-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.
 - Do not use skip_live_verification for final completion evidence.
 

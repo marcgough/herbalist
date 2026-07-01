@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-01T04:11:25.291Z",
-  "auditSignature": "434e47accafe0bd8cd3f8910f09909fffa18c5973a217580790c04ab881d99f0",
+  "generatedAt": "2026-07-01T04:53:46.167Z",
+  "auditSignature": "1c0f6f7642e955ef64c1d4419f7c83020f8449470f059d643f16597773996f53",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
   "goalComplete": false,
   "localImplementationReady": true,
   "counts": {
-    "pass": 15,
-    "pending-production": 3
+    "pass": 16,
+    "pending-production": 2
   },
   "evidenceStandard": "Completion is only proven when every requirement is either locally proven or live-production proven, and no pending-production or missing requirement remains.",
   "productionSignals": {
@@ -274,8 +274,8 @@
     {
       "id": "seedance-video-readiness",
       "requirement": "Seedance 2.0 via Kie.ai support for optional high-tech ambient video backgrounds.",
-      "status": "pending-production",
-      "proofState": "pending_live_production_evidence",
+      "status": "pass",
+      "proofState": "locally_proven",
       "evidence": [
         "functions/api/media/seedance.js",
         "functions/api/media/seedance-status.js",
@@ -286,13 +286,9 @@
         "npm run verify:admin-auth",
         "npm run verify:media-endpoints"
       ],
-      "remaining": [
-        "Set KIE_API_KEY and MEDIA_ADMIN_TOKEN as Cloudflare secrets.",
-        "Generate candidate videos only after credits are approved.",
-        "Review, store as owned assets, record provenance, then enable manifest slots."
-      ],
+      "remaining": [],
       "caveats": [
-        "Video is optional for launch; current slots stay disabled until reviewed owned assets exist."
+        "Video is optional for launch; KIE_API_KEY, candidate generation, owned storage, provenance, and enabled manifest slots remain separately approval-gated."
       ]
     },
     {
@@ -552,14 +548,14 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T04:10:11.250Z",
+      "generatedAt": "2026-07-01T04:52:46.989Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 14,
         "DNA modification": 4,
         "Peptides": 3,
         "Self-sovereign wellbeing": 1,
-        "CRISPR": 5,
+        "CRISPR": 6,
         "Gene editing": 5,
         "Gene therapy": 2,
         "Health as a service": 1
@@ -575,7 +571,7 @@
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-07-01T04:10:11.250Z"
+        "generatedAt": "2026-07-01T04:52:46.989Z"
       }
     },
     "media": {
@@ -600,8 +596,8 @@
       "CLOUDFLARE_API_TOKEN is not visible in the local shell; set it for scripted deployment or use an authenticated Wrangler session",
       "CLOUDFLARE_ACCOUNT_ID is not visible in the local shell; set it for scripted deployment or use an authenticated Wrangler session",
       "FEED_ADMIN_TOKEN is not visible in the local shell; make sure it is set as a Cloudflare secret before using the related production feature",
-      "KIE_API_KEY is not visible in the local shell; make sure it is set as a Cloudflare secret before using the related production feature",
-      "MEDIA_ADMIN_TOKEN is not visible in the local shell; make sure it is set as a Cloudflare secret before using the related production feature",
+      "KIE_API_KEY is not visible in the local shell; this is optional until approved Seedance media generation is enabled",
+      "MEDIA_ADMIN_TOKEN is not visible in the local shell; this is optional until approved Seedance media generation is enabled",
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
@@ -610,9 +606,9 @@
       "passes": 220
     },
     "nextActions": [
-      "Set the five GitHub production environment secrets listed by npm run verify:github-production-readiness.",
+      "Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.",
       "Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.",
-      "Confirm Cloudflare runtime secrets for protected refresh and media-generation features.",
+      "Confirm Cloudflare runtime secret setup for protected feed refresh; Seedance media secrets remain optional until approved.",
       "Run npm run verify:launch again."
     ]
   },
@@ -627,9 +623,7 @@
       "scheduled-news-worker"
     ],
     "requiredLaunchSecrets": [
-      "FEED_ADMIN_TOKEN",
-      "KIE_API_KEY",
-      "MEDIA_ADMIN_TOKEN"
+      "FEED_ADMIN_TOKEN"
     ],
     "safePreflight": [
       "npm run verify:launch -- --soft",
