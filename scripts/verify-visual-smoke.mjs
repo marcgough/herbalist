@@ -60,11 +60,12 @@ const routes = [
   },
   {
     id: 'search',
-    path: '/search',
-    selectors: ['.console-section', '.console-toolbar', '.search-field input'],
-    text: ['One interface for books, notes, remedies, sources, and signals.'],
+    path: '/search?q=ginger&region=Australia',
+    selectors: ['.console-section', '.console-toolbar', '.search-field input', '.lane-guidance'],
+    text: ['One interface for books, notes, remedies, sources, and signals.', 'rights-cleared archive intake'],
     interact: async (page) => {
       await page.locator('.search-field input').fill('ginger')
+      await page.locator('.lane-guidance').waitFor({ state: 'visible', timeout: uiWaitTimeoutMs })
       await page.locator('.search-group').first().waitFor({ state: 'visible', timeout: uiWaitTimeoutMs })
     },
   },

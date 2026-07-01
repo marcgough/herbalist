@@ -1,8 +1,10 @@
 {
-  "generatedAt": "2026-07-01T09:11:00.335Z",
+  "generatedAt": "2026-07-01T09:49:05.017Z",
   "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication.",
   "sourceHealthPolicy": "Source health checks report allowlisted public or independent sources only; warnings do not add fallback pharma channels.",
-  "warnings": [],
+  "warnings": [
+    "Skipped Crossref: 500 Server Error: https://api.crossref.org/works?query.bibliographic=longevity+healthspan+senescence+peptide+peptides+CRISPR+gene+therapy+gene+editing+genome+editing+DNA+modification+epigenetic+personalized+health+preventive+health+digital+health+health+as+a+service+self-sovereign+wellbeing&filter=from-pub-date%3A2024-07-01&rows=12&mailto=hello%40herbalisti.com"
+  ],
   "sourceHealth": [
     {
       "id": "pubmed",
@@ -11,7 +13,7 @@
       "sourceType": "public-research-index",
       "role": "Public biomedical metadata for frontier-biology terms.",
       "status": "empty",
-      "checkedAt": "2026-07-01T09:10:53.840Z",
+      "checkedAt": "2026-07-01T09:49:01.383Z",
       "itemCount": 10,
       "usableItemCount": 0,
       "newestItemAt": "",
@@ -26,7 +28,7 @@
       "sourceType": "public-research-index",
       "role": "Open preprint metadata for computational biology and frontier science.",
       "status": "ok",
-      "checkedAt": "2026-07-01T09:10:52.661Z",
+      "checkedAt": "2026-07-01T09:48:59.720Z",
       "itemCount": 8,
       "usableItemCount": 3,
       "newestItemAt": "2026-06-26T09:24:42.000Z",
@@ -41,7 +43,7 @@
       "sourceType": "preprint-server",
       "role": "Public biology preprint metadata for longevity and biotechnology topics.",
       "status": "ok",
-      "checkedAt": "2026-07-01T09:10:57.459Z",
+      "checkedAt": "2026-07-01T09:49:01.960Z",
       "itemCount": 3,
       "usableItemCount": 1,
       "newestItemAt": "2026-06-01T00:00:00.000Z",
@@ -55,12 +57,12 @@
       "url": "https://www.crossref.org/",
       "sourceType": "public-research-index",
       "role": "Public scholarly metadata expansion for longevity and frontier biology.",
-      "status": "ok",
-      "checkedAt": "2026-07-01T09:11:00.335Z",
-      "itemCount": 4,
-      "usableItemCount": 4,
-      "newestItemAt": "2026-05-01T00:00:00.000Z",
-      "warning": "",
+      "status": "warning",
+      "checkedAt": "2026-07-01T09:49:05.017Z",
+      "itemCount": 0,
+      "usableItemCount": 0,
+      "newestItemAt": "",
+      "warning": "Skipped Crossref: 500 Server Error: https://api.crossref.org/works?query.bibliographic=longevity+healthspan+senescence+peptide+peptides+CRISPR+gene+therapy+gene+editing+genome+editing+DNA+modification+epigenetic+personalized+health+preventive+health+digital+health+health+as+a+service+self-sovereign+wellbeing&filter=from-pub-date%3A2024-07-01&rows=12&mailto=hello%40herbalisti.com",
       "isAllowlisted": true,
       "isBigPharmaRelated": false
     },
@@ -71,7 +73,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity coverage from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-01T09:10:53.476Z",
+      "checkedAt": "2026-07-01T09:48:59.843Z",
       "itemCount": 8,
       "usableItemCount": 5,
       "newestItemAt": "2026-06-30T16:21:38.000Z",
@@ -86,7 +88,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity commentary from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-01T09:10:53.767Z",
+      "checkedAt": "2026-07-01T09:49:04.132Z",
       "itemCount": 8,
       "usableItemCount": 6,
       "newestItemAt": "2026-06-30T18:35:31.000Z",
@@ -280,6 +282,19 @@
       "sourceType": "public-research-index"
     },
     {
+      "id": "watch-arxiv-crispr-editing",
+      "title": "arXiv CRISPR and gene editing signal lane",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/search/advanced?terms-0-term=CRISPR&terms-0-operator=AND&terms-0-field=all",
+      "publishedAt": "2026-06-15T00:00:00.000Z",
+      "summary": "Open preprint metadata lane for CRISPR, genome editing, and computational biology signals.",
+      "topics": [
+        "CRISPR",
+        "Gene editing"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
       "id": "watch-lifespan-independent-longevity",
       "title": "Lifespan.io independent longevity signal lane",
       "sourceName": "Lifespan.io",
@@ -303,58 +318,6 @@
         "Longevity"
       ],
       "sourceType": "preprint-server"
-    },
-    {
-      "id": "crossref-1vdipj2",
-      "title": "CRISPR Genome Editing and the Future of Leukaemia Immunotherapy",
-      "sourceName": "Crossref",
-      "url": "https://doi.org/10.1002/hsr2.72497",
-      "publishedAt": "2026-05-01T00:00:00.000Z",
-      "summary": "Public Crossref metadata from Health Science Reports.",
-      "topics": [
-        "Gene editing",
-        "CRISPR"
-      ],
-      "sourceType": "public-research-index"
-    },
-    {
-      "id": "crossref-925bek",
-      "title": "Therapeutic applications of CRISPR-Cas9 gene editing",
-      "sourceName": "Crossref",
-      "url": "https://doi.org/10.3389/fgeed.2025.1724291",
-      "publishedAt": "2025-12-16T00:00:00.000Z",
-      "summary": "Public Crossref metadata from Frontiers in Genome Editing.",
-      "topics": [
-        "Gene editing",
-        "CRISPR"
-      ],
-      "sourceType": "public-research-index"
-    },
-    {
-      "id": "crossref-15fszgf",
-      "title": "Current Applications and Future Perspective of CRISPR/Cas9 Gene Editing in Cancer Therapy",
-      "sourceName": "Crossref",
-      "url": "https://doi.org/10.62051/ijphmr.v5n1.06",
-      "publishedAt": "2025-10-22T00:00:00.000Z",
-      "summary": "Public Crossref metadata from International Journal of Public Health and Medical Research.",
-      "topics": [
-        "Gene editing",
-        "CRISPR"
-      ],
-      "sourceType": "public-research-index"
-    },
-    {
-      "id": "crossref-bjs524",
-      "title": "Review of Current Applications of CRISPR Gene Editing Techniques in Breast Cancer Therapeutics Development",
-      "sourceName": "Crossref",
-      "url": "https://doi.org/10.52403/ijhsr.20250745",
-      "publishedAt": "2025-08-01T00:00:00.000Z",
-      "summary": "Public Crossref metadata from International Journal of Health Sciences and Research.",
-      "topics": [
-        "Gene editing",
-        "CRISPR"
-      ],
-      "sourceType": "public-research-index"
     }
   ]
 }

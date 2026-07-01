@@ -7,8 +7,37 @@ import { getRemediesPayload } from './remedies.js'
 import { getSourcesPayload } from './sources.js'
 
 const normalizeQuery = (value) => String(value ?? '').trim().slice(0, 120)
+const globalSearchGroups = ['Herbs', 'Remedies', 'Signals', 'Notes', 'Sources']
 
 const limitResults = (items, limit = 4) => items.slice(0, limit)
+
+const buildRegionGuidance = (region, referenceTotal = 0) => {
+  const normalizedRegion = region || 'All lanes'
+  const filtered = normalizedRegion !== 'All lanes'
+  const status =
+    normalizedRegion === 'Australia' && referenceTotal === 0
+      ? 'prepared-not-populated'
+      : filtered && referenceTotal === 0
+        ? 'no-reference-matches'
+        : 'active'
+
+  const message =
+    normalizedRegion === 'Australia' && referenceTotal === 0
+      ? 'Australia references are queued for rights-cleared archive intake; herbs, remedies, notes, sources, and signals remain global.'
+      : filtered
+        ? `${normalizedRegion} filters the References group; herbs, remedies, notes, sources, and signals remain global.`
+        : 'All reference lanes are included; herbs, remedies, notes, sources, and signals remain global.'
+
+  return {
+    lane: normalizedRegion,
+    status,
+    referenceFiltered: filtered,
+    referenceTotal,
+    appliesTo: ['References'],
+    globalResultTypes: globalSearchGroups,
+    message,
+  }
+}
 
 const bookResult = (book) => ({
   id: `book-${book.id}`,
@@ -97,6 +126,7 @@ export const getSearchPayload = async (env, filters = {}) => {
       generatedAt: new Date().toISOString(),
       source: env.HERBALISTI_DB ? 'd1-and-live-public-sources' : 'static-and-live-public-sources',
       filters: { query, region },
+      regionGuidance: buildRegionGuidance(region, 0),
       total: 0,
       groups: [],
     }
@@ -171,6 +201,7 @@ export const getSearchPayload = async (env, filters = {}) => {
           ? 'd1-and-live-public-sources'
           : 'static-and-live-public-sources',
     filters: { query, region },
+    regionGuidance: buildRegionGuidance(region, books.total),
     total: groups.reduce((sum, group) => sum + group.total, 0),
     groups,
   }

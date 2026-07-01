@@ -186,6 +186,18 @@ assert(
   '/api/search should allow US-lane reference filtering',
 )
 
+const australiaSearch = await readJson('/api/search?query=ginger&region=Australia')
+assert(
+  australiaSearch.regionGuidance?.lane === 'Australia' &&
+    australiaSearch.regionGuidance?.status === 'prepared-not-populated',
+  '/api/search should expose Australia lane preparation guidance when no rights-cleared references are populated',
+)
+assert(
+  australiaSearch.regionGuidance?.message?.includes('rights-cleared archive intake') &&
+    australiaSearch.regionGuidance?.message?.includes('remain global'),
+  '/api/search Australia guidance should explain that non-reference search layers remain global',
+)
+
 const herbalKnowledge = await readJson('/api/herbal-knowledge')
 assert(Array.isArray(herbalKnowledge.records), '/api/herbal-knowledge must return records array')
 assert(

@@ -1161,6 +1161,23 @@ main:focus-visible {
   margin: -6px 0 24px;
 }
 
+.lane-guidance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 8px;
+  color: var(--titanium);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: right;
+}
+
+.lane-guidance svg {
+  flex: 0 0 auto;
+  margin-top: 1px;
+}
+
 .search-field {
   display: flex;
   min-height: 52px;
@@ -2560,6 +2577,11 @@ footer p {
 
   .segmented-control {
     justify-content: flex-start;
+  }
+
+  .lane-guidance {
+    justify-content: flex-start;
+    text-align: left;
   }
 
   .feed-warning {

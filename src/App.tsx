@@ -296,6 +296,16 @@ type SearchGroup = {
   items: SearchResult[]
 }
 
+type SearchRegionGuidance = {
+  lane: string
+  status: 'active' | 'no-reference-matches' | 'prepared-not-populated'
+  referenceFiltered: boolean
+  referenceTotal: number
+  appliesTo: string[]
+  globalResultTypes: string[]
+  message: string
+}
+
 type SearchPayload = {
   generatedAt?: string
   source?: string
@@ -304,6 +314,7 @@ type SearchPayload = {
     query?: string
     region?: string
   }
+  regionGuidance?: SearchRegionGuidance
   groups?: SearchGroup[]
 }
 
@@ -1201,6 +1212,35 @@ const summarizeSearchGroups = (groups: SearchGroup[] = []) => {
   return `${labels.slice(0, -1).join(', ')}, and ${labels[labels.length - 1]}`
 }
 
+const buildSearchRegionGuidance = (
+  region: BookRegionFilter,
+  groups: SearchGroup[] = [],
+): SearchRegionGuidance | null => {
+  if (region === 'All lanes') {
+    return null
+  }
+
+  const referenceTotal = groups.find((group) => group.id === 'references')?.total ?? 0
+
+  return {
+    lane: region,
+    status:
+      region === 'Australia' && referenceTotal === 0
+        ? 'prepared-not-populated'
+        : referenceTotal > 0
+          ? 'active'
+          : 'no-reference-matches',
+    referenceFiltered: true,
+    referenceTotal,
+    appliesTo: ['References'],
+    globalResultTypes: ['Herbs', 'Remedies', 'Signals', 'Notes', 'Sources'],
+    message:
+      region === 'Australia' && referenceTotal === 0
+        ? 'Australia references are queued for rights-cleared archive intake; herbs, remedies, notes, sources, and signals remain global.'
+        : `${region} filters the References group; herbs, remedies, notes, sources, and signals remain global.`,
+  }
+}
+
 const readableRefreshTrigger = (trigger?: string) => {
   switch (trigger) {
     case 'scheduled':
@@ -1579,6 +1619,7 @@ function App() {
   const [globalQuery, setGlobalQuery] = useState(() => urlParam('q'))
   const [searchGroups, setSearchGroups] = useState<SearchGroup[]>([])
   const [searchStatus, setSearchStatus] = useState('Unified research console')
+  const [searchRegionGuidance, setSearchRegionGuidance] = useState<SearchRegionGuidance | null>(null)
   const [loadedSearchRequestKey, setLoadedSearchRequestKey] = useState('')
   const [searchFallbackIndex, setSearchFallbackIndex] = useState<SearchFallbackIndex>(defaultSearchFallbackIndex)
   const [searchFallbackSourceLabel, setSearchFallbackSourceLabel] = useState('local seed')
@@ -1715,6 +1756,12 @@ function App() {
     : searchLoading
     ? fallbackSearchTotal
     : searchGroups.reduce((sum, group) => sum + group.total, 0)
+  const activeSearchRegionGuidance =
+    searchRegion === 'All lanes'
+      ? null
+      : loadedSearchRequestKey === searchRequestKey && searchRegionGuidance?.lane === searchRegion
+        ? searchRegionGuidance
+        : buildSearchRegionGuidance(searchRegion, visibleSearchGroups)
   const activeSearchStatus = trimmedGlobalQuery
     ? fallbackSearchPending
       ? 'Loading indexed records...'
@@ -2092,6 +2139,7 @@ function App() {
       .then((payload) => {
         if (active && Array.isArray(payload.groups)) {
           setSearchGroups(payload.groups)
+          setSearchRegionGuidance(payload.regionGuidance ?? buildSearchRegionGuidance(searchRegion, payload.groups))
           setSearchStatus(`${payload.total ?? 0} matches from ${readableSource(payload.source)}`)
           setLoadedSearchRequestKey(searchRequestKey)
         }
@@ -2110,6 +2158,7 @@ function App() {
           const fallbackGroups = buildFallbackSearchGroups(query, searchFallbackIndex, searchRegion)
           const total = fallbackGroups.reduce((sum, group) => sum + group.total, 0)
           setSearchGroups(fallbackGroups)
+          setSearchRegionGuidance(buildSearchRegionGuidance(searchRegion, fallbackGroups))
           setSearchStatus(`${total} matches from ${searchFallbackSourceLabel}`)
           setLoadedSearchRequestKey(searchRequestKey)
         }
@@ -2890,6 +2939,7 @@ function App() {
                 className={mode === searchRegion ? 'active' : ''}
                 onClick={() => {
                   setSearchRegion(mode)
+                  setSearchRegionGuidance(null)
                   setLoadedSearchRequestKey('')
                 }}
               >
@@ -2897,6 +2947,12 @@ function App() {
               </button>
             ))}
           </div>
+          {activeSearchRegionGuidance ? (
+            <div className="lane-guidance" role="status">
+              <Globe2 size={16} />
+              <span>{activeSearchRegionGuidance.message}</span>
+            </div>
+          ) : null}
         </div>
 
         {trimmedGlobalQuery ? (

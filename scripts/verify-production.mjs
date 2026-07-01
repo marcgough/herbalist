@@ -775,6 +775,17 @@ assert(
   unifiedSearch.groups.every((group) => typeof group.total === 'number' && Array.isArray(group.items)),
   'Unified search API groups should include totals and result arrays',
 )
+const australiaSearch = await fetchJson('/api/search?query=ginger&region=Australia', 'Australia unified search API')
+assert(
+  australiaSearch.regionGuidance?.lane === 'Australia' &&
+    australiaSearch.regionGuidance?.status === 'prepared-not-populated',
+  'Australia unified search API should expose prepared-not-populated lane guidance',
+)
+assert(
+  australiaSearch.regionGuidance?.message?.includes('rights-cleared archive intake') &&
+    australiaSearch.regionGuidance?.message?.includes('remain global'),
+  'Australia unified search API should explain that non-reference search layers remain global',
+)
 
 const sources = await fetchJson('/api/sources', 'Sources API')
 assert(Array.isArray(sources.sources), 'Sources API should return a sources array')
