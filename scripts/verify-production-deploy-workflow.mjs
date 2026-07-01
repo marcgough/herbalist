@@ -40,8 +40,8 @@ assert(workflow.includes('url: https://herbalisti.com'), 'Production deploy work
 assert(workflow.includes('permissions:'), 'Production deploy workflow should declare permissions')
 assert(workflow.includes('contents: read'), 'Production deploy workflow should use read-only contents permission')
 assert(workflow.includes('actions: read'), 'Production deploy workflow should use read-only Actions permission')
-assert(workflow.includes('actions/checkout@v4'), 'Production deploy workflow should use checkout v4')
-assert(workflow.includes('actions/setup-node@v4'), 'Production deploy workflow should use setup-node v4')
+assert(workflow.includes('actions/checkout@v5'), 'Production deploy workflow should use checkout v5')
+assert(workflow.includes('actions/setup-node@v5'), 'Production deploy workflow should use setup-node v5')
 assert(workflow.includes('node-version: "24"'), 'Production deploy workflow should pin Node.js 24')
 assert(workflow.includes('npm ci'), 'Production deploy workflow should install from the lockfile')
 
@@ -128,7 +128,7 @@ for (const command of [
   'npm run verify:production -- https://herbalisti.com',
   'npm run verify:goal-readiness -- --strict',
   'npm run prepare:production-deploy-evidence',
-  'actions/upload-artifact@v4',
+  'actions/upload-artifact@v5',
   'herbalisti-production-deploy-evidence',
   'output/production-deploy',
   'retention-days: 90',
