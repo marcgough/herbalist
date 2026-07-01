@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-07-01T10:54:59.719Z
+Generated: 2026-07-01T11:54:24.388Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -20,7 +20,8 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - DNS nameserver provider: external-or-registrar
 - Production secret setup status: ready-for-secret-entry
 - Production state snapshot status: local-ready-production-pending
-- Production state snapshot blockers: 10
+- Production state snapshot blockers: 11
+- Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - GitHub production dispatch status: needs-github-production-secret-names
 - GitHub production secret names: 3
 - GitHub generated secret helper: available

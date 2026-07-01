@@ -106,6 +106,14 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
   const releaseEvidenceProbe = run('github-release-evidence', releaseEvidenceArgs, {
     timeout: 45000,
   })
+  const deployEvidenceArtifactArgs = ['scripts/verify-production-deploy-evidence-artifact.mjs']
+  if (commit) {
+    deployEvidenceArtifactArgs.push('--commit', commit)
+  }
+
+  const deployEvidenceArtifactProbe = run('production-deploy-evidence-artifact', deployEvidenceArtifactArgs, {
+    timeout: 60000,
+  })
   const githubProbe = run(
     'github-production-readiness',
     ['scripts/verify-github-production-readiness.mjs', '--skip-release-evidence'],
@@ -131,9 +139,13 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
   const cloudflareStatus = cloudflare?.status ?? 'unavailable'
   const dnsStatus = dns?.status ?? 'unavailable'
   const liveStatus = live?.status ?? 'unavailable'
+  const deployEvidenceArtifactStatus = deployEvidenceArtifactProbe.data?.status ?? 'unavailable'
 
   const blockers = unique([
     ...pendingRequirementIds.map((item) => `Completion audit pending: ${item}.`),
+    ...(deployEvidenceArtifactStatus === 'pass'
+      ? []
+      : [`Production deploy evidence artifact readback is ${deployEvidenceArtifactStatus}.`]),
     ...githubMissingSecrets.map((name) => `GitHub production secret name missing: ${name}.`),
     ...(cloudflareStatus === 'ready-for-live-verification' || cloudflareStatus === 'ready-with-cloudflare-warnings'
       ? []
@@ -143,11 +155,16 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
     ...(provisioning?.productionBlockers ?? []).map((item) => `Provisioning blocker: ${item}`),
   ])
 
-  const status = completionAudit?.goalComplete && liveStatus === 'ready-for-production-verification'
+  const productionEvidenceComplete =
+    completionAudit?.goalComplete &&
+    liveStatus === 'ready-for-production-verification' &&
+    deployEvidenceArtifactStatus === 'pass'
+
+  const status = productionEvidenceComplete
     ? 'complete'
     : completionAudit?.localImplementationReady
-    ? 'local-ready-production-pending'
-    : 'incomplete'
+      ? 'local-ready-production-pending'
+      : 'incomplete'
 
   const checks = [
     checkItem(
@@ -161,6 +178,13 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
       releaseEvidenceProbe.ok
         ? `Release evidence is ${releaseEvidence.status} for ${releaseEvidence.commit}.`
         : 'Release evidence probe did not return a current JSON payload.',
+    ),
+    checkItem(
+      'production-deploy-evidence-artifact-captured',
+      deployEvidenceArtifactProbe.ok ? 'pass' : 'warning',
+      deployEvidenceArtifactProbe.ok
+        ? `Production deploy evidence artifact status is ${deployEvidenceArtifactStatus}.`
+        : 'Production deploy evidence artifact probe did not return a current JSON payload.',
     ),
     checkItem(
       'github-production-readiness-captured',
@@ -199,7 +223,7 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
     status,
     productionComplete: status === 'complete',
     safeToRun:
-      'Reads local launch artifacts, public DNS, public live-domain responses, GitHub readiness metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.',
+      'Reads local launch artifacts, public DNS, public live-domain responses, GitHub release/deploy artifact metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.',
     project: contract.project,
     git: {
       branch,
@@ -213,6 +237,7 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
       localImplementationReady: Boolean(completionAudit?.localImplementationReady),
       pendingRequirementCount: pendingRequirementIds.length,
       releaseEvidenceStatus: releaseEvidenceProbe.data?.status ?? 'unavailable',
+      productionDeployEvidenceArtifactStatus: deployEvidenceArtifactStatus,
       githubProductionReadinessStatus: github?.status ?? 'unavailable',
       githubMissingSecretNames: githubMissingSecrets,
       cloudflareProductionStateStatus: cloudflareStatus,
@@ -230,6 +255,12 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
       ...(cloudflare?.nextActions ?? []),
       ...(dns?.nextActions ?? []),
       ...(live?.nextActions ?? []),
+      ...(deployEvidenceArtifactStatus === 'pass'
+        ? []
+        : [
+            deployEvidenceArtifactProbe.data?.strictCompletionCommand ||
+              'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
+          ]),
       ...(completionAudit?.launchReadiness?.nextActions ?? []),
     ]),
     probes: {
@@ -239,6 +270,14 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
         ciRunId: releaseEvidence?.ciRun?.id ?? null,
         manualReleaseRunId: releaseEvidence?.manualReleaseRun?.id ?? null,
         artifactId: releaseEvidence?.artifact?.id ?? null,
+      },
+      productionDeployEvidenceArtifact: {
+        summary: summarizeProbe(deployEvidenceArtifactProbe),
+        runId: deployEvidenceArtifactProbe.data?.run?.id ?? null,
+        artifactId: deployEvidenceArtifactProbe.data?.artifact?.id ?? null,
+        artifactDigest: deployEvidenceArtifactProbe.data?.artifact?.digest ?? null,
+        strictCompletionCommand: deployEvidenceArtifactProbe.data?.strictCompletionCommand ?? null,
+        detail: deployEvidenceArtifactProbe.data?.detail ?? null,
       },
       githubProductionReadiness: {
         summary: summarizeProbe(githubProbe),
@@ -310,6 +349,7 @@ export const renderProductionStateMarkdown = (packet) => {
     `- Goal complete: ${packet.summary.goalComplete}`,
     `- Local implementation ready: ${packet.summary.localImplementationReady}`,
     `- Pending requirement count: ${packet.summary.pendingRequirementCount}`,
+    `- Production deploy evidence artifact: ${packet.summary.productionDeployEvidenceArtifactStatus}`,
     `- GitHub production readiness: ${packet.summary.githubProductionReadinessStatus}`,
     `- Missing GitHub production secret names: ${packet.summary.githubMissingSecretNames.join(', ') || 'none'}`,
     `- Cloudflare production state: ${packet.summary.cloudflareProductionStateStatus}`,
@@ -342,6 +382,14 @@ export const renderProductionStateMarkdown = (packet) => {
   lines.push(`- CI run ID: ${packet.probes.releaseEvidence.ciRunId ?? 'unknown'}`)
   lines.push(`- Manual release run ID: ${packet.probes.releaseEvidence.manualReleaseRunId ?? 'unknown'}`)
   lines.push(`- Visual smoke artifact ID: ${packet.probes.releaseEvidence.artifactId ?? 'unknown'}`)
+  lines.push(`- Production deploy evidence artifact: ${packet.probes.productionDeployEvidenceArtifact.summary.status}`)
+  lines.push(`- Production deploy run ID: ${packet.probes.productionDeployEvidenceArtifact.runId ?? 'pending'}`)
+  lines.push(`- Production deploy evidence artifact ID: ${packet.probes.productionDeployEvidenceArtifact.artifactId ?? 'pending'}`)
+  lines.push(
+    `- Production deploy evidence artifact digest: ${
+      packet.probes.productionDeployEvidenceArtifact.artifactDigest ?? 'pending'
+    }`,
+  )
   lines.push(`- GitHub environment protection rules: ${packet.probes.githubProductionReadiness.protectionRuleCount ?? 'unknown'}`)
   lines.push(`- Cloudflare visible D1 names: ${packet.probes.cloudflareProductionState.visibleState?.d1DatabaseNames?.join(', ') || 'none'}`)
   lines.push(`- Cloudflare visible Pages projects: ${packet.probes.cloudflareProductionState.visibleState?.pagesProjectNames?.join(', ') || 'none'}`)
@@ -381,7 +429,15 @@ const validateStoredSnapshot = () => {
   assert(['complete', 'local-ready-production-pending', 'incomplete'].includes(packet.status), 'Snapshot status should be known')
   assert(packet.safeToRun?.includes('does not set secrets'), 'Snapshot should state the no-secret/no-deploy boundary')
   assert(packet.summary && typeof packet.summary.blockerCount === 'number', 'Snapshot should include a summary with blocker count')
+  assert(
+    typeof packet.summary.productionDeployEvidenceArtifactStatus === 'string',
+    'Snapshot should include production deploy evidence artifact status',
+  )
   assert(packet.probes?.githubProductionReadiness, 'Snapshot should include GitHub production readiness probe data')
+  assert(
+    packet.probes?.productionDeployEvidenceArtifact,
+    'Snapshot should include production deploy evidence artifact probe data',
+  )
   assert(packet.probes?.cloudflareProductionState, 'Snapshot should include Cloudflare production state probe data')
   assert(packet.probes?.dnsCutover, 'Snapshot should include DNS cutover probe data')
   assert(packet.probes?.liveReadiness, 'Snapshot should include live readiness probe data')
@@ -417,6 +473,24 @@ const validateCurrentSnapshot = (packet) => {
   assert(packet.probes.releaseEvidence.ciRunId, 'Current release evidence should include a CI run ID')
   assert(packet.probes.releaseEvidence.manualReleaseRunId, 'Current release evidence should include a manual release run ID')
   assert(packet.probes.releaseEvidence.artifactId, 'Current release evidence should include a visual smoke artifact ID')
+  assert.equal(
+    packet.probes?.productionDeployEvidenceArtifact?.summary?.ok,
+    true,
+    'Current production state should include production deploy evidence artifact readback status',
+  )
+  assert(
+    ['pass', 'pending-production-deploy-evidence-artifact'].includes(
+      packet.probes.productionDeployEvidenceArtifact.summary.status,
+    ),
+    'Current production deploy evidence artifact status should be pass or pending-production-deploy-evidence-artifact',
+  )
+  if (packet.productionComplete) {
+    assert.equal(
+      packet.probes.productionDeployEvidenceArtifact.summary.status,
+      'pass',
+      'Complete production state requires production deploy evidence artifact readback to pass',
+    )
+  }
   assert.equal(secretValuePattern.test(`${serialized}\n${rendered}`), false, 'Current snapshot must not contain secret-looking values')
 
   return packet
@@ -450,8 +524,11 @@ if (check) {
         ciRunId: packet.probes.releaseEvidence.ciRunId,
         manualReleaseRunId: packet.probes.releaseEvidence.manualReleaseRunId,
         artifactId: packet.probes.releaseEvidence.artifactId,
+        productionDeployEvidenceArtifactStatus: packet.probes.productionDeployEvidenceArtifact.summary.status,
+        productionDeployRunId: packet.probes.productionDeployEvidenceArtifact.runId,
+        productionDeployEvidenceArtifactId: packet.probes.productionDeployEvidenceArtifact.artifactId,
         safeToRun:
-          'Regenerates the production state in memory for the current git commit and checks public GitHub release evidence. It does not write files, deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values.',
+          'Regenerates the production state in memory for the current git commit and checks public GitHub release plus production deploy evidence metadata. It does not write files, deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values.',
       },
       null,
       2,

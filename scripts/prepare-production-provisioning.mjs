@@ -267,6 +267,8 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       productionSecretSetupStatus: productionSecretSetup?.status ?? 'missing',
       productionStateSnapshotStatus: productionStateSnapshot?.status ?? 'missing',
       productionStateSnapshotBlockers: productionStateSnapshot?.summary?.blockerCount ?? null,
+      productionDeployEvidenceArtifactStatus:
+        productionStateSnapshot?.summary?.productionDeployEvidenceArtifactStatus ?? 'unknown',
       githubProductionDispatchStatus: githubProductionDispatch?.status ?? 'missing',
       githubProductionSecretCount: productionSecretSetup?.githubProductionEnvironment?.secrets?.length ?? 0,
       githubGeneratedSecretHelper: productionSecretSetup?.githubProductionEnvironment?.generatedSecretHelper
@@ -399,6 +401,7 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     `- Production secret setup status: ${packet.currentState.productionSecretSetupStatus}`,
     `- Production state snapshot status: ${packet.currentState.productionStateSnapshotStatus}`,
     `- Production state snapshot blockers: ${packet.currentState.productionStateSnapshotBlockers}`,
+    `- Production deploy evidence artifact: ${packet.currentState.productionDeployEvidenceArtifactStatus}`,
     `- GitHub production dispatch status: ${packet.currentState.githubProductionDispatchStatus}`,
     `- GitHub production secret names: ${packet.currentState.githubProductionSecretCount}`,
     `- GitHub generated secret helper: ${packet.currentState.githubGeneratedSecretHelper}`,

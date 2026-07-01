@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T10:55:15.000Z",
+  "generatedAt": "2026-07-01T11:54:24.673Z",
   "status": "needs-github-production-secret-entry",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.",
@@ -16,6 +16,7 @@
     "goalComplete": false,
     "productionStateStatus": "local-ready-production-pending",
     "releaseEvidenceStatus": "pass",
+    "productionDeployEvidenceArtifactStatus": "pending-production-deploy-evidence-artifact",
     "releaseEvidencePolicy": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.",
     "githubProductionReadinessStatus": "needs-github-production-setup",
     "missingGitHubSecretNames": [
@@ -28,7 +29,7 @@
     "dnsNameserverProvider": "external-or-registrar",
     "liveReadinessStatus": "not-ready",
     "productionProvisioningStatus": "ready-for-approved-production-provisioning",
-    "productionBlockerCount": 13
+    "productionBlockerCount": 14
   },
   "secretBoundary": {
     "requiredGitHubSecretNames": [
@@ -153,6 +154,7 @@
   "productionBlockers": [
     "Completion audit pending: independent-newsfeed: pending-production.",
     "Completion audit pending: cloudflare-hosting: pending-production.",
+    "Production deploy evidence artifact readback is pending-production-deploy-evidence-artifact.",
     "GitHub production secret name missing: CLOUDFLARE_API_TOKEN.",
     "GitHub production secret name missing: CLOUDFLARE_ACCOUNT_ID.",
     "Cloudflare production state is needs-cloudflare-auth.",
@@ -181,14 +183,14 @@
     {
       "path": "docs/production-state-snapshot.json",
       "version": 1,
-      "generatedAt": "2026-07-01T09:07:41.432Z",
+      "generatedAt": "2026-07-01T11:52:09.520Z",
       "status": "local-ready-production-pending",
       "productionComplete": false
     },
     {
       "path": "docs/github-production-dispatch.json",
       "version": 1,
-      "generatedAt": "2026-07-01T10:54:59.206Z",
+      "generatedAt": "2026-07-01T11:53:23.891Z",
       "status": "needs-github-production-secret-names",
       "productionComplete": false
     },
@@ -216,7 +218,7 @@
     {
       "path": "docs/production-provisioning-readiness.json",
       "version": 1,
-      "generatedAt": "2026-07-01T10:54:59.719Z",
+      "generatedAt": "2026-07-01T11:54:24.388Z",
       "status": "ready-for-approved-production-provisioning",
       "productionComplete": false
     },

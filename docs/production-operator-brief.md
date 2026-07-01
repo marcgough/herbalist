@@ -1,6 +1,6 @@
 # Herbalisti Production Operator Brief
 
-Generated: 2026-07-01T10:55:15.000Z
+Generated: 2026-07-01T11:54:24.673Z
 
 Status: needs-github-production-secret-entry
 
@@ -13,6 +13,7 @@ Reads local launch contracts and generated readiness packets, then optionally wr
 - Goal complete: false
 - Production state: local-ready-production-pending
 - Release evidence: pass
+- Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - Release evidence policy: Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.
 - GitHub production readiness: needs-github-production-setup
 - Missing GitHub secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
@@ -22,7 +23,7 @@ Reads local launch contracts and generated readiness packets, then optionally wr
 - DNS provider: external-or-registrar
 - Live readiness: not-ready
 - Production provisioning: ready-for-approved-production-provisioning
-- Production blocker count: 13
+- Production blocker count: 14
 
 ## Secret Boundary
 
@@ -136,6 +137,7 @@ npm run verify:goal-readiness -- --strict
 
 - Completion audit pending: independent-newsfeed: pending-production.
 - Completion audit pending: cloudflare-hosting: pending-production.
+- Production deploy evidence artifact readback is pending-production-deploy-evidence-artifact.
 - GitHub production secret name missing: CLOUDFLARE_API_TOKEN.
 - GitHub production secret name missing: CLOUDFLARE_ACCOUNT_ID.
 - Cloudflare production state is needs-cloudflare-auth.

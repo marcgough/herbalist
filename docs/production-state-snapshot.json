@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T09:07:41.432Z",
+  "generatedAt": "2026-07-01T11:52:09.520Z",
   "status": "local-ready-production-pending",
   "productionComplete": false,
-  "safeToRun": "Reads local launch artifacts, public DNS, public live-domain responses, GitHub readiness metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.",
+  "safeToRun": "Reads local launch artifacts, public DNS, public live-domain responses, GitHub release/deploy artifact metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.",
   "project": {
     "domain": "herbalisti.com",
     "pagesProject": "herbalisti",
@@ -13,7 +13,7 @@
   },
   "git": {
     "branch": "main",
-    "commit": "ceccce7a93e3c238f7399d865d6390d31393eb6a",
+    "commit": "b3663d46527135d55c0e1e6bb302d70545ecc19c",
     "note": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence."
   },
   "summary": {
@@ -22,6 +22,7 @@
     "localImplementationReady": true,
     "pendingRequirementCount": 2,
     "releaseEvidenceStatus": "pass",
+    "productionDeployEvidenceArtifactStatus": "pending-production-deploy-evidence-artifact",
     "githubProductionReadinessStatus": "needs-github-production-setup",
     "githubMissingSecretNames": [
       "CLOUDFLARE_API_TOKEN",
@@ -33,7 +34,7 @@
     "dnsNameserverProvider": "external-or-registrar",
     "liveReadinessStatus": "not-ready",
     "productionProvisioningStatus": "ready-for-approved-production-provisioning",
-    "blockerCount": 10
+    "blockerCount": 11
   },
   "checks": [
     {
@@ -44,7 +45,12 @@
     {
       "id": "github-release-evidence-captured",
       "status": "pass",
-      "detail": "Release evidence is pass for ceccce7a93e3c238f7399d865d6390d31393eb6a."
+      "detail": "Release evidence is pass for b3663d46527135d55c0e1e6bb302d70545ecc19c."
+    },
+    {
+      "id": "production-deploy-evidence-artifact-captured",
+      "status": "pass",
+      "detail": "Production deploy evidence artifact status is pending-production-deploy-evidence-artifact."
     },
     {
       "id": "github-production-readiness-captured",
@@ -75,6 +81,7 @@
   "blockers": [
     "Completion audit pending: independent-newsfeed: pending-production.",
     "Completion audit pending: cloudflare-hosting: pending-production.",
+    "Production deploy evidence artifact readback is pending-production-deploy-evidence-artifact.",
     "GitHub production secret name missing: CLOUDFLARE_API_TOKEN.",
     "GitHub production secret name missing: CLOUDFLARE_ACCOUNT_ID.",
     "Cloudflare production state is needs-cloudflare-auth.",
@@ -101,6 +108,7 @@
     "Confirm /api/news, /api/signals.xml, /api/search, /api/herbal-chat, and /data/reference-books.json are live on the canonical domain.",
     "Deploy Cloudflare Pages and the scheduled news Worker.",
     "Run npm run verify:live-readiness again.",
+    "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
     "Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.",
     "Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.",
     "Confirm Cloudflare runtime secret setup for protected feed refresh; Seedance media secrets remain optional until approved.",
@@ -115,10 +123,24 @@
         "status": "pass",
         "error": null
       },
-      "commit": "ceccce7a93e3c238f7399d865d6390d31393eb6a",
-      "ciRunId": 28505020198,
-      "manualReleaseRunId": 28505061359,
-      "artifactId": 8004842837
+      "commit": "b3663d46527135d55c0e1e6bb302d70545ecc19c",
+      "ciRunId": 28514702485,
+      "manualReleaseRunId": 28514767305,
+      "artifactId": 8008934977
+    },
+    "productionDeployEvidenceArtifact": {
+      "summary": {
+        "ok": true,
+        "exitCode": 0,
+        "timedOut": false,
+        "status": "pending-production-deploy-evidence-artifact",
+        "error": null
+      },
+      "runId": null,
+      "artifactId": null,
+      "artifactDigest": null,
+      "strictCompletionCommand": "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
+      "detail": "No fresh successful Herbalisti Production Deploy workflow_dispatch run exists for b3663d46527135d55c0e1e6bb302d70545ecc19c."
     },
     "githubProductionReadiness": {
       "summary": {

@@ -208,6 +208,8 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
       goalComplete: Boolean(productionState.summary?.goalComplete),
       productionStateStatus: productionState.status,
       releaseEvidenceStatus: productionState.summary?.releaseEvidenceStatus ?? 'unknown',
+      productionDeployEvidenceArtifactStatus:
+        productionState.summary?.productionDeployEvidenceArtifactStatus ?? 'unknown',
       releaseEvidencePolicy:
         productionState.git?.note ??
         'Stored snapshot evidence can trail repository HEAD; use npm run verify:production-state-current for exact current-commit release evidence.',
@@ -336,6 +338,7 @@ export const renderProductionOperatorBriefMarkdown = (packet) => {
     `- Goal complete: ${packet.currentState.goalComplete}`,
     `- Production state: ${packet.currentState.productionStateStatus}`,
     `- Release evidence: ${packet.currentState.releaseEvidenceStatus}`,
+    `- Production deploy evidence artifact: ${packet.currentState.productionDeployEvidenceArtifactStatus}`,
     `- Release evidence policy: ${packet.currentState.releaseEvidencePolicy}`,
     `- GitHub production readiness: ${packet.currentState.githubProductionReadinessStatus}`,
     `- Missing GitHub secret names: ${packet.currentState.missingGitHubSecretNames.join(', ') || 'none'}`,
