@@ -80,6 +80,7 @@ assert(ci.includes('npm run verify:media-endpoints'), 'CI workflow should verify
 assert(release.includes('workflow_dispatch:'), 'Manual release workflow should only run by workflow_dispatch')
 assert(!release.includes('push:'), 'Manual release workflow should not run automatically on push')
 assert(!release.includes('pull_request:'), 'Manual release workflow should not run automatically on pull_request')
+assert(release.includes('actions: read'), 'Manual release workflow should use read-only Actions metadata permission')
 assert(release.includes('PLAYWRIGHT_CHROMIUM_EXECUTABLE'), 'Manual release workflow should resolve the browser executable')
 assert(release.includes('npm run verify:release -- --public-only'), 'Manual release workflow should run the repository-safe release verifier')
 assert(release.includes('actions/upload-artifact@v4'), 'Manual release workflow should upload visual smoke screenshots')
