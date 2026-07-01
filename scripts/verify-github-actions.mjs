@@ -83,7 +83,7 @@ assert(!release.includes('pull_request:'), 'Manual release workflow should not r
 assert(release.includes('actions: read'), 'Manual release workflow should use read-only Actions metadata permission')
 assert(release.includes('PLAYWRIGHT_CHROMIUM_EXECUTABLE'), 'Manual release workflow should resolve the browser executable')
 assert(release.includes('npm run verify:release -- --public-only'), 'Manual release workflow should run the repository-safe release verifier')
-assert(release.includes('actions/upload-artifact@v5'), 'Manual release workflow should upload visual smoke screenshots')
+assert(release.includes('actions/upload-artifact@v6'), 'Manual release workflow should upload visual smoke screenshots')
 
 assert(productionDeploy.includes('workflow_dispatch:'), 'Production deploy workflow should only run by workflow_dispatch')
 assert(!productionDeploy.includes('push:'), 'Production deploy workflow should not run automatically on push')
@@ -109,7 +109,7 @@ assert(!productionDeploy.includes('secrets.CLOUDFLARE_D1_DATABASE_ID'), 'Product
 assert(productionDeploy.includes('npm run deploy:cloudflare'), 'Production deploy workflow should deploy Cloudflare Pages when manually approved')
 assert(productionDeploy.includes('npm run deploy:news-worker'), 'Production deploy workflow should deploy the scheduled Worker when manually approved')
 assert(productionDeploy.includes('npm run prepare:production-deploy-evidence'), 'Production deploy workflow should write a non-secret deployment evidence packet')
-assert(productionDeploy.includes('actions/upload-artifact@v5'), 'Production deploy workflow should upload deployment evidence')
+assert(productionDeploy.includes('actions/upload-artifact@v6'), 'Production deploy workflow should upload deployment evidence')
 assert(productionDeploy.includes('herbalisti-production-deploy-evidence'), 'Production deploy workflow should use the stable deployment evidence artifact name')
 assert(productionDeploy.includes('output/production-deploy'), 'Production deploy workflow should upload the deployment evidence directory')
 

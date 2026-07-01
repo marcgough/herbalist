@@ -128,7 +128,7 @@ for (const command of [
   'npm run verify:production -- https://herbalisti.com',
   'npm run verify:goal-readiness -- --strict',
   'npm run prepare:production-deploy-evidence',
-  'actions/upload-artifact@v5',
+  'actions/upload-artifact@v6',
   'herbalisti-production-deploy-evidence',
   'output/production-deploy',
   'retention-days: 90',
