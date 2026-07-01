@@ -1,6 +1,6 @@
 # Herbalisti Production Operator Brief
 
-Generated: 2026-07-01T21:52:27.565Z
+Generated: 2026-07-01T23:29:02.622Z
 
 Status: needs-cloudflare-auth-or-approved-workflow-dispatch
 
@@ -101,9 +101,9 @@ gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f c
 
 ### verify-production-deploy-evidence-artifact
 
-Side effect: read-only-github-metadata
+Side effect: read-only-github-metadata-and-artifact-content
 
-After the guarded workflow run completes, confirm GitHub uploaded the non-secret production deployment evidence artifact for that exact run.
+After the guarded workflow run completes, confirm GitHub uploaded the non-secret production deployment evidence artifact for that exact run and that strict artifact content inspection verifies the feed-seed evidence boundary.
 
 ```bash
 npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>

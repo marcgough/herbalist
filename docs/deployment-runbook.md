@@ -213,7 +213,7 @@ npm run verify:production-deploy-evidence
 
 It builds the deployment evidence packet in memory and confirms the stable artifact name, `https://herbalisti.com` target, final-completion boundary, sanitized feed-seed evidence slot, and secret-free output. During the guarded production workflow, the packet is uploaded as `herbalisti-production-deploy-evidence` from `output/production-deploy`. The packet records both the post-dispatch artifact readback command and the strict live-domain verification commands from `docs/production-environment-contract.json`. When strict live verification is not skipped, the protected feed seed command also writes `output/production-deploy/feed-seed-evidence.json`, a sanitized proof containing feed refresh counts, timestamps, and status without token values.
 
-Production deploy evidence artifact readback is GitHub metadata-only:
+Production deploy evidence artifact readback is strict, non-secret content inspection:
 
 ```bash
 npm run verify:production-deploy-evidence-artifact
@@ -225,7 +225,15 @@ Before production dispatch, this reports the evidence artifact as pending withou
 npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>
 ```
 
-It verifies the successful production deploy run uploaded `herbalisti-production-deploy-evidence` for the expected commit without downloading the artifact, setting secrets, deploying, mutating DNS, creating resources, calling paid APIs, or printing credential values.
+It verifies the successful production deploy run uploaded `herbalisti-production-deploy-evidence` for the expected commit, then downloads only that selected non-secret artifact into memory. Strict inspection verifies the deployment evidence JSON, the final-completion boundary, and either captured feed-seed evidence for the protected live Signals refresh or the explicit DNS-transition live-verification skip boundary. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, or print credential values.
+
+The local fixture gate for this content-inspection path is:
+
+```bash
+npm run verify:production-deploy-evidence-artifact-content
+```
+
+It builds synthetic artifact ZIPs locally and proves strict inspection accepts captured feed-seed evidence, accepts the DNS-transition non-final boundary, and rejects missing or uncaptured feed-seed evidence.
 
 GitHub production dispatch packet verification is local and read-only:
 

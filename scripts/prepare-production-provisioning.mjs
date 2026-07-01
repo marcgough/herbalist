@@ -219,7 +219,14 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       Boolean(scripts['verify:production-deploy-evidence-artifact']) &&
         exists('scripts/verify-production-deploy-evidence-artifact.mjs') &&
         contract.commands.safePreflight.includes('npm run verify:production-deploy-evidence-artifact'),
-      'Production deployment evidence artifact can be read back from GitHub Actions metadata after dispatch.',
+      'Production deployment evidence artifact can be read back from GitHub Actions metadata and strict artifact content after dispatch.',
+    ),
+    buildCheck(
+      'production-deploy-evidence-artifact-content',
+      Boolean(scripts['verify:production-deploy-evidence-artifact-content']) &&
+        exists('scripts/verify-production-deploy-evidence-artifact-content.mjs') &&
+        contract.commands.safePreflight.includes('npm run verify:production-deploy-evidence-artifact-content'),
+      'Local fixtures prove strict deployment evidence artifact content inspection accepts captured feed seed evidence and rejects weak artifacts.',
     ),
     buildCheck(
       'production-deploy-dry-run',
@@ -426,7 +433,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       },
       {
         id: 'verify-production-deploy-evidence-artifact',
-        sideEffect: 'read-only-github-metadata',
+        sideEffect: 'read-only-github-metadata-and-artifact-content',
         commands: contract.commands.postDeployEvidence,
       },
       {

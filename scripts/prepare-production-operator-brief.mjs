@@ -309,10 +309,10 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
       },
       {
         id: 'verify-production-deploy-evidence-artifact',
-        sideEffect: 'read-only-github-metadata',
+        sideEffect: 'read-only-github-metadata-and-artifact-content',
         commands: commandList(contract.commands?.postDeployEvidence),
         evidence:
-          'After the guarded workflow run completes, confirm GitHub uploaded the non-secret production deployment evidence artifact for that exact run.',
+          'After the guarded workflow run completes, confirm GitHub uploaded the non-secret production deployment evidence artifact for that exact run and that strict artifact content inspection verifies the feed-seed evidence boundary.',
       },
       {
         id: 'connect-domain-and-dns',

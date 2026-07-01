@@ -151,6 +151,7 @@ npm run verify:australia-lane
 npm run verify:production-cutover
 npm run verify:production-deploy-evidence
 npm run verify:production-deploy-evidence-artifact
+npm run verify:production-deploy-evidence-artifact-content
 npm run verify:external-actions
 npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed
 npm run verify:live-readiness
@@ -165,4 +166,4 @@ npm run verify:release
 
 If the guarded GitHub production deployment is dispatched with `skip_live_verification=true` during DNS transition, also set `skip_live_verification_confirm=skip-herbalisti-live-verification`. That acknowledgement does not count as completion evidence; final completion still requires production deployment evidence artifact readback and strict live verification against `https://herbalisti.com`.
 
-The project should not be treated as complete until `npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>`, `npm run verify:live-readiness -- --strict`, `npm run verify:production -- https://herbalisti.com`, and `npm run verify:goal-readiness -- --strict` pass after deployment. Strict live readiness now requires the production domain, canonical redirects, `/api/health`, an active production D1 binding, configured protected feed refresh, and a fresh completed feed refresh with items. Seedance media endpoints are optional until approved generation is enabled.
+The project should not be treated as complete until `npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>`, `npm run verify:live-readiness -- --strict`, `npm run verify:production -- https://herbalisti.com`, and `npm run verify:goal-readiness -- --strict` pass after deployment. Strict deployment artifact readback now inspects the non-secret artifact contents and must prove either captured feed-seed evidence or the explicit DNS-transition non-final boundary. Strict live readiness now requires the production domain, canonical redirects, `/api/health`, an active production D1 binding, configured protected feed refresh, and a fresh completed feed refresh with items. Seedance media endpoints are optional until approved generation is enabled.

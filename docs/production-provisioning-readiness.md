@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-07-01T21:49:46.509Z
+Generated: 2026-07-01T23:29:01.690Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -62,7 +62,8 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - pass: Cloudflare binding configurator is available.
 - pass: Guarded production workflow can resolve or create the named D1 database without a D1 ID secret.
 - pass: Guarded production workflow can emit a non-secret deployment evidence artifact.
-- pass: Production deployment evidence artifact can be read back from GitHub Actions metadata after dispatch.
+- pass: Production deployment evidence artifact can be read back from GitHub Actions metadata and strict artifact content after dispatch.
+- pass: Local fixtures prove strict deployment evidence artifact content inspection accepts captured feed seed evidence and rejects weak artifacts.
 - pass: Guarded production workflow can rehearse its Cloudflare-facing command path with fake Wrangler.
 - pass: Protected production feed seed command is available for post-deploy freshness proof.
 - pass: Production cutover simulation verifier is available.
@@ -201,7 +202,7 @@ npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
 
 ### verify-production-deploy-evidence-artifact
 
-Side effect: read-only-github-metadata
+Side effect: read-only-github-metadata-and-artifact-content
 
 ```bash
 npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>
