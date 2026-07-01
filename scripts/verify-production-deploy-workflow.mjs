@@ -67,6 +67,14 @@ assert(
   workflow.includes('KIE_API_KEY is not configured; optional Seedance media endpoints will remain disabled.'),
   'Production deploy workflow should treat KIE_API_KEY as optional for launch',
 )
+assert(
+  workflow.includes('Set Cloudflare Pages runtime secrets'),
+  'Production deploy workflow should set Pages runtime secrets before deploying Pages',
+)
+assert(
+  workflow.includes('Set scheduled Worker runtime secret'),
+  'Production deploy workflow should set the scheduled Worker runtime secret after the Worker exists',
+)
 assert(!workflow.includes('secrets.CLOUDFLARE_D1_DATABASE_ID'), 'Production deploy workflow should resolve the D1 database ID by name, not read it as a GitHub secret')
 assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production deploy workflow requires the D1 resolver script')
 assert(packageJson.scripts?.['resolve:production-d1'], 'package.json should expose resolve:production-d1')
@@ -146,6 +154,23 @@ assert(workflow.includes("printf '%s' \"$MEDIA_ADMIN_TOKEN\""), 'MEDIA_ADMIN_TOK
 assert(
   workflow.includes('Skipping optional Seedance media secrets because KIE_API_KEY is not configured.'),
   'Production deploy workflow should skip optional media secrets when KIE_API_KEY is absent',
+)
+const pagesFeedSecretIndex = workflow.indexOf('npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti')
+const pagesDeployIndex = workflow.indexOf('npm run deploy:cloudflare')
+const workerDeployIndex = workflow.indexOf('npm run deploy:news-worker')
+const workerFeedSecretIndex = workflow.indexOf('npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml')
+const feedSeedIndex = workflow.indexOf('npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed')
+assert(
+  pagesFeedSecretIndex >= 0 && pagesDeployIndex > pagesFeedSecretIndex,
+  'Production deploy workflow should set the Pages FEED_ADMIN_TOKEN secret before deploying Pages',
+)
+assert(
+  workerDeployIndex >= 0 && workerFeedSecretIndex > workerDeployIndex,
+  'Production deploy workflow should deploy the scheduled Worker before applying the Worker FEED_ADMIN_TOKEN secret',
+)
+assert(
+  feedSeedIndex > workerFeedSecretIndex,
+  'Production deploy workflow should seed the live feed only after the Worker FEED_ADMIN_TOKEN secret has been applied',
 )
 assert(packageJson.scripts?.['seed:production-feed'], 'Production deploy workflow should use the shared feed seed command')
 assert(feedSeedScript.includes('/api/feed-refresh'), 'Production feed seed command should post to the protected feed-refresh endpoint')

@@ -165,11 +165,10 @@ jobs:
           npm run verify:d1-manifest
           npx wrangler d1 migrations apply herbalisti --remote
 
-      - name: Set Cloudflare runtime secrets
+      - name: Set Cloudflare Pages runtime secrets
         shell: bash
         run: |
           set -euo pipefail
-          printf '%s' "$FEED_ADMIN_TOKEN" | npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
           printf '%s' "$FEED_ADMIN_TOKEN" | npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
           if [ -n "${KIE_API_KEY:-}" ]; then
             printf '%s' "$KIE_API_KEY" | npx wrangler pages secret put KIE_API_KEY --project-name herbalisti
@@ -183,6 +182,12 @@ jobs:
 
       - name: Deploy scheduled news Worker
         run: npm run deploy:news-worker
+
+      - name: Set scheduled Worker runtime secret
+        shell: bash
+        run: |
+          set -euo pipefail
+          printf '%s' "$FEED_ADMIN_TOKEN" | npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
 
       - name: Seed live Signals feed
         if: ${{ !inputs.skip_live_verification }}

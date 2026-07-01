@@ -1,6 +1,6 @@
 # Herbalisti GitHub Production Dispatch Packet
 
-Generated: 2026-07-01T15:10:37.548Z
+Generated: 2026-07-01T17:18:59.493Z
 
 Status: needs-github-production-credentials
 

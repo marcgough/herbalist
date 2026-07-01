@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T16:12:04.655Z",
+  "generatedAt": "2026-07-01T17:21:53.907Z",
   "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication.",
   "sourceHealthPolicy": "Source health checks report allowlisted public or independent sources only; warnings do not add fallback pharma channels.",
   "warnings": [],
@@ -11,7 +11,7 @@
       "sourceType": "public-research-index",
       "role": "Public biomedical metadata for frontier-biology terms.",
       "status": "empty",
-      "checkedAt": "2026-07-01T16:11:56.140Z",
+      "checkedAt": "2026-07-01T17:21:50.813Z",
       "itemCount": 10,
       "usableItemCount": 0,
       "newestItemAt": "",
@@ -26,7 +26,7 @@
       "sourceType": "public-research-index",
       "role": "Open preprint metadata for computational biology and frontier science.",
       "status": "ok",
-      "checkedAt": "2026-07-01T16:11:54.337Z",
+      "checkedAt": "2026-07-01T17:21:48.964Z",
       "itemCount": 8,
       "usableItemCount": 3,
       "newestItemAt": "2026-06-26T09:24:42.000Z",
@@ -41,7 +41,7 @@
       "sourceType": "preprint-server",
       "role": "Public biology preprint metadata for longevity and biotechnology topics.",
       "status": "ok",
-      "checkedAt": "2026-07-01T16:11:56.663Z",
+      "checkedAt": "2026-07-01T17:21:51.077Z",
       "itemCount": 3,
       "usableItemCount": 1,
       "newestItemAt": "2026-06-01T00:00:00.000Z",
@@ -56,7 +56,7 @@
       "sourceType": "public-research-index",
       "role": "Public scholarly metadata expansion for longevity and frontier biology.",
       "status": "ok",
-      "checkedAt": "2026-07-01T16:12:04.655Z",
+      "checkedAt": "2026-07-01T17:21:53.907Z",
       "itemCount": 9,
       "usableItemCount": 9,
       "newestItemAt": "2026-05-01T00:00:00.000Z",
@@ -71,10 +71,10 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity coverage from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-01T16:11:55.896Z",
+      "checkedAt": "2026-07-01T17:21:51.360Z",
       "itemCount": 8,
-      "usableItemCount": 5,
-      "newestItemAt": "2026-06-30T16:21:38.000Z",
+      "usableItemCount": 6,
+      "newestItemAt": "2026-07-01T17:13:38.000Z",
       "warning": "",
       "isAllowlisted": true,
       "isBigPharmaRelated": false
@@ -86,7 +86,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity commentary from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-01T16:11:55.459Z",
+      "checkedAt": "2026-07-01T17:21:50.035Z",
       "itemCount": 8,
       "usableItemCount": 6,
       "newestItemAt": "2026-07-01T10:22:42.000Z",
@@ -96,6 +96,18 @@
     }
   ],
   "items": [
+    {
+      "id": "lifespan-6069q9",
+      "title": "Rejuvenation Roundup June 2026",
+      "sourceName": "Lifespan.io",
+      "url": "https://lifespan.io/rejuvenation-roundup-june-2026/",
+      "publishedAt": "2026-07-01T17:13:38.000Z",
+      "summary": "Independent longevity coverage from the Herbalisti source allowlist.",
+      "topics": [
+        "Longevity"
+      ],
+      "sourceType": "independent-longevity"
+    },
     {
       "id": "fightaging-1fm2b8s",
       "title": "Reduced FOXO1 in Epididymal Tissue as a Proximate Cause of Male Reproductive Aging",
@@ -317,19 +329,6 @@
       "sourceType": "public-research-index"
     },
     {
-      "id": "crossref-15fszgf",
-      "title": "Current Applications and Future Perspective of CRISPR/Cas9 Gene Editing in Cancer Therapy",
-      "sourceName": "Crossref",
-      "url": "https://doi.org/10.62051/ijphmr.v5n1.06",
-      "publishedAt": "2025-10-22T00:00:00.000Z",
-      "summary": "Public Crossref metadata from International Journal of Public Health and Medical Research.",
-      "topics": [
-        "Gene editing",
-        "CRISPR"
-      ],
-      "sourceType": "public-research-index"
-    },
-    {
       "id": "crossref-mucr5n",
       "title": "Gene, Base, and Prime Editing",
       "sourceName": "Crossref",
@@ -383,15 +382,17 @@
       "sourceType": "public-research-index"
     },
     {
-      "id": "crossref-q16yfw",
-      "title": "CRISPR Technologies for In Vivo and Ex Vivo Gene Editing",
+      "id": "crossref-1pmasy0",
+      "title": "CRISPR and Gene Editing: A New Frontier in Healthcare",
       "sourceName": "Crossref",
-      "url": "https://doi.org/10.51731/cjht.2024.999",
-      "publishedAt": "2024-10-16T00:00:00.000Z",
-      "summary": "Public Crossref metadata from Canadian Journal of Health Technologies.",
+      "url": "https://doi.org/10.55938/wlp.v1i1.85",
+      "publishedAt": "2024-10-28T00:00:00.000Z",
+      "summary": "Public Crossref metadata from Emerging Trends in Biotechnology Transforming Health Services.",
       "topics": [
+        "Gene therapy",
         "Gene editing",
-        "CRISPR"
+        "CRISPR",
+        "Health as a service"
       ],
       "sourceType": "public-research-index"
     }

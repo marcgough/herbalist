@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-07-01T16:10:42.398Z
+Generated: 2026-07-01T17:19:46.964Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -156,24 +156,42 @@ npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secre
 
 - Generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN directly into GitHub secret storage without printing values.
 
-### set-required-secrets
+### set-pages-feed-secret
 
-Side effect: writes-cloudflare-secrets
+Side effect: writes-cloudflare-pages-secret
 
 ```bash
 npm run verify:production-secrets
-npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
 npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
 ```
 
-### deploy
+- Set the Pages feed secret before deploying Pages so the protected feed-refresh endpoint is live with the deployed bundle.
 
-Side effect: public-deployment
+### deploy-pages
+
+Side effect: public-pages-deployment
 
 ```bash
 npm run deploy:cloudflare
+```
+
+### deploy-news-worker
+
+Side effect: public-worker-deployment
+
+```bash
 npm run deploy:news-worker
 ```
+
+### set-worker-feed-secret
+
+Side effect: writes-cloudflare-worker-secret
+
+```bash
+npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
+```
+
+- Set the scheduled Worker feed secret after the Worker has been deployed at least once.
 
 ### verify-production-deploy-evidence-artifact
 

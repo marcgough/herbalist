@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-07-01T15:08:09.135Z
+Generated: 2026-07-01T17:18:59.519Z
 
 Status: needs-approval-and-production-setup
 
@@ -283,18 +283,17 @@ Notes:
 - Does not generate externally issued Cloudflare credentials, the Cloudflare account identifier, or KIE_API_KEY.
 - Generated values are not recoverable from GitHub after setting; rotate by running the command again.
 
-### Set Feed Admin Token secret
+### Set Pages Feed Admin Token secret
 
 Required for launch: true
 
-External effect: Stores a secret in Cloudflare for protected feed-refresh controls.
+External effect: Stores the feed admin secret in Cloudflare Pages before the public site deployment.
 
 Approval reason: Writes a secret to Cloudflare. The value must be supplied outside chat/logs.
 
 Command:
 
 ```bash
-npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
 npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
 ```
 
@@ -302,6 +301,7 @@ Secret names: FEED_ADMIN_TOKEN
 
 Notes:
 - Do not paste secret values into chat, docs, Git, or command logs.
+- Pages secrets should be set before deploying the Pages project so the protected feed-refresh endpoint is live with the deployed bundle.
 
 ### Set Kie.ai API key secret
 
@@ -391,11 +391,37 @@ Command:
 npm run deploy:news-worker
 ```
 
-After: apply-remote-d1-migrations, set-feed-admin-token
+After: apply-remote-d1-migrations
 
 Verification:
 - npm run verify:source-health
 - npm run verify:production -- https://herbalisti.com
+
+### Set scheduled Worker Feed Admin Token secret
+
+Required for launch: true
+
+External effect: Stores the feed admin secret on the deployed scheduled news Worker.
+
+Approval reason: Writes a secret to Cloudflare. Wrangler secret put creates a new Worker version, so the Worker should exist before this action runs.
+
+Command:
+
+```bash
+npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
+```
+
+After: deploy-news-worker
+
+Secret names: FEED_ADMIN_TOKEN
+
+Verification:
+- npm run verify:cloudflare-production-state
+- npm run verify:production -- https://herbalisti.com
+
+Notes:
+- Do not paste secret values into chat, docs, Git, or command logs.
+- Run after the scheduled Worker has been deployed at least once.
 
 ### Seed live Signals feed
 
@@ -411,7 +437,7 @@ Command:
 npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed
 ```
 
-After: deploy-cloudflare-pages, deploy-news-worker, connect-domain
+After: deploy-cloudflare-pages, deploy-news-worker, set-worker-feed-admin-token, connect-domain
 
 Secret names: FEED_ADMIN_TOKEN
 
@@ -462,6 +488,7 @@ Notes:
 - If skip_live_verification=true during DNS transition, also set skip_live_verification_confirm=skip-herbalisti-live-verification.
 - Use the GitHub production environment approval controls before dispatch.
 - The workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values; they do not need to be stored as GitHub secrets for launch.
+- The workflow sets the Pages feed secret before Pages deploy, deploys the scheduled Worker, then applies the Worker feed secret so first deploys do not depend on a pre-existing Worker.
 - KIE_API_KEY is optional until approved Seedance media generation is needed.
 - CLOUDFLARE_ACCOUNT_ID is preferred as a GitHub production environment variable; a secret fallback is supported for existing setups.
 - Run npm run verify:production-secrets, npm run verify:github-generated-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.

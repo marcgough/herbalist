@@ -287,13 +287,15 @@ const approvalRequiredActions = [
   approvalAction({
     id: 'set-feed-admin-token',
     phase: 'secrets',
-    title: 'Set Feed Admin Token secret',
-    command: contract.secrets.find((secret) => secret.name === 'FEED_ADMIN_TOKEN')?.setCommand ?? '',
-    additionalCommands: contract.secrets.find((secret) => secret.name === 'FEED_ADMIN_TOKEN')?.additionalSetCommands ?? [],
-    externalEffect: 'Stores a secret in Cloudflare for protected feed-refresh controls.',
+    title: 'Set Pages Feed Admin Token secret',
+    command: contract.secrets.find((secret) => secret.name === 'FEED_ADMIN_TOKEN')?.additionalSetCommands?.[0] ?? '',
+    externalEffect: 'Stores the feed admin secret in Cloudflare Pages before the public site deployment.',
     approvalReason: 'Writes a secret to Cloudflare. The value must be supplied outside chat/logs.',
     secretNames: ['FEED_ADMIN_TOKEN'],
-    notes: ['Do not paste secret values into chat, docs, Git, or command logs.'],
+    notes: [
+      'Do not paste secret values into chat, docs, Git, or command logs.',
+      'Pages secrets should be set before deploying the Pages project so the protected feed-refresh endpoint is live with the deployed bundle.',
+    ],
   }),
   approvalAction({
     id: 'set-kie-api-key',
@@ -344,8 +346,24 @@ const approvalRequiredActions = [
     command: command(contract.commands, 'deploy', 1),
     externalEffect: 'Publishes the scheduled feed-refresh Worker to Cloudflare.',
     approvalReason: 'Public deployment of scheduled automation.',
-    after: ['apply-remote-d1-migrations', 'set-feed-admin-token'],
+    after: ['apply-remote-d1-migrations'],
     verification: ['npm run verify:source-health', 'npm run verify:production -- https://herbalisti.com'],
+  }),
+  approvalAction({
+    id: 'set-worker-feed-admin-token',
+    phase: 'secrets',
+    title: 'Set scheduled Worker Feed Admin Token secret',
+    command: contract.secrets.find((secret) => secret.name === 'FEED_ADMIN_TOKEN')?.setCommand ?? '',
+    externalEffect: 'Stores the feed admin secret on the deployed scheduled news Worker.',
+    approvalReason:
+      'Writes a secret to Cloudflare. Wrangler secret put creates a new Worker version, so the Worker should exist before this action runs.',
+    after: ['deploy-news-worker'],
+    verification: ['npm run verify:cloudflare-production-state', 'npm run verify:production -- https://herbalisti.com'],
+    secretNames: ['FEED_ADMIN_TOKEN'],
+    notes: [
+      'Do not paste secret values into chat, docs, Git, or command logs.',
+      'Run after the scheduled Worker has been deployed at least once.',
+    ],
   }),
   approvalAction({
     id: 'seed-production-feed',
@@ -354,7 +372,7 @@ const approvalRequiredActions = [
     command: command(contract.commands, 'seedProductionFeed'),
     externalEffect: 'Triggers the protected production feed-refresh endpoint and writes a feed refresh run into production D1.',
     approvalReason: 'Writes production feed-refresh data and uses the feed admin secret.',
-    after: ['deploy-cloudflare-pages', 'deploy-news-worker', 'connect-domain'],
+    after: ['deploy-cloudflare-pages', 'deploy-news-worker', 'set-worker-feed-admin-token', 'connect-domain'],
     verification: [
       'npm run verify:production-feed-seed',
       'npm run verify:live-readiness -- --strict',
@@ -397,6 +415,7 @@ const approvalRequiredActions = [
       'If skip_live_verification=true during DNS transition, also set skip_live_verification_confirm=skip-herbalisti-live-verification.',
       'Use the GitHub production environment approval controls before dispatch.',
       'The workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values; they do not need to be stored as GitHub secrets for launch.',
+      'The workflow sets the Pages feed secret before Pages deploy, deploys the scheduled Worker, then applies the Worker feed secret so first deploys do not depend on a pre-existing Worker.',
       'KIE_API_KEY is optional until approved Seedance media generation is needed.',
       'CLOUDFLARE_ACCOUNT_ID is preferred as a GitHub production environment variable; a secret fallback is supported for existing setups.',
       'Run npm run verify:production-secrets, npm run verify:github-generated-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.',

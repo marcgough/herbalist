@@ -365,19 +365,29 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         ],
       },
       {
-        id: 'set-required-secrets',
-        sideEffect: 'writes-cloudflare-secrets',
+        id: 'set-pages-feed-secret',
+        sideEffect: 'writes-cloudflare-pages-secret',
         commands: [
           'npm run verify:production-secrets',
-          ...contract.secrets
-            .filter((secret) => secret.requiredForLaunch)
-            .flatMap((secret) => [secret.setCommand, ...(secret.additionalSetCommands ?? [])].filter(Boolean)),
-        ],
+          contract.secrets.find((secret) => secret.name === 'FEED_ADMIN_TOKEN')?.additionalSetCommands?.[0],
+        ].filter(Boolean),
+        captures: ['Set the Pages feed secret before deploying Pages so the protected feed-refresh endpoint is live with the deployed bundle.'],
       },
       {
-        id: 'deploy',
-        sideEffect: 'public-deployment',
-        commands: contract.commands.deploy,
+        id: 'deploy-pages',
+        sideEffect: 'public-pages-deployment',
+        commands: [contract.commands.deploy?.[0]].filter(Boolean),
+      },
+      {
+        id: 'deploy-news-worker',
+        sideEffect: 'public-worker-deployment',
+        commands: [contract.commands.deploy?.[1]].filter(Boolean),
+      },
+      {
+        id: 'set-worker-feed-secret',
+        sideEffect: 'writes-cloudflare-worker-secret',
+        commands: [contract.secrets.find((secret) => secret.name === 'FEED_ADMIN_TOKEN')?.setCommand].filter(Boolean),
+        captures: ['Set the scheduled Worker feed secret after the Worker has been deployed at least once.'],
       },
       {
         id: 'verify-production-deploy-evidence-artifact',

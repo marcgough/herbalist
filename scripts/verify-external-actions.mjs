@@ -68,6 +68,7 @@ for (const id of [
   'set-feed-admin-token',
   'deploy-cloudflare-pages',
   'deploy-news-worker',
+  'set-worker-feed-admin-token',
   'seed-production-feed',
   'connect-domain',
 ]) {
@@ -101,14 +102,31 @@ assert(
   'Remote migration action should require D1 production migration manifest verification',
 )
 assert(
-  externalActions['set-feed-admin-token'].additionalCommands?.includes(
+  externalActions['set-feed-admin-token'].command ===
     'npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti',
-  ),
-  'Feed admin token action should include the Pages feed-refresh secret command',
+  'Pages feed admin token action should use the Pages feed-refresh secret command',
+)
+assert(
+  externalActions['set-worker-feed-admin-token'].command ===
+    'npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml',
+  'Worker feed admin token action should use the scheduled Worker secret command',
+)
+assert(
+  externalActions['set-worker-feed-admin-token'].after.includes('deploy-news-worker'),
+  'Worker feed admin token action should run after the scheduled Worker deploy action',
+)
+assert(
+  externalActions['seed-production-feed'].after.includes('set-worker-feed-admin-token'),
+  'Production feed seed action should run after the Worker feed secret action',
 )
 assert(
   markdown.includes('npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti'),
   'External action Markdown should include the Pages feed-refresh secret command',
+)
+assert(
+  markdown.includes('npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml') &&
+    markdown.includes('Run after the scheduled Worker has been deployed at least once.'),
+  'External action Markdown should include the post-deploy Worker secret command and ordering note',
 )
 assert(
   externalActions['deploy-cloudflare-pages'].command === contract.commands.deploy[0],

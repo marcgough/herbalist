@@ -88,6 +88,9 @@ if (command === 'd1 migrations apply herbalisti --remote') {
 }
 
 if (wranglerArgs[0] === 'secret' && wranglerArgs[1] === 'put') {
+  if (state.workerDeployed !== true) {
+    fail('Worker secret put should run after the scheduled Worker has been deployed at least once')
+  }
   const value = readFileSync(0, 'utf8')
   state.workerSecrets = [...(state.workerSecrets ?? []), { name: wranglerArgs[2] ?? '', stdinBytes: value.length }]
   writeState(state)
@@ -229,7 +232,6 @@ const runProductionCommandPath = ({ binDir, statePath, githubEnvPath, includeOpt
   assert(hasActiveD1Binding(configured['wrangler.news.toml'], simulatedD1DatabaseId), 'Simulated Worker config should receive the resolved D1 ID')
 
   runNpxWrangler({ binDir, statePath, args: ['d1', 'migrations', 'apply', 'herbalisti', '--remote'] })
-  runNpxWrangler({ binDir, statePath, args: ['secret', 'put', 'FEED_ADMIN_TOKEN', '--config', 'wrangler.news.toml'], input: fakeSecretValue })
   runNpxWrangler({ binDir, statePath, args: ['pages', 'secret', 'put', 'FEED_ADMIN_TOKEN', '--project-name', 'herbalisti'], input: fakeSecretValue })
   if (includeOptionalMediaSecrets) {
     runNpxWrangler({ binDir, statePath, args: ['pages', 'secret', 'put', 'KIE_API_KEY', '--project-name', 'herbalisti'], input: fakeSecretValue })
@@ -237,6 +239,7 @@ const runProductionCommandPath = ({ binDir, statePath, githubEnvPath, includeOpt
   }
   runNpxWrangler({ binDir, statePath, args: ['pages', 'deploy', 'dist', '--project-name', 'herbalisti'] })
   runNpxWrangler({ binDir, statePath, args: ['deploy', '--config', 'wrangler.news.toml'] })
+  runNpxWrangler({ binDir, statePath, args: ['secret', 'put', 'FEED_ADMIN_TOKEN', '--config', 'wrangler.news.toml'], input: fakeSecretValue })
   const feedSeedDryRun = spawnSync(
     process.execPath,
     [
@@ -283,6 +286,10 @@ try {
   })
   const { state, resolverOutput, feedSeedDryRunPayload } = mediaEnabled
   const callStrings = state.calls.map((call) => call.join(' '))
+  const pagesSecretIndex = callStrings.indexOf('wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti')
+  const pagesDeployIndex = callStrings.indexOf('wrangler pages deploy dist --project-name herbalisti')
+  const workerDeployIndex = callStrings.indexOf('wrangler deploy --config wrangler.news.toml')
+  const workerSecretIndex = callStrings.indexOf('wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml')
 
   const mediaDisabledStatePath = join(tempDir, 'state-media-disabled.json')
   const mediaDisabledGithubEnvPath = join(tempDir, 'github-media-disabled.env')
@@ -305,6 +312,8 @@ try {
     ['media secret', state.pagesSecrets?.some((secret) => secret.name === 'MEDIA_ADMIN_TOKEN' && secret.stdinBytes > 0)],
     ['pages deploy', state.pagesDeployed === true],
     ['worker deploy', state.workerDeployed === true],
+    ['pages secret before pages deploy', pagesSecretIndex >= 0 && pagesDeployIndex > pagesSecretIndex],
+    ['worker secret after worker deploy', workerSecretIndex > workerDeployIndex && workerDeployIndex >= 0],
     ['feed seed dry run', feedSeedDryRunPayload.endpoint === 'https://herbalisti.com/api/feed-refresh'],
     [
       'optional media disabled path',

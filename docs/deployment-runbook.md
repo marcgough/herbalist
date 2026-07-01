@@ -194,7 +194,7 @@ Guarded production deploy workflow verification is local and read-only:
 npm run verify:production-deploy-workflow
 ```
 
-It checks `.github/workflows/production-deploy.yml` without running it. The workflow is manual-only, requires the exact `deploy-herbalisti-production` confirmation phrase, uses the GitHub `production` environment, validates the required GitHub production credentials, reads the Cloudflare API token from a secret and the Cloudflare account ID from a variable with secret fallback support, verifies exact release evidence, configures runner-local D1 bindings, applies remote D1 migrations, sets Cloudflare runtime secrets without echoing values, deploys Pages and the scheduled Worker, seeds the live Signals feed through the protected feed-refresh endpoint, writes a non-secret production deployment evidence artifact, and runs strict live verification unless temporarily skipped during DNS transition with `skip_live_verification_confirm=skip-herbalisti-live-verification`.
+It checks `.github/workflows/production-deploy.yml` without running it. The workflow is manual-only, requires the exact `deploy-herbalisti-production` confirmation phrase, uses the GitHub `production` environment, validates the required GitHub production credentials, reads the Cloudflare API token from a secret and the Cloudflare account ID from a variable with secret fallback support, verifies exact release evidence, configures runner-local D1 bindings, applies remote D1 migrations, sets Pages runtime secrets before the Pages deploy, deploys Pages and the scheduled Worker, applies the scheduled Worker feed secret after the Worker exists, seeds the live Signals feed through the protected feed-refresh endpoint, writes a non-secret production deployment evidence artifact, and runs strict live verification unless temporarily skipped during DNS transition with `skip_live_verification_confirm=skip-herbalisti-live-verification`.
 
 Production deploy evidence verification is local and artifact-shape only:
 
@@ -232,7 +232,7 @@ Guarded production deploy dry-run verification is local and mocked:
 npm run verify:production-deploy-dry-run
 ```
 
-It rehearses the production workflow's Cloudflare-facing command path with a temporary fake `npx wrangler`: Pages project list/create, D1 resolution, in-memory binding activation, remote migration command shape, secret put command shape, Pages deploy, scheduled Worker deploy, and the production feed seed command in dry-run mode. It does not call Cloudflare, create resources, mutate DNS, deploy, set real secrets, write Wrangler config files, call paid APIs, or print secret values.
+It rehearses the production workflow's Cloudflare-facing command path with a temporary fake `npx wrangler`: Pages project list/create, D1 resolution, in-memory binding activation, remote migration command shape, Pages secret command shape before Pages deploy, Pages deploy, scheduled Worker deploy, Worker secret command shape after the Worker exists, and the production feed seed command in dry-run mode. It does not call Cloudflare, create resources, mutate DNS, deploy, set real secrets, write Wrangler config files, call paid APIs, or print secret values.
 
 Production D1 resolver verification is local and mocked:
 
@@ -630,7 +630,7 @@ Set this for the scheduled news Worker:
 npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
 ```
 
-Use the same feed token value for the Pages feed-refresh endpoint and the scheduled Worker manual-refresh path. Do not print or paste the value into chat, docs, Git, or command logs.
+Use the same feed token value for the Pages feed-refresh endpoint and the scheduled Worker manual-refresh path. Deploy the scheduled Worker at least once before setting this Worker secret; `wrangler secret put` creates a new Worker version. Do not print or paste the value into chat, docs, Git, or command logs.
 
 For CI-style deployment automation, provide these in the deployment environment rather than committing them:
 
@@ -694,7 +694,6 @@ This uses `wrangler.news.local.toml`, applies migrations to a clean ignored loca
 2. Set a manual-refresh token:
 
 ```bash
-npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
 npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
 ```
 
@@ -702,6 +701,12 @@ npx wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti
 
 ```bash
 npm run deploy:news-worker
+```
+
+4. Set the scheduled Worker manual-refresh token after the Worker exists:
+
+```bash
+npx wrangler secret put FEED_ADMIN_TOKEN --config wrangler.news.toml
 ```
 
 The cron schedule is currently:
