@@ -639,8 +639,18 @@ assert(
   'External action checklist should include the local production cutover simulation action',
 )
 assert(
+  externalActionsJson.localAllowedActions?.some((action) => action.id === 'check-current-production-state-evidence'),
+  'External action checklist should include the current production state evidence action',
+)
+assert(
   externalActionsJson.approvalRequiredActions?.some((action) => action.id === 'run-github-production-deploy-workflow'),
   'External action checklist should include the guarded GitHub production deploy workflow action',
+)
+assert(
+  externalActionsJson.approvalRequiredActions
+    ?.find((action) => action.id === 'run-github-production-deploy-workflow')
+    ?.verification?.includes('npm run verify:production-state-current'),
+  'External action checklist should require current production state evidence before the guarded GitHub production deploy workflow',
 )
 assert(
   externalActionsJson.approvalRequiredActions?.some((action) => action.id === 'seed-production-feed'),

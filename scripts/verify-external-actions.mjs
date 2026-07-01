@@ -48,6 +48,7 @@ for (const id of [
   'generate-production-state-snapshot',
   'verify-production-feed-seed',
   'check-github-production-readiness',
+  'check-current-production-state-evidence',
   'check-cloudflare-production-state',
   'generate-cloudflare-token-requirements',
   'generate-d1-production-migration-manifest',
@@ -143,8 +144,19 @@ assert(
   'Guarded GitHub production deploy workflow should require production state snapshot verification',
 )
 assert(
+  externalActions['run-github-production-deploy-workflow'].verification.includes(
+    'npm run verify:production-state-current',
+  ),
+  'Guarded GitHub production deploy workflow should require current production state evidence verification',
+)
+assert(
   localIds.has('generate-production-state-snapshot') && markdown.includes('verify:production-state'),
   'Checklist should include production state snapshot generation and verification',
+)
+assert(
+  localIds.has('check-current-production-state-evidence') &&
+    markdown.includes('npm run verify:production-state-current'),
+  'Checklist should include current production state evidence verification',
 )
 assert(
   localIds.has('generate-cloudflare-token-requirements') &&

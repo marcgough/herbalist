@@ -135,6 +135,17 @@ const localAllowedActions = [
     notes: ['Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate.'],
   }),
   localAction({
+    id: 'check-current-production-state-evidence',
+    title: 'Check current production state evidence',
+    command: 'npm run verify:production-state-current',
+    purpose:
+      'Regenerate production state in memory and prove the current git commit has matching GitHub CI, manual release-gate, and visual-smoke artifact evidence.',
+    notes: [
+      'Run this after CI and the manual release gate have passed for the exact commit being prepared for production.',
+      'This command writes no files and does not deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values.',
+    ],
+  }),
+  localAction({
     id: 'check-cloudflare-production-state',
     title: 'Check read-only Cloudflare production state',
     command: 'npm run verify:cloudflare-production-state',
@@ -323,6 +334,7 @@ const approvalRequiredActions = [
     verification: [
       'npm run verify:production-deploy-workflow',
       'npm run verify:github-release-evidence',
+      'npm run verify:production-state-current',
       'npm run verify:d1-manifest',
       'npm run verify:production-secrets',
       'npm run verify:production-state',

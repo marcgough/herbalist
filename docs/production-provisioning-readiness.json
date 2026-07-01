@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T00:45:00.880Z",
+  "generatedAt": "2026-07-01T01:08:28.872Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -28,7 +28,7 @@
       "MEDIA_ADMIN_TOKEN"
     ],
     "contractFingerprint": "9b39a780b1717d2eb3d4d483955f8601e04fc0770a52a5c2fc114ebbb461e66c",
-    "externalActionsFingerprint": "3bb5c5b3d7c5add18efe786026557ab967eef2dac204725ff90c583aa9203cbd",
+    "externalActionsFingerprint": "3f0a6a5bdf07b3ac885f9b3af15b272eaa40a4c56adac7eda6d5f0b4f1e170ff",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",

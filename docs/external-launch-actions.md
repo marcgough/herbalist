@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-07-01T00:11:23.954Z
+Generated: 2026-07-01T01:08:21.772Z
 
 Status: needs-approval-and-production-setup
 
@@ -87,6 +87,18 @@ npm run verify:github-production-readiness
 
 Notes:
 - Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate.
+
+### Check current production state evidence
+
+Regenerate production state in memory and prove the current git commit has matching GitHub CI, manual release-gate, and visual-smoke artifact evidence.
+
+```bash
+npm run verify:production-state-current
+```
+
+Notes:
+- Run this after CI and the manual release gate have passed for the exact commit being prepared for production.
+- This command writes no files and does not deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values.
 
 ### Check read-only Cloudflare production state
 
@@ -383,6 +395,7 @@ Secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, FEED_ADMIN_TOKEN, KIE
 Verification:
 - npm run verify:production-deploy-workflow
 - npm run verify:github-release-evidence
+- npm run verify:production-state-current
 - npm run verify:d1-manifest
 - npm run verify:production-secrets
 - npm run verify:production-state

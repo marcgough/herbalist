@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T00:11:23.954Z",
+  "generatedAt": "2026-07-01T01:08:21.772Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -109,6 +109,19 @@
       "after": [],
       "notes": [
         "Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate."
+      ]
+    },
+    {
+      "id": "check-current-production-state-evidence",
+      "title": "Check current production state evidence",
+      "approvalRequired": false,
+      "command": "npm run verify:production-state-current",
+      "purpose": "Regenerate production state in memory and prove the current git commit has matching GitHub CI, manual release-gate, and visual-smoke artifact evidence.",
+      "writesLocalFiles": false,
+      "after": [],
+      "notes": [
+        "Run this after CI and the manual release gate have passed for the exact commit being prepared for production.",
+        "This command writes no files and does not deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values."
       ]
     },
     {
@@ -420,6 +433,7 @@
       "verification": [
         "npm run verify:production-deploy-workflow",
         "npm run verify:github-release-evidence",
+        "npm run verify:production-state-current",
         "npm run verify:d1-manifest",
         "npm run verify:production-secrets",
         "npm run verify:production-state",
