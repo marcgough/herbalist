@@ -243,6 +243,10 @@ const balancedTopics = new Set(balanced.flatMap((item) => item.topics))
 for (const topic of expectedTopics) {
   assert(balancedTopics.has(topic), `Coverage-balanced normalization should retain ${topic} when available`)
 }
+const balancedSources = new Set(balanced.map((item) => item.sourceName))
+for (const source of expectedSources) {
+  assert(balancedSources.has(source), `Coverage-balanced normalization should retain source lane ${source}`)
+}
 
 const intelligence = signalIntelligenceFromItems(normalizedFixtureItems, {
   generatedAt: '2026-06-21T00:00:00.000Z',

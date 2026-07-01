@@ -1,0 +1,105 @@
+{
+  "name": "Herbalisti reference lane coverage",
+  "version": "2026-06-16",
+  "generatedAt": "2026-07-01T21:56:29.411Z",
+  "source": "static-export-reference-lanes",
+  "policy": "Jurisdiction-lane coverage and rights-review status for reference discovery. This export contains metadata and governance notes only; it does not include copied book text, treatment protocols, or personalized advice.",
+  "total": 3,
+  "lanes": [
+    {
+      "lane": "US",
+      "label": "US",
+      "status": "active",
+      "referenceCount": 465,
+      "message": "US archive lane active with rights-cleared public-domain and permissively reusable source records."
+    },
+    {
+      "lane": "UK",
+      "label": "UK",
+      "status": "active",
+      "referenceCount": 863,
+      "message": "UK archive lane active with rights-cleared public-domain and permissively reusable source records."
+    },
+    {
+      "lane": "Australia",
+      "label": "Australia",
+      "status": "prepared-not-populated",
+      "referenceCount": 0,
+      "message": "Australia lane is prepared for rights-cleared archive intake; no Australian reference books are published yet."
+    }
+  ],
+  "australiaQueue": {
+    "status": "prepared-not-populated",
+    "jurisdictionLane": "Australia",
+    "candidateSourceCount": 5,
+    "searchThemeCount": 9,
+    "corpusReadyCandidateCount": 0,
+    "currentAustraliaReferenceCount": 0,
+    "requiresExternalApprovalForApi": true,
+    "allowedContentRule": "Book-like sources only, with full text allowed only when public domain, CC0, CC BY, CC BY-SA, or similarly permissive item-level reuse rights are clear.",
+    "excludedContentRule": "No newspapers, blogs, general web pages, serial feeds, uncertain-rights scans, or platform-only records enter the corpus.",
+    "culturalSafety": "First Australian and Indigenous knowledge remains restricted metadata only unless explicit rights, authority, and culturally safe review are obtained.",
+    "candidateSources": [
+      {
+        "id": "trove-nla",
+        "name": "Trove / National Library of Australia",
+        "url": "https://trove.nla.gov.au/",
+        "status": "metadata-review-only",
+        "corpusReadiness": "metadata-review-only",
+        "requiresApiKey": true,
+        "permittedUseAtThisStage": "Manual discovery notes and item-level rights review only.",
+        "rightsBoundary": "Trove API terms cover metadata access. Digital objects and full text require item-level open licence, public-domain certainty, or content-owner permission.",
+        "noIngestReason": "API use requires an active key, and harvesting full text or using records for AI modelling can require higher review. This lane does not depend on a Trove key.",
+        "nextAction": "Use manual catalogue search now; consider an API key later only for metadata review, not full-text ingestion."
+      },
+      {
+        "id": "state-library-victoria",
+        "name": "State Library Victoria catalogue and digitised books",
+        "url": "https://www.slv.vic.gov.au/",
+        "status": "manual-rights-review-only",
+        "corpusReadiness": "manual-rights-review-only",
+        "requiresApiKey": false,
+        "permittedUseAtThisStage": "Manual candidate discovery and catalogue note taking only.",
+        "rightsBoundary": "Only item-level public-domain, CC0, CC BY, or similarly permissive text can move into the corpus.",
+        "noIngestReason": "State-library discovery pages can mix public-domain metadata, digitised objects, and third-party rights. Each book needs its own rights review.",
+        "nextAction": "Manually identify book-level candidates and record item-level copyright/licence evidence."
+      },
+      {
+        "id": "state-library-nsw",
+        "name": "State Library of New South Wales catalogue and digital collections",
+        "url": "https://www.sl.nsw.gov.au/",
+        "status": "manual-rights-review-only",
+        "corpusReadiness": "manual-rights-review-only",
+        "requiresApiKey": false,
+        "permittedUseAtThisStage": "Manual candidate discovery and catalogue note taking only.",
+        "rightsBoundary": "Only item-level public-domain, CC0, CC BY, or similarly permissive text can move into the corpus.",
+        "noIngestReason": "Catalogue records and digital objects can carry different reuse terms. This lane requires a separate rights proof before acquisition.",
+        "nextAction": "Manually screen book-level results and preserve source-page rights evidence with each candidate."
+      },
+      {
+        "id": "state-library-queensland",
+        "name": "State Library of Queensland catalogue and digital collections",
+        "url": "https://www.slq.qld.gov.au/",
+        "status": "manual-rights-review-only",
+        "corpusReadiness": "manual-rights-review-only",
+        "requiresApiKey": false,
+        "permittedUseAtThisStage": "Manual candidate discovery and catalogue note taking only.",
+        "rightsBoundary": "Only item-level public-domain, CC0, CC BY, or similarly permissive text can move into the corpus.",
+        "noIngestReason": "Digital collection entries need item-level copyright checks before any local text acquisition.",
+        "nextAction": "Manually screen catalogue records for book-like, rights-clear, full-text candidates."
+      },
+      {
+        "id": "bhl-australia",
+        "name": "Biodiversity Heritage Library Australia-linked holdings",
+        "url": "https://www.biodiversitylibrary.org/",
+        "status": "manual-rights-review-only",
+        "corpusReadiness": "manual-rights-review-only",
+        "requiresApiKey": false,
+        "permittedUseAtThisStage": "Manual candidate discovery for botanical books with medicinal-plant relevance.",
+        "rightsBoundary": "BHL items can carry title-level rights statements. Only public-domain or permissively licensed full text can move into the corpus.",
+        "noIngestReason": "Many botanical works are taxonomic rather than practical medicine; candidates need both relevance and rights review.",
+        "nextAction": "Use this as a botanical backfill lane only after practical health relevance is confirmed."
+      }
+    ]
+  }
+}

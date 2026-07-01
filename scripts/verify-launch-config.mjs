@@ -44,6 +44,7 @@ const requiredFiles = [
   'public/robots.txt',
   'public/sitemap.xml',
   'public/opensearch.xml',
+  'public/data/reference-lanes.json',
   'public/data/reference-books.json',
   'public/data/herbal-knowledge.json',
   'public/data/remedies.json',

@@ -97,6 +97,10 @@ assert(
   'Cloudflare Pages verification should include the public API catalog route',
 )
 assert(
+  resources['cloudflare-pages']?.verify?.includes('GET /data/reference-lanes.json'),
+  'Cloudflare Pages verification should include the reference lane export route',
+)
+assert(
   resources['cloudflare-pages']?.verify?.includes('GET /data/herbal-knowledge.json'),
   'Cloudflare Pages verification should include the herbal commons export route',
 )
@@ -147,6 +151,7 @@ assert(exists('scripts/export-public-data.mjs'), 'Production contract requires t
 assert(exists('scripts/verify-data-exports.mjs'), 'Production contract requires the public data export verifier')
 assert(exists('scripts/verify-api-catalog.mjs'), 'Production contract requires the API catalog verifier')
 assert(exists('scripts/verify-search-discovery.mjs'), 'Production contract requires the search discovery verifier')
+assert(exists('public/data/reference-lanes.json'), 'Production contract requires the reference lane public export')
 assert(exists('public/data/reference-books.json'), 'Production contract requires the reference book public export')
 assert(exists('public/opensearch.xml'), 'Production contract requires the OpenSearch description')
 assert(exists('public/data/herbal-knowledge.json'), 'Production contract requires the herbal commons public export')

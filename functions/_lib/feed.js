@@ -359,12 +359,14 @@ export const filterNewsItems = (items, { topic = 'All', source = 'All sources', 
 }
 
 const itemCoversTopic = (item, topic) => Array.isArray(item.topics) && item.topics.includes(topic)
+const itemCoversSource = (item, sourceName) => item.sourceName === sourceName
 
 const coverageBalancedNewsItems = (items, limit = 24, { includeWatchFallback = true } = {}) => {
   const candidates = includeWatchFallback ? dedupeNewsItems([...items, ...topicWatchFallbackItems]) : items
   const selected = []
   const selectedIds = new Set()
   const coversTopic = (topic) => selected.some((item) => itemCoversTopic(item, topic))
+  const coversSource = (sourceName) => selected.some((item) => itemCoversSource(item, sourceName))
   const add = (item) => {
     if (!item || selectedIds.has(item.id) || selected.length >= limit) {
       return
@@ -380,6 +382,14 @@ const coverageBalancedNewsItems = (items, limit = 24, { includeWatchFallback = t
     }
 
     add(candidates.find((item) => itemCoversTopic(item, topic) && !selectedIds.has(item.id)))
+  }
+
+  for (const sourceName of newsSourceNames) {
+    if (coversSource(sourceName)) {
+      continue
+    }
+
+    add(candidates.find((item) => itemCoversSource(item, sourceName) && !selectedIds.has(item.id)))
   }
 
   for (const item of items) {

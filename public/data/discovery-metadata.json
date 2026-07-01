@@ -1,7 +1,7 @@
 {
   "name": "Herbalisti discovery metadata",
   "version": "2026-06-16",
-  "generatedAt": "2026-07-01T21:02:04.155Z",
+  "generatedAt": "2026-07-01T21:56:29.411Z",
   "source": "static-export-discovery-metadata",
   "policy": "Structured discovery metadata for search engines, crawlers, and public data users. It describes public Herbalisti surfaces without medical advice, diagnosis, treatment claims, copied source text, or personalized recommendations.",
   "canonicalUrl": "https://herbalisti.com/",
@@ -80,6 +80,11 @@
     },
     {
       "type": "data",
+      "url": "https://herbalisti.com/data/reference-lanes.json",
+      "changefreq": "weekly"
+    },
+    {
+      "type": "data",
       "url": "https://herbalisti.com/data/reference-books.json",
       "changefreq": "weekly"
     },
@@ -131,6 +136,13 @@
   ],
   "datasets": [
     {
+      "id": "reference-lanes",
+      "name": "Herbalisti reference lane coverage",
+      "url": "https://herbalisti.com/data/reference-lanes.json",
+      "recordCount": 3,
+      "rightsBoundary": "Jurisdiction-lane coverage and rights-review status; metadata only."
+    },
+    {
       "id": "reference-books",
       "name": "Herbalisti reference book index",
       "url": "https://herbalisti.com/data/reference-books.json",
@@ -172,6 +184,7 @@
     "https://herbalisti.com/#website",
     "https://herbalisti.com/#webpage",
     "https://herbalisti.com/data/#catalog",
+    "https://herbalisti.com/data/reference-lanes.json#dataset",
     "https://herbalisti.com/data/reference-books.json#dataset",
     "https://herbalisti.com/data/herbal-knowledge.json#dataset",
     "https://herbalisti.com/api/signals.xml#feed"

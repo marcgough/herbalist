@@ -148,6 +148,33 @@ const summaries = expectedExports.map(({ path, minRecords, minSources, minCorpus
 })
 
 const referenceBooksExport = readJson('public/data/reference-books.json')
+const referenceLanesExport = readJson('public/data/reference-lanes.json')
+assert(referenceLanesExport.name === 'Herbalisti reference lane coverage', 'Reference-lanes export name is incorrect')
+assert(referenceLanesExport.source === 'static-export-reference-lanes', 'Reference-lanes export should be static metadata')
+assert(referenceLanesExport.total === 3, 'Reference-lanes export should expose US, UK, and Australia')
+assert(Array.isArray(referenceLanesExport.lanes), 'Reference-lanes export should expose lane records')
+assert(Array.isArray(referenceLanesExport.australiaQueue?.candidateSources), 'Reference-lanes export should expose Australia review sources')
+assert(referenceLanesExport.australiaQueue.status === 'prepared-not-populated', 'Australia lane should remain prepared-not-populated')
+assert(referenceLanesExport.australiaQueue.currentAustraliaReferenceCount === 0, 'Australia lane should not publish unproven references')
+assert(referenceLanesExport.australiaQueue.corpusReadyCandidateCount === 0, 'Australia lane should have no corpus-ready candidates yet')
+assert(referenceLanesExport.australiaQueue.candidateSourceCount >= 5, 'Australia lane should expose candidate source count')
+assert(
+  String(referenceLanesExport.australiaQueue.culturalSafety ?? '').includes('culturally safe review'),
+  'Reference-lanes export should preserve cultural safety boundary',
+)
+assert(
+  referenceLanesExport.australiaQueue.candidateSources.every(
+    (source) =>
+      source.id &&
+      source.name &&
+      source.url?.startsWith('https://') &&
+      source.status &&
+      source.corpusReadiness &&
+      source.rightsBoundary &&
+      source.noIngestReason,
+  ),
+  'Reference-lanes Australia queue sources should expose review metadata without ingesting works',
+)
 const laneCoverage = referenceBooksExport.laneCoverage
 assert(Array.isArray(laneCoverage), 'Reference-book export should expose laneCoverage')
 assert(laneCoverage.length === 3, 'Reference-book export should expose US, UK, and Australia lane coverage')
@@ -177,6 +204,7 @@ assert(
   'build script should regenerate public data exports before vite build',
 )
 assert(appSource.includes('/data/reference-books.json'), 'UI should expose reference-book data export')
+assert(appSource.includes('/data/reference-lanes.json'), 'UI should expose reference-lane data export')
 assert(appSource.includes('/data/herbal-knowledge.json'), 'UI should expose herbal commons data export')
 assert(appSource.includes('/data/remedies.json'), 'UI should expose remedy data export')
 assert(appSource.includes('/data/citation-notes.json'), 'UI should expose citation-note data export')
@@ -193,6 +221,10 @@ assert(Array.isArray(discoveryMetadata.datasets), 'Discovery metadata should exp
 assert(
   discoveryMetadata.datasets.some((dataset) => dataset.id === 'reference-books' && dataset.recordCount >= 1000),
   'Discovery metadata should expose the reference-book dataset count',
+)
+assert(
+  discoveryMetadata.datasets.some((dataset) => dataset.id === 'reference-lanes' && dataset.recordCount === 3),
+  'Discovery metadata should expose the reference-lanes dataset',
 )
 assert(
   discoveryMetadata.datasets.some((dataset) => dataset.id === 'herbal-commons' && dataset.recordCount >= 100),

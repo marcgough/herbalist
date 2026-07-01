@@ -22,6 +22,7 @@
         "GET /api/signals.xml",
         "POST /api/feed-refresh",
         "npm run seed:production-feed -- --base-url https://herbalisti.com --confirm seed-herbalisti-feed",
+        "GET /data/reference-lanes.json",
         "GET /data/discovery-metadata.json",
         "GET /data/api-catalog.json",
         "GET /data/herbal-knowledge.json",

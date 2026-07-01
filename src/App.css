@@ -1674,6 +1674,10 @@ main:focus-visible {
   margin: -8px 0 18px;
 }
 
+.lane-coverage-strip-search {
+  margin: -12px 0 24px;
+}
+
 .lane-coverage-chip {
   display: inline-flex;
   min-height: 32px;
@@ -1695,6 +1699,11 @@ main:focus-visible {
 
 .lane-coverage-chip-pending {
   background: rgba(207, 232, 231, 0.3);
+}
+
+.lane-coverage-chip-selected {
+  border-color: rgba(21, 54, 54, 0.42);
+  box-shadow: 0 10px 30px rgba(88, 118, 118, 0.13);
 }
 
 .lane-coverage-name {

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T21:03:00.124Z",
-  "auditSignature": "78f65c8101727d1097b955d0a07465fd3c3aec45db106ec6bd30a97a0015916c",
+  "generatedAt": "2026-07-01T21:58:13.209Z",
+  "auditSignature": "cd9afa9cf387929dff92091bb3f43cf2e69fa8d6bce1a95a3c89cfe16e399268",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -640,9 +640,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 151,
+      "files": 152,
       "scripts": 119,
-      "passes": 229
+      "passes": 230
     },
     "nextActions": [
       "Set the required GitHub production environment credentials listed by npm run verify:github-production-readiness.",

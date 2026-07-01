@@ -48,6 +48,7 @@ const feedModes = ['All', ...topicFilters]
 const initialLibraryVisibleCount = 60
 const initialFeedSourceModes = ['All sources', ...new Set(sourceAllowlist.map((source) => source.feedName ?? source.name))]
 const dataExports = [
+  { label: 'Reference lanes', href: '/data/reference-lanes.json' },
   { label: 'Reference books', href: '/data/reference-books.json' },
   { label: 'Herbal commons', href: '/data/herbal-knowledge.json' },
   { label: 'Remedies', href: '/data/remedies.json' },
@@ -3007,6 +3008,26 @@ function App() {
           ) : null}
         </div>
 
+        <div className="lane-coverage-strip lane-coverage-strip-search" aria-label="Search reference lane coverage">
+          {referenceLaneCoverage.map((lane) => (
+            <span
+              key={lane.lane}
+              className={`lane-coverage-chip lane-coverage-chip-${lane.status === 'active' ? 'active' : 'pending'}${
+                searchRegion === lane.lane ? ' lane-coverage-chip-selected' : ''
+              }`}
+              title={lane.message}
+              aria-current={searchRegion === lane.lane ? 'true' : undefined}
+            >
+              <span className="lane-coverage-name">{lane.label}</span>
+              <span>
+                {lane.status === 'active'
+                  ? `${lane.referenceCount.toLocaleString('en-US')} references`
+                  : 'rights review'}
+              </span>
+            </span>
+          ))}
+        </div>
+
         {trimmedGlobalQuery ? (
           <div className="search-results-grid">
             {visibleSearchGroups.some((group) => group.items.length > 0) ? (
@@ -3074,8 +3095,11 @@ function App() {
           {referenceLaneCoverage.map((lane) => (
             <span
               key={lane.lane}
-              className={`lane-coverage-chip lane-coverage-chip-${lane.status === 'active' ? 'active' : 'pending'}`}
+              className={`lane-coverage-chip lane-coverage-chip-${lane.status === 'active' ? 'active' : 'pending'}${
+                bookRegion === lane.lane ? ' lane-coverage-chip-selected' : ''
+              }`}
               title={lane.message}
+              aria-current={bookRegion === lane.lane ? 'true' : undefined}
             >
               <span className="lane-coverage-name">{lane.label}</span>
               <span>

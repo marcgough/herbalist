@@ -20,6 +20,7 @@ const requiredSitemapDataSurfaces = [
   '/api/signals.xml',
   '/data/news.json',
   '/data/feed-status.json',
+  '/data/reference-lanes.json',
   '/data/reference-books.json',
   '/data/herbal-knowledge.json',
   '/data/remedies.json',
@@ -36,6 +37,7 @@ const requiredGraphIds = [
   'https://herbalisti.com/#website',
   'https://herbalisti.com/#webpage',
   'https://herbalisti.com/data/#catalog',
+  'https://herbalisti.com/data/reference-lanes.json#dataset',
   'https://herbalisti.com/data/reference-books.json#dataset',
   'https://herbalisti.com/data/herbal-knowledge.json#dataset',
   'https://herbalisti.com/api/signals.xml#feed',
@@ -46,6 +48,7 @@ for (const path of [
   'public/robots.txt',
   'public/sitemap.xml',
   'public/opensearch.xml',
+  'public/data/reference-lanes.json',
   'public/data/reference-books.json',
   'public/data/herbal-knowledge.json',
   'public/data/remedies.json',
@@ -62,6 +65,7 @@ const robots = read('public/robots.txt')
 const sitemap = read('public/sitemap.xml')
 const openSearch = read('public/opensearch.xml')
 const discovery = readJson('public/data/discovery-metadata.json')
+const referenceLanes = readJson('public/data/reference-lanes.json')
 const referenceBooks = readJson('public/data/reference-books.json')
 const herbalKnowledge = readJson('public/data/herbal-knowledge.json')
 const remedies = readJson('public/data/remedies.json')
@@ -109,6 +113,7 @@ assert(
 const catalog = jsonLd['@graph'].find((node) => node['@id'] === 'https://herbalisti.com/data/#catalog')
 assert(catalog?.dataset?.length >= 5, 'DataCatalog should link the public data exports')
 for (const datasetRef of [
+  'https://herbalisti.com/data/reference-lanes.json#dataset',
   'https://herbalisti.com/data/reference-books.json#dataset',
   'https://herbalisti.com/data/herbal-knowledge.json#dataset',
 ]) {
@@ -129,7 +134,7 @@ assert(discovery.searchAction === website.potentialAction.target, 'Discovery met
 assert(discovery.rss === 'https://herbalisti.com/api/signals.xml', 'Discovery metadata should expose the Signals RSS URL')
 assert(!treatmentClaimPattern.test(discovery.policy), 'Discovery metadata policy should avoid medical-treatment claims')
 assert(Array.isArray(discovery.publicSurfaces), 'Discovery metadata should expose public surfaces')
-assert(Array.isArray(discovery.datasets) && discovery.datasets.length === 5, 'Discovery metadata should describe five datasets')
+assert(Array.isArray(discovery.datasets) && discovery.datasets.length === 6, 'Discovery metadata should describe six datasets')
 assert(
   openSearch.includes('https://herbalisti.com/search?q={searchTerms}') &&
     openSearch.includes('https://herbalisti.com/api/search?query={searchTerms}'),
@@ -137,6 +142,7 @@ assert(
 )
 
 const datasetById = new Map(discovery.datasets.map((dataset) => [dataset.id, dataset]))
+assert(datasetById.get('reference-lanes')?.recordCount === referenceLanes.total, 'Reference-lanes dataset count should match export total')
 assert(datasetById.get('reference-books')?.recordCount === referenceBooks.total, 'Reference dataset count should match export total')
 assert(datasetById.get('herbal-commons')?.recordCount === herbalKnowledge.total, 'Herbal commons count should match export total')
 assert(datasetById.get('herbal-commons')?.sourceCount === herbalKnowledge.sources.length, 'Herbal commons source count should match export sources')

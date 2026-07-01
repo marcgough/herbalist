@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs'
 import { mkdir, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -16,6 +17,11 @@ const generatedDate = generatedAt.slice(0, 10)
 const version = '2026-06-16'
 const canonicalBaseUrl = 'https://herbalisti.com'
 
+const readJson = (path) => JSON.parse(readFileSync(resolve(root, path), 'utf8'))
+const australiaLaneSummary = readJson('corpus/exports/australia-lane-summary.json')
+const australiaCandidateSources = readJson('corpus/derived/australia-lane/candidate-sources.json')
+const referenceLaneCoverage = buildReferenceLaneCoverage(publicReferenceBooks)
+
 const sitemapEntries = [
   { path: '/', type: 'page', changefreq: 'daily', priority: '1.0' },
   { path: '/search', type: 'page', changefreq: 'weekly', priority: '0.8' },
@@ -30,6 +36,7 @@ const sitemapEntries = [
   { path: '/api/signals.xml', type: 'feed', changefreq: 'daily', priority: '0.7' },
   { path: '/data/news.json', type: 'data', changefreq: 'daily', priority: '0.5' },
   { path: '/data/feed-status.json', type: 'data', changefreq: 'daily', priority: '0.5' },
+  { path: '/data/reference-lanes.json', type: 'data', changefreq: 'weekly', priority: '0.5' },
   { path: '/data/reference-books.json', type: 'data', changefreq: 'weekly', priority: '0.5' },
   { path: '/data/herbal-knowledge.json', type: 'data', changefreq: 'weekly', priority: '0.5' },
   { path: '/data/remedies.json', type: 'data', changefreq: 'weekly', priority: '0.5' },
@@ -243,6 +250,43 @@ const buildOpenSearchXml = () => `<?xml version="1.0" encoding="UTF-8"?>
 
 const exports = [
   {
+    fileName: 'reference-lanes.json',
+    payload: {
+      name: 'Herbalisti reference lane coverage',
+      version,
+      generatedAt,
+      source: 'static-export-reference-lanes',
+      policy:
+        'Jurisdiction-lane coverage and rights-review status for reference discovery. This export contains metadata and governance notes only; it does not include copied book text, treatment protocols, or personalized advice.',
+      total: referenceLaneCoverage.length,
+      lanes: referenceLaneCoverage,
+      australiaQueue: {
+        status: australiaLaneSummary.status,
+        jurisdictionLane: australiaLaneSummary.jurisdictionLane,
+        candidateSourceCount: australiaLaneSummary.candidateSourceCount,
+        searchThemeCount: australiaLaneSummary.searchThemeCount,
+        corpusReadyCandidateCount: australiaLaneSummary.corpusReadyCandidateCount,
+        currentAustraliaReferenceCount: australiaLaneSummary.currentAustraliaReferenceCount,
+        requiresExternalApprovalForApi: australiaLaneSummary.requiresExternalApprovalForApi,
+        allowedContentRule: australiaLaneSummary.allowedContentRule,
+        excludedContentRule: australiaLaneSummary.excludedContentRule,
+        culturalSafety: australiaLaneSummary.culturalSafety,
+        candidateSources: australiaCandidateSources.map((source) => ({
+          id: source.id,
+          name: source.name,
+          url: source.url,
+          status: source.status,
+          corpusReadiness: source.corpusReadiness,
+          requiresApiKey: source.requiresApiKey,
+          permittedUseAtThisStage: source.permittedUseAtThisStage,
+          rightsBoundary: source.rightsBoundary,
+          noIngestReason: source.noIngestReason,
+          nextAction: source.nextAction,
+        })),
+      },
+    },
+  },
+  {
     fileName: 'reference-books.json',
     payload: {
       name: 'Herbalisti reference book export',
@@ -251,7 +295,7 @@ const exports = [
       source: publicReferenceBooks.length ? 'static-export-corpus-registry' : 'static-export',
       policy:
         'Public bibliographic metadata and rights-cleared source-index records only; no copied book text, treatment protocols, or personalized advice.',
-      laneCoverage: buildReferenceLaneCoverage(publicReferenceBooks),
+      laneCoverage: referenceLaneCoverage,
       total: publicReferenceBooks.length,
       records: publicReferenceBooks,
     },
@@ -356,6 +400,13 @@ exports.push({
     })),
     datasets: [
       {
+        id: 'reference-lanes',
+        name: 'Herbalisti reference lane coverage',
+        url: 'https://herbalisti.com/data/reference-lanes.json',
+        recordCount: referenceLaneCoverage.length,
+        rightsBoundary: 'Jurisdiction-lane coverage and rights-review status; metadata only.',
+      },
+      {
         id: 'reference-books',
         name: 'Herbalisti reference book index',
         url: 'https://herbalisti.com/data/reference-books.json',
@@ -397,6 +448,7 @@ exports.push({
       'https://herbalisti.com/#website',
       'https://herbalisti.com/#webpage',
       'https://herbalisti.com/data/#catalog',
+      'https://herbalisti.com/data/reference-lanes.json#dataset',
       'https://herbalisti.com/data/reference-books.json#dataset',
       'https://herbalisti.com/data/herbal-knowledge.json#dataset',
       'https://herbalisti.com/api/signals.xml#feed',

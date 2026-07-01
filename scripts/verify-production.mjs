@@ -99,6 +99,7 @@ const sitemapDataSurfaces = [
   '/api/signals.xml',
   '/data/news.json',
   '/data/feed-status.json',
+  '/data/reference-lanes.json',
   '/data/reference-books.json',
   '/data/herbal-knowledge.json',
   '/data/remedies.json',
@@ -461,7 +462,13 @@ assert(
   'Discovery metadata should expose the public search action URL',
 )
 assert(Array.isArray(discoveryMetadata.publicSurfaces), 'Discovery metadata should expose public surfaces')
-assert(Array.isArray(discoveryMetadata.datasets) && discoveryMetadata.datasets.length === 5, 'Discovery metadata should describe five datasets')
+assert(Array.isArray(discoveryMetadata.datasets) && discoveryMetadata.datasets.length === 6, 'Discovery metadata should describe six datasets')
+assert(
+  discoveryMetadata.datasets.some(
+    (dataset) => dataset.id === 'reference-lanes' && dataset.url === 'https://herbalisti.com/data/reference-lanes.json',
+  ),
+  'Discovery metadata should expose the reference-lanes dataset',
+)
 assert(
   discoveryMetadata.datasets.some(
     (dataset) => dataset.id === 'reference-books' && dataset.recordCount === referenceBookExport.records.length,
