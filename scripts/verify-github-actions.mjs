@@ -164,6 +164,15 @@ assert(runbook.includes('npm run verify:production-d1-resolver'), 'Deployment ru
 assert(runbook.includes('npm run verify:production-feed-seed'), 'Deployment runbook should document production feed seed verification')
 assert(runbook.includes('npm run verify:github-production-dispatch'), 'Deployment runbook should document GitHub production dispatch packet verification')
 assert(runbook.includes('npm run verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
+assert(
+  runbook.includes('CLOUDFLARE_API_TOKEN` as a secret') &&
+    runbook.includes('CLOUDFLARE_ACCOUNT_ID` as a variable'),
+  'Deployment runbook should distinguish the Cloudflare token secret from the account ID variable',
+)
+assert(
+  !runbook.includes('required GitHub secret names are configured'),
+  'Deployment runbook should not describe all required GitHub production credentials as secrets',
+)
 assert(runbook.includes('npm run verify:production-state-current'), 'Deployment runbook should document current production state evidence verification')
 assert(runbook.includes('npm run verify:production-state'), 'Deployment runbook should document production state snapshot verification')
 assert(runbook.includes('npm run verify:cloudflare-token-requirements'), 'Deployment runbook should document Cloudflare token requirement verification')

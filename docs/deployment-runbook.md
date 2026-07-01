@@ -194,7 +194,7 @@ Guarded production deploy workflow verification is local and read-only:
 npm run verify:production-deploy-workflow
 ```
 
-It checks `.github/workflows/production-deploy.yml` without running it. The workflow is manual-only, requires the exact `deploy-herbalisti-production` confirmation phrase, uses the GitHub `production` environment, validates named GitHub secrets, verifies exact release evidence, configures runner-local D1 bindings, applies remote D1 migrations, sets Cloudflare secrets from GitHub secrets without echoing values, deploys Pages and the scheduled Worker, seeds the live Signals feed through the protected feed-refresh endpoint, writes a non-secret production deployment evidence artifact, and runs strict live verification unless temporarily skipped during DNS transition with `skip_live_verification_confirm=skip-herbalisti-live-verification`.
+It checks `.github/workflows/production-deploy.yml` without running it. The workflow is manual-only, requires the exact `deploy-herbalisti-production` confirmation phrase, uses the GitHub `production` environment, validates the required GitHub production credentials, reads the Cloudflare API token from a secret and the Cloudflare account ID from a variable with secret fallback support, verifies exact release evidence, configures runner-local D1 bindings, applies remote D1 migrations, sets Cloudflare runtime secrets without echoing values, deploys Pages and the scheduled Worker, seeds the live Signals feed through the protected feed-refresh endpoint, writes a non-secret production deployment evidence artifact, and runs strict live verification unless temporarily skipped during DNS transition with `skip_live_verification_confirm=skip-herbalisti-live-verification`.
 
 Production deploy evidence verification is local and artifact-shape only:
 
@@ -224,7 +224,7 @@ GitHub production dispatch packet verification is local and read-only:
 npm run verify:github-production-dispatch
 ```
 
-It checks `docs/github-production-dispatch.json` and `docs/github-production-dispatch.md` for the exact guarded workflow inputs, strict preflight commands, required secret names, and the DNS-transition skip acknowledgement boundary. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.
+It checks `docs/github-production-dispatch.json` and `docs/github-production-dispatch.md` for the exact guarded workflow inputs, strict preflight commands, required GitHub production credential names, and the DNS-transition skip acknowledgement boundary. It does not dispatch GitHub Actions, set secrets or variables, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.
 
 Guarded production deploy dry-run verification is local and mocked:
 
@@ -257,7 +257,7 @@ npm run verify:github-production-readiness
 npm run verify:github-production-readiness -- --strict
 ```
 
-It checks GitHub workflow, environment, secret-name, and release-run metadata without creating environments, setting secrets, dispatching workflows, or printing secret values. Current setup should report `needs-github-production-setup` until the `production` environment and required GitHub secret names are configured.
+It checks GitHub workflow, environment, secret-name, variable-name, and release-run metadata without creating environments, setting secrets or variables, dispatching workflows, or printing secret values. Current setup should report `needs-github-production-setup` until the `production` environment and required GitHub production credentials are configured: `CLOUDFLARE_API_TOKEN` as a secret and `CLOUDFLARE_ACCOUNT_ID` as a variable.
 
 Cloudflare production state verification is read-only and should be run before resource creation or deployment:
 
@@ -266,7 +266,7 @@ npm run verify:cloudflare-production-state
 npm run verify:cloudflare-production-state -- --strict
 ```
 
-Without a valid Wrangler session or `CLOUDFLARE_API_TOKEN`, it reports `needs-cloudflare-auth`. Once authenticated, it checks visible Cloudflare Pages, D1, Worker deployment, custom-domain metadata, and required secret names without creating resources, deploying, mutating DNS, setting secrets, calling paid APIs, or printing secret values.
+Without a valid Wrangler session or `CLOUDFLARE_API_TOKEN`, it reports `needs-cloudflare-auth`. Once authenticated, it checks visible Cloudflare Pages, D1, Worker deployment, custom-domain metadata, and required Cloudflare runtime secret names without creating resources, deploying, mutating DNS, setting secrets, calling paid APIs, or printing secret values.
 
 Production state snapshot verification is local and artifact-only:
 
