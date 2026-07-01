@@ -193,19 +193,7 @@ const hasActiveD1Binding = (toml, id) =>
   /^\s*database_name\s*=\s*"herbalisti"\s*$/m.test(toml) &&
   new RegExp(`^\\s*database_id\\s*=\\s*"${id}"\\s*$`, 'm').test(toml)
 
-const workflow = read(workflowPath)
-const packageJson = readJson('package.json')
-const contract = readJson('docs/production-environment-contract.json')
-
-assert(packageJson.scripts?.['verify:production-deploy-dry-run'], 'package.json should expose verify:production-deploy-dry-run')
-assert(workflow.includes('npm run verify:production-deploy-dry-run'), 'Production deploy workflow should include its local dry-run gate')
-assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'), 'Safe preflight should include production deploy dry-run verification')
-
-const tempDir = mkdtempSync(join(tmpdir(), 'herbalisti-production-deploy-dry-run-'))
-try {
-  const binDir = makeFakeNpx(tempDir)
-  const statePath = join(tempDir, 'state.json')
-  const githubEnvPath = join(tempDir, 'github.env')
+const seedFakeWranglerState = (statePath) =>
   writeFileSync(
     statePath,
     JSON.stringify(
@@ -220,6 +208,7 @@ try {
     'utf8',
   )
 
+const runProductionCommandPath = ({ binDir, statePath, githubEnvPath, includeOptionalMediaSecrets }) => {
   const projectsOutput = runNpxWrangler({ binDir, statePath, args: ['pages', 'project', 'list', '--json'] })
   const projects = JSON.parse(projectsOutput).result ?? []
   if (!projects.some((project) => project.name === 'herbalisti')) {
@@ -242,8 +231,10 @@ try {
   runNpxWrangler({ binDir, statePath, args: ['d1', 'migrations', 'apply', 'herbalisti', '--remote'] })
   runNpxWrangler({ binDir, statePath, args: ['secret', 'put', 'FEED_ADMIN_TOKEN', '--config', 'wrangler.news.toml'], input: fakeSecretValue })
   runNpxWrangler({ binDir, statePath, args: ['pages', 'secret', 'put', 'FEED_ADMIN_TOKEN', '--project-name', 'herbalisti'], input: fakeSecretValue })
-  runNpxWrangler({ binDir, statePath, args: ['pages', 'secret', 'put', 'KIE_API_KEY', '--project-name', 'herbalisti'], input: fakeSecretValue })
-  runNpxWrangler({ binDir, statePath, args: ['pages', 'secret', 'put', 'MEDIA_ADMIN_TOKEN', '--project-name', 'herbalisti'], input: fakeSecretValue })
+  if (includeOptionalMediaSecrets) {
+    runNpxWrangler({ binDir, statePath, args: ['pages', 'secret', 'put', 'KIE_API_KEY', '--project-name', 'herbalisti'], input: fakeSecretValue })
+    runNpxWrangler({ binDir, statePath, args: ['pages', 'secret', 'put', 'MEDIA_ADMIN_TOKEN', '--project-name', 'herbalisti'], input: fakeSecretValue })
+  }
   runNpxWrangler({ binDir, statePath, args: ['pages', 'deploy', 'dist', '--project-name', 'herbalisti'] })
   runNpxWrangler({ binDir, statePath, args: ['deploy', '--config', 'wrangler.news.toml'] })
   const feedSeedDryRun = spawnSync(
@@ -262,10 +253,47 @@ try {
     },
   )
   assert.equal(feedSeedDryRun.status, 0, `Production feed seed dry run should pass\n${feedSeedDryRun.stderr}`)
-  const feedSeedDryRunPayload = JSON.parse(feedSeedDryRun.stdout)
 
-  const state = JSON.parse(readFileSync(statePath, 'utf8'))
+  return {
+    resolverOutput,
+    feedSeedDryRunPayload: JSON.parse(feedSeedDryRun.stdout),
+    state: JSON.parse(readFileSync(statePath, 'utf8')),
+  }
+}
+
+const workflow = read(workflowPath)
+const packageJson = readJson('package.json')
+const contract = readJson('docs/production-environment-contract.json')
+
+assert(packageJson.scripts?.['verify:production-deploy-dry-run'], 'package.json should expose verify:production-deploy-dry-run')
+assert(workflow.includes('npm run verify:production-deploy-dry-run'), 'Production deploy workflow should include its local dry-run gate')
+assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'), 'Safe preflight should include production deploy dry-run verification')
+
+const tempDir = mkdtempSync(join(tmpdir(), 'herbalisti-production-deploy-dry-run-'))
+try {
+  const binDir = makeFakeNpx(tempDir)
+  const mediaEnabledStatePath = join(tempDir, 'state-media-enabled.json')
+  const mediaEnabledGithubEnvPath = join(tempDir, 'github-media-enabled.env')
+  seedFakeWranglerState(mediaEnabledStatePath)
+  const mediaEnabled = runProductionCommandPath({
+    binDir,
+    statePath: mediaEnabledStatePath,
+    githubEnvPath: mediaEnabledGithubEnvPath,
+    includeOptionalMediaSecrets: true,
+  })
+  const { state, resolverOutput, feedSeedDryRunPayload } = mediaEnabled
   const callStrings = state.calls.map((call) => call.join(' '))
+
+  const mediaDisabledStatePath = join(tempDir, 'state-media-disabled.json')
+  const mediaDisabledGithubEnvPath = join(tempDir, 'github-media-disabled.env')
+  seedFakeWranglerState(mediaDisabledStatePath)
+  const mediaDisabled = runProductionCommandPath({
+    binDir,
+    statePath: mediaDisabledStatePath,
+    githubEnvPath: mediaDisabledGithubEnvPath,
+    includeOptionalMediaSecrets: false,
+  })
+  const mediaDisabledCallStrings = mediaDisabled.state.calls.map((call) => call.join(' '))
   const checks = [
     ['pages project list', callStrings.includes('wrangler pages project list --json')],
     ['pages project create', state.createdPagesProjects?.includes('herbalisti')],
@@ -278,7 +306,21 @@ try {
     ['pages deploy', state.pagesDeployed === true],
     ['worker deploy', state.workerDeployed === true],
     ['feed seed dry run', feedSeedDryRunPayload.endpoint === 'https://herbalisti.com/api/feed-refresh'],
-    ['no secret-looking values', !secretValuePattern.test(JSON.stringify({ state, resolverOutput, feedSeedDryRunPayload }))],
+    [
+      'optional media disabled path',
+      mediaDisabled.state.workerSecrets?.some((secret) => secret.name === 'FEED_ADMIN_TOKEN' && secret.stdinBytes > 0) &&
+        mediaDisabled.state.pagesSecrets?.some((secret) => secret.name === 'FEED_ADMIN_TOKEN' && secret.stdinBytes > 0) &&
+        !mediaDisabled.state.pagesSecrets?.some((secret) => ['KIE_API_KEY', 'MEDIA_ADMIN_TOKEN'].includes(secret.name)) &&
+        mediaDisabled.state.pagesDeployed === true &&
+        mediaDisabled.state.workerDeployed === true &&
+        mediaDisabled.feedSeedDryRunPayload.endpoint === 'https://herbalisti.com/api/feed-refresh',
+    ],
+    [
+      'no secret-looking values',
+      !secretValuePattern.test(
+        JSON.stringify({ state, resolverOutput, feedSeedDryRunPayload, mediaDisabledState: mediaDisabled.state }),
+      ),
+    ],
   ].map(([id, ok]) => ({ id, status: ok ? 'pass' : 'fail' }))
 
   assert(checks.every((check) => check.status === 'pass'), `Production deploy dry-run checks failed: ${JSON.stringify(checks)}`)
@@ -288,10 +330,20 @@ try {
       {
         status: 'pass',
         resolvedD1Status: resolverOutput.status,
-        commandsRehearsed: callStrings.length,
+        commandsRehearsed: callStrings.length + mediaDisabledCallStrings.length,
+        scenarios: [
+          {
+            id: 'optional-media-enabled',
+            commandsRehearsed: callStrings.length,
+          },
+          {
+            id: 'optional-media-disabled',
+            commandsRehearsed: mediaDisabledCallStrings.length,
+          },
+        ],
         checks,
         safeToRun:
-          'Runs the production Cloudflare-facing command path against a temporary fake npx/wrangler command and in-memory Wrangler config output. It does not call Cloudflare, deploy, mutate DNS, create real resources, set real secrets, call paid APIs, write Wrangler config files, or print secret values.',
+          'Runs the production Cloudflare-facing command path against a temporary fake npx/wrangler command and in-memory Wrangler config output, including launch paths with and without optional Seedance media secrets. It does not call Cloudflare, deploy, mutate DNS, create real resources, set real secrets, call paid APIs, write Wrangler config files, or print secret values.',
       },
       null,
       2,
