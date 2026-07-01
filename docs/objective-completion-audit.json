@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T07:24:25.008Z",
-  "auditSignature": "b2cb9b6093d907843a289f1e8cd4387bb73de5a2ea588a7ba334323162872616",
+  "generatedAt": "2026-07-01T08:01:00.879Z",
+  "auditSignature": "902dec5cfceca5617d544082e22858530162bbc1f6248893b943477e58c01900",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -333,6 +333,8 @@
         "docs/cloudflare-token-requirements.md",
         "docs/production-cutover-simulation.json",
         "docs/production-cutover-simulation.md",
+        "docs/production-operator-brief.json",
+        "docs/production-operator-brief.md",
         "scripts/verify-production-contract.mjs",
         "scripts/verify-external-actions.mjs",
         "scripts/prepare-d1-production-manifest.mjs",
@@ -350,6 +352,7 @@
         "scripts/prepare-production-provisioning.mjs",
         "scripts/prepare-production-state-snapshot.mjs",
         "scripts/prepare-github-production-dispatch.mjs",
+        "scripts/prepare-production-operator-brief.mjs",
         "scripts/verify-production-deploy-workflow.mjs",
         "scripts/verify-github-production-readiness.mjs",
         "scripts/verify-cloudflare-production-state.mjs",
@@ -361,6 +364,8 @@
         "npm run verify:production-state",
         "npm run prepare:github-production-dispatch",
         "npm run verify:github-production-dispatch",
+        "npm run prepare:production-operator-brief",
+        "npm run verify:production-operator-brief",
         "npm run verify:d1-manifest",
         "npm run verify:dns-cutover",
         "npm run verify:production-secrets",
@@ -479,6 +484,7 @@
         "scripts/verify-github-release-evidence.mjs",
         "scripts/verify-github-production-readiness.mjs",
         "scripts/prepare-github-production-dispatch.mjs",
+        "scripts/prepare-production-operator-brief.mjs",
         "scripts/prepare-production-state-snapshot.mjs",
         "scripts/verify-cloudflare-production-state.mjs",
         "scripts/prepare-cloudflare-token-requirements.mjs",
@@ -514,6 +520,7 @@
         "scripts/prepare-external-actions.mjs",
         "scripts/simulate-production-cutover.mjs",
         "scripts/prepare-production-provisioning.mjs",
+        "scripts/prepare-production-operator-brief.mjs",
         "scripts/prepare-launch-packet.mjs"
       ],
       "remaining": [],
@@ -548,7 +555,7 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T07:23:09.917Z",
+      "generatedAt": "2026-07-01T07:59:26.017Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 13,
@@ -556,9 +563,9 @@
         "Health as a service": 2,
         "Peptides": 1,
         "Self-sovereign wellbeing": 1,
-        "CRISPR": 6,
+        "CRISPR": 7,
         "Gene editing": 6,
-        "Gene therapy": 2
+        "Gene therapy": 1
       },
       "sourceCounts": {
         "Fight Aging!": 6,
@@ -571,7 +578,7 @@
       "publicSnapshot": {
         "status": "updated",
         "itemCount": 24,
-        "generatedAt": "2026-07-01T07:23:09.917Z"
+        "generatedAt": "2026-07-01T07:59:26.017Z"
       }
     },
     "media": {
