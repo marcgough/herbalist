@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T12:32:14.148Z",
-  "status": "needs-github-production-secret-names",
+  "generatedAt": "2026-07-01T15:10:37.548Z",
+  "status": "needs-github-production-credentials",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, workflow files, and generated readiness packets only. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.",
   "repository": "marcgough/herbalist",
@@ -54,6 +54,12 @@
     "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>"
   ],
   "requiredGitHubSecretNames": [
+    "CLOUDFLARE_API_TOKEN"
+  ],
+  "requiredGitHubVariableNames": [
+    "CLOUDFLARE_ACCOUNT_ID"
+  ],
+  "requiredGitHubCredentialNames": [
     "CLOUDFLARE_API_TOKEN",
     "CLOUDFLARE_ACCOUNT_ID"
   ],
@@ -65,6 +71,12 @@
     "MEDIA_ADMIN_TOKEN"
   ],
   "missingGitHubSecretNames": [
+    "CLOUDFLARE_API_TOKEN"
+  ],
+  "missingGitHubVariableNames": [
+    "CLOUDFLARE_ACCOUNT_ID"
+  ],
+  "missingGitHubCredentialNames": [
     "CLOUDFLARE_API_TOKEN",
     "CLOUDFLARE_ACCOUNT_ID"
   ],

@@ -58,9 +58,9 @@ const deriveStatus = ({ productionState, githubDispatch, dnsCutoverPlan }) => {
     return 'production-complete'
   }
 
-  const missingGitHubSecrets = list(githubDispatch?.missingGitHubSecretNames)
-  if (missingGitHubSecrets.length) {
-    return 'needs-github-production-secret-entry'
+  const missingGitHubCredentials = list(githubDispatch?.missingGitHubCredentialNames ?? githubDispatch?.missingGitHubSecretNames)
+  if (missingGitHubCredentials.length) {
+    return 'needs-github-production-credential-entry'
   }
 
   if (productionState?.summary?.cloudflareProductionStateStatus === 'needs-cloudflare-auth') {
@@ -95,6 +95,14 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     productionSecrets.githubProductionEnvironment?.requiredSecretNames ??
     githubDispatch.requiredGitHubSecretNames ??
     []
+  const requiredGitHubVariableNames =
+    productionSecrets.githubProductionEnvironment?.requiredVariableNames ??
+    githubDispatch.requiredGitHubVariableNames ??
+    []
+  const requiredGitHubCredentialNames =
+    productionSecrets.githubProductionEnvironment?.requiredCredentialNames ??
+    githubDispatch.requiredGitHubCredentialNames ??
+    [...requiredGitHubSecretNames, ...requiredGitHubVariableNames]
   const optionalGitHubSecretNames =
     productionSecrets.githubProductionEnvironment?.optionalSecretNames ??
     githubDispatch.optionalGitHubSecretNames ??
@@ -107,6 +115,14 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     githubDispatch.missingGitHubSecretNames ??
     productionState.summary?.githubMissingSecretNames ??
     []
+  const missingGitHubVariableNames =
+    githubDispatch.missingGitHubVariableNames ??
+    productionState.summary?.githubMissingVariableNames ??
+    []
+  const missingGitHubCredentialNames =
+    githubDispatch.missingGitHubCredentialNames ??
+    productionState.summary?.githubMissingCredentialNames ??
+    [...missingGitHubSecretNames, ...missingGitHubVariableNames]
   const liveCompletionGates = commandList(contract.commands?.liveCompletionGates)
   const finalCompletionGates = commandList(
     contract.commands?.finalCompletionGates ?? [
@@ -141,6 +157,9 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
   const requiredGitHubSecretCommands = list(productionSecrets.githubProductionEnvironment?.secrets)
     .filter((secret) => secret.requiredForGuardedWorkflow)
     .map((secret) => secret.setCommand)
+  const requiredGitHubVariableCommands = list(productionSecrets.githubProductionEnvironment?.variables).map(
+    (variable) => variable.setCommand,
+  )
 
   const status = deriveStatus({ productionState, githubDispatch, dnsCutoverPlan })
   const productionBlockers = unique([
@@ -153,9 +172,9 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     buildCheck(
       'github-secret-boundary',
       requiredGitHubSecretNames.includes('CLOUDFLARE_API_TOKEN') &&
-        requiredGitHubSecretNames.includes('CLOUDFLARE_ACCOUNT_ID') &&
+        requiredGitHubVariableNames.includes('CLOUDFLARE_ACCOUNT_ID') &&
         !requiredGitHubSecretNames.includes('FEED_ADMIN_TOKEN'),
-      'Only Cloudflare deployment credentials are required as GitHub production environment secrets.',
+      'Cloudflare token is a GitHub production secret; Cloudflare account ID is a production variable with secret fallback.',
     ),
     buildCheck(
       'generated-runtime-tokens',
@@ -231,6 +250,8 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
         'Stored snapshot evidence can trail repository HEAD; use npm run verify:production-state-current for exact current-commit release evidence.',
       githubProductionReadinessStatus: productionState.summary?.githubProductionReadinessStatus ?? 'unknown',
       missingGitHubSecretNames,
+      missingGitHubVariableNames,
+      missingGitHubCredentialNames,
       cloudflareProductionStateStatus: productionState.summary?.cloudflareProductionStateStatus ?? 'unknown',
       wranglerAuthenticated: Boolean(productionState.summary?.wranglerAuthenticated),
       dnsCutoverStatus: productionState.summary?.dnsCutoverStatus ?? dnsCutoverPlan.status,
@@ -242,11 +263,13 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     },
     secretBoundary: {
       requiredGitHubSecretNames,
+      requiredGitHubVariableNames,
+      requiredGitHubCredentialNames,
       optionalGitHubSecretNames,
       generatedRuntimeSecretNames,
-      notRequiredAsGitHubSecretNames: ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN', 'CLOUDFLARE_D1_DATABASE_ID'],
+      notRequiredAsGitHubSecretNames: ['CLOUDFLARE_ACCOUNT_ID', 'FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN', 'CLOUDFLARE_D1_DATABASE_ID'],
       valueHandling:
-        'Enter externally issued secret values directly into GitHub or Cloudflare. Do not paste values into chat, docs, Git, screenshots, or logs.',
+        'Enter externally issued secret values directly into GitHub or Cloudflare. Use a GitHub production variable for non-secret identifiers such as CLOUDFLARE_ACCOUNT_ID. Do not paste secret values into chat, docs, Git, screenshots, or logs.',
     },
     operatorSequence: [
       {
@@ -257,10 +280,10 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
           'Confirms the current local build, launch contracts, source governance, GitHub release evidence, Cloudflare readiness probes, and no-secret packets before production action.',
       },
       {
-        id: 'set-required-github-production-environment-secrets',
-        sideEffect: 'writes-github-secrets',
-        commands: requiredGitHubSecretCommands,
-        requires: requiredGitHubSecretNames,
+        id: 'set-required-github-production-environment-credentials',
+        sideEffect: 'writes-github-secrets-and-variables',
+        commands: [...requiredGitHubSecretCommands, ...requiredGitHubVariableCommands],
+        requires: requiredGitHubCredentialNames,
         evidence: 'After entry, run npm run verify:github-production-readiness -- --strict.',
       },
       {
@@ -301,14 +324,14 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     ],
     hardGates: [
       {
-        id: 'secret-entry',
-        description: 'Entering or generating production secret values.',
-        immediateNextWhen: status === 'needs-github-production-secret-entry',
+        id: 'credential-entry',
+        description: 'Entering production GitHub secret values and non-secret deployment variables.',
+        immediateNextWhen: status === 'needs-github-production-credential-entry',
       },
       {
         id: 'production-deployment',
         description: 'Dispatching the guarded GitHub production workflow or manually deploying Cloudflare Pages/Worker.',
-        immediateNextWhen: status !== 'needs-github-production-secret-entry',
+        immediateNextWhen: status !== 'needs-github-production-credential-entry',
       },
       {
         id: 'dns-custom-domain',
@@ -326,10 +349,10 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     sourcePackets: sourcePacketPaths.map(compactSourcePacket),
     checks,
     nextAction:
-      status === 'needs-github-production-secret-entry'
-        ? 'Set the required GitHub production environment secret names directly in GitHub, then run npm run verify:github-production-readiness -- --strict.'
+      status === 'needs-github-production-credential-entry'
+        ? 'Set the required GitHub production environment credentials directly in GitHub, then run npm run verify:github-production-readiness -- --strict.'
         : status === 'needs-cloudflare-auth-or-approved-workflow-dispatch'
-          ? 'Authenticate Cloudflare locally for manual inspection, or use the approved guarded GitHub workflow path with required GitHub production secrets.'
+          ? 'Authenticate Cloudflare locally for manual inspection, or use the approved guarded GitHub workflow path with required GitHub production credentials.'
           : status === 'ready-for-approved-dns-transition-dispatch'
             ? 'Run the guarded production workflow only under the DNS-transition boundary, then connect herbalisti.com and complete strict live verification.'
             : status === 'ready-for-approved-final-dispatch'
@@ -358,7 +381,7 @@ export const renderProductionOperatorBriefMarkdown = (packet) => {
     `- Production deploy evidence artifact: ${packet.currentState.productionDeployEvidenceArtifactStatus}`,
     `- Release evidence policy: ${packet.currentState.releaseEvidencePolicy}`,
     `- GitHub production readiness: ${packet.currentState.githubProductionReadinessStatus}`,
-    `- Missing GitHub secret names: ${packet.currentState.missingGitHubSecretNames.join(', ') || 'none'}`,
+    `- Missing GitHub credential names: ${packet.currentState.missingGitHubCredentialNames.join(', ') || 'none'}`,
     `- Cloudflare production state: ${packet.currentState.cloudflareProductionStateStatus}`,
     `- Wrangler authenticated: ${packet.currentState.wranglerAuthenticated}`,
     `- DNS cutover: ${packet.currentState.dnsCutoverStatus}`,
@@ -368,9 +391,10 @@ export const renderProductionOperatorBriefMarkdown = (packet) => {
     `- Production provisioning: ${packet.currentState.productionProvisioningStatus}`,
     `- Production blocker count: ${packet.currentState.productionBlockerCount}`,
     '',
-    '## Secret Boundary',
+    '## Credential Boundary',
     '',
     `- Required GitHub production secret names: ${packet.secretBoundary.requiredGitHubSecretNames.join(', ') || 'none'}`,
+    `- Required GitHub production variable names: ${packet.secretBoundary.requiredGitHubVariableNames.join(', ') || 'none'}`,
     `- Optional GitHub production secret names: ${packet.secretBoundary.optionalGitHubSecretNames.join(', ') || 'none'}`,
     `- Generated runtime secret names: ${packet.secretBoundary.generatedRuntimeSecretNames.join(', ') || 'none'}`,
     `- Not required as GitHub secrets: ${packet.secretBoundary.notRequiredAsGitHubSecretNames.join(', ')}`,
@@ -445,7 +469,7 @@ const validatePacket = (packet, jsonOutput, markdownOutput) => {
   assert.equal(packet.project?.domain, 'herbalisti.com', 'Operator brief should target herbalisti.com')
   assert(packet.safeToRun.includes('does not dispatch GitHub Actions'), 'Operator brief should state dispatch boundary')
   assert(packet.secretBoundary.requiredGitHubSecretNames.includes('CLOUDFLARE_API_TOKEN'), 'CLOUDFLARE_API_TOKEN should be named')
-  assert(packet.secretBoundary.requiredGitHubSecretNames.includes('CLOUDFLARE_ACCOUNT_ID'), 'CLOUDFLARE_ACCOUNT_ID should be named')
+  assert(packet.secretBoundary.requiredGitHubVariableNames.includes('CLOUDFLARE_ACCOUNT_ID'), 'CLOUDFLARE_ACCOUNT_ID should be named as a GitHub variable')
   assert(
     !packet.secretBoundary.requiredGitHubSecretNames.includes('FEED_ADMIN_TOKEN'),
     'FEED_ADMIN_TOKEN should not be a required GitHub production secret',

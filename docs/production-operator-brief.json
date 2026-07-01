@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T14:17:28.986Z",
-  "status": "needs-github-production-secret-entry",
+  "generatedAt": "2026-07-01T15:11:33.450Z",
+  "status": "needs-github-production-credential-entry",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.",
   "project": {
@@ -20,6 +20,12 @@
     "releaseEvidencePolicy": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.",
     "githubProductionReadinessStatus": "needs-github-production-setup",
     "missingGitHubSecretNames": [
+      "CLOUDFLARE_API_TOKEN"
+    ],
+    "missingGitHubVariableNames": [
+      "CLOUDFLARE_ACCOUNT_ID"
+    ],
+    "missingGitHubCredentialNames": [
       "CLOUDFLARE_API_TOKEN",
       "CLOUDFLARE_ACCOUNT_ID"
     ],
@@ -34,6 +40,12 @@
   },
   "secretBoundary": {
     "requiredGitHubSecretNames": [
+      "CLOUDFLARE_API_TOKEN"
+    ],
+    "requiredGitHubVariableNames": [
+      "CLOUDFLARE_ACCOUNT_ID"
+    ],
+    "requiredGitHubCredentialNames": [
       "CLOUDFLARE_API_TOKEN",
       "CLOUDFLARE_ACCOUNT_ID"
     ],
@@ -45,11 +57,12 @@
       "MEDIA_ADMIN_TOKEN"
     ],
     "notRequiredAsGitHubSecretNames": [
+      "CLOUDFLARE_ACCOUNT_ID",
       "FEED_ADMIN_TOKEN",
       "MEDIA_ADMIN_TOKEN",
       "CLOUDFLARE_D1_DATABASE_ID"
     ],
-    "valueHandling": "Enter externally issued secret values directly into GitHub or Cloudflare. Do not paste values into chat, docs, Git, screenshots, or logs."
+    "valueHandling": "Enter externally issued secret values directly into GitHub or Cloudflare. Use a GitHub production variable for non-secret identifiers such as CLOUDFLARE_ACCOUNT_ID. Do not paste secret values into chat, docs, Git, screenshots, or logs."
   },
   "operatorSequence": [
     {
@@ -80,11 +93,11 @@
       "evidence": "Confirms the current local build, launch contracts, source governance, GitHub release evidence, Cloudflare readiness probes, and no-secret packets before production action."
     },
     {
-      "id": "set-required-github-production-environment-secrets",
-      "sideEffect": "writes-github-secrets",
+      "id": "set-required-github-production-environment-credentials",
+      "sideEffect": "writes-github-secrets-and-variables",
       "commands": [
         "gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist",
-        "gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist"
+        "gh variable set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist"
       ],
       "requires": [
         "CLOUDFLARE_API_TOKEN",
@@ -132,8 +145,8 @@
   ],
   "hardGates": [
     {
-      "id": "secret-entry",
-      "description": "Entering or generating production secret values.",
+      "id": "credential-entry",
+      "description": "Entering production GitHub secret values and non-secret deployment variables.",
       "immediateNextWhen": true
     },
     {
@@ -156,8 +169,8 @@
     "Completion audit pending: independent-newsfeed: pending-production.",
     "Completion audit pending: cloudflare-hosting: pending-production.",
     "Production deploy evidence artifact readback is pending-production-deploy-evidence-artifact.",
-    "GitHub production secret name missing: CLOUDFLARE_API_TOKEN.",
-    "GitHub production secret name missing: CLOUDFLARE_ACCOUNT_ID.",
+    "GitHub production credential missing: CLOUDFLARE_API_TOKEN.",
+    "GitHub production credential missing: CLOUDFLARE_ACCOUNT_ID.",
     "Cloudflare production state is needs-cloudflare-auth.",
     "DNS/custom-domain state is needs-dns-cutover.",
     "Live domain readiness is not-ready.",
@@ -186,28 +199,28 @@
     {
       "path": "docs/production-state-snapshot.json",
       "version": 1,
-      "generatedAt": "2026-07-01T14:16:51.150Z",
+      "generatedAt": "2026-07-01T15:10:41.511Z",
       "status": "local-ready-production-pending",
       "productionComplete": false
     },
     {
       "path": "docs/github-production-dispatch.json",
       "version": 1,
-      "generatedAt": "2026-07-01T12:32:14.148Z",
-      "status": "needs-github-production-secret-names",
+      "generatedAt": "2026-07-01T15:10:37.548Z",
+      "status": "needs-github-production-credentials",
       "productionComplete": false
     },
     {
       "path": "docs/production-secret-setup.json",
       "version": 1,
-      "generatedAt": "2026-07-01T05:17:00.055Z",
+      "generatedAt": "2026-07-01T15:10:36.752Z",
       "status": "ready-for-secret-entry",
       "productionComplete": false
     },
     {
       "path": "docs/cloudflare-token-requirements.json",
       "version": 1,
-      "generatedAt": "2026-06-30T21:41:39.197Z",
+      "generatedAt": "2026-07-01T15:09:22.414Z",
       "status": "ready-for-token-entry",
       "productionComplete": false
     },
@@ -221,14 +234,14 @@
     {
       "path": "docs/production-provisioning-readiness.json",
       "version": 1,
-      "generatedAt": "2026-07-01T14:17:28.191Z",
+      "generatedAt": "2026-07-01T15:10:38.360Z",
       "status": "ready-for-approved-production-provisioning",
       "productionComplete": false
     },
     {
       "path": "docs/external-launch-actions.json",
       "version": 1,
-      "generatedAt": "2026-07-01T12:32:12.552Z",
+      "generatedAt": "2026-07-01T15:08:09.135Z",
       "status": "needs-approval-and-production-setup",
       "productionComplete": false
     }
@@ -242,7 +255,7 @@
     {
       "id": "github-secret-boundary",
       "status": "pass",
-      "detail": "Only Cloudflare deployment credentials are required as GitHub production environment secrets."
+      "detail": "Cloudflare token is a GitHub production secret; Cloudflare account ID is a production variable with secret fallback."
     },
     {
       "id": "generated-runtime-tokens",
@@ -285,5 +298,5 @@
       "detail": "All source packets used by the operator brief exist."
     }
   ],
-  "nextAction": "Set the required GitHub production environment secret names directly in GitHub, then run npm run verify:github-production-readiness -- --strict."
+  "nextAction": "Set the required GitHub production environment credentials directly in GitHub, then run npm run verify:github-production-readiness -- --strict."
 }

@@ -1,6 +1,6 @@
 # Herbalisti Cloudflare Token Requirements
 
-Generated: 2026-06-30T21:41:39.197Z
+Generated: 2026-07-01T15:09:22.414Z
 
 Status: ready-for-token-entry
 
@@ -9,6 +9,9 @@ Reads local launch contracts and public Cloudflare documentation citations. It d
 ## GitHub Secret Names
 
 - `CLOUDFLARE_API_TOKEN`
+
+## GitHub Variable Names
+
 - `CLOUDFLARE_ACCOUNT_ID`
 
 ## Recommended Cloudflare API Token
@@ -76,7 +79,7 @@ Covers:
 ## Checks
 
 - pass: Guarded workflow reads CLOUDFLARE_API_TOKEN from GitHub production environment secrets.
-- pass: Guarded workflow reads CLOUDFLARE_ACCOUNT_ID from GitHub production environment secrets.
+- pass: Guarded workflow reads CLOUDFLARE_ACCOUNT_ID from a GitHub production environment variable with secret fallback.
 - pass: Required Cloudflare token permission packet covers Pages, D1, Workers Scripts, and Account Settings.
 - pass: Required Cloudflare token permissions map to commands used by the launch workflow or contract.
 - pass: Optional R2 permission remains separate from launch-critical permissions.

@@ -18,10 +18,9 @@ const environmentName = getArg('--environment', 'production')
 const strict = argSet.has('--strict')
 const skipReleaseEvidence = argSet.has('--skip-release-evidence')
 const workflowPath = '.github/workflows/production-deploy.yml'
-const requiredSecretNames = [
-  'CLOUDFLARE_API_TOKEN',
-  'CLOUDFLARE_ACCOUNT_ID',
-]
+const requiredSecretNames = ['CLOUDFLARE_API_TOKEN']
+const requiredVariableNames = ['CLOUDFLARE_ACCOUNT_ID']
+const requiredCredentialNames = [...requiredSecretNames, ...requiredVariableNames]
 const optionalSecretNames = ['KIE_API_KEY']
 const generatedRuntimeSecretNames = ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN']
 
@@ -100,6 +99,7 @@ const runReleaseEvidence = () => {
 
 const check = (id, status, detail) => ({ id, status, detail })
 const secretNamesFrom = (payload) => new Set((payload?.secrets ?? []).map((secret) => secret.name))
+const variableNamesFrom = (payload) => new Set((payload?.variables ?? []).map((variable) => variable.name))
 
 const checks = []
 let workflows = []
@@ -108,6 +108,8 @@ let productionEnvironment = null
 let productionBranchPolicies = []
 let repositorySecretNames = new Set()
 let environmentSecretNames = new Set()
+let repositoryVariableNames = new Set()
+let environmentVariableNames = new Set()
 let apiError = ''
 
 checks.push(
@@ -131,6 +133,8 @@ if (!token) {
     environments = environmentPayload.environments ?? []
     const repositorySecretPayload = await fetchJson('/actions/secrets')
     repositorySecretNames = secretNamesFrom(repositorySecretPayload)
+    const repositoryVariablePayload = await fetchJson('/actions/variables', { allow404: true })
+    repositoryVariableNames = variableNamesFrom(repositoryVariablePayload)
     productionEnvironment = environments.find((environment) => environment.name === environmentName) ?? null
 
     if (productionEnvironment) {
@@ -138,6 +142,11 @@ if (!token) {
         allow404: true,
       })
       environmentSecretNames = secretNamesFrom(environmentSecretPayload)
+      const environmentVariablePayload = await fetchJson(
+        `/environments/${encodeURIComponent(environmentName)}/variables`,
+        { allow404: true },
+      )
+      environmentVariableNames = variableNamesFrom(environmentVariablePayload)
       const branchPolicyPayload = await fetchJson(
         `/environments/${encodeURIComponent(environmentName)}/deployment-branch-policies`,
         { allow404: true },
@@ -203,7 +212,25 @@ const secretScopes = Object.fromEntries(
     },
   ]),
 )
+const inspectedVariableNames = requiredVariableNames
+const variableScopes = Object.fromEntries(
+  inspectedVariableNames.map((name) => [
+    name,
+    {
+      repository: repositoryVariableNames.has(name),
+      environment: environmentVariableNames.has(name),
+      secretFallback: repositorySecretNames.has(name) || environmentSecretNames.has(name),
+      present:
+        repositoryVariableNames.has(name) ||
+        environmentVariableNames.has(name) ||
+        repositorySecretNames.has(name) ||
+        environmentSecretNames.has(name),
+    },
+  ]),
+)
 const missingSecretNames = requiredSecretNames.filter((name) => !secretScopes[name].present)
+const missingVariableNames = requiredVariableNames.filter((name) => !variableScopes[name].present)
+const missingCredentialNames = [...missingSecretNames, ...missingVariableNames]
 checks.push(
   check(
     'required-secret-names',
@@ -211,6 +238,15 @@ checks.push(
     missingSecretNames.length === 0
       ? 'All required production workflow secret names are present in repository or production environment secrets.'
       : `Missing required production workflow secret names: ${missingSecretNames.join(', ')}.`,
+  ),
+)
+checks.push(
+  check(
+    'required-variable-names',
+    missingVariableNames.length === 0 ? 'pass' : 'fail',
+    missingVariableNames.length === 0
+      ? 'All required production workflow variable names are present as repository or production environment variables, or covered by supported secret fallback.'
+      : `Missing required production workflow variable names: ${missingVariableNames.join(', ')}.`,
   ),
 )
 
@@ -256,11 +292,16 @@ const result = {
       }
     : null,
   requiredSecretNames,
+  requiredVariableNames,
+  requiredCredentialNames,
   optionalSecretNames,
   generatedRuntimeSecretNames,
   workflowDerivedValues: ['CLOUDFLARE_D1_DATABASE_ID'],
   secretScopes,
+  variableScopes,
   missingSecretNames,
+  missingVariableNames,
+  missingCredentialNames,
   checks,
   releaseEvidence,
   nextActions:
@@ -273,13 +314,15 @@ const result = {
           ...(productionEnvironment && !mainBranchPolicyPresent
             ? ['Restrict the GitHub production environment to the main branch.']
             : []),
-          ...(missingSecretNames.length
-            ? ['Add the required GitHub secret names without exposing values in chat, docs, or logs.']
+          ...(missingCredentialNames.length
+            ? [
+                'Add the required GitHub production credential names without exposing secret values in chat, docs, or logs.',
+              ]
             : []),
           'Run npm run verify:github-production-readiness again.',
         ],
   safeToRun:
-    'Reads GitHub workflow, environment, secret-name, and release-run metadata only. It does not create environments, set secrets, deploy, mutate DNS, create Cloudflare resources, download artifacts, call paid APIs, or print secret values.',
+    'Reads GitHub workflow, environment, secret-name, variable-name, and release-run metadata only. It does not create environments, set secrets or variables, deploy, mutate DNS, create Cloudflare resources, download artifacts, call paid APIs, or print secret values.',
 }
 
 console.log(JSON.stringify(result, null, 2))

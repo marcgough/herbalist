@@ -35,6 +35,7 @@ const approvalAction = ({
   after = [],
   verification = [],
   secretNames = [],
+  variableNames = [],
   notes = [],
 }) => ({
   id,
@@ -49,6 +50,7 @@ const approvalAction = ({
   after,
   verification,
   secretNames,
+  variableNames,
   notes,
 })
 
@@ -128,10 +130,10 @@ const localAllowedActions = [
   }),
   localAction({
     id: 'check-github-production-readiness',
-    title: 'Check GitHub production environment and secret-name readiness',
+    title: 'Check GitHub production environment and credential-name readiness',
     command: 'npm run verify:github-production-readiness',
     purpose:
-      'Read GitHub workflow, environment, secret-name, and release evidence metadata before the guarded production deploy workflow is dispatched.',
+      'Read GitHub workflow, environment, secret-name, variable-name, and release evidence metadata before the guarded production deploy workflow is dispatched.',
     notes: ['Use npm run verify:github-production-readiness -- --strict as the final GitHub dispatch readiness gate.'],
   }),
   localAction({
@@ -277,10 +279,10 @@ const approvalRequiredActions = [
       'Writes new secret values into GitHub. Use only when the generated-token path is preferred over manually supplied admin tokens.',
     verification: ['npm run verify:github-generated-secrets', 'npm run verify:github-production-readiness'],
     secretNames: ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN'],
-    notes: [
-      'Does not generate CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, or KIE_API_KEY.',
-      'Generated values are not recoverable from GitHub after setting; rotate by running the command again.',
-    ],
+      notes: [
+        'Does not generate externally issued Cloudflare credentials, the Cloudflare account identifier, or KIE_API_KEY.',
+        'Generated values are not recoverable from GitHub after setting; rotate by running the command again.',
+      ],
   }),
   approvalAction({
     id: 'set-feed-admin-token',
@@ -388,17 +390,15 @@ const approvalRequiredActions = [
       'npm run verify:production -- https://herbalisti.com',
       'npm run verify:goal-readiness -- --strict',
     ],
-    secretNames: [
-      'CLOUDFLARE_API_TOKEN',
-      'CLOUDFLARE_ACCOUNT_ID',
-      'KIE_API_KEY',
-    ],
+    secretNames: ['CLOUDFLARE_API_TOKEN', 'KIE_API_KEY'],
+    variableNames: ['CLOUDFLARE_ACCOUNT_ID'],
     notes: [
       'Requires the exact workflow input confirm=deploy-herbalisti-production.',
       'If skip_live_verification=true during DNS transition, also set skip_live_verification_confirm=skip-herbalisti-live-verification.',
       'Use the GitHub production environment approval controls before dispatch.',
       'The workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values; they do not need to be stored as GitHub secrets for launch.',
       'KIE_API_KEY is optional until approved Seedance media generation is needed.',
+      'CLOUDFLARE_ACCOUNT_ID is preferred as a GitHub production environment variable; a secret fallback is supported for existing setups.',
       'Run npm run verify:production-secrets, npm run verify:github-generated-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.',
       'After dispatch, run npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id> to confirm the non-secret deployment evidence artifact exists.',
       'Do not use skip_live_verification for final completion evidence.',
@@ -542,6 +542,10 @@ const renderMarkdown = (value) => {
     }
     if (action.secretNames.length) {
       lines.push(`Secret names: ${action.secretNames.join(', ')}`)
+      lines.push('')
+    }
+    if (action.variableNames.length) {
+      lines.push(`Variable names: ${action.variableNames.join(', ')}`)
       lines.push('')
     }
     if (action.verification.length) {

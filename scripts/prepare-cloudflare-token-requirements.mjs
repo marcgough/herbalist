@@ -193,7 +193,15 @@ export const buildCloudflareTokenRequirements = ({ generatedAt = new Date().toIS
   const workflowText = [workflow, JSON.stringify(contract), JSON.stringify(productionSecretSetup)].join('\n')
   const requiredPermissions = cloudflareApiTokenPermissions.filter((permission) => permission.requiredForLaunch)
   const optionalPermissions = cloudflareApiTokenPermissions.filter((permission) => !permission.requiredForLaunch)
-  const requiredGithubSecrets = productionSecretSetup?.githubProductionEnvironment?.secrets?.map((secret) => secret.name) ?? []
+  const requiredGithubSecrets =
+    productionSecretSetup?.githubProductionEnvironment?.secrets
+      ?.filter((secret) => secret.requiredForGuardedWorkflow)
+      .map((secret) => secret.name) ?? []
+  const requiredGithubVariables = productionSecretSetup?.githubProductionEnvironment?.requiredVariableNames ?? []
+  const hasAccountIdVariableWithFallback =
+    /CLOUDFLARE_ACCOUNT_ID:\s*\$\{\{\s*vars\.CLOUDFLARE_ACCOUNT_ID\s*\|\|\s*secrets\.CLOUDFLARE_ACCOUNT_ID\s*\}\}/.test(
+      workflow,
+    )
 
   const checks = [
     {
@@ -207,14 +215,12 @@ export const buildCloudflareTokenRequirements = ({ generatedAt = new Date().toIS
       detail: 'Guarded workflow reads CLOUDFLARE_API_TOKEN from GitHub production environment secrets.',
     },
     {
-      id: 'cloudflare-account-id-secret-named',
+      id: 'cloudflare-account-id-variable-named',
       status:
-        requiredGithubSecrets.includes('CLOUDFLARE_ACCOUNT_ID') &&
-        workflow.includes('secrets.CLOUDFLARE_ACCOUNT_ID') &&
-        workflow.includes('CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}')
+        requiredGithubVariables.includes('CLOUDFLARE_ACCOUNT_ID') && hasAccountIdVariableWithFallback
           ? 'pass'
           : 'fail',
-      detail: 'Guarded workflow reads CLOUDFLARE_ACCOUNT_ID from GitHub production environment secrets.',
+      detail: 'Guarded workflow reads CLOUDFLARE_ACCOUNT_ID from a GitHub production environment variable with secret fallback.',
     },
     {
       id: 'required-permission-coverage',
@@ -282,7 +288,8 @@ export const buildCloudflareTokenRequirements = ({ generatedAt = new Date().toIS
     safeToRun:
       'Reads local launch contracts and public Cloudflare documentation citations. It does not read, request, set, store, or print token values; it does not call Cloudflare, deploy, mutate DNS, create resources, or call paid APIs.',
     project: contract.project,
-    githubSecretNames: ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID'],
+    githubSecretNames: ['CLOUDFLARE_API_TOKEN'],
+    githubVariableNames: ['CLOUDFLARE_ACCOUNT_ID'],
     cloudflareApiToken: {
       recommendedName: 'Herbalisti production deploy',
       scopeBoundary: 'Restrict to the Cloudflare account that will host herbalisti.com and the Herbalisti Workers/Pages resources.',
@@ -316,6 +323,11 @@ export const renderCloudflareTokenRequirementsMarkdown = (packet) => {
   ]
 
   for (const name of packet.githubSecretNames) {
+    lines.push(`- \`${name}\``)
+  }
+
+  lines.push('', '## GitHub Variable Names', '')
+  for (const name of packet.githubVariableNames) {
     lines.push(`- \`${name}\``)
   }
 

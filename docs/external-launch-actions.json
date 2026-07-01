@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T12:32:12.552Z",
+  "generatedAt": "2026-07-01T15:08:09.135Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -101,10 +101,10 @@
     },
     {
       "id": "check-github-production-readiness",
-      "title": "Check GitHub production environment and secret-name readiness",
+      "title": "Check GitHub production environment and credential-name readiness",
       "approvalRequired": false,
       "command": "npm run verify:github-production-readiness",
-      "purpose": "Read GitHub workflow, environment, secret-name, and release evidence metadata before the guarded production deploy workflow is dispatched.",
+      "purpose": "Read GitHub workflow, environment, secret-name, variable-name, and release evidence metadata before the guarded production deploy workflow is dispatched.",
       "writesLocalFiles": false,
       "after": [],
       "notes": [
@@ -255,6 +255,7 @@
         "npm run verify:launch -- --soft"
       ],
       "secretNames": [],
+      "variableNames": [],
       "notes": []
     },
     {
@@ -272,6 +273,7 @@
         "npm run configure:cloudflare -- --d1 <database_id> --r2 herbalisti-media --apply"
       ],
       "secretNames": [],
+      "variableNames": [],
       "notes": [
         "Skip until approved generated video assets need durable owned storage."
       ]
@@ -295,6 +297,7 @@
         "npm run verify:launch -- --soft"
       ],
       "secretNames": [],
+      "variableNames": [],
       "notes": []
     },
     {
@@ -316,8 +319,9 @@
         "FEED_ADMIN_TOKEN",
         "MEDIA_ADMIN_TOKEN"
       ],
+      "variableNames": [],
       "notes": [
-        "Does not generate CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, or KIE_API_KEY.",
+        "Does not generate externally issued Cloudflare credentials, the Cloudflare account identifier, or KIE_API_KEY.",
         "Generated values are not recoverable from GitHub after setting; rotate by running the command again."
       ]
     },
@@ -338,6 +342,7 @@
       "secretNames": [
         "FEED_ADMIN_TOKEN"
       ],
+      "variableNames": [],
       "notes": [
         "Do not paste secret values into chat, docs, Git, or command logs."
       ]
@@ -357,6 +362,7 @@
       "secretNames": [
         "KIE_API_KEY"
       ],
+      "variableNames": [],
       "notes": [
         "Setting the secret does not generate video. Paid generation remains a separate approval step."
       ]
@@ -376,6 +382,7 @@
       "secretNames": [
         "MEDIA_ADMIN_TOKEN"
       ],
+      "variableNames": [],
       "notes": []
     },
     {
@@ -393,6 +400,7 @@
       "secretNames": [
         "OPENAI_API_KEY"
       ],
+      "variableNames": [],
       "notes": [
         "Not required for launch while retrieval fallback is active."
       ]
@@ -416,6 +424,7 @@
         "npm run verify:production -- https://herbalisti.com"
       ],
       "secretNames": [],
+      "variableNames": [],
       "notes": []
     },
     {
@@ -437,6 +446,7 @@
         "npm run verify:production -- https://herbalisti.com"
       ],
       "secretNames": [],
+      "variableNames": [],
       "notes": []
     },
     {
@@ -462,6 +472,7 @@
       "secretNames": [
         "FEED_ADMIN_TOKEN"
       ],
+      "variableNames": [],
       "notes": [
         "Use this after DNS/custom-domain routing is active when the guarded deploy workflow was run with live verification skipped.",
         "The command prints sanitized feed-refresh metadata only and must not print the token value."
@@ -495,8 +506,10 @@
       ],
       "secretNames": [
         "CLOUDFLARE_API_TOKEN",
-        "CLOUDFLARE_ACCOUNT_ID",
         "KIE_API_KEY"
+      ],
+      "variableNames": [
+        "CLOUDFLARE_ACCOUNT_ID"
       ],
       "notes": [
         "Requires the exact workflow input confirm=deploy-herbalisti-production.",
@@ -504,6 +517,7 @@
         "Use the GitHub production environment approval controls before dispatch.",
         "The workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values; they do not need to be stored as GitHub secrets for launch.",
         "KIE_API_KEY is optional until approved Seedance media generation is needed.",
+        "CLOUDFLARE_ACCOUNT_ID is preferred as a GitHub production environment variable; a secret fallback is supported for existing setups.",
         "Run npm run verify:production-secrets, npm run verify:github-generated-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.",
         "After dispatch, run npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id> to confirm the non-secret deployment evidence artifact exists.",
         "Do not use skip_live_verification for final completion evidence."
@@ -529,6 +543,7 @@
         "npm run verify:goal-readiness -- --strict"
       ],
       "secretNames": [],
+      "variableNames": [],
       "notes": []
     },
     {
@@ -550,6 +565,7 @@
         "Store approved output as an owned asset before enabling manifest slots."
       ],
       "secretNames": [],
+      "variableNames": [],
       "notes": []
     }
   ],

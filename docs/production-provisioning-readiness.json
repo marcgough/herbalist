@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T14:17:28.191Z",
+  "generatedAt": "2026-07-01T15:10:38.360Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -24,7 +24,7 @@
       "FEED_ADMIN_TOKEN"
     ],
     "contractFingerprint": "74f367024d559aefac110d97f100701c56fbc4335430b3eafc3c42d705a428a9",
-    "externalActionsFingerprint": "8221f68f975d1f6177076272d14fb69d0f453d7d0f33294c8f2816a822ca80b2",
+    "externalActionsFingerprint": "7b517281751d9c3c116141b5fd43c37e596f88ad722a779588b9ee1143c118a6",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -34,8 +34,9 @@
     "productionStateSnapshotBlockers": 12,
     "productionDeployEvidenceArtifactStatus": "pending-production-deploy-evidence-artifact",
     "productionSmokeStatus": "unavailable",
-    "githubProductionDispatchStatus": "needs-github-production-secret-names",
-    "githubProductionSecretCount": 3,
+    "githubProductionDispatchStatus": "needs-github-production-credentials",
+    "githubProductionSecretCount": 2,
+    "githubProductionVariableCount": 1,
     "githubGeneratedSecretHelper": "available",
     "cloudflareTokenRequirementsStatus": "ready-for-token-entry",
     "cloudflareTokenRequiredPermissionCount": 4
@@ -207,7 +208,7 @@
     "Scheduled Worker D1 binding is not active.",
     "FEED_ADMIN_TOKEN is not locally visible; confirm it is set directly in Cloudflare before launch."
   ],
-  "nextApprovedAction": "set-github-production-environment-secrets",
+  "nextApprovedAction": "set-github-production-environment-credentials",
   "manualCloudflareNextAction": "create-d1-database",
   "operatorSequence": [
     {

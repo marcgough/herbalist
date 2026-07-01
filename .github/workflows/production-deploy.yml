@@ -60,7 +60,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ github.token }}
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID || secrets.CLOUDFLARE_ACCOUNT_ID }}
       KIE_API_KEY: ${{ secrets.KIE_API_KEY }}
 
     steps:
@@ -81,12 +81,14 @@ jobs:
         run: |
           set -euo pipefail
           missing=0
-          for name in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID; do
-            if [ -z "${!name:-}" ]; then
-              echo "::error title=Missing production secret::$name is required for the production deployment workflow."
-              missing=1
-            fi
-          done
+          if [ -z "${CLOUDFLARE_API_TOKEN:-}" ]; then
+            echo "::error title=Missing production secret::CLOUDFLARE_API_TOKEN is required for the production deployment workflow."
+            missing=1
+          fi
+          if [ -z "${CLOUDFLARE_ACCOUNT_ID:-}" ]; then
+            echo "::error title=Missing production account ID::CLOUDFLARE_ACCOUNT_ID is required as a GitHub production environment variable, with a secret fallback supported for existing setups."
+            missing=1
+          fi
           if [ "$missing" -ne 0 ]; then
             exit 1
           fi

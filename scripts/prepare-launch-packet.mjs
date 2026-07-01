@@ -24,14 +24,15 @@ const hasActiveR2Binding = (toml) =>
 
 const secretNames = [
   'CLOUDFLARE_API_TOKEN',
-  'CLOUDFLARE_ACCOUNT_ID',
   'FEED_ADMIN_TOKEN',
   'KIE_API_KEY',
   'MEDIA_ADMIN_TOKEN',
   'OPENAI_API_KEY',
 ]
+const variableNames = ['CLOUDFLARE_ACCOUNT_ID']
 
 const visibleSecrets = Object.fromEntries(secretNames.map((name) => [name, Boolean(process.env[name]?.trim())]))
+const visibleVariables = Object.fromEntries(variableNames.map((name) => [name, Boolean(process.env[name]?.trim())]))
 const pagesToml = read('wrangler.toml')
 const newsToml = read('wrangler.news.toml')
 const packageJson = JSON.parse(read('package.json'))
@@ -67,7 +68,7 @@ const phases = [
       'Production deployment evidence artifact readback can verify the exact GitHub production run after dispatch.',
       'Guarded production deploy dry run rehearses Pages project creation, D1 resolution, binding activation, migrations, secret puts, and deploy commands with fake Wrangler.',
       'Production D1 resolver behavior is verified locally with mocked Wrangler list, create, and missing-database paths.',
-      'GitHub production environment and secret-name readiness can be checked without exposing secret values.',
+      'GitHub production environment credential-name readiness can be checked without exposing secret values.',
       'Current GitHub CI and manual release-gate evidence is verified for the intended launch commit.',
       'Current production state evidence can be regenerated in memory and matched to the exact GitHub commit after CI and the manual release gate pass.',
       'Read-only Cloudflare production-state probing is available before any resource creation or deployment.',
@@ -286,6 +287,7 @@ const result = {
     newsWorkerD1BindingActive: newsD1Active,
     r2MediaBindingActive: r2Active,
     visibleSecrets,
+    visibleVariables,
     scripts: Object.keys(packageJson.scripts ?? {}).sort(),
   },
   phases,
@@ -316,6 +318,10 @@ const renderMarkdown = (packet) => {
     `- News Worker D1 binding active: ${packet.localState.newsWorkerD1BindingActive}`,
     `- R2 media binding active: ${packet.localState.r2MediaBindingActive}`,
     `- Visible secret names: ${Object.entries(packet.localState.visibleSecrets)
+      .filter(([, visible]) => visible)
+      .map(([name]) => name)
+      .join(', ') || 'none'}`,
+    `- Visible variable names: ${Object.entries(packet.localState.visibleVariables)
       .filter(([, visible]) => visible)
       .map(([name]) => name)
       .join(', ') || 'none'}`,

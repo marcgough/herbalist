@@ -52,7 +52,7 @@ const checks = [
   },
   {
     id: 'no-cloudflare-or-provider-secret-generation',
-    status: generatedSecrets.every((secret) => !['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID', 'KIE_API_KEY'].includes(secret.name))
+    status: generatedSecrets.every((secret) => !['CLOUDFLARE_API_TOKEN', 'KIE_API_KEY'].includes(secret.name))
       ? 'pass'
       : 'fail',
     detail: 'Externally issued Cloudflare and Kie.ai credentials are not generated here.',
@@ -93,7 +93,8 @@ const result = {
   repository,
   environment,
   generatedSecretNames: generatedSecrets.map((secret) => secret.name),
-  externallyIssuedSecretNames: ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID', 'KIE_API_KEY'],
+  externallyIssuedSecretNames: ['CLOUDFLARE_API_TOKEN', 'KIE_API_KEY'],
+  externallyIssuedVariableNames: ['CLOUDFLARE_ACCOUNT_ID'],
   commands: generatedSecrets.map((secret) => commandFor(secret.name)),
   confirmationRequired: expectedConfirmation,
   checks,

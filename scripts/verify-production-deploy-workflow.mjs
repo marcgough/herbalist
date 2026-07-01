@@ -45,11 +45,15 @@ assert(workflow.includes('actions/setup-node@v4'), 'Production deploy workflow s
 assert(workflow.includes('node-version: "24"'), 'Production deploy workflow should pin Node.js 24')
 assert(workflow.includes('npm ci'), 'Production deploy workflow should install from the lockfile')
 
-for (const name of [
-  'CLOUDFLARE_API_TOKEN',
-  'CLOUDFLARE_ACCOUNT_ID',
-]) {
-  assert(workflow.includes(`secrets.${name}`), `Production deploy workflow should read ${name} from GitHub secrets`)
+assert(
+  workflow.includes('CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}'),
+  'Production deploy workflow should read CLOUDFLARE_API_TOKEN from GitHub secrets',
+)
+assert(
+  workflow.includes('CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID || secrets.CLOUDFLARE_ACCOUNT_ID }}'),
+  'Production deploy workflow should read CLOUDFLARE_ACCOUNT_ID from a GitHub variable with secret fallback',
+)
+for (const name of ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID']) {
   assert(workflow.includes(name), `Production deploy workflow should validate ${name} presence by name only`)
 }
 assert(workflow.includes('secrets.KIE_API_KEY'), 'Production deploy workflow may read optional KIE_API_KEY from GitHub secrets')
@@ -171,7 +175,9 @@ console.log(
       trigger: 'workflow_dispatch',
       environment: 'production',
       deploymentAutomatic: false,
-      requiredGitHubSecrets: ['CLOUDFLARE_API_TOKEN', 'CLOUDFLARE_ACCOUNT_ID'],
+      requiredGitHubSecrets: ['CLOUDFLARE_API_TOKEN'],
+      requiredGitHubVariables: ['CLOUDFLARE_ACCOUNT_ID'],
+      secretFallbacks: ['CLOUDFLARE_ACCOUNT_ID'],
       optionalGitHubSecrets: ['KIE_API_KEY'],
       generatedRuntimeSecretNames: ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN'],
       deploymentEvidenceArtifact: 'herbalisti-production-deploy-evidence',

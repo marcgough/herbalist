@@ -48,13 +48,17 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
   const dispatchAction = list(externalActions.approvalRequiredActions).find(
     (action) => action.id === 'run-github-production-deploy-workflow',
   )
-  const requiredSecretNames = [
-    'CLOUDFLARE_API_TOKEN',
-    'CLOUDFLARE_ACCOUNT_ID',
-  ]
+  const requiredSecretNames = ['CLOUDFLARE_API_TOKEN']
+  const requiredVariableNames = ['CLOUDFLARE_ACCOUNT_ID']
+  const requiredCredentialNames = [...requiredSecretNames, ...requiredVariableNames]
   const optionalSecretNames = ['KIE_API_KEY']
   const generatedRuntimeSecretNames = ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN']
+  const missingGitHubCredentialNames =
+    productionState?.summary?.githubMissingCredentialNames ??
+    productionState?.summary?.githubMissingSecretNames ??
+    requiredCredentialNames
   const missingGitHubSecretNames = productionState?.summary?.githubMissingSecretNames ?? requiredSecretNames
+  const missingGitHubVariableNames = productionState?.summary?.githubMissingVariableNames ?? requiredVariableNames
   const finalCompletionGates = contract.commands.finalCompletionGates ?? [
     ...(contract.commands.postDeployEvidence ?? []),
     ...(contract.commands.liveCompletionGates ?? []),
@@ -179,8 +183,8 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
   const failedChecks = checks.filter((item) => item.status !== 'pass')
   const status = failedChecks.length
     ? 'local-contract-failed'
-    : missingGitHubSecretNames.length
-    ? 'needs-github-production-secret-names'
+    : missingGitHubCredentialNames.length
+    ? 'needs-github-production-credentials'
     : productionState?.summary?.dnsCutoverStatus !== 'ready'
     ? 'ready-for-approved-dispatch-dns-transition-only'
     : 'ready-for-approved-final-dispatch'
@@ -209,9 +213,13 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
       'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
     ],
     requiredGitHubSecretNames: requiredSecretNames,
+    requiredGitHubVariableNames: requiredVariableNames,
+    requiredGitHubCredentialNames: requiredCredentialNames,
     optionalGitHubSecretNames: optionalSecretNames,
     generatedRuntimeSecretNames,
     missingGitHubSecretNames,
+    missingGitHubVariableNames,
+    missingGitHubCredentialNames,
     currentReadiness: {
       productionStateStatus: productionState?.status ?? 'missing',
       githubProductionReadinessStatus: productionState?.summary?.githubProductionReadinessStatus ?? 'missing',
@@ -254,19 +262,22 @@ export const renderGithubProductionDispatchMarkdown = (packet) => {
     `- Live readiness: ${packet.currentReadiness.liveReadinessStatus}`,
     `- Production provisioning: ${packet.currentReadiness.productionProvisioningStatus}`,
     '',
-    '## Required GitHub Secret Names',
+    '## Required GitHub Credentials',
     '',
   ]
 
   for (const name of packet.requiredGitHubSecretNames) {
-    const missing = packet.missingGitHubSecretNames.includes(name)
-    lines.push(`- ${name}: ${missing ? 'missing' : 'present'}`)
+    const missing = packet.missingGitHubCredentialNames.includes(name)
+    lines.push(`- ${name}: ${missing ? 'missing secret' : 'present secret'}`)
+  }
+  for (const name of packet.requiredGitHubVariableNames) {
+    const missing = packet.missingGitHubCredentialNames.includes(name)
+    lines.push(`- ${name}: ${missing ? 'missing variable' : 'present variable or secret fallback'}`)
   }
 
   lines.push('', '## Optional GitHub Secret Names', '')
   for (const name of packet.optionalGitHubSecretNames) {
-    const missing = packet.missingGitHubSecretNames.includes(name)
-    lines.push(`- ${name}: ${missing ? 'optional / not set' : 'present'}`)
+    lines.push(`- ${name}: optional / not required for launch`)
   }
 
   lines.push('', '## Generated Runtime Secret Names', '')

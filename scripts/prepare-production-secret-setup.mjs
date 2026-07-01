@@ -20,10 +20,9 @@ const exists = (path) => existsSync(resolve(root, path))
 const secretValuePattern =
   /(sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9_]{20,}|Bearer\s+[A-Za-z0-9._-]+|-----BEGIN [A-Z ]+PRIVATE KEY-----)/i
 
-const requiredWorkflowSecretNames = [
-  'CLOUDFLARE_API_TOKEN',
-  'CLOUDFLARE_ACCOUNT_ID',
-]
+const requiredWorkflowSecretNames = ['CLOUDFLARE_API_TOKEN']
+const requiredWorkflowVariableNames = ['CLOUDFLARE_ACCOUNT_ID']
+const requiredWorkflowCredentialNames = [...requiredWorkflowSecretNames, ...requiredWorkflowVariableNames]
 const optionalWorkflowSecretNames = ['KIE_API_KEY']
 const generatedRuntimeSecretNames = ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN']
 
@@ -45,6 +44,7 @@ const preferredGithubScope = {
 }
 
 const workflowSecretCommand = (name) => `gh secret set ${name} --env production --repo marcgough/herbalist`
+const workflowVariableCommand = (name) => `gh variable set ${name} --env production --repo marcgough/herbalist`
 const generatedGithubSecretNames = ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN']
 const generatedGithubSecretCommand =
   'npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets'
@@ -63,6 +63,7 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
     ? readJson('docs/cloudflare-token-requirements.json')
     : null
   const workflowSecretRefs = [...workflow.matchAll(/secrets\.([A-Z0-9_]+)/g)].map((match) => match[1])
+  const workflowVariableRefs = [...workflow.matchAll(/vars\.([A-Z0-9_]+)/g)].map((match) => match[1])
   const contractSecrets = Object.fromEntries(contract.secrets.map((secret) => [secret.name, secret]))
 
   const githubEnvironmentSecrets = [...requiredWorkflowSecretNames, ...optionalWorkflowSecretNames].map((name) => ({
@@ -76,6 +77,17 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       ? 'Optional for launch. Set directly in GitHub only when approved Seedance media generation should be enabled.'
       : 'Set directly in GitHub without pasting the value into chat, docs, Git, or logs.',
   }))
+  const githubEnvironmentVariables = requiredWorkflowVariableNames.map((name) => ({
+    name,
+    requiredForGuardedWorkflow: true,
+    valueSource: 'cloudflare-account-identifier',
+    preferredScope: preferredGithubScope,
+    setCommand: workflowVariableCommand(name),
+    secretFallbackCommand: workflowSecretCommand(name),
+    source: workflowPath,
+    notes:
+      'Prefer a GitHub production environment variable because this is an account identifier, not a secret. A secret fallback is supported for existing setups.',
+  }))
 
   const cloudflareRuntimeSecrets = contract.secrets
     .filter((secret) => secret.setCommand)
@@ -87,10 +99,13 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       setCommands: commandsForContractSecret(secret),
       workflowCanSetFromGithubSecret:
         requiredWorkflowSecretNames.includes(secret.name) ||
+        requiredWorkflowVariableNames.includes(secret.name) ||
         optionalWorkflowSecretNames.includes(secret.name) ||
         generatedRuntimeSecretNames.includes(secret.name),
       workflowValueSource: generatedRuntimeSecretNames.includes(secret.name)
         ? 'generated-runtime-token'
+        : requiredWorkflowVariableNames.includes(secret.name)
+          ? 'required-github-variable-or-secret-fallback'
         : optionalWorkflowSecretNames.includes(secret.name)
           ? 'optional-github-secret'
           : requiredWorkflowSecretNames.includes(secret.name)
@@ -109,6 +124,7 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
       id: 'workflow-secret-references',
       status:
         requiredWorkflowSecretNames.every((name) => workflowSecretRefs.includes(name)) &&
+        requiredWorkflowVariableNames.every((name) => workflowVariableRefs.includes(name) || workflowSecretRefs.includes(name)) &&
         optionalWorkflowSecretNames.every((name) => workflowSecretRefs.includes(name)) &&
         generatedRuntimeSecretNames.every((name) => workflow.includes(name))
           ? 'pass'
@@ -127,7 +143,7 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
     },
     {
       id: 'contract-secret-records',
-      status: [...requiredWorkflowSecretNames, ...optionalWorkflowSecretNames, ...generatedRuntimeSecretNames].every((name) =>
+      status: [...requiredWorkflowCredentialNames, ...optionalWorkflowSecretNames, ...generatedRuntimeSecretNames].every((name) =>
         Boolean(contractSecrets[name]),
       )
         ? 'pass'
@@ -148,7 +164,7 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
         exists('scripts/verify-github-production-readiness.mjs')
           ? 'pass'
           : 'fail',
-      detail: 'GitHub production readiness verifier is available for secret-name checks.',
+      detail: 'GitHub production readiness verifier is available for credential-name checks.',
     },
     {
       id: 'github-generated-secret-helper',
@@ -210,7 +226,10 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
           'Optional manual path. The guarded deployment workflow can generate FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values without stored GitHub secrets.',
       },
       secrets: githubEnvironmentSecrets,
+      variables: githubEnvironmentVariables,
       requiredSecretNames: requiredWorkflowSecretNames,
+      requiredVariableNames: requiredWorkflowVariableNames,
+      requiredCredentialNames: requiredWorkflowCredentialNames,
       optionalSecretNames: optionalWorkflowSecretNames,
       generatedRuntimeSecretNames,
       workflowDerivedValues,
@@ -243,12 +262,15 @@ export const buildProductionSecretSetup = ({ generatedAt = new Date().toISOStrin
           'Optional manual helper for storing Herbalisti-owned admin tokens in GitHub. The guarded production workflow can generate these as masked runtime values instead.',
       },
       {
-        id: 'set-github-production-environment-secrets',
-        sideEffect: 'writes-github-secrets',
-        commands: githubEnvironmentSecrets.map((secret) => secret.setCommand),
+        id: 'set-github-production-environment-credentials',
+        sideEffect: 'writes-github-secrets-and-variables',
+        commands: [
+          ...githubEnvironmentSecrets.filter((secret) => secret.requiredForGuardedWorkflow).map((secret) => secret.setCommand),
+          ...githubEnvironmentVariables.map((variable) => variable.setCommand),
+        ],
       },
       {
-        id: 'verify-secret-name-readiness',
+        id: 'verify-credential-name-readiness',
         sideEffect: 'none',
         commands: ['npm run verify:github-production-readiness', 'npm run verify:github-production-readiness -- --strict'],
       },
@@ -286,13 +308,13 @@ export const renderProductionSecretSetupMarkdown = (packet) => {
     '- The guarded production workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values.',
     '- KIE_API_KEY is optional for launch; setting it does not approve paid generation, and generated video remains separately approval-gated.',
     '',
-    '## GitHub Production Environment Secrets',
+    '## GitHub Production Environment Credentials',
     '',
     `Repository: \`${packet.githubProductionEnvironment.repository}\``,
     '',
     `Environment: \`${packet.githubProductionEnvironment.environment}\``,
     '',
-    'Required externally issued values:',
+    'Required secret value:',
     '',
     '```bash',
   ]
@@ -301,7 +323,17 @@ export const renderProductionSecretSetupMarkdown = (packet) => {
     lines.push(secret.setCommand)
   }
 
-  lines.push('```', '', 'Optional paid-media value:', '', '```bash')
+  lines.push('```', '', 'Required account identifier variable:', '', '```bash')
+  for (const variable of packet.githubProductionEnvironment.variables) {
+    lines.push(variable.setCommand)
+  }
+  lines.push('```', '')
+  for (const variable of packet.githubProductionEnvironment.variables) {
+    lines.push(`- ${variable.name}: ${variable.notes}`)
+    lines.push(`- Secret fallback: \`${variable.secretFallbackCommand}\``)
+  }
+
+  lines.push('', 'Optional paid-media secret value:', '', '```bash')
   for (const secret of packet.githubProductionEnvironment.secrets.filter((item) => !item.requiredForGuardedWorkflow)) {
     lines.push(secret.setCommand)
   }
@@ -333,7 +365,7 @@ export const renderProductionSecretSetupMarkdown = (packet) => {
     lines.push('')
   }
 
-  lines.push('Verify secret-name readiness:', '', '```bash')
+  lines.push('Verify credential-name readiness:', '', '```bash')
   lines.push(packet.githubProductionEnvironment.readinessCommand)
   lines.push(packet.githubProductionEnvironment.strictReadinessCommand)
   lines.push('```', '', '## Cloudflare Runtime Secret Fallback', '')

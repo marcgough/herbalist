@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T14:18:56.336Z",
-  "auditSignature": "9ef5a1bd5092c2abe0b4c1e12b3045ae74b26e7e99d0f9d831093f13df358366",
+  "generatedAt": "2026-07-01T15:20:06.750Z",
+  "auditSignature": "22d05e8db3507ea82006f3ac995d19ae6c1a806c42cff3b5e6cce544d2c86755",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -581,7 +581,7 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T14:18:00.826Z",
+      "generatedAt": "2026-07-01T15:19:04.798Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 13,
@@ -606,7 +606,7 @@
         "itemCount": 24,
         "preservedSourceItemCount": 0,
         "preservedSourceNames": [],
-        "generatedAt": "2026-07-01T14:18:00.826Z"
+        "generatedAt": "2026-07-01T15:19:04.798Z"
       }
     },
     "media": {
@@ -641,7 +641,7 @@
       "passes": 225
     },
     "nextActions": [
-      "Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.",
+      "Set the required GitHub production environment credentials listed by npm run verify:github-production-readiness.",
       "Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.",
       "Confirm Cloudflare runtime secret setup for protected feed refresh; Seedance media secrets remain optional until approved.",
       "Run npm run verify:launch again."

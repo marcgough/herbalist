@@ -47,7 +47,7 @@ The packet covers:
 - guarded production deploy dry-run verification
 - mocked production D1 resolver behavior verification
 - protected production feed seed verification
-- GitHub production environment and secret-name readiness verification
+- GitHub production environment credential-name readiness verification
 - GitHub generated admin secret helper dry-run verification
 - GitHub CI/manual release evidence for the intended launch commit
 - current production state evidence for the exact GitHub commit

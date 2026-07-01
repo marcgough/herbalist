@@ -1,6 +1,6 @@
 # Herbalisti Objective Completion Audit
 
-Generated: 2026-07-01T14:18:56.336Z
+Generated: 2026-07-01T15:20:06.750Z
 
 ## Objective
 
@@ -11,7 +11,7 @@ Build Herbalisti as a fully functioning website for herbalisti.com with original
 - Status: `local-ready-production-pending`
 - Goal complete: `false`
 - Local implementation ready: `true`
-- Audit signature: `9ef5a1bd5092c2abe0b4c1e12b3045ae74b26e7e99d0f9d831093f13df358366`
+- Audit signature: `22d05e8db3507ea82006f3ac995d19ae6c1a806c42cff3b5e6cce544d2c86755`
 
 ## Completion Rule
 
@@ -53,7 +53,7 @@ Completion is only proven when every requirement is either locally proven or liv
 
 ### Next Actions
 
-- Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.
+- Set the required GitHub production environment credentials listed by npm run verify:github-production-readiness.
 - Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.
 - Confirm Cloudflare runtime secret setup for protected feed refresh; Seedance media secrets remain optional until approved.
 - Run npm run verify:launch again.

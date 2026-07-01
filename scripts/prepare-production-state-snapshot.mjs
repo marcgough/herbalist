@@ -155,6 +155,8 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
       ?.filter((item) => item.status !== 'pass')
       .map((item) => `${item.id}: ${item.status}`) ?? []
   const githubMissingSecrets = github?.missingSecretNames ?? []
+  const githubMissingVariables = github?.missingVariableNames ?? []
+  const githubMissingCredentials = github?.missingCredentialNames ?? [...githubMissingSecrets, ...githubMissingVariables]
   const cloudflareStatus = cloudflare?.status ?? 'unavailable'
   const dnsStatus = dns?.status ?? 'unavailable'
   const liveStatus = live?.status ?? 'unavailable'
@@ -167,7 +169,7 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
     ...(deployEvidenceArtifactStatus === 'pass'
       ? []
       : [`Production deploy evidence artifact readback is ${deployEvidenceArtifactStatus}.`]),
-    ...githubMissingSecrets.map((name) => `GitHub production secret name missing: ${name}.`),
+    ...githubMissingCredentials.map((name) => `GitHub production credential missing: ${name}.`),
     ...(cloudflareStatus === 'ready-for-live-verification' || cloudflareStatus === 'ready-with-cloudflare-warnings'
       ? []
       : [`Cloudflare production state is ${cloudflareStatus}.`]),
@@ -273,6 +275,8 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
       productionDeployEvidenceArtifactStatus: deployEvidenceArtifactStatus,
       githubProductionReadinessStatus: github?.status ?? 'unavailable',
       githubMissingSecretNames: githubMissingSecrets,
+      githubMissingVariableNames: githubMissingVariables,
+      githubMissingCredentialNames: githubMissingCredentials,
       cloudflareProductionStateStatus: cloudflareStatus,
       wranglerAuthenticated: Boolean(cloudflare?.wrangler?.authenticated),
       dnsCutoverStatus: dnsStatus,
@@ -321,7 +325,11 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
         protectionRuleCount: github?.productionEnvironment?.protectionRuleCount ?? null,
         branchPolicies: github?.productionEnvironment?.branchPolicies ?? [],
         requiredSecretNames: github?.requiredSecretNames ?? [],
+        requiredVariableNames: github?.requiredVariableNames ?? [],
+        requiredCredentialNames: github?.requiredCredentialNames ?? [],
         missingSecretNames: github?.missingSecretNames ?? [],
+        missingVariableNames: github?.missingVariableNames ?? [],
+        missingCredentialNames: github?.missingCredentialNames ?? [],
       },
       cloudflareProductionState: {
         summary: summarizeProbe(cloudflareProbe),
@@ -392,7 +400,7 @@ export const renderProductionStateMarkdown = (packet) => {
     `- Pending requirement count: ${packet.summary.pendingRequirementCount}`,
     `- Production deploy evidence artifact: ${packet.summary.productionDeployEvidenceArtifactStatus}`,
     `- GitHub production readiness: ${packet.summary.githubProductionReadinessStatus}`,
-    `- Missing GitHub production secret names: ${packet.summary.githubMissingSecretNames.join(', ') || 'none'}`,
+    `- Missing GitHub production credential names: ${packet.summary.githubMissingCredentialNames.join(', ') || 'none'}`,
     `- Cloudflare production state: ${packet.summary.cloudflareProductionStateStatus}`,
     `- Wrangler authenticated: ${packet.summary.wranglerAuthenticated}`,
     `- DNS cutover status: ${packet.summary.dnsCutoverStatus}`,

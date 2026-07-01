@@ -59,7 +59,7 @@ The audit currently checks:
 - Production environment contract
 - GitHub Actions CI and manual repository release gate
 - Guarded GitHub production deploy workflow
-- GitHub production environment and secret-name readiness
+- GitHub production environment and credential-name readiness
 - Consolidated production state snapshot
 - Current-commit production state evidence
 - External-action checklist for approval-required launch steps

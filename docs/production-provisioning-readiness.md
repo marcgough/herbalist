@@ -1,6 +1,6 @@
 # Herbalisti Production Provisioning Readiness
 
-Generated: 2026-07-01T14:17:28.191Z
+Generated: 2026-07-01T15:10:38.360Z
 
 Status: ready-for-approved-production-provisioning
 
@@ -23,15 +23,16 @@ Reads local launch contracts, Wrangler config, package scripts, and environment-
 - Production state snapshot blockers: 12
 - Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - Live production smoke: unavailable
-- GitHub production dispatch status: needs-github-production-secret-names
-- GitHub production secret names: 3
+- GitHub production dispatch status: needs-github-production-credentials
+- GitHub production secret names: 2
+- GitHub production variable names: 1
 - GitHub generated secret helper: available
 - Cloudflare token requirement status: ready-for-token-entry
 - Cloudflare token required permissions: 4
 
 ## Next Approved Action
 
-`set-github-production-environment-secrets`
+`set-github-production-environment-credentials`
 
 ## Manual Cloudflare Path
 

@@ -390,7 +390,7 @@ const result = {
           'Verify herbalisti.com after DNS and custom domain activation.',
         ]
       : [
-          'Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.',
+          'Set the required GitHub production environment credentials listed by npm run verify:github-production-readiness.',
           'Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.',
           'Confirm Cloudflare runtime secret setup for protected feed refresh; Seedance media secrets remain optional until approved.',
           'Run npm run verify:launch again.',

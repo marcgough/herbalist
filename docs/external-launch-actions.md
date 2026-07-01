@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-07-01T12:32:12.552Z
+Generated: 2026-07-01T15:08:09.135Z
 
 Status: needs-approval-and-production-setup
 
@@ -77,9 +77,9 @@ Confirm the protected production feed seed command is confirmation-gated, dry-ru
 npm run verify:production-feed-seed
 ```
 
-### Check GitHub production environment and secret-name readiness
+### Check GitHub production environment and credential-name readiness
 
-Read GitHub workflow, environment, secret-name, and release evidence metadata before the guarded production deploy workflow is dispatched.
+Read GitHub workflow, environment, secret-name, variable-name, and release evidence metadata before the guarded production deploy workflow is dispatched.
 
 ```bash
 npm run verify:github-production-readiness
@@ -280,7 +280,7 @@ Verification:
 - npm run verify:github-production-readiness
 
 Notes:
-- Does not generate CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, or KIE_API_KEY.
+- Does not generate externally issued Cloudflare credentials, the Cloudflare account identifier, or KIE_API_KEY.
 - Generated values are not recoverable from GitHub after setting; rotate by running the command again.
 
 ### Set Feed Admin Token secret
@@ -438,7 +438,9 @@ Command:
 GitHub Actions: Herbalisti Production Deploy workflow_dispatch with confirm=deploy-herbalisti-production; if skip_live_verification=true, also set skip_live_verification_confirm=skip-herbalisti-live-verification
 ```
 
-Secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, KIE_API_KEY
+Secret names: CLOUDFLARE_API_TOKEN, KIE_API_KEY
+
+Variable names: CLOUDFLARE_ACCOUNT_ID
 
 Verification:
 - npm run verify:production-deploy-workflow
@@ -461,6 +463,7 @@ Notes:
 - Use the GitHub production environment approval controls before dispatch.
 - The workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values; they do not need to be stored as GitHub secrets for launch.
 - KIE_API_KEY is optional until approved Seedance media generation is needed.
+- CLOUDFLARE_ACCOUNT_ID is preferred as a GitHub production environment variable; a secret fallback is supported for existing setups.
 - Run npm run verify:production-secrets, npm run verify:github-generated-secrets, npm run verify:cloudflare-token-requirements, and npm run verify:github-production-readiness -- --strict before dispatch.
 - After dispatch, run npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id> to confirm the non-secret deployment evidence artifact exists.
 - Do not use skip_live_verification for final completion evidence.

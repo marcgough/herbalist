@@ -229,15 +229,17 @@ assert(
 )
 
 const secretNames = checklist.approvalRequiredActions.flatMap((action) => action.secretNames)
+const variableNames = checklist.approvalRequiredActions.flatMap((action) => action.variableNames ?? [])
 for (const name of [
   'CLOUDFLARE_API_TOKEN',
-  'CLOUDFLARE_ACCOUNT_ID',
   'FEED_ADMIN_TOKEN',
   'KIE_API_KEY',
   'MEDIA_ADMIN_TOKEN',
 ]) {
   assert(secretNames.includes(name), `Checklist should name managed secret ${name}`)
 }
+assert(variableNames.includes('CLOUDFLARE_ACCOUNT_ID'), 'Checklist should name managed variable CLOUDFLARE_ACCOUNT_ID')
+assert(!secretNames.includes('CLOUDFLARE_ACCOUNT_ID'), 'CLOUDFLARE_ACCOUNT_ID should be tracked as a variable, not a managed secret')
 assert(!secretNames.includes('CLOUDFLARE_D1_DATABASE_ID'), 'D1 database ID should be resolved by the guarded workflow, not handled as a GitHub secret')
 
 const combinedText = `${JSON.stringify(checklist)}\n${markdown}`

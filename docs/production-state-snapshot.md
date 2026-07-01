@@ -1,6 +1,6 @@
 # Herbalisti Production State Snapshot
 
-Generated: 2026-07-01T14:16:51.150Z
+Generated: 2026-07-01T15:10:41.511Z
 
 Status: local-ready-production-pending
 
@@ -16,7 +16,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Stored Snapshot Summary
 
 - Git branch: main
-- Observed git commit at generation time: f8686470f27375dbfd678012ca15c7bdb916ae41
+- Observed git commit at generation time: 44e326b387b9ef678b4ae3324678d25456153b91
 - Git note: Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.
 - Completion audit status: local-ready-production-pending
 - Goal complete: false
@@ -24,7 +24,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - Pending requirement count: 2
 - Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - GitHub production readiness: needs-github-production-setup
-- Missing GitHub production secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
+- Missing GitHub production credential names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
 - Cloudflare production state: needs-cloudflare-auth
 - Wrangler authenticated: false
 - DNS cutover status: needs-dns-cutover
@@ -38,7 +38,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Checks
 
 - pass: Completion audit status is local-ready-production-pending.
-- pass: Release evidence is pass for f8686470f27375dbfd678012ca15c7bdb916ae41.
+- pass: Release evidence is pass for 44e326b387b9ef678b4ae3324678d25456153b91.
 - pass: Production deploy evidence artifact status is pending-production-deploy-evidence-artifact.
 - pass: GitHub production readiness status is needs-github-production-setup.
 - pass: Cloudflare production state is needs-cloudflare-auth.
@@ -52,8 +52,8 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - Completion audit pending: independent-newsfeed: pending-production.
 - Completion audit pending: cloudflare-hosting: pending-production.
 - Production deploy evidence artifact readback is pending-production-deploy-evidence-artifact.
-- GitHub production secret name missing: CLOUDFLARE_API_TOKEN.
-- GitHub production secret name missing: CLOUDFLARE_ACCOUNT_ID.
+- GitHub production credential missing: CLOUDFLARE_API_TOKEN.
+- GitHub production credential missing: CLOUDFLARE_ACCOUNT_ID.
 - Cloudflare production state is needs-cloudflare-auth.
 - DNS/custom-domain state is needs-dns-cutover.
 - Live domain readiness is not-ready.
@@ -65,9 +65,9 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Probe Details
 
 - Release evidence: pass
-- CI run ID: 28523019052
-- Manual release run ID: 28523047067
-- Visual smoke artifact ID: 8012495621
+- CI run ID: 28525480846
+- Manual release run ID: 28525538329
+- Visual smoke artifact ID: 8013577846
 - Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - Production deploy run ID: pending
 - Production deploy evidence artifact ID: pending
@@ -85,7 +85,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 
 ## Next Actions
 
-- Add the required GitHub secret names without exposing values in chat, docs, or logs.
+- Add the required GitHub production credential names without exposing secret values in chat, docs, or logs.
 - Run npm run verify:github-production-readiness again.
 - Authenticate Wrangler interactively or provide CLOUDFLARE_API_TOKEN, then rerun npm run verify:cloudflare-production-state.
 - Prepare Cloudflare zone delegation for herbalisti.com.
@@ -103,7 +103,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 - Run npm run verify:live-readiness again.
 - npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>
 - npm run verify:production -- https://herbalisti.com
-- Set the required GitHub production environment secrets listed by npm run verify:github-production-readiness.
+- Set the required GitHub production environment credentials listed by npm run verify:github-production-readiness.
 - Use the guarded GitHub production workflow to resolve or create the D1 database named herbalisti, or run the manual Cloudflare D1/configuration path.
 - Confirm Cloudflare runtime secret setup for protected feed refresh; Seedance media secrets remain optional until approved.
 - Run npm run verify:launch again.

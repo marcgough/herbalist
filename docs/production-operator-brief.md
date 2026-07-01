@@ -1,8 +1,8 @@
 # Herbalisti Production Operator Brief
 
-Generated: 2026-07-01T14:17:28.986Z
+Generated: 2026-07-01T15:11:33.450Z
 
-Status: needs-github-production-secret-entry
+Status: needs-github-production-credential-entry
 
 Reads local launch contracts and generated readiness packets, then optionally writes docs/production-operator-brief files. It does not dispatch GitHub Actions, set or request secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, upload files, download artifacts, or print secret values.
 
@@ -16,7 +16,7 @@ Reads local launch contracts and generated readiness packets, then optionally wr
 - Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - Release evidence policy: Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.
 - GitHub production readiness: needs-github-production-setup
-- Missing GitHub secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
+- Missing GitHub credential names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
 - Cloudflare production state: needs-cloudflare-auth
 - Wrangler authenticated: false
 - DNS cutover: needs-dns-cutover
@@ -26,17 +26,18 @@ Reads local launch contracts and generated readiness packets, then optionally wr
 - Production provisioning: ready-for-approved-production-provisioning
 - Production blocker count: 15
 
-## Secret Boundary
+## Credential Boundary
 
-- Required GitHub production secret names: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
+- Required GitHub production secret names: CLOUDFLARE_API_TOKEN
+- Required GitHub production variable names: CLOUDFLARE_ACCOUNT_ID
 - Optional GitHub production secret names: KIE_API_KEY
 - Generated runtime secret names: FEED_ADMIN_TOKEN, MEDIA_ADMIN_TOKEN
-- Not required as GitHub secrets: FEED_ADMIN_TOKEN, MEDIA_ADMIN_TOKEN, CLOUDFLARE_D1_DATABASE_ID
-- Enter externally issued secret values directly into GitHub or Cloudflare. Do not paste values into chat, docs, Git, screenshots, or logs.
+- Not required as GitHub secrets: CLOUDFLARE_ACCOUNT_ID, FEED_ADMIN_TOKEN, MEDIA_ADMIN_TOKEN, CLOUDFLARE_D1_DATABASE_ID
+- Enter externally issued secret values directly into GitHub or Cloudflare. Use a GitHub production variable for non-secret identifiers such as CLOUDFLARE_ACCOUNT_ID. Do not paste secret values into chat, docs, Git, screenshots, or logs.
 
 ## Next Action
 
-Set the required GitHub production environment secret names directly in GitHub, then run npm run verify:github-production-readiness -- --strict.
+Set the required GitHub production environment credentials directly in GitHub, then run npm run verify:github-production-readiness -- --strict.
 
 ## Operator Sequence
 
@@ -69,9 +70,9 @@ npm run verify:production-provisioning
 npm run verify:production-operator-brief
 ```
 
-### set-required-github-production-environment-secrets
+### set-required-github-production-environment-credentials
 
-Side effect: writes-github-secrets
+Side effect: writes-github-secrets-and-variables
 
 Requires: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
 
@@ -79,7 +80,7 @@ After entry, run npm run verify:github-production-readiness -- --strict.
 
 ```bash
 gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist
-gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
+gh variable set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
 ```
 
 ### dispatch-guarded-production-workflow
@@ -129,7 +130,7 @@ npm run verify:goal-readiness -- --strict
 
 ## Hard Gates
 
-- secret-entry: Entering or generating production secret values. Immediate next: true
+- credential-entry: Entering production GitHub secret values and non-secret deployment variables. Immediate next: true
 - production-deployment: Dispatching the guarded GitHub production workflow or manually deploying Cloudflare Pages/Worker. Immediate next: false
 - dns-custom-domain: Changing herbalisti.com nameservers, DNS records, or Cloudflare Pages custom-domain configuration. Immediate next: false
 - paid-media-generation: Calling Kie.ai Seedance or any paid generation provider. Immediate next: false
@@ -139,8 +140,8 @@ npm run verify:goal-readiness -- --strict
 - Completion audit pending: independent-newsfeed: pending-production.
 - Completion audit pending: cloudflare-hosting: pending-production.
 - Production deploy evidence artifact readback is pending-production-deploy-evidence-artifact.
-- GitHub production secret name missing: CLOUDFLARE_API_TOKEN.
-- GitHub production secret name missing: CLOUDFLARE_ACCOUNT_ID.
+- GitHub production credential missing: CLOUDFLARE_API_TOKEN.
+- GitHub production credential missing: CLOUDFLARE_ACCOUNT_ID.
 - Cloudflare production state is needs-cloudflare-auth.
 - DNS/custom-domain state is needs-dns-cutover.
 - Live domain readiness is not-ready.
@@ -162,7 +163,7 @@ npm run verify:goal-readiness -- --strict
 ## Checks
 
 - pass: Production contract targets herbalisti.com.
-- pass: Only Cloudflare deployment credentials are required as GitHub production environment secrets.
+- pass: Cloudflare token is a GitHub production secret; Cloudflare account ID is a production variable with secret fallback.
 - pass: Protected feed and media admin tokens are generated runtime names, not required external GitHub credentials.
 - pass: Cloudflare API token permissions are documented without token values.
 - pass: GitHub dispatch packet preserves strict final verification and DNS-transition acknowledgement.
@@ -176,7 +177,7 @@ npm run verify:goal-readiness -- --strict
 
 - docs/production-environment-contract.json: contract
 - docs/production-state-snapshot.json: local-ready-production-pending
-- docs/github-production-dispatch.json: needs-github-production-secret-names
+- docs/github-production-dispatch.json: needs-github-production-credentials
 - docs/production-secret-setup.json: ready-for-secret-entry
 - docs/cloudflare-token-requirements.json: ready-for-token-entry
 - docs/dns-cutover-plan.json: needs-dns-cutover

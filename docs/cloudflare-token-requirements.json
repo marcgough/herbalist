@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T21:41:39.197Z",
+  "generatedAt": "2026-07-01T15:09:22.414Z",
   "status": "ready-for-token-entry",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts and public Cloudflare documentation citations. It does not read, request, set, store, or print token values; it does not call Cloudflare, deploy, mutate DNS, create resources, or call paid APIs.",
@@ -12,7 +12,9 @@
     "optionalR2Bucket": "herbalisti-media"
   },
   "githubSecretNames": [
-    "CLOUDFLARE_API_TOKEN",
+    "CLOUDFLARE_API_TOKEN"
+  ],
+  "githubVariableNames": [
     "CLOUDFLARE_ACCOUNT_ID"
   ],
   "cloudflareApiToken": {
@@ -212,9 +214,9 @@
       "detail": "Guarded workflow reads CLOUDFLARE_API_TOKEN from GitHub production environment secrets."
     },
     {
-      "id": "cloudflare-account-id-secret-named",
+      "id": "cloudflare-account-id-variable-named",
       "status": "pass",
-      "detail": "Guarded workflow reads CLOUDFLARE_ACCOUNT_ID from GitHub production environment secrets."
+      "detail": "Guarded workflow reads CLOUDFLARE_ACCOUNT_ID from a GitHub production environment variable with secret fallback."
     },
     {
       "id": "required-permission-coverage",

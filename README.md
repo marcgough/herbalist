@@ -56,10 +56,10 @@ GitHub Actions:
 
 - `.github/workflows/ci.yml` runs local safe gates on pushes and pull requests to `main`.
 - `.github/workflows/release-gate.yml` is manual only and runs the repository-safe release verifier with public corpus-export checks, browser smoke, and local Cloudflare-runtime checks. Full local corpus verification remains covered by `npm run verify:release` on a workstation with the local corpus layer.
-- `.github/workflows/production-deploy.yml` is manual only, requires the exact `deploy-herbalisti-production` confirmation phrase, runs under the GitHub `production` environment, reads named GitHub secrets, and can perform the approved Cloudflare production deploy path when the remaining launch inputs exist.
+- `.github/workflows/production-deploy.yml` is manual only, requires the exact `deploy-herbalisti-production` confirmation phrase, runs under the GitHub `production` environment, reads the Cloudflare API token from GitHub secrets and the Cloudflare account ID from a GitHub variable with a secret fallback, and can perform the approved Cloudflare production deploy path when the remaining launch inputs exist.
 - `npm run verify:github-actions` checks that the CI and release-gate workflows remain read-only, non-deploying, and connected to the launch contract.
 - `npm run verify:production-deploy-workflow` checks that the production workflow remains manual-only, confirmation-gated, environment-scoped, release-evidence-gated, and free of literal secret values.
-- `npm run verify:github-production-readiness` reads GitHub metadata to report whether the `production` environment and required production workflow secret names are present. Use `-- --strict` only as the final dispatch-readiness gate.
+- `npm run verify:github-production-readiness` reads GitHub metadata to report whether the `production` environment and required production workflow credential names are present. Use `-- --strict` only as the final dispatch-readiness gate.
 - `npm run verify:github-release-evidence` checks that the intended launch commit has fresh successful GitHub CI and manual release-gate runs, plus the uploaded visual-smoke artifact.
 
 ## Production Direction
@@ -119,8 +119,8 @@ npm run verify:production -- https://herbalisti.com
 
 Required later:
 
-- `CLOUDFLARE_API_TOKEN` for deployment automation.
-- `CLOUDFLARE_ACCOUNT_ID` for deployment automation.
+- `CLOUDFLARE_API_TOKEN` as the GitHub production secret for deployment automation.
+- `CLOUDFLARE_ACCOUNT_ID` as the GitHub production variable for deployment automation, with a secret fallback supported for existing setups.
 - `FEED_ADMIN_TOKEN` for protected manual news refresh.
 - `KIE_API_KEY` for Seedance 2.0 generated video backgrounds.
 - `MEDIA_ADMIN_TOKEN` for protected Seedance job endpoints.

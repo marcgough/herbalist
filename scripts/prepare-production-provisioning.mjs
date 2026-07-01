@@ -244,7 +244,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
     : requiredSecrets.some((name) => !visibleSecrets.includes(name))
     ? 'set-required-cloudflare-secrets'
     : 'deploy-cloudflare-pages-and-worker'
-  const guardedWorkflowNextAction = 'set-github-production-environment-secrets'
+  const guardedWorkflowNextAction = 'set-github-production-environment-credentials'
 
   return {
     version: 1,
@@ -280,6 +280,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       productionSmokeStatus: productionStateSnapshot?.summary?.productionSmokeStatus ?? 'unknown',
       githubProductionDispatchStatus: githubProductionDispatch?.status ?? 'missing',
       githubProductionSecretCount: productionSecretSetup?.githubProductionEnvironment?.secrets?.length ?? 0,
+      githubProductionVariableCount: productionSecretSetup?.githubProductionEnvironment?.variables?.length ?? 0,
       githubGeneratedSecretHelper: productionSecretSetup?.githubProductionEnvironment?.generatedSecretHelper
         ? 'available'
         : 'missing',
@@ -420,6 +421,7 @@ export const renderProductionProvisioningMarkdown = (packet) => {
     `- Live production smoke: ${packet.currentState.productionSmokeStatus}`,
     `- GitHub production dispatch status: ${packet.currentState.githubProductionDispatchStatus}`,
     `- GitHub production secret names: ${packet.currentState.githubProductionSecretCount}`,
+    `- GitHub production variable names: ${packet.currentState.githubProductionVariableCount}`,
     `- GitHub generated secret helper: ${packet.currentState.githubGeneratedSecretHelper}`,
     `- Cloudflare token requirement status: ${packet.currentState.cloudflareTokenRequirementsStatus}`,
     `- Cloudflare token required permissions: ${packet.currentState.cloudflareTokenRequiredPermissionCount}`,

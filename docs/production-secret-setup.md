@@ -1,6 +1,6 @@
 # Herbalisti Production Secret Setup
 
-Generated: 2026-07-01T05:17:00.055Z
+Generated: 2026-07-01T15:10:36.752Z
 
 Status: ready-for-secret-entry
 
@@ -14,20 +14,28 @@ Reads local launch contracts and workflow files, then optionally writes docs/pro
 - The guarded production workflow generates FEED_ADMIN_TOKEN and MEDIA_ADMIN_TOKEN as masked runtime values.
 - KIE_API_KEY is optional for launch; setting it does not approve paid generation, and generated video remains separately approval-gated.
 
-## GitHub Production Environment Secrets
+## GitHub Production Environment Credentials
 
 Repository: `marcgough/herbalist`
 
 Environment: `production`
 
-Required externally issued values:
+Required secret value:
 
 ```bash
 gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist
-gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
 ```
 
-Optional paid-media value:
+Required account identifier variable:
+
+```bash
+gh variable set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
+```
+
+- CLOUDFLARE_ACCOUNT_ID: Prefer a GitHub production environment variable because this is an account identifier, not a secret. A secret fallback is supported for existing setups.
+- Secret fallback: `gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist`
+
+Optional paid-media secret value:
 
 ```bash
 gh secret set KIE_API_KEY --env production --repo marcgough/herbalist
@@ -54,7 +62,7 @@ npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secre
 npm run resolve:production-d1 -- --create-if-missing --github-env "$GITHUB_ENV"
 ```
 
-Verify secret-name readiness:
+Verify credential-name readiness:
 
 ```bash
 npm run verify:github-production-readiness
@@ -88,7 +96,7 @@ CLOUDFLARE_API_TOKEN is a GitHub production secret name; its Cloudflare permissi
 - pass: Production deploy workflow resolves the D1 database ID during the guarded run instead of requiring it as a GitHub secret.
 - pass: Production contract records required, optional, and generated runtime secret names.
 - pass: Required Cloudflare runtime secrets have command templates without values.
-- pass: GitHub production readiness verifier is available for secret-name checks.
+- pass: GitHub production readiness verifier is available for credential-name checks.
 - pass: Value-free helper is available for generated Herbalisti-owned GitHub admin tokens.
 - pass: Cloudflare API token permission packet is available for CLOUDFLARE_API_TOKEN setup.
 - pass: External action packet names the required production workflow secrets.
@@ -112,17 +120,16 @@ npm run verify:github-generated-secrets
 npm run set:github-generated-secrets -- --confirm set-herbalisti-generated-secrets
 ```
 
-### set-github-production-environment-secrets
+### set-github-production-environment-credentials
 
-Side effect: writes-github-secrets
+Side effect: writes-github-secrets-and-variables
 
 ```bash
 gh secret set CLOUDFLARE_API_TOKEN --env production --repo marcgough/herbalist
-gh secret set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
-gh secret set KIE_API_KEY --env production --repo marcgough/herbalist
+gh variable set CLOUDFLARE_ACCOUNT_ID --env production --repo marcgough/herbalist
 ```
 
-### verify-secret-name-readiness
+### verify-credential-name-readiness
 
 Side effect: none
 

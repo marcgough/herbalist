@@ -1,8 +1,8 @@
 # Herbalisti GitHub Production Dispatch Packet
 
-Generated: 2026-07-01T12:32:14.148Z
+Generated: 2026-07-01T15:10:37.548Z
 
-Status: needs-github-production-secret-names
+Status: needs-github-production-credentials
 
 Reads local launch contracts, workflow files, and generated readiness packets only. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.
 
@@ -19,14 +19,14 @@ Reads local launch contracts, workflow files, and generated readiness packets on
 - Live readiness: not-ready
 - Production provisioning: ready-for-approved-production-provisioning
 
-## Required GitHub Secret Names
+## Required GitHub Credentials
 
-- CLOUDFLARE_API_TOKEN: missing
-- CLOUDFLARE_ACCOUNT_ID: missing
+- CLOUDFLARE_API_TOKEN: missing secret
+- CLOUDFLARE_ACCOUNT_ID: missing variable
 
 ## Optional GitHub Secret Names
 
-- KIE_API_KEY: present
+- KIE_API_KEY: optional / not required for launch
 
 ## Generated Runtime Secret Names
 
