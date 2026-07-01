@@ -229,6 +229,8 @@ type FeedRefreshRun = {
   finishedAt?: string
   itemCount?: number
   publicItemCount?: number
+  preservedSourceItemCount?: number
+  preservedSourceNames?: string[]
   warningCount?: number
 }
 
@@ -239,6 +241,8 @@ type FeedStatusPayload = {
   publicSnapshot?: {
     status?: string
     itemCount?: number
+    preservedSourceItemCount?: number
+    preservedSourceNames?: string[]
     generatedAt?: string
   } | null
 }
@@ -1277,8 +1281,12 @@ const refreshHeartbeatText = (payload: FeedStatusPayload) => {
     latest.status && latest.status !== 'completed' ? `, ${latest.status.replace(/_/g, ' ')}` : ''
   const snapshot =
     payload.publicSnapshot?.status === 'preserved_existing' ? ', preserved public snapshot' : ''
+  const preservedSources =
+    payload.publicSnapshot?.status === 'updated_with_source_preservation'
+      ? ', preserved source signals'
+      : ''
 
-  return `Refresh heartbeat: ${readableRefreshTrigger(latest.triggerType)}, ${formatRefreshTime(latest.finishedAt)}${count}${publicCount}${warning}${status}${snapshot}`
+  return `Refresh heartbeat: ${readableRefreshTrigger(latest.triggerType)}, ${formatRefreshTime(latest.finishedAt)}${count}${publicCount}${warning}${status}${snapshot}${preservedSources}`
 }
 
 function useDebouncedValue(value: string, delay = 220) {

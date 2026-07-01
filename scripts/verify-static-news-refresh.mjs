@@ -86,6 +86,31 @@ const freshGoodFeed = {
   ],
 }
 
+const partialFailureFeed = {
+  ...goodFeed,
+  generatedAt: '2026-06-24T03:00:00.000Z',
+  warnings: ['Skipped Crossref: 500 Server Error'],
+  sourceHealth: [
+    {
+      id: 'crossref',
+      name: 'Crossref',
+      status: 'warning',
+    },
+  ],
+  items: [
+    {
+      id: 'fresh-longevity',
+      title: 'Fresh independent longevity signal',
+      sourceName: 'Lifespan.io',
+      sourceType: 'independent-longevity',
+      url: 'https://www.lifespan.io/news/fresh-longevity/',
+      publishedAt: '2026-06-24T00:00:00.000Z',
+      summary: 'Independent longevity coverage from the latest refresh.',
+      topics: ['Longevity'],
+    },
+  ],
+}
+
 const tempDir = await mkdtemp(join(tmpdir(), 'herbalisti-static-refresh-'))
 
 try {
@@ -132,11 +157,59 @@ try {
   assert(updatedStatus.latestRefresh.status === 'completed', 'Successful refresh should record completed status')
   assert(updatedStatus.publicSnapshot.status === 'updated', 'Successful refresh should mark public snapshot as updated')
 
+  await writeFile(join(tempDir, 'news.json'), `${JSON.stringify(goodFeed, null, 2)}\n`, 'utf8')
+
+  const partiallyPreserved = await writeStaticNewsRefresh(partialFailureFeed, { dataDir: tempDir })
+  const partiallyPreservedNews = await readJson(join(tempDir, 'news.json'))
+  const partiallyPreservedStatus = await readJson(join(tempDir, 'feed-status.json'))
+
+  assert(partiallyPreserved.newsWritten === true, 'Partial source failure should still write the refreshed public feed')
+  assert(
+    partiallyPreserved.preserveExistingSnapshot === false,
+    'Partial source failure should not preserve the whole previous snapshot',
+  )
+  assert(
+    partiallyPreserved.preservedSourceItems.length === 1,
+    'Partial source failure should preserve last-known items from the failed source',
+  )
+  assert(
+    partiallyPreservedNews.items.some((item) => item.id === 'fresh-longevity') &&
+      partiallyPreservedNews.items.some((item) => item.id === 'last-good-crispr'),
+    'Partial source failure should publish fresh items plus last-known failed-source items',
+  )
+  assert(
+    partiallyPreservedNews.preservation?.preservedSourceNames.includes('Crossref'),
+    'Public news payload should expose preserved source names',
+  )
+  assert(
+    partiallyPreservedStatus.latestRefresh.status === 'completed_with_warnings',
+    'Partial source failure should keep completed_with_warnings status',
+  )
+  assert(
+    partiallyPreservedStatus.latestRefresh.preservedSourceItemCount === 1 &&
+      partiallyPreservedStatus.latestRefresh.preservedSourceNames.includes('Crossref'),
+    'Feed status should count and name preserved source items',
+  )
+  assert(
+    partiallyPreservedStatus.publicSnapshot.status === 'updated_with_source_preservation',
+    'Feed status should mark partial source preservation distinctly',
+  )
+  assert(
+    partiallyPreservedStatus.latestRefresh.warnings.some((warning) =>
+      warning.includes('Preserved 1 last-known public item from temporarily unavailable source: Crossref.'),
+    ),
+    'Feed status should include a specific partial source preservation warning',
+  )
+
   const appSource = read('src/App.tsx')
   assert(appSource.includes('publicItemCount'), 'Frontend heartbeat should understand the public item count')
   assert(
     appSource.includes('preserved public snapshot'),
     'Frontend heartbeat should expose preserved snapshot status text',
+  )
+  assert(
+    appSource.includes('preserved source signals'),
+    'Frontend heartbeat should expose partial source preservation status text',
   )
 
   console.log(
@@ -154,6 +227,13 @@ try {
           newsWritten: updated.newsWritten,
           refreshStatus: updatedStatus.latestRefresh.status,
           publicItemCount: updatedStatus.latestRefresh.publicItemCount,
+        },
+        partiallyPreserved: {
+          newsWritten: partiallyPreserved.newsWritten,
+          refreshStatus: partiallyPreservedStatus.latestRefresh.status,
+          publicSnapshotStatus: partiallyPreservedStatus.publicSnapshot.status,
+          publicItemCount: partiallyPreservedStatus.latestRefresh.publicItemCount,
+          preservedSourceItemCount: partiallyPreservedStatus.latestRefresh.preservedSourceItemCount,
         },
         safeToRun:
           'This verifier writes only to a temporary local directory. It does not fetch live sources, mutate production data, or call paid APIs.',

@@ -556,7 +556,9 @@ assert(
   'Static feed status should include the public snapshot signal count',
 )
 assert(
-  ['updated', 'preserved_existing'].includes(staticFeedStatus.publicSnapshot?.status),
+  ['updated', 'preserved_existing', 'updated_with_source_preservation'].includes(
+    staticFeedStatus.publicSnapshot?.status,
+  ),
   'Static feed status should expose whether the public snapshot was updated or preserved',
 )
 assert(

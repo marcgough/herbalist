@@ -588,7 +588,7 @@ if (check) {
         productionDeployEvidenceArtifactId: packet.probes.productionDeployEvidenceArtifact.artifactId,
         productionSmokeStatus: packet.probes.productionSmoke.summary.status,
         safeToRun:
-          'Regenerates the production state in memory for the current git commit and checks public GitHub release plus production deploy evidence metadata. It does not write files, deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values.',
+          'Regenerates the production state in memory for the current git commit, checks public GitHub release/deploy metadata, and probes public live-domain readiness plus production smoke. It does not write files, deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values.',
       },
       null,
       2,

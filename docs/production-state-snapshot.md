@@ -1,6 +1,6 @@
 # Herbalisti Production State Snapshot
 
-Generated: 2026-07-01T13:41:09.798Z
+Generated: 2026-07-01T14:16:51.150Z
 
 Status: local-ready-production-pending
 
@@ -16,7 +16,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Stored Snapshot Summary
 
 - Git branch: main
-- Observed git commit at generation time: 11f4d3fe1dc7d5f62fc254d00380538f772c7d59
+- Observed git commit at generation time: f8686470f27375dbfd678012ca15c7bdb916ae41
 - Git note: Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.
 - Completion audit status: local-ready-production-pending
 - Goal complete: false
@@ -38,7 +38,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Checks
 
 - pass: Completion audit status is local-ready-production-pending.
-- pass: Release evidence is pass for 11f4d3fe1dc7d5f62fc254d00380538f772c7d59.
+- pass: Release evidence is pass for f8686470f27375dbfd678012ca15c7bdb916ae41.
 - pass: Production deploy evidence artifact status is pending-production-deploy-evidence-artifact.
 - pass: GitHub production readiness status is needs-github-production-setup.
 - pass: Cloudflare production state is needs-cloudflare-auth.
@@ -65,9 +65,9 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Probe Details
 
 - Release evidence: pass
-- CI run ID: 28520643062
-- Manual release run ID: 28520694770
-- Visual smoke artifact ID: 8011469262
+- CI run ID: 28523019052
+- Manual release run ID: 28523047067
+- Visual smoke artifact ID: 8012495621
 - Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - Production deploy run ID: pending
 - Production deploy evidence artifact ID: pending

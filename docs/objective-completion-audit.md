@@ -1,6 +1,6 @@
 # Herbalisti Objective Completion Audit
 
-Generated: 2026-07-01T13:57:38.793Z
+Generated: 2026-07-01T14:18:56.336Z
 
 ## Objective
 
@@ -11,7 +11,7 @@ Build Herbalisti as a fully functioning website for herbalisti.com with original
 - Status: `local-ready-production-pending`
 - Goal complete: `false`
 - Local implementation ready: `true`
-- Audit signature: `7b5193ccc22dae38f6cb8e05873250b9af65d3e27ee48ce610d2ce7ada9e1e79`
+- Audit signature: `9ef5a1bd5092c2abe0b4c1e12b3045ae74b26e7e99d0f9d831093f13df358366`
 
 ## Completion Rule
 
@@ -92,8 +92,8 @@ Live-domain completion gates:
 - API endpoints catalogued: `17`
 - Public API endpoints: `14`
 - Protected API endpoints: `3`
-- Current news signals: `18`
-- Current news refresh status: `completed_with_warnings`
+- Current news signals: `24`
+- Current news refresh status: `completed`
 - OpenAI Image Gen 2 assets: `2`
 - Corpus rights status: `pass`
 

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T13:41:09.798Z",
+  "generatedAt": "2026-07-01T14:16:51.150Z",
   "status": "local-ready-production-pending",
   "productionComplete": false,
   "completionBoundary": "Production is complete only when the deployment evidence artifact, strict live readiness, live production smoke, and goal-readiness gates all pass against the live herbalisti.com deployment.",
@@ -20,7 +20,7 @@
   },
   "git": {
     "branch": "main",
-    "commit": "11f4d3fe1dc7d5f62fc254d00380538f772c7d59",
+    "commit": "f8686470f27375dbfd678012ca15c7bdb916ae41",
     "note": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence."
   },
   "summary": {
@@ -54,7 +54,7 @@
     {
       "id": "github-release-evidence-captured",
       "status": "pass",
-      "detail": "Release evidence is pass for 11f4d3fe1dc7d5f62fc254d00380538f772c7d59."
+      "detail": "Release evidence is pass for f8686470f27375dbfd678012ca15c7bdb916ae41."
     },
     {
       "id": "production-deploy-evidence-artifact-captured",
@@ -139,10 +139,10 @@
         "status": "pass",
         "error": null
       },
-      "commit": "11f4d3fe1dc7d5f62fc254d00380538f772c7d59",
-      "ciRunId": 28520643062,
-      "manualReleaseRunId": 28520694770,
-      "artifactId": 8011469262
+      "commit": "f8686470f27375dbfd678012ca15c7bdb916ae41",
+      "ciRunId": 28523019052,
+      "manualReleaseRunId": 28523047067,
+      "artifactId": 8012495621
     },
     "productionDeployEvidenceArtifact": {
       "summary": {
@@ -156,7 +156,7 @@
       "artifactId": null,
       "artifactDigest": null,
       "strictCompletionCommand": "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
-      "detail": "No fresh successful Herbalisti Production Deploy workflow_dispatch run exists for 11f4d3fe1dc7d5f62fc254d00380538f772c7d59."
+      "detail": "No fresh successful Herbalisti Production Deploy workflow_dispatch run exists for f8686470f27375dbfd678012ca15c7bdb916ae41."
     },
     "githubProductionReadiness": {
       "summary": {
@@ -233,8 +233,8 @@
         "aaaaRecords": [],
         "cnameRecords": [],
         "nsRecords": [
-          "dns1.registrar-servers.com",
-          "dns2.registrar-servers.com"
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
         ]
       },
       "http": {

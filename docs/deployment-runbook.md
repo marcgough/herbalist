@@ -153,7 +153,7 @@ npm run verify:production-state-current
 
 `prepare:production-state` writes `docs/production-state-snapshot.json` and `docs/production-state-snapshot.md`. It consolidates the completion audit, GitHub production readiness, GitHub release evidence, read-only Cloudflare state, public DNS cutover status, and live-domain readiness into one snapshot. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.
 
-`verify:production-state-current` regenerates the production state in memory and checks that the public GitHub CI run, manual release-gate run, and visual-smoke artifact metadata match the current git commit. Use it after CI and the manual release gate have passed for the exact commit being prepared for production.
+`verify:production-state-current` regenerates the production state in memory, checks that the public GitHub CI run, manual release-gate run, and visual-smoke artifact metadata match the current git commit, and performs read-only public live-domain readiness and production-smoke probes. Use it after CI and the manual release gate have passed for the exact commit being prepared for production.
 
 For the current production cutover packet, run:
 
