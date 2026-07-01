@@ -87,6 +87,7 @@
     "verify:governance": "node scripts/verify-governance.mjs",
     "verify:github-actions": "node scripts/verify-github-actions.mjs",
     "verify:github-production-credentials": "node scripts/set-github-production-credentials.mjs --dry-run",
+    "verify:github-production-credential-helper": "node scripts/verify-github-production-credential-helper.mjs",
     "verify:github-generated-secrets": "node scripts/set-github-generated-secrets.mjs --dry-run",
     "verify:github-production-dispatch": "node scripts/prepare-github-production-dispatch.mjs --check",
     "verify:github-production-readiness": "node scripts/verify-github-production-readiness.mjs",

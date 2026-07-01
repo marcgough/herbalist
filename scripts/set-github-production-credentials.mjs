@@ -21,6 +21,9 @@ const environment = valueAfter('--environment', 'production')
 const confirm = valueAfter('--confirm')
 const dryRun = argSet.has('--dry-run') || argSet.has('--check')
 const requireValues = argSet.has('--require-values')
+const testCliOverride = process.env.HERBALISTI_GITHUB_CREDENTIAL_HELPER_TEST === '1'
+const ghExecutable = testCliOverride && process.env.HERBALISTI_GH_EXECUTABLE ? process.env.HERBALISTI_GH_EXECUTABLE : 'gh'
+const ghArgsPrefix = testCliOverride && process.env.HERBALISTI_GH_ARGS_PREFIX ? JSON.parse(process.env.HERBALISTI_GH_ARGS_PREFIX) : []
 
 const credentials = [
   {
@@ -47,6 +50,7 @@ const ghArgsFor = (credential) => [
   repository,
 ]
 const commandFor = (credential) => `gh ${ghArgsFor(credential).join(' ')}`
+const runGh = (ghArgs, options) => spawnSync(ghExecutable, [...ghArgsPrefix, ...ghArgs], options)
 
 const localValueState = Object.fromEntries(
   credentials.map((credential) => [
@@ -58,7 +62,7 @@ const localValueState = Object.fromEntries(
   ]),
 )
 
-const ghAvailable = spawnSync('gh', ['--version'], {
+const ghAvailable = runGh(['--version'], {
   cwd: root,
   encoding: 'utf8',
   stdio: ['ignore', 'ignore', 'ignore'],
@@ -156,7 +160,7 @@ if (!dryRun) {
 
   for (const credential of credentials) {
     const value = process.env[credential.sourceEnv]?.trim()
-    const write = spawnSync('gh', ghArgsFor(credential), {
+    const write = runGh(ghArgsFor(credential), {
       cwd: root,
       input: value,
       encoding: 'utf8',

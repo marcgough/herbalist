@@ -130,6 +130,10 @@ assert(
   releaseVerifier.includes('verify:github-production-credentials'),
   'Full release verifier should include the GitHub production credential helper gate',
 )
+assert(
+  releaseVerifier.includes('verify:github-production-credential-helper'),
+  'Full release verifier should include the GitHub production credential helper write-path gate',
+)
 assert(releaseVerifier.includes('verify:cloudflare-token-requirements'), 'Full release verifier should include the Cloudflare token requirement gate')
 assert(launchVerifier.includes('.github/workflows/ci.yml'), 'Launch verifier should require the CI workflow')
 assert(launchVerifier.includes('.github/workflows/release-gate.yml'), 'Launch verifier should require the manual release workflow')
@@ -177,6 +181,10 @@ assert(
 assert(
   runbook.includes('npm run verify:github-production-credentials'),
   'Deployment runbook should document GitHub production credential helper verification',
+)
+assert(
+  runbook.includes('npm run verify:github-production-credential-helper'),
+  'Deployment runbook should document GitHub production credential helper write-path verification',
 )
 assert(
   !runbook.includes('required GitHub secret names are configured'),

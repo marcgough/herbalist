@@ -13,7 +13,7 @@ npm install
 npm run verify:release
 ```
 
-`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the guarded production deploy dry run, the mocked production D1 resolver behavior, the protected production feed seed command, production state snapshot structure, Cloudflare token requirements, protected admin token authentication, the production operator brief, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
+`verify:release` refreshes `public/data/news.json` and `public/data/feed-status.json`, exports public data snapshots, lints, builds, verifies brand assets, verifies the high-tech motion system, verifies feed normalization, static news refresh resilience, signal coverage, signal intelligence, Signals RSS, source health, the corpus rights audit, public data exports, discovery metadata, the public API catalog, OpenSearch discovery, the Australia corpus lane rights boundary, the production cutover simulation, the guarded production deploy workflow, the guarded production deploy dry run, the mocked production D1 resolver behavior, the protected production feed seed command, production state snapshot structure, Cloudflare token requirements, GitHub production credential dry-run and mocked write-path helpers, protected admin token authentication, the production operator brief, and the external-action checklist, verifies independent-source governance, verifies the source-led relationship map, verifies citation notes, audits full-goal readiness, refreshes and verifies the objective completion audit, verifies the protected Seedance media endpoints with mocked provider responses, checks the Cloudflare binding configurator, verifies the machine-readable production environment contract, verifies local D1 migrations, verifies the scheduled news Worker and feed-refresh ledger, starts Cloudflare Pages on an open local port, runs the API smoke test including `/api/health`, runs desktop/mobile visual smoke in a real browser, runs accessibility smoke for keyboard and semantic launch basics, then shuts the local Pages server down.
 
 Individual gates:
 
@@ -36,6 +36,7 @@ npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
 npm run verify:github-production-credentials
+npm run verify:github-production-credential-helper
 npm run verify:github-generated-secrets
 npm run prepare:production-state
 npm run verify:production-state
@@ -81,6 +82,7 @@ npm run verify:d1-manifest
 npm run verify:dns-cutover
 npm run verify:production-secrets
 npm run verify:github-production-credentials
+npm run verify:github-production-credential-helper
 npm run verify:github-generated-secrets
 npm run verify:production-state
 npm run verify:d1
@@ -312,6 +314,14 @@ npm run verify:github-production-credentials
 ```
 
 It dry-runs the helper for `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`, reports whether matching local environment values are present, and does not call GitHub, set secrets or variables, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print credential values. The write path is `npm run set:github-production-credentials -- --confirm set-herbalisti-production-credentials`; it reads the required values from the local environment and streams them into the GitHub `production` environment through stdin.
+
+GitHub production credential write-path verification is local and mocked:
+
+```bash
+npm run verify:github-production-credential-helper
+```
+
+It runs the real write-mode helper against a temporary fake GitHub CLI target with fake local values, confirms the missing-confirmation path performs no write, confirms `CLOUDFLARE_API_TOKEN` is sent as a GitHub production secret and `CLOUDFLARE_ACCOUNT_ID` as a production variable, and verifies both values travel through stdin rather than command arguments. It does not call GitHub, set secrets or variables, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print credential values.
 
 GitHub generated admin secret verification is local and value-free:
 

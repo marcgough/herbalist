@@ -159,6 +159,7 @@ for (const [label, command] of [
   ['DNS custom-domain cutover plan', npm('run', 'verify:dns-cutover')],
   ['production secret setup packet', npm('run', 'verify:production-secrets')],
   ['GitHub production credential helper', npm('run', 'verify:github-production-credentials')],
+  ['GitHub production credential write-path helper', npm('run', 'verify:github-production-credential-helper')],
   ['GitHub generated admin secret helper', npm('run', 'verify:github-generated-secrets')],
   ['brand assets', npm('run', 'verify:brand')],
   ['media attribution', npm('run', 'verify:attribution')],

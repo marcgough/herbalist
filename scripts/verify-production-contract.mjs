@@ -178,6 +178,10 @@ assert(
   exists('scripts/set-github-production-credentials.mjs'),
   'Production contract requires the GitHub production credential helper',
 )
+assert(
+  exists('scripts/verify-github-production-credential-helper.mjs'),
+  'Production contract requires the GitHub production credential helper write-path verifier',
+)
 assert(exists('scripts/set-github-generated-secrets.mjs'), 'Production contract requires the GitHub generated secret helper')
 assert(exists('scripts/prepare-cloudflare-token-requirements.mjs'), 'Production contract requires the Cloudflare token requirement generator')
 assert(exists('scripts/resolve-production-d1-database.mjs'), 'Production contract requires the production D1 resolver')
@@ -629,6 +633,10 @@ assert(runbook.includes('verify:production-secrets'), 'Deployment runbook should
 assert(
   runbook.includes('verify:github-production-credentials'),
   'Deployment runbook should document GitHub production credential helper verification',
+)
+assert(
+  runbook.includes('verify:github-production-credential-helper'),
+  'Deployment runbook should document GitHub production credential helper write-path verification',
 )
 assert(
   runbook.includes('verify:github-generated-secrets'),
