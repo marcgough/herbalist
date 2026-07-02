@@ -1,8 +1,11 @@
 {
-  "generatedAt": "2026-07-02T01:23:09.250Z",
+  "generatedAt": "2026-07-02T03:58:12.749Z",
   "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication.",
   "sourceHealthPolicy": "Source health checks report allowlisted public or independent sources only; warnings do not add fallback pharma channels.",
-  "warnings": [],
+  "warnings": [
+    "Skipped arXiv: Timed out after 12000ms: https://export.arxiv.org/api/query?search_query=all%3Alongevity+OR+all%3ACRISPR+OR+all%3A%22gene+therapy%22+OR+all%3A%22gene+editing%22+OR+all%3Apeptide+OR+all%3A%22personalized+health%22+OR+all%3A%22digital+health%22&sortBy=submittedDate&sortOrder=descending&max_results=8",
+    "Preserved 3 last-known public items from temporarily unavailable source: arXiv."
+  ],
   "sourceHealth": [
     {
       "id": "pubmed",
@@ -11,7 +14,7 @@
       "sourceType": "public-research-index",
       "role": "Public biomedical metadata for frontier-biology terms.",
       "status": "empty",
-      "checkedAt": "2026-07-02T01:23:03.009Z",
+      "checkedAt": "2026-07-02T03:58:02.860Z",
       "itemCount": 10,
       "usableItemCount": 0,
       "newestItemAt": "",
@@ -25,12 +28,12 @@
       "url": "https://arxiv.org/",
       "sourceType": "public-research-index",
       "role": "Open preprint metadata for computational biology and frontier science.",
-      "status": "ok",
-      "checkedAt": "2026-07-02T01:23:01.714Z",
-      "itemCount": 8,
-      "usableItemCount": 3,
-      "newestItemAt": "2026-06-26T09:24:42.000Z",
-      "warning": "",
+      "status": "warning",
+      "checkedAt": "2026-07-02T03:58:12.749Z",
+      "itemCount": 0,
+      "usableItemCount": 0,
+      "newestItemAt": "",
+      "warning": "Skipped arXiv: Timed out after 12000ms: https://export.arxiv.org/api/query?search_query=all%3Alongevity+OR+all%3ACRISPR+OR+all%3A%22gene+therapy%22+OR+all%3A%22gene+editing%22+OR+all%3Apeptide+OR+all%3A%22personalized+health%22+OR+all%3A%22digital+health%22&sortBy=submittedDate&sortOrder=descending&max_results=8",
       "isAllowlisted": true,
       "isBigPharmaRelated": false
     },
@@ -41,7 +44,7 @@
       "sourceType": "preprint-server",
       "role": "Public biology preprint metadata for longevity and biotechnology topics.",
       "status": "empty",
-      "checkedAt": "2026-07-02T01:23:03.859Z",
+      "checkedAt": "2026-07-02T03:58:03.831Z",
       "itemCount": 0,
       "usableItemCount": 0,
       "newestItemAt": "",
@@ -56,7 +59,7 @@
       "sourceType": "public-research-index",
       "role": "Public scholarly metadata expansion for longevity and frontier biology.",
       "status": "ok",
-      "checkedAt": "2026-07-02T01:23:09.250Z",
+      "checkedAt": "2026-07-02T03:58:12.167Z",
       "itemCount": 9,
       "usableItemCount": 9,
       "newestItemAt": "2026-05-01T00:00:00.000Z",
@@ -71,7 +74,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity coverage from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-02T01:23:02.484Z",
+      "checkedAt": "2026-07-02T03:58:02.635Z",
       "itemCount": 8,
       "usableItemCount": 6,
       "newestItemAt": "2026-07-01T17:13:38.000Z",
@@ -86,7 +89,7 @@
       "sourceType": "independent-longevity",
       "role": "Independent longevity commentary from the Herbalisti source allowlist.",
       "status": "ok",
-      "checkedAt": "2026-07-02T01:23:02.727Z",
+      "checkedAt": "2026-07-02T03:58:02.094Z",
       "itemCount": 8,
       "usableItemCount": 7,
       "newestItemAt": "2026-07-01T18:22:10.000Z",
@@ -292,6 +295,19 @@
       "sourceType": "independent-longevity"
     },
     {
+      "id": "watch-pubmed-peptides",
+      "title": "PubMed peptide research signal lane",
+      "sourceName": "PubMed / NCBI",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=peptide+peptides+healthspan",
+      "publishedAt": "2026-06-15T00:00:00.000Z",
+      "summary": "Public biomedical metadata lane for peptide research and healthspan-adjacent therapeutic discovery.",
+      "topics": [
+        "Peptides",
+        "Longevity"
+      ],
+      "sourceType": "public-research-index"
+    },
+    {
       "id": "watch-lifespan-independent-longevity",
       "title": "Lifespan.io independent longevity signal lane",
       "sourceName": "Lifespan.io",
@@ -305,14 +321,15 @@
       "sourceType": "independent-longevity"
     },
     {
-      "id": "watch-pubmed-longevity-healthspan",
-      "title": "PubMed longevity and healthspan signal lane",
-      "sourceName": "PubMed / NCBI",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=longevity+healthspan+senescence",
+      "id": "watch-arxiv-crispr-editing",
+      "title": "arXiv CRISPR and gene editing signal lane",
+      "sourceName": "arXiv",
+      "url": "https://arxiv.org/search/advanced?terms-0-term=CRISPR&terms-0-operator=AND&terms-0-field=all",
       "publishedAt": "2026-06-15T00:00:00.000Z",
-      "summary": "Public biomedical metadata lane for longevity, healthspan, senescence, and rejuvenation research signals.",
+      "summary": "Open preprint metadata lane for CRISPR, genome editing, and computational biology signals.",
       "topics": [
-        "Longevity"
+        "CRISPR",
+        "Gene editing"
       ],
       "sourceType": "public-research-index"
     },
@@ -379,20 +396,13 @@
         "Gene editing"
       ],
       "sourceType": "public-research-index"
-    },
-    {
-      "id": "crossref-16l21t7",
-      "title": "Progress and Criteria in Public Health Applications of Gene Therapy and Gene Editing: Beyond the White Paper",
-      "sourceName": "Crossref",
-      "url": "https://doi.org/10.1159/000546850",
-      "publishedAt": "2025-06-18T00:00:00.000Z",
-      "summary": "Public Crossref metadata from Public Health Genomics.",
-      "topics": [
-        "Gene therapy",
-        "Gene editing",
-        "CRISPR"
-      ],
-      "sourceType": "public-research-index"
     }
-  ]
+  ],
+  "preservation": {
+    "preservedSourceItemCount": 3,
+    "preservedSourceNames": [
+      "arXiv"
+    ],
+    "policy": "When an allowlisted source is temporarily unavailable, Herbalisti can retain last-known public metadata from the previous static snapshot while keeping the source warning visible."
+  }
 }

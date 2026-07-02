@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-02T03:33:07.495Z",
-  "auditSignature": "85bd40680d5c48f2458574d54662777d972c3f9f5188456d9f91d2870dd9e28f",
+  "generatedAt": "2026-07-02T03:59:19.286Z",
+  "auditSignature": "1600b4791c9634d2ffc9f5267e2e02508722cf2c336dd0a45ee9eb471d4da1d6",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -588,33 +588,35 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-02T01:23:09.250Z",
+      "generatedAt": "2026-07-02T03:58:12.749Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 15,
-        "Gene therapy": 3,
+        "Gene therapy": 2,
         "DNA modification": 3,
         "Health as a service": 2,
-        "Peptides": 1,
+        "Peptides": 2,
         "Self-sovereign wellbeing": 1,
-        "Gene editing": 5,
-        "CRISPR": 4
+        "CRISPR": 4,
+        "Gene editing": 5
       },
       "sourceCounts": {
         "Fight Aging!": 7,
         "Lifespan.io": 7,
-        "arXiv": 3,
+        "arXiv": 4,
         "PubMed / NCBI": 1,
         "bioRxiv": 1,
-        "Crossref": 5
+        "Crossref": 4
       },
-      "latestRefreshStatus": "completed",
+      "latestRefreshStatus": "completed_with_warnings",
       "publicSnapshot": {
-        "status": "updated",
+        "status": "updated_with_source_preservation",
         "itemCount": 24,
-        "preservedSourceItemCount": 0,
-        "preservedSourceNames": [],
-        "generatedAt": "2026-07-02T01:23:09.250Z"
+        "preservedSourceItemCount": 3,
+        "preservedSourceNames": [
+          "arXiv"
+        ],
+        "generatedAt": "2026-07-02T03:58:12.749Z"
       }
     },
     "media": {

@@ -16,6 +16,21 @@ const tempDir = resolve(root, '.tmp', 'verify-github-release-evidence-content')
 const commit = execFileSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8' }).trim()
 
 const countMap = (values) => Object.fromEntries(values.map((value, index) => [value, index + 1]))
+const sourceHealthRecords = () =>
+  requiredSignalSources.map((source, index) => ({
+    id: source.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+    name: source,
+    url: `https://example.org/${index + 1}`,
+    sourceType: index < 4 ? 'public-research-index' : 'independent-longevity',
+    status: index < 4 ? 'ok' : 'empty',
+    checkedAt: '2026-07-02T00:00:00.000Z',
+    itemCount: index < 4 ? 3 : 0,
+    usableItemCount: index < 4 ? 2 : 0,
+    newestItemAt: index < 4 ? '2026-07-01T18:22:10.000Z' : null,
+    warning: '',
+    isAllowlisted: true,
+    isBigPharmaRelated: false,
+  }))
 
 const baseEvidence = () => ({
   version: 1,
@@ -61,10 +76,12 @@ const baseEvidence = () => ({
         empty: 2,
         warning: 0,
       },
+      sourceHealthRecords: sourceHealthRecords(),
       sourcePreservation: {
         strategy: 'preserve-empty-lanes-for-source-coverage',
         lanes: requiredSignalSources,
       },
+      feedWarnings: [],
     },
   },
 })
@@ -109,6 +126,11 @@ try {
   assert.equal(goodPayload.topicCoveragePercent, 100)
   assert.deepEqual(goodPayload.topics, requiredSignalTopics)
   assert.deepEqual(goodPayload.sources, requiredSignalSources)
+  assert.equal(goodPayload.sourceHealthRecords.length, requiredSignalSources.length)
+  assert.deepEqual(
+    goodPayload.sourceHealthRecords.map((source) => source.name),
+    requiredSignalSources,
+  )
 
   const missingTopic = copyEvidence()
   missingTopic.publicData.signalsFeed.topics = missingTopic.publicData.signalsFeed.topics.filter((topic) => topic !== 'Peptides')
@@ -135,12 +157,32 @@ try {
     evidence: productionComplete,
   })
 
+  const missingSourceHealthRecord = copyEvidence()
+  missingSourceHealthRecord.publicData.signalsFeed.sourceHealthRecords =
+    missingSourceHealthRecord.publicData.signalsFeed.sourceHealthRecords.filter((source) => source.name !== 'arXiv')
+  const missingSourceHealthRecordArtifact = writeArtifact('missing-source-health-record-release-evidence.zip', {
+    evidence: missingSourceHealthRecord,
+  })
+
+  const warningWithoutDetail = copyEvidence()
+  warningWithoutDetail.publicData.signalsFeed.sourceHealthCounts.warning = 1
+  warningWithoutDetail.publicData.signalsFeed.sourceHealthCounts.ok = 3
+  warningWithoutDetail.publicData.signalsFeed.sourceHealthRecords[0].status = 'warning'
+  warningWithoutDetail.publicData.signalsFeed.feedStatus = 'completed_with_warnings'
+  warningWithoutDetail.publicData.signalsFeed.feedWarningCount = 1
+  warningWithoutDetail.publicData.signalsFeed.feedWarnings = []
+  const warningWithoutDetailArtifact = writeArtifact('warning-without-detail-release-evidence.zip', {
+    evidence: warningWithoutDetail,
+  })
+
   const failures = [
     expectFailure('missing topic fixture', missingTopicArtifact, /missing Signals topics|Peptides/),
     expectFailure('blocked term fixture', blockedTermArtifact, /Big Pharma blocklist terms/),
     expectFailure('wrong commit fixture', wrongCommitArtifact, /match the verified commit/),
     expectFailure('secret README fixture', secretReadmeArtifact, /secret-looking value/),
     expectFailure('production-complete fixture', productionCompleteArtifact, /production-pending completion boundary/),
+    expectFailure('missing source-health record fixture', missingSourceHealthRecordArtifact, /source-health record for arXiv/),
+    expectFailure('warning without detail fixture', warningWithoutDetailArtifact, /warning text/),
   ]
 
   console.log(
@@ -155,6 +197,8 @@ try {
           'wrong-commit-release-evidence.zip',
           'secret-readme-release-evidence.zip',
           'production-complete-release-evidence.zip',
+          'missing-source-health-record-release-evidence.zip',
+          'warning-without-detail-release-evidence.zip',
         ],
         verified: [
           'valid release evidence artifact content',
@@ -163,6 +207,8 @@ try {
           'failure on mismatched commit',
           'failure on secret-looking artifact text',
           'failure when production completion boundary is crossed early',
+          'failure on missing source-health record',
+          'failure when warning counts lack warning details',
         ],
         failureDetails: failures,
         safeToRun:

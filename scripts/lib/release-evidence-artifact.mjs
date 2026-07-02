@@ -103,6 +103,7 @@ export const inspectReleaseEvidenceArchive = (archiveBuffer, expectedCommit) => 
   assert(Number.isFinite(Number(signalsFeed.feedWarningCount)), 'Release evidence should record a numeric feed warning count.')
   assert(Number.isFinite(Date.parse(signalsFeed.generatedAt ?? '')), 'Release evidence should include a valid Signals generation timestamp.')
   assert(Number.isFinite(Date.parse(signalsFeed.newestSignalAt ?? '')), 'Release evidence should include a valid newest Signals timestamp.')
+  assert(Array.isArray(signalsFeed.feedWarnings), 'Release evidence should include feed warning details.')
 
   for (const topic of requiredSignalTopics) {
     assert(signalsFeed.topics?.includes(topic), `Release evidence should include Signals topic ${topic}.`)
@@ -120,6 +121,34 @@ export const inspectReleaseEvidenceArchive = (archiveBuffer, expectedCommit) => 
     sourceHealthTotal >= requiredSignalSources.length,
     'Release evidence should include source-health coverage for every launch source lane.',
   )
+  assert(Array.isArray(signalsFeed.sourceHealthRecords), 'Release evidence should include source-health records.')
+  assert(
+    signalsFeed.sourceHealthRecords.every((source) => source?.isAllowlisted && !source?.isBigPharmaRelated),
+    'Release evidence source-health records should preserve the non-Big-Pharma allowlist boundary.',
+  )
+  assert(
+    signalsFeed.sourceHealthRecords.every((source) => ['ok', 'empty', 'warning'].includes(source?.status)),
+    'Release evidence source-health records should use recognized health statuses.',
+  )
+  for (const source of requiredSignalSources) {
+    assert(
+      signalsFeed.sourceHealthRecords.some((record) => record?.name === source),
+      `Release evidence should include a source-health record for ${source}.`,
+    )
+  }
+  assert(
+    signalsFeed.sourceHealthRecords.length >= requiredSignalSources.length,
+    'Release evidence should include source-health records for every launch source lane.',
+  )
+  if (Number(sourceHealthCounts.warning ?? 0) > 0) {
+    assert(
+      signalsFeed.sourceHealthRecords.some((source) => source?.status === 'warning' && source?.warning),
+      'Release evidence should include warning text for warning source-health records.',
+    )
+  }
+  if (Number(signalsFeed.feedWarningCount ?? 0) > 0) {
+    assert(signalsFeed.feedWarnings.length > 0, 'Release evidence should include feed warning text when warnings are counted.')
+  }
   assert(signalsFeed.sourcePreservation && typeof signalsFeed.sourcePreservation === 'object', 'Release evidence should include source-preservation state.')
 
   return {
@@ -132,7 +161,15 @@ export const inspectReleaseEvidenceArchive = (archiveBuffer, expectedCommit) => 
     sources: signalsFeed.sources,
     feedStatus: signalsFeed.feedStatus,
     feedWarningCount: Number(signalsFeed.feedWarningCount ?? 0),
+    feedWarnings: signalsFeed.feedWarnings,
     sourceHealthCounts,
+    sourceHealthRecords: signalsFeed.sourceHealthRecords.map((source) => ({
+      id: source.id,
+      name: source.name,
+      status: source.status,
+      usableItemCount: Number(source.usableItemCount ?? 0),
+      warning: source.warning ?? '',
+    })),
     newestSignalAt: signalsFeed.newestSignalAt,
   }
 }

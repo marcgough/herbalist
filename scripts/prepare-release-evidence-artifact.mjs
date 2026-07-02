@@ -113,6 +113,20 @@ const coveredSignalTopicCount = requiredSignalTopics.filter((topic) => signalTop
 const topicCounts = countBy(newsItems, (item) => item.topics)
 const sourceCounts = countBy(newsItems, (item) => [item.sourceName])
 const sourceHealthRecords = list(news?.sourceHealth)
+const sourceHealthDetails = sourceHealthRecords.map((source) => ({
+  id: source?.id ?? null,
+  name: source?.name ?? null,
+  url: source?.url ?? null,
+  sourceType: source?.sourceType ?? null,
+  status: source?.status ?? null,
+  checkedAt: source?.checkedAt ?? null,
+  itemCount: Number(source?.itemCount ?? 0),
+  usableItemCount: Number(source?.usableItemCount ?? 0),
+  newestItemAt: source?.newestItemAt ?? null,
+  warning: source?.warning ?? '',
+  isAllowlisted: Boolean(source?.isAllowlisted),
+  isBigPharmaRelated: Boolean(source?.isBigPharmaRelated),
+}))
 const sourceHealthCounts = {
   ok: sourceHealthRecords.filter((source) => source?.status === 'ok').length,
   empty: sourceHealthRecords.filter((source) => source?.status === 'empty').length,
@@ -124,7 +138,10 @@ const newestSignalAt = newsItems
   .sort((left, right) => right - left)
   .map((timestamp) => new Date(timestamp).toISOString())[0] ?? null
 const signalPolicy = news?.sourcePolicy ?? feedStatus?.sourcePolicy ?? null
-const feedWarningCount = Number(feedStatus?.latestRefresh?.warningCount ?? news?.warnings?.length ?? 0)
+const feedWarnings = list(feedStatus?.latestRefresh?.warnings).length
+  ? list(feedStatus?.latestRefresh?.warnings)
+  : list(news?.warnings)
+const feedWarningCount = Number(feedStatus?.latestRefresh?.warningCount ?? feedWarnings.length)
 const sourcePreservation = {
   publicSnapshotStatus: feedStatus?.publicSnapshot?.status ?? null,
   preservedSourceItemCount: Number(feedStatus?.publicSnapshot?.preservedSourceItemCount ?? 0),
@@ -206,8 +223,10 @@ const packet = {
       missingSources: requiredSignalSources.filter((source) => !signalSources.includes(source)),
       sourceCounts,
       sourceHealthCounts,
+      sourceHealthRecords: sourceHealthDetails,
       feedStatus: feedStatus?.latestRefresh?.status ?? feedStatus?.status ?? null,
       feedWarningCount,
+      feedWarnings,
       sourcePreservation,
       policy: signalPolicy,
       blockedSignalTerms,
@@ -280,6 +299,15 @@ const renderMarkdown = (data) => {
     `- Signal topic coverage: ${data.publicData.signalsFeed.topicCoveragePercent}%`,
     `- Feed warning count: ${data.publicData.signalsFeed.feedWarningCount}`,
     `- Source health: ${JSON.stringify(data.publicData.signalsFeed.sourceHealthCounts)}`,
+    `- Preserved source names: ${data.publicData.signalsFeed.sourcePreservation.preservedSourceNames?.join(', ') || 'none'}`,
+    `- Feed warnings: ${data.publicData.signalsFeed.feedWarnings.join(' | ') || 'none'}`,
+    '',
+    '### Source Health Records',
+    '',
+    ...data.publicData.signalsFeed.sourceHealthRecords.map(
+      (source) =>
+        `- ${source.name ?? source.id}: ${source.status}; usable ${source.usableItemCount}/${source.itemCount}; warning ${source.warning || 'none'}`,
+    ),
     '',
     '## Remaining Production Boundary',
     '',
