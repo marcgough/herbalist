@@ -283,7 +283,7 @@ Guarded production deploy dry-run verification is local and mocked:
 npm run verify:production-deploy-dry-run
 ```
 
-It rehearses the production workflow's Cloudflare-facing command path with a temporary fake `npx wrangler`: Pages project list/create, D1 resolution, in-memory binding activation, remote migration command shape, Pages secret command shape before Pages deploy, Pages deploy, scheduled Worker deploy, Worker secret command shape after the Worker exists, the production feed seed command in dry-run mode, sanitized feed seed evidence writing, and deployment evidence packet capture. It does not call Cloudflare, create resources, mutate DNS, deploy, set real secrets, write Wrangler config files, call paid APIs, or print secret values.
+It rehearses the production workflow's Cloudflare-facing command path with a temporary fake `npx wrangler`: Pages project list/create, D1 resolution, in-memory binding activation, remote migration command shape, Pages secret command shape before Pages deploy, Pages deploy, scheduled Worker deploy, Worker secret command shape after the Worker exists, the production feed seed command in dry-run mode, sanitized feed seed evidence writing, deployment evidence packet capture, and written deployment evidence output verification. It does not call Cloudflare, create resources, mutate DNS, deploy, set real secrets, write Wrangler config files, call paid APIs, or print secret values.
 
 Production D1 resolver verification is local and mocked:
 

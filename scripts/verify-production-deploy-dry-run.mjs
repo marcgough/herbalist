@@ -197,22 +197,79 @@ const hasActiveD1Binding = (toml, id) =>
   /^\s*database_name\s*=\s*"herbalisti"\s*$/m.test(toml) &&
   new RegExp(`^\\s*database_id\\s*=\\s*"${id}"\\s*$`, 'm').test(toml)
 
-const runDeployEvidenceCheck = ({ feedSeedEvidencePath }) => {
-  const result = spawnSync(process.execPath, ['scripts/prepare-production-deploy-evidence.mjs', '--check'], {
+const runProductionDeployEvidenceCommand = ({ args, outputDirectory, feedSeedEvidencePath }) => {
+  const result = spawnSync(process.execPath, ['scripts/prepare-production-deploy-evidence.mjs', ...args], {
     cwd: root,
     env: {
       ...process.env,
+      HERBALISTI_PRODUCTION_DEPLOY_EVIDENCE_DIR: outputDirectory,
       HERBALISTI_FEED_SEED_EVIDENCE_PATH: feedSeedEvidencePath,
     },
     encoding: 'utf8',
   })
 
-  assert.equal(result.status, 0, `Production deploy evidence check should pass\n${result.stderr}`)
-  const payload = JSON.parse(result.stdout)
-  assert.equal(payload.feedSeedEvidenceStatus, 'captured', 'Production deploy evidence should capture feed seed evidence')
-  assert.equal(payload.feedSeedEvidencePath, feedSeedEvidencePath, 'Production deploy evidence should report the dry-run seed evidence path')
-  assert(!secretValuePattern.test(result.stdout), 'Production deploy evidence check output must not contain secret-looking values')
-  return payload
+  assert.equal(result.status, 0, `Production deploy evidence ${args.join(' ')} should pass\n${result.stderr}`)
+  assert(!secretValuePattern.test(result.stdout), 'Production deploy evidence output must not contain secret-looking values')
+  return JSON.parse(result.stdout)
+}
+
+const runDeployEvidenceChecks = ({ outputDirectory, feedSeedEvidencePath }) => {
+  const packetPayload = runProductionDeployEvidenceCommand({
+    args: ['--check'],
+    outputDirectory,
+    feedSeedEvidencePath,
+  })
+  assert.equal(packetPayload.feedSeedEvidenceStatus, 'captured', 'Production deploy evidence should capture feed seed evidence')
+  assert.equal(
+    packetPayload.feedSeedEvidencePath,
+    feedSeedEvidencePath,
+    'Production deploy evidence should report the dry-run seed evidence path',
+  )
+
+  const writePayload = runProductionDeployEvidenceCommand({
+    args: ['--write'],
+    outputDirectory,
+    feedSeedEvidencePath,
+  })
+  assert.equal(writePayload.status, 'written', 'Production deploy evidence dry run should write the evidence packet')
+  assert.deepEqual(
+    writePayload.files,
+    [`${outputDirectory}/production-deploy-evidence.json`, `${outputDirectory}/production-deploy-evidence.md`],
+    'Production deploy evidence dry run should write to the configured temporary output directory',
+  )
+  assert(existsSync(resolve(root, `${outputDirectory}/production-deploy-evidence.json`)), 'Dry-run evidence JSON should exist')
+  assert(existsSync(resolve(root, `${outputDirectory}/production-deploy-evidence.md`)), 'Dry-run evidence Markdown should exist')
+  assert(
+    !secretValuePattern.test(read(`${outputDirectory}/production-deploy-evidence.json`)),
+    'Dry-run written evidence JSON must not contain secret-looking values',
+  )
+  assert(
+    !secretValuePattern.test(read(`${outputDirectory}/production-deploy-evidence.md`)),
+    'Dry-run written evidence Markdown must not contain secret-looking values',
+  )
+
+  const outputPayload = runProductionDeployEvidenceCommand({
+    args: ['--check-output'],
+    outputDirectory,
+    feedSeedEvidencePath,
+  })
+  assert.equal(outputPayload.feedSeedEvidenceStatus, 'captured', 'Written production deploy evidence should capture feed seed evidence')
+  assert.equal(
+    outputPayload.feedSeedEvidencePath,
+    feedSeedEvidencePath,
+    'Written production deploy evidence should report the dry-run seed evidence path',
+  )
+  assert.deepEqual(
+    outputPayload.files,
+    [`${outputDirectory}/production-deploy-evidence.json`, `${outputDirectory}/production-deploy-evidence.md`],
+    'Written production deploy evidence verifier should inspect the configured temporary output files',
+  )
+
+  return {
+    packetPayload,
+    writePayload,
+    outputPayload,
+  }
 }
 
 const seedFakeWranglerState = (statePath) =>
@@ -230,7 +287,14 @@ const seedFakeWranglerState = (statePath) =>
     'utf8',
   )
 
-const runProductionCommandPath = ({ binDir, statePath, githubEnvPath, includeOptionalMediaSecrets, feedSeedEvidencePath }) => {
+const runProductionCommandPath = ({
+  binDir,
+  statePath,
+  githubEnvPath,
+  includeOptionalMediaSecrets,
+  deployEvidenceOutputDirectory,
+  feedSeedEvidencePath,
+}) => {
   const projectsOutput = runNpxWrangler({ binDir, statePath, args: ['pages', 'project', 'list', '--json'] })
   const projects = JSON.parse(projectsOutput).result ?? []
   if (!projects.some((project) => project.name === 'herbalisti')) {
@@ -281,12 +345,15 @@ const runProductionCommandPath = ({ binDir, statePath, githubEnvPath, includeOpt
   assert.equal(feedSeedDryRunPayload.evidencePath, feedSeedEvidencePath, 'Production feed seed dry run should report the evidence path')
   assert(existsSync(resolve(root, feedSeedEvidencePath)), 'Production feed seed dry run should write sanitized evidence')
   assert(!secretValuePattern.test(read(feedSeedEvidencePath)), 'Production feed seed dry-run evidence must not contain secret-looking values')
-  const deployEvidenceCheckPayload = runDeployEvidenceCheck({ feedSeedEvidencePath })
+  const deployEvidenceChecks = runDeployEvidenceChecks({
+    outputDirectory: deployEvidenceOutputDirectory,
+    feedSeedEvidencePath,
+  })
 
   return {
     resolverOutput,
     feedSeedDryRunPayload,
-    deployEvidenceCheckPayload,
+    deployEvidenceChecks,
     state: JSON.parse(readFileSync(statePath, 'utf8')),
   }
 }
@@ -296,7 +363,15 @@ const packageJson = readJson('package.json')
 const contract = readJson('docs/production-environment-contract.json')
 
 assert(packageJson.scripts?.['verify:production-deploy-dry-run'], 'package.json should expose verify:production-deploy-dry-run')
+assert(
+  packageJson.scripts?.['verify:production-deploy-evidence-output'],
+  'package.json should expose verify:production-deploy-evidence-output',
+)
 assert(workflow.includes('npm run verify:production-deploy-dry-run'), 'Production deploy workflow should include its local dry-run gate')
+assert(
+  workflow.includes('npm run verify:production-deploy-evidence-output'),
+  'Production deploy workflow should verify written deployment evidence output before upload',
+)
 assert(contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'), 'Safe preflight should include production deploy dry-run verification')
 
 const tempDir = mkdtempSync(join(tmpdir(), 'herbalisti-production-deploy-dry-run-'))
@@ -305,16 +380,18 @@ try {
   const binDir = makeFakeNpx(tempDir)
   const mediaEnabledStatePath = join(tempDir, 'state-media-enabled.json')
   const mediaEnabledGithubEnvPath = join(tempDir, 'github-media-enabled.env')
-  const mediaEnabledFeedSeedEvidencePath = `${projectDryRunDirectory}/media-enabled/feed-seed-evidence.json`
+  const mediaEnabledDeployEvidenceOutputDirectory = `${projectDryRunDirectory}/media-enabled/production-deploy`
+  const mediaEnabledFeedSeedEvidencePath = `${mediaEnabledDeployEvidenceOutputDirectory}/feed-seed-evidence.json`
   seedFakeWranglerState(mediaEnabledStatePath)
   const mediaEnabled = runProductionCommandPath({
     binDir,
     statePath: mediaEnabledStatePath,
     githubEnvPath: mediaEnabledGithubEnvPath,
     includeOptionalMediaSecrets: true,
+    deployEvidenceOutputDirectory: mediaEnabledDeployEvidenceOutputDirectory,
     feedSeedEvidencePath: mediaEnabledFeedSeedEvidencePath,
   })
-  const { state, resolverOutput, feedSeedDryRunPayload, deployEvidenceCheckPayload } = mediaEnabled
+  const { state, resolverOutput, feedSeedDryRunPayload, deployEvidenceChecks } = mediaEnabled
   const callStrings = state.calls.map((call) => call.join(' '))
   const pagesSecretIndex = callStrings.indexOf('wrangler pages secret put FEED_ADMIN_TOKEN --project-name herbalisti')
   const pagesDeployIndex = callStrings.indexOf('wrangler pages deploy dist --project-name herbalisti')
@@ -323,13 +400,15 @@ try {
 
   const mediaDisabledStatePath = join(tempDir, 'state-media-disabled.json')
   const mediaDisabledGithubEnvPath = join(tempDir, 'github-media-disabled.env')
-  const mediaDisabledFeedSeedEvidencePath = `${projectDryRunDirectory}/media-disabled/feed-seed-evidence.json`
+  const mediaDisabledDeployEvidenceOutputDirectory = `${projectDryRunDirectory}/media-disabled/production-deploy`
+  const mediaDisabledFeedSeedEvidencePath = `${mediaDisabledDeployEvidenceOutputDirectory}/feed-seed-evidence.json`
   seedFakeWranglerState(mediaDisabledStatePath)
   const mediaDisabled = runProductionCommandPath({
     binDir,
     statePath: mediaDisabledStatePath,
     githubEnvPath: mediaDisabledGithubEnvPath,
     includeOptionalMediaSecrets: false,
+    deployEvidenceOutputDirectory: mediaDisabledDeployEvidenceOutputDirectory,
     feedSeedEvidencePath: mediaDisabledFeedSeedEvidencePath,
   })
   const mediaDisabledCallStrings = mediaDisabled.state.calls.map((call) => call.join(' '))
@@ -348,7 +427,9 @@ try {
     ['worker secret after worker deploy', workerSecretIndex > workerDeployIndex && workerDeployIndex >= 0],
     ['feed seed dry run', feedSeedDryRunPayload.endpoint === 'https://herbalisti.com/api/feed-refresh'],
     ['feed seed evidence dry run', feedSeedDryRunPayload.evidencePath === mediaEnabledFeedSeedEvidencePath],
-    ['deploy evidence captures feed seed', deployEvidenceCheckPayload.feedSeedEvidenceStatus === 'captured'],
+    ['deploy evidence packet captures feed seed', deployEvidenceChecks.packetPayload.feedSeedEvidenceStatus === 'captured'],
+    ['deploy evidence output written', deployEvidenceChecks.writePayload.status === 'written'],
+    ['deploy evidence output captures feed seed', deployEvidenceChecks.outputPayload.feedSeedEvidenceStatus === 'captured'],
     [
       'optional media disabled path',
       mediaDisabled.state.workerSecrets?.some((secret) => secret.name === 'FEED_ADMIN_TOKEN' && secret.stdinBytes > 0) &&
@@ -358,7 +439,9 @@ try {
         mediaDisabled.state.workerDeployed === true &&
         mediaDisabled.feedSeedDryRunPayload.endpoint === 'https://herbalisti.com/api/feed-refresh' &&
         mediaDisabled.feedSeedDryRunPayload.evidencePath === mediaDisabledFeedSeedEvidencePath &&
-        mediaDisabled.deployEvidenceCheckPayload.feedSeedEvidenceStatus === 'captured',
+        mediaDisabled.deployEvidenceChecks.packetPayload.feedSeedEvidenceStatus === 'captured' &&
+        mediaDisabled.deployEvidenceChecks.writePayload.status === 'written' &&
+        mediaDisabled.deployEvidenceChecks.outputPayload.feedSeedEvidenceStatus === 'captured',
     ],
     [
       'no secret-looking values',
@@ -367,10 +450,10 @@ try {
           state,
           resolverOutput,
           feedSeedDryRunPayload,
-          deployEvidenceCheckPayload,
+          deployEvidenceChecks,
           mediaDisabledState: mediaDisabled.state,
           mediaDisabledFeedSeedDryRunPayload: mediaDisabled.feedSeedDryRunPayload,
-          mediaDisabledDeployEvidenceCheckPayload: mediaDisabled.deployEvidenceCheckPayload,
+          mediaDisabledDeployEvidenceChecks: mediaDisabled.deployEvidenceChecks,
         }),
       ),
     ],
@@ -388,17 +471,19 @@ try {
           {
             id: 'optional-media-enabled',
             commandsRehearsed: callStrings.length,
-            feedSeedEvidenceStatus: deployEvidenceCheckPayload.feedSeedEvidenceStatus,
+            feedSeedEvidenceStatus: deployEvidenceChecks.outputPayload.feedSeedEvidenceStatus,
+            writtenEvidenceOutputVerified: true,
           },
           {
             id: 'optional-media-disabled',
             commandsRehearsed: mediaDisabledCallStrings.length,
-            feedSeedEvidenceStatus: mediaDisabled.deployEvidenceCheckPayload.feedSeedEvidenceStatus,
+            feedSeedEvidenceStatus: mediaDisabled.deployEvidenceChecks.outputPayload.feedSeedEvidenceStatus,
+            writtenEvidenceOutputVerified: true,
           },
         ],
         checks,
         safeToRun:
-          'Runs the production Cloudflare-facing command path against a temporary fake npx/wrangler command and in-memory Wrangler config output, including launch paths with and without optional Seedance media secrets, sanitized feed seed evidence, and deployment evidence packet capture. It does not call Cloudflare, deploy, mutate DNS, create real resources, set real secrets, call paid APIs, write Wrangler config files, or print secret values.',
+          'Runs the production Cloudflare-facing command path against a temporary fake npx/wrangler command and in-memory Wrangler config output, including launch paths with and without optional Seedance media secrets, sanitized feed seed evidence, deployment evidence packet capture, and written deployment evidence output verification. It does not call Cloudflare, deploy, mutate DNS, create real resources, set real secrets, call paid APIs, write Wrangler config files, or print secret values.',
       },
       null,
       2,

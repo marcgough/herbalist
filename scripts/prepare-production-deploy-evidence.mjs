@@ -1,10 +1,27 @@
 import assert from 'node:assert/strict'
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
-import { resolve } from 'node:path'
+import { isAbsolute, relative, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = resolve(fileURLToPath(new URL('..', import.meta.url)))
-const outputDirectory = 'output/production-deploy'
+const defaultOutputDirectory = 'output/production-deploy'
+const normalizeRepoRelativeDirectory = (value, fallback) => {
+  const raw = String(value ?? '').replace(/\\/g, '/').trim()
+  const normalized = raw || fallback
+  assert(!isAbsolute(normalized), 'Production deploy evidence output directory must be repo-relative.')
+  const absolutePath = resolve(root, normalized)
+  const relativePath = relative(root, absolutePath)
+  assert(
+    relativePath && !relativePath.startsWith('..') && !isAbsolute(relativePath),
+    'Production deploy evidence output directory must stay inside the repository.',
+  )
+  return normalized.replace(/\/+$/g, '')
+}
+
+const outputDirectory = normalizeRepoRelativeDirectory(
+  process.env.HERBALISTI_PRODUCTION_DEPLOY_EVIDENCE_DIR,
+  defaultOutputDirectory,
+)
 const outputJsonPath = `${outputDirectory}/production-deploy-evidence.json`
 const outputMarkdownPath = `${outputDirectory}/production-deploy-evidence.md`
 const defaultFeedSeedEvidencePath = `${outputDirectory}/feed-seed-evidence.json`
