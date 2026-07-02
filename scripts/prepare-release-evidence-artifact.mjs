@@ -21,6 +21,50 @@ const read = (path) => readFileSync(resolve(root, path), 'utf8')
 const readJson = (path) => JSON.parse(read(path))
 const exists = (path) => existsSync(resolve(root, path))
 const list = (value) => (Array.isArray(value) ? value : [])
+const uniqueSorted = (values) => [...new Set(values.filter(Boolean))].sort((left, right) => left.localeCompare(right))
+const countBy = (values, keyFor) =>
+  values.reduce((counts, value) => {
+    const keys = list(keyFor(value))
+    for (const key of keys) {
+      counts[key] = (counts[key] ?? 0) + 1
+    }
+    return counts
+  }, {})
+
+const requiredSignalTopics = [
+  'CRISPR',
+  'DNA modification',
+  'Gene editing',
+  'Gene therapy',
+  'Health as a service',
+  'Longevity',
+  'Peptides',
+  'Self-sovereign wellbeing',
+]
+const requiredSignalSources = ['Crossref', 'Fight Aging!', 'Lifespan.io', 'PubMed / NCBI', 'arXiv', 'bioRxiv']
+const feedPolicyText =
+  'Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication.'
+const pharmaBlocklist = [
+  'abbvie',
+  'amgen',
+  'astrazeneca',
+  'bayer',
+  'biogen',
+  'boehringer',
+  'bristol myers',
+  'eli lilly',
+  'gilead',
+  'glaxosmithkline',
+  'gsk',
+  'johnson & johnson',
+  'merck',
+  'moderna',
+  'novartis',
+  'novo nordisk',
+  'pfizer',
+  'roche',
+  'sanofi',
+]
 
 const git = (gitArgs, fallback = '') => {
   try {
@@ -62,6 +106,35 @@ const sources = exists('public/data/sources.json') ? readJson('public/data/sourc
 const releaseStatus = getArg('--release-status', 'repository-release-verifier-passed')
 const commit = process.env.GITHUB_SHA || git(['rev-parse', 'HEAD'], null)
 const branch = process.env.GITHUB_REF_NAME || git(['branch', '--show-current'], null)
+const newsItems = list(news?.items)
+const signalTopics = uniqueSorted(newsItems.flatMap((item) => list(item.topics)))
+const signalSources = uniqueSorted(newsItems.map((item) => item.sourceName))
+const coveredSignalTopicCount = requiredSignalTopics.filter((topic) => signalTopics.includes(topic)).length
+const topicCounts = countBy(newsItems, (item) => item.topics)
+const sourceCounts = countBy(newsItems, (item) => [item.sourceName])
+const sourceHealthRecords = list(news?.sourceHealth)
+const sourceHealthCounts = {
+  ok: sourceHealthRecords.filter((source) => source?.status === 'ok').length,
+  empty: sourceHealthRecords.filter((source) => source?.status === 'empty').length,
+  warning: sourceHealthRecords.filter((source) => source?.status === 'warning').length,
+}
+const newestSignalAt = newsItems
+  .map((item) => new Date(item.publishedAt ?? '').valueOf())
+  .filter((timestamp) => Number.isFinite(timestamp))
+  .sort((left, right) => right - left)
+  .map((timestamp) => new Date(timestamp).toISOString())[0] ?? null
+const signalPolicy = news?.sourcePolicy ?? feedStatus?.sourcePolicy ?? null
+const feedWarningCount = Number(feedStatus?.latestRefresh?.warningCount ?? news?.warnings?.length ?? 0)
+const sourcePreservation = {
+  publicSnapshotStatus: feedStatus?.publicSnapshot?.status ?? null,
+  preservedSourceItemCount: Number(feedStatus?.publicSnapshot?.preservedSourceItemCount ?? 0),
+  preservedSourceNames: list(feedStatus?.publicSnapshot?.preservedSourceNames),
+}
+const blockedSignalText = newsItems
+  .map((item) => `${item.title ?? ''} ${item.summary ?? ''} ${item.sourceName ?? ''}`)
+  .join('\n')
+  .toLowerCase()
+const blockedSignalTerms = pharmaBlocklist.filter((term) => blockedSignalText.includes(term))
 
 const packet = {
   version: 1,
@@ -121,6 +194,24 @@ const packet = {
     sourceCount: sources?.total ?? null,
     feedStatus: feedStatus?.latestRefresh?.status ?? feedStatus?.status ?? null,
     feedSnapshotStatus: feedStatus?.publicSnapshot?.status ?? feedStatus?.publicSnapshotStatus ?? null,
+    signalsFeed: {
+      generatedAt: news?.generatedAt ?? null,
+      newestSignalAt,
+      itemCount: newsItems.length,
+      topicCoveragePercent: Math.round((coveredSignalTopicCount / requiredSignalTopics.length) * 100),
+      topics: signalTopics,
+      missingTopics: requiredSignalTopics.filter((topic) => !signalTopics.includes(topic)),
+      topicCounts,
+      sources: signalSources,
+      missingSources: requiredSignalSources.filter((source) => !signalSources.includes(source)),
+      sourceCounts,
+      sourceHealthCounts,
+      feedStatus: feedStatus?.latestRefresh?.status ?? feedStatus?.status ?? null,
+      feedWarningCount,
+      sourcePreservation,
+      policy: signalPolicy,
+      blockedSignalTerms,
+    },
   },
   productionContract: {
     domain: productionContract?.project?.domain ?? 'herbalisti.com',
@@ -184,6 +275,11 @@ const renderMarkdown = (data) => {
     `- News items: ${data.publicData.newsItemCount ?? 'unknown'}`,
     `- Source count: ${data.publicData.sourceCount ?? 'unknown'}`,
     `- Feed status: ${data.publicData.feedStatus ?? 'unknown'}`,
+    `- Signal topics: ${data.publicData.signalsFeed.topics.join(', ') || 'unknown'}`,
+    `- Signal sources: ${data.publicData.signalsFeed.sources.join(', ') || 'unknown'}`,
+    `- Signal topic coverage: ${data.publicData.signalsFeed.topicCoveragePercent}%`,
+    `- Feed warning count: ${data.publicData.signalsFeed.feedWarningCount}`,
+    `- Source health: ${JSON.stringify(data.publicData.signalsFeed.sourceHealthCounts)}`,
     '',
     '## Remaining Production Boundary',
     '',
@@ -200,6 +296,15 @@ const markdownOutput = renderMarkdown(packet)
 assert.equal(secretValuePattern.test(`${jsonOutput}\n${markdownOutput}`), false, 'Release evidence must not contain secret-looking values.')
 assert(packet.git.commit, 'Release evidence should include a git commit.')
 assert(packet.productionContract.finalCompletionGates.includes('npm run verify:goal-readiness -- --strict'), 'Release evidence should include final goal-readiness gate.')
+assert(packet.publicData.signalsFeed.itemCount >= 12, 'Release evidence should include a substantial public Signals snapshot.')
+assert.equal(packet.publicData.signalsFeed.policy, feedPolicyText, 'Release evidence should preserve the Signals source policy.')
+assert.deepEqual(packet.publicData.signalsFeed.missingTopics, [], 'Release evidence should cover every required Signals topic.')
+assert.deepEqual(packet.publicData.signalsFeed.missingSources, [], 'Release evidence should represent every launch Signals source lane.')
+assert.deepEqual(packet.publicData.signalsFeed.blockedSignalTerms, [], 'Release evidence should not include Big Pharma blocklist terms in public Signals metadata.')
+assert(
+  ['completed', 'completed_with_warnings'].includes(packet.publicData.signalsFeed.feedStatus),
+  'Release evidence should include a completed static Signals refresh status.',
+)
 
 mkdirSync(outputDir, { recursive: true })
 writeFileSync(resolve(outputDir, 'herbalisti-release-evidence.json'), jsonOutput)

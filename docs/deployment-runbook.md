@@ -195,7 +195,7 @@ GitHub release evidence verification is read-only and should be run after the ma
 npm run verify:github-release-evidence
 ```
 
-It checks the public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, then verifies both the visual-smoke artifact and the no-secret `herbalisti-release-evidence` artifact metadata without downloading them.
+It checks the public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, then verifies both the visual-smoke artifact and the no-secret `herbalisti-release-evidence` artifact metadata without downloading them. The uploaded release packet includes public Signals item count, topic and source-lane coverage, source-health counts, warning count, source-preservation state, source policy, and Big Pharma blocklist proof.
 
 Guarded production deploy workflow verification is local and read-only:
 

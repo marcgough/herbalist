@@ -51,6 +51,7 @@ The packet covers:
 - GitHub production credential helper dry-run verification for the externally issued Cloudflare token and account ID
 - GitHub generated admin secret helper dry-run verification
 - GitHub CI/manual release evidence for the intended launch commit
+- structured release-evidence artifact with Signals topic/source coverage, source-health counts, source policy, and blocklist proof
 - current production state evidence for the exact GitHub commit
 - consolidated production state snapshot verification
 - Cloudflare API token permission requirement verification
