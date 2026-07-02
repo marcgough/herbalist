@@ -229,6 +229,14 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       'Local fixtures prove strict deployment evidence artifact content inspection accepts captured feed seed evidence and rejects weak artifacts.',
     ),
     buildCheck(
+      'github-release-evidence-artifact-content',
+      Boolean(scripts['verify:github-release-evidence-content']) &&
+        exists('scripts/verify-github-release-evidence-content.mjs') &&
+        exists('scripts/lib/release-evidence-artifact.mjs') &&
+        contract.commands.safePreflight.includes('npm run verify:github-release-evidence-content'),
+      'Local fixtures prove release evidence artifact content inspection accepts full Signals coverage and rejects weak release artifacts.',
+    ),
+    buildCheck(
       'production-deploy-dry-run',
       Boolean(scripts['verify:production-deploy-dry-run']) &&
         exists('scripts/verify-production-deploy-dry-run.mjs') &&
@@ -350,6 +358,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
         sideEffect: 'none',
         commands: [
           'npm run verify:github-release-evidence',
+          'npm run verify:github-release-evidence-content',
           'npm run verify:production-state-current',
           'npm run verify:cloudflare-production-state',
           'npm run verify:d1-manifest',

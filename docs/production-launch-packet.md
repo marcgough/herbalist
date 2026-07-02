@@ -119,6 +119,7 @@ npm run verify:github-production-dispatch
 npm run verify:production-dispatch-preflight -- --strict
 npm run verify:github-production-readiness
 npm run verify:github-release-evidence
+npm run verify:github-release-evidence-content
 npm run verify:production-state-current
 npm run verify:cloudflare-production-state
 npm run prepare:production-state

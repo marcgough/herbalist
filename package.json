@@ -94,6 +94,7 @@
     "verify:github-production-dispatch": "node scripts/prepare-github-production-dispatch.mjs --check",
     "verify:github-production-readiness": "node scripts/verify-github-production-readiness.mjs",
     "verify:github-release-evidence": "node scripts/verify-github-release-evidence.mjs",
+    "verify:github-release-evidence-content": "node scripts/verify-github-release-evidence-content.mjs",
     "verify:launch": "node scripts/verify-launch-config.mjs",
     "verify:live-readiness": "node scripts/verify-live-readiness.mjs",
     "verify:media-endpoints": "node scripts/verify-media-endpoints.mjs",

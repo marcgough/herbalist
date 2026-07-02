@@ -222,6 +222,8 @@ assert(exists('scripts/verify-visual-smoke.mjs'), 'Production contract requires 
 assert(exists('scripts/verify-github-actions.mjs'), 'Production contract requires the GitHub Actions handoff verifier')
 assert(exists('scripts/verify-github-production-readiness.mjs'), 'Production contract requires the GitHub production readiness verifier')
 assert(exists('scripts/verify-github-release-evidence.mjs'), 'Production contract requires the GitHub release evidence verifier')
+assert(exists('scripts/verify-github-release-evidence-content.mjs'), 'Production contract requires the GitHub release evidence content fixture verifier')
+assert(exists('scripts/lib/release-evidence-artifact.mjs'), 'Production contract requires shared release evidence artifact inspection rules')
 assert(exists('scripts/prepare-release-evidence-artifact.mjs'), 'Production contract requires the GitHub release evidence artifact writer')
 assert(exists('scripts/verify-cloudflare-production-state.mjs'), 'Production contract requires the Cloudflare production state verifier')
 assert(exists('.github/workflows/ci.yml'), 'Production contract requires the GitHub CI workflow')
@@ -387,6 +389,10 @@ assert(
 assert(
   contract.commands.safePreflight.includes('npm run verify:github-release-evidence'),
   'Safe preflight should include GitHub CI and manual release evidence verification',
+)
+assert(
+  contract.commands.safePreflight.includes('npm run verify:github-release-evidence-content'),
+  'Safe preflight should include local release evidence artifact content fixture verification',
 )
 assert(
   contract.commands.safePreflight.includes('npm run verify:production-state-current'),
@@ -663,6 +669,7 @@ assert(runbook.includes('verify:github-production-dispatch'), 'Deployment runboo
 assert(runbook.includes('verify:production-dispatch-preflight'), 'Deployment runbook should document production dispatch preflight verification')
 assert(runbook.includes('verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
+assert(runbook.includes('verify:github-release-evidence-content'), 'Deployment runbook should document local GitHub release evidence content fixture verification')
 assert(runbook.includes('verify:production-state-current'), 'Deployment runbook should document current-commit production state evidence verification')
 assert(runbook.includes('verify:cloudflare-production-state'), 'Deployment runbook should document Cloudflare production state verification')
 assert(runbook.includes('verify:cloudflare-token-requirements'), 'Deployment runbook should document Cloudflare token requirement verification')
@@ -772,6 +779,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:github-release-evidence'),
   'Production launch packet doc should include GitHub release evidence verification',
+)
+assert(
+  launchPacketDoc.includes('verify:github-release-evidence-content'),
+  'Production launch packet doc should include local GitHub release evidence content fixture verification',
 )
 assert(
   launchPacketDoc.includes('verify:production-state-current'),

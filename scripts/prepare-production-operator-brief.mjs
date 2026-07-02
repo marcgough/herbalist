@@ -136,6 +136,7 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     'npm run verify:github-actions',
     'npm run verify:github-production-readiness',
     'npm run verify:github-release-evidence',
+    'npm run verify:github-release-evidence-content',
     'npm run verify:production-state-current',
     'npm run verify:cloudflare-production-state',
     'npm run verify:cloudflare-token-requirements',

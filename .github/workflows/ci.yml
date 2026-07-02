@@ -77,6 +77,7 @@ jobs:
           npm run verify:production-d1-resolver
           npm run verify:production-feed-seed
           npm run verify:production-deploy-evidence-artifact-content
+          npm run verify:github-release-evidence-content
           npm run verify:github-production-dispatch
           npm run verify:production-state
           npm run verify:production-contract

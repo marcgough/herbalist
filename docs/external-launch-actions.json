@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-02T00:29:44.528Z",
+  "generatedAt": "2026-07-02T00:54:34.518Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -576,6 +576,7 @@
         "npm run verify:github-production-dispatch",
         "npm run verify:production-dispatch-preflight -- --strict",
         "npm run verify:github-release-evidence",
+        "npm run verify:github-release-evidence-content",
         "npm run verify:production-state-current",
         "npm run verify:d1-manifest",
         "npm run verify:production-secrets",

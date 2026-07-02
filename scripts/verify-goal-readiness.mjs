@@ -849,6 +849,7 @@ const requirements = [
       scripts['verify:external-actions'] &&
       scripts['verify:github-actions'] &&
       scripts['verify:github-release-evidence'] &&
+      scripts['verify:github-release-evidence-content'] &&
       scripts['verify:github-production-readiness'] &&
       scripts['prepare:github-production-dispatch'] &&
       scripts['verify:github-production-dispatch'] &&
@@ -920,6 +921,8 @@ const requirements = [
       'scripts/verify-launch-config.mjs',
       'scripts/verify-github-actions.mjs',
       'scripts/verify-github-release-evidence.mjs',
+      'scripts/verify-github-release-evidence-content.mjs',
+      'scripts/lib/release-evidence-artifact.mjs',
       'scripts/verify-github-production-readiness.mjs',
       'scripts/prepare-github-production-dispatch.mjs',
       'scripts/prepare-production-operator-brief.mjs',

@@ -122,6 +122,7 @@
       "npm run verify:production-deploy-evidence",
       "npm run verify:production-deploy-evidence-artifact",
       "npm run verify:production-deploy-evidence-artifact-content",
+      "npm run verify:github-release-evidence-content",
       "npm run verify:production-deploy-dry-run",
       "npm run verify:production-d1-resolver",
       "npm run verify:production-feed-seed",

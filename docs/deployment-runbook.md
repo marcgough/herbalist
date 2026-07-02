@@ -31,6 +31,7 @@ npm run verify:github-production-readiness
 npm run verify:github-production-dispatch
 npm run verify:production-dispatch-preflight -- --strict
 npm run verify:github-release-evidence
+npm run verify:github-release-evidence-content
 npm run verify:production-state-current
 npm run verify:cloudflare-production-state
 npm run verify:cloudflare-token-requirements
@@ -196,6 +197,14 @@ npm run verify:github-release-evidence
 ```
 
 It checks the public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, verifies the visual-smoke artifact metadata, then downloads only the selected no-secret `herbalisti-release-evidence` artifact into memory and inspects its JSON contents. The uploaded release packet must prove public Signals item count, topic and source-lane coverage, source-health counts, warning count, source-preservation state, source policy, and Big Pharma blocklist proof.
+
+The matching local fixture gate is:
+
+```bash
+npm run verify:github-release-evidence-content
+```
+
+It builds synthetic release-evidence artifact ZIPs locally and proves the shared content-inspection rules accept full Signals coverage while rejecting missing topic coverage, Big Pharma blocklist evidence, mismatched commits, secret-looking artifact text, and premature production-complete state.
 
 Guarded production deploy workflow verification is local and read-only:
 

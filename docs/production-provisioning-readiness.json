@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-02T00:32:43.254Z",
+  "generatedAt": "2026-07-02T00:54:34.520Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -23,8 +23,8 @@
     "hiddenRequiredSecretNames": [
       "FEED_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "27f5a293dd1fc6b3f885abef865aa0c8d2e40a94b6555cad80d06950e1a79bfa",
-    "externalActionsFingerprint": "34203ce9f79d3ef2610e17c7a17c038cd92c71db6643e00429135b9684be2eb9",
+    "contractFingerprint": "9053cfdf8c47fa9118a32e55894043786fb09661827ee275ec71424e6b5ecde2",
+    "externalActionsFingerprint": "f235d1a855c396a06c084dbb61804a6b6a009cdbd645257aa42fa467822e0746",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -163,6 +163,11 @@
       "detail": "Local fixtures prove strict deployment evidence artifact content inspection accepts captured feed seed evidence and rejects weak artifacts."
     },
     {
+      "id": "github-release-evidence-artifact-content",
+      "status": "pass",
+      "detail": "Local fixtures prove release evidence artifact content inspection accepts full Signals coverage and rejects weak release artifacts."
+    },
+    {
       "id": "production-deploy-dry-run",
       "status": "pass",
       "detail": "Guarded production workflow can rehearse its Cloudflare-facing command path with fake Wrangler."
@@ -246,6 +251,7 @@
       "sideEffect": "none",
       "commands": [
         "npm run verify:github-release-evidence",
+        "npm run verify:github-release-evidence-content",
         "npm run verify:production-state-current",
         "npm run verify:cloudflare-production-state",
         "npm run verify:d1-manifest",
