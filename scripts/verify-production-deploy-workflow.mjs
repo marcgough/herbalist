@@ -83,6 +83,10 @@ assert(packageJson.scripts?.['verify:production-deploy-dry-run'], 'package.json 
 assert(exists('scripts/prepare-production-deploy-evidence.mjs'), 'Production deploy workflow requires the deploy evidence packet generator')
 assert(packageJson.scripts?.['prepare:production-deploy-evidence'], 'package.json should expose prepare:production-deploy-evidence')
 assert(packageJson.scripts?.['verify:production-deploy-evidence'], 'package.json should expose verify:production-deploy-evidence')
+assert(
+  packageJson.scripts?.['verify:production-deploy-evidence-output'],
+  'package.json should expose verify:production-deploy-evidence-output',
+)
 assert(exists('scripts/verify-production-dispatch-preflight.mjs'), 'Production deploy workflow requires the dispatch preflight verifier')
 assert(packageJson.scripts?.['verify:production-dispatch-preflight'], 'package.json should expose verify:production-dispatch-preflight')
 assert(
@@ -95,6 +99,12 @@ assert(
 assert(
   deployEvidenceScript.includes('docs/production-environment-contract.json'),
   'Production deploy evidence packet should source completion gates from the production contract',
+)
+assert(
+  deployEvidenceScript.includes('--check-output') &&
+    deployEvidenceScript.includes('assertOutputEvidenceMatchesExpected') &&
+    deployEvidenceScript.includes('assertWrittenMarkdownMatchesJson'),
+  'Production deploy evidence verifier should inspect the written output files before upload',
 )
 assert(exists('scripts/verify-production-d1-resolver.mjs'), 'Production deploy workflow requires the D1 resolver verifier')
 assert(packageJson.scripts?.['verify:production-d1-resolver'], 'package.json should expose verify:production-d1-resolver')
@@ -134,6 +144,7 @@ for (const command of [
   'npm run verify:goal-readiness -- --strict',
   'npm run prepare:production-deploy-evidence',
   'npm run verify:production-deploy-evidence',
+  'npm run verify:production-deploy-evidence-output',
   'actions/upload-artifact@v6',
   'herbalisti-production-deploy-evidence',
   'output/production-deploy',
@@ -155,6 +166,12 @@ assert(
   workflow.indexOf('npm run verify:production-deploy-evidence', evidenceStart) > evidenceStart &&
     workflow.indexOf('npm run verify:production-deploy-evidence', evidenceStart) < evidenceEnd,
   'Production deploy workflow should run verify:production-deploy-evidence before artifact upload',
+)
+assert(
+  workflow.indexOf('npm run verify:production-deploy-evidence-output', evidenceStart) >
+    workflow.indexOf('npm run verify:production-deploy-evidence', evidenceStart) &&
+    workflow.indexOf('npm run verify:production-deploy-evidence-output', evidenceStart) < evidenceEnd,
+  'Production deploy workflow should verify the written deployment evidence files before artifact upload',
 )
 for (const secretName of ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN', 'KIE_API_KEY', 'CLOUDFLARE_API_TOKEN']) {
   assert(!evidenceBlock.includes(secretName), `Production deployment evidence generation must not read ${secretName}`)
@@ -231,6 +248,7 @@ console.log(
       optionalGitHubSecrets: ['KIE_API_KEY'],
       generatedRuntimeSecretNames: ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN'],
       deploymentEvidenceArtifact: 'herbalisti-production-deploy-evidence',
+      deploymentEvidenceOutputVerified: true,
       workflowDerivedValues: ['CLOUDFLARE_D1_DATABASE_ID'],
       safeToRun:
         'This verifier reads local workflow, package, and contract files only. It does not call GitHub, deploy, mutate DNS, create Cloudflare resources, set secrets, or print secret values.',

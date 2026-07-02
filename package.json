@@ -110,6 +110,7 @@
     "verify:production-feed-seed": "node scripts/verify-production-feed-seed.mjs",
     "verify:production-deploy-evidence-artifact": "node scripts/verify-production-deploy-evidence-artifact.mjs",
     "verify:production-deploy-evidence-artifact-content": "node scripts/verify-production-deploy-evidence-artifact-content.mjs",
+    "verify:production-deploy-evidence-output": "node scripts/prepare-production-deploy-evidence.mjs --check-output",
     "verify:production-provisioning": "node scripts/prepare-production-provisioning.mjs --check",
     "verify:production-operator-brief": "node scripts/prepare-production-operator-brief.mjs --check",
     "verify:production-deploy-evidence": "node scripts/prepare-production-deploy-evidence.mjs --check",

@@ -221,7 +221,15 @@ Production deploy evidence verification is local and artifact-shape only:
 npm run verify:production-deploy-evidence
 ```
 
-It builds the deployment evidence packet in memory and confirms the stable artifact name, `https://herbalisti.com` target, final-completion boundary, sanitized feed-seed evidence slot, and secret-free output. During the guarded production workflow, the packet is written, verified, then uploaded as `herbalisti-production-deploy-evidence` from `output/production-deploy`. The packet records both the post-dispatch artifact readback command and the strict live-domain verification commands from `docs/production-environment-contract.json`. When strict live verification is not skipped, the protected feed seed command also writes `output/production-deploy/feed-seed-evidence.json`, a sanitized proof containing feed refresh counts, timestamps, and status without token values.
+It builds the deployment evidence packet in memory and confirms the stable artifact name, `https://herbalisti.com` target, final-completion boundary, sanitized feed-seed evidence slot, and secret-free output.
+
+Production deploy evidence output verification checks the files that will be uploaded:
+
+```bash
+npm run verify:production-deploy-evidence-output
+```
+
+During the guarded production workflow, the packet is written, the in-memory packet shape is verified, the written JSON and Markdown files in `output/production-deploy` are verified, then the directory is uploaded as `herbalisti-production-deploy-evidence`. The output verifier confirms the written JSON has stable formatting, the Markdown is rendered from that same JSON payload, completion gates are preserved, and captured feed-seed evidence is present when a successful non-DNS-transition production run requires it. The packet records both the post-dispatch artifact readback command and the strict live-domain verification commands from `docs/production-environment-contract.json`. When strict live verification is not skipped, the protected feed seed command also writes `output/production-deploy/feed-seed-evidence.json`, a sanitized proof containing feed refresh counts, timestamps, and status without token values.
 
 Production deploy evidence artifact readback is strict, non-secret content inspection:
 

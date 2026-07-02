@@ -13,7 +13,8 @@ const feedSeedEvidencePath =
 const artifactName = 'herbalisti-production-deploy-evidence'
 
 const args = new Set(process.argv.slice(2))
-const write = args.has('--write') || (!args.has('--check') && !args.has('--markdown'))
+const checkOutput = args.has('--check-output')
+const write = args.has('--write') || (!args.has('--check') && !args.has('--markdown') && !checkOutput)
 const check = args.has('--check')
 const markdown = args.has('--markdown')
 
@@ -205,6 +206,133 @@ const renderMarkdown = (evidence) => [
   '',
 ].join('\n')
 
+const readWrittenEvidence = () => {
+  const absoluteJsonPath = resolve(root, outputJsonPath)
+  const absoluteMarkdownPath = resolve(root, outputMarkdownPath)
+
+  assert(existsSync(absoluteJsonPath), `Written production deploy evidence JSON is missing: ${outputJsonPath}.`)
+  assert(
+    existsSync(absoluteMarkdownPath),
+    `Written production deploy evidence Markdown is missing: ${outputMarkdownPath}.`,
+  )
+
+  const writtenJson = readFileSync(absoluteJsonPath, 'utf8')
+  const writtenMarkdown = readFileSync(absoluteMarkdownPath, 'utf8')
+
+  assert(!secretValuePattern.test(writtenJson), 'Written production deploy evidence JSON must not contain literal secret values.')
+  assert(
+    !secretValuePattern.test(writtenMarkdown),
+    'Written production deploy evidence Markdown must not contain literal secret values.',
+  )
+
+  const writtenEvidence = JSON.parse(writtenJson)
+
+  return {
+    writtenEvidence,
+    writtenJson,
+    writtenMarkdown,
+  }
+}
+
+const assertOutputEvidenceMatchesExpected = (writtenEvidence, expectedEvidence) => {
+  const generatedAtTime = Date.parse(writtenEvidence.generatedAt)
+  assert(Number.isFinite(generatedAtTime), 'Written production deploy evidence should include an ISO generatedAt timestamp.')
+  assert.equal(writtenEvidence.schemaVersion, expectedEvidence.schemaVersion, 'Written evidence schema version is stale.')
+  assert.equal(writtenEvidence.status, expectedEvidence.status, 'Written evidence status is stale.')
+  assert.deepEqual(writtenEvidence.artifact, expectedEvidence.artifact, 'Written evidence artifact metadata is stale.')
+  assert.deepEqual(writtenEvidence.site, expectedEvidence.site, 'Written evidence site metadata is stale.')
+  assert.deepEqual(writtenEvidence.github, expectedEvidence.github, 'Written evidence GitHub metadata is stale.')
+  assert.deepEqual(
+    writtenEvidence.deployment,
+    expectedEvidence.deployment,
+    'Written evidence deployment metadata is stale.',
+  )
+  assert.deepEqual(writtenEvidence.safety, expectedEvidence.safety, 'Written evidence safety metadata is stale.')
+
+  const feedSeedEvidence = writtenEvidence.deployment.feedSeedEvidence
+  assert.equal(feedSeedEvidence.path, feedSeedEvidencePath, 'Written evidence should preserve the active feed seed path.')
+
+  if (feedSeedEvidence.status === 'captured') {
+    assert(
+      existsSync(resolve(root, feedSeedEvidence.path)),
+      `Captured feed seed evidence file is missing: ${feedSeedEvidence.path}.`,
+    )
+    assert(feedSeedEvidence.summary, 'Captured feed seed evidence should include a sanitized summary.')
+    assert(!secretValuePattern.test(JSON.stringify(feedSeedEvidence.summary)), 'Feed seed evidence summary must be secret-free.')
+    assert(Number.isFinite(feedSeedEvidence.summary.itemCount), 'Feed seed evidence summary should include itemCount.')
+    assert(Number.isFinite(feedSeedEvidence.summary.persisted), 'Feed seed evidence summary should include persisted.')
+  } else {
+    assert.equal(feedSeedEvidence.summary, null, 'Uncaptured feed seed evidence should not include a summary.')
+  }
+
+  if (writtenEvidence.deployment.liveVerificationSkipped) {
+    assert.equal(
+      feedSeedEvidence.status,
+      'skipped-dns-transition',
+      'DNS-transition evidence should preserve the skipped feed seed status.',
+    )
+    assert.equal(
+      writtenEvidence.deployment.liveVerificationSkipAcknowledged,
+      true,
+      'DNS-transition evidence should preserve the explicit skip acknowledgement.',
+    )
+    assert.equal(
+      writtenEvidence.deployment.liveVerificationMode,
+      'dns-transition-skip',
+      'DNS-transition evidence should preserve the live verification mode.',
+    )
+  }
+
+  if (
+    process.env.GITHUB_ACTIONS === 'true' &&
+    !writtenEvidence.deployment.liveVerificationSkipped &&
+    writtenEvidence.deployment.jobStatusAtEvidenceStep === 'success'
+  ) {
+    assert.equal(
+      feedSeedEvidence.status,
+      'captured',
+      'Successful GitHub production deployment output should include captured feed seed evidence.',
+    )
+  }
+
+  assert(
+    writtenEvidence.deployment.finalCompletionGates.includes(
+      'npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>',
+    ),
+    'Written evidence should preserve the post-deploy artifact readback gate.',
+  )
+  for (const command of writtenEvidence.deployment.requiredLiveVerificationCommands) {
+    assert(
+      writtenEvidence.deployment.finalCompletionGates.includes(command),
+      `Written evidence should preserve live verification gate: ${command}`,
+    )
+  }
+}
+
+const assertWrittenMarkdownMatchesJson = (writtenEvidence, writtenMarkdown) => {
+  assert.equal(
+    writtenMarkdown,
+    renderMarkdown(writtenEvidence),
+    'Written production deploy evidence Markdown should be rendered from the written JSON payload.',
+  )
+  assert(
+    writtenMarkdown.includes(`- Site: ${writtenEvidence.site.url}`),
+    'Written evidence Markdown should include the production site URL.',
+  )
+  assert(
+    writtenMarkdown.includes(`- Live verification mode: ${writtenEvidence.deployment.liveVerificationMode}`),
+    'Written evidence Markdown should include the live verification mode.',
+  )
+  assert(
+    writtenMarkdown.includes(`- Feed seed evidence: ${writtenEvidence.deployment.feedSeedEvidence.status}`),
+    'Written evidence Markdown should include the feed seed evidence status.',
+  )
+  assert(
+    writtenEvidence.deployment.finalCompletionGates.every((command) => writtenMarkdown.includes(`- \`${command}\``)),
+    'Written evidence Markdown should include every final completion gate.',
+  )
+}
+
 const evidence = buildProductionDeployEvidence()
 const json = `${JSON.stringify(evidence, null, 2)}\n`
 const md = renderMarkdown(evidence)
@@ -230,7 +358,36 @@ for (const command of evidence.deployment.requiredLiveVerificationCommands) {
   )
 }
 
-if (check) {
+if (checkOutput) {
+  const { writtenEvidence, writtenJson, writtenMarkdown } = readWrittenEvidence()
+
+  assert.equal(
+    writtenJson,
+    `${JSON.stringify(writtenEvidence, null, 2)}\n`,
+    'Written production deploy evidence JSON should use stable formatting.',
+  )
+  assertOutputEvidenceMatchesExpected(writtenEvidence, evidence)
+  assertWrittenMarkdownMatchesJson(writtenEvidence, writtenMarkdown)
+
+  console.log(
+    JSON.stringify(
+      {
+        status: 'pass',
+        artifactName,
+        outputDirectory,
+        files: [outputJsonPath, outputMarkdownPath],
+        liveVerificationMode: writtenEvidence.deployment.liveVerificationMode,
+        feedSeedEvidenceStatus: writtenEvidence.deployment.feedSeedEvidence.status,
+        feedSeedEvidencePath: writtenEvidence.deployment.feedSeedEvidence.path,
+        finalCompletionGates: writtenEvidence.deployment.finalCompletionGates,
+        safeToRun:
+          'This verifier reads only the written non-secret deployment evidence files. It does not deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.',
+      },
+      null,
+      2,
+    ),
+  )
+} else if (check) {
   console.log(
     JSON.stringify(
       {

@@ -47,6 +47,10 @@ assert(scripts['verify:production-state-current'], 'package.json should expose v
 assert(scripts['prepare:release-evidence'], 'package.json should expose prepare:release-evidence')
 assert(scripts['prepare:production-deploy-evidence'], 'package.json should expose prepare:production-deploy-evidence')
 assert(scripts['verify:production-deploy-evidence'], 'package.json should expose verify:production-deploy-evidence')
+assert(
+  scripts['verify:production-deploy-evidence-output'],
+  'package.json should expose verify:production-deploy-evidence-output',
+)
 assert(scripts['verify:production-deploy-evidence-artifact'], 'package.json should expose verify:production-deploy-evidence-artifact')
 assert(scripts['verify:cloudflare-token-requirements'], 'package.json should expose verify:cloudflare-token-requirements')
 assert(scripts['verify:corpus-memory'], 'package.json should expose verify:corpus-memory')
@@ -121,6 +125,10 @@ assert(productionDeploy.includes('npm run deploy:cloudflare'), 'Production deplo
 assert(productionDeploy.includes('npm run deploy:news-worker'), 'Production deploy workflow should deploy the scheduled Worker when manually approved')
 assert(productionDeploy.includes('npm run prepare:production-deploy-evidence'), 'Production deploy workflow should write a non-secret deployment evidence packet')
 assert(productionDeploy.includes('npm run verify:production-deploy-evidence'), 'Production deploy workflow should verify deployment evidence before upload')
+assert(
+  productionDeploy.includes('npm run verify:production-deploy-evidence-output'),
+  'Production deploy workflow should verify written deployment evidence files before upload',
+)
 assert(productionDeploy.includes('actions/upload-artifact@v6'), 'Production deploy workflow should upload deployment evidence')
 assert(productionDeploy.includes('herbalisti-production-deploy-evidence'), 'Production deploy workflow should use the stable deployment evidence artifact name')
 assert(productionDeploy.includes('output/production-deploy'), 'Production deploy workflow should upload the deployment evidence directory')
@@ -130,6 +138,13 @@ assert(
     productionDeploy.indexOf('npm run verify:production-deploy-evidence') <
       productionDeploy.indexOf('actions/upload-artifact@v6'),
   'Production deploy workflow should verify deployment evidence after writing it and before artifact upload',
+)
+assert(
+  productionDeploy.indexOf('npm run verify:production-deploy-evidence-output') >
+    productionDeploy.indexOf('npm run verify:production-deploy-evidence') &&
+    productionDeploy.indexOf('npm run verify:production-deploy-evidence-output') <
+      productionDeploy.indexOf('actions/upload-artifact@v6'),
+  'Production deploy workflow should verify written deployment evidence output after packet verification and before artifact upload',
 )
 
 assert(releaseVerifier.includes('verify:github-actions'), 'Full release verifier should include the GitHub Actions gate')
