@@ -89,6 +89,10 @@ assert(release.includes('workflow_dispatch:'), 'Manual release workflow should o
 assert(!release.includes('push:'), 'Manual release workflow should not run automatically on push')
 assert(!release.includes('pull_request:'), 'Manual release workflow should not run automatically on pull_request')
 assert(release.includes('actions: read'), 'Manual release workflow should use read-only Actions metadata permission')
+assert(
+  release.includes('GITHUB_TOKEN: ${{ github.token }}'),
+  'Manual release workflow should pass the read-only GitHub token to release evidence verifiers',
+)
 assert(release.includes('PLAYWRIGHT_CHROMIUM_EXECUTABLE'), 'Manual release workflow should resolve the browser executable')
 assert(release.includes('npm run verify:release -- --public-only'), 'Manual release workflow should run the repository-safe release verifier')
 assert(release.includes('actions/upload-artifact@v6'), 'Manual release workflow should upload visual smoke screenshots')
