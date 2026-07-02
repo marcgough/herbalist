@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-02T01:15:55.430Z",
+  "generatedAt": "2026-07-02T02:35:33.997Z",
   "status": "ready-for-approved-dispatch-dns-transition-only",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, workflow files, and generated readiness packets only. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.",
