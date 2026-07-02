@@ -1,34 +1,27 @@
 {
-  "generatedAt": "2026-07-02T03:58:12.749Z",
+  "generatedAt": "2026-07-02T04:29:58.890Z",
   "source": "static-refresh",
   "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication.",
   "latestRefresh": {
-    "id": "static-refresh-20260702T035812749Z",
+    "id": "static-refresh-20260702T042958890Z",
     "triggerType": "static-refresh",
-    "status": "completed_with_warnings",
-    "startedAt": "2026-07-02T03:58:12.749Z",
-    "finishedAt": "2026-07-02T03:58:12.749Z",
+    "status": "completed",
+    "startedAt": "2026-07-02T04:29:58.890Z",
+    "finishedAt": "2026-07-02T04:29:58.890Z",
     "itemCount": 24,
     "persistedCount": 0,
     "publicItemCount": 24,
-    "preservedSourceItemCount": 3,
-    "preservedSourceNames": [
-      "arXiv"
-    ],
-    "warningCount": 2,
-    "warnings": [
-      "Skipped arXiv: Timed out after 12000ms: https://export.arxiv.org/api/query?search_query=all%3Alongevity+OR+all%3ACRISPR+OR+all%3A%22gene+therapy%22+OR+all%3A%22gene+editing%22+OR+all%3Apeptide+OR+all%3A%22personalized+health%22+OR+all%3A%22digital+health%22&sortBy=submittedDate&sortOrder=descending&max_results=8",
-      "Preserved 3 last-known public items from temporarily unavailable source: arXiv."
-    ],
+    "preservedSourceItemCount": 0,
+    "preservedSourceNames": [],
+    "warningCount": 0,
+    "warnings": [],
     "sourcePolicy": "Herbalisti allowlist: public research APIs and independent longevity sources; Big Pharma names and off-topic metadata drift filtered before publication."
   },
   "publicSnapshot": {
-    "status": "updated_with_source_preservation",
+    "status": "updated",
     "itemCount": 24,
-    "preservedSourceItemCount": 3,
-    "preservedSourceNames": [
-      "arXiv"
-    ],
-    "generatedAt": "2026-07-02T03:58:12.749Z"
+    "preservedSourceItemCount": 0,
+    "preservedSourceNames": [],
+    "generatedAt": "2026-07-02T04:29:58.890Z"
   }
 }

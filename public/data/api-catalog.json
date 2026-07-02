@@ -1,7 +1,7 @@
 {
   "name": "Herbalisti public API catalog",
   "version": "2026-06-16",
-  "generatedAt": "2026-07-02T03:58:29.660Z",
+  "generatedAt": "2026-07-02T04:30:14.743Z",
   "source": "static-export-api-catalog",
   "policy": "Machine-readable endpoint catalog for public discovery and launch verification. Public endpoints return metadata, source indexes, and educational retrieval context only; protected admin endpoints require authorization and do not expose secret values.",
   "canonicalUrl": "https://herbalisti.com/data/api-catalog.json",

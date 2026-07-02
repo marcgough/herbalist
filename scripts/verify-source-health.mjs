@@ -139,6 +139,44 @@ assert(
   'Source health should cover public research and independent longevity sources',
 )
 
+let arxivFetches = 0
+let crossrefFetches = 0
+const transientFetch = async (input, init) => {
+  const url = new URL(String(input))
+
+  if (url.hostname === 'export.arxiv.org') {
+    arxivFetches += 1
+    if (arxivFetches === 1) {
+      throw new Error('transient arXiv socket hang up')
+    }
+  }
+
+  if (url.hostname === 'api.crossref.org') {
+    crossrefFetches += 1
+    if (crossrefFetches === 1) {
+      return new Response('temporarily unavailable', {
+        status: 503,
+        statusText: 'Service Unavailable',
+      })
+    }
+  }
+
+  return fixtureFetch(input, init)
+}
+
+const recoveredFeed = await fetchHerbalistiNews({ fetchImpl: transientFetch, limit: 24 })
+assert(arxivFetches === 2, 'arXiv source fetch should retry once after a transient request failure')
+assert(crossrefFetches === 2, 'Crossref source fetch should retry once after a retryable HTTP status')
+assert(recoveredFeed.warnings.length === 0, 'Recovered transient source failures should not emit feed warnings')
+assert(
+  recoveredFeed.sourceHealth.find((source) => source.id === 'arxiv')?.status === 'ok',
+  'Recovered arXiv source should report healthy status',
+)
+assert(
+  recoveredFeed.sourceHealth.find((source) => source.id === 'crossref')?.status === 'ok',
+  'Recovered Crossref source should report healthy status',
+)
+
 const sourceHealthPayload = await getSourceHealthPayload({ fetchImpl: fixtureFetch })
 assert(sourceHealthPayload.total === feedSourceDescriptors.length, 'Source health API payload should report all sources')
 assert(sourceHealthPayload.healthyCount === feedSourceDescriptors.length, 'Source health payload should report healthy sources')

@@ -197,6 +197,9 @@ const trackingParams = new Set([
   'source',
 ])
 const sourceFetchTimeoutMs = 12000
+const sourceFetchRetryCount = 1
+const sourceFetchRetryDelayMs = 350
+const retryableSourceStatusCodes = new Set([408, 429, 500, 502, 503, 504])
 
 export const canonicalUrlKey = (value) => {
   const raw = compact(value)
@@ -421,8 +424,32 @@ const fetchWithTimeout = async (url, fetchImpl = fetch) => {
   }
 }
 
+const pause = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+
+const fetchSourceResponse = async (url, fetchImpl = fetch) => {
+  let lastError = null
+
+  for (let attempt = 0; attempt <= sourceFetchRetryCount; attempt += 1) {
+    try {
+      const response = await fetchWithTimeout(url, fetchImpl)
+      if (!retryableSourceStatusCodes.has(response.status) || attempt === sourceFetchRetryCount) {
+        return response
+      }
+    } catch (error) {
+      lastError = error
+      if (attempt === sourceFetchRetryCount) {
+        throw error
+      }
+    }
+
+    await pause(sourceFetchRetryDelayMs * (attempt + 1))
+  }
+
+  throw lastError ?? new Error(`Source fetch failed: ${url}`)
+}
+
 const fetchJson = async (url, fetchImpl = fetch) => {
-  const response = await fetchWithTimeout(url, fetchImpl)
+  const response = await fetchSourceResponse(url, fetchImpl)
   if (!response.ok) {
     throw new Error(`${response.status} ${response.statusText}: ${url}`)
   }
@@ -430,7 +457,7 @@ const fetchJson = async (url, fetchImpl = fetch) => {
 }
 
 const fetchText = async (url, fetchImpl = fetch) => {
-  const response = await fetchWithTimeout(url, fetchImpl)
+  const response = await fetchSourceResponse(url, fetchImpl)
   if (!response.ok) {
     throw new Error(`${response.status} ${response.statusText}: ${url}`)
   }
