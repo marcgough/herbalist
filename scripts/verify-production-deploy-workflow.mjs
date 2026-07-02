@@ -133,6 +133,7 @@ for (const command of [
   'npm run verify:production -- https://herbalisti.com',
   'npm run verify:goal-readiness -- --strict',
   'npm run prepare:production-deploy-evidence',
+  'npm run verify:production-deploy-evidence',
   'actions/upload-artifact@v6',
   'herbalisti-production-deploy-evidence',
   'output/production-deploy',
@@ -145,6 +146,16 @@ const evidenceStart = workflow.indexOf('Write production deployment evidence')
 const evidenceEnd = workflow.indexOf('Upload production deployment evidence')
 assert(evidenceStart >= 0 && evidenceEnd > evidenceStart, 'Production deploy workflow should write evidence before uploading it')
 const evidenceBlock = workflow.slice(evidenceStart, evidenceEnd)
+const evidenceVerifyIndex = workflow.indexOf('Verify production deployment evidence')
+assert(
+  evidenceVerifyIndex > evidenceStart && evidenceVerifyIndex < evidenceEnd,
+  'Production deploy workflow should verify deployment evidence after writing it and before uploading it',
+)
+assert(
+  workflow.indexOf('npm run verify:production-deploy-evidence', evidenceStart) > evidenceStart &&
+    workflow.indexOf('npm run verify:production-deploy-evidence', evidenceStart) < evidenceEnd,
+  'Production deploy workflow should run verify:production-deploy-evidence before artifact upload',
+)
 for (const secretName of ['FEED_ADMIN_TOKEN', 'MEDIA_ADMIN_TOKEN', 'KIE_API_KEY', 'CLOUDFLARE_API_TOKEN']) {
   assert(!evidenceBlock.includes(secretName), `Production deployment evidence generation must not read ${secretName}`)
 }

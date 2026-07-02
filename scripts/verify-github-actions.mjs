@@ -120,9 +120,17 @@ assert(!productionDeploy.includes('secrets.CLOUDFLARE_D1_DATABASE_ID'), 'Product
 assert(productionDeploy.includes('npm run deploy:cloudflare'), 'Production deploy workflow should deploy Cloudflare Pages when manually approved')
 assert(productionDeploy.includes('npm run deploy:news-worker'), 'Production deploy workflow should deploy the scheduled Worker when manually approved')
 assert(productionDeploy.includes('npm run prepare:production-deploy-evidence'), 'Production deploy workflow should write a non-secret deployment evidence packet')
+assert(productionDeploy.includes('npm run verify:production-deploy-evidence'), 'Production deploy workflow should verify deployment evidence before upload')
 assert(productionDeploy.includes('actions/upload-artifact@v6'), 'Production deploy workflow should upload deployment evidence')
 assert(productionDeploy.includes('herbalisti-production-deploy-evidence'), 'Production deploy workflow should use the stable deployment evidence artifact name')
 assert(productionDeploy.includes('output/production-deploy'), 'Production deploy workflow should upload the deployment evidence directory')
+assert(
+  productionDeploy.indexOf('npm run verify:production-deploy-evidence') >
+    productionDeploy.indexOf('npm run prepare:production-deploy-evidence') &&
+    productionDeploy.indexOf('npm run verify:production-deploy-evidence') <
+      productionDeploy.indexOf('actions/upload-artifact@v6'),
+  'Production deploy workflow should verify deployment evidence after writing it and before artifact upload',
+)
 
 assert(releaseVerifier.includes('verify:github-actions'), 'Full release verifier should include the GitHub Actions gate')
 assert(exists('scripts/prepare-release-evidence-artifact.mjs'), 'Release evidence artifact writer should exist')
