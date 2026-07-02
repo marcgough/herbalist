@@ -29,6 +29,7 @@ npm run verify:production-d1-resolver
 npm run verify:production-feed-seed
 npm run verify:github-production-readiness
 npm run verify:github-production-dispatch
+npm run verify:github-production-dispatch-content
 npm run verify:production-dispatch-preflight -- --strict
 npm run verify:github-release-evidence
 npm run verify:github-release-evidence-content
@@ -251,6 +252,14 @@ npm run verify:github-production-dispatch
 ```
 
 It checks `docs/github-production-dispatch.json` and `docs/github-production-dispatch.md` for the exact guarded workflow inputs, strict preflight commands, required GitHub production credential names, and the DNS-transition skip acknowledgement boundary. It does not dispatch GitHub Actions, set secrets or variables, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.
+
+The matching local dispatch-mode fixture gate is:
+
+```bash
+npm run verify:github-production-dispatch-content
+```
+
+It proves the shared dispatch decision rules block local contract failures and missing GitHub credentials, select DNS-transition mode only with the explicit live-verification skip acknowledgement, and select final dispatch only when DNS/custom-domain readiness is present.
 
 Production dispatch preflight verification is read-only and should be run after CI and the manual release gate are complete for the exact launch commit:
 

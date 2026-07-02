@@ -177,6 +177,13 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
       'Guarded GitHub production dispatch packet is available and included in safe preflight; its own verifier proves packet freshness.',
     ),
     buildCheck(
+      'github-production-dispatch-content',
+      Boolean(scripts['verify:github-production-dispatch-content']) &&
+        exists('scripts/verify-github-production-dispatch-content.mjs') &&
+        contract.commands.safePreflight.includes('npm run verify:github-production-dispatch-content'),
+      'Local fixtures prove guarded GitHub production dispatch mode selection for missing credentials, DNS transition, final dispatch, and contract failure.',
+    ),
+    buildCheck(
       'production-dispatch-preflight',
       Boolean(scripts['verify:production-dispatch-preflight']) &&
         exists('scripts/verify-production-dispatch-preflight.mjs') &&
@@ -369,6 +376,7 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
           'npm run verify:production-state',
           'npm run verify:cloudflare-token-requirements',
           'npm run verify:github-production-dispatch',
+          'npm run verify:github-production-dispatch-content',
           'npm run verify:production-dispatch-preflight -- --strict',
           'npm run verify:production-deploy-evidence',
           'npm run verify:production-deploy-evidence-artifact',

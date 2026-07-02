@@ -124,6 +124,8 @@ The herbal commons gate now requires the public export and API to expose the cor
 
 `npm run verify:github-production-dispatch` checks the no-secret dispatch packet for the guarded GitHub production workflow. It records the strict preflight, exact workflow inputs, required production credential names, and DNS-transition skip boundary without dispatching the workflow or touching production.
 
+`npm run verify:github-production-dispatch-content` is the local fixture gate for dispatch-mode selection. It proves missing credentials and local contract failures block dispatch, DNS-transition dispatch stays non-final with the required skip acknowledgement, and final dispatch is only selected when DNS/custom-domain readiness is present.
+
 `npm run verify:github-production-readiness` reads GitHub workflow, environment, secret-name, variable-name, and release-run metadata without creating environments, setting secrets or variables, dispatching workflows, or printing secret values. Strict mode is the final dispatch-readiness gate after the `production` environment and required GitHub production credentials exist.
 
 `npm run verify:github-release-evidence` checks public GitHub Actions metadata for fresh successful CI and manual release-gate runs on the intended launch commit, verifies the uploaded visual-smoke artifact metadata, then downloads only the selected no-secret structured release-evidence artifact into memory and inspects its contents. The structured release packet must prove public Signals item count, topic coverage, source-lane coverage, source-health counts, warning count, source-preservation state, source policy, and Big Pharma blocklist proof.

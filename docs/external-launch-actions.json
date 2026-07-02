@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-02T00:54:34.518Z",
+  "generatedAt": "2026-07-02T01:16:07.015Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -583,6 +583,7 @@
         "npm run verify:github-generated-secrets",
         "npm run verify:production-state",
         "npm run verify:cloudflare-token-requirements",
+        "npm run verify:github-production-dispatch-content",
         "npm run verify:live-readiness -- --strict",
         "npm run verify:production -- https://herbalisti.com",
         "npm run verify:goal-readiness -- --strict"

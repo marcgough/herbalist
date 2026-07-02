@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T21:58:13.209Z",
-  "auditSignature": "cd9afa9cf387929dff92091bb3f43cf2e69fa8d6bce1a95a3c89cfe16e399268",
+  "generatedAt": "2026-07-02T01:35:15.464Z",
+  "auditSignature": "230b7bdc3a81ea6bcd584dd60dd0bdf17fd0679fc11663c1f292a1818429e9b7",
   "version": 1,
   "objective": "Build Herbalisti as a fully functioning website for herbalisti.com with original high-tech holistic branding, OpenAI-generated imagery, searchable referenced-books database, and self-updating independent-source newsfeed for longevity and related health sovereignty topics.",
   "status": "local-ready-production-pending",
@@ -509,8 +509,11 @@
         "scripts/verify-launch-config.mjs",
         "scripts/verify-github-actions.mjs",
         "scripts/verify-github-release-evidence.mjs",
+        "scripts/verify-github-release-evidence-content.mjs",
+        "scripts/lib/release-evidence-artifact.mjs",
         "scripts/verify-github-production-readiness.mjs",
         "scripts/prepare-github-production-dispatch.mjs",
+        "scripts/verify-github-production-dispatch-content.mjs",
         "scripts/prepare-production-operator-brief.mjs",
         "scripts/prepare-production-state-snapshot.mjs",
         "scripts/verify-cloudflare-production-state.mjs",
@@ -585,24 +588,25 @@
       "protectedEndpointCount": 3
     },
     "news": {
-      "generatedAt": "2026-07-01T21:01:42.419Z",
+      "generatedAt": "2026-07-02T01:23:09.250Z",
       "total": 24,
       "topicCounts": {
         "Longevity": 15,
         "Gene therapy": 3,
-        "DNA modification": 2,
+        "DNA modification": 3,
         "Health as a service": 2,
         "Peptides": 1,
         "Self-sovereign wellbeing": 1,
-        "Gene editing": 6,
-        "CRISPR": 5
+        "Gene editing": 5,
+        "CRISPR": 4
       },
       "sourceCounts": {
         "Fight Aging!": 7,
         "Lifespan.io": 7,
         "arXiv": 3,
+        "PubMed / NCBI": 1,
         "bioRxiv": 1,
-        "Crossref": 6
+        "Crossref": 5
       },
       "latestRefreshStatus": "completed",
       "publicSnapshot": {
@@ -610,7 +614,7 @@
         "itemCount": 24,
         "preservedSourceItemCount": 0,
         "preservedSourceNames": [],
-        "generatedAt": "2026-07-01T21:01:42.419Z"
+        "generatedAt": "2026-07-02T01:23:09.250Z"
       }
     },
     "media": {
@@ -640,9 +644,9 @@
       "OPENAI_API_KEY is not visible locally; this is only needed if hosted herbal chat synthesis or repeatable server-side OpenAI image generation is enabled"
     ],
     "checked": {
-      "files": 152,
-      "scripts": 119,
-      "passes": 230
+      "files": 156,
+      "scripts": 123,
+      "passes": 237
     },
     "nextActions": [
       "Set the required GitHub production environment credentials listed by npm run verify:github-production-readiness.",
@@ -671,11 +675,14 @@
       "npm run verify:production-deploy-workflow",
       "npm run verify:production-deploy-evidence",
       "npm run verify:production-deploy-evidence-artifact",
+      "npm run verify:production-deploy-evidence-artifact-content",
+      "npm run verify:github-release-evidence-content",
       "npm run verify:production-deploy-dry-run",
       "npm run verify:production-d1-resolver",
       "npm run verify:production-feed-seed",
       "npm run verify:github-production-readiness",
       "npm run verify:github-production-dispatch",
+      "npm run verify:github-production-dispatch-content",
       "npm run verify:production-dispatch-preflight",
       "npm run verify:github-release-evidence",
       "npm run verify:production-state-current",

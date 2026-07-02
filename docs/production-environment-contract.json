@@ -128,6 +128,7 @@
       "npm run verify:production-feed-seed",
       "npm run verify:github-production-readiness",
       "npm run verify:github-production-dispatch",
+      "npm run verify:github-production-dispatch-content",
       "npm run verify:production-dispatch-preflight",
       "npm run verify:github-release-evidence",
       "npm run verify:production-state-current",

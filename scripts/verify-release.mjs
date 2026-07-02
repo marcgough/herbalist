@@ -199,6 +199,7 @@ for (const [label, command] of [
   ['production D1 resolver behavior', npm('run', 'verify:production-d1-resolver')],
   ['production feed seed command', npm('run', 'verify:production-feed-seed')],
   ['GitHub production dispatch packet', npm('run', 'verify:github-production-dispatch')],
+  ['GitHub production dispatch mode fixtures', npm('run', 'verify:github-production-dispatch-content')],
   ['GitHub release evidence content fixture', npm('run', 'verify:github-release-evidence-content')],
   ['production provisioning readiness', npm('run', 'verify:production-provisioning')],
   ['production operator brief', npm('run', 'verify:production-operator-brief')],

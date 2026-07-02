@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T23:29:00.986Z",
+  "generatedAt": "2026-07-02T01:15:55.430Z",
   "status": "ready-for-approved-dispatch-dns-transition-only",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, workflow files, and generated readiness packets only. It does not dispatch GitHub Actions, set secrets, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.",
@@ -50,6 +50,7 @@
     "npm run verify:github-generated-secrets",
     "npm run verify:corpus-memory",
     "npm run verify:github-production-dispatch",
+    "npm run verify:github-production-dispatch-content",
     "npm run verify:production-dispatch-preflight -- --strict",
     "npm run verify:launch -- --soft"
   ],

@@ -1,6 +1,6 @@
 # Herbalisti Production Operator Brief
 
-Generated: 2026-07-02T00:54:34.817Z
+Generated: 2026-07-02T01:20:19.004Z
 
 Status: needs-cloudflare-auth-or-approved-workflow-dispatch
 
@@ -62,6 +62,7 @@ npm run verify:production-secrets
 npm run verify:github-production-credentials
 npm run verify:github-generated-secrets
 npm run verify:github-production-dispatch
+npm run verify:github-production-dispatch-content
 npm run verify:production-dispatch-preflight
 npm run verify:production-deploy-workflow
 npm run verify:production-deploy-evidence

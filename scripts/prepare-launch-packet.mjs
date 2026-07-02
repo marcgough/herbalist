@@ -190,6 +190,7 @@ const phases = [
       command('npm run verify:production-d1-resolver'),
       command('npm run verify:production-feed-seed'),
       command('npm run verify:github-production-dispatch'),
+      command('npm run verify:github-production-dispatch-content'),
       command('npm run verify:production-dispatch-preflight -- --strict'),
       command('npm run verify:production-operator-brief'),
       command('npm run verify:production-secrets'),

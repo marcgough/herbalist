@@ -79,6 +79,7 @@ jobs:
           npm run verify:production-deploy-evidence-artifact-content
           npm run verify:github-release-evidence-content
           npm run verify:github-production-dispatch
+          npm run verify:github-production-dispatch-content
           npm run verify:production-state
           npm run verify:production-contract
           npm run verify:launch -- --soft

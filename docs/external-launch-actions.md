@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-07-02T00:54:34.518Z
+Generated: 2026-07-02T01:16:07.015Z
 
 Status: needs-approval-and-production-setup
 
@@ -534,6 +534,7 @@ Verification:
 - npm run verify:github-generated-secrets
 - npm run verify:production-state
 - npm run verify:cloudflare-token-requirements
+- npm run verify:github-production-dispatch-content
 - npm run verify:live-readiness -- --strict
 - npm run verify:production -- https://herbalisti.com
 - npm run verify:goal-readiness -- --strict

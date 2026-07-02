@@ -1,6 +1,6 @@
 # Herbalisti GitHub Production Dispatch Packet
 
-Generated: 2026-07-01T23:29:00.986Z
+Generated: 2026-07-02T01:15:55.430Z
 
 Status: ready-for-approved-dispatch-dns-transition-only
 
@@ -55,6 +55,7 @@ npm run verify:production-provisioning
 npm run verify:github-generated-secrets
 npm run verify:corpus-memory
 npm run verify:github-production-dispatch
+npm run verify:github-production-dispatch-content
 npm run verify:production-dispatch-preflight -- --strict
 npm run verify:launch -- --soft
 ```

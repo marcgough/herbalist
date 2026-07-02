@@ -450,6 +450,7 @@ const approvalRequiredActions = [
       'npm run verify:github-generated-secrets',
       'npm run verify:production-state',
       'npm run verify:cloudflare-token-requirements',
+      'npm run verify:github-production-dispatch-content',
       'npm run verify:live-readiness -- --strict',
       'npm run verify:production -- https://herbalisti.com',
       'npm run verify:goal-readiness -- --strict',

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-02T00:54:34.520Z",
+  "generatedAt": "2026-07-02T01:16:07.385Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -23,8 +23,8 @@
     "hiddenRequiredSecretNames": [
       "FEED_ADMIN_TOKEN"
     ],
-    "contractFingerprint": "9053cfdf8c47fa9118a32e55894043786fb09661827ee275ec71424e6b5ecde2",
-    "externalActionsFingerprint": "f235d1a855c396a06c084dbb61804a6b6a009cdbd645257aa42fa467822e0746",
+    "contractFingerprint": "4b8f02bf5d37f409a9f47f5457bb3ff8b15a6993a17c675232163ba314a9f5a5",
+    "externalActionsFingerprint": "92164bdc056b0f4f0085aefa2a45cf7cd79ce3b904a7c472048c93d967348b51",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -126,6 +126,11 @@
       "id": "github-production-dispatch-packet",
       "status": "pass",
       "detail": "Guarded GitHub production dispatch packet is available and included in safe preflight; its own verifier proves packet freshness."
+    },
+    {
+      "id": "github-production-dispatch-content",
+      "status": "pass",
+      "detail": "Local fixtures prove guarded GitHub production dispatch mode selection for missing credentials, DNS transition, final dispatch, and contract failure."
     },
     {
       "id": "production-dispatch-preflight",
@@ -262,6 +267,7 @@
         "npm run verify:production-state",
         "npm run verify:cloudflare-token-requirements",
         "npm run verify:github-production-dispatch",
+        "npm run verify:github-production-dispatch-content",
         "npm run verify:production-dispatch-preflight -- --strict",
         "npm run verify:production-deploy-evidence",
         "npm run verify:production-deploy-evidence-artifact",

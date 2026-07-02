@@ -853,6 +853,7 @@ const requirements = [
       scripts['verify:github-production-readiness'] &&
       scripts['prepare:github-production-dispatch'] &&
       scripts['verify:github-production-dispatch'] &&
+      scripts['verify:github-production-dispatch-content'] &&
       scripts['verify:production-state'] &&
       scripts['prepare:production-state'] &&
       scripts['verify:cloudflare-production-state'] &&
@@ -925,6 +926,7 @@ const requirements = [
       'scripts/lib/release-evidence-artifact.mjs',
       'scripts/verify-github-production-readiness.mjs',
       'scripts/prepare-github-production-dispatch.mjs',
+      'scripts/verify-github-production-dispatch-content.mjs',
       'scripts/prepare-production-operator-brief.mjs',
       'scripts/prepare-production-state-snapshot.mjs',
       'scripts/verify-cloudflare-production-state.mjs',

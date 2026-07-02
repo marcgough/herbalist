@@ -146,6 +146,7 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
     'npm run verify:github-production-credentials',
     'npm run verify:github-generated-secrets',
     'npm run verify:github-production-dispatch',
+    'npm run verify:github-production-dispatch-content',
     'npm run verify:production-dispatch-preflight',
     'npm run verify:production-deploy-workflow',
     'npm run verify:production-deploy-evidence',

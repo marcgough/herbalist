@@ -206,6 +206,7 @@ assert(
 assert(exists('scripts/prepare-production-deploy-evidence.mjs'), 'Production contract requires the production deploy evidence packet generator')
 assert(exists('scripts/verify-production-deploy-evidence-artifact.mjs'), 'Production contract requires the production deploy evidence artifact readback verifier')
 assert(exists('scripts/prepare-github-production-dispatch.mjs'), 'Production contract requires the GitHub production dispatch packet generator')
+assert(exists('scripts/verify-github-production-dispatch-content.mjs'), 'Production contract requires the GitHub production dispatch mode fixture verifier')
 assert(exists('scripts/seed-production-feed.mjs'), 'Production contract requires the production feed seed command')
 assert(exists('scripts/verify-production-feed-seed.mjs'), 'Production contract requires the production feed seed verifier')
 assert(feedSeedScript.includes('--evidence-path'), 'Production feed seed command should support sanitized evidence output')
@@ -377,6 +378,10 @@ assert(
 assert(
   contract.commands.safePreflight.includes('npm run verify:github-production-dispatch'),
   'Safe preflight should include GitHub production dispatch packet verification',
+)
+assert(
+  contract.commands.safePreflight.includes('npm run verify:github-production-dispatch-content'),
+  'Safe preflight should include GitHub production dispatch mode fixture verification',
 )
 assert(
   contract.commands.safePreflight.includes('npm run verify:production-dispatch-preflight'),
@@ -666,6 +671,7 @@ assert(runbook.includes('verify:production-deploy-dry-run'), 'Deployment runbook
 assert(runbook.includes('verify:production-d1-resolver'), 'Deployment runbook should document production D1 resolver verification')
 assert(runbook.includes('verify:production-feed-seed'), 'Deployment runbook should document production feed seed verification')
 assert(runbook.includes('verify:github-production-dispatch'), 'Deployment runbook should document GitHub production dispatch packet verification')
+assert(runbook.includes('verify:github-production-dispatch-content'), 'Deployment runbook should document GitHub production dispatch mode fixture verification')
 assert(runbook.includes('verify:production-dispatch-preflight'), 'Deployment runbook should document production dispatch preflight verification')
 assert(runbook.includes('verify:github-production-readiness'), 'Deployment runbook should document GitHub production readiness verification')
 assert(runbook.includes('verify:github-release-evidence'), 'Deployment runbook should document GitHub release evidence verification')
@@ -763,6 +769,10 @@ assert(
 assert(
   launchPacketDoc.includes('verify:github-production-dispatch'),
   'Production launch packet doc should include GitHub production dispatch packet verification',
+)
+assert(
+  launchPacketDoc.includes('verify:github-production-dispatch-content'),
+  'Production launch packet doc should include GitHub production dispatch mode fixture verification',
 )
 assert(
   launchPacketDoc.includes('verify:production-dispatch-preflight'),
@@ -865,6 +875,12 @@ assert(
     ?.find((action) => action.id === 'run-github-production-deploy-workflow')
     ?.verification?.includes('npm run verify:github-production-dispatch'),
   'External action checklist should require GitHub production dispatch packet verification before the guarded workflow',
+)
+assert(
+  externalActionsJson.approvalRequiredActions
+    ?.find((action) => action.id === 'run-github-production-deploy-workflow')
+    ?.verification?.includes('npm run verify:github-production-dispatch-content'),
+  'External action checklist should require GitHub production dispatch mode fixture verification before the guarded workflow',
 )
 assert(
   externalActionsJson.approvalRequiredActions

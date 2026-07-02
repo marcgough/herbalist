@@ -18,13 +18,76 @@ const exists = (path) => existsSync(resolve(root, path))
 const secretValuePattern =
   /(sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9_]{20,}|Bearer\s+[A-Za-z0-9._-]+|-----BEGIN [A-Z ]+PRIVATE KEY-----)/i
 
-const buildCheck = (id, ok, detail) => ({
+export const buildCheck = (id, ok, detail) => ({
   id,
   status: ok ? 'pass' : 'fail',
   detail,
 })
 
 const list = (value) => (Array.isArray(value) ? value : [])
+
+export const githubProductionStrictPreflightCommands = [
+  'npm run verify:github-actions',
+  'npm run verify:github-production-readiness -- --strict',
+  'npm run verify:github-release-evidence -- --commit <dispatch_commit_sha>',
+  'npm run verify:production-state-current',
+  'npm run verify:production-secrets',
+  'npm run verify:github-production-credentials',
+  'npm run verify:cloudflare-token-requirements',
+  'npm run verify:production-deploy-workflow',
+  'npm run verify:production-deploy-evidence',
+  'npm run verify:production-deploy-evidence-artifact',
+  'npm run verify:production-deploy-dry-run',
+  'npm run verify:production-d1-resolver',
+  'npm run verify:production-feed-seed',
+  'npm run verify:d1-manifest',
+  'npm run verify:dns-cutover',
+  'npm run verify:production-provisioning',
+  'npm run verify:github-generated-secrets',
+  'npm run verify:corpus-memory',
+  'npm run verify:github-production-dispatch',
+  'npm run verify:github-production-dispatch-content',
+  'npm run verify:production-dispatch-preflight -- --strict',
+  'npm run verify:launch -- --soft',
+]
+
+export const githubProductionDispatchInputs = {
+  finalCompletionMode: {
+    confirm: 'deploy-herbalisti-production',
+    skip_live_verification: false,
+    skip_live_verification_confirm: '',
+    command:
+      'gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=false',
+    completionEvidence:
+      'Final completion requires the post-dispatch deployment evidence artifact readback plus strict live readiness, production smoke, and goal-readiness verification against https://herbalisti.com.',
+  },
+  dnsTransitionMode: {
+    confirm: 'deploy-herbalisti-production',
+    skip_live_verification: true,
+    skip_live_verification_confirm: 'skip-herbalisti-live-verification',
+    command:
+      'gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=true -f skip_live_verification_confirm=skip-herbalisti-live-verification',
+    completionEvidence:
+      'This mode is only for DNS-transition sequencing and cannot prove goal completion. Strict live verification remains required afterward.',
+  },
+}
+
+export const deriveGithubProductionDispatchStatus = ({
+  checks = [],
+  missingGitHubCredentialNames = [],
+  dnsCutoverStatus = 'missing',
+} = {}) => {
+  const failedChecks = checks.filter((item) => item.status !== 'pass')
+  if (failedChecks.length) {
+    return 'local-contract-failed'
+  }
+  if (missingGitHubCredentialNames.length) {
+    return 'needs-github-production-credentials'
+  }
+  return dnsCutoverStatus === 'dns-ready-for-pages-custom-domain'
+    ? 'ready-for-approved-final-dispatch'
+    : 'ready-for-approved-dispatch-dns-transition-only'
+}
 
 export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().toISOString() } = {}) => {
   const packageJson = readJson('package.json')
@@ -64,50 +127,8 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
     ...(contract.commands.liveCompletionGates ?? []),
   ]
 
-  const strictPreflightCommands = [
-    'npm run verify:github-actions',
-    'npm run verify:github-production-readiness -- --strict',
-    'npm run verify:github-release-evidence -- --commit <dispatch_commit_sha>',
-    'npm run verify:production-state-current',
-    'npm run verify:production-secrets',
-    'npm run verify:github-production-credentials',
-    'npm run verify:cloudflare-token-requirements',
-    'npm run verify:production-deploy-workflow',
-    'npm run verify:production-deploy-evidence',
-    'npm run verify:production-deploy-evidence-artifact',
-    'npm run verify:production-deploy-dry-run',
-    'npm run verify:production-d1-resolver',
-    'npm run verify:production-feed-seed',
-    'npm run verify:d1-manifest',
-    'npm run verify:dns-cutover',
-    'npm run verify:production-provisioning',
-    'npm run verify:github-generated-secrets',
-    'npm run verify:corpus-memory',
-    'npm run verify:github-production-dispatch',
-    'npm run verify:production-dispatch-preflight -- --strict',
-    'npm run verify:launch -- --soft',
-  ]
-
-  const dispatchInputs = {
-    finalCompletionMode: {
-      confirm: 'deploy-herbalisti-production',
-      skip_live_verification: false,
-      skip_live_verification_confirm: '',
-      command:
-        'gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=false',
-      completionEvidence:
-        'Final completion requires the post-dispatch deployment evidence artifact readback plus strict live readiness, production smoke, and goal-readiness verification against https://herbalisti.com.',
-    },
-    dnsTransitionMode: {
-      confirm: 'deploy-herbalisti-production',
-      skip_live_verification: true,
-      skip_live_verification_confirm: 'skip-herbalisti-live-verification',
-      command:
-        'gh workflow run production-deploy.yml --repo marcgough/herbalist --ref main -f confirm=deploy-herbalisti-production -f skip_live_verification=true -f skip_live_verification_confirm=skip-herbalisti-live-verification',
-      completionEvidence:
-        'This mode is only for DNS-transition sequencing and cannot prove goal completion. Strict live verification remains required afterward.',
-    },
-  }
+  const strictPreflightCommands = githubProductionStrictPreflightCommands
+  const dispatchInputs = githubProductionDispatchInputs
 
   const checks = [
     buildCheck('workflow-file', exists('.github/workflows/production-deploy.yml'), 'Production deploy workflow exists.'),
@@ -199,15 +220,11 @@ export const buildGithubProductionDispatchPacket = ({ generatedAt = new Date().t
     ),
   ]
 
-  const failedChecks = checks.filter((item) => item.status !== 'pass')
-  const dnsReadyForPagesCustomDomain = productionState?.summary?.dnsCutoverStatus === 'dns-ready-for-pages-custom-domain'
-  const status = failedChecks.length
-    ? 'local-contract-failed'
-    : missingGitHubCredentialNames.length
-    ? 'needs-github-production-credentials'
-    : !dnsReadyForPagesCustomDomain
-    ? 'ready-for-approved-dispatch-dns-transition-only'
-    : 'ready-for-approved-final-dispatch'
+  const status = deriveGithubProductionDispatchStatus({
+    checks,
+    missingGitHubCredentialNames,
+    dnsCutoverStatus: productionState?.summary?.dnsCutoverStatus,
+  })
 
   return {
     version: 1,
@@ -359,30 +376,31 @@ export const renderGithubProductionDispatchMarkdown = (packet) => {
   return `${lines.join('\n')}\n`
 }
 
-const checkGeneratedAt = check && exists(outputJsonPath) ? readJson(outputJsonPath).generatedAt : undefined
-const packet = buildGithubProductionDispatchPacket({ generatedAt: checkGeneratedAt })
-const jsonOutput = `${JSON.stringify(packet, null, 2)}\n`
-const markdownOutput = renderGithubProductionDispatchMarkdown(packet)
+const isCli = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href
 
-if (write) {
-  writeFileSync(resolve(root, outputJsonPath), jsonOutput)
-  writeFileSync(resolve(root, outputMarkdownPath), markdownOutput)
-}
+if (isCli) {
+  const checkGeneratedAt = check && exists(outputJsonPath) ? readJson(outputJsonPath).generatedAt : undefined
+  const packet = buildGithubProductionDispatchPacket({ generatedAt: checkGeneratedAt })
+  const jsonOutput = `${JSON.stringify(packet, null, 2)}\n`
+  const markdownOutput = renderGithubProductionDispatchMarkdown(packet)
 
-if (check) {
-  assert(exists(outputJsonPath), `${outputJsonPath} should exist`)
-  assert(exists(outputMarkdownPath), `${outputMarkdownPath} should exist`)
-  assert.equal(read(outputJsonPath), jsonOutput, `${outputJsonPath} is stale`)
-  assert.equal(read(outputMarkdownPath), markdownOutput, `${outputMarkdownPath} is stale`)
-  assert.notEqual(packet.status, 'local-contract-failed', 'GitHub production dispatch local contract should pass')
-  assert(packet.checks.every((item) => item.status === 'pass'), 'All GitHub production dispatch checks should pass')
-}
+  if (write) {
+    writeFileSync(resolve(root, outputJsonPath), jsonOutput)
+    writeFileSync(resolve(root, outputMarkdownPath), markdownOutput)
+  }
 
-assert(!secretValuePattern.test(jsonOutput), 'GitHub production dispatch packet must not contain secret values')
-assert(!secretValuePattern.test(markdownOutput), 'GitHub production dispatch Markdown must not contain secret values')
+  if (check) {
+    assert(exists(outputJsonPath), `${outputJsonPath} should exist`)
+    assert(exists(outputMarkdownPath), `${outputMarkdownPath} should exist`)
+    assert.equal(read(outputJsonPath), jsonOutput, `${outputJsonPath} is stale`)
+    assert.equal(read(outputMarkdownPath), markdownOutput, `${outputMarkdownPath} is stale`)
+    assert.notEqual(packet.status, 'local-contract-failed', 'GitHub production dispatch local contract should pass')
+    assert(packet.checks.every((item) => item.status === 'pass'), 'All GitHub production dispatch checks should pass')
+  }
 
-console.log(markdown ? markdownOutput : jsonOutput)
+  assert(!secretValuePattern.test(jsonOutput), 'GitHub production dispatch packet must not contain secret values')
+  assert(!secretValuePattern.test(markdownOutput), 'GitHub production dispatch Markdown must not contain secret values')
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  console.log(markdown ? markdownOutput : jsonOutput)
   assert.notEqual(packet.status, 'local-contract-failed', 'GitHub production dispatch local contract should pass')
 }
