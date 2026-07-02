@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T23:29:00.157Z",
+  "generatedAt": "2026-07-02T00:29:44.528Z",
   "status": "needs-approval-and-production-setup",
   "safeToRun": "This artifact is generated from local files and environment-variable presence only. It does not deploy, create resources, mutate DNS, call paid APIs, or print secret values.",
   "project": {
@@ -147,7 +147,7 @@
       "after": [],
       "notes": [
         "Run this after CI and the manual release gate have passed for the exact commit being prepared for production.",
-        "This command does not dispatch workflows, deploy, mutate DNS, create resources, set secrets, download artifacts, call paid APIs, or print secret values."
+        "This command does not dispatch workflows, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values. It may read the selected no-secret release evidence artifact content into memory."
       ]
     },
     {
@@ -160,7 +160,7 @@
       "after": [],
       "notes": [
         "Run this after CI and the manual release gate have passed for the exact commit being prepared for production.",
-        "This command writes no files and does not deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values."
+        "This command writes no files and does not deploy, mutate DNS, create resources, call paid APIs, or print secret values. It may read the selected no-secret release evidence artifact content into memory."
       ]
     },
     {

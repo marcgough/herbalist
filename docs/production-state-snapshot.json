@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T21:49:01.094Z",
+  "generatedAt": "2026-07-02T00:29:44.509Z",
   "status": "local-ready-production-pending",
   "productionComplete": false,
   "completionBoundary": "Production is complete only when the deployment evidence artifact, strict live readiness, live production smoke, and goal-readiness gates all pass against the live herbalisti.com deployment.",
@@ -10,7 +10,7 @@
     "npm run verify:production -- https://herbalisti.com",
     "npm run verify:goal-readiness -- --strict"
   ],
-  "safeToRun": "Reads local launch artifacts, public DNS, public live-domain responses, GitHub release/deploy artifact metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.",
+  "safeToRun": "Reads local launch artifacts, public DNS, public live-domain responses, GitHub release/deploy artifact metadata, the selected no-secret release evidence artifact content, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, or print secret values.",
   "project": {
     "domain": "herbalisti.com",
     "pagesProject": "herbalisti",
@@ -20,7 +20,7 @@
   },
   "git": {
     "branch": "main",
-    "commit": "513014efc1b91b69df9b3541647fa336a9ef853a",
+    "commit": "73083efbe5cdc6881414624993f68791333d15da",
     "note": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence."
   },
   "summary": {
@@ -53,7 +53,7 @@
     {
       "id": "github-release-evidence-captured",
       "status": "pass",
-      "detail": "Release evidence is pass for 513014efc1b91b69df9b3541647fa336a9ef853a."
+      "detail": "Release evidence is pass for 73083efbe5cdc6881414624993f68791333d15da."
     },
     {
       "id": "production-deploy-evidence-artifact-captured",
@@ -135,10 +135,48 @@
         "status": "pass",
         "error": null
       },
-      "commit": "513014efc1b91b69df9b3541647fa336a9ef853a",
-      "ciRunId": 28548215393,
-      "manualReleaseRunId": 28548264002,
-      "artifactId": 8022888988
+      "commit": "73083efbe5cdc6881414624993f68791333d15da",
+      "ciRunId": 28556344070,
+      "manualReleaseRunId": 28556374709,
+      "artifactId": 8025821506,
+      "releaseEvidenceArtifactId": 8025821180,
+      "releaseEvidenceArtifactDigest": "sha256:90c6cd3620063b44d8d53ac1864ae088c914a3b61f003753c6c078ad8c006cfa",
+      "releaseEvidenceArtifactContent": {
+        "status": "verified-release-evidence-content",
+        "evidenceJsonPath": "herbalisti-release-evidence.json",
+        "files": [
+          "README.md",
+          "herbalisti-release-evidence.json"
+        ],
+        "itemCount": 24,
+        "topicCoveragePercent": 100,
+        "topics": [
+          "CRISPR",
+          "DNA modification",
+          "Gene editing",
+          "Gene therapy",
+          "Health as a service",
+          "Longevity",
+          "Peptides",
+          "Self-sovereign wellbeing"
+        ],
+        "sources": [
+          "arXiv",
+          "bioRxiv",
+          "Crossref",
+          "Fight Aging!",
+          "Lifespan.io",
+          "PubMed / NCBI"
+        ],
+        "feedStatus": "completed",
+        "feedWarningCount": 0,
+        "sourceHealthCounts": {
+          "ok": 4,
+          "empty": 2,
+          "warning": 0
+        },
+        "newestSignalAt": "2026-07-01T18:22:10.000Z"
+      }
     },
     "productionDeployEvidenceArtifact": {
       "summary": {
@@ -152,7 +190,7 @@
       "artifactId": null,
       "artifactDigest": null,
       "strictCompletionCommand": "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
-      "detail": "No fresh successful Herbalisti Production Deploy workflow_dispatch run exists for 513014efc1b91b69df9b3541647fa336a9ef853a."
+      "detail": "No fresh successful Herbalisti Production Deploy workflow_dispatch run exists for 73083efbe5cdc6881414624993f68791333d15da."
     },
     "githubProductionReadiness": {
       "summary": {

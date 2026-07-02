@@ -1,6 +1,6 @@
 # Herbalisti External Launch Actions
 
-Generated: 2026-07-01T23:29:00.157Z
+Generated: 2026-07-02T00:29:44.528Z
 
 Status: needs-approval-and-production-setup
 
@@ -122,7 +122,7 @@ npm run verify:production-dispatch-preflight -- --strict
 
 Notes:
 - Run this after CI and the manual release gate have passed for the exact commit being prepared for production.
-- This command does not dispatch workflows, deploy, mutate DNS, create resources, set secrets, download artifacts, call paid APIs, or print secret values.
+- This command does not dispatch workflows, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values. It may read the selected no-secret release evidence artifact content into memory.
 
 ### Check current production state evidence
 
@@ -134,7 +134,7 @@ npm run verify:production-state-current
 
 Notes:
 - Run this after CI and the manual release gate have passed for the exact commit being prepared for production.
-- This command writes no files and does not deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values.
+- This command writes no files and does not deploy, mutate DNS, create resources, call paid APIs, or print secret values. It may read the selected no-secret release evidence artifact content into memory.
 
 ### Check read-only Cloudflare production state
 

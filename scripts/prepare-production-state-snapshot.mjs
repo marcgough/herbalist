@@ -258,7 +258,7 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
       'Production is complete only when the deployment evidence artifact, strict live readiness, live production smoke, and goal-readiness gates all pass against the live herbalisti.com deployment.',
     finalCompletionGates,
     safeToRun:
-      'Reads local launch artifacts, public DNS, public live-domain responses, GitHub release/deploy artifact metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.',
+      'Reads local launch artifacts, public DNS, public live-domain responses, GitHub release/deploy artifact metadata, the selected no-secret release evidence artifact content, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, or print secret values.',
     project: contract.project,
     git: {
       branch,
@@ -312,6 +312,7 @@ export const buildProductionStateSnapshot = async ({ generatedAt = new Date().to
         artifactId: releaseEvidence?.artifact?.id ?? null,
         releaseEvidenceArtifactId: releaseEvidence?.releaseEvidenceArtifact?.id ?? null,
         releaseEvidenceArtifactDigest: releaseEvidence?.releaseEvidenceArtifact?.digest ?? null,
+        releaseEvidenceArtifactContent: releaseEvidence?.releaseEvidenceArtifactContent ?? null,
       },
       productionDeployEvidenceArtifact: {
         summary: summarizeProbe(deployEvidenceArtifactProbe),
@@ -437,6 +438,13 @@ export const renderProductionStateMarkdown = (packet) => {
   lines.push(`- Visual smoke artifact ID: ${packet.probes.releaseEvidence.artifactId ?? 'unknown'}`)
   lines.push(`- Release evidence artifact ID: ${packet.probes.releaseEvidence.releaseEvidenceArtifactId ?? 'unknown'}`)
   lines.push(`- Release evidence artifact digest: ${packet.probes.releaseEvidence.releaseEvidenceArtifactDigest ?? 'unknown'}`)
+  if (packet.probes.releaseEvidence.releaseEvidenceArtifactContent) {
+    const content = packet.probes.releaseEvidence.releaseEvidenceArtifactContent
+    lines.push(`- Release evidence content: ${content.status}`)
+    lines.push(`- Release Signals items: ${content.itemCount}`)
+    lines.push(`- Release Signals topic coverage: ${content.topicCoveragePercent}%`)
+    lines.push(`- Release Signals sources: ${content.sources?.join(', ') || 'unknown'}`)
+  }
   lines.push(`- Production deploy evidence artifact: ${packet.probes.productionDeployEvidenceArtifact.summary.status}`)
   lines.push(`- Production deploy run ID: ${packet.probes.productionDeployEvidenceArtifact.runId ?? 'pending'}`)
   lines.push(`- Production deploy evidence artifact ID: ${packet.probes.productionDeployEvidenceArtifact.artifactId ?? 'pending'}`)
@@ -606,7 +614,7 @@ if (check) {
         productionDeployEvidenceArtifactId: packet.probes.productionDeployEvidenceArtifact.artifactId,
         productionSmokeStatus: packet.probes.productionSmoke.summary.status,
         safeToRun:
-          'Regenerates the production state in memory for the current git commit, checks public GitHub release/deploy metadata, and probes public live-domain readiness plus production smoke. It does not write files, deploy, mutate DNS, create resources, call paid APIs, download artifacts, or print secret values.',
+          'Regenerates the production state in memory for the current git commit, checks public GitHub release/deploy metadata, inspects the selected no-secret release evidence artifact content, and probes public live-domain readiness plus production smoke. It does not write files, deploy, mutate DNS, create resources, call paid APIs, or print secret values.',
       },
       null,
       2,

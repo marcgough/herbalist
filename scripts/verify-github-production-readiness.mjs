@@ -88,6 +88,8 @@ const runReleaseEvidence = () => {
       ciRunId: parsed.ciRun?.id,
       manualReleaseRunId: parsed.manualReleaseRun?.id,
       artifactId: parsed.artifact?.id,
+      releaseEvidenceArtifactId: parsed.releaseEvidenceArtifact?.id,
+      releaseEvidenceArtifactContent: parsed.releaseEvidenceArtifactContent ?? null,
     }
   } catch (error) {
     return {
@@ -322,7 +324,7 @@ const result = {
           'Run npm run verify:github-production-readiness again.',
         ],
   safeToRun:
-    'Reads GitHub workflow, environment, secret-name, variable-name, and release-run metadata only. It does not create environments, set secrets or variables, deploy, mutate DNS, create Cloudflare resources, download artifacts, call paid APIs, or print secret values.',
+    'Reads GitHub workflow, environment, secret-name, variable-name, release-run metadata, and the selected no-secret release evidence artifact content. It does not create environments, set secrets or variables, deploy, mutate DNS, create Cloudflare resources, call paid APIs, or print secret values.',
 }
 
 console.log(JSON.stringify(result, null, 2))

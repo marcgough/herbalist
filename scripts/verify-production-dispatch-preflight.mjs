@@ -234,6 +234,7 @@ const result = {
     visualSmokeArtifactDigest: releaseEvidence.data?.artifact?.digest ?? null,
     releaseEvidenceArtifactId: releaseEvidence.data?.releaseEvidenceArtifact?.id ?? null,
     releaseEvidenceArtifactDigest: releaseEvidence.data?.releaseEvidenceArtifact?.digest ?? null,
+    releaseEvidenceArtifactContent: releaseEvidence.data?.releaseEvidenceArtifactContent ?? null,
     githubProductionReadinessStatus: githubReadiness.data?.status ?? 'unavailable',
     productionStateStatus: currentProductionState.data?.snapshotStatus ?? 'unavailable',
     productionDeployEvidenceArtifactStatus:
@@ -255,7 +256,7 @@ const result = {
   },
   blockers,
   safeToRun:
-    'Reads local packets plus public GitHub release metadata, GitHub production environment metadata, public DNS/live-readiness probes through the production-state verifier, and local workflow contracts. It does not dispatch workflows, deploy, mutate DNS, create Cloudflare resources, set secrets, download artifacts, call paid APIs, or print credential values.',
+    'Reads local packets plus public GitHub release metadata, the selected no-secret release evidence artifact content, GitHub production environment metadata, public DNS/live-readiness probes through the production-state verifier, and local workflow contracts. It does not dispatch workflows, deploy, mutate DNS, create Cloudflare resources, set secrets, call paid APIs, or print credential values.',
 }
 
 const serialized = JSON.stringify(result, null, 2)

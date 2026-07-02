@@ -1,10 +1,10 @@
 # Herbalisti Production State Snapshot
 
-Generated: 2026-07-01T21:49:01.094Z
+Generated: 2026-07-02T00:29:44.509Z
 
 Status: local-ready-production-pending
 
-Reads local launch artifacts, public DNS, public live-domain responses, GitHub release/deploy artifact metadata, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, download artifacts, or print secret values.
+Reads local launch artifacts, public DNS, public live-domain responses, GitHub release/deploy artifact metadata, the selected no-secret release evidence artifact content, and read-only Wrangler state only. It does not set secrets, deploy, mutate DNS, create resources, call paid APIs, upload files, or print secret values.
 
 ## Project
 
@@ -16,7 +16,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Stored Snapshot Summary
 
 - Git branch: main
-- Observed git commit at generation time: 513014efc1b91b69df9b3541647fa336a9ef853a
+- Observed git commit at generation time: 73083efbe5cdc6881414624993f68791333d15da
 - Git note: Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.
 - Completion audit status: local-ready-production-pending
 - Goal complete: false
@@ -38,7 +38,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Checks
 
 - pass: Completion audit status is local-ready-production-pending.
-- pass: Release evidence is pass for 513014efc1b91b69df9b3541647fa336a9ef853a.
+- pass: Release evidence is pass for 73083efbe5cdc6881414624993f68791333d15da.
 - pass: Production deploy evidence artifact status is pending-production-deploy-evidence-artifact.
 - pass: GitHub production readiness status is ready-for-guarded-production-dispatch.
 - pass: Cloudflare production state is needs-cloudflare-auth.
@@ -63,9 +63,15 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Probe Details
 
 - Release evidence: pass
-- CI run ID: 28548215393
-- Manual release run ID: 28548264002
-- Visual smoke artifact ID: 8022888988
+- CI run ID: 28556344070
+- Manual release run ID: 28556374709
+- Visual smoke artifact ID: 8025821506
+- Release evidence artifact ID: 8025821180
+- Release evidence artifact digest: sha256:90c6cd3620063b44d8d53ac1864ae088c914a3b61f003753c6c078ad8c006cfa
+- Release evidence content: verified-release-evidence-content
+- Release Signals items: 24
+- Release Signals topic coverage: 100%
+- Release Signals sources: arXiv, bioRxiv, Crossref, Fight Aging!, Lifespan.io, PubMed / NCBI
 - Production deploy evidence artifact: pending-production-deploy-evidence-artifact
 - Production deploy run ID: pending
 - Production deploy evidence artifact ID: pending
