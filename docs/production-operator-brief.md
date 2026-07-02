@@ -1,6 +1,6 @@
 # Herbalisti Production Operator Brief
 
-Generated: 2026-07-02T02:35:54.119Z
+Generated: 2026-07-02T03:33:57.951Z
 
 Status: needs-cloudflare-auth-or-approved-workflow-dispatch
 
@@ -45,7 +45,7 @@ Authenticate Cloudflare locally for manual inspection, or use the approved guard
 
 Side effect: none
 
-Confirms the current local build, launch contracts, source governance, GitHub release evidence, Cloudflare readiness probes, and no-secret packets before production action.
+Confirms the current local build, launch contracts, source governance, GitHub release evidence, Cloudflare readiness probes, no-secret packets, and mocked written deployment evidence output before production action.
 
 ```bash
 npm run verify:launch -- --soft

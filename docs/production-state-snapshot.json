@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-02T02:34:41.763Z",
+  "generatedAt": "2026-07-02T03:33:07.636Z",
   "status": "local-ready-production-pending",
   "productionComplete": false,
   "completionBoundary": "Production is complete only when the deployment evidence artifact, strict live readiness, live production smoke, and goal-readiness gates all pass against the live herbalisti.com deployment.",
@@ -20,7 +20,7 @@
   },
   "git": {
     "branch": "main",
-    "commit": "8accf21b6824701368f6084be35472e4467996c8",
+    "commit": "db060a6bdce9cb1e6ac0c277d5ddbafd1d4ebe4a",
     "note": "Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence."
   },
   "summary": {
@@ -53,7 +53,7 @@
     {
       "id": "github-release-evidence-captured",
       "status": "pass",
-      "detail": "Release evidence is pass for 8accf21b6824701368f6084be35472e4467996c8."
+      "detail": "Release evidence is pass for db060a6bdce9cb1e6ac0c277d5ddbafd1d4ebe4a."
     },
     {
       "id": "production-deploy-evidence-artifact-captured",
@@ -135,12 +135,12 @@
         "status": "pass",
         "error": null
       },
-      "commit": "8accf21b6824701368f6084be35472e4467996c8",
-      "ciRunId": 28560839729,
-      "manualReleaseRunId": 28560869461,
-      "artifactId": 8027489983,
-      "releaseEvidenceArtifactId": 8027489506,
-      "releaseEvidenceArtifactDigest": "sha256:e04e3e8bea71dc72c7e5cdeff6a17eb156b0ccb3c01c58b8ea27dd9523efb2fb",
+      "commit": "db060a6bdce9cb1e6ac0c277d5ddbafd1d4ebe4a",
+      "ciRunId": 28562907441,
+      "manualReleaseRunId": 28562934472,
+      "artifactId": 8028200268,
+      "releaseEvidenceArtifactId": 8028199899,
+      "releaseEvidenceArtifactDigest": "sha256:9a34e84b9a3e2592892c8adaf4ea849ff39b98670c61f2dbc35317e74f53f0f0",
       "releaseEvidenceArtifactContent": {
         "status": "verified-release-evidence-content",
         "evidenceJsonPath": "herbalisti-release-evidence.json",
@@ -190,7 +190,7 @@
       "artifactId": null,
       "artifactDigest": null,
       "strictCompletionCommand": "npm run verify:production-deploy-evidence-artifact -- --strict --run-id <production_deploy_run_id>",
-      "detail": "No fresh successful Herbalisti Production Deploy workflow_dispatch run exists for 8accf21b6824701368f6084be35472e4467996c8."
+      "detail": "No fresh successful Herbalisti Production Deploy workflow_dispatch run exists for db060a6bdce9cb1e6ac0c277d5ddbafd1d4ebe4a."
     },
     "githubProductionReadiness": {
       "summary": {

@@ -246,9 +246,10 @@ export const buildProductionProvisioningReadiness = ({ generatedAt = new Date().
     buildCheck(
       'production-deploy-dry-run',
       Boolean(scripts['verify:production-deploy-dry-run']) &&
+        Boolean(scripts['verify:production-deploy-evidence-output']) &&
         exists('scripts/verify-production-deploy-dry-run.mjs') &&
         contract.commands.safePreflight.includes('npm run verify:production-deploy-dry-run'),
-      'Guarded production workflow can rehearse its Cloudflare-facing command path with fake Wrangler.',
+      'Guarded production workflow can rehearse its Cloudflare-facing command path, feed-seed evidence, and written deployment evidence output with fake Wrangler.',
     ),
     buildCheck(
       'production-feed-seed',

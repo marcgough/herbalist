@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-02T02:35:43.370Z",
+  "generatedAt": "2026-07-02T03:33:57.911Z",
   "status": "ready-for-approved-production-provisioning",
   "productionComplete": false,
   "safeToRun": "Reads local launch contracts, Wrangler config, package scripts, and environment-variable presence only. It does not call Cloudflare, deploy, mutate DNS, create resources, set secrets, call paid APIs, or print secret values.",
@@ -24,7 +24,7 @@
       "FEED_ADMIN_TOKEN"
     ],
     "contractFingerprint": "4b8f02bf5d37f409a9f47f5457bb3ff8b15a6993a17c675232163ba314a9f5a5",
-    "externalActionsFingerprint": "9152159bac65832a07c1d6a8d1a7951836fee068ba63e79d7378ab4aed5d62fc",
+    "externalActionsFingerprint": "7e8ae36bbfb6f3bcc2e31b928dc9adbaa09955cfd29786c9aea0001ed5027b6b",
     "d1MigrationManifestFingerprint": "6cb4b13052011388db058b32d706ee920d016f08b3f598f06e0c89173aad63d3",
     "d1MigrationCount": 9,
     "dnsCutoverStatus": "needs-dns-cutover",
@@ -175,7 +175,7 @@
     {
       "id": "production-deploy-dry-run",
       "status": "pass",
-      "detail": "Guarded production workflow can rehearse its Cloudflare-facing command path with fake Wrangler."
+      "detail": "Guarded production workflow can rehearse its Cloudflare-facing command path, feed-seed evidence, and written deployment evidence output with fake Wrangler."
     },
     {
       "id": "production-feed-seed",

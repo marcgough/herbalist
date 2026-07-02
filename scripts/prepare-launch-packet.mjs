@@ -66,7 +66,7 @@ const phases = [
       'Guarded GitHub production deploy workflow is present, manual-only, confirmation-gated, environment-scoped, and verified locally without running it.',
       'Production deployment evidence artifact generation is verified without writing secrets.',
       'Production deployment evidence artifact readback can verify the exact GitHub production run after dispatch.',
-      'Guarded production deploy dry run rehearses Pages project creation, D1 resolution, binding activation, migrations, secret puts, and deploy commands with fake Wrangler.',
+      'Guarded production deploy dry run rehearses Pages project creation, D1 resolution, binding activation, migrations, secret puts, deploy commands, feed-seed evidence capture, and written deployment evidence output verification with fake Wrangler.',
       'Production D1 resolver behavior is verified locally with mocked Wrangler list, create, and missing-database paths.',
       'GitHub production environment credential-name readiness can be checked without exposing secret values.',
       'Current GitHub CI and manual release-gate evidence is verified for the intended launch commit.',
@@ -330,6 +330,7 @@ const renderMarkdown = (packet) => {
     `- Cloudflare Pages project: ${packet.project.pagesProject}`,
     `- D1 database: ${packet.project.d1Database}`,
     `- Optional R2 bucket: ${packet.project.optionalR2Bucket}`,
+    '- Production environment contract: docs/production-environment-contract.json',
     '',
     '## Local State',
     '',
@@ -390,7 +391,6 @@ const renderMarkdown = (packet) => {
   lines.push('```bash')
   lines.push(packet.nextCommand)
   lines.push('```')
-  lines.push('')
 
   return lines.join('\n')
 }

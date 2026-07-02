@@ -289,7 +289,7 @@ export const buildProductionOperatorBrief = ({ generatedAt = new Date().toISOStr
         sideEffect: 'none',
         commands: safePreflightCommands,
         evidence:
-          'Confirms the current local build, launch contracts, source governance, GitHub release evidence, Cloudflare readiness probes, and no-secret packets before production action.',
+          'Confirms the current local build, launch contracts, source governance, GitHub release evidence, Cloudflare readiness probes, no-secret packets, and mocked written deployment evidence output before production action.',
       },
       {
         id: 'set-required-github-production-environment-credentials',

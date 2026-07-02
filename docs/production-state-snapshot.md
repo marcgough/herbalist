@@ -1,6 +1,6 @@
 # Herbalisti Production State Snapshot
 
-Generated: 2026-07-02T02:34:41.763Z
+Generated: 2026-07-02T03:33:07.636Z
 
 Status: local-ready-production-pending
 
@@ -16,7 +16,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Stored Snapshot Summary
 
 - Git branch: main
-- Observed git commit at generation time: 8accf21b6824701368f6084be35472e4467996c8
+- Observed git commit at generation time: db060a6bdce9cb1e6ac0c277d5ddbafd1d4ebe4a
 - Git note: Stored snapshot evidence is generated before the artifact commit lands, so this commit can trail repository HEAD. Use npm run verify:production-state-current for exact current-commit release evidence.
 - Completion audit status: local-ready-production-pending
 - Goal complete: false
@@ -38,7 +38,7 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Checks
 
 - pass: Completion audit status is local-ready-production-pending.
-- pass: Release evidence is pass for 8accf21b6824701368f6084be35472e4467996c8.
+- pass: Release evidence is pass for db060a6bdce9cb1e6ac0c277d5ddbafd1d4ebe4a.
 - pass: Production deploy evidence artifact status is pending-production-deploy-evidence-artifact.
 - pass: GitHub production readiness status is ready-for-guarded-production-dispatch.
 - pass: Cloudflare production state is needs-cloudflare-auth.
@@ -63,11 +63,11 @@ Reads local launch artifacts, public DNS, public live-domain responses, GitHub r
 ## Probe Details
 
 - Release evidence: pass
-- CI run ID: 28560839729
-- Manual release run ID: 28560869461
-- Visual smoke artifact ID: 8027489983
-- Release evidence artifact ID: 8027489506
-- Release evidence artifact digest: sha256:e04e3e8bea71dc72c7e5cdeff6a17eb156b0ccb3c01c58b8ea27dd9523efb2fb
+- CI run ID: 28562907441
+- Manual release run ID: 28562934472
+- Visual smoke artifact ID: 8028200268
+- Release evidence artifact ID: 8028199899
+- Release evidence artifact digest: sha256:9a34e84b9a3e2592892c8adaf4ea849ff39b98670c61f2dbc35317e74f53f0f0
 - Release evidence content: verified-release-evidence-content
 - Release Signals items: 24
 - Release Signals topic coverage: 100%
